@@ -33675,36 +33675,6 @@ module.exports = {
   {
    "id": "assam-natural-resources-013",
    "q": {
-    "en": "Sonitpur in Assam is located at which place?",
-    "as": "অসমত শোণিতপুৰ কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Golaghat",
-     "as": "গোলাঘাট"
-    },
-    {
-     "en": "Sonitpur",
-     "as": "শোণিতপুৰ"
-    },
-    {
-     "en": "Kamrup Metropolitan",
-     "as": "কামৰূপ মহানগৰ"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Sonitpur is located at Sonitpur.",
-    "as": "শোণিতপুৰ শোণিতপুৰ ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-014",
-   "q": {
     "en": "Sonitpur in Assam is notable because of which of the following?",
     "as": "অসমত শোণিতপুৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
    },
@@ -33733,7 +33703,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-015",
+   "id": "assam-natural-resources-014",
    "q": {
     "en": "Jorhat in Assam is known as what?",
     "as": "অসমত যোৰহাট কি হিচাপে জনা যায়?"
@@ -33763,37 +33733,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-016",
-   "q": {
-    "en": "Jorhat in Assam is located at which place?",
-    "as": "অসমত যোৰহাট কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    },
-    {
-     "en": "Shillong",
-     "as": "শিলং"
-    },
-    {
-     "en": "Jagiroad",
-     "as": "জাগীৰোড"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "Jorhat is located at Jorhat.",
-    "as": "যোৰহাট যোৰহাট ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-017",
+   "id": "assam-natural-resources-015",
    "q": {
     "en": "Jorhat in Assam is notable because of which of the following?",
     "as": "অসমত যোৰহাট তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -33823,7 +33763,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-018",
+   "id": "assam-natural-resources-016",
    "q": {
     "en": "Muga silk in Assam is known as what?",
     "as": "অসমত মুগা ৰেচম কি হিচাপে জনা যায়?"
@@ -33853,37 +33793,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-019",
-   "q": {
-    "en": "Muga silk in Assam is located at which place?",
-    "as": "অসমত মুগা ৰেচম কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Bongaigaon",
-     "as": "বঙাইগাঁও"
-    },
-    {
-     "en": "Kamrup Metropolitan",
-     "as": "কামৰূপ মহানগৰ"
-    },
-    {
-     "en": "Kamrup",
-     "as": "কামৰূপ"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "Muga silk is located at Assam.",
-    "as": "মুগা ৰেচম অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-020",
+   "id": "assam-natural-resources-017",
    "q": {
     "en": "Muga silk in Assam is notable because of which of the following?",
     "as": "অসমত মুগা ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -33913,7 +33823,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-021",
+   "id": "assam-natural-resources-018",
    "q": {
     "en": "Pat silk in Assam is known as what?",
     "as": "অসমত পাট ৰেচম কি হিচাপে জনা যায়?"
@@ -33943,37 +33853,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-022",
-   "q": {
-    "en": "Pat silk in Assam is located at which place?",
-    "as": "অসমত পাট ৰেচম কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Pat silk is located at Assam.",
-    "as": "পাট ৰেচম অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-023",
+   "id": "assam-natural-resources-019",
    "q": {
     "en": "Pat silk in Assam is notable because of which of the following?",
     "as": "অসমত পাট ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34003,7 +33883,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-024",
+   "id": "assam-natural-resources-020",
    "q": {
     "en": "Eri silk in Assam is known as what?",
     "as": "অসমত এৰী ৰেচম কি হিচাপে জনা যায়?"
@@ -34033,37 +33913,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-025",
-   "q": {
-    "en": "Eri silk in Assam is located at which place?",
-    "as": "অসমত এৰী ৰেচম কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Golaghat",
-     "as": "গোলাঘাট"
-    },
-    {
-     "en": "Panchgram",
-     "as": "পঞ্চগ্ৰাম"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Eri silk is located at Assam.",
-    "as": "এৰী ৰেচম অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-026",
+   "id": "assam-natural-resources-021",
    "q": {
     "en": "Eri silk in Assam is notable because of which of the following?",
     "as": "অসমত এৰী ৰেচম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34093,7 +33943,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-027",
+   "id": "assam-natural-resources-022",
    "q": {
     "en": "Sualkuchi in Assam is known as what?",
     "as": "অসমত শুৱালকুছি কি হিচাপে জনা যায়?"
@@ -34123,7 +33973,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-028",
+   "id": "assam-natural-resources-023",
    "q": {
     "en": "Sualkuchi in Assam is located at which place?",
     "as": "অসমত শুৱালকুছি কোন ঠাইত অৱস্থিত?"
@@ -34153,7 +34003,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-029",
+   "id": "assam-natural-resources-024",
    "q": {
     "en": "Sualkuchi in Assam is notable because of which of the following?",
     "as": "অসমত শুৱালকুছি তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34183,7 +34033,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-030",
+   "id": "assam-natural-resources-025",
    "q": {
     "en": "Bodo Dokhona in Assam is known as what?",
     "as": "অসমত বড়ো দখনা কি হিচাপে জনা যায়?"
@@ -34213,7 +34063,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-031",
+   "id": "assam-natural-resources-026",
    "q": {
     "en": "Bodo Dokhona in Assam is located at which place?",
     "as": "অসমত বড়ো দখনা কোন ঠাইত অৱস্থিত?"
@@ -34243,7 +34093,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-032",
+   "id": "assam-natural-resources-027",
    "q": {
     "en": "Bodo Dokhona in Assam is notable because of which of the following?",
     "as": "অসমত বড়ো দখনা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34273,7 +34123,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-033",
+   "id": "assam-natural-resources-028",
    "q": {
     "en": "Gamosa in Assam is known as what?",
     "as": "অসমত গামোচা কি হিচাপে জনা যায়?"
@@ -34303,37 +34153,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-034",
-   "q": {
-    "en": "Gamosa in Assam is located at which place?",
-    "as": "অসমত গামোচা কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Kamrup Metropolitan",
-     "as": "কামৰূপ মহানগৰ"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Chirang",
-     "as": "চিৰাং"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Gamosa is located at Assam.",
-    "as": "গামোচা অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-035",
+   "id": "assam-natural-resources-029",
    "q": {
     "en": "Gamosa in Assam is notable because of which of the following?",
     "as": "অসমত গামোচা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34363,7 +34183,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-036",
+   "id": "assam-natural-resources-030",
    "q": {
     "en": "Digboi in Assam is known as what?",
     "as": "অসমত ডিগবয় কি হিচাপে জনা যায়?"
@@ -34393,7 +34213,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-037",
+   "id": "assam-natural-resources-031",
    "q": {
     "en": "Digboi in Assam is located at which place?",
     "as": "অসমত ডিগবয় কোন ঠাইত অৱস্থিত?"
@@ -34423,7 +34243,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-038",
+   "id": "assam-natural-resources-032",
    "q": {
     "en": "Digboi in Assam is notable because of which of the following?",
     "as": "অসমত ডিগবয় তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34453,7 +34273,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-039",
+   "id": "assam-natural-resources-033",
    "q": {
     "en": "Naharkatia in Assam is known as what?",
     "as": "অসমত নাহৰকটীয়া কি হিচাপে জনা যায়?"
@@ -34483,7 +34303,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-040",
+   "id": "assam-natural-resources-034",
    "q": {
     "en": "Naharkatia in Assam is located at which place?",
     "as": "অসমত নাহৰকটীয়া কোন ঠাইত অৱস্থিত?"
@@ -34513,7 +34333,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-041",
+   "id": "assam-natural-resources-035",
    "q": {
     "en": "Naharkatia in Assam is notable because of which of the following?",
     "as": "অসমত নাহৰকটীয়া তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34543,7 +34363,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-042",
+   "id": "assam-natural-resources-036",
    "q": {
     "en": "Duliajan in Assam is known as what?",
     "as": "অসমত ডুলিয়াজান কি হিচাপে জনা যায়?"
@@ -34573,7 +34393,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-043",
+   "id": "assam-natural-resources-037",
    "q": {
     "en": "Duliajan in Assam is located at which place?",
     "as": "অসমত ডুলিয়াজান কোন ঠাইত অৱস্থিত?"
@@ -34603,7 +34423,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-044",
+   "id": "assam-natural-resources-038",
    "q": {
     "en": "Duliajan in Assam is notable because of which of the following?",
     "as": "অসমত ডুলিয়াজান তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34633,7 +34453,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-045",
+   "id": "assam-natural-resources-039",
    "q": {
     "en": "Numaligarh Refinery in Assam is known as what?",
     "as": "অসমত নুমলীগড় শোধনাগাৰ কি হিচাপে জনা যায়?"
@@ -34663,7 +34483,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-046",
+   "id": "assam-natural-resources-040",
    "q": {
     "en": "Numaligarh Refinery in Assam is located at which place?",
     "as": "অসমত নুমলীগড় শোধনাগাৰ কোন ঠাইত অৱস্থিত?"
@@ -34693,7 +34513,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-047",
+   "id": "assam-natural-resources-041",
    "q": {
     "en": "Numaligarh Refinery in Assam is notable because of which of the following?",
     "as": "অসমত নুমলীগড় শোধনাগাৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34723,7 +34543,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-048",
+   "id": "assam-natural-resources-042",
    "q": {
     "en": "Bongaigaon Refinery in Assam is known as what?",
     "as": "অসমত বঙাইগাঁও শোধনাগাৰ কি হিচাপে জনা যায়?"
@@ -34753,7 +34573,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-049",
+   "id": "assam-natural-resources-043",
    "q": {
     "en": "Bongaigaon Refinery in Assam is located at which place?",
     "as": "অসমত বঙাইগাঁও শোধনাগাৰ কোন ঠাইত অৱস্থিত?"
@@ -34783,7 +34603,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-050",
+   "id": "assam-natural-resources-044",
    "q": {
     "en": "Bongaigaon Refinery in Assam is notable because of which of the following?",
     "as": "অসমত বঙাইগাঁও শোধনাগাৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34813,7 +34633,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-051",
+   "id": "assam-natural-resources-045",
    "q": {
     "en": "Namrup in Assam is known as what?",
     "as": "অসমত নামৰূপ কি হিচাপে জনা যায়?"
@@ -34843,7 +34663,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-052",
+   "id": "assam-natural-resources-046",
    "q": {
     "en": "Namrup in Assam is located at which place?",
     "as": "অসমত নামৰূপ কোন ঠাইত অৱস্থিত?"
@@ -34873,7 +34693,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-053",
+   "id": "assam-natural-resources-047",
    "q": {
     "en": "Namrup in Assam is notable because of which of the following?",
     "as": "অসমত নামৰূপ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34903,7 +34723,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-054",
+   "id": "assam-natural-resources-048",
    "q": {
     "en": "BCPL in Assam is known as what?",
     "as": "অসমত বিচিপিএল কি হিচাপে জনা যায়?"
@@ -34933,7 +34753,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-055",
+   "id": "assam-natural-resources-049",
    "q": {
     "en": "BCPL in Assam is located at which place?",
     "as": "অসমত বিচিপিএল কোন ঠাইত অৱস্থিত?"
@@ -34963,7 +34783,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-056",
+   "id": "assam-natural-resources-050",
    "q": {
     "en": "BCPL in Assam is notable because of which of the following?",
     "as": "অসমত বিচিপিএল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -34993,7 +34813,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-057",
+   "id": "assam-natural-resources-051",
    "q": {
     "en": "Assam Gas Company in Assam is known as what?",
     "as": "অসমত অসম গেছ কোম্পানী কি হিচাপে জনা যায়?"
@@ -35023,37 +34843,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-058",
-   "q": {
-    "en": "Assam Gas Company in Assam is located at which place?",
-    "as": "অসমত অসম গেছ কোম্পানী কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
-     "en": "Chirang",
-     "as": "চিৰাং"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Assam Gas Company is located at Assam.",
-    "as": "অসম গেছ কোম্পানী অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-059",
+   "id": "assam-natural-resources-052",
    "q": {
     "en": "Assam Gas Company in Assam is notable because of which of the following?",
     "as": "অসমত অসম গেছ কোম্পানী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35083,7 +34873,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-060",
+   "id": "assam-natural-resources-053",
    "q": {
     "en": "Margherita in Assam is known as what?",
     "as": "অসমত মাৰ্ঘেৰিটা কি হিচাপে জনা যায়?"
@@ -35113,7 +34903,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-061",
+   "id": "assam-natural-resources-054",
    "q": {
     "en": "Margherita in Assam is located at which place?",
     "as": "অসমত মাৰ্ঘেৰিটা কোন ঠাইত অৱস্থিত?"
@@ -35143,7 +34933,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-062",
+   "id": "assam-natural-resources-055",
    "q": {
     "en": "Margherita in Assam is notable because of which of the following?",
     "as": "অসমত মাৰ্ঘেৰিটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35173,7 +34963,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-063",
+   "id": "assam-natural-resources-056",
    "q": {
     "en": "Makum in Assam is known as what?",
     "as": "অসমত মাকুম কি হিচাপে জনা যায়?"
@@ -35203,7 +34993,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-064",
+   "id": "assam-natural-resources-057",
    "q": {
     "en": "Makum in Assam is located at which place?",
     "as": "অসমত মাকুম কোন ঠাইত অৱস্থিত?"
@@ -35233,7 +35023,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-065",
+   "id": "assam-natural-resources-058",
    "q": {
     "en": "Makum in Assam is notable because of which of the following?",
     "as": "অসমত মাকুম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35263,7 +35053,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-066",
+   "id": "assam-natural-resources-059",
    "q": {
     "en": "Umrangso in Assam is known as what?",
     "as": "অসমত উমৰাংছু কি হিচাপে জনা যায়?"
@@ -35293,7 +35083,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-067",
+   "id": "assam-natural-resources-060",
    "q": {
     "en": "Umrangso in Assam is located at which place?",
     "as": "অসমত উমৰাংছু কোন ঠাইত অৱস্থিত?"
@@ -35323,7 +35113,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-068",
+   "id": "assam-natural-resources-061",
    "q": {
     "en": "Umrangso in Assam is notable because of which of the following?",
     "as": "অসমত উমৰাংছু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35353,7 +35143,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-069",
+   "id": "assam-natural-resources-062",
    "q": {
     "en": "Ledo in Assam is known as what?",
     "as": "অসমত লিডু কি হিচাপে জনা যায়?"
@@ -35383,7 +35173,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-070",
+   "id": "assam-natural-resources-063",
    "q": {
     "en": "Ledo in Assam is located at which place?",
     "as": "অসমত লিডু কোন ঠাইত অৱস্থিত?"
@@ -35413,7 +35203,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-071",
+   "id": "assam-natural-resources-064",
    "q": {
     "en": "Ledo in Assam is notable because of which of the following?",
     "as": "অসমত লিডু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35443,7 +35233,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-072",
+   "id": "assam-natural-resources-065",
    "q": {
     "en": "Karbi Anglong in Assam is known as what?",
     "as": "অসমত কাৰ্বি আংলং কি হিচাপে জনা যায়?"
@@ -35473,37 +35263,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-073",
-   "q": {
-    "en": "Karbi Anglong in Assam is located at which place?",
-    "as": "অসমত কাৰ্বি আংলং কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
-     "en": "Karbi Anglong",
-     "as": "কাৰ্বি আংলং"
-    },
-    {
-     "en": "Panchgram",
-     "as": "পঞ্চগ্ৰাম"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Karbi Anglong is located at Karbi Anglong.",
-    "as": "কাৰ্বি আংলং কাৰ্বি আংলং ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-074",
+   "id": "assam-natural-resources-066",
    "q": {
     "en": "Karbi Anglong in Assam is notable because of which of the following?",
     "as": "অসমত কাৰ্বি আংলং তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35533,7 +35293,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-075",
+   "id": "assam-natural-resources-067",
    "q": {
     "en": "Dima Hasao in Assam is known as what?",
     "as": "অসমত ডিমা হাছাও কি হিচাপে জনা যায়?"
@@ -35563,7 +35323,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-076",
+   "id": "assam-natural-resources-068",
    "q": {
     "en": "Dima Hasao in Assam is notable because of which of the following?",
     "as": "অসমত ডিমা হাছাও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35593,7 +35353,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-077",
+   "id": "assam-natural-resources-069",
    "q": {
     "en": "Umrangso cement plant in Assam is known as what?",
     "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা কি হিচাপে জনা যায়?"
@@ -35623,7 +35383,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-078",
+   "id": "assam-natural-resources-070",
    "q": {
     "en": "Umrangso cement plant in Assam is located at which place?",
     "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা কোন ঠাইত অৱস্থিত?"
@@ -35653,7 +35413,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-079",
+   "id": "assam-natural-resources-071",
    "q": {
     "en": "Umrangso cement plant in Assam is notable because of which of the following?",
     "as": "অসমত উমৰাংছু চিমেণ্ট কাৰখানা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35683,7 +35443,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-080",
+   "id": "assam-natural-resources-072",
    "q": {
     "en": "Nagaon Paper Mill in Assam is known as what?",
     "as": "অসমত নগাঁও কাগজ কল কি হিচাপে জনা যায়?"
@@ -35713,7 +35473,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-081",
+   "id": "assam-natural-resources-073",
    "q": {
     "en": "Nagaon Paper Mill in Assam is located at which place?",
     "as": "অসমত নগাঁও কাগজ কল কোন ঠাইত অৱস্থিত?"
@@ -35743,7 +35503,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-082",
+   "id": "assam-natural-resources-074",
    "q": {
     "en": "Nagaon Paper Mill in Assam is notable because of which of the following?",
     "as": "অসমত নগাঁও কাগজ কল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35773,7 +35533,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-083",
+   "id": "assam-natural-resources-075",
    "q": {
     "en": "Cachar Paper Mill in Assam is known as what?",
     "as": "অসমত কাছাৰ কাগজ কল কি হিচাপে জনা যায়?"
@@ -35803,7 +35563,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-084",
+   "id": "assam-natural-resources-076",
    "q": {
     "en": "Cachar Paper Mill in Assam is located at which place?",
     "as": "অসমত কাছাৰ কাগজ কল কোন ঠাইত অৱস্থিত?"
@@ -35833,7 +35593,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-085",
+   "id": "assam-natural-resources-077",
    "q": {
     "en": "Cachar Paper Mill in Assam is notable because of which of the following?",
     "as": "অসমত কাছাৰ কাগজ কল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35863,7 +35623,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-086",
+   "id": "assam-natural-resources-078",
    "q": {
     "en": "Hollongapar Gibbon Sanctuary in Assam is known as what?",
     "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য কি হিচাপে জনা যায়?"
@@ -35893,7 +35653,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-087",
+   "id": "assam-natural-resources-079",
    "q": {
     "en": "Hollongapar Gibbon Sanctuary in Assam is located at which place?",
     "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য কোন ঠাইত অৱস্থিত?"
@@ -35923,7 +35683,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-088",
+   "id": "assam-natural-resources-080",
    "q": {
     "en": "Hollongapar Gibbon Sanctuary in Assam is notable because of which of the following?",
     "as": "অসমত হলৌপাৰ গিবন অভয়াৰণ্য তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -35953,7 +35713,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-089",
+   "id": "assam-natural-resources-081",
    "q": {
     "en": "Dehing Patkai in Assam is known as what?",
     "as": "অসমত দিহিং পাটকাই কি হিচাপে জনা যায়?"
@@ -35983,7 +35743,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-090",
+   "id": "assam-natural-resources-082",
    "q": {
     "en": "Dehing Patkai in Assam is located at which place?",
     "as": "অসমত দিহিং পাটকাই কোন ঠাইত অৱস্থিত?"
@@ -36013,7 +35773,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-091",
+   "id": "assam-natural-resources-083",
    "q": {
     "en": "Dehing Patkai in Assam is notable because of which of the following?",
     "as": "অসমত দিহিং পাটকাই তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36043,7 +35803,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-092",
+   "id": "assam-natural-resources-084",
    "q": {
     "en": "Manas Biosphere Reserve in Assam is known as what?",
     "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল কি হিচাপে জনা যায়?"
@@ -36073,7 +35833,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-093",
+   "id": "assam-natural-resources-085",
    "q": {
     "en": "Manas Biosphere Reserve in Assam is located at which place?",
     "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল কোন ঠাইত অৱস্থিত?"
@@ -36103,7 +35863,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-094",
+   "id": "assam-natural-resources-086",
    "q": {
     "en": "Manas Biosphere Reserve in Assam is notable because of which of the following?",
     "as": "অসমত মানস জীৱমণ্ডল সংৰক্ষিত অঞ্চল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36133,7 +35893,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-095",
+   "id": "assam-natural-resources-087",
    "q": {
     "en": "Nambor forest in Assam is known as what?",
     "as": "অসমত নামবৰ বনাঞ্চল কি হিচাপে জনা যায়?"
@@ -36163,7 +35923,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-096",
+   "id": "assam-natural-resources-088",
    "q": {
     "en": "Nambor forest in Assam is located at which place?",
     "as": "অসমত নামবৰ বনাঞ্চল কোন ঠাইত অৱস্থিত?"
@@ -36193,7 +35953,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-097",
+   "id": "assam-natural-resources-089",
    "q": {
     "en": "Nambor forest in Assam is notable because of which of the following?",
     "as": "অসমত নামবৰ বনাঞ্চল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36223,7 +35983,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-098",
+   "id": "assam-natural-resources-090",
    "q": {
     "en": "Agarwood in Assam is known as what?",
     "as": "অসমত অগৰু কি হিচাপে জনা যায়?"
@@ -36253,37 +36013,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-099",
-   "q": {
-    "en": "Agarwood in Assam is located at which place?",
-    "as": "অসমত অগৰু কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "Agarwood is located at Assam.",
-    "as": "অগৰু অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-100",
+   "id": "assam-natural-resources-091",
    "q": {
     "en": "Agarwood in Assam is notable because of which of the following?",
     "as": "অসমত অগৰু তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36313,7 +36043,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-101",
+   "id": "assam-natural-resources-092",
    "q": {
     "en": "Sal tree in Assam is known as what?",
     "as": "অসমত শাল গছ কি হিচাপে জনা যায়?"
@@ -36343,37 +36073,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-102",
-   "q": {
-    "en": "Sal tree in Assam is located at which place?",
-    "as": "অসমত শাল গছ কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    },
-    {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    },
-    {
-     "en": "Kamrup",
-     "as": "কামৰূপ"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "Sal tree is located at Assam.",
-    "as": "শাল গছ অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-103",
+   "id": "assam-natural-resources-093",
    "q": {
     "en": "Sal tree in Assam is notable because of which of the following?",
     "as": "অসমত শাল গছ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36403,7 +36103,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-104",
+   "id": "assam-natural-resources-094",
    "q": {
     "en": "Rice in Assam is known as what?",
     "as": "অসমত ধান কি হিচাপে জনা যায়?"
@@ -36433,37 +36133,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-105",
-   "q": {
-    "en": "Rice in Assam is located at which place?",
-    "as": "অসমত ধান কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Rice is located at Assam.",
-    "as": "ধান অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-106",
+   "id": "assam-natural-resources-095",
    "q": {
     "en": "Rice in Assam is notable because of which of the following?",
     "as": "অসমত ধান তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36493,7 +36163,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-107",
+   "id": "assam-natural-resources-096",
    "q": {
     "en": "Tea in Assam is known as what?",
     "as": "অসমত চাহ কি হিচাপে জনা যায়?"
@@ -36523,37 +36193,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-108",
-   "q": {
-    "en": "Tea in Assam is located at which place?",
-    "as": "অসমত চাহ কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    },
-    {
-     "en": "Sonitpur",
-     "as": "শোণিতপুৰ"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Tea is located at Assam.",
-    "as": "চাহ অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-109",
+   "id": "assam-natural-resources-097",
    "q": {
     "en": "Tea in Assam is notable because of which of the following?",
     "as": "অসমত চাহ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36583,7 +36223,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-110",
+   "id": "assam-natural-resources-098",
    "q": {
     "en": "Jute in Assam is known as what?",
     "as": "অসমত পাট কি হিচাপে জনা যায়?"
@@ -36613,37 +36253,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-111",
-   "q": {
-    "en": "Jute in Assam is located at which place?",
-    "as": "অসমত পাট কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Lakhimpur",
-     "as": "লখিমপুৰ"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    },
-    {
-     "en": "Kamrup Metropolitan",
-     "as": "কামৰূপ মহানগৰ"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "Jute is located at Assam.",
-    "as": "পাট অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-112",
+   "id": "assam-natural-resources-099",
    "q": {
     "en": "Jute in Assam is notable because of which of the following?",
     "as": "অসমত পাট তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36673,7 +36283,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-113",
+   "id": "assam-natural-resources-100",
    "q": {
     "en": "Mustard in Assam is known as what?",
     "as": "অসমত সৰিয়হ কি হিচাপে জনা যায়?"
@@ -36703,37 +36313,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-114",
-   "q": {
-    "en": "Mustard in Assam is located at which place?",
-    "as": "অসমত সৰিয়হ কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    },
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "Mustard is located at Assam.",
-    "as": "সৰিয়হ অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-115",
+   "id": "assam-natural-resources-101",
    "q": {
     "en": "Mustard in Assam is notable because of which of the following?",
     "as": "অসমত সৰিয়হ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36763,7 +36343,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-116",
+   "id": "assam-natural-resources-102",
    "q": {
     "en": "Sugarcane in Assam is known as what?",
     "as": "অসমত কুঁহিয়াৰ কি হিচাপে জনা যায়?"
@@ -36793,37 +36373,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-117",
-   "q": {
-    "en": "Sugarcane in Assam is located at which place?",
-    "as": "অসমত কুঁহিয়াৰ কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Shillong",
-     "as": "শিলং"
-    },
-    {
-     "en": "Golaghat",
-     "as": "গোলাঘাট"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Sugarcane is located at Assam.",
-    "as": "কুঁহিয়াৰ অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-118",
+   "id": "assam-natural-resources-103",
    "q": {
     "en": "Sugarcane in Assam is notable because of which of the following?",
     "as": "অসমত কুঁহিয়াৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36853,7 +36403,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-119",
+   "id": "assam-natural-resources-104",
    "q": {
     "en": "Areca nut in Assam is known as what?",
     "as": "অসমত তামোল কি হিচাপে জনা যায়?"
@@ -36883,37 +36433,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-120",
-   "q": {
-    "en": "Areca nut in Assam is located at which place?",
-    "as": "অসমত তামোল কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Jagiroad",
-     "as": "জাগীৰোড"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Guwahati",
-     "as": "গুৱাহাটী"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    }
-   ],
-   "correct": 1,
-   "explanation": {
-    "en": "Areca nut is located at Assam.",
-    "as": "তামোল অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-121",
+   "id": "assam-natural-resources-105",
    "q": {
     "en": "Areca nut in Assam is notable because of which of the following?",
     "as": "অসমত তামোল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -36943,7 +36463,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-122",
+   "id": "assam-natural-resources-106",
    "q": {
     "en": "Black rice in Assam is known as what?",
     "as": "অসমত ক'লা চাউল কি হিচাপে জনা যায়?"
@@ -36973,37 +36493,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-123",
-   "q": {
-    "en": "Black rice in Assam is located at which place?",
-    "as": "অসমত ক'লা চাউল কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    },
-    {
-     "en": "Lakhimpur",
-     "as": "লখিমপুৰ"
-    },
-    {
-     "en": "Tinsukia",
-     "as": "তিনিচুকীয়া"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "Black rice is located at Assam.",
-    "as": "ক'লা চাউল অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-124",
+   "id": "assam-natural-resources-107",
    "q": {
     "en": "Black rice in Assam is notable because of which of the following?",
     "as": "অসমত ক'লা চাউল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37033,7 +36523,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-125",
+   "id": "assam-natural-resources-108",
    "q": {
     "en": "Joha rice in Assam is known as what?",
     "as": "অসমত জহা চাউল কি হিচাপে জনা যায়?"
@@ -37063,37 +36553,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-126",
-   "q": {
-    "en": "Joha rice in Assam is located at which place?",
-    "as": "অসমত জহা চাউল কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Lepetkata",
-     "as": "লেপেটকটা"
-    },
-    {
-     "en": "Dima Hasao",
-     "as": "ডিমা হাছাও"
-    },
-    {
-     "en": "Jagiroad",
-     "as": "জাগীৰোড"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    }
-   ],
-   "correct": 3,
-   "explanation": {
-    "en": "Joha rice is located at Assam.",
-    "as": "জহা চাউল অসম ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-127",
+   "id": "assam-natural-resources-109",
    "q": {
     "en": "Joha rice in Assam is notable because of which of the following?",
     "as": "অসমত জহা চাউল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37123,7 +36583,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-128",
+   "id": "assam-natural-resources-110",
    "q": {
     "en": "Kopili Hydro Electric Project in Assam is known as what?",
     "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
@@ -37153,7 +36613,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-129",
+   "id": "assam-natural-resources-111",
    "q": {
     "en": "Kopili Hydro Electric Project in Assam is located at which place?",
     "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
@@ -37183,7 +36643,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-130",
+   "id": "assam-natural-resources-112",
    "q": {
     "en": "Kopili Hydro Electric Project in Assam is notable because of which of the following?",
     "as": "অসমত কপিলী জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37213,7 +36673,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-131",
+   "id": "assam-natural-resources-113",
    "q": {
     "en": "Lower Subansiri Hydroelectric Project in Assam is known as what?",
     "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
@@ -37243,7 +36703,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-132",
+   "id": "assam-natural-resources-114",
    "q": {
     "en": "Lower Subansiri Hydroelectric Project in Assam is located at which place?",
     "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
@@ -37273,7 +36733,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-133",
+   "id": "assam-natural-resources-115",
    "q": {
     "en": "Lower Subansiri Hydroelectric Project in Assam is notable because of which of the following?",
     "as": "অসমত নিম্ন সোৱণশিৰি জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37303,7 +36763,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-134",
+   "id": "assam-natural-resources-116",
    "q": {
     "en": "Karbi Langpi Hydro Electric Project in Assam is known as what?",
     "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কি হিচাপে জনা যায়?"
@@ -37333,7 +36793,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-135",
+   "id": "assam-natural-resources-117",
    "q": {
     "en": "Karbi Langpi Hydro Electric Project in Assam is located at which place?",
     "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প কোন ঠাইত অৱস্থিত?"
@@ -37363,7 +36823,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-136",
+   "id": "assam-natural-resources-118",
    "q": {
     "en": "Karbi Langpi Hydro Electric Project in Assam is notable because of which of the following?",
     "as": "অসমত কাৰ্বি লাংপি জলবিদ্যুৎ প্ৰকল্প তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37393,7 +36853,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-137",
+   "id": "assam-natural-resources-119",
    "q": {
     "en": "NEEPCO in Assam is known as what?",
     "as": "অসমত নীপকো কি হিচাপে জনা যায়?"
@@ -37423,7 +36883,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-138",
+   "id": "assam-natural-resources-120",
    "q": {
     "en": "NEEPCO in Assam is located at which place?",
     "as": "অসমত নীপকো কোন ঠাইত অৱস্থিত?"
@@ -37453,7 +36913,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-139",
+   "id": "assam-natural-resources-121",
    "q": {
     "en": "NEEPCO in Assam is notable because of which of the following?",
     "as": "অসমত নীপকো তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37483,7 +36943,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-140",
+   "id": "assam-natural-resources-122",
    "q": {
     "en": "Assam Power Distribution Company in Assam is known as what?",
     "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী কি হিচাপে জনা যায়?"
@@ -37513,7 +36973,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-141",
+   "id": "assam-natural-resources-123",
    "q": {
     "en": "Assam Power Distribution Company in Assam is located at which place?",
     "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী কোন ঠাইত অৱস্থিত?"
@@ -37543,7 +37003,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-142",
+   "id": "assam-natural-resources-124",
    "q": {
     "en": "Assam Power Distribution Company in Assam is notable because of which of the following?",
     "as": "অসমত অসম বিদ্যুৎ বিতৰণ কোম্পানী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37573,7 +37033,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-143",
+   "id": "assam-natural-resources-125",
    "q": {
     "en": "Deepor Beel in Assam is known as what?",
     "as": "অসমত দীপৰ বিল কি হিচাপে জনা যায়?"
@@ -37603,7 +37063,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-144",
+   "id": "assam-natural-resources-126",
    "q": {
     "en": "Deepor Beel in Assam is located at which place?",
     "as": "অসমত দীপৰ বিল কোন ঠাইত অৱস্থিত?"
@@ -37633,7 +37093,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-145",
+   "id": "assam-natural-resources-127",
    "q": {
     "en": "Deepor Beel in Assam is notable because of which of the following?",
     "as": "অসমত দীপৰ বিল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37663,7 +37123,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-146",
+   "id": "assam-natural-resources-128",
    "q": {
     "en": "Sonbeel in Assam is known as what?",
     "as": "অসমত ছনবিল কি হিচাপে জনা যায়?"
@@ -37693,7 +37153,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-147",
+   "id": "assam-natural-resources-129",
    "q": {
     "en": "Sonbeel in Assam is located at which place?",
     "as": "অসমত ছনবিল কোন ঠাইত অৱস্থিত?"
@@ -37723,7 +37183,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-148",
+   "id": "assam-natural-resources-130",
    "q": {
     "en": "Sonbeel in Assam is notable because of which of the following?",
     "as": "অসমত ছনবিল তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37753,7 +37213,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-149",
+   "id": "assam-natural-resources-131",
    "q": {
     "en": "Chandubi Lake in Assam is known as what?",
     "as": "অসমত চান্দুবি হ্ৰদ কি হিচাপে জনা যায়?"
@@ -37783,7 +37243,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-150",
+   "id": "assam-natural-resources-132",
    "q": {
     "en": "Chandubi Lake in Assam is located at which place?",
     "as": "অসমত চান্দুবি হ্ৰদ কোন ঠাইত অৱস্থিত?"
@@ -37813,7 +37273,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-151",
+   "id": "assam-natural-resources-133",
    "q": {
     "en": "Chandubi Lake in Assam is notable because of which of the following?",
     "as": "অসমত চান্দুবি হ্ৰদ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37843,7 +37303,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-152",
+   "id": "assam-natural-resources-134",
    "q": {
     "en": "Rudrasagar in Assam is known as what?",
     "as": "অসমত ৰুদ্ৰসাগৰ কি হিচাপে জনা যায়?"
@@ -37873,7 +37333,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-153",
+   "id": "assam-natural-resources-135",
    "q": {
     "en": "Rudrasagar in Assam is located at which place?",
     "as": "অসমত ৰুদ্ৰসাগৰ কোন ঠাইত অৱস্থিত?"
@@ -37903,7 +37363,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-154",
+   "id": "assam-natural-resources-136",
    "q": {
     "en": "Rudrasagar in Assam is notable because of which of the following?",
     "as": "অসমত ৰুদ্ৰসাগৰ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -37933,7 +37393,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-155",
+   "id": "assam-natural-resources-137",
    "q": {
     "en": "Sivasagar tank in Assam is known as what?",
     "as": "অসমত শিৱসাগৰ পুখুৰী কি হিচাপে জনা যায়?"
@@ -37963,7 +37423,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-156",
+   "id": "assam-natural-resources-138",
    "q": {
     "en": "Sivasagar tank in Assam is located at which place?",
     "as": "অসমত শিৱসাগৰ পুখুৰী কোন ঠাইত অৱস্থিত?"
@@ -37993,7 +37453,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-157",
+   "id": "assam-natural-resources-139",
    "q": {
     "en": "Sivasagar tank in Assam is notable because of which of the following?",
     "as": "অসমত শিৱসাগৰ পুখুৰী তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38023,7 +37483,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-158",
+   "id": "assam-natural-resources-140",
    "q": {
     "en": "Sonari in Assam is known as what?",
     "as": "অসমত শোণাৰি কি হিচাপে জনা যায়?"
@@ -38053,7 +37513,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-159",
+   "id": "assam-natural-resources-141",
    "q": {
     "en": "Sonari in Assam is located at which place?",
     "as": "অসমত শোণাৰি কোন ঠাইত অৱস্থিত?"
@@ -38083,7 +37543,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-160",
+   "id": "assam-natural-resources-142",
    "q": {
     "en": "Sonari in Assam is notable because of which of the following?",
     "as": "অসমত শোণাৰি তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38113,7 +37573,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-161",
+   "id": "assam-natural-resources-143",
    "q": {
     "en": "Moran in Assam is known as what?",
     "as": "অসমত মৰাণ কি হিচাপে জনা যায়?"
@@ -38143,7 +37603,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-162",
+   "id": "assam-natural-resources-144",
    "q": {
     "en": "Moran in Assam is notable because of which of the following?",
     "as": "অসমত মৰাণ তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38173,7 +37633,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-163",
+   "id": "assam-natural-resources-145",
    "q": {
     "en": "Barpeta in Assam is known as what?",
     "as": "অসমত বৰপেটা কি হিচাপে জনা যায়?"
@@ -38203,37 +37663,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-164",
-   "q": {
-    "en": "Barpeta in Assam is located at which place?",
-    "as": "অসমত বৰপেটা কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Nagaon",
-     "as": "নগাঁও"
-    },
-    {
-     "en": "Assam",
-     "as": "অসম"
-    },
-    {
-     "en": "Barpeta",
-     "as": "বৰপেটা"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Barpeta is located at Barpeta.",
-    "as": "বৰপেটা বৰপেটা ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-165",
+   "id": "assam-natural-resources-146",
    "q": {
     "en": "Barpeta in Assam is notable because of which of the following?",
     "as": "অসমত বৰপেটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38263,7 +37693,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-166",
+   "id": "assam-natural-resources-147",
    "q": {
     "en": "Nagaon in Assam is known as what?",
     "as": "অসমত নগাঁও কি হিচাপে জনা যায়?"
@@ -38293,7 +37723,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-167",
+   "id": "assam-natural-resources-148",
    "q": {
     "en": "Nagaon in Assam is notable because of which of the following?",
     "as": "অসমত নগাঁও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38323,7 +37753,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-168",
+   "id": "assam-natural-resources-149",
    "q": {
     "en": "Bongaigaon in Assam is known as what?",
     "as": "অসমত বঙাইগাঁও কি হিচাপে জনা যায়?"
@@ -38353,37 +37783,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-169",
-   "q": {
-    "en": "Bongaigaon in Assam is located at which place?",
-    "as": "অসমত বঙাইগাঁও কোন ঠাইত অৱস্থিত?"
-   },
-   "options": [
-    {
-     "en": "Bongaigaon",
-     "as": "বঙাইগাঁও"
-    },
-    {
-     "en": "Karbi Anglong",
-     "as": "কাৰ্বি আংলং"
-    },
-    {
-     "en": "Kamrup",
-     "as": "কামৰূপ"
-    },
-    {
-     "en": "Dibrugarh",
-     "as": "ডিব্ৰুগড়"
-    }
-   ],
-   "correct": 0,
-   "explanation": {
-    "en": "Bongaigaon is located at Bongaigaon.",
-    "as": "বঙাইগাঁও বঙাইগাঁও ত অৱস্থিত।"
-   }
-  },
-  {
-   "id": "assam-natural-resources-170",
+   "id": "assam-natural-resources-150",
    "q": {
     "en": "Bongaigaon in Assam is notable because of which of the following?",
     "as": "অসমত বঙাইগাঁও তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38413,7 +37813,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-171",
+   "id": "assam-natural-resources-151",
    "q": {
     "en": "Lepetkata in Assam is known as what?",
     "as": "অসমত লেপেটকটা কি হিচাপে জনা যায়?"
@@ -38443,7 +37843,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-172",
+   "id": "assam-natural-resources-152",
    "q": {
     "en": "Lepetkata in Assam is located at which place?",
     "as": "অসমত লেপেটকটা কোন ঠাইত অৱস্থিত?"
@@ -38473,7 +37873,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-173",
+   "id": "assam-natural-resources-153",
    "q": {
     "en": "Lepetkata in Assam is notable because of which of the following?",
     "as": "অসমত লেপেটকটা তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38503,7 +37903,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-174",
+   "id": "assam-natural-resources-154",
    "q": {
     "en": "Jagiroad in Assam is known as what?",
     "as": "অসমত জাগীৰোড কি হিচাপে জনা যায়?"
@@ -38533,7 +37933,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-175",
+   "id": "assam-natural-resources-155",
    "q": {
     "en": "Jagiroad in Assam is located at which place?",
     "as": "অসমত জাগীৰোড কোন ঠাইত অৱস্থিত?"
@@ -38563,7 +37963,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-176",
+   "id": "assam-natural-resources-156",
    "q": {
     "en": "Jagiroad in Assam is notable because of which of the following?",
     "as": "অসমত জাগীৰোড তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38593,7 +37993,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-177",
+   "id": "assam-natural-resources-157",
    "q": {
     "en": "Panchgram in Assam is known as what?",
     "as": "অসমত পঞ্চগ্ৰাম কি হিচাপে জনা যায়?"
@@ -38623,7 +38023,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-178",
+   "id": "assam-natural-resources-158",
    "q": {
     "en": "Panchgram in Assam is located at which place?",
     "as": "অসমত পঞ্চগ্ৰাম কোন ঠাইত অৱস্থিত?"
@@ -38653,7 +38053,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-179",
+   "id": "assam-natural-resources-159",
    "q": {
     "en": "Panchgram in Assam is notable because of which of the following?",
     "as": "অসমত পঞ্চগ্ৰাম তলৰ কোনটোৰ বাবে উল্লেখযোগ্য?"
@@ -38683,7 +38083,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-180",
+   "id": "assam-natural-resources-160",
    "q": {
     "en": "Which place in Assam is associated with tea research institute?",
     "as": "অসমত কোন ঠাই চাহ গৱেষণা প্ৰতিষ্ঠানৰ সৈতে জড়িত?"
@@ -38713,7 +38113,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-181",
+   "id": "assam-natural-resources-161",
    "q": {
     "en": "Which place in Assam is associated with tea auction centre?",
     "as": "অসমত কোন ঠাই চাহ নিলাম কেন্দ্ৰৰ সৈতে জড়িত?"
@@ -38743,7 +38143,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-182",
+   "id": "assam-natural-resources-162",
    "q": {
     "en": "Which place in Assam is associated with tea corporation?",
     "as": "অসমত কোন ঠাই চাহ নিগমৰ সৈতে জড়িত?"
@@ -38773,7 +38173,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-183",
+   "id": "assam-natural-resources-163",
    "q": {
     "en": "Which place in Assam is associated with tea town?",
     "as": "অসমত কোন ঠাই চাহ নগৰৰ সৈতে জড়িত?"
@@ -38803,7 +38203,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-184",
+   "id": "assam-natural-resources-164",
    "q": {
     "en": "Which place in Assam is associated with tea producing district?",
     "as": "অসমত কোন ঠাই চাহ উৎপাদক জিলাৰ সৈতে জড়িত?"
@@ -38833,7 +38233,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-185",
+   "id": "assam-natural-resources-165",
    "q": {
     "en": "Which place in Assam is associated with golden silk?",
     "as": "অসমত কোন ঠাই সোণালী ৰেচমৰ সৈতে জড়িত?"
@@ -38863,7 +38263,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-186",
+   "id": "assam-natural-resources-166",
    "q": {
     "en": "Which place in Assam is associated with mulberry silk?",
     "as": "অসমত কোন ঠাই নুনি ৰেচমৰ সৈতে জড়িত?"
@@ -38893,7 +38293,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-187",
+   "id": "assam-natural-resources-167",
    "q": {
     "en": "Which place in Assam is associated with non-violent silk?",
     "as": "অসমত কোন ঠাই অহিংস ৰেচমৰ সৈতে জড়িত?"
@@ -38923,7 +38323,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-188",
+   "id": "assam-natural-resources-168",
    "q": {
     "en": "Which place in Assam is associated with silk weaving town?",
     "as": "অসমত কোন ঠাই ৰেচম বোৱা নগৰৰ সৈতে জড়িত?"
@@ -38953,7 +38353,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-189",
+   "id": "assam-natural-resources-169",
    "q": {
     "en": "Which place in Assam is associated with handwoven textile?",
     "as": "অসমত কোন ঠাই হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত?"
@@ -38983,7 +38383,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-190",
+   "id": "assam-natural-resources-170",
    "q": {
     "en": "Which place in Assam is associated with handwoven cloth?",
     "as": "অসমত কোন ঠাই হাতে বোৱা বস্ত্ৰৰ সৈতে জড়িত?"
@@ -39013,7 +38413,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-191",
+   "id": "assam-natural-resources-171",
    "q": {
     "en": "Which place in Assam is associated with oil town?",
     "as": "অসমত কোন ঠাই তেল নগৰৰ সৈতে জড়িত?"
@@ -39043,7 +38443,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-192",
+   "id": "assam-natural-resources-172",
    "q": {
     "en": "Which place in Assam is associated with oilfield?",
     "as": "অসমত কোন ঠাই তেলক্ষেত্ৰৰ সৈতে জড়িত?"
@@ -39073,7 +38473,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-193",
+   "id": "assam-natural-resources-173",
    "q": {
     "en": "Which place in Assam is associated with oil refinery?",
     "as": "অসমত কোন ঠাই তেল শোধনাগাৰৰ সৈতে জড়িত?"
@@ -39103,7 +38503,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-194",
+   "id": "assam-natural-resources-174",
    "q": {
     "en": "Which place in Assam is associated with fertiliser plant?",
     "as": "অসমত কোন ঠাই সাৰ কাৰখানাৰ সৈতে জড়িত?"
@@ -39133,7 +38533,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-195",
+   "id": "assam-natural-resources-175",
    "q": {
     "en": "Which place in Assam is associated with gas cracker project?",
     "as": "অসমত কোন ঠাই গেছ ক্ৰেকাৰ প্ৰকল্পৰ সৈতে জড়িত?"
@@ -39163,7 +38563,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-196",
+   "id": "assam-natural-resources-176",
    "q": {
     "en": "Which place in Assam is associated with gas distribution?",
     "as": "অসমত কোন ঠাই গেছ বিতৰণৰ সৈতে জড়িত?"
@@ -39193,7 +38593,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-197",
+   "id": "assam-natural-resources-177",
    "q": {
     "en": "Which place in Assam is associated with coalfield?",
     "as": "অসমত কোন ঠাই কয়লাক্ষেত্ৰৰ সৈতে জড়িত?"
@@ -39223,7 +38623,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-198",
+   "id": "assam-natural-resources-178",
    "q": {
     "en": "Which place in Assam is associated with industrial town?",
     "as": "অসমত কোন ঠাই শিল্প নগৰৰ সৈতে জড়িত?"
@@ -39253,7 +38653,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-199",
+   "id": "assam-natural-resources-179",
    "q": {
     "en": "Which place in Assam is associated with coal town?",
     "as": "অসমত কোন ঠাই কয়লা নগৰৰ সৈতে জড়িত?"
@@ -39283,7 +38683,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-200",
+   "id": "assam-natural-resources-180",
    "q": {
     "en": "Which place in Assam is associated with mineral rich district?",
     "as": "অসমত কোন ঠাই খনিজ সমৃদ্ধ জিলাৰ সৈতে জড়িত?"
@@ -39313,7 +38713,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-201",
+   "id": "assam-natural-resources-181",
    "q": {
     "en": "Which place in Assam is associated with cement plant?",
     "as": "অসমত কোন ঠাই চিমেণ্ট কাৰখানাৰ সৈতে জড়িত?"
@@ -39343,7 +38743,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-202",
+   "id": "assam-natural-resources-182",
    "q": {
     "en": "Which place in Assam is associated with paper mill?",
     "as": "অসমত কোন ঠাই কাগজ কলৰ সৈতে জড়িত?"
@@ -39373,7 +38773,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-203",
+   "id": "assam-natural-resources-183",
    "q": {
     "en": "Which place in Assam is associated with forest reserve?",
     "as": "অসমত কোন ঠাই বন সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত?"
@@ -39403,7 +38803,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-204",
+   "id": "assam-natural-resources-184",
    "q": {
     "en": "Which place in Assam is associated with rainforest?",
     "as": "অসমত কোন ঠাই বৰ্ষাৰণ্যৰ সৈতে জড়িত?"
@@ -39433,7 +38833,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-205",
+   "id": "assam-natural-resources-185",
    "q": {
     "en": "Which place in Assam is associated with biosphere reserve?",
     "as": "অসমত কোন ঠাই জীৱমণ্ডল সংৰক্ষিত অঞ্চলৰ সৈতে জড়িত?"
@@ -39463,7 +38863,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-206",
+   "id": "assam-natural-resources-186",
    "q": {
     "en": "Which place in Assam is associated with reserve forest?",
     "as": "অসমত কোন ঠাই সংৰক্ষিত বনাঞ্চলৰ সৈতে জড়িত?"
@@ -39493,7 +38893,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-207",
+   "id": "assam-natural-resources-187",
    "q": {
     "en": "Which place in Assam is associated with forest product?",
     "as": "অসমত কোন ঠাই বনজ সামগ্ৰীৰ সৈতে জড়িত?"
@@ -39523,7 +38923,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-208",
+   "id": "assam-natural-resources-188",
    "q": {
     "en": "Which place in Assam is associated with timber tree?",
     "as": "অসমত কোন ঠাই কাঠৰ গছৰ সৈতে জড়িত?"
@@ -39553,7 +38953,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-209",
+   "id": "assam-natural-resources-189",
    "q": {
     "en": "Which place in Assam is associated with staple crop?",
     "as": "অসমত কোন ঠাই মূল খাদ্য শস্যৰ সৈতে জড়িত?"
@@ -39583,7 +38983,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-210",
+   "id": "assam-natural-resources-190",
    "q": {
     "en": "Which place in Assam is associated with commercial crop?",
     "as": "অসমত কোন ঠাই ব্যৱসায়িক শস্যৰ সৈতে জড়িত?"
@@ -39613,7 +39013,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-211",
+   "id": "assam-natural-resources-191",
    "q": {
     "en": "Which place in Assam is associated with fibre crop?",
     "as": "অসমত কোন ঠাই আঁহ শস্যৰ সৈতে জড়িত?"
@@ -39643,7 +39043,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-212",
+   "id": "assam-natural-resources-192",
    "q": {
     "en": "Which place in Assam is associated with oilseed crop?",
     "as": "অসমত কোন ঠাই তেলজাত শস্যৰ সৈতে জড়িত?"
@@ -39673,7 +39073,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-213",
+   "id": "assam-natural-resources-193",
    "q": {
     "en": "Which place in Assam is associated with cash crop?",
     "as": "অসমত কোন ঠাই নগদ শস্যৰ সৈতে জড়িত?"
@@ -39703,7 +39103,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-214",
+   "id": "assam-natural-resources-194",
    "q": {
     "en": "Which place in Assam is associated with plantation crop?",
     "as": "অসমত কোন ঠাই বাগান শস্যৰ সৈতে জড়িত?"
@@ -39733,7 +39133,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-215",
+   "id": "assam-natural-resources-195",
    "q": {
     "en": "Which place in Assam is associated with specialty rice?",
     "as": "অসমত কোন ঠাই বিশেষ চাউলৰ সৈতে জড়িত?"
@@ -39763,7 +39163,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-216",
+   "id": "assam-natural-resources-196",
    "q": {
     "en": "Which place in Assam is associated with aromatic rice?",
     "as": "অসমত কোন ঠাই সুগন্ধি চাউলৰ সৈতে জড়িত?"
@@ -39793,7 +39193,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-217",
+   "id": "assam-natural-resources-197",
    "q": {
     "en": "Which place in Assam is associated with hydroelectric project?",
     "as": "অসমত কোন ঠাই জলবিদ্যুৎ প্ৰকল্পৰ সৈতে জড়িত?"
@@ -39823,7 +39223,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-218",
+   "id": "assam-natural-resources-198",
    "q": {
     "en": "Which place in Assam is associated with power corporation?",
     "as": "অসমত কোন ঠাই বিদ্যুৎ নিগমৰ সৈতে জড়িত?"
@@ -39853,7 +39253,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-219",
+   "id": "assam-natural-resources-199",
    "q": {
     "en": "Which place in Assam is associated with power utility?",
     "as": "অসমত কোন ঠাই বিদ্যুৎ প্ৰতিষ্ঠানৰ সৈতে জড়িত?"
@@ -39883,7 +39283,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-220",
+   "id": "assam-natural-resources-200",
    "q": {
     "en": "Which place in Assam is associated with Ramsar wetland?",
     "as": "অসমত কোন ঠাই ৰামছাৰ জলাশয়ৰ সৈতে জড়িত?"
@@ -39913,7 +39313,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-221",
+   "id": "assam-natural-resources-201",
    "q": {
     "en": "Which place in Assam is associated with wetland?",
     "as": "অসমত কোন ঠাই জলাশয়ৰ সৈতে জড়িত?"
@@ -39943,7 +39343,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-222",
+   "id": "assam-natural-resources-202",
    "q": {
     "en": "Which place in Assam is associated with natural lake?",
     "as": "অসমত কোন ঠাই প্ৰাকৃতিক হ্ৰদৰ সৈতে জড়িত?"
@@ -39973,7 +39373,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-223",
+   "id": "assam-natural-resources-203",
    "q": {
     "en": "Which place in Assam is associated with tank?",
     "as": "অসমত কোন ঠাই পুখুৰীৰ সৈতে জড়িত?"
@@ -40003,7 +39403,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-224",
+   "id": "assam-natural-resources-204",
    "q": {
     "en": "Which place in Assam is associated with agricultural district?",
     "as": "অসমত কোন ঠাই কৃষি জিলাৰ সৈতে জড়িত?"
@@ -40033,7 +39433,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-225",
+   "id": "assam-natural-resources-205",
    "q": {
     "en": "Assam is the largest producer of which crop in India?",
     "as": "ভাৰতত অসম কোন শস্যৰ আটাইতকৈ ডাঙৰ উৎপাদক?"
@@ -40063,7 +39463,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-226",
+   "id": "assam-natural-resources-206",
    "q": {
     "en": "The headquarters of Oil India Limited is located at which place?",
     "as": "অইল ইণ্ডিয়া লিমিটেডৰ মুখ্য কাৰ্যালয় কোন ঠাইত অৱস্থিত?"
@@ -40093,7 +39493,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-227",
+   "id": "assam-natural-resources-207",
    "q": {
     "en": "Where was India's first oil well drilled?",
     "as": "ভাৰতৰ প্ৰথম তেল কূপ ক'ত খনন কৰা হৈছিল?"
@@ -40123,7 +39523,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-228",
+   "id": "assam-natural-resources-208",
    "q": {
     "en": "Which mineral is mined at Makum in Assam?",
     "as": "অসমৰ মাকুমত কোন খনিজ খনন কৰা হয়?"
@@ -40153,7 +39553,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-229",
+   "id": "assam-natural-resources-209",
    "q": {
     "en": "Which silk of Assam is known as the golden silk?",
     "as": "অসমৰ কোন ৰেচম সোণালী ৰেচম হিচাপে জনাজাত?"
@@ -40183,7 +39583,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-230",
+   "id": "assam-natural-resources-210",
    "q": {
     "en": "Which silk of Assam is also called ahimsa silk?",
     "as": "অসমৰ কোন ৰেচম অহিংসা ৰেচম নামেৰেও জনাজাত?"
@@ -40213,7 +39613,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-231",
+   "id": "assam-natural-resources-211",
    "q": {
     "en": "Which town of Assam is known as the Manchester of Assam?",
     "as": "অসমৰ কোন নগৰ অসমৰ মাঞ্চেষ্টাৰ হিচাপে জনাজাত?"
@@ -40243,7 +39643,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-232",
+   "id": "assam-natural-resources-212",
    "q": {
     "en": "Which town of Assam is known as the Tea City of India?",
     "as": "অসমৰ কোন নগৰ ভাৰতৰ চাহ নগৰী হিচাপে জনাজাত?"
@@ -40273,7 +39673,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-233",
+   "id": "assam-natural-resources-213",
    "q": {
     "en": "Which town of Assam is known as the Silk City?",
     "as": "অসমৰ কোন নগৰ ৰেচম নগৰী হিচাপে জনাজাত?"
@@ -40303,7 +39703,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-234",
+   "id": "assam-natural-resources-214",
    "q": {
     "en": "Which town of Assam is known as the Oil City?",
     "as": "অসমৰ কোন নগৰ তেল নগৰী হিচাপে জনাজাত?"
@@ -40333,7 +39733,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-235",
+   "id": "assam-natural-resources-215",
    "q": {
     "en": "Which rainforest of Assam is called the Amazon of the East?",
     "as": "অসমৰ কোন বৰ্ষাৰণ্যক পূবৰ আমাজন বুলি কোৱা হয়?"
@@ -40363,7 +39763,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-236",
+   "id": "assam-natural-resources-216",
    "q": {
     "en": "Which is the principal commercial tree crop of Assam?",
     "as": "অসমৰ প্ৰধান ব্যৱসায়িক গছ শস্য কোন?"
@@ -40393,7 +39793,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-237",
+   "id": "assam-natural-resources-217",
    "q": {
     "en": "Which state is the largest producer of tea in India?",
     "as": "ভাৰতত কোন ৰাজ্য চাহৰ আটাইতকৈ ডাঙৰ উৎপাদক?"
@@ -40423,7 +39823,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-238",
+   "id": "assam-natural-resources-218",
    "q": {
     "en": "Which crop is the main source of cash income for many farmers of Assam?",
     "as": "অসমৰ বহু কৃষকৰ বাবে নগদ আয়ৰ প্ৰধান উৎস কোন শস্য?"
@@ -40453,7 +39853,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-239",
+   "id": "assam-natural-resources-219",
    "q": {
     "en": "Which natural resource is used as raw material in the Namrup fertiliser plant?",
     "as": "নামৰূপ সাৰ কাৰখানাত কোন প্ৰাকৃতিক সম্পদ কেঁচামাল হিচাপে ব্যৱহাৰ কৰা হয়?"
@@ -40483,7 +39883,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-240",
+   "id": "assam-natural-resources-220",
    "q": {
     "en": "Which mineral found in Assam is used in the cement industry?",
     "as": "অসমত পোৱা কোন খনিজ চিমেণ্ট উদ্যোগত ব্যৱহাৰ কৰা হয়?"
@@ -40513,7 +39913,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-241",
+   "id": "assam-natural-resources-221",
    "q": {
     "en": "Which district is known as the Rice Bowl of Assam?",
     "as": "কোন জিলাক অসমৰ ধানৰ ভঁৰাল বুলি কোৱা হয়?"
@@ -40543,7 +39943,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-242",
+   "id": "assam-natural-resources-222",
    "q": {
     "en": "Which research institute in Assam is famous for tea research?",
     "as": "অসমৰ কোন গৱেষণা প্ৰতিষ্ঠান চাহ গৱেষণাৰ বাবে বিখ্যাত?"
@@ -40573,7 +39973,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-243",
+   "id": "assam-natural-resources-223",
    "q": {
     "en": "Which is the principal mineral resource of Assam?",
     "as": "অসমৰ প্ৰধান খনিজ সম্পদ কোন?"
@@ -40603,7 +40003,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-244",
+   "id": "assam-natural-resources-224",
    "q": {
     "en": "Which is the largest tea producing district of Assam?",
     "as": "অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলা কোন?"
@@ -40633,7 +40033,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-245",
+   "id": "assam-natural-resources-225",
    "q": {
     "en": "Which forest product of Assam is used in perfume and incense?",
     "as": "অসমৰ কোন বনজ সামগ্ৰী সুগন্ধি আৰু ধূপত ব্যৱহাৰ কৰা হয়?"
@@ -40663,7 +40063,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-246",
+   "id": "assam-natural-resources-226",
    "q": {
     "en": "Which natural resource of Assam is used for silk production?",
     "as": "অসমৰ কোন প্ৰাকৃতিক সম্পদ ৰেচম উৎপাদনত ব্যৱহাৰ কৰা হয়?"
@@ -40693,7 +40093,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-247",
+   "id": "assam-natural-resources-227",
    "q": {
     "en": "Which resource is used for generating hydroelectricity in Assam?",
     "as": "অসমত জলবিদ্যুৎ উৎপাদনৰ বাবে কোন সম্পদ ব্যৱহাৰ কৰা হয়?"
@@ -40723,7 +40123,7 @@ module.exports = {
    }
   },
   {
-   "id": "assam-natural-resources-248",
+   "id": "assam-natural-resources-228",
    "q": {
     "en": "Which mineral resource is found in abundance in Karbi Anglong and Dima Hasao?",
     "as": "কাৰ্বি আংলং আৰু ডিমা হাছাওত কোন খনিজ সম্পদ প্ৰচুৰ পৰিমাণে পোৱা যায়?"
