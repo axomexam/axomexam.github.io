@@ -761,6 +761,173 @@ def paper_fold_panels(q):
     return en, as_
 
 
+def paper_cut_sheet(fig):
+    """The sheet itself: the rect drawn in the darker stroke, not the panel frame around it."""
+    for m in re.finditer(r'<rect[^>]*stroke="#334155"[^>]*>', fig or ""):
+        tag = dict(re.findall(r'(?<![\w-])(x|y|width|height)="([\d.]+)"', m.group(0)))
+        if len(tag) == 4:
+            x, y = float(tag["x"]), float(tag["y"])
+            return (x, y, x + float(tag["width"]), y + float(tag["height"]))
+    boxes = [b for b in paper_boxes(fig) if b[2] - b[0] >= 100]
+    return boxes[0] if boxes else None
+
+
+def paper_cut_creases(fig, box):
+    out = []
+    for a, c, e, f in re.findall(
+            r'<line x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"[^>]*dasharray', fig or ""):
+        a, c, e, f = map(float, (a, c, e, f))
+        (na, nc), (ne, nf) = paper_rel(box, (a, c)), paper_rel(box, (e, f))
+        out.append((na, nc, ne, nf))
+    return out
+
+
+def paper_cut_pieces(fig, box):
+    """The cut pieces: polygons and punched rings, in sheet coordinates."""
+    out = []
+    for m in re.finditer(r'<polygon points="([^"]+)"[^>]*fill="#ffffff"', fig or ""):
+        out.append(("poly", [paper_rel(box, tuple(map(float, t.split(",")))) for t in m.group(1).split()]))
+    for m in re.finditer(r'<circle cx="([\d.]+)" cy="([\d.]+)" r="([\d.]+)"[^>]*fill="#ffffff"', fig or ""):
+        cx, cy, r = map(float, m.groups())
+        out.append(("ring", [paper_rel(box, (cx, cy)), r / (box[2] - box[0])]))
+    return out
+
+
+def paper_cut_signature(pieces):
+    sig = []
+    for kind, data in pieces:
+        if kind == "poly":
+            xs = [x for x, _ in data]
+            ys = [y for _, y in data]
+            sig.append(("poly", len(data), (round(min(xs), 2), round(min(ys), 2),
+                                           round(max(xs), 2), round(max(ys), 2))))
+        else:
+            (x, y), r = data
+            sig.append(("ring", round(r, 2), (round(x - r, 2), round(y - r, 2),
+                                             round(x + r, 2), round(y + r, 2))))
+    return tuple(sorted(sig))
+
+
+def paper_cut_open(fig, box):
+    """Every copy of the cut that the opening sheet shows, creases reflecting it back out."""
+    creases = paper_cut_creases(fig, box)
+    pieces = paper_cut_pieces(fig, box)
+    seen, stack, opened = set(), list(pieces), []
+    while stack:
+        piece = stack.pop()
+        sig = paper_cut_signature([piece])
+        if sig in seen:
+            continue
+        seen.add(sig)
+        opened.append(piece)
+        for line in creases:
+            if piece[0] == "poly":
+                moved = [paper_reflect_n(p, line) for p in piece[1]]
+                if all(-0.02 <= v <= 1.02 for p in moved for v in p):
+                    stack.append(("poly", moved))
+            else:
+                centre = paper_reflect_n(piece[1][0], line)
+                if -0.02 <= centre[0] <= 1.02 and -0.02 <= centre[1] <= 1.02:
+                    stack.append(("ring", [centre, piece[1][1]]))
+    return opened, creases, pieces
+
+
+def paper_cut_fold_text(creases):
+    bits, as_bits = [], []
+    for a, b, c, d in creases:
+        if abs(a - c) < 0.02:
+            at = "down the middle" if abs(a - 0.5) < 0.06 else f"{paper_pc(a)} of the way across"
+            bits.append("a vertical crease " + at)
+            as_bits.append("উলম্ব" + (" মাজে" if abs(a - 0.5) < 0.06 else f" {paper_pc(a)} ঠাইত"))
+        elif abs(b - d) < 0.02:
+            at = "across the middle" if abs(b - 0.5) < 0.06 else f"{paper_pc(b)} of the way down"
+            bits.append("a horizontal crease " + at)
+            as_bits.append("অনুভূমিক" + (" মাজে" if abs(b - 0.5) < 0.06 else f" {paper_pc(b)} ঠাইত"))
+        else:
+            down = (c - a) * (d - b) > 0
+            corner = "top left to bottom right" if down else "bottom left to top right"
+            bits.append("a slanting crease from the " + corner + " corner")
+            as_bits.append("কৰ্ণৰ দিশে থকা চিকন ৰেখা")
+    word = "once" if len(bits) == 1 else ("twice" if len(bits) == 2 else "three times")
+    fold = f"folded {word} along " + (" and ".join(bits))
+    as_word = "এবাৰ" if len(bits) == 1 else "দুবাৰ"
+    return fold, f"{as_word} ভাঁজ কৰা হৈছে (" + ", ".join(as_bits) + ")"
+
+
+def paper_piece_word(piece):
+    kind, data = piece
+    if kind == "ring":
+        return "round hole", "গোল ফুটা"
+    n = len(data)
+    if n > 10:
+        return "semicircular piece", "অৰ্ধবৃত্তাকাৰ টুকুৰা"
+    if n == 3:
+        return "triangular piece", "ত্ৰিভুজাকাৰ টুকুৰা"
+    if n == 4:
+        return "square piece", "বৰ্গাকাৰ টুকুৰা"
+    return "piece", "টুকুৰা"
+
+
+def paper_fold_cut(q):
+    """Sheets drawn flat with a dashed crease, a cut piece or a punched hole, and open answers."""
+    fig = q.get("fig") or ""
+    box = paper_cut_sheet(fig)
+    if not box or not re.search(r'#334155', fig):
+        return None
+    opened, creases, pieces = paper_cut_open(fig, box)
+    if not creases or not pieces:
+        return None
+    letter = chr(65 + q["correct"])
+    fold_text, as_fold = paper_cut_fold_text(creases)
+    if len(pieces) == 1 and pieces[0][0] == "ring":
+        word, as_word = "round hole", "গোল ফুটা"
+    else:
+        word, as_word = paper_piece_word(pieces[0])
+    as_num = str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯")
+    count = len(opened)
+    # count answers: the options carry numerals instead of drawings
+    numerals = []
+    for o in q["options"]:
+        found = re.findall(r'<text[^>]*>([^<]*)</text>', o.get("fig") or "")
+        numerals.append(found[0].strip() if found else None)
+    if all(numerals):
+        nums = []
+        for n in numerals:
+            nums.append(n)
+        hit = [i for i, n in enumerate(nums) if n.isdigit() and int(n) == count]
+        if len(hit) != 1 or hit[0] != q["correct"]:
+            return None
+        en = (f"The sheet is {fold_text}, so the punch passes through {2 ** len(creases)} layers. "
+              f"Opening it lays those layers side by side, and the sheet carries {count} holes - "
+              f"option {letter} ({numerals[q['correct']]})." if 2 ** len(creases) == count else
+              f"The sheet is {fold_text}. Opening it lays the folded layers side by side, and the sheet "
+              f"carries {count} holes - option {letter} ({numerals[q['correct']]}).")
+        as_ = (f"কাগজখন {as_fold}। মেলি দিলে {str(count).translate(as_num)} টা ফুটা পোৱা যায় — "
+               f"বিকল্প {letter}।")
+        return en, as_
+    hits = [i for i, o in enumerate(q["options"])
+            if paper_cut_signature(paper_cut_pieces(o.get("fig") or "",
+                                                    paper_cut_sheet(o.get("fig") or "") or box))
+            == paper_cut_signature(opened)]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    whole = "full circle" if word.startswith("semicircular") else ("full square" if word.startswith("square")
+                                                                  else "single shape")
+    as_whole = "এটা গোল ফুটা" if word.startswith("semicircular") else "এটাই আকৃতি"
+    joint_en = f" the two halves meet along the crease and make one {whole} in the middle of the sheet - option {letter}."
+    joint_as = f" দুয়ো আধা লগ হৈ {as_whole} হয় — বিকল্প {letter}।"
+    if count == 2 and len(pieces) == 1:
+        en = (f"The sheet is {fold_text}, so the cut goes through every layer. "
+              f"Unfolding mirrors the {word} across the crease, and" + joint_en)
+        return en, f"কাগজখন {as_fold}। {as_word} কাটা অংশ ভাঁজৰ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ" + joint_as
+    en = (f"The sheet is {fold_text}, so the cut goes through every layer. "
+          f"Unfolding mirrors the {word} across {'the crease' if len(creases) == 1 else 'each crease'}, "
+          f"so the opened sheet shows {count} copies of it - option {letter}.")
+    as_ = (f"কাগজখন {as_fold}। {as_word} কাটা অংশ ভাঁজৰ ৰেখাৰ সিপাৰে প্ৰতিফলিত হৈ মেলি দিলে "
+           f"{str(count).translate(as_num)} ঠাইত কটা দেখা যায় — বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -769,6 +936,9 @@ def paper_fold(q):
     panels = paper_fold_panels(q)
     if panels:
         return panels
+    cut = paper_fold_cut(q)
+    if cut:
+        return cut
     found = paper_holes(q.get("fig") or "")
     if not found:
         return None

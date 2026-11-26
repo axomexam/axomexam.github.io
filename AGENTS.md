@@ -4672,6 +4672,13 @@ crease position plus a kept side, and the punch is carried back through the
 folds in reverse, so the holes come out where the opening sheet would put them.
 A slanting crease is handled as one reflection across that line.
 
+The adre banks draw one sheet with a dashed crease and either a white cut piece or a
+white punched ring, and the options show the sheet open. The crease may be
+vertical, horizontal or slanting, so every crease is kept as a line and the cut
+(reflected as point sets, rings as centres) is carried out across each line until
+no new copy appears; the answer is the option whose pieces match that set. Where
+the options carry numerals instead of drawings, the same unfolding gives the count.
+
 Three repairs run beside them, all in the dhs-dme paper bank:
 `tools/fix-option-figures.py` replaces option figures that held a Python tuple
 (`('1', '১', '')`) with the numeral itself, and `tools/add-paper-figures.py`
