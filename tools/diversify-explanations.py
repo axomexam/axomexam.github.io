@@ -77,6 +77,9 @@ def blank_word(q):
 
 def filled_sentence(q):
     stem = q["q"]["en"].strip()
+    m = re.match(r"^(?:Choose|Fill|Select|Complete)[^:]{0,40}:\s*(.+)$", stem, re.S | re.I)
+    if m:
+        stem = m.group(1).strip()
     if not re.search(r"_{2,}", stem):
         return None
     return re.sub(r"_{2,}", answer(q), stem, count=1)
@@ -215,6 +218,79 @@ def b_embedded_text(q):
     )
 
 
+
+
+SINGULAR = {"is", "was", "has", "does", "goes", "needs", "seems", "works", "takes",
+            "makes", "knows", "likes", "plays", "wants", "helps", "lives", "comes",
+            "becomes", "shows", "gives", "says", "thinks", "teaches", "watches",
+            "reaches", "passes", "fixes", "carries", "studies", "tries", "flies",
+            "isn't", "wasn't", "hasn't", "doesn't"}
+PLURAL = {"are", "were", "have", "do", "go", "need", "seem", "work", "take", "make",
+          "know", "like", "play", "want", "help", "live", "come", "become", "show",
+          "give", "say", "think", "teach", "watch", "reach", "pass", "fix", "carry",
+          "study", "try", "fly", "aren't", "weren't", "haven't", "don't"}
+
+
+def b_subject_verb(q):
+    filled = filled_sentence(q)
+    ans = answer(q).strip().lower()
+    if not filled or ans not in SINGULAR | PLURAL:
+        return None
+    kind = "singular" if ans in SINGULAR else "plural"
+    return f'In "{filled}", the verb that agrees with this subject is "{ans}", a {kind} form.'
+
+
+def b_preposition(q):
+    filled = filled_sentence(q)
+    ans = answer(q).strip()
+    if not filled or not ans or len(ans.split()) > 2:
+        return None
+    others = [o for o in opts(q) if o.strip() and o.strip().lower() != ans.lower()][:3]
+    tail = ", ".join('"%s"' % o.strip() for o in others)
+    return f'In "{filled}", the word before the blank takes "{ans}", not {tail}.'
+
+
+def b_cause_effect(q):
+    stem = q["q"]["en"]
+    m = re.search(r"Statement I:\s*(.+?)\s*Statement II:\s*(.+?)(?:\s*Which of the following|$)", stem, re.S)
+    if not m:
+        return None
+    one, two = m.group(1).strip().rstrip("."), m.group(2).strip().rstrip(".")
+    ans = answer(q).lower()
+    if "statement i is the cause" in ans:
+        link = f'"{one}" is the cause and "{two}" is the effect it produces'
+    elif "statement ii is the cause" in ans:
+        link = f'"{two}" is the cause and "{one}" is the effect it produces'
+    elif "independent" in ans:
+        link = f'"{one}" and "{two}" are separate events, with no cause-and-effect link between them'
+    elif "both statements are effects" in ans:
+        link = f'"{one}" and "{two}" are both effects of something else, neither causing the other'
+    else:
+        return None
+    return f"In this pair, {link}; hence the answer is: {answer(q)}."
+
+
+def b_course_of_action(q):
+    stem = q["q"]["en"]
+    st = re.search(r"Statement:\s*(.+?)\s*Courses of action:", stem, re.S)
+    co = re.search(r"Courses of action:\s*I\.\s*(.+?)\s*II\.\s*(.+)$", stem, re.S)
+    if not st or not co:
+        return None
+    def clean(t):
+        t = re.sub(r"\s*Which of the following.*$", "", t, flags=re.S)
+        return t.strip().rstrip(".").strip()
+    statement = clean(st.group(1))
+    one, two = clean(co.group(1)), clean(co.group(2))
+    ans = answer(q).lower()
+    i_f = ("both" in ans) or ("only course of action i" in ans) or ("course of action i follows" in ans and "only course of action ii" not in ans)
+    ii_f = ("both" in ans) or ("only course of action ii" in ans)
+    return (
+        f'For the statement "{statement}", course I ("{one}") '
+        f'{"is the response that follows" if i_f else "does not follow"} and course II ("{two}") '
+        f'{"also follows" if ii_f else "does not follow"}; hence the answer is: {answer(q)}.'
+    )
+
+
 # normalized prefix of the repeated sentence -> builder
 CLUSTERS = [
     ("a positive statement takes a negative tag", b_question_tag),
@@ -222,6 +298,13 @@ CLUSTERS = [
     ("conclusion i does not follow; conclusion ii follows", b_syllogism),
     ("conclusion i follows; conclusion ii does not follow", b_syllogism),
     ("conclusion i does not follow; conclusion ii does not follow", b_syllogism),
+    ("conclusion i does not follow and conclusion ii follows", b_syllogism),
+    ("conclusion i follows and conclusion ii does not follow", b_syllogism),
+    ("conclusion i does not follow and conclusion ii does not follow", b_syllogism),
+    ("course i directly addresses the problem", b_course_of_action),
+    ("statement i is a direct cause of statement ii", b_cause_effect),
+    ("indefinite pronouns such as everyone", b_subject_verb),
+    ("'to' is the preposition that goes with this word", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
     ("the word after the blank begins with a vowel sound", b_article),
     ("the triangle is already drawn inside the figure", b_embedded_text),
