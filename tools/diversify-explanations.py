@@ -306,6 +306,7 @@ CLUSTERS = [
     ("statement ii is the cause and statement i is its effect", b_cause_effect),
     ("indefinite pronouns such as everyone", b_subject_verb),
     ("'to' is the preposition that goes with this word", b_preposition),
+    ("the correct word is", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
     ("the word after the blank begins with a vowel sound", b_article),
     ("the triangle is already drawn inside the figure", b_embedded_text),
