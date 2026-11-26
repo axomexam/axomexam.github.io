@@ -261,6 +261,25 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def b_passage_line(q):
+    m = re.search(r"Read the passage:\s*(.+?)\s*Question:", q["q"]["en"], re.S)
+    if not m:
+        return None
+    passage = m.group(1).strip()
+    ans = answer(q).strip().rstrip(".")
+    if not ans or NORM(ans) not in NORM(passage):
+        return None
+    for sentence in re.split(r"(?<=[.!?])\s+", passage):
+        if NORM(ans) in NORM(sentence):
+            sentence = sentence.strip()
+            if NORM(sentence).rstrip(".") == NORM(ans):
+                return (f'Option {letter(q)} repeats a line of the passage word for word: '
+                        f'"{sentence}"')
+            return (f'The passage says: "{sentence}" That supports option {letter(q)} '
+                    f'("{answer(q).strip()}"), so it is the statement the passage allows.')
+    return None
+
+
 def b_collective(q):
     filled = filled_sentence(q)
     ans = answer(q).strip().lower()
@@ -337,6 +356,7 @@ CLUSTERS = [
     ("a plural subject takes a plural verb", b_subject_verb),
     ("a singular subject takes a singular verb", b_subject_verb),
     ("a collective noun acting as one unit", b_collective),
+    ("this statement is taken directly from the passage", b_passage_line),
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
