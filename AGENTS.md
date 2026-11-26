@@ -4643,3 +4643,17 @@ that belongs to the question: the statement, the conclusions, the sentence, the
 tag. It only writes when the added detail is copied out of the item, so a
 question it cannot ground is left alone. Run it after any rebuild that
 regenerates explanations.
+
+Two of those questions can be worked out from the drawing itself, and the tool
+does it rather than paraphrase the rule:
+
+- cube nets: `b_cube_net` reads the numbers and their cells out of the net,
+  folds it cell by cell and quotes the strip that puts the pair opposite each
+  other. `python3 tools/fix-cube-nets.py` redraws nets that were drawn with too
+  few faces; it only rewrites a figure when the fold then agrees with the key.
+- paper folding: `paper_fold` reads the creases and the punch, mirrors the hole
+  across every crease and picks the option that matches. It speaks only when
+  exactly one option matches and that option is the key.
+
+Both leave the figure, the options and the key untouched unless the fold itself
+disagrees with them; those items are reported instead of edited.
