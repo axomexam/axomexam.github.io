@@ -2009,6 +2009,62 @@ def paper_actions(q):
     return en, as_
 
 
+def venn_kind(text):
+    t = (text or "").lower()
+    if "inside" in t:
+        return "inside"
+    if "separate" in t or "disjoint" in t:
+        return "separate"
+    if "overlap" in t:
+        return "overlap"
+    return None
+
+
+VENN_SAY = {
+    "inside": ("is a part of", "its circle lies wholly inside the other",
+               "এটা অংশ", "তাৰ বৃত্তটো আনটোৰ ভিতৰত থাকে"),
+    "overlap": ("shares members with", "the two circles must overlap",
+                "সদস্য ভাগ কৰে", "বৃত্ত দুটা কটাকটি কৰে"),
+    "separate": ("has no member in common with", "the two circles must stay apart",
+                 "একো সদস্য নাই", "বৃত্ত দুটা সুকীয়াকৈ থাকে"),
+}
+
+
+def paper_venn(q):
+    """Two-class Venn items: name the pair and say how the two groups stand."""
+    text = (q.get("q") or {}).get("en", "")
+    option = q["options"][q["correct"]]
+    if not isinstance(option, dict) or not option.get("en"):
+        return None
+    letter = chr(65 + q["correct"])
+    named = re.search(r"named,\s*(.+?)\s+and\s+(.+?)\.\s*Which", text)
+    if named:
+        first, second = named.group(1).strip(), named.group(2).strip()
+        kind = venn_kind(option["en"])
+        if not kind:
+            return None
+        verb, closing, verb_as, closing_as = VENN_SAY[kind]
+        en = (f"The «{first}» group {verb} the «{second}» group, so {closing} - option {letter}.")
+        as_ = (f"«{first}» আৰু «{second}» ৰ ভিতৰত এটা গোটে আনটোৰ {verb_as}, গতিকে {closing_as} "
+               f"— বিকল্প {letter}।")
+        return en, as_
+    asked = re.search(r"best shown by ([^?]+)\?\s*(.+?)\s*$", text)
+    if asked:
+        kind = venn_kind(asked.group(1))
+        pair = option["en"].strip()
+        parts = re.split(r"\s+and\s+", pair, maxsplit=1)
+        if not kind or len(parts) != 2:
+            return None
+        verb, closing, verb_as, closing_as = VENN_SAY[kind]
+        first, second = parts[0].strip(), parts[1].strip()
+        en = (f"The question asks for {asked.group(1).strip()}. In «{pair}» the «{first}» group "
+              f"{verb} the «{second}» group, so {closing} - option {letter}.")
+        as_ = (f"প্ৰশ্নটোৱে {asked.group(1).strip()} বিচাৰে। «{pair}» ৰ ক্ষেত্ৰত এটা গোটে আনটোৰ "
+               f"{verb_as}, গতিকে {closing_as} — বিকল্প {letter}।")
+        return en, as_
+    return None
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2329,6 +2385,11 @@ CLUSTERS = [
     ("argument i is strong and argument ii is weak", paper_arguments),
     ("argument i is weak and argument ii is strong", paper_arguments),
     ("neither argument is strong", paper_arguments),
+    ("some members belong to both classes", paper_venn),
+    ("every member of the first class is also a member", paper_venn),
+    ("the two classes share no member", paper_venn),
+    ("they share no member, so the circles are separate", paper_venn),
+    ("the correct arrangement is: two disjoint circles", paper_venn),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),

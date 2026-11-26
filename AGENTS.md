@@ -4686,6 +4686,12 @@ count (or a drawn circle) is matched against the options, one option must be of 
 family, and it must be the key. Figures whose answer only appears where lines cross
 are left with the old sentence, since the readable outline does not prove them.
 
+Two-class Venn items name the pair in the question ("Roses and Flowers") or ask which
+pair fits a named arrangement. Both are answered by saying how the two groups stand -
+one is a part of the other, they share members, or they have none in common - so the
+explanation names the pair and that relation, and gives the option letter. Three-class
+Venn items and the counting ones (n(A ∪ B) arithmetic) already carry their own numbers.
+
 Statement/argument and course-of-action banks repeat one verdict sentence, sometimes as a
 tautology ("Argument I is strong and argument II is weak. Hence: ..."). Those
 explanations now quote the statement and both sides from the question text, restate the
