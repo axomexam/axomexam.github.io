@@ -1223,6 +1223,181 @@ def paper_pattern_cell(q):
     return en, as_
 
 
+
+MIRROR_TAGS = ("polygon", "line", "circle")
+
+
+def mirror_prims(fig):
+    out = []
+    for m in re.finditer(r"<(polygon|line|circle)\b([^>]*?)/?>", fig or ""):
+        tag = m.group(1)
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(2)))
+        if a.get("stroke") == "#334155" or a.get("fill") == "#334155":
+            out.append((tag, a))
+    return out
+
+
+def mirror_points(tag, a):
+    if tag == "polygon":
+        return [tuple(map(float, t.split(","))) for t in a["points"].split()]
+    if tag == "line":
+        return [(float(a["x1"]), float(a["y1"])), (float(a["x2"]), float(a["y2"]))]
+    c = (float(a["cx"]), float(a["cy"]))
+    r = float(a["r"])
+    return [(c[0] - r, c[1] - r), (c[0] + r, c[1] + r)]
+
+
+def mirror_norm(fig, refl=None):
+    prims = mirror_prims(fig)
+    if not prims:
+        return None
+    pts = [p for tag, a in prims for p in mirror_points(tag, a)]
+    x0 = min(p[0] for p in pts)
+    y0 = min(p[1] for p in pts)
+    w = max(max(p[0] for p in pts) - x0, 1e-6)
+    h = max(max(p[1] for p in pts) - y0, 1e-6)
+    out = []
+    for tag, a in prims:
+        P = [((p[0] - x0) / w, (p[1] - y0) / h) for p in mirror_points(tag, a)]
+        if refl == "x":
+            P = [(1 - x, y) for x, y in P]
+        elif refl == "y":
+            P = [(x, 1 - y) for x, y in P]
+        if tag == "circle":
+            out.append(("c", (P[0][0] + P[1][0]) / 2, (P[0][1] + P[1][1]) / 2))
+        else:
+            out.append(("p", tuple(sorted((round(x, 3), round(y, 3)) for x, y in P))))
+    return out
+
+
+def mirror_flat(sig):
+    flat = []
+    for e in sig:
+        if e[0] == "c":
+            flat.append(("c", e[1], e[2]))
+        else:
+            flat.append(("p",) + tuple(v for pt in e[1] for v in pt))
+    return flat
+
+
+def mirror_close(A, B, tol=0.06):
+    if A is None or B is None or len(A) != len(B):
+        return False
+    fa, fb = mirror_flat(A), mirror_flat(B)
+    used = set()
+    for e in fa:
+        hit = None
+        for j, o in enumerate(fb):
+            if j in used or len(o) != len(e) or o[0] != e[0]:
+                continue
+            if all(abs(p - q) <= tol for p, q in zip(e[1:], o[1:])):
+                hit = j
+                break
+        if hit is None:
+            return False
+        used.add(hit)
+    return True
+
+
+def mirror_place(x, y):
+    horiz = "left" if x < 0.34 else ("right" if x > 0.66 else "middle")
+    vert = "upper" if y < 0.34 else ("lower" if y > 0.66 else "middle")
+    if horiz == "middle" and vert == "middle":
+        return "the centre"
+    if horiz == "middle":
+        return f"the {vert} middle"
+    if vert == "middle":
+        return f"the middle {horiz}"
+    return f"the {vert}-{horiz} corner"
+
+
+def mirror_kind_word(P):
+    xs = [p[0] for p in P]
+    ys = [p[1] for p in P]
+    dx, dy = max(xs) - min(xs), max(ys) - min(ys)
+    return "horizontal" if dx > 2.2 * dy else ("vertical" if dy > 2.2 * dx else "sloping")
+
+
+def mirror_parts(fig, refl=None):
+    sig = mirror_norm(fig, refl)
+    if not sig:
+        return []
+    parts = []
+    for e in sig:
+        if e[0] == "c":
+            parts.append({"kind": "dot", "name": "a dot", "pos": mirror_place(e[1], e[2])})
+            continue
+        P = e[1]
+        xs = [p[0] for p in P]
+        ys = [p[1] for p in P]
+        if len(P) >= 3:
+            sides = len(P)
+            name = {3: "triangle", 4: "square", 5: "pentagon", 6: "hexagon"}.get(sides, f"{sides}-sided shape")
+            if (max(xs) - min(xs)) > 0.8 and (max(ys) - min(ys)) > 0.8:
+                parts.append({"kind": "outline", "name": f"the {name} outline", "pos": None})
+            else:
+                cx = (max(xs) + min(xs)) / 2
+                cy = (max(ys) + min(ys)) / 2
+                parts.append({"kind": "shape", "name": f"a small {name}",
+                              "pos": mirror_place(cx, cy)})
+        else:
+            kind = mirror_kind_word(P)
+            a, b = P[0], P[-1]
+            parts.append({"kind": "line", "name": f"a {kind} line",
+                          "pos": (mirror_place(a[0], a[1]), mirror_place(b[0], b[1]))})
+    return parts
+
+
+def mirror_phrase(part, after):
+    kind, name, pos = part["kind"], part["name"], part["pos"]
+    if kind == "outline":
+        return f"{name} stays where it is" if after else name
+    if kind == "line":
+        verb = "now runs from" if after else "running from"
+        return f"{name} {verb} {pos[0]} to {pos[1]}"
+    if kind == "dot":
+        return f"{name} moves to {pos}" if after else f"{name} in {pos}"
+    return f"{name} now sits in {pos}" if after else f"{name} in {pos}"
+
+
+def join_words(items):
+    if len(items) <= 1:
+        return "".join(items)
+    return ", ".join(items[:-1]) + " and " + items[-1]
+
+
+def paper_reflection(q):
+    """Mirror and water images: reflect the figure and see which option matches."""
+    stem = (q.get("q") or {}).get("en", "").lower()
+    if "mirror image" in stem:
+        refl, side = "x", "left for right"
+    elif "water image" in stem:
+        refl, side = "y", "top for bottom"
+    else:
+        return None
+    want = mirror_norm(q.get("fig") or "", refl)
+    if not want:
+        return None
+    hits = [i for i, o in enumerate(q["options"]) if mirror_close(want, mirror_norm(o.get("fig") or ""))]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    parts = mirror_parts(q.get("fig") or "", None)
+    flipped = mirror_parts(q.get("fig") or "", refl)
+    if not parts or len(parts) != len(flipped):
+        return None
+    before = [mirror_phrase(p, False) for p in parts]
+    after = [mirror_phrase(p, True) for p in flipped]
+    letter = chr(65 + q["correct"])
+    what = "mirror image" if refl == "x" else "water image"
+    en = (f"The drawing holds {join_words(before)}. A {what} keeps every part at the same distance "
+          f"from the centre but swaps {side}, so {join_words(after)}. "
+          f"Only option {letter} is drawn that way.")
+    as_ = (f"চিত্ৰত {len(parts)} টা অংশ আছে। প্ৰতিবিম্বত অংশবোৰৰ কেন্দ্ৰৰ পৰা দুৰত্ব একেই থাকে, "
+           f"কিন্তু {('বাওঁ-সোঁ' if refl == 'x' else 'ওপৰ-তল')} সলনি হয় — ওপৰৰ বৰ্ণনাৰ সৈতে "
+           f"মিলাই চালে কেৱল বিকল্প {letter} হয়।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -1527,6 +1702,10 @@ CLUSTERS = [
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
     ("each column shows the same figure", paper_pattern_cell),
     ("each row shows the same figure", paper_pattern_cell),
+    ("a mirror image reverses the figure left to right", paper_reflection),
+    ("a water image reverses the figure top to bottom", paper_reflection),
+    ("a mirror image is a left-right reversal of the figure", paper_reflection),
+    ("a water image is a top-bottom reversal of the figure", paper_reflection),
     ("the figures alternate like a checkerboard", paper_pattern_cell),
     ("the figures repeat along the diagonals", paper_pattern_cell),
     ("shaded and plain tiles alternate like a chessboard", paper_pattern_cell),

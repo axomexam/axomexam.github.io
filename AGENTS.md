@@ -4672,6 +4672,14 @@ crease position plus a kept side, and the punch is carried back through the
 folds in reverse, so the holes come out where the opening sheet would put them.
 A slanting crease is handled as one reflection across that line.
 
+Mirror and water images are drawn as plain shapes, so the answer is checked by
+reflecting the figure geometrically: the parts are read as polygons, lines and
+dots in a normalised box, flipped left-right or top-bottom, and matched against
+each option with a 0.06 tolerance (the generator does not scale dot radii with
+the square). The explanation lists the parts with their places, then says where
+each one lands after the flip. Letter-based items and the handful whose stored
+key is not the flipped figure are left alone.
+
 Grid-completion figures come in three drawing styles: cells drawn as rounded rects
 with the shape inside (rrb), cells whose shape sits in a translated group and whose
 option is a bare shape (assam-police), and shaded tile grids. The cell figure is
