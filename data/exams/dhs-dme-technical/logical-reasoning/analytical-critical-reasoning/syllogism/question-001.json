@@ -1,0 +1,2912 @@
+[
+  {
+    "id": "verbal-reasoning-008",
+    "q": {
+      "en": "Statements: All pens are books. Some books are tables. Conclusion: Some pens are tables. The conclusion is?",
+      "as": "সকলো কলম কিতাপ। কিছুমান কিতাপ টেবুল। সিদ্ধান্ত: কিছুমান কলম টেবুল। সিদ্ধান্তটো?"
+    },
+    "options": [
+      {
+        "en": "Definitely true",
+        "as": "নিশ্চিতভাৱে সত্য"
+      },
+      {
+        "en": "Definitely false",
+        "as": "নিশ্চিতভাৱে অসত্য"
+      },
+      {
+        "en": "Does not follow",
+        "as": "অনুসৰণ নকৰে"
+      },
+      {
+        "en": "True only if all books are pens",
+        "as": "যদি সকলো কিতাপ কলম হয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All pens are books and some books are tables, but the books that are tables need not be pens. Since the middle term 'books' is not distributed, the conclusion 'some pens are tables' does not follow.",
+      "as": "সকলো কলম কিতাপ আৰু কিছুমান কিতাপ টেবুল, কিন্তু যিবোৰ কিতাপ টেবুল সেইবোৰ কলম নহ'বও পাৰে। মধ্যপদ 'কিতাপ' বিতৰণ নোহোৱা বাবে 'কিছুমান কলম টেবুল' সিদ্ধান্ত অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-033",
+    "q": {
+      "en": "If no cat is dog and some dogs are pets, then 'some cats are pets' ?",
+      "as": "যদি কোনো মেকুৰী কুকুৰ নহয় আৰু কিছুমান কুকুৰ পোহনীয়া, তেন্তে 'কিছুমান মেকুৰী পোহনীয়া'?"
+    },
+    "options": [
+      {
+        "en": "Must be true",
+        "as": "অৱশ্যে সত্য"
+      },
+      {
+        "en": "Must be false",
+        "as": "অৱশ্যে অসত্য"
+      },
+      {
+        "en": "Cannot be concluded",
+        "as": "সিদ্ধান্ত কৰিব নোৱাৰি"
+      },
+      {
+        "en": "True always",
+        "as": "সদায় সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "No cat is a dog, so cats and dogs are completely separate; that some dogs are pets gives no definite link between cats and pets. Hence it cannot be concluded.",
+      "as": "কোনো মেকুৰী কুকুৰ নহয়, গতিকে মেকুৰী আৰু কুকুৰ সম্পূৰ্ণ সুকীয়া; কিছুমান কুকুৰ পোহনীয়া বুলি জানিলেও মেকুৰী আৰু পোহনীয়াৰ মাজত নিশ্চিত সম্পৰ্ক নাই। সেয়ে সিদ্ধান্ত কৰিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-058",
+    "q": {
+      "en": "All mangoes are fruits. All fruits grow on trees. Therefore all mangoes?",
+      "as": "সকলো আম ফল। সকলো ফল গছত হয়। সেয়ে সকলো আম?"
+    },
+    "options": [
+      {
+        "en": "Are vegetables",
+        "as": "পাচলি"
+      },
+      {
+        "en": "Grow on ground",
+        "as": "মাটিত হয়"
+      },
+      {
+        "en": "Grow on trees",
+        "as": "গছত হয়"
+      },
+      {
+        "en": "Are not fruits",
+        "as": "ফল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All mangoes are fruits and all fruits grow on trees, so by syllogism all mangoes grow on trees.",
+      "as": "সকলো আম ফল আৰু সকলো ফল গছত হয়; সেয়ে যুক্তি অনুসৰি সকলো আম গছত হয়।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-075",
+    "q": {
+      "en": "All pens are books. Some books are red. Which conclusion follows?",
+      "as": "সকলো কলম কিতাপ। কিছুমান কিতাপ ৰঙা। কোনটো সিদ্ধান্ত সত্য?"
+    },
+    "options": [
+      {
+        "en": "Only I: Some pens are red",
+        "as": "কেৱল I: কিছুমান কলম ৰঙা"
+      },
+      {
+        "en": "Only II: Some red things are books",
+        "as": "কেৱল II: কিছুমান ৰঙা বস্তু কিতাপ"
+      },
+      {
+        "en": "Both I and II",
+        "as": "I আৰু II দুয়োটা"
+      },
+      {
+        "en": "Neither I nor II",
+        "as": "I আৰু II কোনোটো নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Some books are red means some red things are books, so only II follows. Some pens being red is not guaranteed.",
+      "as": "'কিছুমান কিতাপ ৰঙা' মানে কিছুমান ৰঙা বস্তু কিতাপ; সেয়ে কেৱল II সত্য। কলম ৰঙা হোৱাটো নিশ্চিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-syllogism-001",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-002",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-003",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-004",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-005",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-006",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-007",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. All A are C. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. সকলো A C। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-008",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-009",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-010",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-011",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-012",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-013",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-014",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-015",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-016",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-017",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. No C is A. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কোনো C A নহয়। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-018",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-019",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. All A are C. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. সকলো A C। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-020",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-021",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-022",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-023",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-024",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-025",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-026",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-027",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-028",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-029",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-030",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-031",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-032",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-033",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-034",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-035",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. No C is A. II. No A is C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কোনো C A নহয়। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-036",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-037",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. All A are C. II. No A is C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. সকলো A C। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-038",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-039",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-040",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-041",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-042",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-043",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-044",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-045",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-046",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-047",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-048",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-049",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-050",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-051",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-052",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; All C are B. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো B A; সকলো C B। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-053",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; No B is C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: কিছু A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-054",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; No B is C. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: কিছু A B; কোনো B C নহয়। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-055",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; No B is C. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: কিছু A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-056",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some C are B. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: সকলো A B; কিছু C B। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-057",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some C are B. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু C B। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-058",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some C are B. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: সকলো A B; কিছু C B। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-059",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; Some C are B. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: কোনো A B নহয়; কিছু C B। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-060",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; Some C are B. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: কোনো A B নহয়; কিছু C B। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-061",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; No C is B. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো B A; কোনো C B নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-062",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; No C is B. Conclusions: I. No C is B. II. Some B are C.",
+      "as": "বিবৃতি: সকলো B A; কোনো C B নহয়। সিদ্ধান্ত: I. কোনো C B নহয়। II. কিছু B C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-063",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All B are A; No C is B. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: সকলো B A; কোনো C B নহয়। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-064",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-065",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-066",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-067",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-068",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-069",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-070",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some A are C. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু A C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-071",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; All B are C. Conclusions: I. No C is A. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; সকলো B C। সিদ্ধান্ত: I. কোনো C A নহয়। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-072",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-073",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-074",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. No A is C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-075",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-076",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-077",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. No C is A. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কোনো C A নহয়। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-078",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. Some A are not C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-079",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. All A are C. II. No A is C.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. সকলো A C। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-080",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. No A is C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কোনো A C নহয়। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-081",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; Some B are C. Conclusions: I. Some A are C. II. No C is A.",
+      "as": "বিবৃতি: সকলো A B; কিছু B C। সিদ্ধান্ত: I. কিছু A C। II. কোনো C A নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-082",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-083",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. Some A are C. II. All A are C.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C। II. সকলো A C।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-084",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. Some A are C. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. কিছু A C। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-085",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. All C are A. II. Some C are A.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. সকলো C A। II. কিছু C A।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-086",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: All A are B; No B is C. Conclusions: I. All C are B. II. Some C are B.",
+      "as": "বিবৃতি: সকলো A B; কোনো B C নহয়। সিদ্ধান্ত: I. সকলো C B। II. কিছু C B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-087",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. No C is A. II. No A is C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কোনো C A নহয়। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-088",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. All A are C. II. No A is C.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. সকলো A C। II. কোনো A C নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-089",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: Some A are B; All B are C. Conclusions: I. Some A are not C. II. All A are B.",
+      "as": "বিবৃতি: কিছু A B; সকলো B C। সিদ্ধান্ত: I. কিছু A C নহয়। II. সকলো A B।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-syllogism-090",
+    "leaf": "syllogism",
+    "q": {
+      "en": "Statements: No A is B; All C are B. Conclusions: I. All A are C. II. Some A are C.",
+      "as": "বিবৃতি: কোনো A B নহয়; সকলো C B। সিদ্ধান্ত: I. সকলো A C। II. কিছু A C।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  }
+]

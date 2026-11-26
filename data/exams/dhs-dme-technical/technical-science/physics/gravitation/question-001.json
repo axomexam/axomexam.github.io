@@ -1,0 +1,924 @@
+[
+  {
+    "id": "physics-005",
+    "q": {
+      "en": "The acceleration due to gravity on Earth is approximately?",
+      "as": "পৃথিৱীত অভিকৰ্ষজ ত্বাৰণ প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "8.9 m/s²",
+        "as": "৮.৯ মি/ছে²"
+      },
+      {
+        "en": "9.8 m/s²",
+        "as": "৯.৮ মি/ছে²"
+      },
+      {
+        "en": "10.8 m/s²",
+        "as": "১০.৮ মি/ছে²"
+      },
+      {
+        "en": "6.7 m/s²",
+        "as": "৬.৭ মি/ছে²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The acceleration due to gravity near the Earth's surface is approximately 9.8 m/s².",
+      "as": "পৃথিৱীৰ পৃষ্ঠৰ ওচৰত অভিকৰ্ষজ ত্বৰণৰ মান প্ৰায় ৯.৮ মি/ছে.²।"
+    }
+  },
+  {
+    "id": "physics-020",
+    "q": {
+      "en": "The escape velocity from the Earth's surface is about?",
+      "as": "পৃথিৱীৰ পৃষ্ঠৰ পৰা পলায়ন বেগ প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "8 km/s",
+        "as": "৮ কিমি/ছে"
+      },
+      {
+        "en": "9.8 km/s",
+        "as": "৯.৮ কিমি/ছে"
+      },
+      {
+        "en": "11.2 km/s",
+        "as": "১১.২ কিমি/ছে"
+      },
+      {
+        "en": "3 × 10^8 km/s",
+        "as": "৩ × ১০^৮ কিমি/ছে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The escape velocity from the Earth's surface is about 11.2 km/s, the minimum speed needed to escape Earth's gravitational field.",
+      "as": "পৃথিৱীৰ পৃষ্ঠৰ পৰা পলায়ন বেগ প্ৰায় ১১.২ কিমি/ছে.; পৃথিৱীৰ মহাকৰ্ষণ ক্ষেত্ৰ এৰি যোৱাৰ বাবে প্ৰয়োজনীয় ন্যূনতম বেগ ইয়েই।"
+    }
+  },
+  {
+    "id": "physics-065",
+    "q": {
+      "en": "The weight of a body is maximum at?",
+      "as": "এটা বস্তুৰ ওজন ক’ত সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "The equator",
+        "as": "বিষুৱৰেখা"
+      },
+      {
+        "en": "The poles",
+        "as": "মেৰু"
+      },
+      {
+        "en": "The centre of Earth",
+        "as": "পৃথিৱীৰ কেন্দ্ৰ"
+      },
+      {
+        "en": "On the Moon",
+        "as": "চন্দ্ৰত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Weight W = mg, and g is maximum at the poles because Earth is flattened at the poles and the polar radius is least. Thus weight is maximum at the poles.",
+      "as": "ওজন W = mg, আৰু মেৰুত g সৰ্বাধিক কাৰণ পৃথিৱী মেৰুত চেপেটা আৰু মেৰুৰ ব্যাসাৰ্ধ সৰ্বনিম্ন। সেয়ে ওজন মেৰুত সৰ্বাধিক হয়।"
+    }
+  },
+  {
+    "id": "physics-066",
+    "q": {
+      "en": "The value of g is zero at?",
+      "as": "g-ৰ মান ক’ত শূন্য?"
+    },
+    "options": [
+      {
+        "en": "Sea level",
+        "as": "সাগৰ পৃষ্ঠ"
+      },
+      {
+        "en": "Poles",
+        "as": "মেৰু"
+      },
+      {
+        "en": "Centre of the Earth",
+        "as": "পৃথিৱীৰ কেন্দ্ৰ"
+      },
+      {
+        "en": "Mount Everest",
+        "as": "মাউণ্ট এভাৰেষ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At the centre of the Earth the mass of the outer shell exerts no net gravitational force, so the effective value of g is zero there. Hence g is zero at the centre.",
+      "as": "পৃথিৱীৰ কেন্দ্ৰত বাহিৰৰ আৱৰণৰ ভৰে মুঠ মহাকৰ্ষণ বল নিদিয়ে, সেয়ে তাত g-ৰ কাৰ্যকৰী মান শূন্য। সেয়ে পৃথিৱীৰ কেন্দ্ৰত g শূন্য।"
+    }
+  },
+  {
+    "id": "physics-097",
+    "q": {
+      "en": "The gravitational force between two bodies is given by?",
+      "as": "দুটা বস্তুৰ মাজৰ মহাকৰ্ষণ বলৰ সূত্ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "F = G m1 m2 / r²",
+        "as": "F = G m1 m2 / r²"
+      },
+      {
+        "en": "F = m a",
+        "as": "F = m a"
+      },
+      {
+        "en": "F = k q1 q2 / r² only for gravity",
+        "as": "কেৱল মহাকৰ্ষণৰ বাবে F = k q1 q2 / r²"
+      },
+      {
+        "en": "F = mv",
+        "as": "F = mv"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Newton's universal law of gravitation states that every particle attracts every other particle with a force F = G m1 m2 / r², where G is the gravitational constant and r is the distance between the two masses.",
+      "as": "নিউটনৰ সাৰ্বজনীন মহাকৰ্ষণ সূত্ৰ অনুসৰি দুটা বস্তুৰ মাজৰ আকৰ্ষণ বল F = G m1 m2 / r², য'ত G মহাকৰ্ষণ ধ্ৰুৱক আৰু r হৈছে দুয়োটা ভৰৰ মাজৰ দূৰত্ব।"
+    }
+  },
+  {
+    "id": "physics-098",
+    "q": {
+      "en": "Who gave the universal law of gravitation?",
+      "as": "সাৰ্বজনীন মহাকৰ্ষণ সূত্ৰ কোনে দিছিল?"
+    },
+    "options": [
+      {
+        "en": "Einstein",
+        "as": "আইনষ্টাইন"
+      },
+      {
+        "en": "Isaac Newton",
+        "as": "আইজাক নিউটন"
+      },
+      {
+        "en": "Galileo",
+        "as": "গেলিলিঅ’"
+      },
+      {
+        "en": "Kepler",
+        "as": "কেপলাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The universal law of gravitation was given by Sir Isaac Newton, published in 1687 in his work Principia.",
+      "as": "সাৰ্বজনীন মহাকৰ্ষণ সূত্ৰ ছাৰ আইজাক নিউটনে দিছিল; ১৬৮৭ চনত তেওঁৰ প্ৰিন্সিপিয়া গ্ৰন্থত ই প্ৰকাশিত হয়।"
+    }
+  },
+  {
+    "id": "physics-133",
+    "q": {
+      "en": "The first Indian satellite was?",
+      "as": "প্ৰথম ভাৰতীয় উপগ্ৰহ কোনটো আছিল?"
+    },
+    "options": [
+      {
+        "en": "Aryabhata",
+        "as": "আৰ্যভট্ট"
+      },
+      {
+        "en": "INSAT-1A",
+        "as": "ইনচেট-১এ"
+      },
+      {
+        "en": "Rohini",
+        "as": "ৰোহিনী"
+      },
+      {
+        "en": "Chandrayaan-1",
+        "as": "চন্দ্ৰযান-১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Aryabhata, launched on 19 April 1975, was India's first satellite. Hence 'Aryabhata' is correct.",
+      "as": "১৯ এপ্ৰিল ১৯৭৫ চনত উৎক্ষেপিত আৰ্যভট্ট ভাৰতৰ প্ৰথম উপগ্ৰহ আছিল। সেয়ে 'আৰ্যভট্ট' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "physics-135",
+    "q": {
+      "en": "Geostationary satellites have a time period of about?",
+      "as": "ভূস্থিৰ উপগ্ৰহৰ পৰ্যায়কাল প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "12 hours",
+        "as": "১২ ঘণ্টা"
+      },
+      {
+        "en": "1 hour",
+        "as": "১ ঘণ্টা"
+      },
+      {
+        "en": "24 hours",
+        "as": "২৪ ঘণ্টা"
+      },
+      {
+        "en": "365 days",
+        "as": "৩৬৫ দিন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A geostationary satellite revolves around the Earth once in 24 hours in the equatorial plane, so it appears stationary over one point. Hence '24 hours' is correct.",
+      "as": "ভূস্থিৰ উপগ্ৰহে বিষুৱৰীয় সমতলত ২৪ ঘণ্টাত এবাৰ পৃথিৱীক প্ৰদক্ষিণ কৰে, সেয়ে ই এটা বিন্দুৰ ওপৰত স্থিৰ দেখা যায়। সেয়ে '২৪ ঘণ্টা' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "physics-246",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The universal law of gravitation states that the force between two bodies is directly proportional to",
+      "as": "সৰ্বজনীন মহাকৰ্ষণ সূত্ৰই কয় যে দুটা বস্তুৰ মাজৰ বল সমানুপাতী"
+    },
+    "options": [
+      {
+        "en": "the product of their masses",
+        "as": "তেওঁলোকৰ ভৰৰ গুণফলৰ"
+      },
+      {
+        "en": "the sum of their masses",
+        "as": "তেওঁলোকৰ ভৰৰ যোগফলৰ"
+      },
+      {
+        "en": "the difference of their masses",
+        "as": "তেওঁলোকৰ ভৰৰ পাৰ্থক্যৰ"
+      },
+      {
+        "en": "the square of the distance",
+        "as": "দূৰত্বৰ বৰ্গৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The force grows with the product of the two masses and falls with the square of the distance between them, which is the inverse square law.",
+      "as": "বলে দুয়ো ভৰৰ গুণফলৰ সৈতে বাঢ়ে আৰু দূৰত্বৰ বৰ্গৰ সৈতে কমে, যি বৰ্গ-ব্যস্তানুপাত সূত্ৰ।"
+    }
+  },
+  {
+    "id": "physics-247",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The value of acceleration due to gravity on the Moon is about",
+      "as": "চন্দ্ৰত মহাকৰ্ষণজনিত ত্বৰণৰ মান প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "one sixth of that on the Earth",
+        "as": "পৃথিৱীৰ ছয় ভাগৰ এক ভাগ"
+      },
+      {
+        "en": "equal to that on the Earth",
+        "as": "পৃথিৱীৰ সমান"
+      },
+      {
+        "en": "six times that on the Earth",
+        "as": "পৃথিৱীৰ ছয় গুণ"
+      },
+      {
+        "en": "zero",
+        "as": "শূন্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Moon has much less mass and a smaller radius, so g there is about 1.6 against 9.8 on the Earth, roughly one sixth.",
+      "as": "চন্দ্ৰৰ ভৰ বহু কম আৰু ব্যাসাৰ্ধ সৰু, সেয়ে তাত g প্ৰায় ১.৬ আৰু পৃথিৱীত ৯.৮, প্ৰায় ছয় ভাগৰ এক ভাগ।"
+    }
+  },
+  {
+    "id": "physics-248",
+    "leaf": "gravitation",
+    "q": {
+      "en": "A body taken to the Moon from the Earth has the same",
+      "as": "পৃথিৱীৰপৰা চন্দ্ৰলৈ নিয়া বস্তুৰ একেই থাকে"
+    },
+    "options": [
+      {
+        "en": "mass",
+        "as": "ভৰ"
+      },
+      {
+        "en": "weight",
+        "as": "ওজন"
+      },
+      {
+        "en": "acceleration due to gravity",
+        "as": "মহাকৰ্ষণজনিত ত্বৰণ"
+      },
+      {
+        "en": "falling speed",
+        "as": "পতনৰ গতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mass is the amount of matter and does not change with location, but weight depends on g and drops to about one sixth.",
+      "as": "ভৰ পদাৰ্থৰ পৰিমাণ আৰু ঠাইৰ সৈতে নসলায়, কিন্তু ওজন g ৰ ওপৰত নিৰ্ভৰ কৰি প্ৰায় ছয় ভাগৰ এক ভাগ হয়।"
+    }
+  },
+  {
+    "id": "physics-249",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The escape velocity from the Earth is about",
+      "as": "পৃথিৱীৰপৰা মুক্তি বেগ প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "11.2 kilometres per second",
+        "as": "১১.২ কিলোমিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "9.8 metres per second",
+        "as": "৯.৮ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "7.9 metres per second",
+        "as": "৭.৯ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "3 times ten to the eight metres per second",
+        "as": "৩ গুণ দহৰ ঘাত আঠ মিটাৰ প্ৰতি ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A body must be given about eleven point two kilometres per second to break free of the Earth's gravity. That is far beyond any ordinary speed.",
+      "as": "বস্তু এটাই পৃথিৱীৰ মহাকৰ্ষণ এৰিবলৈ প্ৰায় এঘাৰ দশমিক দুই কিলোমিটাৰ প্ৰতি ছেকেণ্ড বেগ পাব লাগে। যি সাধাৰণ গতিৰ বহু ওপৰত।"
+    }
+  },
+  {
+    "id": "physics-250",
+    "leaf": "gravitation",
+    "q": {
+      "en": "A geostationary satellite appears stationary because it",
+      "as": "ভূ-স্থিৰ উপগ্ৰহ স্থিৰ দেখা যায় কাৰণ ই"
+    },
+    "options": [
+      {
+        "en": "completes one orbit in twenty-four hours",
+        "as": "চৌৱিছ ঘণ্টাত এটা কক্ষপথ পূৰ্ণ কৰে"
+      },
+      {
+        "en": "moves faster than the Earth turns",
+        "as": "পৃথিৱী ঘূৰাতকৈ দ্ৰুত চলে"
+      },
+      {
+        "en": "stays exactly above the poles",
+        "as": "ঠিক মেৰুৰ ওপৰত থাকে"
+      },
+      {
+        "en": "has no mass",
+        "as": "ভৰ নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Its period matches the Earth's rotation, so it stays over the same point of the equator. A satellite over the poles cannot be geostationary.",
+      "as": "তাৰ কাল পৃথিৱীৰ ঘূৰ্ণনৰ সৈতে মিলে, সেয়ে ই বিষুৱৰেখাৰ একেই বিন্দুৰ ওপৰত থাকে। মেৰুৰ ওপৰৰ উপগ্ৰহ ভূ-স্থিৰ হ'ব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "physics-251",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The gravitational force between two bodies is called a central force because it acts",
+      "as": "দুটা বস্তুৰ মাজৰ মহাকৰ্ষণ বলক কেন্দ্ৰী বল বোলা হয় কাৰণ ই ক্ৰিয়া কৰে"
+    },
+    "options": [
+      {
+        "en": "along the line joining their centres",
+        "as": "তেওঁলোকৰ কেন্দ্ৰ সংযোগী ৰেখাৰে"
+      },
+      {
+        "en": "perpendicular to the line joining their centres",
+        "as": "কেন্দ্ৰ সংযোগী ৰেখাৰ লম্বভাৱে"
+      },
+      {
+        "en": "only upwards",
+        "as": "কেৱল ওপৰলৈ"
+      },
+      {
+        "en": "only along the surface",
+        "as": "কেৱল পৃষ্ঠৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The force acts along the line joining the two centres, which is what makes it a central force. It is always attractive.",
+      "as": "বলে দুয়ো কেন্দ্ৰ সংযোগী ৰেখাৰে ক্ৰিয়া কৰে, সেয়ে ই কেন্দ্ৰী বল। ই সদায় আকৰ্ষণশীল।"
+    }
+  },
+  {
+    "id": "physics-252",
+    "leaf": "gravitation",
+    "q": {
+      "en": "If the distance between two bodies is doubled, the gravitational force becomes",
+      "as": "দুটা বস্তুৰ মাজৰ দূৰত্ব দুগুণ কৰিলে মহাকৰ্ষণ বল হয়"
+    },
+    "options": [
+      {
+        "en": "one fourth",
+        "as": "চাৰি ভাগৰ এক ভাগ"
+      },
+      {
+        "en": "half",
+        "as": "আধা"
+      },
+      {
+        "en": "double",
+        "as": "দুগুণ"
+      },
+      {
+        "en": "four times",
+        "as": "চাৰিগুণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Force varies as the inverse square of distance, so doubling the distance cuts it to one fourth. Halving the distance would make it four times.",
+      "as": "বল দূৰত্বৰ বৰ্গৰ ব্যস্তানুপাতে থাকে, সেয়ে দূৰত্ব দুগুণ কৰিলে চাৰি ভাগৰ এক ভাগ হয়। আধা কৰিলে চাৰিগুণ হ'ব।"
+    }
+  },
+  {
+    "id": "physics-253",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The weight of a body at the centre of the Earth would be",
+      "as": "পৃথিৱীৰ কেন্দ্ৰত বস্তু এটাৰ ওজন হ'ব"
+    },
+    "options": [
+      {
+        "en": "zero",
+        "as": "শূন্য"
+      },
+      {
+        "en": "maximum",
+        "as": "সৰ্বোচ্চ"
+      },
+      {
+        "en": "equal to its mass",
+        "as": "তাৰ ভৰৰ সমান"
+      },
+      {
+        "en": "infinite",
+        "as": "অসীম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At the centre the pull from all directions cancels, so g is zero and the weight is zero, although the mass is unchanged.",
+      "as": "কেন্দ্ৰত সকলো দিশৰ পৰা টান বাতিল হয়, সেয়ে g শূন্য আৰু ওজন শূন্য, যদিও ভৰ অপৰিৱৰ্তিত।"
+    }
+  },
+  {
+    "id": "physics-254",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The force that keeps the planets moving around the Sun is",
+      "as": "গ্ৰহবোৰক সূৰ্যৰ চাৰিওফালে ঘূৰাই ৰখা বলটো"
+    },
+    "options": [
+      {
+        "en": "gravitational force",
+        "as": "মহাকৰ্ষণ বল"
+      },
+      {
+        "en": "centrifugal force only",
+        "as": "কেৱল কেন্দ্ৰবিমুখী বল"
+      },
+      {
+        "en": "magnetic force",
+        "as": "চুম্বকীয় বল"
+      },
+      {
+        "en": "electric force",
+        "as": "বৈদ্যুতিক বল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The Sun's gravity provides the centripetal pull that bends each planet's path into an orbit. Magnetism is far too weak over these distances.",
+      "as": "সূৰ্যৰ মহাকৰ্ষণে কেন্দ্ৰমুখী টান দিয়ে যি প্ৰতিটো গ্ৰহৰ পথ কক্ষপথলৈ বেঁকা কৰে। এই দূৰত্বত চুম্বকত্ব বহু দুৰ্বল।"
+    }
+  },
+  {
+    "id": "physics-255",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The acceleration due to gravity does not depend on",
+      "as": "মহাকৰ্ষণজনিত ত্বৰণ কিৰ ওপৰত নিৰ্ভৰ নকৰে"
+    },
+    "options": [
+      {
+        "en": "the mass of the falling body",
+        "as": "পতনশীল বস্তুৰ ভৰৰ"
+      },
+      {
+        "en": "the mass of the Earth",
+        "as": "পৃথিৱীৰ ভৰৰ"
+      },
+      {
+        "en": "the radius of the Earth",
+        "as": "পৃথিৱীৰ ব্যাসাৰ্ধৰ"
+      },
+      {
+        "en": "the gravitational constant",
+        "as": "মহাকৰ্ষণ ধ্ৰুৱকৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All bodies fall with the same acceleration because the greater force on a heavier body is exactly offset by its greater inertia. This is why a feather and a coin fall alike in vacuum.",
+      "as": "সকলো বস্তু একেই ত্বৰণেৰে পৰে কাৰণ গধুৰ বস্তুৰ ওপৰত বেছি বল তাৰ বেছি জড়তাই ঠিক পূৰণ কৰে। সেয়ে শূন্যত পাখি আৰু মুদ্ৰা একেই পৰে।"
+    }
+  },
+  {
+    "id": "physics-256",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The gravitational constant G has the value",
+      "as": "মহাকৰ্ষণ ধ্ৰুৱক G ৰ মান"
+    },
+    "options": [
+      {
+        "en": "6.67 times ten to the power minus eleven",
+        "as": "৬.৬৭ গুণ দহৰ ঘাত মাইনাছ এঘাৰ"
+      },
+      {
+        "en": "9.8",
+        "as": "৯.৮"
+      },
+      {
+        "en": "6.02 times ten to the power twenty-three",
+        "as": "৬.০২ গুণ দহৰ ঘাত তেইছ"
+      },
+      {
+        "en": "3 times ten to the power eight",
+        "as": "৩ গুণ দহৰ ঘাত আঠ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "G is about six point six seven times ten to the power minus eleven in SI units, measured by Cavendish. The value 9.8 is g, not G.",
+      "as": "G প্ৰায় ছয় দশমিক ছয় সাত গুণ দহৰ ঘাত মাইনাছ এঘাৰ SI এককত, কেভেণ্ডিছে জুখিছিল। ৯.৮ হ'ল g, G নহয়।"
+    }
+  },
+  {
+    "id": "physics-257",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The weight of a body of mass 10 kg on the Earth is about",
+      "as": "পৃথিৱীত ১০ কিলোগ্ৰাম ভৰৰ বস্তুৰ ওজন প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "98 newton",
+        "as": "৯৮ নিউটন"
+      },
+      {
+        "en": "10 newton",
+        "as": "১০ নিউটন"
+      },
+      {
+        "en": "9.8 newton",
+        "as": "৯.৮ নিউটন"
+      },
+      {
+        "en": "980 newton",
+        "as": "৯৮০ নিউটন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Weight is mass times g, so ten times nine point eight gives ninety-eight newton. Ten newton would be the weight of about one kilogram.",
+      "as": "ওজন ভৰ গুণ g, সেয়ে দহ গুণ ন দশমিক আঠ = আঠানব্বৈ নিউটন। দহ নিউটন প্ৰায় এক কিলোগ্ৰামৰ ওজন।"
+    }
+  },
+  {
+    "id": "physics-258",
+    "leaf": "gravitation",
+    "q": {
+      "en": "Kepler's first law states that the orbit of a planet around the Sun is",
+      "as": "কেপলাৰৰ প্ৰথম সূত্ৰই কয় যে সূৰ্যৰ চাৰিওফালে গ্ৰহৰ কক্ষপথ"
+    },
+    "options": [
+      {
+        "en": "an ellipse with the Sun at one focus",
+        "as": "উপবৃত্ত যিৰ এটা নাভিত সূৰ্য"
+      },
+      {
+        "en": "a perfect circle with the Sun at the centre",
+        "as": "নিখুঁত বৃত্ত যিৰ কেন্দ্ৰত সূৰ্য"
+      },
+      {
+        "en": "a straight line",
+        "as": "সৰল ৰেখা"
+      },
+      {
+        "en": "a parabola always",
+        "as": "সদায় পেৰাব'লা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Planetary orbits are ellipses with the Sun at one focus, so the distance from the Sun changes through the year. A circle is a special case.",
+      "as": "গ্ৰহৰ কক্ষপথ উপবৃত্ত যিৰ এটা নাভিত সূৰ্য, সেয়ে বছৰজুৰি সূৰ্যৰপৰা দূৰত্ব সলনি হয়। বৃত্ত এটা বিশেষ ক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "physics-259",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The time period of a satellite close to the Earth's surface is about",
+      "as": "পৃথিৱীৰ পৃষ্ঠৰ ওচৰত উপগ্ৰহ এটাৰ কাল প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "84 minutes",
+        "as": "৮৪ মিনিট"
+      },
+      {
+        "en": "24 hours",
+        "as": "২৪ ঘণ্টা"
+      },
+      {
+        "en": "1 hour",
+        "as": "১ ঘণ্টা"
+      },
+      {
+        "en": "365 days",
+        "as": "৩৬৫ দিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A low orbit satellite circles the Earth in roughly eighty-four minutes. Twenty-four hours is the period of a geostationary orbit, far higher up.",
+      "as": "নিম্ন কক্ষপথৰ উপগ্ৰহই প্ৰায় চৌৰাশি মিনিটত পৃথিৱী প্ৰদক্ষিণ কৰে। চৌৱিছ ঘণ্টা ভূ-স্থিৰ কক্ষপথৰ কাল, যি বহু ওপৰত।"
+    }
+  },
+  {
+    "id": "physics-260",
+    "leaf": "gravitation",
+    "q": {
+      "en": "Weight is a",
+      "as": "ওজন এটা"
+    },
+    "options": [
+      {
+        "en": "vector quantity measured in newton",
+        "as": "সদিশ ৰাশি যি নিউটনত জোখা হয়"
+      },
+      {
+        "en": "scalar quantity measured in kilogram",
+        "as": "অদিশ ৰাশি যি কিলোগ্ৰামত জোখা হয়"
+      },
+      {
+        "en": "scalar quantity measured in newton",
+        "as": "অদিশ ৰাশি যি নিউটনত জোখা হয়"
+      },
+      {
+        "en": "vector quantity measured in kilogram",
+        "as": "সদিশ ৰাশি যি কিলোগ্ৰামত জোখা হয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Weight is a force, so it has direction and is measured in newton. Mass is a scalar measured in kilogram.",
+      "as": "ওজন এটা বল, সেয়ে ইয়াৰ দিশ আছে আৰু নিউটনত জোখা হয়। ভৰ অদিশ ৰাশি আৰু কিলোগ্ৰামত জোখা হয়।"
+    }
+  },
+  {
+    "id": "physics-261",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The atmosphere is held close to the Earth by",
+      "as": "বায়ুমণ্ডল পৃথিৱীৰ ওচৰত ধৰি ৰখা হয় কিৰে"
+    },
+    "options": [
+      {
+        "en": "gravitational attraction",
+        "as": "মহাকৰ্ষণ আকৰ্ষণেৰে"
+      },
+      {
+        "en": "magnetic force",
+        "as": "চুম্বকীয় বলেৰে"
+      },
+      {
+        "en": "air pressure",
+        "as": "বায়ুৰ চাপেৰে"
+      },
+      {
+        "en": "rotation of the Earth",
+        "as": "পৃথিৱীৰ ঘূৰ্ণনেৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each gas molecule is pulled towards the Earth's centre, so the atmosphere stays bound to the planet instead of drifting into space.",
+      "as": "প্ৰতিটো গেছৰ অণু পৃথিৱীৰ কেন্দ্ৰলৈ টানি হয়, সেয়ে বায়ুমণ্ডল মহাকাশলৈ নগৈ গ্ৰহতেই বন্ধা থাকে।"
+    }
+  },
+  {
+    "id": "physics-262",
+    "leaf": "gravitation",
+    "q": {
+      "en": "Two bodies attract each other with equal and opposite forces. This follows from",
+      "as": "দুটা বস্তুৱে সমান আৰু বিপৰীত বলেৰে পৰস্পৰক আকৰ্ষণ কৰে। এইয়া কিৰপৰা হয়"
+    },
+    "options": [
+      {
+        "en": "Newton's third law",
+        "as": "নিউটনৰ তৃতীয় সূত্ৰৰপৰা"
+      },
+      {
+        "en": "Newton's first law",
+        "as": "নিউটনৰ প্ৰথম সূত্ৰৰপৰা"
+      },
+      {
+        "en": "the law of conservation of energy",
+        "as": "শক্তি সংৰক্ষণ সূত্ৰৰপৰা"
+      },
+      {
+        "en": "Pascal's law",
+        "as": "পাস্কেলৰ সূত্ৰৰপৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every action has an equal and opposite reaction, so the pull of A on B equals the pull of B on A. The accelerations differ because the masses differ.",
+      "as": "প্ৰতিটো ক্ৰিয়াৰ সমান আৰু বিপৰীত প্ৰতিক্ৰিয়া, সেয়ে A ৰ টান B ত আৰু B ৰ টান A ত সমান। ভৰ বেলেগ হোৱা বাবে ত্বৰণ বেলেগ।"
+    }
+  },
+  {
+    "id": "physics-263",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The value of g decreases as we go",
+      "as": "আমি ক'লৈ গ'লে g ৰ মান কমে"
+    },
+    "options": [
+      {
+        "en": "above the Earth's surface",
+        "as": "পৃথিৱীৰ পৃষ্ঠৰ ওপৰলৈ"
+      },
+      {
+        "en": "towards the Earth's centre only",
+        "as": "কেৱল পৃথিৱীৰ কেন্দ্ৰলৈ"
+      },
+      {
+        "en": "along the equator",
+        "as": "বিষুৱৰেখাৰে"
+      },
+      {
+        "en": "towards the poles",
+        "as": "মেৰুলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Above the surface g falls with the square of the distance from the centre. Below the surface it also falls, but that is a separate case.",
+      "as": "পৃষ্ঠৰ ওপৰত g কেন্দ্ৰৰপৰা দূৰত্বৰ বৰ্গৰ সৈতে কমে। পৃষ্ঠৰ তলতো কমে, কিন্তু সেয়া বেলেগ ক্ষেত্ৰ।"
+    }
+  },
+  {
+    "id": "physics-264",
+    "leaf": "gravitation",
+    "q": {
+      "en": "An astronaut in an orbiting spacecraft feels weightless because",
+      "as": "কক্ষপথত থকা মহাকাশযানত মহাকাশচাৰীয়ে ওজনহীন অনুভৱ কৰে কাৰণ"
+    },
+    "options": [
+      {
+        "en": "the spacecraft and astronaut fall together at the same rate",
+        "as": "মহাকাশযান আৰু মহাকাশচাৰী একেই হাৰত পৰে"
+      },
+      {
+        "en": "there is no gravity in space",
+        "as": "মহাকাশত মহাকৰ্ষণ নাই"
+      },
+      {
+        "en": "gravity is balanced by magnetism",
+        "as": "মহাকৰ্ষণ চুম্বকত্বই ভাৰসাম্য কৰে"
+      },
+      {
+        "en": "the astronaut has no mass",
+        "as": "মহাকাশচাৰীৰ ভৰ নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both are in free fall around the Earth, so nothing presses them together and the normal reaction is zero. Gravity is still acting strongly.",
+      "as": "দুয়োটা পৃথিৱীৰ চাৰিওফালে মুক্ত পতনত, সেয়ে একোৱে হেঁচা নিদিয়ে আৰু অভিলম্ব প্ৰতিক্ৰিয়া শূন্য। মহাকৰ্ষণ তথাপিও বৰকৈ ক্ৰিয়া কৰি আছে।"
+    }
+  },
+  {
+    "id": "physics-265",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The mass of a body is a measure of its",
+      "as": "বস্তু এটাৰ ভৰ তাৰ কিৰ জোখ"
+    },
+    "options": [
+      {
+        "en": "inertia",
+        "as": "জড়তাৰ"
+      },
+      {
+        "en": "weight",
+        "as": "ওজনৰ"
+      },
+      {
+        "en": "volume",
+        "as": "আয়তনৰ"
+      },
+      {
+        "en": "density",
+        "as": "ঘনত্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mass tells how strongly a body resists a change in its state of motion, which is inertia. Weight depends on g and is a force.",
+      "as": "ভৰে বস্তুৱে গতিৰ অৱস্থা সলনি কৰাৰ প্ৰতিৰোধ কিমান বেছি দেখুৱায়, যি জড়তা। ওজন g ৰ ওপৰত নিৰ্ভৰ কৰা বল।"
+    }
+  },
+  {
+    "id": "physics-266",
+    "leaf": "gravitation",
+    "q": {
+      "en": "The gravitational force between two one kilogram bodies placed one metre apart is about",
+      "as": "এক মিটাৰ দূৰত্বত ৰখা এক কিলোগ্ৰামৰ দুটা বস্তুৰ মাজৰ মহাকৰ্ষণ বল প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "6.67 times ten to the power minus eleven newton",
+        "as": "৬.৬৭ গুণ দহৰ ঘাত মাইনাছ এঘাৰ নিউটন"
+      },
+      {
+        "en": "9.8 newton",
+        "as": "৯.৮ নিউটন"
+      },
+      {
+        "en": "1 newton",
+        "as": "১ নিউটন"
+      },
+      {
+        "en": "6.67 newton",
+        "as": "৬.৬৭ নিউটন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substituting both masses as one kilogram and distance as one metre gives G itself, which is tiny. That is why we do not notice the pull between everyday objects.",
+      "as": "দুয়ো ভৰ এক কিলোগ্ৰাম আৰু দূৰত্ব এক মিটাৰ দিলে G নিজেই পোৱা যায়, যি অতি সৰু। সেয়ে দৈনন্দিন বস্তুৰ মাজৰ টান আমি নুবুজোঁ।"
+    }
+  },
+  {
+    "id": "physics-267",
+    "leaf": "gravitation",
+    "q": {
+      "en": "A body weighs more at the poles than at the equator because",
+      "as": "বিষুৱৰেখাতকৈ মেৰুত বস্তুৰ ওজন বেছি কাৰণ"
+    },
+    "options": [
+      {
+        "en": "the Earth is flattened at the poles and spins about its axis",
+        "as": "পৃথিৱী মেৰুত চেপেটা আৰু অক্ষত ঘূৰে"
+      },
+      {
+        "en": "the poles are colder",
+        "as": "মেৰু ঠাণ্ডা"
+      },
+      {
+        "en": "the air is thinner at the poles",
+        "as": "মেৰুত বায়ু পাতল"
+      },
+      {
+        "en": "gravity acts only at the poles",
+        "as": "মহাকৰ্ষণ কেবল মেৰুত ক্ৰিয়া কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The polar radius is smaller, so g is larger, and the spin gives a small outward effect at the equator that further reduces the effective weight there.",
+      "as": "মেৰুৰ ব্যাসাৰ্ধ সৰু, সেয়ে g ডাঙৰ, আৰু ঘূৰ্ণনে বিষুৱৰেখাত সৰু বাহিৰমুখী প্ৰভাৱ দি প্ৰভাৱী ওজন আৰু কমায়।"
+    }
+  }
+]

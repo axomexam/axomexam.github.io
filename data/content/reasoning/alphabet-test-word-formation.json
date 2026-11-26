@@ -1,0 +1,261 @@
+{
+  "id": "alphabet_word_formation",
+  "title": { "en": "Alphabet Test & Word Formation (Assam Competitive Exams)", "as": "বৰ্ণ পৰীক্ষা আৰু শব্দ গঠন (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)" },
+  "description": { "en": "Dictionary order, letter-position puzzles, meaningful word formation from letters, and jumbled-word rearrangement.", "as": "অভিধান ক্রম, বৰ্ণ-অৱস্থান সমস্যা, বৰ্ণবোৰৰ পৰা অৰ্থবোধক শব্দ গঠন আৰু এলোমেলো শব্দ সজোৱা।" },
+  "tags": ["reasoning", "alphabet", "word-formation", "যুক্তি", "বৰ্ণ"],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "dictionary",
+      "q": { "en": "Arrange in dictionary order: Apple, Mango, Banana, Cherry. Which comes first?", "as": "অভিধান ক্রমত সজাওক: Apple, Mango, Banana, Cherry। কোনটো সৰ্বপ্রথম আহিব?" },
+      "options": [
+        { "option": "A", "en": "Apple", "as": "Apple" },
+        { "option": "B", "en": "Mango", "as": "Mango" },
+        { "option": "C", "en": "Banana", "as": "Banana" },
+        { "option": "D", "en": "Cherry", "as": "Cherry" }
+      ],
+      "a": "A",
+      "explanation": { "en": "'Apple' begins with the letter 'A', which is the earliest in the alphabet, so it comes first in dictionary order; the other words start with B, C and M.", "as": "'Apple' ৰ প্ৰথম বৰ্ণ 'A' বৰ্ণমালাত সৰ্বপ্ৰথম, গতিকে অভিধান ক্রমত 'Apple' প্ৰথমে আহে; আনবোৰ B, C আৰু M ৰ পৰা আৰম্ভ হয়।" }
+    },
+    {
+      "type": "position",
+      "q": { "en": "Which letter is 4th to the left of the 10th letter from the left in the alphabet?", "as": "বৰ্ণমালাত বাওঁ ফালৰ পৰা 10ম বৰ্ণৰ পৰা 4টা বাওঁ ফালে কোনটো বৰ্ণ আছে?" },
+      "options": [
+        { "option": "A", "en": "E", "as": "E" },
+        { "option": "B", "en": "F", "as": "F" },
+        { "option": "C", "en": "G", "as": "G" },
+        { "option": "D", "en": "D", "as": "D" }
+      ],
+      "a": "B",
+      "explanation": { "en": "The 10th letter is J, and moving four places to the left gives F (J-I-H-G-F), so the answer is F.", "as": "10ম বৰ্ণটো J, আৰু চাৰি ঠাই বাওঁফালে গলে F পোৱা যায় (J-I-H-G-F), গতিকে উত্তৰ F।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "Which word cannot be formed from the letters of the word CONVERSATION?", "as": "CONVERSATION শব্দটোৰ বৰ্ণবোৰেৰে কোনটো শব্দ গঠন কৰিব নোৱাৰি?" },
+      "options": [
+        { "option": "A", "en": "Version", "as": "Version" },
+        { "option": "B", "en": "Station", "as": "Station" },
+        { "option": "C", "en": "Nation", "as": "Nation" },
+        { "option": "D", "en": "Convert", "as": "Convert" }
+      ],
+      "a": "B",
+      "explanation": { "en": "STATION needs two T's, but CONVERSATION contains only one T, so it cannot be formed; the other words use only the available letters.", "as": "STATION গঠন কৰিবলৈ দুটা T লাগে, কিন্তু CONVERSATION ত এটা T হে আছে, গতিকে STATION গঠন কৰিব নোৱাৰি; বাকীবোৰ শব্দই উপলব্ধ বৰ্ণহে ব্যৱহাৰ কৰে।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "How many meaningful words can be formed using the letters A, R, T?", "as": "A, R, T বৰ্ণবোৰ ব্যৱহাৰ কৰি কিমানটা অৰ্থবোধক শব্দ গঠন কৰিব পাৰি?" },
+      "options": [
+        { "option": "A", "en": "1", "as": "১" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "3", "as": "৩" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "C",
+      "explanation": { "en": "Using all three letters A, R and T, three meaningful words are formed: ART, RAT and TAR.", "as": "A, R আৰু T তিনিওটা বৰ্ণ ব্যৱহাৰ কৰি তিনিটা অৰ্থবোধক শব্দ গঠন কৰিব পাৰি: ART, RAT আৰু TAR।" }
+    },
+    {
+      "type": "rearrange",
+      "q": { "en": "Rearrange the letters of the word ORANGE alphabetically. Which letter is 3rd in the new arrangement?", "as": "ORANGE শব্দটোৰ বৰ্ণবোৰ অভিধান ক্রমত সজাওক। নতুন ক্রমত 3য় বৰ্ণটো কোনটো?" },
+      "options": [
+        { "option": "A", "en": "A", "as": "A" },
+        { "option": "B", "en": "G", "as": "G" },
+        { "option": "C", "en": "E", "as": "E" },
+        { "option": "D", "en": "N", "as": "N" }
+      ],
+      "a": "B",
+      "explanation": { "en": "Arranging ORANGE alphabetically gives A, E, G, N, O, R, so the third letter is G.", "as": "ORANGE ৰ বৰ্ণবোৰ অভিধান ক্রমত সজালে A, E, G, N, O, R হয়, গতিকে তৃতীয় বৰ্ণটো G।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "Which of the following words cannot be formed from the letters of EXAMINATION?", "as": "EXAMINATION শব্দটোৰ বৰ্ণবোৰেৰে নিম্নলিখিত কোনটো শব্দ গঠন কৰিব নোৱাৰি?" },
+      "options": [
+        { "option": "A", "en": "Nation", "as": "Nation" },
+        { "option": "B", "en": "Exam", "as": "Exam" },
+        { "option": "C", "en": "Motion", "as": "Motion" },
+        { "option": "D", "en": "Mini", "as": "Mini" }
+      ],
+      "a": "C",
+      "explanation": { "en": "MOTION requires two O's, but EXAMINATION has only one O, so MOTION cannot be formed; the other options can all be made from its letters.", "as": "MOTION গঠন কৰিবলৈ দুটা O লাগে, কিন্তু EXAMINATION ত এটা O হে আছে, গতিকে MOTION গঠন কৰিব নোৱাৰি; বাকী বিকল্পবোৰ ইয়াৰ বৰ্ণেৰে গঠন কৰিব পাৰি।" }
+    },
+    {
+      "type": "jumbled",
+      "q": { "en": "Which word is formed by rearranging the letters of RNIGONM?", "as": "RNIGONM বৰ্ণবোৰ সজাই কোনটো শব্দ পোৱা যায়?" },
+      "options": [
+        { "option": "A", "en": "MORNING", "as": "MORNING" },
+        { "option": "B", "en": "MIRNONG", "as": "MIRNONG" },
+        { "option": "C", "en": "GRINMON", "as": "GRINMON" },
+        { "option": "D", "en": "NORINGM", "as": "NORINGM" }
+      ],
+      "a": "A",
+      "explanation": { "en": "The letters of RNIGONM rearrange to form MORNING; the other options are not meaningful English words.", "as": "RNIGONM ৰ বৰ্ণবোৰ সজাই MORNING শব্দ গঠন কৰিব পাৰি; বাকী বিকল্পবোৰ অৰ্থবোধক ইংৰাজী শব্দ নহয়।" }
+    },
+    {
+      "type": "dictionary",
+      "q": { "en": "Which of these words comes first in dictionary order: Examination, Examine, Example, Execute?", "as": "অভিধান ক্রমত এই শব্দবোৰৰ ভিতৰত কোনটো সৰ্বপ্রথম: Examination, Examine, Example, Execute?" },
+      "options": [
+        { "option": "A", "en": "Example", "as": "Example" },
+        { "option": "B", "en": "Examine", "as": "Examine" },
+        { "option": "C", "en": "Examination", "as": "Examination" },
+        { "option": "D", "en": "Execute", "as": "Execute" }
+      ],
+      "a": "C",
+      "explanation": { "en": "After the common 'Exam', 'Examination' has 'ina' while 'Examine' has 'ine'; since 'a' precedes 'e', Examination comes first.", "as": "সাধাৰণ 'Exam' ৰ পিছত 'Examination' ত 'ina' আৰু 'Examine' ত 'ine' আছে; 'a' 'e' ৰ আগত আহে, গতিকে Examination প্ৰথমে আহে।" }
+    },
+    {
+      "type": "position",
+      "q": { "en": "Which letter is 3rd to the right of the 7th letter from the left in the alphabet?", "as": "বৰ্ণমালাত বাওঁ ফালৰ পৰা 7ম বৰ্ণৰ পৰা 3টা সোঁ ফালে কোনটো বৰ্ণ আছে?" },
+      "options": [
+        { "option": "A", "en": "J", "as": "J" },
+        { "option": "B", "en": "K", "as": "K" },
+        { "option": "C", "en": "I", "as": "I" },
+        { "option": "D", "en": "L", "as": "L" }
+      ],
+      "a": "A",
+      "explanation": { "en": "The 7th letter is G, and moving three places to the right gives J (G-H-I-J).", "as": "7ম বৰ্ণটো G, আৰু তিনি ঠাই সোঁফালে গলে J পোৱা যায় (G-H-I-J)।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "Which meaningful word can be made from the letters of GARDEN?", "as": "GARDEN শব্দটোৰ বৰ্ণবোৰেৰে কোনটো অৰ্থবোধক শব্দ গঠন কৰিব পাৰি?" },
+      "options": [
+        { "option": "A", "en": "Danger", "as": "Danger" },
+        { "option": "B", "en": "Gander", "as": "Gander" },
+        { "option": "C", "en": "Ranged", "as": "Ranged" },
+        { "option": "D", "en": "All of these", "as": "এই সকলোবোৰ" }
+      ],
+      "a": "D",
+      "explanation": { "en": "DANGER, GANDER and RANGED all use exactly the six letters of GARDEN, so all of them are meaningful words and all options are correct.", "as": "DANGER, GANDER আৰু RANGED — এইবোৰেই GARDEN ৰ ছয়টা বৰ্ণৰে গঠিত অৰ্থবোধক শব্দ, গতিকে সকলো বিকল্পই শুদ্ধ।" }
+    },
+    {
+      "type": "dictionary",
+      "q": { "en": "Arrange in dictionary order: Diamond, Dinner, Director, Dimple. Which comes first?", "as": "অভিধান ক্রমত সজাওক: Diamond, Dinner, Director, Dimple। কোনটো সৰ্বপ্রথম?" },
+      "options": [
+        { "option": "A", "en": "Diamond", "as": "Diamond" },
+        { "option": "B", "en": "Dinner", "as": "Dinner" },
+        { "option": "C", "en": "Director", "as": "Director" },
+        { "option": "D", "en": "Dimple", "as": "Dimple" }
+      ],
+      "a": "A",
+      "explanation": { "en": "All four words begin with 'Di'; the third letter decides the order, and 'a' in Diamond comes before 'm', 'n' and 'r', making Diamond first.", "as": "চাৰিওটা শব্দ 'Di' ৰে আৰম্ভ হয়; তৃতীয় বৰ্ণই ক্রম নিৰ্ধাৰণ কৰে, আৰু Diamond ৰ 'a' — 'm', 'n', 'r' তকৈ আগত, গতিকে Diamond প্ৰথম।" }
+    },
+    {
+      "type": "jumbled",
+      "q": { "en": "Rearrange THEACR to form a meaningful word. What is the word?", "as": "THEACR বৰ্ণবোৰ সজাই অৰ্থবোধক শব্দ গঠন কৰক। শব্দটো কি?" },
+      "options": [
+        { "option": "A", "en": "RACETH", "as": "RACETH" },
+        { "option": "B", "en": "CHEART", "as": "CHEART" },
+        { "option": "C", "en": "TEACHER", "as": "TEACHER" },
+        { "option": "D", "en": "CREATH", "as": "CREATH" }
+      ],
+      "a": "C",
+      "explanation": { "en": "THEACR rearranges to TEACHER; the other options are not meaningful words.", "as": "THEACR ৰ বৰ্ণবোৰ সজাই TEACHER শব্দ গঠন কৰিব পাৰি; বাকী বিকল্পবোৰ অৰ্থবোধক শব্দ নহয়।" }
+    },
+    {
+      "type": "position",
+      "q": { "en": "If the alphabet is written in reverse order (Z to A), which letter is 5th from the left?", "as": "বৰ্ণমালা বিপৰীত ক্রমত (Z ৰ পৰা A) লিখিলে বাওঁ ফালৰ পৰা 5ম বৰ্ণটো কোনটো?" },
+      "options": [
+        { "option": "A", "en": "V", "as": "V" },
+        { "option": "B", "en": "W", "as": "W" },
+        { "option": "C", "en": "U", "as": "U" },
+        { "option": "D", "en": "X", "as": "X" }
+      ],
+      "a": "A",
+      "explanation": { "en": "Writing the alphabet in reverse gives Z, Y, X, W, V, so the 5th letter from the left is V.", "as": "বৰ্ণমালা বিপৰীত ক্রমত লিখিলে Z, Y, X, W, V হয়, গতিকে বাওঁফালৰ পৰা 5ম বৰ্ণটো V।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "From the letters of the word ASSAMESE, which of these words can be formed?", "as": "ASSAMESE শব্দটোৰ বৰ্ণবোৰেৰে এই শব্দবোৰৰ কোনটো গঠন কৰিব পাৰি?" },
+      "options": [
+        { "option": "A", "en": "Same", "as": "Same" },
+        { "option": "B", "en": "Seas", "as": "Seas" },
+        { "option": "C", "en": "Mesa", "as": "Mesa" },
+        { "option": "D", "en": "All of these", "as": "এই সকলোবোৰ" }
+      ],
+      "a": "D",
+      "explanation": { "en": "ASSAMESE contains two A's, three S's, two E's and one M, which are enough to form SAME, SEAS and MESA, so all are possible.", "as": "ASSAMESE ত দুটা A, তিনিটা S, দুটা E আৰু এটা M আছে, যাৰ দ্বাৰা SAME, SEAS আৰু MESA গঠন কৰিব পাৰি, গতিকে সকলো সম্ভৱ।" }
+    },
+    {
+      "type": "dictionary",
+      "q": { "en": "Which of these words comes last in dictionary order: Great, Ground, Green, Grape?", "as": "অভিধান ক্রমত এই শব্দবোৰৰ ভিতৰত কোনটো সৰ্বশেষ আহিব: Great, Ground, Green, Grape?" },
+      "options": [
+        { "option": "A", "en": "Great", "as": "Great" },
+        { "option": "B", "en": "Ground", "as": "Ground" },
+        { "option": "C", "en": "Green", "as": "Green" },
+        { "option": "D", "en": "Grape", "as": "Grape" }
+      ],
+      "a": "B",
+      "explanation": { "en": "In dictionary order the words are Grape, Great, Green, Ground; Ground begins with 'Gro', which follows 'Gre', so it is last.", "as": "অভিধান ক্রমত শব্দবোৰ হয় Grape, Great, Green, Ground; Ground ৰ আৰম্ভণি 'Gro' যি 'Gre' ৰ পিছত আহে, গতিকে ই সৰ্বশেষ।" }
+    },
+    {
+      "type": "jumbled",
+      "q": { "en": "Rearrange the letters OUSEH to form a meaningful word. What is the word?", "as": "OUSEH বৰ্ণবোৰ সজাই অৰ্থবোধক শব্দ গঠন কৰক। শব্দটো কি?" },
+      "options": [
+        { "option": "A", "en": "HOUSE", "as": "HOUSE" },
+        { "option": "B", "en": "SHOUE", "as": "SHOUE" },
+        { "option": "C", "en": "HUSOE", "as": "HUSOE" },
+        { "option": "D", "en": "OHEUS", "as": "OHEUS" }
+      ],
+      "a": "A",
+      "explanation": { "en": "OUSEH rearranges to HOUSE; the other arrangements are not meaningful words.", "as": "OUSEH ৰ বৰ্ণবোৰ সজাই HOUSE শব্দ গঠন কৰিব পাৰি; বাকী সজ্জাবোৰ অৰ্থবোধক শব্দ নহয়।" }
+    },
+    {
+      "type": "position",
+      "q": { "en": "In the word EDUCATION, how many letters are there between C and O?", "as": "EDUCATION শব্দটোত C আৰু O ৰ মাজত কিমানটা বর্ণ আছে?" },
+      "options": [
+        { "option": "A", "en": "3", "as": "৩" },
+        { "option": "B", "en": "4", "as": "৪" },
+        { "option": "C", "en": "5", "as": "৫" },
+        { "option": "D", "en": "6", "as": "৬" }
+      ],
+      "a": "A",
+      "explanation": { "en": "In EDUCATION, C is the 4th letter and O is the 8th, so there are three letters between them: A, T and I.", "as": "EDUCATION ত C চতুৰ্থ বৰ্ণ আৰু O অষ্টম বৰ্ণ, গতিকে তাৰ মাজত তিনিটা বৰ্ণ আছে: A, T আৰু I।" }
+    },
+    {
+      "type": "word_formation",
+      "q": { "en": "How many meaningful words can be formed using the letters E, A, T? (Each word must use all three letters.)", "as": "E, A, T বৰ্ণবোৰ ব্যৱহাৰ কৰি কিমানটা অৰ্থবোধক শব্দ গঠন কৰিব পাৰি? (প্ৰতিটো শব্দত তিনিটা বৰ্ণ থাকিব লাগিব।)" },
+      "options": [
+        { "option": "A", "en": "1", "as": "১" },
+        { "option": "B", "en": "2", "as": "২" },
+        { "option": "C", "en": "3", "as": "৩" },
+        { "option": "D", "en": "4", "as": "৪" }
+      ],
+      "a": "C",
+      "explanation": { "en": "Using all three letters E, A and T, three meaningful words are formed: ATE, EAT and TEA.", "as": "E, A আৰু T তিনিওটা বৰ্ণ ব্যৱহাৰ কৰি তিনিটা অৰ্থবোধক শব্দ গঠন কৰিব পাৰি: ATE, EAT আৰু TEA।" }
+    },
+    {
+      "type": "dictionary",
+      "q": { "en": "Arrange in dictionary order: Beautiful, Beauty, Because, Become. Which comes first?", "as": "অভিধান ক্রমত সজাওক: Beautiful, Beauty, Because, Become। কোনটো সৰ্বপ্রথম?" },
+      "options": [
+        { "option": "A", "en": "Beautiful", "as": "Beautiful" },
+        { "option": "B", "en": "Beauty", "as": "Beauty" },
+        { "option": "C", "en": "Because", "as": "Because" },
+        { "option": "D", "en": "Become", "as": "Become" }
+      ],
+      "a": "A",
+      "explanation": { "en": "Beautiful and Beauty both begin 'Beaut', but Beautiful has 'i' after it while Beauty has 'y'; since 'i' precedes 'y', Beautiful comes first.", "as": "Beautiful আৰু Beauty দুয়োটা 'Beaut' ৰে আৰম্ভ হয়, কিন্তু Beautiful ত ইয়াৰ পিছত 'i' আৰু Beauty ত 'y'; 'i' 'y' ৰ আগত আহে, গতিকে Beautiful প্ৰথম।" }
+    },
+    {
+      "type": "position",
+      "q": { "en": "Which letter is midway between the 4th and the 16th letters from the left in the alphabet?", "as": "বৰ্ণমালাত বাওঁ ফালৰ পৰা 4ম আৰু 16ম বর্ণৰ মাজত কোনটো বর্ণ আছে?" },
+      "options": [
+        { "option": "A", "en": "I", "as": "I" },
+        { "option": "B", "en": "J", "as": "J" },
+        { "option": "C", "en": "K", "as": "K" },
+        { "option": "D", "en": "H", "as": "H" }
+      ],
+      "a": "B",
+      "explanation": { "en": "The 4th letter is D and the 16th is P; the middle position is (4+16)/2 = 10, and the 10th letter is J.", "as": "4ৰ্থ বৰ্ণ D আৰু 16তম বৰ্ণ P; মাজৰ অৱস্থান (4+16)/2 = 10, আৰু 10ম বৰ্ণটো J।" }
+    },
+    {
+      "type": "jumbled",
+      "q": { "en": "Which meaningful word can be made from the letters of DLRWO?", "as": "DLRWO বৰ্ণবোৰ সজাই কোনটো অৰ্থবোধক শব্দ পোৱা যায়?" },
+      "options": [
+        { "option": "A", "en": "WROLD", "as": "WROLD" },
+        { "option": "B", "en": "WORLD", "as": "WORLD" },
+        { "option": "C", "en": "WODRL", "as": "WODRL" },
+        { "option": "D", "en": "LWORD", "as": "LWORD" }
+      ],
+      "a": "B",
+      "explanation": { "en": "DLRWO rearranges to WORLD; the other options are not meaningful words.", "as": "DLRWO ৰ বৰ্ণবোৰ সজাই WORLD শব্দ গঠন কৰিব পাৰি; বাকীবোৰ অৰ্থবোধক শব্দ নহয়।" }
+    }
+  ]
+}

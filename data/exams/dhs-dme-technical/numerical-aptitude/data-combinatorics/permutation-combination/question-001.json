@@ -1,0 +1,2945 @@
+[
+  {
+    "id": "numerical-057",
+    "q": {
+      "en": "The number of ways of selecting 3 persons out of 8 is",
+      "as": "৮ জনৰপৰা ৩ জন বাছনি কৰাৰ উপায়ৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Selection ignores order, so use 8C3 = (8 × 7 × 6)/(3 × 2 × 1) = 56. The value 336 would be 8P3, which counts arrangements.",
+      "as": "বাছনিত ক্ৰম নধৰা হয়, সেয়ে ৮C৩ = (৮ × ৭ × ৬)/(৩ × ২ × ১) = ৫৬। ৩৩৬ হ'ল ৮P৩, যি বিন্যাস গণনা কৰে।"
+    }
+  },
+  {
+    "id": "numerical-058",
+    "q": {
+      "en": "The number of distinct arrangements of the letters of the word APPLE is",
+      "as": "APPLE শব্দটোৰ আখৰবোৰৰ পাৰ্থক্যপূৰ্ণ বিন্যাসৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are five letters with P repeated twice, so the count is 5!/2! = 120/2 = 60.",
+      "as": "পাঁচটা আখৰৰ ভিতৰত P দুবাৰ আছে, সেয়ে গণনা ৫!/২! = ১২০/২ = ৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-001",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 7P3.",
+      "as": "৭P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "7P3 counts arrangements where order matters: 7!/(7−3)! = 7 × 6 × 5 = 210.",
+      "as": "৭P৩ ত ক্ৰম গুৰুত্বপূৰ্ণ: ৭!/(৭−৩)! = ৭ × ৬ × ৫ = ২১০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-002",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 8P2.",
+      "as": "৮P২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "40320",
+        "as": "৪০৩২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "8P2 counts arrangements where order matters: 8!/(8−2)! = 8 × 7 = 56.",
+      "as": "৮P২ ত ক্ৰম গুৰুত্বপূৰ্ণ: ৮!/(৮−২)! = ৮ × ৭ = ৫৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-003",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 9P4.",
+      "as": "৯P৪ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "1512",
+        "as": "১৫১২"
+      },
+      {
+        "en": "6048",
+        "as": "৬০৪৮"
+      },
+      {
+        "en": "3024",
+        "as": "৩০২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "9P4 counts arrangements where order matters: 9!/(9−4)! = 9 × 8 × 7 × 6 = 3,024.",
+      "as": "৯P৪ ত ক্ৰম গুৰুত্বপূৰ্ণ: ৯!/(৯−৪)! = ৯ × ৮ × ৭ × ৬ = ৩,০২৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-004",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 6P3.",
+      "as": "৬P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6P3 counts arrangements where order matters: 6!/(6−3)! = 6 × 5 × 4 = 120.",
+      "as": "৬P৩ ত ক্ৰম গুৰুত্বপূৰ্ণ: ৬!/(৬−৩)! = ৬ × ৫ × ৪ = ১২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-005",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 10P2.",
+      "as": "১০P২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "3628800",
+        "as": "৩৬২৮৮০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10P2 counts arrangements where order matters: 10!/(10−2)! = 10 × 9 = 90.",
+      "as": "১০P২ ত ক্ৰম গুৰুত্বপূৰ্ণ: ১০!/(১০−২)! = ১০ × ৯ = ৯০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-006",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 10C3.",
+      "as": "১০C৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "10C3 counts selections where order does not matter: 10!/(3!×7!) = 120.",
+      "as": "১০C৩ ত ক্ৰম গুৰুত্বপূৰ্ণ নহয়: ১০!/(৩!×৭!) = ১২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-007",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 12C4.",
+      "as": "১২C৪ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11880",
+        "as": "১১৮৮০"
+      },
+      {
+        "en": "990",
+        "as": "৯৯০"
+      },
+      {
+        "en": "247",
+        "as": "২৪৭"
+      },
+      {
+        "en": "495",
+        "as": "৪৯৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "12C4 counts selections where order does not matter: 12!/(4!×8!) = 495.",
+      "as": "১২C৪ ত ক্ৰম গুৰুত্বপূৰ্ণ নহয়: ১২!/(৪!×৮!) = ৪৯৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-008",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 9C2.",
+      "as": "৯C২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9C2 counts selections where order does not matter: 9!/(2!×7!) = 36.",
+      "as": "৯C২ ত ক্ৰম গুৰুত্বপূৰ্ণ নহয়: ৯!/(২!×৭!) = ৩৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-009",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 15C3.",
+      "as": "১৫C৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2730",
+        "as": "২৭৩০"
+      },
+      {
+        "en": "910",
+        "as": "৯১০"
+      },
+      {
+        "en": "455",
+        "as": "৪৫৫"
+      },
+      {
+        "en": "227",
+        "as": "২২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15C3 counts selections where order does not matter: 15!/(3!×12!) = 455.",
+      "as": "১৫C৩ ত ক্ৰম গুৰুত্বপূৰ্ণ নহয়: ১৫!/(৩!×১২!) = ৪৫৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-010",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 8C5.",
+      "as": "৮C৫ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6720",
+        "as": "৬৭২০"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8C5 counts selections where order does not matter: 8!/(5!×3!) = 56.",
+      "as": "৮C৫ ত ক্ৰম গুৰুত্বপূৰ্ণ নহয়: ৮!/(৫!×৩!) = ৫৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-011",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word LEVEL.",
+      "as": "LEVEL শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The word has 5 letters with repetitions {'L': 2, 'E': 2, 'V': 1}. Arrangements = 5!/(product of repeated factorials) = 30.",
+      "as": "শব্দটোত ৫ টা আখৰ আছে; বিন্যাস = ৩০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-012",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word BANANA.",
+      "as": "BANANA শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The word has 6 letters with repetitions {'B': 1, 'A': 3, 'N': 2}. Arrangements = 6!/(product of repeated factorials) = 60.",
+      "as": "শব্দটোত ৬ টা আখৰ আছে; বিন্যাস = ৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-013",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word ASSAM.",
+      "as": "ASSAM শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The word has 5 letters with repetitions {'A': 2, 'S': 2, 'M': 1}. Arrangements = 5!/(product of repeated factorials) = 30.",
+      "as": "শব্দটোত ৫ টা আখৰ আছে; বিন্যাস = ৩০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-014",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word INDIA.",
+      "as": "INDIA শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The word has 5 letters with repetitions {'I': 2, 'N': 1, 'D': 1, 'A': 1}. Arrangements = 5!/(product of repeated factorials) = 60.",
+      "as": "শব্দটোত ৫ টা আখৰ আছে; বিন্যাস = ৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-015",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word COMMITTEE.",
+      "as": "COMMITTEE শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "362880",
+        "as": "৩৬২৮৮০"
+      },
+      {
+        "en": "90720",
+        "as": "৯০৭২০"
+      },
+      {
+        "en": "22680",
+        "as": "২২৬৮০"
+      },
+      {
+        "en": "45360",
+        "as": "৪৫৩৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The word has 9 letters with repetitions {'C': 1, 'O': 1, 'M': 2, 'I': 1, 'T': 2, 'E': 2}. Arrangements = 9!/(product of repeated factorials) = 45360.",
+      "as": "শব্দটোত ৯ টা আখৰ আছে; বিন্যাস = ৪৫৩৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-016",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 3 members be selected from 10 people?",
+      "as": "১০ জন মানুহৰ পৰা ৩ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Selection order does not matter, so use 10C3 = 120.",
+      "as": "বাছনিৰ ক্ৰম গুৰুত্বপূৰ্ণ নহয়, সেয়ে ১০C৩ = ১২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-017",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 5 members be selected from 12 people?",
+      "as": "১২ জন মানুহৰ পৰা ৫ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "95040",
+        "as": "৯৫০৪০"
+      },
+      {
+        "en": "792",
+        "as": "৭৯২"
+      },
+      {
+        "en": "1584",
+        "as": "১৫৮৪"
+      },
+      {
+        "en": "396",
+        "as": "৩৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Selection order does not matter, so use 12C5 = 792.",
+      "as": "বাছনিৰ ক্ৰম গুৰুত্বপূৰ্ণ নহয়, সেয়ে ১২C৫ = ৭৯২।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-018",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 4 members be selected from 8 people?",
+      "as": "৮ জন মানুহৰ পৰা ৪ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "1680",
+        "as": "১৬৮০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Selection order does not matter, so use 8C4 = 70.",
+      "as": "বাছনিৰ ক্ৰম গুৰুত্বপূৰ্ণ নহয়, সেয়ে ৮C৪ = ৭০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-019",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 2 members be selected from 15 people?",
+      "as": "১৫ জন মানুহৰ পৰা ২ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Selection order does not matter, so use 15C2 = 105.",
+      "as": "বাছনিৰ ক্ৰম গুৰুত্বপূৰ্ণ নহয়, সেয়ে ১৫C২ = ১০৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-020",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 3 members be selected from 9 people?",
+      "as": "৯ জন মানুহৰ পৰা ৩ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "504",
+        "as": "৫০৪"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Selection order does not matter, so use 9C3 = 84.",
+      "as": "বাছনিৰ ক্ৰম গুৰুত্বপূৰ্ণ নহয়, সেয়ে ৯C৩ = ৮৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-021",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 5 people be seated around a circular table?",
+      "as": "৫ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 4! = 24.",
+      "as": "বৃত্তীয় বিন্যাস = (n-1)! = ২৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-022",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 6 people be seated around a circular table?",
+      "as": "৬ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 5! = 120.",
+      "as": "বৃত্তীয় বিন্যাস = (n-1)! = ১২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-023",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 7 people be seated around a circular table?",
+      "as": "৭ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "1440",
+        "as": "১৪৪০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 6! = 720.",
+      "as": "বৃত্তীয় বিন্যাস = (n-1)! = ৭২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-024",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 8 people be seated around a circular table?",
+      "as": "৮ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "40320",
+        "as": "৪০৩২০"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "2520",
+        "as": "২৫২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 7! = 5040.",
+      "as": "বৃত্তীয় বিন্যাস = (n-1)! = ৫০৪০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-025",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 10 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "১০ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each pair of the 10 people shakes hands once, so count the pairs: 10C2 = 10×9/2 = 45.",
+      "as": "১০ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ১০C2 = ১০×৯/2 = ৪৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-026",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 12 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "১২ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each pair of the 12 people shakes hands once, so count the pairs: 12C2 = 12×11/2 = 66.",
+      "as": "১২ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ১২C2 = ১২×১১/2 = ৬৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-027",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 15 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "১৫ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each pair of the 15 people shakes hands once, so count the pairs: 15C2 = 15×14/2 = 105.",
+      "as": "১৫ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ১৫C2 = ১৫×১৪/2 = ১০৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-028",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 20 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "২০ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "380",
+        "as": "৩৮০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each pair of the 20 people shakes hands once, so count the pairs: 20C2 = 20×19/2 = 190.",
+      "as": "২০ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ২০C2 = ২০×১৯/2 = ১৯০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-029",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 8 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "৮ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each pair of the 8 people shakes hands once, so count the pairs: 8C2 = 8×7/2 = 28.",
+      "as": "৮ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ৮C2 = ৮×৭/2 = ২৮।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-030",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 3-digit numbers can be formed using 5 distinct digits without repetition?",
+      "as": "৫ টা ভিন্ন অংক ব্যৱহাৰ কৰি পুনৰাবৃত্তি নকৰাকৈ কিমান ৩-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "First place has 5 choices, then 4, and so on: 5P3 = 60.",
+      "as": "প্ৰথম স্থানত ৫ টা বিকল্প, তাৰ পিছত ৪; সেয়ে ৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-031",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 3-digit numbers can be formed using 6 distinct digits without repetition?",
+      "as": "৬ টা ভিন্ন অংক ব্যৱহাৰ কৰি পুনৰাবৃত্তি নকৰাকৈ কিমান ৩-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "First place has 6 choices, then 5, and so on: 6P3 = 120.",
+      "as": "প্ৰথম স্থানত ৬ টা বিকল্প, তাৰ পিছত ৫; সেয়ে ১২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-032",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 2-digit numbers can be formed using 4 distinct digits without repetition?",
+      "as": "৪ টা ভিন্ন অংক ব্যৱহাৰ কৰি পুনৰাবৃত্তি নকৰাকৈ কিমান ২-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "First place has 4 choices, then 3, and so on: 4P2 = 12.",
+      "as": "প্ৰথম স্থানত ৪ টা বিকল্প, তাৰ পিছত ৩; সেয়ে ১২।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-033",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 3-digit numbers can be formed using 7 distinct digits without repetition?",
+      "as": "৭ টা ভিন্ন অংক ব্যৱহাৰ কৰি পুনৰাবৃত্তি নকৰাকৈ কিমান ৩-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "First place has 7 choices, then 6, and so on: 7P3 = 210.",
+      "as": "প্ৰথম স্থানত ৭ টা বিকল্প, তাৰ পিছত ৬; সেয়ে ২১০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-034",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 3-digit numbers can be formed using 4 digits if repetition is allowed?",
+      "as": "পুনৰাবৃত্তি অনুমোদিত হ'লে ৪ টা অংকৰ পৰা কিমান ৩-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each place has 4 choices, so the count is 4^3 = 64.",
+      "as": "প্ৰতিটো স্থানত ৪ টা বিকল্প, সেয়ে ৬৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-035",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 2-digit numbers can be formed using 3 digits if repetition is allowed?",
+      "as": "পুনৰাবৃত্তি অনুমোদিত হ'লে ৩ টা অংকৰ পৰা কিমান ২-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each place has 3 choices, so the count is 3^2 = 9.",
+      "as": "প্ৰতিটো স্থানত ৩ টা বিকল্প, সেয়ে ৯।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-036",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 2-digit numbers can be formed using 5 digits if repetition is allowed?",
+      "as": "পুনৰাবৃত্তি অনুমোদিত হ'লে ৫ টা অংকৰ পৰা কিমান ২-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each place has 5 choices, so the count is 5^2 = 25.",
+      "as": "প্ৰতিটো স্থানত ৫ টা বিকল্প, সেয়ে ২৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-037",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 3 is to be formed from 5 men and 4 women, with exactly one man. In how many ways can this be done?",
+      "as": "৫ জন পুৰুষ আৰু ৪ জন মহিলাৰ পৰা ৩ জনীয়া সমিতি গঠন কৰিব লাগে, য'ত ঠিক এজন পুৰুষ থাকিব। কিমান ধৰণে কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choose 1 man from 5 and 2 women from 4: 5C1 × 4C2 = 30.",
+      "as": "১ জন পুৰুষ আৰু ২ জন মহিলা বাছনি: ৩০ ধৰণ।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-038",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 2 is to be formed from 6 men and 3 women, with exactly one man. In how many ways can this be done?",
+      "as": "৬ জন পুৰুষ আৰু ৩ জন মহিলাৰ পৰা ২ জনীয়া সমিতি গঠন কৰিব লাগে, য'ত ঠিক এজন পুৰুষ থাকিব। কিমান ধৰণে কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choose 1 man from 6 and 1 women from 3: 6C1 × 3C1 = 18.",
+      "as": "১ জন পুৰুষ আৰু ১ জন মহিলা বাছনি: ১৮ ধৰণ।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-039",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 2 is to be formed from 4 men and 4 women, with exactly one man. In how many ways can this be done?",
+      "as": "৪ জন পুৰুষ আৰু ৪ জন মহিলাৰ পৰা ২ জনীয়া সমিতি গঠন কৰিব লাগে, য'ত ঠিক এজন পুৰুষ থাকিব। কিমান ধৰণে কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choose 1 man from 4 and 1 women from 4: 4C1 × 4C1 = 16.",
+      "as": "১ জন পুৰুষ আৰু ১ জন মহিলা বাছনি: ১৬ ধৰণ।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-040",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 3 is to be formed from 10 people of whom 6 are men. In how many ways can it contain at least one woman?",
+      "as": "১০ জনৰ পৰা (ইয়াৰে ৬ জন পুৰুষ) ৩ জনীয়া সমিতি গঠন কৰা হয়। কমেও এজনী মহিলা থকা কিমান ধৰণ আছে?"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total committees = 10C3 = 120; all-men committees = 6C3 = 20. At least one woman = 100.",
+      "as": "মুঠ ১২০, সকলো পুৰুষ ২০; সেয়ে ১০০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-041",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 3 is to be formed from 12 people of whom 7 are men. In how many ways can it contain at least one woman?",
+      "as": "১২ জনৰ পৰা (ইয়াৰে ৭ জন পুৰুষ) ৩ জনীয়া সমিতি গঠন কৰা হয়। কমেও এজনী মহিলা থকা কিমান ধৰণ আছে?"
+    },
+    "options": [
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "185",
+        "as": "১৮৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "255",
+        "as": "২৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total committees = 12C3 = 220; all-men committees = 7C3 = 35. At least one woman = 185.",
+      "as": "মুঠ ২২০, সকলো পুৰুষ ৩৫; সেয়ে ১৮৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-042",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 3 is to be formed from 9 people of whom 5 are men. In how many ways can it contain at least one woman?",
+      "as": "৯ জনৰ পৰা (ইয়াৰে ৫ জন পুৰুষ) ৩ জনীয়া সমিতি গঠন কৰা হয়। কমেও এজনী মহিলা থকা কিমান ধৰণ আছে?"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total committees = 9C3 = 84; all-men committees = 5C3 = 10. At least one woman = 74.",
+      "as": "মুঠ ৮৪, সকলো পুৰুষ ১০; সেয়ে ৭৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-043",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 6 sides.",
+      "as": "৬ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diagonals = n(n-3)/2 = 6(6-3)/2 = 9.",
+      "as": "কৰ্ণ = ৯।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-044",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 8 sides.",
+      "as": "৮ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonals = n(n-3)/2 = 8(8-3)/2 = 20.",
+      "as": "কৰ্ণ = ২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-045",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 10 sides.",
+      "as": "১০ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Diagonals = n(n-3)/2 = 10(10-3)/2 = 35.",
+      "as": "কৰ্ণ = ৩৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-046",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 12 sides.",
+      "as": "১২ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diagonals = n(n-3)/2 = 12(12-3)/2 = 54.",
+      "as": "কৰ্ণ = ৫৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-047",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 15 sides.",
+      "as": "১৫ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonals = n(n-3)/2 = 15(15-3)/2 = 90.",
+      "as": "কৰ্ণ = ৯০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-048",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 3 distinct balls be distributed among 2 distinct boxes if any box may receive any number of balls?",
+      "as": "৩ টা ভিন্ন বল ২ টা ভিন্ন বাকচত (যিকোনো বাকচত যিকোনো সংখ্যক) কিমান ধৰণে ৰাখিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each ball has 2 choices, so the count is 2^3 = 8.",
+      "as": "প্ৰতিটো বলৰ ২ টা বিকল্প, সেয়ে ৮।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-049",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 4 distinct balls be distributed among 3 distinct boxes if any box may receive any number of balls?",
+      "as": "৪ টা ভিন্ন বল ৩ টা ভিন্ন বাকচত (যিকোনো বাকচত যিকোনো সংখ্যক) কিমান ধৰণে ৰাখিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "162",
+        "as": "১৬২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each ball has 3 choices, so the count is 3^4 = 81.",
+      "as": "প্ৰতিটো বলৰ ৩ টা বিকল্প, সেয়ে ৮১।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-050",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 5 distinct balls be distributed among 2 distinct boxes if any box may receive any number of balls?",
+      "as": "৫ টা ভিন্ন বল ২ টা ভিন্ন বাকচত (যিকোনো বাকচত যিকোনো সংখ্যক) কিমান ধৰণে ৰাখিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each ball has 2 choices, so the count is 2^5 = 32.",
+      "as": "প্ৰতিটো বলৰ ২ টা বিকল্প, সেয়ে ৩২।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-051",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 6P2.",
+      "as": "৬P২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arranging 2 out of 6 respects order, so use 6P2 = 6!/(6−2)! = 6 × 5 = 30.",
+      "as": "৬ ৰপৰা ২ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৬P২ = ৬!/(৬−২)! = ৬ × ৫ = ৩০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-052",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 7P4.",
+      "as": "৭P৪ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "1680",
+        "as": "১৬৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranging 4 out of 7 respects order, so use 7P4 = 7!/(7−4)! = 7 × 6 × 5 × 4 = 840.",
+      "as": "৭ ৰপৰা ৪ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৭P৪ = ৭!/(৭−৪)! = ৭ × ৬ × ৫ × ৪ = ৮৪০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-053",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 8P3.",
+      "as": "৮P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "672",
+        "as": "৬৭২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arranging 3 out of 8 respects order, so use 8P3 = 8!/(8−3)! = 8 × 7 × 6 = 336.",
+      "as": "৮ ৰপৰা ৩ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৮P৩ = ৮!/(৮−৩)! = ৮ × ৭ × ৬ = ৩৩৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-054",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 9P3.",
+      "as": "৯P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "504",
+        "as": "৫০৪"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "252",
+        "as": "২৫২"
+      },
+      {
+        "en": "1008",
+        "as": "১০০৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arranging 3 out of 9 respects order, so use 9P3 = 9!/(9−3)! = 9 × 8 × 7 = 504.",
+      "as": "৯ ৰপৰা ৩ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৯P৩ = ৯!/(৯−৩)! = ৯ × ৮ × ৭ = ৫০৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-055",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 11C2.",
+      "as": "১১C২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 2 from 11 ignores order, so use 11C2 = 11!/(2!×9!) = (11 × 10)/(2 × 1) = 55.",
+      "as": "১১ ৰপৰা ২ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১১C২ = ১১!/(২!×৯!) = ৫৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-056",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 13C3.",
+      "as": "১৩C৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1716",
+        "as": "১৭১৬"
+      },
+      {
+        "en": "286",
+        "as": "২৮৬"
+      },
+      {
+        "en": "572",
+        "as": "৫৭২"
+      },
+      {
+        "en": "143",
+        "as": "১৪৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 3 from 13 ignores order, so use 13C3 = 13!/(3!×10!) = (13 × 12 × 11)/(3 × 2 × 1) = 286.",
+      "as": "১৩ ৰপৰা ৩ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১৩C৩ = ১৩!/(৩!×১০!) = ২৮৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-057",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 7C3.",
+      "as": "৭C৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choosing 3 from 7 ignores order, so use 7C3 = 7!/(3!×4!) = (7 × 6 × 5)/(3 × 2 × 1) = 35.",
+      "as": "৭ ৰপৰা ৩ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ৭C৩ = ৭!/(৩!×৪!) = ৩৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-058",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 10C4.",
+      "as": "১০C৪ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 4 from 10 ignores order, so use 10C4 = 10!/(4!×6!) = (10 × 9 × 8 × 7)/(4 × 3 × 2 × 1) = 210.",
+      "as": "১০ ৰপৰা ৪ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১০C৪ = ১০!/(৪!×৬!) = ২১০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-059",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 6C2.",
+      "as": "৬C২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 2 from 6 ignores order, so use 6C2 = 6!/(2!×4!) = (6 × 5)/(2 × 1) = 15.",
+      "as": "৬ ৰপৰা ২ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ৬C২ = ৬!/(২!×৪!) = ১৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-060",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word MISSISSIPPI.",
+      "as": "MISSISSIPPI শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "34650",
+        "as": "৩৪৬৫০"
+      },
+      {
+        "en": "39916800",
+        "as": "৩৯৯১৬৮০০"
+      },
+      {
+        "en": "69300",
+        "as": "৬৯৩০০"
+      },
+      {
+        "en": "17325",
+        "as": "১৭৩২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrangements = 11!/(product of repeated factorials) = 34650.",
+      "as": "বিন্যাস = ৩৪৬৫০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-061",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word LETTER.",
+      "as": "LETTER শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arrangements = 6!/(product of repeated factorials) = 180.",
+      "as": "বিন্যাস = ১৮০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-062",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word APPLE.",
+      "as": "APPLE শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arrangements = 5!/(product of repeated factorials) = 60.",
+      "as": "বিন্যাস = ৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-063",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word BALLOON.",
+      "as": "BALLOON শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "2520",
+        "as": "২৫২০"
+      },
+      {
+        "en": "630",
+        "as": "৬৩০"
+      },
+      {
+        "en": "1260",
+        "as": "১২৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arrangements = 7!/(product of repeated factorials) = 1260.",
+      "as": "বিন্যাস = ১২৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-064",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 2 members be selected from 14 people?",
+      "as": "১৪ জন মানুহৰ পৰা ২ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "182",
+        "as": "১৮২"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choosing 2 from 14 ignores order, so use 14C2 = 14!/(2!×12!) = (14 × 13)/(2 × 1) = 91.",
+      "as": "১৪ ৰপৰা ২ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১৪C২ = ১৪!/(২!×১২!) = ৯১।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-065",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 3 members be selected from 20 people?",
+      "as": "২০ জন মানুহৰ পৰা ৩ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "6840",
+        "as": "৬৮৪০"
+      },
+      {
+        "en": "1140",
+        "as": "১১৪০"
+      },
+      {
+        "en": "2280",
+        "as": "২২৮০"
+      },
+      {
+        "en": "570",
+        "as": "৫৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 3 from 20 ignores order, so use 20C3 = 20!/(3!×17!) = (20 × 19 × 18)/(3 × 2 × 1) = 1,140.",
+      "as": "২০ ৰপৰা ৩ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ২০C৩ = ২০!/(৩!×১৭!) = ১,১৪০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-066",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 4 members be selected from 11 people?",
+      "as": "১১ জন মানুহৰ পৰা ৪ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "330",
+        "as": "৩৩০"
+      },
+      {
+        "en": "7920",
+        "as": "৭৯২০"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "165",
+        "as": "১৬৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 4 from 11 ignores order, so use 11C4 = 11!/(4!×7!) = (11 × 10 × 9 × 8)/(4 × 3 × 2 × 1) = 330.",
+      "as": "১১ ৰপৰা ৪ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১১C৪ = ১১!/(৪!×৭!) = ৩৩০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-067",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 9 people be seated around a circular table?",
+      "as": "৯ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "362880",
+        "as": "৩৬২৮৮০"
+      },
+      {
+        "en": "80640",
+        "as": "৮০৬৪০"
+      },
+      {
+        "en": "20160",
+        "as": "২০১৬০"
+      },
+      {
+        "en": "40320",
+        "as": "৪০৩২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 40320.",
+      "as": "বৃত্তীয় বিন্যাস = ৪০৩২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-068",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 10 people be seated around a circular table?",
+      "as": "১০ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "3628800",
+        "as": "৩৬২৮৮০০"
+      },
+      {
+        "en": "362880",
+        "as": "৩৬২৮৮০"
+      },
+      {
+        "en": "725760",
+        "as": "৭২৫৭৬০"
+      },
+      {
+        "en": "181440",
+        "as": "১৮১৪৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 362880.",
+      "as": "বৃত্তীয় বিন্যাস = ৩৬২৮৮০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-069",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 12 people be seated around a circular table?",
+      "as": "১২ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "479001600",
+        "as": "৪৭৯০০১৬০০"
+      },
+      {
+        "en": "79833600",
+        "as": "৭৯৮৩৩৬০০"
+      },
+      {
+        "en": "39916800",
+        "as": "৩৯৯১৬৮০০"
+      },
+      {
+        "en": "19958400",
+        "as": "১৯৯৫৮৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Circular arrangements = (n-1)! = 39916800.",
+      "as": "বৃত্তীয় বিন্যাস = ৩৯৯১৬৮০০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-070",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 6 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "৬ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each pair of the 6 people shakes hands once, so count the pairs: 6C2 = 6×5/2 = 15.",
+      "as": "৬ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ৬C2 = ৬×৫/2 = ১৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-071",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 9 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "৯ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each pair of the 9 people shakes hands once, so count the pairs: 9C2 = 9×8/2 = 36.",
+      "as": "৯ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ৯C2 = ৯×৮/2 = ৩৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-072",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 11 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "১১ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each pair of the 11 people shakes hands once, so count the pairs: 11C2 = 11×10/2 = 55.",
+      "as": "১১ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ১১C2 = ১১×১০/2 = ৫৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-073",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In a meeting of 25 people, each person shakes hands with every other person once. Find the total number of handshakes.",
+      "as": "২৫ জন মানুহৰ সভাত প্ৰতিজনে প্ৰত্যেকৰ সৈতে এবাৰ হাত মিলায়। মুঠ হাত মিলোৱাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "625",
+        "as": "৬২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each pair of the 25 people shakes hands once, so count the pairs: 25C2 = 25×24/2 = 300.",
+      "as": "২৫ জনৰ প্ৰতিজোৰে এবাৰ হাত মিলায়, সেয়ে যোৰ গণনা কৰা: ২৫C2 = ২৫×২৪/2 = ৩০০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-074",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "How many 2-digit numbers can be formed using 8 distinct digits without repetition?",
+      "as": "৮ টা ভিন্ন অংক ব্যৱহাৰ কৰি পুনৰাবৃত্তি নকৰাকৈ কিমান ২-অংকৰ সংখ্যা গঠন কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranging 2 out of 8 respects order, so use 8P2 = 8!/(8−2)! = 8 × 7 = 56.",
+      "as": "৮ ৰপৰা ২ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৮P২ = ৮!/(৮−২)! = ৮ × ৭ = ৫৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-075",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 7 sides.",
+      "as": "৭ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A polygon with 7 sides has n(n−3)/2 diagonals = 7(7−3)/2 = 7×4/2 = 14.",
+      "as": "৭ বাহুযুক্ত বহুভুজৰ কৰ্ণৰ সংখ্যা n(n−3)/2 = ৭(৭−3)/2 = ১৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-076",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 9 sides.",
+      "as": "৯ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A polygon with 9 sides has n(n−3)/2 diagonals = 9(9−3)/2 = 9×6/2 = 27.",
+      "as": "৯ বাহুযুক্ত বহুভুজৰ কৰ্ণৰ সংখ্যা n(n−3)/2 = ৯(৯−3)/2 = ২৭।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-077",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 11 sides.",
+      "as": "১১ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A polygon with 11 sides has n(n−3)/2 diagonals = 11(11−3)/2 = 11×8/2 = 44.",
+      "as": "১১ বাহুযুক্ত বহুভুজৰ কৰ্ণৰ সংখ্যা n(n−3)/2 = ১১(১১−3)/2 = ৪৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-078",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 2 distinct balls be distributed among 3 distinct boxes if any box may receive any number of balls?",
+      "as": "২ টা ভিন্ন বল ৩ টা ভিন্ন বাকচত কিমান ধৰণে ৰাখিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each of the 2 distinct balls has 3 boxes to choose from, so the choices multiply: 3^2 = 9.",
+      "as": "২ টা সুকীয়া বলৰ প্ৰতিটোৰে ৩ টা বাকচ বাছনি কৰিব পাৰি, সেয়ে গুণ কৰা: ৩^২ = ৯।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-079",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 3 distinct balls be distributed among 3 distinct boxes if any box may receive any number of balls?",
+      "as": "৩ টা ভিন্ন বল ৩ টা ভিন্ন বাকচত কিমান ধৰণে ৰাখিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each of the 3 distinct balls has 3 boxes to choose from, so the choices multiply: 3^3 = 27.",
+      "as": "৩ টা সুকীয়া বলৰ প্ৰতিটোৰে ৩ টা বাকচ বাছনি কৰিব পাৰি, সেয়ে গুণ কৰা: ৩^৩ = ২৭।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-080",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 3 is to be formed from 4 men and 5 women, with exactly one man. In how many ways can this be done?",
+      "as": "৪ জন পুৰুষ আৰু ৫ জন মহিলাৰ পৰা ৩ জনীয়া সমিতি, য'ত ঠিক এজন পুৰুষ। কিমান ধৰণে?"
+    },
+    "options": [
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choose the required number from each group and multiply: 4C1 × 5C2 = 4 × 10 = 40.",
+      "as": "প্ৰতিটো গোটৰপৰা প্ৰয়োজনীয় সংখ্যা বাছি গুণ কৰা: ৪C১ × ৫C২ = ৪ × ১০ = ৪০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-081",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "A committee of 2 is to be formed from 5 men and 5 women, with exactly one man. In how many ways can this be done?",
+      "as": "৫ জন পুৰুষ আৰু ৫ জন মহিলাৰ পৰা ২ জনীয়া সমিতি, য'ত ঠিক এজন পুৰুষ। কিমান ধৰণে?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choose the required number from each group and multiply: 5C1 × 5C1 = 5 × 5 = 25.",
+      "as": "প্ৰতিটো গোটৰপৰা প্ৰয়োজনীয় সংখ্যা বাছি গুণ কৰা: ৫C১ × ৫C১ = ৫ × ৫ = ২৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-082",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 10P3.",
+      "as": "১০P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "1440",
+        "as": "১৪৪০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arranging 3 out of 10 respects order, so use 10P3 = 10!/(10−3)! = 10 × 9 × 8 = 720.",
+      "as": "১০ ৰপৰা ৩ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ১০P৩ = ১০!/(১০−৩)! = ১০ × ৯ × ৮ = ৭২০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-083",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 9P2.",
+      "as": "৯P২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "362880",
+        "as": "৩৬২৮৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arranging 2 out of 9 respects order, so use 9P2 = 9!/(9−2)! = 9 × 8 = 72.",
+      "as": "৯ ৰপৰা ২ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ৯P২ = ৯!/(৯−২)! = ৯ × ৮ = ৭২।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-084",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 11P3.",
+      "as": "১১P৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "990",
+        "as": "৯৯০"
+      },
+      {
+        "en": "165",
+        "as": "১৬৫"
+      },
+      {
+        "en": "495",
+        "as": "৪৯৫"
+      },
+      {
+        "en": "1980",
+        "as": "১৯৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arranging 3 out of 11 respects order, so use 11P3 = 11!/(11−3)! = 11 × 10 × 9 = 990.",
+      "as": "১১ ৰপৰা ৩ সজোৱাত ক্ৰম গুৰুত্বপূৰ্ণ, সেয়ে ১১P৩ = ১১!/(১১−৩)! = ১১ × ১০ × ৯ = ৯৯০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-085",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 12C2.",
+      "as": "১২C২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 2 from 12 ignores order, so use 12C2 = 12!/(2!×10!) = (12 × 11)/(2 × 1) = 66.",
+      "as": "১২ ৰপৰা ২ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১২C২ = ১২!/(২!×১০!) = ৬৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-086",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 14C3.",
+      "as": "১৪C৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2184",
+        "as": "২১৮৪"
+      },
+      {
+        "en": "728",
+        "as": "৭২৮"
+      },
+      {
+        "en": "364",
+        "as": "৩৬৪"
+      },
+      {
+        "en": "182",
+        "as": "১৮২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choosing 3 from 14 ignores order, so use 14C3 = 14!/(3!×11!) = (14 × 13 × 12)/(3 × 2 × 1) = 364.",
+      "as": "১৪ ৰপৰা ৩ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১৪C৩ = ১৪!/(৩!×১১!) = ৩৬৪।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-087",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the value of 9C4.",
+      "as": "৯C৪ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3024",
+        "as": "৩০২৪"
+      },
+      {
+        "en": "252",
+        "as": "২৫২"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 4 from 9 ignores order, so use 9C4 = 9!/(4!×5!) = (9 × 8 × 7 × 6)/(4 × 3 × 2 × 1) = 126.",
+      "as": "৯ ৰপৰা ৪ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ৯C৪ = ৯!/(৪!×৫!) = ১২৬।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-088",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word STATISTICS.",
+      "as": "STATISTICS শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3628800",
+        "as": "৩৬২৮৮০০"
+      },
+      {
+        "en": "100800",
+        "as": "১০০৮০০"
+      },
+      {
+        "en": "50400",
+        "as": "৫০৪০০"
+      },
+      {
+        "en": "25200",
+        "as": "২৫২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The word STATISTICS has 10 letters with repeats S × 3, T × 3, I × 2, so the number of distinct arrangements is 10!/(3! × 3! × 2!) = 50,400.",
+      "as": "STATISTICS শব্দটোত ১০ টা আখৰ, পুনৰাবৃত্তি S × ৩, T × ৩, I × ২; সেয়ে সুকীয়া বিন্যাস ৫০,৪০০ টা।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-089",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of distinct arrangements of the letters of the word SUCCESS.",
+      "as": "SUCCESS শব্দৰ আখৰবোৰৰ পৰা পোৱা বিভিন্ন বিন্যাসৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The word SUCCESS has 7 letters with repeats S × 3, C × 2, so the number of distinct arrangements is 7!/(3! × 2!) = 420.",
+      "as": "SUCCESS শব্দটোত ৭ টা আখৰ, পুনৰাবৃত্তি S × ৩, C × ২; সেয়ে সুকীয়া বিন্যাস ৪২০ টা।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-090",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 3 members be selected from 16 people?",
+      "as": "১৬ জন মানুহৰ পৰা ৩ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "560",
+        "as": "৫৬০"
+      },
+      {
+        "en": "3360",
+        "as": "৩৩৬০"
+      },
+      {
+        "en": "1120",
+        "as": "১১২০"
+      },
+      {
+        "en": "280",
+        "as": "২৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 3 from 16 ignores order, so use 16C3 = 16!/(3!×13!) = (16 × 15 × 14)/(3 × 2 × 1) = 560.",
+      "as": "১৬ ৰপৰা ৩ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১৬C৩ = ১৬!/(৩!×১৩!) = ৫৬০।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-091",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can a committee of 4 members be selected from 13 people?",
+      "as": "১৩ জন মানুহৰ পৰা ৪ জনীয়া সমিতি কিমান ধৰণে বাছনি কৰিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "17160",
+        "as": "১৭১৬০"
+      },
+      {
+        "en": "1430",
+        "as": "১৪৩০"
+      },
+      {
+        "en": "357",
+        "as": "৩৫৭"
+      },
+      {
+        "en": "715",
+        "as": "৭১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 4 from 13 ignores order, so use 13C4 = 13!/(4!×9!) = (13 × 12 × 11 × 10)/(4 × 3 × 2 × 1) = 715.",
+      "as": "১৩ ৰপৰা ৪ বাছনি কৰোঁতে ক্ৰম নধৰা হয়, সেয়ে ১৩C৪ = ১৩!/(৪!×৯!) = ৭১৫।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-092",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "In how many ways can 11 people be seated around a circular table?",
+      "as": "১১ জন মানুহ এটা গোল মেজৰ চাৰিওফালে কিমান ধৰণে বহিব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "39916800",
+        "as": "৩৯৯১৬৮০০"
+      },
+      {
+        "en": "3628800",
+        "as": "৩৬২৮৮০০"
+      },
+      {
+        "en": "7257600",
+        "as": "৭২৫৭৬০০"
+      },
+      {
+        "en": "1814400",
+        "as": "১৮১৪৪০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fix one person to break the circle, then arrange the remaining 10: (11−1)! = 3,628,800 ways.",
+      "as": "এজনক স্থিৰ কৰি বৃত্তটো ভাঙা, তাৰপিছত বাকী ১০ জন সজোৱা: (১১−১)! = ৩,৬২৮,৮০০ ধৰণ।"
+    }
+  },
+  {
+    "id": "num-permutation-combination-093",
+    "leaf": "permutation-combination",
+    "q": {
+      "en": "Find the number of diagonals of a polygon with 20 sides.",
+      "as": "২০ বাহু থকা বহুভুজৰ কৰ্ণৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "340",
+        "as": "৩৪০"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A polygon with 20 sides has n(n−3)/2 diagonals = 20(20−3)/2 = 20×17/2 = 170.",
+      "as": "২০ বাহুযুক্ত বহুভুজৰ কৰ্ণৰ সংখ্যা n(n−3)/2 = ২০(২০−3)/2 = ১৭০।"
+    }
+  }
+]

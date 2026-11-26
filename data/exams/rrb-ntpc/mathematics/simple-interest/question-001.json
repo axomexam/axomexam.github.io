@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "simple-interest-001",
+    "q": {
+      "en": "The simple interest on ₹5,000 at 8% per annum for 3 years is:",
+      "as": "₹৫,০০০ ৰ ওপৰত বছৰি ৮% হাৰে ৩ বছৰৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,250",
+        "as": "₹১,২৫০"
+      },
+      {
+        "en": "₹1,100",
+        "as": "₹১,১০০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      },
+      {
+        "en": "₹1,400",
+        "as": "₹১,৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = (P × R × T) ÷ 100 = (5000 × 8 × 3) ÷ 100 = ₹1,200.",
+      "as": "সৰল সুত = (মূলধন × হাৰ × সময়) ÷ ১০০ = (৫০০০ × ৮ × ৩) ÷ ১০০ = ₹১,২০০।"
+    }
+  },
+  {
+    "id": "simple-interest-002",
+    "q": {
+      "en": "The simple interest on ₹4,500 at 4% per annum for 3 years 4 months is:",
+      "as": "₹৪,৫০০ ৰ ওপৰত বছৰি ৪% হাৰে ৩ বছৰ ৪ মাহৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹600",
+        "as": "₹৬০০"
+      },
+      {
+        "en": "₹540",
+        "as": "₹৫৪০"
+      },
+      {
+        "en": "₹630",
+        "as": "₹৬৩০"
+      },
+      {
+        "en": "₹660",
+        "as": "₹৬৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = 3 + 4/12 = 10/3 years, so SI = (4500 × 4 × 10) ÷ (100 × 3) = ₹600.",
+      "as": "সময় = ৩ + ৪/১২ = ১০/৩ বছৰ, গতিকে সৰল সুত = (৪৫০০ × ৪ × ১০) ÷ (১০০ × ৩) = ₹৬০০।"
+    }
+  },
+  {
+    "id": "simple-interest-003",
+    "q": {
+      "en": "A sum amounts to ₹1,320 in 2 years at 10% per annum simple interest. The sum is:",
+      "as": "এটা ধন ২ বছৰত বছৰি ১০% সৰল সুতত ₹১,৩২০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,100",
+        "as": "₹১,১০০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      },
+      {
+        "en": "₹1,000",
+        "as": "₹১,০০০"
+      },
+      {
+        "en": "₹1,150",
+        "as": "₹১,১৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P × (1 + 10 × 2 ÷ 100) = 1.2P = 1320, so P = ₹1,100.",
+      "as": "মুঠ = মূলধন × (১ + ১০ × ২ ÷ ১০০) = ১.২ × মূলধন = ১৩২০, গতিকে মূলধন = ₹১,১০০।"
+    }
+  },
+  {
+    "id": "simple-interest-004",
+    "q": {
+      "en": "A sum amounts to ₹6,600 in 3 years and to ₹7,200 in 5 years at simple interest. The sum is:",
+      "as": "এটা ধন সৰল সুতত ৩ বছৰত ₹৬,৬০০ আৰু ৫ বছৰত ₹৭,২০০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹5,700",
+        "as": "₹৫,৭০০"
+      },
+      {
+        "en": "₹5,500",
+        "as": "₹৫,৫০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹5,800",
+        "as": "₹৫,৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interest of 2 years = 7200 − 6600 = 600, so one year = 300 and 3 years = 900; P = 6600 − 900 = ₹5,700.",
+      "as": "২ বছৰৰ সুত = ৭২০০ − ৬৬০০ = ৬০০, গতিকে এটা বছৰ = ৩০০ আৰু ৩ বছৰ = ৯০০; মূলধন = ৬৬০০ − ৯০০ = ₹৫,৭০০।"
+    }
+  },
+  {
+    "id": "simple-interest-005",
+    "q": {
+      "en": "A sum of money becomes ₹7,200 in 4 years from ₹6,000 at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ₹৬,০০০ ৰ পৰা ৪ বছৰত ₹৭,২০০ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "4.5%",
+        "as": "৪.৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = 1200 and R = (1200 × 100) ÷ (6000 × 4) = 5%.",
+      "as": "সৰল সুত = ১২০০ আৰু হাৰ = (১২০০ × ১০০) ÷ (৬০০০ × ৪) = ৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-006",
+    "q": {
+      "en": "A sum of money doubles itself in 8 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ৮ বছৰত দুগুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Doubling means SI = P in 8 years, so R = (P × 100) ÷ (P × 8) = 12.5%.",
+      "as": "দুগুণ মানে ৮ বছৰত সৰল সুত = মূলধন, গতিকে হাৰ = (মূলধন × ১০০) ÷ (মূলধন × ৮) = ১২.৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-007",
+    "q": {
+      "en": "A sum of money becomes 3 times itself in 12.5 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ১২.৫ বছৰত নিজৰ ৩ গুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      },
+      {
+        "en": "16%",
+        "as": "১৬%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Becoming 3 times means SI = 2P, so R = (2P × 100) ÷ (P × 12.5) = 16%.",
+      "as": "৩ গুণ মানে সৰল সুত = ২ × মূলধন, গতিকে হাৰ = (২ × মূলধন × ১০০) ÷ (মূলধন × ১২.৫) = ১৬%।"
+    }
+  },
+  {
+    "id": "simple-interest-008",
+    "q": {
+      "en": "A sum of money becomes 5/4 of itself in 2.5 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ২.৫ বছৰত নিজৰ ৫/৪ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "12.5%",
+        "as": "১২.৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = P/4, so R = (P/4 × 100) ÷ (P × 2.5) = 10%.",
+      "as": "সৰল সুত = মূলধন/৪, গতিকে হাৰ = (মূলধন/৪ × ১০০) ÷ (মূলধন × ২.৫) = ১০%।"
+    }
+  },
+  {
+    "id": "simple-interest-009",
+    "q": {
+      "en": "In what time will ₹6,000 amount to ₹7,200 at 5% per annum simple interest?",
+      "as": "কিমান সময়ত ₹৬,০০০ বছৰি ৫% সৰল সুতত ₹৭,২০০ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "4.5 years",
+        "as": "৪.৫ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = 1200 and T = (1200 × 100) ÷ (6000 × 5) = 4 years.",
+      "as": "সৰল সুত = ১২০০ আৰু সময় = (১২০০ × ১০০) ÷ (৬০০০ × ৫) = ৪ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-010",
+    "q": {
+      "en": "In what time will ₹2,000 amount to ₹2,600 at 12% per annum simple interest?",
+      "as": "কিমান সময়ত ₹২,০০০ বছৰি ১২% সৰল সুতত ₹২,৬০০ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2.5 years",
+        "as": "২.৫ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "1.5 years",
+        "as": "১.৫ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 600 and T = (600 × 100) ÷ (2000 × 12) = 2.5 years.",
+      "as": "সৰল সুত = ৬০০ আৰু সময় = (৬০০ × ১০০) ÷ (২০০০ × ১২) = ২.৫ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-011",
+    "q": {
+      "en": "A sum of money becomes 3 times itself at 12.5% per annum simple interest in:",
+      "as": "এটা ধন বছৰি ১২.৫% সৰল সুতত নিজৰ ৩ গুণ হ'ব লাগিলে সময়:"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      },
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "16 years",
+        "as": "১৬ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI must be 2P, so T = (2P × 100) ÷ (P × 12.5) = 16 years.",
+      "as": "সৰল সুত ২ × মূলধন হ'ব লাগে, গতিকে সময় = (২ × মূলধন × ১০০) ÷ (মূলধন × ১২.৫) = ১৬ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-012",
+    "q": {
+      "en": "At 8% per annum simple interest, a sum of money doubles itself in:",
+      "as": "বছৰি ৮% সৰল সুতত এটা ধন কিমান সময়ত দুগুণ হয়:"
+    },
+    "options": [
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "12.5 years",
+        "as": "১২.৫ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Doubling needs SI = P, so T = 100 ÷ 8 = 12.5 years.",
+      "as": "দুগুণ হ'বলৈ সৰল সুত = মূলধন লাগে, গতিকে সময় = ১০০ ÷ ৮ = ১২.৫ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-013",
+    "q": {
+      "en": "A sum of money becomes 2.5 times itself in 10 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ১০ বছৰত নিজৰ ২.৫ গুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 1.5P, so R = (1.5P × 100) ÷ (P × 10) = 15%.",
+      "as": "সৰল সুত = ১.৫ × মূলধন, গতিকে হাৰ = (১.৫ × মূলধন × ১০০) ÷ (মূলধন × ১০) = ১৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-014",
+    "q": {
+      "en": "The simple interest on a sum for 5 years at 8% per annum is ₹2,000. The sum is:",
+      "as": "এটা ধনৰ ওপৰত বছৰি ৮% হাৰে ৫ বছৰৰ সৰল সুত ₹২,০০০। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,800",
+        "as": "₹৪,৮০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹5,200",
+        "as": "₹৫,২০০"
+      },
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P = (SI × 100) ÷ (R × T) = (2000 × 100) ÷ (8 × 5) = ₹5,000.",
+      "as": "মূলধন = (সৰল সুত × ১০০) ÷ (হাৰ × সময়) = (২০০০ × ১০০) ÷ (৮ × ৫) = ₹৫,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-015",
+    "q": {
+      "en": "The simple interest on a sum for 3 years at 6% per annum is ₹900. The sum is:",
+      "as": "এটা ধনৰ ওপৰত বছৰি ৬% হাৰে ৩ বছৰৰ সৰল সুত ₹৯০০। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹5,400",
+        "as": "₹৫,৪০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P = (900 × 100) ÷ (6 × 3) = ₹5,000.",
+      "as": "মূলধন = (৯০০ × ১০০) ÷ (৬ × ৩) = ₹৫,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-016",
+    "q": {
+      "en": "A sum of money is lent at 4% per annum simple interest. In how many years will the interest be half the sum?",
+      "as": "এটা ধন বছৰি ৪% সৰল সুতত ধাৰে দিয়া হয়। কিমান বছৰত সুত ধনৰ আধা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "12.5 years",
+        "as": "১২.৫ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      },
+      {
+        "en": "15 years",
+        "as": "১৫ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = P/2 gives T = (P/2 × 100) ÷ (P × 4) = 12.5 years.",
+      "as": "সৰল সুত = মূলধন/২ ৰ পৰা সময় = (মূলধন/২ × ১০০) ÷ (মূলধন × ৪) = ১২.৫ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-017",
+    "q": {
+      "en": "The simple interest on a sum is 1/4 of the sum in 5 years. The rate per annum is:",
+      "as": "এটা ধনৰ সৰল সুত ৫ বছৰত ধনৰ ১/৪। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "4.5%",
+        "as": "৪.৫%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = P/4 gives R = (P/4 × 100) ÷ (P × 5) = 5%.",
+      "as": "সৰল সুত = মূলধন/৪ ৰ পৰা হাৰ = (মূলধন/৪ × ১০০) ÷ (মূলধন × ৫) = ৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-018",
+    "q": {
+      "en": "A sum of ₹10,000 is lent partly at 8% and the rest at 10% per annum. If the total simple interest for one year is ₹920, the sum lent at 8% is:",
+      "as": "₹১০,০০০ ৰ এটা অংশ ৮% আৰু বাকীখিনি ১০% বছৰি হাৰত ধাৰে দিয়া হয়। এটা বছৰৰ মুঠ সৰল সুত ₹৯২০ হ'লে, ৮% ত দিয়া ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹4,000",
+        "as": "₹৪,০০০"
+      },
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Let x be at 8%: 0.08x + 0.10(10000 − x) = 920 gives 1000 − 0.02x = 920, so x = ₹4,000.",
+      "as": "৮% ত x ধৰি: ০.০৮x + ০.১০(১০০০০ − x) = ৯২০ ৰ পৰা ১০০০ − ০.০২x = ৯২০, গতিকে x = ₹৪,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-019",
+    "q": {
+      "en": "A sum of ₹15,000 is lent partly at 6% and the rest at 9% per annum. If the total simple interest for one year is ₹1,170, the sum lent at 6% is:",
+      "as": "₹১৫,০০০ ৰ এটা অংশ ৬% আৰু বাকীখিনি ৯% বছৰি হাৰত ধাৰে দিয়া হয়। এটা বছৰৰ মুঠ সৰল সুত ₹১,১৭০ হ'লে, ৬% ত দিয়া ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹9,000",
+        "as": "₹৯,০০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹7,500",
+        "as": "₹৭,৫০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "0.06x + 0.09(15000 − x) = 1170 gives 1350 − 0.03x = 1170, so x = ₹6,000.",
+      "as": "০.০৬x + ০.০৯(১৫০০০ − x) = ১১৭০ ৰ পৰা ১৩৫০ − ০.০৩x = ১১৭০, গতিকে x = ₹৬,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-020",
+    "q": {
+      "en": "A person lends ₹8,000 partly at 5% and the rest at 4% per annum for 2 years. If the total simple interest is ₹700, the sum lent at 5% is:",
+      "as": "এজন ব্যক্তিয়ে ₹৮,০০০ ৰ এটা অংশ ৫% আৰু বাকীখিনি ৪% বছৰি হাৰত ২ বছৰৰ বাবে ধাৰে দিয়ে। মুঠ সৰল সুত ₹৭০০ হ'লে, ৫% ত দিয়া ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹4,000",
+        "as": "₹৪,০০০"
+      },
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹2,500",
+        "as": "₹২,৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.05 × 2x + 0.04 × 2(8000 − x) = 700 gives 640 + 0.02x = 700, so x = ₹3,000.",
+      "as": "০.০৫ × ২x + ০.০৪ × ২(৮০০০ − x) = ৭০০ ৰ পৰা ৬৪০ + ০.০২x = ৭০০, গতিকে x = ₹৩,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-021",
+    "q": {
+      "en": "A sum of ₹12,000 is lent partly at 10% and the rest at 8% per annum. If the total simple interest for one year is ₹1,060, the sum lent at 10% is:",
+      "as": "₹১২,০০০ ৰ এটা অংশ ১০% আৰু বাকীখিনি ৮% বছৰি হাৰত ধাৰে দিয়া হয়। এটা বছৰৰ মুঠ সৰল সুত ₹১,০৬০ হ'লে, ১০% ত দিয়া ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹7,000",
+        "as": "₹৭,০০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "0.10x + 0.08(12000 − x) = 1060 gives 960 + 0.02x = 1060, so x = ₹5,000.",
+      "as": "০.১০x + ০.০৮(১২০০০ − x) = ১০৬০ ৰ পৰা ৯৬০ + ০.০২x = ১০৬০, গতিকে x = ₹৫,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-022",
+    "q": {
+      "en": "A sum of ₹9,000 is lent in two parts, the first at 6% for 3 years and the second at 8% for 2 years. If the total simple interest is ₹1,500, the first part is:",
+      "as": "₹৯,০০০ দুটা অংশত ধাৰে দিয়া হয়, প্ৰথমটো ৬% ত ৩ বছৰৰ বাবে আৰু দ্বিতীয়টো ৮% ত ২ বছৰৰ বাবে। মুঠ সৰল সুত ₹১,৫০০ হ'লে, প্ৰথম অংশ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      },
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹2,000",
+        "as": "₹২,০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.18x + 0.16(9000 − x) = 1500 gives 1440 + 0.02x = 1500, so x = ₹3,000.",
+      "as": "০.১৮x + ০.১৬(৯০০০ − x) = ১৫০০ ৰ পৰা ১৪৪০ + ০.০২x = ১৫০০, গতিকে x = ₹৩,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-023",
+    "q": {
+      "en": "The simple interest on two sums lent for the same time and at the same rate is in the ratio 4 : 9. If the first sum is ₹2,000, the second sum is:",
+      "as": "একে সময় আৰু একে হাৰত ধাৰে দিয়া দুটা ধনৰ সৰল সুত ৪ : ৯ অনুপাতত। প্ৰথম ধন ₹২,০০০ হ'লে, দ্বিতীয় ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,000",
+        "as": "₹৪,০০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹3,600",
+        "as": "₹৩,৬০০"
+      },
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Same time and rate means SI is proportional to the sum, so 2000 : x = 4 : 9 gives x = ₹4,500.",
+      "as": "একে সময় আৰু হাৰ মানে সৰল সুত ধনৰ সমানুপাতত, গতিকে ২০০০ : x = ৪ : ৯ ৰ পৰা x = ₹৪,৫০০।"
+    }
+  },
+  {
+    "id": "simple-interest-024",
+    "q": {
+      "en": "Two sums are in the ratio 2 : 3 and are lent at 5% and 4% per annum for 3 years and 2 years respectively. The ratio of the simple interests is:",
+      "as": "দুটা ধন ২ : ৩ অনুপাতত আৰু ক্ৰমে বছৰি ৫% আৰু ৪% হাৰত ৩ বছৰ আৰু ২ বছৰৰ বাবে ধাৰে দিয়া হয়। সৰল সুতৰ অনুপাত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4 : 5",
+        "as": "৪ : ৫"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "5 : 4",
+        "as": "৫ : ৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI ∝ P × R × T, so the ratio is (2 × 5 × 3) : (3 × 4 × 2) = 30 : 24 = 5 : 4.",
+      "as": "সৰল সুত ∝ ধন × হাৰ × সময়, গতিকে অনুপাত = (২ × ৫ × ৩) : (৩ × ৪ × ২) = ৩০ : ২৪ = ৫ : ৪।"
+    }
+  },
+  {
+    "id": "simple-interest-025",
+    "q": {
+      "en": "Two equal sums are lent for 2 years and 3 years at the same rate. The ratio of the simple interests is:",
+      "as": "দুটা সমান ধন একে হাৰত ২ বছৰ আৰু ৩ বছৰৰ বাবে ধাৰে দিয়া হয়। সৰল সুতৰ অনুপাত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "1 : 1",
+        "as": "১ : ১"
+      },
+      {
+        "en": "4 : 9",
+        "as": "৪ : ৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For equal sums and equal rates, SI is proportional to the time, so the ratio is 2 : 3.",
+      "as": "সমান ধন আৰু সমান হাৰত, সৰল সুত সময়ৰ সমানুপাতত, গতিকে অনুপাত ২ : ৩।"
+    }
+  },
+  {
+    "id": "simple-interest-026",
+    "q": {
+      "en": "If the rate of simple interest is 1% higher, the simple interest on ₹8,000 for 3 years increases by:",
+      "as": "সৰল সুতৰ হাৰ ১% বেছি হ'লে, ₹৮,০০০ ৰ ওপৰত ৩ বছৰৰ সৰল সুত কিমান বাঢ়ে:"
+    },
+    "options": [
+      {
+        "en": "₹240",
+        "as": "₹২৪০"
+      },
+      {
+        "en": "₹80",
+        "as": "₹৮০"
+      },
+      {
+        "en": "₹200",
+        "as": "₹২০০"
+      },
+      {
+        "en": "₹300",
+        "as": "₹৩০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Extra interest = (8000 × 1 × 3) ÷ 100 = ₹240.",
+      "as": "অতিৰ সুত = (৮০০০ × ১ × ৩) ÷ ১০০ = ₹২৪০।"
+    }
+  },
+  {
+    "id": "simple-interest-027",
+    "q": {
+      "en": "The simple interest on a sum for 3 years at 5% per annum is ₹900. The simple interest on the same sum for 2 years at 6% per annum is:",
+      "as": "এটা ধনৰ ওপৰত বছৰি ৫% হাৰে ৩ বছৰৰ সৰল সুত ₹৯০০। একেই ধনৰ ওপৰত বছৰি ৬% হাৰে ২ বছৰৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹600",
+        "as": "₹৬০০"
+      },
+      {
+        "en": "₹720",
+        "as": "₹৭২০"
+      },
+      {
+        "en": "₹750",
+        "as": "₹৭৫০"
+      },
+      {
+        "en": "₹800",
+        "as": "₹৮০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P = (900 × 100) ÷ (5 × 3) = 6000, so new SI = (6000 × 6 × 2) ÷ 100 = ₹720.",
+      "as": "মূলধন = (৯০০ × ১০০) ÷ (৫ × ৩) = ৬০০০, গতিকে নতুন সৰল সুত = (৬০০০ × ৬ × ২) ÷ ১০০ = ₹৭২০।"
+    }
+  },
+  {
+    "id": "simple-interest-028",
+    "q": {
+      "en": "What sum lent at 5% per annum simple interest for 2 years yields the same interest as ₹2,000 lent at 6% per annum for 5 years?",
+      "as": "কিমান ধন বছৰি ৫% সৰল সুতত ২ বছৰৰ বাবে ধাৰে দিলে ₹২,০০০ ক বছৰি ৬% হাৰে ৫ বছৰৰ বাবে দিয়াৰ সমান সুত পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      },
+      {
+        "en": "₹7,200",
+        "as": "₹৭,২০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹6,600",
+        "as": "₹৬,৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interest needed = (2000 × 6 × 5) ÷ 100 = 600, so P = (600 × 100) ÷ (5 × 2) = ₹6,000.",
+      "as": "প্ৰয়োজনীয় সুত = (২০০০ × ৬ × ৫) ÷ ১০০ = ৬০০, গতিকে মূলধন = (৬০০ × ১০০) ÷ (৫ × ২) = ₹৬,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-029",
+    "q": {
+      "en": "A person borrows ₹2,000 at 6% per annum simple interest and repays the whole amount with interest after 3 years. He repays:",
+      "as": "এজন ব্যক্তিয়ে ₹২,০০০ বছৰি ৬% সৰল সুতত ধাৰ লৈ ৩ বছৰৰ পিছত সুত ধৰি গোটেই ধন ঘূৰাই দিয়ে। তেওঁ ঘূৰাই দিয়ে:"
+    },
+    "options": [
+      {
+        "en": "₹2,300",
+        "as": "₹২,৩০০"
+      },
+      {
+        "en": "₹2,400",
+        "as": "₹২,৪০০"
+      },
+      {
+        "en": "₹2,360",
+        "as": "₹২,৩৬০"
+      },
+      {
+        "en": "₹2,320",
+        "as": "₹২,৩২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = (2000 × 6 × 3) ÷ 100 = 360, so the amount = ₹2,360.",
+      "as": "সৰল সুত = (২০০০ × ৬ × ৩) ÷ ১০০ = ৩৬০, গতিকে মুঠ = ₹২,৩৬০।"
+    }
+  },
+  {
+    "id": "simple-interest-030",
+    "q": {
+      "en": "A sum of money invested at 6% per annum simple interest earns ₹1,080 as interest in 3 years. The sum is:",
+      "as": "বছৰি ৬% সৰল সুতত বিনিয়োগ কৰা এটা ধনে ৩ বছৰত সুত হিচাপে ₹১,০৮০ আয় কৰে। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹5,400",
+        "as": "₹৫,৪০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹6,500",
+        "as": "₹৬,৫০০"
+      },
+      {
+        "en": "₹7,200",
+        "as": "₹৭,২০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P = (1080 × 100) ÷ (6 × 3) = ₹6,000.",
+      "as": "মূলধন = (১০৮০ × ১০০) ÷ (৬ × ৩) = ₹৬,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-031",
+    "q": {
+      "en": "A sum of money becomes ₹1,120 in 2 years and ₹1,180 in 3 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ২ বছৰত ₹১,১২০ আৰু ৩ বছৰত ₹১,১৮০ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "6.5%",
+        "as": "৬.৫%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "One year's interest = 1180 − 1120 = 60, so P = 1120 − 120 = 1000 and R = (60 × 100) ÷ 1000 = 6%.",
+      "as": "এটা বছৰৰ সুত = ১১৮০ − ১১২০ = ৬০, গতিকে মূলধন = ১১২০ − ১২০ = ১০০০ আৰু হাৰ = (৬০ × ১০০) ÷ ১০০০ = ৬%।"
+    }
+  },
+  {
+    "id": "simple-interest-032",
+    "q": {
+      "en": "A sum of ₹4,000 is lent at 5% for the first year and at 6% for the second year, simple interest. The total interest earned in 2 years is:",
+      "as": "₹৪,০০০ প্ৰথম বছৰ ৫% আৰু দ্বিতীয় বছৰ ৬% সৰল সুতত ধাৰে দিয়া হয়। ২ বছৰত মুঠ অৰ্জিত সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹480",
+        "as": "₹৪৮০"
+      },
+      {
+        "en": "₹420",
+        "as": "₹৪২০"
+      },
+      {
+        "en": "₹440",
+        "as": "₹৪৪০"
+      },
+      {
+        "en": "₹400",
+        "as": "₹৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interest = (4000 × 5 × 1) ÷ 100 + (4000 × 6 × 1) ÷ 100 = 200 + 240 = ₹440.",
+      "as": "সুত = (৪০০০ × ৫ × ১) ÷ ১০০ + (৪০০০ × ৬ × ১) ÷ ১০০ = ২০০ + ২৪০ = ₹৪৪০।"
+    }
+  },
+  {
+    "id": "simple-interest-033",
+    "q": {
+      "en": "A sum of money becomes 7/4 of itself in 9 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ৯ বছৰত নিজৰ ৭/৪ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "9%",
+        "as": "৯%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "8 1/3%",
+        "as": "৮ ১/৩%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 3P/4, so R = (3P/4 × 100) ÷ (P × 9) = 300 ÷ 36 = 8 1/3%.",
+      "as": "সৰল সুত = ৩ × মূলধন/৪, গতিকে হাৰ = (৩ × মূলধন/৪ × ১০০) ÷ (মূলধন × ৯) = ৩০০ ÷ ৩৬ = ৮ ১/৩%।"
+    }
+  },
+  {
+    "id": "simple-interest-034",
+    "q": {
+      "en": "A sum of money amounts to ₹4,480 in 2 years at 12% per annum simple interest. The sum is:",
+      "as": "এটা ধন ২ বছৰত বছৰি ১২% সৰল সুতত ₹৪,৪৮০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,500",
+        "as": "₹৩,৫০০"
+      },
+      {
+        "en": "₹3,600",
+        "as": "₹৩,৬০০"
+      },
+      {
+        "en": "₹3,400",
+        "as": "₹৩,৪০০"
+      },
+      {
+        "en": "₹3,800",
+        "as": "₹৩,৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P × 1.24 = 4480, so P = ₹3,500.",
+      "as": "মুঠ = মূলধন × ১.২৪ = ৪৪৮০, গতিকে মূলধন = ₹৩,৫০০।"
+    }
+  },
+  {
+    "id": "simple-interest-035",
+    "q": {
+      "en": "A sum of ₹6,000 is lent at simple interest. After 4 years the amount is ₹7,440. The rate per annum is:",
+      "as": "₹৬,০০০ সৰল সুতত ধাৰে দিয়া হয়। ৪ বছৰৰ পিছত মুঠ ₹৭,৪৪০ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "6.5%",
+        "as": "৬.৫%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 1440 and R = (1440 × 100) ÷ (6000 × 4) = 6%.",
+      "as": "সৰল সুত = ১৪৪০ আৰু হাৰ = (১৪৪০ × ১০০) ÷ (৬০০০ × ৪) = ৬%।"
+    }
+  },
+  {
+    "id": "simple-interest-036",
+    "q": {
+      "en": "The simple interest on a sum of money for 2 years at 6% per annum is ₹300 less than the simple interest on the same sum for 4 years at 5% per annum. The sum is:",
+      "as": "এটা ধনৰ ওপৰত বছৰি ৬% হাৰে ২ বছৰৰ সৰল সুত, একেই ধনৰ ওপৰত বছৰি ৫% হাৰে ৪ বছৰৰ সৰল সুততকৈ ₹৩০০ কম। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹4,000",
+        "as": "₹৪,০০০"
+      },
+      {
+        "en": "₹3,750",
+        "as": "₹৩,৭৫০"
+      },
+      {
+        "en": "₹3,500",
+        "as": "₹৩,৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.20P − 0.12P = 300 gives 0.08P = 300, so P = ₹3,750.",
+      "as": "০.২০ × মূলধন − ০.১২ × মূলধন = ৩০০ ৰ পৰা ০.০৮ × মূলধন = ৩০০, গতিকে মূলধন = ₹৩,৭৫০।"
+    }
+  },
+  {
+    "id": "simple-interest-037",
+    "q": {
+      "en": "A sum of ₹5,000 is invested at 8% per annum simple interest. In how many years will it amount to ₹6,000?",
+      "as": "₹৫,০০০ বছৰি ৮% সৰল সুতত বিনিয়োগ কৰা হয়। কিমান বছৰত ই ₹৬,০০০ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "1.5 years",
+        "as": "১.৫ বছৰ"
+      },
+      {
+        "en": "2.5 years",
+        "as": "২.৫ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 1000 and T = (1000 × 100) ÷ (5000 × 8) = 2.5 years.",
+      "as": "সৰল সুত = ১০০০ আৰু সময় = (১০০০ × ১০০) ÷ (৫০০০ × ৮) = ২.৫ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-038",
+    "q": {
+      "en": "A sum of money doubles itself in 12 years at simple interest. In how many years will it become 4 times itself?",
+      "as": "এটা ধন সৰল সুতত ১২ বছৰত দুগুণ হয়। কিমান বছৰত ই নিজৰ ৪ গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      },
+      {
+        "en": "48 years",
+        "as": "৪৮ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Doubling needs 12 years for SI = P, so becoming 4 times needs SI = 3P, which takes 3 × 12 = 36 years.",
+      "as": "দুগুণ হ'বলৈ সৰল সুত = মূলধনৰ বাবে ১২ বছৰ, গতিকে ৪ গুণ হ'বলৈ সৰল সুত = ৩ × মূলধন লাগে, যি ৩ × ১২ = ৩৬ বছৰ লয়।"
+    }
+  },
+  {
+    "id": "simple-interest-039",
+    "q": {
+      "en": "The rate of simple interest at which ₹4,000 amounts to ₹5,200 in 5 years is:",
+      "as": "যি সৰল সুতৰ হাৰত ₹৪,০০০ ৫ বছৰত ₹৫,২০০ হয় সেয়া হ'ল:"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "6.5%",
+        "as": "৬.৫%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 1200 and R = (1200 × 100) ÷ (4000 × 5) = 6%.",
+      "as": "সৰল সুত = ১২০০ আৰু হাৰ = (১২০০ × ১০০) ÷ (৪০০০ × ৫) = ৬%।"
+    }
+  },
+  {
+    "id": "simple-interest-040",
+    "q": {
+      "en": "A sum of ₹2,000 is lent at 5% per annum simple interest for 2 years. If the interest were compounded annually, the interest would be more by:",
+      "as": "₹২,০০০ বছৰি ৫% সৰল সুতত ২ বছৰৰ বাবে ধাৰে দিয়া হয়। সুত বছৰি চক্ৰবৃদ্ধি হ'লে সুত কিমান বেছি হ'লহেঁতেন:"
+    },
+    "options": [
+      {
+        "en": "₹10",
+        "as": "₹১০"
+      },
+      {
+        "en": "₹20",
+        "as": "₹২০"
+      },
+      {
+        "en": "₹5",
+        "as": "₹৫"
+      },
+      {
+        "en": "₹25",
+        "as": "₹২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = 200 and CI = 2000 × (1.05² − 1) = 205, so the difference is ₹5.",
+      "as": "সৰল সুত = ২০০ আৰু চক্ৰবৃদ্ধি সুত = ২০০০ × (১.০৫² − ১) = ২০৫, গতিকে পাৰ্থক্য ₹৫।"
+    }
+  },
+  {
+    "id": "simple-interest-041",
+    "q": {
+      "en": "A sum of money lent at simple interest amounts to ₹2,240 in 2 years and to ₹2,480 in 4 years. The sum is:",
+      "as": "সৰল সুতত ধাৰে দিয়া এটা ধন ২ বছৰত ₹২,২৪০ আৰু ৪ বছৰত ₹২,৪৮০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,800",
+        "as": "₹১,৮০০"
+      },
+      {
+        "en": "₹2,200",
+        "as": "₹২,২০০"
+      },
+      {
+        "en": "₹1,900",
+        "as": "₹১,৯০০"
+      },
+      {
+        "en": "₹2,000",
+        "as": "₹২,০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Interest of 2 years = 240, so one year = 120 and 2 years = 240; P = 2240 − 240 = ₹2,000.",
+      "as": "২ বছৰৰ সুত = ২৪০, গতিকে এটা বছৰ = ১২০ আৰু ২ বছৰ = ২৪০; মূলধন = ২২৪০ − ২৪০ = ₹২,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-042",
+    "q": {
+      "en": "The simple interest on ₹9,000 at 4% per annum for 5 months is:",
+      "as": "₹৯,০০০ ৰ ওপৰত বছৰি ৪% হাৰে ৫ মাহৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹180",
+        "as": "₹১৮০"
+      },
+      {
+        "en": "₹120",
+        "as": "₹১২০"
+      },
+      {
+        "en": "₹150",
+        "as": "₹১৫০"
+      },
+      {
+        "en": "₹200",
+        "as": "₹২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 5/12 year, so SI = (9000 × 4 × 5) ÷ (100 × 12) = ₹150.",
+      "as": "সময় = ৫/১২ বছৰ, গতিকে সৰল সুত = (৯০০০ × ৪ × ৫) ÷ (১০০ × ১২) = ₹১৫০।"
+    }
+  },
+  {
+    "id": "simple-interest-043",
+    "q": {
+      "en": "A sum of ₹12,000 is lent partly at 7% and the rest at 9% per annum. If the total simple interest for one year is ₹1,000, the sum lent at 9% is:",
+      "as": "₹১২,০০০ ৰ এটা অংশ ৭% আৰু বাকীখিনি ৯% বছৰি হাৰত ধাৰে দিয়া হয়। এটা বছৰৰ মুঠ সৰল সুত ₹১,০০০ হ'লে, ৯% ত দিয়া ধন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,000",
+        "as": "₹৪,০০০"
+      },
+      {
+        "en": "₹8,000",
+        "as": "₹৮,০০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹7,500",
+        "as": "₹৭,৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "0.07x + 0.09(12000 − x) = 1000 gives 1080 − 0.02x = 1000, so x = 4000 at 7% and 8000 at 9%.",
+      "as": "০.০৭x + ০.০৯(১২০০০ − x) = ১০০০ ৰ পৰা ১০৮০ − ০.০২x = ১০০০, গতিকে ৭% ত ৪০০০ আৰু ৯% ত ৮০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-044",
+    "q": {
+      "en": "The simple interest on a certain sum for 8 months at 12% per annum is ₹240. The sum is:",
+      "as": "এটা নিৰ্দিষ্ট ধনৰ ওপৰত বছৰি ১২% হাৰে ৮ মাহৰ সৰল সুত ₹২৪০। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹2,400",
+        "as": "₹২,৪০০"
+      },
+      {
+        "en": "₹3,600",
+        "as": "₹৩,৬০০"
+      },
+      {
+        "en": "₹2,800",
+        "as": "₹২,৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P = (240 × 100 × 12) ÷ (12 × 8) = ₹3,000.",
+      "as": "মূলধন = (২৪০ × ১০০ × ১২) ÷ (১২ × ৮) = ₹৩,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-045",
+    "q": {
+      "en": "A sum of money trebles itself in 15 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ১৫ বছৰত তিনি গুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "14%",
+        "as": "১৪%"
+      },
+      {
+        "en": "13 1/3%",
+        "as": "১৩ ১/৩%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Trebling means SI = 2P, so R = (2P × 100) ÷ (P × 15) = 13 1/3%.",
+      "as": "তিনি গুণ মানে সৰল সুত = ২ × মূলধন, গতিকে হাৰ = (২ × মূলধন × ১০০) ÷ (মূলধন × ১৫) = ১৩ ১/৩%।"
+    }
+  },
+  {
+    "id": "simple-interest-046",
+    "q": {
+      "en": "A person invests ₹6,000 at 10% per annum simple interest and ₹4,000 at 12% per annum simple interest. His total interest in one year is:",
+      "as": "এজন ব্যক্তিয়ে ₹৬,০০০ বছৰি ১০% আৰু ₹৪,০০০ বছৰি ১২% সৰল সুতত বিনিয়োগ কৰে। এটা বছৰত তেওঁৰ মুঠ সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,080",
+        "as": "₹১,০৮০"
+      },
+      {
+        "en": "₹1,000",
+        "as": "₹১,০০০"
+      },
+      {
+        "en": "₹1,120",
+        "as": "₹১,১২০"
+      },
+      {
+        "en": "₹960",
+        "as": "₹৯৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Interest = 600 + 480 = ₹1,080.",
+      "as": "সুত = ৬০০ + ৪৮০ = ₹১,০৮০।"
+    }
+  },
+  {
+    "id": "simple-interest-047",
+    "q": {
+      "en": "The simple interest on ₹7,000 for 2 years is ₹1,120. The rate per annum is:",
+      "as": "₹৭,০০০ ৰ ওপৰত ২ বছৰৰ সৰল সুত ₹১,১২০। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "9%",
+        "as": "৯%"
+      },
+      {
+        "en": "7.5%",
+        "as": "৭.৫%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R = (1120 × 100) ÷ (7000 × 2) = 8%.",
+      "as": "হাৰ = (১১২০ × ১০০) ÷ (৭০০০ × ২) = ৮%।"
+    }
+  },
+  {
+    "id": "simple-interest-048",
+    "q": {
+      "en": "A sum of ₹18,000 is lent at 5% per annum simple interest. After how many years will the total amount be ₹20,700?",
+      "as": "₹১৮,০০০ বছৰি ৫% সৰল সুতত ধাৰে দিয়া হয়। কিমান বছৰৰ পিছত মুঠ ₹২০,৭০০ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "3.5 years",
+        "as": "৩.৫ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 2700 and T = (2700 × 100) ÷ (18000 × 5) = 3 years.",
+      "as": "সৰল সুত = ২৭০০ আৰু সময় = (২৭০০ × ১০০) ÷ (১৮০০০ × ৫) = ৩ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-049",
+    "q": {
+      "en": "The simple interest on ₹3,000 at 6% per annum for 4 years is ₹720. If the rate were 2% higher, the interest would have been:",
+      "as": "₹৩,০০০ ৰ ওপৰত বছৰি ৬% হাৰে ৪ বছৰৰ সৰল সুত ₹৭২০। হাৰ ২% বেছি হ'লে সুত হ'লহেঁতেন:"
+    },
+    "options": [
+      {
+        "en": "₹900",
+        "as": "₹৯০০"
+      },
+      {
+        "en": "₹1,000",
+        "as": "₹১,০০০"
+      },
+      {
+        "en": "₹960",
+        "as": "₹৯৬০"
+      },
+      {
+        "en": "₹840",
+        "as": "₹৮৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Extra interest = (3000 × 2 × 4) ÷ 100 = 240, so the interest would be 720 + 240 = ₹960.",
+      "as": "অতিৰ সুত = (৩০০০ × ২ × ৪) ÷ ১০০ = ২৪০, গতিকে সুত হ'লহেঁতেন ৭২০ + ২৪০ = ₹৯৬০।"
+    }
+  },
+  {
+    "id": "simple-interest-050",
+    "q": {
+      "en": "A sum of money becomes ₹1,760 in 3 years at 8% per annum simple interest. The sum is:",
+      "as": "এটা ধন ৩ বছৰত বছৰি ৮% সৰল সুতত ₹১,৭৬০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,500",
+        "as": "₹১,৫০০"
+      },
+      {
+        "en": "₹1,400",
+        "as": "₹১,৪০০"
+      },
+      {
+        "en": "₹1,300",
+        "as": "₹১,৩০০"
+      },
+      {
+        "en": "₹1,450",
+        "as": "₹১,৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P × (1 + 0.24) = 1.24P = 1760, so P = ₹1,400.",
+      "as": "মুঠ = মূলধন × (১ + ০.২৪) = ১.২৪ × মূলধন = ১৭৬০, গতিকে মূলধন = ₹১,৪০০।"
+    }
+  },
+  {
+    "id": "simple-interest-051",
+    "q": {
+      "en": "The difference between the simple interest and the compound interest on ₹5,000 for 2 years at 10% per annum is:",
+      "as": "₹৫,০০০ ৰ ওপৰত বছৰি ১০% হাৰে ২ বছৰৰ সৰল সুত আৰু চক্ৰবৃদ্ধি সুতৰ পাৰ্থক্য হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹100",
+        "as": "₹১০০"
+      },
+      {
+        "en": "₹25",
+        "as": "₹২৫"
+      },
+      {
+        "en": "₹75",
+        "as": "₹৭৫"
+      },
+      {
+        "en": "₹50",
+        "as": "₹৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = P × (R ÷ 100)² = 5000 × 0.01 = ₹50.",
+      "as": "পাৰ্থক্য = মূলধন × (হাৰ ÷ ১০০)² = ৫০০০ × ০.০১ = ₹৫০।"
+    }
+  },
+  {
+    "id": "simple-interest-052",
+    "q": {
+      "en": "A sum of ₹4,000 is lent at 5% per annum simple interest for 3 years. The amount to be repaid is:",
+      "as": "₹৪,০০০ বছৰি ৫% সৰল সুতত ৩ বছৰৰ বাবে ধাৰে দিয়া হয়। ঘূৰাই দিবলগীয়া মুঠ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,500",
+        "as": "₹৪,৫০০"
+      },
+      {
+        "en": "₹4,700",
+        "as": "₹৪,৭০০"
+      },
+      {
+        "en": "₹4,600",
+        "as": "₹৪,৬০০"
+      },
+      {
+        "en": "₹4,550",
+        "as": "₹৪,৫৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SI = (4000 × 5 × 3) ÷ 100 = 600, so the amount = ₹4,600.",
+      "as": "সৰল সুত = (৪০০০ × ৫ × ৩) ÷ ১০০ = ৬০০, গতিকে মুঠ = ₹৪,৬০০।"
+    }
+  },
+  {
+    "id": "simple-interest-053",
+    "q": {
+      "en": "A sum of money doubles itself in 6 years at simple interest. In how many years will it become 5 times itself?",
+      "as": "এটা ধন সৰল সুতত ৬ বছৰত দুগুণ হয়। কিমান বছৰত ই নিজৰ ৫ গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "18 years",
+        "as": "১৮ বছৰ"
+      },
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Doubling needs 6 years for SI = P, so becoming 5 times needs SI = 4P, which takes 4 × 6 = 24 years.",
+      "as": "দুগুণ হ'বলৈ সৰল সুত = মূলধনৰ বাবে ৬ বছৰ, গতিকে ৫ গুণ হ'বলৈ সৰল সুত = ৪ × মূলধন লাগে, যি ৪ × ৬ = ২৪ বছৰ লয়।"
+    }
+  },
+  {
+    "id": "simple-interest-054",
+    "q": {
+      "en": "The simple interest on ₹8,000 at 9% per annum for 5 years is:",
+      "as": "₹৮,০০০ ৰ ওপৰত বছৰি ৯% হাৰে ৫ বছৰৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,600",
+        "as": "₹৩,৬০০"
+      },
+      {
+        "en": "₹3,400",
+        "as": "₹৩,৪০০"
+      },
+      {
+        "en": "₹3,800",
+        "as": "₹৩,৮০০"
+      },
+      {
+        "en": "₹3,500",
+        "as": "₹৩,৫০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = (8000 × 9 × 5) ÷ 100 = ₹3,600.",
+      "as": "সৰল সুত = (৮০০০ × ৯ × ৫) ÷ ১০০ = ₹৩,৬০০।"
+    }
+  },
+  {
+    "id": "simple-interest-055",
+    "q": {
+      "en": "A sum of money is lent at 7% per annum simple interest. In how many years will the simple interest be 0.7 times the sum?",
+      "as": "এটা ধন বছৰি ৭% সৰল সুতত ধাৰে দিয়া হয়। কিমান বছৰত সৰল সুত ধনৰ ০.৭ গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10 years",
+        "as": "১০ বছৰ"
+      },
+      {
+        "en": "7 years",
+        "as": "৭ বছৰ"
+      },
+      {
+        "en": "14 years",
+        "as": "১৪ বছৰ"
+      },
+      {
+        "en": "12 years",
+        "as": "১২ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 0.7P gives T = (0.7P × 100) ÷ (P × 7) = 10 years.",
+      "as": "সৰল সুত = ০.৭ × মূলধন ৰ পৰা সময় = (০.৭ × মূলধন × ১০০) ÷ (মূলধন × ৭) = ১০ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-056",
+    "q": {
+      "en": "A sum of ₹2,400 earns ₹216 as simple interest in 3 years. The rate per annum is:",
+      "as": "₹২,৪০০ এ ৩ বছৰত সৰল সুত হিচাপে ₹২১৬ আয় কৰে। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "3%",
+        "as": "৩%"
+      },
+      {
+        "en": "2.5%",
+        "as": "২.৫%"
+      },
+      {
+        "en": "3.5%",
+        "as": "৩.৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R = (216 × 100) ÷ (2400 × 3) = 3%.",
+      "as": "হাৰ = (২১৬ × ১০০) ÷ (২৪০০ × ৩) = ৩%।"
+    }
+  },
+  {
+    "id": "simple-interest-057",
+    "q": {
+      "en": "The simple interest on ₹5,000 for 3 years is ₹1,050. In what time will ₹5,000 yield ₹1,750 as simple interest at the same rate?",
+      "as": "₹৫,০০০ ৰ ওপৰত ৩ বছৰৰ সৰল সুত ₹১,০৫০। একেই হাৰত ₹৫,০০০ এ কিমান সময়ত ₹১,৭৫০ সৰল সুত দিব?"
+    },
+    "options": [
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "4.5 years",
+        "as": "৪.৫ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interest is proportional to time, so T = 3 × (1750 ÷ 1050) = 5 years.",
+      "as": "সুত সময়ৰ সমানুপাতত, গতিকে সময় = ৩ × (১৭৫০ ÷ ১০৫০) = ৫ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-058",
+    "q": {
+      "en": "A sum of ₹4,000 is invested at 5% per annum simple interest. In how many years will the interest be ₹800?",
+      "as": "₹৪,০০০ বছৰি ৫% সৰল সুতত বিনিয়োগ কৰা হয়। কিমান বছৰত সুত ₹৮০০ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "6 years",
+        "as": "৬ বছৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "T = (800 × 100) ÷ (4000 × 5) = 4 years.",
+      "as": "সময় = (৮০০ × ১০০) ÷ (৪০০০ × ৫) = ৪ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-059",
+    "q": {
+      "en": "A sum of money amounts to ₹2,800 in 2 years at 20% per annum simple interest. The sum is:",
+      "as": "এটা ধন ২ বছৰত বছৰি ২০% সৰল সুতত ₹২,৮০০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,800",
+        "as": "₹১,৮০০"
+      },
+      {
+        "en": "₹2,200",
+        "as": "₹২,২০০"
+      },
+      {
+        "en": "₹2,000",
+        "as": "₹২,০০০"
+      },
+      {
+        "en": "₹2,400",
+        "as": "₹২,৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P × (1 + 20 × 2 ÷ 100) = 1.4P = 2800, so P = ₹2,000.",
+      "as": "মুঠ = মূলধন × (১ + ২০ × ২ ÷ ১০০) = ১.৪ × মূলধন = ২৮০০, গতিকে মূলধন = ₹২,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-060",
+    "q": {
+      "en": "The simple interest on a sum for 4 years at 6% per annum equals the simple interest on ₹3,000 for 8 years at 5% per annum. The sum is:",
+      "as": "এটা ধনৰ ওপৰত বছৰি ৬% হাৰে ৪ বছৰৰ সৰল সুত, ₹৩,০০০ ৰ ওপৰত বছৰি ৫% হাৰে ৮ বছৰৰ সৰল সুতৰ সমান। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹4,800",
+        "as": "₹৪,৮০০"
+      },
+      {
+        "en": "₹6,000",
+        "as": "₹৬,০০০"
+      },
+      {
+        "en": "₹5,400",
+        "as": "₹৫,৪০০"
+      },
+      {
+        "en": "₹5,000",
+        "as": "₹৫,০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Interest = (3000 × 5 × 8) ÷ 100 = 1200, so P = (1200 × 100) ÷ (6 × 4) = ₹5,000.",
+      "as": "সুত = (৩০০০ × ৫ × ৮) ÷ ১০০ = ১২০০, গতিকে মূলধন = (১২০০ × ১০০) ÷ (৬ × ৪) = ₹৫,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-061",
+    "q": {
+      "en": "A man lends ₹5,000 at 10% per annum simple interest for 2 years and another ₹3,000 at 8% per annum simple interest for 3 years. His total interest is:",
+      "as": "এজন মানুহে ₹৫,০০০ বছৰি ১০% সৰল সুতত ২ বছৰৰ বাবে আৰু ₹৩,০০০ বছৰি ৮% সৰল সুতত ৩ বছৰৰ বাবে ধাৰে দিয়ে। তেওঁৰ মুঠ সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,600",
+        "as": "₹১,৬০০"
+      },
+      {
+        "en": "₹1,800",
+        "as": "₹১,৮০০"
+      },
+      {
+        "en": "₹1,720",
+        "as": "₹১,৭২০"
+      },
+      {
+        "en": "₹1,680",
+        "as": "₹১,৬৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Interest = 1000 + 720 = ₹1,720.",
+      "as": "সুত = ১০০০ + ৭২০ = ₹১,৭২০।"
+    }
+  },
+  {
+    "id": "simple-interest-062",
+    "q": {
+      "en": "A sum of money doubles itself in 10 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ১০ বছৰত দুগুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R = (P × 100) ÷ (P × 10) = 10%.",
+      "as": "হাৰ = (মূলধন × ১০০) ÷ (মূলধন × ১০) = ১০%।"
+    }
+  },
+  {
+    "id": "simple-interest-063",
+    "q": {
+      "en": "A sum of ₹1,600 amounts to ₹2,000 in 5 years at simple interest. The rate per annum is:",
+      "as": "₹১,৬০০ ৫ বছৰত সৰল সুতত ₹২,০০০ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "6%",
+        "as": "৬%"
+      },
+      {
+        "en": "4%",
+        "as": "৪%"
+      },
+      {
+        "en": "4.5%",
+        "as": "৪.৫%"
+      },
+      {
+        "en": "5%",
+        "as": "৫%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SI = 400 and R = (400 × 100) ÷ (1600 × 5) = 5%.",
+      "as": "সৰল সুত = ৪০০ আৰু হাৰ = (৪০০ × ১০০) ÷ (১৬০০ × ৫) = ৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-064",
+    "q": {
+      "en": "A sum of money is lent at simple interest at 8% per annum. If the sum is ₹6,250, the interest for 2 years 3 months is:",
+      "as": "এটা ধন বছৰি ৮% সৰল সুতত ধাৰে দিয়া হয়। ধন ₹৬,২৫০ হ'লে, ২ বছৰ ৩ মাহৰ সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,125",
+        "as": "₹১,১২৫"
+      },
+      {
+        "en": "₹1,000",
+        "as": "₹১,০০০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      },
+      {
+        "en": "₹1,050",
+        "as": "₹১,০৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = 2.25 years, so SI = (6250 × 8 × 2.25) ÷ 100 = ₹1,125.",
+      "as": "সময় = ২.২৫ বছৰ, গতিকে সৰল সুত = (৬২৫০ × ৮ × ২.২৫) ÷ ১০০ = ₹১,১২৫।"
+    }
+  },
+  {
+    "id": "simple-interest-065",
+    "q": {
+      "en": "A sum of ₹7,500 is lent at 4% per annum simple interest for 3 years. The amount to be repaid is:",
+      "as": "₹৭,৫০০ বছৰি ৪% সৰল সুতত ৩ বছৰৰ বাবে ধাৰে দিয়া হয়। ঘূৰাই দিবলগীয়া মুঠ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹8,400",
+        "as": "₹৮,৪০০"
+      },
+      {
+        "en": "₹8,250",
+        "as": "₹৮,২৫০"
+      },
+      {
+        "en": "₹8,500",
+        "as": "₹৮,৫০০"
+      },
+      {
+        "en": "₹8,300",
+        "as": "₹৮,৩০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 900, so the amount = 7500 + 900 = ₹8,400.",
+      "as": "সৰল সুত = ৯০০, গতিকে মুঠ = ৭৫০০ + ৯০০ = ₹৮,৪০০।"
+    }
+  },
+  {
+    "id": "simple-interest-066",
+    "q": {
+      "en": "A sum of money becomes 9/5 of itself in 4 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ৪ বছৰত নিজৰ ৯/৫ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "18%",
+        "as": "১৮%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "22%",
+        "as": "২২%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = 4P/5, so R = (4P/5 × 100) ÷ (P × 4) = 20%.",
+      "as": "সৰল সুত = ৪ × মূলধন/৫, গতিকে হাৰ = (৪ × মূলধন/৫ × ১০০) ÷ (মূলধন × ৪) = ২০%।"
+    }
+  },
+  {
+    "id": "simple-interest-067",
+    "q": {
+      "en": "The simple interest on ₹4,800 at 5% per annum for 2 years is ₹480. The simple interest on the same sum at 7% per annum for 2 years is:",
+      "as": "₹৪,৮০০ ৰ ওপৰত বছৰি ৫% হাৰে ২ বছৰৰ সৰল সুত ₹৪৮০। একেই ধনৰ ওপৰত বছৰি ৭% হাৰে ২ বছৰৰ সৰল সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹672",
+        "as": "₹৬৭২"
+      },
+      {
+        "en": "₹600",
+        "as": "₹৬০০"
+      },
+      {
+        "en": "₹720",
+        "as": "₹৭২০"
+      },
+      {
+        "en": "₹648",
+        "as": "₹৬৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = (4800 × 7 × 2) ÷ 100 = ₹672.",
+      "as": "সৰল সুত = (৪৮০০ × ৭ × ২) ÷ ১০০ = ₹৬৭২।"
+    }
+  },
+  {
+    "id": "simple-interest-068",
+    "q": {
+      "en": "A sum of ₹3,000 is lent at 6% per annum simple interest. After 2 years the rate is raised to 9%. The total interest after 5 years is:",
+      "as": "₹৩,০০০ বছৰি ৬% সৰল সুতত ধাৰে দিয়া হয়। ২ বছৰৰ পিছত হাৰ ৯% লৈ বৃদ্ধি কৰা হয়। ৫ বছৰৰ পিছত মুঠ সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,080",
+        "as": "₹১,০৮০"
+      },
+      {
+        "en": "₹1,170",
+        "as": "₹১,১৭০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      },
+      {
+        "en": "₹1,140",
+        "as": "₹১,১৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interest = (3000 × 6 × 2) ÷ 100 + (3000 × 9 × 3) ÷ 100 = 360 + 810 = ₹1,170.",
+      "as": "সুত = (৩০০০ × ৬ × ২) ÷ ১০০ + (৩০০০ × ৯ × ৩) ÷ ১০০ = ৩৬০ + ৮১০ = ₹১,১৭০।"
+    }
+  },
+  {
+    "id": "simple-interest-069",
+    "q": {
+      "en": "A sum of money triples itself in 8 years at simple interest. The rate per annum is:",
+      "as": "এটা ধন সৰল সুতত ৮ বছৰত তিনি গুণ হয়। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "24%",
+        "as": "২৪%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SI = 2P, so R = (2P × 100) ÷ (P × 8) = 25%.",
+      "as": "সৰল সুত = ২ × মূলধন, গতিকে হাৰ = (২ × মূলধন × ১০০) ÷ (মূলধন × ৮) = ২৫%।"
+    }
+  },
+  {
+    "id": "simple-interest-070",
+    "q": {
+      "en": "A sum of ₹2,000 is lent at 4% per annum simple interest for 1 year. The amount at the end of the year is:",
+      "as": "₹২,০০০ বছৰি ৪% সৰল সুতত ১ বছৰৰ বাবে ধাৰে দিয়া হয়। বছৰৰ শেষত মুঠ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹2,060",
+        "as": "₹২,০৬০"
+      },
+      {
+        "en": "₹2,080",
+        "as": "₹২,০৮০"
+      },
+      {
+        "en": "₹2,100",
+        "as": "₹২,১০০"
+      },
+      {
+        "en": "₹2,040",
+        "as": "₹২,০৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SI = (2000 × 4 × 1) ÷ 100 = 80, so the amount = ₹2,080.",
+      "as": "সৰল সুত = (২০০০ × ৪ × ১) ÷ ১০০ = ৮০, গতিকে মুঠ = ₹২,০৮০।"
+    }
+  },
+  {
+    "id": "simple-interest-071",
+    "q": {
+      "en": "A sum of money is lent at 5% per annum simple interest. In how many years will it treble itself?",
+      "as": "এটা ধন বছৰি ৫% সৰল সুতত ধাৰে দিয়া হয়। কিমান বছৰত ই তিনি গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "40 years",
+        "as": "৪০ বছৰ"
+      },
+      {
+        "en": "30 years",
+        "as": "৩০ বছৰ"
+      },
+      {
+        "en": "20 years",
+        "as": "২০ বছৰ"
+      },
+      {
+        "en": "50 years",
+        "as": "৫০ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Trebling needs SI = 2P, so T = (2P × 100) ÷ (P × 5) = 40 years.",
+      "as": "তিনি গুণ হ'বলৈ সৰল সুত = ২ × মূলধন লাগে, গতিকে সময় = (২ × মূলধন × ১০০) ÷ (মূলধন × ৫) = ৪০ বছৰ।"
+    }
+  },
+  {
+    "id": "simple-interest-072",
+    "q": {
+      "en": "A sum of money amounts to ₹1,150 in 3 years at 5% per annum simple interest. The sum is:",
+      "as": "এটা ধন ৩ বছৰত বছৰি ৫% সৰল সুতত ₹১,১৫০ হয়। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹1,050",
+        "as": "₹১,০৫০"
+      },
+      {
+        "en": "₹950",
+        "as": "₹৯৫০"
+      },
+      {
+        "en": "₹1,100",
+        "as": "₹১,১০০"
+      },
+      {
+        "en": "₹1,000",
+        "as": "₹১,০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = 1.15P = 1150, so P = ₹1,000.",
+      "as": "মুঠ = ১.১৫ × মূলধন = ১১৫০, গতিকে মূলধন = ₹১,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-073",
+    "q": {
+      "en": "The simple interest on a sum is ₹450 in 3 years at 5% per annum. The sum is:",
+      "as": "এটা ধনৰ সৰল সুত বছৰি ৫% হাৰে ৩ বছৰত ₹৪৫০। ধনটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹2,700",
+        "as": "₹২,৭০০"
+      },
+      {
+        "en": "₹3,300",
+        "as": "₹৩,৩০০"
+      },
+      {
+        "en": "₹2,500",
+        "as": "₹২,৫০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P = (450 × 100) ÷ (5 × 3) = ₹3,000.",
+      "as": "মূলধন = (৪৫০ × ১০০) ÷ (৫ × ৩) = ₹৩,০০০।"
+    }
+  },
+  {
+    "id": "simple-interest-074",
+    "q": {
+      "en": "A sum of money is invested at simple interest. If the interest for the first 2 years is ₹600, the interest for the next 3 years at the same rate and on the same sum is:",
+      "as": "এটা ধন সৰল সুতত বিনিয়োগ কৰা হয়। প্ৰথম ২ বছৰৰ সুত ₹৬০০ হ'লে, একেই হাৰত আৰু একেই ধনৰ ওপৰত পৰৱৰ্তী ৩ বছৰৰ সুত হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹600",
+        "as": "₹৬০০"
+      },
+      {
+        "en": "₹900",
+        "as": "₹৯০০"
+      },
+      {
+        "en": "₹1,200",
+        "as": "₹১,২০০"
+      },
+      {
+        "en": "₹800",
+        "as": "₹৮০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interest is proportional to time, so it is 600 × (3 ÷ 2) = ₹900.",
+      "as": "সুত সময়ৰ সমানুপাতত, গতিকে ই ৬০০ × (৩ ÷ ২) = ₹৯০০।"
+    }
+  },
+  {
+    "id": "simple-interest-075",
+    "q": {
+      "en": "The simple interest on ₹5,000 for 2 years is ₹800. The rate per annum is:",
+      "as": "₹৫,০০০ ৰ ওপৰত ২ বছৰৰ সৰল সুত ₹৮০০। বছৰি হাৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "7%",
+        "as": "৭%"
+      },
+      {
+        "en": "9%",
+        "as": "৯%"
+      },
+      {
+        "en": "7.5%",
+        "as": "৭.৫%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R = (800 × 100) ÷ (5000 × 2) = 8%.",
+      "as": "হাৰ = (৮০০ × ১০০) ÷ (৫০০০ × ২) = ৮%।"
+    }
+  }
+]

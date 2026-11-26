@@ -1,0 +1,2978 @@
+[
+  {
+    "id": "num-venn-diagrams-001",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 60 students, 35 like Cricket, 30 like Football and 12 like both. How many like at least one of the two?",
+      "as": "৬০ জন ছাত্ৰৰ ভিতৰত ৩৫ জনে ক্ৰিকেট ভাল পায়, ৩০ জনে ফুটবল ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 35 + 30 - 12 = 53.",
+      "as": "কমেও এটা = ৩৫ + ৩০ - ১২ = ৫৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-002",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 60 students, 35 like Cricket, 30 like Football and 12 like both. How many like only Cricket?",
+      "as": "৬০ জন ছাত্ৰৰ ভিতৰত ৩৫ জনে ক্ৰিকেট ভাল পায়, ৩০ জনে ফুটবল ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কেৱল ক্ৰিকেট ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only Cricket = 35 - 12 = 23.",
+      "as": "কেৱল ক্ৰিকেট = ৩৫ - ১২ = ২৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-003",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 60 students, 35 like Cricket, 30 like Football and 12 like both. How many like neither?",
+      "as": "৬০ জন ছাত্ৰৰ ভিতৰত ৩৫ জনে ক্ৰিকেট ভাল পায়, ৩০ জনে ফুটবল ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 60 - (35 + 30 - 12) = 7.",
+      "as": "এটাও নহয় = ৬০ - ৫৩ = ৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-004",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 60 students, 35 like Cricket, 30 like Football and 12 like both. How many like exactly one subject?",
+      "as": "৬০ জন ছাত্ৰৰ ভিতৰত ৩৫ জনে ক্ৰিকেট ভাল পায়, ৩০ জনে ফুটবল ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = (35 - 12) + (30 - 12) = 41.",
+      "as": "কেৱল এটা = ৪১।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-005",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 80 students, 45 like Tea, 40 like Coffee and 15 like both. How many like at least one of the two?",
+      "as": "৮০ জন ছাত্ৰৰ ভিতৰত ৪৫ জনে চাহ ভাল পায়, ৪০ জনে কফি ভাল পায় আৰু ১৫ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 45 + 40 - 15 = 70.",
+      "as": "কমেও এটা = ৪৫ + ৪০ - ১৫ = ৭০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-006",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 80 students, 45 like Tea, 40 like Coffee and 15 like both. How many like only Tea?",
+      "as": "৮০ জন ছাত্ৰৰ ভিতৰত ৪৫ জনে চাহ ভাল পায়, ৪০ জনে কফি ভাল পায় আৰু ১৫ জনে দুয়োটাই ভাল পায়। কেৱল চাহ ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Tea = 45 - 15 = 30.",
+      "as": "কেৱল চাহ = ৪৫ - ১৫ = ৩০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-007",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 80 students, 45 like Tea, 40 like Coffee and 15 like both. How many like neither?",
+      "as": "৮০ জন ছাত্ৰৰ ভিতৰত ৪৫ জনে চাহ ভাল পায়, ৪০ জনে কফি ভাল পায় আৰু ১৫ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 80 - (45 + 40 - 15) = 10.",
+      "as": "এটাও নহয় = ৮০ - ৭০ = ১০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-008",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 80 students, 45 like Tea, 40 like Coffee and 15 like both. How many like exactly one subject?",
+      "as": "৮০ জন ছাত্ৰৰ ভিতৰত ৪৫ জনে চাহ ভাল পায়, ৪০ জনে কফি ভাল পায় আৰু ১৫ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = (45 - 15) + (40 - 15) = 55.",
+      "as": "কেৱল এটা = ৫৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-009",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 50 students, 32 like Maths, 28 like Science and 10 like both. How many like at least one of the two?",
+      "as": "৫০ জন ছাত্ৰৰ ভিতৰত ৩২ জনে গণিত ভাল পায়, ২৮ জনে বিজ্ঞান ভাল পায় আৰু ১০ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 32 + 28 - 10 = 50.",
+      "as": "কমেও এটা = ৩২ + ২৮ - ১০ = ৫০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-010",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 50 students, 32 like Maths, 28 like Science and 10 like both. How many like only Maths?",
+      "as": "৫০ জন ছাত্ৰৰ ভিতৰত ৩২ জনে গণিত ভাল পায়, ২৮ জনে বিজ্ঞান ভাল পায় আৰু ১০ জনে দুয়োটাই ভাল পায়। কেৱল গণিত ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Maths = 32 - 10 = 22.",
+      "as": "কেৱল গণিত = ৩২ - ১০ = ২২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-011",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 50 students, 32 like Maths, 28 like Science and 10 like both. How many like neither?",
+      "as": "৫০ জন ছাত্ৰৰ ভিতৰত ৩২ জনে গণিত ভাল পায়, ২৮ জনে বিজ্ঞান ভাল পায় আৰু ১০ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-10",
+        "as": "-১০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 50 - (32 + 28 - 10) = 0.",
+      "as": "এটাও নহয় = ৫০ - ৫০ = ০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-012",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 50 students, 32 like Maths, 28 like Science and 10 like both. How many like exactly one subject?",
+      "as": "৫০ জন ছাত্ৰৰ ভিতৰত ৩২ জনে গণিত ভাল পায়, ২৮ জনে বিজ্ঞান ভাল পায় আৰু ১০ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = (32 - 10) + (28 - 10) = 40.",
+      "as": "কেৱল এটা = ৪০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-013",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 70 students, 38 like Hindi, 34 like English and 14 like both. How many like at least one of the two?",
+      "as": "৭০ জন ছাত্ৰৰ ভিতৰত ৩৮ জনে হিন্দী ভাল পায়, ৩৪ জনে ইংৰাজী ভাল পায় আৰু ১৪ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 38 + 34 - 14 = 58.",
+      "as": "কমেও এটা = ৩৮ + ৩৪ - ১৪ = ৫৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-014",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 70 students, 38 like Hindi, 34 like English and 14 like both. How many like only Hindi?",
+      "as": "৭০ জন ছাত্ৰৰ ভিতৰত ৩৮ জনে হিন্দী ভাল পায়, ৩৪ জনে ইংৰাজী ভাল পায় আৰু ১৪ জনে দুয়োটাই ভাল পায়। কেৱল হিন্দী ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only Hindi = 38 - 14 = 24.",
+      "as": "কেৱল হিন্দী = ৩৮ - ১৪ = ২৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-015",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 70 students, 38 like Hindi, 34 like English and 14 like both. How many like neither?",
+      "as": "৭০ জন ছাত্ৰৰ ভিতৰত ৩৮ জনে হিন্দী ভাল পায়, ৩৪ জনে ইংৰাজী ভাল পায় আৰু ১৪ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 70 - (38 + 34 - 14) = 12.",
+      "as": "এটাও নহয় = ৭০ - ৫৮ = ১২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-016",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 70 students, 38 like Hindi, 34 like English and 14 like both. How many like exactly one subject?",
+      "as": "৭০ জন ছাত্ৰৰ ভিতৰত ৩৮ জনে হিন্দী ভাল পায়, ৩৪ জনে ইংৰাজী ভাল পায় আৰু ১৪ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = (38 - 14) + (34 - 14) = 44.",
+      "as": "কেৱল এটা = ৪৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-017",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 45 students, 26 like Singing, 24 like Dancing and 8 like both. How many like at least one of the two?",
+      "as": "৪৫ জন ছাত্ৰৰ ভিতৰত ২৬ জনে গান গোৱা ভাল পায়, ২৪ জনে নাচা ভাল পায় আৰু ৮ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 26 + 24 - 8 = 42.",
+      "as": "কমেও এটা = ২৬ + ২৪ - ৮ = ৪২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-018",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 45 students, 26 like Singing, 24 like Dancing and 8 like both. How many like only Singing?",
+      "as": "৪৫ জন ছাত্ৰৰ ভিতৰত ২৬ জনে গান গোৱা ভাল পায়, ২৪ জনে নাচা ভাল পায় আৰু ৮ জনে দুয়োটাই ভাল পায়। কেৱল গান গোৱা ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Singing = 26 - 8 = 18.",
+      "as": "কেৱল গান গোৱা = ২৬ - ৮ = ১৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-019",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 45 students, 26 like Singing, 24 like Dancing and 8 like both. How many like neither?",
+      "as": "৪৫ জন ছাত্ৰৰ ভিতৰত ২৬ জনে গান গোৱা ভাল পায়, ২৪ জনে নাচা ভাল পায় আৰু ৮ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 45 - (26 + 24 - 8) = 3.",
+      "as": "এটাও নহয় = ৪৫ - ৪২ = ৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-020",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 45 students, 26 like Singing, 24 like Dancing and 8 like both. How many like exactly one subject?",
+      "as": "৪৫ জন ছাত্ৰৰ ভিতৰত ২৬ জনে গান গোৱা ভাল পায়, ২৪ জনে নাচা ভাল পায় আৰু ৮ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = (26 - 8) + (24 - 8) = 34.",
+      "as": "কেৱল এটা = ৩৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-021",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 55 students, 30 like Chess, 25 like Carrom and 9 like both. How many like at least one of the two?",
+      "as": "৫৫ জন ছাত্ৰৰ ভিতৰত ৩০ জনে দবা ভাল পায়, ২৫ জনে কেৰম ভাল পায় আৰু ৯ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 30 + 25 - 9 = 46.",
+      "as": "কমেও এটা = ৩০ + ২৫ - ৯ = ৪৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-022",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 55 students, 30 like Chess, 25 like Carrom and 9 like both. How many like only Chess?",
+      "as": "৫৫ জন ছাত্ৰৰ ভিতৰত ৩০ জনে দবা ভাল পায়, ২৫ জনে কেৰম ভাল পায় আৰু ৯ জনে দুয়োটাই ভাল পায়। কেৱল দবা ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Chess = 30 - 9 = 21.",
+      "as": "কেৱল দবা = ৩০ - ৯ = ২১।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-023",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 55 students, 30 like Chess, 25 like Carrom and 9 like both. How many like neither?",
+      "as": "৫৫ জন ছাত্ৰৰ ভিতৰত ৩০ জনে দবা ভাল পায়, ২৫ জনে কেৰম ভাল পায় আৰু ৯ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 55 - (30 + 25 - 9) = 9.",
+      "as": "এটাও নহয় = ৫৫ - ৪৬ = ৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-024",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 55 students, 30 like Chess, 25 like Carrom and 9 like both. How many like exactly one subject?",
+      "as": "৫৫ জন ছাত্ৰৰ ভিতৰত ৩০ জনে দবা ভাল পায়, ২৫ জনে কেৰম ভাল পায় আৰু ৯ জনে দুয়োটাই ভাল পায়। কেৱল এটা বিষয় ভাল পোৱা ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = (30 - 9) + (25 - 9) = 37.",
+      "as": "কেৱল এটা = ৩৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-025",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 100 students, 50 study Physics, 45 study Chemistry, 40 study Maths, 15 study Physics and Chemistry, 12 study Chemistry and Maths, 10 study Maths and Physics, and 5 study all three. How many study at least one?",
+      "as": "১০০ জন ছাত্ৰৰ শ্ৰেণীত ৫০ জনে পদাৰ্থবিজ্ঞান পঢ়ে, ৪৫ জনে ৰসায়ন, ৪০ জনে গণিত, ১৫ জনে পদাৰ্থবিজ্ঞান আৰু ৰসায়ন, ১২ জনে ৰসায়ন আৰু গণিত, ১০ জনে গণিত আৰু পদাৰ্থবিজ্ঞান, আৰু ৫ জনে তিনিওটা পঢ়ে। কমেও এটা পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "106",
+        "as": "১০৬"
+      },
+      {
+        "en": "103",
+        "as": "১০৩"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 50+45+40-15-12-10+5 = 103.",
+      "as": "সংযোগ = ১০৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-026",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 100 students, 50 study Physics, 45 study Chemistry, 40 study Maths, 15 study Physics and Chemistry, 12 study Chemistry and Maths, 10 study Maths and Physics, and 5 study all three. How many study only Physics?",
+      "as": "১০০ জন ছাত্ৰৰ শ্ৰেণীত ৫০ জনে পদাৰ্থবিজ্ঞান পঢ়ে, ৪৫ জনে ৰসায়ন, ৪০ জনে গণিত, ১৫ জনে পদাৰ্থবিজ্ঞান আৰু ৰসায়ন, ১২ জনে ৰসায়ন আৰু গণিত, ১০ জনে গণিত আৰু পদাৰ্থবিজ্ঞান, আৰু ৫ জনে তিনিওটা পঢ়ে। কেৱল পদাৰ্থবিজ্ঞান পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only Physics = 50 - 15 - 10 + 5 = 30.",
+      "as": "কেৱল পদাৰ্থবিজ্ঞান = ৩০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-027",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 100 students, 50 study Physics, 45 study Chemistry, 40 study Maths, 15 study Physics and Chemistry, 12 study Chemistry and Maths, 10 study Maths and Physics, and 5 study all three. How many study none of the three?",
+      "as": "১০০ জন ছাত্ৰৰ শ্ৰেণীত ৫০ জনে পদাৰ্থবিজ্ঞান পঢ়ে, ৪৫ জনে ৰসায়ন, ৪০ জনে গণিত, ১৫ জনে পদাৰ্থবিজ্ঞান আৰু ৰসায়ন, ১২ জনে ৰসায়ন আৰু গণিত, ১০ জনে গণিত আৰু পদাৰ্থবিজ্ঞান, আৰু ৫ জনে তিনিওটা পঢ়ে। এটাও নপঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "103",
+        "as": "১০৩"
+      },
+      {
+        "en": "-3",
+        "as": "-৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None = 100 - 103 = -3.",
+      "as": "এটাও নহয় = ১০০ - ১০৩ = -৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-028",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 100 students, 50 study Physics, 45 study Chemistry, 40 study Maths, 15 study Physics and Chemistry, 12 study Chemistry and Maths, 10 study Maths and Physics, and 5 study all three. How many study exactly two subjects?",
+      "as": "১০০ জন ছাত্ৰৰ শ্ৰেণীত ৫০ জনে পদাৰ্থবিজ্ঞান পঢ়ে, ৪৫ জনে ৰসায়ন, ৪০ জনে গণিত, ১৫ জনে পদাৰ্থবিজ্ঞান আৰু ৰসায়ন, ১২ জনে ৰসায়ন আৰু গণিত, ১০ জনে গণিত আৰু পদাৰ্থবিজ্ঞান, আৰু ৫ জনে তিনিওটা পঢ়ে। কেৱল দুটা বিষয় পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = 15+12+10 - 3×5 = 22.",
+      "as": "কেৱল দুটা = ২২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-029",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 120 students, 60 study Tea, 50 study Coffee, 45 study Milk, 20 study Tea and Coffee, 15 study Coffee and Milk, 12 study Milk and Tea, and 6 study all three. How many study at least one?",
+      "as": "১২০ জন ছাত্ৰৰ শ্ৰেণীত ৬০ জনে চাহ পঢ়ে, ৫০ জনে কফি, ৪৫ জনে গাখীৰ, ২০ জনে চাহ আৰু কফি, ১৫ জনে কফি আৰু গাখীৰ, ১২ জনে গাখীৰ আৰু চাহ, আৰু ৬ জনে তিনিওটা পঢ়ে। কমেও এটা পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "117",
+        "as": "১১৭"
+      },
+      {
+        "en": "114",
+        "as": "১১৪"
+      },
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "155",
+        "as": "১৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 60+50+45-20-15-12+6 = 114.",
+      "as": "সংযোগ = ১১৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-030",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 120 students, 60 study Tea, 50 study Coffee, 45 study Milk, 20 study Tea and Coffee, 15 study Coffee and Milk, 12 study Milk and Tea, and 6 study all three. How many study only Tea?",
+      "as": "১২০ জন ছাত্ৰৰ শ্ৰেণীত ৬০ জনে চাহ পঢ়ে, ৫০ জনে কফি, ৪৫ জনে গাখীৰ, ২০ জনে চাহ আৰু কফি, ১৫ জনে কফি আৰু গাখীৰ, ১২ জনে গাখীৰ আৰু চাহ, আৰু ৬ জনে তিনিওটা পঢ়ে। কেৱল চাহ পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Tea = 60 - 20 - 12 + 6 = 34.",
+      "as": "কেৱল চাহ = ৩৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-031",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 120 students, 60 study Tea, 50 study Coffee, 45 study Milk, 20 study Tea and Coffee, 15 study Coffee and Milk, 12 study Milk and Tea, and 6 study all three. How many study none of the three?",
+      "as": "১২০ জন ছাত্ৰৰ শ্ৰেণীত ৬০ জনে চাহ পঢ়ে, ৫০ জনে কফি, ৪৫ জনে গাখীৰ, ২০ জনে চাহ আৰু কফি, ১৫ জনে কফি আৰু গাখীৰ, ১২ জনে গাখীৰ আৰু চাহ, আৰু ৬ জনে তিনিওটা পঢ়ে। এটাও নপঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "114",
+        "as": "১১৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None = 120 - 114 = 6.",
+      "as": "এটাও নহয় = ১২০ - ১১৪ = ৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-032",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 120 students, 60 study Tea, 50 study Coffee, 45 study Milk, 20 study Tea and Coffee, 15 study Coffee and Milk, 12 study Milk and Tea, and 6 study all three. How many study exactly two subjects?",
+      "as": "১২০ জন ছাত্ৰৰ শ্ৰেণীত ৬০ জনে চাহ পঢ়ে, ৫০ জনে কফি, ৪৫ জনে গাখীৰ, ২০ জনে চাহ আৰু কফি, ১৫ জনে কফি আৰু গাখীৰ, ১২ জনে গাখীৰ আৰু চাহ, আৰু ৬ জনে তিনিওটা পঢ়ে। কেৱল দুটা বিষয় পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly two = 20+15+12 - 3×6 = 29.",
+      "as": "কেৱল দুটা = ২৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-033",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 90 students, 45 study Cricket, 40 study Football, 35 study Hockey, 12 study Cricket and Football, 10 study Football and Hockey, 8 study Hockey and Cricket, and 4 study all three. How many study at least one?",
+      "as": "৯০ জন ছাত্ৰৰ শ্ৰেণীত ৪৫ জনে ক্ৰিকেট পঢ়ে, ৪০ জনে ফুটবল, ৩৫ জনে হকী, ১২ জনে ক্ৰিকেট আৰু ফুটবল, ১০ জনে ফুটবল আৰু হকী, ৮ জনে হকী আৰু ক্ৰিকেট, আৰু ৪ জনে তিনিওটা পঢ়ে। কমেও এটা পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "97",
+        "as": "৯৭"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Union = 45+40+35-12-10-8+4 = 94.",
+      "as": "সংযোগ = ৯৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-034",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 90 students, 45 study Cricket, 40 study Football, 35 study Hockey, 12 study Cricket and Football, 10 study Football and Hockey, 8 study Hockey and Cricket, and 4 study all three. How many study only Cricket?",
+      "as": "৯০ জন ছাত্ৰৰ শ্ৰেণীত ৪৫ জনে ক্ৰিকেট পঢ়ে, ৪০ জনে ফুটবল, ৩৫ জনে হকী, ১২ জনে ক্ৰিকেট আৰু ফুটবল, ১০ জনে ফুটবল আৰু হকী, ৮ জনে হকী আৰু ক্ৰিকেট, আৰু ৪ জনে তিনিওটা পঢ়ে। কেৱল ক্ৰিকেট পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Cricket = 45 - 12 - 8 + 4 = 29.",
+      "as": "কেৱল ক্ৰিকেট = ২৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-035",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 90 students, 45 study Cricket, 40 study Football, 35 study Hockey, 12 study Cricket and Football, 10 study Football and Hockey, 8 study Hockey and Cricket, and 4 study all three. How many study none of the three?",
+      "as": "৯০ জন ছাত্ৰৰ শ্ৰেণীত ৪৫ জনে ক্ৰিকেট পঢ়ে, ৪০ জনে ফুটবল, ৩৫ জনে হকী, ১২ জনে ক্ৰিকেট আৰু ফুটবল, ১০ জনে ফুটবল আৰু হকী, ৮ জনে হকী আৰু ক্ৰিকেট, আৰু ৪ জনে তিনিওটা পঢ়ে। এটাও নপঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "-4",
+        "as": "-৪"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "None = 90 - 94 = -4.",
+      "as": "এটাও নহয় = ৯০ - ৯৪ = -৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-036",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 90 students, 45 study Cricket, 40 study Football, 35 study Hockey, 12 study Cricket and Football, 10 study Football and Hockey, 8 study Hockey and Cricket, and 4 study all three. How many study exactly two subjects?",
+      "as": "৯০ জন ছাত্ৰৰ শ্ৰেণীত ৪৫ জনে ক্ৰিকেট পঢ়ে, ৪০ জনে ফুটবল, ৩৫ জনে হকী, ১২ জনে ক্ৰিকেট আৰু ফুটবল, ১০ জনে ফুটবল আৰু হকী, ৮ জনে হকী আৰু ক্ৰিকেট, আৰু ৪ জনে তিনিওটা পঢ়ে। কেৱল দুটা বিষয় পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly two = 12+10+8 - 3×4 = 18.",
+      "as": "কেৱল দুটা = ১৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-037",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 110 students, 55 study English, 50 study Hindi, 48 study Assamese, 18 study English and Hindi, 16 study Hindi and Assamese, 14 study Assamese and English, and 7 study all three. How many study at least one?",
+      "as": "১১০ জন ছাত্ৰৰ শ্ৰেণীত ৫৫ জনে ইংৰাজী পঢ়ে, ৫০ জনে হিন্দী, ৪৮ জনে অসমীয়া, ১৮ জনে ইংৰাজী আৰু হিন্দী, ১৬ জনে হিন্দী আৰু অসমীয়া, ১৪ জনে অসমীয়া আৰু ইংৰাজী, আৰু ৭ জনে তিনিওটা পঢ়ে। কমেও এটা পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "109",
+        "as": "১০৯"
+      },
+      {
+        "en": "153",
+        "as": "১৫৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 55+50+48-18-16-14+7 = 112.",
+      "as": "সংযোগ = ১১২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-038",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 110 students, 55 study English, 50 study Hindi, 48 study Assamese, 18 study English and Hindi, 16 study Hindi and Assamese, 14 study Assamese and English, and 7 study all three. How many study only English?",
+      "as": "১১০ জন ছাত্ৰৰ শ্ৰেণীত ৫৫ জনে ইংৰাজী পঢ়ে, ৫০ জনে হিন্দী, ৪৮ জনে অসমীয়া, ১৮ জনে ইংৰাজী আৰু হিন্দী, ১৬ জনে হিন্দী আৰু অসমীয়া, ১৪ জনে অসমীয়া আৰু ইংৰাজী, আৰু ৭ জনে তিনিওটা পঢ়ে। কেৱল ইংৰাজী পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only English = 55 - 18 - 14 + 7 = 30.",
+      "as": "কেৱল ইংৰাজী = ৩০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-039",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 110 students, 55 study English, 50 study Hindi, 48 study Assamese, 18 study English and Hindi, 16 study Hindi and Assamese, 14 study Assamese and English, and 7 study all three. How many study none of the three?",
+      "as": "১১০ জন ছাত্ৰৰ শ্ৰেণীত ৫৫ জনে ইংৰাজী পঢ়ে, ৫০ জনে হিন্দী, ৪৮ জনে অসমীয়া, ১৮ জনে ইংৰাজী আৰু হিন্দী, ১৬ জনে হিন্দী আৰু অসমীয়া, ১৪ জনে অসমীয়া আৰু ইংৰাজী, আৰু ৭ জনে তিনিওটা পঢ়ে। এটাও নপঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-4",
+        "as": "-৪"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None = 110 - 112 = -2.",
+      "as": "এটাও নহয় = ১১০ - ১১২ = -২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-040",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a class of 110 students, 55 study English, 50 study Hindi, 48 study Assamese, 18 study English and Hindi, 16 study Hindi and Assamese, 14 study Assamese and English, and 7 study all three. How many study exactly two subjects?",
+      "as": "১১০ জন ছাত্ৰৰ শ্ৰেণীত ৫৫ জনে ইংৰাজী পঢ়ে, ৫০ জনে হিন্দী, ৪৮ জনে অসমীয়া, ১৮ জনে ইংৰাজী আৰু হিন্দী, ১৬ জনে হিন্দী আৰু অসমীয়া, ১৪ জনে অসমীয়া আৰু ইংৰাজী, আৰু ৭ জনে তিনিওটা পঢ়ে। কেৱল দুটা বিষয় পঢ়া ছাত্ৰ কিমান?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = 18+16+14 - 3×7 = 27.",
+      "as": "কেৱল দুটা = ২৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-041",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 75 people, 42 like Apple, 36 like Mango and 18 like both. How many like at least one?",
+      "as": "৭৫ জনৰ ভিতৰত ৪২ জনে আপেল ভাল পায়, ৩৬ জনে আম ভাল পায় আৰু ১৮ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 42 + 36 - 18 = 60.",
+      "as": "কমেও এটা = ৬০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-042",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 75 people, 42 like Apple, 36 like Mango and 18 like both. How many like only Mango?",
+      "as": "৭৫ জনৰ ভিতৰত ৪২ জনে আপেল ভাল পায়, ৩৬ জনে আম ভাল পায় আৰু ১৮ জনে দুয়োটাই ভাল পায়। কেৱল আম ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Mango = 36 - 18 = 18.",
+      "as": "কেৱল আম = ১৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-043",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 75 people, 42 like Apple, 36 like Mango and 18 like both. How many like neither?",
+      "as": "৭৫ জনৰ ভিতৰত ৪২ জনে আপেল ভাল পায়, ৩৬ জনে আম ভাল পায় আৰু ১৮ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 75 - 60 = 15.",
+      "as": "এটাও নহয় = ১৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-044",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 75 people, 42 like Apple, 36 like Mango and 18 like both. How many like exactly one?",
+      "as": "৭৫ জনৰ ভিতৰত ৪২ জনে আপেল ভাল পায়, ৩৬ জনে আম ভাল পায় আৰু ১৮ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 42 + 36 - 2×18 = 42.",
+      "as": "কেৱল এটা = ৪২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-045",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 65 people, 34 like Cycling, 30 like Swimming and 11 like both. How many like at least one?",
+      "as": "৬৫ জনৰ ভিতৰত ৩৪ জনে চাইকেল চলোৱা ভাল পায়, ৩০ জনে সাঁতৰা ভাল পায় আৰু ১১ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 34 + 30 - 11 = 53.",
+      "as": "কমেও এটা = ৫৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-046",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 65 people, 34 like Cycling, 30 like Swimming and 11 like both. How many like only Swimming?",
+      "as": "৬৫ জনৰ ভিতৰত ৩৪ জনে চাইকেল চলোৱা ভাল পায়, ৩০ জনে সাঁতৰা ভাল পায় আৰু ১১ জনে দুয়োটাই ভাল পায়। কেৱল সাঁতৰা ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Swimming = 30 - 11 = 19.",
+      "as": "কেৱল সাঁতৰা = ১৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-047",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 65 people, 34 like Cycling, 30 like Swimming and 11 like both. How many like neither?",
+      "as": "৬৫ জনৰ ভিতৰত ৩৪ জনে চাইকেল চলোৱা ভাল পায়, ৩০ জনে সাঁতৰা ভাল পায় আৰু ১১ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 65 - 53 = 12.",
+      "as": "এটাও নহয় = ১২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-048",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 65 people, 34 like Cycling, 30 like Swimming and 11 like both. How many like exactly one?",
+      "as": "৬৫ জনৰ ভিতৰত ৩৪ জনে চাইকেল চলোৱা ভাল পায়, ৩০ জনে সাঁতৰা ভাল পায় আৰু ১১ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 34 + 30 - 2×11 = 42.",
+      "as": "কেৱল এটা = ৪২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-049",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 58 people, 31 like History, 27 like Geography and 13 like both. How many like at least one?",
+      "as": "৫৮ জনৰ ভিতৰত ৩১ জনে ইতিহাস ভাল পায়, ২৭ জনে ভূগোল ভাল পায় আৰু ১৩ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 31 + 27 - 13 = 45.",
+      "as": "কমেও এটা = ৪৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-050",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 58 people, 31 like History, 27 like Geography and 13 like both. How many like only Geography?",
+      "as": "৫৮ জনৰ ভিতৰত ৩১ জনে ইতিহাস ভাল পায়, ২৭ জনে ভূগোল ভাল পায় আৰু ১৩ জনে দুয়োটাই ভাল পায়। কেৱল ভূগোল ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only Geography = 27 - 13 = 14.",
+      "as": "কেৱল ভূগোল = ১৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-051",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 58 people, 31 like History, 27 like Geography and 13 like both. How many like neither?",
+      "as": "৫৮ জনৰ ভিতৰত ৩১ জনে ইতিহাস ভাল পায়, ২৭ জনে ভূগোল ভাল পায় আৰু ১৩ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 58 - 45 = 13.",
+      "as": "এটাও নহয় = ১৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-052",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 58 people, 31 like History, 27 like Geography and 13 like both. How many like exactly one?",
+      "as": "৫৮ জনৰ ভিতৰত ৩১ জনে ইতিহাস ভাল পায়, ২৭ জনে ভূগোল ভাল পায় আৰু ১৩ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 31 + 27 - 2×13 = 32.",
+      "as": "কেৱল এটা = ৩২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-053",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 52 people, 29 like Painting, 25 like Music and 7 like both. How many like at least one?",
+      "as": "৫২ জনৰ ভিতৰত ২৯ জনে চিত্ৰ আঁকা ভাল পায়, ২৫ জনে সংগীত ভাল পায় আৰু ৭ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 29 + 25 - 7 = 47.",
+      "as": "কমেও এটা = ৪৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-054",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 52 people, 29 like Painting, 25 like Music and 7 like both. How many like only Music?",
+      "as": "৫২ জনৰ ভিতৰত ২৯ জনে চিত্ৰ আঁকা ভাল পায়, ২৫ জনে সংগীত ভাল পায় আৰু ৭ জনে দুয়োটাই ভাল পায়। কেৱল সংগীত ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Music = 25 - 7 = 18.",
+      "as": "কেৱল সংগীত = ১৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-055",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 52 people, 29 like Painting, 25 like Music and 7 like both. How many like neither?",
+      "as": "৫২ জনৰ ভিতৰত ২৯ জনে চিত্ৰ আঁকা ভাল পায়, ২৫ জনে সংগীত ভাল পায় আৰু ৭ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 52 - 47 = 5.",
+      "as": "এটাও নহয় = ৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-056",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 52 people, 29 like Painting, 25 like Music and 7 like both. How many like exactly one?",
+      "as": "৫২ জনৰ ভিতৰত ২৯ জনে চিত্ৰ আঁকা ভাল পায়, ২৫ জনে সংগীত ভাল পায় আৰু ৭ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 29 + 25 - 2×7 = 40.",
+      "as": "কেৱল এটা = ৪০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-057",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 88 people, 47 like Coffee, 39 like Juice and 16 like both. How many like at least one?",
+      "as": "৮৮ জনৰ ভিতৰত ৪৭ জনে কফি ভাল পায়, ৩৯ জনে জুচ ভাল পায় আৰু ১৬ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "86",
+        "as": "৮৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 47 + 39 - 16 = 70.",
+      "as": "কমেও এটা = ৭০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-058",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 88 people, 47 like Coffee, 39 like Juice and 16 like both. How many like only Juice?",
+      "as": "৮৮ জনৰ ভিতৰত ৪৭ জনে কফি ভাল পায়, ৩৯ জনে জুচ ভাল পায় আৰু ১৬ জনে দুয়োটাই ভাল পায়। কেৱল জুচ ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Juice = 39 - 16 = 23.",
+      "as": "কেৱল জুচ = ২৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-059",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 88 people, 47 like Coffee, 39 like Juice and 16 like both. How many like neither?",
+      "as": "৮৮ জনৰ ভিতৰত ৪৭ জনে কফি ভাল পায়, ৩৯ জনে জুচ ভাল পায় আৰু ১৬ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 88 - 70 = 18.",
+      "as": "এটাও নহয় = ১৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-060",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 88 people, 47 like Coffee, 39 like Juice and 16 like both. How many like exactly one?",
+      "as": "৮৮ জনৰ ভিতৰত ৪৭ জনে কফি ভাল পায়, ৩৯ জনে জুচ ভাল পায় আৰু ১৬ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "86",
+        "as": "৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 47 + 39 - 2×16 = 54.",
+      "as": "কেৱল এটা = ৫৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-061",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 48 people, 27 like Badminton, 22 like Tennis and 6 like both. How many like at least one?",
+      "as": "৪৮ জনৰ ভিতৰত ২৭ জনে বেডমিণ্টন ভাল পায়, ২২ জনে টেনিছ ভাল পায় আৰু ৬ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 27 + 22 - 6 = 43.",
+      "as": "কমেও এটা = ৪৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-062",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 48 people, 27 like Badminton, 22 like Tennis and 6 like both. How many like only Tennis?",
+      "as": "৪৮ জনৰ ভিতৰত ২৭ জনে বেডমিণ্টন ভাল পায়, ২২ জনে টেনিছ ভাল পায় আৰু ৬ জনে দুয়োটাই ভাল পায়। কেৱল টেনিছ ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only Tennis = 22 - 6 = 16.",
+      "as": "কেৱল টেনিছ = ১৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-063",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 48 people, 27 like Badminton, 22 like Tennis and 6 like both. How many like neither?",
+      "as": "৪৮ জনৰ ভিতৰত ২৭ জনে বেডমিণ্টন ভাল পায়, ২২ জনে টেনিছ ভাল পায় আৰু ৬ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 48 - 43 = 5.",
+      "as": "এটাও নহয় = ৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-064",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 48 people, 27 like Badminton, 22 like Tennis and 6 like both. How many like exactly one?",
+      "as": "৪৮ জনৰ ভিতৰত ২৭ জনে বেডমিণ্টন ভাল পায়, ২২ জনে টেনিছ ভাল পায় আৰু ৬ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly one = 27 + 22 - 2×6 = 37.",
+      "as": "কেৱল এটা = ৩৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-065",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 72 people, 40 like Biology, 33 like Physics and 17 like both. How many like at least one?",
+      "as": "৭২ জনৰ ভিতৰত ৪০ জনে জীৱবিজ্ঞান ভাল পায়, ৩৩ জনে পদাৰ্থবিজ্ঞান ভাল পায় আৰু ১৭ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "At least one = 40 + 33 - 17 = 56.",
+      "as": "কমেও এটা = ৫৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-066",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 72 people, 40 like Biology, 33 like Physics and 17 like both. How many like only Physics?",
+      "as": "৭২ জনৰ ভিতৰত ৪০ জনে জীৱবিজ্ঞান ভাল পায়, ৩৩ জনে পদাৰ্থবিজ্ঞান ভাল পায় আৰু ১৭ জনে দুয়োটাই ভাল পায়। কেৱল পদাৰ্থবিজ্ঞান ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Physics = 33 - 17 = 16.",
+      "as": "কেৱল পদাৰ্থবিজ্ঞান = ১৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-067",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 72 people, 40 like Biology, 33 like Physics and 17 like both. How many like neither?",
+      "as": "৭২ জনৰ ভিতৰত ৪০ জনে জীৱবিজ্ঞান ভাল পায়, ৩৩ জনে পদাৰ্থবিজ্ঞান ভাল পায় আৰু ১৭ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither = 72 - 56 = 16.",
+      "as": "এটাও নহয় = ১৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-068",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 72 people, 40 like Biology, 33 like Physics and 17 like both. How many like exactly one?",
+      "as": "৭২ জনৰ ভিতৰত ৪০ জনে জীৱবিজ্ঞান ভাল পায়, ৩৩ জনে পদাৰ্থবিজ্ঞান ভাল পায় আৰু ১৭ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly one = 40 + 33 - 2×17 = 39.",
+      "as": "কেৱল এটা = ৩৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-069",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 62 people, 36 like Walking, 28 like Jogging and 12 like both. How many like at least one?",
+      "as": "৬২ জনৰ ভিতৰত ৩৬ জনে খোজ কঢ়া ভাল পায়, ২৮ জনে দৌৰা ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কমেও এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "At least one = 36 + 28 - 12 = 52.",
+      "as": "কমেও এটা = ৫২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-070",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 62 people, 36 like Walking, 28 like Jogging and 12 like both. How many like only Jogging?",
+      "as": "৬২ জনৰ ভিতৰত ৩৬ জনে খোজ কঢ়া ভাল পায়, ২৮ জনে দৌৰা ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কেৱল দৌৰা ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Jogging = 28 - 12 = 16.",
+      "as": "কেৱল দৌৰা = ১৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-071",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 62 people, 36 like Walking, 28 like Jogging and 12 like both. How many like neither?",
+      "as": "৬২ জনৰ ভিতৰত ৩৬ জনে খোজ কঢ়া ভাল পায়, ২৮ জনে দৌৰা ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। এটাও ভাল নোপোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 62 - 52 = 10.",
+      "as": "এটাও নহয় = ১০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-072",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a group of 62 people, 36 like Walking, 28 like Jogging and 12 like both. How many like exactly one?",
+      "as": "৬২ জনৰ ভিতৰত ৩৬ জনে খোজ কঢ়া ভাল পায়, ২৮ জনে দৌৰা ভাল পায় আৰু ১২ জনে দুয়োটাই ভাল পায়। কেৱল এটাই ভাল পোৱা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly one = 36 + 28 - 2×12 = 40.",
+      "as": "কেৱল এটা = ৪০।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-073",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 130 people, 65 use Apple, 58 use Banana, 52 use Mango, 22 use Apple and Banana, 18 use Banana and Mango, 16 use Mango and Apple, and 8 use all three. How many use at least one?",
+      "as": "১৩০ জনৰ সমীক্ষাত ৬৫ জনে আপেল ব্যৱহাৰ কৰে, ৫৮ জনে কল, ৫২ জনে আম, ২২ জনে আপেল আৰু কল, ১৮ জনে কল আৰু আম, ১৬ জনে আম আৰু আপেল, আৰু ৮ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "130",
+        "as": "১৩০"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "175",
+        "as": "১৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 127.",
+      "as": "সংযোগ = ১২৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-074",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 130 people, 65 use Apple, 58 use Banana, 52 use Mango, 22 use Apple and Banana, 18 use Banana and Mango, 16 use Mango and Apple, and 8 use all three. How many use none?",
+      "as": "১৩০ জনৰ সমীক্ষাত ৬৫ জনে আপেল ব্যৱহাৰ কৰে, ৫৮ জনে কল, ৫২ জনে আম, ২২ জনে আপেল আৰু কল, ১৮ জনে কল আৰু আম, ১৬ জনে আম আৰু আপেল, আৰু ৮ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "None = 130 - 127 = 3.",
+      "as": "এটাও নহয় = ৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-075",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 130 people, 65 use Apple, 58 use Banana, 52 use Mango, 22 use Apple and Banana, 18 use Banana and Mango, 16 use Mango and Apple, and 8 use all three. How many use only Apple?",
+      "as": "১৩০ জনৰ সমীক্ষাত ৬৫ জনে আপেল ব্যৱহাৰ কৰে, ৫৮ জনে কল, ৫২ জনে আম, ২২ জনে আপেল আৰু কল, ১৮ জনে কল আৰু আম, ১৬ জনে আম আৰু আপেল, আৰু ৮ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল আপেল ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Apple = 65 - 22 - 16 + 8 = 35.",
+      "as": "কেৱল আপেল = ৩৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-076",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 130 people, 65 use Apple, 58 use Banana, 52 use Mango, 22 use Apple and Banana, 18 use Banana and Mango, 16 use Mango and Apple, and 8 use all three. How many use exactly two?",
+      "as": "১৩০ জনৰ সমীক্ষাত ৬৫ জনে আপেল ব্যৱহাৰ কৰে, ৫৮ জনে কল, ৫২ জনে আম, ২২ জনে আপেল আৰু কল, ১৮ জনে কল আৰু আম, ১৬ জনে আম আৰু আপেল, আৰু ৮ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = 22+18+16 - 3×8 = 32.",
+      "as": "কেৱল দুটা = ৩২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-077",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 95 people, 48 use Reading, 42 use Writing, 38 use Speaking, 16 use Reading and Writing, 14 use Writing and Speaking, 12 use Speaking and Reading, and 6 use all three. How many use at least one?",
+      "as": "৯৫ জনৰ সমীক্ষাত ৪৮ জনে পঢ়া ব্যৱহাৰ কৰে, ৪২ জনে লিখা, ৩৮ জনে কোৱা, ১৬ জনে পঢ়া আৰু লিখা, ১৪ জনে লিখা আৰু কোৱা, ১২ জনে কোৱা আৰু পঢ়া, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 92.",
+      "as": "সংযোগ = ৯২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-078",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 95 people, 48 use Reading, 42 use Writing, 38 use Speaking, 16 use Reading and Writing, 14 use Writing and Speaking, 12 use Speaking and Reading, and 6 use all three. How many use none?",
+      "as": "৯৫ জনৰ সমীক্ষাত ৪৮ জনে পঢ়া ব্যৱহাৰ কৰে, ৪২ জনে লিখা, ৩৮ জনে কোৱা, ১৬ জনে পঢ়া আৰু লিখা, ১৪ জনে লিখা আৰু কোৱা, ১২ জনে কোৱা আৰু পঢ়া, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "None = 95 - 92 = 3.",
+      "as": "এটাও নহয় = ৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-079",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 95 people, 48 use Reading, 42 use Writing, 38 use Speaking, 16 use Reading and Writing, 14 use Writing and Speaking, 12 use Speaking and Reading, and 6 use all three. How many use only Reading?",
+      "as": "৯৫ জনৰ সমীক্ষাত ৪৮ জনে পঢ়া ব্যৱহাৰ কৰে, ৪২ জনে লিখা, ৩৮ জনে কোৱা, ১৬ জনে পঢ়া আৰু লিখা, ১৪ জনে লিখা আৰু কোৱা, ১২ জনে কোৱা আৰু পঢ়া, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল পঢ়া ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Reading = 48 - 16 - 12 + 6 = 26.",
+      "as": "কেৱল পঢ়া = ২৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-080",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 95 people, 48 use Reading, 42 use Writing, 38 use Speaking, 16 use Reading and Writing, 14 use Writing and Speaking, 12 use Speaking and Reading, and 6 use all three. How many use exactly two?",
+      "as": "৯৫ জনৰ সমীক্ষাত ৪৮ জনে পঢ়া ব্যৱহাৰ কৰে, ৪২ জনে লিখা, ৩৮ জনে কোৱা, ১৬ জনে পঢ়া আৰু লিখা, ১৪ জনে লিখা আৰু কোৱা, ১২ জনে কোৱা আৰু পঢ়া, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly two = 16+14+12 - 3×6 = 24.",
+      "as": "কেৱল দুটা = ২৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-081",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 85 people, 40 use Cats, 38 use Dogs, 32 use Birds, 12 use Cats and Dogs, 10 use Dogs and Birds, 9 use Birds and Cats, and 4 use all three. How many use at least one?",
+      "as": "৮৫ জনৰ সমীক্ষাত ৪০ জনে মেকুৰী ব্যৱহাৰ কৰে, ৩৮ জনে কুকুৰ, ৩২ জনে চৰাই, ১২ জনে মেকুৰী আৰু কুকুৰ, ১০ জনে কুকুৰ আৰু চৰাই, ৯ জনে চৰাই আৰু মেকুৰী, আৰু ৪ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "86",
+        "as": "৮৬"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Union = 83.",
+      "as": "সংযোগ = ৮৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-082",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 85 people, 40 use Cats, 38 use Dogs, 32 use Birds, 12 use Cats and Dogs, 10 use Dogs and Birds, 9 use Birds and Cats, and 4 use all three. How many use none?",
+      "as": "৮৫ জনৰ সমীক্ষাত ৪০ জনে মেকুৰী ব্যৱহাৰ কৰে, ৩৮ জনে কুকুৰ, ৩২ জনে চৰাই, ১২ জনে মেকুৰী আৰু কুকুৰ, ১০ জনে কুকুৰ আৰু চৰাই, ৯ জনে চৰাই আৰু মেকুৰী, আৰু ৪ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None = 85 - 83 = 2.",
+      "as": "এটাও নহয় = ২।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-083",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 85 people, 40 use Cats, 38 use Dogs, 32 use Birds, 12 use Cats and Dogs, 10 use Dogs and Birds, 9 use Birds and Cats, and 4 use all three. How many use only Cats?",
+      "as": "৮৫ জনৰ সমীক্ষাত ৪০ জনে মেকুৰী ব্যৱহাৰ কৰে, ৩৮ জনে কুকুৰ, ৩২ জনে চৰাই, ১২ জনে মেকুৰী আৰু কুকুৰ, ১০ জনে কুকুৰ আৰু চৰাই, ৯ জনে চৰাই আৰু মেকুৰী, আৰু ৪ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল মেকুৰী ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Cats = 40 - 12 - 9 + 4 = 23.",
+      "as": "কেৱল মেকুৰী = ২৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-084",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 85 people, 40 use Cats, 38 use Dogs, 32 use Birds, 12 use Cats and Dogs, 10 use Dogs and Birds, 9 use Birds and Cats, and 4 use all three. How many use exactly two?",
+      "as": "৮৫ জনৰ সমীক্ষাত ৪০ জনে মেকুৰী ব্যৱহাৰ কৰে, ৩৮ জনে কুকুৰ, ৩২ জনে চৰাই, ১২ জনে মেকুৰী আৰু কুকুৰ, ১০ জনে কুকুৰ আৰু চৰাই, ৯ জনে চৰাই আৰু মেকুৰী, আৰু ৪ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly two = 12+10+9 - 3×4 = 19.",
+      "as": "কেৱল দুটা = ১৯।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-085",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 140 people, 70 use Rice, 62 use Dal, 58 use Curry, 24 use Rice and Dal, 20 use Dal and Curry, 18 use Curry and Rice, and 9 use all three. How many use at least one?",
+      "as": "১৪০ জনৰ সমীক্ষাত ৭০ জনে ভাত ব্যৱহাৰ কৰে, ৬২ জনে দাইল, ৫৮ জনে তৰকাৰী, ২৪ জনে ভাত আৰু দাইল, ২০ জনে দাইল আৰু তৰকাৰী, ১৮ জনে তৰকাৰী আৰু ভাত, আৰু ৯ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "137",
+        "as": "১৩৭"
+      },
+      {
+        "en": "134",
+        "as": "১৩৪"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 137.",
+      "as": "সংযোগ = ১৩৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-086",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 140 people, 70 use Rice, 62 use Dal, 58 use Curry, 24 use Rice and Dal, 20 use Dal and Curry, 18 use Curry and Rice, and 9 use all three. How many use none?",
+      "as": "১৪০ জনৰ সমীক্ষাত ৭০ জনে ভাত ব্যৱহাৰ কৰে, ৬২ জনে দাইল, ৫৮ জনে তৰকাৰী, ২৪ জনে ভাত আৰু দাইল, ২০ জনে দাইল আৰু তৰকাৰী, ১৮ জনে তৰকাৰী আৰু ভাত, আৰু ৯ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "137",
+        "as": "১৩৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "None = 140 - 137 = 3.",
+      "as": "এটাও নহয় = ৩।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-087",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 140 people, 70 use Rice, 62 use Dal, 58 use Curry, 24 use Rice and Dal, 20 use Dal and Curry, 18 use Curry and Rice, and 9 use all three. How many use only Rice?",
+      "as": "১৪০ জনৰ সমীক্ষাত ৭০ জনে ভাত ব্যৱহাৰ কৰে, ৬২ জনে দাইল, ৫৮ জনে তৰকাৰী, ২৪ জনে ভাত আৰু দাইল, ২০ জনে দাইল আৰু তৰকাৰী, ১৮ জনে তৰকাৰী আৰু ভাত, আৰু ৯ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল ভাত ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Rice = 70 - 24 - 18 + 9 = 37.",
+      "as": "কেৱল ভাত = ৩৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-088",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 140 people, 70 use Rice, 62 use Dal, 58 use Curry, 24 use Rice and Dal, 20 use Dal and Curry, 18 use Curry and Rice, and 9 use all three. How many use exactly two?",
+      "as": "১৪০ জনৰ সমীক্ষাত ৭০ জনে ভাত ব্যৱহাৰ কৰে, ৬২ জনে দাইল, ৫৮ জনে তৰকাৰী, ২৪ জনে ভাত আৰু দাইল, ২০ জনে দাইল আৰু তৰকাৰী, ১৮ জনে তৰকাৰী আৰু ভাত, আৰু ৯ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Exactly two = 24+20+18 - 3×9 = 35.",
+      "as": "কেৱল দুটা = ৩৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-089",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 105 people, 52 use Red, 46 use Blue, 41 use Green, 17 use Red and Blue, 14 use Blue and Green, 13 use Green and Red, and 6 use all three. How many use at least one?",
+      "as": "১০৫ জনৰ সমীক্ষাত ৫২ জনে ৰঙা ব্যৱহাৰ কৰে, ৪৬ জনে নীলা, ৪১ জনে সেউজীয়া, ১৭ জনে ৰঙা আৰু নীলা, ১৪ জনে নীলা আৰু সেউজীয়া, ১৩ জনে সেউজীয়া আৰু ৰঙা, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "104",
+        "as": "১০৪"
+      },
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "139",
+        "as": "১৩৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Union = 101.",
+      "as": "সংযোগ = ১০১।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-090",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 105 people, 52 use Red, 46 use Blue, 41 use Green, 17 use Red and Blue, 14 use Blue and Green, 13 use Green and Red, and 6 use all three. How many use none?",
+      "as": "১০৫ জনৰ সমীক্ষাত ৫২ জনে ৰঙা ব্যৱহাৰ কৰে, ৪৬ জনে নীলা, ৪১ জনে সেউজীয়া, ১৭ জনে ৰঙা আৰু নীলা, ১৪ জনে নীলা আৰু সেউজীয়া, ১৩ জনে সেউজীয়া আৰু ৰঙা, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "101",
+        "as": "১০১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "None = 105 - 101 = 4.",
+      "as": "এটাও নহয় = ৪।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-091",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 105 people, 52 use Red, 46 use Blue, 41 use Green, 17 use Red and Blue, 14 use Blue and Green, 13 use Green and Red, and 6 use all three. How many use only Red?",
+      "as": "১০৫ জনৰ সমীক্ষাত ৫২ জনে ৰঙা ব্যৱহাৰ কৰে, ৪৬ জনে নীলা, ৪১ জনে সেউজীয়া, ১৭ জনে ৰঙা আৰু নীলা, ১৪ জনে নীলা আৰু সেউজীয়া, ১৩ জনে সেউজীয়া আৰু ৰঙা, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল ৰঙা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only Red = 52 - 17 - 13 + 6 = 28.",
+      "as": "কেৱল ৰঙা = ২৮।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-092",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 105 people, 52 use Red, 46 use Blue, 41 use Green, 17 use Red and Blue, 14 use Blue and Green, 13 use Green and Red, and 6 use all three. How many use exactly two?",
+      "as": "১০৫ জনৰ সমীক্ষাত ৫২ জনে ৰঙা ব্যৱহাৰ কৰে, ৪৬ জনে নীলা, ৪১ জনে সেউজীয়া, ১৭ জনে ৰঙা আৰু নীলা, ১৪ জনে নীলা আৰু সেউজীয়া, ১৩ জনে সেউজীয়া আৰু ৰঙা, আৰু ৬ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exactly two = 17+14+13 - 3×6 = 26.",
+      "as": "কেৱল দুটা = ২৬।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-093",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 150 people, 72 use Train, 65 use Bus, 55 use Flight, 26 use Train and Bus, 22 use Bus and Flight, 19 use Flight and Train, and 10 use all three. How many use at least one?",
+      "as": "১৫০ জনৰ সমীক্ষাত ৭২ জনে ৰে'ল ব্যৱহাৰ কৰে, ৬৫ জনে বাছ, ৫৫ জনে বিমান, ২৬ জনে ৰে'ল আৰু বাছ, ২২ জনে বাছ আৰু বিমান, ১৯ জনে বিমান আৰু ৰে'ল, আৰু ১০ জনে তিনিওটা ব্যৱহাৰ কৰে। কমেও এটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "138",
+        "as": "১৩৮"
+      },
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      },
+      {
+        "en": "192",
+        "as": "১৯২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Union = 135.",
+      "as": "সংযোগ = ১৩৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-094",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 150 people, 72 use Train, 65 use Bus, 55 use Flight, 26 use Train and Bus, 22 use Bus and Flight, 19 use Flight and Train, and 10 use all three. How many use none?",
+      "as": "১৫০ জনৰ সমীক্ষাত ৭২ জনে ৰে'ল ব্যৱহাৰ কৰে, ৬৫ জনে বাছ, ৫৫ জনে বিমান, ২৬ জনে ৰে'ল আৰু বাছ, ২২ জনে বাছ আৰু বিমান, ১৯ জনে বিমান আৰু ৰে'ল, আৰু ১০ জনে তিনিওটা ব্যৱহাৰ কৰে। এটাও ব্যৱহাৰ নকৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "None = 150 - 135 = 15.",
+      "as": "এটাও নহয় = ১৫।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-095",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 150 people, 72 use Train, 65 use Bus, 55 use Flight, 26 use Train and Bus, 22 use Bus and Flight, 19 use Flight and Train, and 10 use all three. How many use only Train?",
+      "as": "১৫০ জনৰ সমীক্ষাত ৭২ জনে ৰে'ল ব্যৱহাৰ কৰে, ৬৫ জনে বাছ, ৫৫ জনে বিমান, ২৬ জনে ৰে'ল আৰু বাছ, ২২ জনে বাছ আৰু বিমান, ১৯ জনে বিমান আৰু ৰে'ল, আৰু ১০ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল ৰে'ল ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only Train = 72 - 26 - 19 + 10 = 37.",
+      "as": "কেৱল ৰে'ল = ৩৭।"
+    }
+  },
+  {
+    "id": "num-venn-diagrams-096",
+    "leaf": "venn-diagrams",
+    "q": {
+      "en": "In a survey of 150 people, 72 use Train, 65 use Bus, 55 use Flight, 26 use Train and Bus, 22 use Bus and Flight, 19 use Flight and Train, and 10 use all three. How many use exactly two?",
+      "as": "১৫০ জনৰ সমীক্ষাত ৭২ জনে ৰে'ল ব্যৱহাৰ কৰে, ৬৫ জনে বাছ, ৫৫ জনে বিমান, ২৬ জনে ৰে'ল আৰু বাছ, ২২ জনে বাছ আৰু বিমান, ১৯ জনে বিমান আৰু ৰে'ল, আৰু ১০ জনে তিনিওটা ব্যৱহাৰ কৰে। কেৱল দুটা ব্যৱহাৰ কৰা লোক কিমান?"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "67",
+        "as": "৬৭"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exactly two = 26+22+19 - 3×10 = 37.",
+      "as": "কেৱল দুটা = ৩৭।"
+    }
+  }
+]

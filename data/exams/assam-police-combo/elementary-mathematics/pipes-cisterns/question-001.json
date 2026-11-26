@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pipes-cisterns-001",
+    "q": {
+      "en": "Pipe A fills a tank in 12 hours and pipe B empties it in 20 hours. If both are opened together, how long will the tank take to fill?",
+      "as": "নল A এ এটা টেঙ্ক ১২ ঘণ্টাত ভৰায় আৰু নল B এ ২০ ঘণ্টাত খালী কৰে। দুয়ো একেলগে খুলিলে টেঙ্কটো ভৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20 hours",
+        "as": "২০ ঘণ্টা"
+      },
+      {
+        "en": "24 hours",
+        "as": "২৪ ঘণ্টা"
+      },
+      {
+        "en": "30 hours",
+        "as": "৩০ ঘণ্টা"
+      },
+      {
+        "en": "32 hours",
+        "as": "৩২ ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net filling per hour = 1/12 - 1/20 = 2/60 = 1/30, so it takes 30 hours.",
+      "as": "প্ৰতি ঘণ্টাত নিট ভৰণ = ১/১২ - ১/২০ = ২/৬০ = ১/৩০, সেয়ে ৩০ ঘণ্টা লাগিব।"
+    }
+  }
+]

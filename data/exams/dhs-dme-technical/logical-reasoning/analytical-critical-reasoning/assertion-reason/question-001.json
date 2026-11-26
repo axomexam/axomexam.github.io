@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "vr-assertion-reason-001",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The Sun rises in the east. Reason (R): The Earth rotates from west to east.",
+      "as": "অভিকথন (A): সূৰ্য পূব দিশে উদয় হয়। কাৰণ (R): পৃথিৱীয়ে পশ্চিমৰ পৰা পূবলৈ ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-002",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The Sun rises in the east. Reason (R): The Sun is a star.",
+      "as": "অভিকথন (A): সূৰ্য পূব দিশে উদয় হয়। কাৰণ (R): সূৰ্য এটা তৰা।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-003",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The Sun rises in the east. Reason (R): The Earth rotates from east to west.",
+      "as": "অভিকথন (A): সূৰ্য পূব দিশে উদয় হয়। কাৰণ (R): পৃথিৱীয়ে পূবৰ পৰা পশ্চিমলৈ ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-004",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The Sun rises in the west. Reason (R): The Earth rotates from west to east.",
+      "as": "অভিকথন (A): সূৰ্য পশ্চিম দিশে উদয় হয়। কাৰণ (R): পৃথিৱীয়ে পশ্চিমৰ পৰা পূবলৈ ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-005",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Water boils at 100°C at sea level. Reason (R): Atmospheric pressure at sea level is one atmosphere.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠত পানী ১০০°C ত উতলে। কাৰণ (R): সমুদ্ৰপৃষ্ঠত বায়ুমণ্ডলীয় চাপ এক বায়ুমণ্ডল।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-006",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Water boils at 100°C at sea level. Reason (R): Water is a compound of hydrogen and oxygen.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠত পানী ১০০°C ত উতলে। কাৰণ (R): পানী হাইড্ৰজেন আৰু অক্সিজেনৰ যৌগ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-007",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Water boils at 100°C at sea level. Reason (R): The boiling point of water does not depend on pressure.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠত পানী ১০০°C ত উতলে। কাৰণ (R): পানীৰ উতলাংক চাপৰ ওপৰত নিৰ্ভৰ নকৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-008",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Water boils at 50°C at sea level. Reason (R): Atmospheric pressure at sea level is one atmosphere.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠত পানী ৫০°C ত উতলে। কাৰণ (R): সমুদ্ৰপৃষ্ঠত বায়ুমণ্ডলীয় চাপ এক বায়ুমণ্ডল।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-009",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We see the Moon because it reflects sunlight. Reason (R): The Moon has no light of its own.",
+      "as": "অভিকথন (A): আমি চন্দ্ৰ দেখোঁ কাৰণ ই সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰে। কাৰণ (R): চন্দ্ৰৰ নিজৰ পোহৰ নাই।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-010",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We see the Moon because it reflects sunlight. Reason (R): The Moon revolves around the Earth.",
+      "as": "অভিকথন (A): আমি চন্দ্ৰ দেখোঁ কাৰণ ই সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰে। কাৰণ (R): চন্দ্ৰই পৃথিৱীৰ চাৰিওফালে ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-011",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We see the Moon because it reflects sunlight. Reason (R): The Moon produces its own light.",
+      "as": "অভিকথন (A): আমি চন্দ্ৰ দেখোঁ কাৰণ ই সূৰ্যৰ পোহৰ প্ৰতিফলিত কৰে। কাৰণ (R): চন্দ্ৰই নিজেই পোহৰ উৎপন্ন কৰে।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-012",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We see the Moon because it produces its own light. Reason (R): The Moon has no light of its own.",
+      "as": "অভিকথন (A): চন্দ্ৰই নিজে পোহৰ উৎপন্ন কৰে বাবেই আমি চন্দ্ৰ দেখোঁ। কাৰণ (R): চন্দ্ৰৰ নিজৰ পোহৰ নাই।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-013",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Plants prepare food in the presence of sunlight. Reason (R): Chlorophyll absorbs sunlight for photosynthesis.",
+      "as": "অভিকথন (A): সূৰ্যৰ পোহৰত গছে খাদ্য প্ৰস্তুত কৰে। কাৰণ (R): ক্ল'ৰফিলে সালোক সংশ্লেষণৰ বাবে সূৰ্যৰ পোহৰ শোষণ কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-014",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Plants prepare food in the presence of sunlight. Reason (R): Plants release oxygen during the day.",
+      "as": "অভিকথন (A): সূৰ্যৰ পোহৰত গছে খাদ্য প্ৰস্তুত কৰে। কাৰণ (R): দিনত গছে অক্সিজেন এৰি দিয়ে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-015",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Plants prepare food in the presence of sunlight. Reason (R): Plants do not need water to make food.",
+      "as": "অভিকথন (A): সূৰ্যৰ পোহৰত গছে খাদ্য প্ৰস্তুত কৰে। কাৰণ (R): খাদ্য প্ৰস্তুত কৰিবলৈ গছৰ পানীৰ প্ৰয়োজন নাই।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-016",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Plants prepare food in the dark. Reason (R): Chlorophyll absorbs sunlight for photosynthesis.",
+      "as": "অভিকথন (A): অন্ধকাৰত গছে খাদ্য প্ৰস্তুত কৰে। কাৰণ (R): ক্ল'ৰফিলে সালোক সংশ্লেষণৰ বাবে সূৰ্যৰ পোহৰ শোষণ কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-017",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A person weighs less on the Moon than on the Earth. Reason (R): The Moon's gravity is about one-sixth of the Earth's.",
+      "as": "অভিকথন (A): চন্দ্ৰত মানুহৰ ওজন পৃথিৱীতকৈ কম হয়। কাৰণ (R): চন্দ্ৰৰ মাধ্যাকৰ্ষণ পৃথিৱীৰ প্ৰায় ছয় ভাগৰ এক ভাগ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-018",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A person weighs less on the Moon than on the Earth. Reason (R): The Moon has no atmosphere.",
+      "as": "অভিকথন (A): চন্দ্ৰত মানুহৰ ওজন পৃথিৱীতকৈ কম হয়। কাৰণ (R): চন্দ্ৰৰ বায়ুমণ্ডল নাই।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-019",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A person weighs less on the Moon than on the Earth. Reason (R): The Moon's gravity is greater than the Earth's.",
+      "as": "অভিকথন (A): চন্দ্ৰত মানুহৰ ওজন পৃথিৱীতকৈ কম হয়। কাৰণ (R): চন্দ্ৰৰ মাধ্যাকৰ্ষণ পৃথিৱীতকৈ বেছি।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-020",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A person weighs more on the Moon than on the Earth. Reason (R): The Moon's gravity is about one-sixth of the Earth's.",
+      "as": "অভিকথন (A): চন্দ্ৰত মানুহৰ ওজন পৃথিৱীতকৈ বেছি হয়। কাৰণ (R): চন্দ্ৰৰ মাধ্যাকৰ্ষণ পৃথিৱীৰ প্ৰায় ছয় ভাগৰ এক ভাগ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-021",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Ice floats on water. Reason (R): Ice is less dense than water.",
+      "as": "অভিকথন (A): বৰফে পানীত ওপঙে। কাৰণ (R): বৰফ পানীতকৈ কম ঘনত্বৰ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-022",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Ice floats on water. Reason (R): Ice is the solid form of water.",
+      "as": "অভিকথন (A): বৰফে পানীত ওপঙে। কাৰণ (R): বৰফ পানীৰ কঠিন ৰূপ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-023",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Ice floats on water. Reason (R): Ice is denser than water.",
+      "as": "অভিকথন (A): বৰফে পানীত ওপঙে। কাৰণ (R): বৰফ পানীতকৈ বেছি ঘন।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-024",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Ice sinks in water. Reason (R): Ice is less dense than water.",
+      "as": "অভিকথন (A): বৰফে পানীত ডুবে। কাৰণ (R): বৰফ পানীতকৈ কম ঘনত্বৰ।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-025",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Sound cannot travel through vacuum. Reason (R): Sound needs a material medium to propagate.",
+      "as": "অভিকথন (A): শব্দে শূন্য মাধ্যমেৰে যাত্ৰা কৰিব নোৱাৰে। কাৰণ (R): শব্দ বিয়পিবলৈ এটা পদাৰ্থ মাধ্যম প্ৰয়োজন।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-026",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Sound cannot travel through vacuum. Reason (R): Sound travels faster in solids than in gases.",
+      "as": "অভিকথন (A): শব্দে শূন্য মাধ্যমেৰে যাত্ৰা কৰিব নোৱাৰে। কাৰণ (R): শব্দ গেছতকৈ কঠিন পদাৰ্থত দ্ৰুতগতিত চলে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-027",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Sound cannot travel through vacuum. Reason (R): Light cannot travel through vacuum.",
+      "as": "অভিকথন (A): শব্দে শূন্য মাধ্যমেৰে যাত্ৰা কৰিব নোৱাৰে। কাৰণ (R): পোহৰে শূন্য মাধ্যমেৰে যাত্ৰা কৰিব নোৱাৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-028",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Sound can travel through vacuum. Reason (R): Sound needs a material medium to propagate.",
+      "as": "অভিকথন (A): শব্দে শূন্য মাধ্যমেৰে যাত্ৰা কৰিব পাৰে। কাৰণ (R): শব্দ বিয়পিবলৈ এটা পদাৰ্থ মাধ্যম প্ৰয়োজন।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-029",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A rainbow is formed after rain. Reason (R): Water droplets refract and disperse sunlight.",
+      "as": "অভিকথন (A): বৰষুণৰ পিছত ৰামধেনু গঠন হয়। কাৰণ (R): পানীৰ টোপালে সূৰ্যৰ পোহৰ প্ৰতিসৰণ আৰু বিচ্ছুৰিত কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-030",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A rainbow is formed after rain. Reason (R): A rainbow has seven colours.",
+      "as": "অভিকথন (A): বৰষুণৰ পিছত ৰামধেনু গঠন হয়। কাৰণ (R): ৰামধেনুত সাতটা ৰং থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-031",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A rainbow is formed after rain. Reason (R): Rainbows are formed only at night.",
+      "as": "অভিকথন (A): বৰষুণৰ পিছত ৰামধেনু গঠন হয়। কাৰণ (R): ৰামধেনু কেৱল ৰাতিহে গঠন হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-032",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A rainbow is formed only at night. Reason (R): Water droplets refract and disperse sunlight.",
+      "as": "অভিকথন (A): ৰামধেনু কেৱল ৰাতিহে গঠন হয়। কাৰণ (R): পানীৰ টোপালে সূৰ্যৰ পোহৰ প্ৰতিসৰণ আৰু বিচ্ছুৰিত কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-033",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We feel cool when we sweat. Reason (R): Evaporation of sweat absorbs heat from the body.",
+      "as": "অভিকথন (A): ঘামিলে আমি শীতল অনুভৱ কৰোঁ। কাৰণ (R): ঘামৰ বাষ্পীভৱনে শৰীৰৰ পৰা তাপ শোষণ কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-034",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We feel cool when we sweat. Reason (R): Sweat contains dissolved salts.",
+      "as": "অভিকথন (A): ঘামিলে আমি শীতল অনুভৱ কৰোঁ। কাৰণ (R): ঘামত লৱণ দ্ৰৱীভূত থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-035",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We feel cool when we sweat. Reason (R): Sweating raises the body temperature.",
+      "as": "অভিকথন (A): ঘামিলে আমি শীতল অনুভৱ কৰোঁ। কাৰণ (R): ঘমাই শৰীৰৰ উষ্ণতা বঢ়ায়।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-036",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We feel warm when we sweat. Reason (R): Evaporation of sweat absorbs heat from the body.",
+      "as": "অভিকথন (A): ঘামিলে আমি উষ্ণ অনুভৱ কৰোঁ। কাৰণ (R): ঘামৰ বাষ্পীভৱনে শৰীৰৰ পৰা তাপ শোষণ কৰে।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-037",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): An iron nail rusts in moist air. Reason (R): Iron reacts with oxygen and moisture to form rust.",
+      "as": "অভিকথন (A): তিতা বতাহত লোৰ গজালে মামৰ ধৰে। কাৰণ (R): লোৱে অক্সিজেন আৰু জলীয় বাষ্পৰ সৈতে বিক্ৰিয়া কৰি মামৰ সৃষ্টি কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-038",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): An iron nail rusts in moist air. Reason (R): Iron is a metal.",
+      "as": "অভিকথন (A): তিতা বতাহত লোৰ গজালে মামৰ ধৰে। কাৰণ (R): লো এটা ধাতু।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-039",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): An iron nail rusts in moist air. Reason (R): Iron does not react with oxygen.",
+      "as": "অভিকথন (A): তিতা বতাহত লোৰ গজালে মামৰ ধৰে। কাৰণ (R): লোৱে অক্সিজেনৰ সৈতে বিক্ৰিয়া নকৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-040",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): An iron nail does not rust in moist air. Reason (R): Iron reacts with oxygen and moisture to form rust.",
+      "as": "অভিকথন (A): তিতা বতাহত লোৰ গজালে মামৰ নধৰে। কাৰণ (R): লোৱে অক্সিজেন আৰু জলীয় বাষ্পৰ সৈতে বিক্ৰিয়া কৰি মামৰ সৃষ্টি কৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-041",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The sky appears blue during the day. Reason (R): Shorter wavelengths of light are scattered more.",
+      "as": "অভিকথন (A): দিনত আকাশ নীলা দেখায়। কাৰণ (R): চুটি তৰংগদৈৰ্ঘ্যৰ পোহৰ অধিক বিচ্ছুৰিত হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-042",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The sky appears blue during the day. Reason (R): The atmosphere contains gases.",
+      "as": "অভিকথন (A): দিনত আকাশ নীলা দেখায়। কাৰণ (R): বায়ুমণ্ডলত গেছ থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-043",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The sky appears blue during the day. Reason (R): The sky is painted blue by clouds.",
+      "as": "অভিকথন (A): দিনত আকাশ নীলা দেখায়। কাৰণ (R): ডাৱৰে আকাশ নীলা কৰি তোলে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-044",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): The sky appears green during the day. Reason (R): Shorter wavelengths of light are scattered more.",
+      "as": "অভিকথন (A): দিনত আকাশ সেউজীয়া দেখায়। কাৰণ (R): চুটি তৰংগদৈৰ্ঘ্যৰ পোহৰ অধিক বিচ্ছুৰিত হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-045",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A magnet attracts iron. Reason (R): Iron is a magnetic material.",
+      "as": "অভিকথন (A): চুম্বকে লো আকৰ্ষণ কৰে। কাৰণ (R): লো এটা চুম্বকীয় পদাৰ্থ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-046",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A magnet attracts iron. Reason (R): A magnet has two poles.",
+      "as": "অভিকথন (A): চুম্বকে লো আকৰ্ষণ কৰে। কাৰণ (R): চুম্বকৰ দুটা মেৰু থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-047",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A magnet attracts iron. Reason (R): Copper is a magnetic material.",
+      "as": "অভিকথন (A): চুম্বকে লো আকৰ্ষণ কৰে। কাৰণ (R): তাম এটা চুম্বকীয় পদাৰ্থ।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-048",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A magnet repels iron. Reason (R): Iron is a magnetic material.",
+      "as": "অভিকথন (A): চুম্বকে লো বিকৰ্ষণ কৰে। কাৰণ (R): লো এটা চুম্বকীয় পদাৰ্থ।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-049",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Mount Everest has lower atmospheric pressure than sea level. Reason (R): Atmospheric pressure decreases with altitude.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠতকৈ মাউণ্ট এভাৰেষ্টত বায়ুমণ্ডলীয় চাপ কম। কাৰণ (R): উচ্চতাৰ সৈতে বায়ুমণ্ডলীয় চাপ কমে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-050",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Mount Everest has lower atmospheric pressure than sea level. Reason (R): Mount Everest is the highest peak in the world.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠতকৈ মাউণ্ট এভাৰেষ্টত বায়ুমণ্ডলীয় চাপ কম। কাৰণ (R): মাউণ্ট এভাৰেষ্ট পৃথিৱীৰ সৰ্বোচ্চ শৃংগ।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-051",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Mount Everest has lower atmospheric pressure than sea level. Reason (R): Atmospheric pressure increases with altitude.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠতকৈ মাউণ্ট এভাৰেষ্টত বায়ুমণ্ডলীয় চাপ কম। কাৰণ (R): উচ্চতাৰ সৈতে বায়ুমণ্ডলীয় চাপ বাঢ়ে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-052",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Mount Everest has higher atmospheric pressure than sea level. Reason (R): Atmospheric pressure decreases with altitude.",
+      "as": "অভিকথন (A): সমুদ্ৰপৃষ্ঠতকৈ মাউণ্ট এভাৰেষ্টত বায়ুমণ্ডলীয় চাপ বেছি। কাৰণ (R): উচ্চতাৰ সৈতে বায়ুমণ্ডলীয় চাপ কমে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-053",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Coastal areas have a moderate climate. Reason (R): Water heats and cools more slowly than land.",
+      "as": "অভিকথন (A): উপকূলীয় অঞ্চলৰ জলবায়ু মধ্যমীয়া। কাৰণ (R): মাটিতকৈ পানী লাহে লাহে গৰম আৰু ঠাণ্ডা হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-054",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Coastal areas have a moderate climate. Reason (R): Coastal areas receive more rainfall.",
+      "as": "অভিকথন (A): উপকূলীয় অঞ্চলৰ জলবায়ু মধ্যমীয়া। কাৰণ (R): উপকূলীয় অঞ্চলত অধিক বৰষুণ হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-055",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Coastal areas have a moderate climate. Reason (R): Land heats and cools more slowly than water.",
+      "as": "অভিকথন (A): উপকূলীয় অঞ্চলৰ জলবায়ু মধ্যমীয়া। কাৰণ (R): পানীতকৈ মাটি লাহে লাহে গৰম আৰু ঠাণ্ডা হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-056",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Coastal areas have an extreme climate. Reason (R): Water heats and cools more slowly than land.",
+      "as": "অভিকথন (A): উপকূলীয় অঞ্চলৰ জলবায়ু চৰম। কাৰণ (R): মাটিতকৈ পানী লাহে লাহে গৰম আৰু ঠাণ্ডা হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-057",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We should not look directly at the Sun. Reason (R): The Sun's rays can damage the retina.",
+      "as": "অভিকথন (A): আমি সূৰ্যলৈ পোনপটীয়াকৈ চোৱা উচিত নহয়। কাৰণ (R): সূৰ্যৰ ৰশ্মিয়ে ৰেটিনাৰ ক্ষতি কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-058",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We should not look directly at the Sun. Reason (R): The Sun is a star.",
+      "as": "অভিকথন (A): আমি সূৰ্যলৈ পোনপটীয়াকৈ চোৱা উচিত নহয়। কাৰণ (R): সূৰ্য এটা তৰা।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-059",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We should not look directly at the Sun. Reason (R): The Sun revolves around the Earth.",
+      "as": "অভিকথন (A): আমি সূৰ্যলৈ পোনপটীয়াকৈ চোৱা উচিত নহয়। কাৰণ (R): সূৰ্যই পৃথিৱীৰ চাৰিওফালে ঘূৰে।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-060",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): We can safely look directly at the Sun. Reason (R): The Sun's rays can damage the retina.",
+      "as": "অভিকথন (A): আমি নিৰাপদে সূৰ্যলৈ পোনপটীয়াকৈ চাব পাৰোঁ। কাৰণ (R): সূৰ্যৰ ৰশ্মিয়ে ৰেটিনাৰ ক্ষতি কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-061",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A lunar eclipse occurs on a full moon day. Reason (R): The Earth comes between the Sun and the Moon.",
+      "as": "অভিকথন (A): পূৰ্ণিমাৰ দিনা চন্দ্ৰগ্ৰহণ হয়। কাৰণ (R): পৃথিৱী সূৰ্য আৰু চন্দ্ৰৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-062",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A lunar eclipse occurs on a full moon day. Reason (R): The Moon has no light of its own.",
+      "as": "অভিকথন (A): পূৰ্ণিমাৰ দিনা চন্দ্ৰগ্ৰহণ হয়। কাৰণ (R): চন্দ্ৰৰ নিজৰ পোহৰ নাই।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-063",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A lunar eclipse occurs on a full moon day. Reason (R): The Moon comes between the Sun and the Earth.",
+      "as": "অভিকথন (A): পূৰ্ণিমাৰ দিনা চন্দ্ৰগ্ৰহণ হয়। কাৰণ (R): চন্দ্ৰ সূৰ্য আৰু পৃথিৱীৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-064",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A lunar eclipse occurs on a new moon day. Reason (R): The Earth comes between the Sun and the Moon.",
+      "as": "অভিকথন (A): অমাৱস্যাৰ দিনা চন্দ্ৰগ্ৰহণ হয়। কাৰণ (R): পৃথিৱী সূৰ্য আৰু চন্দ্ৰৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-065",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Boiled water is safer to drink. Reason (R): Boiling kills disease-causing germs.",
+      "as": "অভিকথন (A): উতলোৱা পানী খোৱা অধিক নিৰাপদ। কাৰণ (R): উতলালে ৰোগ সৃষ্টি কৰা জীৱাণু মৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-066",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Boiled water is safer to drink. Reason (R): Water contains dissolved minerals.",
+      "as": "অভিকথন (A): উতলোৱা পানী খোৱা অধিক নিৰাপদ। কাৰণ (R): পানীত খনিজ লৱণ দ্ৰৱীভূত থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-067",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Boiled water is safer to drink. Reason (R): Boiling adds germs to water.",
+      "as": "অভিকথন (A): উতলোৱা পানী খোৱা অধিক নিৰাপদ। কাৰণ (R): উতলালে পানীত জীৱাণু যোগ হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-068",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Boiled water is less safe to drink. Reason (R): Boiling kills disease-causing germs.",
+      "as": "অভিকথন (A): উতলোৱা পানী খোৱা কম নিৰাপদ। কাৰণ (R): উতলালে ৰোগ সৃষ্টি কৰা জীৱাণু মৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-069",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A solar eclipse occurs on a new moon day. Reason (R): The Moon comes between the Sun and the Earth.",
+      "as": "অভিকথন (A): অমাৱস্যাৰ দিনা সূৰ্যগ্ৰহণ হয়। কাৰণ (R): চন্দ্ৰ সূৰ্য আৰু পৃথিৱীৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-070",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A solar eclipse occurs on a new moon day. Reason (R): The Moon is smaller than the Earth.",
+      "as": "অভিকথন (A): অমাৱস্যাৰ দিনা সূৰ্যগ্ৰহণ হয়। কাৰণ (R): চন্দ্ৰ পৃথিৱীতকৈ সৰু।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-071",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A solar eclipse occurs on a new moon day. Reason (R): The Earth comes between the Sun and the Moon.",
+      "as": "অভিকথন (A): অমাৱস্যাৰ দিনা সূৰ্যগ্ৰহণ হয়। কাৰণ (R): পৃথিৱী সূৰ্য আৰু চন্দ্ৰৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-072",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A solar eclipse occurs on a full moon day. Reason (R): The Moon comes between the Sun and the Earth.",
+      "as": "অভিকথন (A): পূৰ্ণিমাৰ দিনা সূৰ্যগ্ৰহণ হয়। কাৰণ (R): চন্দ্ৰ সূৰ্য আৰু পৃথিৱীৰ মাজত আহে।"
+    },
+    "options": [
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-073",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Deserts receive very little rainfall. Reason (R): Most deserts lie in high-pressure or rain-shadow zones.",
+      "as": "অভিকথন (A): মৰুভূমিত অতি কম বৰষুণ হয়। কাৰণ (R): বেছিভাগ মৰুভূমি উচ্চ চাপ বা বৰষুণ-ছাঁ অঞ্চলত অৱস্থিত।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-074",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Deserts receive very little rainfall. Reason (R): Deserts have sandy soil.",
+      "as": "অভিকথন (A): মৰুভূমিত অতি কম বৰষুণ হয়। কাৰণ (R): মৰুভূমিৰ মাটি বালিচহীয়া।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-075",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Deserts receive very little rainfall. Reason (R): Deserts receive rainfall throughout the year.",
+      "as": "অভিকথন (A): মৰুভূমিত অতি কম বৰষুণ হয়। কাৰণ (R): মৰুভূমিত বছৰজুৰি বৰষুণ হয়।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-076",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): Deserts receive very heavy rainfall. Reason (R): Most deserts lie in high-pressure or rain-shadow zones.",
+      "as": "অভিকথন (A): মৰুভূমিত অতি বেছি বৰষুণ হয়। কাৰণ (R): বেছিভাগ মৰুভূমি উচ্চ চাপ বা বৰষুণ-ছাঁ অঞ্চলত অৱস্থিত।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-077",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A clinical thermometer has a narrow temperature range. Reason (R): It is designed to measure only body temperature.",
+      "as": "অভিকথন (A): ক্লিনিকেল থাৰ্ম'মিটাৰৰ উষ্ণতাৰ পৰিসৰ সংকীৰ্ণ। কাৰণ (R): ই কেৱল শৰীৰৰ উষ্ণতা জোখাৰ বাবে তৈয়াৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "R correctly explains A. Hence: Both A and R are true and R is the correct explanation of A.",
+      "as": "R এ A ৰ সঠিক ব্যাখ্যা দিয়ে। সেয়ে: A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-078",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A clinical thermometer has a narrow temperature range. Reason (R): It contains mercury.",
+      "as": "অভিকথন (A): ক্লিনিকেল থাৰ্ম'মিটাৰৰ উষ্ণতাৰ পৰিসৰ সংকীৰ্ণ। কাৰণ (R): ইয়াত পাৰা থাকে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is true but does not explain A. Hence: Both A and R are true but R is not the correct explanation of A.",
+      "as": "R সত্য কিন্তু A ৰ ব্যাখ্যা নহয়। সেয়ে: A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-079",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A clinical thermometer has a narrow temperature range. Reason (R): It can measure the temperature of boiling water.",
+      "as": "অভিকথন (A): ক্লিনিকেল থাৰ্ম'মিটাৰৰ উষ্ণতাৰ পৰিসৰ সংকীৰ্ণ। কাৰণ (R): ই উতলি থকা পানীৰ উষ্ণতা জুখিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A is true, but R is false. Hence: A is true but R is false.",
+      "as": "A সত্য, কিন্তু R অসত্য। সেয়ে: A সত্য কিন্তু R অসত্য।"
+    }
+  },
+  {
+    "id": "vr-assertion-reason-080",
+    "leaf": "assertion-reason",
+    "q": {
+      "en": "Assertion (A): A clinical thermometer can measure the temperature of boiling water. Reason (R): It is designed to measure only body temperature.",
+      "as": "অভিকথন (A): ক্লিনিকেল থাৰ্ম'মিটাৰে উতলি থকা পানীৰ উষ্ণতা জুখিব পাৰে। কাৰণ (R): ই কেৱল শৰীৰৰ উষ্ণতা জোখাৰ বাবে তৈয়াৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "Both A and R are true and R is the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য আৰু R, A ৰ সঠিক ব্যাখ্যা"
+      },
+      {
+        "en": "A is false but R is true",
+        "as": "A অসত্য কিন্তু R সত্য"
+      },
+      {
+        "en": "Both A and R are true but R is not the correct explanation of A",
+        "as": "A আৰু R দুয়োটাই সত্য কিন্তু R, A ৰ সঠিক ব্যাখ্যা নহয়"
+      },
+      {
+        "en": "A is true but R is false",
+        "as": "A সত্য কিন্তু R অসত্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is false, but R is true. Hence: A is false but R is true.",
+      "as": "A অসত্য, কিন্তু R সত্য। সেয়ে: A অসত্য কিন্তু R সত্য।"
+    }
+  }
+]

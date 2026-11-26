@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "numerical-027",
+    "q": {
+      "en": "Pipe A fills a tank in 6 hours and pipe B empties it in 9 hours. If both are opened together, the tank fills in",
+      "as": "পাইপ A এ এটা টেংকি ৬ ঘণ্টাত ভৰায় আৰু পাইপ B এ ৯ ঘণ্টাত খালী কৰে। দুয়ো একেলগে খুলিলে টেংকি কিমান সময়ত ভৰিব"
+    },
+    "options": [
+      {
+        "en": "18 hours",
+        "as": "১৮ ঘণ্টা"
+      },
+      {
+        "en": "15 hours",
+        "as": "১৫ ঘণ্টা"
+      },
+      {
+        "en": "12 hours",
+        "as": "১২ ঘণ্টা"
+      },
+      {
+        "en": "20 hours",
+        "as": "২০ ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net filling in one hour = 1/6 - 1/9 = 3/18 - 2/18 = 1/18. So the tank fills in 18 hours.",
+      "as": "এঘণ্টাত মুঠ ভৰা = ১/৬ - ১/৯ = ৩/১৮ - ২/১৮ = ১/১৮। সেয়ে টেংকি ১৮ ঘণ্টাত ভৰিব।"
+    }
+  },
+  {
+    "id": "numerical-028",
+    "q": {
+      "en": "Two pipes A and B can fill a tank in 20 and 30 minutes. Both are opened, but A is closed after 8 minutes. The total time to fill the tank is",
+      "as": "দুটা পাইপ A আৰু B এ এটা টেংকি ২০ আৰু ৩০ মিনিটত ভৰাব পাৰে। দুয়ো খোলা হ'ল, কিন্তু ৮ মিনিটৰ পিছত A বন্ধ কৰা হ'ল। টেংকি ভৰিবলৈ মুঠ সময় কিমান"
+    },
+    "options": [
+      {
+        "en": "18 minutes",
+        "as": "১৮ মিনিট"
+      },
+      {
+        "en": "16 minutes",
+        "as": "১৬ মিনিট"
+      },
+      {
+        "en": "20 minutes",
+        "as": "২০ মিনিট"
+      },
+      {
+        "en": "22 minutes",
+        "as": "২২ মিনিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 8 minutes both fill 8(1/20 + 1/30) = 8 × 5/60 = 2/3. The remaining 1/3 is filled by B alone at 1/30 a minute, taking 10 minutes. Total = 18 minutes.",
+      "as": "৮ মিনিটত দুয়োৱে ভৰায় ৮(১/২০ + ১/৩০) = ৮ × ৫/৬০ = ২/৩। বাকী ১/৩ B এ অকলে ১/৩০ হাৰত ভৰায়, ১০ মিনিট লাগে। মুঠ = ১৮ মিনিট।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-001",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 12 hours and pipe B in 6 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১২ ঘণ্টাত আৰু পাইপ B এ ৬ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 1/12 of the tank per hour and B fills 1/6. Together they fill 1/12 + 1/6 = 18/72 per hour, so the tank fills in 72/18 = 4 hours.",
+      "as": "A এ ঘণ্টাত ১/১২ আৰু B এ ১/৬ ভৰ্তি কৰে। একেলগে ৪ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-002",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 10 hours and pipe B in 15 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১০ ঘণ্টাত আৰু পাইপ B এ ১৫ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25/2",
+        "as": "২৫/২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A fills 1/10 of the tank per hour and B fills 1/15. Together they fill 1/10 + 1/15 = 25/150 per hour, so the tank fills in 150/25 = 6 hours.",
+      "as": "A এ ঘণ্টাত ১/১০ আৰু B এ ১/১৫ ভৰ্তি কৰে। একেলগে ৬ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-003",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 20 hours and pipe B in 30 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ২০ ঘণ্টাত আৰু পাইপ B এ ৩০ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A fills 1/20 of the tank per hour and B fills 1/30. Together they fill 1/20 + 1/30 = 50/600 per hour, so the tank fills in 600/50 = 12 hours.",
+      "as": "A এ ঘণ্টাত ১/২০ আৰু B এ ১/৩০ ভৰ্তি কৰে। একেলগে ১২ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-004",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 8 hours and pipe B in 24 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ৮ ঘণ্টাত আৰু পাইপ B এ ২৪ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A fills 1/8 of the tank per hour and B fills 1/24. Together they fill 1/8 + 1/24 = 32/192 per hour, so the tank fills in 192/32 = 6 hours.",
+      "as": "A এ ঘণ্টাত ১/৮ আৰু B এ ১/২৪ ভৰ্তি কৰে। একেলগে ৬ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-005",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 18 hours and pipe B in 9 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১৮ ঘণ্টাত আৰু পাইপ B এ ৯ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "27/2",
+        "as": "২৭/২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 1/18 of the tank per hour and B fills 1/9. Together they fill 1/18 + 1/9 = 27/162 per hour, so the tank fills in 162/27 = 6 hours.",
+      "as": "A এ ঘণ্টাত ১/১৮ আৰু B এ ১/৯ ভৰ্তি কৰে। একেলগে ৬ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-006",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 16 hours and pipe B in 48 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১৬ ঘণ্টাত আৰু পাইপ B এ ৪৮ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A fills 1/16 of the tank per hour and B fills 1/48. Together they fill 1/16 + 1/48 = 64/768 per hour, so the tank fills in 768/64 = 12 hours.",
+      "as": "A এ ঘণ্টাত ১/১৬ আৰু B এ ১/৪৮ ভৰ্তি কৰে। একেলগে ১২ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-007",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 25 hours and pipe B in 100 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ২৫ ঘণ্টাত আৰু পাইপ B এ ১০০ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "125/2",
+        "as": "১২৫/২"
+      },
+      {
+        "en": "100/3",
+        "as": "১০০/৩"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A fills 1/25 of the tank per hour and B fills 1/100. Together they fill 1/25 + 1/100 = 125/2500 per hour, so the tank fills in 2500/125 = 20 hours.",
+      "as": "A এ ঘণ্টাত ১/২৫ আৰু B এ ১/১০০ ভৰ্তি কৰে। একেলগে ২০ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-008",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 14 hours and pipe B in 35 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১৪ ঘণ্টাত আৰু পাইপ B এ ৩৫ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "49/2",
+        "as": "৪৯/২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "70/3",
+        "as": "৭০/৩"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 1/14 of the tank per hour and B fills 1/35. Together they fill 1/14 + 1/35 = 49/490 per hour, so the tank fills in 490/49 = 10 hours.",
+      "as": "A এ ঘণ্টাত ১/১৪ আৰু B এ ১/৩৫ ভৰ্তি কৰে। একেলগে ১০ ঘণ্টাত ভৰ্তি হ'ব।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-009",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 6 hours while pipe B can empty it in 10 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৬ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১০ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net filling per hour is 1/6 - 1/10 = 4/60, so the tank fills in 60/4 = 15 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/৬ - ১/১০ = ৪/৬০, সেয়ে ১৫ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-010",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 8 hours while pipe B can empty it in 12 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৮ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১২ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "24/5",
+        "as": "২৪/৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net filling per hour is 1/8 - 1/12 = 4/96, so the tank fills in 96/4 = 24 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/৮ - ১/১২ = ৪/৯৬, সেয়ে ২৪ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-011",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 10 hours while pipe B can empty it in 15 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১০ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১৫ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net filling per hour is 1/10 - 1/15 = 5/150, so the tank fills in 150/5 = 30 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/১০ - ১/১৫ = ৫/১৫০, সেয়ে ৩০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-012",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 12 hours while pipe B can empty it in 20 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১২ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ২০ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net filling per hour is 1/12 - 1/20 = 8/240, so the tank fills in 240/8 = 30 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/১২ - ১/২০ = ৮/২৪০, সেয়ে ৩০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-013",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 9 hours while pipe B can empty it in 12 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৯ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১২ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "36/7",
+        "as": "৩৬/৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net filling per hour is 1/9 - 1/12 = 3/108, so the tank fills in 108/3 = 36 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/৯ - ১/১২ = ৩/১০৮, সেয়ে ৩৬ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-014",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 15 hours while pipe B can empty it in 20 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১৫ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ২০ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "60/7",
+        "as": "৬০/৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net filling per hour is 1/15 - 1/20 = 5/300, so the tank fills in 300/5 = 60 hours.",
+      "as": "ঘণ্টাত মুঠ ভৰ্তি = ১/১৫ - ১/২০ = ৫/৩০০, সেয়ে ৬০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-015",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 6 hours. If A alone fills it in 10 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৬ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১০ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A fills 1/10 per hour and together they fill 1/6. Hence B fills 1/6 - 1/10 = 4/60 per hour, so B alone takes 15 hours.",
+      "as": "A ৰ হাৰ ১/১০, একেলগে ১/৬। B ৰ হাৰ ৪/৬০, সেয়ে B অকলে ১৫ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-016",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 8 hours. If A alone fills it in 12 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৮ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১২ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "24/5",
+        "as": "২৪/৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A fills 1/12 per hour and together they fill 1/8. Hence B fills 1/8 - 1/12 = 4/96 per hour, so B alone takes 24 hours.",
+      "as": "A ৰ হাৰ ১/১২, একেলগে ১/৮। B ৰ হাৰ ৪/৯৬, সেয়ে B অকলে ২৪ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-017",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 10 hours. If A alone fills it in 15 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ১০ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১৫ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 1/15 per hour and together they fill 1/10. Hence B fills 1/10 - 1/15 = 5/150 per hour, so B alone takes 30 hours.",
+      "as": "A ৰ হাৰ ১/১৫, একেলগে ১/১০। B ৰ হাৰ ৫/১৫০, সেয়ে B অকলে ৩০ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-018",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 12 hours. If A alone fills it in 20 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ১২ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ২০ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A fills 1/20 per hour and together they fill 1/12. Hence B fills 1/12 - 1/20 = 8/240 per hour, so B alone takes 30 hours.",
+      "as": "A ৰ হাৰ ১/২০, একেলগে ১/১২। B ৰ হাৰ ৮/২৪০, সেয়ে B অকলে ৩০ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-019",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 9 hours. If A alone fills it in 12 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৯ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১২ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "36/7",
+        "as": "৩৬/৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A fills 1/12 per hour and together they fill 1/9. Hence B fills 1/9 - 1/12 = 3/108 per hour, so B alone takes 36 hours.",
+      "as": "A ৰ হাৰ ১/১২, একেলগে ১/৯। B ৰ হাৰ ৩/১০৮, সেয়ে B অকলে ৩৬ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-020",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 15 hours. If A alone fills it in 20 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ১৫ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ২০ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "60/7",
+        "as": "৬০/৭"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 1/20 per hour and together they fill 1/15. Hence B fills 1/15 - 1/20 = 5/300 per hour, so B alone takes 60 hours.",
+      "as": "A ৰ হাৰ ১/২০, একেলগে ১/১৫। B ৰ হাৰ ৫/৩০০, সেয়ে B অকলে ৬০ ঘণ্টা লয়।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-021",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 10 hours, but a leak empties it in 15 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ১০ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ১৫ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Effective rate = 1/10 - 1/15 = 1/30 per hour. The tank therefore fills in 30 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/30 প্ৰতি ঘণ্টা, সেয়ে ৩০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-022",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 12 hours, but a leak empties it in 18 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ১২ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ১৮ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "36/5",
+        "as": "৩৬/৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Effective rate = 1/12 - 1/18 = 1/36 per hour. The tank therefore fills in 36 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/36 প্ৰতি ঘণ্টা, সেয়ে ৩৬ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-023",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 8 hours, but a leak empties it in 12 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ৮ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ১২ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "24/5",
+        "as": "২৪/৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = 1/8 - 1/12 = 1/24 per hour. The tank therefore fills in 24 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/24 প্ৰতি ঘণ্টা, সেয়ে ২৪ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-024",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 20 hours, but a leak empties it in 30 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ২০ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ৩০ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = 1/20 - 1/30 = 1/60 per hour. The tank therefore fills in 60 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/60 প্ৰতি ঘণ্টা, সেয়ে ৬০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-025",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 6 hours, but a leak empties it in 9 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ৬ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ৯ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "18/5",
+        "as": "১৮/৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Effective rate = 1/6 - 1/9 = 1/18 per hour. The tank therefore fills in 18 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/18 প্ৰতি ঘণ্টা, সেয়ে ১৮ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-026",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 10, 12 and 15 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ১০, ১২ আৰু ১৫ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "37/3",
+        "as": "৩৭/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined rate = 1/10 + 1/12 + 1/15 = 1/4 per hour, so the time is 4 hours.",
+      "as": "একেলগে হাৰ = 1/4 প্ৰতি ঘণ্টা, সেয়ে সময় ৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-027",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 12, 15 and 20 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ১২, ১৫ আৰু ২০ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "47/3",
+        "as": "৪৭/৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combined rate = 1/12 + 1/15 + 1/20 = 1/5 per hour, so the time is 5 hours.",
+      "as": "একেলগে হাৰ = 1/5 প্ৰতি ঘণ্টা, সেয়ে সময় ৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-028",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 8, 12 and 24 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ৮, ১২ আৰু ২৪ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "44/3",
+        "as": "৪৪/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined rate = 1/8 + 1/12 + 1/24 = 1/4 per hour, so the time is 4 hours.",
+      "as": "একেলগে হাৰ = 1/4 প্ৰতি ঘণ্টা, সেয়ে সময় ৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-029",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 9, 18 and 6 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ৯, ১৮ আৰু ৬ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined rate = 1/9 + 1/18 + 1/6 = 1/3 per hour, so the time is 3 hours.",
+      "as": "একেলগে হাৰ = 1/3 প্ৰতি ঘণ্টা, সেয়ে সময় ৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-030",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 15, 20 and 30 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ১৫, ২০ আৰু ৩০ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "20/3",
+        "as": "২০/৩"
+      },
+      {
+        "en": "40/3",
+        "as": "৪০/৩"
+      },
+      {
+        "en": "10/3",
+        "as": "১০/৩"
+      },
+      {
+        "en": "65/3",
+        "as": "৬৫/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Combined rate = 1/15 + 1/20 + 1/30 = 3/20 per hour, so the time is 20/3 hours.",
+      "as": "একেলগে হাৰ = 3/20 প্ৰতি ঘণ্টা, সেয়ে সময় ২০/৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-031",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 12 hours and pipe B in 18 hours. A is opened first for 4 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১২ ঘণ্টাত আৰু B এ ১৮ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৪ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In 4 hours A fills 4/12, leaving 2/3. B fills 1/18 per hour, so B needs 2/3 × 18 = 12 hours.",
+      "as": "৪ ঘণ্টাত A এ ৪/১২ ভৰ্তি কৰে, বাকী 2/3। B ৰ সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-032",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 10 hours and pipe B in 15 hours. A is opened first for 5 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১০ ঘণ্টাত আৰু B এ ১৫ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৫ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In 5 hours A fills 5/10, leaving 1/2. B fills 1/15 per hour, so B needs 1/2 × 15 = 15/2 hours.",
+      "as": "৫ ঘণ্টাত A এ ৫/১০ ভৰ্তি কৰে, বাকী 1/2। B ৰ সময় ১৫/২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-033",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 20 hours and pipe B in 30 hours. A is opened first for 8 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ২০ ঘণ্টাত আৰু B এ ৩০ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৮ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In 8 hours A fills 8/20, leaving 3/5. B fills 1/30 per hour, so B needs 3/5 × 30 = 18 hours.",
+      "as": "৮ ঘণ্টাত A এ ৮/২০ ভৰ্তি কৰে, বাকী 3/5। B ৰ সময় ১৮ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-034",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 8 hours and pipe B in 12 hours. A is opened first for 3 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ৮ ঘণ্টাত আৰু B এ ১২ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৩ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "9/2",
+        "as": "৯/২"
+      },
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In 3 hours A fills 3/8, leaving 5/8. B fills 1/12 per hour, so B needs 5/8 × 12 = 15/2 hours.",
+      "as": "৩ ঘণ্টাত A এ ৩/৮ ভৰ্তি কৰে, বাকী 5/8। B ৰ সময় ১৫/২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-035",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 15 hours and pipe B in 20 hours. A is opened first for 6 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১৫ ঘণ্টাত আৰু B এ ২০ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৬ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In 6 hours A fills 6/15, leaving 3/5. B fills 1/20 per hour, so B needs 3/5 × 20 = 12 hours.",
+      "as": "৬ ঘণ্টাত A এ ৬/১৫ ভৰ্তি কৰে, বাকী 3/5। B ৰ সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-036",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 15 litres per hour and takes 8 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ১৫ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৮ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capacity = rate × time = 15 × 8 = 120 litres.",
+      "as": "ধাৰণক্ষমতা = হাৰ × সময় = ১৫ × ৮ = ১২০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-037",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 20 litres per hour and takes 6 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ২০ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৬ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capacity = rate × time = 20 × 6 = 120 litres.",
+      "as": "ধাৰণক্ষমতা = হাৰ × সময় = ২০ × ৬ = ১২০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-038",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 25 litres per hour and takes 12 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ২৫ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ১২ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capacity = rate × time = 25 × 12 = 300 litres.",
+      "as": "ধাৰণক্ষমতা = হাৰ × সময় = ২৫ × ১২ = ৩০০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-039",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 30 litres per hour and takes 5 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ৩০ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৫ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capacity = rate × time = 30 × 5 = 150 litres.",
+      "as": "ধাৰণক্ষমতা = হাৰ × সময় = ৩০ × ৫ = ১৫০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-040",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 12 litres per hour and takes 15 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ১২ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ১৫ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capacity = rate × time = 12 × 15 = 180 litres.",
+      "as": "ধাৰণক্ষমতা = হাৰ × সময় = ১২ × ১৫ = ১৮০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-041",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 10 and 15 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ১০ আৰু ১৫ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In every two hours the pipes fill 1/10 + 1/15 = 1/6 of the tank. The tank is full in 12 hours.",
+      "as": "প্ৰতি দুঘণ্টাত ১/১০ + ১/১৫ = 1/6 ভৰ্তি হয়। মুঠ ১২ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-042",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 12 and 18 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ১২ আৰু ১৮ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In every two hours the pipes fill 1/12 + 1/18 = 5/36 of the tank. The tank is full in 15 hours.",
+      "as": "প্ৰতি দুঘণ্টাত ১/১২ + ১/১৮ = 5/36 ভৰ্তি হয়। মুঠ ১৫ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-043",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 8 and 12 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ৮ আৰু ১২ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In every two hours the pipes fill 1/8 + 1/12 = 5/24 of the tank. The tank is full in 10 hours.",
+      "as": "প্ৰতি দুঘণ্টাত ১/৮ + ১/১২ = 5/24 ভৰ্তি হয়। মুঠ ১০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-044",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 6 and 9 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ৬ আৰু ৯ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In every two hours the pipes fill 1/6 + 1/9 = 5/18 of the tank. The tank is full in 7 hours.",
+      "as": "প্ৰতি দুঘণ্টাত ১/৬ + ১/৯ = 5/18 ভৰ্তি হয়। মুঠ ৭ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-045",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank in 10 hours and with an outlet open it fills in 6 hours. How long would the outlet alone take to empty the full tank?",
+      "as": "এটা পাইপে টেংক ১০ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা আউটলেট খোলা থাকিলে ৬ ঘণ্টা লাগে। আউটলেটে ভৰ্তি টেংক অকলে কিমান সময়ত খালী কৰিব?"
+    },
+    "options": [
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Outlet rate = 1/6 - 1/10 = 1/15 per hour, so it empties the tank in 15 hours.",
+      "as": "আউটলেটৰ হাৰ = 1/15 প্ৰতি ঘণ্টা, সেয়ে ১৫ ঘণ্টাত খালী কৰে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-046",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank in 12 hours and with an outlet open it fills in 8 hours. How long would the outlet alone take to empty the full tank?",
+      "as": "এটা পাইপে টেংক ১২ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা আউটলেট খোলা থাকিলে ৮ ঘণ্টা লাগে। আউটলেটে ভৰ্তি টেংক অকলে কিমান সময়ত খালী কৰিব?"
+    },
+    "options": [
+      {
+        "en": "24/5",
+        "as": "২৪/৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Outlet rate = 1/8 - 1/12 = 1/24 per hour, so it empties the tank in 24 hours.",
+      "as": "আউটলেটৰ হাৰ = 1/24 প্ৰতি ঘণ্টা, সেয়ে ২৪ ঘণ্টাত খালী কৰে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-047",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank in 15 hours and with an outlet open it fills in 10 hours. How long would the outlet alone take to empty the full tank?",
+      "as": "এটা পাইপে টেংক ১৫ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা আউটলেট খোলা থাকিলে ১০ ঘণ্টা লাগে। আউটলেটে ভৰ্তি টেংক অকলে কিমান সময়ত খালী কৰিব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Outlet rate = 1/10 - 1/15 = 1/30 per hour, so it empties the tank in 30 hours.",
+      "as": "আউটলেটৰ হাৰ = 1/30 প্ৰতি ঘণ্টা, সেয়ে ৩০ ঘণ্টাত খালী কৰে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-048",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank in 20 hours and with an outlet open it fills in 12 hours. How long would the outlet alone take to empty the full tank?",
+      "as": "এটা পাইপে টেংক ২০ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা আউটলেট খোলা থাকিলে ১২ ঘণ্টা লাগে। আউটলেটে ভৰ্তি টেংক অকলে কিমান সময়ত খালী কৰিব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Outlet rate = 1/12 - 1/20 = 1/30 per hour, so it empties the tank in 30 hours.",
+      "as": "আউটলেটৰ হাৰ = 1/30 প্ৰতি ঘণ্টা, সেয়ে ৩০ ঘণ্টাত খালী কৰে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-049",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 6 and 8 hours, while an outlet pipe empties it in 12 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ৬ আৰু ৮ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ১২ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "48/5",
+        "as": "৪৮/৫"
+      },
+      {
+        "en": "24/5",
+        "as": "২৪/৫"
+      },
+      {
+        "en": "12/5",
+        "as": "১২/৫"
+      },
+      {
+        "en": "26/3",
+        "as": "২৬/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net rate = 1/6 + 1/8 - 1/12 = 5/24 per hour, giving 24/5 hours.",
+      "as": "মুঠ হাৰ = 5/24 প্ৰতি ঘণ্টা, সেয়ে ২৪/৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-050",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 10 and 12 hours, while an outlet pipe empties it in 15 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ১০ আৰু ১২ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ১৫ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "120/7",
+        "as": "১২০/৭"
+      },
+      {
+        "en": "30/7",
+        "as": "৩০/৭"
+      },
+      {
+        "en": "60/7",
+        "as": "৬০/৭"
+      },
+      {
+        "en": "37/3",
+        "as": "৩৭/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net rate = 1/10 + 1/12 - 1/15 = 7/60 per hour, giving 60/7 hours.",
+      "as": "মুঠ হাৰ = 7/60 প্ৰতি ঘণ্টা, সেয়ে ৬০/৭ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-051",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 8 and 12 hours, while an outlet pipe empties it in 24 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ৮ আৰু ১২ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ২৪ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "44/3",
+        "as": "৪৪/৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net rate = 1/8 + 1/12 - 1/24 = 1/6 per hour, giving 6 hours.",
+      "as": "মুঠ হাৰ = 1/6 প্ৰতি ঘণ্টা, সেয়ে ৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-052",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 9 and 12 hours, while an outlet pipe empties it in 18 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ৯ আৰু ১২ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ১৮ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "72/5",
+        "as": "৭২/৫"
+      },
+      {
+        "en": "18/5",
+        "as": "১৮/৫"
+      },
+      {
+        "en": "36/5",
+        "as": "৩৬/৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net rate = 1/9 + 1/12 - 1/18 = 5/36 per hour, giving 36/5 hours.",
+      "as": "মুঠ হাৰ = 5/36 প্ৰতি ঘণ্টা, সেয়ে ৩৬/৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-053",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 9 hours and pipe B in 18 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ৯ ঘণ্টাত আৰু পাইপ B এ ১৮ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "27/2",
+        "as": "২৭/২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined rate = 1/9 + 1/18 = 1/6 per hour, so the time is 6 hours.",
+      "as": "একেলগে হাৰ = 1/6, সেয়ে সময় ৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-054",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 15 hours and pipe B in 10 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ১৫ ঘণ্টাত আৰু পাইপ B এ ১০ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "25/2",
+        "as": "২৫/২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Combined rate = 1/15 + 1/10 = 1/6 per hour, so the time is 6 hours.",
+      "as": "একেলগে হাৰ = 1/6, সেয়ে সময় ৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-055",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 24 hours and pipe B in 8 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ২৪ ঘণ্টাত আৰু পাইপ B এ ৮ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combined rate = 1/24 + 1/8 = 1/6 per hour, so the time is 6 hours.",
+      "as": "একেলগে হাৰ = 1/6, সেয়ে সময় ৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-056",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 30 hours and pipe B in 20 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ৩০ ঘণ্টাত আৰু পাইপ B এ ২০ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined rate = 1/30 + 1/20 = 1/12 per hour, so the time is 12 hours.",
+      "as": "একেলগে হাৰ = 1/12, সেয়ে সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-057",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 40 hours and pipe B in 10 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ৪০ ঘণ্টাত আৰু পাইপ B এ ১০ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "40/3",
+        "as": "৪০/৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined rate = 1/40 + 1/10 = 1/8 per hour, so the time is 8 hours.",
+      "as": "একেলগে হাৰ = 1/8, সেয়ে সময় ৮ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-058",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 36 hours and pipe B in 12 hours. If both pipes are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ এটা টেংক ৩৬ ঘণ্টাত আৰু পাইপ B এ ১২ ঘণ্টাত ভৰ্তি কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9/2",
+        "as": "৯/২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combined rate = 1/36 + 1/12 = 1/9 per hour, so the time is 9 hours.",
+      "as": "একেলগে হাৰ = 1/9, সেয়ে সময় ৯ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-059",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 7 hours while pipe B can empty it in 11 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৭ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১১ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "77/4",
+        "as": "৭৭/৪"
+      },
+      {
+        "en": "77/18",
+        "as": "৭৭/১৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "77/2",
+        "as": "৭৭/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net rate = 1/7 - 1/11 = 4/77 per hour, so the time is 77/4 hours.",
+      "as": "মুঠ হাৰ = 4/77, সেয়ে সময় ৭৭/৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-060",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 9 hours while pipe B can empty it in 13 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৯ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১৩ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "117/4",
+        "as": "১১৭/৪"
+      },
+      {
+        "en": "117/22",
+        "as": "১১৭/২২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "117/2",
+        "as": "১১৭/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net rate = 1/9 - 1/13 = 4/117 per hour, so the time is 117/4 hours.",
+      "as": "মুঠ হাৰ = 4/117, সেয়ে সময় ১১৭/৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-061",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 6 hours while pipe B can empty it in 8 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৬ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ৮ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "24/7",
+        "as": "২৪/৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net rate = 1/6 - 1/8 = 1/24 per hour, so the time is 24 hours.",
+      "as": "মুঠ হাৰ = 1/24, সেয়ে সময় ২৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-062",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 10 hours while pipe B can empty it in 14 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১০ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১৪ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "35/6",
+        "as": "৩৫/৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net rate = 1/10 - 1/14 = 1/35 per hour, so the time is 35 hours.",
+      "as": "মুঠ হাৰ = 1/35, সেয়ে সময় ৩৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-063",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 5 hours. If A alone fills it in 10 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৫ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১০ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "10/3",
+        "as": "১০/৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B's rate = 1/5 - 1/10 = 1/10, so B alone takes 10 hours.",
+      "as": "B ৰ হাৰ = 1/10, সেয়ে ১০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-064",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 6 hours. If A alone fills it in 8 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৬ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ৮ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "24/7",
+        "as": "২৪/৭"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B's rate = 1/6 - 1/8 = 1/24, so B alone takes 24 hours.",
+      "as": "B ৰ হাৰ = 1/24, সেয়ে ২৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-065",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 10 hours. If A alone fills it in 12 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ১০ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ১২ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "60/11",
+        "as": "৬০/১১"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B's rate = 1/10 - 1/12 = 1/60, so B alone takes 60 hours.",
+      "as": "B ৰ হাৰ = 1/60, সেয়ে ৬০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-066",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two pipes A and B together fill a tank in 4 hours. If A alone fills it in 6 hours, in how many hours will B alone fill it?",
+      "as": "দুটা পাইপ A আৰু B একেলগে ৪ ঘণ্টাত টেংক ভৰ্তি কৰে। A অকলে ৬ ঘণ্টাত ভৰ্তি কৰিলে B অকলে কিমান ঘণ্টাত কৰিব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "12/5",
+        "as": "১২/৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B's rate = 1/4 - 1/6 = 1/12, so B alone takes 12 hours.",
+      "as": "B ৰ হাৰ = 1/12, সেয়ে ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-067",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 10, 15 and 30 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ১০, ১৫ আৰু ৩০ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "55/3",
+        "as": "৫৫/৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combined rate = 1/5 per hour, so the time is 5 hours.",
+      "as": "একেলগে হাৰ = 1/5, সেয়ে সময় ৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-068",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 12, 24 and 8 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ১২, ২৪ আৰু ৮ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "44/3",
+        "as": "৪৪/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined rate = 1/4 per hour, so the time is 4 hours.",
+      "as": "একেলগে হাৰ = 1/4, সেয়ে সময় ৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-069",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 20, 30 and 60 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ২০, ৩০ আৰু ৬০ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "110/3",
+        "as": "১১০/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined rate = 1/10 per hour, so the time is 10 hours.",
+      "as": "একেলগে হাৰ = 1/10, সেয়ে সময় ১০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-070",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 9 hours and pipe B in 18 hours. A is opened first for 3 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ৯ ঘণ্টাত আৰু B এ ১৮ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৩ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A fills 3/9, leaving 2/3; B needs 2/3×18 = 12 hours.",
+      "as": "A এ ৩/৯ ভৰ্তি কৰে, বাকী 2/3; B ৰ সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-071",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 12 hours and pipe B in 24 hours. A is opened first for 4 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১২ ঘণ্টাত আৰু B এ ২৪ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৪ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A fills 4/12, leaving 2/3; B needs 2/3×24 = 16 hours.",
+      "as": "A এ ৪/১২ ভৰ্তি কৰে, বাকী 2/3; B ৰ সময় ১৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-072",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 18 hours and pipe B in 27 hours. A is opened first for 6 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১৮ ঘণ্টাত আৰু B এ ২৭ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৬ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A fills 6/18, leaving 2/3; B needs 2/3×27 = 18 hours.",
+      "as": "A এ ৬/১৮ ভৰ্তি কৰে, বাকী 2/3; B ৰ সময় ১৮ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-073",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 10 hours and pipe B in 20 hours. A is opened first for 4 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১০ ঘণ্টাত আৰু B এ ২০ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৪ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A fills 4/10, leaving 3/5; B needs 3/5×20 = 12 hours.",
+      "as": "A এ ৪/১০ ভৰ্তি কৰে, বাকী 3/5; B ৰ সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-074",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A fills a tank in 16 hours and pipe B in 24 hours. A is opened first for 4 hours and then closed. How long will B take to fill the remaining part?",
+      "as": "পাইপ A এ টেংক ১৬ ঘণ্টাত আৰু B এ ২৪ ঘণ্টাত ভৰ্তি কৰে। A প্ৰথমে ৪ ঘণ্টা খোলা থাকি বন্ধ কৰা হয়। বাকী অংশ B এ কিমান সময়ত ভৰ্তি কৰিব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A fills 4/16, leaving 3/4; B needs 3/4×24 = 18 hours.",
+      "as": "A এ ৪/১৬ ভৰ্তি কৰে, বাকী 3/4; B ৰ সময় ১৮ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-075",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 18 litres per hour and takes 7 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ১৮ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৭ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "252",
+        "as": "২৫২"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capacity = 18 × 7 = 126 litres.",
+      "as": "ধাৰণক্ষমতা = ১২৬ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-076",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 22 litres per hour and takes 9 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ২২ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৯ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      },
+      {
+        "en": "198",
+        "as": "১৯৮"
+      },
+      {
+        "en": "396",
+        "as": "৩৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capacity = 22 × 9 = 198 litres.",
+      "as": "ধাৰণক্ষমতা = ১৯৮ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-077",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 35 litres per hour and takes 4 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ৩৫ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৪ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "280",
+        "as": "২৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capacity = 35 × 4 = 140 litres.",
+      "as": "ধাৰণক্ষমতা = ১৪০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-078",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 40 litres per hour and takes 6 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ৪০ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৬ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capacity = 40 × 6 = 240 litres.",
+      "as": "ধাৰণক্ষমতা = ২৪০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-079",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 14 litres per hour and takes 12 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ১৪ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ১২ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capacity = 14 × 12 = 168 litres.",
+      "as": "ধাৰণক্ষমতা = ১৬৮ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-080",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 14 and 21 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ১৪ আৰু ২১ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each two-hour cycle fills 5/42; the tank is full in 17 hours.",
+      "as": "প্ৰতি দুঘণ্টাত 5/42 ভৰ্তি হয়; মুঠ ১৭ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-081",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 16 and 24 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ১৬ আৰু ২৪ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each two-hour cycle fills 5/48; the tank is full in 19 hours.",
+      "as": "প্ৰতি দুঘণ্টাত 5/48 ভৰ্তি হয়; মুঠ ১৯ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-082",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipes A and B fill a tank in 9 and 12 hours respectively. They are opened alternately for one hour each, starting with A. In how many hours will the tank be filled?",
+      "as": "পাইপ A আৰু B এ ক্ৰমে ৯ আৰু ১২ ঘণ্টাত টেংক ভৰ্তি কৰে। A ৰ পৰা আৰম্ভ কৰি পাল পাতি এঘণ্টাকৈ খোলা হয়। কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each two-hour cycle fills 7/36; the tank is full in 11 hours.",
+      "as": "প্ৰতি দুঘণ্টাত 7/36 ভৰ্তি হয়; মুঠ ১১ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-083",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 6 and 8 hours, while an outlet pipe empties it in 24 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ৬ আৰু ৮ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ২৪ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "38/3",
+        "as": "৩৮/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net rate = 1/4 per hour, giving 4 hours.",
+      "as": "মুঠ হাৰ = 1/4, সেয়ে ৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-084",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 10 and 12 hours, while an outlet pipe empties it in 20 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ১০ আৰু ১২ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ২০ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "15/2",
+        "as": "১৫/২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "15/4",
+        "as": "১৫/৪"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net rate = 2/15 per hour, giving 15/2 hours.",
+      "as": "মুঠ হাৰ = 2/15, সেয়ে ১৫/২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-085",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Two inlet pipes fill a tank in 8 and 12 hours, while an outlet pipe empties it in 16 hours. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "দুটা ইনলেট পাইপে টেংক ৮ আৰু ১২ ঘণ্টাত ভৰ্তি কৰে, এটা আউটলেটে ১৬ ঘণ্টাত খালী কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "96/7",
+        "as": "৯৬/৭"
+      },
+      {
+        "en": "48/7",
+        "as": "৪৮/৭"
+      },
+      {
+        "en": "24/7",
+        "as": "২৪/৭"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net rate = 7/48 per hour, giving 48/7 hours.",
+      "as": "মুঠ হাৰ = 7/48, সেয়ে ৪৮/৭ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-086",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 6 hours while pipe B can empty it in 12 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ৬ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ১২ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net rate = 1/12 per hour, so the time is 12 hours.",
+      "as": "মুঠ হাৰ = 1/12, সেয়ে সময় ১২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-087",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 10 hours while pipe B can empty it in 20 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১০ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ২০ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "20/3",
+        "as": "২০/৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net rate = 1/20 per hour, so the time is 20 hours.",
+      "as": "মুঠ হাৰ = 1/20, সেয়ে সময় ২০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-088",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Pipe A can fill a tank in 12 hours while pipe B can empty it in 24 hours. If both are opened together, in how many hours will the tank be filled?",
+      "as": "পাইপ A এ টেংক ১২ ঘণ্টাত ভৰ্তি কৰে আৰু পাইপ B এ ২৪ ঘণ্টাত খালী কৰে। দুয়োটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net rate = 1/24 per hour, so the time is 24 hours.",
+      "as": "মুঠ হাৰ = 1/24, সেয়ে সময় ২৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-089",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 9 hours, but a leak empties it in 15 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ৯ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ১৫ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "45/8",
+        "as": "৪৫/৮"
+      },
+      {
+        "en": "45/2",
+        "as": "৪৫/২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Effective rate = 2/45 per hour, so the tank fills in 45/2 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 2/45, সেয়ে ৪৫/২ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-090",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 10 hours, but a leak empties it in 20 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ১০ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ২০ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "20/3",
+        "as": "২০/৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = 1/20 per hour, so the tank fills in 20 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/20, সেয়ে ২০ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-091",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A tank is filled by a pipe in 7 hours, but a leak empties it in 14 hours. If the pipe is opened with the leak present, how long will the tank take to fill?",
+      "as": "এটা পাইপে টেংক ৭ ঘণ্টাত ভৰ্তি কৰে, কিন্তু এটা ছিদ্ৰই ১৪ ঘণ্টাত খালী কৰে। ছিদ্ৰ থকা অৱস্থাত পাইপ খুলিলে কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "14/3",
+        "as": "১৪/৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Effective rate = 1/14 per hour, so the tank fills in 14 hours.",
+      "as": "কাৰ্যকৰী হাৰ = 1/14, সেয়ে ১৪ ঘণ্টা লাগে।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-092",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 6, 12 and 12 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ৬, ১২ আৰু ১২ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined rate = 1/3 per hour, so the time is 3 hours.",
+      "as": "একেলগে হাৰ = 1/3, সেয়ে সময় ৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-093",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "Three pipes A, B and C can fill a tank in 9, 9 and 9 hours respectively. If all three are opened together, in how many hours will the tank be filled?",
+      "as": "তিনিটা পাইপ A, B আৰু C এ ক্ৰমে ৯, ৯ আৰু ৯ ঘণ্টাত টেংক ভৰ্তি কৰে। তিনিওটা একেলগে খুলিলে কিমান ঘণ্টাত ভৰ্তি হ'ব?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined rate = 1/3 per hour, so the time is 3 hours.",
+      "as": "একেলগে হাৰ = 1/3, সেয়ে সময় ৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-094",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 16 litres per hour and takes 9 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ১৬ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৯ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "288",
+        "as": "২৮৮"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capacity = 16 × 9 = 144 litres.",
+      "as": "ধাৰণক্ষমতা = ১৪৪ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-pipes-cisterns-095",
+    "leaf": "pipes-cisterns",
+    "q": {
+      "en": "A pipe fills a tank at the rate of 24 litres per hour and takes 5 hours to fill it. Find the capacity of the tank.",
+      "as": "এটা পাইপে ঘণ্টাত ২৪ লিটাৰ হাৰে টেংক ভৰ্তি কৰে আৰু ৫ ঘণ্টা লাগে। টেংকৰ ধাৰণক্ষমতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capacity = 24 × 5 = 120 litres.",
+      "as": "ধাৰণক্ষমতা = ১২০ লিটাৰ।"
+    }
+  }
+]

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">axomexam</string>
+  <string name="app_tagline">Assam Exam Preparation</string>
+
+  <!-- bottom navigation -->
+  <string name="nav_home">Home</string>
+  <string name="nav_mock">Mock Test</string>
+  <string name="nav_practice">Practice</string>
+  <string name="nav_search">Search</string>
+  <string name="nav_menu">Menu</string>
+
+  <!-- drawer sections -->
+  <string name="sec_study">Study</string>
+  <string name="sec_app">App</string>
+  <string name="sec_info">Info</string>
+
+  <!-- drawer items -->
+  <string name="menu_home">Home</string>
+  <string name="menu_mock">Mock Tests</string>
+  <string name="menu_practice">Practice Questions</string>
+  <string name="menu_pyq">Previous Year Papers</string>
+  <string name="menu_ebooks">E-Books</string>
+  <string name="menu_downloads">Downloads &amp; PDF Notes</string>
+  <string name="menu_ca">Current Affairs</string>
+  <string name="menu_trending">Trending Topics</string>
+  <string name="menu_exams">Your Exams</string>
+  <string name="menu_search">Search</string>
+  <string name="menu_howto">How to use</string>
+  <string name="menu_theme">Toggle dark mode</string>
+  <string name="menu_language">Switch language (EN / অসমীয়া)</string>
+  <string name="menu_share">Share app</string>
+  <string name="menu_browser">Open in browser</string>
+  <string name="menu_clear">Clear cache</string>
+  <string name="menu_refresh">Refresh now</string>
+  <string name="menu_about">About Us</string>
+  <string name="menu_contact">Contact Us</string>
+  <string name="menu_privacy">Privacy Policy</string>
+  <string name="menu_terms">Terms &amp; Conditions</string>
+  <string name="menu_disclaimer">Disclaimer</string>
+
+  <!-- loading + offline -->
+  <string name="loading_connecting">Connecting…</string>
+  <string name="loading_loading">Loading…</string>
+  <string name="loading_slow">Slow network… still loading</string>
+  <string name="offline_title">You are offline</string>
+  <string name="offline_msg">Please check your internet connection and try again. Study content is loaded online.</string>
+  <string name="offline_retry">Retry</string>
+  <string name="offline_still">Still offline — please check your connection.</string>
+
+  <!-- hero banner -->
+  <string name="hero_badge">ADRE 3.0 / RRB</string>
+  <string name="hero_title">Crack Assam exams with bilingual Q&amp;A</string>
+  <string name="hero_sub">Bilingual practice, PDF notes and mock tests — all in one app.</string>
+  <string name="stat_questions">Questions</string>
+  <string name="stat_topics">Topics</string>
+  <string name="stat_pdfs">PDFs</string>
+  <string name="stat_ebooks">E-Books</string>
+  <string name="stat_mocks">Mock Sets</string>
+  <string name="quick_practice">Practice</string>
+  <string name="quick_mock">Mock Test</string>
+  <string name="quick_notes">PDF Notes</string>
+  <string name="quick_ebooks">E-Books</string>
+
+  <!-- onboarding -->
+  <string name="ob_next">Next</string>
+  <string name="ob_back">Back</string>
+  <string name="ob_accept">Accept &amp; Continue</string>
+  <string name="ob_start">Let\'s Start</string>
+
+  <string name="ob1_title">Welcome to axomexam</string>
+  <string name="ob1_body">Mock tests, previous year papers, e-books and bilingual notes for ADRE, APSC, Assam Police, SSC and Railway exams.</string>
+  <string name="ob2_title">Everything you need</string>
+  <string name="ob2_body">Built for serious aspirants. Completely free.</string>
+  <string name="ob2_f1t">Timed Mock Tests</string>
+  <string name="ob2_f1d">Real exam pattern with instant results and answer review.</string>
+  <string name="ob2_f2t">Bilingual Q&amp;A</string>
+  <string name="ob2_f2d">Every question and explanation in English and Assamese.</string>
+  <string name="ob2_f3t">PYQs &amp; PDF Notes</string>
+  <string name="ob2_f3d">Previous year papers and study notes for offline practice.</string>
+  <string name="ob2_f4t">Made for Mobile</string>
+  <string name="ob2_f4d">Fast, light and easy to use on any Android phone.</string>
+
+  <string name="ob3_title">How to use axomexam</string>
+  <string name="ob3_body">Six quick steps to get the most out of the app.</string>
+  <string name="ob3_s1">Practice anytime — open Practice to read bilingual Q&amp;A with explanations.</string>
+  <string name="ob3_s2">Take mock tests — pick a subject, set the timer and get an instant score.</string>
+  <string name="ob3_s3">Read e-books — every subject e-book opens right inside the app.</string>
+  <string name="ob3_s4">Download notes — save PDFs to your phone for offline study.</string>
+  <string name="ob3_s5">Move around — use the bottom bar and the Menu for everything else.</string>
+  <string name="ob3_s6">Refresh — pull the page down from the top to reload the latest content.</string>
+
+  <string name="ob4_title">Terms &amp; Conditions</string>
+  <string name="ob4_body">Please read and accept to continue.</string>
+  <string name="ob4_t1"><b>1. Free for personal use.</b> axomexam is free for your own exam preparation. Content may not be copied, resold or redistributed.</string>
+  <string name="ob4_t2"><b>2. Content accuracy.</b> We work hard to keep questions and notes correct, but errors are possible. Always verify details with official notifications.</string>
+  <string name="ob4_t3"><b>3. No guarantee.</b> The app and its content are provided as is, without any warranty. Use of the app is at your own risk.</string>
+  <string name="ob4_t4"><b>4. Privacy.</b> No registration is needed. Basic device data may be used only to improve the app experience.</string>
+  <string name="ob4_t5"><b>5. Updates.</b> These terms may change from time to time. Continued use of the app means you accept the latest terms.</string>
+
+  <string name="ob5_title">You are all set!</string>
+  <string name="ob5_body">Start practising today and move one step closer to your dream job.</string>
+
+  <!-- toasts -->
+  <string name="toast_cache_cleared">Cache cleared</string>
+  <string name="toast_download_started">Download started: %1$s</string>
+  <string name="toast_download_failed">Download failed. Opening in browser.</string>
+  <string name="toast_need_storage">Storage permission is needed to save the file.</string>
+  <string name="toast_no_app">No app found to open this link.</string>
+  <string name="toast_unable_open">Unable to open link.</string>
+  <string name="toast_share_text">axomexam — free bilingual mock tests, PDF notes and previous year papers for Assam exams. Get it at https://axomexam.in/</string>
+  <string name="toast_back_again">Press back again to exit</string>
+
+  <!-- misc -->
+  <string name="cd_logo">axomexam logo</string>
+  <string name="drawer_close">Close menu</string>
+  <string name="scroll_top">Scroll to top</string>
+  <string name="version_label">axomexam %1$s</string>
+</resources>

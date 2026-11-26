@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "average-001",
+    "q": {
+      "en": "The average of 5, 10 and 15 is:",
+      "as": "৫, ১০ আৰু ১৫ ৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = (5 + 10 + 15) ÷ 3 = 30 ÷ 3 = 10.",
+      "as": "গড় = (৫ + ১০ + ১৫) ÷ ৩ = ৩০ ÷ ৩ = ১০।"
+    }
+  },
+  {
+    "id": "average-002",
+    "q": {
+      "en": "The average of the first 20 natural numbers is:",
+      "as": "প্ৰথম ২০ টা স্বাভাৱিক সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = (n + 1)/2 = 21/2 = 10.5.",
+      "as": "গড় = (n + ১)/২ = ২১/২ = ১০.৫।"
+    }
+  },
+  {
+    "id": "average-003",
+    "q": {
+      "en": "The average of the squares of the first 10 natural numbers is:",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ বৰ্গৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "38.5",
+        "as": "৩৮.৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = (n + 1)(2n + 1)/6 = 11 × 21 / 6 = 38.5.",
+      "as": "গড় = (n + ১)(২n + ১)/৬ = ১১ × ২১ / ৬ = ৩৮.৫।"
+    }
+  },
+  {
+    "id": "average-004",
+    "q": {
+      "en": "The average of the cubes of the first 10 natural numbers is:",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ ঘনৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "302.5",
+        "as": "৩০২.৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "305",
+        "as": "৩০৫"
+      },
+      {
+        "en": "275",
+        "as": "২৭৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = n(n + 1)²/4 = 10 × 121 / 4 = 302.5.",
+      "as": "গড় = n(n + ১)²/৪ = ১০ × ১২১ / ৪ = ৩০২.৫।"
+    }
+  },
+  {
+    "id": "average-005",
+    "q": {
+      "en": "The average of all multiples of 3 from 3 to 30 is:",
+      "as": "৩ ৰ পৰা ৩০ লৈকে ৩ ৰ গুণিতকবোৰৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16.5",
+        "as": "১৬.৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 10 terms and the average is (3 + 30)/2 = 16.5.",
+      "as": "১০ টা পদ আছে আৰু গড় = (৩ + ৩০)/২ = ১৬.৫।"
+    }
+  },
+  {
+    "id": "average-006",
+    "q": {
+      "en": "The average of all multiples of 5 from 5 to 50 is:",
+      "as": "৫ ৰ পৰা ৫০ লৈকে ৫ ৰ গুণিতকবোৰৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "27.5",
+        "as": "২৭.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 10 terms and the average is (5 + 50)/2 = 27.5.",
+      "as": "১০ টা পদ আছে আৰু গড় = (৫ + ৫০)/২ = ২৭.৫।"
+    }
+  },
+  {
+    "id": "average-007",
+    "q": {
+      "en": "The average of 7 consecutive numbers is 20. The largest of them is:",
+      "as": "৭ টা ক্ৰমিক সংখ্যাৰ গড় ২০। সিহঁতৰ আটাইতকৈ ডাঙৰটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle number is the average, so the numbers are 17 to 23 and the largest is 23.",
+      "as": "মাজৰ সংখ্যাটোৱেই গড়, গতিকে সংখ্যাবোৰ ১৭ ৰ পৰা ২৩ আৰু আটাইতকৈ ডাঙৰটো ২৩।"
+    }
+  },
+  {
+    "id": "average-008",
+    "q": {
+      "en": "The average of 5 consecutive even numbers is 30. The largest of them is:",
+      "as": "৫ টা ক্ৰমিক যুগ্ম সংখ্যাৰ গড় ৩০। সিহঁতৰ আটাইতকৈ ডাঙৰটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The middle number is 30, so the numbers are 26 to 34 and the largest is 34.",
+      "as": "মাজৰ সংখ্যাটো ৩০, গতিকে সংখ্যাবোৰ ২৬ ৰ পৰা ৩৪ আৰু আটাইতকৈ ডাঙৰটো ৩৪।"
+    }
+  },
+  {
+    "id": "average-009",
+    "q": {
+      "en": "The average of 6 consecutive numbers is 25.5. The largest of them is:",
+      "as": "৬ টা ক্ৰমিক সংখ্যাৰ গড় ২৫.৫। সিহঁতৰ আটাইতকৈ ডাঙৰটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The numbers are 23 to 28, so the largest is 28.",
+      "as": "সংখ্যাবোৰ ২৩ ৰ পৰা ২৮, গতিকে আটাইতকৈ ডাঙৰটো ২৮।"
+    }
+  },
+  {
+    "id": "average-010",
+    "q": {
+      "en": "The average of 10 numbers is 25. If each number is increased by 3, the new average is:",
+      "as": "১০ টা সংখ্যাৰ গড় ২৫। প্ৰতিটো সংখ্যা ৩ ৰে বৃদ্ধি কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Adding 3 to each number adds 3 to the average, so it becomes 28.",
+      "as": "প্ৰতিটো সংখ্যাত ৩ যোগ কৰিলে গড়ত ৩ যোগ হয়, গতিকে ই ২৮ হয়।"
+    }
+  },
+  {
+    "id": "average-011",
+    "q": {
+      "en": "The average of 12 numbers is 15. If each number is multiplied by 4, the new average is:",
+      "as": "১২ টা সংখ্যাৰ গড় ১৫। প্ৰতিটো সংখ্যা ৪ ৰে পূৰণ কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiplying each number by 4 multiplies the average by 4, so it becomes 60.",
+      "as": "প্ৰতিটো সংখ্যাক ৪ ৰে পূৰণ কৰিলে গড় ৪ গুণ হয়, গতিকে ই ৬০ হয়।"
+    }
+  },
+  {
+    "id": "average-012",
+    "q": {
+      "en": "The average age of 30 students is 15 years. When the teacher's age is included, the average becomes 16 years. The teacher's age is:",
+      "as": "৩০ জন ছাত্ৰৰ গড় বয়স ১৫ বছৰ। শিক্ষকৰ বয়স ধৰিলে গড় ১৬ বছৰ হয়। শিক্ষকৰ বয়স হ'ল:"
+    },
+    "options": [
+      {
+        "en": "46 years",
+        "as": "৪৬ বছৰ"
+      },
+      {
+        "en": "50 years",
+        "as": "৫০ বছৰ"
+      },
+      {
+        "en": "56 years",
+        "as": "৫৬ বছৰ"
+      },
+      {
+        "en": "60 years",
+        "as": "৬০ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Teacher's age = 31 × 16 − 30 × 15 = 496 − 450 = 56 years.",
+      "as": "শিক্ষকৰ বয়স = ৩১ × ১৬ − ৩০ × ১৫ = ৪৯৬ − ৪৫০ = ৫৬ বছৰ।"
+    }
+  },
+  {
+    "id": "average-013",
+    "q": {
+      "en": "The average of 11 results is 60. If the average of the first 6 is 58 and of the last 6 is 63, the 6th result is:",
+      "as": "১১ টা ফলাফলৰ গড় ৬০। প্ৰথম ৬ টাৰ গড় ৫৮ আৰু শেষৰ ৬ টাৰ গড় ৬৩ হ'লে ৬ নম্বৰ ফলাফলটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6th result = (6 × 58 + 6 × 63) − 11 × 60 = 726 − 660 = 66.",
+      "as": "৬ নম্বৰ ফলাফল = (৬ × ৫৮ + ৬ × ৬৩) − ১১ × ৬০ = ৭২৬ − ৬৬০ = ৬৬।"
+    }
+  },
+  {
+    "id": "average-014",
+    "q": {
+      "en": "The average weight of 8 persons increases by 2.5 kg when a new person replaces one weighing 65 kg. The weight of the new person is:",
+      "as": "৮ জন ব্যক্তিৰ গড় ওজন ২.৫ কি.গ্ৰা. বৃদ্ধি হয় যেতিয়া ৬৫ কি.গ্ৰা. ওজনৰ এজনক নতুন এজনে সলনি কৰে। নতুন ব্যক্তিৰ ওজন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "80 kg",
+        "as": "৮০ কি.গ্ৰা."
+      },
+      {
+        "en": "85 kg",
+        "as": "৮৫ কি.গ্ৰা."
+      },
+      {
+        "en": "82.5 kg",
+        "as": "৮২.৫ কি.গ্ৰা."
+      },
+      {
+        "en": "90 kg",
+        "as": "৯০ কি.গ্ৰা."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New weight = 65 + 8 × 2.5 = 65 + 20 = 85 kg.",
+      "as": "নতুন ওজন = ৬৫ + ৮ × ২.৫ = ৬৫ + ২০ = ৮৫ কি.গ্ৰা.।"
+    }
+  },
+  {
+    "id": "average-015",
+    "q": {
+      "en": "A batsman's average after 12 innings is 30. If he scores 56 in the 13th innings, his new average is:",
+      "as": "এজন বেটছমেনৰ ১২ ইনিংছৰ পিছত গড় ৩০। ১৩ নম্বৰ ইনিংছত ৫৬ কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New average = (12 × 30 + 56) ÷ 13 = 416 ÷ 13 = 32.",
+      "as": "নতুন গড় = (১২ × ৩০ + ৫৬) ÷ ১৩ = ৪১৬ ÷ ১৩ = ৩২।"
+    }
+  },
+  {
+    "id": "average-016",
+    "q": {
+      "en": "A cricketer's average after 16 innings is 24. He scores 92 in the 17th innings. His new average is:",
+      "as": "এজন ক্ৰিকেটাৰৰ ১৬ ইনিংছৰ পিছত গড় ২৪। ১৭ নম্বৰ ইনিংছত ৯২ কৰে। নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New average = (16 × 24 + 92) ÷ 17 = 476 ÷ 17 = 28.",
+      "as": "নতুন গড় = (১৬ × ২৪ + ৯২) ÷ ১৭ = ৪৭৬ ÷ ১৭ = ২৮।"
+    }
+  },
+  {
+    "id": "average-017",
+    "q": {
+      "en": "The average of 20 numbers is 0. The maximum number of them that can be greater than zero is:",
+      "as": "২০ টা সংখ্যাৰ গড় ০। সিহঁতৰ আটাইতকৈ বেছি কিমানটা শূন্যতকৈ ডাঙৰ হ'ব পাৰে:"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For the average to stay 0, at most 19 numbers can be positive, the last being negative.",
+      "as": "গড় ০ হৈ থাকিবলৈ আটাইতকৈ বেছি ১৯ টা সংখ্যা ধনাত্মক হ'ব পাৰে, শেষটো ঋণাত্মক।"
+    }
+  },
+  {
+    "id": "average-018",
+    "q": {
+      "en": "The average of 5 numbers is 27. If one number is excluded, the average becomes 25. The excluded number is:",
+      "as": "৫ টা সংখ্যাৰ গড় ২৭। এটা সংখ্যা বাদ দিলে গড় ২৫ হয়। বাদ দিয়া সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Excluded = 5 × 27 − 4 × 25 = 135 − 100 = 35.",
+      "as": "বাদ দিয়া সংখ্যা = ৫ × ২৭ − ৪ × ২৫ = ১৩৫ − ১০০ = ৩৫।"
+    }
+  },
+  {
+    "id": "average-019",
+    "q": {
+      "en": "The average of 9 numbers is 40. If one number is removed, the average becomes 38. The removed number is:",
+      "as": "৯ টা সংখ্যাৰ গড় ৪০। এটা সংখ্যা আঁতৰালে গড় ৩৮ হয়। আঁতৰোৱা সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Removed = 9 × 40 − 8 × 38 = 360 − 304 = 56.",
+      "as": "আঁতৰোৱা সংখ্যা = ৯ × ৪০ − ৮ × ৩৮ = ৩৬০ − ৩০৪ = ৫৬।"
+    }
+  },
+  {
+    "id": "average-020",
+    "q": {
+      "en": "The average of 25 observations is 36. If the average of the first 13 is 32 and of the last 13 is 40, the 13th observation is:",
+      "as": "২৫ টা পৰ্যবেক্ষণৰ গড় ৩৬। প্ৰথম ১৩ টাৰ গড় ৩২ আৰু শেষৰ ১৩ টাৰ গড় ৪০ হ'লে ১৩ নম্বৰ পৰ্যবেক্ষণটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "13th = (13 × 32 + 13 × 40) − 25 × 36 = 936 − 900 = 36.",
+      "as": "১৩ নম্বৰ = (১৩ × ৩২ + ১৩ × ৪০) − ২৫ × ৩৬ = ৯৩৬ − ৯০০ = ৩৬।"
+    }
+  },
+  {
+    "id": "average-021",
+    "q": {
+      "en": "The average age of a family of 6 members is 22 years. If the youngest member, aged 7 years, is excluded, the new average age is:",
+      "as": "৬ জনীয়া এটা পৰিয়ালৰ গড় বয়স ২২ বছৰ। ৭ বছৰীয়া আটাইতকৈ সৰু সদস্যজনক বাদ দিলে নতুন গড় বয়স হ'ল:"
+    },
+    "options": [
+      {
+        "en": "24 years",
+        "as": "২৪ বছৰ"
+      },
+      {
+        "en": "26 years",
+        "as": "২৬ বছৰ"
+      },
+      {
+        "en": "23 years",
+        "as": "২৩ বছৰ"
+      },
+      {
+        "en": "25 years",
+        "as": "২৫ বছৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "New average = (6 × 22 − 7) ÷ 5 = 125 ÷ 5 = 25 years.",
+      "as": "নতুন গড় = (৬ × ২২ − ৭) ÷ ৫ = ১২৫ ÷ ৫ = ২৫ বছৰ।"
+    }
+  },
+  {
+    "id": "average-022",
+    "q": {
+      "en": "The average of the odd numbers 1, 3, 5, ..., 39 is:",
+      "as": "অযুগ্ম সংখ্যা ১, ৩, ৫, ..., ৩৯ ৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 20 terms and the average is (1 + 39)/2 = 20.",
+      "as": "২০ টা পদ আছে আৰু গড় = (১ + ৩৯)/২ = ২০।"
+    }
+  },
+  {
+    "id": "average-023",
+    "q": {
+      "en": "The average of three numbers is 20. If two of them are 15 and 25, the third number is:",
+      "as": "তিনিটা সংখ্যাৰ গড় ২০। সিহঁতৰ দুটা ১৫ আৰু ২৫ হ'লে তৃতীয়টো সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third = 3 × 20 − 15 − 25 = 60 − 40 = 20.",
+      "as": "তৃতীয় = ৩ × ২০ − ১৫ − ২৫ = ৬০ − ৪০ = ২০।"
+    }
+  },
+  {
+    "id": "average-024",
+    "q": {
+      "en": "The average of 7 numbers is 45. If the average of the first three is 42 and of the last three is 48, the fourth number is:",
+      "as": "৭ টা সংখ্যাৰ গড় ৪৫। প্ৰথম তিনিটাৰ গড় ৪২ আৰু শেষৰ তিনিটাৰ গড় ৪৮ হ'লে চতুৰ্থ সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fourth = 7 × 45 − (3 × 42 + 3 × 48) = 315 − 270 = 45.",
+      "as": "চতুৰ্থ = ৭ × ৪৫ − (৩ × ৪২ + ৩ × ৪৮) = ৩১৫ − ২৭০ = ৪৫।"
+    }
+  },
+  {
+    "id": "average-025",
+    "q": {
+      "en": "The average of 15 numbers is 20. If the average of the first 8 is 18 and of the last 8 is 22, the 8th number is:",
+      "as": "১৫ টা সংখ্যাৰ গড় ২০। প্ৰথম ৮ টাৰ গড় ১৮ আৰু শেষৰ ৮ টাৰ গড় ২২ হ'লে ৮ নম্বৰ সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8th = (8 × 18 + 8 × 22) − 15 × 20 = 320 − 300 = 20.",
+      "as": "৮ নম্বৰ = (৮ × ১৮ + ৮ × ২২) − ১৫ × ২০ = ৩২০ − ৩০০ = ২০।"
+    }
+  },
+  {
+    "id": "average-026",
+    "q": {
+      "en": "A student's average marks in 5 subjects is 68. His total marks are:",
+      "as": "এজন ছাত্ৰৰ ৫ টা বিষয়ৰ গড় নম্বৰ ৬৮। তেওঁৰ মুঠ নম্বৰ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "340",
+        "as": "৩৪০"
+      },
+      {
+        "en": "330",
+        "as": "৩৩০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 5 × 68 = 340.",
+      "as": "মুঠ = ৫ × ৬৮ = ৩৪০।"
+    }
+  },
+  {
+    "id": "average-027",
+    "q": {
+      "en": "A man travels the first 60 km at 30 km/h and the next 60 km at 60 km/h. His average speed for the whole journey is:",
+      "as": "এজন মানুহে প্ৰথম ৬০ কি.মি. ৩০ কি.মি./ঘণ্টা বেগেৰে আৰু পৰৱৰ্তী ৬০ কি.মি. ৬০ কি.মি./ঘণ্টা বেগেৰে যায়। গোটেই যাত্ৰাৰ গড় গতি হ'ল:"
+    },
+    "options": [
+      {
+        "en": "45 km/h",
+        "as": "৪৫ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "40 km/h",
+        "as": "৪০ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "50 km/h",
+        "as": "৫০ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "35 km/h",
+        "as": "৩৫ কি.মি./ঘণ্টা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average speed = 2 × 30 × 60 ÷ (30 + 60) = 40 km/h.",
+      "as": "গড় গতি = ২ × ৩০ × ৬০ ÷ (৩০ + ৬০) = ৪০ কি.মি./ঘণ্টা।"
+    }
+  },
+  {
+    "id": "average-028",
+    "q": {
+      "en": "A man covers half of a distance at 20 km/h and the other half at 30 km/h. His average speed is:",
+      "as": "এজন মানুহে এটা দূৰত্বৰ আধা ২০ কি.মি./ঘণ্টা আৰু বাকী আধা ৩০ কি.মি./ঘণ্টা বেগেৰে যায়। তেওঁৰ গড় গতি হ'ল:"
+    },
+    "options": [
+      {
+        "en": "25 km/h",
+        "as": "২৫ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "26 km/h",
+        "as": "২৬ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "24 km/h",
+        "as": "২৪ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "22 km/h",
+        "as": "২২ কি.মি./ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average speed = 2 × 20 × 30 ÷ (20 + 30) = 1200 ÷ 50 = 24 km/h.",
+      "as": "গড় গতি = ২ × ২০ × ৩০ ÷ (২০ + ৩০) = ১২০০ ÷ ৫০ = ২৪ কি.মি./ঘণ্টা।"
+    }
+  },
+  {
+    "id": "average-029",
+    "q": {
+      "en": "A car covers three equal distances at 20 km/h, 30 km/h and 60 km/h. Its average speed is:",
+      "as": "এখন গাড়ীয়ে তিনি সমান দূৰত্ব ক্ৰমে ২০, ৩০ আৰু ৬০ কি.মি./ঘণ্টা বেগেৰে যায়। ইয়াৰ গড় গতি হ'ল:"
+    },
+    "options": [
+      {
+        "en": "36 km/h",
+        "as": "৩৬ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "33 km/h",
+        "as": "৩৩ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "30 km/h",
+        "as": "৩০ কি.মি./ঘণ্টা"
+      },
+      {
+        "en": "25 km/h",
+        "as": "২৫ কি.মি./ঘণ্টা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average speed = 3 ÷ (1/20 + 1/30 + 1/60) = 3 ÷ (6/60) = 30 km/h.",
+      "as": "গড় গতি = ৩ ÷ (১/২০ + ১/৩০ + ১/৬০) = ৩ ÷ (৬/৬০) = ৩০ কি.মি./ঘণ্টা।"
+    }
+  },
+  {
+    "id": "average-030",
+    "q": {
+      "en": "The average of 20 numbers is 15. If the average of the first 12 is 14, the average of the remaining 8 numbers is:",
+      "as": "২০ টা সংখ্যাৰ গড় ১৫। প্ৰথম ১২ টাৰ গড় ১৪ হ'লে বাকী ৮ টা সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "16.5",
+        "as": "১৬.৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15.5",
+        "as": "১৫.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = (20 × 15 − 12 × 14) ÷ 8 = 132 ÷ 8 = 16.5.",
+      "as": "গড় = (২০ × ১৫ − ১২ × ১৪) ÷ ৮ = ১৩২ ÷ ৮ = ১৬.৫।"
+    }
+  },
+  {
+    "id": "average-031",
+    "q": {
+      "en": "The average of 9 numbers is 12. If the average of the first 5 is 10, the average of the last 4 numbers is:",
+      "as": "৯ টা সংখ্যাৰ গড় ১২। প্ৰথম ৫ টাৰ গড় ১০ হ'লে শেষৰ ৪ টা সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14.5",
+        "as": "১৪.৫"
+      },
+      {
+        "en": "13.5",
+        "as": "১৩.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = (9 × 12 − 5 × 10) ÷ 4 = 58 ÷ 4 = 14.5.",
+      "as": "গড় = (৯ × ১২ − ৫ × ১০) ÷ ৪ = ৫৮ ÷ ৪ = ১৪.৫।"
+    }
+  },
+  {
+    "id": "average-032",
+    "q": {
+      "en": "In a class of 30 students the average marks is 50. If the average of the 18 boys is 48, the average of the girls is:",
+      "as": "৩০ জন ছাত্ৰৰ এটা শ্ৰেণীত গড় নম্বৰ ৫০। ১৮ জন ল'ৰাৰ গড় ৪৮ হ'লে ছোৱালীৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Girls' average = (30 × 50 − 18 × 48) ÷ 12 = 636 ÷ 12 = 53.",
+      "as": "ছোৱালীৰ গড় = (৩০ × ৫০ − ১৮ × ৪৮) ÷ ১২ = ৬৩৬ ÷ ১২ = ৫৩।"
+    }
+  },
+  {
+    "id": "average-033",
+    "q": {
+      "en": "The average of 5 numbers is 30. If the number 50 is replaced by 30, the new average is:",
+      "as": "৫ টা সংখ্যাৰ গড় ৩০। ৫০ সংখ্যাটো ৩০ ৰে সলনি কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "New average = (5 × 30 − 50 + 30) ÷ 5 = 130 ÷ 5 = 26.",
+      "as": "নতুন গড় = (৫ × ৩০ − ৫০ + ৩০) ÷ ৫ = ১৩০ ÷ ৫ = ২৬।"
+    }
+  },
+  {
+    "id": "average-034",
+    "q": {
+      "en": "The average of 6 numbers is 20. A new number is added and the average becomes 22. The new number is:",
+      "as": "৬ টা সংখ্যাৰ গড় ২০। এটা নতুন সংখ্যা যোগ কৰিলে গড় ২২ হয়। নতুন সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "New number = 7 × 22 − 6 × 20 = 154 − 120 = 34.",
+      "as": "নতুন সংখ্যা = ৭ × ২২ − ৬ × ২০ = ১৫৪ − ১২০ = ৩৪।"
+    }
+  },
+  {
+    "id": "average-035",
+    "q": {
+      "en": "The average of 8 numbers is 25. If the numbers 30 and 50 are removed, the average of the remaining numbers is:",
+      "as": "৮ টা সংখ্যাৰ গড় ২৫। ৩০ আৰু ৫০ সংখ্যা দুটা আঁতৰালে বাকী সংখ্যাবোৰৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average = (8 × 25 − 30 − 50) ÷ 6 = 120 ÷ 6 = 20.",
+      "as": "গড় = (৮ × ২৫ − ৩০ − ৫০) ÷ ৬ = ১২০ ÷ ৬ = ২০।"
+    }
+  },
+  {
+    "id": "average-036",
+    "q": {
+      "en": "The average age of a class is 16 years. If 10 new students with an average age of 15 years join, the average becomes 15.5 years. The original number of students is:",
+      "as": "এটা শ্ৰেণীৰ গড় বয়স ১৬ বছৰ। ১৫ বছৰ গড় বয়সৰ ১০ জন নতুন ছাত্ৰ যোগ দিলে গড় ১৫.৫ বছৰ হয়। মূল ছাত্ৰৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(16n + 150) ÷ (n + 10) = 15.5 gives 16n + 150 = 15.5n + 155, so n = 10.",
+      "as": "(১৬n + ১৫০) ÷ (n + ১০) = ১৫.৫ ৰ পৰা ১৬n + ১৫০ = ১৫.৫n + ১৫৫, গতিকে n = ১০।"
+    }
+  },
+  {
+    "id": "average-037",
+    "q": {
+      "en": "The average of 5 consecutive odd numbers is 27. The largest of them is:",
+      "as": "৫ টা ক্ৰমিক অযুগ্ম সংখ্যাৰ গড় ২৭। সিহঁতৰ আটাইতকৈ ডাঙৰটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle number is 27, so the numbers are 23 to 31 and the largest is 31.",
+      "as": "মাজৰ সংখ্যাটো ২৭, গতিকে সংখ্যাবোৰ ২৩ ৰ পৰা ৩১ আৰু আটাইতকৈ ডাঙৰটো ৩১।"
+    }
+  },
+  {
+    "id": "average-038",
+    "q": {
+      "en": "The average of 9 consecutive numbers is 30. The smallest of them is:",
+      "as": "৯ টা ক্ৰমিক সংখ্যাৰ গড় ৩০। সিহঁতৰ আটাইতকৈ সৰুটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The middle number is 30, so the numbers are 26 to 34 and the smallest is 26.",
+      "as": "মাজৰ সংখ্যাটো ৩০, গতিকে সংখ্যাবোৰ ২৬ ৰ পৰা ৩৪ আৰু আটাইতকৈ সৰুটো ২৬।"
+    }
+  },
+  {
+    "id": "average-039",
+    "q": {
+      "en": "The average of 4 consecutive even numbers is 27. The largest of them is:",
+      "as": "৪ টা ক্ৰমিক যুগ্ম সংখ্যাৰ গড় ২৭। সিহঁতৰ আটাইতকৈ ডাঙৰটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The numbers are 24, 26, 28 and 30, so the largest is 30.",
+      "as": "সংখ্যাবোৰ ২৪, ২৬, ২৮ আৰু ৩০, গতিকে আটাইতকৈ ডাঙৰটো ৩০।"
+    }
+  },
+  {
+    "id": "average-040",
+    "q": {
+      "en": "The mean of 100 items was found to be 46. Later it was found that an item 46 was misread as 64. The correct mean is:",
+      "as": "১০০ টা বস্তুৰ গড় ৪৬ পোৱা গৈছিল। পিছত ধৰা পৰিল যে এটা বস্তু ৪৬ ক ৬৪ হিচাপে ভুলকৈ পঢ়া হৈছিল। শুদ্ধ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "45.5",
+        "as": "৪৫.৫"
+      },
+      {
+        "en": "46.18",
+        "as": "৪৬.১৮"
+      },
+      {
+        "en": "45.82",
+        "as": "৪৫.৮২"
+      },
+      {
+        "en": "44.82",
+        "as": "৪৪.৮২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Correct mean = (100 × 46 − 64 + 46) ÷ 100 = 4582 ÷ 100 = 45.82.",
+      "as": "শুদ্ধ গড় = (১০০ × ৪৬ − ৬৪ + ৪৬) ÷ ১০০ = ৪৫৮২ ÷ ১০০ = ৪৫.৮২।"
+    }
+  },
+  {
+    "id": "average-041",
+    "q": {
+      "en": "The average of 25 observations is 36. It was later found that an observation 46 was read as 64. The correct average is:",
+      "as": "২৫ টা পৰ্যবেক্ষণৰ গড় ৩৬। পিছত ধৰা পৰিল যে এটা পৰ্যবেক্ষণ ৪৬ ক ৬৪ হিচাপে পঢ়া হৈছিল। শুদ্ধ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "35.5",
+        "as": "৩৫.৫"
+      },
+      {
+        "en": "36.72",
+        "as": "৩৬.৭২"
+      },
+      {
+        "en": "34.28",
+        "as": "৩৪.২৮"
+      },
+      {
+        "en": "35.28",
+        "as": "৩৫.২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Correct average = (25 × 36 − 64 + 46) ÷ 25 = 882 ÷ 25 = 35.28.",
+      "as": "শুদ্ধ গড় = (২৫ × ৩৬ − ৬৪ + ৪৬) ÷ ২৫ = ৮৮২ ÷ ২৫ = ৩৫.২৮।"
+    }
+  },
+  {
+    "id": "average-042",
+    "q": {
+      "en": "The average of 10 numbers is 30. It was later found that the numbers 12 and 18 were misread as 21 and 81. The correct average is:",
+      "as": "১০ টা সংখ্যাৰ গড় ৩০। পিছত ধৰা পৰিল যে ১২ আৰু ১৮ ক ২১ আৰু ৮১ হিচাপে ভুলকৈ পঢ়া হৈছিল। শুদ্ধ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "24.8",
+        "as": "২৪.৮"
+      },
+      {
+        "en": "25.8",
+        "as": "২৫.৮"
+      },
+      {
+        "en": "22.8",
+        "as": "২২.৮"
+      },
+      {
+        "en": "21.8",
+        "as": "২১.৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Correct average = (10 × 30 − 21 − 81 + 12 + 18) ÷ 10 = 228 ÷ 10 = 22.8.",
+      "as": "শুদ্ধ গড় = (১০ × ৩০ − ২১ − ৮১ + ১২ + ১৮) ÷ ১০ = ২২৮ ÷ ১০ = ২২.৮।"
+    }
+  },
+  {
+    "id": "average-043",
+    "q": {
+      "en": "A shopkeeper's average sale for 5 days is ₹2,000. If the average for the first 6 days is ₹2,200, the sale on the 6th day is:",
+      "as": "এজন দোকানীৰ ৫ দিনৰ গড় বিক্ৰী ₹২,০০০। প্ৰথম ৬ দিনৰ গড় ₹২,২০০ হ'লে ৬ নম্বৰ দিনৰ বিক্ৰী হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹3,000",
+        "as": "₹৩,০০০"
+      },
+      {
+        "en": "₹3,200",
+        "as": "₹৩,২০০"
+      },
+      {
+        "en": "₹2,800",
+        "as": "₹২,৮০০"
+      },
+      {
+        "en": "₹3,500",
+        "as": "₹৩,৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "6th day sale = 6 × 2200 − 5 × 2000 = 13200 − 10000 = ₹3,200.",
+      "as": "৬ নম্বৰ দিনৰ বিক্ৰী = ৬ × ২২০০ − ৫ × ২০০০ = ১৩২০০ − ১০০০০ = ₹৩,২০০।"
+    }
+  },
+  {
+    "id": "average-044",
+    "q": {
+      "en": "The average temperature for Monday, Tuesday and Wednesday is 40°, and for Tuesday, Wednesday and Thursday is 41°. If Thursday's temperature is 42°, Monday's temperature is:",
+      "as": "সোম, মঙ্গল আৰু বুধবাৰৰ গড় উষ্ণতা ৪০°, আৰু মঙ্গল, বুধ আৰু বৃহস্পতিবাৰৰ গড় ৪১°। বৃহস্পতিবাৰৰ উষ্ণতা ৪২° হ'লে সোমবাৰৰ উষ্ণতা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "39°",
+        "as": "৩৯°"
+      },
+      {
+        "en": "38°",
+        "as": "৩৮°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "41°",
+        "as": "৪১°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mon = (40 × 3) − (41 × 3 − 42) = 120 − 81 = 39°.",
+      "as": "সোম = (৪০ × ৩) − (৪১ × ৩ − ৪২) = ১২০ − ৮১ = ৩৯°।"
+    }
+  },
+  {
+    "id": "average-045",
+    "q": {
+      "en": "The average of three numbers is 15. If the average of the first two is 12, the third number is:",
+      "as": "তিনিটা সংখ্যাৰ গড় ১৫। প্ৰথম দুটাৰ গড় ১২ হ'লে তৃতীয় সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third = 3 × 15 − 2 × 12 = 45 − 24 = 21.",
+      "as": "তৃতীয় = ৩ × ১৫ − ২ × ১২ = ৪৫ − ২৪ = ২১।"
+    }
+  },
+  {
+    "id": "average-046",
+    "q": {
+      "en": "The average of 10 numbers is 20. If 5 is added to each number, the new average is:",
+      "as": "১০ টা সংখ্যাৰ গড় ২০। প্ৰতিটো সংখ্যাত ৫ যোগ কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Adding 5 to each number adds 5 to the average, so it becomes 25.",
+      "as": "প্ৰতিটো সংখ্যাত ৫ যোগ কৰিলে গড়ত ৫ যোগ হয়, গতিকে ই ২৫ হয়।"
+    }
+  },
+  {
+    "id": "average-047",
+    "q": {
+      "en": "The average of the first 10 multiples of 7 is:",
+      "as": "৭ ৰ প্ৰথম ১০ টা গুণিতকৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "38.5",
+        "as": "৩৮.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average = 7 × (1 + 2 + ... + 10) ÷ 10 = 7 × 55 ÷ 10 = 38.5.",
+      "as": "গড় = ৭ × (১ + ২ + ... + ১০) ÷ ১০ = ৭ × ৫৫ ÷ ১০ = ৩৮.৫।"
+    }
+  },
+  {
+    "id": "average-048",
+    "q": {
+      "en": "The average of all prime numbers between 10 and 20 is:",
+      "as": "১০ আৰু ২০ ৰ মাজৰ গোটেই মৌলিক সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The primes are 11, 13, 17 and 19, whose sum is 60 and average is 15.",
+      "as": "মৌলিকবোৰ ১১, ১৩, ১৭ আৰু ১৯, যাৰ যোগফল ৬০ আৰু গড় ১৫।"
+    }
+  },
+  {
+    "id": "average-049",
+    "q": {
+      "en": "The average of all two-digit multiples of 10 is:",
+      "as": "১০ ৰ গোটেই দুটা অংকৰ গুণিতকৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "They are 10, 20, ..., 90, so the average is (10 + 90)/2 = 50.",
+      "as": "সিহঁত ১০, ২০, ..., ৯০, গতিকে গড় = (১০ + ৯০)/২ = ৫০।"
+    }
+  },
+  {
+    "id": "average-050",
+    "q": {
+      "en": "The average of all the factors of 24 is:",
+      "as": "২৪ ৰ গোটেই উৎপাদকৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6.5",
+        "as": "৬.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The factors are 1, 2, 3, 4, 6, 8, 12, 24 with sum 60, so the average is 60 ÷ 8 = 7.5.",
+      "as": "উৎপাদকবোৰ ১, ২, ৩, ৪, ৬, ৮, ১২, ২৪, যোগফল ৬০, গতিকে গড় = ৬০ ÷ ৮ = ৭.৫।"
+    }
+  },
+  {
+    "id": "average-051",
+    "q": {
+      "en": "The average of all the factors of 28 is:",
+      "as": "২৮ ৰ গোটেই উৎপাদকৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The factors are 1, 2, 4, 7, 14, 28 with sum 56, so the average is 56 ÷ 6 = 8.",
+      "as": "উৎপাদকবোৰ ১, ২, ৪, ৭, ১৪, ২৮, যোগফল ৫৬, গতিকে গড় = ৫৬ ÷ ৬ = ৮।"
+    }
+  },
+  {
+    "id": "average-052",
+    "q": {
+      "en": "The average of all two-digit multiples of 9 is:",
+      "as": "৯ ৰ গোটেই দুটা অংকৰ গুণিতকৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "58.5",
+        "as": "৫৮.৫"
+      },
+      {
+        "en": "55.5",
+        "as": "৫৫.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "They are 18, 27, ..., 99, so the average is (18 + 99)/2 = 58.5.",
+      "as": "সিহঁত ১৮, ২৭, ..., ৯৯, গতিকে গড় = (১৮ + ৯৯)/২ = ৫৮.৫।"
+    }
+  },
+  {
+    "id": "average-053",
+    "q": {
+      "en": "In a school, 40 students have an average of 60 marks and 60 students have an average of 70 marks. The average of all 100 students is:",
+      "as": "এখন বিদ্যালয়ত ৪০ জন ছাত্ৰৰ গড় ৬০ নম্বৰ আৰু ৬০ জনৰ গড় ৭০ নম্বৰ। গোটেই ১০০ জনৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "67",
+        "as": "৬৭"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = (40 × 60 + 60 × 70) ÷ 100 = 6600 ÷ 100 = 66.",
+      "as": "গড় = (৪০ × ৬০ + ৬০ × ৭০) ÷ ১০০ = ৬৬০০ ÷ ১০০ = ৬৬।"
+    }
+  },
+  {
+    "id": "average-054",
+    "q": {
+      "en": "In a group of 100 people, the average age is 25 years. If the average age of the men is 27 and of the women is 22, the number of men is:",
+      "as": "১০০ জনীয়া এটা গোটৰ গড় বয়স ২৫ বছৰ। পুৰুষৰ গড় ২৭ আৰু মহিলাৰ গড় ২২ হ'লে পুৰুষৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Men : women = (25 − 22) : (27 − 25) = 3 : 2, so men = 60.",
+      "as": "পুৰুষ : মহিলা = (২৫ − ২২) : (২৭ − ২৫) = ৩ : ২, গতিকে পুৰুষ = ৬০।"
+    }
+  },
+  {
+    "id": "average-055",
+    "q": {
+      "en": "A batsman's average in 8 innings is 42. If he scores 60 in each of the next 4 innings, his new average is:",
+      "as": "এজন বেটছমেনৰ ৮ ইনিংছত গড় ৪২। পৰৱৰ্তী ৪ ইনিংছত তেওঁ প্ৰত্যেকত ৬০ কৰিলে নতুন গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "New average = (8 × 42 + 4 × 60) ÷ 12 = 576 ÷ 12 = 48.",
+      "as": "নতুন গড় = (৮ × ৪২ + ৪ × ৬০) ÷ ১২ = ৫৭৬ ÷ ১২ = ৪৮।"
+    }
+  },
+  {
+    "id": "average-056",
+    "q": {
+      "en": "The average of 12 numbers is 15. If the average of the first 6 is 12, the average of the remaining 6 numbers is:",
+      "as": "১২ টা সংখ্যাৰ গড় ১৫। প্ৰথম ৬ টাৰ গড় ১২ হ'লে বাকী ৬ টা সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average = (12 × 15 − 6 × 12) ÷ 6 = 108 ÷ 6 = 18.",
+      "as": "গড় = (১২ × ১৫ − ৬ × ১২) ÷ ৬ = ১০৮ ÷ ৬ = ১৮।"
+    }
+  },
+  {
+    "id": "average-057",
+    "q": {
+      "en": "The average age of 8 men is increased by 3 years when two of them aged 24 and 30 years are replaced by two new men. The average age of the two new men is:",
+      "as": "২৪ আৰু ৩০ বছৰীয়া দুজনক দুজন নতুন ব্যক্তিৰে সলনি কৰিলে ৮ জন মানুহৰ গড় বয়স ৩ বছৰ বৃদ্ধি হয়। নতুন দুজনৰ গড় বয়স হ'ল:"
+    },
+    "options": [
+      {
+        "en": "36 years",
+        "as": "৩৬ বছৰ"
+      },
+      {
+        "en": "42 years",
+        "as": "৪২ বছৰ"
+      },
+      {
+        "en": "39 years",
+        "as": "৩৯ বছৰ"
+      },
+      {
+        "en": "33 years",
+        "as": "৩৩ বছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "New total = (24 + 30) + 8 × 3 = 78, so the average is 78 ÷ 2 = 39 years.",
+      "as": "নতুন মুঠ = (২৪ + ৩০) + ৮ × ৩ = ৭৮, গতিকে গড় = ৭৮ ÷ ২ = ৩৯ বছৰ।"
+    }
+  },
+  {
+    "id": "average-058",
+    "q": {
+      "en": "The mean of 5 numbers is 18. If one number is excluded, the mean becomes 16. The excluded number is:",
+      "as": "৫ টা সংখ্যাৰ গড় ১৮। এটা সংখ্যা বাদ দিলে গড় ১৬ হয়। বাদ দিয়া সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Excluded = 5 × 18 − 4 × 16 = 90 − 64 = 26.",
+      "as": "বাদ দিয়া = ৫ × ১৮ − ৪ × ১৬ = ৯০ − ৬৪ = ২৬।"
+    }
+  },
+  {
+    "id": "average-059",
+    "q": {
+      "en": "The average of 6 observations is 25. When a seventh observation is added, the average remains 25. The seventh observation is:",
+      "as": "৬ টা পৰ্যবেক্ষণৰ গড় ২৫। সপ্তম এটা পৰ্যবেক্ষণ যোগ কৰিলে গড় ২৫ হৈয়েই থাকে। সপ্তম পৰ্যবেক্ষণটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For the average to stay the same, the new value must equal the average, so it is 25.",
+      "as": "গড় একে থাকিবলৈ নতুন মানটো গড়ৰ সমান হ'ব লাগে, গতিকে ই ২৫।"
+    }
+  },
+  {
+    "id": "average-060",
+    "q": {
+      "en": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a 30-day month beginning with a Sunday is:",
+      "as": "এখন পুথিভঁৰালত দেওবাৰে গড়ে ৫১০ আৰু আন দিনত ২৪০ জন দৰ্শনকাৰী থাকে। দেওবাৰে আৰম্ভ হোৱা ৩০ দিনীয়া মাহত দৈনিক গড় দৰ্শনকাৰীৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "270",
+        "as": "২৭০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "285",
+        "as": "২৮৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 5 Sundays, so the average = (5 × 510 + 25 × 240) ÷ 30 = 8550 ÷ 30 = 285.",
+      "as": "৫ টা দেওবাৰ থাকে, গতিকে গড় = (৫ × ৫১০ + ২৫ × ২৪০) ÷ ৩০ = ৮৫৫০ ÷ ৩০ = ২৮৫।"
+    }
+  },
+  {
+    "id": "average-061",
+    "q": {
+      "en": "The average of 9 numbers is 20. If the average of the first five is 22, the average of the remaining four numbers is:",
+      "as": "৯ টা সংখ্যাৰ গড় ২০। প্ৰথম পাঁচটাৰ গড় ২২ হ'লে বাকী চাৰিটা সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      },
+      {
+        "en": "16.5",
+        "as": "১৬.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = (9 × 20 − 5 × 22) ÷ 4 = 70 ÷ 4 = 17.5.",
+      "as": "গড় = (৯ × ২০ − ৫ × ২২) ÷ ৪ = ৭০ ÷ ৪ = ১৭.৫।"
+    }
+  },
+  {
+    "id": "average-062",
+    "q": {
+      "en": "The average of 2/3, 5/6 and 1/2 is:",
+      "as": "২/৩, ৫/৬ আৰু ১/২ ৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average = (2/3 + 5/6 + 1/2) ÷ 3 = (12/6) ÷ 3 = 2/3.",
+      "as": "গড় = (২/৩ + ৫/৬ + ১/২) ÷ ৩ = (১২/৬) ÷ ৩ = ২/৩।"
+    }
+  },
+  {
+    "id": "average-063",
+    "q": {
+      "en": "The average of 4.2, 4.8 and 5.4 is:",
+      "as": "৪.২, ৪.৮ আৰু ৫.৪ ৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4.6",
+        "as": "৪.৬"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "4.4",
+        "as": "৪.৪"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average = (4.2 + 4.8 + 5.4) ÷ 3 = 14.4 ÷ 3 = 4.8.",
+      "as": "গড় = (৪.২ + ৪.৮ + ৫.৪) ÷ ৩ = ১৪.৪ ÷ ৩ = ৪.৮।"
+    }
+  },
+  {
+    "id": "average-064",
+    "q": {
+      "en": "The average of the first 100 natural numbers is:",
+      "as": "প্ৰথম ১০০ টা স্বাভাৱিক সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "50.5",
+        "as": "৫০.৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "49.5",
+        "as": "৪৯.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = (100 + 1)/2 = 50.5.",
+      "as": "গড় = (১০০ + ১)/২ = ৫০.৫।"
+    }
+  },
+  {
+    "id": "average-065",
+    "q": {
+      "en": "The average of all the even numbers from 2 to 100 is:",
+      "as": "২ ৰ পৰা ১০০ লৈকে গোটেই যুগ্ম সংখ্যাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 50 terms and the average is (2 + 100)/2 = 51.",
+      "as": "৫০ টা পদ আছে আৰু গড় = (২ + ১০০)/২ = ৫১।"
+    }
+  },
+  {
+    "id": "average-066",
+    "q": {
+      "en": "A team of 11 players has an average score of 30 runs. If the captain, who scored 90 runs, is included, the average of all 12 becomes:",
+      "as": "১১ জন খেলুৱৈৰ এটা দলৰ গড় স্ক'ৰ ৩০ ৰান। ৯০ ৰান কৰা অধিনায়কজনক ধৰিলে গোটেই ১২ জনৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New average = (11 × 30 + 90) ÷ 12 = 420 ÷ 12 = 35.",
+      "as": "নতুন গড় = (১১ × ৩০ + ৯০) ÷ ১২ = ৪২০ ÷ ১২ = ৩৫।"
+    }
+  },
+  {
+    "id": "average-067",
+    "q": {
+      "en": "The average monthly income of a family of 4 members is ₹2,500 and of another family of 6 members is ₹3,000. The average monthly income of both families taken together is:",
+      "as": "৪ জনীয়া এটা পৰিয়ালৰ মাহিলী গড় আয় ₹২,৫০০ আৰু ৬ জনীয়া আন এটা পৰিয়ালৰ ₹৩,০০০। দুয়োটা পৰিয়াল একেলগে ল'লে মাহিলী গড় আয় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "₹2,800",
+        "as": "₹২,৮০০"
+      },
+      {
+        "en": "₹2,750",
+        "as": "₹২,৭৫০"
+      },
+      {
+        "en": "₹2,900",
+        "as": "₹২,৯০০"
+      },
+      {
+        "en": "₹2,700",
+        "as": "₹২,৭০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = (4 × 2500 + 6 × 3000) ÷ 10 = 28000 ÷ 10 = ₹2,800.",
+      "as": "গড় = (৪ × ২৫০০ + ৬ × ৩০০০) ÷ ১০ = ২৮০০০ ÷ ১০ = ₹২,৮০০।"
+    }
+  },
+  {
+    "id": "average-068",
+    "q": {
+      "en": "The average weight of 30 students is 30 kg. When one student leaves the class, the average becomes 29.8 kg. The weight of the student who left is:",
+      "as": "৩০ জন ছাত্ৰৰ গড় ওজন ৩০ কি.গ্ৰা.। এজন ছাত্ৰ শ্ৰেণী এৰি গ'লে গড় ২৯.৮ কি.গ্ৰা. হয়। এৰি যোৱা ছাত্ৰজনৰ ওজন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "34 kg",
+        "as": "৩৪ কি.গ্ৰা."
+      },
+      {
+        "en": "35.8 kg",
+        "as": "৩৫.৮ কি.গ্ৰা."
+      },
+      {
+        "en": "36 kg",
+        "as": "৩৬ কি.গ্ৰা."
+      },
+      {
+        "en": "35 kg",
+        "as": "৩৫ কি.গ্ৰা."
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Weight = 30 × 30 − 29 × 29.8 = 900 − 864.2 = 35.8 kg.",
+      "as": "ওজন = ৩০ × ৩০ − ২৯ × ২৯.৮ = ৯০০ − ৮৬৪.২ = ৩৫.৮ কি.গ্ৰা.।"
+    }
+  },
+  {
+    "id": "average-069",
+    "q": {
+      "en": "The average of 9 observations is 40. It was later found that an observation 40 was misread as 4. The correct average is:",
+      "as": "৯ টা পৰ্যবেক্ষণৰ গড় ৪০। পিছত ধৰা পৰিল যে এটা পৰ্যবেক্ষণ ৪০ ক ৪ হিচাপে ভুলকৈ পঢ়া হৈছিল। শুদ্ধ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Correct average = (9 × 40 − 4 + 40) ÷ 9 = 396 ÷ 9 = 44.",
+      "as": "শুদ্ধ গড় = (৯ × ৪০ − ৪ + ৪০) ÷ ৯ = ৩৯৬ ÷ ৯ = ৪৪।"
+    }
+  },
+  {
+    "id": "average-070",
+    "q": {
+      "en": "The average of 5 numbers is 28. If one number is excluded, the average becomes 24. The excluded number is:",
+      "as": "৫ টা সংখ্যাৰ গড় ২৮। এটা সংখ্যা বাদ দিলে গড় ২৪ হয়। বাদ দিয়া সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Excluded = 5 × 28 − 4 × 24 = 140 − 96 = 44.",
+      "as": "বাদ দিয়া = ৫ × ২৮ − ৪ × ২৪ = ১৪০ − ৯৬ = ৪৪।"
+    }
+  },
+  {
+    "id": "average-071",
+    "q": {
+      "en": "The average of 5 quantities is 6. If the average of three of them is 4, the average of the remaining two is:",
+      "as": "৫ টা ৰাশিৰ গড় ৬। সিহঁতৰ তিনিটাৰ গড় ৪ হ'লে বাকী দুটাৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average = (5 × 6 − 3 × 4) ÷ 2 = 18 ÷ 2 = 9.",
+      "as": "গড় = (৫ × ৬ − ৩ × ৪) ÷ ২ = ১৮ ÷ ২ = ৯।"
+    }
+  },
+  {
+    "id": "average-072",
+    "q": {
+      "en": "The average marks of 28 students is 50. If the highest and the lowest marks are excluded, the average becomes 48. The average of the highest and the lowest marks is:",
+      "as": "২৮ জন ছাত্ৰৰ গড় নম্বৰ ৫০। আটাইতকৈ বেছি আৰু আটাইতকৈ কম নম্বৰ দুটা বাদ দিলে গড় ৪৮ হয়। আটাইতকৈ বেছি আৰু কম নম্বৰৰ গড় হ'ল:"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "76",
+        "as": "৭৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average = (28 × 50 − 26 × 48) ÷ 2 = 152 ÷ 2 = 76.",
+      "as": "গড় = (২৮ × ৫০ − ২৬ × ৪৮) ÷ ২ = ১৫২ ÷ ২ = ৭৬।"
+    }
+  },
+  {
+    "id": "average-073",
+    "q": {
+      "en": "The average age of a husband and his wife was 23 years when they married. Five years later they have a child, and the average age of the family of three is now 20 years. The age of the child is:",
+      "as": "বিবাহৰ সময়ত এজন স্বামী আৰু তেওঁৰ পত্নীৰ গড় বয়স ২৩ বছৰ আছিল। পাঁচ বছৰৰ পিছত সিহঁতৰ এটা সন্তান হয়, আৰু এতিয়া তিনি জনীয়া পৰিয়ালৰ গড় বয়স ২০ বছৰ। সন্তানটোৰ বয়স হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4 years",
+        "as": "৪ বছৰ"
+      },
+      {
+        "en": "3 years",
+        "as": "৩ বছৰ"
+      },
+      {
+        "en": "5 years",
+        "as": "৫ বছৰ"
+      },
+      {
+        "en": "2 years",
+        "as": "২ বছৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Couple's present total = 2 × 23 + 2 × 5 = 56, and the family total = 3 × 20 = 60, so the child is 4 years old.",
+      "as": "দম্পতীৰ বৰ্তমান মুঠ = ২ × ২৩ + ২ × ৫ = ৫৬, আৰু পৰিয়ালৰ মুঠ = ৩ × ২০ = ৬০, গতিকে সন্তানটোৰ বয়স ৪ বছৰ।"
+    }
+  },
+  {
+    "id": "average-074",
+    "q": {
+      "en": "The average of a non-zero number and its square is 5 times the number. The number is:",
+      "as": "এটা অশূন্য সংখ্যা আৰু তাৰ বৰ্গৰ গড় সংখ্যাটোৰ ৫ গুণ। সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(n + n²) ÷ 2 = 5n gives n + n² = 10n, so n² = 9n and n = 9.",
+      "as": "(n + n²) ÷ ২ = ৫n ৰ পৰা n + n² = ১০n, গতিকে n² = ৯n আৰু n = ৯।"
+    }
+  },
+  {
+    "id": "average-075",
+    "q": {
+      "en": "A student was asked to find the mean of 3, 11, 7, 9, 15, 13, 8, 19, 17, 21, 14 and x. He found the mean to be 12. The value of x is:",
+      "as": "এজন ছাত্ৰক ৩, ১১, ৭, ৯, ১৫, ১৩, ৮, ১৯, ১৭, ২১, ১৪ আৰু x ৰ গড় বিচাৰিবলৈ কোৱা হ'ল। তেওঁ গড় ১২ পালে। x ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum of the 11 known numbers is 137, so 137 + x = 12 × 12 = 144 and x = 7.",
+      "as": "১১ টা জনা সংখ্যাৰ যোগফল ১৩৭, গতিকে ১৩৭ + x = ১২ × ১২ = ১৪৪ আৰু x = ৭।"
+    }
+  }
+]

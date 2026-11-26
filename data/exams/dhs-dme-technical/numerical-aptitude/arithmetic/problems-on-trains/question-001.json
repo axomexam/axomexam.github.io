@@ -1,0 +1,2914 @@
+[
+  {
+    "id": "numerical-031",
+    "q": {
+      "en": "A train 150 m long running at 54 km/h crosses a platform 250 m long in",
+      "as": "১৫০ মিটাৰ দীঘল এখন ৰে'লগাড়ীয়ে ৫৪ কিমি/ঘণ্টা বেগেৰে ২৫০ মিটাৰ দীঘল প্লেটফৰ্ম অতিক্ৰম কৰিবলৈ কিমান সময় ল'ব"
+    },
+    "options": [
+      {
+        "en": "26.67 seconds",
+        "as": "২৬.৬৭ ছেকেণ্ড"
+      },
+      {
+        "en": "24 seconds",
+        "as": "২৪ ছেকেণ্ড"
+      },
+      {
+        "en": "30 seconds",
+        "as": "৩০ ছেকেণ্ড"
+      },
+      {
+        "en": "20 seconds",
+        "as": "২০ ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed = 54 × 5/18 = 15 m/s. Total distance = 150 + 250 = 400 m. Time = 400 ÷ 15 = 26.67 seconds.",
+      "as": "বেগ = ৫৪ × ৫/১৮ = ১৫ মি/ছেকেণ্ড। মুঠ দূৰত্ব = ১৫০ + ২৫০ = ৪০০ মি। সময় = ৪০০ ÷ ১৫ = ২৬.৬৭ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "numerical-032",
+    "q": {
+      "en": "Two trains of equal length 120 m run in opposite directions at 42 km/h and 30 km/h. They cross each other in",
+      "as": "সমান ১২০ মিটাৰ দীঘল দুখন ৰে'লগাড়ীয়ে বিপৰীত দিশত ৪২ কিমি/ঘণ্টা আৰু ৩০ কিমি/ঘণ্টা বেগেৰে গৈ থাকে। তেওঁলোকে ইটোৱে সিটোক কিমান সময়ত অতিক্ৰম কৰিব"
+    },
+    "options": [
+      {
+        "en": "12 seconds",
+        "as": "১২ ছেকেণ্ড"
+      },
+      {
+        "en": "10 seconds",
+        "as": "১০ ছেকেণ্ড"
+      },
+      {
+        "en": "14 seconds",
+        "as": "১৪ ছেকেণ্ড"
+      },
+      {
+        "en": "16 seconds",
+        "as": "১৬ ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 42 + 30 = 72 km/h = 20 m/s. Total length = 240 m. Time = 240 ÷ 20 = 12 seconds.",
+      "as": "আপেক্ষিক বেগ = ৪২ + ৩০ = ৭২ কিমি/ঘণ্টা = ২০ মি/ছেকেণ্ড। মুঠ দীঘ = ২৪০ মি। সময় = ২৪০ ÷ ২০ = ১২ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-001",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 120 m is running at 36 km/h. How long will it take to cross a pole?",
+      "as": "১২০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৩৬ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 36 km/h = 36×5/18 = 10.0 m/s. Time = length/speed = 120/10.0 = 12.0 s.",
+      "as": "বেগ = ১০.০ m/s। সময় = ১২০/১০.০ = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-002",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 150 m is running at 54 km/h. How long will it take to cross a pole?",
+      "as": "১৫০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৫৪ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "2.78",
+        "as": "২.৭৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 54 km/h = 54×5/18 = 15.0 m/s. Time = length/speed = 150/15.0 = 10.0 s.",
+      "as": "বেগ = ১৫.০ m/s। সময় = ১৫০/১৫.০ = ১০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-003",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 180 m is running at 72 km/h. How long will it take to cross a pole?",
+      "as": "১৮০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৭২ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = 72 km/h = 72×5/18 = 20.0 m/s. Time = length/speed = 180/20.0 = 9.0 s.",
+      "as": "বেগ = ২০.০ m/s। সময় = ১৮০/২০.০ = ৯.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-004",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 200 m is running at 90 km/h. How long will it take to cross a pole?",
+      "as": "২০০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৯০ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "2.22",
+        "as": "২.২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 90 km/h = 90×5/18 = 25.0 m/s. Time = length/speed = 200/25.0 = 8.0 s.",
+      "as": "বেগ = ২৫.০ m/s। সময় = ২০০/২৫.০ = ৮.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-005",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 240 m is running at 108 km/h. How long will it take to cross a pole?",
+      "as": "২৪০ মিটাৰ দীঘৰ ৰে'লগাড়ী ১০৮ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "2.22",
+        "as": "২.২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 108 km/h = 108×5/18 = 30.0 m/s. Time = length/speed = 240/30.0 = 8.0 s.",
+      "as": "বেগ = ৩০.০ m/s। সময় = ২৪০/৩০.০ = ৮.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-006",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 90 m is running at 45 km/h. How long will it take to cross a pole?",
+      "as": "৯০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৪৫ km/h বেগেৰে গৈ আছে। এটা খুঁটাতকৈ ওলাই যাবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "14.4",
+        "as": "১৪.৪"
+      },
+      {
+        "en": "3.6",
+        "as": "৩.৬"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed = 45 km/h = 45×5/18 = 12.5 m/s. Time = length/speed = 90/12.5 = 7.2 s.",
+      "as": "বেগ = ১২.৫ m/s। সময় = ৯০/১২.৫ = ৭.২ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-007",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 150 m crosses a platform of length 250 m at 72 km/h. Find the time taken.",
+      "as": "১৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ২৫০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৭২ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total distance = 150 + 250 = 400 m. Time = 400/20.0 = 20.0 s.",
+      "as": "মুঠ দূৰত্ব = ৪০০ মিটাৰ। সময় = ২০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-008",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 200 m crosses a platform of length 300 m at 90 km/h. Find the time taken.",
+      "as": "২০০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩০০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৯০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total distance = 200 + 300 = 500 m. Time = 500/25.0 = 20.0 s.",
+      "as": "মুঠ দূৰত্ব = ৫০০ মিটাৰ। সময় = ২০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-009",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 120 m crosses a platform of length 180 m at 54 km/h. Find the time taken.",
+      "as": "১২০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ১৮০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৫৪ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total distance = 120 + 180 = 300 m. Time = 300/15.0 = 20.0 s.",
+      "as": "মুঠ দূৰত্ব = ৩০০ মিটাৰ। সময় = ২০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-010",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 250 m crosses a platform of length 350 m at 108 km/h. Find the time taken.",
+      "as": "২৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩৫০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১০৮ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.33",
+        "as": "৮.৩৩"
+      },
+      {
+        "en": "11.67",
+        "as": "১১.৬৭"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total distance = 250 + 350 = 600 m. Time = 600/30.0 = 20.0 s.",
+      "as": "মুঠ দূৰত্ব = ৬০০ মিটাৰ। সময় = ২০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-011",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 120 m and 180 m run towards each other at 60 km/h and 48 km/h. How long will they take to cross each other?",
+      "as": "১২০ মিটাৰ আৰু ১৮০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৬০ km/h আৰু ৪৮ km/h বেগেৰে যায়। এখনে আনখনক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 108 km/h = 30.0 m/s. Time = 300/30.0 = 10.0 s.",
+      "as": "আপেক্ষিক বেগ = ৩০.০ m/s। সময় = ১০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-012",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 150 m and 250 m run towards each other at 72 km/h and 54 km/h. How long will they take to cross each other?",
+      "as": "১৫০ মিটাৰ আৰু ২৫০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৭২ km/h আৰু ৫৪ km/h বেগেৰে যায়। এখনে আনখনক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "11.43",
+        "as": "১১.৪৩"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "22.86",
+        "as": "২২.৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 126 km/h = 35.0 m/s. Time = 400/35.0 = 11.43 s.",
+      "as": "আপেক্ষিক বেগ = ৩৫.০ m/s। সময় = ১১.৪৩ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-013",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 200 m and 300 m run towards each other at 90 km/h and 72 km/h. How long will they take to cross each other?",
+      "as": "২০০ মিটাৰ আৰু ৩০০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৯০ km/h আৰু ৭২ km/h বেগেৰে যায়। এখনে আনখনক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "11.11",
+        "as": "১১.১১"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "22.22",
+        "as": "২২.২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 162 km/h = 45.0 m/s. Time = 500/45.0 = 11.11 s.",
+      "as": "আপেক্ষিক বেগ = ৪৫.০ m/s। সময় = ১১.১১ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-014",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 100 m and 150 m run towards each other at 54 km/h and 36 km/h. How long will they take to cross each other?",
+      "as": "১০০ মিটাৰ আৰু ১৫০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৫৪ km/h আৰু ৩৬ km/h বেগেৰে যায়। এখনে আনখনক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Relative speed = 90 km/h = 25.0 m/s. Time = 250/25.0 = 10.0 s.",
+      "as": "আপেক্ষিক বেগ = ২৫.০ m/s। সময় = ১০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-015",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 120 m and 180 m run in the same direction at 90 km/h and 54 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১২০ মিটাৰ আৰু ১৮০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৯০ km/h আৰু ৫৪ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Relative speed = 36 km/h = 10.0 m/s. Time = 300/10.0 = 30.0 s.",
+      "as": "আপেক্ষিক বেগ = ১০.০ m/s। সময় = ৩০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-016",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 150 m and 200 m run in the same direction at 72 km/h and 45 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১৫০ মিটাৰ আৰু ২০০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৭২ km/h আৰু ৪৫ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.77",
+        "as": "১০.৭৭"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "46.67",
+        "as": "৪৬.৬৭"
+      },
+      {
+        "en": "93.33",
+        "as": "৯৩.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Relative speed = 27 km/h = 7.5 m/s. Time = 350/7.5 = 46.67 s.",
+      "as": "আপেক্ষিক বেগ = ৭.৫ m/s। সময় = ৪৬.৬৭ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-017",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 200 m and 300 m run in the same direction at 108 km/h and 72 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "২০০ মিটাৰ আৰু ৩০০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ১০৮ km/h আৰু ৭২ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 36 km/h = 10.0 m/s. Time = 500/10.0 = 50.0 s.",
+      "as": "আপেক্ষিক বেগ = ১০.০ m/s। সময় = ৫০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-018",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 100 m and 200 m run in the same direction at 81 km/h and 45 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১০০ মিটাৰ আৰু ২০০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৮১ km/h আৰু ৪৫ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "8.57",
+        "as": "৮.৫৭"
+      },
+      {
+        "en": "4.44",
+        "as": "৪.৪৪"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 36 km/h = 10.0 m/s. Time = 300/10.0 = 30.0 s.",
+      "as": "আপেক্ষিক বেগ = ১০.০ m/s। সময় = ৩০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-019",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 54 km/h crosses a pole in 12 seconds. Find the length of the train.",
+      "as": "৫৪ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১২ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "648",
+        "as": "৬৪৮"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = speed × time = 15.0 × 12 = 180.0 m.",
+      "as": "দীঘ = বেগ × সময় = ১৮০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-020",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 72 km/h crosses a pole in 10 seconds. Find the length of the train.",
+      "as": "৭২ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১০ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Length = speed × time = 20.0 × 10 = 200.0 m.",
+      "as": "দীঘ = বেগ × সময় = ২০০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-021",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 36 km/h crosses a pole in 15 seconds. Find the length of the train.",
+      "as": "৩৬ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১৫ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Length = speed × time = 10.0 × 15 = 150.0 m.",
+      "as": "দীঘ = বেগ × সময় = ১৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-022",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 90 km/h crosses a pole in 8 seconds. Find the length of the train.",
+      "as": "৯০ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ৮ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = speed × time = 25.0 × 8 = 200.0 m.",
+      "as": "দীঘ = বেগ × সময় = ২০০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-023",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 150 m running at 72 km/h crosses a platform in 20 seconds. Find the length of the platform.",
+      "as": "১৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৭২ km/h বেগেৰে ২০ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance covered = 20.0 × 20 = 400.0 m. Platform = 400.0 - 150 = 250.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ২৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-024",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 200 m running at 90 km/h crosses a platform in 25 seconds. Find the length of the platform.",
+      "as": "২০০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৯০ km/h বেগেৰে ২৫ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "425.0",
+        "as": "৪২৫.০"
+      },
+      {
+        "en": "625.0",
+        "as": "৬২৫.০"
+      },
+      {
+        "en": "212.5",
+        "as": "২১২.৫"
+      },
+      {
+        "en": "850.0",
+        "as": "৮৫০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance covered = 25.0 × 25 = 625.0 m. Platform = 625.0 - 200 = 425.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ৪২৫.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-025",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 120 m running at 54 km/h crosses a platform in 15 seconds. Find the length of the platform.",
+      "as": "১২০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৫৪ km/h বেগেৰে ১৫ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "225.0",
+        "as": "২২৫.০"
+      },
+      {
+        "en": "105.0",
+        "as": "১০৫.০"
+      },
+      {
+        "en": "52.5",
+        "as": "৫২.৫"
+      },
+      {
+        "en": "210.0",
+        "as": "২১০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance covered = 15.0 × 15 = 225.0 m. Platform = 225.0 - 120 = 105.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ১০৫.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-026",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 250 m running at 108 km/h crosses a platform in 30 seconds. Find the length of the platform.",
+      "as": "২৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ১০৮ km/h বেগেৰে ৩০ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "325.0",
+        "as": "৩২৫.০"
+      },
+      {
+        "en": "650.0",
+        "as": "৬৫০.০"
+      },
+      {
+        "en": "1300.0",
+        "as": "১৩০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance covered = 30.0 × 30 = 900.0 m. Platform = 900.0 - 250 = 650.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ৬৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-027",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 10 seconds and a platform of length 200 m in 20 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ১০ ছেকেণ্ডত আৰু ২০০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২০ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "144.0",
+        "as": "১৪৪.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = platform length / extra time = 200/(20-10) = 20.0 m/s = 72.0 km/h.",
+      "as": "বেগ = ৭২.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-028",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 12 seconds and a platform of length 300 m in 24 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ১২ ছেকেণ্ডত আৰু ৩০০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২৪ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = platform length / extra time = 300/(24-12) = 25.0 m/s = 90.0 km/h.",
+      "as": "বেগ = ৯০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-029",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 8 seconds and a platform of length 150 m in 14 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ৮ ছেকেণ্ডত আৰু ১৫০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১৪ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "38.57",
+        "as": "৩৮.৫৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = platform length / extra time = 150/(14-8) = 25.0 m/s = 90.0 km/h.",
+      "as": "বেগ = ৯০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-030",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 180 m and 220 m run towards each other at 54 km/h and 36 km/h. How long will they take to cross each other?",
+      "as": "১৮০ মিটাৰ আৰু ২২০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৫৪ km/h আৰু ৩৬ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 25.0 m/s; time = 400/25.0 = 16.0 s.",
+      "as": "সময় = ১৬.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-031",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 250 m and 150 m run towards each other at 72 km/h and 45 km/h. How long will they take to cross each other?",
+      "as": "২৫০ মিটাৰ আৰু ১৫০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৭২ km/h আৰু ৪৫ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "53.33",
+        "as": "৫৩.৩৩"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "24.62",
+        "as": "২৪.৬২"
+      },
+      {
+        "en": "12.31",
+        "as": "১২.৩১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Relative speed = 32.5 m/s; time = 400/32.5 = 12.31 s.",
+      "as": "সময় = ১২.৩১ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-032",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 300 m and 200 m run towards each other at 90 km/h and 60 km/h. How long will they take to cross each other?",
+      "as": "৩০০ মিটাৰ আৰু ২০০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৯০ km/h আৰু ৬০ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 41.67 m/s; time = 500/41.67 = 12.0 s.",
+      "as": "সময় = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-033",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 54 km/h crosses a man standing near the track in 10 seconds. Find the length of the train.",
+      "as": "৫৪ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ১০ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Length = 15.0 × 10 = 150.0 m.",
+      "as": "দীঘ = ১৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-034",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 72 km/h crosses a man standing near the track in 12 seconds. Find the length of the train.",
+      "as": "৭২ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ১২ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "480.0",
+        "as": "৪৮০.০"
+      },
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "240.0",
+        "as": "২৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = 20.0 × 12 = 240.0 m.",
+      "as": "দীঘ = ২৪০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-035",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 36 km/h crosses a man standing near the track in 15 seconds. Find the length of the train.",
+      "as": "৩৬ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ১৫ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Length = 10.0 × 15 = 150.0 m.",
+      "as": "দীঘ = ১৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-036",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 200 m crosses a bridge of length 400 m at 72 km/h. Find the time taken.",
+      "as": "২০০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৪০০ মিটাৰ দীঘৰ দলং ৭২ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total distance = 600 m; time = 600/20.0 = 30.0 s.",
+      "as": "মুঠ দূৰত্ব = ৬০০ মিটাৰ; সময় = ৩০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-037",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 150 m crosses a bridge of length 350 m at 90 km/h. Find the time taken.",
+      "as": "১৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩৫০ মিটাৰ দীঘৰ দলং ৯০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total distance = 500 m; time = 500/25.0 = 20.0 s.",
+      "as": "মুঠ দূৰত্ব = ৫০০ মিটাৰ; সময় = ২০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-038",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 250 m crosses a bridge of length 550 m at 108 km/h. Find the time taken.",
+      "as": "২৫০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৫৫০ মিটাৰ দীঘৰ দলং ১০৮ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.33",
+        "as": "৮.৩৩"
+      },
+      {
+        "en": "18.33",
+        "as": "১৮.৩৩"
+      },
+      {
+        "en": "26.67",
+        "as": "২৬.৬৭"
+      },
+      {
+        "en": "53.33",
+        "as": "৫৩.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total distance = 800 m; time = 800/30.0 = 26.67 s.",
+      "as": "মুঠ দূৰত্ব = ৮০০ মিটাৰ; সময় = ২৬.৬৭ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-039",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 100 m is running at 36 km/h. How long will it take to cross a pole?",
+      "as": "১০০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৩৬ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.78",
+        "as": "২.৭৮"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 100 ÷ 10 = 10.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ১০০ ÷ ১০ = ১০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-040",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 160 m is running at 54 km/h. How long will it take to cross a pole?",
+      "as": "১৬০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৫৪ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "21.33",
+        "as": "২১.৩৩"
+      },
+      {
+        "en": "5.33",
+        "as": "৫.৩৩"
+      },
+      {
+        "en": "10.67",
+        "as": "১০.৬৭"
+      },
+      {
+        "en": "2.96",
+        "as": "২.৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 160 ÷ 15 = 10.67.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ১৬০ ÷ ১৫ = ১০.৬৭।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-041",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 220 m is running at 72 km/h. How long will it take to cross a pole?",
+      "as": "২২০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৭২ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      },
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "3.06",
+        "as": "৩.০৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 220 ÷ 20 = 11.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ২২০ ÷ ২০ = ১১।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-042",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 280 m is running at 90 km/h. How long will it take to cross a pole?",
+      "as": "২৮০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৯০ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "11.2",
+        "as": "১১.২"
+      },
+      {
+        "en": "22.4",
+        "as": "২২.৪"
+      },
+      {
+        "en": "5.6",
+        "as": "৫.৬"
+      },
+      {
+        "en": "3.11",
+        "as": "৩.১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 280 ÷ 25 = 11.2.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ২৮০ ÷ ২৫ = ১১.২।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-043",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 130 m is running at 45 km/h. How long will it take to cross a pole?",
+      "as": "১৩০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৪৫ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20.8",
+        "as": "২০.৮"
+      },
+      {
+        "en": "5.2",
+        "as": "৫.২"
+      },
+      {
+        "en": "2.89",
+        "as": "২.৮৯"
+      },
+      {
+        "en": "10.4",
+        "as": "১০.৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 130 ÷ 12.5 = 10.4.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ১৩০ ÷ ১২.৫ = ১০.৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-044",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 190 m is running at 60 km/h. How long will it take to cross a pole?",
+      "as": "১৯০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৬০ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "22.8",
+        "as": "২২.৮"
+      },
+      {
+        "en": "11.4",
+        "as": "১১.৪"
+      },
+      {
+        "en": "5.7",
+        "as": "৫.৭"
+      },
+      {
+        "en": "3.17",
+        "as": "৩.১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 190 ÷ 16.67 = 11.4.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ১৯০ ÷ ১৬.৬৭ = ১১.৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-045",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 180 m crosses a platform of length 220 m at 60 km/h. Find the time taken.",
+      "as": "১৮০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ২২০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৬০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.8",
+        "as": "১০.৮"
+      },
+      {
+        "en": "13.2",
+        "as": "১৩.২"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the two rates first: 180 + 220 = 400. Then time = 400 ÷ 16.67 = 24.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৮০ + ২২০ = ৪০০। তাৰপিছত সময় = ২৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-046",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 220 m crosses a platform of length 380 m at 90 km/h. Find the time taken.",
+      "as": "২২০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩৮০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৯০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.8",
+        "as": "৮.৮"
+      },
+      {
+        "en": "15.2",
+        "as": "১৫.২"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add the two rates first: 220 + 380 = 600. Then time = 600 ÷ 25 = 24.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২২০ + ৩৮০ = ৬০০। তাৰপিছত সময় = ২৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-047",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 140 m crosses a platform of length 260 m at 72 km/h. Find the time taken.",
+      "as": "১৪০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ২৬০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৭২ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      },
+      {
+        "en": "13.0",
+        "as": "১৩.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the two rates first: 140 + 260 = 400. Then time = 400 ÷ 20 = 20.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৪০ + ২৬০ = ৪০০। তাৰপিছত সময় = ২০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-048",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 300 m crosses a platform of length 500 m at 108 km/h. Find the time taken.",
+      "as": "৩০০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৫০০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১০৮ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26.67",
+        "as": "২৬.৬৭"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "53.33",
+        "as": "৫৩.৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the two rates first: 300 + 500 = 800. Then time = 800 ÷ 30 = 26.67.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ৩০০ + ৫০০ = ৮০০। তাৰপিছত সময় = ২৬.৬৭।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-049",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 160 m and 240 m run in the same direction at 72 km/h and 48 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১৬০ মিটাৰ আৰু ২৪০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৭২ km/h আৰু ৪৮ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the two rates first: 160 + 240 = 400. Then time = 400 ÷ 6.67 = 60.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৬০ + ২৪০ = ৪০০। তাৰপিছত সময় = ৬০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-050",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 200 m and 250 m run in the same direction at 90 km/h and 54 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "২০০ মিটাৰ আৰু ২৫০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৯০ km/h আৰু ৫৪ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "11.25",
+        "as": "১১.২৫"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the two rates first: 200 + 250 = 450. Then time = 450 ÷ 10 = 45.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২০০ + ২৫০ = ৪৫০। তাৰপিছত সময় = ৪৫।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-051",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 120 m and 180 m run in the same direction at 60 km/h and 30 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১২০ মিটাৰ আৰু ১৮০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৬০ km/h আৰু ৩০ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add the two rates first: 120 + 180 = 300. Then time = 300 ÷ 8.33 = 36.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১২০ + ১৮০ = ৩০০। তাৰপিছত সময় = ৩৬।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-052",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 45 km/h crosses a pole in 9 seconds. Find the length of the train.",
+      "as": "৪৫ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ৯ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "56.25",
+        "as": "৫৬.২৫"
+      },
+      {
+        "en": "225.0",
+        "as": "২২৫.০"
+      },
+      {
+        "en": "112.5",
+        "as": "১১২.৫"
+      },
+      {
+        "en": "405",
+        "as": "৪০৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Length = 12.5 × 9 = 112.5 m.",
+      "as": "দীঘ = ১১২.৫ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-053",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 63 km/h crosses a pole in 14 seconds. Find the length of the train.",
+      "as": "৬৩ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১৪ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "122.5",
+        "as": "১২২.৫"
+      },
+      {
+        "en": "245.0",
+        "as": "২৪৫.০"
+      },
+      {
+        "en": "490.0",
+        "as": "৪৯০.০"
+      },
+      {
+        "en": "882",
+        "as": "৮৮২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Length = 17.5 × 14 = 245.0 m.",
+      "as": "দীঘ = ২৪৫.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-054",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 81 km/h crosses a pole in 11 seconds. Find the length of the train.",
+      "as": "৮১ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১১ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "247.5",
+        "as": "২৪৭.৫"
+      },
+      {
+        "en": "123.75",
+        "as": "১২৩.৭৫"
+      },
+      {
+        "en": "495.0",
+        "as": "৪৯৫.০"
+      },
+      {
+        "en": "891",
+        "as": "৮৯১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Length = 22.5 × 11 = 247.5 m.",
+      "as": "দীঘ = ২৪৭.৫ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-055",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 108 km/h crosses a pole in 16 seconds. Find the length of the train.",
+      "as": "১০৮ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১৬ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "240.0",
+        "as": "২৪০.০"
+      },
+      {
+        "en": "960.0",
+        "as": "৯৬০.০"
+      },
+      {
+        "en": "1728",
+        "as": "১৭২৮"
+      },
+      {
+        "en": "480.0",
+        "as": "৪৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = 30.0 × 16 = 480.0 m.",
+      "as": "দীঘ = ৪৮০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-056",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 180 m running at 90 km/h crosses a platform in 24 seconds. Find the length of the platform.",
+      "as": "১৮০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৯০ km/h বেগেৰে ২৪ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "420.0",
+        "as": "৪২০.০"
+      },
+      {
+        "en": "210.0",
+        "as": "২১০.০"
+      },
+      {
+        "en": "840.0",
+        "as": "৮৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Platform = 600.0 - 180 = 420.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ৪২০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-057",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 240 m running at 108 km/h crosses a platform in 28 seconds. Find the length of the platform.",
+      "as": "২৪০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ১০৮ km/h বেগেৰে ২৮ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "840.0",
+        "as": "৮৪০.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Platform = 840.0 - 240 = 600.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ৬০০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-058",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 100 m running at 72 km/h crosses a platform in 18 seconds. Find the length of the platform.",
+      "as": "১০০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৭২ km/h বেগেৰে ১৮ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "130.0",
+        "as": "১৩০.০"
+      },
+      {
+        "en": "520.0",
+        "as": "৫২০.০"
+      },
+      {
+        "en": "260.0",
+        "as": "২৬০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Platform = 360.0 - 100 = 260.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ২৬০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-059",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 9 seconds and a platform of length 240 m in 21 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ৯ ছেকেণ্ডত আৰু ২৪০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২১ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "144.0",
+        "as": "১৪৪.০"
+      },
+      {
+        "en": "41.14",
+        "as": "৪১.১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed = 240/(21-9) = 20.0 m/s = 72.0 km/h.",
+      "as": "বেগ = ৭২.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-060",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 11 seconds and a platform of length 360 m in 23 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ১১ ছেকেণ্ডত আৰু ৩৬০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২৩ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108.0",
+        "as": "১০৮.০"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "216.0",
+        "as": "২১৬.০"
+      },
+      {
+        "en": "56.35",
+        "as": "৫৬.৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed = 360/(23-11) = 30.0 m/s = 108.0 km/h.",
+      "as": "বেগ = ১০৮.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-061",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 7 seconds and a platform of length 180 m in 16 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ৭ ছেকেণ্ডত আৰু ১৮০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১৬ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "144.0",
+        "as": "১৪৪.০"
+      },
+      {
+        "en": "40.5",
+        "as": "৪০.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 180/(16-7) = 20.0 m/s = 72.0 km/h.",
+      "as": "বেগ = ৭২.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-062",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 110 m is running at 33 km/h. How long will it take to cross a pole?",
+      "as": "১১০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৩৩ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 9.17 m/s; time = 110/9.17 = 12.0 s.",
+      "as": "বেগ = ৯.১৭ m/s; সময় = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-063",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 170 m is running at 51 km/h. How long will it take to cross a pole?",
+      "as": "১৭০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৫১ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Speed = 14.17 m/s; time = 170/14.17 = 12.0 s.",
+      "as": "বেগ = ১৪.১৭ m/s; সময় = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-064",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 210 m is running at 63 km/h. How long will it take to cross a pole?",
+      "as": "২১০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৬৩ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 17.5 m/s; time = 210/17.5 = 12.0 s.",
+      "as": "বেগ = ১৭.৫ m/s; সময় = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-065",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 260 m is running at 78 km/h. How long will it take to cross a pole?",
+      "as": "২৬০ মিটাৰ দীঘৰ ৰে'লগাড়ী ৭৮ km/h বেগেৰে গৈ আছে। এটা খুঁট অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 21.67 m/s; time = 260/21.67 = 12.0 s.",
+      "as": "বেগ = ২১.৬৭ m/s; সময় = ১২.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-066",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 160 m crosses a platform of length 240 m at 72 km/h. Find the time taken.",
+      "as": "১৬০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ২৪০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৭২ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the two rates first: 160 + 240 = 400. Then time = 400 ÷ 20 = 20.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৬০ + ২৪০ = ৪০০। তাৰপিছত সময় = ২০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-067",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 210 m crosses a platform of length 290 m at 90 km/h. Find the time taken.",
+      "as": "২১০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ২৯০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৯০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.4",
+        "as": "৮.৪"
+      },
+      {
+        "en": "11.6",
+        "as": "১১.৬"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add the two rates first: 210 + 290 = 500. Then time = 500 ÷ 25 = 20.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২১০ + ২৯০ = ৫০০। তাৰপিছত সময় = ২০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-068",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 130 m crosses a platform of length 170 m at 54 km/h. Find the time taken.",
+      "as": "১৩০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ১৭০ মিটাৰ দীঘৰ প্লেটফৰ্ম ৫৪ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.67",
+        "as": "৮.৬৭"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "11.33",
+        "as": "১১.৩৩"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the two rates first: 130 + 170 = 300. Then time = 300 ÷ 15 = 20.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৩০ + ১৭০ = ৩০০। তাৰপিছত সময় = ২০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-069",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 260 m crosses a platform of length 340 m at 108 km/h. Find the time taken.",
+      "as": "২৬০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩৪০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১০৮ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.67",
+        "as": "৮.৬৭"
+      },
+      {
+        "en": "11.33",
+        "as": "১১.৩৩"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the two rates first: 260 + 340 = 600. Then time = 600 ÷ 30 = 20.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২৬০ + ৩৪০ = ৬০০। তাৰপিছত সময় = ২০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-070",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 140 m and 160 m run towards each other at 66 km/h and 54 km/h. How long will they take to cross each other?",
+      "as": "১৪০ মিটাৰ আৰু ১৬০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৬৬ km/h আৰু ৫৪ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "7.64",
+        "as": "৭.৬৪"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 300 ÷ 33.33 = 9.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৩০০ ÷ ৩৩.৩৩ = ৯।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-071",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 170 m and 230 m run towards each other at 78 km/h and 60 km/h. How long will they take to cross each other?",
+      "as": "১৭০ মিটাৰ আৰু ২৩০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৭৮ km/h আৰু ৬০ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.43",
+        "as": "১০.৪৩"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "7.85",
+        "as": "৭.৮৫"
+      },
+      {
+        "en": "20.87",
+        "as": "২০.৮৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 400 ÷ 38.33 = 10.43.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৪০০ ÷ ৩৮.৩৩ = ১০.৪৩।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-072",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 220 m and 280 m run towards each other at 96 km/h and 78 km/h. How long will they take to cross each other?",
+      "as": "২২০ মিটাৰ আৰু ২৮০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৯৬ km/h আৰু ৭৮ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.34",
+        "as": "১০.৩৪"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "8.25",
+        "as": "৮.২৫"
+      },
+      {
+        "en": "20.69",
+        "as": "২০.৬৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 500 ÷ 48.33 = 10.34.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৫০০ ÷ ৪৮.৩৩ = ১০.৩৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-073",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 110 m and 190 m run towards each other at 60 km/h and 42 km/h. How long will they take to cross each other?",
+      "as": "১১০ মিটাৰ আৰু ১৯০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী পৰস্পৰৰ ফালে ৬০ km/h আৰু ৪২ km/h বেগেৰে যায়। অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "10.59",
+        "as": "১০.৫৯"
+      },
+      {
+        "en": "6.6",
+        "as": "৬.৬"
+      },
+      {
+        "en": "21.18",
+        "as": "২১.১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 300 ÷ 28.33 = 10.59.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৩০০ ÷ ২৮.৩৩ = ১০.৫৯।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-074",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 140 m and 160 m run in the same direction at 84 km/h and 48 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১৪০ মিটাৰ আৰু ১৬০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৮৪ km/h আৰু ৪৮ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "8.18",
+        "as": "৮.১৮"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 300 ÷ 10 = 30.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৩০০ ÷ ১০ = ৩০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-075",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 170 m and 230 m run in the same direction at 78 km/h and 42 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১৭০ মিটাৰ আৰু ২৩০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৭৮ km/h আৰু ৪২ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "7.85",
+        "as": "৭.৮৫"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 400 ÷ 10 = 40.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৪০০ ÷ ১০ = ৪০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-076",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 220 m and 280 m run in the same direction at 96 km/h and 60 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "২২০ মিটাৰ আৰু ২৮০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৯৬ km/h আৰু ৬০ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "11.54",
+        "as": "১১.৫৪"
+      },
+      {
+        "en": "8.25",
+        "as": "৮.২৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 500 ÷ 10 = 50.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৫০০ ÷ ১০ = ৫০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-077",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "Two trains of lengths 110 m and 190 m run in the same direction at 72 km/h and 36 km/h. How long will the faster train take to overtake the slower one?",
+      "as": "১১০ মিটাৰ আৰু ১৯০ মিটাৰ দীঘৰ দুখন ৰে'লগাড়ী একে দিশত ৭২ km/h আৰু ৩৬ km/h বেগেৰে যায়। দ্ৰুতগামী ৰে'লে লেহুকাক অতিক্ৰম কৰিবলৈ কিমান সময় লাগিব?"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = quantity ÷ rate = 300 ÷ 10 = 30.",
+      "as": "সময় = পৰিমাণ ÷ হাৰ = ৩০০ ÷ ১০ = ৩০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-078",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 36 km/h crosses a pole in 13 seconds. Find the length of the train.",
+      "as": "৩৬ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১৩ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "130.0",
+        "as": "১৩০.০"
+      },
+      {
+        "en": "65.0",
+        "as": "৬৫.০"
+      },
+      {
+        "en": "260.0",
+        "as": "২৬০.০"
+      },
+      {
+        "en": "468",
+        "as": "৪৬৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Length = 10.0 × 13 = 130.0 m.",
+      "as": "দীঘ = ১৩০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-079",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 54 km/h crosses a pole in 11 seconds. Find the length of the train.",
+      "as": "৫৪ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১১ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "82.5",
+        "as": "৮২.৫"
+      },
+      {
+        "en": "330.0",
+        "as": "৩৩০.০"
+      },
+      {
+        "en": "594",
+        "as": "৫৯৪"
+      },
+      {
+        "en": "165.0",
+        "as": "১৬৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = 15.0 × 11 = 165.0 m.",
+      "as": "দীঘ = ১৬৫.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-080",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 72 km/h crosses a pole in 17 seconds. Find the length of the train.",
+      "as": "৭২ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে এটা খুঁট ১৭ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "170.0",
+        "as": "১৭০.০"
+      },
+      {
+        "en": "340.0",
+        "as": "৩৪০.০"
+      },
+      {
+        "en": "680.0",
+        "as": "৬৮০.০"
+      },
+      {
+        "en": "1224",
+        "as": "১২২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Length = 20.0 × 17 = 340.0 m.",
+      "as": "দীঘ = ৩৪০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-081",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 160 m running at 72 km/h crosses a platform in 22 seconds. Find the length of the platform.",
+      "as": "১৬০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৭২ km/h বেগেৰে ২২ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "440.0",
+        "as": "৪৪০.০"
+      },
+      {
+        "en": "140.0",
+        "as": "১৪০.০"
+      },
+      {
+        "en": "280.0",
+        "as": "২৮০.০"
+      },
+      {
+        "en": "560.0",
+        "as": "৫৬০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Platform = 440.0 - 160 = 280.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ২৮০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-082",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 220 m running at 90 km/h crosses a platform in 26 seconds. Find the length of the platform.",
+      "as": "২২০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৯০ km/h বেগেৰে ২৬ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "650.0",
+        "as": "৬৫০.০"
+      },
+      {
+        "en": "215.0",
+        "as": "২১৫.০"
+      },
+      {
+        "en": "860.0",
+        "as": "৮৬০.০"
+      },
+      {
+        "en": "430.0",
+        "as": "৪৩০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Platform = 650.0 - 220 = 430.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ৪৩০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-083",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 140 m running at 54 km/h crosses a platform in 20 seconds. Find the length of the platform.",
+      "as": "১৪০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৫৪ km/h বেগেৰে ২০ ছেকেণ্ডত এটা প্লেটফৰ্ম অতিক্ৰম কৰে। প্লেটফৰ্মৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "160.0",
+        "as": "১৬০.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "320.0",
+        "as": "৩২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Platform = 300.0 - 140 = 160.0 m.",
+      "as": "প্লেটফৰ্মৰ দীঘ = ১৬০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-084",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 10 seconds and a platform of length 300 m in 22 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ১০ ছেকেণ্ডত আৰু ৩০০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২২ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "49.09",
+        "as": "৪৯.০৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed = 300/(22-10) = 25.0 m/s = 90.0 km/h.",
+      "as": "বেগ = ৯০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-085",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 8 seconds and a platform of length 240 m in 18 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ৮ ছেকেণ্ডত আৰু ২৪০ মিটাৰ দীঘৰ প্লেটফৰ্ম ১৮ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "43.2",
+        "as": "৪৩.২"
+      },
+      {
+        "en": "86.4",
+        "as": "৮৬.৪"
+      },
+      {
+        "en": "172.8",
+        "as": "১৭২.৮"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Speed = 240/(18-8) = 24.0 m/s = 86.4 km/h.",
+      "as": "বেগ = ৮৬.৪ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-086",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train crosses a pole in 12 seconds and a platform of length 420 m in 26 seconds. Find the speed of the train.",
+      "as": "ৰে'লগাড়ীয়ে এটা খুঁট ১২ ছেকেণ্ডত আৰু ৪২০ মিটাৰ দীঘৰ প্লেটফৰ্ম ২৬ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "216.0",
+        "as": "২১৬.০"
+      },
+      {
+        "en": "108.0",
+        "as": "১০৮.০"
+      },
+      {
+        "en": "58.15",
+        "as": "৫৮.১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Speed = 420/(26-12) = 30.0 m/s = 108.0 km/h.",
+      "as": "বেগ = ১০৮.০ km/h।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-087",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 72 km/h crosses a man standing near the track in 9 seconds. Find the length of the train.",
+      "as": "৭২ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ৯ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "648",
+        "as": "৬৪৮"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length = 20.0 × 9 = 180.0 m.",
+      "as": "দীঘ = ১৮০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-088",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 90 km/h crosses a man standing near the track in 10 seconds. Find the length of the train.",
+      "as": "৯০ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ১০ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Length = 25.0 × 10 = 250.0 m.",
+      "as": "দীঘ = ২৫০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-089",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train running at 54 km/h crosses a man standing near the track in 12 seconds. Find the length of the train.",
+      "as": "৫৪ km/h বেগেৰে গৈ থকা ৰে'লগাড়ীয়ে ৰে'লপথৰ কাষত থিয় হৈ থকা এজন মানুহক ১২ ছেকেণ্ডত অতিক্ৰম কৰে। ৰে'লগাড়ীৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "648",
+        "as": "৬৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Length = 15.0 × 12 = 180.0 m.",
+      "as": "দীঘ = ১৮০.০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-090",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 220 m crosses a bridge of length 380 m at 72 km/h. Find the time taken.",
+      "as": "২২০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৩৮০ মিটাৰ দীঘৰ দলং ৭২ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the two rates first: 220 + 380 = 600. Then time = 600 ÷ 20 = 30.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২২০ + ৩৮০ = ৬০০। তাৰপিছত সময় = ৩০।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-091",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 170 m crosses a bridge of length 430 m at 90 km/h. Find the time taken.",
+      "as": "১৭০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৪৩০ মিটাৰ দীঘৰ দলং ৯০ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.8",
+        "as": "৬.৮"
+      },
+      {
+        "en": "17.2",
+        "as": "১৭.২"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add the two rates first: 170 + 430 = 600. Then time = 600 ÷ 25 = 24.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ১৭০ + ৪৩০ = ৬০০। তাৰপিছত সময় = ২৪।"
+    }
+  },
+  {
+    "id": "num-problems-on-trains-092",
+    "leaf": "problems-on-trains",
+    "q": {
+      "en": "A train of length 270 m crosses a bridge of length 530 m at 108 km/h. Find the time taken.",
+      "as": "২৭০ মিটাৰ দীঘৰ ৰে'লগাড়ীয়ে ৫৩০ মিটাৰ দীঘৰ দলং ১০৮ km/h বেগেৰে অতিক্ৰম কৰে। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "26.67",
+        "as": "২৬.৬৭"
+      },
+      {
+        "en": "17.67",
+        "as": "১৭.৬৭"
+      },
+      {
+        "en": "53.33",
+        "as": "৫৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the two rates first: 270 + 530 = 800. Then time = 800 ÷ 30 = 26.67.",
+      "as": "প্ৰথমে দুয়োটা হাৰ যোগ কৰা: ২৭০ + ৫৩০ = ৮০০। তাৰপিছত সময় = ২৬.৬৭।"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "exam": "dhs-dme-grade-4",
+  "totalQuestions": 50,
+  "durationMinutes": 90,
+  "totalMarks": 50,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0,
+  "sets": 10,
+  "difficultyMix": { "easy": 55, "moderate": 30, "difficult": 15 },
+  "sections": [
+    {
+      "id": "general-knowledge",
+      "questions": 22,
+      "label": {
+        "en": "General Knowledge",
+        "as": "সাধাৰণ জ্ঞান"
+      }
+    },
+    {
+      "id": "basic-mathematics",
+      "questions": 12,
+      "label": {
+        "en": "Basic Mathematics",
+        "as": "সাধাৰণ গণিত"
+      }
+    },
+    {
+      "id": "general-english",
+      "questions": 16,
+      "label": {
+        "en": "Basic English",
+        "as": "সাধাৰণ ইংৰাজী"
+      }
+    }
+  ]
+}

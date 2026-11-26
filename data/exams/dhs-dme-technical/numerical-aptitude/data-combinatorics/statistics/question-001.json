@@ -1,0 +1,2945 @@
+[
+  {
+    "id": "numerical-053",
+    "q": {
+      "en": "The median of 3, 7, 9, 12, 15 is",
+      "as": "৩, ৭, ৯, ১২, ১৫ ৰ মধ্যমা কিমান"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are five values already in order, so the median is the third one, which is 9.",
+      "as": "পাঁচটা মান ইতিমধ্যে ক্ৰমত আছে, সেয়ে মধ্যমা তৃতীয়টো, অৰ্থাৎ ৯।"
+    }
+  },
+  {
+    "id": "numerical-054",
+    "q": {
+      "en": "The mode of the data 2, 3, 3, 4, 5, 3, 6 is",
+      "as": "তথ্য ২, ৩, ৩, ৪, ৫, ৩, ৬ ৰ বহুলক কিমান"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The mode is the most frequent value. The value 3 occurs three times, more than any other, so the mode is 3.",
+      "as": "বহুলক হ'ল আটাইতকৈ বেছি বাৰ ঘটা মান। ৩ তিনিবাৰ আছে, আনটোতকৈ বেছি, সেয়ে বহুলক ৩।"
+    }
+  },
+  {
+    "id": "num-statistics-001",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 4, 6, 8, 10, 12.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 4, 6, 8, 10, 12।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean = sum of observations / number of observations = 40/5 = 8.0.",
+      "as": "গড় = 40/5 = ৮.০।"
+    }
+  },
+  {
+    "id": "num-statistics-002",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 5, 9, 11, 15.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 5, 9, 11, 15।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean = sum of observations / number of observations = 40/4 = 10.0.",
+      "as": "গড় = 40/4 = ১০.০।"
+    }
+  },
+  {
+    "id": "num-statistics-003",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 12, 18, 24, 30, 36.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 12, 18, 24, 30, 36।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean = sum of observations / number of observations = 120/5 = 24.0.",
+      "as": "গড় = 120/5 = ২৪.০।"
+    }
+  },
+  {
+    "id": "num-statistics-004",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 7, 14, 21, 28.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 7, 14, 21, 28।"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      },
+      {
+        "en": "19.5",
+        "as": "১৯.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean = sum of observations / number of observations = 70/4 = 17.5.",
+      "as": "গড় = 70/4 = ১৭.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-005",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 3, 7, 9, 11, 15.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 3, 7, 9, 11, 15।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean = sum of observations / number of observations = 45/5 = 9.0.",
+      "as": "গড় = 45/5 = ৯.০।"
+    }
+  },
+  {
+    "id": "num-statistics-006",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 3, 5, 7, 9, 11.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 3, 5, 7, 9, 11।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrange in order. With 5 observations the median is the middle value = 7.",
+      "as": "ক্ৰমত সজাই ৫ টা মানৰ মধ্যমা = ৭।"
+    }
+  },
+  {
+    "id": "num-statistics-007",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 4, 8, 10, 12, 15, 18.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 4, 8, 10, 12, 15, 18।"
+    },
+    "options": [
+      {
+        "en": "11.17",
+        "as": "১১.১৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arrange in order. With 6 observations the median is the mean of the two middle values = 11.0.",
+      "as": "ক্ৰমত সজাই ৬ টা মানৰ মধ্যমা = ১১.০।"
+    }
+  },
+  {
+    "id": "num-statistics-008",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 2, 6, 9, 13, 17.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 2, 6, 9, 13, 17।"
+    },
+    "options": [
+      {
+        "en": "9.4",
+        "as": "৯.৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arrange in order. With 5 observations the median is the middle value = 9.",
+      "as": "ক্ৰমত সজাই ৫ টা মানৰ মধ্যমা = ৯।"
+    }
+  },
+  {
+    "id": "num-statistics-009",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 5, 10, 15, 20, 25, 30.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 5, 10, 15, 20, 25, 30।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      },
+      {
+        "en": "18.5",
+        "as": "১৮.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arrange in order. With 6 observations the median is the mean of the two middle values = 17.5.",
+      "as": "ক্ৰমত সজাই ৬ টা মানৰ মধ্যমা = ১৭.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-010",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 2, 3, 3, 4, 5, 3.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 2, 3, 3, 4, 5, 3।"
+    },
+    "options": [
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The value 3 occurs most frequently, so the mode is 3.",
+      "as": "৩ সৰ্বাধিক বাৰ ওলাইছে, সেয়ে বহুলক ৩।"
+    }
+  },
+  {
+    "id": "num-statistics-011",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 7, 8, 8, 9, 10, 8, 11.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 7, 8, 8, 9, 10, 8, 11।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "8.71",
+        "as": "৮.৭১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The value 8 occurs most frequently, so the mode is 8.",
+      "as": "৮ সৰ্বাধিক বাৰ ওলাইছে, সেয়ে বহুলক ৮।"
+    }
+  },
+  {
+    "id": "num-statistics-012",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 5, 6, 6, 7, 7, 7, 8.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 5, 6, 6, 7, 7, 7, 8।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6.57",
+        "as": "৬.৫৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The value 7 occurs most frequently, so the mode is 7.",
+      "as": "৭ সৰ্বাধিক বাৰ ওলাইছে, সেয়ে বহুলক ৭।"
+    }
+  },
+  {
+    "id": "num-statistics-013",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 1, 2, 2, 3, 4, 2.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 1, 2, 2, 3, 4, 2।"
+    },
+    "options": [
+      {
+        "en": "2.33",
+        "as": "২.৩৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The value 2 occurs most frequently, so the mode is 2.",
+      "as": "২ সৰ্বাধিক বাৰ ওলাইছে, সেয়ে বহুলক ২।"
+    }
+  },
+  {
+    "id": "num-statistics-014",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 12, 5, 18, 7, 25.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 12, 5, 18, 7, 25।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Range = maximum - minimum = 25 - 5 = 20.",
+      "as": "পৰিসৰ = ২৫ - ৫ = ২০।"
+    }
+  },
+  {
+    "id": "num-statistics-015",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 40, 15, 60, 22.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 40, 15, 60, 22।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Range = maximum - minimum = 60 - 15 = 45.",
+      "as": "পৰিসৰ = ৬০ - ১৫ = ৪৫।"
+    }
+  },
+  {
+    "id": "num-statistics-016",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 9, 3, 17, 11, 6.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 9, 3, 17, 11, 6।"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Range = maximum - minimum = 17 - 3 = 14.",
+      "as": "পৰিসৰ = ১৭ - ৩ = ১৪।"
+    }
+  },
+  {
+    "id": "num-statistics-017",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 10, 20, 30 with frequencies 2, 3, 5.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 10, 20, 30 আৰু পুনৰাবৃত্তি 2, 3, 5।"
+    },
+    "options": [
+      {
+        "en": "230",
+        "as": "২৩০"
+      },
+      {
+        "en": "23.0",
+        "as": "২৩.০"
+      },
+      {
+        "en": "20.91",
+        "as": "২০.৯১"
+      },
+      {
+        "en": "28.0",
+        "as": "২৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Σfx = 230 and Σf = 10, so mean = 230/10 = 23.0.",
+      "as": "Σfx = ২৩০, Σf = ১০, সেয়ে গড় = ২৩.০।"
+    }
+  },
+  {
+    "id": "num-statistics-018",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 5, 10, 15, 20 with frequencies 4, 6, 8, 2.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 5, 10, 15, 20 আৰু পুনৰাবৃত্তি 4, 6, 8, 2।"
+    },
+    "options": [
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "11.43",
+        "as": "১১.৪৩"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Σfx = 240 and Σf = 20, so mean = 240/20 = 12.0.",
+      "as": "Σfx = ২৪০, Σf = ২০, সেয়ে গড় = ১২.০।"
+    }
+  },
+  {
+    "id": "num-statistics-019",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 2, 4, 6 with frequencies 5, 3, 2.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 2, 4, 6 আৰু পুনৰাবৃত্তি 5, 3, 2।"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "3.09",
+        "as": "৩.০৯"
+      },
+      {
+        "en": "8.4",
+        "as": "৮.৪"
+      },
+      {
+        "en": "3.4",
+        "as": "৩.৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Σfx = 34 and Σf = 10, so mean = 34/10 = 3.4.",
+      "as": "Σfx = ৩৪, Σf = ১০, সেয়ে গড় = ৩.৪।"
+    }
+  },
+  {
+    "id": "num-statistics-020",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 100, 200, 300 with frequencies 3, 4, 3.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 100, 200, 300 আৰু পুনৰাবৃত্তি 3, 4, 3।"
+    },
+    "options": [
+      {
+        "en": "2000",
+        "as": "২০০০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "181.82",
+        "as": "১৮১.৮২"
+      },
+      {
+        "en": "205.0",
+        "as": "২০৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Σfx = 2000 and Σf = 10, so mean = 2000/10 = 200.0.",
+      "as": "Σfx = ২০০০, Σf = ১০, সেয়ে গড় = ২০০.০।"
+    }
+  },
+  {
+    "id": "num-statistics-021",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the grouped data: classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 4, 6, 10, 8, 2.",
+      "as": "শ্ৰেণী 0-10, 10-20, 20-30, 30-40, 40-50 আৰু পুনৰাবৃত্তি 4, 6, 10, 8, 2 থকা দলবদ্ধ তথ্যৰ মধ্যমা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "23.0",
+        "as": "২৩.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "N = 30, N/2 = 15.0; the cumulative frequency first exceeds it in the median class. Median = L + ((N/2 - cf)/f)h = 25.0.",
+      "as": "N = ৩০, N/2 = ১৫.০; সূত্ৰ প্ৰয়োগ কৰি মধ্যমা = ২৫.০।"
+    }
+  },
+  {
+    "id": "num-statistics-022",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the grouped data: classes 0-10, 10-20, 20-30, 30-40 with frequencies 5, 10, 15, 10.",
+      "as": "শ্ৰেণী 0-10, 10-20, 20-30, 30-40 আৰু পুনৰাবৃত্তি 5, 10, 15, 10 থকা দলবদ্ধ তথ্যৰ মধ্যমা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.33",
+        "as": "২৫.৩৩"
+      },
+      {
+        "en": "21.33",
+        "as": "২১.৩৩"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "23.33",
+        "as": "২৩.৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "N = 40, N/2 = 20.0; the cumulative frequency first exceeds it in the median class. Median = L + ((N/2 - cf)/f)h = 23.33.",
+      "as": "N = ৪০, N/2 = ২০.০; সূত্ৰ প্ৰয়োগ কৰি মধ্যমা = ২৩.৩৩।"
+    }
+  },
+  {
+    "id": "num-statistics-023",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the grouped data where the modal class is 20-30 with f₀ = 6, f₁ = 10 and f₂ = 8.",
+      "as": "দলবদ্ধ তথ্যৰ বহুলক নিৰ্ণয় কৰা, য'ত বহুলক শ্ৰেণী ২০-৩০, f₀ = ৬, f₁ = ১০ আৰু f₂ = ৮।"
+    },
+    "options": [
+      {
+        "en": "26.67",
+        "as": "২৬.৬৭"
+      },
+      {
+        "en": "28.67",
+        "as": "২৮.৬৭"
+      },
+      {
+        "en": "24.67",
+        "as": "২৪.৬৭"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mode = L + ((f₁-f₀)/(2f₁-f₀-f₂))h = 20 + ((10-6)/(2×10-6-8))×10 = 26.67.",
+      "as": "বহুলক = ২৬.৬৭।"
+    }
+  },
+  {
+    "id": "num-statistics-024",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the grouped data where the modal class is 10-20 with f₀ = 4, f₁ = 12 and f₂ = 6.",
+      "as": "দলবদ্ধ তথ্যৰ বহুলক নিৰ্ণয় কৰা, য'ত বহুলক শ্ৰেণী ১০-২০, f₀ = ৪, f₁ = ১২ আৰু f₂ = ৬।"
+    },
+    "options": [
+      {
+        "en": "15.71",
+        "as": "১৫.৭১"
+      },
+      {
+        "en": "17.71",
+        "as": "১৭.৭১"
+      },
+      {
+        "en": "13.71",
+        "as": "১৩.৭১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mode = L + ((f₁-f₀)/(2f₁-f₀-f₂))h = 10 + ((12-4)/(2×12-4-6))×10 = 15.71.",
+      "as": "বহুলক = ১৫.৭১।"
+    }
+  },
+  {
+    "id": "num-statistics-025",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the grouped data where the modal class is 30-40 with f₀ = 5, f₁ = 15 and f₂ = 10.",
+      "as": "দলবদ্ধ তথ্যৰ বহুলক নিৰ্ণয় কৰা, য'ত বহুলক শ্ৰেণী ৩০-৪০, f₀ = ৫, f₁ = ১৫ আৰু f₂ = ১০।"
+    },
+    "options": [
+      {
+        "en": "38.67",
+        "as": "৩৮.৬৭"
+      },
+      {
+        "en": "36.67",
+        "as": "৩৬.৬৭"
+      },
+      {
+        "en": "34.67",
+        "as": "৩৪.৬৭"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mode = L + ((f₁-f₀)/(2f₁-f₀-f₂))h = 30 + ((15-5)/(2×15-5-10))×10 = 36.67.",
+      "as": "বহুলক = ৩৬.৬৭।"
+    }
+  },
+  {
+    "id": "num-statistics-026",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 20 students in class A is 60 and of 30 students in class B is 70. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ২০ ছাত্ৰৰ গড় নম্বৰ ৬০ আৰু B শ্ৰেণীৰ ৩০ ছাত্ৰৰ গড় ৭০। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "65.0",
+        "as": "৬৫.০"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      },
+      {
+        "en": "66.0",
+        "as": "৬৬.০"
+      },
+      {
+        "en": "71.0",
+        "as": "৭১.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined mean = (n₁m₁ + n₂m₂)/(n₁+n₂) = (1200+2100)/50 = 66.0.",
+      "as": "যুটীয়া গড় = ৬৬.০।"
+    }
+  },
+  {
+    "id": "num-statistics-027",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 15 students in class A is 40 and of 25 students in class B is 60. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ১৫ ছাত্ৰৰ গড় নম্বৰ ৪০ আৰু B শ্ৰেণীৰ ২৫ ছাত্ৰৰ গড় ৬০। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "57.5",
+        "as": "৫৭.৫"
+      },
+      {
+        "en": "52.5",
+        "as": "৫২.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combined mean = (n₁m₁ + n₂m₂)/(n₁+n₂) = (600+1500)/40 = 52.5.",
+      "as": "যুটীয়া গড় = ৫২.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-028",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 10 students in class A is 50 and of 40 students in class B is 75. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ১০ ছাত্ৰৰ গড় নম্বৰ ৫০ আৰু B শ্ৰেণীৰ ৪০ ছাত্ৰৰ গড় ৭৫। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "62.5",
+        "as": "৬২.৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "70.0",
+        "as": "৭০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Combined mean = (n₁m₁ + n₂m₂)/(n₁+n₂) = (500+3000)/50 = 70.0.",
+      "as": "যুটীয়া গড় = ৭০.০।"
+    }
+  },
+  {
+    "id": "num-statistics-029",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 12 students in class A is 30 and of 18 students in class B is 45. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ১২ ছাত্ৰৰ গড় নম্বৰ ৩০ আৰু B শ্ৰেণীৰ ১৮ ছাত্ৰৰ গড় ৪৫। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "39.0",
+        "as": "৩৯.০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "44.0",
+        "as": "৪৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combined mean = (n₁m₁ + n₂m₂)/(n₁+n₂) = (360+810)/30 = 39.0.",
+      "as": "যুটীয়া গড় = ৩৯.০।"
+    }
+  },
+  {
+    "id": "num-statistics-030",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean of 5 observations is 20. Four of them are 18, 22, 19, 21. Find the missing observation.",
+      "as": "৫ টা মানৰ গড় ২০। ইয়াৰে ৪ টা 18, 22, 19, 21। অনুপস্থিত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 5 × 20 = 100; sum of known = 80; missing = 100 - 80 = 20.",
+      "as": "মুঠ = ১০০, জনা মানৰ যোগফল = ৮০, সেয়ে অনুপস্থিত = ২০।"
+    }
+  },
+  {
+    "id": "num-statistics-031",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean of 6 observations is 15. Four of them are 12, 18, 14, 16, 13. Find the missing observation.",
+      "as": "৬ টা মানৰ গড় ১৫। ইয়াৰে ৫ টা 12, 18, 14, 16, 13। অনুপস্থিত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 6 × 15 = 90; sum of known = 73; missing = 90 - 73 = 17.",
+      "as": "মুঠ = ৯০, জনা মানৰ যোগফল = ৭৩, সেয়ে অনুপস্থিত = ১৭।"
+    }
+  },
+  {
+    "id": "num-statistics-032",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean of 4 observations is 25. Four of them are 20, 30, 25. Find the missing observation.",
+      "as": "৪ টা মানৰ গড় ২৫। ইয়াৰে ৩ টা 20, 30, 25। অনুপস্থিত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 4 × 25 = 100; sum of known = 75; missing = 100 - 75 = 25.",
+      "as": "মুঠ = ১০০, জনা মানৰ যোগফল = ৭৫, সেয়ে অনুপস্থিত = ২৫।"
+    }
+  },
+  {
+    "id": "num-statistics-033",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 5 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ৫ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Adding a constant to every observation increases the mean by the same constant, 5.",
+      "as": "প্ৰতিটো মানত ৫ যোগ কৰিলে গড়ও ৫ বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "num-statistics-034",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 10 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ১০ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Adding a constant to every observation increases the mean by the same constant, 10.",
+      "as": "প্ৰতিটো মানত ১০ যোগ কৰিলে গড়ও ১০ বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "num-statistics-035",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 7 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ৭ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "3.5",
+        "as": "৩.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Adding a constant to every observation increases the mean by the same constant, 7.",
+      "as": "প্ৰতিটো মানত ৭ যোগ কৰিলে গড়ও ৭ বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "num-statistics-036",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 12 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ১২ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Adding a constant to every observation increases the mean by the same constant, 12.",
+      "as": "প্ৰতিটো মানত ১২ যোগ কৰিলে গড়ও ১২ বৃদ্ধি পায়।"
+    }
+  },
+  {
+    "id": "num-statistics-037",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 10 natural numbers.",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 55; mean = sum/n = (n+1)/2 = 5.5.",
+      "as": "যোগফল = ৫৫; গড় = ৫.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-038",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 20 natural numbers.",
+      "as": "প্ৰথম ২০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      },
+      {
+        "en": "15.5",
+        "as": "১৫.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 210; mean = sum/n = (n+1)/2 = 10.5.",
+      "as": "যোগফল = ২১০; গড় = ১০.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-039",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 50 natural numbers.",
+      "as": "প্ৰথম ৫০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "30.5",
+        "as": "৩০.৫"
+      },
+      {
+        "en": "25.5",
+        "as": "২৫.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 1275; mean = sum/n = (n+1)/2 = 25.5.",
+      "as": "যোগফল = ১২৭৫; গড় = ২৫.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-040",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 100 natural numbers.",
+      "as": "প্ৰথম ১০০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "50.5",
+        "as": "৫০.৫"
+      },
+      {
+        "en": "55.5",
+        "as": "৫৫.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 5050; mean = sum/n = (n+1)/2 = 50.5.",
+      "as": "যোগফল = ৫০৫০; গড় = ৫০.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-041",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the standard deviation of the data: 2, 4, 6, 8.",
+      "as": "তথ্যৰ মানক বিচ্যুতি নিৰ্ণয় কৰা: 2, 4, 6, 8।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.24",
+        "as": "২.২৪"
+      },
+      {
+        "en": "3.24",
+        "as": "৩.২৪"
+      },
+      {
+        "en": "1.24",
+        "as": "১.২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean = 5.0, variance = Σ(x-mean)²/n = 5.0, so SD = 2.24.",
+      "as": "গড় = ৫.০, প্ৰসৰণ = ৫.০, সেয়ে মানক বিচ্যুতি = ২.২৪।"
+    }
+  },
+  {
+    "id": "num-statistics-042",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the standard deviation of the data: 5, 5, 5, 5.",
+      "as": "তথ্যৰ মানক বিচ্যুতি নিৰ্ণয় কৰা: 5, 5, 5, 5।"
+    },
+    "options": [
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      },
+      {
+        "en": "-1.0",
+        "as": "-১.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean = 5.0, variance = Σ(x-mean)²/n = 0.0, so SD = 0.0.",
+      "as": "গড় = ৫.০, প্ৰসৰণ = ০.০, সেয়ে মানক বিচ্যুতি = ০.০।"
+    }
+  },
+  {
+    "id": "num-statistics-043",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the standard deviation of the data: 1, 3, 5, 7.",
+      "as": "তথ্যৰ মানক বিচ্যুতি নিৰ্ণয় কৰা: 1, 3, 5, 7।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "3.24",
+        "as": "৩.২৪"
+      },
+      {
+        "en": "1.24",
+        "as": "১.২৪"
+      },
+      {
+        "en": "2.24",
+        "as": "২.২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean = 4.0, variance = Σ(x-mean)²/n = 5.0, so SD = 2.24.",
+      "as": "গড় = ৪.০, প্ৰসৰণ = ৫.০, সেয়ে মানক বিচ্যুতি = ২.২৪।"
+    }
+  },
+  {
+    "id": "num-statistics-044",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 6, 8, 10, 12, 14.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 6, 8, 10, 12, 14।"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The values add up to 50 and there are 5 of them, so the mean is 50 ÷ 5 = 10.",
+      "as": "মানবোৰৰ যোগফল ৫০ আৰু সংখ্যা ৫ টা, সেয়ে মাধ্য = ৫০ ÷ ৫ = ১০।"
+    }
+  },
+  {
+    "id": "num-statistics-045",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 9, 12, 15, 18.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 9, 12, 15, 18।"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "14.5",
+        "as": "১৪.৫"
+      },
+      {
+        "en": "13.5",
+        "as": "১৩.৫"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The values add up to 54 and there are 4 of them, so the mean is 54 ÷ 4 = 13.5.",
+      "as": "মানবোৰৰ যোগফল ৫৪ আৰু সংখ্যা ৪ টা, সেয়ে মাধ্য = ৫৪ ÷ ৪ = ১৩.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-046",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 11, 13, 15, 17, 19.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 11, 13, 15, 17, 19।"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The values add up to 75 and there are 5 of them, so the mean is 75 ÷ 5 = 15.",
+      "as": "মানবোৰৰ যোগফল ৭৫ আৰু সংখ্যা ৫ টা, সেয়ে মাধ্য = ৭৫ ÷ ৫ = ১৫।"
+    }
+  },
+  {
+    "id": "num-statistics-047",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 6, 9, 12, 15, 18.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 6, 9, 12, 15, 18।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 12, so the median is 12.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ১২, সেয়ে মধ্যমা ১২।"
+    }
+  },
+  {
+    "id": "num-statistics-048",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 10, 20, 30, 40.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 10, 20, 30, 40।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 25, so the median is 25.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ২৫, সেয়ে মধ্যমা ২৫।"
+    }
+  },
+  {
+    "id": "num-statistics-049",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 7, 11, 15, 19, 23, 27.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 7, 11, 15, 19, 23, 27।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 17, so the median is 17.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ১৭, সেয়ে মধ্যমা ১৭।"
+    }
+  },
+  {
+    "id": "num-statistics-050",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 4, 5, 5, 6, 7.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 4, 5, 5, 6, 7।"
+    },
+    "options": [
+      {
+        "en": "5.4",
+        "as": "৫.৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ৫ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-051",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 2, 2, 3, 4, 5.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 2, 2, 3, 4, 5।"
+    },
+    "options": [
+      {
+        "en": "3.2",
+        "as": "৩.২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ২ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-052",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 9, 10, 10, 11, 12.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 9, 10, 10, 11, 12।"
+    },
+    "options": [
+      {
+        "en": "10.4",
+        "as": "১০.৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ১০ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-053",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 15, 4, 22, 9, 30.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 15, 4, 22, 9, 30।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Range = highest − lowest = 30 − 4 = 26.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ৩০ − ৪ = ২৬।"
+    }
+  },
+  {
+    "id": "num-statistics-054",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 50, 12, 70, 33.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 50, 12, 70, 33।"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "82",
+        "as": "৮২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Range = highest − lowest = 70 − 12 = 58.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ৭০ − ১২ = ৫৮।"
+    }
+  },
+  {
+    "id": "num-statistics-055",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 8, 2, 19, 14.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 8, 2, 19, 14।"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Range = highest − lowest = 19 − 2 = 17.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ১৯ − ২ = ১৭।"
+    }
+  },
+  {
+    "id": "num-statistics-056",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 10, 30, 50 with frequencies 3, 4, 3.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 10, 30, 50 আৰু পুনৰাবৃত্তি 3, 4, 3।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "34.0",
+        "as": "৩৪.০"
+      },
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The values add up to 300 and there are 10 of them, so the mean is 300 ÷ 10 = 30.",
+      "as": "মানবোৰৰ যোগফল ৩০০ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ৩০০ ÷ ১০ = ৩০।"
+    }
+  },
+  {
+    "id": "num-statistics-057",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 20, 40, 60 with frequencies 5, 2, 3.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 20, 40, 60 আৰু পুনৰাবৃত্তি 5, 2, 3।"
+    },
+    "options": [
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The values add up to 360 and there are 10 of them, so the mean is 360 ÷ 10 = 36.",
+      "as": "মানবোৰৰ যোগফল ৩৬০ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ৩৬০ ÷ ১০ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-statistics-058",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 1, 2, 3, 4 with frequencies 2, 3, 4, 1.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 1, 2, 3, 4 আৰু পুনৰাবৃত্তি 2, 3, 4, 1।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "6.4",
+        "as": "৬.৪"
+      },
+      {
+        "en": "-1.6",
+        "as": "-১.৬"
+      },
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The values add up to 24 and there are 10 of them, so the mean is 24 ÷ 10 = 2.4.",
+      "as": "মানবোৰৰ যোগফল ২৪ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ২৪ ÷ ১০ = ২.৪।"
+    }
+  },
+  {
+    "id": "num-statistics-059",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 30 students in class A is 55 and of 20 students in class B is 45. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ৩০ ছাত্ৰৰ গড় ৫৫ আৰু B শ্ৰেণীৰ ২০ ছাত্ৰৰ গড় ৪৫। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "51.0",
+        "as": "৫১.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "56.0",
+        "as": "৫৬.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take the total of both groups and divide by the combined count: the combined mean is 51.",
+      "as": "দুয়োটা গোটৰ যোগফল লৈ মুঠ সংখ্যাৰে হৰণ কৰা: সংযুক্ত মাধ্য ৫১।"
+    }
+  },
+  {
+    "id": "num-statistics-060",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 25 students in class A is 70 and of 35 students in class B is 50. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ২৫ ছাত্ৰৰ গড় ৭০ আৰু B শ্ৰেণীৰ ৩৫ ছাত্ৰৰ গড় ৫০। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "58.33",
+        "as": "৫৮.৩৩"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "63.33",
+        "as": "৬৩.৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take the total of both groups and divide by the combined count: the combined mean is 58.33.",
+      "as": "দুয়োটা গোটৰ যোগফল লৈ মুঠ সংখ্যাৰে হৰণ কৰা: সংযুক্ত মাধ্য ৫৮.৩৩।"
+    }
+  },
+  {
+    "id": "num-statistics-061",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 40 students in class A is 65 and of 10 students in class B is 85. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ৪০ ছাত্ৰৰ গড় ৬৫ আৰু B শ্ৰেণীৰ ১০ ছাত্ৰৰ গড় ৮৫। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "69.0",
+        "as": "৬৯.০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "74.0",
+        "as": "৭৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take the total of both groups and divide by the combined count: the combined mean is 69.",
+      "as": "দুয়োটা গোটৰ যোগফল লৈ মুঠ সংখ্যাৰে হৰণ কৰা: সংযুক্ত মাধ্য ৬৯।"
+    }
+  },
+  {
+    "id": "num-statistics-062",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 8 natural numbers.",
+      "as": "প্ৰথম ৮ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "9.5",
+        "as": "৯.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first 8 natural numbers run from 1 to 8, so their mean is the middle value: (8+1)/2 = 4.5.",
+      "as": "প্ৰথম ৮ টা স্বাভাৱিক সংখ্যা ১ ৰপৰা ৮ লৈ, সেয়ে মাধ্য মাজৰ মান: (৮+১)/২ = ৪.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-063",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 15 natural numbers.",
+      "as": "প্ৰথম ১৫ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "13.0",
+        "as": "১৩.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The first 15 natural numbers run from 1 to 15, so their mean is the middle value: (15+1)/2 = 8.",
+      "as": "প্ৰথম ১৫ টা স্বাভাৱিক সংখ্যা ১ ৰপৰা ১৫ লৈ, সেয়ে মাধ্য মাজৰ মান: (১৫+১)/২ = ৮।"
+    }
+  },
+  {
+    "id": "num-statistics-064",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 30 natural numbers.",
+      "as": "প্ৰথম ৩০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15.5",
+        "as": "১৫.৫"
+      },
+      {
+        "en": "20.5",
+        "as": "২০.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first 30 natural numbers run from 1 to 30, so their mean is the middle value: (30+1)/2 = 15.5.",
+      "as": "প্ৰথম ৩০ টা স্বাভাৱিক সংখ্যা ১ ৰপৰা ৩০ লৈ, সেয়ে মাধ্য মাজৰ মান: (৩০+১)/২ = ১৫.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-065",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the standard deviation of the data: 3, 5, 7, 9.",
+      "as": "তথ্যৰ মানক বিচ্যুতি নিৰ্ণয় কৰা: 3, 5, 7, 9।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.24",
+        "as": "২.২৪"
+      },
+      {
+        "en": "3.24",
+        "as": "৩.২৪"
+      },
+      {
+        "en": "1.24",
+        "as": "১.২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean = 6. Squared deviations: (3−6)² = 9, (5−6)² = 1, (7−6)² = 1, (9−6)² = 9. Variance = 5, so SD = √5 = 2.24.",
+      "as": "মাধ্য = ৬। বৰ্গ বিচ্যুতিৰ যোগফলৰপৰা ভেদাঙ্ক = ৫, সেয়ে মানক বিচ্যুতি = ২.২৪।"
+    }
+  },
+  {
+    "id": "num-statistics-066",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the standard deviation of the data: 10, 12, 14, 16.",
+      "as": "তথ্যৰ মানক বিচ্যুতি নিৰ্ণয় কৰা: 10, 12, 14, 16।"
+    },
+    "options": [
+      {
+        "en": "2.24",
+        "as": "২.২৪"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "3.24",
+        "as": "৩.২৪"
+      },
+      {
+        "en": "1.24",
+        "as": "১.২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean = 13. Squared deviations: (10−13)² = 9, (12−13)² = 1, (14−13)² = 1, (16−13)² = 9. Variance = 5, so SD = √5 = 2.24.",
+      "as": "মাধ্য = ১৩। বৰ্গ বিচ্যুতিৰ যোগফলৰপৰা ভেদাঙ্ক = ৫, সেয়ে মানক বিচ্যুতি = ২.২৪।"
+    }
+  },
+  {
+    "id": "num-statistics-067",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 8 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ৮ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Adding the same number to every observation moves the mean by exactly that amount, so the mean increases by 8.",
+      "as": "প্ৰতিটো মানত একেই সংখ্যা যোগ কৰিলে মাধ্যও সেই পৰিমাণেই বাঢ়ে, সেয়ে মাধ্য ৮ ৰে বাঢ়ে।"
+    }
+  },
+  {
+    "id": "num-statistics-068",
+    "leaf": "statistics",
+    "q": {
+      "en": "If 15 is added to every observation of a data set, by how much does the mean increase?",
+      "as": "তথ্যৰ প্ৰতিটো মানত ১৫ যোগ কৰিলে গড় কিমান বৃদ্ধি পায়?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Adding the same number to every observation moves the mean by exactly that amount, so the mean increases by 15.",
+      "as": "প্ৰতিটো মানত একেই সংখ্যা যোগ কৰিলে মাধ্যও সেই পৰিমাণেই বাঢ়ে, সেয়ে মাধ্য ১৫ ৰে বাঢ়ে।"
+    }
+  },
+  {
+    "id": "num-statistics-069",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the grouped data where the modal class is 10-20 with f₀ = 5, f₁ = 10 and f₂ = 7.",
+      "as": "দলবদ্ধ তথ্যৰ বহুলক নিৰ্ণয় কৰা, য'ত বহুলক শ্ৰেণী ১০-২০, f₀ = ৫, f₁ = ১০ আৰু f₂ = ৭।"
+    },
+    "options": [
+      {
+        "en": "18.25",
+        "as": "১৮.২৫"
+      },
+      {
+        "en": "14.25",
+        "as": "১৪.২৫"
+      },
+      {
+        "en": "16.25",
+        "as": "১৬.২৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16.25 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ১৬.২৫ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-070",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the grouped data where the modal class is 40-50 with f₀ = 8, f₁ = 14 and f₂ = 6.",
+      "as": "দলবদ্ধ তথ্যৰ বহুলক নিৰ্ণয় কৰা, য'ত বহুলক শ্ৰেণী ৪০-৫০, f₀ = ৮, f₁ = ১৪ আৰু f₂ = ৬।"
+    },
+    "options": [
+      {
+        "en": "46.29",
+        "as": "৪৬.২৯"
+      },
+      {
+        "en": "42.29",
+        "as": "৪২.২৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "44.29",
+        "as": "৪৪.২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "44.29 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ৪৪.২৯ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-071",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 14, 16, 18, 20.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 14, 16, 18, 20।"
+    },
+    "options": [
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The values add up to 68 and there are 4 of them, so the mean is 68 ÷ 4 = 17.",
+      "as": "মানবোৰৰ যোগফল ৬৮ আৰু সংখ্যা ৪ টা, সেয়ে মাধ্য = ৬৮ ÷ ৪ = ১৭।"
+    }
+  },
+  {
+    "id": "num-statistics-072",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 25, 35, 45.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 25, 35, 45।"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "37.0",
+        "as": "৩৭.০"
+      },
+      {
+        "en": "33.0",
+        "as": "৩৩.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The values add up to 105 and there are 3 of them, so the mean is 105 ÷ 3 = 35.",
+      "as": "মানবোৰৰ যোগফল ১০৫ আৰু সংখ্যা ৩ টা, সেয়ে মাধ্য = ১০৫ ÷ ৩ = ৩৫।"
+    }
+  },
+  {
+    "id": "num-statistics-073",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 8, 12, 16, 20, 24.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 8, 12, 16, 20, 24।"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The values add up to 80 and there are 5 of them, so the mean is 80 ÷ 5 = 16.",
+      "as": "মানবোৰৰ যোগফল ৮০ আৰু সংখ্যা ৫ টা, সেয়ে মাধ্য = ৮০ ÷ ৫ = ১৬।"
+    }
+  },
+  {
+    "id": "num-statistics-074",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the data: 50, 60, 70, 80.",
+      "as": "তথ্যৰ গড় নিৰ্ণয় কৰা: 50, 60, 70, 80।"
+    },
+    "options": [
+      {
+        "en": "260",
+        "as": "২৬০"
+      },
+      {
+        "en": "67.0",
+        "as": "৬৭.০"
+      },
+      {
+        "en": "65.0",
+        "as": "৬৫.০"
+      },
+      {
+        "en": "63.0",
+        "as": "৬৩.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The values add up to 260 and there are 4 of them, so the mean is 260 ÷ 4 = 65.",
+      "as": "মানবোৰৰ যোগফল ২৬০ আৰু সংখ্যা ৪ টা, সেয়ে মাধ্য = ২৬০ ÷ ৪ = ৬৫।"
+    }
+  },
+  {
+    "id": "num-statistics-075",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 2, 4, 6, 8, 10.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 2, 4, 6, 8, 10।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 6, so the median is 6.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ৬, সেয়ে মধ্যমা ৬।"
+    }
+  },
+  {
+    "id": "num-statistics-076",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 12, 15, 18, 21, 24, 27.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 12, 15, 18, 21, 24, 27।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "19.5",
+        "as": "১৯.৫"
+      },
+      {
+        "en": "21.5",
+        "as": "২১.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 19.5, so the median is 19.5.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ১৯.৫, সেয়ে মধ্যমা ১৯.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-077",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 5, 15, 25, 35.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 5, 15, 25, 35।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 20, so the median is 20.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ২০, সেয়ে মধ্যমা ২০।"
+    }
+  },
+  {
+    "id": "num-statistics-078",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the median of the data: 9, 18, 27, 36, 45.",
+      "as": "তথ্যৰ মধ্যমা নিৰ্ণয় কৰা: 9, 18, 27, 36, 45।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrange the data in order and take the middle value: it is 27, so the median is 27.",
+      "as": "তথ্য ক্ৰমত সজাই মাজৰ মানটো লোৱা — সেয়া ২৭, সেয়ে মধ্যমা ২৭।"
+    }
+  },
+  {
+    "id": "num-statistics-079",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 3, 4, 4, 5, 6.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 3, 4, 4, 5, 6।"
+    },
+    "options": [
+      {
+        "en": "4.4",
+        "as": "৪.৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ৪ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-080",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 1, 1, 2, 3.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 1, 1, 2, 3।"
+    },
+    "options": [
+      {
+        "en": "1.75",
+        "as": "১.৭৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ১ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-081",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mode of the data: 6, 7, 7, 8, 9, 7.",
+      "as": "তথ্যৰ বহুলক নিৰ্ণয় কৰা: 6, 7, 7, 8, 9, 7।"
+    },
+    "options": [
+      {
+        "en": "7.33",
+        "as": "৭.৩৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "7 appears more often than any other value in the data, so it is the mode.",
+      "as": "তথ্যত ৭ আন যিকোনো মানতকৈ বেছি বাৰ আছে, সেয়ে ইয়েই ম'ড।"
+    }
+  },
+  {
+    "id": "num-statistics-082",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 100, 45, 78, 23, 90.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 100, 45, 78, 23, 90।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "123",
+        "as": "১২৩"
+      },
+      {
+        "en": "77",
+        "as": "৭৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Range = highest − lowest = 100 − 23 = 77.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ১০০ − ২৩ = ৭৭।"
+    }
+  },
+  {
+    "id": "num-statistics-083",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 66, 12, 88, 41.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 66, 12, 88, 41।"
+    },
+    "options": [
+      {
+        "en": "76",
+        "as": "৭৬"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Range = highest − lowest = 88 − 12 = 76.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ৮৮ − ১২ = ৭৬।"
+    }
+  },
+  {
+    "id": "num-statistics-084",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the range of the data: 35, 7, 52, 19.",
+      "as": "তথ্যৰ পৰিসৰ নিৰ্ণয় কৰা: 35, 7, 52, 19।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Range = highest − lowest = 52 − 7 = 45.",
+      "as": "পৰিসৰ = সৰ্বোচ্চ − সৰ্বনিম্ন = ৫২ − ৭ = ৪৫।"
+    }
+  },
+  {
+    "id": "num-statistics-085",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 5, 15, 25 with frequencies 2, 5, 3.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 5, 15, 25 আৰু পুনৰাবৃত্তি 2, 5, 3।"
+    },
+    "options": [
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The values add up to 160 and there are 10 of them, so the mean is 160 ÷ 10 = 16.",
+      "as": "মানবোৰৰ যোগফল ১৬০ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ১৬০ ÷ ১০ = ১৬।"
+    }
+  },
+  {
+    "id": "num-statistics-086",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 10, 20, 30, 40 with frequencies 1, 2, 3, 4.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 10, 20, 30, 40 আৰু পুনৰাবৃত্তি 1, 2, 3, 4।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "34.0",
+        "as": "৩৪.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The values add up to 300 and there are 10 of them, so the mean is 300 ÷ 10 = 30.",
+      "as": "মানবোৰৰ যোগফল ৩০০ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ৩০০ ÷ ১০ = ৩০।"
+    }
+  },
+  {
+    "id": "num-statistics-087",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the following distribution: values 2, 6, 10 with frequencies 4, 4, 2.",
+      "as": "তলৰ বিভাজনৰ গড় নিৰ্ণয় কৰা: মান 2, 6, 10 আৰু পুনৰাবৃত্তি 4, 4, 2।"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "9.2",
+        "as": "৯.২"
+      },
+      {
+        "en": "1.2000000000000002",
+        "as": "১.২০০০০০০০০০০০০০০২"
+      },
+      {
+        "en": "5.2",
+        "as": "৫.২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The values add up to 52 and there are 10 of them, so the mean is 52 ÷ 10 = 5.2.",
+      "as": "মানবোৰৰ যোগফল ৫২ আৰু সংখ্যা ১০ টা, সেয়ে মাধ্য = ৫২ ÷ ১০ = ৫.২।"
+    }
+  },
+  {
+    "id": "num-statistics-088",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 18 students in class A is 45 and of 12 students in class B is 60. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ১৮ ছাত্ৰৰ গড় ৪৫ আৰু B শ্ৰেণীৰ ১২ ছাত্ৰৰ গড় ৬০। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "52.5",
+        "as": "৫২.৫"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "51.0",
+        "as": "৫১.০"
+      },
+      {
+        "en": "56.0",
+        "as": "৫৬.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Take the total of both groups and divide by the combined count: the combined mean is 51.",
+      "as": "দুয়োটা গোটৰ যোগফল লৈ মুঠ সংখ্যাৰে হৰণ কৰা: সংযুক্ত মাধ্য ৫১।"
+    }
+  },
+  {
+    "id": "num-statistics-089",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean marks of 24 students in class A is 80 and of 36 students in class B is 55. Find the combined mean.",
+      "as": "A শ্ৰেণীৰ ২৪ ছাত্ৰৰ গড় ৮০ আৰু B শ্ৰেণীৰ ৩৬ ছাত্ৰৰ গড় ৫৫। যুটীয়া গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "67.5",
+        "as": "৬৭.৫"
+      },
+      {
+        "en": "65.0",
+        "as": "৬৫.০"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      },
+      {
+        "en": "70.0",
+        "as": "৭০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take the total of both groups and divide by the combined count: the combined mean is 65.",
+      "as": "দুয়োটা গোটৰ যোগফল লৈ মুঠ সংখ্যাৰে হৰণ কৰা: সংযুক্ত মাধ্য ৬৫।"
+    }
+  },
+  {
+    "id": "num-statistics-090",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean of 5 observations is 12. 4 of them are 10, 14, 11, 13. Find the missing observation.",
+      "as": "৫ টা মানৰ গড় ১২। ইয়াৰে ৪ টা 10, 14, 11, 13। অনুপস্থিত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Missing = 60 - 48 = 12.",
+      "as": "অনুপস্থিত = ১২।"
+    }
+  },
+  {
+    "id": "num-statistics-091",
+    "leaf": "statistics",
+    "q": {
+      "en": "The mean of 6 observations is 18. 5 of them are 15, 20, 17, 19, 16. Find the missing observation.",
+      "as": "৬ টা মানৰ গড় ১৮। ইয়াৰে ৫ টা 15, 20, 17, 19, 16। অনুপস্থিত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Missing = 108 - 87 = 21.",
+      "as": "অনুপস্থিত = ২১।"
+    }
+  },
+  {
+    "id": "num-statistics-092",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 12 natural numbers.",
+      "as": "প্ৰথম ১২ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "6.5",
+        "as": "৬.৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11.5",
+        "as": "১১.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The first 12 natural numbers run from 1 to 12, so their mean is the middle value: (12+1)/2 = 6.5.",
+      "as": "প্ৰথম ১২ টা স্বাভাৱিক সংখ্যা ১ ৰপৰা ১২ লৈ, সেয়ে মাধ্য মাজৰ মান: (১২+১)/২ = ৬.৫।"
+    }
+  },
+  {
+    "id": "num-statistics-093",
+    "leaf": "statistics",
+    "q": {
+      "en": "Find the mean of the first 40 natural numbers.",
+      "as": "প্ৰথম ৪০ টা স্বাভাৱিক সংখ্যাৰ গড় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "20.5",
+        "as": "২০.৫"
+      },
+      {
+        "en": "25.5",
+        "as": "২৫.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first 40 natural numbers run from 1 to 40, so their mean is the middle value: (40+1)/2 = 20.5.",
+      "as": "প্ৰথম ৪০ টা স্বাভাৱিক সংখ্যা ১ ৰপৰা ৪০ লৈ, সেয়ে মাধ্য মাজৰ মান: (৪০+১)/২ = ২০.৫।"
+    }
+  }
+]

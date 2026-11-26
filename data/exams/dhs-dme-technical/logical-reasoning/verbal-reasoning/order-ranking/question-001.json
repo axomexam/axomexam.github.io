@@ -1,0 +1,2821 @@
+[
+  {
+    "id": "verbal-reasoning-009",
+    "q": {
+      "en": "In a class of 40, Amit ranks 12th from the top. His rank from the bottom is?",
+      "as": "৪০ জনৰ শ্ৰেণীত অমিত ওপৰৰ পৰা ১২ নম্বৰ। তলৰ পৰা তেওঁৰ স্থান?"
+    },
+    "options": [
+      {
+        "en": "28th",
+        "as": "২৮ নম্বৰ"
+      },
+      {
+        "en": "12th",
+        "as": "১২ নম্বৰ"
+      },
+      {
+        "en": "29th",
+        "as": "২৯ নম্বৰ"
+      },
+      {
+        "en": "30th",
+        "as": "৩০ নম্বৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from the bottom = total minus rank from the top plus 1 = 40 minus 12 plus 1 = 29. So his rank from the bottom is 29th.",
+      "as": "তলৰ পৰা স্থান = মুঠ − ওপৰৰ পৰা স্থান + ১ = ৪০ − ১২ + ১ = ২৯। সেয়ে তলৰ পৰা তেওঁৰ স্থান ২৯ নম্বৰ।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-074",
+    "q": {
+      "en": "In a class of 30 students, Ravi is 12th from the top. What is his rank from the bottom?",
+      "as": "৩০ জন ছাত্ৰ থকা শ্ৰেণীত ৰবি ওপৰৰ পৰা ১২ নম্বৰ। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "18th",
+        "as": "১৮ নম্বৰ"
+      },
+      {
+        "en": "19th",
+        "as": "১৯ নম্বৰ"
+      },
+      {
+        "en": "20th",
+        "as": "২০ নম্বৰ"
+      },
+      {
+        "en": "17th",
+        "as": "১৭ নম্বৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from the bottom = total - rank from the top + 1 = 30 - 12 + 1 = 19th.",
+      "as": "তলৰ পৰা স্থান = মুঠ - ওপৰৰ পৰা স্থান + ১ = ৩০ - ১২ + ১ = ১৯ নম্বৰ।"
+    }
+  },
+  {
+    "id": "num-order-ranking-001",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 40 students, Ravi is 12th from the top. What is his rank from the bottom?",
+      "as": "৪০ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ১২ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 40 - 12 + 1 = 29.",
+      "as": "তলৰ পৰা স্থান = ৪০ - ১২ + ১ = ২৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-002",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 50 students, Ravi is 18th from the top. What is his rank from the bottom?",
+      "as": "৫০ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ১৮ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 50 - 18 + 1 = 33.",
+      "as": "তলৰ পৰা স্থান = ৫০ - ১৮ + ১ = ৩৩।"
+    }
+  },
+  {
+    "id": "num-order-ranking-003",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 35 students, Ravi is 9th from the top. What is his rank from the bottom?",
+      "as": "৩৫ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৯ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 35 - 9 + 1 = 27.",
+      "as": "তলৰ পৰা স্থান = ৩৫ - ৯ + ১ = ২৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-004",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 60 students, Ravi is 25th from the top. What is his rank from the bottom?",
+      "as": "৬০ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ২৫ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 60 - 25 + 1 = 36.",
+      "as": "তলৰ পৰা স্থান = ৬০ - ২৫ + ১ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-005",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 45 students, Ravi is 31th from the top. What is his rank from the bottom?",
+      "as": "৪৫ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৩১ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 45 - 31 + 1 = 15.",
+      "as": "তলৰ পৰা স্থান = ৪৫ - ৩১ + ১ = ১৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-006",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 72 students, Ravi is 40th from the top. What is his rank from the bottom?",
+      "as": "৭২ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৪০ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 72 - 40 + 1 = 33.",
+      "as": "তলৰ পৰা স্থান = ৭২ - ৪০ + ১ = ৩৩।"
+    }
+  },
+  {
+    "id": "num-order-ranking-007",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 28 students, Ravi is 7th from the top. What is his rank from the bottom?",
+      "as": "২৮ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৭ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 28 - 7 + 1 = 22.",
+      "as": "তলৰ পৰা স্থান = ২৮ - ৭ + ১ = ২২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-008",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 55 students, Ravi is 22th from the top. What is his rank from the bottom?",
+      "as": "৫৫ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ২২ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 55 - 22 + 1 = 34.",
+      "as": "তলৰ পৰা স্থান = ৫৫ - ২২ + ১ = ৩৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-009",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 64 students, Ravi is 16th from the top. What is his rank from the bottom?",
+      "as": "৬৪ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ১৬ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 64 - 16 + 1 = 49.",
+      "as": "তলৰ পৰা স্থান = ৬৪ - ১৬ + ১ = ৪৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-010",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 80 students, Ravi is 45th from the top. What is his rank from the bottom?",
+      "as": "৮০ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৪৫ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 80 - 45 + 1 = 36.",
+      "as": "তলৰ পৰা স্থান = ৮০ - ৪৫ + ১ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-011",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 36 students, Ravi is 20th from the top. What is his rank from the bottom?",
+      "as": "৩৬ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ২০ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 36 - 20 + 1 = 17.",
+      "as": "তলৰ পৰা স্থান = ৩৬ - ২০ + ১ = ১৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-012",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 48 students, Ravi is 13th from the top. What is his rank from the bottom?",
+      "as": "৪৮ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ১৩ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 48 - 13 + 1 = 36.",
+      "as": "তলৰ পৰা স্থান = ৪৮ - ১৩ + ১ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-013",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 90 students, Ravi is 33th from the top. What is his rank from the bottom?",
+      "as": "৯০ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৩৩ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 90 - 33 + 1 = 58.",
+      "as": "তলৰ পৰা স্থান = ৯০ - ৩৩ + ১ = ৫৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-014",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 42 students, Ravi is 27th from the top. What is his rank from the bottom?",
+      "as": "৪২ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ২৭ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 42 - 27 + 1 = 16.",
+      "as": "তলৰ পৰা স্থান = ৪২ - ২৭ + ১ = ১৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-015",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 75 students, Ravi is 50th from the top. What is his rank from the bottom?",
+      "as": "৭৫ জন ছাত্ৰৰ শ্ৰেণীত ৰবি ওপৰৰ পৰা ৫০ তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from bottom = total - rank from top + 1 = 75 - 50 + 1 = 26.",
+      "as": "তলৰ পৰা স্থান = ৭৫ - ৫০ + ১ = ২৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-016",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 12th from the left and 15th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ১২ তম আৰু সোঁফালৰ পৰা ১৫ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 12 + 15 - 1 = 26.",
+      "as": "মুঠ = ১২ + ১৫ - ১ = ২৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-017",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 8th from the left and 20th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ৮ তম আৰু সোঁফালৰ পৰা ২০ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 8 + 20 - 1 = 27.",
+      "as": "মুঠ = ৮ + ২০ - ১ = ২৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-018",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 18th from the left and 10th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ১৮ তম আৰু সোঁফালৰ পৰা ১০ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 18 + 10 - 1 = 27.",
+      "as": "মুঠ = ১৮ + ১০ - ১ = ২৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-019",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 25th from the left and 6th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ২৫ তম আৰু সোঁফালৰ পৰা ৬ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 25 + 6 - 1 = 30.",
+      "as": "মুঠ = ২৫ + ৬ - ১ = ৩০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-020",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 9th from the left and 32th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ৯ তম আৰু সোঁফালৰ পৰা ৩২ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 9 + 32 - 1 = 40.",
+      "as": "মুঠ = ৯ + ৩২ - ১ = ৪০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-021",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 14th from the left and 21th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ১৪ তম আৰু সোঁফালৰ পৰা ২১ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 14 + 21 - 1 = 34.",
+      "as": "মুঠ = ১৪ + ২১ - ১ = ৩৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-022",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 7th from the left and 44th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ৭ তম আৰু সোঁফালৰ পৰা ৪৪ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 7 + 44 - 1 = 50.",
+      "as": "মুঠ = ৭ + ৪৪ - ১ = ৫০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-023",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 30th from the left and 11th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ৩০ তম আৰু সোঁফালৰ পৰা ১১ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 30 + 11 - 1 = 40.",
+      "as": "মুঠ = ৩০ + ১১ - ১ = ৪০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-024",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 16th from the left and 25th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ১৬ তম আৰু সোঁফালৰ পৰা ২৫ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 16 + 25 - 1 = 40.",
+      "as": "মুঠ = ১৬ + ২৫ - ১ = ৪০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-025",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 5th from the left and 36th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ৫ তম আৰু সোঁফালৰ পৰা ৩৬ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 5 + 36 - 1 = 40.",
+      "as": "মুঠ = ৫ + ৩৬ - ১ = ৪০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-026",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 22th from the left and 19th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ২২ তম আৰু সোঁফালৰ পৰা ১৯ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 22 + 19 - 1 = 40.",
+      "as": "মুঠ = ২২ + ১৯ - ১ = ৪০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-027",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, Amit is 11th from the left and 40th from the right. How many people are in the row?",
+      "as": "এটা শাৰীত অমিত বাওঁফালৰ পৰা ১১ তম আৰু সোঁফালৰ পৰা ৪০ তম। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = rank from left + rank from right - 1 = 11 + 40 - 1 = 50.",
+      "as": "মুঠ = ১১ + ৪০ - ১ = ৫০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-028",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 7th from the left and B is 12th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৭ তম আৰু B বাওঁফালৰ পৰা ১২ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "People between = 12 - 7 - 1 = 4.",
+      "as": "মাজত = ১২ - ৭ - ১ = ৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-029",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 5th from the left and B is 15th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৫ তম আৰু B বাওঁফালৰ পৰা ১৫ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "People between = 15 - 5 - 1 = 9.",
+      "as": "মাজত = ১৫ - ৫ - ১ = ৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-030",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 9th from the left and B is 20th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৯ তম আৰু B বাওঁফালৰ পৰা ২০ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "People between = 20 - 9 - 1 = 10.",
+      "as": "মাজত = ২০ - ৯ - ১ = ১০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-031",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 3th from the left and B is 11th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৩ তম আৰু B বাওঁফালৰ পৰা ১১ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "People between = 11 - 3 - 1 = 7.",
+      "as": "মাজত = ১১ - ৩ - ১ = ৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-032",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 14th from the left and B is 25th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১৪ তম আৰু B বাওঁফালৰ পৰা ২৫ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "People between = 25 - 14 - 1 = 10.",
+      "as": "মাজত = ২৫ - ১৪ - ১ = ১০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-033",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 8th from the left and B is 18th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৮ তম আৰু B বাওঁফালৰ পৰা ১৮ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "People between = 18 - 8 - 1 = 9.",
+      "as": "মাজত = ১৮ - ৮ - ১ = ৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-034",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 6th from the left and B is 22th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৬ তম আৰু B বাওঁফালৰ পৰা ২২ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "People between = 22 - 6 - 1 = 15.",
+      "as": "মাজত = ২২ - ৬ - ১ = ১৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-035",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 11th from the left and B is 30th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১১ তম আৰু B বাওঁফালৰ পৰা ৩০ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "People between = 30 - 11 - 1 = 18.",
+      "as": "মাজত = ৩০ - ১১ - ১ = ১৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-036",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 4th from the left and B is 16th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৪ তম আৰু B বাওঁফালৰ পৰা ১৬ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "People between = 16 - 4 - 1 = 11.",
+      "as": "মাজত = ১৬ - ৪ - ১ = ১১।"
+    }
+  },
+  {
+    "id": "num-order-ranking-037",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 17th from the left and B is 28th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১৭ তম আৰু B বাওঁফালৰ পৰা ২৮ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "People between = 28 - 17 - 1 = 10.",
+      "as": "মাজত = ২৮ - ১৭ - ১ = ১০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-038",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 2th from the left and B is 13th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ২ তম আৰু B বাওঁফালৰ পৰা ১৩ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "People between = 13 - 2 - 1 = 10.",
+      "as": "মাজত = ১৩ - ২ - ১ = ১০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-039",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 10th from the left and B is 24th from the left. How many people are between them?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১০ তম আৰু B বাওঁফালৰ পৰা ২৪ তম। তেওঁলোকৰ মাজত কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "People between = 24 - 10 - 1 = 13.",
+      "as": "মাজত = ২৪ - ১০ - ১ = ১৩।"
+    }
+  },
+  {
+    "id": "num-order-ranking-040",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 8th from the left and B is 12th from the right. After they interchange places, A becomes 14th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৮ তম আৰু B সোঁফালৰ পৰা ১২ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৪ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 14 + 12 - 1 = 25.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৪ + ১২ - ১ = ২৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-041",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 10th from the left and B is 15th from the right. After they interchange places, A becomes 18th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১০ তম আৰু B সোঁফালৰ পৰা ১৫ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৮ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 18 + 15 - 1 = 32.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৮ + ১৫ - ১ = ৩২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-042",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 6th from the left and B is 20th from the right. After they interchange places, A becomes 22th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৬ তম আৰু B সোঁফালৰ পৰা ২০ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ২২ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 22 + 20 - 1 = 41.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ২২ + ২০ - ১ = ৪১।"
+    }
+  },
+  {
+    "id": "num-order-ranking-043",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 12th from the left and B is 9th from the right. After they interchange places, A becomes 16th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১২ তম আৰু B সোঁফালৰ পৰা ৯ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৬ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 16 + 9 - 1 = 24.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৬ + ৯ - ১ = ২৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-044",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 5th from the left and B is 18th from the right. After they interchange places, A becomes 20th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৫ তম আৰু B সোঁফালৰ পৰা ১৮ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ২০ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 20 + 18 - 1 = 37.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ২০ + ১৮ - ১ = ৩৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-045",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 9th from the left and B is 14th from the right. After they interchange places, A becomes 17th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৯ তম আৰু B সোঁফালৰ পৰা ১৪ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৭ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 17 + 14 - 1 = 30.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৭ + ১৪ - ১ = ৩০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-046",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 11th from the left and B is 10th from the right. After they interchange places, A becomes 19th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১১ তম আৰু B সোঁফালৰ পৰা ১০ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৯ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 19 + 10 - 1 = 28.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৯ + ১০ - ১ = ২৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-047",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 7th from the left and B is 25th from the right. After they interchange places, A becomes 28th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৭ তম আৰু B সোঁফালৰ পৰা ২৫ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ২৮ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 28 + 25 - 1 = 52.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ২৮ + ২৫ - ১ = ৫২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-048",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 4th from the left and B is 16th from the right. After they interchange places, A becomes 18th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৪ তম আৰু B সোঁফালৰ পৰা ১৬ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ১৮ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 18 + 16 - 1 = 33.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ১৮ + ১৬ - ১ = ৩৩।"
+    }
+  },
+  {
+    "id": "num-order-ranking-049",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 13th from the left and B is 12th from the right. After they interchange places, A becomes 21th from the left. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ১৩ তম আৰু B সোঁফালৰ পৰা ১২ তম। স্থান সলনি কৰাৰ পিছত A বাওঁফালৰ পৰা ২১ তম হয়। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's new position from the left is B's old position, so total = 21 + 12 - 1 = 32.",
+      "as": "A ৰ নতুন স্থান = B ৰ পুৰণি স্থান; মুঠ = ২১ + ১২ - ১ = ৩২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-050",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 40 people, A is 15th from the left. What is his position from the right?",
+      "as": "৪০ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৫ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 40 - 15 + 1 = 26.",
+      "as": "সোঁফালৰ পৰা স্থান = ৪০ - ১৫ + ১ = ২৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-051",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 50 people, A is 22th from the left. What is his position from the right?",
+      "as": "৫০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২২ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 50 - 22 + 1 = 29.",
+      "as": "সোঁফালৰ পৰা স্থান = ৫০ - ২২ + ১ = ২৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-052",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 36 people, A is 9th from the left. What is his position from the right?",
+      "as": "৩৬ জনৰ শাৰীত A বাওঁফালৰ পৰা ৯ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 36 - 9 + 1 = 28.",
+      "as": "সোঁফালৰ পৰা স্থান = ৩৬ - ৯ + ১ = ২৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-053",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 45 people, A is 30th from the left. What is his position from the right?",
+      "as": "৪৫ জনৰ শাৰীত A বাওঁফালৰ পৰা ৩০ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 45 - 30 + 1 = 16.",
+      "as": "সোঁফালৰ পৰা স্থান = ৪৫ - ৩০ + ১ = ১৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-054",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 60 people, A is 41th from the left. What is his position from the right?",
+      "as": "৬০ জনৰ শাৰীত A বাওঁফালৰ পৰা ৪১ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 60 - 41 + 1 = 20.",
+      "as": "সোঁফালৰ পৰা স্থান = ৬০ - ৪১ + ১ = ২০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-055",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 55 people, A is 17th from the left. What is his position from the right?",
+      "as": "৫৫ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৭ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 55 - 17 + 1 = 39.",
+      "as": "সোঁফালৰ পৰা স্থান = ৫৫ - ১৭ + ১ = ৩৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-056",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 48 people, A is 24th from the left. What is his position from the right?",
+      "as": "৪৮ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৪ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 48 - 24 + 1 = 25.",
+      "as": "সোঁফালৰ পৰা স্থান = ৪৮ - ২৪ + ১ = ২৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-057",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 70 people, A is 35th from the left. What is his position from the right?",
+      "as": "৭০ জনৰ শাৰীত A বাওঁফালৰ পৰা ৩৫ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 70 - 35 + 1 = 36.",
+      "as": "সোঁফালৰ পৰা স্থান = ৭০ - ৩৫ + ১ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-058",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 32 people, A is 8th from the left. What is his position from the right?",
+      "as": "৩২ জনৰ শাৰীত A বাওঁফালৰ পৰা ৮ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 32 - 8 + 1 = 25.",
+      "as": "সোঁফালৰ পৰা স্থান = ৩২ - ৮ + ১ = ২৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-059",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 64 people, A is 50th from the left. What is his position from the right?",
+      "as": "৬৪ জনৰ শাৰীত A বাওঁফালৰ পৰা ৫০ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 64 - 50 + 1 = 15.",
+      "as": "সোঁফালৰ পৰা স্থান = ৬৪ - ৫০ + ১ = ১৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-060",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 28 people, A is 13th from the left. What is his position from the right?",
+      "as": "২৮ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৩ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 28 - 13 + 1 = 16.",
+      "as": "সোঁফালৰ পৰা স্থান = ২৮ - ১৩ + ১ = ১৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-061",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 80 people, A is 27th from the left. What is his position from the right?",
+      "as": "৮০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৭ তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Position from right = total - position from left + 1 = 80 - 27 + 1 = 54.",
+      "as": "সোঁফালৰ পৰা স্থান = ৮০ - ২৭ + ১ = ৫৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-062",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 45 students, Sita is 20th from the bottom. What is her rank from the top?",
+      "as": "৪৫ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ২০ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 45 - 20 + 1 = 26.",
+      "as": "ওপৰৰ পৰা স্থান = ৪৫ - ২০ + ১ = ২৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-063",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 60 students, Sita is 17th from the bottom. What is her rank from the top?",
+      "as": "৬০ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ১৭ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 60 - 17 + 1 = 44.",
+      "as": "ওপৰৰ পৰা স্থান = ৬০ - ১৭ + ১ = ৪৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-064",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 38 students, Sita is 25th from the bottom. What is her rank from the top?",
+      "as": "৩৮ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ২৫ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 38 - 25 + 1 = 14.",
+      "as": "ওপৰৰ পৰা স্থান = ৩৮ - ২৫ + ১ = ১৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-065",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 52 students, Sita is 9th from the bottom. What is her rank from the top?",
+      "as": "৫২ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ৯ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 52 - 9 + 1 = 44.",
+      "as": "ওপৰৰ পৰা স্থান = ৫২ - ৯ + ১ = ৪৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-066",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 70 students, Sita is 44th from the bottom. What is her rank from the top?",
+      "as": "৭০ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ৪৪ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 70 - 44 + 1 = 27.",
+      "as": "ওপৰৰ পৰা স্থান = ৭০ - ৪৪ + ১ = ২৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-067",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a class of 33 students, Sita is 12th from the bottom. What is her rank from the top?",
+      "as": "৩৩ জন ছাত্ৰৰ শ্ৰেণীত সীতা তলৰ পৰা ১২ তম। ওপৰৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rank from top = total - rank from bottom + 1 = 33 - 12 + 1 = 22.",
+      "as": "ওপৰৰ পৰা স্থান = ৩৩ - ১২ + ১ = ২২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-068",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 5th from the left and B is 8th from the right, and there are 3 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৫ তম, B সোঁফালৰ পৰা ৮ তম আৰু তেওঁলোকৰ মাজত ৩ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 5 + 8 + 3 = 16.",
+      "as": "মুঠ = ৫ + ৮ + ৩ = ১৬।"
+    }
+  },
+  {
+    "id": "num-order-ranking-069",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 4th from the left and B is 10th from the right, and there are 5 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৪ তম, B সোঁফালৰ পৰা ১০ তম আৰু তেওঁলোকৰ মাজত ৫ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 4 + 10 + 5 = 19.",
+      "as": "মুঠ = ৪ + ১০ + ৫ = ১৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-070",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 7th from the left and B is 6th from the right, and there are 2 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৭ তম, B সোঁফালৰ পৰা ৬ তম আৰু তেওঁলোকৰ মাজত ২ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 7 + 6 + 2 = 15.",
+      "as": "মুঠ = ৭ + ৬ + ২ = ১৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-071",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 3th from the left and B is 12th from the right, and there are 6 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৩ তম, B সোঁফালৰ পৰা ১২ তম আৰু তেওঁলোকৰ মাজত ৬ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 3 + 12 + 6 = 21.",
+      "as": "মুঠ = ৩ + ১২ + ৬ = ২১।"
+    }
+  },
+  {
+    "id": "num-order-ranking-072",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 9th from the left and B is 5th from the right, and there are 4 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৯ তম, B সোঁফালৰ পৰা ৫ তম আৰু তেওঁলোকৰ মাজত ৪ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 9 + 5 + 4 = 18.",
+      "as": "মুঠ = ৯ + ৫ + ৪ = ১৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-073",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row, A is 6th from the left and B is 9th from the right, and there are 2 people between them. How many people are in the row?",
+      "as": "এটা শাৰীত A বাওঁফালৰ পৰা ৬ তম, B সোঁফালৰ পৰা ৯ তম আৰু তেওঁলোকৰ মাজত ২ জন আছে। শাৰীত মুঠ কিমান জন?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = left rank + right rank + people between = 6 + 9 + 2 = 17.",
+      "as": "মুঠ = ৬ + ৯ + ২ = ১৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-074",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 50 people, A is 18th from the left. B is 5 places to the right of A. What is B's position from the left?",
+      "as": "৫০ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৮ তম। B, A ৰ ৫ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B's position = 18 + 5 = 23 from the left.",
+      "as": "B ৰ স্থান = ১৮ + ৫ = ২৩।"
+    }
+  },
+  {
+    "id": "num-order-ranking-075",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 60 people, A is 12th from the left. B is 7 places to the right of A. What is B's position from the left?",
+      "as": "৬০ জনৰ শাৰীত A বাওঁফালৰ পৰা ১২ তম। B, A ৰ ৭ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B's position = 12 + 7 = 19 from the left.",
+      "as": "B ৰ স্থান = ১২ + ৭ = ১৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-076",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 45 people, A is 20th from the left. B is 4 places to the right of A. What is B's position from the left?",
+      "as": "৪৫ জনৰ শাৰীত A বাওঁফালৰ পৰা ২০ তম। B, A ৰ ৪ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B's position = 20 + 4 = 24 from the left.",
+      "as": "B ৰ স্থান = ২০ + ৪ = ২৪।"
+    }
+  },
+  {
+    "id": "num-order-ranking-077",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 70 people, A is 25th from the left. B is 10 places to the right of A. What is B's position from the left?",
+      "as": "৭০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৫ তম। B, A ৰ ১০ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B's position = 25 + 10 = 35 from the left.",
+      "as": "B ৰ স্থান = ২৫ + ১০ = ৩৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-078",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 40 people, A is 9th from the left. B is 6 places to the right of A. What is B's position from the left?",
+      "as": "৪০ জনৰ শাৰীত A বাওঁফালৰ পৰা ৯ তম। B, A ৰ ৬ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B's position = 9 + 6 = 15 from the left.",
+      "as": "B ৰ স্থান = ৯ + ৬ = ১৫।"
+    }
+  },
+  {
+    "id": "num-order-ranking-079",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 55 people, A is 30th from the left. B is 8 places to the right of A. What is B's position from the left?",
+      "as": "৫৫ জনৰ শাৰীত A বাওঁফালৰ পৰা ৩০ তম। B, A ৰ ৮ স্থান সোঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B's position = 30 + 8 = 38 from the left.",
+      "as": "B ৰ স্থান = ৩০ + ৮ = ৩৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-080",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 50 people, A is 25th from the left. B is 6 places to the left of A. What is B's position from the left?",
+      "as": "৫০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৫ তম। B, A ৰ ৬ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B's position = 25 - 6 = 19 from the left.",
+      "as": "B ৰ স্থান = ২৫ - ৬ = ১৯।"
+    }
+  },
+  {
+    "id": "num-order-ranking-081",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 48 people, A is 30th from the left. B is 8 places to the left of A. What is B's position from the left?",
+      "as": "৪৮ জনৰ শাৰীত A বাওঁফালৰ পৰা ৩০ তম। B, A ৰ ৮ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B's position = 30 - 8 = 22 from the left.",
+      "as": "B ৰ স্থান = ৩০ - ৮ = ২২।"
+    }
+  },
+  {
+    "id": "num-order-ranking-082",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 60 people, A is 22th from the left. B is 5 places to the left of A. What is B's position from the left?",
+      "as": "৬০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২২ তম। B, A ৰ ৫ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B's position = 22 - 5 = 17 from the left.",
+      "as": "B ৰ স্থান = ২২ - ৫ = ১৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-083",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 42 people, A is 18th from the left. B is 7 places to the left of A. What is B's position from the left?",
+      "as": "৪২ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৮ তম। B, A ৰ ৭ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B's position = 18 - 7 = 11 from the left.",
+      "as": "B ৰ স্থান = ১৮ - ৭ = ১১।"
+    }
+  },
+  {
+    "id": "num-order-ranking-084",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 64 people, A is 40th from the left. B is 12 places to the left of A. What is B's position from the left?",
+      "as": "৬৪ জনৰ শাৰীত A বাওঁফালৰ পৰা ৪০ তম। B, A ৰ ১২ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B's position = 40 - 12 = 28 from the left.",
+      "as": "B ৰ স্থান = ৪০ - ১২ = ২৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-085",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In a row of 36 people, A is 21th from the left. B is 4 places to the left of A. What is B's position from the left?",
+      "as": "৩৬ জনৰ শাৰীত A বাওঁফালৰ পৰা ২১ তম। B, A ৰ ৪ স্থান বাওঁফালে। বাওঁফালৰ পৰা B ৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B's position = 21 - 4 = 17 from the left.",
+      "as": "B ৰ স্থান = ২১ - ৪ = ১৭।"
+    }
+  },
+  {
+    "id": "num-order-ranking-086",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In row A of 20 people, X is 8th from the left. In row B of 25 people, Y is 6th from the right. How many people are to the right of X and to the left of Y together?",
+      "as": "A শাৰীত ২০ জনৰ ভিতৰত X বাওঁফালৰ পৰা ৮ তম। B শাৰীত ২৫ জনৰ ভিতৰত Y সোঁফালৰ পৰা ৬ তম। X ৰ সোঁফালে আৰু Y ৰ বাওঁফালে থকা লোকৰ মুঠ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Right of X = 20 - 8 = 12; left of Y = 25 - 6 = 19; total = 31.",
+      "as": "X ৰ সোঁফালে ১২, Y ৰ বাওঁফালে ১৯; মুঠ ৩১।"
+    }
+  },
+  {
+    "id": "num-order-ranking-087",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In row A of 30 people, X is 12th from the left. In row B of 35 people, Y is 15th from the right. How many people are to the right of X and to the left of Y together?",
+      "as": "A শাৰীত ৩০ জনৰ ভিতৰত X বাওঁফালৰ পৰা ১২ তম। B শাৰীত ৩৫ জনৰ ভিতৰত Y সোঁফালৰ পৰা ১৫ তম। X ৰ সোঁফালে আৰু Y ৰ বাওঁফালে থকা লোকৰ মুঠ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Right of X = 30 - 12 = 18; left of Y = 35 - 15 = 20; total = 38.",
+      "as": "X ৰ সোঁফালে ১৮, Y ৰ বাওঁফালে ২০; মুঠ ৩৮।"
+    }
+  },
+  {
+    "id": "num-order-ranking-088",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In row A of 24 people, X is 10th from the left. In row B of 28 people, Y is 12th from the right. How many people are to the right of X and to the left of Y together?",
+      "as": "A শাৰীত ২৪ জনৰ ভিতৰত X বাওঁফালৰ পৰা ১০ তম। B শাৰীত ২৮ জনৰ ভিতৰত Y সোঁফালৰ পৰা ১২ তম। X ৰ সোঁফালে আৰু Y ৰ বাওঁফালে থকা লোকৰ মুঠ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Right of X = 24 - 10 = 14; left of Y = 28 - 12 = 16; total = 30.",
+      "as": "X ৰ সোঁফালে ১৪, Y ৰ বাওঁফালে ১৬; মুঠ ৩০।"
+    }
+  },
+  {
+    "id": "num-order-ranking-089",
+    "leaf": "order-ranking",
+    "q": {
+      "en": "In row A of 18 people, X is 5th from the left. In row B of 22 people, Y is 9th from the right. How many people are to the right of X and to the left of Y together?",
+      "as": "A শাৰীত ১৮ জনৰ ভিতৰত X বাওঁফালৰ পৰা ৫ তম। B শাৰীত ২২ জনৰ ভিতৰত Y সোঁফালৰ পৰা ৯ তম। X ৰ সোঁফালে আৰু Y ৰ বাওঁফালে থকা লোকৰ মুঠ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Right of X = 18 - 5 = 13; left of Y = 22 - 9 = 13; total = 26.",
+      "as": "X ৰ সোঁফালে ১৩, Y ৰ বাওঁফালে ১৩; মুঠ ২৬।"
+    }
+  }
+]

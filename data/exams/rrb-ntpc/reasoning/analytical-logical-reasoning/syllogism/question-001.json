@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "syllogism-001",
+    "q": {
+      "en": "Statements: All tigers are carnivores. Some carnivores are animals. No animals are living things. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। কিছু মাংসভোজী প্ৰাণী। কোনো প্ৰাণী জীৱ নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All animals are tigers",
+        "as": "সকলো প্ৰাণী বাঘ"
+      },
+      {
+        "en": "All living things are tigers",
+        "as": "সকলো জীৱ বাঘ"
+      },
+      {
+        "en": "Some animals are carnivores",
+        "as": "কিছু প্ৰাণী মাংসভোজী"
+      },
+      {
+        "en": "Some carnivores are not tigers",
+        "as": "কিছু মাংসভোজী বাঘ নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some animals are carnivores” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু প্ৰাণী মাংসভোজী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-002",
+    "q": {
+      "en": "Statements: All pens are stationery. Some stationery are objects. No objects are things. Therefore:",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। কিছু লেখাসামগ্ৰী বস্তু। কোনো বস্তু সামগ্ৰী নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All objects are stationery",
+        "as": "সকলো বস্তু লেখাসামগ্ৰী"
+      },
+      {
+        "en": "All stationery are objects",
+        "as": "সকলো লেখাসামগ্ৰী বস্তু"
+      },
+      {
+        "en": "All pens are objects",
+        "as": "সকলো কলম বস্তু"
+      },
+      {
+        "en": "Some stationery are pens",
+        "as": "কিছু লেখাসামগ্ৰী কলম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some stationery are pens” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু লেখাসামগ্ৰী কলম” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-003",
+    "q": {
+      "en": "Statements: All doctors are professionals. All professionals are workers. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: সকলো ডাক্তৰ পেছাদাৰী। সকলো পেছাদাৰী কৰ্মী। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some professionals are not workers",
+        "as": "কিছু পেছাদাৰী কৰ্মী নহয়"
+      },
+      {
+        "en": "No workers are professionals",
+        "as": "কোনো কৰ্মী পেছাদাৰী নহয়"
+      },
+      {
+        "en": "Some workers are not professionals",
+        "as": "কিছু কৰ্মী পেছাদাৰী নহয়"
+      },
+      {
+        "en": "No professionals are workers",
+        "as": "কোনো পেছাদাৰী কৰ্মী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Some workers are not professionals” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু কৰ্মী পেছাদাৰী নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-004",
+    "q": {
+      "en": "Statements: All roses are flowers. All plants are flowers. Conclusions: I. No flowers are roses  II. No roses are plants",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। সকলো উদ্ভিদ ফুল। সিদ্ধান্ত: I. কোনো ফুল গোলাপ নহয়  II. কোনো গোলাপ উদ্ভিদ নহয়"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-005",
+    "q": {
+      "en": "Statements: Some mangoes are fruits. All food are fruits. Therefore:",
+      "as": "বিবৃতি: কিছু আম ফল। সকলো খাদ্য ফল। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some fruits are not food",
+        "as": "কিছু ফল খাদ্য নহয়"
+      },
+      {
+        "en": "No food are fruits",
+        "as": "কোনো খাদ্য ফল নহয়"
+      },
+      {
+        "en": "Some fruits are food",
+        "as": "কিছু ফল খাদ্য"
+      },
+      {
+        "en": "No mangoes are fruits",
+        "as": "কোনো আম ফল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some fruits are food” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু ফল খাদ্য” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-006",
+    "q": {
+      "en": "Statements: All pens are stationery. All stationery are objects. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। সকলো লেখাসামগ্ৰী বস্তু। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some objects are not stationery",
+        "as": "কিছু বস্তু লেখাসামগ্ৰী নহয়"
+      },
+      {
+        "en": "Some pens are not objects",
+        "as": "কিছু কলম বস্তু নহয়"
+      },
+      {
+        "en": "Some stationery are not objects",
+        "as": "কিছু লেখাসামগ্ৰী বস্তু নহয়"
+      },
+      {
+        "en": "No objects are stationery",
+        "as": "কোনো বস্তু লেখাসামগ্ৰী নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“Some objects are not stationery” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু বস্তু লেখাসামগ্ৰী নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-007",
+    "q": {
+      "en": "Statements: No mangoes are fruits. Some fruits are food. Therefore:",
+      "as": "বিবৃতি: কোনো আম ফল নহয়। কিছু ফল খাদ্য। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some food are mangoes",
+        "as": "কিছু খাদ্য আম"
+      },
+      {
+        "en": "Some food are not mangoes",
+        "as": "কিছু খাদ্য আম নহয়"
+      },
+      {
+        "en": "All mangoes are food",
+        "as": "সকলো আম খাদ্য"
+      },
+      {
+        "en": "No food are mangoes",
+        "as": "কোনো খাদ্য আম নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some food are not mangoes” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু খাদ্য আম নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-008",
+    "q": {
+      "en": "Statements: No cars are vehicles. Some vehicles are machines. Therefore:",
+      "as": "বিবৃতি: কোনো গাড়ী যানবাহন নহয়। কিছু যানবাহন যন্ত্ৰ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All machines are cars",
+        "as": "সকলো যন্ত্ৰ গাড়ী"
+      },
+      {
+        "en": "All cars are vehicles",
+        "as": "সকলো গাড়ী যানবাহন"
+      },
+      {
+        "en": "Some cars are not vehicles",
+        "as": "কিছু গাড়ী যানবাহন নহয়"
+      },
+      {
+        "en": "All machines are vehicles",
+        "as": "সকলো যন্ত্ৰ যানবাহন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some cars are not vehicles” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু গাড়ী যানবাহন নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-009",
+    "q": {
+      "en": "Statements: All roses are flowers. Some flowers are plants. Therefore:",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছু ফুল উদ্ভিদ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All roses are flowers",
+        "as": "সকলো গোলাপ ফুল"
+      },
+      {
+        "en": "All roses are plants",
+        "as": "সকলো গোলাপ উদ্ভিদ"
+      },
+      {
+        "en": "All plants are roses",
+        "as": "সকলো উদ্ভিদ গোলাপ"
+      },
+      {
+        "en": "Some plants are not flowers",
+        "as": "কিছু উদ্ভিদ ফুল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All roses are flowers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “সকলো গোলাপ ফুল” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-010",
+    "q": {
+      "en": "Statements: All mangoes are fruits. All fruits are food. Some food are things. Therefore:",
+      "as": "বিবৃতি: সকলো আম ফল। সকলো ফল খাদ্য। কিছু খাদ্য বস্তু। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No things are mangoes",
+        "as": "কোনো বস্তু আম নহয়"
+      },
+      {
+        "en": "Some things are food",
+        "as": "কিছু বস্তু খাদ্য"
+      },
+      {
+        "en": "Some fruits are things",
+        "as": "কিছু ফল বস্তু"
+      },
+      {
+        "en": "No food are mangoes",
+        "as": "কোনো খাদ্য আম নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some things are food” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু বস্তু খাদ্য” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-011",
+    "q": {
+      "en": "Statements: All cars are vehicles. No vehicles are machines. All machines are things. Therefore:",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কোনো যানবাহন যন্ত্ৰ নহয়। সকলো যন্ত্ৰ বস্তু। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No vehicles are cars",
+        "as": "কোনো যানবাহন গাড়ী নহয়"
+      },
+      {
+        "en": "All vehicles are machines",
+        "as": "সকলো যানবাহন যন্ত্ৰ"
+      },
+      {
+        "en": "No cars are machines",
+        "as": "কোনো গাড়ী যন্ত্ৰ নহয়"
+      },
+      {
+        "en": "Some machines are not things",
+        "as": "কিছু যন্ত্ৰ বস্তু নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “No cars are machines” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কোনো গাড়ী যন্ত্ৰ নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-012",
+    "q": {
+      "en": "Statements: Some teachers are graduates. All graduates are people. Therefore:",
+      "as": "বিবৃতি: কিছু শিক্ষক স্নাতক। সকলো স্নাতক মানুহ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some people are graduates",
+        "as": "কিছু মানুহ স্নাতক"
+      },
+      {
+        "en": "No graduates are teachers",
+        "as": "কোনো স্নাতক শিক্ষক নহয়"
+      },
+      {
+        "en": "All graduates are teachers",
+        "as": "সকলো স্নাতক শিক্ষক"
+      },
+      {
+        "en": "Some people are not graduates",
+        "as": "কিছু মানুহ স্নাতক নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some people are graduates” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু মানুহ স্নাতক” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-013",
+    "q": {
+      "en": "Statements: Some mangoes are fruits. All fruits are food. Therefore:",
+      "as": "বিবৃতি: কিছু আম ফল। সকলো ফল খাদ্য। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some mangoes are not food",
+        "as": "কিছু আম খাদ্য নহয়"
+      },
+      {
+        "en": "Some fruits are food",
+        "as": "কিছু ফল খাদ্য"
+      },
+      {
+        "en": "No food are mangoes",
+        "as": "কোনো খাদ্য আম নহয়"
+      },
+      {
+        "en": "No fruits are food",
+        "as": "কোনো ফল খাদ্য নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some fruits are food” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু ফল খাদ্য” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-014",
+    "q": {
+      "en": "Statements: All tigers are carnivores. All carnivores are animals. Some animals are living things. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। সকলো মাংসভোজী প্ৰাণী। কিছু প্ৰাণী জীৱ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some tigers are animals",
+        "as": "কিছু বাঘ প্ৰাণী"
+      },
+      {
+        "en": "No carnivores are living things",
+        "as": "কোনো মাংসভোজী জীৱ নহয়"
+      },
+      {
+        "en": "Some tigers are not living things",
+        "as": "কিছু বাঘ জীৱ নহয়"
+      },
+      {
+        "en": "Some living things are tigers",
+        "as": "কিছু জীৱ বাঘ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some tigers are animals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু বাঘ প্ৰাণী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-015",
+    "q": {
+      "en": "Statements: No tigers are carnivores. All animals are carnivores. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কোনো বাঘ মাংসভোজী নহয়। সকলো প্ৰাণী মাংসভোজী। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "All tigers are carnivores",
+        "as": "সকলো বাঘ মাংসভোজী"
+      },
+      {
+        "en": "No carnivores are animals",
+        "as": "কোনো মাংসভোজী প্ৰাণী নহয়"
+      },
+      {
+        "en": "Some animals are tigers",
+        "as": "কিছু প্ৰাণী বাঘ"
+      },
+      {
+        "en": "All carnivores are animals",
+        "as": "সকলো মাংসভোজী প্ৰাণী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“All carnivores are animals” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“সকলো মাংসভোজী প্ৰাণী” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-016",
+    "q": {
+      "en": "Statements: All teachers are graduates. Some people are not graduates. Conclusions: I. No teachers are people  II. Some people are not graduates",
+      "as": "বিবৃতি: সকলো শিক্ষক স্নাতক। কিছু মানুহ স্নাতক নহয়। সিদ্ধান্ত: I. কোনো শিক্ষক মানুহ নহয়  II. কিছু মানুহ স্নাতক নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-017",
+    "q": {
+      "en": "Statements: All roses are flowers. Some flowers are plants. No plants are living things. Therefore:",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছু ফুল উদ্ভিদ। কোনো উদ্ভিদ জীৱ নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some plants are not living things",
+        "as": "কিছু উদ্ভিদ জীৱ নহয়"
+      },
+      {
+        "en": "Some plants are not flowers",
+        "as": "কিছু উদ্ভিদ ফুল নহয়"
+      },
+      {
+        "en": "All plants are roses",
+        "as": "সকলো উদ্ভিদ গোলাপ"
+      },
+      {
+        "en": "Some living things are not flowers",
+        "as": "কিছু জীৱ ফুল নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some plants are not living things” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু উদ্ভিদ জীৱ নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-018",
+    "q": {
+      "en": "Statements: Some tigers are carnivores. All animals are carnivores. Conclusions: I. All animals are carnivores  II. Some carnivores are not animals",
+      "as": "বিবৃতি: কিছু বাঘ মাংসভোজী। সকলো প্ৰাণী মাংসভোজী। সিদ্ধান্ত: I. সকলো প্ৰাণী মাংসভোজী  II. কিছু মাংসভোজী প্ৰাণী নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is not necessarily true, so “Only conclusion I follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কেৱল সিদ্ধান্ত I অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-019",
+    "q": {
+      "en": "Statements: All roses are flowers. All flowers are plants. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। সকলো ফুল উদ্ভিদ। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "No roses are flowers",
+        "as": "কোনো গোলাপ ফুল নহয়"
+      },
+      {
+        "en": "No plants are flowers",
+        "as": "কোনো উদ্ভিদ ফুল নহয়"
+      },
+      {
+        "en": "Some plants are not flowers",
+        "as": "কিছু উদ্ভিদ ফুল নহয়"
+      },
+      {
+        "en": "No flowers are plants",
+        "as": "কোনো ফুল উদ্ভিদ নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Some plants are not flowers” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু উদ্ভিদ ফুল নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-020",
+    "q": {
+      "en": "Statements: Some teachers are graduates. No graduates are people. Therefore:",
+      "as": "বিবৃতি: কিছু শিক্ষক স্নাতক। কোনো স্নাতক মানুহ নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some people are graduates",
+        "as": "কিছু মানুহ স্নাতক"
+      },
+      {
+        "en": "All graduates are teachers",
+        "as": "সকলো স্নাতক শিক্ষক"
+      },
+      {
+        "en": "Some teachers are not people",
+        "as": "কিছু শিক্ষক মানুহ নহয়"
+      },
+      {
+        "en": "Some teachers are not graduates",
+        "as": "কিছু শিক্ষক স্নাতক নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some teachers are not people” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু শিক্ষক মানুহ নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-021",
+    "q": {
+      "en": "Statements: All roses are flowers. All plants are flowers. Therefore:",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। সকলো উদ্ভিদ ফুল। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No plants are roses",
+        "as": "কোনো উদ্ভিদ গোলাপ নহয়"
+      },
+      {
+        "en": "No roses are flowers",
+        "as": "কোনো গোলাপ ফুল নহয়"
+      },
+      {
+        "en": "Some roses are flowers",
+        "as": "কিছু গোলাপ ফুল"
+      },
+      {
+        "en": "No plants are flowers",
+        "as": "কোনো উদ্ভিদ ফুল নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some roses are flowers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু গোলাপ ফুল” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-022",
+    "q": {
+      "en": "Statements: No cars are vehicles. No machines are vehicles. Conclusions: I. All cars are vehicles  II. Some cars are machines",
+      "as": "বিবৃতি: কোনো গাড়ী যানবাহন নহয়। কোনো যন্ত্ৰ যানবাহন নহয়। সিদ্ধান্ত: I. সকলো গাড়ী যানবাহন  II. কিছু গাড়ী যন্ত্ৰ"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-023",
+    "q": {
+      "en": "Statements: All dogs are mammals. Some mammals are animals. Conclusions: I. No mammals are dogs  II. All animals are mammals",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কিছু স্তন্যপায়ী প্ৰাণী। সিদ্ধান্ত: I. কোনো স্তন্যপায়ী কুকুৰ নহয়  II. সকলো প্ৰাণী স্তন্যপায়ী"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-024",
+    "q": {
+      "en": "Statements: All roses are flowers. No flowers are plants. All plants are living things. Therefore:",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কোনো ফুল উদ্ভিদ নহয়। সকলো উদ্ভিদ জীৱ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All plants are living things",
+        "as": "সকলো উদ্ভিদ জীৱ"
+      },
+      {
+        "en": "No plants are living things",
+        "as": "কোনো উদ্ভিদ জীৱ নহয়"
+      },
+      {
+        "en": "No living things are flowers",
+        "as": "কোনো জীৱ ফুল নহয়"
+      },
+      {
+        "en": "No living things are plants",
+        "as": "কোনো জীৱ উদ্ভিদ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All plants are living things” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “সকলো উদ্ভিদ জীৱ” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-025",
+    "q": {
+      "en": "Statements: All cars are vehicles. Some vehicles are machines. Conclusions: I. All vehicles are cars  II. All machines are vehicles",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কিছু যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. সকলো যানবাহন গাড়ী  II. সকলো যন্ত্ৰ যানবাহন"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-026",
+    "q": {
+      "en": "Statements: All cars are vehicles. Some vehicles are machines. No machines are things. Therefore:",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কিছু যানবাহন যন্ত্ৰ। কোনো যন্ত্ৰ বস্তু নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some machines are vehicles",
+        "as": "কিছু যন্ত্ৰ যানবাহন"
+      },
+      {
+        "en": "All things are machines",
+        "as": "সকলো বস্তু যন্ত্ৰ"
+      },
+      {
+        "en": "Some cars are machines",
+        "as": "কিছু গাড়ী যন্ত্ৰ"
+      },
+      {
+        "en": "All vehicles are cars",
+        "as": "সকলো যানবাহন গাড়ী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some machines are vehicles” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু যন্ত্ৰ যানবাহন” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-027",
+    "q": {
+      "en": "Statements: Some tigers are carnivores. All carnivores are animals. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কিছু বাঘ মাংসভোজী। সকলো মাংসভোজী প্ৰাণী। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some animals are not tigers",
+        "as": "কিছু প্ৰাণী বাঘ নহয়"
+      },
+      {
+        "en": "No animals are carnivores",
+        "as": "কোনো প্ৰাণী মাংসভোজী নহয়"
+      },
+      {
+        "en": "No animals are tigers",
+        "as": "কোনো প্ৰাণী বাঘ নহয়"
+      },
+      {
+        "en": "No carnivores are animals",
+        "as": "কোনো মাংসভোজী প্ৰাণী নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“Some animals are not tigers” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু প্ৰাণী বাঘ নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-028",
+    "q": {
+      "en": "Statements: All chairs are furniture. All furniture are wooden. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: সকলো চকী আচবাব। সকলো আচবাব কাঠৰ। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "All wooden things are furniture",
+        "as": "সকলো কাঠৰ বস্তু আচবাব"
+      },
+      {
+        "en": "No wooden things are furniture",
+        "as": "কোনো কাঠৰ বস্তু আচবাব নহয়"
+      },
+      {
+        "en": "Some chairs are not furniture",
+        "as": "কিছু চকী আচবাব নহয়"
+      },
+      {
+        "en": "No furniture are wooden",
+        "as": "কোনো আচবাব কাঠৰ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“All wooden things are furniture” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“সকলো কাঠৰ বস্তু আচবাব” বিবৃতিবোৰৰ সৈতে সংগত, আনহাতে আন প্ৰতিটো বিকল্প প্ৰতিটো আৰ্হিত খণ্ডিত।"
+    }
+  },
+  {
+    "id": "syllogism-029",
+    "q": {
+      "en": "Statements: Some pens are stationery. All stationery are objects. All objects are things. Therefore:",
+      "as": "বিবৃতি: কিছু কলম লেখাসামগ্ৰী। সকলো লেখাসামগ্ৰী বস্তু। সকলো বস্তু সামগ্ৰী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No things are stationery",
+        "as": "কোনো সামগ্ৰী লেখাসামগ্ৰী নহয়"
+      },
+      {
+        "en": "No stationery are things",
+        "as": "কোনো লেখাসামগ্ৰী সামগ্ৰী নহয়"
+      },
+      {
+        "en": "All things are stationery",
+        "as": "সকলো সামগ্ৰী লেখাসামগ্ৰী"
+      },
+      {
+        "en": "Some things are objects",
+        "as": "কিছু সামগ্ৰী বস্তু"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some things are objects” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু সামগ্ৰী বস্তু” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-030",
+    "q": {
+      "en": "Statements: All tigers are carnivores. All animals are carnivores. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। সকলো প্ৰাণী মাংসভোজী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All tigers are animals",
+        "as": "সকলো বাঘ প্ৰাণী"
+      },
+      {
+        "en": "Some carnivores are animals",
+        "as": "কিছু মাংসভোজী প্ৰাণী"
+      },
+      {
+        "en": "Some animals are not tigers",
+        "as": "কিছু প্ৰাণী বাঘ নহয়"
+      },
+      {
+        "en": "Some animals are tigers",
+        "as": "কিছু প্ৰাণী বাঘ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some carnivores are animals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু মাংসভোজী প্ৰাণী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-031",
+    "q": {
+      "en": "Statements: All teachers are graduates. No graduates are people. Conclusions: I. Some graduates are not teachers  II. No teachers are graduates",
+      "as": "বিবৃতি: সকলো শিক্ষক স্নাতক। কোনো স্নাতক মানুহ নহয়। সিদ্ধান্ত: I. কিছু স্নাতক শিক্ষক নহয়  II. কোনো শিক্ষক স্নাতক নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-032",
+    "q": {
+      "en": "Statements: No reptiles are mammals. Some mammals are aquatic. Therefore:",
+      "as": "বিবৃতি: কোনো সৰীসৃপ স্তন্যপায়ী নহয়। কিছু স্তন্যপায়ী জলজ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All mammals are reptiles",
+        "as": "সকলো স্তন্যপায়ী সৰীসৃপ"
+      },
+      {
+        "en": "Some mammals are not reptiles",
+        "as": "কিছু স্তন্যপায়ী সৰীসৃপ নহয়"
+      },
+      {
+        "en": "All reptiles are aquatic",
+        "as": "সকলো সৰীসৃপ জলজ"
+      },
+      {
+        "en": "All aquatic are reptiles",
+        "as": "সকলো জলজ সৰীসৃপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some mammals are not reptiles” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু স্তন্যপায়ী সৰীসৃপ নহয়” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-033",
+    "q": {
+      "en": "Statements: Some roses are flowers. No flowers are plants. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। কোনো ফুল উদ্ভিদ নহয়। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some flowers are plants",
+        "as": "কিছু ফুল উদ্ভিদ"
+      },
+      {
+        "en": "All plants are roses",
+        "as": "সকলো উদ্ভিদ গোলাপ"
+      },
+      {
+        "en": "No flowers are roses",
+        "as": "কোনো ফুল গোলাপ নহয়"
+      },
+      {
+        "en": "All flowers are plants",
+        "as": "সকলো ফুল উদ্ভিদ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“All plants are roses” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“সকলো উদ্ভিদ গোলাপ” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-034",
+    "q": {
+      "en": "Statements: Some roses are flowers. All flowers are plants. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। সকলো ফুল উদ্ভিদ। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "No flowers are plants",
+        "as": "কোনো ফুল উদ্ভিদ নহয়"
+      },
+      {
+        "en": "No flowers are roses",
+        "as": "কোনো ফুল গোলাপ নহয়"
+      },
+      {
+        "en": "No roses are plants",
+        "as": "কোনো গোলাপ উদ্ভিদ নহয়"
+      },
+      {
+        "en": "All plants are roses",
+        "as": "সকলো উদ্ভিদ গোলাপ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“All plants are roses” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“সকলো উদ্ভিদ গোলাপ” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-035",
+    "q": {
+      "en": "Statements: Some roses are flowers. All flowers are plants. Therefore:",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। সকলো ফুল উদ্ভিদ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No plants are roses",
+        "as": "কোনো উদ্ভিদ গোলাপ নহয়"
+      },
+      {
+        "en": "Some flowers are not plants",
+        "as": "কিছু ফুল উদ্ভিদ নহয়"
+      },
+      {
+        "en": "All plants are roses",
+        "as": "সকলো উদ্ভিদ গোলাপ"
+      },
+      {
+        "en": "Some flowers are roses",
+        "as": "কিছু ফুল গোলাপ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some flowers are roses” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু ফুল গোলাপ” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-036",
+    "q": {
+      "en": "Statements: All sparrows are birds. No birds are reptiles. All reptiles are cold-blooded. Therefore:",
+      "as": "বিবৃতি: সকলো চৰাই পক্ষী। কোনো পক্ষী সৰীসৃপ নহয়। সকলো সৰীসৃপ শীতলৰক্তী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No cold-blooded are reptiles",
+        "as": "কোনো শীতলৰক্তী সৰীসৃপ নহয়"
+      },
+      {
+        "en": "No birds are sparrows",
+        "as": "কোনো পক্ষী চৰাই নহয়"
+      },
+      {
+        "en": "Some birds are sparrows",
+        "as": "কিছু পক্ষী চৰাই"
+      },
+      {
+        "en": "Some sparrows are not birds",
+        "as": "কিছু চৰাই পক্ষী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some birds are sparrows” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু পক্ষী চৰাই” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-037",
+    "q": {
+      "en": "Statements: Some cars are vehicles. No vehicles are machines. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কিছু গাড়ী যানবাহন। কোনো যানবাহন যন্ত্ৰ নহয়। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "All machines are vehicles",
+        "as": "সকলো যন্ত্ৰ যানবাহন"
+      },
+      {
+        "en": "All vehicles are cars",
+        "as": "সকলো যানবাহন গাড়ী"
+      },
+      {
+        "en": "All cars are machines",
+        "as": "সকলো গাড়ী যন্ত্ৰ"
+      },
+      {
+        "en": "Some vehicles are machines",
+        "as": "কিছু যানবাহন যন্ত্ৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“All vehicles are cars” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“সকলো যানবাহন গাড়ী” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-038",
+    "q": {
+      "en": "Statements: All dogs are mammals. Some animals are mammals. Therefore:",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কিছু প্ৰাণী স্তন্যপায়ী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No animals are mammals",
+        "as": "কোনো প্ৰাণী স্তন্যপায়ী নহয়"
+      },
+      {
+        "en": "Some mammals are not animals",
+        "as": "কিছু স্তন্যপায়ী প্ৰাণী নহয়"
+      },
+      {
+        "en": "Some animals are not dogs",
+        "as": "কিছু প্ৰাণী কুকুৰ নহয়"
+      },
+      {
+        "en": "Some mammals are animals",
+        "as": "কিছু স্তন্যপায়ী প্ৰাণী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some mammals are animals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু স্তন্যপায়ী প্ৰাণী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-039",
+    "q": {
+      "en": "Statements: All doctors are professionals. No professionals are workers. Therefore:",
+      "as": "বিবৃতি: সকলো ডাক্তৰ পেছাদাৰী। কোনো পেছাদাৰী কৰ্মী নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All workers are doctors",
+        "as": "সকলো কৰ্মী ডাক্তৰ"
+      },
+      {
+        "en": "No professionals are workers",
+        "as": "কোনো পেছাদাৰী কৰ্মী নহয়"
+      },
+      {
+        "en": "All professionals are doctors",
+        "as": "সকলো পেছাদাৰী ডাক্তৰ"
+      },
+      {
+        "en": "Some doctors are not professionals",
+        "as": "কিছু ডাক্তৰ পেছাদাৰী নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “No professionals are workers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কোনো পেছাদাৰী কৰ্মী নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-040",
+    "q": {
+      "en": "Statements: All dogs are mammals. Some mammals are animals. Therefore:",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কিছু স্তন্যপায়ী প্ৰাণী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some mammals are animals",
+        "as": "কিছু স্তন্যপায়ী প্ৰাণী"
+      },
+      {
+        "en": "No dogs are animals",
+        "as": "কোনো কুকুৰ প্ৰাণী নহয়"
+      },
+      {
+        "en": "All dogs are animals",
+        "as": "সকলো কুকুৰ প্ৰাণী"
+      },
+      {
+        "en": "No mammals are dogs",
+        "as": "কোনো স্তন্যপায়ী কুকুৰ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some mammals are animals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু স্তন্যপায়ী প্ৰাণী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-041",
+    "q": {
+      "en": "Statements: No tigers are carnivores. All animals are carnivores. Conclusions: I. All tigers are animals  II. No tigers are animals",
+      "as": "বিবৃতি: কোনো বাঘ মাংসভোজী নহয়। সকলো প্ৰাণী মাংসভোজী। সিদ্ধান্ত: I. সকলো বাঘ প্ৰাণী  II. কোনো বাঘ প্ৰাণী নহয়"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-042",
+    "q": {
+      "en": "Statements: Some doctors are professionals. All professionals are workers. All workers are people. Therefore:",
+      "as": "বিবৃতি: কিছু ডাক্তৰ পেছাদাৰী। সকলো পেছাদাৰী কৰ্মী। সকলো কৰ্মী মানুহ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All doctors are professionals",
+        "as": "সকলো ডাক্তৰ পেছাদাৰী"
+      },
+      {
+        "en": "Some professionals are workers",
+        "as": "কিছু পেছাদাৰী কৰ্মী"
+      },
+      {
+        "en": "Some workers are not doctors",
+        "as": "কিছু কৰ্মী ডাক্তৰ নহয়"
+      },
+      {
+        "en": "Some people are not professionals",
+        "as": "কিছু মানুহ পেছাদাৰী নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some professionals are workers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু পেছাদাৰী কৰ্মী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-043",
+    "q": {
+      "en": "Statements: All cars are vehicles. Some machines are vehicles. Therefore:",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কিছু যন্ত্ৰ যানবাহন। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some cars are vehicles",
+        "as": "কিছু গাড়ী যানবাহন"
+      },
+      {
+        "en": "Some machines are not cars",
+        "as": "কিছু যন্ত্ৰ গাড়ী নহয়"
+      },
+      {
+        "en": "Some vehicles are not cars",
+        "as": "কিছু যানবাহন গাড়ী নহয়"
+      },
+      {
+        "en": "No cars are vehicles",
+        "as": "কোনো গাড়ী যানবাহন নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some cars are vehicles” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু গাড়ী যানবাহন” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-044",
+    "q": {
+      "en": "Statements: No dogs are mammals. All animals are mammals. Conclusions: I. No animals are mammals  II. Some animals are not dogs",
+      "as": "বিবৃতি: কোনো কুকুৰ স্তন্যপায়ী নহয়। সকলো প্ৰাণী স্তন্যপায়ী। সিদ্ধান্ত: I. কোনো প্ৰাণী স্তন্যপায়ী নহয়  II. কিছু প্ৰাণী কুকুৰ নহয়"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-045",
+    "q": {
+      "en": "Statements: Some dogs are mammals. All animals are mammals. Conclusions: I. No dogs are mammals  II. All mammals are animals",
+      "as": "বিবৃতি: কিছু কুকুৰ স্তন্যপায়ী। সকলো প্ৰাণী স্তন্যপায়ী। সিদ্ধান্ত: I. কোনো কুকুৰ স্তন্যপায়ী নহয়  II. সকলো স্তন্যপায়ী প্ৰাণী"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-046",
+    "q": {
+      "en": "Statements: Some pens are stationery. No stationery are objects. Therefore:",
+      "as": "বিবৃতি: কিছু কলম লেখাসামগ্ৰী। কোনো লেখাসামগ্ৰী বস্তু নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All stationery are pens",
+        "as": "সকলো লেখাসামগ্ৰী কলম"
+      },
+      {
+        "en": "All objects are stationery",
+        "as": "সকলো বস্তু লেখাসামগ্ৰী"
+      },
+      {
+        "en": "Some pens are stationery",
+        "as": "কিছু কলম লেখাসামগ্ৰী"
+      },
+      {
+        "en": "Some objects are pens",
+        "as": "কিছু বস্তু কলম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some pens are stationery” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু কলম লেখাসামগ্ৰী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-047",
+    "q": {
+      "en": "Statements: Some teachers are graduates. All people are graduates. Conclusions: I. No graduates are teachers  II. Some graduates are not teachers",
+      "as": "বিবৃতি: কিছু শিক্ষক স্নাতক। সকলো মানুহ স্নাতক। সিদ্ধান্ত: I. কোনো স্নাতক শিক্ষক নহয়  II. কিছু স্নাতক শিক্ষক নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-048",
+    "q": {
+      "en": "Statements: No teachers are graduates. All people are graduates. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কোনো শিক্ষক স্নাতক নহয়। সকলো মানুহ স্নাতক। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some graduates are teachers",
+        "as": "কিছু স্নাতক শিক্ষক"
+      },
+      {
+        "en": "No people are graduates",
+        "as": "কোনো মানুহ স্নাতক নহয়"
+      },
+      {
+        "en": "All teachers are graduates",
+        "as": "সকলো শিক্ষক স্নাতক"
+      },
+      {
+        "en": "Some graduates are not people",
+        "as": "কিছু স্নাতক মানুহ নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“Some graduates are not people” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু স্নাতক মানুহ নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-049",
+    "q": {
+      "en": "Statements: No teachers are graduates. Some graduates are people. Conclusions: I. No graduates are teachers  II. No graduates are people",
+      "as": "বিবৃতি: কোনো শিক্ষক স্নাতক নহয়। কিছু স্নাতক মানুহ। সিদ্ধান্ত: I. কোনো স্নাতক শিক্ষক নহয়  II. কোনো স্নাতক মানুহ নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is not necessarily true, so “Only conclusion I follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কেৱল সিদ্ধান্ত I অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-050",
+    "q": {
+      "en": "Statements: All dogs are mammals. No mammals are animals. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কোনো স্তন্যপায়ী প্ৰাণী নহয়। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some mammals are not dogs",
+        "as": "কিছু স্তন্যপায়ী কুকুৰ নহয়"
+      },
+      {
+        "en": "All dogs are animals",
+        "as": "সকলো কুকুৰ প্ৰাণী"
+      },
+      {
+        "en": "No dogs are mammals",
+        "as": "কোনো কুকুৰ স্তন্যপায়ী নহয়"
+      },
+      {
+        "en": "All animals are mammals",
+        "as": "সকলো প্ৰাণী স্তন্যপায়ী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“Some mammals are not dogs” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু স্তন্যপায়ী কুকুৰ নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-051",
+    "q": {
+      "en": "Statements: All mangoes are fruits. All food are fruits. Therefore:",
+      "as": "বিবৃতি: সকলো আম ফল। সকলো খাদ্য ফল। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No fruits are mangoes",
+        "as": "কোনো ফল আম নহয়"
+      },
+      {
+        "en": "Some food are not mangoes",
+        "as": "কিছু খাদ্য আম নহয়"
+      },
+      {
+        "en": "All food are fruits",
+        "as": "সকলো খাদ্য ফল"
+      },
+      {
+        "en": "All fruits are mangoes",
+        "as": "সকলো ফল আম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “All food are fruits” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “সকলো খাদ্য ফল” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-052",
+    "q": {
+      "en": "Statements: Some cars are vehicles. All vehicles are machines. Conclusions: I. Some machines are not cars  II. All cars are vehicles",
+      "as": "বিবৃতি: কিছু গাড়ী যানবাহন। সকলো যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. কিছু যন্ত্ৰ গাড়ী নহয়  II. সকলো গাড়ী যানবাহন"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-053",
+    "q": {
+      "en": "Statements: Some tigers are carnivores. All animals are carnivores. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কিছু বাঘ মাংসভোজী। সকলো প্ৰাণী মাংসভোজী। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "No tigers are carnivores",
+        "as": "কোনো বাঘ মাংসভোজী নহয়"
+      },
+      {
+        "en": "No carnivores are tigers",
+        "as": "কোনো মাংসভোজী বাঘ নহয়"
+      },
+      {
+        "en": "Some tigers are not animals",
+        "as": "কিছু বাঘ প্ৰাণী নহয়"
+      },
+      {
+        "en": "Some animals are not carnivores",
+        "as": "কিছু প্ৰাণী মাংসভোজী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Some tigers are not animals” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু বাঘ প্ৰাণী নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-054",
+    "q": {
+      "en": "Statements: All pens are stationery. All stationery are objects. Conclusions: I. No objects are stationery  II. Some stationery are not pens",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। সকলো লেখাসামগ্ৰী বস্তু। সিদ্ধান্ত: I. কোনো বস্তু লেখাসামগ্ৰী নহয়  II. কিছু লেখাসামগ্ৰী কলম নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-055",
+    "q": {
+      "en": "Statements: All dogs are mammals. All mammals are animals. Therefore:",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। সকলো স্তন্যপায়ী প্ৰাণী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No dogs are animals",
+        "as": "কোনো কুকুৰ প্ৰাণী নহয়"
+      },
+      {
+        "en": "No dogs are mammals",
+        "as": "কোনো কুকুৰ স্তন্যপায়ী নহয়"
+      },
+      {
+        "en": "Some mammals are not animals",
+        "as": "কিছু স্তন্যপায়ী প্ৰাণী নহয়"
+      },
+      {
+        "en": "All mammals are animals",
+        "as": "সকলো স্তন্যপায়ী প্ৰাণী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “All mammals are animals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “সকলো স্তন্যপায়ী প্ৰাণী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-056",
+    "q": {
+      "en": "Statements: Some doctors are professionals. All professionals are workers. Conclusions: I. Some professionals are doctors  II. All professionals are workers",
+      "as": "বিবৃতি: কিছু ডাক্তৰ পেছাদাৰী। সকলো পেছাদাৰী কৰ্মী। সিদ্ধান্ত: I. কিছু পেছাদাৰী ডাক্তৰ  II. সকলো পেছাদাৰী কৰ্মী"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is necessarily true, so “Both conclusions follow”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-057",
+    "q": {
+      "en": "Statements: No doctors are professionals. All workers are professionals. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কোনো ডাক্তৰ পেছাদাৰী নহয়। সকলো কৰ্মী পেছাদাৰী। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some workers are doctors",
+        "as": "কিছু কৰ্মী ডাক্তৰ"
+      },
+      {
+        "en": "No workers are professionals",
+        "as": "কোনো কৰ্মী পেছাদাৰী নহয়"
+      },
+      {
+        "en": "Some professionals are not workers",
+        "as": "কিছু পেছাদাৰী কৰ্মী নহয়"
+      },
+      {
+        "en": "Some workers are not professionals",
+        "as": "কিছু কৰ্মী পেছাদাৰী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Some professionals are not workers” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু পেছাদাৰী কৰ্মী নহয়” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-058",
+    "q": {
+      "en": "Statements: All mangoes are fruits. No fruits are food. All food are things. Therefore:",
+      "as": "বিবৃতি: সকলো আম ফল। কোনো ফল খাদ্য নহয়। সকলো খাদ্য বস্তু। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some mangoes are things",
+        "as": "কিছু আম বস্তু"
+      },
+      {
+        "en": "All fruits are things",
+        "as": "সকলো ফল বস্তু"
+      },
+      {
+        "en": "Some food are not mangoes",
+        "as": "কিছু খাদ্য আম নহয়"
+      },
+      {
+        "en": "All fruits are food",
+        "as": "সকলো ফল খাদ্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some food are not mangoes” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু খাদ্য আম নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-059",
+    "q": {
+      "en": "Statements: All tigers are carnivores. All carnivores are animals. All animals are living things. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। সকলো মাংসভোজী প্ৰাণী। সকলো প্ৰাণী জীৱ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some carnivores are not living things",
+        "as": "কিছু মাংসভোজী জীৱ নহয়"
+      },
+      {
+        "en": "No tigers are carnivores",
+        "as": "কোনো বাঘ মাংসভোজী নহয়"
+      },
+      {
+        "en": "Some tigers are living things",
+        "as": "কিছু বাঘ জীৱ"
+      },
+      {
+        "en": "Some living things are not carnivores",
+        "as": "কিছু জীৱ মাংসভোজী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some tigers are living things” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু বাঘ জীৱ” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-060",
+    "q": {
+      "en": "Statements: All tigers are carnivores. All carnivores are predators. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। সকলো মাংসভোজী চিকাৰী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some predators are not carnivores",
+        "as": "কিছু চিকাৰী মাংসভোজী নহয়"
+      },
+      {
+        "en": "No predators are carnivores",
+        "as": "কোনো চিকাৰী মাংসভোজী নহয়"
+      },
+      {
+        "en": "Some carnivores are tigers",
+        "as": "কিছু মাংসভোজী বাঘ"
+      },
+      {
+        "en": "Some tigers are not carnivores",
+        "as": "কিছু বাঘ মাংসভোজী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some carnivores are tigers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু মাংসভোজী বাঘ” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-061",
+    "q": {
+      "en": "Statements: All pens are stationery. Some objects are not stationery. Conclusions: I. All objects are stationery  II. All objects are pens",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। কিছু বস্তু লেখাসামগ্ৰী নহয়। সিদ্ধান্ত: I. সকলো বস্তু লেখাসামগ্ৰী  II. সকলো বস্তু কলম"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-062",
+    "q": {
+      "en": "Statements: All oaks are trees. All shrubs are trees. Therefore:",
+      "as": "বিবৃতি: সকলো ওক গছ। সকলো গুল্ম গছ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some shrubs are oaks",
+        "as": "কিছু গুল্ম ওক"
+      },
+      {
+        "en": "No shrubs are oaks",
+        "as": "কোনো গুল্ম ওক নহয়"
+      },
+      {
+        "en": "No trees are oaks",
+        "as": "কোনো গছ ওক নহয়"
+      },
+      {
+        "en": "Some shrubs are trees",
+        "as": "কিছু গুল্ম গছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some shrubs are trees” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু গুল্ম গছ” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-063",
+    "q": {
+      "en": "Statements: All mangoes are fruits. Some food are not fruits. Conclusions: I. Some food are not fruits  II. Some fruits are not food",
+      "as": "বিবৃতি: সকলো আম ফল। কিছু খাদ্য ফল নহয়। সিদ্ধান্ত: I. কিছু খাদ্য ফল নহয়  II. কিছু ফল খাদ্য নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is not necessarily true, so “Only conclusion I follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কেৱল সিদ্ধান্ত I অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-064",
+    "q": {
+      "en": "Statements: Some students are athletes. All athletes are fit. Therefore:",
+      "as": "বিবৃতি: কিছু ছাত্ৰ ক্ৰীড়াবিদ। সকলো ক্ৰীড়াবিদ সাজু। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No fit are students",
+        "as": "কোনো সাজু ছাত্ৰ নহয়"
+      },
+      {
+        "en": "Some athletes are students",
+        "as": "কিছু ক্ৰীড়াবিদ ছাত্ৰ"
+      },
+      {
+        "en": "No students are fit",
+        "as": "কোনো ছাত্ৰ সাজু নহয়"
+      },
+      {
+        "en": "Some athletes are not students",
+        "as": "কিছু ক্ৰীড়াবিদ ছাত্ৰ নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some athletes are students” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু ক্ৰীড়াবিদ ছাত্ৰ” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-065",
+    "q": {
+      "en": "Statements: No dogs are mammals. All animals are mammals. Conclusions: I. Some mammals are dogs  II. Some dogs are not animals",
+      "as": "বিবৃতি: কোনো কুকুৰ স্তন্যপায়ী নহয়। সকলো প্ৰাণী স্তন্যপায়ী। সিদ্ধান্ত: I. কিছু স্তন্যপায়ী কুকুৰ  II. কিছু কুকুৰ প্ৰাণী নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-066",
+    "q": {
+      "en": "Statements: All tigers are carnivores. No carnivores are animals. Therefore:",
+      "as": "বিবৃতি: সকলো বাঘ মাংসভোজী। কোনো মাংসভোজী প্ৰাণী নহয়। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some tigers are not carnivores",
+        "as": "কিছু বাঘ মাংসভোজী নহয়"
+      },
+      {
+        "en": "All tigers are animals",
+        "as": "সকলো বাঘ প্ৰাণী"
+      },
+      {
+        "en": "No tigers are carnivores",
+        "as": "কোনো বাঘ মাংসভোজী নহয়"
+      },
+      {
+        "en": "Some tigers are carnivores",
+        "as": "কিছু বাঘ মাংসভোজী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some tigers are carnivores” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু বাঘ মাংসভোজী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-067",
+    "q": {
+      "en": "Statements: Some pens are stationery. All objects are stationery. Therefore:",
+      "as": "বিবৃতি: কিছু কলম লেখাসামগ্ৰী। সকলো বস্তু লেখাসামগ্ৰী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some objects are not pens",
+        "as": "কিছু বস্তু কলম নহয়"
+      },
+      {
+        "en": "No stationery are pens",
+        "as": "কোনো লেখাসামগ্ৰী কলম নহয়"
+      },
+      {
+        "en": "All objects are stationery",
+        "as": "সকলো বস্তু লেখাসামগ্ৰী"
+      },
+      {
+        "en": "No pens are objects",
+        "as": "কোনো কলম বস্তু নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “All objects are stationery” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “সকলো বস্তু লেখাসামগ্ৰী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-068",
+    "q": {
+      "en": "Statements: All teachers are graduates. No graduates are people. All people are humans. Therefore:",
+      "as": "বিবৃতি: সকলো শিক্ষক স্নাতক। কোনো স্নাতক মানুহ নহয়। সকলো মানুহ মানৱ। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some graduates are teachers",
+        "as": "কিছু স্নাতক শিক্ষক"
+      },
+      {
+        "en": "All graduates are people",
+        "as": "সকলো স্নাতক মানুহ"
+      },
+      {
+        "en": "No humans are graduates",
+        "as": "কোনো মানৱ স্নাতক নহয়"
+      },
+      {
+        "en": "Some teachers are not graduates",
+        "as": "কিছু শিক্ষক স্নাতক নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some graduates are teachers” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু স্নাতক শিক্ষক” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-069",
+    "q": {
+      "en": "Statements: All whales are mammals. Some mammals are carnivores. Therefore:",
+      "as": "বিবৃতি: সকলো তিমি স্তন্যপায়ী। কিছু স্তন্যপায়ী মাংসভোজী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "Some whales are mammals",
+        "as": "কিছু তিমি স্তন্যপায়ী"
+      },
+      {
+        "en": "Some carnivores are not whales",
+        "as": "কিছু মাংসভোজী তিমি নহয়"
+      },
+      {
+        "en": "Some mammals are not carnivores",
+        "as": "কিছু স্তন্যপায়ী মাংসভোজী নহয়"
+      },
+      {
+        "en": "All mammals are whales",
+        "as": "সকলো স্তন্যপায়ী তিমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some whales are mammals” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু তিমি স্তন্যপায়ী” বিবৃতিবোৰৰ প্ৰতিটো আৰ্হিত সত্য; আন প্ৰতিটো বিকল্প অসত্য কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-070",
+    "q": {
+      "en": "Statements: All doctors are professionals. Some workers are not professionals. Conclusions: I. Some workers are doctors  II. Some professionals are workers",
+      "as": "বিবৃতি: সকলো ডাক্তৰ পেছাদাৰী। কিছু কৰ্মী পেছাদাৰী নহয়। সিদ্ধান্ত: I. কিছু কৰ্মী ডাক্তৰ  II. কিছু পেছাদাৰী কৰ্মী"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-071",
+    "q": {
+      "en": "Statements: No cars are vehicles. No machines are vehicles. Which of the following is a possibility (can be true)?",
+      "as": "বিবৃতি: কোনো গাড়ী যানবাহন নহয়। কোনো যন্ত্ৰ যানবাহন নহয়। তলৰ কোনটো সম্ভৱ (সত্য হ'ব পাৰে)?"
+    },
+    "options": [
+      {
+        "en": "Some machines are vehicles",
+        "as": "কিছু যন্ত্ৰ যানবাহন"
+      },
+      {
+        "en": "Some vehicles are machines",
+        "as": "কিছু যানবাহন যন্ত্ৰ"
+      },
+      {
+        "en": "All cars are vehicles",
+        "as": "সকলো গাড়ী যানবাহন"
+      },
+      {
+        "en": "Some machines are cars",
+        "as": "কিছু যন্ত্ৰ গাড়ী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“Some machines are cars” is consistent with the statements, while every other option is contradicted in all models.",
+      "as": "“কিছু যন্ত্ৰ গাড়ী” বিবৃতিসমূহৰ সৈতে সংগত, আনহাতে বাকী প্ৰতিটো বিকল্প প্ৰতিটো মডেলত বিৰোধ।"
+    }
+  },
+  {
+    "id": "syllogism-072",
+    "q": {
+      "en": "Statements: All dogs are mammals. No mammals are animals. Conclusions: I. No dogs are animals  II. All mammals are animals",
+      "as": "বিবৃতি: সকলো কুকুৰ স্তন্যপায়ী। কোনো স্তন্যপায়ী প্ৰাণী নহয়। সিদ্ধান্ত: I. কোনো কুকুৰ প্ৰাণী নহয়  II. সকলো স্তন্যপায়ী প্ৰাণী"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is not necessarily true, so “Only conclusion I follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কেৱল সিদ্ধান্ত I অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-073",
+    "q": {
+      "en": "Statements: No dogs are mammals. All animals are mammals. Conclusions: I. All animals are dogs  II. Some mammals are not dogs",
+      "as": "বিবৃতি: কোনো কুকুৰ স্তন্যপায়ী নহয়। সকলো প্ৰাণী স্তন্যপায়ী। সিদ্ধান্ত: I. সকলো প্ৰাণী কুকুৰ  II. কিছু স্তন্যপায়ী কুকুৰ নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-074",
+    "q": {
+      "en": "Statements: All pens are stationery. All stationery are objects. Therefore:",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। সকলো লেখাসামগ্ৰী বস্তু। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "No objects are stationery",
+        "as": "কোনো বস্তু লেখাসামগ্ৰী নহয়"
+      },
+      {
+        "en": "Some pens are stationery",
+        "as": "কিছু কলম লেখাসামগ্ৰী"
+      },
+      {
+        "en": "Some stationery are not objects",
+        "as": "কিছু লেখাসামগ্ৰী বস্তু নহয়"
+      },
+      {
+        "en": "No stationery are objects",
+        "as": "কোনো লেখাসামগ্ৰী বস্তু নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some pens are stationery” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু কলম লেখাসামগ্ৰী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "syllogism-075",
+    "q": {
+      "en": "Statements: All cars are vehicles. No vehicles are machines. Conclusions: I. All cars are machines  II. All vehicles are cars",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কোনো যানবাহন যন্ত্ৰ নহয়। সিদ্ধান্ত: I. সকলো গাড়ী যন্ত্ৰ  II. সকলো যানবাহন গাড়ী"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-076",
+    "q": {
+      "en": "Statements: All cars are vehicles. Some vehicles are machines. Conclusions: I. Some cars are not vehicles  II. Some machines are not cars",
+      "as": "বিবৃতি: সকলো গাড়ী যানবাহন। কিছু যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. কিছু গাড়ী যানবাহন নহয়  II. কিছু যন্ত্ৰ গাড়ী নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-077",
+    "q": {
+      "en": "Statements: Some dogs are mammals. No mammals are animals. Conclusions: I. Some mammals are not dogs  II. No mammals are dogs",
+      "as": "বিবৃতি: কিছু কুকুৰ স্তন্যপায়ী। কোনো স্তন্যপায়ী প্ৰাণী নহয়। সিদ্ধান্ত: I. কিছু স্তন্যপায়ী কুকুৰ নহয়  II. কোনো স্তন্যপায়ী কুকুৰ নহয়"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is not necessarily true, so “Neither conclusion follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য নহয়, গতিকে “কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-078",
+    "q": {
+      "en": "Statements: All mangoes are fruits. Some food are fruits. Conclusions: I. Some fruits are not mangoes  II. Some fruits are mangoes",
+      "as": "বিবৃতি: সকলো আম ফল। কিছু খাদ্য ফল। সিদ্ধান্ত: I. কিছু ফল আম নহয়  II. কিছু ফল আম"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is not necessarily true and conclusion II is necessarily true, so “Only conclusion II follows”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য নহয় আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “কেৱল সিদ্ধান্ত II অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-079",
+    "q": {
+      "en": "Statements: All teachers are graduates. No graduates are people. Conclusions: I. No people are graduates  II. Some graduates are not people",
+      "as": "বিবৃতি: সকলো শিক্ষক স্নাতক। কোনো স্নাতক মানুহ নহয়। সিদ্ধান্ত: I. কোনো মানুহ স্নাতক নহয়  II. কিছু স্নাতক মানুহ নহয়"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is necessarily true and conclusion II is necessarily true, so “Both conclusions follow”.",
+      "as": "সিদ্ধান্ত I অৱশ্যে সত্য আৰু সিদ্ধান্ত II অৱশ্যে সত্য, গতিকে “দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে”।"
+    }
+  },
+  {
+    "id": "syllogism-080",
+    "q": {
+      "en": "Statements: All pens are stationery. Some objects are stationery. Therefore:",
+      "as": "বিবৃতি: সকলো কলম লেখাসামগ্ৰী। কিছু বস্তু লেখাসামগ্ৰী। গতিকে:"
+    },
+    "options": [
+      {
+        "en": "All stationery are pens",
+        "as": "সকলো লেখাসামগ্ৰী কলম"
+      },
+      {
+        "en": "Some pens are stationery",
+        "as": "কিছু কলম লেখাসামগ্ৰী"
+      },
+      {
+        "en": "All objects are pens",
+        "as": "সকলো বস্তু কলম"
+      },
+      {
+        "en": "Some objects are not pens",
+        "as": "কিছু বস্তু কলম নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some pens are stationery” holds in every model of the statements; each other option can be made false, so it does not follow.",
+      "as": "কেৱল “কিছু কলম লেখাসামগ্ৰী” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+    }
+  }
+]

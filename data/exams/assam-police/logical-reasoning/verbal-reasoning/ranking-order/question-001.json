@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "ranking-order-001",
+    "q": {
+      "en": "In a class, A is 7th from the top and 26th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৭ম আৰু তলৰ পৰা ২৬তম। শ্ৰেণীত মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = (position from top) + (position from bottom) − 1 = 7 + 26 − 1 = 32.",
+      "as": "মুঠ = (ওপৰৰ পৰা স্থান) + (তলৰ পৰা স্থান) − ১ = ৭ + ২৬ − ১ = ৩২।"
+    }
+  },
+  {
+    "id": "ranking-order-002",
+    "q": {
+      "en": "In a row of 45 students, Ravi is 15th from the left. What is his position from the right?",
+      "as": "৪৫ জন ছাত্ৰৰ শাৰীত, ৰবি বাওঁফালৰ পৰা ১৫তম। সোঁফালৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = Total − position from left + 1 = 45 − 15 + 1 = 31.",
+      "as": "সোঁফালৰ স্থান = মুঠ − বাওঁফালৰ স্থান + ১ = ৪৫ − ১৫ + ১ = ৩১।"
+    }
+  },
+  {
+    "id": "ranking-order-003",
+    "q": {
+      "en": "In a class of 50 students, Sita is 18th from the top. What is her rank from the bottom?",
+      "as": "৫০ জন ছাত্ৰৰ এখন শ্ৰেণীত, সীতা ওপৰৰ পৰা ১৮তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = 50 − 18 + 1 = 33.",
+      "as": "তলৰ পৰা স্থান = ৫০ − ১৮ + ১ = ৩৩।"
+    }
+  },
+  {
+    "id": "ranking-order-004",
+    "q": {
+      "en": "A is 10th from the top and 20th from the bottom in a list. How many students are there in the list?",
+      "as": "এখন তালিকাত A ওপৰৰ পৰা ১০ম আৰু তলৰ পৰা ২০তম। তালিকাত মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 10 + 20 − 1 = 29.",
+      "as": "মুঠ = ১০ + ২০ − ১ = ২৯।"
+    }
+  },
+  {
+    "id": "ranking-order-005",
+    "q": {
+      "en": "In a row of 35 students, P is 9th from the left and Q is 9th from the right. How many students are between P and Q?",
+      "as": "৩৫ জন ছাত্ৰৰ শাৰীত, P বাওঁফালৰ পৰা ৯ম আৰু Q সোঁফালৰ পৰা ৯ম। P আৰু Q ৰ মাজত কিমানজন ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between = 35 − 9 − 9 = 17.",
+      "as": "মাজত = ৩৫ − ৯ − ৯ = ১৭।"
+    }
+  },
+  {
+    "id": "ranking-order-006",
+    "q": {
+      "en": "In a row of 30 students, X is 8th from the left and Y is 8th from the right. How many students are between X and Y?",
+      "as": "৩০ জন ছাত্ৰৰ শাৰীত, X বাওঁফালৰ পৰা ৮ম আৰু Y সোঁফালৰ পৰা ৮ম। X আৰু Y ৰ মাজত কিমানজন ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between = 30 − 8 − 8 = 14.",
+      "as": "মাজত = ৩০ − ৮ − ৮ = ১৪।"
+    }
+  },
+  {
+    "id": "ranking-order-007",
+    "q": {
+      "en": "In a class, A is 5th from the top and 30th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৫ম আৰু তলৰ পৰা ৩০তম। শ্ৰেণীত মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 5 + 30 − 1 = 34.",
+      "as": "মুঠ = ৫ + ৩০ − ১ = ৩৪।"
+    }
+  },
+  {
+    "id": "ranking-order-008",
+    "q": {
+      "en": "In a row, Ramesh is 11th from the left and 15th from the right. How many persons are there in the row?",
+      "as": "এখন শাৰীত ৰমেশ বাওঁফালৰ পৰা ১১তম আৰু সোঁফালৰ পৰা ১৫তম। শাৰীত মুঠ কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 11 + 15 − 1 = 25.",
+      "as": "মুঠ = ১১ + ১৫ − ১ = ২৫।"
+    }
+  },
+  {
+    "id": "ranking-order-009",
+    "q": {
+      "en": "In a class of 60 students, Mohan is 25th from the top. What is his rank from the bottom?",
+      "as": "৬০ জন ছাত্ৰৰ শ্ৰেণীত, মোহন ওপৰৰ পৰা ২৫তম। তলৰ পৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Rank from bottom = 60 − 25 + 1 = 36.",
+      "as": "তলৰ পৰা স্থান = ৬০ − ২৫ + ১ = ৩৬।"
+    }
+  },
+  {
+    "id": "ranking-order-010",
+    "q": {
+      "en": "In a class, Lila is 13th from the top and 13th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত লীলা ওপৰৰ পৰা ১৩ম আৰু তলৰ পৰা ১৩ম। শ্ৰেণীত মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 13 + 13 − 1 = 25.",
+      "as": "মুঠ = ১৩ + ১৩ − ১ = ২৫।"
+    }
+  },
+  {
+    "id": "ranking-order-011",
+    "q": {
+      "en": "In a row of 50 persons, A is 20th from the left and B is 25th from the right. How many persons are between A and B?",
+      "as": "৫০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২০তম, B সোঁফালৰ পৰা ২৫তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "B's position from left = 50 − 25 + 1 = 26; between = 26 − 20 − 1 = 5.",
+      "as": "বাওঁফালৰ পৰা B ৰ স্থান = ৫০ − ২৫ + ১ = ২৬; মাজত = ২৬ − ২০ − ১ = ৫।"
+    }
+  },
+  {
+    "id": "ranking-order-012",
+    "q": {
+      "en": "In a row of 40 persons, A is 15th from the left and B is 18th from the right. How many persons are between A and B?",
+      "as": "৪০ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৫তম, B সোঁফালৰ পৰা ১৮তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B's position from left = 40 − 18 + 1 = 23; between = 23 − 15 − 1 = 7.",
+      "as": "বাওঁফালৰ পৰা B ৰ স্থান = ৪০ − ১৮ + ১ = ২৩; মাজত = ২৩ − ১৫ − ১ = ৭।"
+    }
+  },
+  {
+    "id": "ranking-order-013",
+    "q": {
+      "en": "In a class, A is 12th from the top and 18th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ১২তম আৰু তলৰ পৰা ১৮তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 12 + 18 − 1 = 29.",
+      "as": "মুঠ = ১২ + ১৮ − ১ = ২৯।"
+    }
+  },
+  {
+    "id": "ranking-order-014",
+    "q": {
+      "en": "In a queue, A is 8th from the front and 22nd from the back. How many persons are there in the queue?",
+      "as": "এখন শাৰীত A আগফালৰ পৰা ৮ম আৰু পিছফালৰ পৰা ২২তম। শাৰীত মুঠ কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 8 + 22 − 1 = 29.",
+      "as": "মুঠ = ৮ + ২২ − ১ = ২৯।"
+    }
+  },
+  {
+    "id": "ranking-order-015",
+    "q": {
+      "en": "In a class of 42 students, Sita is 19th from the top and Geeta is 19th from the bottom. How many students are between them?",
+      "as": "৪২ জন ছাত্ৰৰ শ্ৰেণীত সীতা ওপৰৰ পৰা ১৯তম আৰু গীতা তলৰ পৰা ১৯তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between = 42 − 19 − 19 = 4.",
+      "as": "মাজত = ৪২ − ১৯ − ১৯ = ৪।"
+    }
+  },
+  {
+    "id": "ranking-order-016",
+    "q": {
+      "en": "In a row of 20 persons, A is 6th from the left and B is 10th from the right. How many persons are between them?",
+      "as": "২০ জনৰ শাৰীত A বাওঁফালৰ পৰা ৬ষ্ঠ, B সোঁফালৰ পৰা ১০ম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "B's position from left = 20 − 10 + 1 = 11; between = 11 − 6 − 1 = 4.",
+      "as": "বাওঁফালৰ পৰা B ৰ স্থান = ২০ − ১০ + ১ = ১১; মাজত = ১১ − ৬ − ১ = ৪।"
+    }
+  },
+  {
+    "id": "ranking-order-017",
+    "q": {
+      "en": "In a class of 45 students, A is 17th from the top. What is his rank from the bottom?",
+      "as": "৪৫ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ১৭তম। তলৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = 45 − 17 + 1 = 29.",
+      "as": "তলৰ পৰা স্থান = ৪৫ − ১৭ + ১ = ২৯।"
+    }
+  },
+  {
+    "id": "ranking-order-018",
+    "q": {
+      "en": "In a class, A is 9th from the top and 31st from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৯ম আৰু তলৰ পৰা ৩১তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 9 + 31 − 1 = 39.",
+      "as": "মুঠ = ৯ + ৩১ − ১ = ৩৯।"
+    }
+  },
+  {
+    "id": "ranking-order-019",
+    "q": {
+      "en": "In a row of 55 persons, Ravi is 22nd from the left. What is his position from the right?",
+      "as": "৫৫ জনৰ শাৰীত ৰবি বাওঁফালৰ পৰা ২২তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = 55 − 22 + 1 = 34.",
+      "as": "সোঁফালৰ স্থান = ৫৫ − ২২ + ১ = ৩৪।"
+    }
+  },
+  {
+    "id": "ranking-order-020",
+    "q": {
+      "en": "In a row of 24 persons, A is 9th from the left and B is 9th from the right. How many persons are between them?",
+      "as": "২৪ জনৰ শাৰীত A বাওঁফালৰ পৰা ৯ম, B সোঁফালৰ পৰা ৯ম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between = 24 − 9 − 9 = 6.",
+      "as": "মাজত = ২৪ − ৯ − ৯ = ৬।"
+    }
+  },
+  {
+    "id": "ranking-order-021",
+    "q": {
+      "en": "In an exam, A got more marks than B but less than C. Who got the highest marks?",
+      "as": "এখন পৰীক্ষাত A ৰ নম্বৰ B তকৈ বেছি কিন্তু C তকৈ কম। সৰ্বাধিক নম্বৰ কোনে পালে?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Order of marks: C > A > B, so C got the highest.",
+      "as": "নম্বৰৰ ক্ৰম: C > A > B, সেয়ে C য়ে সৰ্বাধিক পালে।"
+    }
+  },
+  {
+    "id": "ranking-order-022",
+    "q": {
+      "en": "A is taller than B, B is taller than C, and C is taller than D. Who is the shortest?",
+      "as": "A, B তকৈ ওখ; B, C তকৈ ওখ; C, D তকৈ ওখ। আটাইতকৈ চুটি কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Order: A > B > C > D, so D is the shortest.",
+      "as": "ক্ৰম: A > B > C > D, সেয়ে D আটাইতকৈ চুটি।"
+    }
+  },
+  {
+    "id": "ranking-order-023",
+    "q": {
+      "en": "In a race, A finished before B, B before C, and C before D. Who won the race?",
+      "as": "এখন দৌৰত A, B তকৈ আগতে; B, C তকৈ আগতে; C, D তকৈ আগতে শেষ কৰিলে। কোনে জিকিলে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Finish order: A, B, C, D, so A won.",
+      "as": "শেষ কৰাৰ ক্ৰম: A, B, C, D, সেয়ে A জিকিলে।"
+    }
+  },
+  {
+    "id": "ranking-order-024",
+    "q": {
+      "en": "Among five friends P, Q, R, S and T: P is taller than Q, R is taller than S, S is taller than P, and Q is taller than T. Who is the tallest?",
+      "as": "পাঁচজন বন্ধু P, Q, R, S, T ৰ ভিতৰত: P, Q তকৈ ওখ; R, S তকৈ ওখ; S, P তকৈ ওখ; Q, T তকৈ ওখ। আটাইতকৈ ওখ কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combining: T < Q < P < S < R, so R is the tallest.",
+      "as": "একত্ৰিত ক্ৰম: T < Q < P < S < R, সেয়ে R আটাইতকৈ ওখ।"
+    }
+  },
+  {
+    "id": "ranking-order-025",
+    "q": {
+      "en": "A is older than B, C is younger than B, and D is older than A. Who is the oldest?",
+      "as": "A, B তকৈ বয়সীয়াল; C, B তকৈ কম বয়সীয়া; D, A তকৈ বয়সীয়াল। আটাইতকৈ বয়সীয়াল কোন?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Order of age: D > A > B > C, so D is the oldest.",
+      "as": "বয়সৰ ক্ৰম: D > A > B > C, সেয়ে D আটাইতকৈ বয়সীয়াল।"
+    }
+  },
+  {
+    "id": "ranking-order-026",
+    "q": {
+      "en": "In a class, Ram is 9th from the top and 22nd from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত ৰাম ওপৰৰ পৰা ৯ম আৰু তলৰ ২২তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 9 + 22 − 1 = 30.",
+      "as": "মুঠ = ৯ + ২২ − ১ = ৩০।"
+    }
+  },
+  {
+    "id": "ranking-order-027",
+    "q": {
+      "en": "In a row of 36 persons, A is 14th from the left. What is his position from the right?",
+      "as": "৩৬ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৪তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = 36 − 14 + 1 = 23.",
+      "as": "সোঁফালৰ স্থান = ৩৬ − ১৪ + ১ = ২৩।"
+    }
+  },
+  {
+    "id": "ranking-order-028",
+    "q": {
+      "en": "In a queue of 48 persons, A is 27th from the front. What is his position from the back?",
+      "as": "৪৮ জনৰ শাৰীত A আগফালৰ পৰা ২৭তম। পিছফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from back = 48 − 27 + 1 = 22.",
+      "as": "পিছফালৰ স্থান = ৪৮ − ২৭ + ১ = ২২।"
+    }
+  },
+  {
+    "id": "ranking-order-029",
+    "q": {
+      "en": "In a class of 64 students, A is 29th from the top and B is 29th from the bottom. How many students are between them?",
+      "as": "৬৪ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ২৯তম, B তলৰ পৰা ২৯তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between = 64 − 29 − 29 = 6.",
+      "as": "মাজত = ৬৪ − ২৯ − ২৯ = ৬।"
+    }
+  },
+  {
+    "id": "ranking-order-030",
+    "q": {
+      "en": "In a class, A is 21st from the top and 21st from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ২১তম আৰু তলৰ পৰা ২১তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 21 + 21 − 1 = 41.",
+      "as": "মুঠ = ২১ + ২১ − ১ = ৪১।"
+    }
+  },
+  {
+    "id": "ranking-order-031",
+    "q": {
+      "en": "A is shorter than B but taller than C. D is shorter than C and E is shorter than D. Who is the tallest?",
+      "as": "A, B তকৈ চুটি কিন্তু C তকৈ ওখ; D, C তকৈ চুটি; E, D তকৈ চুটি। আটাইতকৈ ওখ কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Order: B > A > C > D > E, so B is the tallest.",
+      "as": "ক্ৰম: B > A > C > D > E, সেয়ে B আটাইতকৈ ওখ।"
+    }
+  },
+  {
+    "id": "ranking-order-032",
+    "q": {
+      "en": "P is taller than Q, R is shorter than Q, S is taller than P, and T is shorter than R. Who is the tallest?",
+      "as": "P, Q তকৈ ওখ; R, Q তকৈ চুটি; S, P তকৈ ওখ; T, R তকৈ চুটি। আটাইতকৈ ওখ কোন?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Combining: T < R < Q < P < S, so S is the tallest.",
+      "as": "একত্ৰিত ক্ৰম: T < R < Q < P < S, সেয়ে S আটাইতকৈ ওখ।"
+    }
+  },
+  {
+    "id": "ranking-order-033",
+    "q": {
+      "en": "In a row of 33 persons, A is 16th from the left. What is his position from the right?",
+      "as": "৩৩ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৬তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from right = 33 − 16 + 1 = 18.",
+      "as": "সোঁফালৰ স্থান = ৩৩ − ১৬ + ১ = ১৮।"
+    }
+  },
+  {
+    "id": "ranking-order-034",
+    "q": {
+      "en": "In a class, A is 11th from the top and 30th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ১১তম আৰু তলৰ পৰা ৩০তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 11 + 30 − 1 = 40.",
+      "as": "মুঠ = ১১ + ৩০ − ১ = ৪০।"
+    }
+  },
+  {
+    "id": "ranking-order-035",
+    "q": {
+      "en": "In a row of 46 persons, A is 19th from the left and B is 17th from the right. How many persons are between them?",
+      "as": "৪৬ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৯তম, B সোঁফালৰ পৰা ১৭তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B's position from left = 46 − 17 + 1 = 30; between = 30 − 19 − 1 = 10.",
+      "as": "বাওঁফালৰ পৰা B ৰ স্থান = ৪৬ − ১৭ + ১ = ৩০; মাজত = ৩০ − ১৯ − ১ = ১০।"
+    }
+  },
+  {
+    "id": "ranking-order-036",
+    "q": {
+      "en": "In a class, A's rank is 15th from the top and 25th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ৰ স্থান ওপৰৰ পৰা ১৫ আৰু তলৰ পৰা ২৫। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 15 + 25 − 1 = 39.",
+      "as": "মুঠ = ১৫ + ২৫ − ১ = ৩৯।"
+    }
+  },
+  {
+    "id": "ranking-order-037",
+    "q": {
+      "en": "In a row of 25 persons, A is 12th from the left. What is his position from the right?",
+      "as": "২৫ জনৰ শাৰীত A বাওঁফালৰ পৰা ১২তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Position from right = 25 − 12 + 1 = 14.",
+      "as": "সোঁফালৰ স্থান = ২৫ − ১২ + ১ = ১৪।"
+    }
+  },
+  {
+    "id": "ranking-order-038",
+    "q": {
+      "en": "In a row, A is 7th from the left and 19th from the right. How many persons are there in the row?",
+      "as": "এখন শাৰীত A বাওঁফালৰ পৰা ৭ম আৰু সোঁফালৰ পৰা ১৯তম। মুঠ কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 7 + 19 − 1 = 25.",
+      "as": "মুঠ = ৭ + ১৯ − ১ = ২৫।"
+    }
+  },
+  {
+    "id": "ranking-order-039",
+    "q": {
+      "en": "P is older than Q, Q is older than R, and R is older than S. Who is the youngest?",
+      "as": "P, Q তকৈ বয়সীয়াল; Q, R তকৈ বয়সীয়াল; R, S তকৈ বয়সীয়াল। আটাইতকৈ কম বয়সীয়া কোন?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Order of age: P > Q > R > S, so S is the youngest.",
+      "as": "বয়সৰ ক্ৰম: P > Q > R > S, সেয়ে S আটাইতকৈ কম বয়সীয়া।"
+    }
+  },
+  {
+    "id": "ranking-order-040",
+    "q": {
+      "en": "In a class of 52 students, A is 24th from the top. What is his rank from the bottom?",
+      "as": "৫২ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ২৪তম। তলৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Rank from bottom = 52 − 24 + 1 = 29.",
+      "as": "তলৰ পৰা স্থান = ৫২ − ২৪ + ১ = ২৯।"
+    }
+  },
+  {
+    "id": "ranking-order-041",
+    "q": {
+      "en": "In a row of 41 persons, A is 17th from the left and B is 17th from the right. How many persons are between them?",
+      "as": "৪১ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৭তম, B সোঁফালৰ পৰা ১৭তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between = 41 − 17 − 17 = 7.",
+      "as": "মাজত = ৪১ − ১৭ − ১৭ = ৭।"
+    }
+  },
+  {
+    "id": "ranking-order-042",
+    "q": {
+      "en": "A scored more than B, C scored more than D, B scored more than C, and E scored more than D but less than B. Who scored the highest?",
+      "as": "A ৰ নম্বৰ B তকৈ বেছি; C ৰ নম্বৰ D তকৈ বেছি; B ৰ নম্বৰ C তকৈ বেছি; E ৰ নম্বৰ D তকৈ বেছি কিন্তু B তকৈ কম। সৰ্বাধিক নম্বৰ কোনে পালে?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "We have A > B > C > D and B > E > D, so A scored the highest.",
+      "as": "A > B > C > D আৰু B > E > D, সেয়ে A য়ে সৰ্বাধিক নম্বৰ পালে।"
+    }
+  },
+  {
+    "id": "ranking-order-043",
+    "q": {
+      "en": "In a queue of 30 persons, Ravi is 13th from the front. What is his position from the back?",
+      "as": "৩০ জনৰ শাৰীত ৰবি আগফালৰ পৰা ১৩তম। পিছফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Position from back = 30 − 13 + 1 = 18.",
+      "as": "পিছফালৰ স্থান = ৩০ − ১৩ + ১ = ১৮।"
+    }
+  },
+  {
+    "id": "ranking-order-044",
+    "q": {
+      "en": "In a class, A is 6th from the top and 15th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৬ষ্ঠ আৰু তলৰ পৰা ১৫তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 6 + 15 − 1 = 20.",
+      "as": "মুঠ = ৬ + ১৫ − ১ = ২০।"
+    }
+  },
+  {
+    "id": "ranking-order-045",
+    "q": {
+      "en": "In a class of 48 students, A is 20th from the top and B is 20th from the bottom. How many students are between them?",
+      "as": "৪৮ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ২০তম, B তলৰ পৰা ২০তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between = 48 − 20 − 20 = 8.",
+      "as": "মাজত = ৪৮ − ২০ − ২০ = ৮।"
+    }
+  },
+  {
+    "id": "ranking-order-046",
+    "q": {
+      "en": "In a row of 27 persons, A is 13th from the right. What is his position from the left?",
+      "as": "২৭ জনৰ শাৰীত A সোঁফালৰ পৰা ১৩তম। বাওঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from left = 27 − 13 + 1 = 15.",
+      "as": "বাওঁফালৰ স্থান = ২৭ − ১৩ + ১ = ১৫।"
+    }
+  },
+  {
+    "id": "ranking-order-047",
+    "q": {
+      "en": "In a row of 40 persons, A is 18th from the left. What is his position from the right?",
+      "as": "৪০ জনৰ শাৰীত A বাওঁফালৰ পৰা ১৮তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Position from right = 40 − 18 + 1 = 23.",
+      "as": "সোঁফালৰ স্থান = ৪০ − ১৮ + ১ = ২৩।"
+    }
+  },
+  {
+    "id": "ranking-order-048",
+    "q": {
+      "en": "A is taller than B but shorter than C. D is taller than C, and E is the shortest. Who is the second tallest?",
+      "as": "A, B তকৈ ওখ কিন্তু C তকৈ চুটি; D, C তকৈ ওখ; E আটাইতকৈ চুটি। দ্বিতীয় আটাইতকৈ ওখ কোন?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Order: D > C > A > B > E, so C is the second tallest.",
+      "as": "ক্ৰম: D > C > A > B > E, সেয়ে C দ্বিতীয় আটাইতকৈ ওখ।"
+    }
+  },
+  {
+    "id": "ranking-order-049",
+    "q": {
+      "en": "In a class, Mohan is 8th from the top and 33rd from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত মোহন ওপৰৰ পৰা ৮ম আৰু তলৰ পৰা ৩৩তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 8 + 33 − 1 = 40.",
+      "as": "মুঠ = ৮ + ৩৩ − ১ = ৪০।"
+    }
+  },
+  {
+    "id": "ranking-order-050",
+    "q": {
+      "en": "In a row of 60 persons, A is 27th from the left. What is his position from the right?",
+      "as": "৬০ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৭তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = 60 − 27 + 1 = 34.",
+      "as": "সোঁফালৰ স্থান = ৬০ − ২৭ + ১ = ৩৪।"
+    }
+  },
+  {
+    "id": "ranking-order-051",
+    "q": {
+      "en": "In a row of 44 persons, A is 12th from the left and B is 12th from the right. How many persons are between them?",
+      "as": "৪৪ জনৰ শাৰীত A বাওঁফালৰ পৰা ১২তম, B সোঁফালৰ পৰা ১২তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between = 44 − 12 − 12 = 20.",
+      "as": "মাজত = ৪৪ − ১২ − ১২ = ২০।"
+    }
+  },
+  {
+    "id": "ranking-order-052",
+    "q": {
+      "en": "In a class, A is 4th from the top and 40th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৪ৰ্থ আৰু তলৰ পৰা ৪০তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 4 + 40 − 1 = 43.",
+      "as": "মুঠ = ৪ + ৪০ − ১ = ৪৩।"
+    }
+  },
+  {
+    "id": "ranking-order-053",
+    "q": {
+      "en": "In a class of 38 students, A is 14th from the top. What is his rank from the bottom?",
+      "as": "৩৮ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ১৪তম। তলৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Rank from bottom = 38 − 14 + 1 = 25.",
+      "as": "তলৰ পৰা স্থান = ৩৮ − ১৪ + ১ = ২৫।"
+    }
+  },
+  {
+    "id": "ranking-order-054",
+    "q": {
+      "en": "In a row, A is 22nd from the left and 18th from the right. How many persons are there in the row?",
+      "as": "এখন শাৰীত A বাওঁফালৰ পৰা ২২তম আৰু সোঁফালৰ পৰা ১৮তম। মুঠ কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 22 + 18 − 1 = 39.",
+      "as": "মুঠ = ২২ + ১৮ − ১ = ৩৯।"
+    }
+  },
+  {
+    "id": "ranking-order-055",
+    "q": {
+      "en": "P is taller than Q, Q is taller than R, and S is taller than P. Who is the shortest?",
+      "as": "P, Q তকৈ ওখ; Q, R তকৈ ওখ; S, P তকৈ ওখ। আটাইতকৈ চুটি কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Order: S > P > Q > R, so R is the shortest.",
+      "as": "ক্ৰম: S > P > Q > R, সেয়ে R আটাইতকৈ চুটি।"
+    }
+  },
+  {
+    "id": "ranking-order-056",
+    "q": {
+      "en": "In a class of 56 students, A is 21st from the top and B is 21st from the bottom. How many students are between them?",
+      "as": "৫৬ জন ছাত্ৰৰ শ্ৰেণীত A ওপৰৰ পৰা ২১তম, B তলৰ পৰা ২১তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between = 56 − 21 − 21 = 14.",
+      "as": "মাজত = ৫৬ − ২১ − ২১ = ১৪।"
+    }
+  },
+  {
+    "id": "ranking-order-057",
+    "q": {
+      "en": "In a row, A is to the right of B, C is to the left of B, D is to the left of C, and E is to the right of A. Who is in the middle?",
+      "as": "এখন শাৰীত A, B ৰ সোঁফালে; C, B ৰ বাওঁফালে; D, C ৰ বাওঁফালে; E, A ৰ সোঁফালে। মাজত কোন আছে?"
+    },
+    "options": [
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From left to right: D, C, B, A, E, so B is in the middle.",
+      "as": "বাওঁৰ পৰা সোঁলৈ: D, C, B, A, E, সেয়ে মাজত B।"
+    }
+  },
+  {
+    "id": "ranking-order-058",
+    "q": {
+      "en": "In a row of 49 persons, A is 25th from the left. What is his position from the right?",
+      "as": "৪৯ জনৰ শাৰীত A বাওঁফালৰ পৰা ২৫তম। সোঁফালৰ পৰা স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Position from right = 49 − 25 + 1 = 25.",
+      "as": "সোঁফালৰ স্থান = ৪৯ − ২৫ + ১ = ২৫।"
+    }
+  },
+  {
+    "id": "ranking-order-059",
+    "q": {
+      "en": "In a class, A is 3rd from the top and 50th from the bottom. How many students are there in the class?",
+      "as": "এখন শ্ৰেণীত A ওপৰৰ পৰা ৩য় আৰু তলৰ পৰা ৫০তম। মুঠ কিমান ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = 3 + 50 − 1 = 52.",
+      "as": "মুঠ = ৩ + ৫০ − ১ = ৫২।"
+    }
+  },
+  {
+    "id": "ranking-order-060",
+    "q": {
+      "en": "In a row, A is 30th from the left and 11th from the right. How many persons are there in the row?",
+      "as": "এখন শাৰীত A বাওঁফালৰ পৰা ৩০তম আৰু সোঁফালৰ পৰা ১১তম। শাৰীত মুঠ কিমানজন আছে?"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 30 + 11 − 1 = 40.",
+      "as": "মুঠ = ৩০ + ১১ − ১ = ৪০।"
+    }
+  }
+]

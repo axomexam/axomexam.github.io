@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "logical-reasoning-x001",
+    "q": {
+      "en": "Find the next number in the series: 4, 9, 25, 49, ?",
+      "as": "শ্ৰেণীটোৰ পৰৱৰ্তী সংখ্যা নিৰ্ণয় কৰা: ৪, ৯, ২৫, ৪৯, ?"
+    },
+    "options": [
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "These are squares of the primes 2, 3, 5, 7, so the next is 11^2 = 121.",
+      "as": "এইবোৰ মৌলিক ২, ৩, ৫, ৭ ৰ বৰ্গ, গতিকে পৰৱৰ্তী ১১² = ১২১।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x002",
+    "q": {
+      "en": "Find the next term: 2, 4, 8, 16, ?",
+      "as": "পৰৱৰ্তী পদ নিৰ্ণয় কৰা: ২, ৪, ৮, ১৬, ?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each term doubles, so the next is 32.",
+      "as": "প্ৰতিটো পদ দুগুণ হয়, গতিকে পৰৱৰ্তী ৩২।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x003",
+    "q": {
+      "en": "Find the missing term: 5, 10, 20, 40, ?",
+      "as": "অনুপস্থিত পদ নিৰ্ণয় কৰা: ৫, ১০, ২০, ৪০, ?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each term is double the previous, so 80.",
+      "as": "প্ৰতিটো পদ আগৰটোৰ দুগুণ, গতিকে ৮০।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x004",
+    "q": {
+      "en": "Which letter comes next: A, C, F, J, ?",
+      "as": "পৰৱৰ্তী আখৰ কোনটো: A, C, F, J, ?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gaps increase by 1: +2, +3, +4, +5 gives O.",
+      "as": "ব্যৱধান ১ ৰে বাঢ়ে: +২, +৩, +৪, +৫ দিলে O।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x005",
+    "q": {
+      "en": "Find the next number: 1, 4, 9, 16, ?",
+      "as": "পৰৱৰ্তী সংখ্যা নিৰ্ণয় কৰা: ১, ৪, ৯, ১৬, ?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "These are perfect squares; next is 5^2 = 25.",
+      "as": "এইবোৰ পূৰ্ণ বৰ্গ; পৰৱৰ্তী ৫² = ২৫।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x006",
+    "q": {
+      "en": "Find the next term: 100, 90, 81, 73, ?",
+      "as": "পৰৱৰ্তী পদ নিৰ্ণয় কৰা: ১০০, ৯০, ৮১, ৭৩, ?"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Differences are -10, -9, -8, -7; next = 73 - 7 = 66.",
+      "as": "পাৰ্থক্য -১০, -৯, -৮, -৭; পৰৱৰ্তী = ৭৩ - ৭ = ৬৬।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x007",
+    "q": {
+      "en": "If FRIEND is coded as 6-18-9-5-14-4, how is COLD coded?",
+      "as": "যদি FRIEND ক ৬-১৮-৯-৫-১৪-৪ হিচাপে ক'ড কৰা হয়, COLD ক কেনেকৈ ক'ড কৰা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "3-15-12-4",
+        "as": "৩-১৫-১২-৪"
+      },
+      {
+        "en": "4-15-12-3",
+        "as": "৪-১৫-১২-৩"
+      },
+      {
+        "en": "3-14-12-4",
+        "as": "৩-১৪-১২-৪"
+      },
+      {
+        "en": "2-15-12-4",
+        "as": "২-১৫-১২-৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter is its alphabet position: C=3, O=15, L=12, D=4.",
+      "as": "প্ৰতিটো আখৰ ইয়াৰ বৰ্ণমালা স্থান: C=৩, O=১৫, L=১২, D=৪।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x008",
+    "q": {
+      "en": "In a code, TEACHER is written as UFBDIFS. How is STUDENT written in that code?",
+      "as": "এটা ক'ডত TEACHER ক UFBDIFS লিখা হয়। সেই ক'ডত STUDENT কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "TUVEFOU",
+        "as": "TUVEFOU"
+      },
+      {
+        "en": "TUVDFOU",
+        "as": "TUVDFOU"
+      },
+      {
+        "en": "TUVEFPU",
+        "as": "TUVEFPU"
+      },
+      {
+        "en": "SUVEFOU",
+        "as": "SUVEFOU"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each letter moves one step forward: S->T, T->U, U->V, D->E, E->F, N->O, T->U.",
+      "as": "প্ৰতিটো আখৰ এক খোজ আগলৈ যায়: S->T, T->U, U->V, D->E, E->F, N->O, T->U।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x009",
+    "q": {
+      "en": "If in a code language 'pen' is called 'book', 'book' is called 'bag' and 'bag' is called 'box', what do we use to carry things?",
+      "as": "এটা ক'ড ভাষাত 'pen' ক 'book', 'book' ক 'bag' আৰু 'bag' ক 'box' বোলা হয়, তেন্তে সামগ্ৰী কঢ়িয়াবলৈ কি ব্যৱহাৰ কৰিম?"
+    },
+    "options": [
+      {
+        "en": "pen",
+        "as": "pen"
+      },
+      {
+        "en": "box",
+        "as": "box"
+      },
+      {
+        "en": "bag",
+        "as": "bag"
+      },
+      {
+        "en": "book",
+        "as": "book"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A bag is used to carry things, and in the code 'bag' is called 'box'.",
+      "as": "সামগ্ৰী কঢ়িয়াবলৈ bag ব্যৱহাৰ হয়, আৰু ক'ডত 'bag' ক 'box' বোলা হয়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x010",
+    "q": {
+      "en": "If A = 1, B = 2, ... Z = 26, what is the sum of the letters of the word 'CAB'?",
+      "as": "যদি A = ১, B = ২, ... Z = ২৬, 'CAB' শব্দৰ আখৰসমূহৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C = 3, A = 1, B = 2; sum = 6.",
+      "as": "C = ৩, A = ১, B = ২; যোগফল = ৬।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x011",
+    "q": {
+      "en": "In a code, ROSE is written as 4-3-2-1. How is SORE written in that code?",
+      "as": "এটা ক'ডত ROSE ক ৪-৩-২-১ লিখা হয়। সেই ক'ডত SORE কেনেকৈ লিখা হ'ব?"
+    },
+    "options": [
+      {
+        "en": "1-4-3-2",
+        "as": "১-৪-৩-২"
+      },
+      {
+        "en": "2-3-4-1",
+        "as": "২-৩-৪-১"
+      },
+      {
+        "en": "2-1-4-3",
+        "as": "২-১-৪-৩"
+      },
+      {
+        "en": "3-2-1-4",
+        "as": "৩-২-১-৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using R=4, O=3, S=2, E=1 gives SORE = 2-3-4-1.",
+      "as": "R=৪, O=৩, S=২, E=১ ব্যৱহাৰ কৰি SORE = ২-৩-৪-১।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x012",
+    "q": {
+      "en": "X is the son of Y. Y is the daughter of Z. How is X related to Z?",
+      "as": "X, Y ৰ পুত্ৰ। Y, Z ৰ জীয়েক। X ৰ Z ৰ সৈতে কি সম্পৰ্ক?"
+    },
+    "options": [
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
+      },
+      {
+        "en": "Grandson",
+        "as": "নাতি"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Y is Z's daughter and X is Y's son, so X is Z's grandson.",
+      "as": "Y, Z ৰ জীয়েক আৰু X, Y ৰ পুত্ৰ, গতিকে X, Z ৰ নাতি।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x013",
+    "q": {
+      "en": "P is the son of Q. Q is the brother of R. How is P related to R?",
+      "as": "P, Q ৰ পুত্ৰ। Q, R ৰ ভাই। P ৰ R ৰ সৈতে কি সম্পৰ্ক?"
+    },
+    "options": [
+      {
+        "en": "Uncle",
+        "as": "খুড়া"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
+      },
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Cousin",
+        "as": "সম্বন্ধীয় ভাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Q is R's brother and P is Q's son, so P is R's nephew.",
+      "as": "Q, R ৰ ভাই আৰু P, Q ৰ পুত্ৰ, গতিকে P, R ৰ ভতিজা।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x014",
+    "q": {
+      "en": "Pointing to a woman, a man said, 'She is the daughter of my grandfather's only son.' How is she related to the man?",
+      "as": "এজনী মহিলালৈ আঙুলিয়াই এজনে ক'লে, 'তেওঁ মোৰ ককাকৰ একমাত্ৰ পুত্ৰৰ জীয়েক।' তেওঁ মানুহজনৰ কি সম্পৰ্কীয়?"
+    },
+    "options": [
+      {
+        "en": "Mother",
+        "as": "মাক"
+      },
+      {
+        "en": "Daughter",
+        "as": "জীয়েক"
+      },
+      {
+        "en": "Sister",
+        "as": "ভগ্নী"
+      },
+      {
+        "en": "Aunt",
+        "as": "খুড়ী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The grandfather's only son is the man's father; his daughter is the man's sister.",
+      "as": "ককাকৰ একমাত্ৰ পুত্ৰ মানুহজনৰ দেউতা; তেওঁৰ জীয়েক মানুহজনৰ ভগ্নী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x015",
+    "q": {
+      "en": "If X is the brother of Y, Y is the sister of Z and Z is the son of W, how is X related to W?",
+      "as": "যদি X, Y ৰ ভাই, Y, Z ৰ ভগ্নী আৰু Z, W ৰ পুত্ৰ, X ৰ W ৰ সৈতে কি সম্পৰ্ক?"
+    },
+    "options": [
+      {
+        "en": "Son",
+        "as": "পুত্ৰ"
+      },
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Nephew",
+        "as": "ভতিজা"
+      },
+      {
+        "en": "Father",
+        "as": "পিতৃ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "X, Y and Z are siblings and Z is W's son, so X is W's son.",
+      "as": "X, Y আৰু Z ভাই-ভনী আৰু Z, W ৰ পুত্ৰ, গতিকে X, W ৰ পুত্ৰ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x016",
+    "q": {
+      "en": "A man walks 5 km north, then 3 km east, then 5 km south. How far is he from the start?",
+      "as": "এজনে ৫ কিমি উত্তৰ, তাৰপিছত ৩ কিমি পূৱ, তাৰপিছত ৫ কিমি দক্ষিণলৈ খোজ কাঢ়ে। তেওঁ আৰম্ভণিৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "5 km",
+        "as": "৫ কিমি"
+      },
+      {
+        "en": "13 km",
+        "as": "১৩ কিমি"
+      },
+      {
+        "en": "8 km",
+        "as": "৮ কিমি"
+      },
+      {
+        "en": "3 km",
+        "as": "৩ কিমি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The north and south legs cancel; he ends 3 km east of the start.",
+      "as": "উত্তৰ আৰু দক্ষিণৰ ভাগ কটাকটি যায়; তেওঁ আৰম্ভণিৰ ৩ কিমি পূৱত থাকে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x017",
+    "q": {
+      "en": "A walks 4 km towards the north, turns right and walks 3 km. How far is he from the starting point?",
+      "as": "A ৪ কিমি উত্তৰলৈ যায়, সোঁফালে ঘূৰি ৩ কিমি যায়। তেওঁ আৰম্ভণি স্থানৰপৰা কিমান দূৰত?"
+    },
+    "options": [
+      {
+        "en": "7 km",
+        "as": "৭ কিমি"
+      },
+      {
+        "en": "6 km",
+        "as": "৬ কিমি"
+      },
+      {
+        "en": "5 km",
+        "as": "৫ কিমি"
+      },
+      {
+        "en": "4 km",
+        "as": "৪ কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Right angle triangle with legs 4 and 3 gives distance 5 km.",
+      "as": "৪ আৰু ৩ বাহুৰ সমকোণী ত্ৰিভুজৰ কৰ্ণ ৫ কিমি।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x018",
+    "q": {
+      "en": "Rina faces north and turns 90 degrees clockwise, then 180 degrees clockwise. Which direction does she face now?",
+      "as": "ৰিনাই উত্তৰলৈ মুখ কৰি ৯০ ডিগ্ৰী ঘড়ীৰ দিশে ঘূৰে, তাৰপিছত ১৮০ ডিগ্ৰী ঘড়ীৰ দিশে ঘূৰে। এতিয়া তেওঁ কোন দিশলৈ মুখ কৰি আছে?"
+    },
+    "options": [
+      {
+        "en": "South",
+        "as": "দক্ষিণ"
+      },
+      {
+        "en": "North",
+        "as": "উত্তৰ"
+      },
+      {
+        "en": "East",
+        "as": "পূৱ"
+      },
+      {
+        "en": "West",
+        "as": "পশ্চিম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "North + 90 clockwise = East; East + 180 = West.",
+      "as": "উত্তৰৰপৰা ৯০ ঘড়ীৰ দিশে = পূৱ; পূৱৰপৰা ১৮০ = পশ্চিম।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x019",
+    "q": {
+      "en": "A man goes 6 km west, then 8 km south. What is the shortest distance from the start?",
+      "as": "এজনে ৬ কিমি পশ্চিমলৈ, তাৰপিছত ৮ কিমি দক্ষিণলৈ যায়। আৰম্ভণিৰপৰা আটাইতকৈ কম দূৰত্ব কিমান?"
+    },
+    "options": [
+      {
+        "en": "14 km",
+        "as": "১৪ কিমি"
+      },
+      {
+        "en": "2 km",
+        "as": "২ কিমি"
+      },
+      {
+        "en": "10 km",
+        "as": "১০ কিমি"
+      },
+      {
+        "en": "12 km",
+        "as": "১২ কিমি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = square root of (6^2 + 8^2) = 10 km.",
+      "as": "দূৰত্ব = √(৬² + ৮²) = ১০ কিমি।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x020",
+    "q": {
+      "en": "Hand : Fingers :: Foot : ?",
+      "as": "Hand : Fingers :: Foot : ?"
+    },
+    "options": [
+      {
+        "en": "Toes",
+        "as": "Toes"
+      },
+      {
+        "en": "Ankle",
+        "as": "Ankle"
+      },
+      {
+        "en": "Shoes",
+        "as": "Shoes"
+      },
+      {
+        "en": "Leg",
+        "as": "Leg"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fingers are parts of the hand as toes are parts of the foot.",
+      "as": "যেনেকৈ আঙুলি হাতৰ অংশ, ভৰিৰ আঙুলি ভৰিৰ অংশ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x021",
+    "q": {
+      "en": "Word : Sentence :: Brick : ?",
+      "as": "Word : Sentence :: Brick : ?"
+    },
+    "options": [
+      {
+        "en": "Roof",
+        "as": "Roof"
+      },
+      {
+        "en": "House",
+        "as": "House"
+      },
+      {
+        "en": "Cement",
+        "as": "Cement"
+      },
+      {
+        "en": "Wall",
+        "as": "Wall"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A word builds a sentence as a brick builds a wall.",
+      "as": "যেনেকৈ শব্দই বাক্য গঠন কৰে, ইটাৱে বেৰ গঠন কৰে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x022",
+    "q": {
+      "en": "Needle : Sew :: Saw : ?",
+      "as": "Needle : Sew :: Saw : ?"
+    },
+    "options": [
+      {
+        "en": "Wood",
+        "as": "Wood"
+      },
+      {
+        "en": "Tool",
+        "as": "Tool"
+      },
+      {
+        "en": "Cut",
+        "as": "Cut"
+      },
+      {
+        "en": "Sharp",
+        "as": "Sharp"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A needle is used to sew as a saw is used to cut.",
+      "as": "যেনেকৈ বেজীয়ে চিলাই কৰে, কৰতে কাটে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x023",
+    "q": {
+      "en": "Foot : Man :: Hoof : ?",
+      "as": "Foot : Man :: Hoof : ?"
+    },
+    "options": [
+      {
+        "en": "Bird",
+        "as": "Bird"
+      },
+      {
+        "en": "Fish",
+        "as": "Fish"
+      },
+      {
+        "en": "Horse",
+        "as": "Horse"
+      },
+      {
+        "en": "Snake",
+        "as": "Snake"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A man has a foot as a horse has a hoof.",
+      "as": "যেনেকৈ মানুহৰ ভৰি থাকে, ঘোঁৰাৰ খুৰা থাকে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x024",
+    "q": {
+      "en": "Water : Thirst :: Food : ?",
+      "as": "Water : Thirst :: Food : ?"
+    },
+    "options": [
+      {
+        "en": "Plate",
+        "as": "Plate"
+      },
+      {
+        "en": "Hunger",
+        "as": "Hunger"
+      },
+      {
+        "en": "Eat",
+        "as": "Eat"
+      },
+      {
+        "en": "Drink",
+        "as": "Drink"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Water removes thirst as food removes hunger.",
+      "as": "যেনেকৈ পানীয়ে তৃষ্ণা মেটায়, খাদ্যই ভোক মেটায়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x025",
+    "q": {
+      "en": "Find the odd one out: 4, 9, 16, 20, 25.",
+      "as": "অসমটো বিচাৰি উলিয়াওক: ৪, ৯, ১৬, ২০, ২৫।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All except 20 are perfect squares.",
+      "as": "২০ ৰ বাহিৰে বাকীবোৰ পূৰ্ণ বৰ্গ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x026",
+    "q": {
+      "en": "Find the odd one out: Apple, Banana, Carrot, Mango.",
+      "as": "অসমটো বিচাৰি উলিয়াওক: Apple, Banana, Carrot, Mango।"
+    },
+    "options": [
+      {
+        "en": "Mango",
+        "as": "Mango"
+      },
+      {
+        "en": "Carrot",
+        "as": "Carrot"
+      },
+      {
+        "en": "Apple",
+        "as": "Apple"
+      },
+      {
+        "en": "Banana",
+        "as": "Banana"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Carrot is a vegetable while the others are fruits.",
+      "as": "Carrot এখন পাচলি, বাকীবোৰ ফল।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x027",
+    "q": {
+      "en": "Find the odd one out: Delhi, Mumbai, Chennai, Assam.",
+      "as": "অসমটো বিচাৰি উলিয়াওক: Delhi, Mumbai, Chennai, Assam।"
+    },
+    "options": [
+      {
+        "en": "Mumbai",
+        "as": "Mumbai"
+      },
+      {
+        "en": "Delhi",
+        "as": "Delhi"
+      },
+      {
+        "en": "Chennai",
+        "as": "Chennai"
+      },
+      {
+        "en": "Assam",
+        "as": "Assam"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assam is a state while the others are cities.",
+      "as": "Assam এখন ৰাজ্য, বাকীবোৰ চহৰ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x028",
+    "q": {
+      "en": "Find the odd one out: 3, 5, 7, 9, 11.",
+      "as": "অসমটো বিচাৰি উলিয়াওক: ৩, ৫, ৭, ৯, ১১।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All except 9 are prime numbers.",
+      "as": "৯ ৰ বাহিৰে বাকীবোৰ মৌলিক সংখ্যা।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x029",
+    "q": {
+      "en": "In a class, Ravi is 7th from the top and 26th from the bottom. How many students are there?",
+      "as": "এটা শ্ৰেণীত ৰবি ওপৰৰপৰা ৭ম আৰু তলৰপৰা ২৬তম। শ্ৰেণীত কিমানজন ছাত্ৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 7 + 26 - 1 = 32.",
+      "as": "মুঠ = ৭ + ২৬ - ১ = ৩২।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x030",
+    "q": {
+      "en": "Anil is 12th from the left in a row of 40. What is his position from the right?",
+      "as": "৪০ জনৰ শাৰীত অনিল বাওঁফালৰপৰা ১২তম। সোঁফালৰপৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "30th",
+        "as": "৩০তম"
+      },
+      {
+        "en": "27th",
+        "as": "২৭তম"
+      },
+      {
+        "en": "28th",
+        "as": "২৮তম"
+      },
+      {
+        "en": "29th",
+        "as": "২৯তম"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From the right = 40 - 12 + 1 = 29.",
+      "as": "সোঁফালৰপৰা = ৪০ - ১২ + ১ = ২৯।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x031",
+    "q": {
+      "en": "In a row of 25 children, Meena is 9th from the left. What is her position from the right?",
+      "as": "২৫ জন ল'ৰা-ছোৱালীৰ শাৰীত মীনা বাওঁফালৰপৰা ৯ম। সোঁফালৰপৰা তেওঁৰ স্থান কিমান?"
+    },
+    "options": [
+      {
+        "en": "17th",
+        "as": "১৭তম"
+      },
+      {
+        "en": "18th",
+        "as": "১৮তম"
+      },
+      {
+        "en": "15th",
+        "as": "১৫তম"
+      },
+      {
+        "en": "16th",
+        "as": "১৬তম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From the right = 25 - 9 + 1 = 17.",
+      "as": "সোঁফালৰপৰা = ২৫ - ৯ + ১ = ১৭।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x032",
+    "q": {
+      "en": "In a class of 40, 25 play cricket and 20 play football, and 10 play both. How many play at least one game?",
+      "as": "৪০ জনৰ শ্ৰেণীত ২৫ জনে ক্ৰিকেট আৰু ২০ জনে ফুটবল খেলে, ১০ জনে দুয়োটা খেলে। কিমানজনে অন্ততঃ এটা খেল খেলে?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "At least one = 25 + 20 - 10 = 35.",
+      "as": "অন্ততঃ এটা = ২৫ + ২০ - ১০ = ৩৫।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x033",
+    "q": {
+      "en": "In a group of 50 people, 30 read English and 25 read Assamese, and 10 read both. How many read neither?",
+      "as": "৫০ জনৰ এটা দলত ৩০ জনে ইংৰাজী আৰু ২৫ জনে অসমীয়া পঢ়ে, ১০ জনে দুয়োটা পঢ়ে। কিমানজনে একোটা নপঢ়ে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither = 50 - (30 + 25 - 10) = 50 - 45 = 5.",
+      "as": "একোটা নপঢ়া = ৫০ - (৩০ + ২৫ - ১০) = ৫০ - ৪৫ = ৫।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x034",
+    "q": {
+      "en": "If all roses are flowers and some flowers fade quickly, which conclusion follows?",
+      "as": "যদি সকলো গোলাপ ফুল হয় আৰু কিছুমান ফুল সোনকালে শুকায়, কোন সিদ্ধান্ত সিদ্ধ হয়?"
+    },
+    "options": [
+      {
+        "en": "All flowers are roses",
+        "as": "সকলো ফুল গোলাপ"
+      },
+      {
+        "en": "All roses fade quickly",
+        "as": "সকলো গোলাপ সোনকালে শুকায়"
+      },
+      {
+        "en": "No rose fades",
+        "as": "কোনো গোলাপ নুশুকায়"
+      },
+      {
+        "en": "Some roses may fade quickly",
+        "as": "কিছুমান গোলাপ সোনকালে শুকাব পাৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only a possibility follows: some roses may fade quickly.",
+      "as": "কেৱল এটা সম্ভাৱনা সিদ্ধ হয়: কিছুমান গোলাপ সোনকালে শুকাব পাৰে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x035",
+    "q": {
+      "en": "Statements: All cats are animals. All animals need water. Conclusion: All cats need water. Valid?",
+      "as": "বিবৃতি: সকলো মেকুৰী প্ৰাণী। সকলো প্ৰাণীৰ পানী লাগে। সিদ্ধান্ত: সকলো মেকুৰীৰ পানী লাগে। শুদ্ধ নেকি?"
+    },
+    "options": [
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "No, it does not follow",
+        "as": "নহয়, ই সিদ্ধ নহয়"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "হয়, ই সিদ্ধ হয়"
+      },
+      {
+        "en": "Only some cats need water",
+        "as": "কেৱল কিছুমান মেকুৰীৰ পানী লাগে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "All cats are animals and all animals need water, so all cats need water.",
+      "as": "সকলো মেকুৰী প্ৰাণী আৰু সকলো প্ৰাণীৰ পানী লাগে, গতিকে সকলো মেকুৰীৰ পানী লাগে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x036",
+    "q": {
+      "en": "Statements: Some pens are red. All red things are costly. Conclusion: Some pens are costly. Valid?",
+      "as": "বিবৃতি: কিছুমান কলম ৰঙা। সকলো ৰঙা বস্তু দামী। সিদ্ধান্ত: কিছুমান কলম দামী। শুদ্ধ নেকি?"
+    },
+    "options": [
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "All pens are costly",
+        "as": "সকলো কলম দামী"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "হয়, ই সিদ্ধ হয়"
+      },
+      {
+        "en": "No, it does not follow",
+        "as": "নহয়, ই সিদ্ধ নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The pens that are red are costly, so some pens are costly.",
+      "as": "যিবোৰ কলম ৰঙা সেইবোৰ দামী, গতিকে কিছুমান কলম দামী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x037",
+    "q": {
+      "en": "Statements: All students are hardworking. Rina is a student. Conclusion: Rina is hardworking. Valid?",
+      "as": "বিবৃতি: সকলো ছাত্ৰ পৰিশ্ৰমী। ৰিনা এজনী ছাত্ৰ। সিদ্ধান্ত: ৰিনা পৰিশ্ৰমী। শুদ্ধ নেকি?"
+    },
+    "options": [
+      {
+        "en": "Cannot be determined",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      },
+      {
+        "en": "Rina may be lazy",
+        "as": "ৰিনা এলেহুৱা হ'ব পাৰে"
+      },
+      {
+        "en": "No, it does not follow",
+        "as": "নহয়, ই সিদ্ধ নহয়"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "হয়, ই সিদ্ধ হয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Since all students are hardworking and Rina is a student, she is hardworking.",
+      "as": "সকলো ছাত্ৰ পৰিশ্ৰমী আৰু ৰিনা ছাত্ৰ, গতিকে তেওঁ পৰিশ্ৰমী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x038",
+    "q": {
+      "en": "If + means x, x means - and - means /, find the value of 6 + 4 - 2.",
+      "as": "যদি + মানে ×, × মানে - আৰু - মানে ÷, ৬ + ৪ - ২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Replacing the symbols gives 6 x 4 / 2 = 24 / 2 = 12.",
+      "as": "চিহ্ন সলনি কৰি ৬ × ৪ ÷ ২ = ২৪ ÷ ২ = ১২।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x039",
+    "q": {
+      "en": "If 2 * 3 = 13 and 3 * 4 = 25, then 4 * 5 = ?",
+      "as": "যদি ২ * ৩ = ১৩ আৰু ৩ * ৪ = ২৫ হয়, তেন্তে ৪ * ৫ = ?"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The rule is a * b = a^2 + b^2: 4^2 + 5^2 = 16 + 25 = 41.",
+      "as": "নিয়ম a * b = a² + b²: ৪² + ৫² = ১৬ + ২৫ = ৪১।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x040",
+    "q": {
+      "en": "If 5 # 3 = 16 and 7 # 2 = 9, then 9 # 4 = ?",
+      "as": "যদি ৫ # ৩ = ১৬ আৰু ৭ # ২ = ৯ হয়, তেন্তে ৯ # ৪ = ?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rule is a # b = (a + b) x (b - 1): 5#3 = 8 x 2 = 16 and 7#2 = 9 x 1 = 9, so 9#4 = 13 x 3 = 39.",
+      "as": "নিয়ম a # b = (a + b) × (b - 1): ৫#৩ = ৮ × ২ = ১৬ আৰু ৭#২ = ৯ × ১ = ৯, গতিকে ৯#৪ = ১৩ × ৩ = ৩৯।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x041",
+    "q": {
+      "en": "If P means +, Q means - and R means x, find 12 R 3 P 8 Q 2.",
+      "as": "যদি P মানে +, Q মানে - আৰু R মানে ×, ১২ R ৩ P ৮ Q ২ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 x 3 + 8 - 2 = 36 + 8 - 2 = 42.",
+      "as": "১২ × ৩ + ৮ - ২ = ৩৬ + ৮ - ২ = ৪২।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x042",
+    "q": {
+      "en": "What is the angle between the hands of a clock at 3 o'clock?",
+      "as": "৩ বজাত ঘড়ীৰ কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "45 degrees",
+        "as": "৪৫ ডিগ্ৰী"
+      },
+      {
+        "en": "60 degrees",
+        "as": "৬০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each hour mark is 30 degrees; at 3 o'clock the gap is 3 x 30 = 90 degrees.",
+      "as": "প্ৰতি ঘণ্টাৰ ব্যৱধান ৩০ ডিগ্ৰী; ৩ বজাত ব্যৱধান = ৩ × ৩০ = ৯০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x043",
+    "q": {
+      "en": "How many times do the hands of a clock overlap in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁটা কিমানবাৰ ওপৰত পৰে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The hands coincide 11 times in every 12 hours.",
+      "as": "প্ৰতি ১২ ঘণ্টাত কাঁটা ১১ বাৰ একত্ৰিত হয়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x044",
+    "q": {
+      "en": "If today is Friday, what day will it be after 50 days?",
+      "as": "আজি শুক্ৰবাৰ হ'লে ৫০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Monday",
+        "as": "সোমবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "50 mod 7 = 1; Friday + 1 = Saturday.",
+      "as": "৫০ ÷ ৭ ৰ ভাগশেষ ১; শুক্ৰবাৰ + ১ = শনিবাৰ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x045",
+    "q": {
+      "en": "What is the angle between the hands at 6 o'clock?",
+      "as": "৬ বজাত কাঁটাদুটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "150 degrees",
+        "as": "১৫০ ডিগ্ৰী"
+      },
+      {
+        "en": "120 degrees",
+        "as": "১২০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "At 6 o'clock the hands are opposite each other, making 180 degrees.",
+      "as": "৬ বজাত কাঁটাদুটা পৰস্পৰ বিপৰীত, ১৮০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x046",
+    "q": {
+      "en": "Which word cannot be formed from the letters of 'IMPORTANT'?",
+      "as": "IMPORTANT ৰ আখৰৰপৰা কোন শব্দটো গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "PORT",
+        "as": "PORT"
+      },
+      {
+        "en": "TRAIN",
+        "as": "TRAIN"
+      },
+      {
+        "en": "MATTER",
+        "as": "MATTER"
+      },
+      {
+        "en": "MINOR",
+        "as": "MINOR"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'MATTER' needs two T's and an E, which IMPORTANT does not provide.",
+      "as": "'MATTER' ৰ বাবে দুটা T আৰু এটা E লাগে, যি IMPORTANT ত নাই।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x047",
+    "q": {
+      "en": "Which word cannot be formed from the letters of 'EDUCATION'?",
+      "as": "EDUCATION ৰ আখৰৰপৰা কোন শব্দটো গঠন কৰিব নোৱাৰি?"
+    },
+    "options": [
+      {
+        "en": "CAUTION",
+        "as": "CAUTION"
+      },
+      {
+        "en": "NATION",
+        "as": "NATION"
+      },
+      {
+        "en": "MENTION",
+        "as": "MENTION"
+      },
+      {
+        "en": "ACTION",
+        "as": "ACTION"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "'MENTION' needs the letter M, which does not appear in EDUCATION.",
+      "as": "'MENTION' ৰ বাবে M আখৰ লাগে, যি EDUCATION ত নাই।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x048",
+    "q": {
+      "en": "Arrange the words in dictionary order: 1. Nation 2. Native 3. Natural 4. Narrate.",
+      "as": "শব্দবোৰ অভিধানৰ ক্ৰমত সজাওক: ১. Nation ২. Native ৩. Natural ৪. Narrate।"
+    },
+    "options": [
+      {
+        "en": "1, 2, 3, 4",
+        "as": "১, ২, ৩, ৪"
+      },
+      {
+        "en": "1, 4, 2, 3",
+        "as": "১, ৪, ২, ৩"
+      },
+      {
+        "en": "4, 1, 2, 3",
+        "as": "৪, ১, ২, ৩"
+      },
+      {
+        "en": "4, 2, 1, 3",
+        "as": "৪, ২, ১, ৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing letters after 'Nar': Narrate, Nation, Native, Natural.",
+      "as": "'Nar' ৰ পিছৰ আখৰ তুলনা: Narrate, Nation, Native, Natural।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x049",
+    "q": {
+      "en": "In a series the number of dots increases by 2 each step: 1, 3, 5, 7, ... How many dots come next?",
+      "as": "এটা শ্ৰেণীত বিন্দুৰ সংখ্যা প্ৰতিটো পদত ২ ৰে বাঢ়ে: ১, ৩, ৫, ৭, ... পৰৱৰ্তী পদত কিমান বিন্দু থাকিব?"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The count increases by 2, so after 7 comes 9.",
+      "as": "সংখ্যা ২ ৰে বাঢ়ে, গতিকে ৭ ৰ পিছত ৯।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x050",
+    "q": {
+      "en": "A figure rotates 90 degrees clockwise at each step. After four steps it returns to the original position. What is the total rotation?",
+      "as": "এটা চিত্ৰ প্ৰতিটো পদত ৯০ ডিগ্ৰী ঘড়ীৰ দিশে ঘূৰে। চাৰি পদৰ পিছত ই মূল অৱস্থালৈ ঘূৰি আহে। মুঠ ঘূৰ্ণন কিমান?"
+    },
+    "options": [
+      {
+        "en": "360 degrees",
+        "as": "৩৬০ ডিগ্ৰী"
+      },
+      {
+        "en": "180 degrees",
+        "as": "১৮০ ডিগ্ৰী"
+      },
+      {
+        "en": "90 degrees",
+        "as": "৯০ ডিগ্ৰী"
+      },
+      {
+        "en": "270 degrees",
+        "as": "২৭০ ডিগ্ৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Four steps of 90 degrees give 360 degrees.",
+      "as": "৯০ ডিগ্ৰীৰ চাৰি পদ = ৩৬০ ডিগ্ৰী।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x051",
+    "q": {
+      "en": "The number of sides of a polygon increases by one each step: triangle, square, pentagon, ... What comes after the hexagon?",
+      "as": "এটা বহুভুজৰ বাহুৰ সংখ্যা প্ৰতিটো পদত এটা বাঢ়ে: ত্ৰিভুজ, বৰ্গ, পঞ্চভুজ, ... ষড়ভুজৰ পিছত কি আহে?"
+    },
+    "options": [
+      {
+        "en": "Decagon (10 sides)",
+        "as": "দশভুজ (১০ বাহু)"
+      },
+      {
+        "en": "Nonagon (9 sides)",
+        "as": "নৱভুজ (৯ বাহু)"
+      },
+      {
+        "en": "Octagon (8 sides)",
+        "as": "অষ্টভুজ (৮ বাহু)"
+      },
+      {
+        "en": "Heptagon (7 sides)",
+        "as": "সপ্তভুজ (৭ বাহু)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After a hexagon (6 sides) comes a heptagon (7 sides).",
+      "as": "ষড়ভুজ (৬ বাহু) ৰ পিছত সপ্তভুজ (৭ বাহু) আহে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x052",
+    "q": {
+      "en": "Which figure is the mirror image of the letter 'b'?",
+      "as": "কোন চিত্ৰটো 'b' আখৰৰ দাপোণ প্ৰতিবিম্ব?"
+    },
+    "options": [
+      {
+        "en": "b",
+        "as": "b"
+      },
+      {
+        "en": "q",
+        "as": "q"
+      },
+      {
+        "en": "p",
+        "as": "p"
+      },
+      {
+        "en": "d",
+        "as": "d"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A mirror image of 'b' (left-right) is 'd'.",
+      "as": "'b' ৰ দাপোণ প্ৰতিবিম্ব (বাওঁ-সোঁ) 'd'।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x053",
+    "q": {
+      "en": "In a figure, a square is divided into four equal parts by two lines. How many parts are formed?",
+      "as": "এটা চিত্ৰত এটা বৰ্গ দুডাল ৰেখাই চাৰিটা সমান ভাগত বিভক্ত কৰে। কিমান ভাগ হয়?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two lines through the centre give four parts.",
+      "as": "কেন্দ্ৰৰ মাজেৰে দুডাল ৰেখাই চাৰিটা ভাগ দিয়ে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x054",
+    "q": {
+      "en": "How many triangles are there in a figure made of a square with both diagonals drawn?",
+      "as": "দুয়োটা কৰ্ণ অঁকা এটা বৰ্গৰ চিত্ৰত কিমান ত্ৰিভুজ থাকে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Four small triangles plus four larger ones make eight.",
+      "as": "চাৰিটা সৰু ত্ৰিভুজ আৰু চাৰিটা ডাঙৰ ত্ৰিভুজ মিলি আঠটা।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x055",
+    "q": {
+      "en": "If a cube is painted on all faces and then cut into 8 equal smaller cubes, how many small cubes have three faces painted?",
+      "as": "এটা ঘনকৰ সকলো মুখ ৰং কৰি ৮ টা সমান সৰু ঘনকত কটা হ'ল, কিমান সৰু ঘনকৰ তিনি মুখ ৰঙীন?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "All 8 corner cubes of a 2x2x2 cut have three painted faces.",
+      "as": "২×২×২ কটাৰ আটাইকেইটা কোণৰ ঘনকৰ তিনি মুখ ৰঙীন।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x056",
+    "q": {
+      "en": "Which shape has rotational symmetry of order 4?",
+      "as": "কোন আকৃতিৰ ঘূৰ্ণন প্ৰতিসমতা ক্ৰম ৪?"
+    },
+    "options": [
+      {
+        "en": "Equilateral triangle",
+        "as": "সমবাহু ত্ৰিভুজ"
+      },
+      {
+        "en": "Square",
+        "as": "বৰ্গ"
+      },
+      {
+        "en": "Rectangle",
+        "as": "আয়ত"
+      },
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A square looks the same at 90, 180, 270 and 360 degrees.",
+      "as": "বৰ্গ ৯০, ১৮০, ২৭০ আৰু ৩৬০ ডিগ্ৰীত একেই দেখা যায়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x057",
+    "q": {
+      "en": "A paper is folded once and a hole is punched through both layers. When unfolded, how many holes are seen?",
+      "as": "কাগজ এবাৰ ভাঁজ কৰি দুয়ো স্তৰ ভেদ কৰি এটা বিন্ধা কৰা হ'ল। মেলি দিলে কিমান বিন্ধা দেখা যাব?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One punch through two layers gives two holes.",
+      "as": "দুই স্তৰ ভেদ কৰি এটা বিন্ধাই দুটা বিন্ধা দিয়ে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x058",
+    "q": {
+      "en": "In a figure series a triangle alternates with a circle: triangle, circle, triangle, circle, ... What is the 9th figure?",
+      "as": "এটা চিত্ৰ শ্ৰেণীত ত্ৰিভুজ আৰু বৃত্ত পালা-পালি আহে: ত্ৰিভুজ, বৃত্ত, ত্ৰিভুজ, বৃত্ত, ... ৯ম চিত্ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "Star",
+        "as": "তৰা"
+      },
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      },
+      {
+        "en": "Triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "Square",
+        "as": "বৰ্গ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Odd positions are triangles, so the 9th is a triangle.",
+      "as": "অযুগ্ম স্থান ত্ৰিভুজ, গতিকে ৯ম ত্ৰিভুজ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x059",
+    "q": {
+      "en": "A pattern repeats every 3 shapes: star, moon, sun. What is the 10th shape?",
+      "as": "এটা নক্সা প্ৰতি ৩ আকৃতিত পুনৰাবৃত্তি হয়: তৰা, জোন, সূৰ্য। ১০ম আকৃতি কি?"
+    },
+    "options": [
+      {
+        "en": "Cloud",
+        "as": "মেঘ"
+      },
+      {
+        "en": "Star",
+        "as": "তৰা"
+      },
+      {
+        "en": "Moon",
+        "as": "জোন"
+      },
+      {
+        "en": "Sun",
+        "as": "সূৰ্য"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10 mod 3 = 1, so the 10th shape is the first of the cycle, a star.",
+      "as": "১০ ÷ ৩ ৰ ভাগশেষ ১, গতিকে ১০ম আকৃতি চক্ৰৰ প্ৰথম, তৰা।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x060",
+    "q": {
+      "en": "Which figure completes the pattern if the sequence of shading is: full, half, empty, full, half, ...?",
+      "as": "যদি ছাঁৰ ক্ৰম হয়: সম্পূৰ্ণ, আধা, খালী, সম্পূৰ্ণ, আধা, ... তেন্তে কোন চিত্ৰই নক্সা সম্পূৰ্ণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Half",
+        "as": "আধা"
+      },
+      {
+        "en": "Empty",
+        "as": "খালী"
+      },
+      {
+        "en": "None",
+        "as": "কোনো নহয়"
+      },
+      {
+        "en": "Full",
+        "as": "সম্পূৰ্ণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The cycle repeats every three, so after 'half' comes 'empty'.",
+      "as": "চক্ৰ প্ৰতি তিনিত পুনৰাবৃত্তি হয়, গতিকে 'আধা' ৰ পিছত 'খালী' আহে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x061",
+    "q": {
+      "en": "A square is rotated 45 degrees. What shape does its outline appear like?",
+      "as": "এটা বৰ্গ ৪৫ ডিগ্ৰী ঘূৰোৱা হ'ল। ইয়াৰ বাহিৰৰ ৰেখা কেনে দেখা যাব?"
+    },
+    "options": [
+      {
+        "en": "Triangle",
+        "as": "ত্ৰিভুজ"
+      },
+      {
+        "en": "Diamond",
+        "as": "হীৰা"
+      },
+      {
+        "en": "Rectangle",
+        "as": "আয়ত"
+      },
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A square rotated 45 degrees appears as a diamond.",
+      "as": "৪৫ ডিগ্ৰী ঘূৰোৱা বৰ্গ হীৰাৰ দৰে দেখা যায়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x062",
+    "q": {
+      "en": "How many lines of symmetry does an equilateral triangle have?",
+      "as": "সমবাহু ত্ৰিভুজৰ কিমান প্ৰতিসমতা ৰেখা থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An equilateral triangle has three lines of symmetry.",
+      "as": "সমবাহু ত্ৰিভুজৰ তিনি প্ৰতিসমতা ৰেখা থাকে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x063",
+    "q": {
+      "en": "If the top view of an object is a circle and the side view is a square, what is the object?",
+      "as": "এটা বস্তুৰ ওপৰৰ পৰা দৃশ্য বৃত্ত আৰু পাৰ্শ্ব দৃশ্য বৰ্গ হ'লে বস্তুটো কি?"
+    },
+    "options": [
+      {
+        "en": "Cylinder",
+        "as": "চুঙা"
+      },
+      {
+        "en": "Cone",
+        "as": "শংকু"
+      },
+      {
+        "en": "Sphere",
+        "as": "গোলক"
+      },
+      {
+        "en": "Cube",
+        "as": "ঘনক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A cylinder has a circular top view and a rectangular side view.",
+      "as": "চুঙাৰ ওপৰৰ দৃশ্য বৃত্তীয় আৰু পাৰ্শ্ব দৃশ্য আয়তাকাৰ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x064",
+    "q": {
+      "en": "In a counting figure, a rectangle is split into 3 columns. How many rectangles are formed in total?",
+      "as": "এটা গণনা চিত্ৰত এটা আয়ত ৩ টা স্তম্ভত বিভক্ত। মুঠ কিমান আয়ত হয়?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Single columns (3) plus two-column (2) plus whole (1) = 6.",
+      "as": "এটা স্তম্ভ (৩) + দুটা স্তম্ভ (২) + সম্পূৰ্ণ (১) = ৬।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x065",
+    "q": {
+      "en": "Which comes next if the pattern is: circle inside square, square inside circle, circle inside square, ...?",
+      "as": "যদি নক্সা হয়: বৰ্গৰ ভিতৰত বৃত্ত, বৃত্তৰ ভিতৰত বৰ্গ, বৰ্গৰ ভিতৰত বৃত্ত, ... পৰৱৰ্তী কি?"
+    },
+    "options": [
+      {
+        "en": "Triangle inside circle",
+        "as": "বৃত্তৰ ভিতৰত ত্ৰিভুজ"
+      },
+      {
+        "en": "Square inside square",
+        "as": "বৰ্গৰ ভিতৰত বৰ্গ"
+      },
+      {
+        "en": "Square inside circle",
+        "as": "বৃত্তৰ ভিতৰত বৰ্গ"
+      },
+      {
+        "en": "Circle inside square",
+        "as": "বৰ্গৰ ভিতৰত বৃত্ত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The pattern alternates, so the next is a square inside a circle.",
+      "as": "নক্সা পালা-পালি, গতিকে পৰৱৰ্তী বৃত্তৰ ভিতৰত বৰ্গ।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x066",
+    "q": {
+      "en": "A figure has 5 straight lines forming a closed shape. What is the minimum number of vertices?",
+      "as": "এটা চিত্ৰত ৫ ডাল সৰল ৰেখাই এটা বন্ধ আকৃতি গঠন কৰে। নূন্যতম কিমান শীৰ্ষবিন্দু থাকিব?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A closed polygon with five sides has five vertices.",
+      "as": "পাঁচ বাহুৰ এটা বন্ধ বহুভুজৰ পাঁচটা শীৰ্ষবিন্দু থাকে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x067",
+    "q": {
+      "en": "If a figure is reflected in water, the top and bottom swap. Which letter looks the same in water reflection?",
+      "as": "এটা চিত্ৰ পানীত প্ৰতিফলিত হ'লে ওপৰ আৰু তল সলনি হয়। পানীৰ প্ৰতিফলনত কোন আখৰ একেই দেখা যায়?"
+    },
+    "options": [
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The letter H is symmetric top-to-bottom.",
+      "as": "H আখৰ ওপৰ-তল প্ৰতিসম।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x068",
+    "q": {
+      "en": "How many small squares are needed to make a 4 by 4 square grid?",
+      "as": "৪ × ৪ বৰ্গ জালী বনাবলৈ কিমান সৰু বৰ্গ লাগে?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A 4 by 4 grid contains 4 x 4 = 16 small squares.",
+      "as": "৪ × ৪ জালীত ৪ × ৪ = ১৬ সৰু বৰ্গ থাকে।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x069",
+    "q": {
+      "en": "In a mirror, the clock shows 3:00. What is the actual time?",
+      "as": "দাপোণত ঘড়ীয়ে ৩:০০ দেখুৱায়। প্ৰকৃত সময় কিমান?"
+    },
+    "options": [
+      {
+        "en": "12:00",
+        "as": "১২:০০"
+      },
+      {
+        "en": "6:00",
+        "as": "৬:০০"
+      },
+      {
+        "en": "9:00",
+        "as": "৯:০০"
+      },
+      {
+        "en": "3:00",
+        "as": "৩:০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A mirror image of 3:00 across a vertical line reads 9:00.",
+      "as": "উলম্ব ৰেখাৰ ওপৰত ৩:০০ ৰ দাপোণ প্ৰতিবিম্ব ৯:০০।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x070",
+    "q": {
+      "en": "If a die shows 6 on top, which number is at the bottom?",
+      "as": "এটা লুডুৰ ওপৰত ৬ দেখা যায়, তলত কোন সংখ্যা থাকিব?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Opposite faces of a die add to 7, so opposite 6 is 1.",
+      "as": "লুডুৰ বিপৰীত মুখৰ যোগফল ৭, গতিকে ৬ ৰ বিপৰীত ১।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x071",
+    "q": {
+      "en": "A transparent sheet with a circle is folded and unfolded. The unfolded sheet shows how many circles?",
+      "as": "বৃত্ত থকা এটা স্বচ্ছ কাগজ ভাঁজ কৰি মেলা হ'ল। মেলা কাগজত কিমান বৃত্ত দেখা যাব?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Folding creates a mirror copy, giving two circles when unfolded.",
+      "as": "ভাঁজে দাপোণ প্ৰতিলিপি সৃষ্টি কৰে, মেলিলে দুটা বৃত্ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x072",
+    "q": {
+      "en": "Which figure has no line of symmetry?",
+      "as": "কোন চিত্ৰৰ কোনো প্ৰতিসমতা ৰেখা নাই?"
+    },
+    "options": [
+      {
+        "en": "Scalene triangle",
+        "as": "বিষমবাহু ত্ৰিভুজ"
+      },
+      {
+        "en": "Square",
+        "as": "বৰ্গ"
+      },
+      {
+        "en": "Rectangle",
+        "as": "আয়ত"
+      },
+      {
+        "en": "Circle",
+        "as": "বৃত্ত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A scalene triangle has no line of symmetry.",
+      "as": "বিষমবাহু ত্ৰিভুজৰ কোনো প্ৰতিসমতা ৰেখা নাই।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x073",
+    "q": {
+      "en": "How many cubes are there in a 3 by 3 by 3 arrangement?",
+      "as": "৩ × ৩ × ৩ বিন্যাসত কিমানটা ঘনক থাকে?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3 x 3 x 3 = 27 cubes.",
+      "as": "৩ × ৩ × ৩ = ২৭ টা ঘনক।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x074",
+    "q": {
+      "en": "If a figure alternates between shaded and unshaded, what is the 8th figure if the 1st is shaded?",
+      "as": "যদি এটা চিত্ৰ ছাঁযুক্ত আৰু ছাঁহীন হৈ পালা-পালি আহে, ১ম ছাঁযুক্ত হ'লে ৮ম কি?"
+    },
+    "options": [
+      {
+        "en": "Half shaded",
+        "as": "আধা ছাঁযুক্ত"
+      },
+      {
+        "en": "Unshaded",
+        "as": "ছাঁহীন"
+      },
+      {
+        "en": "Shaded",
+        "as": "ছাঁযুক্ত"
+      },
+      {
+        "en": "Cannot say",
+        "as": "ক'ব নোৱাৰি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Even positions are unshaded, so the 8th is unshaded.",
+      "as": "যুগ্ম স্থান ছাঁহীন, গতিকে ৮ম ছাঁহীন।"
+    }
+  },
+  {
+    "id": "logical-reasoning-x075",
+    "q": {
+      "en": "In a pattern of dots, the count is 1, 4, 9, 16, ... How many dots are in the 5th figure?",
+      "as": "বিন্দুৰ এটা নক্সাত সংখ্যা ১, ৪, ৯, ১৬, ... ৫ম চিত্ৰত কিমান বিন্দু থাকিব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The counts are perfect squares, so the 5th figure has 25 dots.",
+      "as": "সংখ্যাবোৰ পূৰ্ণ বৰ্গ, গতিকে ৫ম চিত্ৰত ২৫ বিন্দু।"
+    }
+  }
+]

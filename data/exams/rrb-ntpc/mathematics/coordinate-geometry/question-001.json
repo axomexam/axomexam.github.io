@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "coordinate-geometry-001",
+    "q": {
+      "en": "The distance of the point (6, 8) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (৬, ৮) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = √(6² + 8²) = √100 = 10.",
+      "as": "দূৰত্ব = √(৬² + ৮²) = √১০০ = ১০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-002",
+    "q": {
+      "en": "The distance between the points (0, 0) and (9, 12) is:",
+      "as": "(০, ০) আৰু (৯, ১২) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(81 + 144) = √225 = 15.",
+      "as": "√(৮১ + ১৪৪) = √২২৫ = ১৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-003",
+    "q": {
+      "en": "The distance between the points (2, 3) and (5, 7) is:",
+      "as": "(২, ৩) আৰু (৫, ৭) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√((5 − 2)² + (7 − 3)²) = √(9 + 16) = 5.",
+      "as": "√((৫ − ২)² + (৭ − ৩)²) = √(৯ + ১৬) = ৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-004",
+    "q": {
+      "en": "The distance between the points (−3, 4) and (3, −4) is:",
+      "as": "(−৩, ৪) আৰু (৩, −৪) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(6² + 8²) = √100 = 10.",
+      "as": "√(৬² + ৮²) = √১০০ = ১০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-005",
+    "q": {
+      "en": "The distance of the point (−5, 12) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (−৫, ১২) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√(25 + 144) = √169 = 13.",
+      "as": "√(২৫ + ১৪৪) = √১৬৯ = ১৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-006",
+    "q": {
+      "en": "The distance between the points (1, 2) and (4, 6) is:",
+      "as": "(১, ২) আৰু (৪, ৬) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "√(9 + 16) = 5.",
+      "as": "√(৯ + ১৬) = ৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-007",
+    "q": {
+      "en": "The midpoint of the line segment joining (2, 4) and (6, 8) is:",
+      "as": "(২, ৪) আৰু (৬, ৮) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(8, 12)",
+        "as": "(৮, ১২)"
+      },
+      {
+        "en": "(4, 6)",
+        "as": "(৪, ৬)"
+      },
+      {
+        "en": "(2, 2)",
+        "as": "(২, ২)"
+      },
+      {
+        "en": "(3, 5)",
+        "as": "(৩, ৫)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Midpoint = ((2 + 6)/2, (4 + 8)/2) = (4, 6).",
+      "as": "মধ্যবিন্দু = ((২ + ৬)/২, (৪ + ৮)/২) = (৪, ৬)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-008",
+    "q": {
+      "en": "The midpoint of the line segment joining (−2, 5) and (4, −1) is:",
+      "as": "(−২, ৫) আৰু (৪, −১) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(2, 4)",
+        "as": "(২, ৪)"
+      },
+      {
+        "en": "(1, 3)",
+        "as": "(১, ৩)"
+      },
+      {
+        "en": "(1, 2)",
+        "as": "(১, ২)"
+      },
+      {
+        "en": "(3, 2)",
+        "as": "(৩, ২)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Midpoint = ((−2 + 4)/2, (5 − 1)/2) = (1, 2).",
+      "as": "মধ্যবিন্দু = ((−২ + ৪)/২, (৫ − ১)/২) = (১, ২)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-009",
+    "q": {
+      "en": "The midpoint of the line segment joining (0, 0) and (8, 6) is:",
+      "as": "(০, ০) আৰু (৮, ৬) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(4, 3)",
+        "as": "(৪, ৩)"
+      },
+      {
+        "en": "(8, 6)",
+        "as": "(৮, ৬)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(4, 6)",
+        "as": "(৪, ৬)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "((0 + 8)/2, (0 + 6)/2) = (4, 3).",
+      "as": "((০ + ৮)/২, (০ + ৬)/২) = (৪, ৩)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-010",
+    "q": {
+      "en": "If (3, 5) is the midpoint of the segment joining (1, 2) and (x, y), the point (x, y) is:",
+      "as": "যদি (১, ২) আৰু (x, y) সংযোগ কৰা খণ্ডৰ মধ্যবিন্দু (৩, ৫) হয়, তেন্তে বিন্দু (x, y):"
+    },
+    "options": [
+      {
+        "en": "(4, 7)",
+        "as": "(৪, ৭)"
+      },
+      {
+        "en": "(5, 8)",
+        "as": "(৫, ৮)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(6, 10)",
+        "as": "(৬, ১০)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x = 2 × 3 − 1 = 5 and y = 2 × 5 − 2 = 8.",
+      "as": "x = ২ × ৩ − ১ = ৫ আৰু y = ২ × ৫ − ২ = ৮।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-011",
+    "q": {
+      "en": "The point that divides the segment joining (2, 3) and (6, 9) internally in the ratio 1 : 1 is:",
+      "as": "(২, ৩) আৰু (৬, ৯) সংযোগ কৰা খণ্ডক ১ : ১ অনুপাতত অন্তৰ্ভাগ কৰা বিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(8, 12)",
+        "as": "(৮, ১২)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(4, 6)",
+        "as": "(৪, ৬)"
+      },
+      {
+        "en": "(4, 3)",
+        "as": "(৪, ৩)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 1 : 1 division point is the midpoint (4, 6).",
+      "as": "১ : ১ অনুপাতৰ বিভাজন বিন্দু হৈছে মধ্যবিন্দু (৪, ৬)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-012",
+    "q": {
+      "en": "The point that divides the segment joining (1, 2) and (7, 8) in the ratio 1 : 2 is:",
+      "as": "(১, ২) আৰু (৭, ৮) সংযোগ কৰা খণ্ডক ১ : ২ অনুপাতত ভাগ কৰা বিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(3, 4)",
+        "as": "(৩, ৪)"
+      },
+      {
+        "en": "(4, 5)",
+        "as": "(৪, ৫)"
+      },
+      {
+        "en": "(5, 6)",
+        "as": "(৫, ৬)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x = (2 × 1 + 1 × 7)/3 = 3 and y = (2 × 2 + 1 × 8)/3 = 4.",
+      "as": "x = (২ × ১ + ১ × ৭)/৩ = ৩ আৰু y = (২ × ২ + ১ × ৮)/৩ = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-013",
+    "q": {
+      "en": "The slope of the line passing through (2, 3) and (4, 7) is:",
+      "as": "(২, ৩) আৰু (৪, ৭) ৰ মাজেৰে যোৱা ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Slope = (7 − 3)/(4 − 2) = 4/2 = 2.",
+      "as": "প্ৰৱণতা = (৭ − ৩)/(৪ − ২) = ৪/২ = ২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-014",
+    "q": {
+      "en": "The slope of the line passing through (1, 5) and (3, 1) is:",
+      "as": "(১, ৫) আৰু (৩, ১) ৰ মাজেৰে যোৱা ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "−2",
+        "as": "−২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "−1/2",
+        "as": "−১/২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(1 − 5)/(3 − 1) = −4/2 = −2.",
+      "as": "(১ − ৫)/(৩ − ১) = −৪/২ = −২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-015",
+    "q": {
+      "en": "The slope of the line joining (0, 0) and (5, 10) is:",
+      "as": "(০, ০) আৰু (৫, ১০) সংযোগ কৰা ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "10/5 = 2.",
+      "as": "১০/৫ = ২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-016",
+    "q": {
+      "en": "The slope of a horizontal line is:",
+      "as": "এটা অনুভূমিক ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "undefined",
+        "as": "undefined"
+      },
+      {
+        "en": "infinite",
+        "as": "infinite"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A horizontal line has no rise, so its slope is 0.",
+      "as": "অনুভূমিক ৰেখাৰ কোনো উত্থান নাই, গতিকে ইয়াৰ প্ৰৱণতা ০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-017",
+    "q": {
+      "en": "The slope of a vertical line is:",
+      "as": "এটা উলম্ব ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "undefined",
+        "as": "undefined"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "−1",
+        "as": "−১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A vertical line has no run, so its slope is undefined.",
+      "as": "উলম্ব ৰেখাৰ কোনো দৌৰ নাই, গতিকে ইয়াৰ প্ৰৱণতা অনিৰ্দিষ্ট।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-018",
+    "q": {
+      "en": "The x-intercept of the line 2x + 3y = 6 is:",
+      "as": "2x + 3y = ৬ ৰেখাৰ x-ছেদবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1.5",
+        "as": "১.৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Putting y = 0 gives 2x = 6, so x = 3.",
+      "as": "y = ০ বহুৱালে 2x = ৬, গতিকে x = ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-019",
+    "q": {
+      "en": "The y-intercept of the line 2x + 3y = 6 is:",
+      "as": "2x + 3y = ৬ ৰেখাৰ y-ছেদবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Putting x = 0 gives 3y = 6, so y = 2.",
+      "as": "x = ০ বহুৱালে 3y = ৬, গতিকে y = ২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-020",
+    "q": {
+      "en": "The x-intercept of the line 3x + 4y = 12 is:",
+      "as": "3x + 4y = ১২ ৰেখাৰ x-ছেদবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3x = 12, so x = 4.",
+      "as": "3x = ১২, গতিকে x = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-021",
+    "q": {
+      "en": "The y-intercept of the line 3x + 4y = 12 is:",
+      "as": "3x + 4y = ১২ ৰেখাৰ y-ছেদবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4y = 12, so y = 3.",
+      "as": "4y = ১২, গতিকে y = ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-022",
+    "q": {
+      "en": "The slope of the line y = 3x + 5 is:",
+      "as": "y = 3x + ৫ ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "−3",
+        "as": "−৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In y = mx + c the coefficient of x is the slope, so m = 3.",
+      "as": "y = mx + c ত x ৰ সহগেই প্ৰৱণতা, গতিকে m = ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-023",
+    "q": {
+      "en": "The slope of the line 2x + y = 7 is:",
+      "as": "2x + y = ৭ ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "−2",
+        "as": "−২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "y = −2x + 7, so the slope is −2.",
+      "as": "y = −২x + ৭, গতিকে প্ৰৱণতা −২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-024",
+    "q": {
+      "en": "Every point on the x-axis satisfies the relation:",
+      "as": "x-অক্ষৰ প্ৰতিটো বিন্দুৱে সিদ্ধ কৰা সম্পৰ্ক:"
+    },
+    "options": [
+      {
+        "en": "y = 0",
+        "as": "y = ০"
+      },
+      {
+        "en": "x = 0",
+        "as": "x = ০"
+      },
+      {
+        "en": "x = y",
+        "as": "x = y"
+      },
+      {
+        "en": "y = 1",
+        "as": "y = ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every point on the x-axis has y = 0.",
+      "as": "x-অক্ষৰ প্ৰতিটো বিন্দুৰ y = ০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-025",
+    "q": {
+      "en": "The equation of the y-axis is:",
+      "as": "y-অক্ষৰ সমীকৰণ:"
+    },
+    "options": [
+      {
+        "en": "x = 0",
+        "as": "x = ০"
+      },
+      {
+        "en": "y = 0",
+        "as": "y = ০"
+      },
+      {
+        "en": "x = y",
+        "as": "x = y"
+      },
+      {
+        "en": "x = 1",
+        "as": "x = ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every point on the y-axis has x = 0.",
+      "as": "y-অক্ষৰ প্ৰতিটো বিন্দুৰ x = ০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-026",
+    "q": {
+      "en": "The point (0, −4) lies on:",
+      "as": "(০, −৪) বিন্দুটো থাকে:"
+    },
+    "options": [
+      {
+        "en": "the y-axis",
+        "as": "the y-axis"
+      },
+      {
+        "en": "the x-axis",
+        "as": "the x-axis"
+      },
+      {
+        "en": "the origin",
+        "as": "the origin"
+      },
+      {
+        "en": "the line x = −4",
+        "as": "the line x = −৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Its x-coordinate is zero, so it lies on the y-axis.",
+      "as": "ইয়াৰ x-স্থানাংক শূন্য, গতিকে ই y-অক্ষত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-027",
+    "q": {
+      "en": "The quadrant in which the point (−3, 5) lies is:",
+      "as": "(−৩, ৫) বিন্দুটো যি চতুৰ্থাংশত থাকে সেয়া:"
+    },
+    "options": [
+      {
+        "en": "II",
+        "as": "II"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "III",
+        "as": "III"
+      },
+      {
+        "en": "IV",
+        "as": "IV"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A negative x with a positive y lies in the second quadrant.",
+      "as": "ঋণাত্মক x আৰু ধনাত্মক y দ্বিতীয় চতুৰ্থাংশত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-028",
+    "q": {
+      "en": "The quadrant in which the point (4, −6) lies is:",
+      "as": "(৪, −৬) বিন্দুটো যি চতুৰ্থাংশত থাকে সেয়া:"
+    },
+    "options": [
+      {
+        "en": "IV",
+        "as": "IV"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "II",
+        "as": "II"
+      },
+      {
+        "en": "III",
+        "as": "III"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A positive x with a negative y lies in the fourth quadrant.",
+      "as": "ধনাত্মক x আৰু ঋণাত্মক y চতুৰ্থ চতুৰ্থাংশত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-029",
+    "q": {
+      "en": "The quadrant in which the point (−2, −7) lies is:",
+      "as": "(−২, −৭) বিন্দুটো যি চতুৰ্থাংশত থাকে সেয়া:"
+    },
+    "options": [
+      {
+        "en": "II",
+        "as": "II"
+      },
+      {
+        "en": "IV",
+        "as": "IV"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "III",
+        "as": "III"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both coordinates are negative, so it lies in the third quadrant.",
+      "as": "দুয়ো স্থানাংক ঋণাত্মক, গতিকে ই তৃতীয় চতুৰ্থাংশত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-030",
+    "q": {
+      "en": "The point (5, 0) lies on:",
+      "as": "(৫, ০) বিন্দুটো থাকে:"
+    },
+    "options": [
+      {
+        "en": "the y-axis",
+        "as": "the y-axis"
+      },
+      {
+        "en": "the x-axis",
+        "as": "the x-axis"
+      },
+      {
+        "en": "the origin",
+        "as": "the origin"
+      },
+      {
+        "en": "the line y = 5",
+        "as": "the line y = ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Its y-coordinate is zero, so it lies on the x-axis.",
+      "as": "ইয়াৰ y-স্থানাংক শূন্য, গতিকে ই x-অক্ষত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-031",
+    "q": {
+      "en": "The area of the right triangle cut off by the line x/4 + y/3 = 1 from the coordinate axes is:",
+      "as": "x/4 + y/3 = ১ ৰেখাই স্থানাংক অক্ষৰ পৰা কাটি লোৱা সমকোণী ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "12 sq units",
+        "as": "১২ sq units"
+      },
+      {
+        "en": "6 sq units",
+        "as": "৬ sq units"
+      },
+      {
+        "en": "7 sq units",
+        "as": "৭ sq units"
+      },
+      {
+        "en": "24 sq units",
+        "as": "২৪ sq units"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The intercepts are 4 and 3, so the area is (1/2) × 4 × 3 = 6.",
+      "as": "ছেদবিন্দু ৪ আৰু ৩, গতিকে কালি (১/২) × ৪ × ৩ = ৬।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-032",
+    "q": {
+      "en": "The area of the triangle with vertices (0, 0), (6, 0) and (0, 5) is:",
+      "as": "(০, ০), (৬, ০) আৰু (০, ৫) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "30 sq units",
+        "as": "৩০ sq units"
+      },
+      {
+        "en": "15 sq units",
+        "as": "১৫ sq units"
+      },
+      {
+        "en": "11 sq units",
+        "as": "১১ sq units"
+      },
+      {
+        "en": "60 sq units",
+        "as": "৬০ sq units"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(1/2) × 6 × 5 = 15.",
+      "as": "(১/২) × ৬ × ৫ = ১৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-033",
+    "q": {
+      "en": "The area of the triangle with vertices (0, 0), (3, 0) and (0, 4) is:",
+      "as": "(০, ০), (৩, ০) আৰু (০, ৪) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "12 sq units",
+        "as": "১২ sq units"
+      },
+      {
+        "en": "6 sq units",
+        "as": "৬ sq units"
+      },
+      {
+        "en": "7 sq units",
+        "as": "৭ sq units"
+      },
+      {
+        "en": "24 sq units",
+        "as": "২৪ sq units"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(1/2) × 3 × 4 = 6.",
+      "as": "(১/২) × ৩ × ৪ = ৬।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-034",
+    "q": {
+      "en": "The area of the triangle with vertices (1, 1), (5, 1) and (1, 4) is:",
+      "as": "(১, ১), (৫, ১) আৰু (১, ৪) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "12 sq units",
+        "as": "১২ sq units"
+      },
+      {
+        "en": "8 sq units",
+        "as": "৮ sq units"
+      },
+      {
+        "en": "4 sq units",
+        "as": "৪ sq units"
+      },
+      {
+        "en": "6 sq units",
+        "as": "৬ sq units"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The legs are 4 and 3, so the area is (1/2) × 4 × 3 = 6.",
+      "as": "ভুজ দুটা ৪ আৰু ৩, গতিকে কালি (১/২) × ৪ × ৩ = ৬।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-035",
+    "q": {
+      "en": "The distance of the point (a, b) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (a, b) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "a + b",
+        "as": "a + b"
+      },
+      {
+        "en": "|a − b|",
+        "as": "|a − b|"
+      },
+      {
+        "en": "(a² + b²)/2",
+        "as": "(a² + b²)/২"
+      },
+      {
+        "en": "√(a² + b²)",
+        "as": "√(a² + b²)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By the distance formula the distance is √(a² + b²).",
+      "as": "দূৰত্ব সূত্ৰ অনুসৰি দূৰত্ব √(a² + b²)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-036",
+    "q": {
+      "en": "The distance between the points (a, 0) and (0, b) is:",
+      "as": "(a, ০) আৰু (০, b) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "a + b",
+        "as": "a + b"
+      },
+      {
+        "en": "|a − b|",
+        "as": "|a − b|"
+      },
+      {
+        "en": "√(a² + b²)",
+        "as": "√(a² + b²)"
+      },
+      {
+        "en": "ab",
+        "as": "ab"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√(a² + b²).",
+      "as": "√(a² + b²)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-037",
+    "q": {
+      "en": "If the distance between (0, 0) and (x, 3) is 5, the positive value of x is:",
+      "as": "যদি (০, ০) আৰু (x, ৩) ৰ মাজৰ দূৰত্ব ৫ হয়, x ৰ ধনাত্মক মান:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² + 9 = 25, so x² = 16 and x = 4.",
+      "as": "x² + ৯ = ২৫, গতিকে x² = ১৬ আৰু x = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-038",
+    "q": {
+      "en": "If the distance between (0, 0) and (6, y) is 10, the positive value of y is:",
+      "as": "যদি (০, ০) আৰু (৬, y) ৰ মাজৰ দূৰত্ব ১০ হয়, y ৰ ধনাত্মক মান:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "36 + y² = 100, so y² = 64 and y = 8.",
+      "as": "৩৬ + y² = ১০০, গতিকে y² = ৬৪ আৰু y = ৮।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-039",
+    "q": {
+      "en": "The value of x for which the distance between (x, 0) and (0, 5) is 13 is:",
+      "as": "যি x ৰ বাবে (x, ০) আৰু (০, ৫) ৰ মাজৰ দূৰত্ব ১৩ হয় সেই x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² + 25 = 169, so x² = 144 and x = 12.",
+      "as": "x² + ২৫ = ১৬৯, গতিকে x² = ১৪৪ আৰু x = ১২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-040",
+    "q": {
+      "en": "The centroid of the triangle with vertices (0, 0), (6, 0) and (0, 9) is:",
+      "as": "(০, ০), (৬, ০) আৰু (০, ৯) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ ভৰকেন্দ্ৰ:"
+    },
+    "options": [
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(3, 2)",
+        "as": "(৩, ২)"
+      },
+      {
+        "en": "(6, 9)",
+        "as": "(৬, ৯)"
+      },
+      {
+        "en": "(1, 1)",
+        "as": "(১, ১)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Centroid = ((0 + 6 + 0)/3, (0 + 0 + 9)/3) = (2, 3).",
+      "as": "ভৰকেন্দ্ৰ = ((০ + ৬ + ০)/৩, (০ + ০ + ৯)/৩) = (২, ৩)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-041",
+    "q": {
+      "en": "The centroid of the triangle with vertices (1, 2), (3, 4) and (5, 6) is:",
+      "as": "(১, ২), (৩, ৪) আৰু (৫, ৬) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ ভৰকেন্দ্ৰ:"
+    },
+    "options": [
+      {
+        "en": "(4, 5)",
+        "as": "(৪, ৫)"
+      },
+      {
+        "en": "(9, 12)",
+        "as": "(৯, ১২)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(3, 4)",
+        "as": "(৩, ৪)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "((1 + 3 + 5)/3, (2 + 4 + 6)/3) = (3, 4).",
+      "as": "((১ + ৩ + ৫)/৩, (২ + ৪ + ৬)/৩) = (৩, ৪)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-042",
+    "q": {
+      "en": "The centroid of the triangle with vertices (2, 1), (4, 5) and (6, 9) is:",
+      "as": "(২, ১), (৪, ৫) আৰু (৬, ৯) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ ভৰকেন্দ্ৰ:"
+    },
+    "options": [
+      {
+        "en": "(3, 4)",
+        "as": "(৩, ৪)"
+      },
+      {
+        "en": "(4, 5)",
+        "as": "(৪, ৫)"
+      },
+      {
+        "en": "(6, 9)",
+        "as": "(৬, ৯)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "((2 + 4 + 6)/3, (1 + 5 + 9)/3) = (4, 5).",
+      "as": "((২ + ৪ + ৬)/৩, (১ + ৫ + ৯)/৩) = (৪, ৫)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-043",
+    "q": {
+      "en": "The equation of the line with slope 2 passing through (0, 3) is:",
+      "as": "(০, ৩) ৰ মাজেৰে যোৱা আৰু প্ৰৱণতা ২ থকা ৰেখাৰ সমীকৰণ:"
+    },
+    "options": [
+      {
+        "en": "y = 2x + 3",
+        "as": "y = ২x + ৩"
+      },
+      {
+        "en": "y = 3x + 2",
+        "as": "y = ৩x + ২"
+      },
+      {
+        "en": "y = 2x − 3",
+        "as": "y = ২x − ৩"
+      },
+      {
+        "en": "y = −2x + 3",
+        "as": "y = −২x + ৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "y = mx + c with m = 2 and c = 3 gives y = 2x + 3.",
+      "as": "m = ২ আৰু c = ৩ ৰ সৈতে y = mx + c ৰ পৰা y = 2x + ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-044",
+    "q": {
+      "en": "The equation of the line with slope −1 passing through (0, 4) is:",
+      "as": "(০, ৪) ৰ মাজেৰে যোৱা আৰু প্ৰৱণতা −১ থকা ৰেখাৰ সমীকৰণ:"
+    },
+    "options": [
+      {
+        "en": "y = x + 4",
+        "as": "y = x + ৪"
+      },
+      {
+        "en": "y = −x − 4",
+        "as": "y = −x − ৪"
+      },
+      {
+        "en": "y = −x + 4",
+        "as": "y = −x + ৪"
+      },
+      {
+        "en": "y = 4x − 1",
+        "as": "y = ৪x − ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "y = −x + 4.",
+      "as": "y = −x + ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-045",
+    "q": {
+      "en": "The slope of a line perpendicular to a line of slope 2 is:",
+      "as": "প্ৰৱণতা ২ থকা ৰেখাৰ লম্ব ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "−2",
+        "as": "−২"
+      },
+      {
+        "en": "−1/2",
+        "as": "−১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The product of the slopes of perpendicular lines is −1, so the slope is −1/2.",
+      "as": "লম্ব ৰেখাৰ প্ৰৱণতাৰ গুণফল −১, গতিকে প্ৰৱণতা −১/২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-046",
+    "q": {
+      "en": "The slope of a line parallel to a line of slope 3 is:",
+      "as": "প্ৰৱণতা ৩ থকা ৰেখাৰ সমান্তৰাল ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "−3",
+        "as": "−৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "−1/3",
+        "as": "−১/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Parallel lines have equal slopes, so the slope is 3.",
+      "as": "সমান্তৰাল ৰেখাৰ প্ৰৱণতা সমান, গতিকে প্ৰৱণতা ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-047",
+    "q": {
+      "en": "The distance of the point (3, 4) from the x-axis is:",
+      "as": "x-অক্ষৰ পৰা (৩, ৪) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The distance from the x-axis is the y-coordinate, which is 4.",
+      "as": "x-অক্ষৰ পৰা দূৰত্ব হৈছে y-স্থানাংক, যি ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-048",
+    "q": {
+      "en": "The distance of the point (3, 4) from the y-axis is:",
+      "as": "y-অক্ষৰ পৰা (৩, ৪) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The distance from the y-axis is the x-coordinate, which is 3.",
+      "as": "y-অক্ষৰ পৰা দূৰত্ব হৈছে x-স্থানাংক, যি ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-049",
+    "q": {
+      "en": "The coordinates of the origin are:",
+      "as": "মূলবিন্দুৰ স্থানাংক:"
+    },
+    "options": [
+      {
+        "en": "(1, 1)",
+        "as": "(১, ১)"
+      },
+      {
+        "en": "(0, 0)",
+        "as": "(০, ০)"
+      },
+      {
+        "en": "(0, 1)",
+        "as": "(০, ১)"
+      },
+      {
+        "en": "(1, 0)",
+        "as": "(১, ০)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The origin is the point where the axes meet, which is (0, 0).",
+      "as": "মূলবিন্দু হৈছে অক্ষ দুটাই লগ হোৱা বিন্দু, যি (০, ০)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-050",
+    "q": {
+      "en": "The point (−4, 0) lies on:",
+      "as": "(−৪, ০) বিন্দুটো থাকে:"
+    },
+    "options": [
+      {
+        "en": "the x-axis",
+        "as": "the x-axis"
+      },
+      {
+        "en": "the y-axis",
+        "as": "the y-axis"
+      },
+      {
+        "en": "the line x = 4",
+        "as": "the line x = ৪"
+      },
+      {
+        "en": "the origin",
+        "as": "the origin"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Its y-coordinate is zero, so it lies on the x-axis.",
+      "as": "ইয়াৰ y-স্থানাংক শূন্য, গতিকে ই x-অক্ষত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-051",
+    "q": {
+      "en": "The distance between the points (7, 1) and (3, 1) is:",
+      "as": "(৭, ১) আৰু (৩, ১) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both have the same y, so the distance is |7 − 3| = 4.",
+      "as": "দুয়োটাৰ y একেই, গতিকে দূৰত্ব |৭ − ৩| = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-052",
+    "q": {
+      "en": "The distance between the points (2, 5) and (2, 9) is:",
+      "as": "(২, ৫) আৰু (২, ৯) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both have the same x, so the distance is |9 − 5| = 4.",
+      "as": "দুয়োটাৰ x একেই, গতিকে দূৰত্ব |৯ − ৫| = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-053",
+    "q": {
+      "en": "If the points (0, 0), (4, 0) and (0, y) form a right triangle of area 8, the value of y is:",
+      "as": "যদি (০, ০), (৪, ০) আৰু (০, y) বিন্দুৱে কালি ৮ ৰ এটা সমকোণী ত্ৰিভুজ গঠন কৰে, y ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(1/2) × 4 × y = 8, so 2y = 8 and y = 4.",
+      "as": "(১/২) × ৪ × y = ৮, গতিকে 2y = ৮ আৰু y = ৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-054",
+    "q": {
+      "en": "The equation of the line through (0, 0) with slope 3 is:",
+      "as": "(০, ০) ৰ মাজেৰে যোৱা আৰু প্ৰৱণতা ৩ থকা ৰেখাৰ সমীকৰণ:"
+    },
+    "options": [
+      {
+        "en": "y = x + 3",
+        "as": "y = x + ৩"
+      },
+      {
+        "en": "y = 3x + 3",
+        "as": "y = ৩x + ৩"
+      },
+      {
+        "en": "y = x/3",
+        "as": "y = x/৩"
+      },
+      {
+        "en": "y = 3x",
+        "as": "y = ৩x"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "It passes through the origin, so c = 0 and y = 3x.",
+      "as": "ই মূলবিন্দুৰ মাজেৰে যায়, গতিকে c = ০ আৰু y = 3x।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-055",
+    "q": {
+      "en": "The distance of the point (−6, −8) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (−৬, −৮) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(36 + 64) = √100 = 10.",
+      "as": "√(৩৬ + ৬৪) = √১০০ = ১০।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-056",
+    "q": {
+      "en": "The midpoint of the segment joining (5, −3) and (−1, 7) is:",
+      "as": "(৫, −৩) আৰু (−১, ৭) সংযোগ কৰা খণ্ডৰ মধ্যবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(3, 2)",
+        "as": "(৩, ২)"
+      },
+      {
+        "en": "(2, 2)",
+        "as": "(২, ২)"
+      },
+      {
+        "en": "(2, 4)",
+        "as": "(২, ৪)"
+      },
+      {
+        "en": "(4, 2)",
+        "as": "(৪, ২)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "((5 − 1)/2, (−3 + 7)/2) = (2, 2).",
+      "as": "((৫ − ১)/২, (−৩ + ৭)/২) = (২, ২)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-057",
+    "q": {
+      "en": "If the slope of the line joining (2, 3) and (4, k) is 3, the value of k is:",
+      "as": "যদি (২, ৩) আৰু (৪, k) সংযোগ কৰা ৰেখাৰ প্ৰৱণতা ৩ হয়, k ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(k − 3)/(4 − 2) = 3, so k − 3 = 6 and k = 9.",
+      "as": "(k − ৩)/(৪ − ২) = ৩, গতিকে k − ৩ = ৬ আৰু k = ৯।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-058",
+    "q": {
+      "en": "The distance between the points (5, 12) and (0, 0) is:",
+      "as": "(৫, ১২) আৰু (০, ০) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√(25 + 144) = 13.",
+      "as": "√(২৫ + ১৪৪) = ১৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-059",
+    "q": {
+      "en": "The point (3, −5) lies in quadrant:",
+      "as": "(৩, −৫) বিন্দুটো থাকে চতুৰ্থাংশত:"
+    },
+    "options": [
+      {
+        "en": "II",
+        "as": "II"
+      },
+      {
+        "en": "III",
+        "as": "III"
+      },
+      {
+        "en": "IV",
+        "as": "IV"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A positive x with a negative y lies in the fourth quadrant.",
+      "as": "ধনাত্মক x আৰু ঋণাত্মক y চতুৰ্থ চতুৰ্থাংশত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-060",
+    "q": {
+      "en": "The value of the abscissa of the point (7, −2) is:",
+      "as": "(৭, −২) বিন্দুৰ ভুজৰ মান:"
+    },
+    "options": [
+      {
+        "en": "−2",
+        "as": "−২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The abscissa is the x-coordinate, which is 7.",
+      "as": "ভুজ হৈছে x-স্থানাংক, যি ৭।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-061",
+    "q": {
+      "en": "The value of the ordinate of the point (4, −9) is:",
+      "as": "(৪, −৯) বিন্দুৰ কোটির মান:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "−9",
+        "as": "−৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The ordinate is the y-coordinate, which is −9.",
+      "as": "কোটি হৈছে y-স্থানাংক, যি −৯।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-062",
+    "q": {
+      "en": "The distance of the point (0, 7) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (০, ৭) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(0 + 49) = 7.",
+      "as": "√(০ + ৪৯) = ৭।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-063",
+    "q": {
+      "en": "The point that divides the segment joining (2, 2) and (8, 8) in the ratio 1 : 3 is:",
+      "as": "(২, ২) আৰু (৮, ৮) সংযোগ কৰা খণ্ডক ১ : ৩ অনুপাতত ভাগ কৰা বিন্দু:"
+    },
+    "options": [
+      {
+        "en": "(5, 5)",
+        "as": "(৫, ৫)"
+      },
+      {
+        "en": "(3.5, 3.5)",
+        "as": "(৩.৫, ৩.৫)"
+      },
+      {
+        "en": "(4, 4)",
+        "as": "(৪, ৪)"
+      },
+      {
+        "en": "(3, 3)",
+        "as": "(৩, ৩)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x = (3 × 2 + 1 × 8)/4 = 3.5, and y = 3.5 by symmetry.",
+      "as": "x = (৩ × ২ + ১ × ৮)/৪ = ৩.৫, আৰু প্ৰতিসমতাৰে y = ৩.৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-064",
+    "q": {
+      "en": "The distance between the points (8, 15) and (0, 0) is:",
+      "as": "(৮, ১৫) আৰু (০, ০) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(64 + 225) = √289 = 17.",
+      "as": "√(৬৪ + ২২৫) = √২৮৯ = ১৭।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-065",
+    "q": {
+      "en": "The area of the triangle with vertices (0, 0), (8, 0) and (0, 6) is:",
+      "as": "(০, ০), (৮, ০) আৰু (০, ৬) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "24 sq units",
+        "as": "২৪ sq units"
+      },
+      {
+        "en": "48 sq units",
+        "as": "৪৮ sq units"
+      },
+      {
+        "en": "14 sq units",
+        "as": "১৪ sq units"
+      },
+      {
+        "en": "12 sq units",
+        "as": "১২ sq units"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(1/2) × 8 × 6 = 24.",
+      "as": "(১/২) × ৮ × ৬ = ২৪।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-066",
+    "q": {
+      "en": "If the points (1, 2), (3, 4) and (5, y) are collinear, the value of y is:",
+      "as": "যদি (১, ২), (৩, ৪) আৰু (৫, y) বিন্দুবোৰ সমৰেখীয় হয়, y ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The slope is 1 throughout, so y − 4 = 5 − 3 and y = 6.",
+      "as": "প্ৰৱণতা সৰ্বত্ৰ ১, গতিকে y − ৪ = ৫ − ৩ আৰু y = ৬।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-067",
+    "q": {
+      "en": "The slope of the line passing through (−2, −3) and (2, 5) is:",
+      "as": "(−২, −৩) আৰু (২, ৫) ৰ মাজেৰে যোৱা ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "−2",
+        "as": "−২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(5 + 3)/(2 + 2) = 8/4 = 2.",
+      "as": "(৫ + ৩)/(২ + ২) = ৮/৪ = ২।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-068",
+    "q": {
+      "en": "The x-intercept of the line y = 2x − 6 is:",
+      "as": "y = 2x − ৬ ৰেখাৰ x-ছেদবিন্দু:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "−3",
+        "as": "−৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Putting y = 0 gives 2x = 6, so x = 3.",
+      "as": "y = ০ বহুৱালে 2x = ৬, গতিকে x = ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-069",
+    "q": {
+      "en": "The distance of the point (9, 12) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (৯, ১২) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "√(81 + 144) = 15.",
+      "as": "√(৮১ + ১৪৪) = ১৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-070",
+    "q": {
+      "en": "If the midpoint of the segment joining (x, 3) and (5, 9) is (4, 6), the value of x is:",
+      "as": "যদি (x, ৩) আৰু (৫, ৯) সংযোগ কৰা খণ্ডৰ মধ্যবিন্দু (৪, ৬) হয়, x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(x + 5)/2 = 4, so x = 3.",
+      "as": "(x + ৫)/২ = ৪, গতিকে x = ৩।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-071",
+    "q": {
+      "en": "The distance between the points (1, 1) and (4, 5) is:",
+      "as": "(১, ১) আৰু (৪, ৫) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(9 + 16) = 5.",
+      "as": "√(৯ + ১৬) = ৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-072",
+    "q": {
+      "en": "The slope of the line joining (0, 6) and (6, 0) is:",
+      "as": "(০, ৬) আৰু (৬, ০) সংযোগ কৰা ৰেখাৰ প্ৰৱণতা:"
+    },
+    "options": [
+      {
+        "en": "−1",
+        "as": "−১"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "−6",
+        "as": "−৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(0 − 6)/(6 − 0) = −1.",
+      "as": "(০ − ৬)/(৬ − ০) = −১।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-073",
+    "q": {
+      "en": "The distance of the point (0, −9) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (০, −৯) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "√(0 + 81) = 9.",
+      "as": "√(০ + ৮১) = ৯।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-074",
+    "q": {
+      "en": "The point (0, 5) lies on:",
+      "as": "(০, ৫) বিন্দুটো থাকে:"
+    },
+    "options": [
+      {
+        "en": "the x-axis",
+        "as": "the x-axis"
+      },
+      {
+        "en": "the y-axis",
+        "as": "the y-axis"
+      },
+      {
+        "en": "the line y = 0",
+        "as": "the line y = ০"
+      },
+      {
+        "en": "the origin",
+        "as": "the origin"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Its x-coordinate is zero, so it lies on the y-axis.",
+      "as": "ইয়াৰ x-স্থানাংক শূন্য, গতিকে ই y-অক্ষত থাকে।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-075",
+    "q": {
+      "en": "The distance between the points (−1, −1) and (2, 3) is:",
+      "as": "(−১, −১) আৰু (২, ৩) বিন্দুৰ মাজৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(9 + 16) = 5.",
+      "as": "√(৯ + ১৬) = ৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-076",
+    "q": {
+      "en": "The coordinates of a point on the x-axis at a distance 5 from the origin (positive side) are:",
+      "as": "মূলবিন্দুৰ পৰা ৫ দূৰত্বত x-অক্ষৰ ওপৰত থকা এটা বিন্দুৰ (ধনাত্মক ফাল) স্থানাংক:"
+    },
+    "options": [
+      {
+        "en": "(5, 0)",
+        "as": "(৫, ০)"
+      },
+      {
+        "en": "(0, 5)",
+        "as": "(০, ৫)"
+      },
+      {
+        "en": "(5, 5)",
+        "as": "(৫, ৫)"
+      },
+      {
+        "en": "(−5, 0)",
+        "as": "(−৫, ০)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On the x-axis the y-coordinate is 0, so the point is (5, 0).",
+      "as": "x-অক্ষত y-স্থানাংক ০, গতিকে বিন্দুটো (৫, ০)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-077",
+    "q": {
+      "en": "The coordinates of a point on the y-axis at a distance 4 from the origin (positive side) are:",
+      "as": "মূলবিন্দুৰ পৰা ৪ দূৰত্বত y-অক্ষৰ ওপৰত থকা এটা বিন্দুৰ (ধনাত্মক ফাল) স্থানাংক:"
+    },
+    "options": [
+      {
+        "en": "(0, 4)",
+        "as": "(০, ৪)"
+      },
+      {
+        "en": "(4, 0)",
+        "as": "(৪, ০)"
+      },
+      {
+        "en": "(4, 4)",
+        "as": "(৪, ৪)"
+      },
+      {
+        "en": "(0, −4)",
+        "as": "(০, −৪)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "On the y-axis the x-coordinate is 0, so the point is (0, 4).",
+      "as": "y-অক্ষত x-স্থানাংক ০, গতিকে বিন্দুটো (০, ৪)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-078",
+    "q": {
+      "en": "The distance of the point (−3, −4) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (−৩, −৪) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(9 + 16) = 5.",
+      "as": "√(৯ + ১৬) = ৫।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-079",
+    "q": {
+      "en": "If the distance between (2, 3) and (2, k) is 5, the value of k is:",
+      "as": "যদি (২, ৩) আৰু (২, k) ৰ মাজৰ দূৰত্ব ৫ হয়, k ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "|k − 3| = 5, so k = 8 (taking the positive direction).",
+      "as": "|k − ৩| = ৫, গতিকে k = ৮ (ধনাত্মক দিশ ধৰি)।"
+    }
+  },
+  {
+    "id": "coordinate-geometry-080",
+    "q": {
+      "en": "The distance of the point (12, 5) from the origin is:",
+      "as": "মূলবিন্দুৰ পৰা (১২, ৫) বিন্দুৰ দূৰত্ব:"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(144 + 25) = 13.",
+      "as": "√(১৪৪ + ২৫) = ১৩।"
+    }
+  }
+]

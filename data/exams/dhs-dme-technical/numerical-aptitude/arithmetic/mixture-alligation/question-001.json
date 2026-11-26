@@ -1,0 +1,3379 @@
+[
+  {
+    "id": "numerical-023",
+    "q": {
+      "en": "In what ratio must tea at ₹240 per kg be mixed with tea at ₹300 per kg to get a mixture worth ₹270 per kg?",
+      "as": "প্ৰতি কিলো ২৪০ টকাৰ চাহৰ লগত প্ৰতি কিলো ৩০০ টকাৰ চাহ কোন অনুপাতত মিহলাব লাগে যাতে মিশ্ৰণৰ মূল্য প্ৰতি কিলো ২৭০ টকা হয়"
+    },
+    "options": [
+      {
+        "en": "1 : 1",
+        "as": "১ : ১"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By alligation the cheaper is 270 - 240 = 30 above, and the dearer is 300 - 270 = 30 below. Ratio = 30 : 30 = 1 : 1.",
+      "as": "মিশ্ৰণ নিয়মে সস্তাটো ২৭০ - ২৪০ = ৩০ ওপৰত, আৰু দামটো ৩০০ - ২৭০ = ৩০ তলত। অনুপাত = ৩০ : ৩০ = ১ : ১।"
+    }
+  },
+  {
+    "id": "numerical-024",
+    "q": {
+      "en": "A vessel holds 40 litres of milk. 4 litres are drawn out and replaced with water. This is done twice. The milk left is",
+      "as": "এটা পাত্ৰত ৪০ লিটাৰ গাখীৰ আছে। ৪ লিটাৰ উলিয়াই পানীৰে সলনি কৰা হয়। এই কাম দুবাৰ কৰা হ'ল। বাকী থকা গাখীৰ কিমান"
+    },
+    "options": [
+      {
+        "en": "32.4 litres",
+        "as": "৩২.৪ লিটাৰ"
+      },
+      {
+        "en": "36 litres",
+        "as": "৩৬ লিটাৰ"
+      },
+      {
+        "en": "30 litres",
+        "as": "৩০ লিটাৰ"
+      },
+      {
+        "en": "34 litres",
+        "as": "৩৪ লিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each operation leaves (1 - 4/40) = 0.9 of the milk. After two operations the milk is 40 × 0.9² = 40 × 0.81 = 32.4 litres.",
+      "as": "প্ৰতিবাৰ কাৰ্যৰ পিছত গাখীৰ (১ - ৪/৪০) = ০.৯ অংশ থাকে। দুবাৰৰ পিছত গাখীৰ = ৪০ × ০.৯² = ৪০ × ০.৮১ = ৩২.৪ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-001",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 20 per kg be mixed with one at 35 per kg to get a mixture worth 26 per kg?",
+      "as": "২০ টকা/কিলো মূল্যৰ বস্তু ৩৫ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ২৬ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "20:35",
+        "as": "২০:৩৫"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (35-26):(26-20) = 3:2.",
+      "as": "অনুপাত = (৩৫-২৬):(২৬-২০) = ৩:২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-002",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 24 per kg be mixed with one at 40 per kg to get a mixture worth 30 per kg?",
+      "as": "২৪ টকা/কিলো মূল্যৰ বস্তু ৪০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "24:40",
+        "as": "২৪:৪০"
+      },
+      {
+        "en": "5:3",
+        "as": "৫:৩"
+      },
+      {
+        "en": "6:3",
+        "as": "৬:৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (40-30):(30-24) = 5:3.",
+      "as": "অনুপাত = (৪০-৩০):(৩০-২৪) = ৫:৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-003",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 15 per kg be mixed with one at 30 per kg to get a mixture worth 22 per kg?",
+      "as": "১৫ টকা/কিলো মূল্যৰ বস্তু ৩০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ২২ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "7:8",
+        "as": "৭:৮"
+      },
+      {
+        "en": "15:30",
+        "as": "১৫:৩০"
+      },
+      {
+        "en": "9:7",
+        "as": "৯:৭"
+      },
+      {
+        "en": "8:7",
+        "as": "৮:৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (30-22):(22-15) = 8:7.",
+      "as": "অনুপাত = (৩০-২২):(২২-১৫) = ৮:৭।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-004",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 18 per kg be mixed with one at 42 per kg to get a mixture worth 30 per kg?",
+      "as": "১৮ টকা/কিলো মূল্যৰ বস্তু ৪২ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "18:42",
+        "as": "১৮:৪২"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (42-30):(30-18) = 1:1.",
+      "as": "অনুপাত = (৪২-৩০):(৩০-১৮) = ১:১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-005",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 12 per kg be mixed with one at 27 per kg to get a mixture worth 18 per kg?",
+      "as": "১২ টকা/কিলো মূল্যৰ বস্তু ২৭ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ১৮ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "12:27",
+        "as": "১২:২৭"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (27-18):(18-12) = 3:2.",
+      "as": "অনুপাত = (২৭-১৮):(১৮-১২) = ৩:২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-006",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 25 per kg be mixed with one at 45 per kg to get a mixture worth 33 per kg?",
+      "as": "২৫ টকা/কিলো মূল্যৰ বস্তু ৪৫ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩৩ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "25:45",
+        "as": "২৫:৪৫"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (45-33):(33-25) = 3:2.",
+      "as": "অনুপাত = (৪৫-৩৩):(৩৩-২৫) = ৩:২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-007",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 30 per kg be mixed with one at 50 per kg to get a mixture worth 38 per kg?",
+      "as": "৩০ টকা/কিলো মূল্যৰ বস্তু ৫০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩৮ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "30:50",
+        "as": "৩০:৫০"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (50-38):(38-30) = 3:2.",
+      "as": "অনুপাত = (৫০-৩৮):(৩৮-৩০) = ৩:২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-008",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 16 per kg be mixed with one at 36 per kg to get a mixture worth 24 per kg?",
+      "as": "১৬ টকা/কিলো মূল্যৰ বস্তু ৩৬ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ২৪ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "16:36",
+        "as": "১৬:৩৬"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = (dear - mean) : (mean - cheap) = (36-24):(24-16) = 3:2.",
+      "as": "অনুপাত = (৩৬-২৪):(২৪-১৬) = ৩:২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-009",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "20 kg of rice at 30 per kg is mixed with 30 kg at 40 per kg. Find the average price of the mixture.",
+      "as": "২০ কিলো ৩০ টকা/কিলো চাউল ৩০ কিলো ৪০ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "38.0",
+        "as": "৩৮.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "34.0",
+        "as": "৩৪.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean = (20×30 + 30×40)/50 = 36.0.",
+      "as": "গড় = ৩৬.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-010",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "15 kg of rice at 24 per kg is mixed with 25 kg at 36 per kg. Find the average price of the mixture.",
+      "as": "১৫ কিলো ২৪ টকা/কিলো চাউল ২৫ কিলো ৩৬ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "33.5",
+        "as": "৩৩.৫"
+      },
+      {
+        "en": "29.5",
+        "as": "২৯.৫"
+      },
+      {
+        "en": "31.5",
+        "as": "৩১.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean = (15×24 + 25×36)/40 = 31.5.",
+      "as": "গড় = ৩১.৫।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-011",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "40 kg of rice at 12 per kg is mixed with 60 kg at 18 per kg. Find the average price of the mixture.",
+      "as": "৪০ কিলো ১২ টকা/কিলো চাউল ৬০ কিলো ১৮ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "15.6",
+        "as": "১৫.৬"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "17.6",
+        "as": "১৭.৬"
+      },
+      {
+        "en": "13.6",
+        "as": "১৩.৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean = (40×12 + 60×18)/100 = 15.6.",
+      "as": "গড় = ১৫.৬।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-012",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "25 kg of rice at 45 per kg is mixed with 35 kg at 55 per kg. Find the average price of the mixture.",
+      "as": "২৫ কিলো ৪৫ টকা/কিলো চাউল ৩৫ কিলো ৫৫ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "50.83",
+        "as": "৫০.৮৩"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "52.83",
+        "as": "৫২.৮৩"
+      },
+      {
+        "en": "48.83",
+        "as": "৪৮.৮৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean = (25×45 + 35×55)/60 = 50.83.",
+      "as": "গড় = ৫০.৮৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-013",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "10 kg of rice at 60 per kg is mixed with 40 kg at 45 per kg. Find the average price of the mixture.",
+      "as": "১০ কিলো ৬০ টকা/কিলো চাউল ৪০ কিলো ৪৫ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "52.5",
+        "as": "৫২.৫"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "46.0",
+        "as": "৪৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean = (10×60 + 40×45)/50 = 48.0.",
+      "as": "গড় = ৪৮.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-014",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "30 kg of rice at 20 per kg is mixed with 20 kg at 50 per kg. Find the average price of the mixture.",
+      "as": "৩০ কিলো ২০ টকা/কিলো চাউল ২০ কিলো ৫০ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "34.0",
+        "as": "৩৪.০"
+      },
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean = (30×20 + 20×50)/50 = 32.0.",
+      "as": "গড় = ৩২.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-015",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "60 litres of a mixture contains milk and water in the ratio 3 : 2. Find the quantity of milk.",
+      "as": "৬০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৩ : ২ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk = 60×3/5 = 36.0 litres.",
+      "as": "গাখীৰ = ৩৬.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-016",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "80 litres of a mixture contains milk and water in the ratio 5 : 3. Find the quantity of milk.",
+      "as": "৮০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৫ : ৩ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk = 80×5/8 = 50.0 litres.",
+      "as": "গাখীৰ = ৫০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-017",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "120 litres of a mixture contains milk and water in the ratio 7 : 5. Find the quantity of milk.",
+      "as": "১২০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৭ : ৫ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "70.0",
+        "as": "৭০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "140.0",
+        "as": "১৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk = 120×7/12 = 70.0 litres.",
+      "as": "গাখীৰ = ৭০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-018",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "90 litres of a mixture contains milk and water in the ratio 4 : 5. Find the quantity of milk.",
+      "as": "৯০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৪ : ৫ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk = 90×4/9 = 40.0 litres.",
+      "as": "গাখীৰ = ৪০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-019",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "150 litres of a mixture contains milk and water in the ratio 2 : 3. Find the quantity of milk.",
+      "as": "১৫০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ২ : ৩ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk = 150×2/5 = 60.0 litres.",
+      "as": "গাখীৰ = ৬০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-020",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "72 litres of a mixture contains milk and water in the ratio 5 : 4. Find the quantity of milk.",
+      "as": "৭২ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৫ : ৪ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk = 72×5/9 = 40.0 litres.",
+      "as": "গাখীৰ = ৪০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-021",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 40 litres of pure milk. 4 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৪০ লিটাৰ খাটি গাখীৰ আছে। ৪ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "29.16",
+        "as": "২৯.১৬"
+      },
+      {
+        "en": "32.4",
+        "as": "৩২.৪"
+      },
+      {
+        "en": "16.2",
+        "as": "১৬.২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk left = 40(1 - 4/40)^2 = 32.4 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৩২.৪ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-022",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 50 litres of pure milk. 5 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৫০ লিটাৰ খাটি গাখীৰ আছে। ৫ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "36.45",
+        "as": "৩৬.৪৫"
+      },
+      {
+        "en": "20.25",
+        "as": "২০.২৫"
+      },
+      {
+        "en": "40.5",
+        "as": "৪০.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk left = 50(1 - 5/50)^2 = 40.5 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৪০.৫ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-023",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 60 litres of pure milk. 6 litres are removed and replaced with water. This is done 3 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৬০ লিটাৰ খাটি গাখীৰ আছে। ৬ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ৩ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "43.74",
+        "as": "৪৩.৭৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "39.37",
+        "as": "৩৯.৩৭"
+      },
+      {
+        "en": "21.87",
+        "as": "২১.৮৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk left = 60(1 - 6/60)^3 = 43.74 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৪৩.৭৪ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-024",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 80 litres of pure milk. 8 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৮০ লিটাৰ খাটি গাখীৰ আছে। ৮ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "64.8",
+        "as": "৬৪.৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "58.32",
+        "as": "৫৮.৩২"
+      },
+      {
+        "en": "32.4",
+        "as": "৩২.৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk left = 80(1 - 8/80)^2 = 64.8 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৬৪.৮ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-025",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 100 litres of pure milk. 10 litres are removed and replaced with water. This is done 3 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ১০০ লিটাৰ খাটি গাখীৰ আছে। ১০ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ৩ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "72.9",
+        "as": "৭২.৯"
+      },
+      {
+        "en": "65.61",
+        "as": "৬৫.৬১"
+      },
+      {
+        "en": "36.45",
+        "as": "৩৬.৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk left = 100(1 - 10/100)^3 = 72.9 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৭২.৯ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-026",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 64 litres of pure milk. 8 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৬৪ লিটাৰ খাটি গাখীৰ আছে। ৮ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "42.88",
+        "as": "৪২.৮৮"
+      },
+      {
+        "en": "49.0",
+        "as": "৪৯.০"
+      },
+      {
+        "en": "24.5",
+        "as": "২৪.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk left = 64(1 - 8/64)^2 = 49.0 litres.",
+      "as": "অৱশিষ্ট গাখীৰ = ৪৯.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-027",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 3 : 2 and 4 : 1. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৩ : ২ আৰু ৪ : ১। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "3:7",
+        "as": "৩:৭"
+      },
+      {
+        "en": "8:3",
+        "as": "৮:৩"
+      },
+      {
+        "en": "7:3",
+        "as": "৭:৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk fraction = (a/(a+b) + c/(c+d))/2, giving milk:water = 7:3.",
+      "as": "গাখীৰ:পানী = ৭:৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-028",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 5 : 3 and 2 : 1. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৫ : ৩ আৰু ২ : ১। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "7:4",
+        "as": "৭:৪"
+      },
+      {
+        "en": "5:3",
+        "as": "৫:৩"
+      },
+      {
+        "en": "31:17",
+        "as": "৩১:১৭"
+      },
+      {
+        "en": "17:31",
+        "as": "১৭:৩১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk fraction = (a/(a+b) + c/(c+d))/2, giving milk:water = 31:17.",
+      "as": "গাখীৰ:পানী = ৩১:১৭।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-029",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 7 : 5 and 3 : 2. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৭ : ৫ আৰু ৩ : ২। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "10:7",
+        "as": "১০:৭"
+      },
+      {
+        "en": "71:49",
+        "as": "৭১:৪৯"
+      },
+      {
+        "en": "7:5",
+        "as": "৭:৫"
+      },
+      {
+        "en": "49:71",
+        "as": "৪৯:৭১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk fraction = (a/(a+b) + c/(c+d))/2, giving milk:water = 71:49.",
+      "as": "গাখীৰ:পানী = ৭১:৪৯।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-030",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 4 : 1 and 3 : 2. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৪ : ১ আৰু ৩ : ২। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "7:3",
+        "as": "৭:৩"
+      },
+      {
+        "en": "4:1",
+        "as": "৪:১"
+      },
+      {
+        "en": "3:7",
+        "as": "৩:৭"
+      },
+      {
+        "en": "8:3",
+        "as": "৮:৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk fraction = (a/(a+b) + c/(c+d))/2, giving milk:water = 7:3.",
+      "as": "গাখীৰ:পানী = ৭:৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-031",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 5 : 2 and 7 : 3. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৫ : ২ আৰু ৭ : ৩। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12:5",
+        "as": "১২:৫"
+      },
+      {
+        "en": "5:2",
+        "as": "৫:২"
+      },
+      {
+        "en": "41:99",
+        "as": "৪১:৯৯"
+      },
+      {
+        "en": "99:41",
+        "as": "৯৯:৪১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk fraction = (a/(a+b) + c/(c+d))/2, giving milk:water = 99:41.",
+      "as": "গাখীৰ:পানী = ৯৯:৪১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-032",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 40 litres of milk containing 80% milk so that the mixture contains 50% milk?",
+      "as": "৮০% গাখীৰ থকা ৪০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৫০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Water = 40(80 - 50)/50 = 24.0 litres.",
+      "as": "পানী = ২৪.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-033",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 60 litres of milk containing 75% milk so that the mixture contains 60% milk?",
+      "as": "৭৫% গাখীৰ থকা ৬০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৬০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Water = 60(75 - 60)/60 = 15.0 litres.",
+      "as": "পানী = ১৫.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-034",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 80 litres of milk containing 90% milk so that the mixture contains 72% milk?",
+      "as": "৯০% গাখীৰ থকা ৮০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৭২% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Water = 80(90 - 72)/72 = 20.0 litres.",
+      "as": "পানী = ২০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-035",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 100 litres of milk containing 60% milk so that the mixture contains 40% milk?",
+      "as": "৬০% গাখীৰ থকা ১০০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৪০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water = 100(60 - 40)/40 = 50.0 litres.",
+      "as": "পানী = ৫০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-036",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 50 litres of milk containing 70% milk so that the mixture contains 50% milk?",
+      "as": "৭০% গাখীৰ থকা ৫০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৫০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water = 50(70 - 50)/50 = 20.0 litres.",
+      "as": "পানী = ২০.০ লিটাৰ।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-037",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "10 kg at 20, 20 kg at 30 and 30 kg at 40 are mixed. Find the average price per kg.",
+      "as": "১০ কিলো ২০, ২০ কিলো ৩০ আৰু ৩০ কিলো ৪০ মিহলালে প্ৰতি কিলোৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "35.33",
+        "as": "৩৫.৩৩"
+      },
+      {
+        "en": "31.33",
+        "as": "৩১.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 33.33.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৩৩.৩৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-038",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "5 kg at 12, 10 kg at 18 and 15 kg at 24 are mixed. Find the average price per kg.",
+      "as": "৫ কিলো ১২, ১০ কিলো ১৮ আৰু ১৫ কিলো ২৪ মিহলালে প্ৰতি কিলোৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 20.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ২০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-039",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "20 kg at 25, 30 kg at 35 and 50 kg at 45 are mixed. Find the average price per kg.",
+      "as": "২০ কিলো ২৫, ৩০ কিলো ৩৫ আৰু ৫০ কিলো ৪৫ মিহলালে প্ৰতি কিলোৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "38.0",
+        "as": "৩৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 38.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৩৮।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-040",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "20 kg of goods at 30 per kg is mixed with 30 kg at 40 per kg and the mixture is sold at 40 per kg. Find the profit percent.",
+      "as": "২০ কিলো ৩০ টকাৰ বস্তু ৩০ কিলো ৪০ টকাৰ বস্তুৰ সৈতে মিহলাই ৪০ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "11.11",
+        "as": "১১.১১"
+      },
+      {
+        "en": "5.56",
+        "as": "৫.৫৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total cost = 20 × 30 + 30 × 40 = 600 + 1,200 = 1,800 for 50 kg, so the cost price is 1,800 ÷ 50 = 36 per kg.",
+      "as": "মুঠ ক্ৰয় মূল্য = ১,৮০০ টকা (৫০ কেজি), সেয়ে প্ৰতি কেজিৰ ক্ৰয় মূল্য ৩৬ টকা।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-041",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "15 kg of goods at 24 per kg is mixed with 25 kg at 36 per kg and the mixture is sold at 36 per kg. Find the profit percent.",
+      "as": "১৫ কিলো ২৪ টকাৰ বস্তু ২৫ কিলো ৩৬ টকাৰ বস্তুৰ সৈতে মিহলাই ৩৬ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      },
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "7.14",
+        "as": "৭.১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total cost = 15 × 24 + 25 × 36 = 360 + 900 = 1,260 for 40 kg, so the cost price is 1,260 ÷ 40 = 31.5 per kg.",
+      "as": "মুঠ ক্ৰয় মূল্য = ১,২৬০ টকা (৪০ কেজি), সেয়ে প্ৰতি কেজিৰ ক্ৰয় মূল্য ৩১.৫ টকা।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-042",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "40 kg of goods at 12 per kg is mixed with 60 kg at 18 per kg and the mixture is sold at 18 per kg. Find the profit percent.",
+      "as": "৪০ কিলো ১২ টকাৰ বস্তু ৬০ কিলো ১৮ টকাৰ বস্তুৰ সৈতে মিহলাই ১৮ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.38",
+        "as": "১৫.৩৮"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "7.69",
+        "as": "৭.৬৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total cost = 40 × 12 + 60 × 18 = 480 + 1,080 = 1,560 for 100 kg, so the cost price is 1,560 ÷ 100 = 15.6 per kg.",
+      "as": "মুঠ ক্ৰয় মূল্য = ১,৫৬০ টকা (১০০ কেজি), সেয়ে প্ৰতি কেজিৰ ক্ৰয় মূল্য ১৫.৬ টকা।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-043",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "50 litres of a solution contains 40% acid. If 50 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৫০ লিটাৰ দ্ৰৱত ৪০% এচিড আছে। ৫০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "21.0",
+        "as": "২১.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "New % = 50×40/(50+50) = 20.0%.",
+      "as": "নতুন শতাংশ = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-044",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "60 litres of a solution contains 30% acid. If 40 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৬০ লিটাৰ দ্ৰৱত ৩০% এচিড আছে। ৪০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "23.0",
+        "as": "২৩.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New % = 60×30/(60+40) = 18.0%.",
+      "as": "নতুন শতাংশ = ১৮.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-045",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "80 litres of a solution contains 25% acid. If 20 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৮০ লিটাৰ দ্ৰৱত ২৫% এচিড আছে। ২০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "New % = 80×25/(80+20) = 20.0%.",
+      "as": "নতুন শতাংশ = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-046",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "100 litres of a solution contains 50% acid. If 100 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "১০০ লিটাৰ দ্ৰৱত ৫০% এচিড আছে। ১০০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "New % = 100×50/(100+100) = 25.0%.",
+      "as": "নতুন শতাংশ = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-047",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 4 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৪ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 1/4 × 100 = 25.0%.",
+      "as": "লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-048",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 5 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৫ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 1/5 × 100 = 20.0%.",
+      "as": "লাভ% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-049",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 3 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৩ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "66.67",
+        "as": "৬৬.৬৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 1/3 × 100 = 33.33%.",
+      "as": "লাভ% = ৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-050",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 7 : 2 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৭ : ২ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "350.0",
+        "as": "৩৫০.০"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      },
+      {
+        "en": "28.57",
+        "as": "২৮.৫৭"
+      },
+      {
+        "en": "57.14",
+        "as": "৫৭.১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 2/7 × 100 = 28.57%.",
+      "as": "লাভ% = ২৮.৫৭%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-051",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 9 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৯ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "5.56",
+        "as": "৫.৫৬"
+      },
+      {
+        "en": "22.22",
+        "as": "২২.২২"
+      },
+      {
+        "en": "11.11",
+        "as": "১১.১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 1/9 × 100 = 11.11%.",
+      "as": "লাভ% = ১১.১১%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-052",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 6 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৬ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "8.33",
+        "as": "৮.৩৩"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = water/milk × 100 = 1/6 × 100 = 16.67%.",
+      "as": "লাভ% = ১৬.৬৭%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-053",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 50 litres of pure milk. 10 litres are removed and replaced with water, twice. Find the percentage of milk in the final mixture.",
+      "as": "এটা পাত্ৰত ৫০ লিটাৰ খাটি গাখীৰ আছে। ১০ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়, দুবাৰ। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "64.0",
+        "as": "৬৪.০"
+      },
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      },
+      {
+        "en": "69.0",
+        "as": "৬৯.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk% = ((50-10)/50)² × 100 = 64.0%.",
+      "as": "গাখীৰ% = ৬৪.০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-054",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 80 litres of pure milk. 20 litres are removed and replaced with water, twice. Find the percentage of milk in the final mixture.",
+      "as": "এটা পাত্ৰত ৮০ লিটাৰ খাটি গাখীৰ আছে। ২০ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়, দুবাৰ। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "56.25",
+        "as": "৫৬.২৫"
+      },
+      {
+        "en": "43.75",
+        "as": "৪৩.৭৫"
+      },
+      {
+        "en": "28.12",
+        "as": "২৮.১২"
+      },
+      {
+        "en": "61.25",
+        "as": "৬১.২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk% = ((80-20)/80)² × 100 = 56.25%.",
+      "as": "গাখীৰ% = ৫৬.২৫%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-055",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 100 litres of pure milk. 25 litres are removed and replaced with water, twice. Find the percentage of milk in the final mixture.",
+      "as": "এটা পাত্ৰত ১০০ লিটাৰ খাটি গাখীৰ আছে। ২৫ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়, দুবাৰ। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "43.75",
+        "as": "৪৩.৭৫"
+      },
+      {
+        "en": "28.12",
+        "as": "২৮.১২"
+      },
+      {
+        "en": "61.25",
+        "as": "৬১.২৫"
+      },
+      {
+        "en": "56.25",
+        "as": "৫৬.২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Milk% = ((100-25)/100)² × 100 = 56.25%.",
+      "as": "গাখীৰ% = ৫৬.২৫%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-056",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 60 litres of pure milk. 15 litres are removed and replaced with water, twice. Find the percentage of milk in the final mixture.",
+      "as": "এটা পাত্ৰত ৬০ লিটাৰ খাটি গাখীৰ আছে। ১৫ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়, দুবাৰ। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "57.81",
+        "as": "৫৭.৮১"
+      },
+      {
+        "en": "42.19",
+        "as": "৪২.১৯"
+      },
+      {
+        "en": "21.09",
+        "as": "২১.০৯"
+      },
+      {
+        "en": "47.19",
+        "as": "৪৭.১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk% = ((60-15)/60)² × 100 = 42.19%.",
+      "as": "গাখীৰ% = ৪২.১৯%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-057",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 28 per kg be mixed with one at 42 per kg to get a mixture worth 33 per kg?",
+      "as": "২৮ টকা/কিলো মূল্যৰ বস্তু ৪২ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩৩ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "5:9",
+        "as": "৫:৯"
+      },
+      {
+        "en": "28:42",
+        "as": "২৮:৪২"
+      },
+      {
+        "en": "9:5",
+        "as": "৯:৫"
+      },
+      {
+        "en": "10:5",
+        "as": "১০:৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 9 : 5 = 9 : 5.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৯ : ৫ = ৯ : ৫।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-058",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 36 per kg be mixed with one at 60 per kg to get a mixture worth 45 per kg?",
+      "as": "৩৬ টকা/কিলো মূল্যৰ বস্তু ৬০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৪৫ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "36:60",
+        "as": "৩৬:৬০"
+      },
+      {
+        "en": "6:3",
+        "as": "৬:৩"
+      },
+      {
+        "en": "5:3",
+        "as": "৫:৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 5 : 3 = 5 : 3.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৫ : ৩ = ৫ : ৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-059",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 14 per kg be mixed with one at 32 per kg to get a mixture worth 20 per kg?",
+      "as": "১৪ টকা/কিলো মূল্যৰ বস্তু ৩২ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ২০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "1:2",
+        "as": "১:২"
+      },
+      {
+        "en": "14:32",
+        "as": "১৪:৩২"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 2 : 1 = 2 : 1.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ২ : ১ = ২ : ১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-060",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 22 per kg be mixed with one at 38 per kg to get a mixture worth 30 per kg?",
+      "as": "২২ টকা/কিলো মূল্যৰ বস্তু ৩৮ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৩০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "22:38",
+        "as": "২২:৩৮"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 1 : 1 = 1 : 1.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ১ : ১ = ১ : ১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-061",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 45 per kg be mixed with one at 75 per kg to get a mixture worth 60 per kg?",
+      "as": "৪৫ টকা/কিলো মূল্যৰ বস্তু ৭৫ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৬০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "45:75",
+        "as": "৪৫:৭৫"
+      },
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 1 : 1 = 1 : 1.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ১ : ১ = ১ : ১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-062",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 18 per kg be mixed with one at 30 per kg to get a mixture worth 24 per kg?",
+      "as": "১৮ টকা/কিলো মূল্যৰ বস্তু ৩০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ২৪ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "18:30",
+        "as": "১৮:৩০"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 1 : 1 = 1 : 1.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ১ : ১ = ১ : ১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-063",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 40 per kg be mixed with one at 70 per kg to get a mixture worth 52 per kg?",
+      "as": "৪০ টকা/কিলো মূল্যৰ বস্তু ৭০ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৫২ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "40:70",
+        "as": "৪০:৭০"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 3 : 2 = 3 : 2.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৩ : ২ = ৩ : ২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-064",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "In what ratio must a commodity at 55 per kg be mixed with one at 85 per kg to get a mixture worth 70 per kg?",
+      "as": "৫৫ টকা/কিলো মূল্যৰ বস্তু ৮৫ টকা/কিলো মূল্যৰ বস্তুৰ সৈতে কিমান অনুপাতত মিহলালে ৭০ টকা/কিলো মূল্যৰ মিশ্ৰণ পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "55:85",
+        "as": "৫৫:৮৫"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "3:1",
+        "as": "৩:১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 1 : 1 = 1 : 1.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ১ : ১ = ১ : ১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-065",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "35 kg of rice at 25 per kg is mixed with 15 kg at 45 per kg. Find the average price of the mixture.",
+      "as": "৩৫ কিলো ২৫ টকা/কিলো চাউল ১৫ কিলো ৪৫ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "31.0",
+        "as": "৩১.০"
+      },
+      {
+        "en": "33.0",
+        "as": "৩৩.০"
+      },
+      {
+        "en": "29.0",
+        "as": "২৯.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 31.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৩১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-066",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "45 kg of rice at 18 per kg is mixed with 55 kg at 28 per kg. Find the average price of the mixture.",
+      "as": "৪৫ কিলো ১৮ টকা/কিলো চাউল ৫৫ কিলো ২৮ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "23.5",
+        "as": "২৩.৫"
+      },
+      {
+        "en": "23.0",
+        "as": "২৩.০"
+      },
+      {
+        "en": "25.5",
+        "as": "২৫.৫"
+      },
+      {
+        "en": "21.5",
+        "as": "২১.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 23.5.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ২৩.৫।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-067",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "12 kg of rice at 50 per kg is mixed with 18 kg at 65 per kg. Find the average price of the mixture.",
+      "as": "১২ কিলো ৫০ টকা/কিলো চাউল ১৮ কিলো ৬৫ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "57.5",
+        "as": "৫৭.৫"
+      },
+      {
+        "en": "61.0",
+        "as": "৬১.০"
+      },
+      {
+        "en": "57.0",
+        "as": "৫৭.০"
+      },
+      {
+        "en": "59.0",
+        "as": "৫৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 59.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৫৯।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-068",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "24 kg of rice at 32 per kg is mixed with 36 kg at 44 per kg. Find the average price of the mixture.",
+      "as": "২৪ কিলো ৩২ টকা/কিলো চাউল ৩৬ কিলো ৪৪ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "38.0",
+        "as": "৩৮.০"
+      },
+      {
+        "en": "39.2",
+        "as": "৩৯.২"
+      },
+      {
+        "en": "41.2",
+        "as": "৪১.২"
+      },
+      {
+        "en": "37.2",
+        "as": "৩৭.২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 39.2.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৩৯.২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-069",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "50 kg of rice at 15 per kg is mixed with 25 kg at 27 per kg. Find the average price of the mixture.",
+      "as": "৫০ কিলো ১৫ টকা/কিলো চাউল ২৫ কিলো ২৭ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "21.0",
+        "as": "২১.০"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 19.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ১৯।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-070",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "16 kg of rice at 40 per kg is mixed with 24 kg at 55 per kg. Find the average price of the mixture.",
+      "as": "১৬ কিলো ৪০ টকা/কিলো চাউল ২৪ কিলো ৫৫ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "47.5",
+        "as": "৪৭.৫"
+      },
+      {
+        "en": "51.0",
+        "as": "৫১.০"
+      },
+      {
+        "en": "47.0",
+        "as": "৪৭.০"
+      },
+      {
+        "en": "49.0",
+        "as": "৪৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 49.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৪৯।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-071",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "28 kg of rice at 22 per kg is mixed with 42 kg at 37 per kg. Find the average price of the mixture.",
+      "as": "২৮ কিলো ২২ টকা/কিলো চাউল ৪২ কিলো ৩৭ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "31.0",
+        "as": "৩১.০"
+      },
+      {
+        "en": "29.5",
+        "as": "২৯.৫"
+      },
+      {
+        "en": "33.0",
+        "as": "৩৩.০"
+      },
+      {
+        "en": "29.0",
+        "as": "২৯.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 31.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৩১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-072",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "33 kg of rice at 60 per kg is mixed with 27 kg at 70 per kg. Find the average price of the mixture.",
+      "as": "৩৩ কিলো ৬০ টকা/কিলো চাউল ২৭ কিলো ৭০ টকা/কিলো চাউলৰ সৈতে মিহলালে মিশ্ৰণৰ গড় মূল্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "64.5",
+        "as": "৬৪.৫"
+      },
+      {
+        "en": "65.0",
+        "as": "৬৫.০"
+      },
+      {
+        "en": "66.5",
+        "as": "৬৬.৫"
+      },
+      {
+        "en": "62.5",
+        "as": "৬২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use alligation: the mean price lies between the two given prices, in the inverse ratio of the quantities, which gives 64.5.",
+      "as": "সংযোগ পদ্ধতি ব্যৱহাৰ কৰা: মিশ্ৰণৰ মূল্য দুটা দিয়া মূল্যৰ মাজত থাকে, পৰিমাণৰ ওলোটা অনুপাতত — ফল ৬৪.৫।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-073",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "84 litres of a mixture contains milk and water in the ratio 5 : 2. Find the quantity of milk.",
+      "as": "৮৪ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৫ : ২ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "42.0",
+        "as": "৪২.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 60.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ৬০.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-074",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "96 litres of a mixture contains milk and water in the ratio 7 : 9. Find the quantity of milk.",
+      "as": "৯৬ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৭ : ৯ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "42.0",
+        "as": "৪২.০"
+      },
+      {
+        "en": "84.0",
+        "as": "৮৪.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 42.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ৪২.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-075",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "108 litres of a mixture contains milk and water in the ratio 4 : 5. Find the quantity of milk.",
+      "as": "১০৮ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৪ : ৫ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 48.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ৪৮.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-076",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "144 litres of a mixture contains milk and water in the ratio 3 : 5. Find the quantity of milk.",
+      "as": "১৪৪ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৩ : ৫ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "108.0",
+        "as": "১০৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 54.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ৫৪.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-077",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "168 litres of a mixture contains milk and water in the ratio 9 : 5. Find the quantity of milk.",
+      "as": "১৬৮ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৯ : ৫ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "108.0",
+        "as": "১০৮.০"
+      },
+      {
+        "en": "84.0",
+        "as": "৮৪.০"
+      },
+      {
+        "en": "216.0",
+        "as": "২১৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 108.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ১০৮.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-078",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "180 litres of a mixture contains milk and water in the ratio 7 : 8. Find the quantity of milk.",
+      "as": "১৮০ লিটাৰ মিশ্ৰণত গাখীৰ আৰু পানী ৭ : ৮ অনুপাতত আছে। গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "84.0",
+        "as": "৮৪.০"
+      },
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "168.0",
+        "as": "১৬৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the milk needed is 84.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Milk ৮৪.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-079",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 72 litres of pure milk. 9 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৭২ লিটাৰ খাটি গাখীৰ আছে। ৯ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "27.56",
+        "as": "২৭.৫৬"
+      },
+      {
+        "en": "64.12",
+        "as": "৬৪.১২"
+      },
+      {
+        "en": "55.12",
+        "as": "৫৫.১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 9/72) of the milk behind, so after 2 rounds 72 × (1 − 9/72)^2 = 55.12 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ৯/৭২) অংশ থাকে, সেয়ে ২ বাৰৰ পিছত ৫৫.১২ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-080",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 90 litres of pure milk. 9 litres are removed and replaced with water. This is done 3 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৯০ লিটাৰ খাটি গাখীৰ আছে। ৯ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ৩ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "65.61",
+        "as": "৬৫.৬১"
+      },
+      {
+        "en": "32.81",
+        "as": "৩২.৮১"
+      },
+      {
+        "en": "74.61",
+        "as": "৭৪.৬১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 9/90) of the milk behind, so after 3 rounds 90 × (1 − 9/90)^3 = 65.61 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ৯/৯০) অংশ থাকে, সেয়ে ৩ বাৰৰ পিছত ৬৫.৬১ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-081",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 120 litres of pure milk. 12 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ১২০ লিটাৰ খাটি গাখীৰ আছে। ১২ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "48.6",
+        "as": "৪৮.৬"
+      },
+      {
+        "en": "97.2",
+        "as": "৯৭.২"
+      },
+      {
+        "en": "109.2",
+        "as": "১০৯.২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 12/120) of the milk behind, so after 2 rounds 120 × (1 − 12/120)^2 = 97.2 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ১২/১২০) অংশ থাকে, সেয়ে ২ বাৰৰ পিছত ৯৭.২ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-082",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 150 litres of pure milk. 15 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ১৫০ লিটাৰ খাটি গাখীৰ আছে। ১৫ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60.75",
+        "as": "৬০.৭৫"
+      },
+      {
+        "en": "136.5",
+        "as": "১৩৬.৫"
+      },
+      {
+        "en": "121.5",
+        "as": "১২১.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 15/150) of the milk behind, so after 2 rounds 150 × (1 − 15/150)^2 = 121.5 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ১৫/১৫০) অংশ থাকে, সেয়ে ২ বাৰৰ পিছত ১২১.৫ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-083",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 45 litres of pure milk. 5 litres are removed and replaced with water. This is done 2 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৪৫ লিটাৰ খাটি গাখীৰ আছে। ৫ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ২ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35.56",
+        "as": "৩৫.৫৬"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "17.78",
+        "as": "১৭.৭৮"
+      },
+      {
+        "en": "40.56",
+        "as": "৪০.৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 5/45) of the milk behind, so after 2 rounds 45 × (1 − 5/45)^2 = 35.56 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ৫/৪৫) অংশ থাকে, সেয়ে ২ বাৰৰ পিছত ৩৫.৫৬ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-084",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A vessel contains 54 litres of pure milk. 6 litres are removed and replaced with water. This is done 3 times. Find the quantity of pure milk left.",
+      "as": "এটা পাত্ৰত ৫৪ লিটাৰ খাটি গাখীৰ আছে। ৬ লিটাৰ আঁতৰাই পানীৰে সলনি কৰা হয়। এই কাম ৩ বাৰ কৰা হয়। অৱশিষ্ট খাটি গাখীৰৰ পৰিমাণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37.93",
+        "as": "৩৭.৯৩"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "18.96",
+        "as": "১৮.৯৬"
+      },
+      {
+        "en": "43.93",
+        "as": "৪৩.৯৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each replacement leaves (1 − 6/54) of the milk behind, so after 3 rounds 54 × (1 − 6/54)^3 = 37.93 litres remain.",
+      "as": "প্ৰতিবাৰ সলনি কৰিলে (১ − ৬/৫৪) অংশ থাকে, সেয়ে ৩ বাৰৰ পিছত ৩৭.৯৩ লিটাৰ থাকে।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-085",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 2 : 1 and 5 : 2. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ২ : ১ আৰু ৫ : ২। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "7:3",
+        "as": "৭:৩"
+      },
+      {
+        "en": "29:13",
+        "as": "২৯:১৩"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      },
+      {
+        "en": "13:29",
+        "as": "১৩:২৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 2/3 + 5/7 and water = 1/3 + 2/7. Over 21 parts that is 29 milk to 13 water, which reduces to 29 : 13.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ২৯ : ১৩।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-086",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 6 : 5 and 3 : 1. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৬ : ৫ আৰু ৩ : ১। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "9:6",
+        "as": "৯:৬"
+      },
+      {
+        "en": "6:5",
+        "as": "৬:৫"
+      },
+      {
+        "en": "57:31",
+        "as": "৫৭:৩১"
+      },
+      {
+        "en": "31:57",
+        "as": "৩১:৫৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 6/11 + 3/4 and water = 5/11 + 1/4. Over 44 parts that is 57 milk to 31 water, which reduces to 57 : 31.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ৫৭ : ৩১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-087",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 8 : 3 and 4 : 5. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৮ : ৩ আৰু ৪ : ৫। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12:8",
+        "as": "১২:৮"
+      },
+      {
+        "en": "8:3",
+        "as": "৮:৩"
+      },
+      {
+        "en": "41:58",
+        "as": "৪১:৫৮"
+      },
+      {
+        "en": "58:41",
+        "as": "৫৮:৪১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 8/11 + 4/9 and water = 3/11 + 5/9. Over 99 parts that is 116 milk to 82 water, which reduces to 58 : 41.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ৫৮ : ৪১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-088",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 9 : 4 and 5 : 6. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৯ : ৪ আৰু ৫ : ৬। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "14:10",
+        "as": "১৪:১০"
+      },
+      {
+        "en": "9:4",
+        "as": "৯:৪"
+      },
+      {
+        "en": "82:61",
+        "as": "৮২:৬১"
+      },
+      {
+        "en": "61:82",
+        "as": "৬১:৮২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 9/13 + 5/11 and water = 4/13 + 6/11. Over 143 parts that is 164 milk to 122 water, which reduces to 82 : 61.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ৮২ : ৬১।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-089",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 7 : 3 and 5 : 1. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ৭ : ৩ আৰু ৫ : ১। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "12:4",
+        "as": "১২:৪"
+      },
+      {
+        "en": "23:7",
+        "as": "২৩:৭"
+      },
+      {
+        "en": "7:3",
+        "as": "৭:৩"
+      },
+      {
+        "en": "7:23",
+        "as": "৭:২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 7/10 + 5/6 and water = 3/10 + 1/6. Over 15 parts that is 23 milk to 7 water, which reduces to 23 : 7.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ২৩ : ৭।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-090",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "Two vessels contain milk and water in the ratios 10 : 3 and 4 : 7. Equal quantities from both vessels are mixed. Find the ratio of milk to water in the mixture.",
+      "as": "দুটা পাত্ৰত গাখীৰ আৰু পানীৰ অনুপাত ক্ৰমে ১০ : ৩ আৰু ৪ : ৭। দুয়োটাৰ পৰা সমান পৰিমাণ মিহলালে মিশ্ৰণত গাখীৰ আৰু পানীৰ অনুপাত কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "81:62",
+        "as": "৮১:৬২"
+      },
+      {
+        "en": "14:10",
+        "as": "১৪:১০"
+      },
+      {
+        "en": "10:3",
+        "as": "১০:৩"
+      },
+      {
+        "en": "62:81",
+        "as": "৬২:৮১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take equal quantities, so the two ratios can simply be added: milk = 10/13 + 4/11 and water = 3/13 + 7/11. Over 143 parts that is 162 milk to 124 water, which reduces to 81 : 62.",
+      "as": "সমান পৰিমাণ লোৱা, সেয়ে দুয়োটা অনুপাত যোগ কৰিব পাৰি: গাখীৰ : পানী = ৮১ : ৬২।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-091",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 70 litres of milk containing 84% milk so that the mixture contains 60% milk?",
+      "as": "৮৪% গাখীৰ থকা ৭০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৬০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "56.0",
+        "as": "৫৬.০"
+      },
+      {
+        "en": "28.0",
+        "as": "২৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 28.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ২৮.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-092",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 90 litres of milk containing 72% milk so that the mixture contains 45% milk?",
+      "as": "৭২% গাখীৰ থকা ৯০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৪৫% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "33.75",
+        "as": "৩৩.৭৫"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "108.0",
+        "as": "১০৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 54.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ৫৪.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-093",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 120 litres of milk containing 75% milk so that the mixture contains 50% milk?",
+      "as": "৭৫% গাখীৰ থকা ১২০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৫০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 60.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ৬০.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-094",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 45 litres of milk containing 64% milk so that the mixture contains 40% milk?",
+      "as": "৬৪% গাখীৰ থকা ৪৫ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৪০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "16.88",
+        "as": "১৬.৮৮"
+      },
+      {
+        "en": "13.5",
+        "as": "১৩.৫"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 27.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ২৭.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-095",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 150 litres of milk containing 80% milk so that the mixture contains 60% milk?",
+      "as": "৮০% গাখীৰ থকা ১৫০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৬০% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 50.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ৫০.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-096",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "How much water must be added to 200 litres of milk containing 90% milk so that the mixture contains 75% milk?",
+      "as": "৯০% গাখীৰ থকা ২০০ লিটাৰ গাখীৰত কিমান পানী যোগ কৰিলে মিশ্ৰণত ৭৫% গাখীৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the ratio of the mixture to the total quantity: the water needed is 40.0.",
+      "as": "মিশ্ৰণৰ অনুপাত মুঠ পৰিমাণত প্ৰয়োগ কৰা: প্ৰয়োজনীয় Water ৪০.০।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-097",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "25 kg of goods at 40 per kg is mixed with 35 kg at 52 per kg and the mixture is sold at 52 per kg. Find the profit percent.",
+      "as": "২৫ কিলো ৪০ টকাৰ বস্তু ৩৫ কিলো ৫২ টকাৰ বস্তুৰ সৈতে মিহলাই ৫২ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "10.64",
+        "as": "১০.৬৪"
+      },
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "5.32",
+        "as": "৫.৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 10.64%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ১০.৬৪%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-098",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "30 kg of goods at 20 per kg is mixed with 20 kg at 35 per kg and the mixture is sold at 32 per kg. Find the profit percent.",
+      "as": "৩০ কিলো ২০ টকাৰ বস্তু ২০ কিলো ৩৫ টকাৰ বস্তুৰ সৈতে মিহলাই ৩২ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "-8.57",
+        "as": "-৮.৫৭"
+      },
+      {
+        "en": "23.08",
+        "as": "২৩.০৮"
+      },
+      {
+        "en": "11.54",
+        "as": "১১.৫৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 23.08%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ২৩.০৮%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-099",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "40 kg of goods at 15 per kg is mixed with 10 kg at 30 per kg and the mixture is sold at 27 per kg. Find the profit percent.",
+      "as": "৪০ কিলো ১৫ টকাৰ বস্তু ১০ কিলো ৩০ টকাৰ বস্তুৰ সৈতে মিহলাই ২৭ টকা/কিলোত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "-10.0",
+        "as": "-১০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 50%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ৫০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-100",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "40 litres of a solution contains 20% acid. If 40 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৪০ লিটাৰ দ্ৰৱত ২০% এচিড আছে। ৪০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The acid itself does not change: 40 × 20/100 = 8 litres. Only water is added, so the new volume is 40 + 40 = 80 litres and the new strength is 8/80 × 100 = 10%.",
+      "as": "এচিডৰ পৰিমাণ সলনি নহয়: ৮ লিটাৰ। পানী যোগ দিয়াত নতুন আয়তন ৮০ লিটাৰ, সেয়ে নতুন শক্তি ১০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-101",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "75 litres of a solution contains 40% acid. If 25 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৭৫ লিটাৰ দ্ৰৱত ৪০% এচিড আছে। ২৫ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The acid itself does not change: 75 × 40/100 = 30 litres. Only water is added, so the new volume is 75 + 25 = 100 litres and the new strength is 30/100 × 100 = 30%.",
+      "as": "এচিডৰ পৰিমাণ সলনি নহয়: ৩০ লিটাৰ। পানী যোগ দিয়াত নতুন আয়তন ১০০ লিটাৰ, সেয়ে নতুন শক্তি ৩০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-102",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "120 litres of a solution contains 30% acid. If 30 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "১২০ লিটাৰ দ্ৰৱত ৩০% এচিড আছে। ৩০ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "29.0",
+        "as": "২৯.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The acid itself does not change: 120 × 30/100 = 36 litres. Only water is added, so the new volume is 120 + 30 = 150 litres and the new strength is 36/150 × 100 = 24%.",
+      "as": "এচিডৰ পৰিমাণ সলনি নহয়: ৩৬ লিটাৰ। পানী যোগ দিয়াত নতুন আয়তন ১৫০ লিটাৰ, সেয়ে নতুন শক্তি ২৪%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-103",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "90 litres of a solution contains 60% acid. If 45 litres of water is added, find the percentage of acid in the new solution.",
+      "as": "৯০ লিটাৰ দ্ৰৱত ৬০% এচিড আছে। ৪৫ লিটাৰ পানী যোগ কৰিলে নতুন দ্ৰৱত এচিডৰ শতাংশ কিমান হ'ব?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The acid itself does not change: 90 × 60/100 = 54 litres. Only water is added, so the new volume is 90 + 45 = 135 litres and the new strength is 54/135 × 100 = 40%.",
+      "as": "এচিডৰ পৰিমাণ সলনি নহয়: ৫৪ লিটাৰ। পানী যোগ দিয়াত নতুন আয়তন ১৩৫ লিটাৰ, সেয়ে নতুন শক্তি ৪০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-104",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 8 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ৮ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 12.5%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ১২.৫%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-105",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 10 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ১০ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 10%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ১০%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-106",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 12 : 1 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ১২ : ১ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "4.17",
+        "as": "৪.১৭"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "8.33",
+        "as": "৮.৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 8.33%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ৮.৩৩%।"
+    }
+  },
+  {
+    "id": "num-mixture-alligation-107",
+    "leaf": "mixture-alligation",
+    "q": {
+      "en": "A milkman mixes water and milk in the ratio 15 : 2 and sells the mixture at the cost price of milk. Find his profit percent.",
+      "as": "এজন গাখীৰৱালাই পানী আৰু গাখীৰ ১৫ : ২ অনুপাতত মিহলাই গাখীৰৰ ক্ৰয়মূল্যত বিক্ৰী কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13.33",
+        "as": "১৩.৩৩"
+      },
+      {
+        "en": "750.0",
+        "as": "৭৫০.০"
+      },
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      },
+      {
+        "en": "26.67",
+        "as": "২৬.৬৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 13.33%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ১৩.৩৩%।"
+    }
+  }
+]

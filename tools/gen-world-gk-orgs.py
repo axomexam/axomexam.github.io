@@ -1,0 +1,343 @@
+#!/usr/bin/env python3
+"""International Organisations rows for tools/world-gk-src/organizations-part4.json."""
+
+import os
+import sys
+sys.path.insert(0, "tools")
+from world_gk_bank import Rows
+
+OUT = "organizations-part4.json"
+_path = os.path.join("tools", "world-gk-src", OUT)
+if os.path.exists(_path):
+    os.remove(_path)
+
+r = Rows()
+
+HQ = [
+    ("the United Nations", "ৰাষ্ট্ৰসংঘ", "New York", "নিউয়ৰ্ক"),
+    ("the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা", "Geneva", "জেনেভা"),
+    ("UNESCO", "ইউনেস্কো", "Paris", "পেৰিছ"),
+    ("the International Labour Organization", "আন্তৰ্জাতিক শ্ৰম সংস্থা", "Geneva", "জেনেভা"),
+    ("the Food and Agriculture Organization", "খাদ্য আৰু কৃষি সংস্থা", "Rome", "ৰোম"),
+    ("the International Monetary Fund", "আন্তৰ্জাতিক মুদ্ৰা নিধি", "Washington DC", "ৱাশ্বিংটন ডিচি"),
+    ("the World Bank", "বিশ্ব বেংক", "Washington DC", "ৱাশ্বিংটন ডিচি"),
+    ("the World Trade Organization", "বিশ্ব বাণিজ্য সংস্থা", "Geneva", "জেনেভা"),
+    ("UNICEF", "ইউনিচেফ", "New York", "নিউয়ৰ্ক"),
+    ("the UN Refugee Agency", "ৰাষ্ট্ৰসংঘ শৰণাৰ্থী সংস্থা", "Geneva", "জেনেভা"),
+    ("the UN Environment Programme", "ৰাষ্ট্ৰসংঘ পৰিৱেশ কাৰ্যসূচী", "Nairobi", "নাইৰোবি"),
+    ("the International Atomic Energy Agency", "আন্তৰ্জাতিক পাৰমাণৱিক শক্তি সংস্থা", "Vienna", "ভিয়েনা"),
+    ("OPEC", "অপেক", "Vienna", "ভিয়েনা"),
+    ("NATO", "নেটো", "Brussels", "ব্ৰাছেলছ"),
+    ("the European Union", "ইউৰোপীয় সংঘ", "Brussels", "ব্ৰাছেলছ"),
+    ("the African Union", "আফ্ৰিকান সংঘ", "Addis Ababa", "আদ্দিছ আবাবা"),
+    ("ASEAN", "আছিয়ান", "Jakarta", "জাকাৰ্তা"),
+    ("SAARC", "ছাৰ্ক", "Kathmandu", "কাঠমাণ্ডু"),
+    ("Interpol", "ইণ্টাৰপোল", "Lyon", "লিয়ন"),
+    ("the International Court of Justice", "আন্তৰ্জাতিক ন্যায়ালয়", "The Hague", "দ্য হেগ"),
+    ("the International Criminal Court", "আন্তৰ্জাতিক অপৰাধ ন্যায়ালয়", "The Hague", "দ্য হেগ"),
+    ("the International Committee of the Red Cross", "আন্তৰ্জাতিক ৰেডক্ৰছ সমিতি", "Geneva", "জেনেভা"),
+    ("Amnesty International", "এম্নেষ্টি ইণ্টাৰনেশ্যনেল", "London", "লণ্ডন"),
+    ("Greenpeace", "গ্ৰীণপিছ", "Amsterdam", "আমষ্টাৰডাম"),
+    ("the International Olympic Committee", "আন্তৰ্জাতিক অলিম্পিক সমিতি", "Lausanne", "লজান"),
+    ("FIFA", "ফিফা", "Zurich", "জুৰিখ"),
+    ("the World Intellectual Property Organization", "বিশ্ব বৌদ্ধিক সম্পত্তি সংস্থা", "Geneva", "জেনেভা"),
+    ("the International Civil Aviation Organization", "আন্তৰ্জাতিক অসামৰিক বিমান চলাচল সংস্থা", "Montreal", "মণ্ট্ৰিয়েল"),
+    ("the International Maritime Organization", "আন্তৰ্জাতিক সাগৰীয় সংস্থা", "London", "লণ্ডন"),
+    ("the Asian Development Bank", "এছিয়ান উন্নয়ন বেংক", "Manila", "মেনিলা"),
+    ("the Commonwealth Secretariat", "কমনৱেলথ ছচিবৰিয়াট", "London", "লণ্ডন"),
+    ("the Organisation for Economic Co-operation and Development", "অৰ্থনৈতিক সহযোগিতা আৰু উন্নয়ন সংস্থা", "Paris", "পেৰিছ"),
+    ("the World Food Programme", "বিশ্ব খাদ্য কাৰ্যসূচী", "Rome", "ৰোম"),
+    ("the World Economic Forum", "বিশ্ব অৰ্থনৈতিক মঞ্চ", "Geneva", "জেনেভা"),
+]
+r.attr(HQ,
+       "The headquarters of {e} is in",
+       "{e}ৰ মুখ্য কাৰ্যালয় অৱস্থিত",
+       "The headquarters of {e} is in {v}.",
+       "{e}ৰ মুখ্য কাৰ্যালয় {v} ত অৱস্থিত।",
+       tails=[" Its main offices and secretariat sit there.",
+              " The city hosts its central administration.",
+              " Delegates meet at this seat."])
+
+YEARS = [
+    ("the United Nations", "ৰাষ্ট্ৰসংঘ", "1945", "1945"),
+    ("the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা", "1948", "1948"),
+    ("UNESCO", "ইউনেস্কো", "1945", "1945"),
+    ("the International Labour Organization", "আন্তৰ্জাতিক শ্ৰম সংস্থা", "1919", "1919"),
+    ("the International Monetary Fund", "আন্তৰ্জাতিক মুদ্ৰা নিধি", "1944", "1944"),
+    ("the World Bank", "বিশ্ব বেংক", "1944", "1944"),
+    ("the World Trade Organization", "বিশ্ব বাণিজ্য সংস্থা", "1995", "1995"),
+    ("UNICEF", "ইউনিচেফ", "1946", "1946"),
+    ("the UN Refugee Agency", "ৰাষ্ট্ৰসংঘ শৰণাৰ্থী সংস্থা", "1950", "1950"),
+    ("NATO", "নেটো", "1949", "1949"),
+    ("ASEAN", "আছিয়ান", "1967", "1967"),
+    ("SAARC", "ছাৰ্ক", "1985", "1985"),
+    ("the African Union", "আফ্ৰিকান সংঘ", "2002", "2002"),
+    ("OPEC", "অপেক", "1960", "1960"),
+    ("the International Atomic Energy Agency", "আন্তৰ্জাতিক পাৰমাণৱিক শক্তি সংস্থা", "1957", "1957"),
+    ("Interpol", "ইণ্টাৰপোল", "1923", "1923"),
+    ("the League of Nations", "ৰাষ্ট্ৰসংঘৰ লীগ", "1920", "1920"),
+    ("the International Committee of the Red Cross", "আন্তৰ্জাতিক ৰেডক্ৰছ সমিতি", "1863", "1863"),
+    ("Amnesty International", "এম্নেষ্টি ইণ্টাৰনেশ্যনেল", "1961", "1961"),
+    ("Greenpeace", "গ্ৰীণপিছ", "1971", "1971"),
+    ("the International Olympic Committee", "আন্তৰ্জাতিক অলিম্পিক সমিতি", "1894", "1894"),
+    ("FIFA", "ফিফা", "1904", "1904"),
+    ("the World Intellectual Property Organization", "বিশ্ব বৌদ্ধিক সম্পত্তি সংস্থা", "1967", "1967"),
+    ("the UN Environment Programme", "ৰাষ্ট্ৰসংঘ পৰিৱেশ কাৰ্যসূচী", "1972", "1972"),
+    ("the World Food Programme", "বিশ্ব খাদ্য কাৰ্যসূচী", "1961", "1961"),
+    ("the International Maritime Organization", "আন্তৰ্জাতিক সাগৰীয় সংস্থা", "1948", "1948"),
+    ("the Asian Development Bank", "এছিয়ান উন্নয়ন বেংক", "1966", "1966"),
+    ("the Organisation for Economic Co-operation and Development", "অৰ্থনৈতিক সহযোগিতা আৰু উন্নয়ন সংস্থা", "1961", "1961"),
+]
+r.attr(YEARS,
+       "The year in which {e} was founded is",
+       "{e} প্ৰতিষ্ঠা হোৱা বছৰ",
+       "{e} was founded in {v}.",
+       "{e} {v} চনত প্ৰতিষ্ঠা হৈছিল।",
+       tails=[" The founding year is standard in exam lists.",
+              " Its charter dates from that year.",
+              " Member states signed up that year."])
+
+FULL = [
+    ("WHO", "ডব্লিউএইচঅ'", "the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা"),
+    ("UNICEF", "ইউনিচেফ", "the United Nations Children's Fund", "ৰাষ্ট্ৰসংঘৰ শিশু পুঁজি"),
+    ("IMF", "আইএমএফ", "the International Monetary Fund", "আন্তৰ্জাতিক মুদ্ৰা নিধি"),
+    ("WTO", "ডব্লিউটিঅ'", "the World Trade Organization", "বিশ্ব বাণিজ্য সংস্থা"),
+    ("NATO", "নেটো", "the North Atlantic Treaty Organization", "উত্তৰ আটলাণ্টিক চুক্তি সংস্থা"),
+    ("SAARC", "ছাৰ্ক", "the South Asian Association for Regional Cooperation", "দক্ষিণ এছিয় আঞ্চলিক সহযোগিতা সংস্থা"),
+    ("ASEAN", "আছিয়ান", "the Association of Southeast Asian Nations", "দক্ষিণ-পূব এছিয়া ৰাষ্ট্ৰসমূহৰ সংস্থা"),
+    ("OPEC", "অপেক", "the Organization of the Petroleum Exporting Countries", "পেট্ৰ'লিয়াম ৰপ্তানিকাৰী দেশসমূহৰ সংস্থা"),
+    ("IAEA", "আইএইএ", "the International Atomic Energy Agency", "আন্তৰ্জাতিক পাৰমাণৱিক শক্তি সংস্থা"),
+    ("ILO", "আইএলঅ'", "the International Labour Organization", "আন্তৰ্জাতিক শ্ৰম সংস্থা"),
+    ("FAO", "এফএঅ'", "the Food and Agriculture Organization", "খাদ্য আৰু কৃষি সংস্থা"),
+    ("UNHCR", "ইউএনএইচচিআৰ", "the UN Refugee Agency", "ৰাষ্ট্ৰসংঘ শৰণাৰ্থী সংস্থা"),
+    ("UNEP", "ইউএনইপি", "the UN Environment Programme", "ৰাষ্ট্ৰসংঘ পৰিৱেশ কাৰ্যসূচী"),
+    ("UNDP", "ইউএনডিপি", "the United Nations Development Programme", "ৰাষ্ট্ৰসংঘ উন্নয়ন কাৰ্যসূচী"),
+    ("WIPO", "ডব্লিউআইপিঅ'", "the World Intellectual Property Organization", "বিশ্ব বৌদ্ধিক সম্পত্তি সংস্থা"),
+    ("ITU", "আইটিইউ", "the International Telecommunication Union", "আন্তৰ্জাতিক দূৰসংযোগ সংস্থা"),
+    ("ICAO", "আইকেএঅ'", "the International Civil Aviation Organization", "আন্তৰ্জাতিক অসামৰিক বিমান চলাচল সংস্থা"),
+    ("IMO", "আইএমঅ'", "the International Maritime Organization", "আন্তৰ্জাতিক সাগৰীয় সংস্থা"),
+    ("WFP", "ডব্লিউএফপি", "the World Food Programme", "বিশ্ব খাদ্য কাৰ্যসূচী"),
+    ("ICJ", "আইচিজে", "the International Court of Justice", "আন্তৰ্জাতিক ন্যায়ালয়"),
+    ("ICC", "আইচিচি", "the International Criminal Court", "আন্তৰ্জাতিক অপৰাধ ন্যায়ালয়"),
+    ("ICRC", "আইচিআৰচি", "the International Committee of the Red Cross", "আন্তৰ্জাতিক ৰেডক্ৰছ সমিতি"),
+    ("IOC", "আইঅ'চি", "the International Olympic Committee", "আন্তৰ্জাতিক অলিম্পিক সমিতি"),
+    ("OECD", "অ'ইচিডি", "the Organisation for Economic Co-operation and Development", "অৰ্থনৈতিক সহযোগিতা আৰু উন্নয়ন সংস্থা"),
+    ("ADB", "এডিবি", "the Asian Development Bank", "এছিয়ান উন্নয়ন বেংক"),
+    ("WHO", "ডব্লিউএইচঅ'", "the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা"),
+]
+r.attr(FULL,
+       "The abbreviation {e} stands for",
+       "{e} সংক্ষিপ্ত ৰূপটো",
+       "{e} stands for {v}.",
+       "{e} ৰ সম্পূৰ্ণ ৰূপ {v}।",
+       tails=[" This expansion is used in official documents.",
+              " The full name appears in its charter.",
+              " Its letterhead carries this full name."])
+
+PURPOSE = [
+    ("the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা", "global public health", "বিশ্ব জনস্বাস্থ্য"),
+    ("UNESCO", "ইউনেস্কো", "education, science and culture", "শিক্ষা, বিজ্ঞান আৰু সংস্কৃতি"),
+    ("the Food and Agriculture Organization", "খাদ্য আৰু কৃষি সংস্থা", "food security and farming", "খাদ্য সুৰক্ষা আৰু কৃষি"),
+    ("the International Labour Organization", "আন্তৰ্জাতিক শ্ৰম সংস্থা", "labour standards and workers' rights", "শ্ৰম মান আৰু শ্ৰমিক অধিকাৰ"),
+    ("the International Monetary Fund", "আন্তৰ্জাতিক মুদ্ৰা নিধি", "monetary cooperation and balance-of-payments support", "মুদ্ৰা সহযোগিতা আৰু পৰিশোধৰ ভাৰসাম্য সহায়তা"),
+    ("the World Bank", "বিশ্ব বেংক", "development finance and poverty reduction", "উন্নয়ন বিত্তীয় সাহায্য আৰু দাৰিদ্ৰ্য হ্ৰাস"),
+    ("the World Trade Organization", "বিশ্ব বাণিজ্য সংস্থা", "rules for international trade", "আন্তৰ্জাতিক বাণিজ্যৰ নিয়ম"),
+    ("UNICEF", "ইউনিচেফ", "the welfare of children", "শিশুৰ কল্যাণ"),
+    ("the UN Refugee Agency", "ৰাষ্ট্ৰসংঘ শৰণাৰ্থী সংস্থা", "the protection of refugees", "শৰণাৰ্থীৰ সুৰক্ষা"),
+    ("the UN Environment Programme", "ৰাষ্ট্ৰসংঘ পৰিৱেশ কাৰ্যসূচী", "environmental protection", "পৰিৱেশ সুৰক্ষা"),
+    ("the International Atomic Energy Agency", "আন্তৰ্জাতিক পাৰমাণৱিক শক্তি সংস্থা", "the peaceful use of nuclear energy", "পাৰমাণৱিক শক্তিৰ শান্তিপূৰ্ণ ব্যৱহাৰ"),
+    ("OPEC", "অপেক", "coordinating oil production and prices", "তেল উৎপাদন আৰু মূল্য সমন্বয়"),
+    ("NATO", "নেটো", "collective defence of its members", "সদস্যসকলৰ সমবেত প্ৰতিৰক্ষা"),
+    ("Interpol", "ইণ্টাৰপোল", "police cooperation across borders", "সীমান্তজুৰি আৰক্ষী সহযোগিতা"),
+    ("the International Court of Justice", "আন্তৰ্জাতিক ন্যায়ালয়", "settling disputes between states", "ৰাষ্ট্ৰসমূহৰ মাজৰ বিবাদ নিষ্পত্তি"),
+    ("the International Criminal Court", "আন্তৰ্জাতিক অপৰাধ ন্যায়ালয়", "trying individuals for war crimes", "যুদ্ধ অপৰাধৰ বাবে ব্যক্তিক বিচাৰ"),
+    ("Amnesty International", "এম্নেষ্টি ইণ্টাৰনেশ্যনেল", "the protection of human rights", "মানৱ অধিকাৰ সুৰক্ষা"),
+    ("Greenpeace", "গ্ৰীণপিছ", "environmental campaigning", "পৰিৱেশ অভিযান"),
+    ("the International Olympic Committee", "আন্তৰ্জাতিক অলিম্পিক সমিতি", "organising the Olympic movement", "অলিম্পিক আন্দোলন পৰিচালনা"),
+    ("FIFA", "ফিফা", "the governance of world football", "বিশ্ব ফুটবলৰ পৰিচালনা"),
+    ("the World Intellectual Property Organization", "বিশ্ব বৌদ্ধিক সম্পত্তি সংস্থা", "protecting patents and copyrights", "পেটেণ্ট আৰু কপিৰাইট সুৰক্ষা"),
+    ("the International Telecommunication Union", "আন্তৰ্জাতিক দূৰসংযোগ সংস্থা", "global telecommunications standards", "বিশ্ব দূৰসংযোগ মান"),
+    ("the International Civil Aviation Organization", "আন্তৰ্জাতিক অসামৰিক বিমান চলাচল সংস্থা", "civil aviation safety and rules", "অসামৰিক বিমান সুৰক্ষা আৰু নিয়ম"),
+    ("the International Maritime Organization", "আন্তৰ্জাতিক সাগৰীয় সংস্থা", "safety of shipping at sea", "সমুদ্ৰত জাহাজ চলাচলৰ সুৰক্ষা"),
+    ("the World Food Programme", "বিশ্ব খাদ্য কাৰ্যসূচী", "emergency food assistance", "জৰুৰী খাদ্য সাহায্য"),
+    ("the Asian Development Bank", "এছিয়ান উন্নয়ন বেংক", "development finance in Asia", "এছিয়াত উন্নয়ন বিত্তীয় সাহায্য"),
+]
+r.attr(PURPOSE,
+       "The main work of {e} is",
+       "{e}ৰ মূল কাম",
+       "{e} works mainly for {v}.",
+       "{e} প্ৰধানকৈ {v} ৰ বাবে কাম কৰে।",
+       tails=[" Its mandate is set out in its charter.",
+              " This aim drives all its programmes.",
+              " Member states fund this work."])
+
+REPORTS = [
+    ("the Human Development Report", "মানৱ উন্নয়ন প্ৰতিবেদন", "the UNDP", "ইউএনডিপি"),
+    ("the World Economic Outlook", "বিশ্ব অৰ্থনৈতিক দৃষ্টিভংগী", "the IMF", "আইএমএফ"),
+    ("the World Development Report", "বিশ্ব উন্নয়ন প্ৰতিবেদন", "the World Bank", "বিশ্ব বেংক"),
+    ("the Global Competitiveness Report", "বিশ্ব প্ৰতিযোগিতামূলক সক্ষমতা প্ৰতিবেদন", "the World Economic Forum", "বিশ্ব অৰ্থনৈতিক মঞ্চ"),
+    ("the Emissions Gap Report", "নিৰ্গমন ব্যৱধান প্ৰতিবেদন", "the UN Environment Programme", "ৰাষ্ট্ৰসংঘ পৰিৱেশ কাৰ্যসূচী"),
+    ("the State of the World's Children report", "বিশ্বৰ শিশুৰ অৱস্থা প্ৰতিবেদন", "UNICEF", "ইউনিচেফ"),
+    ("the World Investment Report", "বিশ্ব বিনিয়োগ প্ৰতিবেদন", "UNCTAD", "আংকটাড"),
+    ("the Global Education Monitoring Report", "বিশ্ব শিক্ষা নিৰীক্ষণ প্ৰতিবেদন", "UNESCO", "ইউনেস্কো"),
+    ("the Red List of Threatened Species", "সংকটাপন্ন প্ৰজাতিৰ ৰঙা তালিকা", "the IUCN", "আইইউচিএন"),
+    ("the World Drug Report", "বিশ্ব মাদক প্ৰতিবেদন", "the UNODC", "ইউএনঅ'ডিচি"),
+    ("the Global Hunger Index", "বিশ্ব ক্ষুধা সূচকাংক", "Concern Worldwide and Welthungerhilfe", "কনচাৰ্ন ৱৰ্ল্ডৱাইড আৰু ৱেল্টহাংগাৰহিলফে"),
+    ("the World Health Statistics report", "বিশ্ব স্বাস্থ্য পৰিসংখ্যা প্ৰতিবেদন", "the WHO", "ডব্লিউএইচঅ'"),
+]
+r.attr(REPORTS,
+       "{e} is published by",
+       "{e} প্ৰকাশ কৰে",
+       "{e} is published by {v}.",
+       "{e} {v} এ প্ৰকাশ কৰে।",
+       tails=[" The agency releases it every year.",
+              " Its data come from that body.",
+              " The report carries that organisation's logo."])
+
+MEMBERS = [
+    ("the United Nations", "ৰাষ্ট্ৰসংঘ", "193", "193"),
+    ("the European Union", "ইউৰোপীয় সংঘ", "27", "27"),
+    ("SAARC", "ছাৰ্ক", "8", "8"),
+    ("ASEAN", "আছিয়ান", "10", "10"),
+    ("the Group of Seven", "সাত ৰাষ্ট্ৰৰ গোট", "7", "7"),
+    ("NATO", "নেটো", "32", "32"),
+]
+r.attr(MEMBERS,
+       "The number of member countries of {e} is",
+       "{e}ৰ সদস্য দেশৰ সংখ্যা",
+       "{e} has {v} member countries.",
+       "{e} ৰ সদস্য দেশৰ সংখ্যা {v}।",
+       tails=[" The figure is the current membership.",
+              " New members join only by agreement.",
+              " This count is used in exam tables."])
+
+HEADS = [
+    ("the United Nations", "ৰাষ্ট্ৰসংঘ", "the Secretary-General", "মহাসচিব"),
+    ("the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা", "the Director-General", "মহাপৰিচালক"),
+    ("the International Monetary Fund", "আন্তৰ্জাতিক মুদ্ৰা নিধি", "the Managing Director", "ব্যৱস্থাপনা পৰিচালক"),
+    ("the World Bank", "বিশ্ব বেংক", "the President", "সভাপতি"),
+    ("the World Trade Organization", "বিশ্ব বাণিজ্য সংস্থা", "the Director-General", "মহাপৰিচালক"),
+    ("NATO", "নেটো", "the Secretary General", "মহাসচিব"),
+    ("the European Commission", "ইউৰোপীয় আয়োগ", "the President", "সভাপতি"),
+    ("the International Court of Justice", "আন্তৰ্জাতিক ন্যায়ালয়", "the President", "সভাপতি"),
+    ("the Food and Agriculture Organization", "খাদ্য আৰু কৃষি সংস্থা", "the Director-General", "মহাপৰিচালক"),
+]
+r.attr(HEADS,
+       "The chief officer of {e} is called",
+       "{e}ৰ মুখ্য বিষয়াৰ পদনাম",
+       "The head of {e} carries the title {v}.",
+       "{e}ৰ মুৰব্বীৰ পদনাম {v}।",
+       tails=[" The title appears in its constitution.",
+              " Its rules fix this designation.",
+              " The post is filled by member agreement."])
+
+
+HQ2 = [
+    ("the World Meteorological Organization", "বিশ্ব বতৰাবিজ্ঞান সংস্থা", "Geneva", "জেনেভা"),
+    ("the International Organization for Migration", "আন্তৰ্জাতিক প্ৰবজন সংস্থা", "Geneva", "জেনেভা"),
+    ("UNCTAD", "আংকটাড", "Geneva", "জেনেভা"),
+    ("the United Nations Industrial Development Organization", "ৰাষ্ট্ৰসংঘ শিল্প উন্নয়ন সংস্থা", "Vienna", "ভিয়েনা"),
+    ("the International Fund for Agricultural Development", "কৃষি উন্নয়নৰ আন্তৰ্জাতিক পুঁজি", "Rome", "ৰোম"),
+    ("the World Tourism Organization", "বিশ্ব পৰ্যটন সংস্থা", "Madrid", "মাড্ৰিড"),
+    ("the International Energy Agency", "আন্তৰ্জাতিক শক্তি সংস্থা", "Paris", "পেৰিছ"),
+    ("Transparency International", "ট্ৰান্সপেৰেন্সি ইণ্টাৰনেশ্যনেল", "Berlin", "বাৰ্লিন"),
+    ("Human Rights Watch", "হিউমেন ৰাইটছ ৱাচ", "New York", "নিউয়ৰ্ক"),
+    ("the World Customs Organization", "বিশ্ব সীমা শুল্ক সংস্থা", "Brussels", "ব্ৰাছেলছ"),
+    ("the International Air Transport Association", "আন্তৰ্জাতিক বিমান পৰিবহণ সংস্থা", "Montreal", "মণ্ট্ৰিয়েল"),
+]
+r.attr(HQ2,
+       "The headquarters of {e} is in",
+       "{e}ৰ মুখ্য কাৰ্যালয় অৱস্থিত",
+       "The headquarters of {e} is in {v}.",
+       "{e}ৰ মুখ্য কাৰ্যালয় {v} ত অৱস্থিত।",
+       tails=[" Its offices are centralised in this city.",
+              " The secretariat works from there.",
+              " This city hosts its main building."])
+
+YEARS2 = [
+    ("the World Meteorological Organization", "বিশ্ব বতৰাবিজ্ঞান সংস্থা", "1950", "1950"),
+    ("the International Organization for Migration", "আন্তৰ্জাতিক প্ৰবজন সংস্থা", "1951", "1951"),
+    ("UNCTAD", "আংকটাড", "1964", "1964"),
+    ("the United Nations Industrial Development Organization", "ৰাষ্ট্ৰসংঘ শিল্প উন্নয়ন সংস্থা", "1966", "1966"),
+    ("the International Energy Agency", "আন্তৰ্জাতিক শক্তি সংস্থা", "1974", "1974"),
+    ("the World Tourism Organization", "বিশ্ব পৰ্যটন সংস্থা", "1975", "1975"),
+    ("Transparency International", "ট্ৰান্সপেৰেন্সি ইণ্টাৰনেশ্যনেল", "1993", "1993"),
+    ("Human Rights Watch", "হিউমেন ৰাইটছ ৱাচ", "1978", "1978"),
+    ("the World Customs Organization", "বিশ্ব সীমা শুল্ক সংস্থা", "1952", "1952"),
+    ("the International Air Transport Association", "আন্তৰ্জাতিক বিমান পৰিবহণ সংস্থা", "1945", "1945"),
+]
+r.attr(YEARS2,
+       "The year in which {e} was founded is",
+       "{e} প্ৰতিষ্ঠা হোৱা বছৰ",
+       "{e} was founded in {v}.",
+       "{e} {v} চনত প্ৰতিষ্ঠা হৈছিল।",
+       tails=[" The date comes from its founding charter.",
+              " Its first meeting was held that year.",
+              " This year marks its official start."])
+
+FULL2 = [
+    ("UNCTAD", "আংকটাড", "the United Nations Conference on Trade and Development", "ৰাষ্ট্ৰসংঘ বাণিজ্য আৰু উন্নয়ন সন্মিলন"),
+    ("UNIDO", "ইউনিড'", "the United Nations Industrial Development Organization", "ৰাষ্ট্ৰসংঘ শিল্প উন্নয়ন সংস্থা"),
+    ("WMO", "ডব্লিউএমঅ'", "the World Meteorological Organization", "বিশ্ব বতৰাবিজ্ঞান সংস্থা"),
+    ("IOM", "আইঅ'এম", "the International Organization for Migration", "আন্তৰ্জাতিক প্ৰবজন সংস্থা"),
+    ("IEA", "আইইএ", "the International Energy Agency", "আন্তৰ্জাতিক শক্তি সংস্থা"),
+    ("WCO", "ডব্লিউচিঅ'", "the World Customs Organization", "বিশ্ব সীমা শুল্ক সংস্থা"),
+    ("IUCN", "আইইউচিএন", "the International Union for Conservation of Nature", "প্ৰকৃতি সংৰক্ষণৰ আন্তৰ্জাতিক সংঘ"),
+    ("IATA", "আইএটিএ", "the International Air Transport Association", "আন্তৰ্জাতিক বিমান পৰিবহণ সংস্থা"),
+    ("UNFPA", "ইউএনএফপিএ", "the United Nations Population Fund", "ৰাষ্ট্ৰসংঘ জনসংখ্যা পুঁজি"),
+    ("UNAIDS", "ইউএনএইডছ", "the Joint United Nations Programme on HIV/AIDS", "এইচ আই ভি/এইডছৰ যুটীয়া ৰাষ্ট্ৰসংঘ কাৰ্যসূচী"),
+    ("IFAD", "আইএফএডি", "the International Fund for Agricultural Development", "কৃষি উন্নয়নৰ আন্তৰ্জাতিক পুঁজি"),
+    ("UNWTO", "ইউএনডব্লিউটিঅ'", "the World Tourism Organization", "বিশ্ব পৰ্যটন সংস্থা"),
+]
+r.attr(FULL2,
+       "The abbreviation {e} stands for",
+       "{e} সংক্ষিপ্ত ৰূপটো",
+       "{e} stands for {v}.",
+       "{e} ৰ সম্পূৰ্ণ ৰূপ {v}।",
+       tails=[" The full form is used in its official papers.",
+              " This expansion appears in its reports.",
+              " The long name is standard in exam lists."])
+
+PURPOSE2 = [
+    ("the World Meteorological Organization", "বিশ্ব বতৰাবিজ্ঞান সংস্থা", "weather, climate and water resources", "বতৰা, জলবায়ু আৰু পানী সম্পদ"),
+    ("UNCTAD", "আংকটাড", "trade and development in poorer countries", "দুখীয়া দেশত বাণিজ্য আৰু উন্নয়ন"),
+    ("the United Nations Industrial Development Organization", "ৰাষ্ট্ৰসংঘ শিল্প উন্নয়ন সংস্থা", "industrial development", "শিল্প উন্নয়ন"),
+    ("the International Organization for Migration", "আন্তৰ্জাতিক প্ৰবজন সংস্থা", "orderly and humane migration", "সুশৃংখল আৰু মানৱীয় প্ৰবজন"),
+    ("the International Energy Agency", "আন্তৰ্জাতিক শক্তি সংস্থা", "energy security and policy advice", "শক্তি সুৰক্ষা আৰু নীতি পৰামৰ্শ"),
+    ("the International Union for Conservation of Nature", "প্ৰকৃতি সংৰক্ষণৰ আন্তৰ্জাতিক সংঘ", "the conservation of nature", "প্ৰকৃতি সংৰক্ষণ"),
+    ("Transparency International", "ট্ৰান্সপেৰেন্সি ইণ্টাৰনেশ্যনেল", "the fight against corruption", "দুৰ্নীতিৰ বিৰুদ্ধে সংগ্ৰাম"),
+    ("Human Rights Watch", "হিউমেন ৰাইটছ ৱাচ", "documenting human rights abuses", "মানৱ অধিকাৰ উলংঘাৰ নথিভুক্তিকৰণ"),
+    ("the International Air Transport Association", "আন্তৰ্জাতিক বিমান পৰিবহণ সংস্থা", "the interests of airlines", "এয়াৰলাইনসকলৰ স্বাৰ্থ"),
+    ("the World Customs Organization", "বিশ্ব সীমা শুল্ক সংস্থা", "customs rules between countries", "দেশসমূহৰ মাজত সীমা শুল্ক নিয়ম"),
+]
+r.attr(PURPOSE2,
+       "The main work of {e} is",
+       "{e}ৰ মূল কাম",
+       "{e} works mainly for {v}.",
+       "{e} প্ৰধানকৈ {v} ৰ বাবে কাম কৰে।",
+       tails=[" Its charter sets this aim.",
+              " Programmes follow this mandate.",
+              " This purpose guides its budget."])
+
+AGENCIES = [
+    ("the World Health Organization", "বিশ্ব স্বাস্থ্য সংস্থা"),
+    ("UNESCO", "ইউনেস্কো"),
+    ("the Food and Agriculture Organization", "খাদ্য আৰু কৃষি সংস্থা"),
+    ("the International Labour Organization", "আন্তৰ্জাতিক শ্ৰম সংস্থা"),
+    ("the International Telecommunication Union", "আন্তৰ্জাতিক দূৰসংযোগ সংস্থা"),
+    ("the Universal Postal Union", "সাৰ্বজনীন ডাক সংঘ"),
+    ("the World Meteorological Organization", "বিশ্ব বতৰাবিজ্ঞান সংস্থা"),
+    ("the World Intellectual Property Organization", "বিশ্ব বৌদ্ধিক সম্পত্তি সংস্থা"),
+    ("the International Civil Aviation Organization", "আন্তৰ্জাতিক অসামৰিক বিমান চলাচল সংস্থা"),
+    ("the International Maritime Organization", "আন্তৰ্জাতিক সাগৰীয় সংস্থা"),
+]
+for name, name_as in AGENCIES:
+    cap = name[0].upper() + name[1:]
+    r.add(f"{cap} is a specialised agency of",
+          f"{name_as} হৈছে কাৰ বিশেষায়িত সংস্থা",
+          [("the United Nations", "ৰাষ্ট্ৰসংঘ"), ("NATO", "নেটো"),
+           ("the European Union", "ইউৰোপীয় সংঘ"), ("ASEAN", "আছিয়ান")], 0,
+          f"{cap} is a specialised agency of the United Nations.",
+          f"{name_as} ৰাষ্ট্ৰসংঘৰ এটা বিশেষায়িত সংস্থা।")
+
+r.write(OUT)

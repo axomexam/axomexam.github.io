@@ -1,0 +1,3254 @@
+[
+  {
+    "id": "nv-counting-figures-001",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      },
+      {
+        "en": "2",
+        "as": "২",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The apex is joined to 1 point on the base, so the base is cut into 2 parts. Picking any two base points with the apex gives 2 + 1 + ... + 1 = 3 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ১ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ২ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ৩ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-002",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There is 1 line from the apex plus the two sides and the base, so 4 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ১ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৪ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-003",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The apex is joined to 2 points on the base, so the base is cut into 3 parts. Picking any two base points with the apex gives 3 + 2 + ... + 1 = 6 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ২ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৩ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ৬ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-004",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 2 lines from the apex plus the two sides and the base, so 5 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ২ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৫ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-005",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"70\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The apex is joined to 3 points on the base, so the base is cut into 4 parts. Picking any two base points with the apex gives 4 + 3 + ... + 1 = 10 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৩ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৪ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ১০ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-006",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"70\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 3 lines from the apex plus the two sides and the base, so 6 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৩ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৬ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-007",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"26\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"42\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"58\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"74\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      },
+      {
+        "en": "14",
+        "as": "১৪",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The apex is joined to 4 points on the base, so the base is cut into 5 parts. Picking any two base points with the apex gives 5 + 4 + ... + 1 = 15 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৪ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৫ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ১৫ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-008",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"26\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"42\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"58\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"74\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 4 lines from the apex plus the two sides and the base, so 7 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৪ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৭ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-009",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"23\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"77\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "22",
+        "as": "২২",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      },
+      {
+        "en": "21",
+        "as": "২১",
+        "fig": ""
+      },
+      {
+        "en": "23",
+        "as": "২৩",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The apex is joined to 5 points on the base, so the base is cut into 6 parts. Picking any two base points with the apex gives 6 + 5 + ... + 1 = 21 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৫ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৬ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ২১ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-010",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"23\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"77\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 5 lines from the apex plus the two sides and the base, so 8 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৫ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৮ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-011",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"21\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"33\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"44\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"56\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"67\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"79\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮",
+        "fig": ""
+      },
+      {
+        "en": "29",
+        "as": "২৯",
+        "fig": ""
+      },
+      {
+        "en": "27",
+        "as": "২৭",
+        "fig": ""
+      },
+      {
+        "en": "30",
+        "as": "৩০",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The apex is joined to 6 points on the base, so the base is cut into 7 parts. Picking any two base points with the apex gives 7 + 6 + ... + 1 = 28 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৬ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৭ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ২৮ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-012",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"21\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"33\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"44\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"56\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"67\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"79\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 6 lines from the apex plus the two sides and the base, so 9 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৬ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ৯ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-013",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"20\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"40\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"60\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"70\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"80\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭",
+        "fig": ""
+      },
+      {
+        "en": "36",
+        "as": "৩৬",
+        "fig": ""
+      },
+      {
+        "en": "35",
+        "as": "৩৫",
+        "fig": ""
+      },
+      {
+        "en": "38",
+        "as": "৩৮",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The apex is joined to 7 points on the base, so the base is cut into 8 parts. Picking any two base points with the apex gives 8 + 7 + ... + 1 = 36 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৭ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৮ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ৩৬ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-014",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"20\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"40\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"60\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"70\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"80\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 7 lines from the apex plus the two sides and the base, so 10 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৭ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ১০ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-015",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"19\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"28\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"46\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"54\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"72\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"81\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "46",
+        "as": "৪৬",
+        "fig": ""
+      },
+      {
+        "en": "44",
+        "as": "৪৪",
+        "fig": ""
+      },
+      {
+        "en": "47",
+        "as": "৪৭",
+        "fig": ""
+      },
+      {
+        "en": "45",
+        "as": "৪৫",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The apex is joined to 8 points on the base, so the base is cut into 9 parts. Picking any two base points with the apex gives 9 + 8 + ... + 1 = 45 triangles.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ভূমিৰ ৮ টা বিন্দুলৈ ৰেখা টনা হৈছে, সেয়ে ভূমি ৯ ভাগত বিভক্ত। শীৰ্ষবিন্দুৰ সৈতে যিকোনো দুটা ভূমি-বিন্দু ল'লে ৪৫ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-016",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"19\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"28\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"37\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"46\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"54\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"63\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"72\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"81\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "13",
+        "as": "১৩",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 8 lines from the apex plus the two sides and the base, so 11 straight lines.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৮ টা ৰেখা, দুটা বাহু আৰু ভূমি লৈ মুঠ ১১ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-017",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"62\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"62\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/></g></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Count by size: 4 of 1x1, 1 of 2x2 = 5 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ৪ টা ১×১, ১ টা ২×২ = ৫ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-018",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"62\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"62\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 2 of the 3 vertical lines and 2 of the 3 horizontal lines gives 3C2 x 3C2 = 9 rectangles.",
+      "as": "৩ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৩ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৯ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-019",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"62\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Count by size: 6 of 1x1, 2 of 2x2 = 8 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ৬ টা ১×১, ২ টা ২×২ = ৮ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-020",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"62\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯",
+        "fig": ""
+      },
+      {
+        "en": "18",
+        "as": "১৮",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 2 of the 3 vertical lines and 2 of the 4 horizontal lines gives 3C2 x 4C2 = 18 rectangles.",
+      "as": "৩ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৪ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ১৮ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-021",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"88\" y1=\"10\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"88\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"88\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"88\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"88\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      },
+      {
+        "en": "13",
+        "as": "১৩",
+        "fig": ""
+      },
+      {
+        "en": "14",
+        "as": "১৪",
+        "fig": ""
+      },
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Count by size: 9 of 1x1, 4 of 2x2, 1 of 3x3 = 14 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ৯ টা ১×১, ৪ টা ২×২, ১ টা ৩×৩ = ১৪ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-022",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"88\" y1=\"10\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"88\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"88\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"88\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"88\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭",
+        "fig": ""
+      },
+      {
+        "en": "35",
+        "as": "৩৫",
+        "fig": ""
+      },
+      {
+        "en": "38",
+        "as": "৩৮",
+        "fig": ""
+      },
+      {
+        "en": "36",
+        "as": "৩৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 2 of the 4 vertical lines and 2 of the 4 horizontal lines gives 4C2 x 4C2 = 36 rectangles.",
+      "as": "৪ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৪ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৩৬ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-023",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"50\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"50\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"50\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"50\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "13",
+        "as": "১৩",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Count by size: 8 of 1x1, 3 of 2x2 = 11 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ৮ টা ১×১, ৩ টা ২×২ = ১১ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-024",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"50\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"50\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"50\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"50\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০",
+        "fig": ""
+      },
+      {
+        "en": "31",
+        "as": "৩১",
+        "fig": ""
+      },
+      {
+        "en": "29",
+        "as": "২৯",
+        "fig": ""
+      },
+      {
+        "en": "32",
+        "as": "৩২",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 2 of the 3 vertical lines and 2 of the 5 horizontal lines gives 3C2 x 5C2 = 30 rectangles.",
+      "as": "৩ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৫ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৩০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-025",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"70\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"70\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "21",
+        "as": "২১",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      },
+      {
+        "en": "19",
+        "as": "১৯",
+        "fig": ""
+      },
+      {
+        "en": "22",
+        "as": "২২",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Count by size: 12 of 1x1, 6 of 2x2, 2 of 3x3 = 20 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ১২ টা ১×১, ৬ টা ২×২, ২ টা ৩×৩ = ২০ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-026",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"70\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"70\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "61",
+        "as": "৬১",
+        "fig": ""
+      },
+      {
+        "en": "59",
+        "as": "৫৯",
+        "fig": ""
+      },
+      {
+        "en": "60",
+        "as": "৬০",
+        "fig": ""
+      },
+      {
+        "en": "62",
+        "as": "৬২",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choosing 2 of the 4 vertical lines and 2 of the 5 horizontal lines gives 4C2 x 5C2 = 60 rectangles.",
+      "as": "৪ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৫ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৬০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-027",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"90\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"90\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১",
+        "fig": ""
+      },
+      {
+        "en": "29",
+        "as": "২৯",
+        "fig": ""
+      },
+      {
+        "en": "32",
+        "as": "৩২",
+        "fig": ""
+      },
+      {
+        "en": "30",
+        "as": "৩০",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Count by size: 16 of 1x1, 9 of 2x2, 4 of 3x3, 1 of 4x4 = 30 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ১৬ টা ১×১, ৯ টা ২×২, ৪ টা ৩×৩, ১ টা ৪×৪ = ৩০ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-028",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"90\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"90\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "101",
+        "as": "১০১",
+        "fig": ""
+      },
+      {
+        "en": "99",
+        "as": "৯৯",
+        "fig": ""
+      },
+      {
+        "en": "100",
+        "as": "১০০",
+        "fig": ""
+      },
+      {
+        "en": "102",
+        "as": "১০২",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Choosing 2 of the 5 vertical lines and 2 of the 5 horizontal lines gives 5C2 x 5C2 = 100 rectangles.",
+      "as": "৫ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৫ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ১০০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-029",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"42\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"42\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"42\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"42\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"42\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"42\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      },
+      {
+        "en": "14",
+        "as": "১৪",
+        "fig": ""
+      },
+      {
+        "en": "13",
+        "as": "১৩",
+        "fig": ""
+      },
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Count by size: 10 of 1x1, 4 of 2x2 = 14 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ১০ টা ১×১, ৪ টা ২×২ = ১৪ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-030",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"42\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"42\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"42\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"42\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"42\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"42\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫",
+        "fig": ""
+      },
+      {
+        "en": "46",
+        "as": "৪৬",
+        "fig": ""
+      },
+      {
+        "en": "44",
+        "as": "৪৪",
+        "fig": ""
+      },
+      {
+        "en": "47",
+        "as": "৪৭",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 2 of the 3 vertical lines and 2 of the 6 horizontal lines gives 3C2 x 6C2 = 45 rectangles.",
+      "as": "৩ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৬ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৪৫ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-031",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"58\" y1=\"10\" x2=\"58\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"58\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"58\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"58\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"58\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"58\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"58\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭",
+        "fig": ""
+      },
+      {
+        "en": "25",
+        "as": "২৫",
+        "fig": ""
+      },
+      {
+        "en": "28",
+        "as": "২৮",
+        "fig": ""
+      },
+      {
+        "en": "26",
+        "as": "২৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Count by size: 15 of 1x1, 8 of 2x2, 3 of 3x3 = 26 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ১৫ টা ১×১, ৮ টা ২×২, ৩ টা ৩×৩ = ২৬ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-032",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"58\" y1=\"10\" x2=\"58\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"58\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"58\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"58\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"58\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"58\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"58\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "91",
+        "as": "৯১",
+        "fig": ""
+      },
+      {
+        "en": "90",
+        "as": "৯০",
+        "fig": ""
+      },
+      {
+        "en": "89",
+        "as": "৮৯",
+        "fig": ""
+      },
+      {
+        "en": "92",
+        "as": "৯২",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 2 of the 4 vertical lines and 2 of the 6 horizontal lines gives 4C2 x 6C2 = 90 rectangles.",
+      "as": "৪ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৬ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ৯০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-033",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"58\" y1=\"10\" x2=\"58\" y2=\"90\"/><line x1=\"74\" y1=\"10\" x2=\"74\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"74\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"74\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"74\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"74\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"74\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"74\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১",
+        "fig": ""
+      },
+      {
+        "en": "39",
+        "as": "৩৯",
+        "fig": ""
+      },
+      {
+        "en": "40",
+        "as": "৪০",
+        "fig": ""
+      },
+      {
+        "en": "42",
+        "as": "৪২",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Count by size: 20 of 1x1, 12 of 2x2, 6 of 3x3, 2 of 4x4 = 40 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ২০ টা ১×১, ১২ টা ২×২, ৬ টা ৩×৩, ২ টা ৪×৪ = ৪০ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-034",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"58\" y1=\"10\" x2=\"58\" y2=\"90\"/><line x1=\"74\" y1=\"10\" x2=\"74\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"74\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"74\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"74\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"74\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"74\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"74\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "151",
+        "as": "১৫১",
+        "fig": ""
+      },
+      {
+        "en": "149",
+        "as": "১৪৯",
+        "fig": ""
+      },
+      {
+        "en": "152",
+        "as": "১৫২",
+        "fig": ""
+      },
+      {
+        "en": "150",
+        "as": "১৫০",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 2 of the 5 vertical lines and 2 of the 6 horizontal lines gives 5C2 x 6C2 = 150 rectangles.",
+      "as": "৫ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৬ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ১৫০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-035",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"26\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"26\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"26\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"26\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"26\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"26\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Count by size: 5 of 1x1 = 5 squares.",
+      "as": "আকাৰ অনুসৰি গণনা: ৫ টা ১×১ = ৫ টা বৰ্গ।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-036",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"26\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"26\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"26\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"26\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"26\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"26\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      },
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      },
+      {
+        "en": "14",
+        "as": "১৪",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Choosing 2 of the 2 vertical lines and 2 of the 6 horizontal lines gives 2C2 x 6C2 = 15 rectangles.",
+      "as": "২ টা উলম্ব ৰেখাৰপৰা ২ টা আৰু ৬ টা অনুভূমিক ৰেখাৰপৰা ২ টা বাছিলে ১৫ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-037",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"62\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"62\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The grid has 3 vertical and 3 horizontal lines, so 6 straight lines.",
+      "as": "গ্ৰিডত ৩ টা উলম্ব আৰু ৩ টা অনুভূমিক ৰেখা, সেয়ে ৬ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-038",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"88\" y1=\"10\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"88\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"88\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"88\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"88\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The grid has 4 vertical and 4 horizontal lines, so 8 straight lines.",
+      "as": "গ্ৰিডত ৪ টা উলম্ব আৰু ৪ টা অনুভূমিক ৰেখা, সেয়ে ৮ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-039",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"62\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The grid has 3 vertical and 4 horizontal lines, so 7 straight lines.",
+      "as": "গ্ৰিডত ৩ টা উলম্ব আৰু ৪ টা অনুভূমিক ৰেখা, সেয়ে ৭ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-040",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"90\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"90\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The grid has 5 vertical and 5 horizontal lines, so 10 straight lines.",
+      "as": "গ্ৰিডত ৫ টা উলম্ব আৰু ৫ টা অনুভূমিক ৰেখা, সেয়ে ১০ টা সৰলৰেখা।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-041",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"62\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"62\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"62\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"62\" y2=\"62\"/><line x1=\"10\" y1=\"10\" x2=\"36\" y2=\"36\"/><line x1=\"36\" y1=\"10\" x2=\"10\" y2=\"36\"/><line x1=\"10\" y1=\"36\" x2=\"36\" y2=\"62\"/><line x1=\"36\" y1=\"36\" x2=\"10\" y2=\"62\"/><line x1=\"36\" y1=\"10\" x2=\"62\" y2=\"36\"/><line x1=\"62\" y1=\"10\" x2=\"36\" y2=\"36\"/><line x1=\"36\" y1=\"36\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"36\" x2=\"36\" y2=\"62\"/></g></svg>",
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১",
+        "fig": ""
+      },
+      {
+        "en": "40",
+        "as": "৪০",
+        "fig": ""
+      },
+      {
+        "en": "39",
+        "as": "৩৯",
+        "fig": ""
+      },
+      {
+        "en": "42",
+        "as": "৪২",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each of the 4 cells is cut by both diagonals, and the diagonals also meet along the grid lines. Counting every size once gives 40 triangles.",
+      "as": "৪ টা কোঠাৰ প্ৰতিটো দুয়োখন কৰ্ণৰে কটা হৈছে; প্ৰতিটো আকাৰ এবাৰ গণি মুঠ ৪০ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-042",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"88\" y1=\"10\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"88\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"88\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"88\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"36\" y2=\"36\"/><line x1=\"10\" y1=\"36\" x2=\"36\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"36\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"62\" y2=\"36\"/><line x1=\"36\" y1=\"36\" x2=\"62\" y2=\"62\"/><line x1=\"36\" y1=\"62\" x2=\"62\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"88\" y2=\"36\"/><line x1=\"62\" y1=\"36\" x2=\"88\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"88\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮",
+        "fig": ""
+      },
+      {
+        "en": "19",
+        "as": "১৯",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each of the 9 cells is cut by one diagonal, and the diagonals also meet along the grid lines. Counting every size once gives 18 triangles.",
+      "as": "৯ টা কোঠাৰ প্ৰতিটো এখন কৰ্ণৰে কটা হৈছে; প্ৰতিটো আকাৰ এবাৰ গণি মুঠ ১৮ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-043",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"88\"/><line x1=\"88\" y1=\"10\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"88\" y2=\"10\"/><line x1=\"10\" y1=\"36\" x2=\"88\" y2=\"36\"/><line x1=\"10\" y1=\"62\" x2=\"88\" y2=\"62\"/><line x1=\"10\" y1=\"88\" x2=\"88\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"36\" y2=\"36\"/><line x1=\"36\" y1=\"10\" x2=\"10\" y2=\"36\"/><line x1=\"10\" y1=\"36\" x2=\"36\" y2=\"62\"/><line x1=\"36\" y1=\"36\" x2=\"10\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"36\" y2=\"88\"/><line x1=\"36\" y1=\"62\" x2=\"10\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"62\" y2=\"36\"/><line x1=\"62\" y1=\"10\" x2=\"36\" y2=\"36\"/><line x1=\"36\" y1=\"36\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"36\" x2=\"36\" y2=\"62\"/><line x1=\"36\" y1=\"62\" x2=\"62\" y2=\"88\"/><line x1=\"62\" y1=\"62\" x2=\"36\" y2=\"88\"/><line x1=\"62\" y1=\"10\" x2=\"88\" y2=\"36\"/><line x1=\"88\" y1=\"10\" x2=\"62\" y2=\"36\"/><line x1=\"62\" y1=\"36\" x2=\"88\" y2=\"62\"/><line x1=\"88\" y1=\"36\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"88\" y2=\"88\"/><line x1=\"88\" y1=\"62\" x2=\"62\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "97",
+        "as": "৯৭",
+        "fig": ""
+      },
+      {
+        "en": "95",
+        "as": "৯৫",
+        "fig": ""
+      },
+      {
+        "en": "98",
+        "as": "৯৮",
+        "fig": ""
+      },
+      {
+        "en": "96",
+        "as": "৯৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each of the 9 cells is cut by both diagonals, and the diagonals also meet along the grid lines. Counting every size once gives 96 triangles.",
+      "as": "৯ টা কোঠাৰ প্ৰতিটো দুয়োখন কৰ্ণৰে কটা হৈছে; প্ৰতিটো আকাৰ এবাৰ গণি মুঠ ৯৬ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-044",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"70\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"70\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"70\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"70\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"30\" y2=\"30\"/><line x1=\"10\" y1=\"30\" x2=\"30\" y2=\"50\"/><line x1=\"10\" y1=\"50\" x2=\"30\" y2=\"70\"/><line x1=\"10\" y1=\"70\" x2=\"30\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"50\" y2=\"30\"/><line x1=\"30\" y1=\"30\" x2=\"50\" y2=\"50\"/><line x1=\"30\" y1=\"50\" x2=\"50\" y2=\"70\"/><line x1=\"30\" y1=\"70\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"70\" y2=\"30\"/><line x1=\"50\" y1=\"30\" x2=\"70\" y2=\"50\"/><line x1=\"50\" y1=\"50\" x2=\"70\" y2=\"70\"/><line x1=\"50\" y1=\"70\" x2=\"70\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫",
+        "fig": ""
+      },
+      {
+        "en": "24",
+        "as": "২৪",
+        "fig": ""
+      },
+      {
+        "en": "23",
+        "as": "২৩",
+        "fig": ""
+      },
+      {
+        "en": "26",
+        "as": "২৬",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each of the 12 cells is cut by one diagonal, and the diagonals also meet along the grid lines. Counting every size once gives 24 triangles.",
+      "as": "১২ টা কোঠাৰ প্ৰতিটো এখন কৰ্ণৰে কটা হৈছে; প্ৰতিটো আকাৰ এবাৰ গণি মুঠ ২৪ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-045",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the square with both diagonals, every triangle formed by the drawn lines is counted once; the total is 8.",
+      "as": "square with both diagonals চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৮ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-046",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The square with both diagonals is drawn with 6 straight lines.",
+      "as": "square with both diagonals চিত্ৰ ৬ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-047",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      },
+      {
+        "en": "18",
+        "as": "১৮",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the square with both diagonals and both midlines, every triangle formed by the drawn lines is counted once; the total is 16.",
+      "as": "square with both diagonals and both midlines চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ১৬ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-048",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The square with both diagonals and both midlines contains 5 squares of different sizes.",
+      "as": "square with both diagonals and both midlines চিত্ৰত ভিন্ন আকাৰৰ ৫ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-049",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The square with both diagonals and both midlines contains 9 rectangles when every size is counted.",
+      "as": "square with both diagonals and both midlines চিত্ৰত প্ৰতিটো আকাৰ গণি ৯ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-050",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The square with both diagonals and both midlines is drawn with 8 straight lines.",
+      "as": "square with both diagonals and both midlines চিত্ৰ ৮ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-051",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In the square with one diagonal and both midlines, every triangle formed by the drawn lines is counted once; the total is 6.",
+      "as": "square with one diagonal and both midlines চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৬ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-052",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The square with one diagonal and both midlines contains 5 squares of different sizes.",
+      "as": "square with one diagonal and both midlines চিত্ৰত ভিন্ন আকাৰৰ ৫ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-053",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The square with one diagonal and both midlines contains 9 rectangles when every size is counted.",
+      "as": "square with one diagonal and both midlines চিত্ৰত প্ৰতিটো আকাৰ গণি ৯ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-054",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"90\" y1=\"90\" x2=\"10\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"10\" y2=\"10\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The square with one diagonal and both midlines is drawn with 7 straight lines.",
+      "as": "square with one diagonal and both midlines চিত্ৰ ৭ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-055",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"80\" x2=\"0\" y2=\"80\"/><line x1=\"0\" y1=\"80\" x2=\"0\" y2=\"20\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"20\" x2=\"0\" y2=\"80\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In the rectangle with both diagonals, every triangle formed by the drawn lines is counted once; the total is 8.",
+      "as": "rectangle with both diagonals চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৮ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-056",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"80\" x2=\"0\" y2=\"80\"/><line x1=\"0\" y1=\"80\" x2=\"0\" y2=\"20\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"20\" x2=\"0\" y2=\"80\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rectangle with both diagonals is drawn with 6 straight lines.",
+      "as": "rectangle with both diagonals চিত্ৰ ৬ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-057",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"80\" x2=\"0\" y2=\"80\"/><line x1=\"0\" y1=\"80\" x2=\"0\" y2=\"20\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"20\" x2=\"0\" y2=\"80\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      },
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      },
+      {
+        "en": "18",
+        "as": "১৮",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the rectangle with both diagonals and both midlines, every triangle formed by the drawn lines is counted once; the total is 16.",
+      "as": "rectangle with both diagonals and both midlines চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ১৬ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-058",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"80\" x2=\"0\" y2=\"80\"/><line x1=\"0\" y1=\"80\" x2=\"0\" y2=\"20\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"20\" x2=\"0\" y2=\"80\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The rectangle with both diagonals and both midlines contains 9 rectangles when every size is counted.",
+      "as": "rectangle with both diagonals and both midlines চিত্ৰত প্ৰতিটো আকাৰ গণি ৯ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-059",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"20\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"80\" x2=\"0\" y2=\"80\"/><line x1=\"0\" y1=\"80\" x2=\"0\" y2=\"20\"/><line x1=\"0\" y1=\"20\" x2=\"100\" y2=\"80\"/><line x1=\"100\" y1=\"20\" x2=\"0\" y2=\"80\"/><line x1=\"50\" y1=\"20\" x2=\"50\" y2=\"80\"/><line x1=\"0\" y1=\"50\" x2=\"100\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The rectangle with both diagonals and both midlines is drawn with 8 straight lines.",
+      "as": "rectangle with both diagonals and both midlines চিত্ৰ ৮ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-060",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"8\" x2=\"92\" y2=\"50\"/><line x1=\"92\" y1=\"50\" x2=\"50\" y2=\"92\"/><line x1=\"50\" y1=\"92\" x2=\"8\" y2=\"50\"/><line x1=\"8\" y1=\"50\" x2=\"50\" y2=\"8\"/><line x1=\"50\" y1=\"8\" x2=\"50\" y2=\"92\"/><line x1=\"92\" y1=\"50\" x2=\"8\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the rhombus with both diagonals, every triangle formed by the drawn lines is counted once; the total is 8.",
+      "as": "rhombus with both diagonals চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৮ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-061",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"8\" x2=\"92\" y2=\"50\"/><line x1=\"92\" y1=\"50\" x2=\"50\" y2=\"92\"/><line x1=\"50\" y1=\"92\" x2=\"8\" y2=\"50\"/><line x1=\"8\" y1=\"50\" x2=\"50\" y2=\"8\"/><line x1=\"50\" y1=\"8\" x2=\"50\" y2=\"92\"/><line x1=\"92\" y1=\"50\" x2=\"8\" y2=\"50\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The rhombus with both diagonals is drawn with 6 straight lines.",
+      "as": "rhombus with both diagonals চিত্ৰ ৬ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-062",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"14\" y1=\"16\" x2=\"86\" y2=\"16\"/><line x1=\"86\" y1=\"16\" x2=\"96\" y2=\"88\"/><line x1=\"96\" y1=\"88\" x2=\"4\" y2=\"88\"/><line x1=\"4\" y1=\"88\" x2=\"14\" y2=\"16\"/><line x1=\"14\" y1=\"16\" x2=\"96\" y2=\"88\"/><line x1=\"86\" y1=\"16\" x2=\"4\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      },
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the trapezium with both diagonals, every triangle formed by the drawn lines is counted once; the total is 4.",
+      "as": "trapezium with both diagonals চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৪ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-063",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"14\" y1=\"16\" x2=\"86\" y2=\"16\"/><line x1=\"86\" y1=\"16\" x2=\"96\" y2=\"88\"/><line x1=\"96\" y1=\"88\" x2=\"4\" y2=\"88\"/><line x1=\"4\" y1=\"88\" x2=\"14\" y2=\"16\"/><line x1=\"14\" y1=\"16\" x2=\"96\" y2=\"88\"/><line x1=\"86\" y1=\"16\" x2=\"4\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The trapezium with both diagonals is drawn with 6 straight lines.",
+      "as": "trapezium with both diagonals চিত্ৰ ৬ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-064",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"20\" y1=\"44\" x2=\"80\" y2=\"44\"/><line x1=\"80\" y1=\"44\" x2=\"80\" y2=\"92\"/><line x1=\"80\" y1=\"92\" x2=\"20\" y2=\"92\"/><line x1=\"20\" y1=\"92\" x2=\"20\" y2=\"44\"/><line x1=\"20\" y1=\"44\" x2=\"50\" y2=\"10\"/><line x1=\"50\" y1=\"10\" x2=\"80\" y2=\"44\"/><line x1=\"20\" y1=\"44\" x2=\"80\" y2=\"92\"/><line x1=\"80\" y1=\"44\" x2=\"20\" y2=\"92\"/></g></svg>",
+    "options": [
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the house shape with diagonals in the square, every triangle formed by the drawn lines is counted once; the total is 9.",
+      "as": "house shape with diagonals in the square চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ৯ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-065",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"20\" y1=\"44\" x2=\"80\" y2=\"44\"/><line x1=\"80\" y1=\"44\" x2=\"80\" y2=\"92\"/><line x1=\"80\" y1=\"92\" x2=\"20\" y2=\"92\"/><line x1=\"20\" y1=\"92\" x2=\"20\" y2=\"44\"/><line x1=\"20\" y1=\"44\" x2=\"50\" y2=\"10\"/><line x1=\"50\" y1=\"10\" x2=\"80\" y2=\"44\"/><line x1=\"20\" y1=\"44\" x2=\"80\" y2=\"92\"/><line x1=\"80\" y1=\"44\" x2=\"20\" y2=\"92\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The house shape with diagonals in the square is drawn with 8 straight lines.",
+      "as": "house shape with diagonals in the square চিত্ৰ ৮ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-066",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"26\" x2=\"90\" y2=\"26\"/><line x1=\"90\" y1=\"26\" x2=\"90\" y2=\"88\"/><line x1=\"90\" y1=\"88\" x2=\"10\" y2=\"88\"/><line x1=\"10\" y1=\"88\" x2=\"10\" y2=\"26\"/><line x1=\"10\" y1=\"26\" x2=\"90\" y2=\"88\"/><line x1=\"90\" y1=\"26\" x2=\"10\" y2=\"88\"/><line x1=\"50\" y1=\"26\" x2=\"10\" y2=\"88\"/><line x1=\"50\" y1=\"26\" x2=\"90\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩",
+        "fig": ""
+      },
+      {
+        "en": "14",
+        "as": "১৪",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      },
+      {
+        "en": "15",
+        "as": "১৫",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In the envelope with diagonals and a roof, every triangle formed by the drawn lines is counted once; the total is 13.",
+      "as": "envelope with diagonals and a roof চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ১৩ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-067",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"26\" x2=\"90\" y2=\"26\"/><line x1=\"90\" y1=\"26\" x2=\"90\" y2=\"88\"/><line x1=\"90\" y1=\"88\" x2=\"10\" y2=\"88\"/><line x1=\"10\" y1=\"88\" x2=\"10\" y2=\"26\"/><line x1=\"10\" y1=\"26\" x2=\"90\" y2=\"88\"/><line x1=\"90\" y1=\"26\" x2=\"10\" y2=\"88\"/><line x1=\"50\" y1=\"26\" x2=\"10\" y2=\"88\"/><line x1=\"50\" y1=\"26\" x2=\"90\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The envelope with diagonals and a roof is drawn with 8 straight lines.",
+      "as": "envelope with diagonals and a roof চিত্ৰ ৮ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-068",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"10\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"10\" y2=\"10\"/><line x1=\"40\" y1=\"40\" x2=\"92\" y2=\"40\"/><line x1=\"92\" y1=\"40\" x2=\"92\" y2=\"92\"/><line x1=\"92\" y1=\"92\" x2=\"40\" y2=\"92\"/><line x1=\"40\" y1=\"92\" x2=\"40\" y2=\"40\"/></g></svg>",
+    "options": [
+      {
+        "en": "1",
+        "as": "১",
+        "fig": ""
+      },
+      {
+        "en": "0",
+        "as": "০",
+        "fig": ""
+      },
+      {
+        "en": "2",
+        "as": "২",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the two overlapping squares, every triangle formed by the drawn lines is counted once; the total is 0.",
+      "as": "two overlapping squares চিত্ৰত টনা ৰেখাৰে গঠিত প্ৰতিটো ত্ৰিভুজ এবাৰ গণি মুঠ ০ টা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-069",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"10\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"10\" y2=\"10\"/><line x1=\"40\" y1=\"40\" x2=\"92\" y2=\"40\"/><line x1=\"92\" y1=\"40\" x2=\"92\" y2=\"92\"/><line x1=\"92\" y1=\"92\" x2=\"40\" y2=\"92\"/><line x1=\"40\" y1=\"92\" x2=\"40\" y2=\"40\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "2",
+        "as": "২",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The two overlapping squares contains 3 squares of different sizes.",
+      "as": "two overlapping squares চিত্ৰত ভিন্ন আকাৰৰ ৩ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-070",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"10\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"10\" y2=\"10\"/><line x1=\"40\" y1=\"40\" x2=\"92\" y2=\"40\"/><line x1=\"92\" y1=\"40\" x2=\"92\" y2=\"92\"/><line x1=\"92\" y1=\"92\" x2=\"40\" y2=\"92\"/><line x1=\"40\" y1=\"92\" x2=\"40\" y2=\"40\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "2",
+        "as": "২",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The two overlapping squares contains 3 rectangles when every size is counted.",
+      "as": "two overlapping squares চিত্ৰত প্ৰতিটো আকাৰ গণি ৩ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-071",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many straight lines are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা সৰলৰেখা আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"62\" y2=\"10\"/><line x1=\"62\" y1=\"10\" x2=\"62\" y2=\"62\"/><line x1=\"62\" y1=\"62\" x2=\"10\" y2=\"62\"/><line x1=\"10\" y1=\"62\" x2=\"10\" y2=\"10\"/><line x1=\"40\" y1=\"40\" x2=\"92\" y2=\"40\"/><line x1=\"92\" y1=\"40\" x2=\"92\" y2=\"92\"/><line x1=\"92\" y1=\"92\" x2=\"40\" y2=\"92\"/><line x1=\"40\" y1=\"92\" x2=\"40\" y2=\"40\"/></g></svg>",
+    "options": [
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two overlapping squares is drawn with 8 straight lines.",
+      "as": "two overlapping squares চিত্ৰ ৮ টা সৰলৰেখাৰে অঁকা হৈছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-072",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"30\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"30\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"30\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"30\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"30\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "4",
+        "as": "৪",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "3",
+        "as": "৩",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A 1 by 4 grid holds 4 squares of every size.",
+      "as": "১ বাই ৪ গ্ৰিডত প্ৰতিটো আকাৰ লৈ ৪ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-073",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"30\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"30\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"30\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"30\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"30\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "11",
+        "as": "১১",
+        "fig": ""
+      },
+      {
+        "en": "10",
+        "as": "১০",
+        "fig": ""
+      },
+      {
+        "en": "9",
+        "as": "৯",
+        "fig": ""
+      },
+      {
+        "en": "12",
+        "as": "১২",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 2 of the 2 vertical and 2 of the 5 horizontal lines gives 10 rectangles.",
+      "as": "২ টা উলম্ব আৰু ৫ টা অনুভূমিক ৰেখাৰপৰা ২ টা ২ টাকৈ বাছিলে ১০ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-074",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"23\" y1=\"10\" x2=\"23\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"23\" y2=\"10\"/><line x1=\"10\" y1=\"23\" x2=\"23\" y2=\"23\"/><line x1=\"10\" y1=\"36\" x2=\"23\" y2=\"36\"/><line x1=\"10\" y1=\"49\" x2=\"23\" y2=\"49\"/><line x1=\"10\" y1=\"62\" x2=\"23\" y2=\"62\"/><line x1=\"10\" y1=\"75\" x2=\"23\" y2=\"75\"/><line x1=\"10\" y1=\"88\" x2=\"23\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "7",
+        "as": "৭",
+        "fig": ""
+      },
+      {
+        "en": "5",
+        "as": "৫",
+        "fig": ""
+      },
+      {
+        "en": "6",
+        "as": "৬",
+        "fig": ""
+      },
+      {
+        "en": "8",
+        "as": "৮",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A 1 by 6 grid holds 6 squares of every size.",
+      "as": "১ বাই ৬ গ্ৰিডত প্ৰতিটো আকাৰ লৈ ৬ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-075",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"23\" y1=\"10\" x2=\"23\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"23\" y2=\"10\"/><line x1=\"10\" y1=\"23\" x2=\"23\" y2=\"23\"/><line x1=\"10\" y1=\"36\" x2=\"23\" y2=\"36\"/><line x1=\"10\" y1=\"49\" x2=\"23\" y2=\"49\"/><line x1=\"10\" y1=\"62\" x2=\"23\" y2=\"62\"/><line x1=\"10\" y1=\"75\" x2=\"23\" y2=\"75\"/><line x1=\"10\" y1=\"88\" x2=\"23\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "22",
+        "as": "২২",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      },
+      {
+        "en": "23",
+        "as": "২৩",
+        "fig": ""
+      },
+      {
+        "en": "21",
+        "as": "২১",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Choosing 2 of the 2 vertical and 2 of the 7 horizontal lines gives 21 rectangles.",
+      "as": "২ টা উলম্ব আৰু ৭ টা অনুভূমিক ৰেখাৰপৰা ২ টা ২ টাকৈ বাছিলে ২১ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-076",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many squares are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা বৰ্গ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"23\" y1=\"10\" x2=\"23\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"36\" y2=\"10\"/><line x1=\"10\" y1=\"23\" x2=\"36\" y2=\"23\"/><line x1=\"10\" y1=\"36\" x2=\"36\" y2=\"36\"/><line x1=\"10\" y1=\"49\" x2=\"36\" y2=\"49\"/><line x1=\"10\" y1=\"62\" x2=\"36\" y2=\"62\"/><line x1=\"10\" y1=\"75\" x2=\"36\" y2=\"75\"/><line x1=\"10\" y1=\"88\" x2=\"36\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮",
+        "fig": ""
+      },
+      {
+        "en": "16",
+        "as": "১৬",
+        "fig": ""
+      },
+      {
+        "en": "17",
+        "as": "১৭",
+        "fig": ""
+      },
+      {
+        "en": "19",
+        "as": "১৯",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A 2 by 6 grid holds 17 squares of every size.",
+      "as": "২ বাই ৬ গ্ৰিডত প্ৰতিটো আকাৰ লৈ ১৭ টা বৰ্গ আছে।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-077",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many rectangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা আয়ত আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"88\"/><line x1=\"23\" y1=\"10\" x2=\"23\" y2=\"88\"/><line x1=\"36\" y1=\"10\" x2=\"36\" y2=\"88\"/><line x1=\"10\" y1=\"10\" x2=\"36\" y2=\"10\"/><line x1=\"10\" y1=\"23\" x2=\"36\" y2=\"23\"/><line x1=\"10\" y1=\"36\" x2=\"36\" y2=\"36\"/><line x1=\"10\" y1=\"49\" x2=\"36\" y2=\"49\"/><line x1=\"10\" y1=\"62\" x2=\"36\" y2=\"62\"/><line x1=\"10\" y1=\"75\" x2=\"36\" y2=\"75\"/><line x1=\"10\" y1=\"88\" x2=\"36\" y2=\"88\"/></g></svg>",
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪",
+        "fig": ""
+      },
+      {
+        "en": "63",
+        "as": "৬৩",
+        "fig": ""
+      },
+      {
+        "en": "62",
+        "as": "৬২",
+        "fig": ""
+      },
+      {
+        "en": "65",
+        "as": "৬৫",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Choosing 2 of the 3 vertical and 2 of the 7 horizontal lines gives 63 rectangles.",
+      "as": "৩ টা উলম্ব আৰু ৭ টা অনুভূমিক ৰেখাৰপৰা ২ টা ২ টাকৈ বাছিলে ৬৩ টা আয়ত পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-078",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"18\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"26\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"34\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"42\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"58\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"66\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"74\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"82\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫",
+        "fig": ""
+      },
+      {
+        "en": "56",
+        "as": "৫৬",
+        "fig": ""
+      },
+      {
+        "en": "54",
+        "as": "৫৪",
+        "fig": ""
+      },
+      {
+        "en": "57",
+        "as": "৫৭",
+        "fig": ""
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 9 lines from the apex the base has 11 points, and any two of them with the apex form a triangle.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ৯ টা ৰেখা থাকিলে ভূমিত ১১ টা বিন্দু হয়; যিকোনো দুটা বিন্দু শীৰ্ষবিন্দুৰ সৈতে ল'লে ত্ৰিভুজ হয়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-079",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"50\" y1=\"12\" x2=\"10\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"17\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"25\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"32\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"39\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"46\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"54\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"61\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"68\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"75\" y2=\"90\"/><line x1=\"50\" y1=\"12\" x2=\"83\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "67",
+        "as": "৬৭",
+        "fig": ""
+      },
+      {
+        "en": "65",
+        "as": "৬৫",
+        "fig": ""
+      },
+      {
+        "en": "68",
+        "as": "৬৮",
+        "fig": ""
+      },
+      {
+        "en": "66",
+        "as": "৬৬",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With 10 lines from the apex the base has 12 points, and any two of them with the apex form a triangle.",
+      "as": "শীৰ্ষবিন্দুৰপৰা ১০ টা ৰেখা থাকিলে ভূমিত ১২ টা বিন্দু হয়; যিকোনো দুটা বিন্দু শীৰ্ষবিন্দুৰ সৈতে ল'লে ত্ৰিভুজ হয়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-080",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"70\" y2=\"90\"/><line x1=\"90\" y1=\"10\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"90\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"90\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"90\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"90\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"30\" y2=\"30\"/><line x1=\"10\" y1=\"30\" x2=\"30\" y2=\"50\"/><line x1=\"10\" y1=\"50\" x2=\"30\" y2=\"70\"/><line x1=\"10\" y1=\"70\" x2=\"30\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"50\" y2=\"30\"/><line x1=\"30\" y1=\"30\" x2=\"50\" y2=\"50\"/><line x1=\"30\" y1=\"50\" x2=\"50\" y2=\"70\"/><line x1=\"30\" y1=\"70\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"70\" y2=\"30\"/><line x1=\"50\" y1=\"30\" x2=\"70\" y2=\"50\"/><line x1=\"50\" y1=\"50\" x2=\"70\" y2=\"70\"/><line x1=\"50\" y1=\"70\" x2=\"70\" y2=\"90\"/><line x1=\"70\" y1=\"10\" x2=\"90\" y2=\"30\"/><line x1=\"70\" y1=\"30\" x2=\"90\" y2=\"50\"/><line x1=\"70\" y1=\"50\" x2=\"90\" y2=\"70\"/><line x1=\"70\" y1=\"70\" x2=\"90\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩",
+        "fig": ""
+      },
+      {
+        "en": "32",
+        "as": "৩২",
+        "fig": ""
+      },
+      {
+        "en": "31",
+        "as": "৩১",
+        "fig": ""
+      },
+      {
+        "en": "34",
+        "as": "৩৪",
+        "fig": ""
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each cell of the 4 by 4 grid carries one diagonal; counted once per size the figure holds 32 triangles.",
+      "as": "৪ বাই ৪ গ্ৰিডৰ প্ৰতিটো কোঠাত এখন কৰ্ণ আছে; প্ৰতিটো আকাৰ এবাৰ গণি ৩২ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-081",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"30\" y2=\"90\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"50\" y2=\"10\"/><line x1=\"10\" y1=\"30\" x2=\"50\" y2=\"30\"/><line x1=\"10\" y1=\"50\" x2=\"50\" y2=\"50\"/><line x1=\"10\" y1=\"70\" x2=\"50\" y2=\"70\"/><line x1=\"10\" y1=\"90\" x2=\"50\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"30\" y2=\"30\"/><line x1=\"30\" y1=\"10\" x2=\"10\" y2=\"30\"/><line x1=\"10\" y1=\"30\" x2=\"30\" y2=\"50\"/><line x1=\"30\" y1=\"30\" x2=\"10\" y2=\"50\"/><line x1=\"10\" y1=\"50\" x2=\"30\" y2=\"70\"/><line x1=\"30\" y1=\"50\" x2=\"10\" y2=\"70\"/><line x1=\"10\" y1=\"70\" x2=\"30\" y2=\"90\"/><line x1=\"30\" y1=\"70\" x2=\"10\" y2=\"90\"/><line x1=\"30\" y1=\"10\" x2=\"50\" y2=\"30\"/><line x1=\"50\" y1=\"10\" x2=\"30\" y2=\"30\"/><line x1=\"30\" y1=\"30\" x2=\"50\" y2=\"50\"/><line x1=\"50\" y1=\"30\" x2=\"30\" y2=\"50\"/><line x1=\"30\" y1=\"50\" x2=\"50\" y2=\"70\"/><line x1=\"50\" y1=\"50\" x2=\"30\" y2=\"70\"/><line x1=\"30\" y1=\"70\" x2=\"50\" y2=\"90\"/><line x1=\"50\" y1=\"70\" x2=\"30\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "85",
+        "as": "৮৫",
+        "fig": ""
+      },
+      {
+        "en": "83",
+        "as": "৮৩",
+        "fig": ""
+      },
+      {
+        "en": "84",
+        "as": "৮৪",
+        "fig": ""
+      },
+      {
+        "en": "86",
+        "as": "৮৬",
+        "fig": ""
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each cell of the 2 by 4 grid carries both diagonals; counted once per size the figure holds 84 triangles.",
+      "as": "২ বাই ৪ গ্ৰিডৰ প্ৰতিটো কোঠাত দুয়োখন কৰ্ণ আছে; প্ৰতিটো আকাৰ এবাৰ গণি ৮৪ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "nv-counting-figures-082",
+    "leaf": "counting-figures",
+    "q": {
+      "en": "How many triangles are there in the figure?",
+      "as": "চিত্ৰত মুঠ কিমানটা ত্ৰিভুজ আছে?"
+    },
+    "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"96\" height=\"96\" role=\"img\" aria-label=\"figure\"><g stroke=\"#0f172a\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\" fill=\"none\"><line x1=\"10\" y1=\"10\" x2=\"10\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"26\" y2=\"90\"/><line x1=\"42\" y1=\"10\" x2=\"42\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"42\" y2=\"10\"/><line x1=\"10\" y1=\"26\" x2=\"42\" y2=\"26\"/><line x1=\"10\" y1=\"42\" x2=\"42\" y2=\"42\"/><line x1=\"10\" y1=\"58\" x2=\"42\" y2=\"58\"/><line x1=\"10\" y1=\"74\" x2=\"42\" y2=\"74\"/><line x1=\"10\" y1=\"90\" x2=\"42\" y2=\"90\"/><line x1=\"10\" y1=\"10\" x2=\"26\" y2=\"26\"/><line x1=\"10\" y1=\"26\" x2=\"26\" y2=\"42\"/><line x1=\"10\" y1=\"42\" x2=\"26\" y2=\"58\"/><line x1=\"10\" y1=\"58\" x2=\"26\" y2=\"74\"/><line x1=\"10\" y1=\"74\" x2=\"26\" y2=\"90\"/><line x1=\"26\" y1=\"10\" x2=\"42\" y2=\"26\"/><line x1=\"26\" y1=\"26\" x2=\"42\" y2=\"42\"/><line x1=\"26\" y1=\"42\" x2=\"42\" y2=\"58\"/><line x1=\"26\" y1=\"58\" x2=\"42\" y2=\"74\"/><line x1=\"26\" y1=\"74\" x2=\"42\" y2=\"90\"/></g></svg>",
+    "options": [
+      {
+        "en": "21",
+        "as": "২১",
+        "fig": ""
+      },
+      {
+        "en": "19",
+        "as": "১৯",
+        "fig": ""
+      },
+      {
+        "en": "22",
+        "as": "২২",
+        "fig": ""
+      },
+      {
+        "en": "20",
+        "as": "২০",
+        "fig": ""
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each cell of the 2 by 5 grid carries one diagonal; counted once per size the figure holds 20 triangles.",
+      "as": "২ বাই ৫ গ্ৰিডৰ প্ৰতিটো কোঠাত এখন কৰ্ণ আছে; প্ৰতিটো আকাৰ এবাৰ গণি ২০ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-009",
+    "q": {
+      "en": "A rectangle has how many lines of symmetry?",
+      "as": "আয়তৰ কিমান সমমিতি ৰেখা?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A rectangle that is not a square has exactly 2 lines of symmetry - the horizontal and vertical lines through the midpoints of opposite sides.",
+      "as": "বৰ্গ নোহোৱা আয়তৰ ঠিক ২ টা সমমিতি ৰেখা থাকে - বিপৰীত বাহুৰ মধ্যবিন্দুৰ মাজেৰে যোৱা অনুভূমিক আৰু উলম্ব ৰেখা।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-010",
+    "q": {
+      "en": "A square has how many lines of symmetry?",
+      "as": "বৰ্গৰ কিমান সমমিতি ৰেখা?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A square has 4 lines of symmetry: 2 through the midpoints of opposite sides and 2 along its diagonals.",
+      "as": "বৰ্গৰ ৪ টা সমমিতি ৰেখা থাকে: বিপৰীত বাহুৰ মধ্যবিন্দুৰ মাজেৰে ২ টা আৰু কৰ্ণৰ লগত ২ টা।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-023",
+    "q": {
+      "en": "Number of triangles in a figure of a triangle divided by one line from a vertex to opposite side?",
+      "as": "এটা ত্ৰিভুজ এডাল ৰেখাৰে ভাগ কৰিলে ত্ৰিভুজৰ সংখ্যা?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One line from a vertex to the opposite side gives 2 small triangles, and the original triangle makes a third, so the count is 3.",
+      "as": "এটা শীৰ্ষবিন্দুৰ পৰা বিপৰীত বাহুলৈ এডাল ৰেখা টানিলে ২ টা সৰু ত্ৰিভুজ হয়, আৰু মূল ত্ৰিভুজটো লগ হৈ মুঠ ৩ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-028",
+    "q": {
+      "en": "A circle has how many lines of symmetry?",
+      "as": "বৃত্তৰ কিমান সমমিতি ৰেখা?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "Infinite",
+        "as": "অসীম"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Every diameter of a circle is a line of symmetry, and a circle has infinitely many diameters, so it has infinite lines of symmetry.",
+      "as": "বৃত্তৰ প্ৰতিটো ব্যাস এডাল সমমিতি ৰেখা, আৰু বৃত্তত অসীম সংখ্যক ব্যাস থাকে, সেয়ে বৃত্তৰ সমমিতি ৰেখা অসীম।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-033",
+    "q": {
+      "en": "If a square is divided by both diagonals, number of triangles formed is?",
+      "as": "বৰ্গক দুয়ো কৰ্ণেৰে ভাগ কৰিলে ত্ৰিভুজ কিমান?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The two diagonals cut the square into 4 small triangles, and each pair of them forms a half-square triangle, so the total is 4 + 4 = 8.",
+      "as": "দুয়োখন কৰ্ণই বৰ্গটো ৪ টা সৰু ত্ৰিভুজত ভাগ কৰে, আৰু প্ৰতিযোৰে এটা আধা-বৰ্গ ত্ৰিভুজ গঠন কৰে, সেয়ে মুঠ ৪ + ৪ = ৮।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-037",
+    "q": {
+      "en": "Count of rectangles in a figure of 2×3 grid of small squares?",
+      "as": "২×৩ সৰু বৰ্গ গ্ৰিডত আয়তৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For an m×n grid, the number of rectangles is [m(m+1)/2] × [n(n+1)/2]; for a 2×3 grid this is 3 × 6 = 18.",
+      "as": "m×n গ্ৰিডত আয়তৰ সংখ্যা = [m(m+১)/২] × [n(n+১)/২]; ২×৩ গ্ৰিডৰ বাবে ৩ × ৬ = ১৮।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-048",
+    "q": {
+      "en": "In a 4×4 grid, total number of squares (all sizes) is?",
+      "as": "৪×৪ গ্ৰিডত সকলো আকাৰৰ বৰ্গৰ মুঠ সংখ্যা?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In an n×n grid the number of squares of all sizes is 1²+2²+...+n²; for a 4×4 grid this is 16+9+4+1 = 30.",
+      "as": "n×n গ্ৰিডত সকলো আকাৰৰ বৰ্গৰ সংখ্যা ১²+২²+...+n²; ৪×৪ গ্ৰিডৰ বাবে ই ১৬+৯+৪+১ = ৩০।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-058",
+    "q": {
+      "en": "Count of triangles in a star of David (two overlapping equilateral triangles) including small ones is commonly taught as?",
+      "as": "ডেভিদৰ তৰা (দুটা ওপৰাওপৰি সমবাহু ত্ৰিভুজ)ত ত্ৰিভুজৰ সাধাৰণ গণনা?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In the Star of David the two large overlapping triangles together with the 6 small triangles formed by their intersections give 2 + 6 = 8 triangles.",
+      "as": "ডেভিদৰ তৰাত দুটা ডাঙৰ ওপৰাওপৰি ত্ৰিভুজ আৰু তেওঁলোকৰ ছেদৰ পৰা সৃষ্টি হোৱা ৬ টা সৰু ত্ৰিভুজ মিলি ২ + ৬ = ৮ টা ত্ৰিভুজ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-074",
+    "q": {
+      "en": "How many squares are there in a 3x3 grid of unit squares?",
+      "as": "৩×৩ একক বৰ্গৰ গ্ৰিডত মুঠ কিমান বৰ্গ আছে?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 9 one-by-one squares, 4 two-by-two squares and 1 three-by-three square, giving 9 + 4 + 1 = 14.",
+      "as": "৯টা ১×১, ৪টা ২×২ আৰু ১টা ৩×৩ বৰ্গ আছে, মুঠ ৯ + ৪ + ১ = ১৪।"
+    }
+  },
+  {
+    "id": "non-verbal-reasoning-078",
+    "q": {
+      "en": "How many lines of symmetry does a square have?",
+      "as": "এটা বৰ্গৰ কিমান সমমিতি ৰেখা থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A square has 4 lines of symmetry: its two diagonals and the two lines through the midpoints of opposite sides.",
+      "as": "বৰ্গৰ ৪টা সমমিতি ৰেখা থাকে: দুটা কৰ্ণ আৰু বিপৰীত বাহুৰ মধ্যবিন্দুৰ মাজেৰে যোৱা দুটা ৰেখা।"
+    }
+  }
+]

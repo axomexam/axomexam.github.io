@@ -1,0 +1,3300 @@
+(()=>{"use strict";const u={categories:[],topicMap:{},topicIndex:[],ready:!1,page:0,lang:"as",uiLang:"en",mock:null,isGeneratingPdf:!1,mockSetCache:{},examMockSetCache:{},mockSetCount:{},mockLiveCounts:{},exams:null,examQuestionTotal:0,examTotalLoaded:!1,examTotalPromise:null,counts:null,topicsTotal:0,mockTotal:0,caCounts:null,caQuestionTotal:0,caTotalPromise:null,searchCorpusReady:!1},Ee=20,Yt=5,ys=!1,ws=["assam-police-si","assam-police","adre-grade-3","adre-grade-4","dhs-dme","dhs-dme-technical","dhs-dme-grade-4","rrb-ntpc"],Vt=e=>!ys&&ws.indexOf(e)!==-1,ks=["assam-police-si","assam-police","adre-grade-3","adre-grade-4","dhs-dme-technical","dhs-dme","dhs-dme-grade-4","rrb-ntpc","guwahati-hc"],$s=e=>e.map((t,a)=>({e:t,i:a})).sort((t,a)=>{const s=n=>{if(!$e(n.e))return 1e3;const i=ks.indexOf(n.e.id);return i===-1?500:i};return s(t)-s(a)||t.i-a.i}).map(t=>t.e),Kt=21,g=(e,t=document)=>t.querySelector(e),S=(e,t=document)=>Array.from(t.querySelectorAll(e));let Ge=null,We=null,_e=null;function gt(e,t){return new Promise((a,s)=>{const n=document.createElement("script");let i=!1;const o=d=>{i||(i=!0,clearTimeout(c),n.onload=n.onerror=null,d?(n.parentNode&&n.parentNode.removeChild(n),s(d)):a())},c=setTimeout(()=>o(new Error("Timed out loading "+e)),t||15e3);n.src=e,n.async=!0,n.onload=()=>o(),n.onerror=()=>o(new Error("Failed to load "+e)),document.head.appendChild(n)})}async function Jt(e,t){let a=null;for(let s=0;s<e.length;s++)try{await gt(e[s],t);return}catch(n){a=n}throw a||new Error("Failed to load script")}function As(e,t){if(document.getElementById(e))return;const a=document.createElement("link");a.id=e,a.rel="stylesheet",a.href=t,document.head.appendChild(a)}function Cs(){return typeof window.renderMathInElement=="function"?Promise.resolve():(_e||(As("katex-css","https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"),_e=gt("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js").then(()=>gt("https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js")).catch(e=>{throw _e=null,e})),_e)}const Ss=["https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js","https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js","https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"],Es=["https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js","https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js","https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js"];function Xt(){return window.html2canvas?Promise.resolve():(We||(We=Jt(Ss,15e3).catch(e=>{throw We=null,e})),We)}function Ms(){return window.jspdf&&window.html2canvas?Promise.resolve():(Ge||(Ge=(async()=>{window.html2canvas||await Xt(),window.jspdf||await Jt(Es,15e3)})().catch(e=>{throw Ge=null,e})),Ge)}const ki=`
+    <svg width="152" height="30" viewBox="0 0 152 30" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+      <defs>
+        <linearGradient id="gradLogo" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#6366f1" />
+          <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+      </defs>
+      <rect width="30" height="30" rx="8" fill="url(#gradLogo)"/>
+      <text x="15" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" text-anchor="middle">A</text>
+      <text x="38" y="21" fill="currentColor" style="color:var(--ink, #0f172a);" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.4">axomexam<tspan fill="#3b82f6">.in</tspan></text>
+    </svg>
+  `,Zt=`
+    <svg width="146" height="28" viewBox="0 0 146 28" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+      <defs>
+        <linearGradient id="gradLogoPdf" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#6366f1" />
+          <stop offset="100%" stop-color="#3b82f6" />
+        </linearGradient>
+      </defs>
+      <rect width="28" height="28" rx="7" fill="url(#gradLogoPdf)"/>
+      <text x="14" y="19.5" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" text-anchor="middle">A</text>
+      <text x="36" y="19.5" fill="#0f172a" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="15" letter-spacing="-0.3">axomexam<tspan fill="#2563eb">.in</tspan></text>
+    </svg>
+  `;function r(e){if(typeof I18N<"u"){const t=I18N[u.uiLang]||I18N.en||I18N.as;if(t&&t[e])return t[e];if(I18N.en&&I18N.en[e])return I18N.en[e]}return e}function L(e){if(typeof I18N<"u"){const t=u.lang||"en",a=I18N[t];if(a&&a[e])return a[e];if(I18N.en&&I18N.en[e])return I18N.en[e]}return e}function I(e,t){return typeof I18N<"u"&&I18N[t]&&I18N[t][e]?I18N[t][e]:r(e)}function ee(e,t){return String(r(e)).replace(/\{(\w+)\}/g,(a,s)=>Object.prototype.hasOwnProperty.call(t,s)?String(t[s]):a)}function Qe(e,t){return String(L(e)).replace(/\{(\w+)\}/g,(a,s)=>Object.prototype.hasOwnProperty.call(t,s)?String(t[s]):a)}function bt(e,t,a){return String(I(e,t)).replace(/\{(\w+)\}/g,(s,n)=>Object.prototype.hasOwnProperty.call(a,n)?String(a[n]):s)}function x(e){if(e==null)return"";if(typeof e=="string")return e;const t=u.lang||"en";return e[t]||e.en||e.as||""}function K(e){if(e==null)return"";if(typeof e=="string")return e;const t=u.uiLang||"en";return e[t]||e.en||e.as||""}function ea(e){const t=k(e,"en"),a=k(e,"as"),s=a&&a!==t?`<span class="cat-as">${l(a)}</span>`:"";return`<b>${l(t)}</b>${s}`}function vt(e,t){const a=k(e,"en"),s=k(e,"as"),n=s&&s!==a?`<span class="sub-as">${l(s)}</span>`:"";return`<span style="font-weight:600; font-size:${t}; color:var(--ink,#0f172a);">${l(a)}</span>${n}`}const qs={gk:"General Knowledge carries a large weight in almost every Assam recruitment examination. It combines Assam-specific history, literature, geography, art and culture with Indian polity, history, geography and economics. Because the section is factual and predictable, consistent revision usually converts into a high, reliable score in ADRE, Assam Police and APSC papers.","assam-history":"Assam History covers the ancient Kamarupa kingdom and its rulers, the medieval Ahom and Koch dynasties, the Burmese invasions and the Treaty of Yandabo, and the colonial and freedom-struggle period. Questions generally test dynasties, capitals, battles, treaties and administrative reforms.","assam-literature":"Assam Literature spans the pre-Vaishnavite period, Sankaradeva and the Vaishnavite age, the Ahom-era chronicles, and the modern era from Arunodoi to Jonaki. Aspirants are asked about authors, works, literary movements and major awards.","indian-history":"Indian History covers ancient civilisations, the Mauryas and Guptas, medieval Sultanates and the Mughals, and the modern freedom movement. Questions focus on timelines, personalities, administrative systems and landmark events.",polity:"Political Science covers the Indian Constitution, fundamental rights and duties, the Union and State machinery, panchayati raj, and Assam-specific provisions such as the Sixth Schedule and Article 371B. It is a high-scoring, factual section.",geography:"Geography covers physical, economic and social geography with dedicated blocks on the rivers, hills, climate and resources of Assam, alongside Indian and world geography. Map-based and location questions are common.",economics:"Economics covers basic economic concepts, Indian economic policy and planning, budgeting and banking, along with the agriculture and industry of Assam. Questions are mostly conceptual and current-affairs linked.","art-culture":"Art and Culture covers the festivals, dance, music, crafts, temples and heritage of Assam and India. Questions test classical dances, musical instruments, festivals, monuments and folk traditions.",math:"Mathematics tests numerical ability and quantitative aptitude and is one of the biggest scoring areas in ADRE, Assam Police, SSC and Railway tests. It brings together arithmetic, advanced math and statistics with data interpretation.",arithmetic:"Arithmetic covers percentages, profit and loss, ratio and proportion, averages, time-speed-distance, time and work, simple and compound interest, and mensuration. These topics carry the largest number of questions in state recruitment papers.","advanced-math":"Advanced Math covers algebra, geometry, trigonometry, number systems and higher-level problem solving. It is especially useful for APSC, SSC and technical posts.","statistics-and-data-interpretation":"Statistics and Data Interpretation covers averages, measures of central tendency, tables, bar and pie charts, and line graphs. The focus is on fast calculation and reading data accurately.",science:"General Science covers Physics, Chemistry and Biology at a Class 6 to 10 level, which is the standard followed by Assam government recruitment tests. Questions test everyday science, definitions, units and simple applications.",physics:"Physics covers motion, force, work and energy, gravitation, heat, light, sound, electricity and magnetism, and the basics of modern physics. Units, definitions and simple numericals are frequently asked.",chemistry:"Chemistry covers matter, atoms and molecules, the periodic table, acids and bases, metals and non-metals, and everyday chemistry. Chemical formulae and common reactions are important.",biology:"Biology covers the human body and its systems, nutrition and health, plants, cell biology, ecology and the environment. Health and disease questions are common in Assam Police and ADRE tests.",reasoning:"Reasoning Ability tests logical and analytical thinking through verbal, non-verbal and critical reasoning questions. Because speed and accuracy decide the score, timed practice is essential.","verbal-reasoning":"Verbal Reasoning covers series, coding-decoding, blood relations, direction sense, analogy and classification. Most questions become quick to solve with regular practice.","analytical-critical-reasoning":"Analytical and Critical Reasoning covers statements and conclusions, assumptions, syllogism, seating arrangement and puzzles. It rewards careful reading over guesswork.","non-verbal-reasoning":"Non-Verbal Reasoning covers figure series, mirror and water images, paper folding, embedded figures and pattern completion. Spatial visualisation is the main skill tested.",english:"General English tests grammar, vocabulary, sentence structure and comprehension. It appears in ADRE, Assam Police, SSC and Railway exams and is relatively easy to score with steady revision.","parts-of-speech":"Parts of Speech covers nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections, and how each of them functions inside a sentence.",grammar:"Grammar covers tenses, articles, subject-verb agreement, active and passive voice, direct and indirect speech, and common error spotting.","sentence-structure":"Sentence Structure covers sentence types, phrases and clauses, sentence correction, and paragraph organisation and ordering.",vocabulary:"Vocabulary covers synonyms, antonyms, one-word substitutions, idioms and phrases, and spelling. Regular reading and short word lists help the most.",computer:"Computer Awareness tests the fundamentals of computers, software and operating systems, MS Office, networking and the internet, cyber security, DBMS and number systems. It is a quick-scoring section in ADRE and other state tests.","fundamentals-hardware":"Computer Fundamentals and Hardware covers input and output devices, memory, storage, the CPU and the generations of computers.","software-os":"Software and Operating Systems covers types of software, the functions of an operating system, file management, and common Windows and Linux features.","ms-office-suite":"MS Office Suite covers Microsoft Word, Excel and PowerPoint, including commonly used menu options, shortcuts and formulas.","networking-internet":"Networking and Internet covers network types and topologies, IP addresses, protocols such as HTTP and FTP, browsers, email and internet services.","cyber-security":"Cyber Security covers online threats such as viruses, malware, phishing and hacking, along with passwords, encryption and safe internet practices.","dbms-number-shortcuts":"DBMS, Number System and Shortcuts covers database basics, number system conversions, and keyboard shortcuts with their common uses.",articles:"Articles are long-form, easy-reading study pieces that explain a topic in depth and in simple bilingual language, so you can build conceptual clarity before attempting questions.","assam-police":"Assam Police previous year papers help you understand the actual question pattern, difficulty level and frequently repeated topics for Sub-Inspector and Constable recruitment conducted by SLPRB.","dhs-dme":"DHS and DME previous year papers cover the question patterns for Directorate of Health Services and Directorate of Medical Education recruitment in Assam.","guwahati-hc":"Guwahati High Court previous year papers cover the pattern for Grade III, Grade IV, Junior Assistant (JAA) and related recruitment under the High Court of Assam.",railway:"Railway previous year papers cover NTPB, Group D, ALP and related central railway recruitment patterns, including the computer-based test structure.",ssc:"SSC previous year papers cover CGL, CHSL, MTS and related central government recruitment patterns, useful for candidates preparing for both central and state posts."},ta={gk:"প্ৰায় প্ৰতিটো অসম নিয়োগ পৰীক্ষাত সাধাৰণ জ্ঞানৰ ভাৰ যথেষ্ট বেছি। ইয়াত অসম-নিৰ্দিষ্ট ইতিহাস, সাহিত্য, ভূগোল, কলা-সংস্কৃতিৰ লগতে ভাৰতীয় ৰাজনীতি, ইতিহাস, ভূগোল আৰু অৰ্থনীতি সন্নিৱিষ্ট। শিতানটো তথ্যভিত্তিক আৰু পূৰ্বানুমেয় হোৱাৰ বাবে নিয়মীয়া পুনৰালোচনাই ADRE, অসম আৰক্ষী আৰু APSC ৰ প্ৰশ্নকাকতত উচ্চ আৰু নিৰ্ভৰযোগ্য নম্বৰলৈ ৰূপান্তৰিত হয়।","assam-history":"অসমৰ ইতিহাসত প্ৰাচীন কামৰূপ ৰাজ্য আৰু তাৰ শাসকসকল, মধ্যযুগীয় আহোম আৰু কোচ ৰাজবংশ, বৰ্মী আক্ৰমণ আৰু য়াণ্ডাবু সন্ধি, লগতে উপনিবেশিক আৰু স্বাধীনতা-সংগ্ৰামৰ কাল সামৰি লোৱা হৈছে। প্ৰশ্নত সাধাৰণতে ৰাজবংশ, ৰাজধানী, যুদ্ধ, সন্ধি আৰু প্ৰশাসনিক সংস্কাৰৰ ওপৰত গুৰুত্ব দিয়া হয়।","assam-literature":"অসমীয়া সাহিত্যই প্ৰাক-বৈষ্ণৱ যুগ, শংকৰদেৱ আৰু বৈষ্ণৱ যুগ, আহোম-যুগৰ বুৰঞ্জী, আৰু অৰুণোদয়ৰ পৰা জোনাকীলৈকে আধুনিক যুগ সামৰি লৈছে। প্ৰাৰ্থীসকলক লেখক, ৰচনা, সাহিত্যিক আন্দোলন আৰু প্ৰধান বঁটাৰ বিষয়ে সোধা হয়।","indian-history":"ভাৰতৰ ইতিহাসত প্ৰাচীন সভ্যতা, মৌৰ্য আৰু গুপ্ত, মধ্যযুগীয় চুলতানী আৰু মোগল, আৰু আধুনিক স্বাধীনতা আন্দোলন সামৰি লোৱা হৈছে। প্ৰশ্নত সময়ৰেখা, ব্যক্তিত্ব, প্ৰশাসনিক ব্যৱস্থা আৰু যুগান্তকাৰী ঘটনাৰ ওপৰত গুৰুত্ব দিয়া হয়।",polity:"ৰাজনীতি বিজ্ঞানত ভাৰতীয় সংবিধান, মৌলিক অধিকাৰ আৰু কৰ্তব্য, সংঘ আৰু ৰাজ্যৰ শাসন-ব্যৱস্থা, পঞ্চায়তী ৰাজ, আৰু ষষ্ঠ অনুসূচী তথা অনুচ্ছেদ 371B ৰ দৰে অসম-নিৰ্দিষ্ট বিধান সামৰি লোৱা হৈছে। ই এক উচ্চ নম্বৰ দিয়া, তথ্যভিত্তিক শিতান।",geography:"ভূগোলত ভৌতিক, অৰ্থনৈতিক আৰু সামাজিক ভূগোল সামৰি লোৱা হৈছে, লগতে অসমৰ নদ-নদী, পাহাৰ, জলবায়ু আৰু সম্পদৰ ওপৰত সুকীয়া অংশ, আৰু ভাৰতীয় তথা বিশ্ব ভূগোল। মানচিত্ৰভিত্তিক আৰু স্থান-সংক্ৰান্ত প্ৰশ্ন সঘনাই আহে।",economics:"অৰ্থনীতিত মূল অৰ্থনৈতিক ধাৰণা, ভাৰতীয় অৰ্থনৈতিক নীতি আৰু পৰিকল্পনা, বাজেট আৰু বেংকিং, লগতে অসমৰ কৃষি আৰু উদ্যোগ সামৰি লোৱা হৈছে। প্ৰশ্নবোৰ বেছিভাগ ধাৰণাগত আৰু চলিত ঘটনাৱলীৰ সৈতে সংযুক্ত।","art-culture":"কলা আৰু সংস্কৃতিত অসম আৰু ভাৰতৰ উৎসৱ, নৃত্য, সংগীত, হস্তশিল্প, মন্দিৰ আৰু ঐতিহ্য সামৰি লোৱা হৈছে। প্ৰশ্নত শাস্ত্ৰীয় নৃত্য, সংগীত-যন্ত্ৰ, উৎসৱ, স্মৃতিস্তম্ভ আৰু লোক-পৰম্পৰা পৰীক্ষা কৰা হয়।",math:"গণিতে সংখ্যাগত দক্ষতা আৰু পৰিমাণগত অভিৰুচি পৰীক্ষা কৰে আৰু ADRE, অসম আৰক্ষী, SSC আৰু ৰে'লৱে পৰীক্ষাৰ আটাইতকৈ বেছি নম্বৰ দিয়া ক্ষেত্ৰসমূহৰ এটা। ইয়াত পাটিগণিত, উচ্চ গণিত আৰু তথ্য বিশ্লেষণসহ পৰিসংখ্যা একত্ৰিত কৰা হৈছে।",arithmetic:"পাটিগণিতত শতকৰা, লাভ-লোকচান, অনুপাত আৰু সমানুপাত, গড়, সময়-দূৰত্ব, সময় আৰু কাম, সৰল আৰু যৌগিক সুত, আৰু ক্ষেত্ৰমিতি সামৰি লোৱা হৈছে। ৰাজ্যিক নিয়োগৰ প্ৰশ্নকাকতত এই বিষয়বোৰৰ পৰাই আটাইতকৈ বেছি প্ৰশ্ন আহে।","advanced-math":"উচ্চ গণিতত বীজগণিত, জ্যামিতি, ত্ৰিকোণমিতি, সংখ্যা প্ৰণালী আৰু উচ্চস্তৰৰ সমস্যা সমাধান সামৰি লোৱা হৈছে। ই বিশেষকৈ APSC, SSC আৰু কাৰিকৰী পদৰ বাবে উপযোগী।","statistics-and-data-interpretation":"পৰিসংখ্যা আৰু তথ্য বিশ্লেষণত গড়, কেন্দ্ৰীয় প্ৰৱণতাৰ মাপ, তালিকা, দণ্ড আৰু পাই চিত্ৰ, আৰু ৰৈখিক লেখ সামৰি লোৱা হৈছে। ইয়াৰ মূল লক্ষ্য দ্ৰুত গণনা আৰু তথ্য শুদ্ধভাৱে পঢ়া।",science:"সাধাৰণ বিজ্ঞানত ষষ্ঠৰ পৰা দশম শ্ৰেণীৰ স্তৰত পদাৰ্থ বিজ্ঞান, ৰসায়ন বিজ্ঞান আৰু জীৱ বিজ্ঞান সামৰি লোৱা হৈছে, যি অসম চৰকাৰৰ নিয়োগ পৰীক্ষাত অনুসৰণ কৰা মান। প্ৰশ্নত দৈনন্দিন বিজ্ঞান, সংজ্ঞা, একক আৰু সৰল প্ৰয়োগ পৰীক্ষা কৰা হয়।",physics:"পদাৰ্থ বিজ্ঞানত গতি, বল, কাম আৰু শক্তি, মহাকৰ্ষণ, তাপ, পোহৰ, ধ্বনি, বিদ্যুৎ আৰু চুম্বকত্ব, আৰু আধুনিক পদাৰ্থ বিজ্ঞানৰ মূল কথা সামৰি লোৱা হৈছে। একক, সংজ্ঞা আৰু সৰল সংখ্যাগত প্ৰশ্ন সঘনাই সোধা হয়।",chemistry:"ৰসায়ন বিজ্ঞানত পদাৰ্থ, পৰমাণু আৰু অণু, পৰ্যায়বৃত্ত তালিকা, অম্ল আৰু ক্ষাৰক, ধাতু আৰু অধাতু, আৰু দৈনন্দিন ৰসায়ন সামৰি লোৱা হৈছে। ৰাসায়নিক সংকেত আৰু সাধাৰণ বিক্ৰিয়া গুৰুত্বপূৰ্ণ।",biology:"জীৱ বিজ্ঞানত মানৱ শৰীৰ আৰু তাৰ তন্ত্ৰ, পুষ্টি আৰু স্বাস্থ্য, উদ্ভিদ, কোষ বিজ্ঞান, পৰিৱেশ বিজ্ঞান আৰু পৰিৱেশ সামৰি লোৱা হৈছে। অসম আৰক্ষী আৰু ADRE পৰীক্ষাত স্বাস্থ্য আৰু ৰোগ-সংক্ৰান্ত প্ৰশ্ন সঘনাই আহে।",reasoning:"যুক্তি আৰু মানসিক ক্ষমতাই ভাষিক, চিত্ৰভিত্তিক আৰু বিশ্লেষণাত্মক যুক্তিতৰ্কৰ জৰিয়তে যুক্তি আৰু বিশ্লেষণাত্মক চিন্তা পৰীক্ষা কৰে। গতি আৰু শুদ্ধতাই নম্বৰ নিৰ্ধাৰণ কৰে বাবে সময়বদ্ধ অনুশীলন অতি প্ৰয়োজনীয়।","verbal-reasoning":"ভাষিক যুক্তিতৰ্কত শ্ৰেণী, সংকেত-আবোৰণ, ৰক্তসম্পৰ্ক, দিশ-জ্ঞান, সাদৃশ্য আৰু শ্ৰেণীবিভাজন সামৰি লোৱা হৈছে। নিয়মীয়া অনুশীলনৰ লগে লগে বেছিভাগ প্ৰশ্ন দ্ৰুতভাৱে সমাধান কৰিব পৰা যায়।","analytical-critical-reasoning":"বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্কত উক্তি আৰু সিদ্ধান্ত, অনুমান, ন্যায়-নিৰ্ণয়, আসন-বিন্যাস আৰু ধাঁধা সামৰি লোৱা হৈছে। ই অনুমানতকৈ সাৱধানে পঢ়াৰ ওপৰত গুৰুত্ব দিয়ে।","non-verbal-reasoning":"চিত্ৰভিত্তিক যুক্তিতৰ্কত চিত্ৰ শ্ৰেণী, দাপোণ আৰু জল প্ৰতিবিম্ব, কাগজ ভাঁজ, অন্তৰ্নিহিত চিত্ৰ আৰু আৰ্হি সম্পূৰ্ণ কৰা সামৰি লোৱা হৈছে। ইয়াত মূলত স্থানিক কল্পনাশক্তি পৰীক্ষা কৰা হয়।",english:"সাধাৰণ ইংৰাজীয়ে ব্যাকৰণ, শব্দভাণ্ডাৰ, বাক্য গঠন আৰু বুজি-পঢ়াৰ ক্ষমতা পৰীক্ষা কৰে। ই ADRE, অসম আৰক্ষী, SSC আৰু ৰে'লৱে পৰীক্ষাত আহে আৰু নিয়মীয়া পুনৰালোচনাৰে তুলনামূলকভাৱে সহজে নম্বৰ পোৱা যায়।","parts-of-speech":"পদ প্ৰকাৰণত বিশেষ্য, সৰ্বনাম, ক্ৰিয়া, বিশেষণ, ক্ৰিয়া-বিশেষণ, সম্বন্ধবাচক, সংযোজক আৰু আবেগসূচক সামৰি লোৱা হৈছে, আৰু বাক্যত প্ৰতিটোৰ কাৰ্য বৰ্ণনা কৰা হৈছে।",grammar:"ব্যাকৰণত কাল, নিৰ্দেশক, কৰ্তা-ক্ৰিয়াৰ মিল, কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য, প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি, আৰু সাধাৰণ ভুল চিনাক্তকৰণ সামৰি লোৱা হৈছে।","sentence-structure":"বাক্য গঠনত বাক্যৰ প্ৰকাৰ, বাক্যাংশ আৰু উপবাক্য, বাক্য সংশোধন, আৰু অনুচ্ছেদ সংগঠন আৰু ক্ৰমবিন্যাস সামৰি লোৱা হৈছে।",vocabulary:"শব্দভাণ্ডাৰত সমাৰ্থক শব্দ, বিপৰীত শব্দ, এক-শব্দ প্ৰতিস্থাপন, বাগধাৰা আৰু বাক্যাংশ, আৰু বানান সামৰি লোৱা হৈছে। নিয়মীয়া পঢ়া আৰু চুটি শব্দ-তালিকাই আটাইতকৈ বেছি সহায় কৰে।",computer:"কম্পিউটাৰ সজাগতাই কম্পিউটাৰৰ মূল কথা, ছফ্টৱেৰ আৰু অপাৰেটিং চিষ্টেম, MS Office, নেটৱৰ্কিং আৰু ইণ্টাৰনেট, চাইবাৰ সুৰক্ষা, DBMS আৰু সংখ্যা প্ৰণালী পৰীক্ষা কৰে। ADRE আৰু অন্যান্য ৰাজ্যিক পৰীক্ষাত ই দ্ৰুত নম্বৰ দিয়া শিতান।","fundamentals-hardware":"কম্পিউটাৰৰ মূল কথা আৰু হাৰ্ডৱেৰত ইনপুট আৰু আউটপুট যন্ত্ৰ, স্মৃতি, সংৰক্ষণ, CPU আৰু কম্পিউটাৰৰ প্ৰজন্ম সামৰি লোৱা হৈছে।","software-os":"ছফ্টৱেৰ আৰু অপাৰেটিং চিষ্টেমত ছফ্টৱেৰৰ প্ৰকাৰ, অপাৰেটিং চিষ্টেমৰ কাৰ্য, ফাইল পৰিচালনা, আৰু Windows আৰু Linux ৰ সাধাৰণ বৈশিষ্ট্য সামৰি লোৱা হৈছে।","ms-office-suite":"MS Office Suite ত Microsoft Word, Excel আৰু PowerPoint সামৰি লোৱা হৈছে, লগতে সঘনাই ব্যৱহৃত মেনু বিকল্প, চৰ্টকাট আৰু সূত্ৰ।","networking-internet":"নেটৱৰ্কিং আৰু ইণ্টাৰনেটত নেটৱৰ্কৰ প্ৰকাৰ আৰু ট'পলজি, IP ঠিকনা, HTTP আৰু FTP ৰ দৰে প্ৰট'কল, ব্ৰাউজাৰ, ইমেইল আৰু ইণ্টাৰনেট সেৱা সামৰি লোৱা হৈছে।","cyber-security":"চাইবাৰ সুৰক্ষাত ভাইৰাছ, মেলৱেৰ, ফিশ্বিং আৰু হেকিঙৰ দৰে অনলাইন ভাবুকি, লগতে সুৰক্ষিত ইণ্টাৰনেট অভ্যাস সামৰি লোৱা হৈছে।","dbms-number-shortcuts":"DBMS, সংখ্যা প্ৰণালী আৰু চৰ্টকাটত ডাটাবেছৰ মূল কথা, সংখ্যা প্ৰণালীৰ ৰূপান্তৰ, আৰু কীব'ৰ্ড চৰ্টকাট সামৰি লোৱা হৈছে।",articles:"প্ৰবন্ধবোৰ হৈছে দীঘলীয়া, সহজ-পঢ়া অধ্যয়ন ৰচনা যিয়ে এটা বিষয় গভীৰভাৱে আৰু সৰল ভাষাত ব্যাখ্যা কৰে। সংগ্ৰহটোৱে সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ সজাগতা সামৰি লৈছে।","assam-police":"অসম আৰক্ষীৰ বিগত বছৰৰ প্ৰশ্নকাকতে প্ৰকৃত প্ৰশ্নৰ আৰ্হি, কঠিনতা আৰু বাৰে বাৰে অহা বিষয়সমূহ বুজিবলৈ সহায় কৰে। এই পৃষ্ঠাৰ পৰা আপুনি প্ৰশ্নকাকত ডাউনলোড কৰি পৰীক্ষাৰ আগতে অনুশীলন কৰিব পাৰে।","dhs-dme":"DHS আৰু DME ৰ বিগত বছৰৰ প্ৰশ্নকাকতে স্বাস্থ্য সেৱা সঞ্চালকালয় (DHS) আৰু চিকিৎসা শিক্ষা সঞ্চালকালয় (DME) ৰ পৰীক্ষাৰ প্ৰশ্নৰ আৰ্হি সামৰি লৈছে। এই প্ৰশ্নকাকতসমূহে প্ৰকৃত পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে সহায় কৰে।","guwahati-hc":"গুৱাহাটী উচ্চ ন্যায়ালয়ৰ বিগত বছৰৰ প্ৰশ্নকাকতে গ্ৰেড III, গ্ৰেড IV, জুনিয়ৰ সহায়ক আৰু অন্যান্য পদৰ প্ৰশ্নৰ আৰ্হি সামৰি লৈছে। এই প্ৰশ্নকাকতসমূহে প্ৰকৃত পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে সহায় কৰে।",railway:"ৰে'লৱেৰ বিগত বছৰৰ প্ৰশ্নকাকতে NTPC, Group D, ALP আৰু সম্পৰ্কিত কেন্দ্ৰীয় ৰে'লৱে নিয়োগ পৰীক্ষাৰ প্ৰশ্নৰ আৰ্হি সামৰি লৈছে। এই প্ৰশ্নকাকতসমূহে প্ৰকৃত পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে সহায় কৰে।"},aa={arithmetic:{title:"Arithmetic Questions and Short Tricks for ADRE, APSC and Assam Police | axomexam",meta:"Free arithmetic practice for ADRE 2.0, Assam Police, APSC, SSC and Railway exams. Percentage, profit and loss, ratio, average, time and work, SI and CI with bilingual explanations.",lead:["Arithmetic is the backbone of the quantitative aptitude section in almost every Assam government recruitment examination. ADRE Grade 3 and Grade 4, Assam Police Constable and Sub-Inspector, APSC CCE, DHS, DME, Gauhati High Court, SSC and Railway papers all test the same core arithmetic chapters, and these questions often decide whether a candidate clears the cut-off.","On axomexam the subject is organised chapter by chapter so that you can build speed and accuracy step by step. Every topic links to a practice set with worked solutions in English and Assamese, so you learn the exact method the examiner expects instead of memorising individual answers."],sections:[{h:"Why arithmetic decides your mathematics score",p:["Numerical ability usually carries 15 to 25 questions in Assam recruitment papers and arithmetic forms the largest share of that block. The questions are formula-based and repetitive, which means a well-practised candidate can solve them quickly and score reliably. Because the same chapters repeat across state and central exams, one solid round of arithmetic preparation pays off in several tests at the same time."]},{h:"Arithmetic chapters covered on axomexam",list:["Number System and Simplification — divisibility rules, HCF, LCM, remainders, surds and fast calculation.","Percentage — increase and decrease, successive change and percentage-based word problems.","Ratio and Proportion — direct and inverse proportion and division of quantities.","Profit, Loss and Discount — cost price, selling price, marked price, successive discounts and dishonest-dealer problems.","Average — simple average, weighted average and average age and speed problems.","Time and Work — efficiency, work and wages and pipes and cisterns.","Time, Speed and Distance — relative speed, problems on trains, boats and streams.","Simple and Compound Interest — instalments, growth and depreciation.","Mensuration — area, perimeter, volume and surface area of standard shapes.","Problems on Ages, Partnership and Mixture and Alligation."]},{h:"Most repeated arithmetic chapters in ADRE and Assam Police",p:["Based on past papers, the following chapters appear again and again and deserve extra revision: percentage, profit and loss, ratio and proportion, average, time and work, time–speed–distance, simple and compound interest, and mensuration. If you are short on time, master these eight first."]},{h:"How to prepare arithmetic for Assam exams",list:["Learn the formula or short method for a chapter before attempting its questions.","Solve 15 to 20 questions per topic every day and time yourself with a stopwatch.","Keep a formula notebook and revise it for five minutes before each practice session.","Read the explanation for every wrong answer and note the exact reason for the mistake.","Re-attempt the same set after three days and check whether your accuracy has improved.","Take a full timed mock test every week to get used to exam-day pressure."]},{h:"Common mistakes to avoid",list:["Rushing through reading and misreading values such as 'less than' and 'more than'.","Skipping the units and mixing percentages with absolute numbers.","Solving every question the long way instead of using short tricks.","Ignoring mensuration because it looks difficult — it is one of the most predictable chapters."]}],faqs:[{q:"Which arithmetic topics are most important for ADRE 2.0?",a:"Percentage, profit and loss, ratio and proportion, average, time and work, time–speed–distance, simple and compound interest and mensuration carry the highest marks. Practise these before the less frequently asked chapters."},{q:"How can I improve my speed in arithmetic calculations?",a:"Use tables up to 20, squares up to 30, and percentage-to-fraction conversions. Practise with a timer and use approximation wherever the options allow it."},{q:"Is arithmetic in Assam Police exams difficult?",a:"No. Assam Police arithmetic stays close to the standard patterns. With regular practice and correct basics, most candidates can attempt the entire section comfortably."},{q:"Can I practise arithmetic in Assamese on axomexam?",a:"Yes. Questions and explanations are bilingual. You can switch between Assamese and English at any time, so the same concept is reinforced in both languages."},{q:"How much time should I give to arithmetic every day?",a:"One to one-and-a-half hours of focused practice is enough for most aspirants. Spend the first 20 minutes on formulas and the rest on timed questions and error review."},{q:"Is arithmetic practice on axomexam free?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge."}]},"non-verbal-reasoning":{title:"Non-Verbal Reasoning Questions with Answers for ADRE and APSC | axomexam",meta:"Practice non-verbal reasoning for ADRE, Assam Police, APSC, SSC and Railway exams. Figure series, mirror and water images, paper folding, embedded figures, figure matrix, cube and dice.",lead:["Non-verbal reasoning tests how quickly you can read visual information such as figures, patterns, shapes and spatial arrangements. It does not depend on language or vocabulary, so the marks are decided purely by your powers of observation and practice.","This section appears in ADRE, Assam Police, APSC CCE, SSC, Railway and many other recruitment tests. On axomexam every chapter links to a practice set with clear visual explanations so you can train your eye to spot the rule behind each figure quickly."],sections:[{h:"What non-verbal reasoning actually tests",p:["Each question shows a sequence or a group of figures and asks you to find the next figure, the odd figure or the hidden figure. The underlying rule may involve rotation, reflection, addition or removal of parts, shading, or movement of elements. Once you identify the rule, the answer follows almost mechanically — which is why this section can become very high-scoring."]},{h:"Non-verbal reasoning chapters covered on axomexam",list:["Image Series — find the next figure by tracking rotation, growth and shading.","Image Analogy — apply the same relationship between a pair of figures.","Image Classification — pick the figure that does not fit the group.","Mirror Images — reflect a figure across a vertical mirror line.","Water Images — reflect a figure across a horizontal water line.","Paper Folding and Paper Cutting — visualise the punched pattern after unfolding.","Embedded Figures — locate a smaller figure hidden inside a larger one.","Completion of Incomplete Pattern — identify the missing piece of a design.","Figure Matrix — follow the row and column logic of a matrix of figures.","Counting of Figures — count triangles, squares or straight lines in a complex figure.","Cube and Dice — solve painted-cube, dice-rule and opposite-face problems.","Rule Detection and Shape Construction."]},{h:"Non-verbal reasoning preparation strategy",list:["Practise every chapter by drawing the figures yourself; the hand learns the pattern as fast as the eye.","For series questions, check rotation, number of elements, shading and symmetry one by one.","Memorise the dice rule and opposite-face tricks for cube and dice questions.","Solve at least 20 figures a day and note down the rule you missed for each wrong answer.","Use a mirror or folded paper for the first few mirror, water and paper-folding questions.","Attempt figure-based sets in timed blocks to build visual speed."]},{h:"Common mistakes to avoid",list:["Guessing the rule from the first two figures instead of checking it against all figures.","Confusing clockwise and anticlockwise rotation.","Losing track of the number of dots, lines or shaded parts.","Rushing through counting-figures questions, which need a systematic point-by-point count."]}],faqs:[{q:"Is non-verbal reasoning hard to prepare?",a:"No. It rewards consistent practice more than talent. Once you learn the standard rule types, most questions become quick and mechanical."},{q:"Which non-verbal topics are most important for ADRE and Assam Police?",a:"Image series, analogy, mirror and water images, paper folding and cutting, embedded figures and counting of figures are asked most frequently."},{q:"How do I solve cube and dice questions quickly?",a:"Learn the dice rule for adjacent and opposite faces and the counting rule for painted cubes. With these two methods most questions can be solved in a few seconds."},{q:"Can I practise non-verbal reasoning in Assamese?",a:"Yes. The practice sets and explanations are bilingual, so you can read them in Assamese or English and switch whenever you want."},{q:"How much daily practice does non-verbal reasoning need?",a:"Twenty to thirty figures a day is enough. Regular short sessions work better than occasional long ones for visual reasoning."},{q:"Is non-verbal reasoning practice free on axomexam?",a:"Yes. All practice sets, explanations and PDF notes on axomexam.in are completely free with no login or subscription."}]},"verbal-reasoning":{title:"Verbal Reasoning Questions and Practice for ADRE, APSC and Assam Police | axomexam",meta:"Free verbal reasoning practice for ADRE, Assam Police, APSC, SSC and Railway. Analogy, coding-decoding, blood relations, direction sense, series, syllogism and clock and calendar.",lead:["Verbal reasoning checks how well you can find patterns in words, numbers and letters, and how logically you can follow a set of statements. It is one of the most reliable scoring areas in the reasoning section because the patterns repeat year after year.","This page covers the full verbal reasoning syllabus for ADRE, Assam Police, APSC CCE, SSC and Railway exams. Each chapter links to a practice set with step-by-step bilingual explanations so that you understand the logic behind every answer."],sections:[{h:"Why verbal reasoning is high-scoring",p:["Most verbal reasoning questions follow a fixed set of rules — the same logic that has appeared in previous papers. Coding-decoding, blood relations, direction sense and series in particular can be mastered with a handful of techniques. Once the rules are clear, these questions take little time and rarely go wrong."]},{h:"Verbal reasoning chapters covered on axomexam",list:["Analogy — identify the relationship between a given pair of words or numbers.","Classification and Odd One Out — find the item that does not belong to the group.","Number Series, Alphabet Series and Alpha-Numeric Series.","Coding-Decoding — letter, number and symbol based coding rules.","Blood Relations — family trees, generations and coded relationships.","Direction and Distance Test — track movement and find the final direction.","Order and Ranking — arrange people by height, age, marks or position.","Alphabet Test and Word Formation.","Logical Venn Diagrams — decide the correct relationship between sets.","Syllogism — draw valid conclusions from given statements.","Clock and Calendar — angle, hands, odd days and day-of-the-week problems.","Mathematical Operations, Data Sufficiency and Input-Output."]},{h:"Verbal reasoning preparation strategy",list:["Learn the standard rule for each chapter, then solve fifty questions of that chapter.","For series, always check difference, ratio, square, cube and alternating patterns in order.","Draw blood-relation and direction questions on paper instead of solving them mentally.","Memorise the Venn diagram combinations and the odd-days table for calendar questions.","Maintain a log of every question where you guessed, and revise it before the exam.","Practise mixed sets so you learn to switch logic quickly under time pressure."]},{h:"Common mistakes to avoid",list:["Not reading the question carefully — one changed word can change the whole logic.","Assuming extra information that is not given, especially in syllogism.","Mixing up the direction of movement in direction-sense questions.","Spending too long on one puzzle instead of moving on and returning later."]}],faqs:[{q:"Which verbal reasoning topics are most important for ADRE?",a:"Coding-decoding, blood relations, direction sense, series, analogy and classification are the most frequently asked topics in ADRE and Assam Police papers."},{q:"Is verbal reasoning easier than non-verbal reasoning?",a:"Many candidates find verbal reasoning easier because the rules are clearly defined. Personal strength varies, so practise both and see where you score faster."},{q:"How do I solve coding-decoding questions quickly?",a:"Compare the given word with its code and note the shift in positions of letters and numbers. Once the shift is identified, apply it to the new word."},{q:"Can I prepare verbal reasoning in Assamese?",a:"Yes. Questions and explanations are available in both Assamese and English, and you can switch languages while reading."},{q:"How many reasoning questions should I solve daily?",a:"Fifty to sixty questions across two or three chapters is a healthy daily target, along with a review of every mistake."},{q:"Is verbal reasoning practice on axomexam free?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free, with no login or subscription."}]},"analytical-critical-reasoning":{title:"Analytical and Critical Reasoning Practice for ADRE and APSC | axomexam",meta:"Practice analytical and critical reasoning for ADRE, APSC, Assam Police, SSC and Railway. Seating arrangement, puzzles, statement and assumption, conclusion, assertion and reason.",lead:["Analytical and critical reasoning measures how well you can organise information and judge arguments. It covers seating arrangements, complex puzzles, coded inequalities, and the statement-based chapters such as assumption, conclusion, argument and course of action.","This is the part of reasoning where careful reading matters more than quick guessing. On axomexam each chapter includes solved examples and practice sets with detailed bilingual explanations so that you can see exactly how a conclusion is derived from the given statements."],sections:[{h:"What the analytical and critical section demands",p:["Puzzle and arrangement questions test your ability to place people or objects according to a set of conditions. The statement-based chapters test your judgement of what is implied, assumed, strengthened or weakened by a given passage. Both require patience, and both become much easier once you learn to represent information in a simple diagram or table."]},{h:"Analytical and critical reasoning chapters covered on axomexam",list:["Seating Arrangement — linear, circular and square arrangements with mixed clues.","Complex Puzzles — floor, box, scheduling, month and category based puzzles.","Inequality — direct and coded inequalities with all possible conclusions.","Statement and Assumptions — identify the implicit assumption behind a statement.","Statement and Conclusions — decide which conclusion logically follows.","Statement and Arguments — judge the strength of arguments for and against.","Statement and Course of Action — choose the most practical response.","Cause and Effect — separate the cause from the effect.","Assertion and Reason — evaluate the link between an assertion and its reason.","Decision Making, Drawing Inferences and Data Sufficiency."]},{h:"Analytical and critical reasoning preparation strategy",list:["For arrangements and puzzles, draw the layout and mark fixed positions first, then the uncertain ones.","Learn the standard conclusion rules for inequality and syllogism and apply them mechanically.","For assumption and conclusion questions, separate what is stated from what is only implied.","Practise puzzles of increasing difficulty instead of jumping straight to complex sets.","Review the full solution even when your answer was correct, to confirm the reasoning.","Attempt one full puzzle set under a timer every day to build stamina."]},{h:"Common mistakes to avoid",list:["Adding real-world knowledge that is not part of the given passage.","Assuming a conclusion is valid when it is only probably true.","Making a single wrong placement early in a puzzle and then continuing with it.","Spending a large amount of time on one puzzle and losing easy marks elsewhere."]}],faqs:[{q:"Are puzzles and seating arrangement important for ADRE?",a:"Yes. Analytical reasoning, including seating arrangement and puzzles, carries good weight and also appears in the Assam Police and APSC papers."},{q:"How do I improve in statement and conclusion questions?",a:"Decide clearly what the statement guarantees. A conclusion that needs extra information beyond the statement is not valid."},{q:"What is the difference between assumption and conclusion?",a:"An assumption is an unstated idea the speaker takes for granted, while a conclusion is the logical result that follows from the given information."},{q:"How much time should I spend on one puzzle?",a:"If a puzzle is not opening up within about a minute and a half, mark the possibilities and move on. Return to it after finishing the easier questions."},{q:"Can I practise analytical reasoning in Assamese?",a:"Yes. All practice sets and explanations are bilingual, so you can study in Assamese or English as you prefer."},{q:"Is analytical reasoning practice free on axomexam?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free with no login or subscription."}]},science:{title:"General Science Questions for ADRE, Assam Police and SSC | axomexam",meta:"Free general science practice for ADRE, Assam Police, APSC, SSC and Railway. Physics, Chemistry and Biology questions at Class 6 to 10 level with bilingual explanations.",lead:["General Science is one of the most predictable sections in Assam government recruitment exams. The questions come from Physics, Chemistry and Biology at roughly the Class 6 to 10 level, so a candidate who has revised the school textbooks carefully can score very well.","On axomexam the subject is divided into Physics, Chemistry and Biology, each with chapter-wise practice sets and explanations. The focus is on everyday science, definitions, units, simple applications and the health and environment facts that examiners repeat most often."],sections:[{h:"Which science questions are asked",p:["Questions usually test basic definitions, units of measurement, common chemical formulae, parts and functions of the human body, plant and animal classification, and everyday applications of physics and chemistry. Direct memory questions and simple numericals from physics make up a large part of the paper."]},{h:"Science chapters covered on axomexam",list:["Physics — motion, force, work and energy, gravitation, heat, light, sound, electricity and magnetism, and basic modern physics.","Chemistry — matter, atoms and molecules, the periodic table, acids and bases, metals and non-metals, and everyday chemistry.","Biology — the human body and its systems, nutrition and health, plants, cell biology, genetics, ecology and the environment."]},{h:"Most repeated science topics in Assam exams",list:["Units and measurements of physical quantities.","Human body systems, especially the digestive, circulatory and nervous systems.","Vitamins, their sources and deficiency diseases.","Common chemical formulae and everyday chemical reactions.","Scientific names, plant and animal classification.","Environment, pollution and ecological terms."]},{h:"General science preparation strategy",list:["Revise one chapter from the NCERT or standard textbook, then attempt its practice set immediately.","Make short notes of definitions, units and formulae — these are asked directly.","Memorise common abbreviations, vitamins and deficiency diseases in table form.","Practise physics numericals separately, since they need formula application.","Revise the diagrams of important systems and experiments.","Attempt a mixed science set every week to check retention."]},{h:"Common mistakes to avoid",list:["Skipping Biology as 'easy' and losing direct-mark questions.","Confusing units and symbols of similar physical quantities.","Studying from too many sources instead of mastering one standard textbook.","Ignoring everyday-science questions that are based on daily-life observations."]}],faqs:[{q:"What is the standard of science questions in ADRE and Assam Police?",a:"Most questions are at the Class 6 to 10 level. A careful revision of school textbooks covers the vast majority of the syllabus."},{q:"Which science subject is most important for Assam exams?",a:"All three carry weight, but Biology and everyday science appear most frequently, followed by Physics and Chemistry."},{q:"Do I need to memorise formulas for general science?",a:"Only a limited set — mainly units, simple physics formulae and common chemical equations. Most questions are direct and factual."},{q:"Can I study general science in Assamese?",a:"Yes. The practice sets and explanations on axomexam are bilingual and can be read in Assamese or English."},{q:"How should I revise science before the exam?",a:"Use short notes and tables for facts, units and formulae, and solve past-paper questions to see which facts repeat."},{q:"Is general science practice free on axomexam?",a:"Yes. All practice sets, explanations and PDF notes on axomexam.in are completely free with no login or subscription."}]},english:{title:"General English Grammar and Vocabulary for ADRE, Assam Police | axomexam",meta:"Practice general English for ADRE, Assam Police, APSC, SSC and Railway. Grammar, parts of speech, sentence structure, vocabulary, synonyms, antonyms, idioms and error spotting.",lead:["General English is a steady, low-risk scoring section in ADRE, Assam Police, APSC, SSC and Railway exams. It tests grammar, vocabulary and comprehension, and the syllabus is limited — which means regular revision quickly translates into marks.","On axomexam the subject is organised into grammar, parts of speech, sentence structure and vocabulary, with practice questions and clear explanations. The goal is to help you recognise the same rule in an exam question, even when it is worded differently."],sections:[{h:"What general English tests",p:["The section checks whether you can identify correct grammar in use, choose the right word for a blank, spot an error in a sentence, and understand the meaning of words and phrases. Direct questions on synonyms, antonyms, one-word substitution and idioms are common."]},{h:"English chapters covered on axomexam",list:["Grammar — tenses, articles, subject-verb agreement, active and passive voice, and direct and indirect speech.","Parts of Speech — nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions and interjections.","Sentence Structure — sentence types, phrases and clauses, sentence correction and paragraph ordering.","Vocabulary — synonyms, antonyms, one-word substitutions, idioms and phrases, and spelling."]},{h:"Most repeated English topics",list:["Subject-verb agreement and common error spotting.","Tenses and their correct usage.","Prepositions and articles.","Synonyms, antonyms and one-word substitutions.","Idioms and phrases with their meanings.","Fill in the blanks and cloze tests."]},{h:"General English preparation strategy",list:["Revise one grammar rule at a time and then solve twenty questions on it.","Read one short passage daily and note unfamiliar words with their meanings.","Learn five new words, five synonyms and three idioms every day.","Practise error-spotting by reading a sentence as a whole before choosing an option.","Revise the rules of articles, prepositions and subject-verb agreement most often.","Attempt a full English set weekly to track your accuracy."]},{h:"Common mistakes to avoid",list:["Choosing an option because it 'sounds correct' instead of applying the rule.","Ignoring articles and prepositions, which are asked every year.","Learning words without usage or example sentences.","Reading the entire comprehension passage before looking at the questions."]}],faqs:[{q:"Is general English easy to score in ADRE?",a:"Yes. The syllabus is limited and rule-based, so with steady revision most candidates can score well above average in this section."},{q:"Which grammar topics are most important?",a:"Tenses, subject-verb agreement, articles, prepositions, active and passive voice and direct and indirect speech are asked most often."},{q:"How can I improve my vocabulary quickly?",a:"Learn words in small daily sets with their usage, and revise synonyms, antonyms, one-word substitutions and idioms regularly."},{q:"Can I study English in Assamese on axomexam?",a:"The explanations are bilingual so that the rule is clear in both languages, and the questions follow the English exam pattern."},{q:"Is comprehension asked in these exams?",a:"Yes, many papers include a short reading-comprehension passage along with the direct grammar and vocabulary questions."},{q:"Is general English practice free on axomexam?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free with no login or subscription."}]},articles:{title:"Study Articles and Notes for Assam Competitive Exams | axomexam",meta:"Read free high-quality study articles for ADRE, APSC, Assam Police, SSC and Railway exams. Long-form notes on general knowledge, mathematics, science, reasoning, English and computers.",lead:["Axomexam articles are long-form study pieces that explain a topic in depth and in simple language. They are written to build conceptual clarity before you attempt questions, which makes them ideal for beginning a new topic or revising one that keeps going wrong.","The collection spans general knowledge, mathematics, general science, reasoning ability, general English and computer awareness, so there is a suitable article whether you are strengthening a weak area or looking for a quick revision of a familiar one."],sections:[{h:"How to use the articles section",p:["Read the article once to understand the concept, then attempt the related practice set. Articles are deliberately kept simple and example-driven so that the idea stays with you when you face a similar question in the exam."]},{h:"Article categories available",list:["General Knowledge — Assam history, literature, geography, polity, economy and art and culture.","Mathematics — arithmetic, advanced math and data interpretation concepts explained step by step.","General Science — physics, chemistry and biology topics in everyday language.","Reasoning Ability — verbal, non-verbal and analytical reasoning techniques.","General English — grammar rules, vocabulary building and common error patterns.","Computer Awareness — fundamentals, software, MS Office, networking and cyber security."]},{h:"How articles help your exam preparation",list:["They explain the 'why' behind a rule, which helps you apply it to new questions.","They are ideal revision material in the final weeks before the exam.","They connect theory with solved examples from previous papers.","They build the reading habit needed for comprehension and general awareness."]},{h:"Tips to get the most from study articles",list:["Read with a pen and note down key points and formulas.","Attempt the linked practice set immediately after reading.","Revisit the article after a week to test your retention.","Use the bilingual view to strengthen terminology in both English and Assamese."]}],faqs:[{q:"What kind of articles are published on axomexam?",a:"Long-form, easy-reading study pieces on general knowledge, mathematics, science, reasoning, English and computer awareness, written for Assam competitive exams."},{q:"Are the articles useful for ADRE and APSC?",a:"Yes. The articles cover the concepts and facts that appear in ADRE, APSC CCE, Assam Police, SSC and Railway papers."},{q:"Should I read articles before or after practice questions?",a:"Read the article first to understand the concept, then attempt the linked practice set and review your mistakes."},{q:"Are the articles available in Assamese?",a:"The content is designed to support both Assamese and English readers, and the key terms are explained in both languages."},{q:"How often are new articles added?",a:"New articles are added regularly, so check the page again as you progress through your syllabus."},{q:"Is the articles section free to use?",a:"Yes. Every article and study resource on axomexam.in is completely free with no login or subscription."}]},math:{title:"Mathematics for ADRE, APSC and Assam Police Exams | axomexam",meta:"Free mathematics practice for ADRE, Assam Police, APSC, SSC and Railway. Arithmetic, advanced math, statistics and data interpretation with bilingual step-by-step solutions.",lead:["Mathematics, or quantitative aptitude, is one of the highest-scoring areas in ADRE, Assam Police, APSC, SSC and Railway exams. The subject rewards practice: the more patterns you have seen, the faster and more accurately you solve on exam day.","On axomexam mathematics is divided into arithmetic, advanced math, and statistics and data interpretation. Each section builds from the basics to exam-level questions so that you can strengthen one area at a time."],sections:[{h:"Why mathematics matters in Assam exams",p:["Numerical ability carries a large number of questions and is usually the section where well-prepared candidates pull ahead. Because the concepts are fixed and the patterns repeat, mathematics gives a better return on preparation time than most other subjects."]},{h:"Mathematics sections covered on axomexam",list:["Arithmetic — number system, percentage, ratio, profit and loss, average, time and work, time and distance, and simple and compound interest.","Advanced Math — algebra, geometry, trigonometry, number systems and higher-level problem solving.","Statistics and Data Interpretation — averages, tables, bar charts, pie charts and line graphs."]},{h:"Mathematics preparation strategy",list:["Master the basics of a chapter before moving to its advanced questions.","Learn and apply short tricks instead of solving every question the long way.","Practise with a timer to build the speed the exam demands.","Keep a formula notebook and revise it regularly.","Analyse every wrong answer to find whether the mistake was conceptual or careless.","Take a full maths mock test every week and track your accuracy."]},{h:"Common mistakes to avoid",list:["Attempting advanced questions without clear basics.","Ignoring data interpretation, which offers easy marks for careful readers.","Making calculation errors under time pressure because of skipped approximation practice.","Not practising enough variety of question types."]}],faqs:[{q:"Which mathematics topics are most important for ADRE?",a:"Arithmetic forms the core, especially percentage, ratio, average, profit and loss, time and work and time–speed–distance. Advanced math and data interpretation add the remaining marks."},{q:"Is advanced math needed for Assam Police and ADRE?",a:"Basic algebra and geometry are useful, while the emphasis stays on arithmetic. APSC and technical posts need a stronger grip on advanced math."},{q:"How can I increase my calculation speed?",a:"Memorise tables, squares, cubes and percentage-to-fraction values, and practise approximation techniques with timed sets."},{q:"How much time should I spend on mathematics daily?",a:"One to one-and-a-half hours of focused practice per day is enough when combined with regular error review and weekly mock tests."},{q:"Can I practise mathematics in Assamese?",a:"Yes. All practice sets and step-by-step explanations are bilingual and can be read in Assamese or English."},{q:"Is mathematics practice free on axomexam?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free with no login or subscription."}]},reasoning:{title:"Reasoning Ability Questions for ADRE, APSC and Assam Police | axomexam",meta:"Free reasoning practice for ADRE, Assam Police, APSC, SSC and Railway. Verbal, non-verbal and analytical reasoning with step-by-step bilingual explanations and timed sets.",lead:["Reasoning ability tests logical and analytical thinking rather than memorised facts. It is divided into verbal reasoning, non-verbal reasoning and analytical and critical reasoning, and together they form a scoring section in ADRE, Assam Police, APSC, SSC and Railway exams.","Because speed and accuracy decide the score in reasoning, timed practice is essential. On axomexam each of the three branches has chapter-wise sets followed by detailed explanations, so you can train both the logic and the pace."],sections:[{h:"Why reasoning is a high-scoring section",p:["Reasoning questions follow fixed patterns that repeat across papers. Once a candidate learns the standard rules for series, coding, arrangements and statement-based questions, the section becomes fast and dependable. It also requires no additional study material beyond regular practice."]},{h:"Reasoning branches covered on axomexam",list:["Verbal Reasoning — analogy, classification, series, coding-decoding, blood relations, direction sense, ranking, syllogism and clock and calendar.","Non-Verbal Reasoning — figure series, mirror and water images, paper folding and cutting, embedded figures, figure matrix, counting of figures and cube and dice.","Analytical and Critical Reasoning — seating arrangement, puzzles, inequality, and statement-based chapters such as assumption, conclusion, argument and course of action."]},{h:"Reasoning preparation strategy",list:["Learn the rule for a chapter, then solve a set of at least twenty questions on it.","Draw diagrams for arrangements, blood relations and directions instead of solving mentally.","Practise mixed sets to get used to switching logic quickly.","Time every set so that speed improves along with accuracy.","Review wrong answers immediately and note the rule you missed.","Attempt a full reasoning mock test every week."]},{h:"Common mistakes to avoid",list:["Guessing the logic instead of checking it against every part of the question.","Getting stuck on a single puzzle while easier questions wait.","Ignoring non-verbal reasoning because it looks unfamiliar.","Not practising enough variety, so unfamiliar patterns feel difficult in the exam."]}],faqs:[{q:"How many reasoning questions come in ADRE and Assam Police?",a:"The reasoning section usually carries between 15 and 25 questions depending on the post and paper."},{q:"Which reasoning branch is most important?",a:"All three are asked, but verbal and analytical reasoning usually carry more questions than non-verbal reasoning."},{q:"How can I improve reasoning speed?",a:"Learn the standard rules and then practise timed sets. Drawing diagrams for arrangements and puzzles also saves a lot of time."},{q:"Is reasoning difficult for beginners?",a:"No. It is one of the most practice-friendly sections. With consistent daily practice, beginners improve quickly."},{q:"Can I prepare reasoning in Assamese?",a:"Yes. Questions and explanations are bilingual and you can switch between Assamese and English while reading."},{q:"Is reasoning practice free on axomexam?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free with no login or subscription."}]},computer:{title:"Computer Awareness Questions for ADRE, Assam Police and APSC | axomexam",meta:"Free computer awareness practice for ADRE, Assam Police, APSC, SSC and Railway. Fundamentals, hardware, software, MS Office, networking, cyber security, DBMS and number system.",lead:["Computer awareness is one of the quickest sections to prepare and score in ADRE, Assam Police, APSC, DHS, DME, Gauhati High Court and other state recruitment exams. Most questions are direct and factual, so a short, focused revision can secure almost full marks.","On axomexam the subject is divided into fundamentals and hardware, software and operating systems, MS Office, networking and the internet, cyber security, and DBMS with number system and shortcuts. Each chapter links to a practice set with clear explanations."],sections:[{h:"What computer awareness covers",p:["The syllabus begins with the basics of computers, their generations, input and output devices and memory, and then moves to software, operating systems and application packages. Networking and the internet, cyber security and database concepts complete the section."]},{h:"Computer chapters covered on axomexam",list:["Computer Fundamentals and Hardware — generations, input and output devices, memory, storage and the CPU.","Software and Operating System — types of software, functions of an operating system, file management and common Windows and Linux features.","MS Office Suite — Word, Excel and PowerPoint, including menu options, shortcuts and formulas.","Networking and Internet — network types and topologies, IP addresses, protocols, browsers, email and internet services.","Cyber Security — viruses, malware, phishing, hacking, passwords, encryption and safe internet practices.","DBMS, Number System and Shortcuts — database basics, number system conversions and keyboard shortcuts."]},{h:"Most repeated computer topics in Assam exams",list:["Generations of computers and their characteristics.","Input, output and storage devices with examples.","Keyboard shortcuts for common operations.","Basic MS Word and MS Excel functions and formulas.","Full forms of common computer abbreviations.","Types of computer viruses and cyber safety tips."]},{h:"Computer awareness preparation strategy",list:["Make a one-page list of full forms and abbreviations and revise it daily.","Learn the keyboard shortcuts by actually using them on a computer.","Prepare a small table of input, output and storage devices.","Practise basic Excel formulas and Word menu options.","Revise number system conversions with a few examples each.","Attempt a chapter-wise set after studying each topic."]},{h:"Common mistakes to avoid",list:["Ignoring the topic because it seems easy, and then forgetting the full forms.","Mixing up similar terms such as RAM and ROM, or hardware and software.","Not practising shortcuts, which are asked directly every year.","Studying advanced topics while the basics remain unclear."]}],faqs:[{q:"Is computer awareness asked in ADRE and Assam Police?",a:"Yes. It is part of the general awareness section and is one of the easiest areas to score in, because most questions are direct and factual."},{q:"How much time is needed to prepare computer awareness?",a:"A focused revision of one or two weeks is usually enough, since the syllabus is small and mostly factual."},{q:"Which computer topics are most important?",a:"Fundamentals, hardware and software differences, MS Office shortcuts and formulas, networking basics and cyber security are asked most often."},{q:"Do I need a computer to prepare this section?",a:"A computer helps for shortcuts and MS Office, but the theory can be prepared from notes and practice questions on any device."},{q:"Can I study computer awareness in Assamese?",a:"Yes. The practice sets and explanations on axomexam are bilingual and can be read in Assamese or English."},{q:"Is computer awareness practice free on axomexam?",a:"Yes. Every practice set, explanation and PDF note on axomexam.in is completely free with no login or subscription."}]}},Ps={arithmetic:{title:"ADRE, APSC আৰু অসম আৰক্ষীৰ বাবে গণিতৰ প্ৰশ্ন আৰু চুটি কৌশল | axomexam",meta:"ADRE 2.0, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে বিনামূলীয়া গণিত অনুশীলন। শতাংশ, লাভ-ক্ষতি, অনুপাত, গড়, সময় আৰু কাম, SI আৰু CI — দ্বিভাষিক ব্যাখ্যাৰ সৈতে।",lead:["প্ৰায় প্ৰতিটো অসম চৰকাৰী নিযুক্তি পৰীক্ষাৰ পৰিমাণাত্মক যোগ্যতা শিতানৰ মূল ভেটি হৈছে গণিত। ADRE গ্ৰেড ৩ আৰু গ্ৰেড ৪, অসম আৰক্ষী কনষ্টেবল আৰু চাব-ইন্সপেক্টৰ, APSC CCE, DHS, DME, গুৱাহাটী উচ্চ ন্যায়ালয়, SSC আৰু ৰে'লৱেৰ প্ৰশ্নকাকতত একেই মূল গণিত অধ্যায়বোৰ পৰীক্ষা কৰা হয়, আৰু এই প্ৰশ্নবোৰেই প্ৰায়ে নিৰ্ধাৰণ কৰে এজন প্ৰাৰ্থীয়ে কাট-অফ পাৰ কৰিব নে নাই।","axomexam ত বিষয়টো অধ্যায় অনুসৰি সজোৱা হৈছে, যাতে আপুনি ধাপে ধাপে গতি আৰু শুদ্ধতা গঢ়ি তুলিব পাৰে। প্ৰতিটো বিষয় ইংৰাজী আৰু অসমীয়াত সমাধানৰ সৈতে অনুশীলন ছেটলৈ সংযুক্ত, যাতে আপুনি বেলেগ বেলেগ উত্তৰ মনত ৰখাৰ পৰিৱৰ্তে পৰীক্ষকে বিচৰা সঠিক পদ্ধতিটো শিকে।"],sections:[{h:"কিয় গণিতেই আপোনাৰ নম্বৰ নিৰ্ধাৰণ কৰে",p:["অসমৰ নিযুক্তি প্ৰশ্নকাকতত সংখ্যাগত ক্ষমতাই সাধাৰণতে ১৫ৰ পৰা ২৫ টা প্ৰশ্ন বহন কৰে আৰু সেই অংশৰ আটাইতকৈ ডাঙৰ ভাগটো গণিতেই। প্ৰশ্নবোৰ সূত্ৰভিত্তিক আৰু পুনৰাবৃত্তিমূলক, যাৰ অৰ্থ হ'ল এজন ভালদৰে অনুশীলন কৰা প্ৰাৰ্থীয়ে ইয়াক দ্ৰুতভাৱে সমাধান কৰি নিৰ্ভৰযোগ্যভাৱে নম্বৰ পাব পাৰে। ৰাজ্যিক আৰু কেন্দ্ৰীয় পৰীক্ষাত একেই অধ্যায়বোৰ পুনৰাবৃত্তি হয়, গতিকে গণিতৰ এটা ভাল প্ৰস্তুতিয়ে একেসময়তে কেইবাটাও পৰীক্ষাত লাভ দিয়ে।"]},{h:"axomexam ত সামৰি লোৱা গণিতৰ অধ্যায়বোৰ",list:["সংখ্যা পদ্ধতি আৰু সৰলীকৰণ — বিভাজ্যতাৰ নিয়ম, HCF, LCM, ভাগশেষ, কৰণী আৰু দ্ৰুত গণনা।","শতাংশ — বৃদ্ধি আৰু হ্ৰাস, ক্ৰমিক পৰিৱৰ্তন আৰু শতাংশভিত্তিক শব্দ সমস্যা।","অনুপাত আৰু সমানুপাত — প্ৰত্যক্ষ আৰু ব্যস্ত সমানুপাত আৰু ৰাশিৰ ভাগ।","লাভ, ক্ষতি আৰু ৰেহাই — ক্ৰয়মূল্য, বিক্ৰয়মূল্য, চিহ্নিত মূল্য, ক্ৰমিক ৰেহাই আৰু অসাধু ব্যৱসায়ীৰ সমস্যা।","গড় — সৰল গড়, ভাৰিত গড় আৰু গড় বয়স তথা গড় বেগৰ সমস্যা।","সময় আৰু কাম — দক্ষতা, কাম আৰু মজুৰি, আৰু নল আৰু চৌবাচ্চা।","সময়, বেগ আৰু দূৰত্ব — আপেক্ষিক বেগ, ৰে'লৰ সমস্যা, নাৱ আৰু সোঁত।","সৰল আৰু চক্ৰবৃদ্ধি সুত — কিস্তি, বৃদ্ধি আৰু অৱক্ষয়।","ক্ষেত্ৰমিতি — প্ৰামাণ্য আকৃতিৰ কালি, পৰিসীমা, আয়তন আৰু পৃষ্ঠকালি।","বয়স, ভাগীদাৰী আৰু মিশ্ৰণ তথা এ্যালিগেচনৰ সমস্যা।"]},{h:"ADRE আৰু অসম আৰক্ষীত সৰ্বাধিক পুনৰাবৃত্তি হোৱা অধ্যায়বোৰ",p:["বিগত প্ৰশ্নকাকতৰ ভিত্তিত তলৰ অধ্যায়বোৰ বাৰে বাৰে আহে আৰু ইয়াক অতিৰিক্তভাৱে পুনৰাবৃত্তি কৰা উচিত: শতাংশ, লাভ-ক্ষতি, অনুপাত আৰু সমানুপাত, গড়, সময় আৰু কাম, সময়-বেগ-দূৰত্ব, সৰল আৰু চক্ৰবৃদ্ধি সুত, আৰু ক্ষেত্ৰমিতি। যদি সময় কম, তেন্তে প্ৰথমে এই আঠটা আয়ত্ত কৰক।"]},{h:"অসম পৰীক্ষাৰ বাবে গণিত কেনেদৰে প্ৰস্তুতি কৰিব",list:["এটা অধ্যায়ৰ প্ৰশ্ন কৰাৰ আগতে তাৰ সূত্ৰ বা চুটি পদ্ধতি শিকক।","প্ৰতিদিনে প্ৰতিটো বিষয়ৰ ১৫ৰ পৰা ২০ টা প্ৰশ্ন সমাধান কৰক আৰু ষ্টপৱাচ লৈ নিজৰ সময় জুখক।","এখন সূত্ৰৰ টোকাবহী ৰাখক আৰু প্ৰতিটো অনুশীলনৰ আগতে পাঁচ মিনিট পুনৰাবৃত্তি কৰক।","প্ৰতিটো ভুল উত্তৰৰ ব্যাখ্যা পঢ়ক আৰু ভুলৰ সঠিক কাৰণটো টুকি লওক।","তিনি দিনৰ পিছত একেই ছেট আকৌ চেষ্টা কৰক আৰু আপোনাৰ শুদ্ধতা বাঢ়িছে নে নাই পৰীক্ষা কৰক।","পৰীক্ষাৰ দিনৰ চাপৰ অভ্যাস কৰিবলৈ সপ্তাহে এটা সম্পূৰ্ণ সময়বদ্ধ মক টেষ্ট লওক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["খৰখেদাকৈ পঢ়ি 'কম' আৰু 'বেছি'ৰ দৰে মান ভুলকৈ পঢ়া।","একক এৰি দিয়া আৰু শতাংশক নিৰপেক্ষ সংখ্যাৰ সৈতে মিহলাই পেলোৱা।","চুটি কৌশল ব্যৱহাৰ নকৰি প্ৰতিটো প্ৰশ্ন দীঘল পদ্ধতিত সমাধান কৰা।","কঠিন যেন লাগে বুলি ক্ষেত্ৰমিতি এৰি দিয়া — ই আটাইতকৈ অনুমানযোগ্য অধ্যায়বোৰৰ এটা।"]}],faqs:[{q:"ADRE 2.0 ৰ বাবে কোনবোৰ গণিতৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"শতাংশ, লাভ-ক্ষতি, অনুপাত আৰু সমানুপাত, গড়, সময় আৰু কাম, সময়-বেগ-দূৰত্ব, সৰল আৰু চক্ৰবৃদ্ধি সুত আৰু ক্ষেত্ৰমিতিয়ে সৰ্বাধিক নম্বৰ বহন কৰে। কমকৈ সোধা অধ্যায়বোৰৰ আগতে এইবোৰ অনুশীলন কৰক।"},{q:"গণিতৰ গণনাত মই মোৰ গতি কেনেদৰে বঢ়াব পাৰোঁ?",a:"২০ লৈকে নামতা, ৩০ লৈকে বৰ্গ আৰু শতাংশৰ পৰা ভগ্নাংশলৈ ৰূপান্তৰ ব্যৱহাৰ কৰক। টাইমাৰ লৈ অনুশীলন কৰক আৰু য'ত বিকল্পই অনুমতি দিয়ে ত'ত আসন্ন মান ব্যৱহাৰ কৰক।"},{q:"অসম আৰক্ষীৰ পৰীক্ষাত গণিত কঠিন নেকি?",a:"নহয়। অসম আৰক্ষীৰ গণিত মানক আৰ্হিৰ ওচৰতেই থাকে। নিয়মীয়া অনুশীলন আৰু সঠিক ভেটিৰ সৈতে বেছিভাগ প্ৰাৰ্থীয়ে সম্পূৰ্ণ শিতানটো আৰামেৰে কৰিব পাৰে।"},{q:"axomexam ত অসমীয়াত গণিত অনুশীলন কৰিব পাৰিম নেকি?",a:"হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক। আপুনি যিকোনো সময়তে অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰিব পাৰে, যাৰ ফলত একেখিনি ধাৰণা দুয়ো ভাষাত দৃঢ় হয়।"},{q:"প্ৰতিদিনে গণিতক কিমান সময় দিয়া উচিত?",a:"বেছিভাগ প্ৰাৰ্থীৰ বাবে এঘণ্টাৰ পৰা দেৰ ঘণ্টা একাগ্ৰ অনুশীলন যথেষ্ট। প্ৰথম ২০ মিনিট সূত্ৰত আৰু বাকীখিনি সময়বদ্ধ প্ৰশ্ন তথা ভুল পৰ্যালোচনাত খৰচ কৰক।"},{q:"axomexam ত গণিতৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া। কোনো লগইন, চাবস্ক্ৰিপচন বা গুপুত মাচুল নাই।"}]},"non-verbal-reasoning":{title:"ADRE আৰু APSC ৰ বাবে উত্তৰসহ অ-মৌখিক যুক্তি প্ৰশ্ন | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে অ-মৌখিক যুক্তি অনুশীলন। চিত্ৰ শ্ৰেণী, দাপোন আৰু পানীৰ প্ৰতিবিম্ব, কাগজ ভাঁজ, অন্তৰ্নিহিত চিত্ৰ, চিত্ৰ মেট্ৰিক্স, ঘনক আৰু পাশা।",lead:["অ-মৌখিক যুক্তিয়ে জুখে আপুনি চিত্ৰ, আৰ্হি, আকৃতি আৰু স্থানিক বিন্যাসৰ দৰে দৃশ্যমান তথ্য কিমান দ্ৰুতভাৱে পঢ়িব পাৰে। ই ভাষা বা শব্দভাণ্ডাৰৰ ওপৰত নিৰ্ভৰ নকৰে, গতিকে নম্বৰ সম্পূৰ্ণৰূপে আপোনাৰ পৰ্যবেক্ষণ শক্তি আৰু অনুশীলনৰ ওপৰত নিৰ্ধাৰিত হয়।","এই শিতান ADRE, অসম আৰক্ষী, APSC CCE, SSC, ৰে'লৱে আৰু বহু অন্য নিযুক্তি পৰীক্ষাত আহে। axomexam ত প্ৰতিটো অধ্যায় স্পষ্ট দৃশ্যমান ব্যাখ্যাৰ সৈতে অনুশীলন ছেটলৈ সংযুক্ত, যাতে আপুনি প্ৰতিটো চিত্ৰৰ পিছৰ নিয়মটো দ্ৰুতভাৱে ধৰা পেলাবলৈ চকু প্ৰশিক্ষণ দিব পাৰে।"],sections:[{h:"অ-মৌখিক যুক্তিয়ে প্ৰকৃততে কি পৰীক্ষা কৰে",p:["প্ৰতিটো প্ৰশ্নই এটা ক্ৰম বা চিত্ৰৰ এটা গোট দেখুৱায় আৰু আপোনাক পৰৱৰ্তী চিত্ৰ, অদ্ভুত চিত্ৰ বা লুকাই থকা চিত্ৰ বিচাৰিবলৈ কয়। অন্তৰ্নিহিত নিয়মটোত ঘূৰ্ণন, প্ৰতিফলন, অংশ যোগ বা বাদ, ছাঁ দিয়া, বা উপাদানৰ গতি জড়িত থাকিব পাৰে। এবাৰ নিয়মটো চিনি পোৱাৰ পিছত উত্তৰটো প্ৰায় যান্ত্ৰিকভাৱে আহে — সেয়ে এই শিতানটো অতি উচ্চ-নম্বৰ হ'ব পাৰে।"]},{h:"axomexam ত সামৰি লোৱা অ-মৌখিক যুক্তিৰ অধ্যায়বোৰ",list:["চিত্ৰ শ্ৰেণী — ঘূৰ্ণন, বৃদ্ধি আৰু ছাঁ ট্ৰেক কৰি পৰৱৰ্তী চিত্ৰ বিচাৰক।","চিত্ৰ সাদৃশ্য — চিত্ৰৰ এযোৰৰ মাজৰ একেই সম্পৰ্ক প্ৰয়োগ কৰক।","চিত্ৰ শ্ৰেণীবিভাগ — গোটত নিমিলা চিত্ৰটো বাছনি কৰক।","দাপোনৰ প্ৰতিবিম্ব — উলম্ব দাপোন ৰেখাৰ ওপৰত চিত্ৰটো প্ৰতিফলিত কৰক।","পানীৰ প্ৰতিবিম্ব — অনুভূমিক পানী ৰেখাৰ ওপৰত চিত্ৰটো প্ৰতিফলিত কৰক।","কাগজ ভাঁজ আৰু কাগজ কটা — মেলি দিয়াৰ পিছত ফুটাৰ আৰ্হিটো কল্পনা কৰক।","অন্তৰ্নিহিত চিত্ৰ — ডাঙৰ চিত্ৰ এটাত লুকাই থকা সৰু চিত্ৰটো বিচাৰক।","অসম্পূৰ্ণ আৰ্হিৰ সম্পূৰ্ণতা — এটা আৰ্হিৰ নোহোৱা টুকুৰাটো চিনি পেলাওক।","চিত্ৰ মেট্ৰিক্স — চিত্ৰৰ মেট্ৰিক্স এটাৰ শাৰী আৰু স্তম্ভৰ যুক্তি অনুসৰণ কৰক।","চিত্ৰ গণনা — এটা জটিল চিত্ৰত ত্ৰিভুজ, বৰ্গ বা সৰল ৰেখা গণনা কৰক।","ঘনক আৰু পাশা — ৰঙ কৰা ঘনক, পাশাৰ নিয়ম আৰু বিপৰীত পৃষ্ঠৰ সমস্যা সমাধান কৰক।","নিয়ম চিনাক্তকৰণ আৰু আকৃতি নিৰ্মাণ।"]},{h:"অ-মৌখিক যুক্তি প্ৰস্তুতিৰ কৌশল",list:["প্ৰতিটো অধ্যায় চিত্ৰ নিজে আঁকি অনুশীলন কৰক; চকুৰ দৰেই হাতেও আৰ্হিটো শিকে।","শ্ৰেণীৰ প্ৰশ্নৰ বাবে এটা এটাকৈ ঘূৰ্ণন, উপাদানৰ সংখ্যা, ছাঁ আৰু প্ৰতিসমতা পৰীক্ষা কৰক।","ঘনক আৰু পাশাৰ প্ৰশ্নৰ বাবে পাশাৰ নিয়ম আৰু বিপৰীত পৃষ্ঠৰ কৌশল মনত ৰাখক।","প্ৰতিদিনে অন্ততঃ ২০ টা চিত্ৰ সমাধান কৰক আৰু প্ৰতিটো ভুল উত্তৰৰ বাবে হেৰুওৱা নিয়মটো টুকি লওক।","প্ৰথম কেইটা দাপোন, পানী আৰু কাগজ ভাঁজৰ প্ৰশ্নৰ বাবে এখন দাপোন বা ভাঁজ কৰা কাগজ ব্যৱহাৰ কৰক।","দৃশ্যমান গতি গঢ়িবলৈ চিত্ৰভিত্তিক ছেট সময়বদ্ধ খণ্ডত চেষ্টা কৰক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["সকলো চিত্ৰৰ সৈতে পৰীক্ষা নকৰি প্ৰথম দুটা চিত্ৰৰ পৰা নিয়ম অনুমান কৰা।","ঘড়ীৰ কাঁটাৰ দিশ আৰু বিপৰীত দিশ লৈ খেলিমেলি কৰা।","বিন্দু, ৰেখা বা ছাঁ দিয়া অংশৰ সংখ্যাৰ হিচাপ হেৰুওৱা।","চিত্ৰ গণনাৰ প্ৰশ্নত খৰখেদা কৰা, যিবোৰত পদ্ধতিগতভাৱে বিন্দু-বিন্দু গননা প্ৰয়োজন।"]}],faqs:[{q:"অ-মৌখিক যুক্তি প্ৰস্তুতি কৰা কঠিন নেকি?",a:"নহয়। ই প্ৰতিভাতকৈ ধাৰাবাহিক অনুশীলনক পুৰস্কৃত কৰে। এবাৰ মানক নিয়মৰ প্ৰকাৰবোৰ শিকিলে বেছিভাগ প্ৰশ্ন দ্ৰুত আৰু যান্ত্ৰিক হৈ পৰে।"},{q:"ADRE আৰু অসম আৰক্ষীৰ বাবে কোনবোৰ অ-মৌখিক বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"চিত্ৰ শ্ৰেণী, সাদৃশ্য, দাপোন আৰু পানীৰ প্ৰতিবিম্ব, কাগজ ভাঁজ আৰু কটা, অন্তৰ্নিহিত চিত্ৰ আৰু চিত্ৰ গণনা সৰ্বাধিক বাৰে সোধা হয়।"},{q:"ঘনক আৰু পাশাৰ প্ৰশ্ন দ্ৰুতভাৱে কেনেদৰে সমাধান কৰিম?",a:"সংলগ্ন আৰু বিপৰীত পৃষ্ঠৰ বাবে পাশাৰ নিয়ম আৰু ৰঙ কৰা ঘনকৰ বাবে গণনাৰ নিয়ম শিকক। এই দুটা পদ্ধতিৰে বেছিভাগ প্ৰশ্ন কেইছেকেণ্ডতে সমাধান কৰিব পাৰি।"},{q:"মই অসমীয়াত অ-মৌখিক যুক্তি অনুশীলন কৰিব পাৰিম নেকি?",a:"হয়। অনুশীলন ছেট আৰু ব্যাখ্যা দ্বিভাষিক, গতিকে আপুনি অসমীয়া বা ইংৰাজীত পঢ়িব পাৰে আৰু যেতিয়া বিচাৰে সলনি কৰিব পাৰে।"},{q:"অ-মৌখিক যুক্তিৰ বাবে দৈনিক কিমান অনুশীলন প্ৰয়োজন?",a:"প্ৰতিদিনে বিশৰ পৰা ত্ৰিশটা চিত্ৰ যথেষ্ট। দৃশ্যমান যুক্তিৰ বাবে নিয়মীয়া চুটি অৱস্থান মাজে মাজে দীঘল অৱস্থানতকৈ ভাল কাম কৰে।"},{q:"axomexam ত অ-মৌখিক যুক্তিৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},"verbal-reasoning":{title:"ADRE, APSC আৰু অসম আৰক্ষীৰ বাবে মৌখিক যুক্তি প্ৰশ্ন আৰু অনুশীলন | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱেৰ বাবে বিনামূলীয়া মৌখিক যুক্তি অনুশীলন। সাদৃশ্য, সংকেত-অৱগুঞ্জন, ৰক্তসম্পৰ্ক, দিশ অনুভৱ, শ্ৰেণী, ন্যায়বাক্য আৰু ঘড়ী-পঞ্জিকা।",lead:["মৌখিক যুক্তিয়ে পৰীক্ষা কৰে আপুনি শব্দ, সংখ্যা আৰু আখৰৰ আৰ্হি কিমান ভালদৰে বিচাৰি পায় আৰু এটা বিবৃতিৰ সংহতি কিমান যুক্তিসংগতভাৱে অনুসৰণ কৰিব পাৰে। যুক্তিৰ শিতানৰ আটাইতকৈ নিৰ্ভৰযোগ্য নম্বৰ দিয়া ক্ষেত্ৰবোৰৰ এটা, কাৰণ আৰ্হিবোৰ বছৰৰ পিছত বছৰ পুনৰাবৃত্তি হয়।","এই পৃষ্ঠাই ADRE, অসম আৰক্ষী, APSC CCE, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে সম্পূৰ্ণ মৌখিক যুক্তিৰ পাঠ্যক্ৰম সামৰি লয়। প্ৰতিটো অধ্যায় ধাপে ধাপে দ্বিভাষিক ব্যাখ্যাৰ সৈতে অনুশীলন ছেটলৈ সংযুক্ত, যাতে আপুনি প্ৰতিটো উত্তৰৰ পিছৰ যুক্তিটো বুজি পায়।"],sections:[{h:"কিয় মৌখিক যুক্তি উচ্চ-নম্বৰ",p:["বেছিভাগ মৌখিক যুক্তি প্ৰশ্নই এক নিৰ্দিষ্ট নিয়মৰ গোট অনুসৰণ কৰে — বিগত প্ৰশ্নকাকতত অহা একেই যুক্তি। বিশেষকৈ সংকেত-অৱগুঞ্জন, ৰক্তসম্পৰ্ক, দিশ অনুভৱ আৰু শ্ৰেণী মুষ্টিমেয় কৌশলৰে আয়ত্ত কৰিব পাৰি। এবাৰ নিয়মবোৰ স্পষ্ট হ'লে এই প্ৰশ্নবোৰে কম সময় লয় আৰু কেতিয়াও ভুল নহয়।"]},{h:"axomexam ত সামৰি লোৱা মৌখিক যুক্তিৰ অধ্যায়বোৰ",list:["সাদৃশ্য — শব্দ বা সংখ্যাৰ এযোৰৰ মাজৰ সম্পৰ্ক চিনি পেলাওক।","শ্ৰেণীবিভাগ আৰু অদ্ভুত এটাক বাছনি কৰা — গোটত নিমিলা বস্তুটো বিচাৰক।","সংখ্যা শ্ৰেণী, বৰ্ণমালা শ্ৰেণী আৰু বৰ্ণ-সংখ্যা শ্ৰেণী।","সংকেত-অৱগুঞ্জন — আখৰ, সংখ্যা আৰু সংকেতভিত্তিক সংকেতৰ নিয়ম।","ৰক্তসম্পৰ্ক — পৰিয়াল বৃক্ষ, প্ৰজন্ম আৰু সংকেতযুক্ত সম্পৰ্ক।","দিশ আৰু দূৰত্ব পৰীক্ষা — গতি ট্ৰেক কৰক আৰু চূড়ান্ত দিশ বিচাৰক।","ক্ৰম আৰু স্থান — উচ্চতা, বয়স, নম্বৰ বা অৱস্থান অনুসৰি মানুহ সজাওক।","বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন।","যুক্তিসংগত ভেন ডায়াগ্ৰাম — গোটৰ মাজৰ সঠিক সম্পৰ্ক নিৰ্ণয় কৰক।","ন্যায়বাক্য — দিয়া বিবৃতিবোৰৰ পৰা বৈধ সিদ্ধান্ত উলিয়াওক।","ঘড়ী আৰু পঞ্জিকা — কোণ, কাঁটা, অদ্ভুত দিন আৰু সপ্তাহৰ দিনৰ সমস্যা।","গাণিতিক কাৰ্য, তথ্য পৰ্যাপ্ততা আৰু ইনপুট-আউটপুট।"]},{h:"মৌখিক যুক্তি প্ৰস্তুতিৰ কৌশল",list:["প্ৰতিটো অধ্যায়ৰ মানক নিয়ম শিকক, তাৰ পিছত সেই অধ্যায়ৰ পঞ্চাশটা প্ৰশ্ন সমাধান কৰক।","শ্ৰেণীৰ বাবে সদায় ক্ৰমে পাৰ্থক্য, অনুপাত, বৰ্গ, ঘনক আৰু পৰ্যায়ক্ৰমে সলনি হোৱা আৰ্হি পৰীক্ষা কৰক।","ৰক্তসম্পৰ্ক আৰু দিশৰ প্ৰশ্ন মনত সমাধান নকৰি কাগজত আঁকক।","ভেন ডায়াগ্ৰামৰ সংযোগ আৰু পঞ্জিকাৰ প্ৰশ্নৰ বাবে অদ্ভুত দিনৰ তালিকা মনত ৰাখক।","য'ত অনুমান কৰিছে তেনে প্ৰতিটো প্ৰশ্নৰ এখন লগ ৰাখক আৰু পৰীক্ষাৰ আগতে পুনৰাবৃত্তি কৰক।","মিশ্ৰ ছেট অনুশীলন কৰক, যাতে সময়ৰ চাপত যুক্তি দ্ৰুতভাৱে সলনি কৰিবলৈ শিকে।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["প্ৰশ্নটো মন কৰি নপঢ়া — এটা শব্দ সলনি হ'লে গোটেই যুক্তিটো সলনি হ'ব পাৰে।","বিশেষকৈ ন্যায়বাক্যত নিদিয়া অতিৰিক্ত তথ্য ধৰি লোৱা।","দিশ অনুভৱৰ প্ৰশ্নত গতিৰ দিশ ওলোটাই পেলোৱা।","এটা ধাঁধাত বেছি সময় খৰচ কৰা, পিছত ঘূৰি অহাৰ পৰিৱৰ্তে।"]}],faqs:[{q:"ADRE ৰ বাবে কোনবোৰ মৌখিক যুক্তিৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"সংকেত-অৱগুঞ্জন, ৰক্তসম্পৰ্ক, দিশ অনুভৱ, শ্ৰেণী, সাদৃশ্য আৰু শ্ৰেণীবিভাগ ADRE আৰু অসম আৰক্ষীৰ প্ৰশ্নকাকতত সৰ্বাধিক বাৰে সোধা হয়।"},{q:"মৌখিক যুক্তি অ-মৌখিক যুক্তিতকৈ সহজ নেকি?",a:"বহু প্ৰাৰ্থীয়ে মৌখিক যুক্তিক সহজ পায় কাৰণ নিয়মবোৰ স্পষ্টভাৱে নিৰ্ধাৰিত। ব্যক্তিগত শক্তি বেলেগ বেলেগ, গতিকে দুয়োটা অনুশীলন কৰি দেখক আপুনি ক'ত দ্ৰুত নম্বৰ পায়।"},{q:"সংকেত-অৱগুঞ্জনৰ প্ৰশ্ন দ্ৰুতভাৱে কেনেদৰে সমাধান কৰিম?",a:"দিয়া শব্দটো তাৰ সংকেতৰ সৈতে তুলনা কৰক আৰু আখৰ তথা সংখ্যাৰ অৱস্থানৰ পৰিৱৰ্তন মন কৰক। এবাৰ পৰিৱৰ্তনটো চিনি পোৱাৰ পিছত নতুন শব্দত প্ৰয়োগ কৰক।"},{q:"মই অসমীয়াত মৌখিক যুক্তি প্ৰস্তুতি কৰিব পাৰিম নেকি?",a:"হয়। প্ৰশ্ন আৰু ব্যাখ্যা অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত উপলব্ধ, আৰু পঢ়ি থাকোঁতে আপুনি ভাষা সলনি কৰিব পাৰে।"},{q:"প্ৰতিদিনে কিমান যুক্তিৰ প্ৰশ্ন সমাধান কৰা উচিত?",a:"দুই বা তিনি অধ্যায়ৰ পঞ্চাশৰ পৰা ষাঠিটা প্ৰশ্ন এটা সুস্থ দৈনিক লক্ষ্য, লগতে প্ৰতিটো ভুলৰ পৰ্যালোচনা।"},{q:"axomexam ত মৌখিক যুক্তিৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},"analytical-critical-reasoning":{title:"ADRE আৰু APSC ৰ বাবে বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি অনুশীলন | axomexam",meta:"ADRE, APSC, অসম আৰক্ষী, SSC আৰু ৰে'লৱেৰ বাবে বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি অনুশীলন। আসন বিন্যাস, ধাঁধা, বিবৃতি আৰু ধাৰণা, সিদ্ধান্ত, দাবী আৰু কাৰণ।",lead:["বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিয়ে জুখে আপুনি তথ্য কিমান ভালদৰে সজাই ৰাখিব পাৰে আৰু তৰ্ক কিমান ভালদৰে বিচাৰ কৰিব পাৰে। ইয়াত আসন বিন্যাস, জটিল ধাঁধা, সংকেতযুক্ত অসমতা, আৰু ধাৰণা, সিদ্ধান্ত, তৰ্ক আৰু কাৰ্যপন্থাৰ দৰে বিবৃতিভিত্তিক অধ্যায়বোৰ সামৰি লোৱা হয়।","যুক্তিৰ এই অংশটোৱেই সেই ঠাই য'ত খৰখেদাকৈ অনুমান কৰাতকৈ সাৱধানে পঢ়াটো বেছি গুৰুত্বপূৰ্ণ। axomexam ত প্ৰতিটো অধ্যায়ত সমাধান কৰা উদাহৰণ আৰু বিশদ দ্বিভাষিক ব্যাখ্যাৰ সৈতে অনুশীলন ছেট আছে, যাতে দিয়া বিবৃতিবোৰৰ পৰা এটা সিদ্ধান্ত কেনেদৰে ওলায় আপুনি সঠিকভাৱে দেখিব পাৰে।"],sections:[{h:"বিশ্লেষণাত্মক আৰু সমালোচনাত্মক শিতানে কি বিচাৰে",p:["ধাঁধা আৰু বিন্যাসৰ প্ৰশ্নই চৰ্তৰ এটা গোট অনুসৰি মানুহ বা বস্তু ৰাখিবলৈ আপোনাৰ ক্ষমতা পৰীক্ষা কৰে। বিবৃতিভিত্তিক অধ্যায়বোৰে কি বুজোৱা হৈছে, কি ধৰি লোৱা হৈছে, কি শক্তিশালী বা দুৰ্বল কৰা হৈছে সেই বিষয়ে আপোনাৰ বিচাৰ পৰীক্ষা কৰে।"]},{h:"axomexam ত সামৰি লোৱা বিশ্লেষণাত্মক যুক্তিৰ অধ্যায়বোৰ",list:["আসন বিন্যাস — ৰৈখিক, বৃত্তাকাৰ আৰু জটিল শাৰী বিন্যাস।","ধাঁধা — বিষয়ভিত্তিক বিন্যাস, গোট আৰু দিন-ভিত্তিক ধাঁধা।","সংকেতযুক্ত অসমতা আৰু গাণিতিক অসমতা।","বিবৃতি আৰু ধাৰণা — লুকাই থকা ধাৰণাটো চিনি পেলাওক।","বিবৃতি আৰু সিদ্ধান্ত, বিবৃতি আৰু কাৰ্যপন্থা।","তৰ্ক — শক্তিশালী আৰু দুৰ্বল তৰ্ক চিনাক্ত কৰক।","কাৰণ আৰু প্ৰভাৱ, আৰু উপযুক্ত যুক্তি।"]},{h:"বিশ্লেষণাত্মক যুক্তি প্ৰস্তুতিৰ কৌশল",list:["প্ৰতিটো ধাঁধাৰ চৰ্তবোৰ তালিকাত লিখি চিত্ৰ বা টেবুল হিচাপে সজাওক।","সম্ভাৱ্য অৱস্থানবোৰ বাদ দি আগবাঢ়ক, যাতে এটা সঠিক বিন্যাসত উপনীত হয়।","বিবৃতিভিত্তিক প্ৰশ্নৰ বাবে প্ৰদত্ত তথ্যৰ বাহিৰে আন একো ধৰি নল'ব।","তৰ্কৰ প্ৰশ্নত দাবীটো আৰু তাৰ কাৰণ সুকীয়াকৈ চিনি পেলাওক।","প্ৰতিদিনে এটা জটিল ধাঁধা সময়বদ্ধভাৱে সমাধান কৰক।","ভুল উত্তৰবোৰ বিশ্লেষণ কৰি কি চৰ্ত হেৰুওৱা হ'ল চিনি পেলাওক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["চৰ্তবোৰ মনত ৰাখি সমাধান কৰাৰ পৰিৱৰ্তে প্ৰথম অৱস্থানতে অনুমান কৰা।","বিবৃতিভিত্তিক প্ৰশ্নত নিদিয়া তথ্য ধৰি লোৱা।","ধাঁধাৰ এটা অংশ পাহৰি গৈ ভুল বিন্যাসত উপনীত হোৱা।","এটা কঠিন ধাঁধাত বেছি সময় খৰচ কৰি সহজ প্ৰশ্ন এৰি দিয়া।"]}],faqs:[{q:"বিশ্লেষণাত্মক যুক্তি কঠিন নেকি?",a:"ই ধৈৰ্য আৰু পদ্ধতিগত চিন্তাৰ ওপৰত নিৰ্ভৰ কৰে। নিয়মীয়া অনুশীলনৰ সৈতে ই যুক্তিৰ শিতানৰ এটা নিৰ্ভৰযোগ্য নম্বৰৰ উৎস হৈ পৰে।"},{q:"ADRE আৰু APSC ৰ বাবে কোনবোৰ বিশ্লেষণাত্মক বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"আসন বিন্যাস, ধাঁধা, সংকেতযুক্ত অসমতা, বিবৃতি-সিদ্ধান্ত আৰু তৰ্ক সৰ্বাধিক বাৰে সোধা হয়।"},{q:"ধাঁধাৰ প্ৰশ্ন দ্ৰুতভাৱে কেনেদৰে সমাধান কৰিম?",a:"চৰ্তবোৰ এটা টেবুলত লিখক আৰু প্ৰতিটো সম্ভাৱনা বাদ দি আগবাঢ়ক। এটা বা দুটা সম্ভাৱনা আঁচি ল'লে বাকীখিনি সহজে ওলায়।"},{q:"মই অসমীয়াত বিশ্লেষণাত্মক যুক্তি প্ৰস্তুতি কৰিব পাৰিম নেকি?",a:"হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক, গতিকে আপুনি অসমীয়া বা ইংৰাজীত পঢ়িব পাৰে।"},{q:"দৈনিক কিমান সময় দিয়া উচিত?",a:"দিনে এঘণ্টা ধাঁধা আৰু বিবৃতিভিত্তিক প্ৰশ্নত দিয়া উচিত, লগতে প্ৰতিটো ভুলৰ পৰ্যালোচনা।"},{q:"axomexam ত বিশ্লেষণাত্মক যুক্তিৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},science:{title:"ADRE, APSC আৰু অসম আৰক্ষীৰ বাবে সাধাৰণ বিজ্ঞান প্ৰশ্ন | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে বিনামূলীয়া সাধাৰণ বিজ্ঞান অনুশীলন। পদাৰ্থ বিজ্ঞান, ৰসায়ন, জীৱ বিজ্ঞান আৰু পৰিৱেশ — দ্বিভাষিক ব্যাখ্যাৰ সৈতে।",lead:["সাধাৰণ বিজ্ঞান ADRE, অসম আৰক্ষী, APSC, SSC, ৰে'লৱে আৰু প্ৰায় প্ৰতিটো অসম ৰাজ্যিক নিযুক্তি পৰীক্ষাৰ সাধাৰণ জ্ঞান শিতানৰ এটা নিশ্চিত অংশ। প্ৰশ্নবোৰ সাধাৰণতে ধাৰণাভিত্তিক আৰু দৈনন্দিন জীৱনৰ সৈতে জড়িত, গতিকে সঠিক প্ৰস্তুতিৰ সৈতে এই শিতানৰ নম্বৰ সহজে লাভ কৰিব পাৰি।","axomexam ত বিষয়টো পদাৰ্থ বিজ্ঞান, ৰসায়ন, জীৱ বিজ্ঞান আৰু পৰিৱেশ বিজ্ঞানত বিভক্ত। প্ৰতিটো অধ্যায়ৰ প্ৰশ্নৰ সৈতে স্পষ্ট দ্বিভাষিক ব্যাখ্যা আছে, যাতে আপুনি কেৱল উত্তৰ মনত নৰখি ধাৰণাটোও বুজি পায়।"],sections:[{h:"কিয় সাধাৰণ বিজ্ঞান গুৰুত্বপূৰ্ণ",p:["অসমৰ নিযুক্তি পৰীক্ষাত সাধাৰণ বিজ্ঞানৰ প্ৰশ্নই সাধাৰণ জ্ঞান শিতানৰ এটা উল্লেখযোগ্য অংশ গঠন কৰে। প্ৰশ্নবোৰ সাধাৰণতে দৈনন্দিন পৰিঘটনা, স্বাস্থ্য, খাদ্য, শক্তি আৰু পৰিৱেশৰ ওপৰত আধাৰিত, গতিকে সাধাৰণ বুজবুজৰ সৈতে বেছিভাগ প্ৰশ্নৰ উত্তৰ দিব পাৰি।"]},{h:"axomexam ত সামৰি লোৱা বিজ্ঞানৰ অধ্যায়বোৰ",list:["পদাৰ্থ বিজ্ঞান — গতি, বল, শক্তি, কাম, তাপ, পোহৰ, শব্দ আৰু বিদ্যুৎ।","ৰসায়ন — পদাৰ্থৰ প্ৰকাৰ, পৰমাণু, অণু, মৌল, যৌগ, মিশ্ৰণ আৰু দৈনন্দিন ৰসায়ন।","জীৱ বিজ্ঞান — কোষ, উদ্ভিদ, প্ৰাণী, মানৱ শৰীৰ, ৰোগ আৰু পুষ্টি।","পৰিৱেশ বিজ্ঞান — পৰিৱেশ তন্ত্ৰ, প্ৰদূষণ, জৈৱ বৈচিত্ৰ্য আৰু সংৰক্ষণ।","বৈজ্ঞানিক যন্ত্ৰ আৰু একক, আৰু আৱিষ্কাৰ তথা আৱিষ্কাৰক।"]},{h:"অসম পৰীক্ষাত সৰ্বাধিক পুনৰাবৃত্তি হোৱা বিজ্ঞানৰ বিষয়",list:["মানৱ শৰীৰৰ অংগ আৰু তন্ত্ৰ।","ৰোগ আৰু সিহঁতৰ কাৰণ তথা প্ৰতিষেধক।","পুষ্টি, ভিটামিন আৰু সিহঁতৰ অভাৱজনিত ৰোগ।","বিদ্যুৎ আৰু চুম্বকত্বৰ মূল ধাৰণা।","দৈনন্দিন জীৱনত ব্যৱহৃত ৰাসায়নিক যৌগ।","প্ৰদূষণৰ প্ৰকাৰ আৰু ইয়াৰ প্ৰভাৱ।"]},{h:"বিজ্ঞান প্ৰস্তুতিৰ কৌশল",list:["প্ৰতিটো ধাৰণা দৈনন্দিন জীৱনৰ উদাহৰণৰ সৈতে সংযোগ কৰক।","গুৰুত্বপূৰ্ণ সূত্ৰ, একক আৰু প্ৰতীকৰ এখন চুটি টোকা প্ৰস্তুত কৰক।","ভিটামিন, ৰোগ আৰু যন্ত্ৰৰ তালিকা টেবুল হিচাপে বনাই পুনৰাবৃত্তি কৰক।","প্ৰতিদিনে এটা অধ্যায়ৰ প্ৰশ্ন অনুশীলন কৰক।","ভুল উত্তৰবোৰৰ কাৰণ বিশ্লেষণ কৰক।","সাপ্তাহিকভাৱে এটা মিশ্ৰ ছেট চেষ্টা কৰক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["একক আৰু জোখ-মাখৰ প্ৰতি মন নিদিয়া।","পদাৰ্থ বিজ্ঞান, ৰসায়ন আৰু জীৱ বিজ্ঞানৰ ধাৰণা মিহলাই পেলোৱা।","কেৱল তথ্য মনত ৰখা, ধাৰণাটো নুবুজা।","দৈনন্দিন বিজ্ঞানৰ প্ৰশ্নক হেয়জ্ঞান কৰা — এইবোৰেই সৰ্বাধিক বাৰে আহে।"]}],faqs:[{q:"ADRE আৰু অসম আৰক্ষীত সাধাৰণ বিজ্ঞান কিমান গুৰুত্বপূৰ্ণ?",a:"সাধাৰণ জ্ঞান শিতানৰ এটা উল্লেখযোগ্য অংশ সাধাৰণ বিজ্ঞানৰ, আৰু ই সহজে নম্বৰ দিয়া ক্ষেত্ৰবোৰৰ এটা।"},{q:"বিজ্ঞানৰ বাবে কোনবোৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"মানৱ শৰীৰ, পুষ্টি আৰু ভিটামিন, ৰোগ, বিদ্যুৎৰ মূল ধাৰণা আৰু প্ৰদূৰ্ণ সৰ্বাধিক বাৰে সোধা হয়।"},{q:"বিজ্ঞান প্ৰস্তুতি কৰিবলৈ কিমান সময় লাগে?",a:"সঠিক ধাৰণাৰ সৈতে দুইৰ পৰা তিনিটা সপ্তাহৰ নিয়মীয়া পুনৰাবৃত্তি বেছিভাগ প্ৰাৰ্থীৰ বাবে যথেষ্ট।"},{q:"মই অসমীয়াত বিজ্ঞান পঢ়িব পাৰিম নেকি?",a:"হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক, গতিকে আপুনি অসমীয়া বা ইংৰাজীত পঢ়িব পাৰে।"},{q:"ৰসায়নৰ বাবে পৃথক প্ৰস্তুতি প্ৰয়োজন নেকি?",a:"পৃথকভাৱে বেছি নহয়, কিন্তু দৈনন্দিন ৰসায়ন আৰু মূল মৌল তথা যৌগবোৰ ভালদৰে জনাটো প্ৰয়োজন।"},{q:"axomexam ত বিজ্ঞানৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},english:{title:"ADRE, অসম আৰক্ষী আৰু APSC ৰ বাবে সাধাৰণ ইংৰাজী | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱেৰ বাবে বিনামূলীয়া সাধাৰণ ইংৰাজী অনুশীলন। ব্যাকৰণ, শব্দভাণ্ডাৰ, বাক্য গঠন আৰু বোধগম্যতা — দ্বিভাষিক ব্যাখ্যাৰ সৈতে।",lead:["সাধাৰণ ইংৰাজী ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাত এটা স্থিৰ আৰু কম-ঝুঁকিৰ নম্বৰ দিয়া শিতান। ইয়াত ব্যাকৰণ, শব্দভাণ্ডাৰ আৰু বোধগম্যতা পৰীক্ষা কৰা হয়, আৰু নিয়মবোৰ জনাৰ সৈতে এই শিতানৰ নম্বৰ সহজে লাভ কৰিব পাৰি।","axomexam ত বিষয়টো ব্যাকৰণ, বক্তৃতাৰ অংশ, বাক্য গঠন আৰু শব্দভাণ্ডাৰত সজোৱা হৈছে, অনুশীলন প্ৰশ্ন আৰু স্পষ্ট ব্যাখ্যাৰ সৈতে।"],sections:[{h:"সাধাৰণ ইংৰাজীয়ে কি পৰীক্ষা কৰে",p:["এই শিতানে পৰীক্ষা কৰে আপুনি ব্যৱহাৰত থকা সঠিক ব্যাকৰণ চিনি পায় নেকি, খালী ঠাইত সঠিক শব্দ বাছনি কৰিব পাৰে নেকি, বাক্যত ভুল ধৰা পেলাব পাৰে নেকি, আৰু এটা অনুচ্ছেদৰ অৰ্থ বুজিব পাৰে নেকি।"]},{h:"axomexam ত সামৰি লোৱা ইংৰাজীৰ অধ্যায়বোৰ",list:["ব্যাকৰণ — কাল, articles, কৰ্তা-ক্ৰিয়াৰ মিল, কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য, আৰু প্ৰত্যক্ষ তথা পৰোক্ষ উক্তি।","বক্তৃতাৰ অংশ — বিশেষ্য, সৰ্বনাম, ক্ৰিয়া, বিশেষণ, ক্ৰিয়া বিশেষণ, পূৰ্বসৰ্গ, সংযোজক আৰু আবেগসূচক।","বাক্য গঠন — বাক্যৰ প্ৰকাৰ, বাক্যাংশ আৰু উপবাক্য, বাক্য সংশোধন আৰু অনুচ্ছেদ ক্ৰম।","শব্দভাণ্ডাৰ — সমাৰ্থক, বিপৰীত, এক-শব্দ প্ৰতিস্থাপন, বাগধাৰা আৰু বানান।"]},{h:"সৰ্বাধিক পুনৰাবৃত্তি হোৱা ইংৰাজীৰ বিষয়",list:["কৰ্তা-ক্ৰিয়াৰ মিল আৰু সাধাৰণ ভুল চিনাক্তকৰণ।","কাল আৰু সিহঁতৰ সঠিক ব্যৱহাৰ।","পূৰ্বসৰ্গ আৰু articles।","সমাৰ্থক, বিপৰীত আৰু এক-শব্দ প্ৰতিস্থাপন।","বাগধাৰা আৰু সিহঁতৰ অৰ্থ।","খালী ঠাই পূৰণ আৰু ক্ল'জ টেষ্ট।"]},{h:"সাধাৰণ ইংৰাজী প্ৰস্তুতিৰ কৌশল",list:["এক সময়ত এটা ব্যাকৰণৰ নিয়ম পুনৰাবৃত্তি কৰক আৰু তাৰ ওপৰত বিশটা প্ৰশ্ন সমাধান কৰক।","প্ৰতিদিনে এটা চুটি অনুচ্ছেদ পঢ়ক আৰু অপৰিচিত শব্দ আৰু সিহঁতৰ অৰ্থ টুকি লওক।","প্ৰতিদিনে পাঁচটা নতুন শব্দ, পাঁচটা সমাৰ্থক আৰু তিনিটা বাগধাৰা শিকক।","বিকল্প বাছনি কৰাৰ আগতে বাক্যটো সম্পূৰ্ণ পঢ়ি ভুল চিনাক্তকৰণৰ অভ্যাস কৰক।","articles, পূৰ্বসৰ্গ আৰু কৰ্তা-ক্ৰিয়াৰ মিলৰ নিয়ম সৰ্বাধিক বাৰে পুনৰাবৃত্তি কৰক।","আপোনাৰ শুদ্ধতা জুখিবলৈ সপ্তাহে এটা সম্পূৰ্ণ ইংৰাজী ছেট চেষ্টা কৰক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["নিয়ম প্ৰয়োগ নকৰি 'শুদ্ধ যেন শুনা যায়' বুলি বিকল্প বাছনি কৰা।","articles আৰু পূৰ্বসৰ্গ এৰি দিয়া, যিবোৰ প্ৰতি বছৰে সোধা হয়।","ব্যৱহাৰ বা উদাহৰণ বাক্য নোহোৱাকৈ শব্দ শিকা।","প্ৰশ্ন চোৱাৰ আগতে গোটেই বোধগম্যতাৰ অনুচ্ছেদ পঢ়া।"]}],faqs:[{q:"ADRE ত সাধাৰণ ইংৰাজীত নম্বৰ লাভ কৰা সহজ নেকি?",a:"হয়। পাঠ্যক্ৰম সীমিত আৰু নিয়মভিত্তিক, গতিকে নিয়মীয়া পুনৰাবৃত্তিৰ সৈতে বেছিভাগ প্ৰাৰ্থীয়ে এই শিতানত গড়তকৈ ভাল নম্বৰ পাব পাৰে।"},{q:"কোনবোৰ ব্যাকৰণৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"কাল, কৰ্তা-ক্ৰিয়াৰ মিল, articles, পূৰ্বসৰ্গ, কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য, আৰু প্ৰত্যক্ষ তথা পৰোক্ষ উক্তি সৰ্বাধিক বাৰে সোধা হয়।"},{q:"মই শব্দভাণ্ডাৰ দ্ৰুতভাৱে কেনেদৰে উন্নত কৰিম?",a:"প্ৰতিদিনে সৰু সৰু গোটত শব্দ আৰু সিহঁতৰ ব্যৱহাৰ শিকক, আৰু সমাৰ্থক, বিপৰীত, এক-শব্দ প্ৰতিস্থাপন তথা বাগধাৰা নিয়মীয়াকৈ পুনৰাবৃত্তি কৰক।"},{q:"axomexam ত অসমীয়াত ইংৰাজী পঢ়িব পাৰিম নেকি?",a:"ব্যাখ্যাবোৰ দ্বিভাষিক, যাতে দুয়ো ভাষাত নিয়মটো স্পষ্ট হয়, আৰু প্ৰশ্নবোৰে ইংৰাজী পৰীক্ষাৰ আৰ্হি অনুসৰণ কৰে।"},{q:"এই পৰীক্ষাবোৰত বোধগম্যতা সোধা হয় নেকি?",a:"হয়, বহু প্ৰশ্নকাকতত প্ৰত্যক্ষ ব্যাকৰণ আৰু শব্দভাণ্ডাৰৰ প্ৰশ্নৰ লগতে এটা চুটি পঢ়া-বোধগম্যতাৰ অনুচ্ছেদও থাকে।"},{q:"axomexam ত সাধাৰণ ইংৰাজীৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},articles:{title:"অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিনামূলীয়া অধ্যয়ন প্ৰবন্ধ | axomexam",meta:"ADRE, APSC, অসম আৰক্ষী, SSC আৰু ৰে'লৱে পৰীক্ষাৰ বাবে বিনামূলীয়া উচ্চমানৰ অধ্যয়ন প্ৰবন্ধ পঢ়ক। সাধাৰণ জ্ঞান, গণিত, বিজ্ঞান, যুক্তি, ইংৰাজী আৰু কম্পিউটাৰৰ দীঘলীয়া টোকা।",lead:["axomexam ৰ প্ৰবন্ধবোৰ হৈছে দীঘলীয়া অধ্যয়ন সামগ্ৰী, যিয়ে এটা বিষয় গভীৰভাৱে আৰু সৰল ভাষাত ব্যাখ্যা কৰে। এইবোৰ প্ৰশ্ন কৰাৰ আগতে ধাৰণাগত স্পষ্টতা গঢ়িবলৈ লিখা হয়, যাৰ ফলত নতুন বিষয় আৰম্ভ কৰিবলৈ বা বাৰে বাৰে ভুল হোৱা বিষয় পুনৰাবৃত্তি কৰিবলৈ এইবোৰ উপযুক্ত।","সংগ্ৰহটোৱে সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তিৰ ক্ষমতা, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ সজাগতা সামৰি লয়, গতিকে দুৰ্বল ক্ষেত্ৰ শক্তিশালী কৰিবলৈ বা চিনাকি বিষয়ৰ দ্ৰুত পুনৰাবৃত্তিৰ বাবে উপযুক্ত প্ৰবন্ধ সদায় থাকে।"],sections:[{h:"প্ৰবন্ধ শিতান কেনেদৰে ব্যৱহাৰ কৰিব",p:["ধাৰণাটো বুজিবলৈ এবাৰ প্ৰবন্ধটো পঢ়ক, তাৰ পিছত সম্পৰ্কিত অনুশীলন ছেটটো চেষ্টা কৰক। প্ৰবন্ধবোৰ জাণী সৰল আৰু উদাহৰণমুখী ৰখা হয়, যাতে পৰীক্ষাত এটা একেধৰণৰ প্ৰশ্ন দেখিলে ধাৰণাটো আপোনাৰ লগত থাকে।"]},{h:"উপলব্ধ প্ৰবন্ধৰ শ্ৰেণীবোৰ",list:["সাধাৰণ জ্ঞান — অসমৰ ইতিহাস, সাহিত্য, ভূগোল, ৰাজনীতি, অৰ্থনীতি আৰু কলা তথা সংস্কৃতি।","গণিত — পাটিগণিত, উন্নত গণিত আৰু তথ্য বিশ্লেষণৰ ধাৰণা ধাপে ধাপে ব্যাখ্যা।","সাধাৰণ বিজ্ঞান — পদাৰ্থ বিজ্ঞান, ৰসায়ন আৰু জীৱ বিজ্ঞানৰ বিষয় দৈনন্দিন ভাষাত।","যুক্তিৰ ক্ষমতা — মৌখিক, অ-মৌখিক আৰু বিশ্লেষণাত্মক যুক্তিৰ কৌশল।","সাধাৰণ ইংৰাজী — ব্যাকৰণৰ নিয়ম, শব্দভাণ্ডাৰ গঢ়া আৰু সাধাৰণ ভুলৰ আৰ্হি।","কম্পিউটাৰ সজাগতা — মূল কথা, ছফ্টৱেৰ, MS Office, নেটৱৰ্কিং আৰু চাইবাৰ সুৰক্ষা।"]},{h:"প্ৰবন্ধই আপোনাৰ প্ৰস্তুতিত কেনেদৰে সহায় কৰে",list:["ই এটা নিয়মৰ পিছৰ 'কিয়'টো ব্যাখ্যা কৰে, যি নতুন প্ৰশ্নত প্ৰয়োগ কৰিবলৈ সহায় কৰে।","পৰীক্ষাৰ আগৰ শেষ সপ্তাহবোৰত এইবোৰ আদৰ্শ পুনৰাবৃত্তিৰ সামগ্ৰী।","ই তত্ত্বক বিগত প্ৰশ্নকাকতৰ সমাধান কৰা উদাহৰণৰ সৈতে সংযোগ কৰে।","ই বোধগম্যতা আৰু সাধাৰণ সজাগতাৰ বাবে প্ৰয়োজনীয় পঢ়াৰ অভ্যাস গঢ়ে।"]},{h:"অধ্যয়ন প্ৰবন্ধৰ পৰা সৰ্বাধিক লাভ কৰাৰ টিপছ",list:["কলম লৈ পঢ়ক আৰু মূল কথাবোৰ তথা সূত্ৰ টুকি লওক।","পঢ়াৰ লগে লগে সম্পৰ্কিত অনুশীলন ছেটটো চেষ্টা কৰক।","আপোনাৰ মনত ৰখাৰ ক্ষমতা পৰীক্ষা কৰিবলৈ এসপ্তাহৰ পিছত প্ৰবন্ধটো আকৌ চাওক।","ইংৰাজী আৰু অসমীয়া দুয়ো ভাষাত পৰিভাষা শক্তিশালী কৰিবলৈ দ্বিভাষিক দৃশ্য ব্যৱহাৰ কৰক।"]}],faqs:[{q:"axomexam ত কেনেধৰণৰ প্ৰবন্ধ প্ৰকাশ কৰা হয়?",a:"অসম প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে সাধাৰণ জ্ঞান, গণিত, বিজ্ঞান, যুক্তি, ইংৰাজী আৰু কম্পিউটাৰ সজাগতাৰ দীঘলীয়া, সহজ-পঢ়া অধ্যয়ন সামগ্ৰী।"},{q:"প্ৰবন্ধবোৰ ADRE আৰু APSC ৰ বাবে উপযোগী নেকি?",a:"হয়। প্ৰবন্ধবোৰে ADRE, APSC CCE, অসম আৰক্ষী, SSC আৰু ৰে'লৱে প্ৰশ্নকাকতত অহা ধাৰণা আৰু তথ্য সামৰি লয়।"},{q:"অনুশীলন প্ৰশ্নৰ আগতে নে পিছত প্ৰবন্ধ পঢ়া উচিত?",a:"ধাৰণাটো বুজিবলৈ আগতে প্ৰবন্ধটো পঢ়ক, তাৰ পিছত সম্পৰ্কিত অনুশীলন ছেটটো চেষ্টা কৰি আপোনাৰ ভুল পৰ্যালোচনা কৰক।"},{q:"প্ৰবন্ধবোৰ অসমীয়াত উপলব্ধ নেকি?",a:"সামগ্ৰীখন অসমীয়া আৰু ইংৰাজী দুয়ো পঢ়ুৱৈক সহায় কৰিবলৈ সজোৱা হৈছে, আৰু মূল পৰিভাষাবোৰ দুয়ো ভাষাত ব্যাখ্যা কৰা হয়।"},{q:"নতুন প্ৰবন্ধ কিমান সঘনাই যোগ কৰা হয়?",a:"নতুন প্ৰবন্ধ নিয়মীয়াকৈ যোগ কৰা হয়, গতিকে আপোনাৰ পাঠ্যক্ৰম আগবাঢ়ি যোৱাৰ লগে লগে পৃষ্ঠাটো আকৌ চাওক।"},{q:"প্ৰবন্ধ শিতান বিনামূলীয়াকৈ ব্যৱহাৰ কৰিব পাৰি নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো প্ৰবন্ধ আৰু অধ্যয়ন সমল সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},math:{title:"ADRE, APSC আৰু অসম আৰক্ষী পৰীক্ষাৰ বাবে গণিত | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱেৰ বাবে বিনামূলীয়া গণিত অনুশীলন। পাটিগণিত, উন্নত গণিত, পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ — দ্বিভাষিক ধাপে ধাপে সমাধানৰ সৈতে।",lead:["গণিত বা পৰিমাণাত্মক যোগ্যতা ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাৰ সৰ্বাধিক নম্বৰ দিয়া ক্ষেত্ৰবোৰৰ এটা। বিষয়টোৱে অনুশীলনক পুৰস্কৃত কৰে: যিমান বেছি আৰ্হি আপুনি দেখিছে, সিমান দ্ৰুত আৰু শুদ্ধভাৱে পৰীক্ষাৰ দিনা সমাধান কৰিব।","axomexam ত গণিতক পাটিগণিত, উন্নত গণিত, আৰু পৰিসংখ্যা তথা তথ্য বিশ্লেষণত ভাগ কৰা হৈছে। প্ৰতিটো শিতান ভেটিৰ পৰা পৰীক্ষাৰ স্তৰৰ প্ৰশ্নলৈ গঢ়ি উঠে, যাতে আপুনি এক সময়ত এটা ক্ষেত্ৰ শক্তিশালী কৰিব পাৰে।"],sections:[{h:"অসম পৰীক্ষাত গণিত কিয় গুৰুত্বপূৰ্ণ",p:["সংখ্যাগত ক্ষমতাই বহু প্ৰশ্ন বহন কৰে আৰু সাধাৰণতে এই শিতানটোৱেই সেই ঠাই য'ত ভালদৰে প্ৰস্তুত প্ৰাৰ্থীয়ে আগবাঢ়ি যায়। ধাৰণাবোৰ নিৰ্দিষ্ট আৰু আৰ্হিবোৰ পুনৰাবৃত্তি হয়, গতিকে গণিতে বেছিভাগ অন্য বিষয়তকৈ প্ৰস্তুতিৰ সময়ত ভাল প্ৰতিদান দিয়ে।"]},{h:"axomexam ত সামৰি লোৱা গণিতৰ শিতানবোৰ",list:["পাটিগণিত — সংখ্যা পদ্ধতি, শতাংশ, অনুপাত, লাভ-ক্ষতি, গড়, সময় আৰু কাম, সময় আৰু দূৰত্ব, আৰু সৰল তথা চক্ৰবৃদ্ধি সুত।","উন্নত গণিত — বীজগণিত, জ্যামিতি, ত্ৰিকোণমিতি, সংখ্যা পদ্ধতি আৰু উচ্চ স্তৰৰ সমস্যা সমাধান।","পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ — গড়, টেবুল, বাৰ চাৰ্ট, পাই চাৰ্ট আৰু ৰেখা লেখ।"]},{h:"গণিত প্ৰস্তুতিৰ কৌশল",list:["এটা অধ্যায়ৰ উন্নত প্ৰশ্নলৈ যোৱাৰ আগতে ভেটিটো আয়ত্ত কৰক।","প্ৰতিটো প্ৰশ্ন দীঘল পদ্ধতিত সমাধান নকৰি চুটি কৌশল শিকি প্ৰয়োগ কৰক।","পৰীক্ষাই দাবী কৰা গতি গঢ়িবলৈ টাইমাৰ লৈ অনুশীলন কৰক।","এখন সূত্ৰৰ টোকাবহী ৰাখক আৰু নিয়মীয়াকৈ পুনৰাবৃত্তি কৰক।","প্ৰতিটো ভুল উত্তৰ বিশ্লেষণ কৰি ভুলটো ধাৰণাগত নে অসাৱধানতাৰ পৰা হ'ল বিচাৰক।","সপ্তাহে এটা সম্পূৰ্ণ গণিতৰ মক টেষ্ট লৈ আপোনাৰ শুদ্ধতা জুখক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["স্পষ্ট ভেটি নোহোৱাকৈ উন্নত প্ৰশ্ন চেষ্টা কৰা।","তথ্য বিশ্লেষণ এৰি দিয়া, যি সাৱধান পঢ়ুৱৈৰ বাবে সহজ নম্বৰ দিয়ে।","আসন্ন মানৰ অভ্যাস নকৰাৰ বাবে সময়ৰ চাপত গণনাৰ ভুল কৰা।","প্ৰশ্নৰ প্ৰকাৰৰ পৰ্যাপ্ত বৈচিত্ৰ্য অনুশীলন নকৰা।"]}],faqs:[{q:"ADRE ৰ বাবে কোনবোৰ গণিতৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"পাটিগণিতেই মূল, বিশেষকৈ শতাংশ, অনুপাত, গড়, লাভ-ক্ষতি, সময় আৰু কাম আৰু সময়-বেগ-দূৰত্ব। উন্নত গণিত আৰু তথ্য বিশ্লেষণে বাকী নম্বৰবোৰ যোগ কৰে।"},{q:"অসম আৰক্ষী আৰু ADRE ৰ বাবে উন্নত গণিত প্ৰয়োজন নেকি?",a:"মৌলিক বীজগণিত আৰু জ্যামিতি উপযোগী, কিন্তু গুৰুত্ব পাটিগণিতৰ ওপৰতেই থাকে। APSC আৰু কাৰিকৰী পদৰ বাবে উন্নত গণিতত বেছি দখল প্ৰয়োজন।"},{q:"মই মোৰ গণনাৰ গতি কেনেদৰে বঢ়াব পাৰোঁ?",a:"নামতা, বৰ্গ, ঘনক আৰু শতাংশৰ পৰা ভগ্নাংশলৈ মান মনত ৰাখক, আৰু সময়বদ্ধ ছেটৰ সৈতে আসন্ন মানৰ কৌশল অনুশীলন কৰক।"},{q:"প্ৰতিদিনে গণিতত কিমান সময় দিয়া উচিত?",a:"নিয়মীয়া ভুল পৰ্যালোচনা আৰু সাপ্তাহিক মক টেষ্টৰ সৈতে দিনে এঘণ্টাৰ পৰা দেৰ ঘণ্টা একাগ্ৰ অনুশীলন যথেষ্ট।"},{q:"মই অসমীয়াত গণিত অনুশীলন কৰিব পাৰিম নেকি?",a:"হয়। সকলো অনুশীলন ছেট আৰু ধাপে ধাপে ব্যাখ্যা দ্বিভাষিক আৰু অসমীয়া বা ইংৰাজীত পঢ়িব পাৰি।"},{q:"axomexam ত গণিতৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},reasoning:{title:"ADRE, APSC আৰু অসম আৰক্ষীৰ বাবে যুক্তিৰ ক্ষমতাৰ প্ৰশ্ন | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱেৰ বাবে বিনামূলীয়া যুক্তি অনুশীলন। মৌখিক, অ-মৌখিক আৰু বিশ্লেষণাত্মক যুক্তি — দ্বিভাষিক ধাপে ধাপে ব্যাখ্যা আৰু সময়বদ্ধ ছেটৰ সৈতে।",lead:["যুক্তিৰ ক্ষমতাই মনত ৰখা তথ্যৰ পৰিৱৰ্তে যুক্তিসংগত আৰু বিশ্লেষণাত্মক চিন্তা পৰীক্ষা কৰে। ই মৌখিক যুক্তি, অ-মৌখিক যুক্তি আৰু বিশ্লেষণাত্মক তথা সমালোচনাত্মক যুক্তিত বিভক্ত, আৰু একেলগে এইবোৰে ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱে পৰীক্ষাত এটা নম্বৰ দিয়া শিতান গঠন কৰে।","যুক্তিত গতি আৰু শুদ্ধতাই নম্বৰ নিৰ্ধাৰণ কৰে, গতিকে সময়বদ্ধ অনুশীলন অপৰিহাৰ্য। axomexam ত তিনিওটা শাখাৰ অধ্যায়ভিত্তিক ছেটৰ পিছত বিশদ ব্যাখ্যা আছে, যাতে আপুনি যুক্তি আৰু গতি দুয়োটা প্ৰশিক্ষণ দিব পাৰে।"],sections:[{h:"কিয় যুক্তি উচ্চ-নম্বৰ শিতান",p:["যুক্তিৰ প্ৰশ্নবোৰে নিৰ্দিষ্ট আৰ্হি অনুসৰণ কৰে, যিবোৰ প্ৰশ্নকাকতবোৰত পুনৰাবৃত্তি হয়। এবাৰ প্ৰাৰ্থীয়ে শ্ৰেণী, সংকেত, বিন্যাস আৰু বিবৃতিভিত্তিক প্ৰশ্নৰ মানক নিয়ম শিকিলে শিতানটো দ্ৰুত আৰু নিৰ্ভৰযোগ্য হৈ পৰে। ইয়াত নিয়মীয়া অনুশীলনৰ বাহিৰে অন্য অধ্যয়ন সামগ্ৰীৰ প্ৰয়োজন নাই।"]},{h:"axomexam ত সামৰি লোৱা যুক্তিৰ শাখাবোৰ",list:["মৌখিক যুক্তি — সাদৃশ্য, শ্ৰেণীবিভাগ, শ্ৰেণী, সংকেত-অৱগুঞ্জন, ৰক্তসম্পৰ্ক, দিশ অনুভৱ, স্থান নিৰ্ণয়, ন্যায়বাক্য আৰু ঘড়ী-পঞ্জিকা।","অ-মৌখিক যুক্তি — চিত্ৰ শ্ৰেণী, দাপোন আৰু পানীৰ প্ৰতিবিম্ব, কাগজ ভাঁজ আৰু কটা, অন্তৰ্নিহিত চিত্ৰ, চিত্ৰ মেট্ৰিক্স, চিত্ৰ গণনা আৰু ঘনক তথা পাশা।","বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি — আসন বিন্যাস, ধাঁধা, অসমতা, আৰু ধাৰণা, সিদ্ধান্ত, তৰ্ক আৰু কাৰ্যপন্থাৰ দৰে বিবৃতিভিত্তিক অধ্যায়।"]},{h:"যুক্তি প্ৰস্তুতিৰ কৌশল",list:["এটা অধ্যায়ৰ নিয়ম শিকক, তাৰ পিছত তাৰ ওপৰত অন্ততঃ বিশটা প্ৰশ্নৰ ছেট সমাধান কৰক।","বিন্যাস, ৰক্তসম্পৰ্ক আৰু দিশৰ বাবে মনত সমাধান নকৰি চিত্ৰ আঁকক।","যুক্তি দ্ৰুতভাৱে সলনি কৰিবলৈ অভ্যস্ত হ'বলৈ মিশ্ৰ ছেট অনুশীলন কৰক।","শুদ্ধতাৰ লগে লগে গতি বাঢ়িবলৈ প্ৰতিটো ছেট সময় জুখক।","ভুল উত্তৰবোৰ তৎক্ষণাত পৰ্যালোচনা কৰি হেৰুওৱা নিয়মটো টুকি লওক।","সপ্তাহে এটা সম্পূৰ্ণ যুক্তিৰ মক টেষ্ট চেষ্টা কৰক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["প্ৰশ্নৰ প্ৰতিটো অংশৰ সৈতে পৰীক্ষা নকৰি যুক্তিটো অনুমান কৰা।","সহজ প্ৰশ্ন ৰৈ থকাৰ সময়ত এটা ধাঁধাত আটকি থকা।","অচিনাকি যেন লাগে বুলি অ-মৌখিক যুক্তি এৰি দিয়া।","পৰ্যাপ্ত বৈচিত্ৰ্য অনুশীলন নকৰা, যাৰ ফলত পৰীক্ষাত অচিনাকি আৰ্হিবোৰ কঠিন যেন লাগে।"]}],faqs:[{q:"ADRE আৰু অসম আৰক্ষীত কিমান যুক্তিৰ প্ৰশ্ন আহে?",a:"পদ আৰু প্ৰশ্নকাকতৰ ওপৰত নিৰ্ভৰ কৰি যুক্তিৰ শিতানত সাধাৰণতে ১৫ৰ পৰা ২৫ টা প্ৰশ্ন থাকে।"},{q:"কোনটো যুক্তিৰ শাখা আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"তিনিওটা সোধা হয়, কিন্তু মৌখিক আৰু বিশ্লেষণাত্মক যুক্তিত সাধাৰণতে অ-মৌখিক যুক্তিতকৈ বেছি প্ৰশ্ন থাকে।"},{q:"মই যুক্তিৰ গতি কেনেদৰে বঢ়াব পাৰোঁ?",a:"মানক নিয়মবোৰ শিকি তাৰ পিছত সময়বদ্ধ ছেট অনুশীলন কৰক। বিন্যাস আৰু ধাঁধাৰ বাবে চিত্ৰ আঁকিলেও বহু সময় ৰাহি হয়।"},{q:"নতুনকৈ আৰম্ভ কৰা প্ৰাৰ্থীৰ বাবে যুক্তি কঠিন নেকি?",a:"নহয়। ই আটাইতকৈ অনুশীলন-বান্ধৱ শিতানবোৰৰ এটা। ধাৰাবাহিক দৈনিক অনুশীলনৰ সৈতে নতুনকৈ আৰম্ভ কৰা প্ৰাৰ্থীয়ে দ্ৰুতভাৱে উন্নতি কৰে।"},{q:"মই অসমীয়াত যুক্তি প্ৰস্তুতি কৰিব পাৰিম নেকি?",a:"হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক আৰু পঢ়ি থাকোঁতে আপুনি অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰিব পাৰে।"},{q:"axomexam ত যুক্তিৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]},computer:{title:"ADRE, অসম আৰক্ষী আৰু APSC ৰ বাবে কম্পিউটাৰ সজাগতা প্ৰশ্ন | axomexam",meta:"ADRE, অসম আৰক্ষী, APSC, SSC আৰু ৰে'লৱেৰ বাবে বিনামূলীয়া কম্পিউটাৰ সজাগতা অনুশীলন। মূল কথা, হাৰ্ডৱেৰ, ছফ্টৱেৰ, MS Office, নেটৱৰ্কিং, চাইবাৰ সুৰক্ষা, DBMS আৰু সংখ্যা পদ্ধতি।",lead:["কম্পিউটাৰ সজাগতা ADRE, অসম আৰক্ষী, APSC, DHS, DME, গুৱাহাটী উচ্চ ন্যায়ালয় আৰু অন্য ৰাজ্যিক নিযুক্তি পৰীক্ষাত প্ৰস্তুতি তথা নম্বৰ লাভ কৰিবলৈ আটাইতকৈ দ্ৰুত শিতানবোৰৰ এটা। বেছিভাগ প্ৰশ্ন প্ৰত্যক্ষ আৰু তথ্যভিত্তিক, গতিকে চুটি, একাগ্ৰ পুনৰাবৃত্তিৰ সৈতে প্ৰায় সম্পূৰ্ণ নম্বৰ নিশ্চিত কৰিব পাৰি।","axomexam ত বিষয়টো মূল কথা আৰু হাৰ্ডৱেৰ, ছফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম, MS Office, নেটৱৰ্কিং আৰু ইণ্টাৰনেট, চাইবাৰ সুৰক্ষা, আৰু DBMS তথা সংখ্যা পদ্ধতি আৰু চুটি কৌশলত বিভক্ত। প্ৰতিটো অধ্যায় স্পষ্ট ব্যাখ্যাৰ সৈতে অনুশীলন ছেটলৈ সংযুক্ত।"],sections:[{h:"কম্পিউটাৰ সজাগতাই কি সামৰি লয়",p:["পাঠ্যক্ৰম আৰম্ভ হয় কম্পিউটাৰৰ মূল কথা, সিহঁতৰ প্ৰজন্ম, ইনপুট আৰু আউটপুট যন্ত্ৰ আৰু স্মৃতিৰ পৰা, তাৰ পিছত ছফ্টৱেৰ, অপাৰেটিং ছিষ্টেম আৰু এপ্লিকেচন পেকেজলৈ যায়। নেটৱৰ্কিং আৰু ইণ্টাৰনেট, চাইবাৰ সুৰক্ষা আৰু ডেটাবেছৰ ধাৰণাই শিতানটো সম্পূৰ্ণ কৰে।"]},{h:"axomexam ত সামৰি লোৱা কম্পিউটাৰৰ অধ্যায়বোৰ",list:["কম্পিউটাৰৰ মূল কথা আৰু হাৰ্ডৱেৰ — প্ৰজন্ম, ইনপুট আৰু আউটপুট যন্ত্ৰ, স্মৃতি, সংৰক্ষণ আৰু CPU।","ছফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম — ছফ্টৱেৰৰ প্ৰকাৰ, অপাৰেটিং ছিষ্টেমৰ কাম, ফাইল পৰিচালনা আৰু সাধাৰণ Windows তথা Linux বৈশিষ্ট্য।","MS Office ছুইট — Word, Excel আৰু PowerPoint, মেনু বিকল্প, চুটি কৌশল আৰু সূত্ৰসহ।","নেটৱৰ্কিং আৰু ইণ্টাৰনেট — নেটৱৰ্কৰ প্ৰকাৰ আৰু ট'প'লজি, IP ঠিকনা, প্ৰ'ট'কল, ব্ৰাউজাৰ, ইমেইল আৰু ইণ্টাৰনেট সেৱা।","চাইবাৰ সুৰক্ষা — ভাইৰাছ, মেলৱেৰ, ফিছিং, হেকিং, পাছৱৰ্ড, এনক্ৰিপচন আৰু সুৰক্ষিত ইণ্টাৰনেট অভ্যাস।","DBMS, সংখ্যা পদ্ধতি আৰু চুটি কৌশল — ডেটাবেছৰ মূল কথা, সংখ্যা পদ্ধতিৰ ৰূপান্তৰ আৰু কীবৰ্ড চুটি কৌশল।"]},{h:"অসম পৰীক্ষাত সৰ্বাধিক পুনৰাবৃত্তি হোৱা কম্পিউটাৰৰ বিষয়",list:["কম্পিউটাৰৰ প্ৰজন্ম আৰু সিহঁতৰ বৈশিষ্ট্য।","ইনপুট, আউটপুট আৰু সংৰক্ষণ যন্ত্ৰ উদাহৰণসহ।","সাধাৰণ কাৰ্যৰ বাবে কীবৰ্ড চুটি কৌশল।","মৌলিক MS Word আৰু MS Excel ফলন আৰু সূত্ৰ।","সাধাৰণ কম্পিউটাৰ সংক্ষিপ্ত ৰূপৰ সম্পূৰ্ণ ৰূপ।","কম্পিউটাৰ ভাইৰাছৰ প্ৰকাৰ আৰু চাইবাৰ সুৰক্ষাৰ টিপছ।"]},{h:"কম্পিউটাৰ সজাগতা প্ৰস্তুতিৰ কৌশল",list:["সংক্ষিপ্ত ৰূপ আৰু সম্পূৰ্ণ ৰূপৰ এপৃষ্ঠাৰ তালিকা বনাই প্ৰতিদিনে পুনৰাবৃত্তি কৰক।","কীবৰ্ড চুটি কৌশল কম্পিউটাৰত প্ৰকৃততে ব্যৱহাৰ কৰি শিকক।","ইনপুট, আউটপুট আৰু সংৰক্ষণ যন্ত্ৰৰ এটা সৰু টেবুল প্ৰস্তুত কৰক।","মৌলিক Excel সূত্ৰ আৰু Word মেনু বিকল্প অনুশীলন কৰক।","সংখ্যা পদ্ধতিৰ ৰূপান্তৰ কেইটামান উদাহৰণৰ সৈতে পুনৰাবৃত্তি কৰক।","প্ৰতিটো বিষয় পঢ়াৰ পিছত অধ্যায়ভিত্তিক ছেট এটা চেষ্টা কৰক।"]},{h:"যিবোৰ সাধাৰণ ভুল এৰাই চলিব লাগে",list:["সহজ যেন লাগে বুলি বিষয়টো এৰি দিয়া, আৰু পিছত সম্পূৰ্ণ ৰূপবোৰ পাহৰি যোৱা।","RAM আৰু ROM, বা হাৰ্ডৱেৰ আৰু ছফ্টৱেৰৰ দৰে একেধৰণৰ শব্দ মিহলাই পেলোৱা।","চুটি কৌশল অনুশীলন নকৰা, যিবোৰ প্ৰতি বছৰে প্ৰত্যক্ষভাৱে সোধা হয়।","ভেটি অস্পষ্ট ৰাখি উন্নত বিষয় পঢ়া।"]}],faqs:[{q:"ADRE আৰু অসম আৰক্ষীত কম্পিউটাৰ সজাগতা সোধা হয় নেকি?",a:"হয়। ই সাধাৰণ সজাগতা শিতানৰ অংশ আৰু নম্বৰ লাভ কৰিবলৈ আটাইতকৈ সহজ ক্ষেত্ৰবোৰৰ এটা, কাৰণ বেছিভাগ প্ৰশ্ন প্ৰত্যক্ষ আৰু তথ্যভিত্তিক।"},{q:"কম্পিউটাৰ সজাগতা প্ৰস্তুতি কৰিবলৈ কিমান সময় লাগে?",a:"পাঠ্যক্ৰম সৰু আৰু বেছিভাগ তথ্যভিত্তিক হোৱাৰ বাবে এৰ পৰা দুই সপ্তাহৰ একাগ্ৰ পুনৰাবৃত্তি সাধাৰণতে যথেষ্ট।"},{q:"কোনবোৰ কম্পিউটাৰৰ বিষয় আটাইতকৈ গুৰুত্বপূৰ্ণ?",a:"মূল কথা, হাৰ্ডৱেৰ আৰু ছফ্টৱেৰৰ পাৰ্থক্য, MS Office চুটি কৌশল আৰু সূত্ৰ, নেটৱৰ্কিংৰ মূল কথা আৰু চাইবাৰ সুৰক্ষা সৰ্বাধিক বাৰে সোধা হয়।"},{q:"এই শিতান প্ৰস্তুতি কৰিবলৈ কম্পিউটাৰ প্ৰয়োজন নেকি?",a:"চুটি কৌশল আৰু MS Office ৰ বাবে কম্পিউটাৰে সহায় কৰে, কিন্তু তত্ত্বখন টোকা আৰু অনুশীলন প্ৰশ্নৰ পৰা যিকোনো যন্ত্ৰত প্ৰস্তুতি কৰিব পাৰি।"},{q:"মই অসমীয়াত কম্পিউটাৰ সজাগতা পঢ়িব পাৰিম নেকি?",a:"হয়। axomexam ৰ অনুশীলন ছেট আৰু ব্যাখ্যা দ্বিভাষিক আৰু অসমীয়া বা ইংৰাজীত পঢ়িব পাৰি।"},{q:"axomexam ত কম্পিউটাৰ সজাগতাৰ অনুশীলন বিনামূলীয়া নেকি?",a:"হয়। axomexam.in ৰ প্ৰতিটো অনুশীলন ছেট, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া, কোনো লগইন বা চাবস্ক্ৰিপচন নাই।"}]}};function Ts(e){return u.lang==="as"&&ta[e]?ta[e]:qs[e]||""}const sa={quant:["অনুশীলন আৰম্ভ কৰাৰ আগতে এই শিতানৰ মূল সূত্ৰ আৰু ধাৰণাসমূহ পুনৰালোচনা কৰক।","ঘড়ী লগাই প্ৰশ্ন সমাধান কৰক, যাতে পৰীক্ষাৰ দিনা প্ৰয়োজনীয় গতিত অভ্যস্ত হয়।","প্ৰতিটো ভুল উত্তৰৰ ব্যাখ্যা পঢ়ক আৰু কিয় ভুল কৰিছিল সেইটো টুকি লওক।","কেইদিনমানৰ পিছত একেখিনি ছেটলৈ ঘূৰি আহি নিজৰ শুদ্ধতা বাঢ়িছে নে নাই পৰীক্ষা কৰক।"],general:["প্ৰথমে বিষয়ৰ টোকা এবাৰ পঢ়ক, তাৰ পিছত সম্পৰ্কিত প্ৰশ্ন সমাধান কৰি নিজৰ স্মৃতি পৰীক্ষা কৰক।","যি তথ্যবোৰ বাৰে বাৰে পাহৰি যাই সেইবোৰ চিহ্নিত কৰি চুটি চুটি অধিবেশনত পুনৰালোচনা কৰক।","দুয়োটা ভাষাত অনুশীলন কৰক, যাতে একেখিনি তথ্য অসমীয়া আৰু ইংৰাজী দুয়োতে চিনি পায়।","শুদ্ধ উত্তৰ দিয়া প্ৰশ্নৰো ব্যাখ্যা পঢ়ক, যাতে মনত ৰখাৰ শক্তি বাঢ়ে।"]};function Ls(e){const a=["math","arithmetic","advanced-math","statistics-and-data-interpretation","science","physics","chemistry","biology","reasoning","verbal-reasoning","analytical-critical-reasoning","non-verbal-reasoning","computer","dbms-number-shortcuts"].indexOf(e)!==-1;return u.lang==="as"?a?sa.quant:sa.general:a?["Revise the basic formulas and concepts of this section before you begin practising.","Attempt the questions under a timer so that you get used to the speed expected on exam day.","Read the explanation for every wrong answer and note down exactly why you missed it.","Return to the same sets after a few days and check whether your accuracy has improved."]:["Read the topic notes once, then attempt the related questions to test your recall.","Mark the facts you keep forgetting and revise them in short, repeated sessions.","Practise in both languages so you can recognise the same fact in Assamese and English.","Review the explanations even for questions you answered correctly to strengthen retention."]}function Is(e){const t=e.info||"",a=e.items||[],s=e.tips||[],n=e.faqs||[],i=u.lang==="as",o=a.length?`<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${l(i?"ইয়াত কি কি সামৰি লোৱা হৈছে":"What is covered here")}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${a.map(p=>`<li><strong>${l(p.name)}</strong>${p.count?` &mdash; ${p.count} ${l(p.unit||"topics")}`:""}</li>`).join("")}</ul>`:"",c=s.length?`<h3 style="color:var(--ink,#0f172a); margin-top:22px;">${l((i?"কেনেকৈ প্ৰস্তুতি ল'ব: ":"How to prepare ")+(e.name||""))}</h3><ul style="margin:8px 0 0 20px; line-height:1.9;">${s.map(p=>`<li>${l(p)}</li>`).join("")}</ul>`:"",d=n.length?`<h3 style="color:var(--ink,#0f172a); margin-top:24px;">${l(i?"সঘনাই সোধা প্ৰশ্ন":"Frequently Asked Questions")}</h3><div class="seo-faq">${n.map(p=>`<details style="border-bottom:1px solid var(--border,#e2e8f0); padding:12px 0;"><summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">${l(p.q)}</summary><p style="margin:8px 0 0;">${l(p.a)}</p></details>`).join("")}</div>`:"";return`
+      <section class="section seo-deep" style="padding-bottom:48px;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
+          <h2 style="margin-top:0; color:var(--ink,#0f172a);">${l(e.h2||e.name||"")}</h2>
+          ${t?`<p>${l(t)}</p>`:""}
+          ${o}
+          ${c}
+          ${d}
+        </div>
+      </section>`}function Ue(e,t){if(!e||!t)return;const a=document.createElement("div");a.innerHTML=Is(t),a.firstElementChild&&e.appendChild(a.firstElementChild)}function Rs(e){return!e||!e.length?"":'<h3 style="color:var(--ink,#0f172a); margin-top:22px;">'+(u.lang==="as"?"সঘনাই সোধা প্ৰশ্ন":"Frequently Asked Questions")+'</h3><div class="seo-faq">'+e.map(a=>'<details style="border-bottom:1px solid var(--border,#e2e8f0); padding:12px 0;"><summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">'+l(a.q)+'</summary><p style="margin:8px 0 0;">'+l(a.a)+"</p></details>").join("")+"</div>"}function Ds(e){return(e||[]).map(t=>{let a='<h3 style="color:var(--ink,#0f172a); margin-top:22px;">'+l(t.h)+"</h3>";return t.p&&t.p.length&&(a+=t.p.map(s=>"<p>"+l(s)+"</p>").join("")),t.list&&t.list.length&&(a+='<ul style="margin:8px 0 0 20px; line-height:1.9;">'+t.list.map(s=>"<li>"+l(s)+"</li>").join("")+"</ul>"),a}).join("")}function js(e){const t=(e.lead||[]).map(s=>"<p>"+l(s)+"</p>").join(""),a=e.h2||String(e.title||"").replace(/\s*\|\s*axomexam\s*$/i,"");return'<section class="section seo-deep" data-axo-deep="1" style="padding-bottom:48px;"><div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;"><h2 style="margin-top:0; color:var(--ink,#0f172a);">'+l(a)+"</h2>"+t+Ds(e.sections)+Rs(e.faqs)+"</div></section>"}function U(e,t){const a=t&&t.id?u.lang==="as"&&Ps[t.id]||aa[t.id]:null;if(a){const d=document.createElement("div");d.innerHTML=js(a),d.firstElementChild&&e.appendChild(d.firstElementChild);return}const s=t.name||"",n=t.info||Ts(t.id)||"",i=(t.faqs||[]).slice(),o=t.count||0,c=t.total||0;if(!t.noDefaults){const d=u.lang==="as";i.push({q:d?s+" axomexam ত বিনামূলীয়া নেকি?":"Is "+s+" available for free on axomexam?",a:d?"হয়। axomexam.in ৰ প্ৰতিটো মক টেষ্ট, প্ৰশ্ন-সংগ্ৰহ, ব্যাখ্যা আৰু PDF টোকা সম্পূৰ্ণ বিনামূলীয়া। কোনো লগইন, চাবস্ক্ৰিপচন বা গুপুত মাচুল নাই।":"Yes. Every mock test, question bank, explanation and PDF note on axomexam.in is completely free. There is no login, subscription or hidden charge."}),i.push({q:d?s+" অসমীয়া আৰু ইংৰাজী দুয়ো ভাষাত পঢ়িব পাৰিম নেকি?":"Can I study "+s+" in Assamese as well as English?",a:d?"হয়। প্ৰশ্ন আৰু ব্যাখ্যা দ্বিভাষিক। পঢ়ি থাকোঁতে অসমীয়া আৰু ইংৰাজীৰ মাজত সলনি কৰিব পাৰে, যাৰ ফলত একেখিনি ধাৰণা দুয়ো ভাষাত দৃঢ় হয়।":"Yes. Questions and explanations are bilingual. You can switch between Assamese and English while reading so the same concept is reinforced in both languages."}),o>0&&i.push({q:d?s+" ৰ বাবে কিমান সমল উপলব্ধ?":"How much material is available for "+s+"?",a:d?"এই শিতানত এতিয়া "+o+" টা বিষয়"+(c>0?" আৰু প্ৰায় "+c+" টা প্ৰশ্ন":"")+" আছে, নতুন প্ৰশ্ন যোগ হোৱাৰ লগে লগে নিয়মীয়াকৈ হালনাগাদ কৰা হয়।":"This section currently offers "+o+" topics"+(c>0?" with around "+c+" questions":"")+" and is updated regularly as new questions are added."})}Ue(e,{h2:t.h2||s+(u.lang==="as"?" — পৰিচয়":" - Overview"),name:s,info:n,items:t.items||[],tips:t.tips||Ls(t.id),faqs:i})}function E(e){if(e==null)return"";let t=String(e);return/\$[^$]+\$|\\\([^\\]+\\\)/.test(t)||(t=l(t),t=t.replace(/sqrt\(([^)]+)\)/gi,'&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>'),t=t.replace(/√\(([^)]+)\)/g,'&radic;<span style="text-decoration:overline;padding-left:1px;">$1</span>'),t=t.replace(/\^{([^}]+)}/g,"<sup>$1</sup>"),t=t.replace(/\^\(([^)]+)\)/g,"<sup>$1</sup>"),t=t.replace(/\^([\-\+]?[0-9০-৯a-zA-Z\u0980-\u09FF]+)/g,"<sup>$1</sup>"),t=t.replace(/_{([^}]+)}/g,"<sub>$1</sub>"),t=t.replace(/_([0-9০-৯a-zA-Z\u0980-\u09FF]+)/g,"<sub>$1</sub>"),t=t.replace(/\+\/-/g,"&plusmn;"),t=t.replace(/&lt;=/g,"&le;").replace(/&gt;=/g,"&ge;")),t}function ce(e){return!e||!/\$|\\\(|\\\[/.test(e.textContent||"")?Promise.resolve():Cs().then(function(){if(typeof renderMathInElement=="function")try{renderMathInElement(e,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})}catch{}}).catch(function(){})}function R(e,t,a){if(!e)return"";const s=a||(u.mock&&u.mock.testLang?u.mock.testLang:u.lang),n=s==="en"?"english":"assamese",i=f=>f==null?"":Array.isArray(f)?f.map(v=>`<div class="qa-step-line" style="margin:0 0 6px 0; padding:0; line-height:1.65; text-align:left;">${E(v)}</div>`).join(""):typeof f=="object"?i(f[s]||f.as||f.en||Object.values(f)[0]||""):String(f),o=f=>t==="answer"?xt(e,f,s):f;if(t==="answer"){const f=Hs(e),v=Q(e,s),b=e.answer!==void 0?e.answer:e.a,y=Array.isArray(b)||b&&typeof b=="object"&&Object.keys(b).some(w=>Array.isArray(b[w]));if(f>=0&&f<v.length&&v[f]!==void 0&&String(v[f]).trim()!==""&&!y)return i(xt(e,f,s))}if(e[n]&&typeof e[n]=="object"){if(e[n][t]!==void 0)return i(o(e[n][t]));const f=t==="question"?"q":t==="answer"?"a":t==="explanation"?"exp":"";if(f&&e[n][f]!==void 0)return i(o(e[n][f]))}const c=`${t}_${s}`;if(e[c]!==void 0&&e[c]!==null)return i(o(e[c]));const d=t==="question"?"q":t==="answer"?"a":t==="explanation"?"exp":"";if(d){const f=`${d}_${s}`;if(e[f]!==void 0&&e[f]!==null)return i(o(e[f]))}const p=[t];t==="question"&&p.push("q","question_text","headline","title"),t==="answer"&&p.push("a","ans","content","body","description"),t==="explanation"&&p.push("exp","desc","key_points","summary");for(const f of p){const v=e[f];if(v!=null)return i(o(v))}if(t==="answer"){const f=Number.isInteger(e.answer)?e.answer:Number.isInteger(e.correct)?e.correct:Number.isInteger(e.correct_index)?e.correct_index:-1;if(f>=0&&Q(e,s)[f]!==void 0)return i(xt(e,f,s))}const m=`${t}_as`,h=`${t}_en`;return e[m]!==void 0&&e[m]!==null?i(e[m]):e[h]!==void 0&&e[h]!==null?i(e[h]):""}function de(e,t){if(e==null)return"";if(typeof e=="string")return e;if(Array.isArray(e))return e.join(`
+`);const a=t||(u.mock&&u.mock.testLang?u.mock.testLang:u.lang),s=e[a]||e.as||e.en||"";return Array.isArray(s)?s.join(`
+`):String(s)}function Q(e,t){if(!e)return[];const a=t||(u.mock&&u.mock.testLang?u.mock.testLang:u.lang),s=a==="en"?"english":"assamese";if(e[s]&&Array.isArray(e[s].options))return e[s].options.map(String);if(e.options&&typeof e.options=="object"&&!Array.isArray(e.options)){const i=e.options[a]||e.options.as||e.options.en;if(Array.isArray(i))return i.map(String)}if(Array.isArray(e.options)&&e.options.length)return e.options.map(i=>typeof i=="string"?i:typeof i=="object"&&i!==null?i[a]||i.as||i.en||"":String(i));const n=e[`options_${a}`];return Array.isArray(n)&&n.length?n.map(String):Array.isArray(e.options_as)&&e.options_as.length?e.options_as.map(String):Array.isArray(e.options_en)&&e.options_en.length?e.options_en.map(String):[]}function xt(e,t,a){const s=Q(e,a);if(!s||!s.length)return t;const n="ABCDEFGHIJ";let i=-1;if(Number.isInteger(t))i=t;else if(typeof t=="string"){const d=/^[\(\[]?\s*([a-jA-J])\s*[\)\]]?[.)]?$/.exec(t.trim());d&&(i=n.indexOf(d[1].toUpperCase()))}if(i<0||i>=s.length)return t;const o=n[i]||"",c=s[i];return c==null||String(c).trim()===""?o||t:o?`(${o}) ${c}`:String(c)}function Hs(e){if(!e)return-1;const t=[e.correct,e.correct_index,e.answer,e.a];for(const a of t){if(Number.isInteger(a))return a;if(typeof a=="string"){const s=/^[\(\[]?\s*([a-jA-J])\s*[\)\]]?[.)]?$/.exec(a.trim());if(s)return"ABCDEFGHIJ".indexOf(s[1].toUpperCase())}}return-1}function yt(e){return e==null?"":String(e).replace(/<\s*script[\s\S]*?<\s*\/\s*script\s*>/gi,"").replace(/<\s*script[\s\S]*$/gi,"").replace(/\son[a-z]+\s*=\s*"[^"]*"/gi,"").replace(/\son[a-z]+\s*=\s*'[^']*'/gi,"").replace(/\son[a-z]+\s*=\s*[^\s>]+/gi,"").replace(/javascript\s*:/gi,"")}function Bs(e){if(!e)return"";const t=e&&typeof e=="object"&&!Array.isArray(e)?e:{rows:e},a=Array.isArray(t.head)?t.head:Array.isArray(t.headers)?t.headers:[],s=Array.isArray(t.rows)?t.rows:[];if(!a.length&&!s.length)return"";const n=o=>o==null?"":E(de(o));return`
+      <div class="nv-table-wrap">${t.caption?`<div class="nv-table-cap">${l(de(t.caption))}</div>`:""}
+        <table class="nv-table">
+          ${a.length?`<thead><tr>${a.map(o=>`<th>${n(o)}</th>`).join("")}</tr></thead>`:""}
+          <tbody>${s.map(o=>`<tr>${(Array.isArray(o)?o:[]).map(c=>`<td>${n(c)}</td>`).join("")}</tr>`).join("")}</tbody>
+        </table>
+      </div>`}function xe(e){if(!e)return"";const t=[];return e.fig&&t.push(`<div class="nv-media">${yt(e.fig)}</div>`),e.table&&t.push(Bs(e.table)),t.join("")}function ye(e){return!e||!Array.isArray(e.options)||!e.options.some(t=>t&&typeof t=="object"&&t.fig)?null:e.options.map((t,a)=>{const n=t&&typeof t=="object"&&t.option?String(t.option):"ABCDEFGHIJ"[a]||"";return!t||typeof t!="object"?{letter:n,fig:"",text:String(t||"")}:{letter:n,fig:yt(t.fig||""),text:de(t)||""}})}function ne(e,{compact:t}={}){const a=ye(e);return a?`
+      <div class="nv-fig-grid${t?" nv-fig-grid-compact":""}">
+        ${a.map(s=>`
+          <div class="nv-fig-item">
+            <div class="nv-fig-key">(${s.letter})</div>
+            <div class="nv-fig-box">${s.fig||(s.text?`<span class="nv-fig-textonly">${E(s.text)}</span>`:"")}</div>
+            ${s.fig&&s.text?`<div class="nv-fig-cap">${E(s.text)}</div>`:""}
+          </div>`).join("")}
+      </div>`:""}function Ye(e){return e==null?"":typeof e=="object"?de(e):String(e)}function Ve(e){return e&&typeof e=="object"&&typeof e.fig=="string"?yt(e.fig):""}function zs(){const e=g("footer.site-footer")||g("footer");if(!e)return;const t=u.uiLang==="as";e.innerHTML=`
+      <div style="max-width:1100px; margin:0 auto; padding:32px 16px 20px; box-sizing:border-box; color:#ffffff;">
+        <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-start; gap:24px; padding-bottom:24px; border-bottom:1px solid rgba(255,255,255,0.15);">
+          <div style="flex:1; min-width:240px; text-align:left;">
+            <div style="margin-bottom:10px; color:#ffffff;">
+              <svg width="152" height="30" viewBox="0 0 152 30" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block; vertical-align:middle;">
+                <defs>
+                  <linearGradient id="gradLogoFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#6366f1" />
+                    <stop offset="100%" stop-color="#3b82f6" />
+                  </linearGradient>
+                </defs>
+                <rect width="30" height="30" rx="8" fill="url(#gradLogoFooter)"/>
+                <text x="15" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" text-anchor="middle">A</text>
+                <text x="38" y="21" fill="#ffffff" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="16" letter-spacing="-0.4">axomexam<tspan fill="#38bdf8">.in</tspan></text>
+              </svg>
+            </div>
+            <p style="font-size:0.86rem; color:#f8fafc; line-height:1.55; margin:0; max-width:320px; font-weight:400;">
+              ${t?"অসমৰ সৰ্ববৃহৎ দ্বিভাষিক প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি মঞ্চ। ADRE, অসম আৰক্ষী, APSC আদি পৰীক্ষাৰ বিনামূলীয়া সমল।":"Assam's premier bilingual competitive exam preparation portal. Free study notes, mock tests and previous papers."}
+            </p>
+            <p class="footer-contact">
+              ${t?"যোগাযোগ:":"Contact:"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a>
+            </p>
+          </div>
+          
+          <div style="display:flex; gap:40px; flex-wrap:wrap;">
+            <div style="text-align:left;">
+              <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${t?"দ্ৰুত লিংক":"Quick Links"}</span>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
+                <li><a href="/" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"গৃহপৃষ্ঠা":"Home"}</a></li>
+                <li><a href="/previous-year" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"বিগত বৰ্ষৰ প্ৰশ্ন":"Previous Papers"}</a></li>
+                <li><a href="/editorial-policy/" class="axo-editorial-link">${t?"সম্পাদকীয় নীতি":"Editorial Policy"}</a></li>
+                <li><a href="/editorial-team/" class="axo-editorial-link">${t?"সম্পাদকীয় দল":"Editorial Team"}</a></li>
+                <li><a href="/sources/" class="axo-editorial-link">${t?"চৰকাৰী উৎস":"Official Sources"}</a></li>
+                <li><a href="/updates/" class="axo-editorial-link">${t?"সমল হালনাগাদ":"Content Updates"}</a></li>
+                <li><a href="/download-app" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"এপ ডাউনলোড":"Download App"}</a></li>
+                <li><a href="/submit" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"প্ৰশ্ন প্ৰেৰণ কৰক":"Submit Q&A"}</a></li>
+              </ul>
+            </div>
+
+            <div style="text-align:left;">
+              <span style="font-size:0.78rem; font-weight:800; text-transform:uppercase; letter-spacing:0.8px; color:#ffffff; display:block; margin-bottom:12px;">${t?"আইনী নীতি":"Legal & Info"}</span>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px; font-size:0.86rem;">
+                <li><a href="/about" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"আমাৰ বিষয়ে":"About Us"}</a></li>
+                <li><a href="/contact" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"যোগাযোগ কৰক":"Contact Us"}</a></li>
+                <li><a href="/privacy" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"গোপনীয়তা নীতি":"Privacy Policy"}</a></li>
+                <li><a href="/terms" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"নীতি আৰু চৰ্তসমূহ":"Terms & Conditions"}</a></li>
+                <li><a href="/disclaimer" style="color:#ffffff; text-decoration:none; font-weight:500; transition:opacity 0.2s;">${t?"দাবীত্যাগ":"Disclaimer"}</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+          <span class="fbb-made">Made for Assam Competitive Aspirants</span>
+          <span class="fbb-contact">${t?"যোগাযোগ কৰক :":"Contact us :"} <a href="mailto:contact@axomexam.in">contact@axomexam.in</a></span>
+          <span class="fbb-copy">© ${new Date().getFullYear()} <strong>axomexam.in</strong>. All Rights Reserved.</span>
+        </div>
+      </div>
+    `}function Ke(){const e=g("#master-search");e&&(e.placeholder=r("search.placeholder")),S("[aria-label]").forEach(t=>{const a=t.getAttribute("data-aria-i18n");a&&t.setAttribute("aria-label",r(a))}),zs(),Os(),ge()}let te=null,Me=null,na=!1;function oa(){const e=typeof CONFIG<"u"&&CONFIG.WHATSAPP||{},t=String(e.PHONE||"").replace(/[^\d]/g,"");if(!t)return"";const a=r("wa.prefill")||e.MESSAGE||"";return"https://wa.me/"+t+(a?"?text="+encodeURIComponent(a):"")}function Fs(){if(te)return te;const e=oa();if(!e)return null;const t=document.createElement("a");return t.id="wa-chat",t.className="wa-chat",t.href=e,t.target="_blank",t.rel="noopener noreferrer",t.setAttribute("aria-label",r("wa.chatHint")),t.innerHTML=`<span class="wa-chat-ico" aria-hidden="true">${cs()}</span><span class="wa-chat-text" data-wa-text>${l(r("wa.chat"))}</span>`,document.body.appendChild(t),te=t,t}function Os(){if(!te)return;const e=oa();e&&(te.href=e),te.setAttribute("aria-label",r("wa.chatHint"));const t=te.querySelector("[data-wa-text]");t&&(t.textContent=r("wa.chat"))}function ia(){te&&te.classList.toggle("is-hidden",na)}function Je(e){na=!!e,ia()}function Ns(){const e=Fs();if(!e)return;const t=g("footer.site-footer")||g("footer");if(Me&&(Me.disconnect(),Me=null),!("IntersectionObserver"in window)||!t){e.classList.add("is-visible");return}Me=new IntersectionObserver(a=>{a.forEach(s=>e.classList.toggle("is-visible",s.isIntersecting))},{threshold:0,rootMargin:"0px 0px -10% 0px"}),Me.observe(t),ia()}function Gs(){const e=document.querySelector(".header-center .theme-toggle")||document.querySelector(".site-header .theme-toggle");if(e&&!document.querySelector(".desktop-lang-toggle")){const t=document.createElement("div");t.className="desktop-lang-toggle",t.innerHTML=`
+        <button type="button" class="glang-btn ${u.uiLang==="en"?"active":""}" data-glang="en">EN</button>
+        <button type="button" class="glang-btn ${u.uiLang==="as"?"active":""}" data-glang="as">অসমীয়া</button>
+      `,e.insertAdjacentElement("beforebegin",t)}S(".glang-btn").forEach(t=>{t.addEventListener("click",a=>{a.preventDefault();const s=t.dataset.glang;if(u.uiLang!==s){u.uiLang=s,document.body.setAttribute("data-ui-lang",s);try{localStorage.setItem("axomexam-ui-lang",s)}catch{}S(".glang-btn").forEach(n=>{n.classList.toggle("active",n.dataset.glang===u.uiLang)}),Ke(),Xe(),Ze(),st()}})})}function Ws(e){const t=[],a={},s=[],n=(o,c,d,p)=>{const m=[c.id,d?d.id:"",p?p.id:""].filter(Boolean).concat([o.id]).join("/"),h={path:m,cat:c,sub:d,section:p,topic:o,title:o.title||o.name,desc:o.description,tags:o.tags||[],nQuestions:(o.questions||[]).length,pdf:o.pdf||null,popularity:Number(o.popularity)||0};a[m]=h,s.push(h)},i=o=>{o.name=o.name||{en:o.id,as:o.id},o.description=o.description||{};const c=o.subcategories||[];if(c.length)c.forEach(d=>{d.name=d.name||{en:d.id,as:d.id};const p=d.sections||[];if(p.length)p.forEach(m=>{m.name=m.name||{en:m.id,as:m.id},(m.topics||[]).forEach(h=>n(h,o,d,m))});else if((d.topics||[]).length)(d.topics||[]).forEach(m=>n(m,o,d,null));else{const m={id:d.id,name:d.name,description:d.description,popularity:Number(d.popularity)||0},h=[o.id,d.id].join("/"),f={path:h,cat:o,sub:d,section:null,topic:m,title:m.name,desc:m.description,tags:[],nQuestions:0,pdf:null,popularity:m.popularity};a[h]=f,s.push(f)}});else{const d=o.sections||[];d.length?d.forEach(p=>{p.name=p.name||{en:p.id,as:p.id},(p.topics||[]).forEach(m=>n(m,o,null,p))}):(o.topics||[]).forEach(p=>n(p,o,null,null))}t.push(o)};return(e.categories||[]).forEach(i),{categories:t,topicMap:a,topicIndex:s}}function _s(e){if(!e||typeof e!="object")return;u.counts=e;const t=e.topicCounts||{};u.topicIndex.forEach(a=>{Object.prototype.hasOwnProperty.call(t,a.path)&&(a.nQuestions=Number(t[a.path])||0)}),typeof e.examsTotal=="number"&&(u.examQuestionTotal=e.examsTotal,u.examTotalLoaded=!0),typeof e.mockTotal=="number"&&(u.mockTotal=e.mockTotal),typeof e.topicsTotal=="number"&&(u.topicsTotal=e.topicsTotal)}function B(e){const t=u.categories.find(a=>a.id===e);return t&&t.color||(typeof CATEGORY_COLORS<"u"?CATEGORY_COLORS[e]||CATEGORY_COLORS.default:"#0ea5e9")}function Qs(e){const t=u.categories.find(a=>a.id===e);return t&&t.icon||(typeof CATEGORY_ICONS<"u"?CATEGORY_ICONS[e]:"A")||"A"}function pe(e){const t=typeof CATEGORY_ICON_SVG<"u"&&CATEGORY_ICON_SVG[e];return t?`<span class="cat-svg">${t}</span>`:l(Qs(e))}function we(e,t){const a=String(e||"");if(typeof TOPIC_ICON_RULES<"u"){for(const[s,n]of TOPIC_ICON_RULES)if(s.test(a))return`<span class="cat-svg">${n}</span>`}return pe(t)}function qe(e){return u.topicIndex.filter(t=>t.cat.id===e.id).length}function ra(){const e=u.categories.slice(),t=e.findIndex(a=>a.id==="articles");if(t!==-1){const[a]=e.splice(t,1),s=e.findIndex(n=>n.id==="computer");s!==-1?e.splice(s+1,0,a):e.push(a)}return e}function Us(e,t){const a=e.subcategories||e.sections||[],s=!!(a&&a.length),n=t&&t.split("/")[0]===e.id;return`
+      <li class="${s?"has-drop":""}">
+        <a class="nav-link ${n?"active":""}" href="/category/${e.id}">
+          <span>${l(K(e.name))}</span>
+          ${s?'<span class="caret"></span>':""}
+        </a>
+        ${s?Ys(e,t):""}
+      </li>`}function Ys(e,t){return`
+      <div class="dropdown">
+        ${(e.subcategories||e.sections||[]).map(s=>{const n=s.sections;return n&&n.length?`
+              <div class="has-drop">
+                <a href="/category/${e.id}/${s.id}">
+                  <span>${l(K(s.name))}</span><span class="d-caret"></span>
+                </a>
+                <div class="dropdown">
+                  ${n.map(c=>`
+                    <a href="/category/${e.id}/${s.id}/${c.id}">
+                      <span>${l(K(c.name))}</span>
+                    </a>`).join("")}
+                </div>
+              </div>`:`<a href="${!(s.topics&&s.topics.length)?`/topic/${e.id}/${s.id}`:`/category/${e.id}/${s.id}`}">${l(K(s.name))}</a>`}).join("")}
+      </div>`}const Vs=["gk","science","math","history","reasoning"],Ks=["gk","math","science","reasoning"],Js=["english","computer"];function Xe(){const e=g("#nav-list");if(!e)return;const t=la(),a=o=>u.categories.find(c=>c.id===o),s=o=>{const c=a(o);return c?Us(c,t):""},n=[ae("/",r("nav.home"),t),...Ks.map(s),ae("/mock-test",r("nav.mock"),t),ae("/exams",r("nav.exams"),t),ae("/downloads",r("nav.downloads"),t),ae("/leaderboard",r("nav.leaderboard"),t)],i=[...Js.map(s),ae("/current-affairs",r("nav.currentAffairsShort"),t),ae("/exam-wise-mock-test",r("nav.examMock"),t),ae("/previous-year",r("nav.previousYear"),t),ae("/contact",r("nav.contact"),t),Xs(t)];e.innerHTML=n.join("")+'<li class="nav-break" aria-hidden="true"></li>'+i.join("")}function ae(e,t,a){return`<li><a class="nav-link ${a.split("/")[0]===e.replace(/^\//,"")?"active":""}" href="${e}">${l(t)}</a></li>`}function Xs(e){const t=e.split("/")[0],a=["ebooks","download-app","submit","articles"].includes(t),s=u.categories.find(o=>o.id==="articles"),n=s?`
+          <div class="has-drop">
+            <a class="${t==="articles"?"active":""}" href="/category/articles">
+              <span>${l(K(s.name))}</span><span class="d-caret"></span>
+            </a>
+            <div class="dropdown">
+              ${(s.subcategories||s.sections||[]).map(o=>`
+                <a href="/category/articles/${o.id}"><span>${l(K(o.name))}</span></a>`).join("")}
+            </div>
+          </div>`:"",i=[["/submit",r("nav.submit")],["/ebooks",r("nav.ebooks")],["/download-app",r("nav.downloadApp")]].map(([o,c])=>`<a class="${t===o.replace(/^\//,"")?"active":""}" href="${o}">${l(c)}</a>`).join("");return`
+      <li class="has-drop">
+        <a class="nav-link ${a?"active":""}" href="/categories">
+          <span>${l(r("nav.more"))}</span><span class="caret"></span>
+        </a>
+        <div class="dropdown">
+          ${n}
+          ${i}
+        </div>
+      </li>`}function Ze(){const e=g("#mobile-nav");if(!e)return;const t=la(),s=ra().filter(b=>b.id!=="articles"),n=s.findIndex(b=>b.id==="computer");s.splice(n===-1?s.length:n,0,{id:"current-affairs",isCurrentAffairs:!0});const i=Pe(),o=b=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${b}</svg>`,c=(b,y)=>`<span class="m-ico" style="--mc:${y}">${/^\s*<(?:svg|span)\b/i.test(b)?b:o(b)}</span>`,d=b=>{const y=b.replace(/^\//,"").replace(/\/$/,"");return y==="mock-test"?i[0]==="mock-test":y==="exam-wise-mock-test"?i[0]==="exam-wise-mock-test":t===y||t.split("/")[0]===y},p=s.map(b=>{if(b.isCurrentAffairs)return`
+        <li class="m-cat">
+          <div class="m-row">
+            <a class="m-item ${t.split("/")[0]==="current-affairs"?"active":""}" href="/current-affairs">
+              ${c(lt.globe,"#ef4444")}
+              <span class="m-txt"><b>${l(r("nav.currentAffairs"))}</b></span>
+            </a>
+          </div>
+        </li>`;const y=b.subcategories||b.sections||[];return`
+        <li class="m-cat">
+          <div class="m-row">
+            <a class="m-item ${t.split("/")[0]===b.id?"active":""}" href="/category/${b.id}">
+              ${c(pe(b.id),B(b.id))}
+              <span class="m-txt">
+                <b>${l(K(b.name))}</b>
+                <small>${qe(b)} ${l(r("cat.topics"))}</small>
+              </span>
+            </a>
+            ${y.length?`<button class="m-toggle" data-toggle data-target="${b.id}" aria-label="toggle"><span class="caret"></span></button>`:""}
+          </div>
+          ${y.length?`<div class="m-sub" id="msub-${b.id}">${y.map(w=>{const C=w.sections;return C&&C.length?`
+                <div class="m-row m-sub-row">
+                  <a class="m-sub-link" href="/category/${b.id}/${w.id}">${l(K(w.name))}</a>
+                  <button class="m-toggle m-toggle-sm" data-toggle data-target="${b.id}-${w.id}" aria-label="toggle"><span class="caret"></span></button>
+                </div>
+                <div class="m-sub m-nested" id="msub-${b.id}-${w.id}">
+                  ${C.map($=>`<a class="m-sub-link" href="/category/${b.id}/${w.id}/${$.id}">${l(K($.name))}</a>`).join("")}
+                </div>`:`<a class="m-sub-link" href="${!(w.topics&&w.topics.length)?`/topic/${b.id}/${w.id}`:`/category/${b.id}/${w.id}`}">${l(K(w.name))}</a>`}).join("")}</div>`:""}
+        </li>`}),h=[{href:"/mock-test",key:"nav.mock",color:"#0ea5e9",svg:'<circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/>'},{href:"/exam-wise-mock-test",key:"nav.examMock",color:"#6366f1",svg:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/>',isNew:!0},{href:"/ebooks",key:"nav.ebooks",color:"#f59e0b",svg:'<path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/>'},{href:"/exams",key:"nav.exams",color:"#8b5cf6",svg:'<path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>'},{href:"/downloads",key:"nav.downloads",color:"#0d9488",svg:'<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5"/><path d="M12 15V3"/>'},{href:"/leaderboard",key:"nav.leaderboard",color:"#f59e0b",svg:'<path d="M8 21h8"/><path d="M12 17v4"/><path d="M17 4h3v3a4 4 0 0 1-4 4"/><path d="M7 4H4v3a4 4 0 0 0 4 4"/><path d="M7 3h10v5a5 5 0 0 1-10 0z"/>'}].map(b=>`
+      <a class="m-tile ${d(b.href)?"active":""}" href="${b.href}" style="--mc:${b.color}">
+        ${b.isNew?`<span class="m-new">${u.uiLang==="as"?"নতুন":"NEW"}</span>`:""}
+        ${c(b.svg,b.color)}
+        <b>${l(r(b.key))}</b>
+      </a>`),v=[{href:"/previous-year",key:"nav.previousYear",color:"#10b981",svg:'<path d="M9 12h6"/><path d="M9 16h4"/><path d="M7 3v3"/><path d="M17 3v3"/><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M8 9h8a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/>'},{href:"/download-app",key:"nav.downloadApp",color:"#16a34a",svg:'<rect x="7" y="2" width="10" height="20" rx="2.2"/><path d="M12 7v7"/><path d="m9.5 11.5 2.5 2.5 2.5-2.5"/>'},{href:"/submit",key:"nav.submit",color:"#e11d48",svg:'<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>'},{href:"/contact",label:u.uiLang==="as"?"যোগাযোগ":"Contact Us",color:"#64748b",svg:'<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>'}].map(b=>`
+      <a class="m-more ${d(b.href)?"active":""}" href="${b.href}" style="--mc:${b.color}">
+        ${c(b.svg,b.color)}
+        <span>${l(b.label||r(b.key))}</span>
+      </a>`);e.innerHTML=`
+      <li class="m-block">
+        <p class="m-label">${l(r("nav.quickStart"))}</p>
+        <div class="m-tiles">${h.join("")}</div>
+      </li>
+      <li class="m-block">
+        <p class="m-label">${l(r("nav.categories"))}</p>
+        <ul class="m-cats">${p.join("")}</ul>
+      </li>
+      <li class="m-block">
+        <p class="m-label">${l(r("mmenu.extra"))}</p>
+        <div class="m-more-grid">${v.join("")}</div>
+      </li>`,S("[data-toggle]",e).forEach(b=>{b.addEventListener("click",y=>{y.preventDefault(),y.stopPropagation();const w=g(`#msub-${b.dataset.target}`);w&&(w.classList.toggle("open"),b.classList.toggle("open"))})})}function Pe(){let e=window.location.pathname.replace(/^\/|\/$/g,"");return e=e.replace(/^as(?:\/|$)/,""),window.location.search&&window.location.search.startsWith("?/")&&(e=window.location.search.slice(2).replace(/~and~/g,"&"),window.history.replaceState(null,null,"/"+e)),e.split("/").filter(Boolean)}function et(){return/^\/as(\/|$)/.test(window.location.pathname)}function Zs(){const e=window.location.pathname,t=e.match(/^\/as(\/.*)?$/);return t?t[1]||"/":"/as"+e}function la(){return Pe().filter(e=>e!=="category"&&e!=="topic"&&e!=="mock-test").join("/")}function tt(e){window.history.pushState(null,null,e),Xe(),Ze(),st()}function wt(){const e=document.documentElement,t=e.style.scrollBehavior;e.style.scrollBehavior="auto",window.scrollTo(0,0),e.style.scrollBehavior=t}function at(e,t){if(!e)return!1;let a=null;try{a=document.getElementById(e)||document.querySelector(`[name="${CSS.escape(e)}"]`)}catch{a=document.getElementById(e)}if(!a)return!1;const s=parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--header-h"))||0,n=a.getBoundingClientRect().top+window.pageYOffset-s-16,i=document.documentElement,o=i.style.scrollBehavior;return i.style.scrollBehavior=t?"smooth":"auto",window.scrollTo(0,Math.max(0,n)),t?setTimeout(()=>{i.style.scrollBehavior=o},600):i.style.scrollBehavior=o,!0}function en(){const e=window.location.hash;if(!e||e==="#")return;let t=e.slice(1);try{t=decodeURIComponent(t)}catch{}if(at(t,!1))try{history.replaceState(history.state,"",window.location.pathname+window.location.search)}catch{}}function tn(){try{const e=Pe();let t="axomexam | Assam Exam Preparation – Mock Tests, Previous Papers & PDF Notes",a="Free bilingual (Assamese & English) Q&A, mock tests and PDF notes for Assam exam, ADRE, APSC and Assam Police preparation.";if(e[0]==="topic"){const o=u.topicMap[e.slice(1).join("/")];if(o){const c=x(o.topic.title||o.title);t=c?c+" | axomexam":t;const d=x(o.topic.description||o.desc);d&&(a=d)}}else if(e[0]==="category"&&e[1]){const o=u.categories.find(c=>c.id===e[1]);if(o){const c=x(o.name);t=c?c+" | axomexam":t;const d=x(o.description);d&&(a=d)}}else if(e[0]==="mock-test"){const o=u.categories.find(d=>d.id===e[1]),c=o?x(o.name):"";t=(c?c+" ":"")+"Mock Test | axomexam"}else if(e[0]==="exam-wise-mock-test"){const o=(u.exams||[]).find(m=>m.id===e[1]),c=o?x(o.title):"",d=o&&e[2]?(o.sections||[]).find(m=>m.id===e[2]):null,p=d?x(d.title):"";p?(t=p+" Mock Test — "+c+" | axomexam",a="Take a free timed "+p+" mock test for "+c+" with instant scoring and bilingual answer review."):c?(t=c+" Mock Test | axomexam",a="Take free timed mock tests for "+c+" subject-wise with instant scoring and bilingual answer review."):(t="Exam-wise Mock Test | axomexam",a="Take free exam-wise timed mock tests for Assam Police, ADRE Grade III and ADRE Grade IV — instant scoring and bilingual answer review.")}else if(e[0]==="previous-year")t="Previous Year Question Papers | axomexam";else if(e[0]==="trending")t="Trending Topics | axomexam";else if(e[0]==="downloads")t="Download Free PDF Notes | axomexam";else if(e[0]==="download-app")t="Download axomexam App (APK) | axomexam",a="Download the free axomexam Android app (APK, v2.6) — mock tests, bilingual Q&A practice, e-books and previous year papers for ADRE, APSC, Assam Police, SSC & Railway exams.";else if(e[0]==="ebooks")t=e[1]?"Read E-Book Online | axomexam":"E-Books Library | axomexam",a="Free online e-books for Assam competitive exams (ADRE, APSC, Assam Police) — Assam History, Indian History, Art & Culture, Polity, Economy and Geography. Read online in English and Assamese, no PDF download.";else if(e[0]==="exams"){const o=(u.exams||[]).find(f=>f.id===e[1]),c=o?O(o):"",d=o&&e[2]?(o.sections||[]).find(f=>f.id===e[2]):null,p=d?x(d.title):"",m=d&&e[3]?(d.subcategories||[]).find(f=>f.id===e[3]):null,h=m?x(m.title):"";h?(t=h+(p?" — "+p:"")+" | axomexam",a="Practise "+h+" MCQs with answers and explanations for Assam Police Constable (AB & UB) and other competitive exams in Assam."):p?t=p+(c?" — "+c:"")+" | axomexam":e[1]?t=(c?c+" ":"")+"Exam Book | axomexam":t="Your Exams | axomexam",h||(a="Choose your exam and prepare subject-wise — syllabus, Elementary Mathematics, General English, Logical Reasoning & Mental Ability, Assam's History, Geography & Culture and General Knowledge & Current Affairs. Read online in English and Assamese.")}else if(e[0]==="current-affairs"){const o=(e[1]||"").replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase());o?(t=o+" Current Affairs Q&A | axomexam",a="Free "+o+" current affairs questions with explained answers in Assamese and English — updated regularly by the axomexam team."):(t="Free Current Affairs Questions & Answers | axomexam",a="Free bilingual current affairs Q&A for Assam competitive exams — sports, awards, appointments, economy, environment and more, updated by the axomexam team.")}else e[0]==="categories"?t="All Categories | axomexam":["about","privacy","privacy-policy","terms","disclaimer","contact","submit","editorial-policy","editorial-team","sources","updates"].includes(e[0])&&(t=({about:"About Us",privacy:"Privacy Policy","privacy-policy":"Privacy Policy",terms:"Terms & Conditions",disclaimer:"Disclaimer",contact:"Contact Us",submit:"Submit Q&A","editorial-policy":"Editorial Policy","editorial-team":"Editorial Team",sources:"Official Sources",updates:"Content Updates"}[e[0]]||"axomexam")+" | axomexam");document.title=t;let s=document.querySelector('meta[name="description"]');s||(s=document.createElement("meta"),s.name="description",document.head.appendChild(s)),s.content=a;let n=window.location.pathname;n.endsWith("/")||(n+="/");const i=document.querySelector('link[rel="canonical"]');i&&(i.href=window.location.origin+n)}catch{}}const ca=Object.create(null);let da=null;function an(){const e=document.querySelector("section.ca-rich");return e?e.getAttribute("data-ca-rich"):null}function pa(){const e=document.querySelector("section.ca-rich");e&&e.remove();const t=Array.from(document.head.childNodes),a=t.findIndex(s=>s.nodeType===8&&/ca-rich-schema:/.test(s.nodeValue||""));if(a!==-1)for(let s=a;s<t.length;s++){const n=t[s],i=n.nodeType===8&&/\/ca-rich-schema/.test(n.nodeValue||"");if(n.parentNode&&n.parentNode.removeChild(n),i)break}}async function sn(e){const t=da={},a=an();if(!e){a!==null&&pa();return}if(a===e)return;const s=e==="index"?"/current-affairs/":"/current-affairs/"+encodeURIComponent(e)+"/";let n=ca[s];if(n===void 0)try{const y=await fetch(s,{cache:"no-store"});if(!y.ok)return;n=ca[s]=await y.text()}catch{return}if(da!==t)return;let i;try{i=new DOMParser().parseFromString(n,"text/html")}catch{return}const o=i.querySelector("section.ca-rich");if(!o)return;const c=Array.from(i.head.childNodes),d=c.findIndex(y=>y.nodeType===8&&/ca-rich-schema:/.test(y.nodeValue||"")),p=[];if(d!==-1)for(let y=d;y<c.length;y++){const w=c[y],C=w.nodeType===8&&/\/ca-rich-schema/.test(w.nodeValue||"");if(p.push(document.importNode(w,!0)),C)break}pa();const m=document.getElementById("app"),h=document.importNode(o,!0);m&&m.parentNode?m.parentNode.insertBefore(h,m.nextSibling):document.body.appendChild(h),p.forEach(y=>document.head.appendChild(y));const f=i.querySelector("title");f&&f.textContent&&(document.title=f.textContent);const v=i.querySelector('meta[name="description"]'),b=document.querySelector('meta[name="description"]');v&&b&&b.setAttribute("content",v.getAttribute("content")||"")}const ua=Object.create(null);let ma=null;function ha(e){return e?e.length>1&&e.charAt(e.length-1)!=="/"?e+"/":e:"/"}async function nn(e){const t=ma={},a=document.querySelector("section.axo-extra-content"),s=document.querySelector("[data-axo-editorial-credit]"),n=a?ha(a.getAttribute("data-axo-path")):null,i=()=>{a&&a.remove(),s&&s.remove()};if(!e){i();return}const o=ha(e);if(n===o)return;let c=ua[o];if(c===void 0)try{const f=await fetch(o,{cache:"no-store"});c=ua[o]=f.ok?await f.text():""}catch{return}if(ma!==t)return;if(!c){i();return}let d;try{d=new DOMParser().parseFromString(c,"text/html")}catch{return}const p=d.querySelector("section.axo-extra-content"),m=d.querySelector("[data-axo-editorial-credit]"),h=document.getElementById("app");if(p){const f=document.importNode(p,!0);if(f.style.display="",a)a.replaceWith(f);else{const v=document.querySelector("[data-axo-editorial-credit]");let b,y;v?(b=v.parentNode,y=v):h?(b=h.parentNode,y=h.nextSibling):(b=null,y=null),b?b.insertBefore(f,y):document.body.appendChild(f)}}else a&&a.remove();if(m){const f=document.importNode(m,!0);if(s)s.replaceWith(f);else{const v=document.querySelector("section.axo-extra-content");let b,y;v?(b=v.parentNode,y=v.nextSibling):h?(b=h.parentNode,y=h.nextSibling):(b=null,y=null),b?b.insertBefore(f,y):document.body.appendChild(f)}}else s&&s.remove()}async function st(){const e=await on();return en(),e}async function on(){if(!u.ready)return;const e=Pe(),t=g("#app");if(Le(),At(),di(e),wt(),tn(),sn(e[0]==="current-affairs"?e[1]||"index":null),nn(e.length?window.location.pathname:null),qa(),e[0]!=="mock-test"&&u.mock&&u.mock.timerId&&(ct(),u.mock=null,Dt()),e[0]!=="mock-test"&&Je(!1),u.lang=et()?"as":"en",document.body.setAttribute("data-lang",u.lang),e.length===0)return rn(t);if(e[0]==="category"){const a=u.categories.find(s=>s.id===e[1]);return a?e.length>=2&&e[2]?dn(t,e):cn(t,a):G(t)}if(e[0]==="topic"){const a=e.slice(1).join("/"),s=u.topicMap[a];return s?ba(t,s):G(t)}if(["about","privacy","privacy-policy","terms","disclaimer","editorial-policy","editorial-team","sources","updates"].includes(e[0])){const a=e[0]==="privacy-policy"?"privacy":e[0];return vn(t,a)}return e[0]==="contact"?xn(t):e[0]==="trending"?bn(t):e[0]==="previous-year"?to(t,e):e[0]==="categories"?kn(t):e[0]==="search"?wn(t):e[0]==="downloads"?An(t):e[0]==="download-app"?eo(t):e[0]==="ebooks"?e[1]?Mn(t,e[1]):Cn(t):e[0]==="exams"?e[1]&&e[2]&&e[3]&&e[4]?Zn(t,e[1],e[2],e[3],e[4]):e[1]&&e[2]&&e[3]?Xn(t,e[1],e[2],e[3]):e[1]&&e[2]?Jn(t,e[1],e[2]):e[1]?Un(t,e[1]):jn(t):e[0]==="exam-wise-mock-test"?co(t,e):e[0]==="current-affairs"?e[1]?Dn(t,e[1]):Rn(t):e[0]==="leaderboard"?window.AXOLeaderboardUI?window.AXOLeaderboardUI.renderPage(t):G(t):e[0]==="submit"?no(t):e[0]==="mock-test"?lo(t,e):G(t)}function rn(e){const t=u.topicIndex.reduce((o,c)=>o+(c.nQuestions||0),0)+(u.examQuestionTotal||0)+(u.caQuestionTotal||0)+(u.mockTotal||0),a=u.topicsTotal||u.topicIndex.length,s=Kt,n=fa(u.topicIndex).slice(0,typeof CONFIG<"u"?CONFIG.TRENDING_COUNT:6);e.innerHTML=`
+      <section class="hero reveal visible">
+        <div class="hero-content">
+          <a class="hero-badge" href="/mock-test">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            ${r("hero.daily")} • ADRE 3.0 / RRB
+          </a>
+          <h1>${r("hero.title")||"Crack Assam Competitive Exams with Bilingual Q&A & PDF Notes"}</h1>
+          <p class="sub">${r("hero.sub")||"Practice thousands of questions for Assam competitive exams and download printable PDF notes in both Assamese and English — for ADRE 3.0, APSC, Assam Police, SSC, Railway & more."}</p>
+          <div class="hero-stats">
+            <div class="stat"><b id="stat-total-questions">${t.toLocaleString()}+</b><span>${r("stat.questions")}</span></div>
+            <div class="stat"><b id="stat-total-topics">${a.toLocaleString()}+</b><span>${r("stat.topics")}</span></div>
+            <div class="stat"><b id="stat-total-pdfs">${s}+</b><span>${r("stat.pdfs")}</span></div>
+          </div>
+        </div>
+        ${ln()}
+      </section>
+
+      <section class="section feat-sec">
+        <div class="section-head reveal">
+          <div>
+            <h2>${u.uiLang==="as"?"সুবিধাসমূহ":"Features"}</h2>
+            <p class="sec-sub">${u.uiLang==="as"?"আৰম্ভ কৰিবলৈ এটা বিকল্প বাছনি কৰক":"Quick ways to start your preparation"}</p>
+          </div>
+        </div>
+        <div class="feat-grid">
+          <a class="feat-card feat-new reveal" href="/exams" style="--fc:#8b5cf6">
+            <span class="feat-new-badge"><span class="fnb-dot"></span>${u.uiLang==="as"?"নতুন":"NEW"}</span>
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া পৰীক্ষা-বহী":"Free Exam Books"}</b><span>${u.uiLang==="as"?"পৰীক্ষা-ভিত্তিক প্ৰস্তুতি":"Exam-wise preparation"}</span></span>
+          </a>
+          <a class="feat-card feat-new reveal" href="/exam-wise-mock-test" style="--fc:#6366f1">
+            <span class="feat-new-badge"><span class="fnb-dot"></span>${u.uiLang==="as"?"নতুন":"NEW"}</span>
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"পৰীক্ষা-ভিত্তিক মক টেষ্ট":"Exam-wise Mock Test"}</b><span>${u.uiLang==="as"?"অসম আৰক্ষী, ADRE, APSC আৰু TET":"Assam Police, ADRE, APSC & TET"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/categories/" style="--fc:#4f46e5">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়াকৈ অনুশীলন আৰম্ভ কৰক":"Free Practicing"}</b><span>${u.uiLang==="as"?"বিষয়ভিত্তিক প্ৰশ্ন অনুশীলন":"Practice Q&A by subject"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/mock-test" style="--fc:#0ea5e9">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5"/><path d="M9 2h6"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়াকৈ মক টেষ্ট দিয়ক":"Free Mock Test"}</b><span>${u.uiLang==="as"?"সময়বদ্ধ পৰীক্ষা-ধৰণৰ টেষ্ট":"Timed exam-pattern tests"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/current-affairs" style="--fc:#ef4444">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/><path d="M8 16h3"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া চলিত ঘটনাৱলী":"Free Current Affairs"}</b><span>${u.uiLang==="as"?"আপডেট: ১ অক্টোবৰ ২০২৬ • দৈনিক প্ৰশ্ন আৰু ব্যাখ্যা":"Updated: 1 October 2026 • Q&A with answers"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/previous-year" style="--fc:#10b981">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"পূৰ্ববৰ্তী বছৰৰ প্ৰশ্ন":"Previous Year Questions"}</b><span>${u.uiLang==="as"?"পূৰ্বৰ প্ৰশ্নপত্ৰসমূহ":"Solved past papers"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/category/articles" style="--fc:#e11d48">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Z"/><path d="M18 14h-8M15 18h-5M10 6h8v4h-8z"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া সবিশেষ প্ৰবন্ধ":"Free Detailed Articles"}</b><span>${u.uiLang==="as"?"অধ্যয়ন প্ৰবন্ধ":"Study articles"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/downloads" style="--fc:#0d9488">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া PDF টোকা":"Free PDF Notes"}</b><span>${u.uiLang==="as"?"প্ৰিন্ট কৰিব পৰা PDF নোট":"Printable PDF notes"}</span></span>
+          </a>
+          <a class="feat-card reveal" href="/ebooks" style="--fc:#f59e0b">
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া ই-বুক":"Free eBooks"}</b><span>${u.uiLang==="as"?"যিকোনো সময়ত অনলাইন পঢ়ক":"Read online, anytime"}</span></span>
+          </a>
+          <a class="feat-card feat-app reveal" href="/download-app/" style="--fc:#16a34a">
+            <span class="feat-ico feat-ico-app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v7"/><path d="m9 7 3 3 3-3"/><path d="M4 15.5c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/><path d="M4 19c2.5-1.3 5.5-1.3 8 0 2.5-1.3 5.5-1.3 8 0"/></svg></span>
+            <span class="feat-body"><b>${u.uiLang==="as"?"বিনামূলীয়া এপ ডাউনলোড কৰক":"Download Free App"}</b><span>${u.uiLang==="as"?"এণ্ড্ৰইড APK • v2.6":"Android APK • v2.6"}</span></span>
+          </a>
+          <a class="feat-card feat-new reveal" href="/leaderboard" style="--fc:#d97706">
+            <span class="feat-new-badge"><span class="fnb-dot"></span>${u.uiLang==="as"?"নতুন":"NEW"}</span>
+            <span class="feat-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 5H4v2a3 3 0 0 0 3 3"/><path d="M17 5h3v2a3 3 0 0 1-3 3"/></svg></span>
+            <span class="feat-body"><b>${r("nav.leaderboard")}</b><span>${u.uiLang==="as"?"সকলো বিষয়ৰ শীৰ্ষ স্ক'ৰ":"Top scores across subjects"}</span></span>
+          </a>
+        
+        </div>
+        <style>
+          .feat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+          .feat-card { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 12px; padding: 20px 16px; border-radius: 18px; border: 1px solid var(--line); background: radial-gradient(140% 140% at 100% 0%, color-mix(in srgb, var(--fc) 13%, transparent), transparent 58%), linear-gradient(180deg, var(--bg), var(--bg-soft)); box-shadow: var(--card-shadow); overflow: hidden; isolation: isolate; transition: transform .28s cubic-bezier(.22, .61, .36, 1), box-shadow .28s, border-color .28s; }
+          .feat-card::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1px; background: linear-gradient(135deg, color-mix(in srgb, var(--fc) 78%, transparent), transparent 46%, color-mix(in srgb, var(--fc) 45%, transparent)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); mask-composite: exclude; opacity: 0; transition: opacity .28s; pointer-events: none; }
+          .feat-card::after { content: ""; position: absolute; top: 0; bottom: 0; left: -120%; width: 55%; background: linear-gradient(100deg, transparent, color-mix(in srgb, var(--fc) 26%, transparent), transparent); transform: skewX(-18deg); transition: left .75s cubic-bezier(.22, .61, .36, 1); pointer-events: none; }
+          .feat-card:hover { transform: translateY(-6px); border-color: color-mix(in srgb, var(--fc) 42%, var(--line)); box-shadow: 0 20px 42px -20px color-mix(in srgb, var(--fc) 60%, transparent), var(--card-shadow-hover); }
+          .feat-card:hover::before { opacity: 1; }
+          .feat-card:hover::after { left: 145%; }
+          .feat-card:active { transform: translateY(-2px) scale(.99); }
+          .feat-ico { flex: 0 0 auto; width: 50px; height: 50px; border-radius: 15px; display: grid; place-items: center; color: #fff; background: linear-gradient(145deg, color-mix(in srgb, var(--fc) 82%, #fff), var(--fc) 52%, color-mix(in srgb, var(--fc) 68%, #000)); box-shadow: 0 12px 24px -12px color-mix(in srgb, var(--fc) 90%, transparent), inset 0 1px 0 rgba(255, 255, 255, .4); transition: transform .28s cubic-bezier(.22, .61, .36, 1), box-shadow .28s; }
+          .feat-new-badge { position: absolute; top: 8px; right: 8px; z-index: 2; display: inline-flex; align-items: center; gap: 5px; padding: 3px 8px 3px 7px; border-radius: 999px; font-size: .58rem; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; color: #fff; background: linear-gradient(120deg, #ff4d6d, #f43f5e 46%, #d90429); box-shadow: 0 6px 16px -6px rgba(217, 4, 41, .85), inset 0 1px 0 rgba(255, 255, 255, .45); animation: fnbPulse 1.9s ease-in-out infinite; }
+          .feat-new-badge .fnb-dot { width: 5px; height: 5px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 0 rgba(255, 255, 255, .75); animation: fnbDot 1.9s ease-out infinite; }
+          .feat-card:hover .feat-new-badge { animation-play-state: paused; transform: scale(1.06); }
+          @keyframes fnbPulse { 0%, 100% { box-shadow: 0 6px 16px -6px rgba(217, 4, 41, .85), inset 0 1px 0 rgba(255, 255, 255, .45), 0 0 0 0 rgba(244, 63, 94, .5); } 50% { box-shadow: 0 8px 20px -6px rgba(217, 4, 41, .95), inset 0 1px 0 rgba(255, 255, 255, .55), 0 0 0 6px rgba(244, 63, 94, 0); } }
+          @keyframes fnbDot { 0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, .8); } 70%, 100% { box-shadow: 0 0 0 5px rgba(255, 255, 255, 0); } }
+          @media (prefers-reduced-motion: reduce) { .feat-new-badge, .feat-new-badge .fnb-dot { animation: none; } }
+          .feat-card:hover .feat-ico { transform: scale(1.07) rotate(-4deg); box-shadow: 0 16px 30px -12px color-mix(in srgb, var(--fc) 95%, transparent), inset 0 1px 0 rgba(255, 255, 255, .5); }
+          .feat-ico svg { width: 23px; height: 23px; }
+          .feat-ico-app { position: relative; overflow: hidden; border-radius: 14px; background: linear-gradient(150deg, #4ade80, #22c55e 42%, #15803d); box-shadow: 0 12px 24px -12px rgba(22, 163, 74, .95), inset 0 1px 0 rgba(255, 255, 255, .55), inset 0 -8px 16px -8px rgba(0, 0, 0, .28); }
+          .feat-ico-app::before { content: ""; position: absolute; inset: 2px 2px auto; height: 46%; border-radius: 12px 12px 50% 50%; background: linear-gradient(180deg, rgba(255, 255, 255, .4), transparent); pointer-events: none; }
+          .feat-ico-app::after { content: ""; position: absolute; right: -9px; bottom: -9px; width: 26px; height: 26px; border-radius: 50%; background: rgba(255, 255, 255, .18); pointer-events: none; }
+          .feat-ico-app svg { position: relative; z-index: 1; width: 26px; height: 26px; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .2)); }
+          .feat-body { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 3px; min-width: 0; }
+          .feat-body b { font-size: .98rem; font-weight: 700; letter-spacing: -.2px; color: var(--ink); }
+          .feat-body span { font-size: .775rem; line-height: 1.35; color: var(--ink-faint); }
+          @media (max-width: 640px) {
+            .feat-grid { grid-template-columns: 1fr 1fr; gap: 12px; }
+            .feat-card { gap: 9px; padding: 16px 12px; border-radius: 16px; min-height: 118px; }
+            .feat-ico { width: 44px; height: 44px; border-radius: 13px; }
+            .feat-ico svg { width: 21px; height: 21px; }
+            .feat-body b { font-size: .9rem; }
+            .feat-body span { font-size: .71rem; }
+          }
+        </style>
+      </section>
+
+      <section class="section">
+        <div class="section-head reveal">
+          <div>
+            <h2>${r("home.categories")}</h2>
+            <p class="sec-sub">${r("home.categories.sub")}</p>
+          </div>
+        </div>
+        <div class="cat-grid">
+          ${ra().map((o,c)=>{const d=B(o.id);return`
+              <a class="cat-card reveal" href="/category/${o.id}" data-cat="${o.id}" style="--cat:${d}" data-delay="${c*60}">
+                <span class="cat-ico">${pe(o.id)}</span>
+                <span class="cat-meta">
+                  ${ea(o.name)}
+                  <span><span class="cat-count">${qe(o)}</span> ${o.id==="study-guides"?u.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}</span>
+                </span>
+              </a>`}).join("")}
+        </div>
+        <style>
+          @media (min-width: 544px) and (max-width: 799px) {
+            .cat-card[data-cat="articles"] { grid-column: 2; }
+          }
+        </style>
+      </section>
+
+      <section class="section" style="padding-bottom: 40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>${r("home.trending")}</h2>
+            <p class="sec-sub">${r("home.trending.sub")}</p>
+          </div>
+          <a class="see-all" href="/trending">${r("see.all")}</a>
+        </div>
+        <div class="trend-grid">
+          ${n.map((o,c)=>`
+            <a class="topic-card reveal" href="/topic/${o.path}" style="--cat:${B(o.cat.id)}" data-delay="${c*50}">
+              <span class="topic-ico">${we(o.topic.id,o.cat.id)}</span>
+              <span class="rank">${c+1}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${l(x(o.title))}</span>
+                <span id="trend-count-${o.path.replace(/\//g,"-")}">${l(x(o.cat.name))} • ${o.cat.id==="study-guides"?u.uiLang==="as"?"পঢ়ক →":"Read Guide →":`${o.nQuestions||0} ${r("topic.questions")}`}</span>
+              </span>
+              <span class="trend-flame">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>
+
+      <section class="section start-sec">
+        <div class="section-head reveal">
+          <div>
+            <h2>${u.uiLang==="as"?"অসম পৰীক্ষাৰ প্ৰস্তুতি আৰম্ভ কৰক":"Start Your Assam Exam Preparation"}</h2>
+            <p class="sec-sub">${u.uiLang==="as"?"axomexam ত নতুন? অধ্যয়ন পুথিভঁৰাল কেনেকৈ সজোৱা হৈছে আৰু ক'ৰপৰা আৰম্ভ কৰিব, তলত চাওক":"New to axomexam? Here is how the study library is organised and where to begin"}</p>
+          </div>
+        </div>
+        <div class="start-grid">
+          ${[{href:"/exams/",t:u.uiLang==="as"?"আপোনাৰ পৰীক্ষা বাছনি কৰক":"Pick your exam",d:u.uiLang==="as"?"আপুনি যি নিযুক্তিৰ বাবে প্ৰস্তুতি লৈছে সেইটো বাছনি কৰক — ADRE 3.0 গ্ৰেড III বা IV, APSC CCE, অসম আৰক্ষী AB আৰু UB বা SI, DHS আৰু DME, গুৱাহাটী উচ্চ ন্যায়ালয়, SSC বা ৰে'লৱে — আৰু সেই পত্ৰখনৰ পাঠ্যক্ৰম অনুসৰি বিষয়ৰ তালিকা অনুসৰণ কৰক।":"Choose the recruitment you are targeting — ADRE 3.0 Grade III or Grade IV, APSC CCE, Assam Police AB and UB or SI, DHS and DME, Guwahati High Court, SSC or Railway — and follow the syllabus-wise subject list for that paper.",cta:u.uiLang==="as"?"পৰীক্ষা আৰু পাঠ্যক্ৰম চাওক &rarr;":"Browse exams and syllabus →"},{href:"/categories/",t:u.uiLang==="as"?"বিষয়ভিত্তিক অধ্যয়ন কৰক":"Study topic by topic",d:u.uiLang==="as"?"প্ৰশ্নভঁৰাল বিষয় আৰু উপ-বিষয় অনুসৰি সজোৱা হৈছে: অসম সাধাৰণ জ্ঞান, ইতিহাস, ভূগোল, ৰাজনীতি, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ। প্ৰতিটো বিষয়ৰ পৃষ্ঠাত টোকা, প্ৰশ্ন আৰু প্ৰতিটো উত্তৰৰ ব্যাখ্যা আছে।":"The question bank is organised by subject and sub-topic: Assam General Knowledge, History, Geography, Polity, Mathematics, General Science, Reasoning, General English and Computer Awareness. Each topic page carries the notes, the questions and a worked explanation for every answer.",cta:u.uiLang==="as"?"সকলো বিষয় চাওক &rarr;":"See all subjects →"},{href:"/mock-test/",t:u.uiLang==="as"?"সময়বদ্ধ মক টেষ্ট দিয়ক":"Attempt timed mock tests",d:u.uiLang==="as"?"প্ৰতিটো মক টেষ্ট এটা লাইভ কাউণ্টডাউনত চলে আৰু প্ৰকৃত প্ৰশ্নপত্ৰৰ আৰ্হি অনুসৰণ কৰে, তাৎক্ষণিক ফলাফল আৰু উত্তৰ পৰ্যালোচনাৰ সৈতে। এটা ছেট দিয়ক, হেৰুওৱা প্ৰশ্নৰ ব্যাখ্যা পঢ়ক, তাৰ পিছত কেইদিনমানৰ পিছত পুনৰ চেষ্টা কৰক।":"Every mock test runs on a live countdown and follows the real paper pattern, with instant results and an answer review. Attempt a set, read the explanations for the questions you miss, then re-attempt it after a few days.",cta:u.uiLang==="as"?"মক টেষ্ট দিয়ক &rarr;":"Take a mock test →"},{href:"/downloads/",t:u.uiLang==="as"?"PDF টোকাৰে পুনৰাবৃত্তি কৰক":"Revise with PDF notes",d:u.uiLang==="as"?"প্ৰিণ্ট কৰিব পৰা PDF টোকা, ই-বুক আৰু পূৰ্ববৰ্তী বছৰৰ সমাধান কৰা প্ৰশ্নপত্ৰ ডাউনলোড কৰক যাতে আপুনি অফলাইনত পুনৰাবৃত্তি কৰিব পাৰে। axomexam.in ত সকলো বিনামূলীয়া, দ্বিভাষিক আৰু একাউণ্ট বা লগইনৰ প্ৰয়োজন নাই।":"Download the printable PDF notes, e-books and previous year solved papers so you can revise offline. Everything on axomexam.in is free, bilingual and needs no account or login.",cta:u.uiLang==="as"?"PDF টোকা লওক &rarr;":"Get PDF notes →"}].map((o,c)=>`
+          <div class="start-card reveal" data-delay="${c*60}">
+            <span class="start-num">${c+1}</span>
+            <b>${o.t}</b>
+            <p>${o.d}</p>
+            <a href="${o.href}">${o.cta}</a>
+          </div>`).join("")}
+        </div>
+        <style>
+          .start-sec .start-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(238px,1fr)); gap:16px; }
+          .start-card { display:flex; flex-direction:column; gap:9px; padding:20px; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:var(--radius,14px); box-shadow:var(--card-shadow,0 1px 2px rgba(15,23,42,.06), 0 8px 24px -12px rgba(15,23,42,.12)); transition:transform .22s cubic-bezier(.4,0,.2,1), box-shadow .22s, border-color .22s; }
+          .start-card:hover { transform:translateY(-4px); box-shadow:var(--card-shadow-hover,0 2px 4px rgba(15,23,42,.08), 0 16px 40px -16px rgba(79,70,229,.28)); border-color:var(--primary,#4f46e5); }
+          .start-num { width:34px; height:34px; flex:0 0 auto; display:grid; place-items:center; border-radius:10px; font-weight:800; font-size:.95rem; color:#fff; background:var(--grad,linear-gradient(135deg,#4f46e5,#7c3aed 55%,#22d3ee 130%)); }
+          .start-card b { font-size:1rem; letter-spacing:-.2px; color:var(--ink,#0f172a); }
+          .start-card p { margin:0; font-size:.88rem; line-height:1.65; color:var(--ink-soft,#475569); }
+          .start-card a { margin-top:auto; font-size:.86rem; font-weight:700; color:var(--primary,#4f46e5); }
+          .start-card a:hover { text-decoration:underline; }
+        </style>
+      </section>
+
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>Assam Exam Preparation at Your Fingertips</h2>
+            <p class="sec-sub">Free mock tests, previous year papers & study notes for every Assam competitive exam</p>
+          </div>
+        </div>
+        <style>
+          .seo-read-more { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+          .seo-read-more.expanded { display:block; -webkit-line-clamp:unset; }
+        </style>
+        <div style="max-width:860px; margin:0 auto; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:26px 28px; box-shadow:0 6px 20px -8px rgba(15,23,42,0.06); text-align:left;">
+          <div class="seo-read-more" id="seo-read-more">
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0 0 14px 0;">
+              <b style="color:var(--ink,#0f172a);">axomexam</b> is a free bilingual study platform built for <b>Assam exam</b> aspirants — however you search for it, whether <b>axom exam</b>, <b>assam exam</b> or <b>assamexam</b>. Whether you are preparing for the <b>ADRE</b> (Assam Direct Recruitment Examination), <b>APSC</b>, <b>Assam Police</b>, or central exams like SSC and Railway, you will find thousands of practice questions, mock tests and previous year papers — all available in both English and Assamese. Many students look for the <b>exam Assam</b> or <b>exam Axom</b> (অসম পৰীক্ষা), and <b>axomexam</b> makes sure every major Assam government recruitment exam is covered here.
+            </p>
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0 0 14px 0;">
+              From Assam General Knowledge, Assam History and Assam Geography to Indian Polity, Mathematics, Reasoning, General English and Science, the question bank is organised subject-wise so you can practise topic by topic. Each question includes a clear answer and explanation, and every mock test runs on a live timer just like the real exam — completely free, with no registration needed.
+            </p>
+            <p style="font-size:0.97rem; line-height:1.8; color:var(--ink-soft,#334155); margin:0;">
+              Get started with a <a href="/mock-test" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">free mock test</a>, go through the <a href="/previous-year" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">previous year solved papers</a>, or download <a href="/downloads" style="color:var(--primary,#2563eb); font-weight:700; text-decoration:underline;">PDF study notes</a> for offline practice.
+            </p>
+          </div>
+          <button id="seo-read-more-btn" type="button" style="margin-top:14px; padding:8px 18px; border-radius:99px; font-weight:800; font-size:0.85rem; cursor:pointer; color:var(--primary,#2563eb); background:var(--primary-soft,#eff6ff); border:1px solid var(--border,#cbd5e1);">Read More</button>
+        </div>
+      </section>
+
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head reveal">
+          <div>
+            <h2>Frequently Asked Questions</h2>
+            <p class="sec-sub">Everything you need to know about practising on axomexam</p>
+          </div>
+        </div>
+        <div style="max-width:860px; margin:0 auto; text-align:left;">
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Is axomexam free to use?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. axomexam is completely free. All mock tests, previous year solved papers and PDF notes are available without registration or payment.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Which exams does axomexam cover?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">axomexam covers Assam state exams such as ADRE (Assam Direct Recruitment Examination), APSC, Assam Police / SLPRB, DHS and DME/DTE, as well as central exams including SSC (CGL, CHSL, GD) and Railway (RRB NTPC, Group D).</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Are the questions available in Assamese as well as English?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. Every question, answer and explanation on axomexam is bilingual, so you can practise in both Assamese and English.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Does axomexam provide timed mock tests?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. axomexam mock tests run on a live timer and follow the real exam pattern, with instant results and answer explanations.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Can I download PDF notes and previous year papers?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">Yes. PDF study notes, e-books and previous year solved papers can be downloaded for offline practice.</p>
+          </details>
+          <details style="border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:16px 20px; margin-bottom:12px; background:var(--card-bg,#fff);">
+            <summary style="cursor:pointer; font-weight:700; color:var(--ink,#0f172a);">Do I need an account to practise on axomexam?</summary>
+            <p style="margin:10px 0 0; color:var(--ink-soft,#334155); line-height:1.8;">No. You can start practising mock tests and questions immediately without creating an account.</p>
+          </details>
+        </div>
+      </section>`;const i=g("#seo-read-more-btn");i&&i.addEventListener("click",()=>{const o=g("#seo-read-more");if(!o)return;const c=o.classList.contains("expanded");o.classList.toggle("expanded",!c),i.textContent=c?"Read More":"Read Less"}),T(),Qn(),Qa()}function ln(){const e=typeof CONFIG<"u"&&CONFIG.MOCK&&CONFIG.MOCK.EXAM_NAME||"ADRE / Assam Police",t=new Date(typeof CONFIG<"u"&&CONFIG.MOCK&&CONFIG.MOCK.EXAM_DATE||"2026-12-31").getTime(),a=Date.now(),s=t>a?Math.max(0,Math.ceil((t-a)/864e5)):0;return`
+      <div class="hero-visual">
+        <div class="countdown-ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <circle class="ring-bg" cx="60" cy="60" r="50"></circle>
+            <circle class="ring-fg" cx="60" cy="60" r="50" stroke-dashoffset="${(314*(1-(t>a?Math.min(1,s/365):0))).toFixed(1)}"></circle>
+          </svg>
+          <div class="ring-center">
+            <span class="ring-num">${s}</span>
+            <span class="ring-label">${r("hero.days")}</span>
+            <span class="ring-label">${l(e)}</span>
+          </div>
+        </div>
+        <span class="float-chip c1"><span class="dot"></span>ADRE</span>
+        <span class="float-chip c2"><span class="dot"></span>GK & Math</span>
+        <span class="float-chip c3"><span class="dot"></span>Assam Police</span>
+      </div>`}function fa(e){return e.slice().sort((t,a)=>!!t.extra!=!!a.extra?t.extra?-1:1:t.popularity!==a.popularity?a.popularity-t.popularity:(a.nQuestions||0)-(t.nQuestions||0))}function cn(e,t){const a=t.subcategories||t.sections||[],s=t.topics||[],n=t.id==="articles";e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span><span>${l(x(t.name))}</span>
+        </nav>
+        <h1>${l(x(t.name))}</h1>
+        <p class="page-desc">${l(x(t.description))||l(x(t.name))}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${a.length?`
+          <div class="sub-grid">
+            ${a.map((d,p)=>{const m=!n&&!(d.sections&&d.sections.length)&&!(d.topics&&d.topics.length),h=m?u.topicMap[`${t.id}/${d.id}`]:null,f=n?`/category/${t.id}/${d.id}/read`:m?`/topic/${t.id}/${d.id}`:`/category/${t.id}/${d.id}`,v=n?u.uiLang==="as"?"প্ৰবন্ধ পঢ়ক →":"Read Articles →":m?`<span id="count-${h?h.path.replace(/\//g,"-"):`${t.id}-${d.id}`}">${h&&h.nQuestions>0?`${h.nQuestions} ${r("topic.questions")}`:r("btn.practice")}</span>`:`${(d.sections?d.sections.length:0)||(d.topics?d.topics.length:0)} ${d.sections?r("cat.subsections"):r("cat.topics")}`;return`
+              <a class="sub-card reveal" href="${f}" style="--cat:${B(t.id)}" data-delay="${p*50}">
+                <span class="sub-ico">${we(d.id,t.id)}</span>
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                  ${vt(d.name,"0.94rem")}
+                  <span style="font-size:0.75rem; font-weight:${n?"700":"400"}; color:${n?B(t.id):"var(--ink-soft,#64748b)"};">${v}</span>
+                </span>
+              </a>`}).join("")}
+          </div>`:s.length?kt(t,null,null,s):$t()}
+      </section>`,T();const o=u.topicIndex.filter(d=>d.cat&&d.cat.id===t.id).reduce((d,p)=>d+(p.nQuestions||0),0),c=a.map(d=>({name:x(d.name),count:d.sections&&d.sections.length||d.topics&&d.topics.length||0}));U(e,{id:t.id,name:x(t.name),count:a.length,total:o,h2:x(t.name)+" preparation for Assam exams",items:c})}function dn(e,t){const a=u.categories.find(p=>p.id===t[1]),s=(a.subcategories||a.sections||[]).find(p=>p.id===t[2]);if(!s)return G(e);if(a.id==="articles")return un(e,a,s);if(t[3]){const p=(s.sections||[]).find(m=>m.id===t[3]);return p?pn(e,a,s,p):G(e)}if(!(s.sections&&s.sections.length)&&!(s.topics&&s.topics.length)){const p=u.topicMap[`${a.id}/${s.id}`];if(p)return ba(e,p)}const n=s.sections,i=s.topics;e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <a href="/category/${a.id}">${l(x(a.name))}</a>
+          <span class="bc-sep">/</span><span>${l(x(s.name))}</span>
+        </nav>
+        <h1>${l(x(s.name))}</h1>
+        <p class="page-desc">${l(x(s.description))||""}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${n&&n.length?`
+          <div class="sub-grid">
+            ${n.map((p,m)=>`
+              <a class="sub-card reveal" href="/category/${a.id}/${s.id}/${p.id}" style="--cat:${B(a.id)}" data-delay="${m*50}">
+                <span class="sub-ico">${we(p.id,a.id)}</span>
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                  ${vt(p.name,"0.94rem")}
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${(p.topics||[]).length} ${r("cat.topics")}</span>
+                </span>
+              </a>`).join("")}
+          </div>`:i&&i.length?kt(a,s,null,i):$t()}
+      </section>`,T();const c=u.topicIndex.filter(p=>p.cat&&p.cat.id===a.id&&p.sub&&p.sub.id===s.id).reduce((p,m)=>p+(m.nQuestions||0),0),d=(n&&n.length?n:i||[]).map(p=>({name:x(p.name),count:p.topics&&p.topics.length||0}));U(e,{id:s.id,name:x(s.name),count:d.length,total:c,h2:x(s.name)+" - topics and practice questions",items:d})}function pn(e,t,a,s){e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a>
+          <span class="bc-sep">/</span>
+          <a href="/category/${t.id}">${l(x(t.name))}</a>
+          <span class="bc-sep">/</span>
+          <a href="/category/${t.id}/${a.id}">${l(x(a.name))}</a>
+          <span class="bc-sep">/</span><span>${l(x(s.name))}</span>
+        </nav>
+        <h1>${l(x(s.name))}</h1>
+        <p class="page-desc">${l(x(s.description))||""}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${kt(t,a,s,s.topics||[])}
+      </section>`,T();const i=u.topicIndex.filter(o=>o.cat&&o.cat.id===t.id&&o.sub&&o.sub.id===a.id&&o.section&&o.section.id===s.id).reduce((o,c)=>o+(c.nQuestions||0),0);U(e,{id:s.id,name:x(s.name),count:(s.topics||[]).length,total:i,h2:x(s.name)+" - practice questions and revision",items:(s.topics||[]).map(o=>({name:x(o.name),count:(u.topicMap[[t.id,a.id,s.id,o.id].join("/")]||{}).nQuestions||0,unit:"questions"}))})}function kt(e,t,a,s){if(!s.length)return $t();const n=e.id==="study-guides",i=u.uiLang==="as"?"পঢ়ক (Read Guide) →":"Read Guide →";return`
+      <div class="sub-grid">
+        ${s.map((o,c)=>{const d=[e.id,t?t.id:"",a?a.id:""].filter(Boolean).concat([o.id]).join("/"),p=u.topicMap[d],m=p&&p.nQuestions>0?p.nQuestions:(o.questions||[]).length,h=n?i:m>0?`${m} ${r("topic.questions")}`:r("btn.practice");return`
+            <a class="sub-card reveal" href="/topic/${d}" style="--cat:${B(e.id)}" data-delay="${c*50}">
+              <span class="sub-ico">${we(o.id,e.id)}</span>
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                ${vt(o.name,"0.91rem")}
+                <span id="count-${d.replace(/\//g,"-")}" style="${n?"color:var(--primary,#2563eb); font-weight:700;":""}">${h}</span>
+              </span>
+            </a>`}).join("")}
+      </div>`}function $t(){return`<div class="qa-empty"><div class="big">
+      <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h7"/><path d="M9 9h6"/><path d="M9 13h4"/><path d="m15 16 2 2 4-4"/></svg>
+    </div><p>${r("search.noresult")}</p></div>`}async function un(e,t,a){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;let s=null;try{s=await API.getArticles(a.id)}catch{s=null}if(!s||!(s.articles||s.questions||[]).length){const i=u.lang==="as";e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${l(x(a.name))}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${i?"এতিয়ালৈকে ইয়াত কোনো প্ৰবন্ধ যোগ কৰা হোৱা নাই।":"No articles have been added here yet."}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/category/${t.id}">${i?"পিছলৈ যাওক":"Go Back"}</a></div>
+        </div>`;return}const n={path:`articles/${a.id}`,cat:t,sub:a,section:null,topic:{id:a.id,title:s&&s.title||a.name,description:s&&s.description||a.description||{},questions:s&&(s.articles||s.questions)||[]}};va(e,n)}function ga(e){const t=[`<a href="/">${r("breadcrumb.home")}</a>`];return t.push(`<a href="/category/${e.cat.id}">${l(x(e.cat.name))}</a>`),e.sub&&t.push(`<a href="/category/${e.cat.id}/${e.sub.id}">${l(x(e.sub.name))}</a>`),e.section&&t.push(`<a href="/category/${e.cat.id}/${e.sub?e.sub.id+"/":""}${e.section.id}">${l(x(e.section.name))}</a>`),t.map((a,s)=>(s?'<span class="bc-sep">/</span>':"")+a).join("")}async function ba(e,t){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;try{const s=await API.getTopic(t.cat.id,t.topic.id,t.sub&&t.sub.id,t.cat&&t.cat.contentLayout);s&&(t.topic=Object.assign({},t.topic,s),t.topic.title=t.topic.title||t.title,t.nQuestions=(s.questions||[]).length)}catch{}if(t.cat.id==="study-guides")return va(e,t);const a=t.topic.questions||[];e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">${ga(t)}</nav>
+        <h1>${l(x(t.topic.title))}</h1>
+        <p class="page-desc">${l(x(t.topic.description))||""}</p>
+      </div>
+
+      <div class="topic-layout" style="max-width:100%; margin:0 auto;">
+        <div>
+          <div class="qa-toolbar" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; margin-bottom:16px;">
+            <span class="qt-info" style="font-weight:700; font-size:0.92rem; color:var(--ink-soft,#64748b);">${a.length} ${r("topic.questions")}</span>
+            <div class="qa-actions" style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <button class="btn btn-sm btn-outline qa-tool-btn" id="qa-reading" type="button" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+                Reading Mode
+              </button>
+              <div class="lang-switch" role="group" aria-label="Reading language" style="display:inline-flex; border-radius:10px; overflow:hidden; border:1px solid var(--border,#cbd5e1);">
+                <button class="lang-btn ${u.lang==="as"?"active":""}" type="button" data-lang="as" style="padding:6px 12px; font-weight:700; border:none; cursor:pointer;">${r("topic.lang.as")}</button>
+                <button class="lang-btn ${u.lang==="en"?"active":""}" type="button" data-lang="en" style="padding:6px 12px; font-weight:700; border:none; cursor:pointer;">${r("topic.lang.en")}</button>
+              </div>
+            </div>
+          </div>
+          <div id="qa-list" class="qa-list" style="width:100%; box-sizing:border-box;"></div>
+        </div>
+      </div>
+    `,mn(),ue(B(t.cat.id)),g("#qa-reading").addEventListener("click",fn),S(".lang-btn").forEach(s=>{s.addEventListener("click",()=>{u.lang=s.dataset.lang,document.body.setAttribute("data-lang",u.lang),S(".lang-btn").forEach(n=>n.classList.toggle("active",n.dataset.lang===u.lang)),gn()})})}function va(e,t){const a=t.topic.questions||t.topic.sections||[],s=u.lang==="as",i=t.cat&&t.cat.id==="articles"?s?"প্ৰবন্ধ পঢ়া • পঢ়া-মাত্ৰ":"Read Articles • Reading Only":s?"সম্পূৰ্ণ অধ্যয়ন নিৰ্দেশিকা (Theory Guide)":"Complete In-Depth Study Guide";e.innerHTML=`
+      <div class="page-head" style="text-align:left; max-width:860px; margin:0 auto 20px auto; padding:0 16px; box-sizing:border-box;">
+        <nav class="breadcrumb">${ga(t)}</nav>
+        <h1 class="art-main-title">${l(x(t.topic.title))}</h1>
+        <p class="page-desc" style="font-size:0.96rem; line-height:1.6; color:var(--ink-soft,#475569); margin:0 0 16px 0;">${l(x(t.topic.description))||""}</p>
+        
+        <div class="art-top-bar">
+          <span style="font-size:0.82rem; font-weight:800; color:var(--primary,#2563eb); text-transform:uppercase; letter-spacing:0.5px; display:inline-flex; align-items:center; gap:6px;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>
+            ${i}
+          </span>
+          <div class="art-lang-switch-box" role="group" aria-label="Article Language">
+            <button class="art-glang-btn ${u.lang==="as"?"active":""}" type="button" data-lang="as">
+              <span class="active-dot"></span>অসমীয়া
+            </button>
+            <button class="art-glang-btn ${u.lang==="en"?"active":""}" type="button" data-lang="en">
+              <span class="active-dot"></span>English
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-wrapper" style="max-width:860px; margin:0 auto; padding:0 16px 50px 16px; box-sizing:border-box;">
+        <article id="article-body-content" class="article-card-box"></article>
+      </div>
+
+      <style>
+        .art-main-title { font-size: 1.8rem; font-weight: 900; line-height: 1.35; color: var(--ink, #0f172a); margin-bottom: 10px; letter-spacing: -0.3px; }
+        .art-top-bar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-top: 1px solid var(--border, #e2e8f0); border-bottom: 1px solid var(--border, #e2e8f0); padding: 12px 0; }
+        .art-lang-switch-box { display: inline-flex; background: var(--bg-subtle, #f1f5f9); border: 1.5px solid var(--border, #cbd5e1); border-radius: 24px; padding: 3px; gap: 2px; }
+        .art-glang-btn { display: inline-flex; align-items: center; gap: 5px; padding: 6px 14px; font-weight: 700; font-size: 0.82rem; border-radius: 20px; border: none; cursor: pointer; transition: all 0.2s ease-in-out; background: transparent; color: var(--ink-soft, #64748b); }
+        .art-glang-btn .active-dot { width: 6px; height: 6px; border-radius: 50%; background: #22c55e; display: none; }
+        .art-glang-btn.active { background: #2563eb !important; color: #ffffff !important; box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35); }
+        .art-glang-btn.active .active-dot { display: inline-block; }
+        .article-card-box { background: var(--card-bg, #ffffff); border: 1px solid var(--border, #e2e8f0); border-radius: 20px; padding: 36px 32px; box-shadow: 0 10px 30px -6px rgba(15,23,42,0.04); text-align: left; }
+        .article-part-block { margin-bottom: 34px; padding-bottom: 26px; border-bottom: 1px dashed var(--border, #e2e8f0); }
+        .article-part-block:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .art-headline { font-size: 1.3rem; font-weight: 800; color: var(--ink, #0f172a); margin: 0 0 14px 0; line-height: 1.4; display: flex; align-items: flex-start; gap: 8px; }
+        .art-paragraph { font-size: 1.02rem; line-height: 1.85; color: var(--ink-soft, #334155); margin: 0 0 16px 0; text-align: left; word-break: break-word; font-weight: 400; }
+        .art-keynote { background: var(--bg-subtle, #f8fafc); border-left: 4px solid var(--primary, #2563eb); padding: 14px 18px; border-radius: 10px; font-size: 0.92rem; line-height: 1.65; color: var(--ink-muted, #475569); border-top: 1px solid var(--border, #f1f5f9); border-right: 1px solid var(--border, #f1f5f9); border-bottom: 1px solid var(--border, #f1f5f9); }
+        
+        @media (max-width: 640px) {
+          .art-main-title { font-size: 1.35rem !important; line-height: 1.35 !important; }
+          .article-card-box { padding: 20px 16px !important; border-radius: 14px !important; }
+          .art-headline { font-size: 1.12rem !important; }
+          .art-paragraph { font-size: 0.95rem !important; line-height: 1.75 !important; }
+          .art-top-bar { justify-content: center !important; flex-direction: column !important; text-align: center !important; gap: 10px !important; }
+          .art-lang-switch-box { width: 100% !important; justify-content: center !important; }
+          .art-glang-btn { flex: 1 !important; justify-content: center !important; padding: 8px 0 !important; }
+        }
+
+        [data-theme="dark"] .article-card-box { background: var(--bg-soft, #0f172a) !important; border-color: var(--border, #2b3a55) !important; }
+        [data-theme="dark"] .art-lang-switch-box { background: #0f172a !important; border-color: #334155 !important; }
+        [data-theme="dark"] .art-glang-btn { color: #94a3b8 !important; }
+        [data-theme="dark"] .art-keynote { background: #1e293b !important; border-color: #334155 !important; color: #cbd5e1 !important; }
+      </style>
+    `,(()=>{const c=g("#article-body-content");c&&(c.innerHTML=["en","as"].map(d=>{const p=d==="as"?"গুৰুত্বপূৰ্ণ বিষয় (Key Takeaway)":"Key Highlights";return`<div data-axo-lang="${d}">${a.map(m=>{const h=R(m,"question",d),f=R(m,"answer",d),v=R(m,"explanation",d);return`
+            <div class="article-part-block">
+              <h2 class="art-headline">
+                <span>${E(h)}</span>
+              </h2>
+              <div class="art-paragraph">${E(f)}</div>
+              ${v?`
+                <div class="art-keynote">
+                  <b style="color:var(--primary,#2563eb);">${p}:</b> ${E(v)}
+                </div>`:""}
+            </div>
+          `}).join("")}</div>`}).join(""),ce(c))})(),ue(B(t.cat&&t.cat.id)),S(".art-glang-btn").forEach(c=>{c.addEventListener("click",()=>{const d=c.dataset.lang;u.lang!==d&&(u.lang=d,document.body.setAttribute("data-lang",u.lang),S(".art-glang-btn").forEach(p=>{p.classList.toggle("active",p.dataset.lang===u.lang)}))})})}function mn(){const e=Ct();if(!e)return;const t=e.topic.questions||[],a=0,s=t,n=g("#qa-list"),i=/(?:^|\/)(image-series|image-analogy)$/.test(e.path||"");n.classList.toggle("nv-fig-wide",i),s.length?(n.innerHTML=s.map((o,c)=>{const d=a+c+1,p=u.mock&&u.mock.testLang?u.mock.testLang:u.lang,m=p==="as"?"en":"as";return`<div data-axo-lang="${p}">${xa(o,d,p)}</div><div data-axo-lang="${m}">${xa(o,d,m)}</div>`}).join(""),ce(n)):n.innerHTML=`<div class="qa-empty"><div class="big">
+        <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+      </div><p>${r("toast.noquestions")}</p></div>`}function xa(e,t,a){{const s=R(e,"question",a),n=R(e,"answer",a),i=Q(e,a),o=R(e,"explanation",a),c=xe(e),d=ye(e),p=a,m=e.a&&typeof e.a=="object"&&e.a[p]||e.a||e.answer;return Array.isArray(m)||n.includes("qa-step-line")?`
+            <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+              <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
+                ${t}. ${E(s)}
+              </div>
+              ${c}
+              ${d?ne(e,{compact:!0}):i.length?`
+                <div class="qa-options-inline" style="margin:0 0 12px 0; padding:0; font-size:0.92rem; color:var(--ink-soft,#334155); display:flex; flex-direction:column; gap:6px; font-weight:500; text-align:left; align-items:flex-start;">
+                  ${i.map((f,v)=>{const b=`(${String.fromCharCode(65+v)}) ${f}`;return`<span>${E(b)}</span>`}).join("")}
+                </div>`:""}
+              <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; margin:0; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
+                <div class="a-body" style="margin:0; padding:0; text-align:left;">${n}</div>
+                ${o?`
+                  <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
+                    <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${o}
+                  </div>`:""}
+              </div>
+            </article>`:`
+            <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:16px; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+              <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
+                <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${t}</span>
+                <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${E(s)}</span>
+              </div>
+              ${c}
+              ${d?ne(e):i.length?`
+                <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+                  ${i.map((f,v)=>`
+                    <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
+                      <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65+v)})</b> 
+                      <span style="flex:1; line-height:1.4;">${E(f)}</span>
+                    </div>
+                  `).join("")}
+                </div>`:""}
+              <div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+                <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0; font-size:0.92rem;">${r("topic.answer")}:</span>
+                <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${E(n)}</span>
+              </div>
+              ${o?`
+                <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
+                  <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${E(o)}
+                </div>`:""}
+            </article>`}}function hn(){let e=g("#read-modal");return e||(e=document.createElement("div"),e.id="read-modal",e.className="read-modal",e.hidden=!0,e.innerHTML=`
+      <div class="read-modal-backdrop" id="read-modal-backdrop"></div>
+      <div class="read-modal-box" role="dialog" aria-modal="true" style="max-width:760px; width:92%; margin:auto; border-radius:18px; text-align:left; background:var(--bg,#ffffff);">
+        <div class="read-modal-head" style="display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--border,#e2e8f0);">
+          <div class="read-modal-titles" style="text-align:left;">
+            <span class="read-modal-title" style="font-size:1.15rem; font-weight:800; display:block; color:var(--ink,#0f172a);"></span>
+            <span class="read-modal-sub" style="font-size:0.82rem; color:var(--ink-muted,#64748b);"></span>
+          </div>
+          <button id="read-modal-close" class="read-close" type="button" aria-label="Close" style="background:transparent; border:none; cursor:pointer; padding:6px;">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+        <div class="read-modal-body" id="read-modal-body" style="padding:20px; max-height:70vh; overflow-y:auto; text-align:left; box-sizing:border-box;"></div>
+      </div>`,document.body.appendChild(e),g("#read-modal-close",e).addEventListener("click",At),g("#read-modal-backdrop",e).addEventListener("click",At),e)}function fn(){const e=Ct();if(!e)return;const t=hn(),a=e.topic.questions||[];g(".read-modal-title",t).textContent=x(e.topic.title),g(".read-modal-sub",t).textContent=`${a.length} ${r("topic.questions")} • ${u.lang==="as"?r("topic.lang.as"):r("topic.lang.en")}`,t.hidden=!1,ya()}function At(){const e=g("#read-modal");e&&(e.hidden=!0)}function ya(){const e=Ct(),t=g("#read-modal");if(!e||!t||t.hidden)return;const a=e.topic.questions||[];g(".read-modal-sub",t).textContent=`${a.length} ${r("topic.questions")} • ${u.lang==="as"?r("topic.lang.as"):r("topic.lang.en")}`;const s=g("#read-modal-body",t);s.innerHTML=a.map((n,i)=>{const o=i+1,c=R(n,"question"),d=R(n,"answer"),p=Q(n),m=xe(n),h=ye(n),f=u.mock&&u.mock.testLang?u.mock.testLang:u.lang,v=n.a&&typeof n.a=="object"&&n.a[f]||n.a||n.answer;return Array.isArray(v)||d.includes("qa-step-line")?`
+          <article class="qa-card read-item" data-n="${o}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
+            <div class="qa-q" style="margin:0 0 8px 0; padding:0; font-size:0.96rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
+              ${o}. ${E(c)}
+            </div>
+            ${m}
+            ${h?ne(n,{compact:!0}):p.length?`
+              <div class="qa-options-inline" style="margin:0 0 10px 0; padding:0; display:flex; flex-direction:column; gap:6px; font-size:0.9rem; color:var(--ink-soft,#334155); font-weight:500; text-align:left; align-items:flex-start;">
+                ${p.map((y,w)=>{const C=`(${String.fromCharCode(65+w)}) ${y}`;return`<span>${E(C)}</span>`}).join("")}
+              </div>`:""}
+            <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:8px; margin:0; font-size:0.88rem; color:var(--ink-soft,#334155); line-height:1.6; text-align:left;">
+              <div class="a-body" style="margin:0; padding:0; text-align:left;">${d}</div>
+            </div>
+          </article>`:`
+          <article class="qa-card read-item" data-n="${o}" style="margin-bottom:16px; padding:16px 18px; border:1px solid var(--border,#e2e8f0); border-radius:12px; background:var(--card-bg,#fff); text-align:left;">
+            <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 8px 0; padding:0; text-align:left;">
+              <span class="qno" style="flex-shrink:0; width:26px; height:26px; border-radius:6px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.84rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; margin-top:1px;">${o}</span>
+              <span class="qtext" style="flex:1; font-weight:500; font-size:0.94rem; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">${E(c)}</span>
+            </div>
+            ${m}
+            ${h?ne(n):p.length?`
+              <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+                ${p.map((y,w)=>`
+                  <div style="font-size:0.86rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:7px 10px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
+                    <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65+w)})</b>
+                    <span style="flex:1; line-height:1.4;">${E(y)}</span>
+                  </div>
+                `).join("")}
+              </div>`:""}
+            <div class="qa-a" style="margin:6px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+              <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); font-size:0.9rem;">${r("topic.answer")}:</span>
+              <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); font-size:0.9rem; line-height:1.45;">${E(d)}</span>
+            </div>
+          </article>`}).join(""),ce(s)}function gn(){const e=g("#read-modal");!e||e.hidden||ya()}function Ct(){const e=Pe();return e[0]!=="topic"?null:u.topicMap[e.slice(1).join("/")]}function bn(e){const t=fa(u.topicIndex);e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("page.trending.title")}</span></nav>
+        <h1>${r("page.trending.title")}</h1>
+        <p class="page-desc">${r("page.trending.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="simple-list">
+          ${t.map((a,s)=>`
+            <a class="topic-card reveal" href="/topic/${a.path}" style="--cat:${B(a.cat.id)}" data-delay="${s%10*40}">
+              <span class="topic-ico">${we(a.topic.id,a.cat.id)}</span>
+              <span class="rank">${s+1}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span style="font-weight:600; font-size:0.91rem; color:var(--ink,#0f172a);">${l(x(a.title))}</span>
+                <span id="trend-count-${a.path.replace(/\//g,"-")}">${l(x(a.cat.name))}${a.sub?" • "+l(x(a.sub.name)):""} • ${a.cat.id==="study-guides"?u.uiLang==="as"?"পঢ়ক →":"Read Guide →":`${a.nQuestions||0} ${r("topic.questions")}`}</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`,T()}function vn(e,t){const a=u.lang==="as";let s="",n="",i="";t==="about"?(s=a?"axomexam সম্পৰ্কে":"About axomexam",n=a?"আমি কোন, আমাৰ অধ্যয়ন সামগ্ৰী কেনেদৰে প্ৰস্তুত কৰা হয়, আৰু অসমৰ প্ৰতিজন পৰীক্ষাৰ্থীৰ বাবে ইয়াক কেনেদৰে বিনামূলীয়া আৰু নিৰ্ভুল ৰখা হয়।":"Who we are, how our study material is prepared, and how we keep it free and accurate for every Assam exam aspirant.",i=a?`
+        <p><strong>axomexam.in</strong> হৈছে অসমৰ চৰকাৰী নিযুক্তি পৰীক্ষা আৰু ৰাজ্যখনত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে প্ৰস্তুতি চলাই থকা প্ৰাৰ্থীসকলৰ বাবে এখন স্বতন্ত্ৰ, বিনামূলীয়া অধ্যয়ন মঞ্চ। ই দ্বিভাষিক অনুশীলন প্ৰশ্নৰ এখন সৰু সংগ্ৰহ হিচাপে আৰম্ভ হৈছিল আৰু এতিয়া সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী আৰু কম্পিউটাৰ সজাগতা সামৰি এটা সংগঠিত লাইব্ৰেৰী হৈ পৰিছে — য'ত প্ৰতিটো প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাত উপলব্ধ।</p>
+
+        <h2>আমাৰ লক্ষ্য</h2>
+        <p>আমাৰ বিশ্বাস যে সৰু চহৰত পঢ়া এজন প্ৰাৰ্থীয়ে চহৰৰ কোচিং কেন্দ্ৰৰ প্ৰাৰ্থীৰ দৰেই একে মানৰ অনুশীলন সমল পোৱা উচিত — কোনো মাচুল নিদিয়াকৈ আৰু একাউণ্ট নখুলাকৈ। axomexam.in ৰ প্ৰতিটো অংশ পঢ়া, অনুশীলন কৰা আৰু ডাউনল'ড কৰা বিনামূলীয়া, আৰু ভাষা কেতিয়াও প্ৰস্তুতিৰ বাধা নহয়।</p>
+
+        <h2>আমি কি আগবঢ়াওঁ</h2>
+        <ul>
+          <li><strong>বিষয়ভিত্তিক প্ৰশ্ন-সংগ্ৰহ:</strong> সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি আৰু ইংৰাজীত, প্ৰতিটোৰ উত্তৰ আৰু প্ৰয়োজনত ধাপে ধাপে সমাধানসহ।</li>
+          <li><strong>সময় নিৰ্ধাৰিত মক টেষ্ট:</strong> প্ৰকৃত প্ৰশ্নকাকতৰ আৰ্হি অনুসৰি, লাইভ কাউণ্টডাউন, তৎক্ষণাত ফলাফল আৰু উত্তৰ পুনৰীক্ষণসহ।</li>
+          <li><strong>বিগত বৰ্ষৰ সমাধান কৰা প্ৰশ্নকাকত:</strong> SSC, ৰে'লৱে, অসম আৰক্ষী, গুৱাহাটী উচ্চ ন্যায়ালয়, DHS আৰু DME আদি পৰীক্ষাৰ বাবে।</li>
+          <li><strong>ই-বুক আৰু PDF নোট:</strong> পুনৰাবৃত্তিৰ বাবে, অসমৰ ইতিহাস, ভাৰতীয় ৰাজনীতি, ভূগোল, অৰ্থনীতি, কলা আৰু সংস্কৃতি আদি সামৰি।</li>
+          <li><strong>এখন বিনামূলীয়া Android এপ:</strong> যাতে অনুশীলন সামগ্ৰী য'ত-ত'ৱে অফলাইনত ব্যৱহাৰ কৰিব পাৰি।</li>
+        </ul>
+
+        <h2>আমাৰ সমল কেনেদৰে প্ৰস্তুত কৰা হয়</h2>
+        <p>প্ৰতিটো বিষয় প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম অনুসৰি শিতান আৰু বিষয়ত ভাগ কৰা হয়। তাৰ পিছত বিষয় অনুসৰি প্ৰশ্ন যোগ কৰি সত্যতা, বানান আৰু স্পষ্টতা পৰীক্ষা কৰা হয়। যি প্ৰাৰ্থীয়ে এটা প্ৰশ্ন ভুল কৰিছে তেওঁ উত্তৰটো মুখস্থ নকৰি ধাৰণাটো বুজি পোৱাৰ বাবে সহজ ভাষাত ব্যাখ্যা লিখা হয়। প্ৰকাশৰ আগতে তথ্যসমূহ চৰকাৰী জাননী, মানক প্ৰসংগ পুথি আৰু ৰাজহুৱাভাৱে উপলব্ধ চৰকাৰী উৎসৰ সৈতে মিলাই পৰীক্ষা কৰা হয়।</p>
+
+        <h2>সম্পাদকীয় মান</h2>
+        <p>সকলো সামগ্ৰী axomexam সম্পাদকীয় দলৰ দ্বাৰা প্ৰস্তুত আৰু পৰ্যালোচনা কৰা হয়, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সমলত কাম কৰে। কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে আমি ধন লোৱা নাই, আৰু পৃষ্ঠপোষকতা কৰা সামগ্ৰী কেতিয়াও অধ্যয়ন সমল হিচাপে প্ৰকাশ নকৰা হয়। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা তথ্য সলনি হ'লে পৃষ্ঠাসমূহ নিয়মীয়াকৈ পৰ্যালোচনা আৰু হালনাগাদ কৰা হয়।</p>
+
+        <h2>শুদ্ধতা আৰু সংশোধন</h2>
+        <p>আমি প্ৰতিটো তথ্য সঠিক ৰাখিবলৈ চেষ্টা কৰোঁ, কিন্তু পৰীক্ষাৰ আৰ্হি, পাঠ্যক্ৰমৰ বিৱৰণ আৰু চৰকাৰী জাননী সলনি হ'ব পাৰে। axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা, চৰকাৰী প'ৰ্টেল নহয় — তাৰিখ, যোগ্যতা আৰু পৰীক্ষাৰ আৰ্হি সদায় চৰকাৰী জাননীৰ পৰা নিশ্চিত কৰক। আপুনি কিবা ভুল বা ভাঙা লিংক পালে পৃষ্ঠাৰ লিংক আৰু সঠিক তথ্যসহ আমালৈ লিখক, আমি যাচাই কৰি সংশোধন কৰিম। সংশোধন আৰু অৱদান কেতিয়াও কোনো বাণিজ্যিক উদ্দেশ্যত ব্যৱহাৰ কৰা নহয়।</p>
+
+        <h2>axomexam কাৰ দ্বাৰা পৰিচালিত</h2>
+        <p>axomexam.in প্ৰতিষ্ঠা আৰু সম্পাদনা কৰে <strong>axomexam সম্পাদকীয় দলে</strong>। সম্পাদকীয় দলত আছে <strong>হৰ্ষ বৰ্মন</strong> (দল পৰিচালক, ইতিহাসত M.A.), <strong>অভিক ৰয়</strong> (দল সদস্য, MBA) আৰু <strong>গৌতম দাস</strong> (দল সদস্য, B.Sc.)। তেওঁলোকৰ ভূমিকা আৰু পৰ্যালোচনাৰ কাৰ্যপ্ৰবাহ <a href="/editorial-team/">সম্পাদকীয় দল পৃষ্ঠা</a>ত বৰ্ণনা কৰা হৈছে।</p>
+
+        <h2>এই ছাইট কাৰ বাবে</h2>
+        <p>এই সামগ্ৰী ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী, অসম আৰক্ষী উপ-পৰিদৰ্শক আৰু কনিষ্টবল, APSC, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, বন বিভাগ, DHS আৰু DME, লগতে SSC CGL, CHSL আৰু GD, আৰু RRB NTPC আৰু Group D ৰ দৰে কেন্দ্ৰীয় পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে ডিজাইন কৰা হৈছে। আপুনি আৰম্ভণিৰ পৰা শিকিছে নে চূড়ান্ত পুনৰাবৃত্তি কৰিছে, বিষয়ভিত্তিক গাঁথনিয়ে আপোনাক নিজৰ গতিত অধ্যয়ন কৰিবলৈ দিয়ে।</p>
+
+        <h2>যোগাযোগ কৰক</h2>
+        <p>প্ৰশ্ন, সংশোধন আৰু পৰামৰ্শ সদায় স্বাগতম। <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ ইমেইল কৰক বা আমাৰ <a href="/contact/">যোগাযোগ পৃষ্ঠা</a> ব্যৱহাৰ কৰক। আমি সাধাৰণতে দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিওঁ।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p><strong>axomexam.in</strong> is an independent, free study platform for candidates preparing for government recruitment examinations in Assam and for central examinations that are popular in the state. It began as a small collection of bilingual practice questions and has grown into a structured library that covers General Knowledge, Mathematics, General Science, Reasoning Ability, General English and Computer Awareness — with every question, answer and explanation available in both English and Assamese.</p>
+
+        <h2>Our Mission</h2>
+        <p>We believe that a candidate studying in a small town should have access to the same quality of practice material as a candidate in a city coaching centre — without paying a fee and without creating an account. Every part of axomexam.in is free to read, practise and download, and language is never a barrier to preparation.</p>
+
+        <h2>What We Offer</h2>
+        <ul>
+          <li><strong>Topic-wise question banks</strong> in General Knowledge, Mathematics, General Science, Reasoning and English, each with answers and, wherever needed, step-by-step working.</li>
+          <li><strong>Timed mock tests</strong> that follow the real paper pattern, with a live countdown, instant results and answer review.</li>
+          <li><strong>Previous year solved papers</strong> for exams such as SSC, Railway, Assam Police, Guwahati High Court, DHS and DME.</li>
+          <li><strong>E-books and PDF notes</strong> for revision, covering Assam History, Indian Polity, Geography, Economy, Art and Culture, and more.</li>
+          <li><strong>A free Android app</strong> so practice material can be used offline on the go.</li>
+        </ul>
+
+        <h2>How Our Content Is Prepared</h2>
+        <p>Each subject is first divided into sections and topics that follow the official syllabus of the relevant examination. Questions are then added topic by topic and checked for factual accuracy, spelling and clarity. Explanations are written in plain language so that a candidate who answered a question incorrectly can understand the concept instead of simply memorising the answer. Facts are cross-checked against official notifications, standard reference books and publicly available government sources before publishing.</p>
+
+        <h2>Editorial Standards</h2>
+        <p>All material is prepared and reviewed by the axomexam editorial team, which works only on study content for this platform. We do not accept payment for including any exam, coaching institute or product, and sponsored material is never published as study content. Pages are reviewed periodically and updated whenever a syllabus, exam pattern or fact changes.</p>
+
+        <h2>Accuracy and Corrections</h2>
+        <p>We try to keep every fact correct, but examination patterns, syllabus details and official notifications can change. axomexam.in is an independent study aid and not a government portal — always confirm dates, eligibility and exam patterns from the official notification. If you find an error or a broken link, write to us with the page link and the correct information, and we will verify it and make the correction. Corrections and contributions are never used for any commercial purpose.</p>
+
+        <h2>Who This Site Is For</h2>
+        <p>The material is designed for aspirants of ADRE Grade III and IV, Assam Police Sub-Inspector and Constable, APSC, Panchayat and Rural Development, Forest Department, DHS and DME, and for central exams such as SSC CGL, CHSL and GD, and RRB NTPC and Group D. Whether you are starting from the basics or doing a final revision, the topic-wise structure lets you study at your own pace.</p>
+
+        <h2>Contact Us</h2>
+        <p>Questions, corrections and suggestions are always welcome. Email <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> or use our <a href="/contact/">contact page</a>. We usually reply within two to three working days.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="privacy"||t==="privacy-policy"?(s=a?"গোপনীয়তা নীতি":"Privacy Policy",n=a?"axomexam.in এ আপোনাৰ তথ্য কেনেকৈ সংগ্ৰহ, ব্যৱহাৰ আৰু সুৰক্ষিত কৰা হয়, কুকিজ, Google AdSense বিজ্ঞাপন আৰু আপোনাৰ অধিকাৰসমূহ।":"How axomexam.in collects, uses and protects information, how cookies and Google AdSense advertising work, and the choices and rights you have.",i=a?`
+        <p>এই গোপনীয়তা নীতিয়ে ব্যাখ্যা কৰে যে আপুনি <strong>axomexam.in</strong> পৰিদৰ্শন বা ব্যৱহাৰ কৰোঁতে — আমাৰ ৱেবছাইট, অধ্যয়ন সামগ্ৰী, মক টেষ্ট, ই-বুক, ডাউনল'ডযোগ্য PDF টোকা আৰু আমাৰ Android এপ ব্যৱহাৰ কৰোঁতে — আমি কেনেকৈ তথ্য সংগ্ৰহ, ব্যৱহাৰ, সংৰক্ষণ আৰু ভাগ-বাটোৱাৰা কৰোঁ। ই আপোনাৰ ওচৰত থকা বিকল্পসমূহো ব্যাখ্যা কৰে।</p>
+        <p>axomexam.in ব্যৱহাৰ কৰিলে আপুনি এই গোপনীয়তা নীতিত সন্মতি জনোৱা বুলি ধৰা হয়। কোনো অংশত সন্মত নহ'লে অনুগ্ৰহ কৰি ৱেবছাইট ব্যৱহাৰ নকৰিব।</p>
+
+        <h3>১. আমি সংগ্ৰহ কৰা তথ্য</h3>
+        <p><strong>১.১ আপুনি আমাক দিয়া তথ্য।</strong> প্ৰায় সকলো অধ্যয়ন সামগ্ৰী একাউণ্ট নাখুলাকৈ পঢ়িব, অনুশীলন কৰিব আৰু ডাউনল'ড কৰিব পাৰি। সমল পাবলৈ আমি নাম, ঠিকনা, জন্ম তাৰিখ বা পেমেন্ট তথ্য নিবিচাৰোঁ। আপুনি স্বইচ্ছাৰে দিয়া তথ্যহে সংগ্ৰহ কৰা হয় — যোগাযোগ ফৰ্ম বা ইমেইলত নাম, ইমেইল আৰু বাৰ্তা; প্ৰশ্ন আগবঢ়োৱা ফৰ্মত দিয়া নাম, ইমেইল আৰু প্ৰশ্ন; আৰু কপিৰাইট বা টেকডাউন অনুৰোধৰ সপক্ষে দিয়া তথ্য।</p>
+        <p><strong>১.২ স্বয়ংক্ৰিয়ভাৱে সংগ্ৰহ কৰা তথ্য।</strong> বেছিভাগ ৱেবছাইটৰ দৰেই আমি আৰু আমাৰ তৃতীয় পক্ষৰ সেৱা প্ৰদানকাৰীয়ে কিছু কাৰিকৰী তথ্য স্বয়ংক্ৰিয়ভাৱে লিপিবদ্ধ কৰোঁ — IP ঠিকনা, ব্ৰাউজাৰৰ প্ৰকাৰ আৰু সংস্কৰণ, ডিভাইচ আৰু অপাৰেটিং চিষ্টেম, ভাষা, পৰিদৰ্শিত পৃষ্ঠা, পৰিদৰ্শনৰ তাৰিখ আৰু সময়, ব্যয় কৰা সময় আৰু প্ৰেৰণকাৰী লিংক। এই তথ্য সামগ্ৰিকভাৱে সুৰক্ষা, ত্ৰুটি-সমাধান, কাৰ্যক্ষমতা আৰু ব্যৱহাৰ বিশ্লেষণৰ বাবে ব্যৱহাৰ কৰা হয় আৰু ই আপোনাক পোনপটীয়াকৈ চিনাক্ত নকৰে।</p>
+        <p><strong>১.৩ আপোনাৰ ডিভাইচত সংৰক্ষিত পছন্দ।</strong> আপুনি বাছনি কৰা ভাষা (ইংৰাজী বা অসমীয়া) আৰু লাইট বা ডাৰ্ক থীম মনত ৰাখিবলৈ আমি ব্ৰাউজাৰৰ লোকেল ষ্ট'ৰেজ ব্যৱহাৰ কৰোঁ। এই সেটিংসমূহ আপোনাৰ ডিভাইচতে থাকে আৰু আপোনাক চিনাক্ত কৰিবলৈ ব্যৱহাৰ নহয়।</p>
+
+        <h3>২. কুকিজ আৰু একেধৰণৰ প্ৰযুক্তি</h3>
+        <p>কুকিজ হৈছে ৱেবছাইটে আপোনাৰ ডিভাইচত ৰখা সৰু টেক্সট ফাইল। আমি আৰু আমাৰ তৃতীয় পক্ষৰ অংশীদাৰসকলে তলত দিয়া উদ্দেশ্যত কুকি, ৱেব বিকন, পিক্সেল আৰু একেধৰণৰ প্ৰযুক্তি ব্যৱহাৰ কৰোঁ।</p>
+        <ul>
+          <li><strong>অত্যাৱশ্যকীয় / পছন্দ কুকি:</strong> ছাইট কাৰ্যক্ষম ৰাখিবলৈ আৰু আপোনাৰ থীম আৰু ভাষাৰ বাছনি মনত ৰাখিবলৈ।</li>
+          <li><strong>এনালিটিক্স কুকি:</strong> দৰ্শকে ছাইট কেনেকৈ ব্যৱহাৰ কৰে বুজি সমল আৰু গতি উন্নত কৰিবলৈ।</li>
+          <li><strong>বিজ্ঞাপন কুকি:</strong> Google আৰু অন্য বিজ্ঞাপন অংশীদাৰসকলে বিজ্ঞাপন দেখুৱাব আৰু জোখ ল'বলৈ, লগতে ব্যক্তিগতকৃত বিজ্ঞাপনৰ বাবেও।</li>
+        </ul>
+        <p>ব্ৰাউজাৰৰ সেটিঙৰ জৰিয়তে আপুনি কুকি নিয়ন্ত্ৰণ বা মচিব পাৰে। কুকি অক্ষম কৰিলে ৱেবছাইটৰ কিছুমান অংশ (যেনে থীম আৰু ভাষাৰ স্মৃতি) ইচ্ছামতে কাম নকৰিব পাৰে।</p>
+
+        <h3>৩. Google AdSense আৰু তৃতীয় পক্ষৰ বিজ্ঞাপন</h3>
+        <p>অধ্যয়ন সামগ্ৰী বিনামূলীয়া ৰাখিবলৈ axomexam.in বিজ্ঞাপনেৰে চলি থাকে। আমি <strong>Google AdSense</strong> ব্যৱহাৰ কৰোঁ আৰু অন্য তৃতীয় পক্ষৰ বিজ্ঞাপন নেটৱৰ্কৰ সৈতেও কাম কৰিব পাৰোঁ।</p>
+        <ul>
+          <li>তৃতীয় পক্ষৰ বিক্ৰেতা, <strong>Google সহ</strong>, এই ৱেবছাইট আৰু/বা ইণ্টাৰনেটৰ অন্য ৱেবছাইটলৈ আপোনাৰ আগৰ ভ্ৰমণৰ ভিত্তিত বিজ্ঞাপন দেখুৱাবলৈ কুকি ব্যৱহাৰ কৰে।</li>
+          <li>Google এ বিজ্ঞাপন কুকি (যেনে <strong>DoubleClick DART কুকি</strong>) ব্যৱহাৰ কৰি আপোনালৈ প্ৰাসংগিক বিজ্ঞাপন দেখুৱাব পাৰে।</li>
+          <li>আপোনাৰ অঞ্চল আৰু সন্মতিৰ ওপৰত নিৰ্ভৰ কৰি Google এ <strong>ব্যক্তিগতকৃত</strong> বা <strong>অ-ব্যক্তিগতকৃত</strong> বিজ্ঞাপন দেখুৱাব পাৰে। অ-ব্যক্তিগতকৃত বিজ্ঞাপন পৃষ্ঠাৰ সমলৰ ওপৰত আধাৰিত, আপোনাৰ আগৰ আচৰণৰ ওপৰত নহয়।</li>
+          <li>তৃতীয় পক্ষৰ বিজ্ঞাপন নেটৱৰ্কে তেওঁলোকৰ নিজা কুকি বা একেধৰণৰ প্ৰযুক্তিৰ জৰিয়তে তথ্য সংগ্ৰহ কৰিব পাৰে, আৰু সেই তথ্যৰ ব্যৱহাৰ তেওঁলোকৰ নিজা গোপনীয়তা নীতিয়ে নিয়ন্ত্ৰণ কৰে।</li>
+        </ul>
+        <p><strong>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকাৰ উপায়:</strong></p>
+        <ul>
+          <li>Google এ কৰা ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থাকিবলৈ <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener nofollow">Google Ads Settings</a> লৈ যাওক।</li>
+          <li>কিছুমান তৃতীয় পক্ষৰ বিক্ৰেতাৰ কুকি ব্যৱহাৰৰ পৰা আঁতৰি থাকিবলৈ <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener nofollow">www.aboutads.info</a> লৈ যাওক।</li>
+          <li>ইউৰোপীয় অৰ্থনৈতিক অঞ্চল, যুক্তৰাজ্য বা ছুইজাৰলেণ্ডত থাকিলে <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener nofollow">www.youronlinechoices.eu</a> লৈ গৈ বিজ্ঞাপনৰ পছন্দ নিয়ন্ত্ৰণ কৰক।</li>
+          <li>Google এ তেওঁৰ সেৱা ব্যৱহাৰ কৰা ছাইটৰ পৰা তথ্য কেনেকৈ ব্যৱহাৰ কৰে জানিবলৈ <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener nofollow">policies.google.com/technologies/ads</a> চাওক।</li>
+        </ul>
+        <p>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকাৰ অৰ্থ এইটো নহয় যে আপুনি বিজ্ঞাপন নেদেখিব; ইয়াৰ অৰ্থ হ'ল আপুনি দেখা বিজ্ঞাপনবোৰ আপোনাৰ আগ্ৰহৰ সৈতে কম প্ৰাসংগিক হ'ব পাৰে।</p>
+
+        <h3>৪. আমি তথ্য কেনেকৈ ব্যৱহাৰ কৰোঁ</h3>
+        <ul>
+          <li>ৱেবছাইট, সমল আৰু এপ পৰিচালনা, ৰক্ষণাবেক্ষণ আৰু উন্নত কৰিবলৈ।</li>
+          <li>আপোনাৰ প্ৰশ্ন, সংশোধন, অৱদান আৰু টেকডাউন অনুৰোধৰ উত্তৰ দিবলৈ।</li>
+          <li>মঞ্চখন বিনামূলীয়া ৰখা বিজ্ঞাপন দেখুৱাব আৰু জোখ ল'বলৈ।</li>
+          <li>সুৰক্ষা ঘটনা, অপব্যৱহাৰ, স্পাম আৰু কাৰিকৰী ত্ৰুটি নিৰীক্ষণ কৰিবলৈ।</li>
+          <li>কোন বিষয় আৰু সুবিধা আটাইতকৈ উপযোগী বুজি নতুন সমলৰ পৰিকল্পনা কৰিবলৈ।</li>
+          <li>প্ৰযোজ্য আইনী দায়িত্ব পালন কৰিবলৈ।</li>
+        </ul>
+
+        <h3>৫. তথ্য ভাগ-বাটোৱাৰা আৰু প্ৰকাশ</h3>
+        <p>আমি আপোনাৰ ব্যক্তিগত তথ্য বিক্ৰী নকৰোঁ। কেৱল তলত দিয়া সীমিত অৱস্থাতহে তথ্য ভাগ কৰিব পাৰোঁ:</p>
+        <ul>
+          <li><strong>সেৱা প্ৰদানকাৰী আৰু বিজ্ঞাপন অংশীদাৰ:</strong> যেনে Google AdSense, হোষ্টিং, এনালিটিক্স আৰু ইমেইল প্ৰদানকাৰী, যিসকলে আমাৰ হৈ তথ্য প্ৰক্ৰিয়া কৰে।</li>
+          <li><strong>আইনী প্ৰয়োজন:</strong> আইন, নিয়ম বা বলবৎ চৰকাৰী অনুৰোধ মানিবলৈ তথ্য প্ৰকাশ কৰিবলগীয়া হ'লে।</li>
+          <li><strong>অধিকাৰ সুৰক্ষা:</strong> আমাৰ অধিকাৰ, ব্যৱহাৰকাৰী বা ৰাইজৰ সুৰক্ষা, বা জালিয়াতি আৰু সুৰক্ষা বিষয়ৰ তদন্তৰ বাবে প্ৰয়োজন হ'লে।</li>
+          <li><strong>ব্যৱসায় হস্তান্তৰ:</strong> ৱেবছাইট বা ইয়াৰ সম্পদ হস্তান্তৰ বা একত্ৰীকৰণ হ'লে তথ্য সেই লেনদেনৰ অংশ হিচাপে হস্তান্তৰ হ'ব পাৰে।</li>
+        </ul>
+
+        <h3>৬. তথ্য সংৰক্ষণ</h3>
+        <p>যোগাযোগ আৰু অৱদানৰ বাৰ্তা কেৱল উত্তৰ দি সমাধান কৰিবলৈ যিমান প্ৰয়োজন তিমান সময় ৰাখোঁ, তাৰ পিছত ৰেকৰ্ড ৰাখিবলৈ এক যুক্তিসংগত সময়লৈ। স্বয়ংক্ৰিয়ভাৱে সংগ্ৰহ কৰা কাৰিকৰী আৰু এনালিটিক্স তথ্য এই নীতিত উল্লেখ কৰা উদ্দেশ্যৰ বাবে যিমান প্ৰয়োজন তিমান সময় সামগ্ৰিক ৰূপত সংৰক্ষণ কৰা হয়। বিজ্ঞাপন অংশীদাৰসকলে তেওঁলোকৰ নিজা নীতি অনুসৰি তথ্য সংৰক্ষণ কৰে।</p>
+
+        <h3>৭. তথ্য সুৰক্ষা</h3>
+        <p>তথ্য সুৰক্ষিত ৰাখিবলৈ আমি যুক্তিসংগত কাৰিকৰী আৰু সাংগঠনিক ব্যৱস্থা লওঁ, য'ত ৱেবছাইট HTTPS ৰ জৰিয়তে পৰিৱেশন কৰাও অন্তৰ্ভুক্ত। তথাপিও ইণ্টাৰনেটত প্ৰেৰণ বা ইলেক্ট্ৰনিক সংৰক্ষণৰ কোনো পদ্ধতিয়েই সম্পূৰ্ণ নিৰাপদ নহয়, আৰু আমি সম্পূৰ্ণ নিৰাপত্তাৰ নিশ্চয়তা দিব নোৱাৰোঁ।</p>
+
+        <h3>৮. আপোনাৰ অধিকাৰ আৰু বিকল্প</h3>
+        <p>আপোনাৰ অৱস্থানৰ ওপৰত নিৰ্ভৰ কৰি আপোনাৰ তলত দিয়া অধিকাৰ থাকিব পাৰে:</p>
+        <ul>
+          <li>আমাৰ ওচৰত থকা আপোনাৰ ব্যক্তিগত তথ্য চাবলৈ অনুৰোধ কৰা।</li>
+          <li>আপোনাৰ ব্যক্তিগত তথ্য শুধৰোৱা বা মচিবলৈ অনুৰোধ কৰা।</li>
+          <li>কিছুমান প্ৰক্ৰিয়াৰ বিৰোধিতা বা সীমাবদ্ধতা, আৰু সন্মতিভিত্তিক প্ৰক্ৰিয়াৰ সন্মতি প্ৰত্যাহাৰ।</li>
+          <li>ব্যক্তিগতকৃত বিজ্ঞাপনৰ পৰা আঁতৰি থকা (ধাৰা ৩ চাওক)।</li>
+          <li>আপোনাৰ স্থানীয় তথ্য সুৰক্ষা কৰ্তৃপক্ষৰ ওচৰত অভিযোগ কৰা।</li>
+        </ul>
+        <p>এই অধিকাৰসমূহ ব্যৱহাৰ কৰিবলৈ <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ ইমেইল কৰক। আমি যুক্তিসংগত সময়ৰ ভিতৰত উত্তৰ দিম আৰু আপোনাৰ অনুৰোধ যাচাই কৰিবলগীয়া হ'ব পাৰে।</p>
+
+        <h3>৯. শিশুৰ গোপনীয়তা</h3>
+        <p>axomexam.in প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰাৰ্থীসকলৰ বাবে। আমি ১৩ বছৰৰ তলৰ (বা আপোনাৰ দেশত প্ৰযোজ্য ন্যূনতম বয়সৰ তলৰ) শিশুৰ পৰা সজ্ঞানে ব্যক্তিগত তথ্য সংগ্ৰহ নকৰোঁ। অভিভাৱকে এনে তথ্য দিয়া হৈছে বুলি ভাবিলে আমাক জনাওক, আমি মচি দিম।</p>
+
+        <h3>১০. তৃতীয় পক্ষৰ লিংক</h3>
+        <p>কিছুমান পৃষ্ঠাই চৰকাৰী নিয়োগ প'ৰ্টেল, এপ ষ্ট'ৰ বা প্ৰসংগ উৎসৰ দৰে বাহ্যিক ৱেবছাইটলৈ লিংক দিয়ে। সেই ৱেবছাইটসমূহৰ গোপনীয়তা পদ্ধতি বা সমলৰ বাবে আমি দায়বদ্ধ নহয়, আৰু ব্যৱহাৰ কৰাৰ আগতে তেওঁলোকৰ গোপনীয়তা নীতি পঢ়িবলৈ পৰামৰ্শ দিওঁ।</p>
+
+        <h3>১১. আন্তৰ্জাতিক তথ্য স্থানান্তৰ</h3>
+        <p>Google সহ আমাৰ সেৱা প্ৰদানকাৰীসকলে আপোনাৰ দেশৰ বাহিৰে অন্য দেশত তথ্য প্ৰক্ৰিয়া আৰু সংৰক্ষণ কৰিব পাৰে। প্ৰয়োজন হ'লে এনে স্থানান্তৰ তেওঁলোকৰ নিজা গোপনীয়তা নীতিত বৰ্ণনা কৰা উপযুক্ত সুৰক্ষাৰে কৰা হয়।</p>
+
+        <h3>১২. এই নীতিত পৰিৱৰ্তন</h3>
+        <p>আমাৰ পদ্ধতি, প্ৰযুক্তি বা আইনী প্ৰয়োজনৰ পৰিৱৰ্তন প্ৰতিফলিত কৰিবলৈ আমি সময়ে সময়ে এই নীতি হালনাগাদ কৰিব পাৰোঁ। শেহতীয়া সংস্কৰণ সদায় এই পৃষ্ঠাত উপলব্ধ থাকিব আৰু তলৰ "শেষ হালনাগাদ" তাৰিখ সংশোধন কৰা হ'ব। পৰিৱৰ্তনৰ পিছত ৱেবছাইট ব্যৱহাৰ কৰি থাকিলে আপুনি হালনাগাদ নীতিত সন্মতি জনোৱা বুলি ধৰা হ'ব।</p>
+
+        <h3>১৩. আমাৰ সৈতে যোগাযোগ</h3>
+        <p>এই গোপনীয়তা নীতি বা আপোনাৰ তথ্যৰ বিষয়ে কোনো প্ৰশ্ন, চিন্তা বা অনুৰোধ থাকিলে যোগাযোগ কৰক:</p>
+        <ul>
+          <li><strong>ইমেইল:</strong> <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a></li>
+          <li><strong>যোগাযোগ পৃষ্ঠা:</strong> <a href="/contact/">axomexam.in/contact</a></li>
+        </ul>
+        <p style="margin-top:20px; padding-top:14px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>This Privacy Policy explains how <strong>axomexam.in</strong> ("we", "us", "our") collects, uses, stores and shares information when you visit or use our website, study material, mock tests, e-books, downloadable PDF notes and our Android app. It also describes the choices you have and how you can control the information connected with your use of the platform.</p>
+        <p>By accessing or using axomexam.in you agree to this Privacy Policy. If you do not agree with any part of it, please do not use the website.</p>
+
+        <h3>1. Information We Collect</h3>
+        <p><strong>1.1 Information you give us.</strong> You can read, practise and download almost all study material without creating an account. We do not ask for your name, address, date of birth or payment details to access content. Personal information is collected only when you choose to provide it: your name, email address, subject and message through the contact form or email; any name, email and questions you submit through the Submit Q&amp;A form; and the details you provide to support a copyright or takedown request.</p>
+        <p><strong>1.2 Information collected automatically.</strong> Like most websites, when you visit axomexam.in our servers and third-party service providers automatically record certain technical information, including IP address, browser type and version, device type and operating system, language, the pages you visit, the date and time of your visit, the time spent and the referring page or link. This information is used in aggregate for security, troubleshooting, performance and usage analysis and does not directly identify you.</p>
+        <p><strong>1.3 Preferences stored on your device.</strong> We use your browser's local storage to remember choices such as your selected language (English or Assamese) and light or dark theme. These settings stay on your device and are not used to identify you.</p>
+
+        <h3>2. Cookies and Similar Technologies</h3>
+        <p>Cookies are small text files placed on your device by a website. We and our third-party partners use cookies, web beacons, pixels and similar technologies for the purposes described below.</p>
+        <ul>
+          <li><strong>Strictly necessary / preference cookies:</strong> to keep the site working and remember your theme and language choices.</li>
+          <li><strong>Analytics cookies:</strong> to understand how visitors use the site so that we can improve content and speed.</li>
+          <li><strong>Advertising cookies:</strong> set by Google and other advertising partners to display and measure advertisements, including personalised advertising.</li>
+        </ul>
+        <p>You can control or delete cookies through your browser settings. If you disable cookies, some parts of the website (for example theme and language memory) may not work as intended.</p>
+
+        <h3>3. Google AdSense and Third-Party Advertising</h3>
+        <p>axomexam.in is supported by advertising so that the study material can remain free. We use <strong>Google AdSense</strong> and may also work with other third-party advertising networks and vendors.</p>
+        <ul>
+          <li>Third-party vendors, <strong>including Google</strong>, use cookies to serve ads based on your prior visits to this website and/or other websites on the internet.</li>
+          <li>Google's use of advertising cookies (including the <strong>DoubleClick DART cookie</strong>) enables Google and its partners to serve ads to you based on your visit to our site and/or other sites on the internet.</li>
+          <li>Depending on your region and consent choices, Google may serve either <strong>personalised</strong> or <strong>non-personalised</strong> ads. Non-personalised ads are based on the content of the page rather than your past behaviour.</li>
+          <li>Third-party ad networks may collect information directly through their own cookies, web beacons or similar technologies, and their handling of that information is governed by their own privacy policies, not ours.</li>
+        </ul>
+        <p><strong>How to opt out of personalised advertising:</strong></p>
+        <ul>
+          <li>Visit <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener nofollow">Google Ads Settings</a> to opt out of personalised advertising by Google.</li>
+          <li>Visit <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener nofollow">www.aboutads.info</a> to opt out of some third-party vendors' use of cookies for personalised advertising.</li>
+          <li>If you are in the European Economic Area, the United Kingdom or Switzerland, visit <a href="https://www.youronlinechoices.eu/" target="_blank" rel="noopener nofollow">www.youronlinechoices.eu</a> to manage your advertising preferences.</li>
+          <li>Learn more about how Google uses information from sites that use its services at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener nofollow">policies.google.com/technologies/ads</a>.</li>
+        </ul>
+        <p>Opting out of personalised advertising does not mean you will stop seeing ads; it means the ads you see may be less relevant to your interests.</p>
+
+        <h3>4. How We Use Information</h3>
+        <ul>
+          <li>To operate, maintain and improve the website, content and app.</li>
+          <li>To respond to your queries, corrections, contributions and takedown requests.</li>
+          <li>To display and measure advertising that keeps the platform free.</li>
+          <li>To monitor for security incidents, abuse, spam and technical errors.</li>
+          <li>To understand which subjects and features are most useful and to plan new content.</li>
+          <li>To comply with applicable legal obligations.</li>
+        </ul>
+
+        <h3>5. Sharing and Disclosure of Information</h3>
+        <p>We do not sell your personal information. We may share information only in the following limited situations:</p>
+        <ul>
+          <li><strong>Service providers and advertising partners:</strong> such as Google AdSense, hosting, analytics and email providers, who process information on our behalf or as independent controllers under their own policies.</li>
+          <li><strong>Legal requirements:</strong> where we are required to disclose information to comply with a law, regulation, legal process or enforceable government request.</li>
+          <li><strong>Protection of rights:</strong> where disclosure is necessary to protect our rights, the safety of users or the public, or to investigate fraud or security issues.</li>
+          <li><strong>Business transfer:</strong> if the website or its assets are transferred or merged, information may be transferred as part of that transaction.</li>
+        </ul>
+
+        <h3>6. Data Retention</h3>
+        <p>We keep contact and contribution messages only for as long as needed to respond to and resolve them, and then for a reasonable period for record-keeping. Automatically collected technical and analytics data is retained in aggregate form for as long as necessary for the purposes described in this policy. Advertising partners retain data according to their own retention policies.</p>
+
+        <h3>7. Data Security</h3>
+        <p>We take reasonable technical and organisational measures to protect information, including serving the website over HTTPS. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
+
+        <h3>8. Your Rights and Choices</h3>
+        <p>Depending on your location, you may have the right to:</p>
+        <ul>
+          <li>Request access to the personal information we hold about you.</li>
+          <li>Request correction or deletion of your personal information.</li>
+          <li>Object to or restrict certain processing, and withdraw consent where processing is based on consent.</li>
+          <li>Opt out of personalised advertising (see section 3).</li>
+          <li>Lodge a complaint with your local data protection authority.</li>
+        </ul>
+        <p>To exercise any of these rights, email us at <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a>. We will respond within a reasonable period and may need to verify your request.</p>
+
+        <h3>9. Children's Privacy</h3>
+        <p>axomexam.in is intended for candidates preparing for competitive examinations. We do not knowingly collect personal information from children under 13 (or the minimum age applicable in your country). If a parent or guardian believes that a child has provided personal information, please contact us and we will delete it.</p>
+
+        <h3>10. Third-Party Links</h3>
+        <p>Some pages link to external websites such as official recruitment portals, app stores or reference sources. We are not responsible for the privacy practices or content of those websites, and we encourage you to read their privacy policies before using them.</p>
+
+        <h3>11. International Data Transfers</h3>
+        <p>Our service providers, including Google, may process and store information in countries other than your own. Where required, such transfers are carried out using appropriate safeguards as described in the providers' own privacy policies.</p>
+
+        <h3>12. Changes to This Privacy Policy</h3>
+        <p>We may update this policy from time to time to reflect changes in our practices, technology or legal requirements. The latest version will always be available on this page, and the "Last updated" date below will be revised. Continued use of the website after changes means you accept the updated policy.</p>
+
+        <h3>13. Contact Us</h3>
+        <p>If you have any questions, concerns or requests about this Privacy Policy or your information, please contact us:</p>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a></li>
+          <li><strong>Contact page:</strong> <a href="/contact/">axomexam.in/contact</a></li>
+        </ul>
+        <p style="margin-top:20px; padding-top:14px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="terms"?(s=a?"নীতি আৰু চৰ্তসমূহ":"Terms & Conditions",n=a?"axomexam.in ৰ ৱেবছাইট, অধ্যয়ন টোকা, মক টেষ্ট আৰু ডাউনল'ডসমূহ ব্যৱহাৰ কৰাৰ নিয়ম আৰু চৰ্তসমূহ।":"The rules and conditions for using the axomexam.in website, study notes, mock tests and downloads.",i=a?`
+        <p>এই ৱেবছাইটত প্ৰৱেশ কৰি ব্ৰাউজ কৰিলে আপুনি তলত উল্লেখ কৰা নীতি আৰু চৰ্তসমূহ মানি লোৱা বুলি ধৰা হয়। এই চৰ্তসমূহে আপুনি সামগ্ৰীৰ সৈতে কি কৰিব পাৰে, ছাইটে কি নিশ্চয়তা দিয়ে আৰু কি নিদিয়ে, আৰু বিজ্ঞাপন তথা বাহ্যিক লিংকৰ সৈতে সম্পৰ্ক কেনেকুৱা তাক ব্যাখ্যা কৰে।</p>
+
+        <h3>১. সামগ্ৰীৰ ব্যৱহাৰ</h3>
+        <ul>
+          <li>অনুশীলন প্ৰশ্ন, টোকা আৰু মক টেষ্ট নিজৰ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে পঢ়িব আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া।</li>
+          <li>ব্যক্তিগত অধ্যয়নৰ বাবে আপুনি পৃষ্ঠা ছপা বা সংৰক্ষণ কৰিব পাৰে।</li>
+          <li>লিখিত অনুমতি অবিহনে সমল অন্য ৱেবছাইট বা এপত পুনৰ প্ৰকাশ কৰা বা বিক্ৰী কৰা নিষিদ্ধ।</li>
+          <li>সমলৰ কোনো অংশ পুনৰ লিখি বা সম্পাদনা কৰি নিজৰ নামত প্ৰকাশ কৰা নিষিদ্ধ।</li>
+        </ul>
+
+        <h3>২. তথ্যৰ শুদ্ধতা আৰু দায়বদ্ধতা</h3>
+        <ul>
+          <li>উত্তৰ আৰু ব্যাখ্যা শুদ্ধ ৰাখিবলৈ প্ৰতিটো প্ৰচেষ্টা কৰা হয়, তথাপিও ত্ৰুটি থাকিব পাৰে।</li>
+          <li>সামগ্ৰী সাধাৰণ প্ৰস্তুতিৰ বাবে দিয়া হয়, ই কোনো চৰকাৰী প্ৰশ্নকাকত নহয়।</li>
+          <li>কোনো প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেটৰ ওপৰত নিৰ্ভৰ কৰক।</li>
+          <li>সামগ্ৰীৰ ওপৰত ভিত্তি কৰি লোৱা যিকোনো সিদ্ধান্ত আপোনাৰ নিজা বিবেচনাধীন।</li>
+        </ul>
+
+        <h3>৩. বিজ্ঞাপন আৰু বাহ্যিক লিংক</h3>
+        <ul>
+          <li>ছাইটখন বিজ্ঞাপনেৰে চলি থাকে, যিয়ে অধ্যয়ন সামগ্ৰী বিনামূলীয়া ৰাখে।</li>
+          <li>বিজ্ঞাপন আৰু সম্পাদকীয় সিদ্ধান্ত সম্পূৰ্ণ পৃথক; কোনো বিজ্ঞাপনদাতাক সমলত স্থান দিয়া নহয়।</li>
+          <li>অন্য ৱেবছাইটলৈ লিংক কেৱল সুবিধাৰ বাবে দিয়া হয়; তেওঁলোকৰ সমল বা নীতি axomexam ৰ নিয়ন্ত্ৰণত নাই।</li>
+        </ul>
+
+        <h3>৪. প্ৰায়ে সোধা প্ৰশ্ন</h3>
+        <p><strong>axomexam ব্যৱহাৰ কৰিবলৈ মই পইচা দিব লাগিব নেকি?</strong> নালাগে। অনুশীলন প্ৰশ্ন, টোকা, মক টেষ্ট আৰু PDF বিনামূলীয়া। ছাইটখন বিজ্ঞাপনেৰে চলি থাকে, যিয়ে সামগ্ৰী বিনামূলীয়া ৰাখে।</p>
+        <p><strong>মই মোৰ নিজা ছাইট বা এপত সমল পুনৰ ব্যৱহাৰ কৰিব পাৰিম নেকি?</strong> নিজৰ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে আপুনি পৃষ্ঠা পঢ়িব, ছপা কৰিব আৰু সংৰক্ষণ কৰিব পাৰে। সমল পুনৰ প্ৰকাশ বা বিক্ৰী কৰিবলৈ প্ৰথমে লিখিত অনুমতি লাগে।</p>
+        <p><strong>একাউণ্ট লাগে নেকি?</strong> ছাইটৰ কোনো অংশৰ বাবেই একাউণ্ট নালাগে। ছাইন আপ বা লগইন কৰিবলৈ একো নাই।</p>
+        <p><strong>ভুল পালে মই কি কৰিম?</strong> পৃষ্ঠাৰ লিংক আৰু সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াওক। সংশোধনসমূহ যাচাই কৰি নিশ্চিত হ'লে প্ৰয়োগ কৰা হয়।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>By accessing and browsing <strong>axomexam.in</strong>, you accept and agree to the following Terms and Conditions. These terms explain what you may do with the material and what the site does and does not promise.</p>
+
+        <h3>1. Content Usage</h3>
+        <ul>
+          <li>Practice questions, notes and mock tests are free to read and use for your own exam preparation.</li>
+          <li>You may print or save pages for personal study.</li>
+          <li>Republishing the content on another website or app, or selling it, is not allowed without written permission.</li>
+        </ul>
+
+        <h3>2. Accuracy &amp; Liability</h3>
+        <ul>
+          <li>Every effort is made to keep answers and explanations correct, but errors can still occur.</li>
+          <li>The material is provided for general preparation and is not an official question paper.</li>
+          <li>For anything authoritative, always rely on the official notification or gazette.</li>
+        </ul>
+
+        <h3>3. Advertising and Links</h3>
+        <ul>
+          <li>The site is supported by advertising, which keeps the material free.</li>
+          <li>Links to other websites are provided for convenience; their content is not controlled by axomexam.</li>
+        </ul>
+
+        <h3>4. Frequently Asked Questions</h3>
+        <p><strong>Do I have to pay to use axomexam?</strong> No. The practice questions, notes, mock tests and PDFs are free. The site is supported by advertising, which is what keeps the material free.</p>
+        <p><strong>Can I reuse the content on my own site or app?</strong> You may read, print and save pages for your own exam preparation. Republishing or selling the content needs written permission first.</p>
+        <p><strong>Do I need an account?</strong> No account is needed for any part of the site. There is nothing to sign up for and no login.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="disclaimer"?(s=a?"দায়মুক্তি":"Disclaimer",n=a?"axomexam.in ৰ সীমা, চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা আৰু অধ্যয়ন সামগ্ৰী ব্যৱহাৰৰ চৰ্তসমূহ।":"The scope of axomexam.in, its non-affiliation with government bodies, and the terms on which its study material is used.",i=a?`
+        <p><strong>https://axomexam.in</strong> ত প্ৰকাশিত সকলো সমল আৰু প্ৰশ্ন-সংগ্ৰহ সৎ বিশ্বাসেৰে আৰু কেৱল সাধাৰণ শিক্ষা, একাডেমিক আৰু প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতিৰ উদ্দেশ্যত প্ৰকাশ কৰা হৈছে। তলৰ দায়মুক্তিয়ে ইয়াত প্ৰকাশিত সামগ্ৰীৰ সীমা স্পষ্ট কৰে।</p>
+
+        <h3>১. চৰকাৰী সংস্থাৰ সৈতে সম্পৰ্কহীনতা</h3>
+        <p>axomexam.in এক স্বতন্ত্ৰ ব্যক্তিগত শিক্ষামূলক ৱেবছাইট। ই অসম চৰকাৰ, APSC, SLPRB, ৰাজ্যিক নিয়োগ পৰিষদ বা কোনো চৰকাৰী পৰীক্ষা সংস্থাৰ সৈতে সংযুক্ত, পৃষ্ঠপোষিত বা অনুমোদিত <strong>নহয়</strong>। পৰীক্ষাৰ্থীসকলে সদায় চৰকাৰী নিয়োগ গেজেটৰ সৈতে মিলাই পৰীক্ষা কৰিব লাগে।</p>
+
+        <h3>২. শিক্ষামূলক ব্যৱহাৰ</h3>
+        <ul>
+          <li>অনুশীলন প্ৰশ্ন আৰু টোকা কেৱল সাধাৰণ পৰীক্ষাৰ প্ৰস্তুতিৰ বাবে প্ৰকাশ কৰা হয়।</li>
+          <li>এইবোৰ চৰকাৰী প্ৰশ্নকাকত নহয় আৰু পৰীক্ষাত অহাৰ কোনো নিশ্চয়তা নাই।</li>
+          <li>পৰীক্ষাৰ ধৰণ বা পাঠ্যক্ৰম সলনি হ'লে পুৰণি তথ্য ভুল হ'ব পাৰে।</li>
+          <li>কোনো প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেট চাওক।</li>
+        </ul>
+
+        <h3>৩. তথ্যৰ শুদ্ধতা আৰু সীমাবদ্ধতা</h3>
+        <ul>
+          <li>প্ৰকাশৰ আগতে সমল মানক প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰা হয়।</li>
+          <li>তথাপিও ত্ৰুটি থাকিব পাৰে; সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াব পাৰে।</li>
+          <li>অধ্যয়ন সামগ্ৰী আৰু মক অনুশীলনৰ ব্যৱহাৰ আপোনাৰ নিজা বিবেচনাধীন।</li>
+        </ul>
+
+        <h3>৪. প্ৰায়ে সোধা প্ৰশ্ন</h3>
+        <p><strong>axomexam এখন চৰকাৰী ৱেবছাইট নেকি?</strong> নহয়। axomexam এখন স্বতন্ত্ৰ অধ্যয়ন ছাইট। ই অসম চৰকাৰ, APSC, SLPRB বা কোনো নিয়োগ পৰিষদৰ সৈতে সংযুক্ত বা অনুমোদিত নহয়।</p>
+        <p><strong>অনুশীলন প্ৰশ্নবোৰ চৰকাৰী প্ৰশ্নকাকত নেকি?</strong> নহয়। এইবোৰ অনুশীলনৰ বাবে লিখা আৰু চৰকাৰী প্ৰশ্নকাকত নহয়। প্ৰামাণিক তথ্যৰ বাবে সদায় চৰকাৰী জাননী বা গেজেট চাওক।</p>
+        <p><strong>ভুল পালে মই কি কৰিম?</strong> পৃষ্ঠাৰ লিংক আৰু সংশোধন <a href="/submit/">প্ৰশ্ন আগবঢ়াওক</a> পৃষ্ঠাৰ জৰিয়তে পঠিয়াওক। জনোৱা সংশোধনসমূহ মানক প্ৰসংগৰ সৈতে মিলাই যাচাই কৰি নিশ্চিত হ'লে প্ৰয়োগ কৰা হয়।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২০ ছেপ্তেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>All content and question banks on <strong>https://axomexam.in</strong> are published in good faith and solely for general educational and competitive examination preparation purposes.</p>
+
+        <h3>1. Non-Affiliation with Government Authorities</h3>
+        <p>axomexam.in is an independent private educational website. It is <strong>NOT</strong> affiliated with, sponsored by, or endorsed by the Government of Assam, APSC, SLPRB, State Recruitment Boards, or any governmental testing agency. Candidates must always cross-reference with official state recruitment gazettes.</p>
+
+        <h3>2. Educational Use</h3>
+        <ul>
+          <li>Practice questions and notes are published for general exam preparation only.</li>
+          <li>They are not official question papers and carry no guarantee of appearing in an exam.</li>
+          <li>For anything authoritative, always check the official notification or gazette.</li>
+          <li>Use of the study material and mock practice is at your own discretion.</li>
+        </ul>
+
+        <h3>3. Frequently Asked Questions</h3>
+        <p><strong>Is axomexam an official government website?</strong> No. axomexam is an independent study site. It is not run by, connected to, or endorsed by the Government of Assam, APSC, SLPRB or any recruitment board.</p>
+        <p><strong>Are the practice questions official question papers?</strong> No. They are written for practice and are not official papers. For anything authoritative, always check the official notification or gazette.</p>
+        <p><strong>What should I do if I find a mistake?</strong> Send the page link and the correction through the <a href="/submit/">Submit Q&amp;A</a> page. Reported corrections are checked against standard reference material and applied once confirmed.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 20 September 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="editorial-policy"?(s=a?"সম্পাদকীয় নীতি":"Editorial Policy",n=a?"অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে axomexam.in ৰ দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেনেদৰে পৰিকল্পনা, লিখন, তথ্য-যাচাই, পৰ্যালোচনা আৰু সংশোধন কৰা হয়।":"How axomexam.in plans, writes, fact-checks, reviews and corrects its bilingual study material for Assam competitive examinations.",i=a?`
+        <p><strong>axomexam.in</strong> এ অসম ৰাজ্যিক নিযুক্তি পৰীক্ষা আৰু অসমত জনপ্ৰিয় কেন্দ্ৰীয় পৰীক্ষাসমূহৰ বাবে বিনামূলীয়া দ্বিভাষিক অধ্যয়ন সামগ্ৰী প্ৰকাশ কৰে। এই পৃষ্ঠাই ব্যাখ্যা কৰে যে সামগ্ৰী কেৱে প্ৰস্তুত কৰে, কেনেদৰে পৰীক্ষা কৰা হয়, কি উৎস ব্যৱহাৰ কৰা হয়, ভুল কেনেদৰে সংশোধন কৰা হয়, আৰু বিজ্ঞাপনক সম্পাদকীয় সিদ্ধান্তৰ পৰা কেনেদৰে পৃথক ৰখা হয়। এই নীতি এই ৱেবছাইটত প্ৰকাশিত প্ৰতিটো প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত, ই-বুক, PDF নোট আৰু প্ৰবন্ধৰ ক্ষেত্ৰত প্ৰযোজ্য।</p>
+
+        <h2>সামগ্ৰী কেৱে প্ৰস্তুত কৰে</h2>
+        <p>সামগ্ৰী <a href="/editorial-team/">axomexam সম্পাদকীয় দল</a>এ পৰিকল্পনা আৰু পৰ্যালোচনা কৰে, যিয়ে কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। প্ৰকাশৰ আগতে প্ৰতিটো পৃষ্ঠা এজন বিষয়-পৰ্যালোচকে আৰু অসমীয়া পাঠৰ বাবে এজন ভাষা-পৰ্যালোচকে পৰীক্ষা কৰে। কোনো কোচিং প্ৰতিষ্ঠান, প্ৰকাশক বা পৰীক্ষা প'ৰ্টেলৰ সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বিনিময়ত আমি ধন লোৱা নাই, আৰু কোনো পৃষ্ঠপোষকতা কৰা পৃষ্ঠাক অধ্যয়ন সামগ্ৰী হিচাপে উপস্থাপন কৰা নহয়।</p>
+
+        <h2>এখন পৃষ্ঠা কেনেদৰে সৃষ্টি কৰা হয়</h2>
+        <ol>
+          <li><strong>পাঠ্যক্ৰমৰ মিল।</strong> প্ৰতিটো শিতান প্ৰথমে সংশ্লিষ্ট পৰীক্ষাৰ চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়, যাতে পৃষ্ঠাত থকা বিষয়বোৰ প্ৰকৃততে প্ৰশ্নকাকতত অহা বিষয় হয়।</li>
+          <li><strong>খচৰা প্ৰস্তুত।</strong> প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা সহজ ভাষাত লিখা হয়। সংখ্যাগত বা যুক্তিৰ প্ৰশ্নত কেৱল চূড়ান্ত উত্তৰ নহয়, কামৰ ধাপবোৰো দেখুওৱা হয়। ইংৰাজী আৰু অসমীয়া সংস্কৰণ একেলগে প্ৰস্তুত কৰা হয় যাতে দুয়োটা সংস্কৰণে একে সামগ্ৰী সামৰি লয়।</li>
+          <li><strong>তথ্য-যাচাই।</strong> তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী আৰু চৰকাৰী প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয় বা প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰা হয়। যি তথ্য যাচাই কৰিব নোৱাৰি, তাক সত্য হিচাপে প্ৰকাশ কৰা নহয়।</li>
+          <li><strong>ভাষা পৰ্যালোচনা।</strong> অসমীয়া সংস্কৰণ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগৰ বাবে পঢ়া হয়, কেৱল শব্দে শব্দে অনুবাদ নহয়। কাৰিকৰী শব্দবোৰ অসমীয়া প্ৰশ্নকাকতত ব্যৱহৃত ৰূপতেই ৰখা হয়।</li>
+          <li><strong>প্ৰকাশ আৰু পুনৰ পৰ্যালোচনা।</strong> প্ৰতিটো পৃষ্ঠাত প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখ থাকে। পাঠ্যক্ৰম, পৰীক্ষাৰ আৰ্হি বা চৰকাৰী জাননী সলনি হ'লে সামগ্ৰী পুনৰ পৰ্যালোচনা কৰা হয়।</li>
+        </ol>
+
+        <h2>আমি ব্যৱহাৰ কৰা উৎস</h2>
+        <p>আমি প্ৰাথমিক আৰু ৰাজহুৱাভাৱে উপলব্ধ সামগ্ৰীৰ ওপৰত নিৰ্ভৰ কৰোঁ: চৰকাৰী নিযুক্তি জাননী আৰু সংশোধনী, চৰকাৰী পৰীক্ষা প'ৰ্টেল, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত, আৰু মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি। আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা <a href="/sources/">চৰকাৰী উৎস পৃষ্ঠা</a>ত ৰখা হৈছে।</p>
+        <p>আমি বাণিজ্যিক পুথিৰ অধ্যায়, প্ৰশ্ন-সংগ্ৰহ বা ব্যাখ্যামূলক পাঠ পুনৰুত্পাদন নকৰোঁ। যি বিষয় সাধাৰণতে এটা নিৰ্দিষ্ট ধৰণে ব্যাখ্যা কৰা হয়, আমি নিজৰ ব্যাখ্যা লিখি পাঠ্যক্ৰম আৰু ৰাজহুৱা সামগ্ৰীৰ সৈতে মিলাই পৰীক্ষা কৰোঁ। তৃতীয় পক্ষৰ প্ৰকাশনৰ উল্লেখ আমাৰ নিজৰ যাচাইৰ বিকল্প নহয়।</p>
+
+        <h2>AI সহায়ক সঁজুলিৰ ব্যৱহাৰ</h2>
+        <p>অন্যান্য আধুনিক প্ৰকাশকৰ দৰেই আমি পাঠ খচৰা, সজ্জিত কৰা আৰু অনুবাদ কৰাত সহায় কৰিবলৈ ছফ্টৱেৰ, যাৰ ভিতৰত AI ভাষা সঁজুলিও আছে, ব্যৱহাৰ কৰোঁ। এই সঁজুলিবোৰ কেৱল খচৰা সহায়ক হিচাপেহে ব্যৱহাৰ কৰা হয়। প্ৰতিটো প্ৰকাশিত পৃষ্ঠা লাইভ হোৱাৰ আগতে এজন ব্যক্তিয়ে পৰ্যালোচনা কৰে, তথ্য ওপৰত বৰ্ণনা কৰা উৎসৰ সৈতে যাচাই কৰা হয়, আৰু প্ৰকাশিত সমলৰ দায়িত্ব সম্পাদকীয় দলৰ। আমি পৰ্যালোচনা নকৰা যন্ত্ৰ-আউটপুট স্বয়ংক্ৰিয়ভাৱে প্ৰকাশ নকৰোঁ, আৰু পৰীক্ষাৰ জাননী, তাৰিখ বা ফলাফল সৃষ্টি কৰিবলৈ AI সঁজুলি ব্যৱহাৰ নকৰোঁ।</p>
+
+        <h2>শুদ্ধতা, সংশোধন আৰু হালনাগাদ</h2>
+        <p>পৰীক্ষাৰ বিৱৰণ সঘনাই সলনি হয়। যদি আপুনি ভুল উত্তৰ, পুৰণি তথ্য, ভাঙা লিংক বা অনুবাদৰ ভুল পায়, তেন্তে পৃষ্ঠাৰ ঠিকনা আৰু শুদ্ধ তথ্যসহ <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ লিখক। আমি প্ৰতিটো অভিযোগ উৎসৰ সৈতে যাচাই কৰি পৃষ্ঠা সলনি কৰোঁ, আৰু দুই-তিনি কৰ্মদিৱসৰ ভিতৰত উত্তৰ দিবলৈ চেষ্টা কৰোঁ। সংশোধন লাইভ পৃষ্ঠাত কৰা হয় আৰু শেষ হালনাগাদৰ তাৰিখ সলনি কৰা হয়। প্ৰধান পৰিৱৰ্তনৰ ৰেকৰ্ড <a href="/updates/">সমল হালনাগাদ পৃষ্ঠা</a>ত ৰখা হয়।</p>
+        <p>axomexam.in এখন স্বতন্ত্ৰ অধ্যয়ন সহায়িকা। ই চৰকাৰী প'ৰ্টেল নহয় আৰু কোনো নিযুক্তি ব'ৰ্ডক প্ৰতিনিধিত্ব নকৰে। আবেদন কৰাৰ আগতে যোগ্যতা, তাৰিখ আৰু পৰীক্ষাৰ আৰ্হি চৰকাৰী জাননীৰ পৰা সদায় নিশ্চিত কৰক।</p>
+
+        <h2>বিজ্ঞাপন আৰু সম্পাদকীয় স্বাধীনতা</h2>
+        <p>ৱেবছাইটটো ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া আৰু বিজ্ঞাপনৰ দ্বাৰা সমৰ্থিত। বিজ্ঞাপন তৃতীয় পক্ষৰ নেটৱৰ্কে পৰিবেশন কৰে আৰু সম্পাদকীয় সমলৰ পৰা স্পষ্টভাৱে পৃথক থাকে। বিজ্ঞাপনদাতাই অধ্যয়ন সামগ্ৰী পৰ্যালোচনা, অনুমোদন বা প্ৰভাৱিত নকৰে, আৰু বিজ্ঞাপনৰ উপস্থিতি বিজ্ঞাপিত সামগ্ৰীৰ অনুমোদন নহয়।</p>
+        <p>আমি ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান ফলাফল বা অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনত বিজ্ঞাপন নৰখোঁ। বিজ্ঞাপন থকা পৃষ্ঠাত ওপৰত বৰ্ণনা কৰা সম্পূৰ্ণ বিষয়বস্তু থাকে, কেৱল বিজ্ঞাপন দেখুওৱাৰ বাবে লিখা সাৰাংশ নহয়।</p>
+
+        <h2>যোগাযোগ</h2>
+        <p>এই নীতিৰ বিষয়ে প্ৰশ্ন, সংশোধনৰ অনুৰোধ আৰু অৱদান <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে পঠিয়াব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p><strong>axomexam.in</strong> publishes free bilingual study material for Assam state recruitment examinations and for central examinations that are popular in Assam. This page explains who prepares that material, how it is checked, which sources are used, how errors are corrected, and how advertising is kept separate from editorial decisions. It applies to every question bank, mock test, previous year paper, e-book, PDF note and article published on this website.</p>
+
+        <h2>Who prepares the content</h2>
+        <p>Content is planned and reviewed by the <a href="/editorial-team/">Axomexam Editorial Team</a>, which works only on study material for this platform. Every page is checked by a subject reviewer and, for Assamese text, by a language reviewer before it is published. We do not accept payment from coaching institutes, publishers or exam portals in exchange for including their material, and no sponsored page is presented as study content.</p>
+
+        <h2>How a page is created</h2>
+        <ol>
+          <li><strong>Syllabus mapping.</strong> Each section is first matched to the official syllabus or notification of the examination it supports, so that the topics on the page are the topics that the paper actually tests.</li>
+          <li><strong>Drafting.</strong> Questions, answers and explanations are written in plain language. Wherever a numerical or reasoning question needs working, the steps are shown instead of only the final answer. English and Assamese versions are prepared together so that the two versions cover the same material.</li>
+          <li><strong>Fact-checking.</strong> Facts, dates, names and numerical answers are cross-checked against official notifications and government portals, public previous year question papers, and standard school or reference material. A statement that cannot be verified is not published as fact.</li>
+          <li><strong>Language review.</strong> The Assamese version is read for correct terminology, spelling and natural usage, not merely translated word for word. Technical terms are kept in the form used in Assamese exam papers.</li>
+          <li><strong>Publishing and review.</strong> Each page carries a published date and a last-updated date. Content is reviewed again when a syllabus, exam pattern or official notification changes.</li>
+        </ol>
+
+        <h2>Sources we use</h2>
+        <p>We rely on primary and publicly available material: official recruitment notifications and corrigenda, official exam portals, public previous year question papers, and standard school-level textbooks. A list of the official portals we monitor is maintained on the <a href="/sources/">official sources page</a>.</p>
+        <p>We do not reproduce chapters, question banks or explanatory text from commercial books. Where a topic is commonly explained in a particular way, we write our own explanation and check it against the syllabus and public material. References to third-party publications are not used as a substitute for our own verification.</p>
+
+        <h2>Use of AI-assisted tools</h2>
+        <p>Like many modern publishers, we use software, including AI language tools, to help draft, format and translate text. These tools are used as drafting aids only. Every published page is reviewed by a person before it goes live, facts are checked against the sources described above, and the editorial team is responsible for what is published. We do not auto-publish unreviewed machine output, and we do not use AI tools to invent exam notifications, dates or results.</p>
+
+        <h2>Accuracy, corrections and updates</h2>
+        <p>Examination details change often. If you find a wrong answer, an outdated fact, a broken link or a translation error, write to <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> with the page address and the correct information. We verify every report against a source before changing a page, and we aim to reply within two to three working days. Corrections are made on the live page and the last-updated date is changed. A record of major changes is kept on the <a href="/updates/">content updates page</a>.</p>
+        <p>axomexam.in is an independent study aid. It is not a government portal and does not represent any recruitment board. Always confirm eligibility, dates and the exam pattern from the official notification before applying.</p>
+
+        <h2>Advertising and editorial independence</h2>
+        <p>The website is free to use and is supported by advertising. Advertising is served by third-party networks and is clearly distinguishable from editorial content. Advertisers do not review, approve or influence study material, and the presence of an advertisement is not an endorsement of the advertised product.</p>
+        <p>We do not place advertising on error pages, redirect pages, search results or other screens that contain no study content. Pages that carry advertising contain the full topic material described above, not a summary written only to host ads.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy, correction requests and contributions can be sent to <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> or through the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="editorial-team"?(s=a?"সম্পাদকীয় দল":"Editorial Team",n=a?"axomexam সম্পাদকীয় দল: axomexam.in ত প্ৰকাশিত দ্বিভাষিক অধ্যয়ন সামগ্ৰী কেৱে পৰিকল্পনা, লিখন, তথ্য-যাচাই আৰু পৰ্যালোচনা কৰে।":"The Axomexam Editorial Team: who plans, writes, fact-checks and reviews the bilingual study material published on axomexam.in.",i=a?`
+        <p>axomexam.in ৰ প্ৰতিটো পৃষ্ঠা axomexam সম্পাদকীয় দলে প্ৰস্তুত আৰু পৰীক্ষা কৰে। দলটো সৰু আৰু কেৱল এই মঞ্চৰ অধ্যয়ন সামগ্ৰীত কাম কৰে। এই পৃষ্ঠাই জড়িত ভূমিকা, পৰ্যালোচনাৰ কাৰ্যপ্ৰবাহ, আৰু প্ৰতিজন অৱদানকাৰীয়ে মানি চলিবলগীয়া মানদণ্ড ব্যাখ্যা কৰে।</p>
+
+        <h2>সম্পাদকীয় দলৰ ভূমিকা</h2>
+        <ul>
+          <li><strong>সমল পৰিকল্পনা আৰু পাঠ্যক্ৰমৰ মিল।</strong> চৰকাৰী জাননী আৰু পাঠ্যক্ৰম অনুসৰণ কৰে, কোন বিষয় কোন পৰীক্ষাৰ শিতানত পৰে নিৰ্ধাৰণ কৰে, আৰু পাঠ্যক্ৰমৰ পৰা বাদ পৰা সামগ্ৰী আঁতৰায়।</li>
+          <li><strong>বিষয় লেখক।</strong> সাধাৰণ জ্ঞান, গণিত, সাধাৰণ বিজ্ঞান, যুক্তি, সাধাৰণ ইংৰাজী, কম্পিউটাৰ সজাগতা আৰু চলিত ঘটনাৱলীত প্ৰশ্ন, উত্তৰ আৰু ধাপে ধাপে ব্যাখ্যা প্ৰস্তুত কৰে।</li>
+          <li><strong>অসমীয়া ভাষা পৰ্যালোচক।</strong> অসমীয়া সংস্কৰণৰ শুদ্ধ পাৰিভাষিক শব্দ, বানান আৰু স্বাভাৱিক প্ৰয়োগ পৰীক্ষা কৰে, আৰু ইয়াৰ পৰিসৰ ইংৰাজী সংস্কৰণৰ সৈতে মিলে নে নাই নিশ্চিত কৰে।</li>
+          <li><strong>তথ্য-যাচাই আৰু গুণগত পৰ্যালোচনা।</strong> প্ৰকাশৰ আগতে তথ্য, তাৰিখ, নাম আৰু সংখ্যাগত উত্তৰ চৰকাৰী জাননী, ৰাজহুৱা প্ৰশ্নকাকত আৰু মানক প্ৰসংগ সামগ্ৰীৰ সৈতে যাচাই কৰে।</li>
+          <li><strong>কাৰিকৰী পৰ্যালোচনা।</strong> পৃষ্ঠাৰ গাঁথনি, ম'বাইলত পঢ়নক্ষমতা, সন্ধান, ডাউনল'ডযোগ্য ফাইল আৰু প্ৰকাশিত পৃষ্ঠাৰ অভিগম্যতা পৰীক্ষা কৰে।</li>
+        </ul>
+
+        <h2>এখন পৃষ্ঠা কেনেদৰে পৰ্যালোচনা কৰা হয়</h2>
+        <ol>
+          <li>বিষয়টো চৰকাৰী পাঠ্যক্ৰম বা জাননীৰ সৈতে মিলাই লোৱা হয়।</li>
+          <li>উত্তৰ আৰু ব্যাখ্যাসহ ইংৰাজী আৰু অসমীয়াত খচৰা লিখা হয়।</li>
+          <li>দ্বিতীয় এজন পৰ্যালোচকে তথ্য আৰু প্ৰতিটো সংখ্যাগত বা যুক্তিৰ প্ৰশ্নৰ কাম পৰীক্ষা কৰে।</li>
+          <li>অসমীয়া পাঠৰ ভাষাৰ গুণ পৰ্যালোচনা কৰা হয়।</li>
+          <li>প্ৰকাশৰ তাৰিখ আৰু শেষ হালনাগাদৰ তাৰিখসহ পৃষ্ঠা প্ৰকাশ কৰা হয়, আৰু পৰীক্ষাৰ আৰ্হি সলনি হ'লে পুনৰ পৰ্যালোচনা কৰা হয়।</li>
+        </ol>
+        <p>AI সহায়ক খচৰাৰ নীতিকে ধৰি সম্পূৰ্ণ প্ৰক্ৰিয়া <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত বৰ্ণনা কৰা হৈছে।</p>
+
+        <h2>প্ৰতিজন অৱদানকাৰীয়ে মানি চলা মানদণ্ড</h2>
+        <ul>
+          <li>মৌলিক ব্যাখ্যা লিখক; বাণিজ্যিক পুথি বা অন্য ৱেবছাইটৰ পাঠ, প্ৰশ্ন বা নোট কপি নকৰিব।</li>
+          <li>তথ্য চৰকাৰী বা ৰাজহুৱা উৎসৰ সৈতে যাচাই কৰক আৰু অযাচিত দাবীক সত্য হিচাপে উপস্থাপন নকৰিব।</li>
+          <li>সংখ্যাগত আৰু যুক্তিৰ প্ৰশ্নত কেৱল উত্তৰ নহয়, কামৰ ধাপো দেখুওৱাক।</li>
+          <li>ইংৰাজী আৰু অসমীয়া সংস্কৰণৰ পৰিসৰ আৰু কাঠিন্য সমান ৰাখক।</li>
+          <li>জনোৱা ভুলসমূহ সময়মতে সংশোধন কৰক আৰু পৰিৱৰ্তন লিপিবদ্ধ কৰক।</li>
+          <li>বিজ্ঞাপন আৰু সম্পাদকীয় সিদ্ধান্ত পৃথক ৰাখক।</li>
+        </ul>
+
+        <h2>স্বাধীনতা আৰু পুঁজি</h2>
+        <p>axomexam.in স্বাধীনভাৱে পৰিচালিত আৰু ব্যৱহাৰ কৰিবলৈ বিনামূলীয়া। ই বিজ্ঞাপনৰ দ্বাৰা পুঁজিৰ যোগান ধৰে আৰু নিজৰ অধ্যয়ন সামগ্ৰীত কোনো পৰীক্ষা, কোচিং প্ৰতিষ্ঠান, পুথি বা সামগ্ৰী অন্তৰ্ভুক্ত কৰাৰ বাবে ধন লোৱা নাই। দলৰ সদস্যসকলে পৃষ্ঠপোষকতা কৰা সামগ্ৰী সম্পাদকীয় সমল হিচাপে প্ৰকাশ নকৰে।</p>
+
+        <h2>অৱদান আৰু সংশোধন</h2>
+        <p>শিক্ষক, বিষয় বিশেষজ্ঞ আৰু ভুল ধৰা পেলোৱা পৰীক্ষাৰ্থীসকলক <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ লিখিবলৈ আমন্ত্ৰণ জনাইছোঁ। সোনকালে যাচাই কৰিব পৰাকৈ পৃষ্ঠাৰ ঠিকনা আৰু সংশোধনৰ উৎস অন্তৰ্ভুক্ত কৰিব। আপুনি <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ও ব্যৱহাৰ কৰিব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>Every page on axomexam.in is produced and checked by the Axomexam Editorial Team. The team is small and works only on study material for this platform. This page explains the roles involved, the review workflow, and the standards every contributor agrees to follow.</p>
+
+        <h2>Roles in the editorial team</h2>
+        <ul>
+          <li><strong>Content planning and syllabus mapping.</strong> Tracks official notifications and syllabi, decides which topics belong to which exam section, and retires material that is no longer part of the syllabus.</li>
+          <li><strong>Subject writers.</strong> Prepare questions, answers and step-by-step explanations in General Knowledge, Mathematics, General Science, Reasoning, General English, Computer Awareness and current affairs.</li>
+          <li><strong>Assamese language reviewer.</strong> Checks the Assamese version for correct terminology, spelling and natural usage, and makes sure it matches the English version in scope.</li>
+          <li><strong>Fact-check and quality review.</strong> Verifies facts, dates, names and numerical answers against official notifications, public question papers and standard reference material before publishing.</li>
+          <li><strong>Technical review.</strong> Checks page structure, mobile readability, search, downloadable files and accessibility of the published page.</li>
+        </ul>
+
+        <h2>How a page is reviewed</h2>
+        <ol>
+          <li>The topic is matched to the official syllabus or notification.</li>
+          <li>A draft is written in English and Assamese with answers and explanations.</li>
+          <li>A second reviewer checks the facts and the working of every numerical or reasoning question.</li>
+          <li>The Assamese text is reviewed for language quality.</li>
+          <li>The page is published with a published date and a last-updated date, and is revisited when the exam pattern changes.</li>
+        </ol>
+        <p>The full process, including our policy on AI-assisted drafting, is described in the <a href="/editorial-policy/">editorial policy</a>.</p>
+
+        <h2>Standards every contributor follows</h2>
+        <ul>
+          <li>Write original explanations; do not copy text, questions or notes from commercial books or other websites.</li>
+          <li>Check facts against official or public sources and do not present an unverified claim as fact.</li>
+          <li>Show the working for numerical and reasoning questions, not only the answer.</li>
+          <li>Keep the English and Assamese versions equivalent in coverage and difficulty.</li>
+          <li>Correct reported errors promptly and record the change.</li>
+          <li>Keep advertising and editorial decisions separate.</li>
+        </ul>
+
+        <h2>Independence and funding</h2>
+        <p>axomexam.in is independently run and free to use. It is funded by advertising and does not accept payment for including any exam, coaching institute, book or product in its study material. Team members do not publish sponsored material as editorial content.</p>
+
+        <h2>Contributions and corrections</h2>
+        <p>Teachers, subject experts and candidates who spot an error are welcome to write to <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a>. Please include the page address and the source for the correction so that it can be verified quickly. You can also use the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="sources"?(s=a?"চৰকাৰী উৎস আৰু তথ্যসূত্ৰ":"Official Sources & References",n=a?"axomexam.in ৰ অধ্যয়ন সামগ্ৰী প্ৰস্তুত আৰু যাচাই কৰিবলৈ ব্যৱহৃত চৰকাৰী পৰীক্ষা প'ৰ্টেল, জাননী যাচাই আৰু প্ৰসংগ সামগ্ৰী।":"Official exam portals, notification checks and reference material used to prepare and verify study content on axomexam.in.",i=a?`
+        <p>অধ্যয়ন সামগ্ৰী তেতিয়াহে উপযোগী হয় যেতিয়া ই চৰকাৰী পৰীক্ষাৰ সৈতে মিলে। এই পৃষ্ঠাই আমি অনুসৰণ কৰা চৰকাৰী প'ৰ্টেলৰ তালিকা দিয়ে আৰু axomexam.in ৰ সমলত প্ৰভাৱ পেলোৱাৰ আগতে এখন জাননী কেনেদৰে যাচাই কৰা হয় তাক ব্যাখ্যা কৰে। আমি এখন স্বতন্ত্ৰ ৱেবছাইট আৰু এই কোনো সংস্থাৰ সৈতে সংযুক্ত নহয়।</p>
+
+        <h2>চৰকাৰী পৰীক্ষা প'ৰ্টেল</h2>
+        <div class="axo-sources-table-wrap" style="overflow-x:auto;">
+          <table class="axo-sources-table" style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">পৰীক্ষা সংস্থা</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">তাত কি চাব</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">চৰকাৰী প'ৰ্টেল</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLPRB অসম</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">অসম আৰক্ষী কনিষ্টবল আৰু উপ-পৰিদৰ্শকৰ জাননী, পাঠ্যক্ৰম, প্ৰৱেশপত্ৰ আৰু ফলাফল</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slprbassam.in/" rel="noopener nofollow" target="_blank">slprbassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLRC অসম</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ জাননী, পৰীক্ষাৰ আৰ্হি আৰু ফলাফল</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slrcassam.in/" rel="noopener nofollow" target="_blank">slrcassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">APSC</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">সংযুক্ত প্ৰতিযোগিতামূলক পৰীক্ষা আৰু আয়োগৰ অন্যান্য পৰীক্ষা</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://apsc.nic.in/" rel="noopener nofollow" target="_blank">apsc.nic.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">কৰ্মচাৰী নিৰ্বাচন আয়োগ</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">CGL, CHSL, GD, MTS আৰু অন্যান্য কেন্দ্ৰীয় জাননী আৰু উত্তৰ-কুঞ্জিকা</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://ssc.gov.in/" rel="noopener nofollow" target="_blank">ssc.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ভাৰতীয় ৰে'লৱে</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">RRB NTPC, Group D, ALP আৰু অন্যান্য ৰে'লৱে নিযুক্তি জাননী</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://www.indianrailways.gov.in/" rel="noopener nofollow" target="_blank">indianrailways.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px;">গুৱাহাটী উচ্চ ন্যায়ালয়</td>
+                <td style="padding:10px;">তৃতীয় আৰু চতুৰ্থ শ্ৰেণীৰ নিযুক্তি জাননী আৰু ফলাফল</td>
+                <td style="padding:10px;"><a href="https://ghconline.gov.in/" rel="noopener nofollow" target="_blank">ghconline.gov.in</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>এখন জাননী কেনেদৰে যাচাই কৰা হয়</h2>
+        <ol>
+          <li>আমি জাননীখন নিযুক্তি সংস্থাৰ চৰকাৰী প'ৰ্টেলত খোলোঁ, কোনো কোচিং বা বাতৰি ৱেবছাইটত নহয়।</li>
+          <li>বিজ্ঞাপন নম্বৰ, পদ, খালী পদৰ সংখ্যা আৰু শেষ তাৰিখ নিযুক্তি সংস্থাই প্ৰকাশ কৰা PDF ৰ সৈতে মিলাই পৰীক্ষা কৰোঁ।</li>
+          <li>প্ৰথম বিজ্ঞাপনৰ পিছত কোনো সংশোধনী বা সময় বঢ়োৱা জাননী জাৰি হৈছে নেকি পৰীক্ষা কৰোঁ।</li>
+          <li>বিৱৰণ চৰকাৰী নথিপত্ৰৰ সৈতে মিলাৰ পিছতহে সংশ্লিষ্ট পৃষ্ঠা হালনাগাদ কৰোঁ।</li>
+          <li>চৰকাৰী তথ্য অস্পষ্ট হ'লে অনুমানেৰে পূৰণ নকৰি পৃষ্ঠাত সেই কথা উল্লেখ কৰোঁ।</li>
+        </ol>
+
+        <h2>প্ৰসংগ সামগ্ৰী</h2>
+        <p>চৰকাৰী জাননীৰ উপৰিও আমাৰ ব্যাখ্যা মানক বিদ্যালয়-স্তৰৰ পাঠ্যপুথি, ৰাজহুৱা বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু বহুলভাৱে স্বীকৃত বিষয়-প্ৰসংগৰ সৈতে যাচাই কৰা হয়। প্ৰশ্ন আৰু ব্যাখ্যা আমাৰ নিজৰ শব্দত লিখা হয়। আমি বাণিজ্যিক পুথিৰ অধ্যায় পুনৰুত্পাদন নকৰোঁ, আৰু ছাইটৰ অন্য ঠাইত কোনো পুথিৰ উল্লেখ কৰাৰ অৰ্থ ইয়াৰ পাঠ কপি কৰা বুলি দাবী নহয়।</p>
+
+        <h2>উৎসৰ সমস্যা জনোৱা</h2>
+        <p>যদি কোনো লিংক ভাঙি গৈছে, জাননী সলনি হৈছে বা কোনো পৃষ্ঠাই উৎস ভুলকৈ উল্লেখ কৰিছে, তেন্তে পৃষ্ঠাৰ ঠিকনাসহ <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> লৈ লিখক। সংশোধন কেনেদৰে কৰা হয়, সেই বিষয়ে <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>ত চাওক।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ২৩ অক্টোবৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>Study material is only useful if it matches the official examination. This page lists the official portals we monitor and explains how a notification is verified before it affects the content on axomexam.in. We are an independent website and are not connected to any of these organisations.</p>
+
+        <h2>Official exam portals</h2>
+        <div class="axo-sources-table-wrap" style="overflow-x:auto;">
+          <table class="axo-sources-table" style="width:100%; border-collapse:collapse; font-size:0.95rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Exam body</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">What to check there</th>
+                <th style="text-align:left; padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Official portal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLPRB Assam</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Assam Police constable and sub-inspector notifications, syllabus, admit cards and results</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slprbassam.in/" rel="noopener nofollow" target="_blank">slprbassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">SLRC Assam</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">ADRE Grade III and Grade IV notifications, exam pattern and results</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://slrcassam.in/" rel="noopener nofollow" target="_blank">slrcassam.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">APSC</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Combined Competitive Examination and other commission examinations</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://apsc.nic.in/" rel="noopener nofollow" target="_blank">apsc.nic.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Staff Selection Commission</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">CGL, CHSL, GD, MTS and other central notifications and answer keys</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://ssc.gov.in/" rel="noopener nofollow" target="_blank">ssc.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">Indian Railways</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);">RRB NTPC, Group D, ALP and other railway recruitment notices</td>
+                <td style="padding:10px; border-bottom:1px solid var(--border,#e2e8f0);"><a href="https://www.indianrailways.gov.in/" rel="noopener nofollow" target="_blank">indianrailways.gov.in</a></td>
+              </tr>
+              <tr>
+                <td style="padding:10px;">Gauhati High Court</td>
+                <td style="padding:10px;">Grade III and Grade IV recruitment notices and results</td>
+                <td style="padding:10px;"><a href="https://ghconline.gov.in/" rel="noopener nofollow" target="_blank">ghconline.gov.in</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>How a notification is verified</h2>
+        <ol>
+          <li>We open the notice on the official portal of the recruiting body, not on a coaching or news website.</li>
+          <li>We check the advertisement number, the post, the number of vacancies and the last date against the PDF published by the recruiting body.</li>
+          <li>We check whether a corrigendum or extension notice has been issued after the first advertisement.</li>
+          <li>We update the relevant page only after the details match the official document.</li>
+          <li>Where the official information is unclear, the page says so instead of filling the gap with a guess.</li>
+        </ol>
+
+        <h2>Reference material</h2>
+        <p>Besides official notifications, our explanations are checked against standard school-level textbooks, public previous year question papers and widely accepted subject references. Questions and explanations are written in our own words. We do not reproduce chapters from commercial books, and the mention of any book elsewhere on the site is not a claim that its text has been copied.</p>
+
+        <h2>Reporting a source problem</h2>
+        <p>If a link is broken, a notification has changed or a page cites a source incorrectly, write to <a href="mailto:contact@axomexam.in" class="axo-email">contact@axomexam.in</a> with the page address. See the <a href="/editorial-policy/">editorial policy</a> for how corrections are handled.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 23 October 2026 &middot; Publisher: axomexam.in</p>
+      `):t==="updates"?(s=a?"সমল হালনাগাদ":"Content Updates",n=a?"axomexam.in ৰ অধ্যয়ন সামগ্ৰীত কৰা সংশোধন, পাঠ্যক্ৰমৰ হালনাগাদ, নতুন শিতান আৰু সম্পাদকীয় পৰিৱৰ্তনৰ তাৰিখসহ ৰেকৰ্ড।":"A dated record of corrections, syllabus updates, new sections and editorial changes made to axomexam.in study material.",i=a?`
+        <p>এই পৃষ্ঠাই অধ্যয়ন সামগ্ৰী আৰু ছাইট পৰিচালনাৰ পদ্ধতিত কৰা উল্লেখযোগ্য পৰিৱৰ্তন লিপিবদ্ধ কৰে। সৰু বানান সংশোধন তালিকাভুক্ত নকৰা হয়, কিন্তু পাঠ্যক্ৰমৰ পৰিৱৰ্তন, নতুন শিতান, উত্তৰৰ সংশোধন আৰু নীতিৰ পৰিৱৰ্তন লিপিবদ্ধ কৰা হয়। নতুন ভুক্তি প্ৰথমে দেখুওৱা হয়।</p>
+
+        <h2>৫ নৱেম্বৰ ২০২৬ &mdash; এঘাৰখন বিষয় পৃষ্ঠাত অসমীয়া টোকা</h2>
+        <ul>
+          <li>কেৱল ইংৰাজী প্ৰবন্ধ থকা এঘাৰখন বিষয় পৃষ্ঠাত অসমীয়া অধ্যয়ন টোকা যোগ কৰা হৈছে, যাতে প্ৰতিখন পৃষ্ঠা আৰু তাৰ অসমীয়া সংস্কৰণত দুয়োটা ভাষাৰ সমল থাকে।</li>
+          <li>সেই অসমীয়া টোকা লিখা build ধাপটোও যোগ কৰা হৈছে, যাতে ভৱিষ্যতে পুনৰ নিৰ্মাণ কৰিলেও সেয়া হেৰাই নাযায়।</li>
+        </ul>
+
+        <h2>৪ নৱেম্বৰ ২০২৬ &mdash; প্ৰতিখন সূচী পৃষ্ঠাত অধ্যয়ন সামগ্ৰী যোগ</h2>
+        <ul>
+          <li>শ্ৰেণী, পৰীক্ষা, মক-টেষ্ট, পূৰ্বৰ বছৰৰ প্ৰশ্ন আৰু বিষয় সূচী পৃষ্ঠাসমূহক চমু লিংক-তালিকাৰ পৰা বিষয়ভিত্তিক পৰিসৰ, জীৱন্ত প্ৰশ্নসংখ্যা, সমাধান কৰা নমুনা প্ৰশ্ন আৰু পুনৰালোচনা টোকাসহ সম্পূৰ্ণ অধ্যয়ন পৃষ্ঠালৈ বৃদ্ধি কৰা হৈছে।</li>
+          <li>একেই পৃষ্ঠাসমূহত অসমীয়া আৰু ইংৰাজী দুয়োটা ভাষাত চমু সঘনাই সোধা প্ৰশ্ন শিতান যোগ কৰা হৈছে।</li>
+          <li>এই পৃষ্ঠাসমূহৰ অসমীয়া সংস্কৰণ পুনৰ নিৰ্মাণ কৰা হৈছে যাতে দুয়োটা ভাষাই একে সামগ্ৰী বহন কৰে।</li>
+        </ul>
+
+        <h2>৩ নৱেম্বৰ ২০২৬ &mdash; প্ৰতিষ্ঠাপকৰ পৰিচয় আৰু সম্পাদকীয় স্বচ্ছতা</h2>
+        <ul>
+          <li>প্ৰতিষ্ঠাপক আৰু মুখ্য সম্পাদক বপন বৰ্মনক সম্পাদকীয় দল পৃষ্ঠাত দৃশ্যমান পৰিচয় আৰু ৰাজহুৱা যোগাযোগ লিংকসহ যোগ কৰা হৈছে।</li>
+          <li>প্ৰতিষ্ঠাপকক ছাইটৰ Organization structured data ত এজন ব্যক্তি হিচাপে লিপিবদ্ধ কৰা হৈছে আৰু তেওঁৰ পৰিচয় পৃষ্ঠাৰ সৈতে সংযোগ কৰা হৈছে, যাতে ছাইট এজন নামযুক্ত আৰু দায়বদ্ধ প্ৰকাশকৰ নামত চলিব পাৰে।</li>
+          <li>সম্পাদকীয় নীতি, সংশোধন নীতি আৰু প্ৰকাশকৰ যোগাযোগৰ তথ্য Organization structured data ত প্ৰকাশ কৰা হৈছে, যাতে সন্ধান ইঞ্জিনে ছাইটৰ দায়িত্ব কাৰ ওপৰত আছে সেয়া যাচাই কৰিব পাৰে।</li>
+        </ul>
+
+
+        <h2>২৩ অক্টোবৰ ২০২৬ &mdash; সম্পাদকীয় গুণগত পৰ্যালোচনা</h2>
+        <ul>
+          <li>লেখক পৰিচয়, উৎসৰ টোকা আৰু শেষ হালনাগাদৰ তাৰিখকে ধৰি প্ৰতিটো বিষয় পৃষ্ঠাৰ সম্পাদকীয় উপস্থাপন পৰ্যালোচনা কৰা হৈছে।</li>
+          <li>সন্ধান ইঞ্জিনে ব্যৱহাৰ নকৰা আৰু পাঠকক সহায় নকৰা keyword meta টেগ আঁতৰোৱা হৈছে।</li>
+          <li>বাণিজ্যিক প্ৰসংগ পুথিৰ উল্লেখ চৰকাৰী পাঠ্যক্ৰম আৰু ৰাজহুৱা উৎসৰ উল্লেখেৰে সলনি কৰা হৈছে, আৰু প্ৰভাৱিত বাক্যবোৰ নিজৰ শব্দত পুনৰ লিখা হৈছে।</li>
+          <li>এই পৰিৱৰ্তন-তালিকা, <a href="/editorial-policy/">সম্পাদকীয় নীতি</a>, <a href="/editorial-team/">সম্পাদকীয় দল</a> পৃষ্ঠা আৰু <a href="/sources/">চৰকাৰী উৎস</a> পৃষ্ঠা যোগ কৰা হৈছে।</li>
+          <li>ভুল পৃষ্ঠা, ৰিডাইৰেক্ট পৃষ্ঠা, সন্ধান পৃষ্ঠা আৰু অধ্যয়ন সামগ্ৰী নথকা অন্য স্ক্ৰীনৰ পৰা বিজ্ঞাপন আঁতৰোৱা হৈছে।</li>
+        </ul>
+
+        <h2>২২ অক্টোবৰ ২০২৬ &mdash; নকল বিৱৰণৰ সংশোধন</h2>
+        <ul>
+          <li>সন্ধান ইঞ্জিনৰ ছাইট স্কেনত ধৰা পৰা এখন নকল meta description টেগ আঁতৰোৱা হৈছে।</li>
+        </ul>
+
+        <h2>২ অক্টোবৰ ২০২৬ &mdash; চলিত ঘটনাৱলীৰ হালনাগাদ</h2>
+        <ul>
+          <li>অৰ্থনীতি আৰু বেংকিং, পৰিৱেশ আৰু পৰিৱেশ বিজ্ঞান, শীৰ্ষ সন্মিলন, ৰেংকিং আৰু প্ৰতিবেদন, আৰু মৃতকৰ্মকে ধৰি চলিত ঘটনাৱলীৰ শিতানসমূহ হালনাগাদ কৰা হৈছে।</li>
+        </ul>
+
+        <h2>১৮ ছেপ্তেম্বৰ ২০২৬ &mdash; ছাইট প্ৰকাশ</h2>
+        <ul>
+          <li>অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ বাবে বিষয়ভিত্তিক দ্বিভাষিক প্ৰশ্ন-সংগ্ৰহ, মক টেষ্ট, বিগত বৰ্ষৰ প্ৰশ্নকাকত আৰু PDF নোট প্ৰকাশ কৰা হৈছে।</li>
+        </ul>
+
+        <h2>হালনাগাদ কেনেদৰে লিপিবদ্ধ কৰা হয়</h2>
+        <p>কোনো পৃষ্ঠা সংশোধন কৰিলে তাৰ শেষ হালনাগাদৰ তাৰিখ সলনি হয়, আৰু পাঠকে শিকা বা নিৰ্ভৰ কৰা তথ্যত প্ৰভাৱ পৰিলে পৰিৱৰ্তনৰ সাৰাংশ ইয়াত দিয়া হয়। পৰীক্ষাৰ জাননী, পাঠ্যক্ৰমৰ পৰিৱৰ্তন আৰু উত্তৰৰ সংশোধন সদায় লিপিবদ্ধ কৰা হয়। নতুন সামগ্ৰী <a href="/feed.xml">RSS ফীড</a>ৰ জৰিয়তে অনুসৰণ কৰিব পাৰে বা <a href="/contact/">যোগাযোগ পৃষ্ঠা</a>ৰ জৰিয়তে প্ৰয়োজনীয় সংশোধন জনাব পাৰে।</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>শেষ হালনাগাদ:</strong> ৫ নৱেম্বৰ ২০২৬ &middot; প্ৰকাশক: axomexam.in</p>
+      `:`
+        <p>This page records substantive changes to the study material and to the way the site is run. Small spelling fixes are not listed, but syllabus changes, new sections, corrections to answers and policy changes are. The newest entries appear first.</p>
+
+        <h2>5 November 2026 &mdash; Assamese notes on eleven topic pages</h2>
+        <ul>
+          <li>Added Assamese study notes to eleven topic pages that carried only the English article, so each page and its Assamese version now show content in both languages.</li>
+          <li>Added the build step that writes those Assamese notes, so a future rebuild cannot drop them again.</li>
+        </ul>
+
+        <h2>4 November 2026 &mdash; Study content added to every index page</h2>
+        <ul>
+          <li>Expanded the category, exam, mock-test, previous-year and topic index pages from short link lists into full study pages with topic-wise coverage, live question counts, worked sample questions and revision notes.</li>
+          <li>Added a short frequently-asked-questions section to the same pages, written in both English and Assamese.</li>
+          <li>Rebuilt the Assamese versions of those pages so the two languages carry the same content.</li>
+        </ul>
+
+        <h2>3 November 2026 &mdash; Founder attribution and editorial transparency</h2>
+        <ul>
+          <li>Added the founder and editor-in-chief, Bapon Barmon, to the editorial team page with a visible profile and a public contact link.</li>
+          <li>Recorded the founder in the site&#39;s Organization structured data as a Person, linked to the founder&#39;s profile page, so that the site is attributed to a named and accountable publisher.</li>
+          <li>Published the editorial policy, corrections policy and publisher contact details in the Organization structured data so that search engines can verify who is responsible for the site.</li>
+        </ul>
+
+
+        <h2>23 October 2026 &mdash; Editorial quality review</h2>
+        <ul>
+          <li>Reviewed the editorial presentation of every topic page, including author attribution, source notes and last-updated dates.</li>
+          <li>Removed keyword meta tags that were not used by search engines and did not help readers.</li>
+          <li>Replaced references to commercial reference books with official syllabus and public-source references, and rewrote the affected sentences in our own words.</li>
+          <li>Added this changelog, the <a href="/editorial-policy/">editorial policy</a>, the <a href="/editorial-team/">editorial team</a> page and the <a href="/sources/">official sources</a> page.</li>
+          <li>Removed advertising from error pages, redirect pages, search pages and other screens without study content.</li>
+        </ul>
+
+        <h2>22 October 2026 &mdash; Duplicate description fix</h2>
+        <ul>
+          <li>Removed a duplicate meta description tag that had been flagged during a search-engine site scan.</li>
+        </ul>
+
+        <h2>2 October 2026 &mdash; Current affairs update</h2>
+        <ul>
+          <li>Updated the current affairs sections, including economy and banking, environment and ecology, summits and conferences, rankings and reports, and obituaries.</li>
+        </ul>
+
+        <h2>18 September 2026 &mdash; Site published</h2>
+        <ul>
+          <li>Published the topic-wise bilingual question banks, mock tests, previous year papers and PDF notes for Assam competitive examinations.</li>
+        </ul>
+
+        <h2>How updates are recorded</h2>
+        <p>When a page is corrected, its last-updated date changes and the change is summarised here if it affects what a reader learns or relies on. Exam notifications, syllabus changes and corrections to answers are always recorded. You can follow new material through the <a href="/feed.xml">RSS feed</a> or report a needed correction through the <a href="/contact/">contact page</a>.</p>
+
+        <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>Last updated:</strong> 5 November 2026 &middot; Publisher: axomexam.in</p>
+      `):i=`<p>${r(`page.${t}.p1`)}</p>`,["editorial-policy","editorial-team","sources","updates"].includes(t)&&(i+=`
+        <p class="axo-editorial-links" style="margin-top:26px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); line-height:2;">
+          <strong>Axomexam Editorial:</strong>
+          ${[["/editorial-policy/",a?"সম্পাদকীয় নীতি":"Editorial Policy"],["/editorial-team/",a?"সম্পাদকীয় দল":"Editorial Team"],["/sources/",a?"চৰকাৰী উৎস":"Official Sources"],["/updates/",a?"সমল হালনাগাদ":"Content Updates"]].map(([c,d])=>`<a href="${c}">${d}</a>`).join(" &middot; ")}
+        </p>`),e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${a?"গৃহপৃষ্ঠা":"Home"}</a><span class="bc-sep">/</span><span>${l(s)}</span></nav>
+        <h1>${l(s)}</h1>
+        ${n?`<p class="page-desc">${l(n)}</p>`:""}
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="info-panel${["editorial-policy","editorial-team","sources","updates"].includes(t)?" axo-editorial-page":""}" style="background:var(--bg,#ffffff); padding:28px 24px; border-radius:18px; border:1px solid var(--border,#e2e8f0); line-height:1.75; color:var(--ink-soft,#475569); box-shadow:0 8px 24px -4px rgba(15,23,42,0.03); max-width:860px; margin:0 auto; text-align:left;">
+          ${i}
+        </div>
+      </section>`,Ke(),window.scrollTo(0,0)}function xn(e){const t=u.lang==="as",a=t?["সমল সংশোধন","ভাঙা লিংক বা ডাউনল'ড সমস্যা","নতুন বিষয়ৰ অনুৰোধ","প্ৰশ্ন আগবঢ়াওক","কপিৰাইট / টেকডাউন অনুৰোধ","অন্যান্য"]:["Content correction","Broken link or download problem","New topic request","Contribute questions","Copyright / takedown request","Other"];e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${t?"গৃহপৃষ্ঠা":"Home"}</a><span class="bc-sep">/</span><span>${t?"যোগাযোগ কৰক":"Contact Us"}</span></nav>
+        <h1>${t?"যোগাযোগ কৰক":"Contact Us"}</h1>
+        <p class="page-desc">${t?"ভুল উত্তৰ জনাওক, নতুন বিষয় বিচাৰক, প্ৰশ্ন আগবঢ়াওক, বা পৰীক্ষাৰ প্ৰস্তুতিত সহায় বিচাৰক।":"Report a wrong answer, request a topic, contribute questions, or ask for help with your exam preparation."}</p>
+      </div>
+
+      <section class="section" style="padding-bottom:40px;">
+        <article style="max-width:860px; margin:0 auto; line-height:1.85; color:var(--ink-soft,#475569); text-align:left;">
+          <p>${t?"আমি লাভ কৰা প্ৰতিটো বাৰ্তা পঢ়োঁ আৰু সেই প্ৰতিক্ৰিয়া axomexam.in ৰ প্ৰশ্ন-সংগ্ৰহ, নোট আৰু মক টেষ্ট উন্নত কৰিবলৈ ব্যৱহাৰ কৰোঁ। আপুনি এটা ভুল উত্তৰ জনাব, নতুন এটা বিষয়ৰ পৰামৰ্শ দিব, প্ৰশ্ন আগবঢ়াব বা অধ্যয়ন সামগ্ৰীৰ বিষয়ে সোধা-পোছা কৰিব বিচাৰে নে নাই — এই পৃষ্ঠাই আমাৰ সৈতে যোগাযোগ কৰাৰ আটাইতকৈ ভাল উপায় ব্যাখ্যা কৰে।":"We read every message we receive and use the feedback to improve the question banks, notes and mock tests on axomexam.in. Whether you want to report a wrong answer, suggest a new topic, contribute questions or ask about study material, this page explains the best way to reach us."}</p>
+
+          <h2>${t?"ইমেইল সহায়":"Email Support"}</h2>
+          <p>${t?"যোগাযোগৰ আটাইতকৈ দ্ৰুত উপায় হ'ল":"The fastest way to contact us is by email at"} <a href="mailto:support@axomexam.in" class="axo-email">support@axomexam.in</a>${t?" লৈ ইমেইল। আমাক উত্তৰ দিবলৈ অনুগ্ৰহ কৰি এটা বৈধ ইমেইল ঠিকনাৰ পৰা লিখক। আমি সাধাৰণতে":". Please write from a valid email address so that we can reply. We usually respond within"} <strong>${t?"দুৰৰ পৰা তিনি কৰ্মদিৱসৰ":"two to three working days"}</strong>${t?" ভিতৰত উত্তৰ দিওঁ।":"."}</p>
+
+          <form id="contact-form" action="mailto:support@axomexam.in" method="post" enctype="text/plain" style="margin:22px 0 10px; padding:22px; border:1px solid var(--border,#e2e8f0); border-radius:16px; background:var(--card-bg,#fff);">
+            <h3 style="margin-top:0; color:var(--ink,#0f172a);">${t?"আমাক এটা বাৰ্তা পঠিয়াওক":"Send us a message"}</h3>
+            <div style="margin-bottom:12px;">
+              <label for="c-name" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${t?"আপোনাৰ নাম":"Your name"}</label>
+              <input id="c-name" name="name" type="text" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;" />
+            </div>
+            <div style="margin-bottom:12px;">
+              <label for="c-email" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${t?"আপোনাৰ ইমেইল":"Your email"}</label>
+              <input id="c-email" name="email" type="email" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;" />
+            </div>
+            <div style="margin-bottom:12px;">
+              <label for="c-subject" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${t?"বিষয়":"Subject"}</label>
+              <select id="c-subject" name="subject" style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;">
+                ${a.map(n=>`<option>${n}</option>`).join("")}
+              </select>
+            </div>
+            <div style="margin-bottom:16px;">
+              <label for="c-message" style="display:block; font-weight:700; margin-bottom:6px; color:var(--ink,#0f172a);">${t?"বাৰ্তা":"Message"}</label>
+              <textarea id="c-message" name="message" rows="5" required style="width:100%; padding:10px 12px; border:1px solid var(--border,#cbd5e1); border-radius:10px; font:inherit; box-sizing:border-box;"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">${t?"বাৰ্তা পঠিয়াওক":"Send message"}</button>
+            <p style="font-size:0.82rem; color:#64748b; margin:10px 0 0;">${t?"ই আপোনাৰ ইমেইল এপটো তথ্য ভৰাই খুলিব। যদি নুখুলে, তেন্তে পোনপটীয়াকৈ":"This opens your email app with the details filled in. If it does not open, simply email us directly at"} <a href="mailto:support@axomexam.in" class="axo-email">support@axomexam.in</a>${t?" লৈ ইমেইল কৰক।":"."}</p>
+          </form>
+
+          <h2>${t?"আপোনাৰ বাৰ্তাত কি অন্তৰ্ভুক্ত কৰিব":"What to Include in Your Message"}</h2>
+          <ul>
+            <li>${t?"<strong>সমল সংশোধনৰ বাবে:</strong> পৃষ্ঠাৰ সঠিক লিংক, প্ৰশ্ন নম্বৰ, আপুনি ভুল বুলি ভবা কথাটো, আৰু এটা চুটি কাৰণ বা উৎসসহ সঠিক উত্তৰ।":"<strong>For a content correction:</strong> the exact page link, the question number, what you believe is wrong, and the correct answer with a short reason or source."}</li>
+            <li>${t?"<strong>ভাঙা লিংক বা ডাউনল'ড সমস্যাৰ বাবে:</strong> লিংকটো দেখা পোৱা পৃষ্ঠা আৰু ফাইল বা প্ৰশ্নকাকতৰ নাম।":"<strong>For a broken link or download problem:</strong> the page where the link appears and the name of the file or paper."}</li>
+            <li>${t?"<strong>নতুন বিষয় অনুৰোধৰ বাবে:</strong> পৰীক্ষাৰ নাম, বিষয় আৰু আমি যোগ কৰিবলগীয়া নিৰ্দিষ্ট বিষয়টো।":"<strong>For a new topic request:</strong> the exam name, subject and the specific topic you would like us to add."}</li>
+            <li>${t?"<strong>প্ৰশ্ন আগবঢ়োৱাৰ বাবে:</strong> বিষয়, প্ৰশ্ন চাৰিটা বিকল্পসহ, সঠিক বিকল্প আৰু এটা চুটি ব্যাখ্যা।":"<strong>For contributing questions:</strong> the subject, topic, questions with four options, the correct option and a brief explanation."}</li>
+          </ul>
+
+          <h2>${t?"উত্তৰৰ সময়":"Response Time"}</h2>
+          <p>${t?"আমি প্ৰতিটো প্ৰামাণিক বাৰ্তাৰ উত্তৰ দুৰৰ পৰা তিনি কৰ্মদিৱসৰ ভিতৰত দিবলৈ চেষ্টা কৰোঁ। বাৰ্তাসমূহ অহা ক্ৰমত পৰিচালনা কৰা হয়, আৰু যাচাইযোগ্য উৎসসহ সমল সংশোধনসমূহ সাধাৰণতে আগতে প্ৰক্ৰিয়া কৰা হয়।":"We aim to reply to every genuine message within two to three working days. Messages are handled in the order they arrive, and content corrections that include a verifiable source are usually processed first."}</p>
+
+          <h2>${t?"কপিৰাইট সমল জনাওক":"Report Copyright Content"}</h2>
+          <p>${t?"যদি আপুনি বিশ্বাস কৰে যে axomexam.in ৰ কোনো সামগ্ৰীয়ে আপোনাৰ কপিৰাইট উলংঘা কৰিছে, পৃষ্ঠাৰ লিংক আৰু মালিকীস্বত্বৰ প্ৰমাণসহ আমালৈ ইমেইল কৰক। আমি অনুৰোধ পৰ্যালোচনা কৰি প্ৰয়োজন হ'লে সামগ্ৰী আঁতৰাব। আমি বৌদ্ধিক সম্পত্তিক সন্মান কৰোঁ আৰু বৈধ টেকডাউন অনুৰোধসমূহ তৎক্ষণাত পালন কৰোঁ।":"If you believe any material on axomexam.in infringes your copyright, email us with the page link and proof of ownership. We will review the request and remove the material if required. We respect intellectual property and act on valid takedown requests promptly."}</p>
+
+          <h2>${t?"সাধাৰণ প্ৰশ্ন":"Common Questions"}</h2>
+          <p>${t?'<strong>ফোন নম্বৰ বা লাইভ চেট আছে নেকি?</strong> ফোন নম্বৰ নাই। প্ৰতিটো পৃষ্ঠাৰ তলত থকা "আমাৰ সৈতে কথা পাতক" বুটাম ব্যৱহাৰ কৰি WhatsAppত আমাৰ সৈতে যোগাযোগ কৰিব পাৰে, অথবা সবিশেষ বা কপিৰাইট সম্পৰ্কীয় অনুসন্ধানৰ বাবে ইমেইল কৰিব পাৰে।':'<strong>Is there a phone number or live chat?</strong> There is no phone line. You can reach us on WhatsApp using the "Chat with us" button at the bottom of every page, or by email for detailed or copyright-related queries.'}</p>
+          <p>${t?"<strong>মই অধ্যয়ন পৰিকল্পনা বিচাৰিব পাৰোঁ নেকি?</strong> হয়। আপুনি যি পৰীক্ষাৰ বাবে প্ৰস্তুতি চলাইছে আৰু পৰীক্ষাৰ তাৰিখ কওক, আমি আপোনাক আটাইতকৈ প্ৰাসংগিক শিতান আৰু অধ্যয়নৰ পৰামৰ্শিত ক্ৰমলৈ নিৰ্দেশ কৰিম।":"<strong>Can I request a study plan?</strong> Yes. Tell us the exam you are preparing for and the date of the exam, and we will point you to the most relevant sections and a suggested order of study."}</p>
+          <p>${t?'<strong>আপোনালোকে মোৰ তথ্য শ্বেয়াৰ বা বিক্ৰী কৰে নেকি?</strong> কেতিয়াও নহয়। আপোনাৰ ইমেইল কেৱল আপোনাৰ অনুসন্ধানৰ উত্তৰ দিবলৈ ব্যৱহাৰ কৰা হয়, আমাৰ <a href="/privacy/">গোপনীয়তা নীতি</a>ত ব্যাখ্যা কৰাৰ দৰে।':'<strong>Do you share or sell my details?</strong> Never. Your email is used only to reply to your query, as explained in our <a href="/privacy/">Privacy Policy</a>.'}</p>
+          <p>${t?"<strong>মই ছাইটলৈ প্ৰশ্ন আগবঢ়াব পাৰোঁ নেকি?</strong> হয়। চাৰিটা বিকল্প আৰু এটা চুটি ব্যাখ্যাসহ পঠিয়াওক, আমাৰ দলে প্ৰকাশৰ আগতে পৰ্যালোচনা কৰিব।":"<strong>Can I contribute questions to the site?</strong> Yes. Send them with four options and a short explanation, and our team will review them before publishing."}</p>
+
+          <p style="margin-top:24px; padding-top:16px; border-top:1px solid var(--border,#e2e8f0); font-size:0.88rem; color:#64748b;"><strong>${t?"শেষ হালনাগাদ:":"Last updated:"}</strong> ${t?"২০ ছেপ্তেম্বৰ ২০২৬":"20 September 2026"} &middot; ${t?"প্ৰকাশক:":"Publisher:"} axomexam.in</p>
+        </article>
+      </section>
+    `;const s=document.getElementById("contact-form");s&&s.addEventListener("submit",function(n){n.preventDefault();const i=(document.getElementById("c-name")||{}).value||"",o=(document.getElementById("c-email")||{}).value||"",c=(document.getElementById("c-subject")||{}).value||"Website enquiry",d=(document.getElementById("c-message")||{}).value||"",p="Name: "+i+`
+Email: `+o+`
+
+`+d;window.location.href="mailto:support@axomexam.in?subject="+encodeURIComponent("[axomexam] "+c)+"&body="+encodeURIComponent(p)}),Ke(),T(),window.scrollTo(0,0)}function Y(e){return(e||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim()}function nt(e){return e==null?"":typeof e=="string"?e:Array.isArray(e)?e.join(" "):[e.en,e.as].filter(Boolean).map(t=>Array.isArray(t)?t.join(" "):t).join(" ")}function wa(e){const t=Y(e);if(t.length<2)return[];const a=[],s=typeof CONFIG<"u"?CONFIG.SEARCH_LIMIT:20;for(const n of u.topicIndex){const i=Y(x({en:n.title.en})),o=Y(x({as:n.title.as})),c=(n.tags||[]).filter(m=>Y(m).includes(t)),d=(n.topic.questions||[]).filter(m=>{const h=typeof m.q=="object"?nt(m.q):(m.q||m.question_en||"")+" "+(m.question_as||""),f=typeof m.a=="object"?nt(m.a):(m.a||m.answer_en||"")+" "+(m.answer_as||"");return Y(h).includes(t)||Y(f).includes(t)});let p=0;i.includes(t)&&(p+=5),o.includes(t)&&(p+=5),p+=c.length*3,p+=d.length*1.5,p>0&&a.push({rec:n,score:p,matchCount:d.length+c.length})}return a.sort((n,i)=>i.score-n.score).slice(0,s)}let Te=null;function ka(){return u.searchCorpusReady?Promise.resolve():Te||(Te=(async()=>{const e=u.topicIndex.filter(s=>!(s.topic&&Array.isArray(s.topic.questions)&&s.topic.questions.length)),t=async()=>{for(;e.length;){const s=e.shift();try{const n=await API.getTopic(s.cat.id,s.topic.id,s.sub&&s.sub.id,s.cat&&s.cat.contentLayout);if(n){const i=Array.isArray(n)?n:Array.isArray(n.questions)?n.questions:[];s.topic.questions=i,s.nQuestions||(s.nQuestions=i.length)}}catch{}}},a=Math.min(8,e.length);await Promise.all(Array.from({length:a},t)),u.searchCorpusReady=!0})().finally(()=>{Te=null}),Te)}function yn(){const e=g("#master-search"),t=g("#search-results");if(!e||!t)return;let a;const s=()=>{t.hidden=!0,t.innerHTML=""},n=o=>{const c=wa(o);c.length?(t.innerHTML=`
+          <div class="sr-head">${r("search.results")} (${c.length})</div>
+          ${c.map((d,p)=>`
+            <a class="sr-item" href="/topic/${d.rec.path}" data-idx="${p}">
+              <span class="chip">${l(x(d.rec.cat.name))}</span>
+              <span style="display:flex; flex-direction:column; gap:2px;">
+                <span class="sr-title">${l(x(d.rec.title))}</span>
+                <span class="sr-sub">${l(x(d.rec.section?d.rec.section.name:d.rec.sub?d.rec.sub.name:""))} • ${d.rec.cat.id==="study-guides"?u.uiLang==="as"?"নিৰ্দেশিকা":"Guide":`${d.rec.nQuestions||0} ${r("topic.questions")}`}</span>
+              </span>
+            </a>`).join("")}`,t.innerHTML+=`<a class="sr-item" href="/trending" style="justify-content:center;color:var(--primary);font-weight:600;">${r("see.all")}</a>`):t.innerHTML=`<div class="sr-empty">${r("search.noresult")}</div>`,t.hidden=!1},i=o=>{clearTimeout(a);const c=o.target.value;if(c.trim().length<2){s();return}a=setTimeout(()=>{n(c),ka().then(()=>{!t.hidden&&e.value.trim()===c.trim()&&n(c)})},180)};e.addEventListener("input",i),e.addEventListener("focus",()=>{e.value.trim().length>=2&&i({target:e})}),document.addEventListener("click",o=>{o.target.closest(".search-wrap")||s()}),t.addEventListener("click",o=>{o.target.closest("a.sr-item")&&(e.value="",s())})}function wn(e){const a=Vs.map(m=>u.categories.find(h=>h.id===m)).filter(Boolean).slice(0,6).map(m=>`<a class="sp-chip" href="/category/${m.id}">${l(x(m.name))}</a>`).join(""),s=()=>`
+      <div class="sp-empty">
+        <span class="sp-empty-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        </span>
+        <span>${r("search.hint")}</span>
+      </div>`,n=()=>`
+      <div class="sp-empty">
+        <span class="sp-empty-ico is-warn" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/><path d="M8 11h6"/></svg>
+        </span>
+        <span>${r("search.noresult")}</span>
+      </div>`;e.innerHTML=`
+      <div class="page-head sp-page-head">
+        <nav class="breadcrumb"><a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("tab.search")}</span></nav>
+      </div>
+      <div class="search-page">
+        <div class="sp-hero">
+          <span class="sp-hero-badge" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </span>
+          <h1 class="sp-hero-title">${r("tab.search")}</h1>
+          <p class="sp-hero-sub">${r("search.hint")}</p>
+        </div>
+        <div class="sp-bar">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="page-search" autocomplete="off" spellcheck="false" placeholder="${r("search.placeholder")}" aria-label="${r("tab.search")}" />
+          <button type="button" class="sp-clear" id="page-search-clear" aria-label="Clear search" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          </button>
+        </div>
+        ${a?`<div class="sp-sugg"><span class="sp-sugg-label">${r("search.popular")}</span><div class="sp-sugg-list">${a}</div></div>`:""}
+        <div class="sp-results" id="page-search-results">${s()}</div>
+      </div>`;const i=g("#page-search"),o=g("#page-search-results"),c=g("#page-search-clear");let d;const p=()=>{const m=i.value.trim();if(c&&(c.hidden=!m),m.length<2){o.innerHTML=s();return}const h=wa(m);if(!h.length){o.innerHTML=n();return}o.innerHTML=h.map(f=>`
+        <a class="sp-topic" href="/topic/${f.rec.path}">
+          <span class="sp-topic-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>
+          </span>
+          <span class="sp-topic-body">
+            <span class="sp-topic-title">${l(x(f.rec.title))}</span>
+            <span class="sp-topic-meta">${l(x(f.rec.section?f.rec.section.name:f.rec.sub?f.rec.sub.name:""))} • ${f.rec.cat.id==="study-guides"?u.uiLang==="as"?"নিৰ্দেশিকা":"Guide":`${f.rec.nQuestions||0} ${r("topic.questions")}`}</span>
+          </span>
+          <span class="chip">${l(x(f.rec.cat.name))}</span>
+        </a>`).join("")};c&&c.addEventListener("click",()=>{i.value="",c.hidden=!0,i.focus(),o.innerHTML=s()}),i.addEventListener("input",()=>{clearTimeout(d);const m=i.value;c&&(c.hidden=!m.trim()),d=setTimeout(()=>{p(),ka().then(()=>{i.value.trim()===m.trim()&&p()})},180)})}function Le(){const e=g("#mobile-menu"),t=g("#mobile-backdrop"),a=g("#hamburger");e&&(e.classList.remove("open"),e.hidden=!0),t&&(t.classList.remove("open"),t.hidden=!0),a&&(a.classList.remove("open"),a.setAttribute("aria-expanded","false"))}function $a(){const e=g("#mobile-menu"),t=g("#mobile-backdrop"),a=g("#hamburger");e&&(e.hidden=!1),t&&(t.hidden=!1),requestAnimationFrame(()=>{e&&e.classList.add("open"),t&&t.classList.add("open")}),a&&(a.classList.add("open"),a.setAttribute("aria-expanded","true"))}let Ie;function T(){Ie&&Ie.disconnect();const e=S(".reveal");if(!("IntersectionObserver"in window)){e.forEach(t=>t.classList.add("visible"));return}e.forEach(t=>{const a=parseInt(t.dataset.delay||"0",10);a&&(t.style.transitionDelay=`${a}ms`)}),Ie=new IntersectionObserver(t=>{t.forEach(a=>{a.isIntersecting&&(a.target.classList.add("visible"),Ie.unobserve(a.target))})},{threshold:.08,rootMargin:"0px 0px -30px 0px"}),e.forEach(t=>Ie.observe(t))}function l(e){return String(e??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#39;")}function G(e){e.innerHTML=`
+      <div class="page-head" style="padding:80px 0;text-align:center;">
+        <h1 style="font-size:3rem;">404</h1>
+        <p class="page-desc" style="margin:12px auto;">${r("page.error.sub")}</p>
+        <div style="margin-top:22px;"><a class="btn btn-primary" href="/">${r("page.error.btn")}</a></div>
+      </div>`}function _(e){const t=g("#toast");t&&(t.textContent=e,t.classList.add("show"),clearTimeout(t._t),t._t=setTimeout(()=>t.classList.remove("show"),2400))}function kn(e){e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("tab.categories")}</span></nav>
+        <h1>${r("tab.categories")}</h1>
+        <p class="page-desc">${r("home.categories.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="cat-grid">
+          ${u.categories.map((t,a)=>{const s=B(t.id);return`
+              <a class="cat-card reveal" href="/category/${t.id}" style="--cat:${s}" data-delay="${a*50}">
+                <span class="cat-ico">${pe(t.id)}</span>
+                <span class="cat-meta">
+                  ${ea(t.name)}
+                  <span><span class="cat-count">${qe(t)}</span> ${t.id==="study-guides"?u.uiLang==="as"?"টা গাইড":"Guides":r("cat.topics")}</span>
+                </span>
+              </a>`}).join("")}
+        </div>
+      </section>`,T()}function Aa(e){let t=g("#pdf-loading-overlay");t?(g("#pdf-spinner-text").textContent=e||"Generating PDF...",t.style.display="flex"):(t=document.createElement("div"),t.id="pdf-loading-overlay",t.style.cssText="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(15,23,42,0.8);z-index:99999;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;backdrop-filter:blur(4px);",t.innerHTML=`
+        <div style="width:48px;height:48px;border:3.5px solid rgba(255,255,255,0.15);border-top:3.5px solid #3b82f6;border-radius:50%;animation:pdfSpin 0.8s linear infinite;margin-bottom:16px;flex:0 0 auto;"></div>
+        <div id="pdf-spinner-text" style="color:#ffffff;font-size:0.98rem;font-weight:700;letter-spacing:0.3px;line-height:1.6;text-align:center;max-width:min(92vw,460px);margin:0 auto;padding:0 4px;font-family:'Plus Jakarta Sans',sans-serif;word-break:break-word;overflow-wrap:anywhere;">${l(e||"Generating PDF...")}</div>
+        <style>@keyframes pdfSpin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>
+      `,document.body.appendChild(t))}function Ca(){const e=g("#pdf-loading-overlay");e&&(e.style.display="none")}function $n(e){const t=g("#pdf-lang-modal");t&&t.remove();const a=document.createElement("div");a.id="pdf-lang-modal",a.className="read-modal",a.style.cssText="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:9999;display:flex;align-items:center;justify-content:center;",a.innerHTML=`
+      <div class="read-modal-backdrop" style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(15,23,42,0.7);backdrop-filter:blur(4px);"></div>
+      <div class="read-modal-box pdf-pop-box" role="dialog" style="position:relative; z-index:2; width:90%; max-width:340px; padding:24px 20px; text-align:center; background:var(--bg,#ffffff); color:var(--ink,#0f172a); border-radius:20px; box-shadow:0 25px 50px -12px rgba(0,0,0,0.3); border:1px solid var(--border,#e2e8f0); animation:popIn 0.22s cubic-bezier(0.16,1,0.3,1); box-sizing:border-box; display:flex; flex-direction:column; align-items:center;">
+        
+        <div style="width:52px; height:52px; background:rgba(37,99,235,0.1); color:#2563eb; border-radius:14px; display:flex; align-items:center; justify-content:center; margin:0 auto 12px auto; font-size:1.6rem;">
+          📄
+        </div>
+
+        <h3 style="font-size:1.15rem; font-weight:800; margin:0 0 6px 0; color:var(--ink,#0f172a); letter-spacing:-0.2px; text-align:center; width:100%;">Select PDF Language</h3>
+        <p style="color:var(--ink-soft,#64748b); font-size:0.84rem; margin:0 0 20px 0; line-height:1.4; padding:0 4px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; text-align:center; width:100%;">
+          <b>${l(x(e.title))}</b>
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:10px; width:100%;">
+          <button type="button" class="pdf-action-btn pdf-btn-as-action" id="pdf-btn-as">
+            <span style="display:flex; align-items:center; gap:8px;">
+              <span class="btn-indicator-dot"></span>
+              অসমীয়া মাধ্যম (Assamese)
+            </span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+
+          <button type="button" class="pdf-action-btn pdf-btn-en-action" id="pdf-btn-en">
+            <span style="display:flex; align-items:center; gap:8px;">
+              <span class="btn-indicator-dot" style="background:#0ea5e9;"></span>
+              English Medium
+            </span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+
+          <button type="button" id="pdf-btn-cancel" style="border:none; background:transparent; padding:8px; font-size:0.82rem; margin-top:4px; color:var(--ink-muted,#94a3b8); font-weight:700; cursor:pointer; transition:color 0.2s;">
+            Cancel
+          </button>
+        </div>
+      </div>
+      
+      <style>
+        @keyframes popIn { 0% { transform: scale(0.9); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+        .pdf-action-btn { width: 100%; padding: 13px 16px; font-weight: 700; font-size: 0.92rem; border-radius: 12px; display: flex; align-items: center; justify-content: space-between; border: 1.5px solid transparent; cursor: pointer; transition: all 0.15s ease-in-out; outline: none; box-sizing: border-box; user-select: none; }
+        .pdf-btn-as-action { background: #2563eb; color: #ffffff; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35); }
+        .pdf-btn-as-action:hover { background: #1d4ed8; transform: translateY(-1px); }
+        .pdf-btn-as-action:active { transform: scale(0.96); }
+        .pdf-btn-en-action { background: var(--bg-subtle, #f8fafc); color: var(--ink, #0f172a); border-color: var(--border, #cbd5e1); }
+        .pdf-btn-en-action:hover { background: var(--bg-soft, #f1f5f9); border-color: #2563eb; color: #2563eb; transform: translateY(-1px); }
+        .pdf-btn-en-action:active { transform: scale(0.96); }
+        .btn-indicator-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; display: inline-block; }
+        [data-theme="dark"] .pdf-pop-box { background: #0f172a !important; border-color: #334155 !important; color: #f8fafc !important; }
+        [data-theme="dark"] .pdf-btn-en-action { background: #1e293b !important; color: #f8fafc !important; border-color: #334155 !important; }
+        [data-theme="dark"] .pdf-btn-en-action:hover { border-color: #38bdf8 !important; color: #38bdf8 !important; }
+      </style>
+    `,document.body.appendChild(a);const s=()=>a.remove();g("#pdf-btn-cancel",a).addEventListener("click",s),g(".read-modal-backdrop",a).addEventListener("click",s),g("#pdf-btn-as",a).addEventListener("click",n=>{n.currentTarget.style.transform="scale(0.95)",setTimeout(()=>{s(),Sa(e,"as")},100)}),g("#pdf-btn-en",a).addEventListener("click",n=>{n.currentTarget.style.transform="scale(0.95)",setTimeout(()=>{s(),Sa(e,"en")},100)})}async function Sa(e,t){if(u.isGeneratingPdf)return;u.isGeneratingPdf=!0,Aa(t==="as"?"PDF প্ৰস্তুত হৈ আছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক...":"Generating PDF, please wait..."),await new Promise($=>setTimeout($,40));let s=e.topic.questions||[];if(!s.length)try{const $=await API.getTopic(e.cat.id,e.topic.id,e.sub&&e.sub.id,e.cat&&e.cat.contentLayout);$&&(s=Array.isArray($)?$:$.questions||[],e.topic.questions=s)}catch($){console.error("PDF fetch error:",$)}if(!s.length){Ca(),u.isGeneratingPdf=!1,_(t==="as"?"এই বিষয়ত প্ৰশ্ন উপলব্ধ নহয়!":"No questions available in this topic!");return}const n=e.title[t]||e.title.as||e.title.en||e.topic.id,i=e.cat.name[t]||e.cat.name.as||e.cat.name.en||"",o=t==="as"?"অসমীয়া মাধ্যম":"English Medium",c=t==="as"?"উত্তৰ":"Answer",d=t==="as"?"ব্যাখ্যা":"Explanation",p=t==="as"?"'Noto Serif Bengali', serif":"'Plus Jakarta Sans', sans-serif",m=document.createElement("div");m.style.cssText="position:absolute; left:-9999px; top:-9999px; visibility:hidden; width:726px; font-family:"+p+";",document.body.appendChild(m);const h=s.map(($,M)=>{const D=R($,"question",t),j=R($,"answer",t),P=R($,"explanation",t),z=Q($,t),W=xe($),be=ye($),X=t,ie=$.a&&typeof $.a=="object"&&$.a[X]||$.a||$.answer,Oe=Array.isArray(ie)||j.includes("qa-step-line"),se=document.createElement("div");return se.className="qa-row",se.style.cssText="border-bottom:1px dashed #e2e8f0; padding-bottom:4px; margin-bottom:7px; line-height:1.4; text-align:left;",Oe?se.innerHTML=`
+          <div style="font-size:12.8px; font-weight:700; color:#0f172a; margin-bottom:1px; text-align:left;">${M+1}. ${E(D)}</div>
+          ${W}
+          ${be?ne($,{compact:!0}):z.length?`
+            <div style="font-size:11.2px; color:#475569; margin-bottom:3px; display:flex; flex-wrap:wrap; gap:12px; text-align:left; justify-content:flex-start;">
+              ${z.map((Ne,H)=>{const ve=`(${String.fromCharCode(65+H)}) ${Ne}`;return`<span>${E(ve)}</span>`}).join("")}
+            </div>`:""}
+          <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${j}</div>
+          ${P?`<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${d}:</b> ${P}</div>`:""}
+        `:se.innerHTML=`
+          <div style="font-size:12.8px; font-weight:500; color:#0f172a; margin-bottom:1px; text-align:left;">${M+1}. ${E(D)}</div>
+          ${W}
+          ${be?ne($,{compact:!0}):""}
+          <div style="font-size:12.2px; font-weight:600; color:#334155; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;">${c}: ${E(j)}</div>
+          ${P?`<div style="font-size:10.5px; color:#64748b; margin-top:1px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif; text-align:left;"><b>${d}:</b> ${P}</div>`:""}
+        `,m.appendChild(se),se});await ce(m),document.fonts&&document.fonts.ready&&await Promise.race([document.fonts.ready,new Promise($=>setTimeout($,3e3))]);const f=h.map($=>({html:$.outerHTML,height:$.offsetHeight+7}));m.remove();const v=[];let b=[],y=0;const w=1010;f.forEach($=>{y+$.height>w&&b.length>0?(v.push(b),b=[$.html],y=$.height):(b.push($.html),y+=$.height)}),b.length>0&&v.push(b);const C=v.length,A=document.createElement("div");A.id="dynamic-pdf-export-container",A.style.cssText="position:absolute; left:-9999px; top:-9999px; width:794px; background:#fff;";function q($,M){const D=M===1,j=document.createElement("div");j.className="pdf-page-node",j.style.cssText=`
+        width: 794px;
+        height: 1122px;
+        max-height: 1122px;
+        background: #ffffff;
+        color: #0f172a;
+        padding: 20px 34px 14px 34px;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        font-family: ${p};
+      `;const P=D?`
+        <div style="border-bottom:2px solid #4f46e5; padding-bottom:6px; margin-bottom:4px; height:48px; box-sizing:border-box;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="vertical-align:bottom; text-align:left;">
+                <div style="font-size:15px; font-weight:800; color:#0f172a; line-height:1.2; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${l(n)}</div>
+                <div style="font-size:10.5px; color:#64748b; margin-top:2px; font-family:'Noto Sans Bengali', 'Plus Jakarta Sans', sans-serif;">${l(i)} • ${t==="as"?"মুঠ বিষয়":"Total Content"}: ${s.length} | ${o}</div>
+              </td>
+              <td style="vertical-align:bottom; text-align:right; width:155px; white-space:nowrap; padding-right:4px;">
+                ${Zt}
+              </td>
+            </tr>
+          </table>
+        </div>
+      `:`
+        <div style="border-bottom:1.5px solid #e2e8f0; padding-bottom:6px; margin-bottom:4px; height:36px; box-sizing:border-box;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td></td>
+              <td style="vertical-align:bottom; text-align:right; width:155px; white-space:nowrap; padding-right:4px;">
+                ${Zt}
+              </td>
+            </tr>
+          </table>
+        </div>
+      `;return j.innerHTML=`
+        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%) rotate(-35deg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px; pointer-events:none; user-select:none; z-index:0; opacity:0.075; width:140%;">
+          <div style="width:110px; height:110px; background:#4f46e5; color:#ffffff; border-radius:24px; display:flex; align-items:center; justify-content:center; font-size:68px; font-weight:800; font-family:Arial, sans-serif;">A</div>
+          <div style="font-size:58px; font-weight:800; color:#4f46e5; letter-spacing:2px; line-height:1;">axomexam.in</div>
+        </div>
+        ${P}
+        <div style="position:relative; z-index:2; flex:1; display:flex; flex-direction:column; justify-content:flex-start; margin-top:8px; margin-bottom:8px;">
+          ${$.join("")}
+        </div>
+        <div style="border-top:1px solid #e2e8f0; padding-top:4px; display:flex; justify-content:space-between; align-items:center; font-size:9.5px; color:#64748b; font-family:'Plus Jakarta Sans', sans-serif; position:relative; z-index:2;">
+          <span>© axomexam.in — Free Educational Notes for Assam Competitive Exams</span>
+          <span style="position:absolute; left:50%; transform:translateX(-50%); font-weight:700; color:#334155; font-size:10px;">— Page ${M} of ${C} —</span>
+          <span>axomexam.in</span>
+        </div>
+      `,j}document.body.appendChild(A);try{if(await Ms(),!window.jspdf||!window.html2canvas)throw new Error("jsPDF or html2canvas library is missing.");document.fonts&&document.fonts.ready&&await Promise.race([document.fonts.ready,new Promise(H=>setTimeout(H,3e3))]);const{jsPDF:$}=window.jspdf,M=new $("p","mm","a4"),D=window.matchMedia?window.matchMedia("(max-width: 820px)").matches:!1,j=typeof navigator.deviceMemory=="number"&&navigator.deviceMemory<=4,P=D||j?1.5:2,z=v.length,W=794*1122*P*P,X=Math.max(1,Math.min(4,Math.floor((D||j?8e6:16e6)/W))),ie=Math.round(1122*P);for(let H=0;H<z;H+=X){const ve=Math.min(X,z-H);Aa(t==="as"?`PDF প্ৰস্তুত হৈ আছে (${H+1}/${z}), অনুগ্ৰহ কৰি অপেক্ষা কৰক...`:`Generating PDF (${H+1}/${z}), please wait...`),await new Promise(Z=>setTimeout(Z,0));const N=document.createElement("div");N.style.cssText="width:794px; background:#ffffff;";for(let Z=0;Z<ve;Z++){const le=q(v[H+Z],H+Z+1);le.style.margin="0",N.appendChild(le)}A.appendChild(N);let re;try{re=await window.html2canvas(N,{scale:P,useCORS:!0,allowTaint:!1,logging:!1,backgroundColor:"#ffffff"});const Z=re.width;for(let le=0;le<ve;le++){const ft=Math.min(ie,re.height-le*ie);if(ft<=0)break;const Se=document.createElement("canvas");Se.width=Z,Se.height=ft,Se.getContext("2d").drawImage(re,0,le*ie,Z,ft,0,0,Z,ft);const wi=Se.toDataURL("image/jpeg",.9);Se.width=0,Se.height=0,H+le>0&&M.addPage("a4","p"),M.addImage(wi,"JPEG",0,0,210,297,void 0,"FAST")}}finally{re&&(re.width=0,re.height=0),re=null,N.parentNode&&N.remove()}}const Oe=`${e.topic.id}-${t}.pdf`;let se=!1;const Ne=window.AxoApp;if(Ne&&typeof Ne.savePdf=="function")try{const H=String(M.output("datauristring")||"");Ne.savePdf(H.substring(H.indexOf(",")+1),Oe),se=!0}catch(H){console.error("App PDF bridge failed:",H)}if(!se)if(isInAxomexamApp())_(t==="as"?"অ্যাপত PDF ছেভ কৰিব নোৱাৰি। Chrome ত axomexam.in খুলি ডাউনলোড কৰক।":"Can't save PDF inside the app. Open axomexam.in in Chrome and download there.");else{try{M.save(Oe)}catch{const ve=M.output("bloburl"),N=document.createElement("a");N.href=ve,N.download=Oe,N.rel="noopener",document.body.appendChild(N),N.click(),setTimeout(()=>{N.parentNode&&N.parentNode.removeChild(N),URL.revokeObjectURL(ve)},4e3)}_(t==="as"?"PDF ডাউনলোড সফল হ'ল!":"PDF downloaded successfully!")}}catch($){console.error("PDF generation failed:",$),_(t==="as"?"PDF বনাব পৰা নগ'ল। অনুগ্ৰহ কৰি পুনৰ চেষ্টা কৰক।":"Failed to generate PDF. Please try again.")}finally{A.parentNode&&A.remove(),Ca(),u.isGeneratingPdf=!1}}async function An(e){const t=u.lang==="as";e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;let a=[];try{a=await API.listDownloads()}catch{}e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${L("page.downloads.title")}</span></nav>
+        <h1>${L("page.downloads.title")}</h1>
+        <p class="page-desc">${l(L("page.downloads.desc"))}</p>
+      </div>
+
+      <section class="section" style="padding-bottom:28px;">
+        <div class="section-head" style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:14px;">
+          <div>
+            <h2>${t?"বিষয়ভিত্তিক প্ৰশ্ন-উত্তৰ PDF টোকা":"Topic-wise Q&A PDF Notes"}</h2>
+            <p class="sec-sub">${t?"প্ৰতিটো বিষয়ৰ সম্পূৰ্ণ দ্বিভাষিক প্ৰশ্ন আৰু উত্তৰ PDF ৰূপত ডাউনলোড কৰক।":"Download complete bilingual questions & answers for each topic in PDF format."}</p>
+          </div>
+          <div style="width:100%; max-width:320px; margin:0 auto; position:relative;">
+            <input type="search" id="dl-search-input" placeholder="${t?"বিষয়ৰ নামেৰে PDF সন্ধান কৰক...":"Search PDF by topic name..."}" autocomplete="off" spellcheck="false"
+                   style="width:100%; padding:9px 12px 9px 36px; border-radius:20px; border:1px solid var(--border,#cbd5e1); background:var(--bg,#ffffff); color:var(--ink,#0f172a); font-size:0.85rem; outline:none; box-sizing:border-box; box-shadow:0 1px 3px rgba(0,0,0,0.05);" />
+            <svg style="position:absolute; left:12px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--ink-soft,#64748b);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          </div>
+        </div>
+
+        <div class="dl-list" id="topic-pdf-list">
+          ${u.topicIndex.map((o,c)=>`
+            <div class="dl-item reveal topic-dl-card" data-title="${l(nt(o.title))}" data-cat="${l(nt(o.cat.name))}" data-delay="${c%12*30}">
+              <span class="dl-ico">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+              </span>
+              <span class="dl-meta">
+                <b>${l(x(o.title))}</b>
+                <span>${l(x(o.cat.name))}${o.sub?" • "+l(x(o.sub.name)):""} • <span id="dl-count-${o.path.replace(/\//g,"-")}">${o.nQuestions||0}</span> ${o.cat.id==="study-guides"?t?"অধ্যায়":"Chapters":t?"প্ৰশ্ন":"Questions"}</span>
+              </span>
+              <button class="dl-btn dl-save topic-pdf-btn" data-path="${l(o.path)}" type="button" style="text-transform:none;">${t?"ডাউনলোড":"Download"}</button>
+            </div>
+          `).join("")}
+        </div>
+        <div id="dl-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>${t?"মিল থকা PDF বিষয় পোৱা নগ'ল।":"No matching PDF topic found."}</p></div>
+      </section>
+
+      <section class="section" style="padding-bottom:44px; border-top:1px solid var(--border,#e2e8f0); padding-top:30px;">
+        <div class="section-head"><div><h2>${t?"বিশেষ ই-বুক আৰু হাতে লিখা টোকা":"Special E-Books & Hand-written Notes"}</h2><p class="sec-sub">${t?"প্ৰত্যক্ষ চৰকাৰী PDF আৰু নিৰ্বাচিত অধ্যয়ন সামগ্ৰী।":"Direct official PDFs and curated study materials."}</p></div></div>
+        ${a.length?`
+          <div class="dl-list">
+            ${a.map(o=>`
+              <div class="dl-item">
+                <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
+                <span class="dl-meta"><b>${l(o.name.replace(/\.pdf$/i,"").replace(/[-_]+/g," "))}</b><span>${t?"PDF দস্তাবেজ":"PDF Document"}</span></span>
+                <a class="dl-btn dl-save" href="${o.url}" download target="_blank" rel="noopener" style="text-transform:none;">${t?"ডাউনলোড":"Download"}</a>
+              </div>`).join("")}
+          </div>`:`<div class="info-panel"><p>${t?"এতিয়ালৈ কোনো অতিৰিক্ত PDF আপলোড কৰা নাই।":"No extra manual PDF uploaded yet."}</p></div>`}
+      </section>`,S(".topic-pdf-btn",e).forEach(o=>{o.addEventListener("click",()=>{const c=o.dataset.path,d=u.topicMap[c];d&&$n(d)})});const s=g("#dl-search-input"),n=S(".topic-dl-card",e),i=g("#dl-no-match");s&&s.addEventListener("input",o=>{const c=Y(o.target.value);let d=0;n.forEach(p=>{const m=Y(p.dataset.title),h=Y(p.dataset.cat);m.includes(c)||h.includes(c)?(p.style.display="",d++):p.style.display="none"}),i&&(i.style.display=d===0?"block":"none")}),T()}function Ea(e){const t=e&&e.color;return/^#[0-9a-fA-F]{3,8}$/.test(t||"")?t:"#4f46e5"}function k(e,t){if(e==null)return"";if(typeof e=="string")return e;const a=t||u.lang||"en";return e[a]&&String(e[a]).trim()?e[a]:e.en||e.as||""}function Ma(e){if(e==null)return"";const t=String(e).split(`
+`);let a="",s=!1;const n=()=>{s&&(a+="</ul>",s=!1)};return t.forEach(i=>{const o=(i||"").trim();if(!o){n();return}const c=o.match(/^[-•*]\s+(.*)$/);c?(s||(a+='<ul class="ebk-list">',s=!0),a+=`<li>${E(c[1])}</li>`):(n(),a+=`<p class="ebk-para">${E(o)}</p>`)}),n(),a}async function Cn(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;let t=[];try{t=await API.listBooks()}catch{t=[]}const a=n=>{e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:760px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("ebooks.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${r("ebooks.sub")}</p>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        </div><p>${l(n||r("ebooks.empty"))}</p></div>`};if(!t.length)return a();const s=t.slice().sort((n,i)=>k(n.title,"en").localeCompare(k(i.title,"en")));e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("nav.ebooks")}</span>
+        </nav>
+        <h1>${r("ebooks.title")}</h1>
+        <p class="page-desc">${r("ebooks.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="ebooks-grid">
+          ${s.map((n,i)=>{const o=(n.chapters||[]).length,c=Ea(n),d=k(n.title,"en"),p=k(n.subject,"en"),m=n.cover?String(n.cover):"",h=k(n.coverAlt,u.lang)||d+" e-book cover",f=m?`<img class="ebook-cover-img" src="${l(m)}" alt="${l(h)}" loading="lazy" decoding="async">`:`<span class="ebook-cover-frame" aria-hidden="true"></span>
+                  <span class="ebook-cover-top">
+                    <span class="ebook-cover-publisher">axomexam</span>
+                    <span class="ebook-cover-tag">E-Book</span>
+                  </span>
+                  <span class="ebook-cover-title">
+                    <span class="ebk-tt-en">${l(d)}</span>
+                  </span>
+                  <span class="ebook-cover-subject">${l(p)}</span>`;return`
+              <a class="ebook-card reveal" href="/ebooks/${encodeURIComponent(n.id)}" style="--ebk:${c}" data-delay="${i*60}">
+                <span class="ebook-cover${m?" has-photo":""}">${f}</span>
+                <span class="ebook-meta">
+                  <b>${l(d)}</b>
+                  <span class="ebook-meta-sub"><span>${o} ${r("ebooks.chapters")}</span></span>
+                  <span class="ebook-read-btn">
+                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+                    ${r("ebooks.readNow")}
+                  </span>
+                </span>
+              </a>`}).join("")}
+        </div>
+      </section>`,T()}function Sn(e,t,a){const s=e.chapters||[],n=String(a||"ebk-ch").replace(/[^A-Za-z0-9_-]/g,""),i=s.map((c,d)=>`
+      <a class="ebk-toc-item" href="#${n}-${d}">
+        <span class="ebk-toc-no">${d+1}</span>
+        <span>${l(k(c.title,t))}</span>
+      </a>`).join(""),o=s.map((c,d)=>`
+      <section class="ebk-chapter" id="${n}-${d}">
+        <h3 class="ebk-ch-title"><span class="ebk-ch-no">${d+1}</span>${l(k(c.title,t))}</h3>
+        <div class="ebk-ch-body">${Ma(k(c.content,t))}</div>
+      </section>`).join("");return`
+      ${s.length>1?`<nav class="ebk-toc" aria-label="${l(r("ebooks.toc"))}"><h4>${r("ebooks.toc")}</h4>${i}</nav>`:""}
+      <div class="ebk-chapters">${o}</div>`}let ke=null;function J(){ke||(ke=requestAnimationFrame(En))}function En(){ke=null;const e=document.getElementById("ebk-progress-fill");if(!e)return;const t=document.documentElement,a=t.scrollHeight-window.innerHeight,s=window.pageYOffset||t.scrollTop||0,n=a>0?Math.min(100,Math.max(0,s/a*100)):0;e.style.width=n.toFixed(2)+"%",e.parentElement.setAttribute("aria-valuenow",String(Math.round(n)))}function qa(){const e=document.getElementById("ebk-progress");e&&e.remove(),window.removeEventListener("scroll",J),window.removeEventListener("resize",J),ke&&(cancelAnimationFrame(ke),ke=null)}function ue(e){qa();const t=document.createElement("div");t.id="ebk-progress",t.className="ebk-progress",t.setAttribute("role","progressbar"),t.setAttribute("aria-label",r("readProgress.label")||"Reading progress"),t.setAttribute("aria-valuemin","0"),t.setAttribute("aria-valuemax","100"),t.setAttribute("aria-valuenow","0"),e&&t.style.setProperty("--ebk",e);const a=document.createElement("span");a.id="ebk-progress-fill",t.appendChild(a),document.body.appendChild(t),window.addEventListener("scroll",J,{passive:!0}),window.addEventListener("resize",J),J()}async function Mn(e,t){const a=String(t||"").replace(/[^A-Za-z0-9_-]/g,"");if(e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,!a)return G(e);let s=null;try{s=await API.getBook(a)}catch{s=null}if(!s||!s.title||!(s.chapters&&s.chapters.length)){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("ebooks.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${r("ebooks.empty")}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/ebooks">${r("ebooks.backToLib")}</a></div>
+        </div>`;return}const n=s.chapters||[];let i=u.lang==="as"?"as":"en";const o=k(s.title,"en"),c=k(s.title,"as"),d=k(s.subject,"en"),p=k(s.subject,"as"),m=Ea(s),h=c&&c!==o;e.innerHTML=`
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/ebooks">${r("nav.ebooks")}</a><span class="bc-sep">/</span>
+          <span>${l(o)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${m};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${l(d)}${p&&p!==d?`<span class="ebk-chip-as"> ${l(p)}</span>`:""}</span>
+            </div>
+            <h2 class="ebk-head-title">${l(o)}${h?`<span class="ebk-head-title-as">${l(c)}</span>`:""}</h2>
+            ${s.description?`<p class="ebk-desc">${l(x(s.description)).replace(/\n/g,"<br>")}</p>`:""}
+            <div class="ebk-head-meta">
+              ${s.author?`<span><b>${l(x(s.author))}</b></span>`:""}
+              <span>${n.length} ${r("ebooks.chapters")}</span>
+              ${s.updated?`<span>${r("ebooks.updated")}: ${l(s.updated)}</span>`:""}
+            </div>
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${i==="as"?"active":""}" data-ebklang="as">${r("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${i==="en"?"active":""}" data-ebklang="en">${r("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="ebk-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/ebooks">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${r("ebooks.backToLib")}
+          </a>
+        </div>
+      </div>`;const f=g("#ebk-body");f&&(f.innerHTML=["en","as"].map(v=>`<div data-axo-lang="${v}">${Sn(s,v,v==="en"?"ebk-ch":"ebk-ch-as")}</div>`).join("")),ue(m),S(".lang-btn",e).forEach(v=>{v.addEventListener("click",()=>{const b=v.dataset.ebklang;i!==b&&(i=b,u.lang=i,document.body.setAttribute("data-lang",i),S(".lang-btn",e).forEach(y=>y.classList.toggle("active",y.dataset.ebklang===i)),J())})})}const me={syllabus:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h13"/><path d="M8 12h13"/><path d="M8 18h13"/><path d="M3.5 6h.01"/><path d="M3.5 12h.01"/><path d="M3.5 18h.01"/></svg>',"elementary-mathematics":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/><path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M16 14h.01M8 18h4"/></svg>',"general-english":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M9 7h6"/><path d="M9 11h6"/></svg>',"logical-reasoning":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 21h4"/><path d="M12 3a6 6 0 0 0-3.6 10.8c.8.7 1.1 1.5 1.1 2.7h5c0-1.2.3-2 1.1-2.7A6 6 0 0 0 12 3z"/></svg>',"assam-history-geography-culture":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V10l7-5 7 5v11"/><path d="M9.5 21v-6h5v6"/></svg>',"general-knowledge-current-affairs":'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>',default:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>'};function St(e){const t=e&&e.id||"";return me[t]?me[t]:e&&e.type==="syllabus"?me.syllabus:me.default}function F(e,t){const a=t&&t.color||e&&e.color;return/^#[0-9a-fA-F]{3,8}$/.test(a||"")?a:"#4f46e5"}async function oe(){if(Array.isArray(u.exams))return u.exams;let e=[];try{e=await API.listExams()}catch{e=[]}return u.exams=Array.isArray(e)?e:[],u.exams}function Re(e){return(u.exams||[]).find(t=>t.id===e)||null}function $e(e){return!!(e&&e.status==="available"&&(e.sections||[]).length)}const qn=["assam-police","assam-police-combo","rrb-ntpc","adre-grade-3","adre-grade-4","dhs-dme-technical"];function he(e){return!!(e&&qn.indexOf(e.id)!==-1&&(e.sections||[]).length)}const Pa=["adre-grade-3","adre-grade-4","assam-police","assam-police-combo","rrb-ntpc","dhs-dme-technical"];function Ta(e){const t=e?Pa.indexOf(e.id):-1;return t===-1?Pa.length:t}const La={"assam-police-combo":{titleKey:"exams.wipTitle",msgKey:"exams.comboPreparingMsg",okKey:"book.close"}};function ot(e){return!!(e&&Object.prototype.hasOwnProperty.call(La,e.id))}function Ia(){return`<div class="info-panel" data-content-preparing="1" style="max-width:760px; margin:0 auto; background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:16px; padding:22px 24px; line-height:1.8; color:var(--ink-soft,#475569); text-align:left;">
+      <p style="margin:0 0 10px; font-weight:800; color:var(--ink,#0f172a); font-size:1.05rem;">${l(r("exams.topicPreparingTitle"))}</p>
+      <p style="margin:0;">${l(r("exams.topicPreparingMsg"))}</p>
+    </div>`}const Ra={};function it(e){if(!e||Ra[e.id])return;Ra[e.id]=!0;const t=La[e.id]||{},a=t.titleKey||"exams.preparingTitle",s=t.msgKey||"exams.preparingMsg",k=t.okKey||"exams.preparingOk",n=g("#exam-preparing-modal");n&&n.remove();const i=document.createElement("div");i.id="exam-preparing-modal",i.className="read-modal",i.innerHTML=`
+      <div class="read-modal-backdrop"></div>
+      <div class="read-modal-box confirm-modal-box" role="dialog" aria-modal="true" aria-labelledby="exam-preparing-title">
+        <h3 id="exam-preparing-title" style="font-size:1.12rem; margin-bottom:9px;">${l(r(a))}</h3>
+        <p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px; line-height:1.55;">${l(r(s))}</p>
+        <div style="display:flex; gap:10px; justify-content:center;">
+          <button class="btn btn-primary" id="exam-preparing-ok" style="flex:1;">${l(r(k))}</button>
+        </div>
+      </div>`,document.body.appendChild(i);const o=()=>i.remove();g("#exam-preparing-ok",i).addEventListener("click",o),g(".read-modal-backdrop",i).addEventListener("click",o)}const Pn={"assam-police":{en:"Assam Police AB & UB",as:"অসম আৰক্ষী AB আৰু UB"}};function O(e,t){const a=e?Pn[e.id]:null;return a?a[t||u.lang||"en"]||a.en:k(e&&e.title,t)}function rt(e){const t=F(e),a=O(e,"en"),s=O(e,"as"),n=k(e.subtitle,"en");return`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+          <span>${l(a)}</span>
+        </nav>
+      </div>
+      <div class="exam-soon-panel" style="--ebk:${t}">
+        <span class="exam-soon-ico">${me.default}</span>
+        <h1>${l(a)}${s&&s!==a?` <span class="exam-soon-as">${l(s)}</span>`:""}</h1>
+        ${n?`<p class="exam-soon-sub">${l(n)}</p>`:""}
+        <span class="exam-soon-chip">${r("exams.comingSoon")}</span>
+        <p class="exam-soon-msg">${l(r("exams.comingSoonMsg"))}</p>
+        <a class="btn btn-accent" href="/exams">${r("exams.backToExams")}</a>
+      </div>`}function Et(e,t){return k(e&&e.coverAlt,t)||O(e,t)||"Exam book cover"}function Da(e,t){return k(e&&e.logoAlt,t)||k(e&&e.coverAlt,t)||O(e,t)||"Exam logo"}function Tn(e,t){const a=F(e),s=O(e,"en"),n=O(e,"as"),i=k(e.subtitle,"en"),g=k(e.cardTagline,u.lang),o=he(e),c=r(o?"exams.readNow":"exams.comingSoon"),d=Y(s+" "+n+" "+i),p=e.cover?String(e.cover):"",m=o?"":`<span class="exam-soon-badge">${l(r("exams.comingSoon"))}</span>`,h=p?`<img class="ebook-cover-img" src="${l(p)}" alt="${l(Et(e,u.lang))}" loading="lazy" decoding="async">${m}`:`<span class="ebook-cover-frame" aria-hidden="true"></span>
+          <span class="ebook-cover-top">
+            <span class="ebook-cover-publisher">axomexam</span>
+            <span class="ebook-cover-tag">${l(r(o?"nav.exams":"exams.comingSoon"))}</span>
+          </span>
+          <span class="ebook-cover-title">
+            <span class="ebk-tt-en">${l(s)}</span>
+            ${n&&n!==s?`<span class="ebk-tt-as">${l(n)}</span>`:""}
+          </span>
+          <span class="ebook-cover-subject">${l(i)}</span>
+          ${m}`;return`
+      <a class="ebook-card reveal exam-card ${o?"":"is-soon"}" href="/exams/${encodeURIComponent(e.id)}" style="--ebk:${a}" data-name="${l(d)}" data-delay="${t%8*50}">
+        <span class="ebook-cover${p?" has-photo":""}">${h}</span>
+        <span class="ebook-meta">
+          <b>${l(s)}</b>
+          <span class="ebook-meta-sub">${n&&n!==s?`<span class="ebk-tt-as">${l(n)}</span>`:`<span>${l(i)}</span>`}</span>
+          ${g?`<span class="ebook-meta-tags">${l(g)}</span>`:""}
+          <span class="ebook-read-btn">${l(c)}</span>
+        </span>
+      </a>`}const lt={trophy:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v6a5 5 0 0 1-10 0z"/><path d="M7 6H4v2a3 3 0 0 0 3 3"/><path d="M17 6h3v2a3 3 0 0 1-3 3"/></svg>',award:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="5"/><path d="m8.5 13.5-1.5 8 5-3 5 3-1.5-8"/></svg>',calendar:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg>',user:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>',atom:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="1.6"/><ellipse cx="12" cy="12" rx="9" ry="3.4"/><ellipse cx="12" cy="12" rx="9" ry="3.4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9" ry="3.4" transform="rotate(120 12 12)"/></svg>',map:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>',globe:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg>',flag:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22V2"/><path d="M5 3c4 0 4 3 8 3s4-3 8-3v10c-4 0-4-3-8-3s-4 3-8 3"/></svg>',shield:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',coins:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="7" rx="7" ry="3"/><path d="M5 7v10c0 1.7 3.1 3 7 3s7-1.3 7-3V7"/><path d="M5 12c0 1.7 3.1 3 7 3s7-1.3 7-3"/></svg>',chart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15v3M12 10v8M17 6v12"/></svg>',leaf:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg>',users:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.5 3-5.5 6.5-5.5s6.5 2 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M17.5 14.6c2.4.5 4 2.1 4 4.4"/></svg>',flower:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2a3 3 0 0 1 0 6 3 3 0 0 1 0-6z"/><path d="M12 16a3 3 0 0 1 0 6 3 3 0 0 1 0-6z"/><path d="M2 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0z"/><path d="M16 12a3 3 0 0 1 6 0 3 3 0 0 1-6 0z"/></svg>'};function Ln(e){const t=e&&e.icon||"";if(lt[t])return lt[t];if(typeof TOPIC_ICON_RULES<"u"){const a=(e&&e.id||"")+" "+(e&&e.title&&e.title.en||"");for(const[s,n]of TOPIC_ICON_RULES)if(s.test(a))return n}return typeof CATEGORY_ICON_SVG<"u"&&CATEGORY_ICON_SVG["current-affairs"]||lt.globe}function In(e,t){const a=e.color||"#ef4444",s=k(e.title,"en"),n=k(e.title,"as");return`
+      <a class="sub-card reveal exam-sec-card" href="/current-affairs/${encodeURIComponent(e.id)}" style="--cat:${a}" data-delay="${t%8*40}">
+        <span class="sub-ico"><span class="cat-svg">${Ln(e)}</span></span>
+        <span class="exam-sec-txt">
+          <b>${l(s)}</b>
+          ${n&&n!==s?`<span class="exam-sec-as">${l(n)}</span>`:""}
+          <span class="exam-sec-count" data-ca-count="${l(e.id)}" hidden></span>
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`}async function Rn(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;let t=[];try{t=await API.listCurrentAffairs()}catch{t=[]}Array.isArray(t)||(t=[]),e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("nav.currentAffairs")}</span>
+        </nav>
+        <h1>${r("ca.title")}</h1>
+        <p class="page-desc">${r("ca.sub")}</p>
+        <p class="exams-choose">${r("ca.choose")}</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        ${t.length?`<div class="sub-grid exam-sec-grid" style="--cat:#ef4444">${t.map((a,s)=>In(a,s)).join("")}</div>`:`<div class="qa-empty"><div class="big">
+              <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h13a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6z"/><path d="M4 6V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/><path d="M8 10h6"/><path d="M8 13h6"/></svg>
+            </div><p>${l(r("ca.empty"))}</p></div>`}
+        <p class="ebooks-note">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          ${l(r("ca.note"))}
+        </p>
+      </section>`,T(),_a(),Qa()}async function Dn(e,t){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;let a=null,s=[];try{a=await API.getCurrentAffairsCategory(t)}catch{a=null}try{s=await API.listCurrentAffairsQuestions(t)}catch{s=[]}if(Array.isArray(s)||(s=[]),!a){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("ca.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${l(r("ca.noCategory"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/current-affairs">${r("ca.back")}</a></div>
+        </div>`;return}const n=a.color||"#ef4444",i=k(a.title,"en")||t,o=k(a.title,"as"),c=u.lang==="as"?"as":"en",d=s.length;e.innerHTML=`
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/current-affairs">${r("nav.currentAffairs")}</a><span class="bc-sep">/</span>
+          <span>${l(i)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${n};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${r("nav.currentAffairs")}</span>
+              <span class="ebk-chip">${r("ca.questions")}</span>
+            </div>
+            <h2 class="ebk-head-title">${l(i)}${o&&o!==i?`<span class="ebk-head-title-as">${l(o)}</span>`:""}</h2>
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="ebk-instruct">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+            ${r("ca.uploadedBy")}
+          </div>
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${c==="as"?"active":""}" data-calang="as">${r("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${c==="en"?"active":""}" data-calang="en">${r("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="ca-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/current-affairs">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${r("ca.back")}
+          </a>
+        </div>
+      </div>`;const p=g("#ca-body"),m=a.updated||"",h=a.uploadedBy||"axomexam team";(()=>{if(!p)return;const v=["en","as"].map(w=>{const C=k(a.intro,w);return C?`<div data-axo-lang="${w}"><div class="ca-intro" style="margin:0 0 14px; padding:14px 16px; border-radius:14px; border:1px solid var(--border,#e2e8f0); background:linear-gradient(180deg, color-mix(in srgb, ${n} 9%, transparent), transparent); font-size:.92rem; line-height:1.65; color:var(--ink-soft,#334155); text-align:left;">${l(C)}</div></div>`:""}).join(""),b=["en","as"].map(w=>`
+        <div data-axo-lang="${w}"><div class="ca-meta" style="display:flex; flex-wrap:wrap; gap:6px 18px; margin:0 0 18px; font-size:.78rem; color:var(--ink-muted,#64748b);">
+          ${m?`<span><b>${w==="as"?"আপডেট":"Updated"}:</b> ${l(m)}</span>`:""}
+          <span><b>${w==="as"?"আপলোড কৰিছে":"Uploaded by"}:</b> ${l(h)}</span>
+        </div></div>`).join(""),y=d?Va(s,0,!0):`<div class="qa-empty"><p>${l(r("ca.noContent"))}</p></div>`;p.innerHTML=v+b+y})(),ue(n),S(".lang-btn",e).forEach(v=>{v.addEventListener("click",()=>{const b=v.dataset.calang;u.lang=b==="en"?"en":"as",document.body.setAttribute("data-lang",u.lang),S(".lang-btn",e).forEach(y=>y.classList.toggle("active",y.dataset.calang===u.lang)),J()})})}async function jn(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`;const t=await oe();if(!t.length){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:760px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${r("exams.sub")}</p>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div><p>${l(r("exams.empty"))}</p></div>`;return}const a=t.slice().sort((o,c)=>{const d=he(o)?0:1,p=he(c)?0:1;if(d!==p)return d-p;if(d===0){const m=Ta(o),h=Ta(c);if(m!==h)return m-h}return k(o.title,"en").localeCompare(k(c.title,"en"))});e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("nav.exams")}</span>
+        </nav>
+        <h1>${r("exams.title")}</h1>
+        <p class="page-desc">${r("exams.sub")}</p>
+        <p class="exams-choose">${r("exams.choose")}</p>
+        <div class="exams-search-wrap">
+          <svg class="exams-search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="exam-search" type="search" autocomplete="off" spellcheck="false" placeholder="${l(r("exams.search.ph"))}" aria-label="${l(r("exams.search.ph"))}" />
+        </div>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="ebooks-grid" id="exams-grid">${a.map((o,c)=>Tn(o,c)).join("")}</div>
+        <div id="exams-no-match" class="qa-empty" style="display:none; padding:30px 10px;"><p>${l(r("exams.noMatch"))}</p></div>
+      </section>`;const s=g("#exam-search"),n=S(".exam-card",e),i=g("#exams-no-match");s&&s.addEventListener("input",()=>{const o=Y(s.value);let c=0;n.forEach(d=>{const p=!o||(d.dataset.name||"").indexOf(o)!==-1;d.style.display=p?"":"none",p&&c++}),i&&(i.style.display=c?"none":"block")}),T()}function Hn(e,t,a){const s=F(e,t),n=k(t.title,"en"),i=k(t.title,"as"),o=t.type==="syllabus";return`
+      <a class="sub-card reveal exam-sec-card" href="/exams/${encodeURIComponent(e.id)}/${encodeURIComponent(t.id)}" style="--cat:${s}" data-delay="${a%8*40}">
+        <span class="sub-ico">${St(t)}</span>
+        <span class="exam-sec-txt">
+          <b>${l(n)}</b>
+          ${i&&i!==n?`<span class="exam-sec-as">${l(i)}</span>`:""}
+          ${o?"":`<span class="exam-sec-count" data-count-exam="${l(e.id)}" data-count-section="${l(t.id)}" hidden></span>`}
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`}function Bn(e){const t=(e&&e.id||"").toLowerCase(),a=String(k(e&&e.title,"en")||"").toLowerCase(),s=t+" "+a;if(typeof TOPIC_ICON_RULES<"u"){for(const[n,i]of TOPIC_ICON_RULES)if(n.test(s))return i}return me.default}function ja(e,t,a,s,n){const i=F(e,t),o=k(a.title,"en"),c=k(a.title,"as"),d=`/exams/${encodeURIComponent(e.id)}/${encodeURIComponent(t.id)}/${n?encodeURIComponent(n)+"/":""}${encodeURIComponent(a.id)}`,p=n?`${n}/${a.id}`:a.id;return`
+      <a class="sub-card reveal exam-sec-card" href="${d}" style="--cat:${i}" data-delay="${s%8*40}">
+        <span class="sub-ico">${Bn(a)}</span>
+        <span class="exam-sec-txt">
+          <b>${l(o)}</b>
+          ${c&&c!==o?`<span class="exam-sec-as">${l(c)}</span>`:""}
+          <span class="exam-sec-count" data-count-exam="${l(e.id)}" data-count-section="${l(t.id)}" data-count-path="${l(p)}" hidden></span>
+        </span>
+        <span class="exam-sec-arrow" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </span>
+      </a>`}function zn(e,t){let a=e||[],s=null;for(const n of t){if(s=a.find(i=>i&&i.id===n)||null,!s)return null;a=s.subcategories||[]}return s}async function Mt(e,t,a,s){const n=s&&Array.isArray(s.subcategories)?s.subcategories:[];return n.length?(await Promise.all(n.map(c=>Mt(e,t,a.concat(c.id),c)))).reduce((c,d)=>c+d,0):(await API.listExamQuestions(e,t,a[0],a[1])).length}async function qt(e,t){const a=Array.isArray(t.subcategories)?t.subcategories:[];if(a.length)return(await Promise.all(a.map(i=>Mt(e,t.id,[i.id],i)))).reduce((i,o)=>i+o,0);const s=await API.getExamSection(e,t.id);return(s&&s.questions||[]).length}async function Pt(e,t){if(!e||!t)return;const a=Array.from(e.querySelectorAll(".exam-sec-count")),s=u.counts&&u.counts.examSectionCounts;await Promise.all(a.map(async n=>{const i=n.dataset.countExam||t.id,o=n.dataset.countSection,c=(t.sections||[]).find(m=>m.id===o);if(!c||c.type==="syllabus")return;const d=n.dataset.countPath||"";if(s){const m=d?`${i}/${o}/${d}`:`${i}/${o}`;if(Object.prototype.hasOwnProperty.call(s,m)){const h=Number(s[m])||0;h>0&&(n.textContent=`${h} ${r("topic.questions")}`,n.hidden=!1);return}}let p=0;try{if(d){const m=d.split("/").filter(Boolean),h=zn(c.subcategories||[],m);p=await Mt(i,o,m,h)}else p=await qt(i,c)}catch{p=0}p>0&&(n.textContent=`${p} ${r("topic.questions")}`,n.hidden=!1)}))}async function Ha(e){if(!e)return 0;const t=u.counts&&u.counts.examSectionCounts;if(t){let n=0,i=!1;if(Object.keys(t).forEach(o=>{const c=o.split("/");if(c[0]!==e.id||c.length!==2)return;const d=(e.sections||[]).find(p=>p.id===c[1]);!d||d.type==="syllabus"||(i=!0,n+=Number(t[o])||0)}),i)return n}const a=(e.sections||[]).filter(n=>n.type!=="syllabus");return(await Promise.all(a.map(n=>qt(e.id,n).catch(()=>0)))).reduce((n,i)=>n+i,0)}function Fn(e){const t=a=>(a||[]).reduce((s,n)=>{const i=Array.isArray(n.subcategories)?n.subcategories:[];return s+(i.length?t(i):1)},0);return(e.sections||[]).filter(a=>a.type!=="syllabus").reduce((a,s)=>a+t(s.subcategories),0)}function Ba(){return u.lang==="as"?"font-family:var(--font-as, 'Noto Sans Bengali', sans-serif);":""}function V(e,t){return`
+              <div><span style="display:block; font-size:.6rem; letter-spacing:.07em; text-transform:uppercase; font-weight:800; color:var(--ink-faint,#94a3b8); margin-bottom:2px;">${l(e)}</span><span style="display:block; font-size:.78rem; font-weight:600; line-height:1.35; color:var(--ink,#0f172a);">${t}</span></div>`}function za(e){const t=e&&e.book;if(!t)return"";const a=u.lang==="as"?"as":"en",s=k(t.authority,a),n=t.authorityUrl?`<a href="${l(t.authorityUrl)}" target="_blank" rel="noopener" style="color:inherit; text-decoration:underline;">${l(s)}</a>`:l(s),i=(e.sections||[]).filter(p=>p.type!=="syllabus").length,o=Fn(e),c=a==="as"?"":"font-family:var(--font-as, 'Noto Sans Bengali', sans-serif);",d=[V(L("book.publisher"),`<a href="${a==="as"?"/as/about/":"/about/"}" style="color:inherit; text-decoration:underline;">axomexam.in</a>`),V(L("book.code"),l(t.code||"")),V(L("book.edition"),l(L("book.editionValue"))),V(L("book.language"),l(L("book.languageValue"))),V(L("book.conductedBy"),n),V(L("book.subjects"),l(Qe("book.subjectsValue",{n:i}))),V(L("book.chapters"),l(Qe("book.chaptersValue",{n:o}))),V(L("book.questions"),'<span class="exam-book-qcount">…</span>'),V(L("book.format"),l(L("book.formatValue"))),V(L("book.published"),l(k(t.published,a))),V(L("book.updated"),l(k(t.updated,a)))].join("");return`
+          <p style="margin:0 0 10px; font-size:.64rem; letter-spacing:.09em; text-transform:uppercase; font-weight:800; color:var(--ink-faint,#94a3b8);">${l(L("book.title"))} <span style="font-weight:700;${c}">${l(L("book.kicker"))}</span></p>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px 18px;">${d}
+          </div>`}function Fa(e){const t=za(e);return t?`
+        <div data-axo-book-details="1" style="width:100%; margin-top:14px; padding-top:12px; border-top:1px solid var(--border,#e2e8f0); text-align:left;${Ba()}">${t}
+        </div>`:""}function Oa(){return`
+            <p data-axo-book-total="1" style="display:none; align-items:center; gap:7px; margin:12px 0 10px; padding:6px 13px; border-radius:999px; border:1px solid var(--primary,#4f46e5); background:var(--bg-tint,rgba(79,70,229,.08)); color:var(--primary,#4f46e5); font-size:.76rem; font-weight:800; letter-spacing:.01em;"></p>`}async function On(e,t){const a=e&&e.querySelector("[data-axo-book-total]");if(!a)return;const s=await Ha(t).catch(()=>0);s&&(a.textContent=Qe("book.totalValue",{n:s.toLocaleString("en-IN")}),a.style.display="inline-flex")}function Na(e){return!e||!e.book?"":`
+            <button type="button" class="btn btn-outline btn-sm" data-axo-details-open="1" style="display:none; margin-top:14px;">${l(L("book.moreDetails"))}<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>`}const Nn="@media (max-width:640px){[data-axo-book-details]{display:none !important}[data-axo-details-open]{display:inline-flex !important}}";function Gn(){if(document.querySelector("style[data-axo-details-style]"))return;const e=document.createElement("style");e.setAttribute("data-axo-details-style","1"),e.textContent=Nn,document.head.appendChild(e)}function Tt(){const e=document.querySelector("[data-axo-details-modal]");e&&(e.remove(),document.body.style.overflow="",document.removeEventListener("keydown",Ga))}function Ga(e){e.key==="Escape"&&Tt()}function Wn(e){const t=za(e);if(!t)return;Tt();const a=O(e,u.lang),s=document.createElement("div");s.setAttribute("data-axo-details-modal","1"),s.style.cssText="position:fixed; inset:0; z-index:2000; display:flex; align-items:flex-end; justify-content:center; background:rgba(2,6,23,.62);",s.innerHTML=`
+        <div role="dialog" aria-modal="true" aria-label="${l(a)}" style="width:100%; max-width:600px; max-height:88vh; overflow:auto; background:var(--bg,#fff); border:1px solid var(--border,#e2e8f0); border-bottom:none; border-radius:18px 18px 0 0; padding:16px 18px 24px; box-shadow:0 -10px 40px rgba(2,6,23,.4); text-align:left;${Ba()}">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+            <p style="margin:0; flex:1; font-size:.92rem; font-weight:800; color:var(--ink,#0f172a);">${l(a)}</p>
+            <button type="button" class="btn btn-outline btn-sm" data-axo-details-close="1" aria-label="${l(L("book.close"))}" style="flex:0 0 auto; padding:7px 13px;">&times;</button>
+          </div>${t}
+        </div>`,document.body.appendChild(s),document.body.style.overflow="hidden",document.addEventListener("keydown",Ga),s.addEventListener("click",i=>{(i.target===s||i.target.closest("[data-axo-details-close]"))&&Tt()}),Wa(s,e);const n=s.querySelector("[data-axo-details-close]");n&&n.focus()}async function Wa(e,t){const a=e&&e.querySelector(".exam-book-qcount");if(!a)return;const s=await Ha(t).catch(()=>0);a.textContent=s>0?Qe("book.questionsValue",{n:s.toLocaleString("en-IN")}):L("book.formatValue")}function De(){const e=g("#stat-total-questions");if(e){const s=u.topicIndex.reduce((n,i)=>n+(i.nQuestions||0),0)+(u.examQuestionTotal||0)+(u.caQuestionTotal||0)+(u.mockTotal||0);e.textContent=`${s.toLocaleString()}+`}const t=g("#stat-total-pdfs");t&&(t.textContent=`${Kt}+`);const a=g("#stat-total-topics");if(a){const s=u.topicsTotal||u.topicIndex.length;a.textContent=`${s.toLocaleString()}+`}Lt()}function Lt(){const e=document.getElementById("axo-banner");if(!e)return;const t=e.querySelectorAll(".axo-banner-stats b");if(!t.length)return;const a=document.getElementById("stat-total-questions"),s=document.getElementById("stat-total-topics");let n=a&&a.textContent.trim(),i=s&&s.textContent.trim();if(!n){const d=u.topicIndex.reduce((p,m)=>p+(m.nQuestions||0),0)+(u.examQuestionTotal||0)+(u.caQuestionTotal||0)+(u.mockTotal||0);if(!d)return;n=`${d.toLocaleString()}+`}i||(i=`${(u.topicsTotal||u.topicIndex.length).toLocaleString()}+`);const o=t[0].textContent,c=t[1]?t[1].textContent:"";o===n&&c===i||(t[0].textContent=n,t[1]&&(t[1].textContent=i),e.querySelectorAll(".axo-banner-as, .axo-banner-en").forEach(d=>{let p=d.innerHTML;o&&o!==n&&(p=p.split(o).join(n)),c&&c!==i&&(p=p.split(c).join(i)),d.innerHTML=p}))}function _n(){document.getElementById("axo-banner")&&Lt();const e=document.getElementById("app");!e||!window.MutationObserver||new MutationObserver(()=>Lt()).observe(e,{childList:!0,subtree:!0})}function Qn(){return u.counts&&typeof u.counts.examsTotal=="number"?(u.examQuestionTotal=u.counts.examsTotal,u.examTotalLoaded=!0,De(),Promise.resolve(u.examQuestionTotal)):(u.examTotalPromise||(u.examTotalPromise=(async()=>{try{await oe();const e=(u.exams||[]).filter(a=>$e(a));let t=0;for(const a of e){const s=Array.isArray(a.sections)?a.sections:[],n=await Promise.all(s.map(i=>!i||i.type==="syllabus"?Promise.resolve(0):qt(a.id,i).catch(()=>0)));t+=n.reduce((i,o)=>i+o,0),u.examQuestionTotal=t,De()}u.examQuestionTotal=t,u.examTotalLoaded=!0}catch{}return De(),u.examQuestionTotal})()),u.examTotalPromise)}function _a(){const e=u.caCounts||{};S(".exam-sec-count[data-ca-count]").forEach(t=>{const a=t.dataset.caCount;if(!a||!Object.prototype.hasOwnProperty.call(e,a))return;const s=Number(e[a])||0;s>0&&(t.textContent=`${s} ${r("topic.questions")}`,t.hidden=!1)})}function Qa(){return u.caTotalPromise||(u.caTotalPromise=(async()=>{try{const e=await API.getCurrentAffairsCounts();u.caCounts=e&&e.counts||{},u.caQuestionTotal=e&&e.total||0,De(),_a()}catch{}return u.caQuestionTotal})()),u.caTotalPromise}async function Un(e,t){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,await oe();const a=Re(t);if(!a){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${l(r("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${r("exams.backToExams")}</a></div>
+        </div>`;return}const s=F(a),n=O(a,"en"),i=O(a,"as"),o=k(a.subtitle,"en"),c=k(a.subtitle,"as");if(!he(a)){e.innerHTML=rt(a);return}const p=a.sections||[],m=a.cover?String(a.cover):"",h=`${l(n)}${i&&i!==n?` <span class="exam-head-as">${l(i)}</span>`:""}`,f=`${l(o)}${c&&c!==o?` &bull; ${l(c)}`:""}`,v=`
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+          <span>${l(n)}</span>`,b=m?`<div class="page-head">
+          <nav class="breadcrumb">${v}</nav>
+        </div>
+        <section class="exam-cover-hero" style="--ebk:${s}">
+          <div class="exam-cover-hero-media">
+            <img src="${l(m)}" alt="${l(Et(a,u.lang))}" width="912" height="1166" loading="eager" decoding="async" style="max-height:320px; width:auto; max-width:100%;">
+          </div>
+          <div class="exam-cover-hero-info">
+            <h1>${h}</h1>
+            <p class="page-desc">${f}</p>${Oa()}${Na(a)}${Fa(a)}
+          </div>
+        </section>`:`<div class="page-head">
+          <nav class="breadcrumb">${v}</nav>
+          <h1>${h}</h1>
+          <p class="page-desc">${f}</p>${Oa()}${Na(a)}${Fa(a)}
+        </div>`;e.innerHTML=`
+      ${b}
+      <section class="section" style="padding-bottom:46px;">
+        <div class="sub-grid exam-sec-grid" style="--cat:${s}">
+          ${p.map((w,C)=>Hn(a,w,C)).join("")}
+        </div>
+      </section>`,T(),Pt(e,a),Wa(e,a),On(e,a),Gn();const y=e.querySelector("[data-axo-details-open]");y&&y.addEventListener("click",()=>Wn(a)),ot(a)&&it(a)}function Ua(e,t){const a=Q(e,t);return a.length?`
+      <div class="qa-options" style="display:flex; flex-direction:column; gap:8px; margin:0 0 12px 0; padding:0; text-align:left;">
+        ${a.map((s,n)=>`
+          <div style="font-size:0.88rem; color:var(--ink-soft,#334155); background:var(--bg-subtle,#f8fafc); padding:8px 12px; border-radius:8px; border:1px solid var(--border,#e2e8f0); display:flex; align-items:flex-start; gap:6px; text-align:left;">
+            <b style="color:var(--primary,#2563eb); flex-shrink:0;">(${String.fromCharCode(65+n)})</b>
+            <span style="flex:1; line-height:1.4;">${E(s)}</span>
+          </div>
+        `).join("")}
+      </div>`:""}function Yn(e,t,a){const s=String(a||"").replace(/<[^>]+>/g,"").trim();if(s){const i=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(s);if(!i)return a;const o=Q(e,t),c=i[1].toLowerCase().charCodeAt(0)-97;return o[c]===void 0||o[c]===""?a:`${i[1].toUpperCase()}) ${o[c]}`}const n=ye(e);if(n&&n.length){const i=e&&e.correct!==void 0?e.correct:e?e.answer:void 0;if(Number.isInteger(i)){if(i>=0&&i<n.length)return n[i].letter||String.fromCharCode(65+i)}else if(typeof i=="string"){const o=/^[\(\[]?([a-eA-E])[\)\]]?[.)]?$/.exec(i.trim());if(o)return o[1].toUpperCase()}}return a}function Ya(e,t,a,s){const n=s?"":k(e.category,a),i=R(e,"question",a),o=Yn(e,a,R(e,"answer",a)),c=R(e,"explanation",a),d=xe(e),p=ye(e),m=e.a&&typeof e.a=="object"&&e.a[a]||e.a||e.answer,h=Array.isArray(m)||o.includes("qa-step-line"),f=n?`<span style="display:block; margin-bottom:4px; font-size:.68rem; font-weight:800; letter-spacing:.4px; text-transform:uppercase; color:var(--ebk,#4f46e5);">${l(n)}</span>`:"";return h?`
+        <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:12px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+          <div class="qa-q" style="margin:0 0 10px 0; padding:0; font-size:1rem; font-weight:700; color:var(--ink,#0f172a); line-height:1.5; text-align:left;">
+            ${f}${t}. ${E(i)}
+          </div>
+          ${d}
+          ${p?ne(e,{compact:!0}):Ua(e,a)}
+          <div class="qa-solution" style="border-top:1px dashed var(--border,#e2e8f0); padding-top:10px; margin:0; font-size:0.9rem; line-height:1.6; color:var(--ink-soft,#334155); text-align:left;">
+            <div class="a-body" style="margin:0; padding:0; text-align:left;">${o}</div>
+            ${c?`
+              <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); text-align:left;">
+                <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${c}
+              </div>`:""}
+          </div>
+        </article>`:`
+      <article class="qa-card" data-n="${t}" style="box-sizing:border-box; width:100%; background:var(--card-bg,#fff); border:1px solid var(--border,#e2e8f0); border-radius:14px; padding:18px 20px; margin-bottom:0; box-shadow:0 2px 6px rgba(0,0,0,0.03); text-align:left;">
+        <div class="qa-q" style="display:flex; align-items:flex-start; gap:10px; margin:0 0 12px 0; padding:0; text-align:left;">
+          <span class="qno" style="flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--primary-soft,#eff6ff); color:var(--primary,#2563eb); font-weight:800; font-size:0.88rem; display:inline-flex; align-items:center; justify-content:center; line-height:1; box-sizing:border-box; margin-top:1px;">${t}</span>
+          <span class="qtext" style="flex:1; font-weight:500; font-size:0.96rem; color:var(--ink,#0f172a); line-height:1.55; text-align:left; margin:0; padding:0;">${f}${E(i)}</span>
+        </div>
+        ${d}
+        ${p?ne(e):Ua(e,a)}
+        ${o?`<div class="qa-a" style="margin:10px 0 0 0; padding:0; display:flex; align-items:flex-start; gap:6px; text-align:left;">
+          <span class="a-label" style="font-weight:700; color:var(--primary,#2563eb); flex-shrink:0; font-size:0.92rem;">${r("topic.answer")}:</span>
+          <span class="a-body" style="font-weight:600; color:var(--ink,#0f172a); line-height:1.45; font-size:0.92rem; text-align:left;">${E(o)}</span>
+        </div>`:""}
+        ${c?`
+          <div class="qa-exp" style="margin-top:8px; padding:0; font-size:0.86rem; color:var(--ink-muted,#64748b); line-height:1.45; text-align:left;">
+            <b style="color:var(--ink,#0f172a);">${a==="as"?"ব্যাখ্যা":"Explanation"}:</b> ${E(c)}
+          </div>`:""}
+      </article>`}function Va(e,t,a){const s=Array.isArray(e)?e:[],n=Number.isInteger(t)?t:0;return`<div class="qa-list">${s.map((i,o)=>["en","as"].map(c=>`<div data-axo-lang="${c}">${Ya(i,n+o+1,c,!!a)}</div>`).join("")).join("")}</div>`}const It={};async function Ka(e,t,a){if(!t)return"";It[e]||(It[e]=await API.getExamNotes(e));const n=(It[e]||{})[t];if(!n)return"";const i=(n[a]&&n[a].length?n[a]:n.en)||[];if(!i.length)return"";const o=d=>l(String(d??"")),c=i.map(d=>{const p=d[0],m=d[1];return p==="h3"?`<h3 class="ebk-note-h">${o(m)}</h3>`:p==="p"?`<p class="ebk-note-p">${o(m)}</p>`:p==="tip"?`<div class="ebk-note-tip"><strong>${a==="as"?"পৰীক্ষাৰ টিপ":"Exam tip"}:</strong> ${o(m)}</div>`:p==="ul"?`<ul class="ebk-note-ul">${(m||[]).map(h=>`<li>${o(h)}</li>`).join("")}</ul>`:""}).join("");return`
+      <section class="ebk-notes" id="study-notes">
+        <h2 class="ebk-notes-title">${a==="as"?"অধ্যয়ন টোকা":"Study notes"}</h2>
+        <p class="ebk-notes-lead">${a==="as"?"প্ৰশ্নবোৰত হাত দিয়াৰ আগতে এইখিনি পঢ়ি লওক। তলৰ প্ৰতিটো কথা DHS আৰু DME কাৰিকৰী গ্ৰেড III পৰীক্ষাৰ বাবে লিখা।":"Read this before you attempt the questions. It is written for the DHS &amp; DME Technical Grade III paper."}</p>
+        ${c}
+      </section>`}function Rt(e,t,a){const s=Array.isArray(t)?t:[];return()=>{if(e){if(!s.length){e.innerHTML=a||`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`;return}e.innerHTML=Va(s,0,!1)}}}function Vn(e,t,a,s){const n=e.type||t&&t.type||"qa",i=String(s||"exam-ch").replace(/[^A-Za-z0-9_-]/g,"");if(n==="syllabus"||e.chapters&&e.chapters.length){const c=e.chapters||[];return c.length?`<div class="ebk-chapters">${c.map((d,p)=>`
+        <section class="ebk-chapter" id="${i}-${p}">
+          <h3 class="ebk-ch-title"><span class="ebk-ch-no">${p+1}</span>${l(k(d.title,a))}</h3>
+          <div class="ebk-ch-body">${Ma(k(d.content,a))}</div>
+        </section>`).join("")}</div>`:`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`}const o=Array.isArray(e.questions)?e.questions:[];return o.length?`<div class="qa-list">${o.map((c,d)=>Ya(c,d+1,a)).join("")}</div>`:`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`}function Kn(e,t){return["en","as"].map(a=>`<div data-axo-lang="${a}">${Vn(e,t,a,a==="en"?"exam-ch":"exam-ch-as")}</div>`).join("")}async function Jn(e,t,a){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,await oe();const s=Re(t),n=s?(s.sections||[]).find(q=>q.id===a):null;if(s&&!he(s)){e.innerHTML=rt(s);return}if(ot(s)&&it(s),!s||!n){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${l(r("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${r("exams.backToExams")}</a></div>
+        </div>`;return}const i=Array.isArray(n.subcategories)?n.subcategories:[];if(i.length){const q=F(s,n),$=O(s,"en"),M=k(n.title,"en"),D=k(n.title,"as");e.innerHTML=`
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+            <a href="/exams/${encodeURIComponent(t)}">${l($)}</a><span class="bc-sep">/</span>
+            <span>${l(M)}</span>
+          </nav>
+          <h1>${l(M)}${D&&D!==M?` <span class="exam-head-as">${l(D)}</span>`:""}</h1>
+          <p class="exams-choose">${r("exams.subCategories")}</p>
+        </div>
+        <section class="section" style="padding-bottom:46px;">
+          <div class="sub-grid exam-sec-grid" style="--cat:${q}">
+            ${i.map((j,P)=>ja(s,n,j,P)).join("")}
+          </div>
+        </section>`,T(),Pt(e,s);return}let o=null;try{o=await API.getExamSection(t,a)}catch{o=null}const c=F(s,n),d=O(s,"en"),p=k(n.title,"en");if(!o){e.innerHTML=`
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+            <a href="/exams/${encodeURIComponent(t)}">${l(d)}</a><span class="bc-sep">/</span>
+            <span>${l(p)}</span>
+          </nav>
+          <h1>${l(p)}</h1>
+        </div>
+        <div class="qa-empty"><div class="big">
+          <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg>
+        </div><p>${l(r("exams.noContent"))}</p>
+        <div style="margin-top:16px;"><a class="btn btn-outline btn-sm" href="/exams/${encodeURIComponent(t)}">${r("exams.backToExams")}</a></div></div>`;return}const m=u.lang==="as"?"as":"en",h=k(o.title,"en")||p,f=k(o.title,"as")||k(n.title,"as"),v=x(o.description),b=(o.type||n.type)==="syllabus";e.innerHTML=`
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+          <a href="/exams/${encodeURIComponent(t)}">${l(d)}</a><span class="bc-sep">/</span>
+          <span>${l(h)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${c};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${l(d)}</span>
+              <span class="ebk-chip">${l(r(b?"exams.syllabus":"exams.questions"))}</span>
+            </div>
+            <h2 class="ebk-head-title">${l(h)}${f&&f!==h?`<span class="ebk-head-title-as">${l(f)}</span>`:""}</h2>
+            ${v?`<p class="ebk-desc">${l(v).replace(/\n/g,"<br>")}</p>`:""}
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${m==="as"?"active":""}" data-exlang="as">${r("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${m==="en"?"active":""}" data-exlang="en">${r("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="exam-body"></div>
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="/exams/${encodeURIComponent(t)}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${r("exams.backToExams")}
+          </a>
+        </div>
+      </div>`;const y=g("#exam-body");((o.type||n&&n.type)==="syllabus"||o.chapters&&o.chapters.length?()=>{y&&(y.innerHTML=Kn(o,n))}:Rt(y,Array.isArray(o.questions)?o.questions:[],`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`))(),ue(c),S(".lang-btn",e).forEach(q=>{q.addEventListener("click",()=>{const $=q.dataset.exlang;u.lang=$,document.body.setAttribute("data-lang",$),Array.from(e.querySelectorAll(".lang-btn")).forEach(M=>M.classList.toggle("active",M.dataset.exlang===$)),J()})})}async function Xn(e,t,a,s){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,await oe();const n=Re(t),i=n?(n.sections||[]).find(M=>M.id===a):null,o=i?(i.subcategories||[]).find(M=>M.id===s):null;if(n&&!he(n)){e.innerHTML=rt(n);return}if(ot(n)&&it(n),!n||!i||!o){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${l(r("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${r("exams.backToExams")}</a></div>
+        </div>`;return}const c=Array.isArray(o.subcategories)?o.subcategories:[];if(c.length){const M=F(n,i),D=O(n,"en"),j=k(i.title,"en"),P=k(o.title,"en"),z=k(o.title,"as"),W=`/exams/${encodeURIComponent(t)}/${encodeURIComponent(a)}`;e.innerHTML=`
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+            <a href="/exams/${encodeURIComponent(t)}">${l(D)}</a><span class="bc-sep">/</span>
+            <a href="${W}">${l(j)}</a><span class="bc-sep">/</span>
+            <span>${l(P)}</span>
+          </nav>
+          <h1>${l(P)}${z&&z!==P?` <span class="exam-head-as">${l(z)}</span>`:""}</h1>
+          <p class="exams-choose">${r("exams.subCategories")}</p>
+        </div>
+        <section class="section" style="padding-bottom:46px;">
+          <div class="sub-grid exam-sec-grid" style="--cat:${M}">
+            ${c.map((be,X)=>ja(n,i,be,X,o.id)).join("")}
+          </div>
+        </section>`,T(),Pt(e,n);return}const d=F(n,i),p=O(n,"en"),m=k(i.title,"en"),h=k(o.title,"en"),f=k(o.title,"as"),v=`/exams/${encodeURIComponent(t)}/${encodeURIComponent(a)}`;let b=[];try{b=await API.listExamQuestions(t,a,s)}catch{b=[]}Array.isArray(b)||(b=[]);const y=u.lang==="as"?"as":"en",w=b.length,C=await Ka(t,s,y);e.innerHTML=`
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+          <a href="/exams/${encodeURIComponent(t)}">${l(p)}</a><span class="bc-sep">/</span>
+          <a href="${v}">${l(m)}</a><span class="bc-sep">/</span>
+          <span>${l(h)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${d};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${l(p)}</span>
+              <span class="ebk-chip">${l(r("exams.practice"))}</span>
+            </div>
+            <h2 class="ebk-head-title">${l(h)}${f&&f!==h?`<span class="ebk-head-title-as">${l(f)}</span>`:""}</h2>
+            ${w?`<p class="ebk-desc">${w} ${l(r("exams.questionCount"))}</p>`:""}
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${y==="as"?"active":""}" data-exlang="as">${r("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${y==="en"?"active":""}" data-exlang="en">${r("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="exam-body"></div>
+        ${C}
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="${v}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${r("exams.backToSection")}
+          </a>
+        </div>
+      </div>`;const A=g("#exam-body"),q=!b.length&&await API.isExamTopicPreparing(t,a,s);Rt(A,b,q?Ia():`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`)(),ue(d),S(".lang-btn",e).forEach(M=>{M.addEventListener("click",()=>{const D=M.dataset.exlang;u.lang=D,document.body.setAttribute("data-lang",D),Array.from(e.querySelectorAll(".lang-btn")).forEach(j=>j.classList.toggle("active",j.dataset.exlang===D)),J()})})}async function Zn(e,t,a,s,n){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,await oe();const i=Re(t),o=i?(i.sections||[]).find(P=>P.id===a):null,c=o?(o.subcategories||[]).find(P=>P.id===s):null,d=c?(c.subcategories||[]).find(P=>P.id===n):null;if(i&&!he(i)){e.innerHTML=rt(i);return}if(ot(i)&&it(i),!i||!o||!c||!d){e.innerHTML=`
+        <div class="page-head" style="text-align:center; max-width:720px; margin:0 auto; padding:40px 16px; box-sizing:border-box;">
+          <h1>${r("exams.title")}</h1>
+          <p class="page-desc" style="margin:12px auto 0 auto; text-align:center;">${l(r("exams.noExam"))}</p>
+          <div style="margin-top:20px;"><a class="btn btn-accent" href="/exams">${r("exams.backToExams")}</a></div>
+        </div>`;return}const p=F(i,o),m=O(i,"en"),h=k(o.title,"en"),f=k(c.title,"en"),v=k(d.title,"en"),b=k(d.title,"as"),y=`/exams/${encodeURIComponent(t)}/${encodeURIComponent(a)}`,w=`${y}/${encodeURIComponent(s)}`;let C=[];try{C=await API.listExamQuestions(t,a,s,n)}catch{C=[]}Array.isArray(C)||(C=[]);const A=u.lang==="as"?"as":"en",q=C.length,$=await Ka(t,n,A);e.innerHTML=`
+      <div class="page-head ebk-page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exams">${r("nav.exams")}</a><span class="bc-sep">/</span>
+          <a href="/exams/${encodeURIComponent(t)}">${l(m)}</a><span class="bc-sep">/</span>
+          <a href="${y}">${l(h)}</a><span class="bc-sep">/</span>
+          <a href="${w}">${l(f)}</a><span class="bc-sep">/</span>
+          <span>${l(v)}</span>
+        </nav>
+      </div>
+      <div class="ebk-reader" style="--ebk:${p};">
+        <header class="ebk-head-card ebk-head-clean">
+          <div class="ebk-head-info">
+            <div class="ebk-chips">
+              <span class="ebk-chip ebk-chip-solid">${l(m)}</span>
+              <span class="ebk-chip">${l(r("exams.practice"))}</span>
+            </div>
+            <h2 class="ebk-head-title">${l(v)}${b&&b!==v?`<span class="ebk-head-title-as">${l(b)}</span>`:""}</h2>
+            ${q?`<p class="ebk-desc">${q} ${l(r("exams.questionCount"))}</p>`:""}
+          </div>
+        </header>
+
+        <div class="ebk-read-toolbar">
+          <div class="lang-switch ebk-tswitch" role="group" aria-label="Reading language">
+            <button type="button" class="lang-btn ${A==="as"?"active":""}" data-exlang="as">${r("topic.lang.as")}</button>
+            <button type="button" class="lang-btn ${A==="en"?"active":""}" data-exlang="en">${r("topic.lang.en")}</button>
+          </div>
+        </div>
+
+        <div id="exam-body"></div>
+        ${$}
+
+        <div class="ebk-reader-foot">
+          <a class="btn btn-outline btn-sm" href="${w}">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+            ${l(r("exams.backToSection"))}
+          </a>
+        </div>
+      </div>`;const M=g("#exam-body"),D=!C.length&&await API.isExamTopicPreparing(t,a,s,n);Rt(M,C,D?Ia():`<div class="qa-empty"><p>${l(r("exams.noContent"))}</p></div>`)(),ue(p),S(".lang-btn",e).forEach(P=>{P.addEventListener("click",()=>{const z=P.dataset.exlang;u.lang=z,document.body.setAttribute("data-lang",z),Array.from(e.querySelectorAll(".lang-btn")).forEach(W=>W.classList.toggle("active",W.dataset.exlang===z)),J()})})}function eo(e){const t=u.lang==="as",s=(t?[["সকলো মক টেষ্ট","অধ্যায়ভিত্তিক সময়সীমাযুক্ত মক টেষ্ট, তাৎক্ষণিক স্ক'ৰ আৰু পৰ্যালোচনাৰ সৈতে — প্ৰকৃত পৰীক্ষাৰ দৰেই।"],["দ্বিভাষিক প্ৰশ্ন-উত্তৰ অনুশীলন","ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাত প্ৰশ্ন, উত্তৰ আৰু ব্যাখ্যা।"],["য'ত-ত'ত ই-বুক","এপৰ ভিতৰতে প্ৰতিটো বিষয়ৰ ই-বুক পঢ়ক — অসমৰ ইতিহাস, ৰাজনীতি, ভূগোল আৰু অধিক।"],["পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ","পৰীক্ষা আৰু বছৰ অনুসৰি সজোৱা সমাধানসহ পূৰ্ববৰ্তী প্ৰশ্নপত্ৰ।"],["PDF টোকা আৰু ডাউনল'ড","অধ্যয়ন সামগ্ৰী সংৰক্ষণ কৰি অফলাইন পুনৰীক্ষণৰ বাবে সাজু ৰাখক।"],["হালধীয়া আৰু দ্ৰুত","সম্পূৰ্ণ axomexam অভিজ্ঞতা এক সৰু ১.৬৮ MB এপত।"]]:[["All Mock Tests","Timed chapter-wise mock tests with instant score and review, exactly like the real exam."],["Bilingual Q&A Practice","Practice questions, answers and explanations in both English and Assamese."],["E-Books On the Go","Read every subject e-book right inside the app — Assam History, Polity, Geography and more."],["Previous Year Papers","Solved past papers organised by exam and year for focused revision."],["PDF Notes & Downloads","Save study material and keep it ready for offline revision."],["Lightweight & Fast","The complete axomexam experience in a compact 1.68 MB app."]]).map(([c,d])=>`
+        <div class="appdl-feature">
+          <span class="appdl-ico"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <h3>${c}</h3>
+          <p>${d}</p>
+        </div>`).join(""),i=(t?[["axomexam এপ বিনামূলীয়া নেকি?","হয়। এপটো ১০০% বিনামূলীয়া, কোনো ছাইন-আপ, চাবোন বা লুকুৱা শুল্ক নাই।"],["ইয়াক Google Play Store ত কিয় নাই?","প্ৰতিজন প্ৰাৰ্থীৰ বাবে বিনামূলীয়া ৰাখিবলৈ আমি এপটো প্ৰত্যক্ষ APK ডাউনল'ড হিচাপে বিতৰণ কৰোঁ। পিছত Play Store ত মুকলি কৰিব পাৰি।"],["ইণ্টাৰনেট সংযোগ লাগে নেকি?","হয়। অধ্যয়ন সামগ্ৰী, মক টেষ্ট আৰু টোকা অনলাইনত ল'ড হয়, গতিকে সক্ৰিয় সংযোগ প্ৰয়োজন।"],["ইনষ্টল কৰা নিৰাপদ নেকি?","হয়। এইটো আমাৰ নিজা চৰকাৰী বিল্ড। সুৰক্ষাৰ বাবে কেৱল এই পৃষ্ঠাৰ পৰা (axomexam.in) ডাউনল'ড কৰক।"],["কোনবোৰ Android সংস্কৰণ সমৰ্থিত?","এপটো শেহতীয়া Android System WebView থকা আধুনিক Android ফোনত কাম কৰে।"]]:[["Is the axomexam app free?","Yes. The app is 100% free with no sign-up, subscription or hidden charges."],["Why is it not on the Google Play Store?","We distribute the app as a direct APK download so it stays free for every aspirant. A Play Store release may come later."],["Do I need an internet connection?","Yes. Study content, mock tests and notes are loaded online, so an active connection is required."],["Is it safe to install?","Yes. This is our own official build. For your safety, download it only from this page (axomexam.in)."],["Which Android versions are supported?","The app works on modern Android phones with an up-to-date Android System WebView."]]).map(([c,d])=>`
+        <details class="appdl-faq">
+          <summary>${c}</summary>
+          <p>${d}</p>
+        </details>`).join("");e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${t?"গৃহপৃষ্ঠা":"Home"}</a><span class="bc-sep">/</span><span>${t?"এপ ডাউনলোড":"Download App"}</span></nav>
+        <h1>${t?"axomexam এপ ডাউনলোড কৰক":"Download the axomexam App"}</h1>
+        <p class="page-desc">${t?"axomexam Android এপ লাভ কৰক — সকলো মক টেষ্ট, দ্বিভাষিক প্ৰশ্ন-উত্তৰ অনুশীলন, ই-বুক আৰু পূৰ্ববৰ্তী বছৰৰ প্ৰশ্নপত্ৰ এক হালধীয়া এপত। বিনামূলীয়া, ছাইন-আপ নালাগে।":"Get the axomexam Android app — all mock tests, bilingual Q&amp;A practice, e-books and previous year papers in one lightweight app. Free, no sign-up."}</p>
+      </div>
+
+      <section class="section appdl-hero">
+        <div class="appdl-card">
+          <img class="appdl-logo" src="/app/axomexam-icon.png" alt="axomexam app logo" width="104" height="104" />
+          <div class="appdl-body">
+            <h2 class="appdl-title">axomexam — Exam Prep App</h2>
+            <p class="appdl-tag">${t?"অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাৰ প্ৰস্তুতি, এতিয়া আপোনাৰ ফোনত।":"Assam competitive exam preparation, now on your phone."}</p>
+            <ul class="appdl-meta">
+              <li><b>${t?"সংস্কৰণ":"Version"}</b> 2.6</li>
+              <li><b>${t?"আকাৰ":"Size"}</b> 1.68 MB</li>
+              <li><b>${t?"আপডেট":"Updated"}</b> ${t?"৬ নৱেম্বৰ ২০২৬":"6 Nov 2026"}</li>
+              <li><b>${t?"ফৰ্মেট":"Format"}</b> APK</li>
+              <li><b>${t?"পেকেজ":"Package"}</b> in.axomexam.app</li>
+              <li><b>${t?"মূল্য":"Price"}</b> ${t?"বিনামূলীয়া":"Free"}</li>
+            </ul>
+            <div class="appdl-actions">
+              <a class="btn btn-accent appdl-download" href="/app/axomexam-v2.6.apk" download>${t?"APK ডাউনলোড কৰক (1.68 MB)":"Download APK (1.68 MB)"}</a>
+              <a class="btn btn-outline" href="#install">${t?"কেনেকৈ ইনষ্টল কৰিব":"How to install"}</a>
+            </div>
+            <p class="appdl-note">${t?"প্ৰত্যক্ষ ডাউনল'ড · ছাইন-আপ নালাগে · ১০০% বিনামূলীয়া":"Direct download · No sign-up · 100% free"}</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">${t?"এপৰ ভিতৰত কি আছে":"What's inside the app"}</h2>
+        <div class="appdl-grid">${s}</div>
+      </section>
+
+      <section class="section" id="install">
+        <h2 class="appdl-section-title">${t?"APK কেনেকৈ ইনষ্টল কৰিব":"How to install the APK"}</h2>
+        <ol class="appdl-steps">
+          ${t?`<li><b>APK ডাউনলোড কৰক।</b> ওপৰৰ ডাউনলোড বুটামত টিপক। <code>axomexam-v2.6.apk</code> ফাইলটো আপোনাৰ ফোনত সংৰক্ষিত হ'ব।</li>
+          <li><b>ইনষ্টলৰ অনুমতি দিয়ক।</b> Android এ বাধা দিলে, Settings খুলি আপোনাৰ ব্ৰাউজাৰৰ বাবে “Install unknown apps” (বা “Unknown sources”) সক্ৰিয় কৰক।</li>
+          <li><b>এপটো ইনষ্টল কৰক।</b> ডাউনল'ড কৰা ফাইলটো Downloads বা জাননীৰ পৰা খুলি <b>Install</b> টিপক।</li>
+          <li><b>খুলি শিকা আৰম্ভ কৰক।</b> আপোনাৰ এপ ড্ৰয়াৰৰ পৰা <b>axomexam</b> আৰম্ভ কৰি অনুশীলন আৰম্ভ কৰক।</li>`:`<li><b>Download the APK.</b> Tap the Download button above. The file <code>axomexam-v2.6.apk</code> will be saved to your phone.</li>
+          <li><b>Allow the install.</b> If Android blocks it, open Settings and enable “Install unknown apps” (or “Unknown sources”) for your browser.</li>
+          <li><b>Install the app.</b> Open the downloaded file from Downloads or the notification, then tap <b>Install</b>.</li>
+          <li><b>Open and start learning.</b> Launch <b>axomexam</b> from your app drawer and begin practising.</li>`}
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">${t?"ছিষ্টেমৰ প্ৰয়োজনীয়তা":"System requirements"}</h2>
+        <ul class="appdl-meta">
+          <li><b>${t?"প্লেটফৰ্ম":"Platform"}</b> Android</li>
+          <li><b>${t?"এপ সংস্কৰণ":"App version"}</b> 2.6</li>
+          <li><b>${t?"ফাইলৰ আকাৰ":"File size"}</b> 1.68 MB</li>
+          <li><b>${t?"ইণ্টাৰনেট":"Internet"}</b> ${t?"প্ৰয়োজন":"Required"}</li>
+          <li><b>${t?"মূল্য":"Price"}</b> ${t?"বিনামূলীয়া":"Free"}</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="appdl-section-title">${t?"প্ৰায়ে সোধা প্ৰশ্ন":"Frequently asked questions"}</h2>
+        <div class="appdl-faqs">${i}</div>
+      </section>
+
+      <section class="section">
+        <div class="appdl-safety">
+          ${t?"<b>সুৰক্ষা আৰু দায়মুক্তি:</b> আপোনাৰ সুৰক্ষাৰ বাবে কেৱল এই চৰকাৰী পৃষ্ঠাৰ পৰা (axomexam.in) এপটো ডাউনল'ড কৰক। axomexam APSC, অসম আৰক্ষী, SSC, ৰে'লৱে, ADRE বা কোনো চৰকাৰী সংস্থাৰ চৰকাৰী এপ <b>নহয়</b>। সকলো পৰীক্ষাৰ নাম আৰু ট্ৰেডমাৰ্ক তেওঁলোকৰ নিজৰ মালিকৰ। এইটো এক স্বতন্ত্ৰ অধ্যয়ন সহায়ক।":"<b>Safety &amp; disclaimer:</b> For your security, download the app only from this official page (axomexam.in). axomexam is NOT an official app of APSC, Assam Police, SSC, Railway, ADRE or any government body. All exam names and trademarks belong to their respective owners. This is an independent study aid."}
+        </div>
+      </section>`;const o=e.querySelector(".appdl-download");o&&o.addEventListener("click",markAppPromptDone),T()}async function to(e,t){if(e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("load.loading")}</p></div>`,t.length===1)return so(e);const a=(typeof CONFIG<"u"&&CONFIG.PYEAR_EXAMS||[]).find(c=>c.id===t[1]);if(!a)return G(e);const s=Array.isArray(a.children)?a.children:[];if(s.length>0){if(t.length===2)return ao(e,a,s);const c=s.find(m=>m.id===t[2]);if(!c)return G(e);if(t.length===3){const m=await API.listPreviousYearYears(a.id,c.id);return Ja(e,c,m,a)}const d=t[3],p=await API.listPreviousYearPdfs(a.id,d,c.id);return Xa(e,c,d,p,a)}if(t.length===2){const c=await API.listPreviousYearYears(a.id);return Ja(e,a,c)}const i=t[2],o=await API.listPreviousYearPdfs(a.id,i);Xa(e,a,i,o)}function ao(e,t,a){e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${r("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          <span>${l(x(t.name))}</span>
+        </nav>
+        <h1>${l(x(t.name))}</h1>
+        <p class="page-desc">${r("pyear.chooseSection.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="section-head"><div><h2>${r("pyear.chooseSection")}</h2></div></div>
+        <div class="sub-grid">
+          ${a.map((s,n)=>`
+            <a class="sub-card reveal" href="/previous-year/${t.id}/${s.id}" style="--cat:${s.color||t.color}" data-delay="${n*40}">
+              <span class="sub-ico">${l(s.icon||s.id.slice(0,2).toUpperCase())}</span>
+              <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${l(x(s.name))}</span>
+                <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${r("pyear.years")}</span>
+              </span>
+            </a>`).join("")}
+        </div>
+      </section>`,T(),U(e,{id:t.id,name:x(t.name)+" Previous Year Papers",count:a.length,h2:x(t.name)+" Previous Year Question Papers",items:a.map(s=>({name:x(s.name),count:0}))})}function so(e){const t=typeof CONFIG<"u"&&CONFIG.PYEAR_EXAMS||[];e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span><span>${r("page.previous-year.title")}</span></nav>
+        <h1>${r("page.previous-year.title")}</h1>
+        <p class="page-desc">${r("page.previous-year.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${t.length?`
+          <div class="section-head"><div><h2>${r("pyear.choose")}</h2><p class="sec-sub">${r("pyear.choose.sub")}</p></div></div>
+          <div class="sub-grid">
+            ${t.map((a,s)=>`
+              <a class="sub-card reveal" href="/previous-year/${a.id}" style="--cat:${a.color}" data-delay="${s*40}">
+                <span class="sub-ico">${l(a.icon||a.id.slice(0,2).toUpperCase())}</span>
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${l(x(a.name))}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${r("pyear.years")}</span>
+                </span>
+              </a>`).join("")}
+          </div>`:`<div class="info-panel"><p>${r("downloads.none")}</p></div>`}
+      </section>`,T(),U(e,{name:"Previous Year Question Papers",noDefaults:!0,h2:"Previous Year Question Papers for Assam and Central Exams",info:"Solving previous year papers is the fastest way to understand the real difficulty of an examination. On this page you can download original question papers year by year for Assam Police, DHS and DME, Guwahati High Court, Railway and SSC recruitment. Use them to identify repeated topics, judge the weight of each section and plan your revision with evidence rather than guesswork.",items:t.map(a=>({name:x(a.name),count:0})),tips:["Attempt the paper once under a timer without looking at any notes.","Compare your answers with the official key and list every repeated topic.","Shortlist the two or three sections where you lost the most marks.","Reattempt the same paper after two weeks to confirm real improvement."],faqs:[{q:"Are these the original previous year question papers?",a:"Yes. Each PDF is a compiled question paper for the mentioned exam and year, provided for practice and revision."},{q:"Can I download the papers for offline practice?",a:"Yes. Every paper can be downloaded as a PDF and used on a mobile or printed copy for offline practice."},{q:"Do previous year papers repeat in the actual exam?",a:"Exact questions rarely repeat, but the topics, difficulty level and question style repeat often. That is why solving them is so useful."}]})}function Ja(e,t,a,s){const n=s?`<a href="/previous-year/${s.id}">${l(x(s.name))}</a><span class="bc-sep">/</span>`:"";e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${r("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          ${n}
+          <span>${l(x(t.name))}</span>
+        </nav>
+        <h1>${l(x(t.name))}</h1>
+        <p class="page-desc">${r("pyear.chooseYear")}</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${a.length?`
+          <div class="sub-grid">
+            ${a.map((i,o)=>`
+              <a class="sub-card reveal" href="/previous-year/${s?s.id+"/":""}${t.id}/${i}" style="--cat:${t.color}" data-delay="${o*50}">
+                <span class="sub-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M3 10h18"/></svg></span>
+                <span style="display:flex; flex-direction:column; gap:2px; text-align:left;">
+                  <span style="font-weight:600; font-size:0.94rem; color:var(--ink,#0f172a);">${l(i)}</span>
+                  <span style="font-size:0.75rem; color:var(--ink-soft,#64748b);">${r("pyear.papers")}</span>
+                </span>
+              </a>`).join("")}
+          </div>`:`<div class="info-panel"><p>${r("pyear.noYears")}</p></div>`}
+      </section>`,T(),U(e,{id:t.id,name:x(t.name)+" previous year papers",count:a.length,h2:x(t.name)+" Previous Year Papers by Year",items:a.map(i=>({name:String(i),count:0}))})}function Xa(e,t,a,s,n){const i=n?`/previous-year/${n.id}/${t.id}`:`/previous-year/${t.id}`,o=n?`<a href="/previous-year/${n.id}">${l(x(n.name))}</a><span class="bc-sep">/</span>`:"",c=d=>`
+      <div class="dl-item">
+        <span class="dl-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg></span>
+        <span class="dl-meta"><b>${l(d.name.replace(/\.pdf$/i,"").replace(/[-_]+/g," "))}</b><span>${l(x(t.name))} • ${l(a)}</span></span>
+        <a class="dl-btn dl-save" href="${d.url}" download target="_blank" rel="noopener" style="text-transform:none;">Download</a>
+      </div>`;e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/previous-year">${r("page.previous-year.title")}</a><span class="bc-sep">/</span>
+          ${o}
+          <a href="${i}">${l(x(t.name))}</a><span class="bc-sep">/</span>
+          <span>${l(a)}</span>
+        </nav>
+        <h1>${l(x(t.name))} — ${l(a)}</h1>
+        <p class="page-desc">${r("page.downloads.sub")}</p>
+      </div>
+      <section class="section" style="padding-bottom:44px;">
+        ${s.length?`<div class="dl-list">${s.map(c).join("")}</div>`:`<div class="info-panel"><p>${r("pyear.none")}</p></div>`}
+      </section>`,U(e,{id:t.id,name:x(t.name)+" "+a+" question paper",count:s.length,h2:x(t.name)+" "+a+" Question Paper",items:s.map(d=>({name:d.name.replace(/\.pdf$/i,"").replace(/[-_]+/g," "),count:0})),faqs:[{q:"Is the "+x(t.name)+" "+a+" paper a solved or unsolved paper?",a:"The PDF contains the question paper for practice. Attempt it first, then cross-check your answers with the relevant answer key or study notes on axomexam.in."},{q:"Can I download the "+x(t.name)+" "+a+" paper?",a:"Yes. Use the download button beside the paper to save the PDF for offline practice."}]})}function no(e){const t=u.lang==="as";e.innerHTML=`
+      <div class="success-modal-overlay" id="successPopup" style="position:fixed;inset:0;background:rgba(15,23,42,0.65);backdrop-filter:blur(5px);display:none;place-items:center;z-index:99999;opacity:0;transition:opacity 0.2s ease;">
+        <div class="success-modal-card" style="background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:24px;padding:30px 24px;width:82%;max-width:300px;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.35);border:1px solid var(--line,#e2e8f0);">
+          <div class="tick-circle" style="width:68px;height:68px;background:#10b981;border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px -4px rgba(16,185,129,0.5);">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="width:36px;height:36px;"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+          <h3 id="pop-title" style="font-size:1.25rem;font-weight:800;color:var(--ink,#0f172a);margin-bottom:4px;">${t?"সফলতাৰে প্ৰেৰণ হ'ল!":"Sent Successfully!"}</h3>
+          <p id="pop-desc" style="font-size:0.84rem;color:var(--ink-soft,#64748b);font-weight:600;">${t?"আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।":"Your message has been received."}</p>
+        </div>
+      </div>
+
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">${t?"গৃহপৃষ্ঠা":"Home"}</a><span class="bc-sep">/</span><span>${t?"প্ৰশ্ন আগবঢ়াওক":"Submit Q&A"}</span></nav>
+        <h1>${t?"প্ৰশ্ন আগবঢ়াওক":"Submit Q&A"}</h1>
+      </div>
+
+      <section class="section axo-main-content" data-axo-main-content="1" style="padding-bottom:24px;">
+        <div class="info-panel" style="background:var(--bg,#ffffff); border:1px solid var(--border,#e2e8f0); border-radius:18px; padding:28px 24px; line-height:1.8; color:var(--ink-soft,#475569); max-width:900px; margin:0 auto; text-align:left;">
+          ${t?`<h2 style="margin-top:0; color:var(--ink,#0f172a);">axomexam লৈ প্ৰশ্ন আগবঢ়াওক</h2>
+          <p>axomexam এ পঢ়ুৱৈসকলে পঠিওৱা অনুশীলন প্ৰশ্ন গ্ৰহণ কৰে, সেই অসমৰ প্ৰতিযোগিতামূলক পৰীক্ষাসমূহৰ বাবে যিবোৰ ইয়াৰ পৰিসৰত আছে। প্ৰকাশৰ আগতে জমা দিয়া প্ৰশ্ন পৰ্যালোচনা কৰা হয়, গতিকে প্ৰশ্ন-সংগ্ৰহত একে মানদণ্ড বজাই ৰখা হয় আৰু প্ৰতিটো প্ৰকাশিত প্ৰশ্নৰ সৈতে উত্তৰ আৰু এটা ব্যাখ্যা থাকে।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">কি পঠিয়াব</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>প্ৰশ্নৰ লিখনি, অনুগ্ৰহ কৰি অসমীয়া সংস্কৰণটো লগত ৰাখি।</li>
+            <li>চাৰিটা বিকল্প, শুদ্ধ বিকল্পটো স্পষ্টভাৱে চিহ্নিত কৰি।</li>
+            <li>কিয় সেই বিকল্পটো শুদ্ধ তাৰ এটা চুটি ব্যাখ্যা।</li>
+            <li>প্ৰশ্নটো যি পৰীক্ষা আৰু বিষয়ৰ, তাৰ নাম।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">ইয়াৰ পিছত কি হয়</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>মানক প্ৰসংগ সামগ্ৰীৰ সৈতে মিলাই জমা দিয়া প্ৰশ্নৰ শুদ্ধতা পৰীক্ষা কৰা হয়।</li>
+            <li>গ্ৰহণ কৰা প্ৰশ্নসমূহ মিল থকা বিষয় বা পৰীক্ষাৰ শিতানত যোগ কৰা হয়।</li>
+            <li>শুধৰণিৰ প্ৰয়োজন থকা প্ৰশ্ন এটা টোকাসহ ঘূৰাই দিয়া হয়।</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">এটা ভাল প্ৰশ্ন লিখা</h3>
+          <p>এটা উপযোগী অনুশীলন প্ৰশ্নই এটা স্পষ্ট তথ্য বা এটা স্পষ্ট পদক্ষেপ পৰীক্ষা কৰে, আৰু ভুল বিকল্পসমূহ স্পষ্টভাৱে ভুল নহৈ যুক্তিসংগত হোৱা উচিত। এটা তথ্যত সংখ্যা, তাৰিখ বা নাম থাকিলে, পঠিওৱাৰ আগতে মানক প্ৰসংগৰ সৈতে মিলাই চাওক, আৰু কোনটো প্ৰসংগ ব্যৱহাৰ কৰিলে তাক কওক। দুয়োটা ভাষাত লিখা একে প্ৰশ্ন বিশেষভাৱে স্বাগতম, কাৰণ ইয়াক অসমীয়া আৰু ইংৰাজী পৃষ্ঠাত একেলগে প্ৰকাশ কৰিব পাৰি।</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">সংশোধন</h3>
+          <p>প্ৰকাশিত প্ৰশ্নত ভুল দেখা পাইলে, পৃষ্ঠাৰ লিংক আৰু সংশোধন যোগাযোগ ফৰ্মৰ জৰিয়তে পঠিয়াওক। সংশোধনসমূহ নতুন প্ৰশ্নৰ দৰেই পৰীক্ষা কৰা হয় আৰু সাধাৰণতে কেইদিনমানৰ ভিতৰত প্ৰয়োগ কৰা হয়।</p>`:`<h2 style="margin-top:0; color:var(--ink,#0f172a);">Contributing questions to axomexam</h2>
+          <p>axomexam accepts reader-submitted practice questions for the Assam competitive exams it covers. A submission is reviewed before it is published, so the question bank keeps a consistent standard and every published question carries an answer and an explanation.</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What to send</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>The question text, ideally with the Assamese version alongside it.</li>
+            <li>Four options with the correct one clearly marked.</li>
+            <li>A short explanation of why that option is correct.</li>
+            <li>The exam and subject the question belongs to.</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">What happens next</h3>
+          <ul style="margin:8px 0 0 20px; line-height:1.9;">
+            <li>The submission is checked for accuracy against standard reference material.</li>
+            <li>Accepted questions are added to the matching topic or exam section.</li>
+            <li>Questions that need correction are returned with a note.</li>
+          </ul>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Writing a good question</h3>
+          <p>A useful practice question tests one clear fact or one clear step, and the wrong options should be plausible rather than obviously wrong. Where a fact has a number, a date or a name, check it against a standard reference before sending it, and say which reference you used. The same question written in both languages is especially welcome, because it can be published to the Assamese and English versions of the page together.</p>
+          <h3 style="color:var(--ink,#0f172a); margin-top:22px;">Corrections</h3>
+          <p>If you spot a mistake in a published question, send the page link and the correction through the contact form. Corrections are checked the same way as new questions and are usually applied within a few days.</p>`}
+        </div>
+      </section>
+
+      <div class="form-wrapper" style="width:100%;max-width:540px;margin:20px auto 40px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border-radius:20px;border:1px solid var(--line,#e2e8f0);box-shadow:var(--card-shadow, 0 12px 36px -8px rgba(15,23,42,0.08));padding:30px 24px;display:flex;flex-direction:column;box-sizing:border-box;">
+        <div class="form-header" style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:22px;gap:12px;">
+          <div class="lang-toggle" style="display:inline-flex;background:var(--bg-soft,#f1f5f9);border:1px solid var(--line,#e2e8f0);border-radius:99px;padding:3px;">
+            <button type="button" class="lang-btn active" id="btn-en" style="border:none;background:#2563eb;color:#ffffff;padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">EN</button>
+            <button type="button" class="lang-btn" id="btn-as" style="border:none;background:transparent;color:var(--ink-soft,#64748b);padding:5px 14px;border-radius:99px;font-size:0.78rem;font-weight:700;cursor:pointer;transition:all 0.2s;">অসমীয়া</button>
+          </div>
+          <div class="form-title" style="text-align:center;width:100%;">
+            <h2 id="txt-title" style="font-size:1.35rem;font-weight:800;color:var(--ink,#0f172a);letter-spacing:-0.4px;">Submit Q&A Note</h2>
+            <p id="txt-desc" style="margin-top:4px;font-size:0.84rem;color:var(--ink-soft,#64748b);">Contribute notes or feedback for aspirants.</p>
+          </div>
+        </div>
+
+        <form id="qaForm" class="form-body" style="display:flex;flex-direction:column;gap:14px;">
+          <input type="hidden" name="apiKey" value="sf_304846a9720d7354070bd57c">
+          <input type="hidden" name="replyTo" value="support@axomexam.in">
+          <input type="text" name="honeypot" style="display:none" tabindex="-1" autocomplete="off">
+
+          <div class="field">
+            <label id="lbl-name" for="name" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Rahul Borah" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-email" for="email" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-topic" for="subject" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Subject / Topic (Optional)</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Assam History, Science" style="width:100%;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;box-sizing:border-box;font-family:inherit;">
+          </div>
+          <div class="field">
+            <label id="lbl-question" for="question" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Question (Optional)</label>
+            <textarea id="question" name="question" rows="2" placeholder="Type the question here..." style="width:100%;min-height:55px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+          </div>
+          <div class="field">
+            <label id="lbl-answer" for="answer" style="display:block;font-size:0.82rem;font-weight:700;margin-bottom:5px;color:var(--ink,#0f172a);">Answer / Message (Optional)</label>
+            <textarea id="answer" name="answer" rows="3" placeholder="Provide complete answer, steps or message..." style="width:100%;min-height:90px;padding:11px 14px;border-radius:12px;border:1.5px solid var(--line,#e2e8f0);background:var(--bg-soft,#f8fafc);color:var(--ink,#0f172a);font-size:0.92rem;outline:none;resize:vertical;box-sizing:border-box;font-family:inherit;"></textarea>
+          </div>
+
+          <div class="captcha-container" style="background:var(--bg-soft,#f8fafc);border:1.5px solid var(--line,#e2e8f0);border-radius:12px;padding:8px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px;">
+            <div class="captcha-left" style="display:flex;align-items:center;gap:8px;">
+              <span class="captcha-label" id="lbl-captcha" style="font-size:0.8rem;font-weight:700;color:var(--ink-soft,#64748b);">Security:</span>
+              <div class="captcha-badge-wrap" style="display:inline-flex;align-items:center;gap:4px;background:var(--bg,#ffffff);padding:3px 6px 3px 8px;border-radius:8px;border:1px solid var(--line,#cbd5e1);">
+                <span class="captcha-math" id="math-expression" style="font-size:0.92rem;font-weight:800;color:#2563eb;user-select:none;">2 + 3 = ?</span>
+                <button type="button" class="captcha-refresh-btn" id="btn-refresh-captcha" title="Change Captcha" style="border:none;background:transparent;color:var(--ink-faint,#94a3b8);width:24px;height:24px;display:grid;place-items:center;cursor:pointer;">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/></svg>
+                </button>
+              </div>
+            </div>
+            <input type="number" id="captcha-answer" placeholder="Ans" required style="width:80px;text-align:center;font-weight:700;font-size:0.92rem;padding:7px 8px;background:var(--bg,#ffffff);color:var(--ink,#0f172a);border:1.5px solid var(--line,#cbd5e1);border-radius:8px;outline:none;-moz-appearance:textfield;">
+          </div>
+
+          <button type="submit" id="submitBtn" style="width:100%;padding:14px 20px;font-size:0.95rem;font-weight:700;border-radius:12px;margin-top:4px;cursor:pointer;border:none;background:#2563eb !important;color:#ffffff !important;box-shadow:0 6px 16px -4px rgba(37,99,235,0.45);transition:all 0.2s ease;">
+            <span id="txt-btn">Submit</span>
+          </button>
+
+          <div id="form-error" class="error-msg" style="padding:10px 12px;border-radius:12px;font-size:0.84rem;font-weight:600;display:none;text-align:center;background:#fef2f2;color:#dc2626;border:1px solid #fecaca;"></div>
+        </form>
+      </div>
+    `;const a={en:{title:"Submit Q&A Note",desc:"Contribute notes or feedback for aspirants.",name:"Your Name",namePh:"e.g. Rahul Borah",email:"Email Address",emailPh:"name@example.com",topic:"Subject / Topic (Optional)",topicPh:"e.g. Assam History, Science",question:"Question (Optional)",questionPh:"Type the question here...",answer:"Answer / Message (Optional)",answerPh:"Provide complete answer, steps or message...",captcha:"Security:",captchaPh:"Ans",btn:"Submit",submitting:"Submitting...",captchaError:"Incorrect math answer! Please try again.",popTitle:"Sent Successfully!",popDesc:"Your message has been received."},as:{title:"প্ৰশ্ন প্ৰেৰণ কৰক (Submit Q&A)",desc:"প্ৰশ্ন বা বাৰ্তা জমা দি শিক্ষাৰ্থীসকলক সহায় কৰক।",name:"আপোনাৰ নাম",namePh:"যেনে: ৰাহুল বৰা",email:"ইমেইল ঠিকনা",emailPh:"name@example.com",topic:"বিষয় / অধ্যায় (ঐচ্ছিক)",topicPh:"যেনে: অসম বুৰঞ্জী, বিজ্ঞান",question:"প্ৰশ্ন (ঐচ্ছিক)",questionPh:"প্ৰশ্নটো ইয়াত লিখক...",answer:"উত্তৰ বা বাৰ্তা (ঐচ্ছিক)",answerPh:"সম্পূৰ্ণ উত্তৰ বা বাৰ্তা ইয়াত লিখক...",captcha:"সুৰক্ষা:",captchaPh:"উত্তৰ",btn:"জমা দিয়ক",submitting:"প্ৰেৰণ হৈ আছে...",captchaError:"অংকৰ উত্তৰ ভুল হৈছে! পুনৰ চেষ্টা কৰক।",popTitle:"সফলতাৰে প্ৰেৰণ হ'ল!",popDesc:"আপোনাৰ বাৰ্তা লাভ কৰা হৈছে।"}};let s=u.lang==="as"?"as":"en",n=0;function i(){const d=Math.floor(Math.random()*9)+1,p=Math.floor(Math.random()*9)+1;n=d+p,g("#math-expression").textContent=`${d} + ${p} = ?`,g("#captcha-answer").value=""}function o(d){s=d;const p=g("#btn-en"),m=g("#btn-as");d==="en"?(p.style.background="#2563eb",p.style.color="#ffffff",m.style.background="transparent",m.style.color="var(--ink-soft,#64748b)"):(m.style.background="#2563eb",m.style.color="#ffffff",p.style.background="transparent",p.style.color="var(--ink-soft,#64748b)");const h=a[d];g("#txt-title").textContent=h.title,g("#txt-desc").textContent=h.desc,g("#lbl-name").textContent=h.name,g("#name").placeholder=h.namePh,g("#lbl-email").textContent=h.email,g("#email").placeholder=h.emailPh,g("#lbl-topic").textContent=h.topic,g("#subject").placeholder=h.topicPh,g("#lbl-question").textContent=h.question,g("#question").placeholder=h.questionPh,g("#lbl-answer").textContent=h.answer,g("#answer").placeholder=h.answerPh,g("#lbl-captcha").textContent=h.captcha,g("#captcha-answer").placeholder=h.captchaPh,g("#txt-btn").textContent=h.btn,g("#pop-title").textContent=h.popTitle,g("#pop-desc").textContent=h.popDesc}function c(){const d=g("#successPopup");d.style.display="grid",d.style.opacity="1",setTimeout(()=>{d.style.opacity="0",setTimeout(()=>{d.style.display="none"},200)},2e3)}g("#btn-en").addEventListener("click",()=>o("en")),g("#btn-as").addEventListener("click",()=>o("as")),g("#btn-refresh-captcha").addEventListener("click",i),o(s),g("#qaForm").addEventListener("submit",async function(d){d.preventDefault();const p=g("#form-error");if(p.style.display="none",parseInt(g("#captcha-answer").value,10)!==n){p.textContent=a[s].captchaError,p.style.display="block",i();return}const h=g("#submitBtn"),f=g("#txt-btn");h.disabled=!0,f.textContent=a[s].submitting;const v=g("#subject").value.trim()||"General Note",b=g("#question").value.trim()||"N/A",y=g("#answer").value.trim()||"N/A",w={apiKey:"sf_304846a9720d7354070bd57c",replyTo:"support@axomexam.in",name:g("#name").value.trim(),email:g("#email").value.trim(),subject:`[axomexam Submission] ${v}`,message:`Topic: ${v}
+
+Question:
+${b}
+
+Answer/Message:
+${y}
+
+Sent to: support@axomexam.in`};try{const A=await(await fetch("https://api.staticforms.dev/submit",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(w)})).json();A.success?(g("#qaForm").reset(),i(),c()):(p.textContent=A.message||"Failed to submit. Please try again.",p.style.display="block")}catch{p.textContent="Network error. Please check your connection.",p.style.display="block"}finally{h.disabled=!1,f.textContent=a[s].btn}}),i()}function Za(e){const t=window.AXOLeaderboardUI;if(t&&typeof t.beforeFinalSubmit=="function")try{t.beforeFinalSubmit(e);return}catch{}e()}function oo(e,t,a,s){const n=[];return u.topicIndex.forEach(i=>{i.cat.id===e.id&&(t&&t!=="all"&&(!i.sub||i.sub.id!==t)||a&&(!i.section||i.section.id!==a)||s&&i.topic.id!==s||n.push(i))}),n}async function io(e,t,a,s){const n=oo(e,t,a,s);if(!n.length)return[];const i=await Promise.all(n.map(c=>API.getTopic(c.cat.id,c.topic.id,c.sub&&c.sub.id,c.cat&&c.cat.contentLayout).then(d=>({d,rec:c})).catch(()=>null))),o=[];return i.forEach(c=>{if(!c||!c.d)return;(Array.isArray(c.d)?c.d:Array.isArray(c.d.questions)?c.d.questions:[]).forEach(p=>{const m={en:R(p,"question","en"),as:R(p,"question","as")},h={en:R(p,"answer","en"),as:R(p,"answer","as")},f=Q(p,"en"),v=Q(p,"as"),b=Array.isArray(p.options)?p.options:[];let y=[];if(f.length||v.length){const C=Math.max(f.length,v.length);for(let A=0;A<C;A++){const q=b[A];y.push({en:f[A]||"",as:v[A]||"",fig:q&&typeof q=="object"&&typeof q.fig=="string"?q.fig:""})}}let w=0;if(typeof p.correct=="string"){const A=p.correct.trim().toLowerCase().charCodeAt(0);A>=97&&A<=101&&(w=A-97)}else if(typeof p.a=="string"){const A=p.a.trim().toLowerCase().charCodeAt(0);A>=97&&A<=101&&(w=A-97)}else Number.isInteger(p.correct_index)?w=p.correct_index:Number.isInteger(p.correct)?w=p.correct:Number.isInteger(p.answer)&&(w=p.answer);o.push({q:m,a:h,fig:typeof p.fig=="string"?p.fig:"",table:p.table||null,options:y.length>=2?y:null,correct:w,topicTitle:c.rec.title,catId:c.rec.cat.id})})}),o}function es(e){const t=e.slice();for(let a=t.length-1;a>0;a--){const s=Math.floor(Math.random()*(a+1));[t[a],t[s]]=[t[s],t[a]]}return t}function ct(){u.mock&&u.mock.timerId&&(clearInterval(u.mock.timerId),u.mock.timerId=null)}let dt=!1,je="";function ts(){if(!dt){dt=!0,je=location.href;try{history.pushState({axoMockGuard:Date.now()},"",je)}catch{}}}function Dt(){dt=!1}function as(){if(Dt(),ct(),u.mock=null,Je(!1),history.state&&history.state.axoMockGuard){history.back();return}if(je){tt(je);return}tt("/mock-test")}function ro(){if(!dt||!u.mock||!u.mock.started)return!1;const e=!!document.getElementById("confirm-modal");try{history.pushState({axoMockGuard:Date.now()},"",je||location.href)}catch{}return e||He({title:"Leave Mock Test?",message:"Are you sure you want to leave the mock test? Your current progress will be lost.",confirmText:"Yes, Leave",cancelText:"Stay",onConfirm:as}),!0}function He({title:e,message:t,confirmText:a,cancelText:s,onConfirm:n}){const i=g("#confirm-modal");i&&i.remove();const o=document.createElement("div");o.id="confirm-modal",o.className="read-modal",o.innerHTML=`
+      <div class="read-modal-backdrop"></div>
+      <div class="read-modal-box confirm-modal-box" role="dialog">
+        <h3 style="font-size:1.12rem; margin-bottom:9px;">${l(e)}</h3>
+        <p style="color:var(--ink-soft); font-size:.9rem; margin-bottom:18px; line-height:1.55;">${l(t)}</p>
+        <div style="display:flex; gap:10px; justify-content:center;">
+          <button class="btn btn-outline" id="modal-cancel-btn" style="flex:1;">${l(s||"Cancel")}</button>
+          <button class="btn btn-primary" id="modal-confirm-btn" style="flex:1;">${l(a||"Confirm")}</button>
+        </div>
+      </div>`,document.body.appendChild(o),g("#modal-cancel-btn",o).addEventListener("click",()=>o.remove()),g(".read-modal-backdrop",o).addEventListener("click",()=>o.remove()),g("#modal-confirm-btn",o).addEventListener("click",()=>{o.remove(),n&&n()})}function jt(e){return e?e.id==="english"?[{id:"grammar",name:{en:"Grammar",as:"ব্যাকৰণ"}},{id:"vocabulary",name:{en:"Vocabulary",as:"শব্দভাণ্ডাৰ"}}]:e.id==="computer"?[{id:"comp-fundamentals",name:{en:"Fundamentals",as:"মৌলিক"}},{id:"ms-office",name:{en:"MS Office",as:"MS Office"}}]:e.subcategories||[]:[]}function $i(e){return!e||!e.length?!1:!!(e[0]==="category"&&e[1]==="english"||e[0]==="topic"&&e[1]==="english"||e[0]==="mock-test"&&e[1]==="english"||e[0]==="category"&&e[1]==="articles"&&e[2]==="english"||e[0]==="exams"&&/english/i.test(e[2]||""))}function lo(e,t){if(t.length===1)return qo(e);const a=t[1],s=u.categories.find(d=>d.id===a);if(!s)return G(e);const n=t[2],i=t[3],o=t[4];if(n&&n.startsWith("topic-")||t.includes("start"))return ut(e,s,n,i,o);const c=jt(s);if(!n&&c.length)return Po(e,s);if(n&&!i){const d=c.find(p=>p.id===n);return d?xo(e,s,d):ut(e,s,n,null,null)}if(n&&i){const d=c.find(m=>m.id===n);if(!d)return G(e);if(/^set-\d+$/.test(i)){const m=parseInt(i.replace("set-",""),10);return m>=1&&m<=Ee?jo(e,s,d,m):G(e)}const p=(d.sections||[]).find(m=>m.id===i);return p&&p.topics&&p.topics.length?To(e,s,d,p):ut(e,s,n,i,null)}return ut(e,s,null,null,null)}function Ht(){return(u.exams||[]).filter(e=>$e(e))}async function co(e,t){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`,await oe();const a=t[1],s=t[2];if(!a)return uo(e);const n=Re(a);if(!n)return G(e);if(!$e(n))return po(e,n);const i=s&&/^set-(\d+)$/.exec(s);return i?Vt(n.id)?vo(e,n,parseInt(i[1],10)):go(e,n,parseInt(i[1],10)):s?G(e):ho(e,n)}async function pt(e){const t=`exw:${e}`;if(u.examMockSetCache&&u.examMockSetCache[t])return u.examMockSetCache[t];let a=null;const s=await API.getExamMockIndex(e);if(s&&s.sets.length)a={sets:s.sets.slice().sort((n,i)=>n-i),questions:s.questions||0};else{const n=await Promise.all(Array.from({length:Ee},(d,p)=>API.getExamMockSet(e,p+1))),i=[];for(let d=1;d<=Ee;d++){const p=n[d-1];if(p&&Array.isArray(p.questions)&&p.questions.length)i.push(d);else break}const o=n[0],c=o&&Array.isArray(o.questions)?o.questions.length:0;a={sets:i,questions:c}}return u.examMockSetCache=u.examMockSetCache||{},u.examMockSetCache[t]=a,a}function po(e,t){const a=k(t.title,"en"),s=k(t.title,"as"),n=k(t.subtitle,"en");e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exam-wise-mock-test">${r("mock.examwise.title")}</a><span class="bc-sep">/</span>
+          <span>${l(a)}</span>
+        </nav>
+      </div>
+      <div class="exam-soon-panel" style="--ebk:${F(t)}">
+        <span class="exam-soon-ico">${me.default}</span>
+        <h1>${l(a)}${s&&s!==a?` <span class="exam-soon-as">${l(s)}</span>`:""}</h1>
+        ${n?`<p class="exam-soon-sub">${l(n)}</p>`:""}
+        <span class="exam-soon-chip">${r("exams.comingSoon")}</span>
+        <p class="exam-soon-msg">${l(r("mock.examwise.comingSoonMsg"))}</p>
+        <a class="btn btn-accent" href="/exam-wise-mock-test">${r("mock.examwise.back")}</a>
+      </div>`}async function uo(e){const t=$s(u.exams||[]),a={};await Promise.all(t.filter(n=>$e(n)).map(async n=>{a[n.id]=await pt(n.id)}));const s=t.map((n,i)=>{const o=$e(n),c=a[n.id]&&a[n.id].sets.length||0,d=a[n.id]&&a[n.id].questions||100,p=k(n.title,"en"),m=k(n.title,"as"),h=k(n.subtitle,"en"),f=k(n.subtitle,"as"),v=n.logo?String(n.logo):n.cover?String(n.cover):"",b=`/exam-wise-mock-test/${encodeURIComponent(n.id)}`,y=`<span class="exw-thumb-fallback" aria-hidden="true">${l(n.icon||p.slice(0,3).toUpperCase())}</span>`,w=v?`${y}<img class="exw-thumb-img" src="${l(v)}" alt="${l(Da(n,u.lang))}" loading="lazy" decoding="async" onerror="this.remove()">`:y,C=o?`<span class="exw-badge exw-badge-live">${l(r("mock.examwise.live"))}</span>`:`<span class="exw-badge exw-badge-soon">${l(r("exams.comingSoon"))}</span>`,A=l(o?ee("mock.examwise.fullPaperMetaSets",{n:d,s:c}):h||r("exams.comingSoon"));return`
+        <a class="exw-card reveal ${o?"":"is-soon"}" style="--c:${F(n)}" data-delay="${i*50}" href="${b}">
+          <span class="exw-thumb">${w}${C}</span>
+          <span class="exw-body">
+            <span class="exw-title">${l(p)}</span>
+            ${m&&m!==p?`<span class="exw-as">${l(m)}</span>`:""}
+            ${f&&f!==h?`<span class="exw-sub">${l(f)}</span>`:""}
+            <span class="exw-meta">${A}</span>
+          </span>
+          <span class="exw-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </a>`}).join("");e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <span>${r("mock.examwise.title")}</span>
+        </nav>
+        <h1>${r("mock.examwise.title")}</h1>
+        <p class="page-desc">${r("mock.examwise.desc")}</p>
+      </div>
+      <section class="section" style="padding-bottom:46px;">
+        <div class="mt-topics-head"><h2>${r("mock.examwise.chooseExam")}</h2><p>${r("mock.examwise.chooseExamSub")}</p></div>
+        <div class="exw-grid">${s}</div>
+      </section>`,T(),Ue(e,mo(a))}function mo(e){e=e||{};const t=Ht().map(a=>k(a.title,"en")).join(", ")||"Assam Police, ADRE Grade III and ADRE Grade IV";return{name:r("mock.examwise.title"),noDefaults:!0,h2:"Exam-wise mock tests for Assam recruitment exams",info:"A subject-wise mock test drills one topic. An exam-wise mock test does the opposite: it hands you a complete question paper — every subject of the exam mixed together, in the order the real paper uses, with a live timer running while you attempt it. That is the part most candidates never practise, and it is where the real paper surprises them.",items:Ht().map(a=>({name:k(a.title,"en"),count:e[a.id]&&e[a.id].questions||100,unit:"questions per set"})),tips:["Open the exam that matches your recruitment.","Pick a full paper set — start with Set 1 and move up.","Choose your question language and start the timed test.","Submit to get an instant score, then read the bilingual answer review for every question."],faqs:[{q:"What is an exam-wise mock test?",a:"An exam-wise mock test is a single full-length paper that mixes every subject of one recruitment exam — for example Assam Police or ADRE Grade III — and runs under a live timer, so it works exactly like the real examination hall instead of a single-subject practice drill."},{q:"How many questions are in each set?",a:"Each full paper set carries the same number of bilingual questions as the real exam paper — 100 for Assam Police, 150 for ADRE Grade III — with four options each, an answer key and a short explanation in both Assamese and English."},{q:"Are the mock tests different for each exam?",a:`Yes. Each exam has its own separate sets built from its own syllabus and question bank — ${t} are kept apart.`},{q:"Are these mock tests free?",a:"Yes. Every exam-wise mock test on axomexam is 100% free and can be reattempted as many times as you like."},{q:"Can I practise in Assamese?",a:"Yes. Every question, option and explanation is available in both Assamese and English, and you can choose the question language before the test begins."}]}}async function ho(e,t){const a=k(t.title,"en"),s=k(t.title,"as"),n=k(t.subtitle,"en"),i=k(t.subtitle,"as"),o=await pt(t.id),c=o.sets,d=o.questions||100,p=Math.max(Yt,...c.length?c:[0]),m=new Set(c),h=F(t),f=t.logo?String(t.logo):"",v=f||(t.cover?String(t.cover):""),b=[{ico:'<path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/>',label:r("mock.examwise.statSets"),value:String(c.length)},{ico:'<circle cx="12" cy="12" r="9"/><path d="M12 8v4"/><path d="M12 16h.01"/>',label:r("mock.examwise.statQuestions"),value:String(d)},{ico:'<path d="M4 5h16v14H4z"/><path d="M8 9h8"/><path d="M8 13h5"/>',label:r("mock.examwise.statLangs"),value:"অসমীয়া / EN"},{ico:'<circle cx="12" cy="12" r="9"/><path d="M12 6v6l4 2"/>',label:r("mock.examwise.statMode"),value:r("mock.examwise.modeTimed")}],y=Array.from({length:p},(w,C)=>{const A=C+1;return m.has(A)?`
+        <a class="set-card reveal" href="/exam-wise-mock-test/${encodeURIComponent(t.id)}/set-${A}" style="--cat:${h}" data-delay="${C*40}">
+          <span class="set-card-head">
+            <span class="set-num">${String(A).padStart(2,"0")}</span>
+            <span class="set-status">${r("mock.examwise.available")}</span>
+          </span>
+          <span class="set-name">${r("mock.examwise.fullPaperSet")} ${A}</span>
+          <span class="set-meta">${l(ee("mock.examwise.setMetaN",{n:d}))}</span>
+          <span class="set-go">
+            <span>${r("mock.examwise.start")}</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </a>`:`
+        <div class="set-card set-card-locked reveal" style="--cat:${h}" data-delay="${C*40}">
+          <span class="set-card-head">
+            <span class="set-num">${String(A).padStart(2,"0")}</span>
+            <span class="set-status set-status-locked">${r("exams.comingSoon")}</span>
+          </span>
+          <span class="set-name">${r("mock.examwise.fullPaperSet")} ${A}</span>
+          <span class="set-meta">${r("mock.examwise.notPublished")}</span>
+        </div>`}).join("");e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exam-wise-mock-test">${r("mock.examwise.title")}</a><span class="bc-sep">/</span>
+          <span>${l(a)}</span>
+        </nav>
+      </div>
+
+      <div class="exw-hero" style="--c:${h}">
+        <span class="exw-hero-thumb">
+          ${v?`<img src="${l(v)}" alt="${l(f?Da(t,u.lang):Et(t,u.lang))}" loading="eager" decoding="async" onerror="this.remove()">`:`<span class="exw-hero-fallback">${l(t.icon||a.slice(0,2).toUpperCase())}</span>`}
+        </span>
+        <span class="exw-hero-body">
+          <span class="exw-hero-chip">${l(r("mock.examwise.title"))}</span>
+          <h1 class="exw-hero-title">${l(a)}${s&&s!==a?` <span class="exw-hero-as" lang="as">${l(s)}</span>`:""}</h1>
+          ${i&&i!==n?`<span class="exw-hero-sub" lang="as">${l(i)}</span>`:n?`<span class="exw-hero-sub">${l(n)}</span>`:""}
+          <span class="exw-hero-stats">
+            ${b.map(w=>`<span class="exw-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">${w.ico}</svg><b>${l(w.value)}</b>${l(w.label)}</span>`).join("")}
+          </span>
+        </span>
+      </div>
+
+      ${Vt(t.id)?"":`
+      <div class="upgrade-banner" role="status">
+        <span class="upgrade-dot" aria-hidden="true"></span>
+        <span>${r("mock.examwise.upgradeBanner")}</span>
+        <span class="upgrade-banner-as" lang="as">${r("mock.examwise.upgrade.msg")}</span>
+      </div>`}
+
+      <section class="section" style="padding-bottom:46px;">
+        <div class="mt-topics-head">
+          <h2>${r("mock.examwise.setsHead")}</h2>
+          <p>${r("mock.examwise.setsHeadSub")}</p>
+        </div>
+        <div class="set-grid">${y}</div>
+      </section>
+
+      <section class="section" style="padding-bottom:52px;">
+        <div class="mt-block exw-howto">
+          <div class="mt-label">${r("mock.examwise.howItWorks")}</div>
+          <ol class="exw-howto-list">
+            <li><span class="exw-howto-num">1</span>${r("mock.examwise.how1")}</li>
+            <li><span class="exw-howto-num">2</span>${r("mock.examwise.how2")}</li>
+            <li><span class="exw-howto-num">3</span>${r("mock.examwise.how3")}</li>
+          </ol>
+        </div>
+      </section>`,T(),Ue(e,fo(t,a,c.length,d))}function fo(e,t,a,s){const n=s||100,i=(e.sections||[]).filter(c=>c.id!=="syllabus").map(c=>k(c.title,"en")||c.id),o=k(e.subtitle,"en");return{name:t,noDefaults:!0,h2:`${t} full-paper mock test`,info:`The ${t} mock test on this page is a full paper, not a single-subject practice set. Each of the ${a} sets mixes every subject of the ${t}${o?` (${o})`:""} paper and runs to a fixed length of ${n} questions under a live timer, so you practise the paper end to end the way it is actually set.`,items:i.map(c=>({name:c})),tips:["Attempt one set fully under the timer before checking any answer.","Note every wrong answer and the subject it belongs to.","Revise that subject in the exam book, then attempt the next set.","Compare your set-to-set scores to track whether accuracy is improving."],faqs:[{q:`What is the ${t} mock test?`,a:`It is a full-length, timed mock test for the ${t} recruitment exam. Each set mixes every subject of the paper and carries ${n} bilingual questions with answers and explanations.`},{q:"How many full papers are there?",a:`There are ${a} full paper sets for ${t}. Every set is a complete ${n}-question paper.`},{q:`Which subjects are covered in the ${t} paper?`,a:i.join(", ")+"."},{q:"Is the test timed?",a:"Yes. Every set runs on a live timer so you learn to manage your time the way you must in the real examination hall."},{q:"Are answers and explanations given?",a:"Yes. After you submit, you see your score and a bilingual review of every question with the correct answer and a short explanation."}]}}async function go(e,t,a){const s=k(t.title,"en"),n=F(t),i=`${r("mock.examwise.fullPaperSet")} ${a}`,o=[{key:"mock.examwise.upgrade.step1",state:"done"},{key:"mock.examwise.upgrade.step2",state:"active"},{key:"mock.examwise.upgrade.step3",state:""}];u.mock=null,e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+          <a href="/exam-wise-mock-test">${r("mock.examwise.title")}</a><span class="bc-sep">/</span>
+          <a href="/exam-wise-mock-test/${encodeURIComponent(t.id)}">${l(s)}</a><span class="bc-sep">/</span>
+          <span>${l(i)}</span>
+        </nav>
+        <h1>${l(s)} — ${l(i)}</h1>
+        <p class="page-desc">${r("mock.examwise.setup.desc")}</p>
+      </div>
+
+      <div class="mt-setup">
+        <div class="mt-hero" style="--cat:${n}">
+          <span class="mt-hero-icon"><span class="cat-svg">${St({id:"gk"})}</span></span>
+          <span style="min-width:0;">
+            <span class="mt-hero-cat">${l(s)}</span>
+            <span class="mt-hero-title">${l(i)}</span>
+            <span class="mt-hero-chips">
+              <span class="mt-chip">${(await pt(t.id)).questions||100} ${r("mock.questions")}</span>
+              <span class="mt-chip">অসমীয়া / English</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="upgrade-panel upgrade-panel-inline" style="--c:${n}">
+          <span class="upgrade-badge"><span class="upgrade-dot" aria-hidden="true"></span>${l(I("mock.examwise.upgrade.badge","en"))}</span>
+          <h2 class="upgrade-title">${l(I("mock.examwise.upgrade.title","en"))}</h2>
+          <p class="upgrade-as" lang="as">${l(I("mock.examwise.upgrade.title","as"))}</p>
+          <p class="upgrade-msg">${l(I("mock.examwise.upgrade.msg","en"))}</p>
+          <p class="upgrade-msg upgrade-as" lang="as">${l(I("mock.examwise.upgrade.msg","as"))}</p>
+          <span class="upgrade-eta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            ${l(I("mock.examwise.upgrade.eta","en"))}
+          </span>
+          <ul class="upgrade-steps">
+            ${o.map(d=>`
+              <li class="upgrade-step ${d.state}">
+                <span class="upgrade-step-ico">${d.state==="done"?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.2 4.2L19 7"/></svg>':'<span class="upgrade-spin"></span>'}</span>
+                <span>
+                  <span>${l(I(d.key,"en"))}</span>
+                  <span class="upgrade-step-as" lang="as">${l(I(d.key,"as"))}</span>
+                </span>
+              </li>`).join("")}
+          </ul>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">${r("mock.examwise.lang")} <span>প্ৰশ্নৰ ভাষা</span></div>
+          <div class="mt-segmented">
+            <button type="button" class="mt-seg-btn active" data-mocklang="as"><span class="mt-seg-ico">অ</span> অসমীয়া (Assamese)</button>
+            <button type="button" class="mt-seg-btn" data-mocklang="en"><span class="mt-seg-ico">A</span> English</button>
+          </div>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">${r("mock.examwise.instructions")} <span>নিৰ্দেশনা</span></div>
+          <p class="mt-sub">${r("mock.examwise.instructionsSub")}</p>
+          <ul class="mt-rules">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>${r("mock.examwise.rule1")}<span class="mt-rule-as" lang="as">${I("mock.examwise.ruleAs1","as")}</span></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span>${r("mock.examwise.rule2")}<span class="mt-rule-as" lang="as">${I("mock.examwise.ruleAs2","as")}</span></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg><span>${r("mock.examwise.rule3")}<span class="mt-rule-as" lang="as">${I("mock.examwise.ruleAs3","as")}</span></span></li>
+          </ul>
+        </div>
+
+        <div class="mt-ready">
+          <span class="mt-ready-txt"><b>${r("mock.examwise.readyTitle")}</b><span>${r("mock.examwise.readySub")}</span></span>
+          <button class="btn mt-start" id="mock-begin-btn">${r("mock.begin")} →</button>
+        </div>
+      </div>`;const c=g("#mock-begin-btn",e);c&&c.addEventListener("click",()=>ss()),S("[data-mocklang]",e).forEach(d=>{d.addEventListener("click",()=>{S("[data-mocklang]",e).forEach(p=>p.classList.remove("active")),d.classList.add("active")})}),ss(),Ue(e,bo(t,s,a,(await pt(t.id)).questions))}function bo(e,t,a,s){const n=s||100,i=(e.sections||[]).filter(o=>o.id!=="syllabus").map(o=>k(o.title,"en")||o.id).join(", ");return{name:`${t} Full Paper Set ${a}`,noDefaults:!0,h2:`${t} Full Paper Set ${a}`,info:`Full Paper Set ${a} of the ${t} exam-wise mock test is a complete ${n}-question paper that mixes every subject of the exam — ${i} — and runs under a live timer, exactly like the real test. When you start this set you choose your question language (Assamese or English) and the timer begins. On submit you get an instant score along with the correct answer and a short explanation for every question, in both languages.`,tips:["Pick your question language.","Start the timer and attempt the whole paper without pausing.","Submit and review the explanations for the questions you missed.","Reattempt the set later and compare your score."],faqs:[{q:`How many questions are in ${t} Full Paper Set ${a}?`,a:`${n} bilingual questions with four options each, covering every subject of the paper.`},{q:`Is ${t} Set ${a} timed?`,a:"Yes. The set runs on a live timer from the moment you start, so it works like the real examination."},{q:"Can I see the answers?",a:"Yes. After you submit, every question shows the correct option and a short explanation in both Assamese and English."},{q:"Can I reattempt this set?",a:"Yes. All sets are free and unlimited — you can reattempt any set as many times as you like."}]}}function ss(){const e=g("#examwise-upgrade-modal");e&&e.remove();const t=document.createElement("div");t.id="examwise-upgrade-modal",t.className="read-modal upgrade-modal",t.innerHTML=`
+      <div class="read-modal-backdrop"></div>
+      <div class="read-modal-box upgrade-modal-box" role="dialog" aria-modal="true" aria-label="${l(r("mock.examwise.upgrade.popupTitle"))}">
+        <span class="upgrade-modal-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3v3"/><path d="M12 18v3"/><path d="M3 12h3"/><path d="M18 12h3"/>
+            <path d="M5.6 5.6l2.1 2.1"/><path d="M16.3 16.3l2.1 2.1"/><path d="M18.4 5.6l-2.1 2.1"/><path d="M7.7 16.3l-2.1 2.1"/>
+            <circle cx="12" cy="12" r="3.4"/>
+          </svg>
+        </span>
+        <span class="upgrade-badge">
+          <span class="upgrade-dot" aria-hidden="true"></span>
+          ${l(I("mock.examwise.upgrade.badge","en"))}
+        </span>
+        <h3 class="upgrade-modal-title">${l(I("mock.examwise.upgrade.popupTitle","en"))}</h3>
+        <p class="upgrade-modal-as" lang="as">${l(I("mock.examwise.upgrade.popupTitle","as"))}</p>
+        <p class="upgrade-modal-msg">${l(I("mock.examwise.upgrade.popupMsg","en"))}</p>
+        <p class="upgrade-modal-msg upgrade-modal-as" lang="as">${l(I("mock.examwise.upgrade.popupMsg","as"))}</p>
+        <span class="upgrade-eta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ${l(I("mock.examwise.upgrade.eta",u.lang))}
+        </span>
+        <button type="button" class="btn btn-primary" id="upgrade-modal-ok">${l(I("mock.examwise.upgrade.ok",u.lang))}</button>
+      </div>`,document.body.appendChild(t);const a=()=>t.remove();g("#upgrade-modal-ok",t).addEventListener("click",a),g(".read-modal-backdrop",t).addEventListener("click",a)}async function vo(e,t,a){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`;const s=await API.getExamMockSet(t.id,a),i=(s&&Array.isArray(s.questions)?s.questions:[]).map(ns).filter(m=>m&&m.options&&m.options.length>=2),o=s&&s.blueprint?s.blueprint:null,c=k(t.title,"en"),d=k(t.title,"as"),p=`${r("mock.examwise.fullPaperSet")} ${a}`;if(!i.length){e.innerHTML=`
+        <div class="page-head">
+          <nav class="breadcrumb">
+            <a href="/">${r("breadcrumb.home")}</a><span class="bc-sep">/</span>
+            <a href="/exam-wise-mock-test">${r("mock.examwise.title")}</a><span class="bc-sep">/</span>
+            <a href="/exam-wise-mock-test/${encodeURIComponent(t.id)}">${l(c)}</a><span class="bc-sep">/</span>
+            <span>${l(p)}</span>
+          </nav>
+        </div>
+        <div class="qa-empty" style="padding:60px 20px;">
+          <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
+          <p>${r("mock.noQuestions")}</p>
+          <div style="margin-top:18px;"><a class="btn btn-outline" href="/exam-wise-mock-test/${encodeURIComponent(t.id)}">← ${r("mock.examwise.back")}</a></div>
+        </div>`;return}zo(e,{cat:null,pool:i,testLang:"as",iconHtml:`<span class="cat-svg">${St({id:"gk"})}</span>`,color:F(t),heroCat:c,heroTitle:p,title:`${c} — ${p}`,breadcrumb:[{href:"/",label:"Home"},{href:"/exam-wise-mock-test",label:r("mock.examwise.title")},{href:`/exam-wise-mock-test/${encodeURIComponent(t.id)}`,label:c},{label:p}],setInfo:{title:p,subject:c},blueprint:o,countOptions:[i.length],onStart:os})}async function xo(e,t,a){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`;const s=await Lo(t.id,a.id);return Do(e,t,a,s)}const Bt={gk:{sets:70,q:1750},math:{sets:30,q:750},science:{sets:15,q:375},reasoning:{sets:15,q:375},english:{sets:10,q:250},computer:{sets:10,q:250}};function yo(e,t,a){return CONFIG.USE_REMOTE?`${CONFIG.RAW_BASE}/${CONFIG.OWNER}/${CONFIG.REPO}/${CONFIG.BRANCH}/${CONFIG.PATHS.MOCKSETS}/${e}/${t}/set-${a}.json`:`${CONFIG.FALLBACK.MOCKSETS_BASE}${e}/${t}/set-${a}.json`}async function wo(e,t,a){try{const s=await fetch(yo(e,t,a),{method:"HEAD",cache:"no-store"});return s.status===405||s.status===501?Nt(await API.getMockSet(e,t,a)):s.ok}catch{return!1}}async function ko(e,t){const a=e+"/"+t;if(Object.prototype.hasOwnProperty.call(u.mockSetCount,a))return u.mockSetCount[a];let s=0;for(let n=1;n<=Ee&&await wo(e,t,n);n++)s++;return u.mockSetCount[a]=s,s}async function $o(e){const a=(await Promise.all(jt(e).map(i=>ko(e.id,i.id)))).reduce((i,o)=>i+o,0),s=Bt[e.id],n=s&&s.sets?Math.round(s.q/s.sets):25;return{sets:a,questions:a*n}}function Ao(e){e.forEach(t=>{$o(t).then(a=>{if(!a.sets)return;u.mockLiveCounts[t.id]=a;const s=document.querySelector(`.mv-card[data-mock-cat="${t.id}"]`),n=s&&s.querySelector(".mv-card-meta");n&&(n.textContent=`${a.sets} sets · ${a.questions} questions`),Co()}).catch(()=>{})})}function Co(){const e=u.categories.filter(o=>o.id!=="study-guides"&&o.id!=="articles");let t=0,a=0,s=!1;if(e.forEach(o=>{const c=u.mockLiveCounts[o.id];c&&(t+=c.sets,a+=c.questions,s=!0)}),!s)return;const n=g("#mock-stat-sets"),i=g("#mock-stat-questions");n&&(n.textContent=String(t)),i&&(i.textContent=String(a))}function So(){let e=0,t=0;return u.categories.forEach(a=>{const s=Bt[a.id];s&&(e+=s.sets,t+=s.q)}),{sets:e,questions:t}}function zt(e){if(e==null)return{en:"",as:""};if(typeof e=="string")return{en:e,as:""};const t=e.en||e.as||"",a=e.as&&e.as!==t?e.as:"";return{en:t,as:a}}function Ft(e){const t=e.color||B(e.catId),a=e.delay||0,s=e.as?`<span class="mt-tile-as">${l(e.as)}</span>`:"",n=e.meta?`<span class="mt-tile-meta">${e.meta}</span>`:"",i=e.iconHtml||we(e.id,e.catId);return`<a class="mt-tile reveal" href="${e.href}" style="--c:${t}" data-delay="${a}">
+        <span class="mt-tile-ico">${i}</span>
+        <span class="mt-tile-en">${l(e.en)}</span>
+        ${s}
+        ${n}
+      </a>`}function Ot(e){return`<div class="mt-topics-head">
+        <h2>${l(e)} Mock Test</h2>
+        <p>Choose a topic below to begin your timed mock test.</p>
+      </div>`}function Eo(e,t){const a=B(e.id),s=e.name,n=typeof s=="string"?s:s&&s.en||"",i=typeof s=="string"?"":s&&s.as||"",o=Bt[e.id],c=o?`${o.sets} sets · ${o.q} questions`:`${qe(e)} topics`;return`
+      <a class="mv-card reveal" style="--c:${a}" data-delay="${t*50}" data-mock-cat="${e.id}" href="/mock-test/${e.id}">
+        <span class="mv-card-ico">${pe(e.id)}</span>
+        <span class="mv-card-body">
+          <span class="mv-card-title">${l(n)}</span>
+          ${i?`<span class="mv-card-as">${l(i)}</span>`:""}
+          <span class="mv-card-meta">${c}</span>
+        </span>
+        <span class="mv-card-go" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+      </a>`}function Mo(){const e=Ht();if(!e.length)return"";const t=e.map(a=>k(a.title,"en")).join(" · ");return`
+      <a class="mv-promo reveal" href="/exam-wise-mock-test">
+        <span class="mv-promo-new"><span class="fnb-dot"></span>${u.uiLang==="as"?"নতুন":"NEW"}</span>
+        <span class="mv-promo-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></span>
+        <span class="mv-promo-body">
+          <b>${l(r("mock.examwise.landingTitle"))}</b>
+          <span>${l(r("mock.examwise.landingSub"))}</span>
+          <span class="mv-promo-chips">${l(t)}</span>
+        </span>
+        <span class="mv-promo-go">${l(r("mock.examwise.landingCta"))}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </span>
+      </a>`}async function qo(e){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`,await oe();const t=u.categories.filter(n=>n.id!=="study-guides"&&n.id!=="articles"),a=So(),s=Mo();e.innerHTML=`
+      <section class="mv-landing">
+        <div class="mv-hero">
+          <span class="mv-badge"><span class="dot"></span>100% Free · English &amp; Assamese</span>
+          <h1>${r("mock.title")} for Competitive Exams</h1>
+          <p class="mv-hero-sub">Take timed mock tests designed exactly like the real exam to build speed, accuracy and confidence for ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway exams.</p>
+          <div class="mv-stats">
+            <div class="mv-stat"><b>100+</b><span>Subjects</span></div>
+            <div class="mv-stat"><b id="mock-stat-sets">${a.sets}</b><span>Practice Sets</span></div>
+            <div class="mv-stat"><b id="mock-stat-questions">${a.questions}</b><span>Questions</span></div>
+            <div class="mv-stat"><b>100%</b><span>Free Forever</span></div>
+          </div>
+          <div class="mv-cta">
+            <a class="mv-btn mv-btn-primary" href="#subjects">${l(r("mock.startMain"))}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a class="mv-btn mv-btn-ghost" href="#exam-wise">${l(r("nav.examMock"))}</a>
+          </div>
+        </div>
+
+        ${s?`<div class="mv-section" id="exam-wise">
+          ${s}
+        </div>`:""}
+
+        <div class="mv-exams reveal">
+          <div class="mv-exams-head">
+            <h2>Which exams do these Mock Tests cover?</h2>
+            <p class="mv-exams-as">এই মক টেষ্টবোৰে কোন কোন পৰীক্ষা সামৰি লয়?</p>
+            <p class="mv-exams-sub">Timed mock tests built on the exact syllabus &amp; pattern of:<br>তলত দিয়া পৰীক্ষাসমূহৰ পাঠ্যক্ৰম আৰু আৰ্হি অনুসৰি প্ৰস্তুত কৰা সময়সীমা থকা মক টেষ্ট:</p>
+          </div>
+          <ul class="mv-exams-list">
+            <li><b>Assam Police</b><span>অসম আৰক্ষী</span></li>
+            <li><b>ADRE 3.0</b><span>ADRE ৩.০</span></li>
+            <li><b>APSC</b><span>এ পি এছ চি</span></li>
+            <li><b>Gauhati High Court</b><span>গুৱাহাটী উচ্চ ন্যায়ালয়</span></li>
+            <li><b>SSC</b><span>এছ এছ চি</span></li>
+            <li><b>Railway (RRB)</b><span>ৰে'লৱে (RRB)</span></li>
+            <li><b>DHS &amp; DME</b><span>ডি এইচ এছ আৰু ডি এম ই</span></li>
+            <li><b>And many more...</b><span>আৰু অন্যান্য প্ৰতিযোগিতামূলক পৰীক্ষা</span></li>
+          </ul>
+        </div>
+
+        <div class="mv-section" id="subjects">
+          <div class="mv-head"><h2>${r("mock.pick")}</h2><p>${r("mock.pick.sub")}</p></div>
+          <div class="mv-grid">
+            ${t.map((n,i)=>Eo(n,i)).join("")}
+          </div>
+        </div>
+
+        <div class="mv-section">
+          <div class="mv-head"><h2>Why practise with axomexam?</h2><p>Everything you need to simulate the real exam</p></div>
+          <div class="mv-features">
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <b>Live Timer</b><p>Every test runs on a real exam-style countdown so you learn to manage your time.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></span>
+              <b>Instant Scoring</b><p>Your score and accuracy are calculated the moment you submit the paper.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
+              <b>Answer Review</b><p>See the correct answer and a clear explanation for every question you attempt.</p>
+            </div>
+            <div class="mv-feature">
+              <span class="mv-feature-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span>
+              <b>Bilingual</b><p>Practise in both English and Assamese — switch anytime during the test.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mv-section">
+          <div class="mv-head"><h2>How it works</h2><p>Three simple steps to test yourself</p></div>
+          <div class="mv-steps">
+            <div class="mv-step"><span class="mv-step-num">1</span><b>Pick a subject</b><p>Choose the subject and paper you want to practise from the grid above.</p></div>
+            <div class="mv-step"><span class="mv-step-num">2</span><b>Attempt the test</b><p>Answer the questions within the live timer just like the real examination hall.</p></div>
+            <div class="mv-step"><span class="mv-step-num">3</span><b>Review &amp; improve</b><p>Study the instant result and explanations, then reattempt to track your progress.</p></div>
+          </div>
+        </div>
+      </section>`,T(),U(e,{name:"Mock Tests",noDefaults:!0,h2:"Timed Mock Tests for Assam Competitive Exams",info:"Each mock test on axomexam.in works like the real examination. A live timer runs while you attempt the questions, your score is calculated instantly, and every question is followed by a clear bilingual explanation. The sets are arranged subject-wise and paper-wise so you can practise exactly the section you are preparing for.",items:t.map(n=>({name:x(n.name),count:qe(n)})),tips:["Start with the subject you find hardest, so you have the most time to improve it.","Attempt one full set under the timer before checking any answer.","Maintain an error log of every wrong answer and revise it weekly.","Increase the number of questions gradually once your accuracy is stable."],faqs:[{q:"How does the online mock test work?",a:"Choose a subject, pick a paper and attempt the questions within the timer. Once you submit, you immediately see your score along with the correct answers and explanations."},{q:"Can I attempt the mock tests more than once?",a:"Yes. All mock tests are unlimited. You can reattempt any set as many times as you like at no cost."},{q:"Are the mock tests suitable for ADRE and Assam Police?",a:"Yes. The subjects and question patterns follow the syllabus of ADRE 3.0, Assam Police, APSC, Gauhati High Court, SSC and Railway recruitment exams."}]}),Ao(t)}function Po(e,t){const a=jt(t);e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <span>${l(x(t.name))}</span>
+        </nav>
+        <h1>${l(x(t.name))}</h1>
+        <p class="page-desc">Choose a paper to begin your timed mock test.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${Ot(x(t.name))}
+        <div class="mt-tile-grid">
+          ${a.map((n,i)=>{const o=zt(n.name),c=(n.sections||[]).reduce((p,m)=>p+(m.topics||[]).length,0)||(n.topics||[]).length,d=c?`${c} ${c===1?"topic":"topics"}`:"Timed practice sets";return Ft({href:`/mock-test/${t.id}/${n.id}`,catId:t.id,id:n.id,en:o.en,as:o.as,meta:d,delay:i*40})}).join("")}
+        </div>
+      </section>`,T();const s=u.topicIndex.filter(n=>n.cat&&n.cat.id===t.id);U(e,{id:t.id,name:x(t.name)+" Mock Test",count:a.length,total:s.reduce((n,i)=>n+(i.nQuestions||0),0),h2:x(t.name)+" Mock Tests with Answers",items:a.map(n=>({name:x(n.name),count:0}))})}function Ai(e,t,a){const s=a.sections||[];e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}">${l(x(t.name))}</a><span class="bc-sep">/</span>
+          <span>${l(x(a.name))}</span>
+        </nav>
+        <h1>${l(x(a.name))}</h1>
+        <p class="page-desc">Choose a section to begin your test.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${Ot(x(a.name))}
+        <div class="mt-tile-grid">
+          ${s.map((n,i)=>{const o=zt(n.name),c=(n.topics||[]).length;return Ft({href:`/mock-test/${t.id}/${a.id}/${n.id}`,catId:t.id,id:n.id,en:o.en,as:o.as,meta:`${c} ${c===1?"topic":"topics"}`,delay:i*50})}).join("")}
+        </div>
+      </section>`,T(),U(e,{id:a.id,name:x(a.name)+" Mock Test",count:s.length,h2:x(a.name)+" Mock Test - "+x(t.name),items:s.map(n=>({name:x(n.name),count:(n.topics||[]).length}))})}function To(e,t,a,s){const n=s.topics||[];e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}">${l(x(t.name))}</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}/${a.id}">${l(x(a.name))}</a><span class="bc-sep">/</span>
+          <span>${l(x(s.name))}</span>
+        </nav>
+        <h1>${l(x(s.name))}</h1>
+        <p class="page-desc">Select a topic to start your mock test.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        ${Ot(x(s.name))}
+        <div class="mt-tile-grid">
+          ${n.map((i,o)=>{const c=zt(i.name);return Ft({href:`/mock-test/${t.id}/start`,catId:t.id,id:i.id,en:c.en,as:c.as,meta:"Take Mock Test",delay:o*40})}).join("")}
+        </div>
+      </section>`,T(),U(e,{id:s.id,name:x(s.name)+" Mock Test",count:n.length,h2:x(s.name)+" Mock Test Questions",items:n.map(i=>({name:x(i.name),count:0}))})}function Nt(e){return e?Array.isArray(e)?e.length>0:Array.isArray(e.questions)&&e.questions.length>0:!1}async function Lo(e,t){const a=e+"/"+t;if(u.mockSetCache[a])return u.mockSetCache[a];const s=[];for(let n=1;n<=Ee;n++){const i=await API.getMockSet(e,t,n);if(Nt(i))s.push(n);else break}return u.mockSetCache[a]=s,s}function ns(e){if(!e||typeof e!="object")return null;const t={en:R(e,"question","en"),as:R(e,"question","as")};if(!t.en&&!t.as)return null;const a={en:R(e,"answer","en"),as:R(e,"answer","as")},s=Q(e,"en"),n=Q(e,"as"),i=Array.isArray(e.options)?e.options:[];let o=[];if(s.length||n.length){const m=Math.max(s.length,n.length);for(let h=0;h<m;h++){const f=i[h];o.push({en:s[h]||"",as:n[h]||"",fig:f&&typeof f=="object"&&typeof f.fig=="string"?f.fig:""})}}let c=0;if(typeof e.correct=="string"){const h=e.correct.trim().toLowerCase().charCodeAt(0);h>=97&&h<=101&&(c=h-97)}else if(typeof e.a=="string"){const h=e.a.trim().toLowerCase().charCodeAt(0);h>=97&&h<=101&&(c=h-97)}else Number.isInteger(e.correct_index)?c=e.correct_index:Number.isInteger(e.correct)?c=e.correct:Number.isInteger(e.answer)&&(c=e.answer);let d=String(e.difficulty||"medium").toLowerCase().trim();d!=="easy"&&d!=="hard"&&(d="medium");const p={en:R(e,"explanation","en"),as:R(e,"explanation","as")};return{q:t,a,fig:typeof e.fig=="string"?e.fig:"",table:e.table||null,options:o.length>=2?o:null,correct:c,difficulty:d,explanation:{en:p.en,as:p.as}}}async function Io(e,t,a){const s=await API.getMockSet(e.id,t.id,a);if(!Nt(s))return null;const i=(Array.isArray(s)?s:Array.isArray(s.questions)?s.questions:[]).map(ns).filter(Boolean);return i.length?{setNumber:a,title:s&&s.title||`Set ${a}`,subject:s&&s.subject||t&&t.name||"",questions:i}:null}function Ci(e){const t={easy:[],medium:[],hard:[]};return(e||[]).forEach(a=>{!a.options||a.options.length<2||(t[a.difficulty]=t[a.difficulty]||[],t[a.difficulty].push(a))}),t}function Ro(e,t){const a=t||u.uiLang;return e==="easy"?a==="as"?"সহজ":"Easy":e==="hard"?a==="as"?"কঠিন":"Hard":a==="as"?"মধ্যম":"Medium"}function Do(e,t,a,s){const n=new Set(s),i=Math.max(Yt,...s);e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}">${l(x(t.name))}</a><span class="bc-sep">/</span>
+          <span>${l(x(a.name))}</span>
+        </nav>
+        <h1>${l(x(a.name))}</h1>
+        <p class="page-desc">Pick a set to start your mock test.</p>
+      </div>
+      <section class="section" style="padding-bottom:40px;">
+        <div class="set-grid">
+          ${Array.from({length:i},(o,c)=>{const d=c+1;return n.has(d)?`
+              <a class="set-card reveal" href="/mock-test/${t.id}/${a.id}/set-${d}" style="--cat:${B(t.id)}" data-delay="${c*40}">
+                <span class="set-card-head">
+                  <span class="set-num">${String(d).padStart(2,"0")}</span>
+                  <span class="set-status">Available</span>
+                </span>
+                <span class="set-name">Mock Test Set ${d}</span>
+                <span class="set-meta">Full paper • Instant scoring</span>
+                <span class="set-go">
+                  <span>Start Test</span>
+                  <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </span>
+              </a>`:`
+              <div class="set-card set-card-locked reveal" style="--cat:${B(t.id)}" data-delay="${c*40}">
+                <span class="set-card-head">
+                  <span class="set-num">${String(d).padStart(2,"0")}</span>
+                  <span class="set-status set-status-locked">
+                    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    Coming Soon
+                  </span>
+                </span>
+                <span class="set-name">Mock Test Set ${d}</span>
+                <span class="set-meta">Not published yet</span>
+              </div>`}).join("")}
+        </div>
+      </section>`,T()}async function jo(e,t,a,s){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`;const n=await Io(t,a,s);if(!n){e.innerHTML=`
+        <div class="qa-empty" style="padding:60px 20px;">
+          <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
+          <p>Questions for Set ${s} have not been uploaded yet. Please check back soon.</p>
+          <div style="margin-top:18px;">
+            <a class="btn btn-outline" href="/mock-test/${t.id}/${a.id}">← Back to Sets</a>
+          </div>
+        </div>`;return}const i=n.questions.filter(h=>h.options&&h.options.length>=2),o=i.length?i:n.questions,c=[10,15,20,25].filter(h=>h<=o.length);c.length||c.push(o.length);const d=c.includes(25)?25:c[c.length-1];u.mock={cat:t,subId:a.id,pool:o,configured:!1,count:d,testLang:t.id==="english"?"en":"as",setInfo:{setNumber:s,title:n.title,subject:x(a.name)}},e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          <a href="/">Home</a><span class="bc-sep">/</span>
+          <a href="/mock-test">Mock Test</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}">${l(x(t.name))}</a><span class="bc-sep">/</span>
+          <a href="/mock-test/${t.id}/${a.id}">${l(x(a.name))}</a><span class="bc-sep">/</span>
+          <span>${l(n.title)}</span>
+        </nav>
+        <h1>${l(n.title)} — ${l(x(a.name))}</h1>
+        <p class="page-desc">Choose your language and start when ready.</p>
+      </div>
+
+      <div class="mt-setup">
+        <div class="mt-hero" style="--cat:${B(t.id)}">
+          <span class="mt-hero-icon">${pe(t.id)}</span>
+          <span style="min-width:0;">
+            <span class="mt-hero-cat">${l(x(t.name))}</span>
+            <span class="mt-hero-title">${l(n.title)} • ${l(x(a.name))}</span>
+            <span class="mt-hero-chips">
+              <span class="mt-chip">${u.mock.pool.length} ${r("mock.questions")}</span>
+              <span class="mt-chip">অসমীয়া / English</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">Question Language <span>প্ৰশ্নৰ ভাষা</span></div>
+          <div class="mt-segmented">
+            <button type="button" class="mt-seg-btn ${u.mock.testLang==="as"?"active":""}" data-mocklang="as">
+              <span class="mt-seg-ico">অ</span> অসমীয়া (Assamese)
+            </button>
+            <button type="button" class="mt-seg-btn ${u.mock.testLang==="en"?"active":""}" data-mocklang="en">
+              <span class="mt-seg-ico">A</span> English
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-block">
+          <div class="mt-label">Number of Questions <span>প্ৰশ্নৰ সংখ্যা</span></div>
+          <div class="count-picker" id="set-count-picker" style="margin:0;">
+            ${c.map(h=>`<button type="button" data-count="${h}" class="${h===d?"active":""}">${h}</button>`).join("")}
+          </div>
+        </div>
+
+        <button class="btn mt-start" id="mock-begin-btn">${r("mock.begin")} →</button>
+
+        <div class="mt-block">
+          <div class="mt-label">Instructions <span>নিৰ্দেশনা</span></div>
+          <ul class="mt-rules">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>This is a timed test — a stopwatch tracks your total time.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>Choose the best answer. Results are graded instantly on submit.</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>You can quit anytime — your current progress will be lost.</li>
+          </ul>
+        </div>
+      </div>`,S("[data-mocklang]").forEach(h=>{h.addEventListener("click",()=>{S("[data-mocklang]").forEach(f=>f.classList.remove("active")),h.classList.add("active"),u.mock.testLang=h.dataset.mocklang})});let p=d;const m=g("#set-count-picker");m&&S("button",m).forEach(h=>{h.addEventListener("click",()=>{S("button",m).forEach(f=>f.classList.remove("active")),h.classList.add("active"),p=parseInt(h.dataset.count,10),u.mock.count=p})}),g("#mock-begin-btn").addEventListener("click",()=>{He({title:`Start ${n.title}?`,message:`You are about to start a ${p} question mock test in ${u.mock.testLang==="as"?"অসমীয়া":"English"}. Do you want to proceed?`,confirmText:"Start Test",cancelText:"Cancel",onConfirm:()=>os(p)})})}const Ho=["০","১","২","৩","৪","৫","৬","৭","৮","৯"];function Ae(e){return String(e).replace(/[0-9]/g,t=>Ho[+t])}function Bo(e){const t=e?e.sections.reduce((d,p)=>d+p.questions,0):100,a=e&&e.durationMinutes||120,s=e&&e.totalMarks||50,n=e&&e.marksPerQuestion||.5,i=e&&e.negativeMarking||0,o=Math.round(a/60*10)/10,c=i>0?ee("mock.examwise.bpMarkingVal",{m:n,neg:i}):ee("mock.examwise.bpMarkingNoNeg",{m:n});return{questions:t,time:ee("mock.examwise.bpTimeVal",{mins:a,hours:o}),marks:ee("mock.examwise.bpMarksVal",{n:s}),marking:c,rule1:ee("mock.examwise.bpRule1",{mins:a,hours:o}),rule2:ee("mock.examwise.bpRule2",{n:t,m:n,total:s}),rule3:i>0?ee("mock.examwise.bpRule3Neg",{neg:i}):r("mock.examwise.bpRule3"),asRule1:bt("mock.examwise.bpRule1","as",{mins:Ae(a),hours:Ae(o)}),asRule2:bt("mock.examwise.bpRule2","as",{n:Ae(t),m:Ae(n),total:Ae(s)}),asRule3:i>0?bt("mock.examwise.bpRule3Neg","as",{neg:Ae(i)}):I("mock.examwise.bpRule3","as")}}function zo(e,t){const a=t.pool||[],s=t.blueprint||null,n=Bo(s),i=(t.countOptions||[10,15,20,25]).filter(h=>h<=a.length);i.length||i.push(a.length);const o=i.includes(25)?25:i[i.length-1],c=t.testLang||"as";u.mock={cat:t.cat||null,pool:a,configured:!1,count:o,testLang:c,blueprint:s,setInfo:t.setInfo||null},e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb">
+          ${(t.breadcrumb||[]).map(h=>`${h.href?`<a href="${h.href}">${l(h.label)}</a><span class="bc-sep">/</span>`:`<span>${l(h.label)}</span>`}`).join("")}
+        </nav>
+        <h1>${l(t.title)}</h1>
+        <p class="page-desc">${r("mock.examwise.setup.desc")}</p>
+      </div>
+
+      <div class="mt-setup">
+        <div class="mt-hero" style="--cat:${t.color}">
+          <span class="mt-hero-icon">${t.iconHtml}</span>
+          <span style="min-width:0;">
+            <span class="mt-hero-cat">${l(t.heroCat)}</span>
+            <span class="mt-hero-title">${l(t.heroTitle)}</span>
+            <span class="mt-hero-chips">
+              <span class="mt-chip">${a.length} ${r("mock.questions")}</span>
+              <span class="mt-chip">অসমীয়া / English</span>
+            </span>
+          </span>
+        </div>
+
+        <div class="mt-block mt-details">
+          <div class="mt-label">${r("mock.examwise.details")} <span>পৰীক্ষাৰ বিৱৰণ</span></div>
+          <div class="mt-detail-grid">
+            ${s?"":`<span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailQuestions")}</span><b id="mt-count-val">${o}</b></span>`}
+            <span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailLang")}</span><b id="mt-lang-val">${c==="as"?"অসমীয়া":"English"}</b></span>
+            <span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailMode")}</span><b>${r("mock.examwise.modeTimed")}</b></span>
+            ${s?`<span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailTime")}</span><b>${l(n.time)}</b></span>`:""}
+            ${s?`<span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailMarks")}</span><b>${l(n.marks)}</b></span>`:""}
+            <span class="mt-detail"><span class="mt-detail-k">${r("mock.examwise.detailMarking")}</span><b>${s?l(n.marking):r("mock.examwise.markingVal")}</b></span>
+          </div>
+        </div>
+
+        ${s?"":`<div class="mt-block">
+          <div class="mt-label">${r("mock.examwise.count")} <span>প্ৰশ্নৰ সংখ্যা</span></div>
+          <div class="count-picker" id="set-count-picker" style="margin:0;">
+            ${i.map(h=>`<button type="button" data-count="${h}" class="${h===o?"active":""}">${h}</button>`).join("")}
+          </div>
+        </div>`}
+
+        <div class="mt-block">
+          <div class="mt-label">${r("mock.examwise.lang")} <span>প্ৰশ্নৰ ভাষা</span></div>
+          <div class="mt-segmented">
+            <button type="button" class="mt-seg-btn ${c==="as"?"active":""}" data-mocklang="as">
+              <span class="mt-seg-ico">অ</span> অসমীয়া (Assamese)
+            </button>
+            <button type="button" class="mt-seg-btn ${c==="en"?"active":""}" data-mocklang="en">
+              <span class="mt-seg-ico">A</span> English
+            </button>
+          </div>
+        </div>
+
+        <div class="mt-ready">
+          <span class="mt-ready-txt"><b>${r("mock.examwise.readyTitle")}</b><span>${r("mock.examwise.readySub")}</span></span>
+          <button class="btn mt-start" id="mock-begin-btn">${r("mock.begin")} →</button>
+        </div>
+        <div class="mt-block">
+          <div class="mt-label">${r("mock.examwise.instructions")} <span>নিৰ্দেশনা</span></div>
+          <p class="mt-sub">${r("mock.examwise.instructionsSub")}</p>
+          <ul class="mt-rules">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><span>${s?l(n.rule1):r("mock.examwise.rule1")}<span class="mt-rule-as" lang="as">${s?l(n.asRule1):I("mock.examwise.ruleAs1","as")}</span></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg><span>${s?l(n.rule2):r("mock.examwise.rule2")}<span class="mt-rule-as" lang="as">${s?l(n.asRule2):I("mock.examwise.ruleAs2","as")}</span></span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg><span>${s?l(n.rule3):r("mock.examwise.rule3")}<span class="mt-rule-as" lang="as">${s?l(n.asRule3):I("mock.examwise.ruleAs3","as")}</span></span></li>
+            ${s?`<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg><span>${r("mock.examwise.rule4")}<span class="mt-rule-as" lang="as">${I("mock.examwise.ruleAs4","as")}</span></span></li>`:""}
+          </ul>
+        </div>
+
+      </div>`,S("[data-mocklang]").forEach(h=>{h.addEventListener("click",()=>{S("[data-mocklang]").forEach(v=>v.classList.remove("active")),h.classList.add("active"),u.mock.testLang=h.dataset.mocklang;const f=g("#mt-lang-val");f&&(f.textContent=h.dataset.mocklang==="as"?"অসমীয়া":"English")})});let d=o;const p=g("#set-count-picker");p&&S("button",p).forEach(h=>{h.addEventListener("click",()=>{S("button",p).forEach(v=>v.classList.remove("active")),h.classList.add("active"),d=parseInt(h.dataset.count,10),u.mock.count=d;const f=g("#mt-count-val");f&&(f.textContent=String(d))})});const m=g("#mock-begin-btn");m&&m.addEventListener("click",()=>{He({title:r("mock.examwise.confirm.title"),message:r("mock.examwise.confirm.msg").replace("{n}",d).replace("{lang}",u.mock.testLang==="as"?"অসমীয়া":"English"),confirmText:r("mock.begin"),cancelText:r("mock.examwise.confirm.cancel"),onConfirm:()=>t.onStart(d)})})}function os(e){if(!u.mock)return;const t=u.mock.pool.filter(n=>n.options&&n.options.length>=2),a=t.length?t:u.mock.pool,s=Math.min(e||a.length,a.length);u.mock=Object.assign(u.mock,{pool:es(a).slice(0,s),count:s,idx:0,answers:[],elapsedSec:0,started:!0,introPending:!0,timerId:null}),Gt()}async function ut(e,t,a,s,n){e.innerHTML=`<div class="loader"><div class="spinner"></div><p>${r("mock.loading")}</p></div>`;const i=await io(t,a,s,n);if(!i.length){e.innerHTML=`
+        <div class="qa-empty" style="padding:60px 20px;">
+          <div class="big"><svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></div>
+          <p>${r("mock.noQuestions")}</p>
+          <div style="margin-top:18px;"><a class="btn btn-outline" href="/mock-test">← Choose Another Category</a></div>
+        </div>`;return}u.mock={cat:t,subId:a||null,pool:i,configured:!1,count:0,testLang:t.id==="english"?"en":"as"};const o=[10,20,50,100].filter(p=>p<=i.length);o.includes(i.length)||o.push(i.length),e.innerHTML=`
+      <div class="page-head">
+        <nav class="breadcrumb"><a href="/">Home</a><span class="bc-sep">/</span><a href="/mock-test">Mock Test</a><span class="bc-sep">/</span><span>${l(x(t.name))}</span></nav>
+        <h1>${r("mock.setup.title")}</h1>
+        <p class="page-desc">${l(x(t.name))} • ${i.length} ${r("mock.questions")}</p>
+      </div>
+
+      <div class="setup-panel">
+        <div class="sp-title">
+          <span class="mock-ico" style="background:${B(t.id)};width:40px;height:40px;border-radius:11px;">${pe(t.id)}</span>
+          <b>${l(x(t.name))} Mock Test</b>
+        </div>
+        <p class="sp-sub">Configure your test settings below.</p>
+        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">Select Question Language / প্ৰশ্নৰ ভাষা:</p>
+        <div class="lang-switch" style="margin-top:8px; display:inline-flex; width:100%;">
+          <button type="button" class="lang-btn ${u.mock.testLang==="as"?"active":""}" data-mocklang="as" style="flex:1; padding:10px; font-weight:700;">অসমীয়া (Assamese)</button>
+          <button type="button" class="lang-btn ${u.mock.testLang==="en"?"active":""}" data-mocklang="en" style="flex:1; padding:10px; font-weight:700;">English</button>
+        </div>
+
+        <p style="margin-top:18px;font-weight:700;font-size:.9rem;">${r("mock.setup.count")} / প্ৰশ্নৰ সংখ্যা বাছনি কৰক:</p>
+        <div class="count-picker" id="count-picker">
+          ${o.map((p,m)=>`<button type="button" data-count="${p}" class="${m===0?"active":""}">${p}</button>`).join("")}
+        </div>
+
+        <button class="btn btn-begin" id="mock-begin-btn">${r("mock.begin")}</button>
+        <div class="setup-note">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <span>Stopwatch Timer will track your total time taken. Instant grading on final submission.</span>
+        </div>
+      </div>`,S("[data-mocklang]").forEach(p=>{p.addEventListener("click",()=>{S("[data-mocklang]").forEach(m=>m.classList.remove("active")),p.classList.add("active"),u.mock.testLang=p.dataset.mocklang})});const c=g("#count-picker");let d=o[0]||i.length;S("button",c).forEach(p=>{p.addEventListener("click",()=>{S("button",c).forEach(m=>m.classList.remove("active")),p.classList.add("active"),d=parseInt(p.dataset.count,10)})}),g("#mock-begin-btn").addEventListener("click",()=>{He({title:"Start Mock Test?",message:`You are about to start a ${d} question test in ${u.mock.testLang==="as"?"অসমীয়া":"English"}. Do you want to proceed?`,confirmText:"Start Test",cancelText:"Cancel",onConfirm:()=>is(d)})})}function is(e){if(!u.mock)return;const t=es(u.mock.pool).slice(0,e);u.mock=Object.assign(u.mock,{pool:t,idx:0,answers:[],elapsedSec:0,started:!0,introPending:!0,timerId:null}),Gt()}function Gt(){const e=u.mock,t=e.pool[e.idx];if(!t)return Za(()=>ls());Je(!0);const a=g("#app"),s=e.answers[e.idx]!==void 0,n=["A","B","C","D","E"],i=de(t.q),o=t.options||[],c=xe(t),d=e.cat?x(e.cat.name):"",p=e.setInfo?`${l(d?d+" • ":"")}${l(e.setInfo.title)}`:l(d);a.innerHTML=`
+      <div class="quiz-wrap">
+        <div class="quiz-top">
+          <span class="qt-cat">${p} • Question ${e.idx+1}/${e.pool.length}</span>
+          <span class="quiz-timer" id="quiz-timer" title="Time Elapsed"><span id="quiz-timer-val">${mt(e.elapsedSec)}</span></span>
+          <button class="quiz-quit" id="quiz-quit-btn">${r("mock.quit")}</button>
+        </div>
+        <div class="quiz-progress"><span id="quiz-progress" style="width:${(e.idx/e.pool.length*100).toFixed(1)}%"></span></div>
+        <div class="quiz-card">
+          <div class="quiz-qno">Question ${e.idx+1}</div>
+          <div class="quiz-qtext">${E(i)}</div>
+          ${c}
+
+          <div class="quiz-options" id="quiz-options">
+            ${o.map((f,v)=>{const b=Ye(f),y=Ve(f);return`
+              <button class="quiz-option${y?" quiz-option-fig":""}" data-opt="${v}" ${s?"disabled":""}>
+                <span class="opt-key">${n[v]}</span>
+                <span class="opt-main">${y?`<span class="opt-fig">${y}</span>`:""}${b?`<span class="opt-text">${E(b)}</span>`:""}</span>
+              </button>`}).join("")}
+          </div>
+
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+          <button class="btn btn-primary quiz-next" id="quiz-next" type="button">
+            ${e.idx+1===e.pool.length?"Final Submit":s?r("mock.next")+" →":r("mock.skip")+" →"}
+          </button>
+        </div>
+      </div>`,wt();const m=g(".quiz-card");m&&ce(m);const h=g("#quiz-options");h&&S(".quiz-option",h).forEach(f=>{f.addEventListener("click",()=>{if(e.answers[e.idx]!==void 0)return;const v=parseInt(f.dataset.opt,10);e.answers[e.idx]=v,S(".quiz-option",h).forEach(q=>{q.disabled=!0;const $=parseInt(q.dataset.opt,10);$===t.correct?q.classList.add("correct"):$===v&&q.classList.add("wrong"),$===v&&q.classList.add("selected")});const b=g("#quiz-feedback");b.classList.add(v===t.correct?"good":"bad"),b.style.display="block";const y=o[t.correct],w=y&&typeof y=="object"&&y.option?String(y.option):n[t.correct]||"",C=`${w?`<b>(${w})</b> `:""}${Ve(y)?`<span class="opt-fig fb-fig">${Ve(y)}</span>`:""}${Ye(y)?E(Ye(y)):""}`;b.innerHTML=v===t.correct?r("mock.revealCorrect"):`${r("mock.correctAnswer")}: ${C||w||""}`,ce(b);const A=g("#quiz-next");A&&(A.disabled=!1,A.textContent=e.idx+1===e.pool.length?"Final Submit":r("mock.next")+" →")})}),g("#quiz-next").addEventListener("click",()=>{e.idx++,e.idx>=e.pool.length?(ct(),Za(()=>ls())):Gt()}),g("#quiz-quit-btn").addEventListener("click",()=>{He({title:"Quit Mock Test?",message:"Are you sure you want to quit the mock test? Your current progress will be lost.",confirmText:"Yes, Quit",cancelText:"Resume Test",onConfirm:()=>as()})}),e.introPending?(e.introPending=!1,ts(),Fo(()=>rs())):(e.timerId||rs(),ts())}function Fo(e){const t=document.getElementById("mock-intro");t&&t.remove();const a=document.createElement("div");a.className="mock-intro",a.id="mock-intro",a.innerHTML=`
+      <div class="mi-backdrop"></div>
+      <div class="mi-stage">
+        <div class="mi-ring">
+          <svg viewBox="0 0 200 200" aria-hidden="true">
+            <defs>
+              <linearGradient id="mi-grad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#6366f1"></stop>
+                <stop offset="1" stop-color="#22d3ee"></stop>
+              </linearGradient>
+            </defs>
+            <circle class="mi-ring-bg" cx="100" cy="100" r="88"></circle>
+            <circle class="mi-ring-fg" cx="100" cy="100" r="88"></circle>
+          </svg>
+          <div class="mi-core"><div class="mi-count" id="mi-count">3</div></div>
+        </div>
+        <div class="mi-text">
+          <span class="mi-title">Test Started</span>
+          <span class="mi-line"></span>
+          <span class="mi-sub">All the best • শুভকামনা</span>
+        </div>
+      </div>`,document.body.appendChild(a);const s=a.querySelector(".mi-stage"),n=a.querySelector(".mi-ring-fg"),i=a.querySelector("#mi-count"),o=3,c=600;s&&s.style.setProperty("--ring-dur",c+"ms"),requestAnimationFrame(()=>{a.classList.add("in")});const d=h=>{i.textContent=String(h),i.classList.remove("tick"),i.offsetWidth,i.classList.add("tick"),n&&(n.classList.remove("fill"),n.getBoundingClientRect(),n.classList.add("fill"))};d(o);let p=o;const m=setInterval(()=>{if(p--,p>=0){d(p);return}clearInterval(m),a.classList.add("go"),i.outerHTML='<div class="mi-check" id="mi-count"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg></div>',setTimeout(()=>{a.classList.add("out"),setTimeout(()=>{a.remove(),e&&e()},520)},880)},c)}function rs(){const e=u.mock,t=()=>{if(!e||!e.started||e.timerId===null)return;e.elapsedSec++;const a=g("#quiz-timer-val");a&&(a.textContent=mt(e.elapsedSec))};e.timerId=setInterval(t,1e3)}function mt(e){const t=Math.max(0,e);return`${String(Math.floor(t/60)).padStart(2,"0")}:${String(t%60).padStart(2,"0")}`}function Oo(e){const t=et()?"/as/leaderboard/":"/leaderboard/";try{const a=window.AXOLeaderboard;if(a&&typeof a.resolveScope=="function"){const s=a.resolveScope(e.cat&&e.cat.id,e.subId);if(s){const n=s.split("/");return t+"?subject="+encodeURIComponent(n[0])+"&sub="+encodeURIComponent(n[1])}}}catch{}return t}function ls(){const e=u.mock;if(ct(),Dt(),Je(!1),!e)return;let t=0,a=0,s=0;const n=e.pool.map((w,C)=>{const A=e.answers[C];let q=!1;return A===void 0?s++:A===w.correct?(q=!0,t++):a++,{q:w,a:A,ok:q}}),i=e.elapsedSec,o=e.pool.length?Math.round(t/e.pool.length*100):0,c=o>=80?"mock.result.msgExcellent":o>=55?"mock.result.msgGood":o>=35?"mock.result.msgAverage":"mock.result.msgPoor",d=Oo(e),p=52.5,m=2*Math.PI*p,h=m*(1-o/100),f=g("#app");f.innerHTML=`
+      <div class="result-wrap">
+        <div class="result-panel">
+          <div class="result-ring">
+            <svg viewBox="0 0 120 120">
+              <circle class="r-bg" cx="60" cy="60" r="${p}"></circle>
+              <circle class="r-fg" cx="60" cy="60" r="${p}" stroke-dasharray="${m.toFixed(1)}" stroke-dashoffset="${m.toFixed(1)}"></circle>
+            </svg>
+            <div class="result-percent">${o}%</div>
+          </div>
+          <h2 style="font-size:1.25rem;">${r("mock.result.title")}</h2>
+          ${e.setInfo?`<p style="font-size:.85rem; color:var(--ink-soft,#64748b); margin:2px 0 0;">${l(e.setInfo.title)}${e.setInfo.difficulty?" • "+Ro(e.setInfo.difficulty):""}</p>`:""}
+          <p class="result-msg">${r(c)}</p>
+          <div class="result-stats">
+            <div class="rstat"><b>${t}</b><span>${r("mock.result.correct")}</span></div>
+            <div class="rstat bad"><b>${a}</b><span>${r("mock.result.wrong")}</span></div>
+            <div class="rstat skip"><b>${s}</b><span>${r("mock.result.skipped")}</span></div>
+            <div class="rstat"><b>${mt(i)}</b><span>Total Time Taken</span></div>
+          </div>
+          <div class="result-actions">
+            <a class="btn btn-accent" href="${d}">🏆 ${r("mock.result.leaderboard")}</a>
+            <button class="btn btn-outline" id="mock-share-btn">${No()} ${r("mock.result.share")}</button>
+            <button class="btn btn-outline" id="mock-retry">${r("mock.result.retry")}</button>
+            <a class="btn btn-outline" href="/mock-test">${r("mock.result.changeCat")}</a>
+            <button class="btn btn-outline" id="mock-review-toggle">${r("mock.result.review")}</button>
+            <a class="btn btn-outline" href="/mock-test">${r("mock.result.exit")}</a>
+          </div>
+        </div>
+        <div class="review-list" id="review-list" hidden>
+          ${n.map((w,C)=>{const A=w.q,q=w.a===void 0?`<span class="rv-badge" style="background:#f1f5f9;color:#64748b;">${r("mock.result.skipped")}</span>`:`<span class="rv-badge ${w.ok?"good":"bad"}">${w.ok?"✓ "+r("mock.result.correct"):"✕ "+r("mock.result.wrong")}</span>`,$=A.options||[],M=W=>{if(!$[W])return"";const be=String.fromCharCode(65+W),X=Ve($[W]),ie=Ye($[W]);return`<b>(${be})</b> ${X?`<span class="rv-fig">${X}</span>`:""}${ie?E(ie):X?"":"(No text)"}`};let D="";w.a!==void 0&&$.length?(D=`<div class="rv-ans"><b>${r("mock.answer")}:</b> ${M(w.a)}</div>`,w.ok||(D+=`<div class="rv-ans correct-line"><b>${r("mock.correctAnswer")}:</b> ${M(A.correct)}</div>`)):$.length&&(D=`<div class="rv-ans correct-line"><b>${r("mock.correctAnswer")}:</b> ${M(A.correct)}</div>`);const j=de(A.explanation),P=u.mock&&u.mock.testLang==="as"?"ব্যাখ্যা":"Explanation",z=j?`<div class="rv-exp"><b>${P}:</b> ${E(j)}</div>`:"";return`
+              <div class="review-item">
+                <div class="rv-q">Q${C+1}. ${E(de(A.q))}</div>
+                ${xe(A)}
+                ${q}
+                ${D}
+                ${z}
+              </div>`}).join("")}
+        </div>
+      </div>`,wt();const v=g("#review-list");v&&ce(v),requestAnimationFrame(()=>{const w=g(".result-ring .r-fg");w&&(w.style.strokeDashoffset=h.toFixed(1))}),g("#mock-retry").addEventListener("click",()=>is(e.pool.length));const b=g("#mock-share-btn");b&&b.addEventListener("click",ms);const y=g("#mock-review-toggle");y.addEventListener("click",()=>{const w=g("#review-list"),C=w.hidden;w.hidden=!C,y.textContent=r(C?"mock.result.hideReview":"mock.result.review")}),e.timerId&&(clearInterval(e.timerId),e.timerId=null)}const Wt="https://axomexam.in";function No(){return'<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></svg>'}function cs(){return'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>'}function Go(){return'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>'}function Wo(){return'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>'}function _o(){return'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>'}function Qo(){return'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></svg>'}function Uo(){return'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>'}function Yo(){return'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>'}function Vo(){return'<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>'}function ds(){return'<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'}function Ko(){return'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>'}function Jo(){const e=u.mock;if(!e)return null;let t=0,a=0,s=0;e.pool.forEach((m,h)=>{const f=e.answers[h];f===void 0?s++:f===m.correct?t++:a++});const n=e.pool.length?Math.round(t/e.pool.length*100):0,i=n>=80?"mock.result.msgExcellent":n>=55?"mock.result.msgGood":n>=35?"mock.result.msgAverage":"mock.result.msgPoor";let o="/mock-test";location.pathname&&location.pathname.indexOf("/mock-test/")===0&&(o=location.pathname.replace(/\/index\.html$/,""));const c=e.setInfo&&e.setInfo.title?e.setInfo.title:"",d=e.setInfo&&e.setInfo.subject?e.setInfo.subject:x(e.cat&&e.cat.name),p=c?d?d+" • "+c:c:x(e.cat&&e.cat.name)+" Mock Test";return{correct:t,wrong:a,skipped:s,pct:n,msgKey:i,url:Wt+o,title:p,time:mt(e.elapsedSec),count:e.pool.length}}function Xo(e){return r("share.text").replace("{p}",String(e.pct)).replace("{t}",e.title).replace("{url}",e.url).replace("{site}",Wt)}function Zo(e){const t=String(e).split(","),a=t[0].match(/:(.*?);/),s=a?a[1]:"image/png",n=atob(t[1]),i=new Uint8Array(n.length);for(let o=0;o<n.length;o++)i[o]=n.charCodeAt(o);return new Blob([i],{type:s})}function ps(e,t,a,s,n,i){const o=Math.min(i,s/2,n/2);e.beginPath(),e.moveTo(t+o,a),e.arcTo(t+s,a,t+s,a+n,o),e.arcTo(t+s,a+n,t,a+n,o),e.arcTo(t,a+n,t,a,o),e.arcTo(t,a,t+s,a,o),e.closePath()}function ei(){const s="'Plus Jakarta Sans','Inter',Arial,sans-serif",n=document.createElement("canvas");n.width=372,n.height=68;const i=n.getContext("2d");return i.scale(2,2),i.fillStyle="rgba(255,255,255,0.18)",ps(i,0,0,34,34,9),i.fill(),i.fillStyle="#ffffff",i.textAlign="center",i.textBaseline="middle",i.font="900 18px "+s,i.fillText("A",17,17),i.textAlign="left",i.font="800 21px "+s,i.fillText("axomexam.in",46,17),n.toDataURL("image/png")}function ti(e){const n="'Plus Jakarta Sans','Inter',Arial,sans-serif",i=document.createElement("canvas").getContext("2d");i.font="800 11px "+n;const o=Math.ceil(i.measureText(e).width+32),c=document.createElement("canvas");c.width=o*2,c.height=56;const d=c.getContext("2d");return d.scale(2,2),d.fillStyle="rgba(255,255,255,0.16)",ps(d,.5,.5,o-1,27,99),d.fill(),d.strokeStyle="rgba(255,255,255,0.28)",d.lineWidth=1,d.stroke(),d.fillStyle="#ffffff",d.textAlign="center",d.textBaseline="middle",d.font="800 11px "+n,d.fillText(e,o/2,28/2),c.toDataURL("image/png")}async function ai(e,t,a){try{await document.fonts.ready}catch{}const s=52.5,n=2*Math.PI*s,i=n*(1-Math.max(0,Math.min(100,e.pct))/100),o=(String(t||"").trim().charAt(0)||"A").toUpperCase(),c="font-family:'Plus Jakarta Sans','Inter',Arial,sans-serif",d=ei(),p=ti(r("share.reportBadge")),m=a?'<img src="'+a+'" alt="" />':'<svg viewBox="0 0 84 84" width="84" height="84" aria-hidden="true"><text x="42" y="56.5" text-anchor="middle" fill="#ffffff" font-size="40" font-weight="800" style="'+c+'">'+l(o)+"</text></svg>",h=[{v:e.correct,l:r("mock.result.correct")},{v:e.wrong,l:r("mock.result.wrong")},{v:e.skipped,l:r("mock.result.skipped")},{v:e.time,l:r("mock.result.time")}],f=document.createElement("div");f.className="report-card",f.innerHTML='<div class="rc-top"><div class="rc-brand"><img src="'+d+'" alt="" /></div><div class="rc-badge"><img src="'+p+'" alt="" /></div></div><div class="rc-user"><div class="rc-avatar'+(a?" has-photo":"")+'">'+m+'</div><div><div class="rc-name">'+l(t)+'</div><div class="rc-test">'+l(e.title)+'</div></div></div><div class="rc-score-row"><div class="rc-ring"><svg class="rc-ring-arc" viewBox="0 0 120 120"><circle class="rc-r-bg" cx="60" cy="60" r="'+s+'"></circle><circle class="rc-r-fg" cx="60" cy="60" r="'+s+'" stroke-dasharray="'+n.toFixed(1)+'" stroke-dashoffset="'+i.toFixed(1)+'"></circle></svg><svg class="rc-ring-label" viewBox="0 0 120 120" aria-hidden="true"><text x="60" y="71" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="800" style="'+c+'">'+e.pct+'%</text><text x="60" y="88" text-anchor="middle" fill="#ffffff" fill-opacity="0.85" font-size="9" font-weight="700" style="'+c+'">'+l(r("share.score"))+'</text></svg></div><div class="rc-msg"><div class="rc-msg-title">'+l(r(e.msgKey))+'</div><div class="rc-msg-sub">'+l(e.correct+" "+r("mock.result.correct")+"  •  "+e.wrong+" "+r("mock.result.wrong")+"  •  "+e.skipped+" "+r("mock.result.skipped"))+'</div></div></div><div class="rc-stats">'+h.map(function(b){return'<div class="rc-stat"><b>'+l(String(b.v))+"</b><span>"+l(b.l)+"</span></div>"}).join("")+'</div><div class="rc-challenge"><div class="rc-challenge-ico">'+Ko()+'</div><div><div class="rc-challenge-title">'+l(r("share.challenge"))+'</div><div class="rc-challenge-link">'+l(e.url)+'</div></div></div><div class="rc-foot"><div class="rc-foot-line">'+l(r("share.cardLine1").replace("{p}",String(e.pct)).replace("{t}",e.title).replace("{site}",Wt+"/"))+'</div><div class="rc-foot-line rc-foot-link">'+l(e.url)+"</div></div>";const v=document.createElement("div");v.className="report-card-holder",v.appendChild(f),document.body.appendChild(v);try{if(await Xt(),!window.html2canvas)throw new Error("html2canvas unavailable");return(await window.html2canvas(f,{scale:2,useCORS:!0,logging:!1,backgroundColor:"#4f46e5"})).toDataURL("image/png")}finally{v.remove()}}function Ce(e,t){const a=document.createElement("a");a.href=e,a.download=t,document.body.appendChild(a),a.click(),a.remove()}async function Be(e,t){if(navigator.canShare&&navigator.canShare({files:[e]}))try{return await navigator.share({files:[e],text:t,title:"axomexam Result"}),!0}catch(a){if(a&&a.name==="AbortError")return!0}return!1}async function us(e){try{await navigator.clipboard.writeText(e),_(r("share.linkCopied"))}catch{const a=document.createElement("textarea");a.value=e,document.body.appendChild(a),a.select();try{document.execCommand("copy"),_(r("share.linkCopied"))}catch{}a.remove()}}function ms(){const e=Jo();if(!e)return;const t=g("#share-modal");t&&t.remove();const a=document.createElement("div");a.id="share-modal",a.className="read-modal share-modal",a.innerHTML='<div class="read-modal-backdrop"></div><div class="read-modal-box" role="dialog" aria-modal="true"><div class="read-modal-head"><div class="read-modal-titles"><span class="read-modal-title" id="share-modal-title">'+l(r("share.title"))+'</span><span class="read-modal-sub" id="share-modal-sub">'+l(r("share.subtitle"))+'</span></div><button class="read-close" id="share-close" type="button" aria-label="Close">✕</button></div><div class="read-modal-body" id="share-body"><form class="share-form" id="share-form" novalidate><div><label for="share-name">'+l(r("share.nameLabel"))+'</label><input type="text" id="share-name" maxlength="40" autocomplete="name" placeholder="'+l(r("share.namePlaceholder"))+'" /></div><div><label>'+l(r("share.photoLabel"))+'</label><div class="share-photo-row"><div class="share-photo-preview" id="share-photo-preview">'+ds()+'</div><div class="share-photo-actions"><label class="share-file-btn" for="share-photo-input">'+Vo()+" "+l(r("share.photoChoose"))+'</label><input type="file" id="share-photo-input" accept="image/*" hidden /><button type="button" class="share-photo-remove" id="share-photo-remove" hidden>'+l(r("share.photoRemove"))+'</button></div></div></div><div style="display:flex; gap:10px; margin-top:6px;"><button type="button" class="btn btn-outline" id="share-cancel">'+l(r("share.cancel"))+'</button><button type="submit" class="btn btn-primary" id="share-generate">'+l(r("share.generate"))+"</button></div></form></div></div>",document.body.appendChild(a);let s="";const n=()=>a.remove();g("#share-close",a).addEventListener("click",n),g(".read-modal-backdrop",a).addEventListener("click",n),g("#share-cancel",a).addEventListener("click",n);const i=g("#share-photo-input",a),o=g("#share-photo-preview",a),c=g("#share-photo-remove",a);i.addEventListener("change",()=>{const d=i.files&&i.files[0];if(!d)return;const p=new FileReader;p.onload=()=>{s=String(p.result||""),o.innerHTML='<img src="'+s+'" alt="" />',c.hidden=!1},p.readAsDataURL(d)}),c.addEventListener("click",()=>{s="",i.value="",o.innerHTML=ds(),c.hidden=!0}),g("#share-form",a).addEventListener("submit",async d=>{d.preventDefault();const p=g("#share-name",a),m=(p.value||"").trim();if(!m){_(r("share.nameRequired")),p.focus();return}const h=g("#share-generate",a);h.disabled=!0,h.textContent=r("share.generating");let f="";try{f=await ai(e,m,s)}catch(v){console.error("Report card generation failed:",v),h.disabled=!1,h.textContent=r("share.generate"),_(r("share.error"));return}si(a,{S:e,name:m,dataUrl:f})})}function si(e,t){const a=t.S,s=t.dataUrl,n=Xo(a),i="axomexam-report-"+a.pct+"percent.png",o=g("#share-body",e);if(!o)return;const c=(v,b,y,w)=>'<button type="button" class="share-target '+v+'" data-share="'+b+'">'+w+"<span>"+l(r(y))+"</span></button>";o.innerHTML='<img class="share-preview-img" src="'+s+'" alt="'+l(r("share.previewTitle"))+'" /><div class="share-targets">'+c("wa","whatsapp","share.whatsapp",cs())+c("fb","facebook","share.facebook",Go())+c("tg","telegram","share.telegram",Wo())+c("tw","twitter","share.twitter",_o())+c("more","more","share.more",Qo())+c("dl","dl","share.download",Uo())+c("copy","copy","share.copy",Yo())+'</div><button type="button" class="btn btn-outline" id="share-back" style="width:100%;">← '+l(r("share.back"))+"</button>";const d=g("#share-modal-title",e);d&&(d.textContent=r("share.previewTitle"));const p=g("#share-modal-sub",e);p&&(p.textContent=r("share.shareNow"));const m=Zo(s);let h=m;try{h=new File([m],i,{type:"image/png"})}catch{h=m}const f=!!(navigator.canShare&&navigator.canShare({files:[h]}));g("#share-back",e).addEventListener("click",()=>{e.remove(),ms()}),S("[data-share]",e).forEach(v=>{v.addEventListener("click",async()=>{const b=v.dataset.share,y=encodeURIComponent;if(b==="whatsapp"){if(f&&await Be(h,n))return;Ce(s,i),_(r("share.imageSaved")),window.open("https://wa.me/?text="+y(n),"_blank")}else if(b==="facebook"){if(f&&await Be(h,n))return;Ce(s,i),_(r("share.imageSaved")),window.open("https://www.facebook.com/sharer/sharer.php?u="+y(a.url)+"&quote="+y(n),"_blank")}else if(b==="telegram"){if(f&&await Be(h,n))return;Ce(s,i),_(r("share.imageSaved")),window.open("https://t.me/share/url?url="+y(a.url)+"&text="+y(n),"_blank")}else if(b==="twitter"){if(f&&await Be(h,n))return;Ce(s,i),_(r("share.imageSaved")),window.open("https://twitter.com/intent/tweet?url="+y(a.url)+"&text="+y(n),"_blank")}else if(b==="more"){if(f&&await Be(h,n))return;Ce(s,i),await us(n)}else b==="dl"?(Ce(s,i),_(r("share.downloaded"))):b==="copy"&&await us(n)})})}function ni(e){const t={id:"trending",name:{en:"Trending",as:"জনপ্ৰিয়"},color:"#f97316",icon:"↗"};e.forEach(a=>{if(!a||!a.id)return;const s=`trending/${a.id}`,n={path:s,cat:t,sub:null,section:null,topic:a,title:a.title||a.name,desc:a.description,tags:a.tags||[],nQuestions:(a.questions||[]).length,pdf:a.pdf||null,popularity:Number(a.popularity)||0,extra:!0};u.topicMap[s]=n,u.topicIndex.push(n)})}function oi(){const e="[data-lang],[data-ebklang],[data-exlang],[data-calang]";document.addEventListener("click",t=>{const a=t.target.closest(e);if(!a||a.tagName!=="BUTTON")return;const s=a.getAttribute("data-lang")||a.getAttribute("data-ebklang")||a.getAttribute("data-exlang")||a.getAttribute("data-calang");if(s!=="en"&&s!=="as")return;const n=et();s==="as"&&n||s==="en"&&!n||document.querySelector(`link[rel="alternate"][hreflang="${s}"]`)&&(t.preventDefault(),t.stopPropagation(),window.location.href=Zs()+window.location.search+window.location.hash)},!0)}function ii(){document.addEventListener("click",e=>{const t=e.target.closest("a");if(!t)return;const a=t.getAttribute("href");if(a&&!a.startsWith("/topic/")){if(a.startsWith("#")){const s=a.slice(1);s&&(e.preventDefault(),at(s,!0));return}if(a.startsWith("/")&&!a.startsWith("//")&&!t.hasAttribute("download")&&t.target!=="_blank"){e.preventDefault();const s=a.indexOf("#");if(s>-1){const n=a.slice(0,s),i=a.slice(s+1),o=window.location.pathname.replace(/\/index\.html$/,"");if(n===o||n===o+"/"||n.replace(/\/$/,"")===o.replace(/\/$/,"")){at(i,!0);return}tt(n),setTimeout(()=>at(i,!0),0);return}tt(a)}}})}window.AXOApp={t:e=>r(e),tc:e=>L(e),uiLang:()=>u.uiLang,contentLang:()=>u.lang,mock:()=>u.mock};async function ri(){const e=g("#preloader");u.lang=et()?"as":"en";try{const n=localStorage.getItem("axomexam-ui-lang");n?u.uiLang=n:u.uiLang="en"}catch{u.uiLang="en"}document.body.setAttribute("data-lang",u.lang),document.body.setAttribute("data-ui-lang",u.uiLang),Ke(),xi(),Ns();const[t,a,s]=await Promise.all([API.getCategories().catch(n=>(console.error("Failed to load categories:",n),null)),API.getCounts().catch(()=>null),API.getTrendingTopics().catch(n=>(console.error("Failed to load extra trending topics:",n),null))]);t&&Object.assign(u,Ws(t)),a&&_s(a),s&&ni(s),u.categories.length?(u.ready=!0,Xe(),Ze(),yn(),Gs(),oi(),ii(),window.addEventListener("popstate",()=>{ro()||(Xe(),Ze(),st())}),st(),De(),_n()):g("#app").innerHTML=`<div class="loader"><p>${r("load.error")}</p></div>`,e&&setTimeout(()=>e.classList.add("done"),350)}function hs(){const e=g("#app");if(!e)return;const t=typeof I18N<"u"&&I18N.en&&I18N.en["desc.readMore"]||"Read More",a=typeof I18N<"u"&&I18N.en&&I18N.en["desc.readLess"]||"Show Less";e.querySelectorAll(".page-desc").forEach(s=>{if(s.dataset.enhanced==="1")return;s.dataset.enhanced="1";const n=s.textContent||"";if(!n.includes(`
+`))return;const i=n.split(`
+`).map(v=>v.trim()).filter(Boolean);let o="",c=!1;i.forEach(v=>{const b=v.match(/^[•\-*]\s*(.*)$/);b?(c||(o+="<ul>",c=!0),o+="<li>"+l(b[1])+"</li>"):(c&&(o+="</ul>",c=!1),o+="<p>"+l(v)+"</p>")}),c&&(o+="</ul>");const d=document.createElement("div");d.className="page-desc desc-expandable",d.dataset.enhanced="1",d.innerHTML='<div class="desc-inner">'+o+"</div>",s.replaceWith(d);const p=d.querySelector(".desc-inner"),m=parseFloat(getComputedStyle(p).lineHeight)||24,h=Math.round(m*3.2);if(p.scrollHeight<=h)return;p.style.setProperty("--desc-max",h+"px"),d.classList.add("is-collapsed");const f=document.createElement("button");f.type="button",f.className="desc-toggle",f.setAttribute("aria-expanded","false"),f.innerHTML=t+'<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>',f.addEventListener("click",()=>{const v=d.classList.toggle("is-collapsed");p.style.maxHeight="",f.innerHTML=(v?t:a)+'<svg class="desc-chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>',f.setAttribute("aria-expanded",v?"false":"true")}),d.appendChild(f)})}function li(){const e=g("#app");if(!e)return;hs(),new MutationObserver(()=>hs()).observe(e,{childList:!0,subtree:!0})}function ci(){const e=g("#hamburger");if(!e)return;e.addEventListener("click",()=>{const s=g("#mobile-menu");s&&s.classList.contains("open")?Le():$a()});const t=g("#mobile-backdrop");t&&t.addEventListener("click",Le);const a=g("#mobile-close");a&&a.addEventListener("click",Le),document.addEventListener("keydown",s=>{if(s.key==="Escape"){Le();const n=g("#search-results");n&&(n.hidden=!0)}})}function di(e){const t=S("#tabbar .tab-item");let a="home";e[0]==="mock-test"||e[0]==="exam-wise-mock-test"?a="mock":e[0]==="categories"||e[0]==="category"||e[0]==="topic"?a="categories":e[0]==="exams"?a="exams":e[0]==="search"?a="search":e[0]&&e[0]!==""&&(a=""),t.forEach(s=>s.classList.toggle("active",s.dataset.tab===a))}function pi(){const e=g("#tab-menu");e&&e.addEventListener("click",()=>$a())}function fs(e){const a=e==="dark"?`
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="12" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+    `:`
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:block;">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    `;S(".theme-toggle").forEach(s=>{s.innerHTML=a})}const ui=[{title:{en:"Free DHS & DME Technical Grade III book is live",as:"বিনামূলীয়া DHS আৰু DME কাৰিকৰী তৃতীয় শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ"},desc:{en:"Complete technical science and reasoning notes, topic-wise questions with bilingual answers, and free mock tests — in English and Assamese.",as:"সম্পূৰ্ণ কাৰিকৰী বিজ্ঞান আৰু যুক্তিৰ টোকা, দ্বিভাষিক উত্তৰৰ সৈতে বিষয়ভিত্তিক প্ৰশ্ন, আৰু বিনামূলীয়া মক টেষ্ট — ইংৰাজী আৰু অসমীয়া দুয়োতেই।"},href:"/exams/dhs-dme-technical/"},{title:{en:"RRB NTPC full guide free book is live",as:"RRB NTPC সম্পূৰ্ণ গাইডৰ বিনামূলীয়া কিতাপ উপলব্ধ"},desc:{en:"Mathematics, Reasoning and General Awareness — complete topic-wise questions with bilingual answers and explanations.",as:"গণিত, যুক্তি আৰু সাধাৰণ জ্ঞান — দ্বিভাষিক উত্তৰ আৰু ব্যাখ্যাৰ সৈতে সম্পূৰ্ণ বিষয়ভিত্তিক প্ৰশ্ন।"},href:"/exams/rrb-ntpc/"},{title:{en:"Exam-wise free mock tests are live — test now",as:"পৰীক্ষা-ভিত্তিক বিনামূলীয়া মক টেষ্ট উপলব্ধ — এতিয়াই পৰীক্ষা দিয়ক"},desc:{en:"Full-paper timed mock tests for Assam Police, ADRE Grade III & IV and DHS & DME, with bilingual questions and instant scoring.",as:"অসম আৰক্ষী, ADRE তৃতীয় আৰু চতুৰ্থ শ্ৰেণী আৰু DHS আৰু DME-ৰ বাবে সম্পূৰ্ণ প্ৰশ্নকাকতৰ সময়বদ্ধ মক টেষ্ট, দ্বিভাষিক প্ৰশ্ন আৰু তৎক্ষণাত ফলাফলসহ।"},href:"/exam-wise-mock-test/"},{title:{en:"New app version 2.6 available — update now",as:"এপৰ নতুন সংস্কৰণ 2.6 উপলব্ধ — এতিয়াই আপডেট কৰক"},desc:{en:"Floating bottom bar, blue footer, faster loading and bug fixes. Tap to download the latest APK.",as:"ফ্ল'টিং তলৰ বাৰ, নীলা ফুটাৰ, দ্ৰুত লোডিং আৰু বাগ ফিক্স। শেহতীয়া APK ডাউনল'ড কৰিবলৈ টিপক।"},href:"/download-app/"},{title:{en:"ADRE 3.0 Grade III exam book is live",as:"ADRE 3.0 তৃতীয় শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ"},desc:{en:"Complete syllabus, chapter notes and bilingual practice sets.",as:"সম্পূৰ্ণ পাঠ্যক্ৰম, অধ্যায় টোকা আৰু দ্বিভাষিক অনুশীলন সংহতি।"},href:"/exams/adre-grade-3/"},{title:{en:"ADRE 3.0 Grade IV exam book is live",as:"ADRE 3.0 চতুৰ্থ শ্ৰেণীৰ পৰীক্ষা-বহী উপলব্ধ"},desc:{en:"Subject-wise questions with answers and explanations.",as:"উত্তৰ আৰু ব্যাখ্যাৰ সৈতে বিষয়ভিত্তিক প্ৰশ্ন।"},href:"/exams/adre-grade-4/"},{title:{en:"Assam Police exam book is live",as:"অসম আৰক্ষী পৰীক্ষা-বহী উপলব্ধ"},desc:{en:"Constable (AB & UB) syllabus, notes and practice sets.",as:"কনিষ্টবল (AB আৰু UB) পাঠ্যক্ৰম, টোকা আৰু অনুশীলন সংহতি।"},href:"/exams/assam-police/"}],mi={label:{en:"Notifications",as:"জাননী"},count:{en:e=>`${e} new`,as:e=>`${e} টা নতুন`},allRead:{en:"You're all caught up",as:"সকলো পঢ়া হৈছে"},markAll:{en:"Mark all read",as:"সকলো পঢ়া বুলি চিহ্নিত কৰক"},foot:{en:"Tap a notification to open it",as:"খুলিবলৈ এটা জাননীত টিপক"},iosTitle:{en:"Get alerts on iPhone",as:"iPhone-ত জাননী পাওক"},iosBody:{en:"Tap Share, then Add to Home Screen. Open axomexam from that icon to turn on notifications.",as:"Share টিপক, তাৰ পিছত Add to Home Screen। সেই আইকনৰ পৰা axomexam খুলি জাননী চালু কৰক।"}},hi="/data/notifications.json",gs="axomexam-notif-read";let ze=null;function _t(e){return e&&(e.id||e.href)||""}function Qt(e,t){const a=_t(e);return!!a&&(t.has(a)||!!e.href&&t.has(e.href))}function Fe(){if(ze)return ze;try{const e=JSON.parse(localStorage.getItem(gs)||"[]");ze=new Set(Array.isArray(e)?e:[])}catch{ze=new Set}return ze}function bs(){try{localStorage.setItem(gs,JSON.stringify([...Fe()]))}catch{}}function vs(){const e=Fe();return Ut().filter(t=>!Qt(t,e)).length}function fi(e){const t=Fe();return!e||t.has(e)?!1:(t.add(e),bs(),ge(),!0)}function gi(){const e=Fe();let t=!1;Ut().forEach(a=>{const s=_t(a);s&&!Qt(a,e)&&(e.add(s),t=!0)}),t&&(bs(),ge())}function fe(e){const t=u.uiLang||"en",a=mi[e];if(!a)return"";const s=a[t]||a.en;return typeof s=="function"?s(vs()):s}let ht=null;function Ut(){return ht&&ht.length?ht:ui}function bi(e){if(!e||!e.url)return null;const t=e.title&&typeof e.title=="object"?e.title:{en:e.title,as:e.title},a=e.body||e.desc||{};return{id:e.id||e.url,href:e.url,title:{en:t.en||t.as||"",as:t.as||t.en||""},desc:{en:a.en||(typeof a=="string"?a:"")||"",as:a.as||a.en||(typeof a=="string"?a:"")||""}}}async function vi(){try{const e=await fetch(hi,{cache:"no-store"});if(!e.ok)return;const t=await e.json(),s=(Array.isArray(t)?t:t&&t.items||[]).map(bi).filter(Boolean);if(!s.length)return;ht=s,ge()}catch{}}function xs(e){const t=u.uiLang||"en";return e&&(e[t]||e.en)||""}function ge(){const e=document.getElementById("notif-list");if(!e)return;const t=fe("label"),a=document.getElementById("notif-toggle");a&&(a.setAttribute("aria-label",t),a.setAttribute("title",t));const s=Fe(),n=vs(),i=document.getElementById("notif-badge");i&&(i.textContent=String(n),i.hidden=n===0);const o=document.getElementById("notif-count");o&&(o.textContent=fe(n?"count":"allRead"));const c=document.getElementById("notif-mark-all");c&&(c.textContent=fe("markAll"),c.hidden=n===0);const d=document.getElementById("notif-head-title");d&&(d.textContent=t);const p=document.getElementById("notif-foot");p&&(p.textContent=fe("foot"));const m=document.getElementById("notif-ios");if(m){const h=!!(window.PUSH&&window.PUSH.needsInstall&&window.PUSH.needsInstall());if(m.hidden=!h,h){const f=document.getElementById("notif-ios-title"),v=document.getElementById("notif-ios-body");f&&(f.textContent=fe("iosTitle")),v&&(v.textContent=fe("iosBody"))}}e.innerHTML=Ut().map((h,f)=>{const v=_t(h);return`
+      <a class="notif-item${Qt(h,s)?" is-read":""}" href="${l(h.href)}" data-key="${l(v)}">
+        <span class="notif-num">${f+1}</span>
+        <span class="notif-body"><b>${l(xs(h.title))}</b><span>${l(xs(h.desc))}</span></span>
+      </a>`}).join("")}function xi(){const e=document.querySelector(".header-center .theme-toggle");if(!e||document.getElementById("notif-wrap"))return;const t=document.createElement("div");t.className="notif-wrap",t.id="notif-wrap",t.innerHTML=`
+      <button class="notif-toggle" id="notif-toggle" type="button" aria-expanded="false" aria-controls="notif-panel" aria-haspopup="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        <span class="notif-badge" id="notif-badge"></span>
+      </button>
+      <div class="notif-panel" id="notif-panel" hidden>
+        <div class="notif-head">
+          <b id="notif-head-title"></b>
+          <span class="notif-head-right">
+            <button class="notif-mark-all" id="notif-mark-all" type="button"></button>
+            <span class="notif-count" id="notif-count"></span>
+          </span>
+        </div>
+        <div class="notif-list" id="notif-list"></div>
+        <div class="notif-ios" id="notif-ios" hidden>
+          <span class="notif-ios-ico" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4"/><path d="m6 10 6-6 6 6"/><path d="M4 20h16"/></svg>
+          </span>
+          <span class="notif-ios-txt"><b id="notif-ios-title"></b><span id="notif-ios-body"></span></span>
+        </div>
+        <div class="notif-foot" id="notif-foot"></div>
+      </div>`,e.insertAdjacentElement("afterend",t);const a=t.querySelector("#notif-toggle"),s=t.querySelector("#notif-panel"),n=t.querySelector("#notif-list"),i=t.querySelector("#notif-mark-all");window.addEventListener("axo:push-ready",ge);const o=()=>{s.hidden=!0,a.setAttribute("aria-expanded","false")},c=()=>{s.hidden=!1,a.setAttribute("aria-expanded","true"),ge()};a.addEventListener("click",d=>{d.stopPropagation(),s.hidden?c():o()}),n.addEventListener("click",d=>{const p=d.target.closest(".notif-item");p&&(p.dataset.key&&fi(p.dataset.key),o())}),i.addEventListener("click",d=>{d.stopPropagation(),gi()}),document.addEventListener("click",d=>{s.hidden||t.contains(d.target)||o()}),document.addEventListener("keydown",d=>{d.key==="Escape"&&!s.hidden&&o()}),window.addEventListener("popstate",o),ge(),vi()}function yi(){const e=document.documentElement;let t="light";try{t=localStorage.getItem("axomexam-theme")||"light"}catch{}t==="dark"?e.setAttribute("data-theme","dark"):e.removeAttribute("data-theme"),fs(t);const a=s=>{s==="dark"?e.setAttribute("data-theme","dark"):e.removeAttribute("data-theme");try{localStorage.setItem("axomexam-theme",s)}catch{}fs(s)};S(".theme-toggle").forEach(s=>{s.dataset.themeBound||(s.dataset.themeBound="1",s.addEventListener("click",()=>{const n=e.getAttribute("data-theme")==="dark";a(n?"light":"dark")}))})}document.addEventListener("DOMContentLoaded",()=>{ci(),pi(),yi(),li(),ri()})})();

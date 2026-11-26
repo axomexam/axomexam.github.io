@@ -1,0 +1,1653 @@
+{
+  "id": "number_series",
+  "title": {
+    "en": "Number Series (Assam Competitive Exams)",
+    "as": "সংখ্যা শৃংখলা (অসম প্ৰতিযোগিতামূলক পৰীক্ষা)"
+  },
+  "description": {
+    "en": "Find the next number in the series. Covers arithmetic, geometric, square, cube, Fibonacci, and mixed number series.",
+    "as": "শৃংখলাটোৰ পৰৱৰ্তী সংখ্যাটো বিচাৰক। যোগ, গুণ, বৰ্গ, ঘন, ফিব'নাচি আৰু মিশ্র সংখ্যা শৃংখলা সামৰি লোৱা হৈছে।"
+  },
+  "tags": [
+    "reasoning",
+    "number-series",
+    "series",
+    "যুক্তি",
+    "সংখ্যা"
+  ],
+  "pdf": null,
+  "questions": [
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 2, 4, 6, 8, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 4, 6, 8, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "option": "B",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "C",
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "option": "D",
+          "en": "14",
+          "as": "১৪"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Every term is 2 more than the previous one (2, 4, 6, 8), so the next term is 8 + 2 = 10. Option B (10) fits the constant difference of 2.",
+        "as": "প্ৰতিটো পদ আগৰটোতকৈ ২ বেছি (২, ৪, ৬, ৮), সেয়ে পৰৱৰ্তী পদটো ৮ + ২ = ১০। B (১০) ৰ স্থিৰ পাৰ্থক্য ২ ৰ নিয়মত মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 3, 5, 7, 9, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 3, 5, 7, 9, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "B",
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "option": "C",
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "option": "D",
+          "en": "13",
+          "as": "১৩"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term increases by 2 (3, 5, 7, 9), so the next term is 9 + 2 = 11. Option C (11) keeps the difference of 2.",
+        "as": "প্ৰতিটো পদ ২ বাঢ়িছে (৩, ৫, ৭, ৯), সেয়ে পৰৱৰ্তী পদটো ৯ + ২ = ১১। C (১১) য়ে ২ ৰ পাৰ্থক্য ৰাখে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 100, 90, 80, 70, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 100, 90, 80, 70, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "option": "B",
+          "en": "50",
+          "as": "৫০"
+        },
+        {
+          "option": "C",
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "option": "D",
+          "en": "40",
+          "as": "৪০"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term decreases by 10 (100, 90, 80, 70), so the next term is 70 - 10 = 60. Option A (60) fits the rule.",
+        "as": "প্ৰতিটো পদ ১০ কমিছে (১০০, ৯০, ৮০, ৭০), সেয়ে পৰৱৰ্তী পদটো ৭০ - ১০ = ৬০। A (৬০) নিয়মত মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 20, 18, 16, 14, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 20, 18, 16, 14, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "B",
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "option": "C",
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "option": "D",
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term decreases by 2 (20, 18, 16, 14), so the next term is 14 - 2 = 12. Option C (12) fits the rule.",
+        "as": "প্ৰতিটো পদ ২ কমিছে (২০, ১৮, ১৬, ১৪), সেয়ে পৰৱৰ্তী পদটো ১৪ - ২ = ১২। C (১২) নিয়মত মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 7, 14, 21, 28, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 7, 14, 21, 28, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "32",
+          "as": "৩২"
+        },
+        {
+          "option": "B",
+          "en": "42",
+          "as": "৪২"
+        },
+        {
+          "option": "C",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "D",
+          "en": "49",
+          "as": "৪৯"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "These are multiples of 7, that is the 7 times table (7, 14, 21, 28), so the next term is 7 x 5 = 35. Option C (35) fits.",
+        "as": "এইবোৰ ৭ৰ গুণিতক, অৰ্থাৎ ৭ৰ নামতা (৭, ১৪, ২১, ২৮), সেয়ে পৰৱৰ্তী পদটো ৭ x ৫ = ৩৫। C (৩৫) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 3, 6, 12, 24, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 3, 6, 12, 24, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "option": "B",
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "option": "C",
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "option": "D",
+          "en": "72",
+          "as": "৭২"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term is twice the previous term (3, 6, 12, 24), so the next term is 24 x 2 = 48. Option B (48) fits the doubling rule.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ দুগুণ (৩, ৬, ১২, ২৪), সেয়ে পৰৱৰ্তী পদটো ২৪ x ২ = ৪৮। B (৪৮) দুগুণ নিয়মত মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 5, 10, 20, 40, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 5, 10, 20, 40, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "option": "B",
+          "en": "70",
+          "as": "৭০"
+        },
+        {
+          "option": "C",
+          "en": "80",
+          "as": "৮০"
+        },
+        {
+          "option": "D",
+          "en": "50",
+          "as": "৫০"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term doubles the previous term (5, 10, 20, 40), so the next term is 40 x 2 = 80. Option C (80) fits.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ দুগুণ (৫, ১০, ২০, ৪০), সেয়ে পৰৱৰ্তী পদটো ৪০ x ২ = ৮০। C (৮০) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 1, 2, 4, 8, 16, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 2, 4, 8, 16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "option": "B",
+          "en": "30",
+          "as": "৩০"
+        },
+        {
+          "option": "C",
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "option": "D",
+          "en": "32",
+          "as": "৩২"
+        }
+      ],
+      "a": "D",
+      "explanation": {
+        "en": "Each term is a power of 2 (1, 2, 4, 8, 16), so the next term is 16 x 2 = 32. Option D (32) fits.",
+        "as": "প্ৰতিটো পদ ২ৰ ঘাত (১, ২, ৪, ৮, ১৬), সেয়ে পৰৱৰ্তী পদটো ১৬ x ২ = ৩২। D (৩২) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 96, 48, 24, 12, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 96, 48, 24, 12, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "option": "B",
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "option": "C",
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "option": "D",
+          "en": "3",
+          "as": "৩"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term is half the previous term (96, 48, 24, 12), so the next term is 12 / 2 = 6. Option C (6) fits.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ আধা (৯৬, ৪৮, ২৪, ১২), সেয়ে পৰৱৰ্তী পদটো ১২ / ২ = ৬। C (৬) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 5, 15, 45, 135, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 5, 15, 45, 135, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "270",
+          "as": "২৭০"
+        },
+        {
+          "option": "B",
+          "en": "405",
+          "as": "৪০৫"
+        },
+        {
+          "option": "C",
+          "en": "540",
+          "as": "৫৪০"
+        },
+        {
+          "option": "D",
+          "en": "675",
+          "as": "৬৭৫"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term is three times the previous term (5, 15, 45, 135), so the next term is 135 x 3 = 405. Option B (405) fits.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ তিনিগুণ (৫, ১৫, ৪৫, ১৩৫), সেয়ে পৰৱৰ্তী পদটো ১৩৫ x ৩ = ৪০৫। B (৪০৫) মিলে।"
+      }
+    },
+    {
+      "type": "square",
+      "q": {
+        "en": "Find the next number: 1, 4, 9, 16, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 4, 9, 16, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "option": "B",
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "option": "C",
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "option": "D",
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "These are the squares of 1, 2, 3, 4 (1, 4, 9, 16), so the next term is 5 squared = 25. Option C (25) fits.",
+        "as": "এইবোৰ ১, ২, ৩, ৪ ৰ বৰ্গ (১, ৪, ৯, ১৬), সেয়ে পৰৱৰ্তী পদটো ৫ৰ বৰ্গ = ২৫। C (২৫) মিলে।"
+      }
+    },
+    {
+      "type": "square",
+      "q": {
+        "en": "Find the next number: 4, 9, 16, 25, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 4, 9, 16, 25, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "option": "B",
+          "en": "32",
+          "as": "৩২"
+        },
+        {
+          "option": "C",
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "option": "D",
+          "en": "49",
+          "as": "৪৯"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "These are the squares of 2, 3, 4, 5 (4, 9, 16, 25), so the next term is 6 squared = 36. Option A (36) fits.",
+        "as": "এইবোৰ ২, ৩, ৪, ৫ ৰ বৰ্গ (৪, ৯, ১৬, ২৫), সেয়ে পৰৱৰ্তী পদটো ৬ৰ বৰ্গ = ৩৬। A (৩৬) মিলে।"
+      }
+    },
+    {
+      "type": "square",
+      "q": {
+        "en": "Find the next number: 2, 5, 10, 17, 26, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 5, 10, 17, 26, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "option": "B",
+          "en": "36",
+          "as": "৩৬"
+        },
+        {
+          "option": "C",
+          "en": "37",
+          "as": "৩৭"
+        },
+        {
+          "option": "D",
+          "en": "34",
+          "as": "৩৪"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term is one more than a square: 1+1=2, 4+1=5, 9+1=10, 16+1=17, 25+1=26, so the next is 36+1 = 37. Option C (37) fits.",
+        "as": "প্ৰতিটো পদ এটা বৰ্গতকৈ এক বেছি: ১+১=২, ৪+১=৫, ৯+১=১০, ১৬+১=১৭, ২৫+১=২৬, সেয়ে পৰৱৰ্তীটো ৩৬+১ = ৩৭। C (৩৭) মিলে।"
+      }
+    },
+    {
+      "type": "cube",
+      "q": {
+        "en": "Find the next number: 1, 8, 27, 64, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 8, 27, 64, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "100",
+          "as": "১০০"
+        },
+        {
+          "option": "B",
+          "en": "121",
+          "as": "১২১"
+        },
+        {
+          "option": "C",
+          "en": "125",
+          "as": "১২৫"
+        },
+        {
+          "option": "D",
+          "en": "216",
+          "as": "২১৬"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "These are the cubes of 1, 2, 3, 4 (1, 8, 27, 64), so the next term is 5 cubed = 125. Option C (125) fits.",
+        "as": "এইবোৰ ১, ২, ৩, ৪ ৰ ঘন (১, ৮, ২৭, ৬৪), সেয়ে পৰৱৰ্তী পদটো ৫ৰ ঘন = ১২৫। C (১২৫) মিলে।"
+      }
+    },
+    {
+      "type": "cube",
+      "q": {
+        "en": "Find the next number: 8, 27, 64, 125, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 8, 27, 64, 125, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "216",
+          "as": "২১৬"
+        },
+        {
+          "option": "B",
+          "en": "200",
+          "as": "২০০"
+        },
+        {
+          "option": "C",
+          "en": "243",
+          "as": "২৪৩"
+        },
+        {
+          "option": "D",
+          "en": "196",
+          "as": "১৯৬"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "These are the cubes of 2, 3, 4, 5 (8, 27, 64, 125), so the next term is 6 cubed = 216. Option A (216) fits.",
+        "as": "এইবোৰ ২, ৩, ৪, ৫ ৰ ঘন (৮, ২৭, ৬৪, ১২৫), সেয়ে পৰৱৰ্তী পদটো ৬ৰ ঘন = ২১৬। A (২১৬) মিলে।"
+      }
+    },
+    {
+      "type": "fibonacci",
+      "q": {
+        "en": "Find the next number: 2, 3, 5, 8, 13, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 3, 5, 8, 13, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "option": "B",
+          "en": "20",
+          "as": "২০"
+        },
+        {
+          "option": "C",
+          "en": "21",
+          "as": "২১"
+        },
+        {
+          "option": "D",
+          "en": "26",
+          "as": "২৬"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "This is a Fibonacci series where each term is the sum of the two terms before it (2+3=5, 3+5=8, 5+8=13), so the next is 8+13 = 21. Option C (21) fits.",
+        "as": "এইটো ফিব'নাচি শৃংখলা, য'ত প্ৰতিটো পদ আগৰ দুটা পদৰ যোগফল (২+৩=৫, ৩+৫=৮, ৫+৮=১৩), সেয়ে পৰৱৰ্তীটো ৮+১৩ = ২১। C (২১) মিলে।"
+      }
+    },
+    {
+      "type": "fibonacci",
+      "q": {
+        "en": "Find the next number: 1, 1, 2, 3, 5, 8, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 1, 2, 3, 5, 8, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "option": "B",
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "option": "C",
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "option": "D",
+          "en": "13",
+          "as": "১৩"
+        }
+      ],
+      "a": "D",
+      "explanation": {
+        "en": "In this Fibonacci series each term is the sum of the two previous terms (1+1=2, 1+2=3, 2+3=5, 3+5=8), so the next is 5+8 = 13. Option D (13) fits.",
+        "as": "এই ফিব'নাচি শৃংখলাত প্ৰতিটো পদ আগৰ দুটাৰ যোগফল (১+১=২, ১+২=৩, ২+৩=৫, ৩+৫=৮), সেয়ে পৰৱৰ্তীটো ৫+৮ = ১৩। D (১৩) মিলে।"
+      }
+    },
+    {
+      "type": "fibonacci",
+      "q": {
+        "en": "Find the next number: 0, 1, 1, 2, 3, 5, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 0, 1, 1, 2, 3, 5, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "option": "B",
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "option": "C",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "D",
+          "en": "6",
+          "as": "৬"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "This is the Fibonacci series starting from 0 (0+1=1, 1+1=2, 1+2=3, 2+3=5), so the next term is 3+5 = 8. Option B (8) fits.",
+        "as": "এইটো ০ৰ পৰা আৰম্ভ হোৱা ফিব'নাচি শৃংখলা (০+১=১, ১+১=২, ১+২=৩, ২+৩=৫), সেয়ে পৰৱৰ্তী পদটো ৩+৫ = ৮। B (৮) মিলে।"
+      }
+    },
+    {
+      "type": "difference",
+      "q": {
+        "en": "Find the next number: 2, 6, 12, 20, 30, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 6, 12, 20, 30, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "option": "B",
+          "en": "42",
+          "as": "৪২"
+        },
+        {
+          "option": "C",
+          "en": "44",
+          "as": "৪৪"
+        },
+        {
+          "option": "D",
+          "en": "36",
+          "as": "৩৬"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term is the product of two consecutive numbers: 1x2=2, 2x3=6, 3x4=12, 4x5=20, 5x6=30, so the next is 6x7 = 42. Option B (42) fits.",
+        "as": "প্ৰতিটো পদ দুটা ক্ৰমিক সংখ্যাৰ গুণফল: ১x২=২, ২x৩=৬, ৩x৪=১২, ৪x৫=২০, ৫x৬=৩০, সেয়ে পৰৱৰ্তীটো ৬x৭ = ৪২। B (৪২) মিলে।"
+      }
+    },
+    {
+      "type": "difference",
+      "q": {
+        "en": "Find the next number: 1, 3, 7, 15, 31, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 3, 7, 15, 31, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "63",
+          "as": "৬৩"
+        },
+        {
+          "option": "B",
+          "en": "61",
+          "as": "৬১"
+        },
+        {
+          "option": "C",
+          "en": "47",
+          "as": "৪৭"
+        },
+        {
+          "option": "D",
+          "en": "55",
+          "as": "৫৫"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term is one less than a power of 2: 2-1=1, 4-1=3, 8-1=7, 16-1=15, 32-1=31, so the next is 64-1 = 63. Option A (63) fits.",
+        "as": "প্ৰতিটো পদ ২ৰ ঘাততকৈ এক কম: ২-১=১, ৪-১=৩, ৮-১=৭, ১৬-১=১৫, ৩২-১=৩১, সেয়ে পৰৱৰ্তীটো ৬৪-১ = ৬৩। A (৬৩) মিলে।"
+      }
+    },
+    {
+      "type": "difference",
+      "q": {
+        "en": "Find the next number: 25, 20, 16, 13, 11, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 25, 20, 16, 13, 11, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "option": "B",
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "option": "C",
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "option": "D",
+          "en": "7",
+          "as": "৭"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "The differences are 5, 4, 3, 2 and shrink by 1 each time, so the next difference is 1 and the next term is 11 - 1 = 10. Option C (10) fits.",
+        "as": "পাৰ্থক্যবোৰ ৫, ৪, ৩, ২ আৰু প্ৰতিবাৰ ১ কমিছে, সেয়ে পৰৱৰ্তী পাৰ্থক্য ১ আৰু পৰৱৰ্তী পদটো ১১ - ১ = ১০। C (১০) মিলে।"
+      }
+    },
+    {
+      "type": "difference",
+      "q": {
+        "en": "Find the next number: 4, 8, 17, 35, 72, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 4, 8, 17, 35, 72, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "144",
+          "as": "১৪৪"
+        },
+        {
+          "option": "B",
+          "en": "146",
+          "as": "১৪৬"
+        },
+        {
+          "option": "C",
+          "en": "145",
+          "as": "১৪৫"
+        },
+        {
+          "option": "D",
+          "en": "142",
+          "as": "১৪২"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term is nearly double the previous one (4x2=8, 8x2+1=17, 17x2+1=35, 35x2+2=72), so the next is about 72x2+1 = 145. Option C (145) fits.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ প্ৰায় দুগুণ (৪x২=৮, ৮x২+১=১৭, ১৭x২+১=৩৫, ৩৫x২+২=৭২), সেয়ে পৰৱৰ্তীটো প্ৰায় ৭২x২+১ = ১৪৫। C (১৪৫) মিলে।"
+      }
+    },
+    {
+      "type": "repeated",
+      "q": {
+        "en": "Find the next number: 11, 22, 33, 44, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 11, 22, 33, 44, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "54",
+          "as": "৫৪"
+        },
+        {
+          "option": "B",
+          "en": "45",
+          "as": "৪৫"
+        },
+        {
+          "option": "C",
+          "en": "55",
+          "as": "৫৫"
+        },
+        {
+          "option": "D",
+          "en": "56",
+          "as": "৫৬"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term is obtained by adding 11 (11, 22, 33, 44), so the next term is 44 + 11 = 55. Option C (55) fits.",
+        "as": "প্ৰতিটো পদত ১১ যোগ কৰি পোৱা যায় (১১, ২২, ৩৩, ৪৪), সেয়ে পৰৱৰ্তী পদটো ৪৪ + ১১ = ৫৫। C (৫৫) মিলে।"
+      }
+    },
+    {
+      "type": "repeated",
+      "q": {
+        "en": "Find the next number: 12, 23, 34, 45, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 12, 23, 34, 45, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "54",
+          "as": "৫৪"
+        },
+        {
+          "option": "B",
+          "en": "56",
+          "as": "৫৬"
+        },
+        {
+          "option": "C",
+          "en": "67",
+          "as": "৬৭"
+        },
+        {
+          "option": "D",
+          "en": "66",
+          "as": "৬৬"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term increases by 11 (12, 23, 34, 45), so the next term is 45 + 11 = 56. Option B (56) fits.",
+        "as": "প্ৰতিটো পদ ১১ বাঢ়িছে (১২, ২৩, ৩৪, ৪৫), সেয়ে পৰৱৰ্তী পদটো ৪৫ + ১১ = ৫৬। B (৫৬) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 6, 11, 16, 21, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 6, 11, 16, 21, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "option": "B",
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "option": "C",
+          "en": "25",
+          "as": "25"
+        },
+        {
+          "option": "D",
+          "en": "28",
+          "as": "28"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term increases by 5 (6, 11, 16, 21), so the next term is 21 + 5 = 26. Option A (26) fits.",
+        "as": "প্ৰতিটো পদ ৫ বাঢ়িছে (৬, ১১, ১৬, ২১), সেয়ে পৰৱৰ্তী পদটো ২১ + ৫ = ২৬। A (২৬) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 10, 17, 26, 37, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 10, 17, 26, 37, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "option": "B",
+          "en": "50",
+          "as": "50"
+        },
+        {
+          "option": "C",
+          "en": "49",
+          "as": "49"
+        },
+        {
+          "option": "D",
+          "en": "52",
+          "as": "52"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term is one more than a square: 9+1=10, 16+1=17, 25+1=26, 36+1=37, so the next is 49+1 = 50. Option B (50) fits.",
+        "as": "প্ৰতিটো পদ এটা বৰ্গতকৈ এক বেছি: ৯+১=১০, ১৬+১=১৭, ২৫+১=২৬, ৩৬+১=৩৭, সেয়ে পৰৱৰ্তীটো ৪৯+১ = ৫০। B (৫০) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 2, 6, 18, 54, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 6, 18, 54, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "162",
+          "as": "162"
+        },
+        {
+          "option": "B",
+          "en": "160",
+          "as": "160"
+        },
+        {
+          "option": "C",
+          "en": "108",
+          "as": "108"
+        },
+        {
+          "option": "D",
+          "en": "150",
+          "as": "150"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term is three times the previous term (2, 6, 18, 54), so the next term is 54 x 3 = 162. Option A (162) fits.",
+        "as": "প্ৰতিটো পদ আগৰটোৰ তিনিগুণ (২, ৬, ১৮, ৫৪), সেয়ে পৰৱৰ্তী পদটো ৫৪ x ৩ = ১৬২। A (১৬২) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 100, 97, 94, 91, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 100, 97, 94, 91, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "86",
+          "as": "86"
+        },
+        {
+          "option": "B",
+          "en": "90",
+          "as": "90"
+        },
+        {
+          "option": "C",
+          "en": "88",
+          "as": "88"
+        },
+        {
+          "option": "D",
+          "en": "85",
+          "as": "85"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term decreases by 3 (100, 97, 94, 91), so the next term is 91 - 3 = 88. Option C (88) fits.",
+        "as": "প্ৰতিটো পদ ৩ কমিছে (১০০, ৯৭, ৯৪, ৯১), সেয়ে পৰৱৰ্তী পদটো ৯১ - ৩ = ৮৮। C (৮৮) মিলে।"
+      }
+    },
+    {
+      "type": "square",
+      "q": {
+        "en": "Find the next number: 1, 5, 14, 30, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 5, 14, 30, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "52",
+          "as": "52"
+        },
+        {
+          "option": "B",
+          "en": "55",
+          "as": "55"
+        },
+        {
+          "option": "C",
+          "en": "54",
+          "as": "54"
+        },
+        {
+          "option": "D",
+          "en": "48",
+          "as": "48"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "The terms are sums of consecutive squares: 1=1, 1+4=5, 5+9=14, 14+16=30, so the next is 30+25 = 55. Option B (55) fits.",
+        "as": "পদবোৰ ক্ৰমিক বৰ্গৰ যোগফল: ১=১, ১+৪=৫, ৫+৯=১৪, ১৪+১৬=৩০, সেয়ে পৰৱৰ্তীটো ৩০+২৫ = ৫৫। B (৫৫) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 4, 9, 19, 39, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 4, 9, 19, 39, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "78",
+          "as": "78"
+        },
+        {
+          "option": "B",
+          "en": "79",
+          "as": "79"
+        },
+        {
+          "option": "C",
+          "en": "80",
+          "as": "80"
+        },
+        {
+          "option": "D",
+          "en": "69",
+          "as": "69"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each difference doubles: +5, +10, +20, so the next difference is +40 and the next term is 39 + 40 = 79. Option B (79) fits.",
+        "as": "প্ৰতিটো পাৰ্থক্য দুগুণ হৈছে: +৫, +১০, +২০, সেয়ে পৰৱৰ্তী পাৰ্থক্য +৪০ আৰু পৰৱৰ্তী পদটো ৩৯ + ৪০ = ৭৯। B (৭৯) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 13, 26, 39, 52, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 13, 26, 39, 52, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "63",
+          "as": "63"
+        },
+        {
+          "option": "B",
+          "en": "62",
+          "as": "62"
+        },
+        {
+          "option": "C",
+          "en": "65",
+          "as": "65"
+        },
+        {
+          "option": "D",
+          "en": "60",
+          "as": "60"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "These are multiples of 13, that is the 13 times table (13, 26, 39, 52), so the next term is 13 x 5 = 65. Option C (65) fits.",
+        "as": "এইবোৰ ১৩ৰ গুণিতক, অৰ্থাৎ ১৩ৰ নামতা (১৩, ২৬, ৩৯, ৫২), সেয়ে পৰৱৰ্তী পদটো ১৩ x ৫ = ৬৫। C (৬৫) মিলে।"
+      }
+    },
+    {
+      "type": "cube",
+      "q": {
+        "en": "Find the next number: 729, 512, 343, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 729, 512, 343, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "256",
+          "as": "256"
+        },
+        {
+          "option": "B",
+          "en": "225",
+          "as": "225"
+        },
+        {
+          "option": "C",
+          "en": "216",
+          "as": "216"
+        },
+        {
+          "option": "D",
+          "en": "196",
+          "as": "196"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "These are descending cubes: 9 cubed = 729, 8 cubed = 512, 7 cubed = 343, so the next is 6 cubed = 216. Option C (216) fits.",
+        "as": "এইবোৰ অৱৰোহী ঘন: ৯ৰ ঘন = ৭২৯, ৮ৰ ঘন = ৫১২, ৭ৰ ঘন = ৩৪৩, সেয়ে পৰৱৰ্তীটো ৬ৰ ঘন = ২১৬। C (২১৬) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 81, 27, 9, 3, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 81, 27, 9, 3, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "option": "B",
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "option": "C",
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "option": "D",
+          "en": "3",
+          "as": "3"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each term is divided by 3 (81, 27, 9, 3), so the next term is 3 / 3 = 1. Option B (1) fits.",
+        "as": "প্ৰতিটো পদ ৩ ৰে হৰণ হৈছে (৮১, ২৭, ৯, ৩), সেয়ে পৰৱৰ্তী পদটো ৩ / ৩ = ১। B (১) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 1, 4, 10, 22, 46, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 4, 10, 22, 46, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "92",
+          "as": "92"
+        },
+        {
+          "option": "B",
+          "en": "90",
+          "as": "90"
+        },
+        {
+          "option": "C",
+          "en": "94",
+          "as": "94"
+        },
+        {
+          "option": "D",
+          "en": "88",
+          "as": "88"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each difference doubles: +3, +6, +12, +24, so the next difference is +48 and the next term is 46 + 48 = 94. Option C (94) fits.",
+        "as": "প্ৰতিটো পাৰ্থক্য দুগুণ হৈছে: +৩, +৬, +১২, +২৪, সেয়ে পৰৱৰ্তী পাৰ্থক্য +৪৮ আৰু পৰৱৰ্তী পদটো ৪৬ + ৪৮ = ৯৪। C (৯৪) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 3, 8, 18, 38, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 3, 8, 18, 38, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "78",
+          "as": "78"
+        },
+        {
+          "option": "B",
+          "en": "76",
+          "as": "76"
+        },
+        {
+          "option": "C",
+          "en": "74",
+          "as": "74"
+        },
+        {
+          "option": "D",
+          "en": "68",
+          "as": "68"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each difference doubles: +5, +10, +20, so the next difference is +40 and the next term is 38 + 40 = 78. Option A (78) fits.",
+        "as": "প্ৰতিটো পাৰ্থক্য দুগুণ হৈছে: +৫, +১০, +২০, সেয়ে পৰৱৰ্তী পাৰ্থক্য +৪০ আৰু পৰৱৰ্তী পদটো ৩৮ + ৪০ = ৭৮। A (৭৮) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 5, 9, 17, 33, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 5, 9, 17, 33, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "63",
+          "as": "63"
+        },
+        {
+          "option": "B",
+          "en": "65",
+          "as": "65"
+        },
+        {
+          "option": "C",
+          "en": "66",
+          "as": "66"
+        },
+        {
+          "option": "D",
+          "en": "61",
+          "as": "61"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "Each difference doubles: +4, +8, +16, so the next difference is +32 and the next term is 33 + 32 = 65. Option B (65) fits.",
+        "as": "প্ৰতিটো পাৰ্থক্য দুগুণ হৈছে: +৪, +৮, +১৬, সেয়ে পৰৱৰ্তী পাৰ্থক্য +৩২ আৰু পৰৱৰ্তী পদটো ৩৩ + ৩২ = ৬৫। B (৬৫) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 2, 5, 11, 23, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 5, 11, 23, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "47",
+          "as": "47"
+        },
+        {
+          "option": "B",
+          "en": "45",
+          "as": "45"
+        },
+        {
+          "option": "C",
+          "en": "46",
+          "as": "46"
+        },
+        {
+          "option": "D",
+          "en": "48",
+          "as": "48"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each difference doubles: +3, +6, +12, so the next difference is +24 and the next term is 23 + 24 = 47. Option A (47) fits.",
+        "as": "প্ৰতিটো পাৰ্থক্য দুগুণ হৈছে: +৩, +৬, +১২, সেয়ে পৰৱৰ্তী পাৰ্থক্য +২৪ আৰু পৰৱৰ্তী পদটো ২৩ + ২৪ = ৪৭। A (৪৭) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 90, 81, 72, 63, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 90, 81, 72, 63, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "52",
+          "as": "52"
+        },
+        {
+          "option": "B",
+          "en": "56",
+          "as": "56"
+        },
+        {
+          "option": "C",
+          "en": "54",
+          "as": "54"
+        },
+        {
+          "option": "D",
+          "en": "50",
+          "as": "50"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term decreases by 9 (90, 81, 72, 63), so the next term is 63 - 9 = 54. Option C (54) fits.",
+        "as": "প্ৰতিটো পদ ৯ কমিছে (৯০, ৮১, ৭২, ৬৩), সেয়ে পৰৱৰ্তী পদটো ৬৩ - ৯ = ৫৪। C (৫৪) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 15, 29, 57, 113, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 15, 29, 57, 113, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "225",
+          "as": "225"
+        },
+        {
+          "option": "B",
+          "en": "227",
+          "as": "227"
+        },
+        {
+          "option": "C",
+          "en": "221",
+          "as": "221"
+        },
+        {
+          "option": "D",
+          "en": "215",
+          "as": "215"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term follows the rule double minus one: 15x2-1=29, 29x2-1=57, 57x2-1=113, so the next is 113x2-1 = 225. Option A (225) fits.",
+        "as": "প্ৰতিটো পদৰ নিয়ম দুগুণত এক কম: ১৫x২-১=২৯, ২৯x২-১=৫৭, ৫৭x২-১=১১৩, সেয়ে পৰৱৰ্তীটো ১১৩x২-১ = ২২৫। A (২২৫) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 1, 2, 6, 24, 120, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 1, 2, 6, 24, 120, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "720",
+          "as": "720"
+        },
+        {
+          "option": "B",
+          "en": "600",
+          "as": "600"
+        },
+        {
+          "option": "C",
+          "en": "620",
+          "as": "620"
+        },
+        {
+          "option": "D",
+          "en": "504",
+          "as": "504"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "These are factorials: 1! = 1, 2! = 2, 3! = 6, 4! = 24, 5! = 120, so the next is 6! = 720. Option A (720) fits.",
+        "as": "এইবোৰ ক্ৰমগুণিতক (ফেক্টোৰিয়েল): ১! = ১, ২! = ২, ৩! = ৬, ৪! = ২৪, ৫! = ১২০, সেয়ে পৰৱৰ্তীটো ৬! = ৭২০। A (৭২০) মিলে।"
+      }
+    },
+    {
+      "type": "geometric",
+      "q": {
+        "en": "Find the next number: 625, 125, 25, 5, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 625, 125, 25, 5, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "0",
+          "as": "0"
+        },
+        {
+          "option": "B",
+          "en": "2",
+          "as": "2"
+        },
+        {
+          "option": "C",
+          "en": "1",
+          "as": "1"
+        },
+        {
+          "option": "D",
+          "en": "3",
+          "as": "3"
+        }
+      ],
+      "a": "C",
+      "explanation": {
+        "en": "Each term is divided by 5 (625, 125, 25, 5), so the next term is 5 / 5 = 1. Option C (1) fits.",
+        "as": "প্ৰতিটো পদ ৫ ৰে হৰণ হৈছে (৬২৫, ১২৫, ২৫, ৫), সেয়ে পৰৱৰ্তী পদটো ৫ / ৫ = ১। C (১) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 7, 10, 15, 22, 33, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 7, 10, 15, 22, 33, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "46",
+          "as": "46"
+        },
+        {
+          "option": "B",
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "option": "C",
+          "en": "44",
+          "as": "44"
+        },
+        {
+          "option": "D",
+          "en": "50",
+          "as": "50"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "The differences are the consecutive prime numbers 3, 5, 7, 11, so the next difference is 13 and the next term is 33 + 13 = 46. Option A (46) fits.",
+        "as": "পাৰ্থক্যবোৰ ক্ৰমিক মৌলিক সংখ্যা ৩, ৫, ৭, ১১, সেয়ে পৰৱৰ্তী পাৰ্থক্য ১৩ আৰু পৰৱৰ্তী পদটো ৩৩ + ১৩ = ৪৬। A (৪৬) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 50, 45, 39, 32, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 50, 45, 39, 32, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "24",
+          "as": "24"
+        },
+        {
+          "option": "B",
+          "en": "26",
+          "as": "26"
+        },
+        {
+          "option": "C",
+          "en": "22",
+          "as": "22"
+        },
+        {
+          "option": "D",
+          "en": "28",
+          "as": "28"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "The differences are -5, -6, -7, so the next difference is -8 and the next term is 32 - 8 = 24. Option A (24) fits.",
+        "as": "পাৰ্থক্যবোৰ -৫, -৬, -৭, সেয়ে পৰৱৰ্তী পাৰ্থক্য -৮ আৰু পৰৱৰ্তী পদটো ৩২ - ৮ = ২৪। A (২৪) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 18, 27, 36, 45, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 18, 27, 36, 45, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "54",
+          "as": "54"
+        },
+        {
+          "option": "B",
+          "en": "52",
+          "as": "52"
+        },
+        {
+          "option": "C",
+          "en": "56",
+          "as": "56"
+        },
+        {
+          "option": "D",
+          "en": "51",
+          "as": "51"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "These are multiples of 9, that is the 9 times table (18, 27, 36, 45), so the next term is 9 x 6 = 54. Option A (54) fits.",
+        "as": "এইবোৰ ৯ৰ গুণিতক, অৰ্থাৎ ৯ৰ নামতা (১৮, ২৭, ৩৬, ৪৫), সেয়ে পৰৱৰ্তী পদটো ৯ x ৬ = ৫৪। A (৫৪) মিলে।"
+      }
+    },
+    {
+      "type": "arithmetic",
+      "q": {
+        "en": "Find the next number: 9, 18, 27, 36, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 9, 18, 27, 36, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "42",
+          "as": "42"
+        },
+        {
+          "option": "B",
+          "en": "45",
+          "as": "45"
+        },
+        {
+          "option": "C",
+          "en": "48",
+          "as": "48"
+        },
+        {
+          "option": "D",
+          "en": "54",
+          "as": "54"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "These are multiples of 9, that is the 9 times table (9, 18, 27, 36), so the next term is 9 x 5 = 45. Option B (45) fits.",
+        "as": "এইবোৰ ৯ৰ গুণিতক, অৰ্থাৎ ৯ৰ নামতা (৯, ১৮, ২৭, ৩৬), সেয়ে পৰৱৰ্তী পদটো ৯ x ৫ = ৪৫। B (৪৫) মিলে।"
+      }
+    },
+    {
+      "type": "square",
+      "q": {
+        "en": "Find the next number: 3, 8, 15, 24, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 3, 8, 15, 24, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "35",
+          "as": "35"
+        },
+        {
+          "option": "B",
+          "en": "36",
+          "as": "36"
+        },
+        {
+          "option": "C",
+          "en": "34",
+          "as": "34"
+        },
+        {
+          "option": "D",
+          "en": "33",
+          "as": "33"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "Each term is one less than a square: 4-1=3, 9-1=8, 16-1=15, 25-1=24, so the next is 36-1 = 35. Option A (35) fits.",
+        "as": "প্ৰতিটো পদ এটা বৰ্গতকৈ এক কম: ৪-১=৩, ৯-১=৮, ১৬-১=১৫, ২৫-১=২৪, সেয়ে পৰৱৰ্তীটো ৩৬-১ = ৩৫। A (৩৫) মিলে।"
+      }
+    },
+    {
+      "type": "cube",
+      "q": {
+        "en": "Find the next number: 216, 343, 512, 729, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 216, 343, 512, 729, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "900",
+          "as": "900"
+        },
+        {
+          "option": "B",
+          "en": "1000",
+          "as": "1000"
+        },
+        {
+          "option": "C",
+          "en": "1024",
+          "as": "1024"
+        },
+        {
+          "option": "D",
+          "en": "961",
+          "as": "961"
+        }
+      ],
+      "a": "B",
+      "explanation": {
+        "en": "These are consecutive cubes: 6 cubed = 216, 7 cubed = 343, 8 cubed = 512, 9 cubed = 729, so the next is 10 cubed = 1000. Option B (1000) fits.",
+        "as": "এইবোৰ ক্ৰমিক ঘন: ৬ৰ ঘন = ২১৬, ৭ৰ ঘন = ৩৪৩, ৮ৰ ঘন = ৫১২, ৯ৰ ঘন = ৭২৯, সেয়ে পৰৱৰ্তীটো ১০ৰ ঘন = ১০০০। B (১০০০) মিলে।"
+      }
+    },
+    {
+      "type": "mixed",
+      "q": {
+        "en": "Find the next number: 2, 4, 12, 48, ?",
+        "as": "পৰৱৰ্তী সংখ্যাটো বিচাৰক: 2, 4, 12, 48, ?"
+      },
+      "options": [
+        {
+          "option": "A",
+          "en": "240",
+          "as": "240"
+        },
+        {
+          "option": "B",
+          "en": "144",
+          "as": "144"
+        },
+        {
+          "option": "C",
+          "en": "192",
+          "as": "192"
+        },
+        {
+          "option": "D",
+          "en": "220",
+          "as": "220"
+        }
+      ],
+      "a": "A",
+      "explanation": {
+        "en": "The multipliers increase by one: x2, x3, x4, so the next multiplier is x5 and the next term is 48 x 5 = 240. Option A (240) fits.",
+        "as": "গুণকবোৰ এক এককৈ বাঢ়িছে: x২, x৩, x৪, সেয়ে পৰৱৰ্তী গুণক x৫ আৰু পৰৱৰ্তী পদটো ৪৮ x ৫ = ২৪০। A (২৪০) মিলে।"
+      }
+    }
+  ]
+}

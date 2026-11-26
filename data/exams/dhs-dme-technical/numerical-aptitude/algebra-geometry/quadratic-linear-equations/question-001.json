@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "numerical-039",
+    "q": {
+      "en": "The roots of x² - 7x + 12 = 0 are",
+      "as": "x² - ৭x + ১২ = ০ ৰ মূলবোৰ কি"
+    },
+    "options": [
+      {
+        "en": "3 and 4",
+        "as": "৩ আৰু ৪"
+      },
+      {
+        "en": "-3 and -4",
+        "as": "-৩ আৰু -৪"
+      },
+      {
+        "en": "2 and 6",
+        "as": "২ আৰু ৬"
+      },
+      {
+        "en": "1 and 12",
+        "as": "১ আৰু ১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorising, x² - 7x + 12 = (x - 3)(x - 4) = 0, so x = 3 or x = 4. The sum 7 and product 12 both check.",
+      "as": "উৎপাদক বিশ্লেষণ কৰিলে x² - ৭x + ১২ = (x - ৩)(x - ৪) = ০, সেয়ে x = ৩ বা x = ৪। যোগফল ৭ আৰু গুণফল ১২ দুয়োটাই মিলে।"
+    }
+  },
+  {
+    "id": "numerical-040",
+    "q": {
+      "en": "The solution of 2x + 3y = 12 and 3x + 2y = 13 is",
+      "as": "২x + ৩y = ১২ আৰু ৩x + ২y = ১৩ ৰ সমাধান কি"
+    },
+    "options": [
+      {
+        "en": "x = 3, y = 2",
+        "as": "x = ৩, y = ২"
+      },
+      {
+        "en": "x = 2, y = 3",
+        "as": "x = ২, y = ৩"
+      },
+      {
+        "en": "x = 4, y = 1",
+        "as": "x = ৪, y = ১"
+      },
+      {
+        "en": "x = 1, y = 4",
+        "as": "x = ১, y = ৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Adding both equations gives 5x + 5y = 25, so x + y = 5. Subtracting gives y - x = 1. Solving, x = 3 and y = 2. Check: 6 + 6 = 12 and 9 + 4 = 13.",
+      "as": "দুয়ো সমীকৰণ যোগ কৰিলে ৫x + ৫y = ২৫, সেয়ে x + y = ৫। বিয়োগ কৰিলে y - x = ১। সমাধান কৰিলে x = ৩ আৰু y = ২। পৰীক্ষা: ৬ + ৬ = ১২ আৰু ৯ + ৪ = ১৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-001",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² - 7x + 12 = 0, find α + β.",
+      "as": "যদি x² - ৭x + ১২ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "-12",
+        "as": "-১২"
+      },
+      {
+        "en": "7 1",
+        "as": "৭ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(-7)/1 = 7.",
+      "as": "α+β = -b/a = 7।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-002",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 2x² - 9x + 4 = 0, find α + β.",
+      "as": "যদি ২x² - ৯x + ৪ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "9/2",
+        "as": "৯/২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(-9)/2 = 9/2.",
+      "as": "α+β = -b/a = 9/2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-003",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 3x² + 5x - 2 = 0, find α + β.",
+      "as": "যদি ৩x² + ৫x - ২ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-2/3",
+        "as": "-২/৩"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "-5/3",
+        "as": "-৫/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(5)/3 = -5/3.",
+      "as": "α+β = -b/a = -5/3।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-004",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² + 3x - 10 = 0, find α + β.",
+      "as": "যদি x² + ৩x - ১০ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-10",
+        "as": "-১০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "-3 1",
+        "as": "-৩ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(3)/1 = -3.",
+      "as": "α+β = -b/a = -3।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-005",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 2x² + 7x + 3 = 0, find α + β.",
+      "as": "যদি ২x² + ৭x + ৩ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "-7/2",
+        "as": "-৭/২"
+      },
+      {
+        "en": "-3/2",
+        "as": "-৩/২"
+      },
+      {
+        "en": "-7",
+        "as": "-৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(7)/2 = -7/2.",
+      "as": "α+β = -b/a = -7/2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-006",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 5x² - 11x + 2 = 0, find α + β.",
+      "as": "যদি ৫x² - ১১x + ২ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11/5",
+        "as": "১১/৫"
+      },
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "-2/5",
+        "as": "-২/৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For ax²+bx+c=0, α+β = -b/a = -(-11)/5 = 11/5.",
+      "as": "α+β = -b/a = 11/5।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-007",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 3 and 5.",
+      "as": "যাৰ মূল ৩ আৰু ৫, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 8x + 15 = 0",
+        "as": "x² + ৮x + ১৫ = ০"
+      },
+      {
+        "en": "x² - 8x - 15 = 0",
+        "as": "x² - ৮x - ১৫ = ০"
+      },
+      {
+        "en": "x² + 15x + 8 = 0",
+        "as": "x² + ১৫x + ৮ = ০"
+      },
+      {
+        "en": "x² - 8x + 15 = 0",
+        "as": "x² - ৮x + ১৫ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = 8, product = 15; the equation is x² - (sum)x + product = 0, i.e. x² - 8x + 15 = 0.",
+      "as": "যোগফল = ৮, গুণফল = ১৫; সমীকৰণ x² - ৮x + ১৫ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-008",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are -2 and 7.",
+      "as": "যাৰ মূল -২ আৰু ৭, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 5x + -14 = 0",
+        "as": "x² + ৫x + -১৪ = ০"
+      },
+      {
+        "en": "x² - 5x + -14 = 0",
+        "as": "x² - ৫x + -১৪ = ০"
+      },
+      {
+        "en": "x² - 5x - -14 = 0",
+        "as": "x² - ৫x - -১৪ = ০"
+      },
+      {
+        "en": "x² + -14x + 5 = 0",
+        "as": "x² + -১৪x + ৫ = ০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 5, product = -14; the equation is x² - (sum)x + product = 0, i.e. x² - 5x + -14 = 0.",
+      "as": "যোগফল = ৫, গুণফল = -১৪; সমীকৰণ x² - ৫x + -১৪ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-009",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 4 and -6.",
+      "as": "যাৰ মূল ৪ আৰু -৬, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + -2x + -24 = 0",
+        "as": "x² + -২x + -২৪ = ০"
+      },
+      {
+        "en": "x² - -2x - -24 = 0",
+        "as": "x² - -২x - -২৪ = ০"
+      },
+      {
+        "en": "x² + 2x + -24 = 0",
+        "as": "x² + ২x + -২৪ = ০"
+      },
+      {
+        "en": "x² + -24x + -2 = 0",
+        "as": "x² + -২৪x + -২ = ০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = -2, product = -24; the equation is x² - (sum)x + product = 0, i.e. x² - -2x + -24 = 0.",
+      "as": "যোগফল = -২, গুণফল = -২৪; সমীকৰণ x² - -২x + -২৪ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-010",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 1 and -8.",
+      "as": "যাৰ মূল ১ আৰু -৮, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + -7x + -8 = 0",
+        "as": "x² + -৭x + -৮ = ০"
+      },
+      {
+        "en": "x² - -7x - -8 = 0",
+        "as": "x² - -৭x - -৮ = ০"
+      },
+      {
+        "en": "x² + -8x + -7 = 0",
+        "as": "x² + -৮x + -৭ = ০"
+      },
+      {
+        "en": "x² + 7x + -8 = 0",
+        "as": "x² + ৭x + -৮ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = -7, product = -8; the equation is x² - (sum)x + product = 0, i.e. x² - -7x + -8 = 0.",
+      "as": "যোগফল = -৭, গুণফল = -৮; সমীকৰণ x² - -৭x + -৮ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-011",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 5 and 5.",
+      "as": "যাৰ মূল ৫ আৰু ৫, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² - 10x + 25 = 0",
+        "as": "x² - ১০x + ২৫ = ০"
+      },
+      {
+        "en": "x² + 10x + 25 = 0",
+        "as": "x² + ১০x + ২৫ = ০"
+      },
+      {
+        "en": "x² - 10x - 25 = 0",
+        "as": "x² - ১০x - ২৫ = ০"
+      },
+      {
+        "en": "x² + 25x + 10 = 0",
+        "as": "x² + ২৫x + ১০ = ০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 10, product = 25; the equation is x² - (sum)x + product = 0, i.e. x² - 10x + 25 = 0.",
+      "as": "যোগফল = ১০, গুণফল = ২৫; সমীকৰণ x² - ১০x + ২৫ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-012",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² - 5x + 6 = 0 and state the nature of its roots.",
+      "as": "x² - ৫x + ৬ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D = b² - 4ac = -5² - 4×1×6 = 1. Since D > 0, the equation has two distinct real roots.",
+      "as": "D = ১; সেয়ে সমীকৰণৰ two distinct real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-013",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of 2x² + 3x + 1 = 0 and state the nature of its roots.",
+      "as": "২x² + ৩x + ১ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D = b² - 4ac = 3² - 4×2×1 = 1. Since D > 0, the equation has two distinct real roots.",
+      "as": "D = ১; সেয়ে সমীকৰণৰ two distinct real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-014",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² + 2x + 5 = 0 and state the nature of its roots.",
+      "as": "x² + ২x + ৫ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "-16",
+        "as": "-১৬"
+      },
+      {
+        "en": "-14",
+        "as": "-১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = b² - 4ac = 2² - 4×1×5 = -16. Since D < 0, the equation has no real roots.",
+      "as": "D = -১৬; সেয়ে সমীকৰণৰ no real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-015",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of 3x² - 4x + 2 = 0 and state the nature of its roots.",
+      "as": "৩x² - ৪x + ২ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      },
+      {
+        "en": "-8",
+        "as": "-৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D = b² - 4ac = -4² - 4×3×2 = -8. Since D < 0, the equation has no real roots.",
+      "as": "D = -৮; সেয়ে সমীকৰণৰ no real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-016",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² - 4x + 4 = 0 and state the nature of its roots.",
+      "as": "x² - ৪x + ৪ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = b² - 4ac = -4² - 4×1×4 = 0. Since D = 0, the equation has two equal real roots.",
+      "as": "D = ০; সেয়ে সমীকৰণৰ two equal real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-017",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 7x + 12 = 0.",
+      "as": "x² - ৭x + ১২ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "3, 5",
+        "as": "৩, ৫"
+      },
+      {
+        "en": "3, 4",
+        "as": "৩, ৪"
+      },
+      {
+        "en": "2, 4",
+        "as": "২, ৪"
+      },
+      {
+        "en": "-3, -4",
+        "as": "-৩, -৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorising gives (x - 3)(x - 4) = 0 (after adjusting the leading coefficient), so x = 3 or x = 4.",
+      "as": "উৎপাদক বিশ্লেষণ কৰিলে x = ৩ বা ৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-018",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² + 5x + 6 = 0.",
+      "as": "x² + ৫x + ৬ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "-3, -2",
+        "as": "-৩, -২"
+      },
+      {
+        "en": "-2, -2",
+        "as": "-২, -২"
+      },
+      {
+        "en": "-3, -3",
+        "as": "-৩, -৩"
+      },
+      {
+        "en": "2, 3",
+        "as": "২, ৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorising gives (x - -2)(x - -3) = 0 (after adjusting the leading coefficient), so x = -3 or x = -2.",
+      "as": "উৎপাদক বিশ্লেষণ কৰিলে x = -৩ বা -২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-019",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 3x - 10 = 0.",
+      "as": "x² - ৩x - ১০ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "5, -1",
+        "as": "৫, -১"
+      },
+      {
+        "en": "4, -2",
+        "as": "৪, -২"
+      },
+      {
+        "en": "-5, 2",
+        "as": "-৫, ২"
+      },
+      {
+        "en": "-2, 5",
+        "as": "-২, ৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorising gives (x - 5)(x - -2) = 0 (after adjusting the leading coefficient), so x = -2 or x = 5.",
+      "as": "উৎপাদক বিশ্লেষণ কৰিলে x = -২ বা ৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-020",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation 2x² - 7x + 3 = 0.",
+      "as": "২x² - ৭x + ৩ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "3, 2",
+        "as": "৩, ২"
+      },
+      {
+        "en": "1, 3",
+        "as": "১, ৩"
+      },
+      {
+        "en": "2, 1",
+        "as": "২, ১"
+      },
+      {
+        "en": "-3, -1",
+        "as": "-৩, -১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorising gives (x - 3)(x - 1) = 0 (after adjusting the leading coefficient), so x = 1 or x = 3.",
+      "as": "উৎপাদক বিশ্লেষণ কৰিলে x = ১ বা ৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-021",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 2x + 3y = 12 and 3x + -2y = 5.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ২x + ৩y = ১২ আৰু ৩x + -২y = ৫।"
+    },
+    "options": [
+      {
+        "en": "x = 2, y = 3",
+        "as": "x = ২, y = ৩"
+      },
+      {
+        "en": "x = 4, y = 1",
+        "as": "x = ৪, y = ১"
+      },
+      {
+        "en": "x = 3, y = 2",
+        "as": "x = ৩, y = ২"
+      },
+      {
+        "en": "x = 3, y = 2 1",
+        "as": "x = ৩, y = ২ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Eliminating y gives x = 3; substituting back gives y = 2.",
+      "as": "y আঁতৰালে x = ৩; পুনৰ বহুৱালে y = ২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-022",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 3x + 2y = 16 and 2x + -3y = -5.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ৩x + ২y = ১৬ আৰু ২x + -৩y = -৫।"
+    },
+    "options": [
+      {
+        "en": "x = 5, y = 2",
+        "as": "x = ৫, y = ২"
+      },
+      {
+        "en": "x = 3, y = 4",
+        "as": "x = ৩, y = ৪"
+      },
+      {
+        "en": "x = 1, y = 6",
+        "as": "x = ১, y = ৬"
+      },
+      {
+        "en": "x = 2, y = 5",
+        "as": "x = ২, y = ৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Eliminating y gives x = 2; substituting back gives y = 5.",
+      "as": "y আঁতৰালে x = ২; পুনৰ বহুৱালে y = ৫।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-023",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 5x + 4y = 22 and 3x + -2y = 4.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ৫x + ৪y = ২২ আৰু ৩x + -২y = ৪।"
+    },
+    "options": [
+      {
+        "en": "x = 2, y = 3",
+        "as": "x = ২, y = ৩"
+      },
+      {
+        "en": "x = 3, y = 2",
+        "as": "x = ৩, y = ২"
+      },
+      {
+        "en": "x = 1, y = 4",
+        "as": "x = ১, y = ৪"
+      },
+      {
+        "en": "x = 2, y = 3 1",
+        "as": "x = ২, y = ৩ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eliminating y gives x = 2; substituting back gives y = 3.",
+      "as": "y আঁতৰালে x = ২; পুনৰ বহুৱালে y = ৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-024",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 25 and their difference is 5. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ২৫ আৰু পাৰ্থক্য ৫। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15, 10",
+        "as": "১৫, ১০"
+      },
+      {
+        "en": "16, 9",
+        "as": "১৬, ৯"
+      },
+      {
+        "en": "25, 5",
+        "as": "২৫, ৫"
+      },
+      {
+        "en": "14, 11",
+        "as": "১৪, ১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Solving x+y=25 and x-y=5 gives x=15 and y=10.",
+      "as": "x+y=২৫ আৰু x-y=৫ সমাধান কৰিলে x=১৫, y=১০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-025",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 30 and their difference is 6. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৩০ আৰু পাৰ্থক্য ৬। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "19, 11",
+        "as": "১৯, ১১"
+      },
+      {
+        "en": "18, 12",
+        "as": "১৮, ১২"
+      },
+      {
+        "en": "30, 6",
+        "as": "৩০, ৬"
+      },
+      {
+        "en": "17, 13",
+        "as": "১৭, ১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Solving x+y=30 and x-y=6 gives x=18 and y=12.",
+      "as": "x+y=৩০ আৰু x-y=৬ সমাধান কৰিলে x=১৮, y=১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-026",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 40 and their difference is 8. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৪০ আৰু পাৰ্থক্য ৮। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25, 15",
+        "as": "২৫, ১৫"
+      },
+      {
+        "en": "40, 8",
+        "as": "৪০, ৮"
+      },
+      {
+        "en": "24, 16",
+        "as": "২৪, ১৬"
+      },
+      {
+        "en": "23, 17",
+        "as": "২৩, ১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Solving x+y=40 and x-y=8 gives x=24 and y=16.",
+      "as": "x+y=৪০ আৰু x-y=৮ সমাধান কৰিলে x=২৪, y=১৬।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-027",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 35 and their difference is 7. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৩৫ আৰু পাৰ্থক্য ৭। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22, 13",
+        "as": "২২, ১৩"
+      },
+      {
+        "en": "35, 7",
+        "as": "৩৫, ৭"
+      },
+      {
+        "en": "20, 15",
+        "as": "২০, ১৫"
+      },
+      {
+        "en": "21, 14",
+        "as": "২১, ১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving x+y=35 and x-y=7 gives x=21 and y=14.",
+      "as": "x+y=৩৫ আৰু x-y=৭ সমাধান কৰিলে x=২১, y=১৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-028",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which x² + kx + 9 = 0 has equal roots.",
+      "as": "x² + kx + ৯ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For equal roots, D = 0: k² - 4×1×9 = 0, so k² = 36 and k = 6.",
+      "as": "সমান মূলৰ বাবে k² = ৩৬, সেয়ে k = ৬।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-029",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which x² + kx + 16 = 0 has equal roots.",
+      "as": "x² + kx + ১৬ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For equal roots, D = 0: k² - 4×1×16 = 0, so k² = 64 and k = 8.",
+      "as": "সমান মূলৰ বাবে k² = ৬৪, সেয়ে k = ৮।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-030",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which 4x² + kx + 9 = 0 has equal roots.",
+      "as": "৪x² + kx + ৯ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For equal roots, D = 0: k² - 4×4×9 = 0, so k² = 144 and k = 12.",
+      "as": "সমান মূলৰ বাবে k² = ১৪৪, সেয়ে k = ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-031",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which 9x² + kx + 16 = 0 has equal roots.",
+      "as": "৯x² + kx + ১৬ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For equal roots, D = 0: k² - 4×9×16 = 0, so k² = 576 and k = 24.",
+      "as": "সমান মূলৰ বাবে k² = ৫৭৬, সেয়ে k = ২৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-032",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which x² + kx + 25 = 0 has equal roots.",
+      "as": "x² + kx + ২৫ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For equal roots, D = 0: k² - 4×1×25 = 0, so k² = 100 and k = 10.",
+      "as": "সমান মূলৰ বাবে k² = ১০০, সেয়ে k = ১০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-033",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve for x: (x + 1)/(x - 1) = 3.",
+      "as": "x ৰ বাবে সমাধান কৰা: (x + ১)/(x - ১) = 3।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cross-multiplying: x + 1 = 3(x - 1), so 2x = 4 and x = 2.",
+      "as": "ক্ৰছ-গুণ কৰিলে 2x = ৪, সেয়ে x = 2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-034",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve for x: (x + 2)/(x - 1) = 3.",
+      "as": "x ৰ বাবে সমাধান কৰা: (x + ২)/(x - ১) = 3।"
+    },
+    "options": [
+      {
+        "en": "7/2",
+        "as": "৭/২"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cross-multiplying: x + 2 = 3(x - 1), so 2x = 5 and x = 5/2.",
+      "as": "ক্ৰছ-গুণ কৰিলে 2x = ৫, সেয়ে x = 5/2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-035",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve for x: (x + 3)/(x - 2) = 3.",
+      "as": "x ৰ বাবে সমাধান কৰা: (x + ৩)/(x - ২) = 3।"
+    },
+    "options": [
+      {
+        "en": "9/2",
+        "as": "৯/২"
+      },
+      {
+        "en": "11/2",
+        "as": "১১/২"
+      },
+      {
+        "en": "7/2",
+        "as": "৭/২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cross-multiplying: x + 3 = 3(x - 2), so 2x = 9 and x = 9/2.",
+      "as": "ক্ৰছ-গুণ কৰিলে 2x = ৯, সেয়ে x = 9/2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-036",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 5x + k = 0 is 2. Find k.",
+      "as": "x² - ৫x + k = 0 ৰ এটা মূল ২। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substitute x = 2: 2² + (-5)(2) + k = 0, so k = 6.",
+      "as": "x = ২ বহুৱালে k = ৬।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-037",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 7x + k = 0 is 3. Find k.",
+      "as": "x² - ৭x + k = 0 ৰ এটা মূল ৩। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-12",
+        "as": "-১২"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Substitute x = 3: 3² + (-7)(3) + k = 0, so k = 12.",
+      "as": "x = ৩ বহুৱালে k = ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-038",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² + 3x + k = 0 is 5. Find k.",
+      "as": "x² + ৩x + k = 0 ৰ এটা মূল ৫। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "-39",
+        "as": "-৩৯"
+      },
+      {
+        "en": "-40",
+        "as": "-৪০"
+      },
+      {
+        "en": "-41",
+        "as": "-৪১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Substitute x = 5: 5² + (3)(5) + k = 0, so k = -40.",
+      "as": "x = ৫ বহুৱালে k = -৪০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-039",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 9x + k = 0 is 4. Find k.",
+      "as": "x² - ৯x + k = 0 ৰ এটা মূল ৪। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-20",
+        "as": "-২০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Substitute x = 4: 4² + (-9)(4) + k = 0, so k = 20.",
+      "as": "x = ৪ বহুৱালে k = ২০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-040",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Two numbers differ by 4 and their sum is 20. Find the larger number.",
+      "as": "দুটা সংখ্যাৰ পাৰ্থক্য ৪ আৰু যোগফল ২০। ডাঙৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Larger = (sum + difference)/2 = (20+4)/2 = 12.",
+      "as": "ডাঙৰ = (২০+৪)/২ = ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-041",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Two numbers differ by 5 and their sum is 25. Find the larger number.",
+      "as": "দুটা সংখ্যাৰ পাৰ্থক্য ৫ আৰু যোগফল ২৫। ডাঙৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Larger = (sum + difference)/2 = (25+5)/2 = 15.",
+      "as": "ডাঙৰ = (২৫+৫)/২ = ১৫।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-042",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Two numbers differ by 15 and their sum is 25. Find the larger number.",
+      "as": "দুটা সংখ্যাৰ পাৰ্থক্য ১৫ আৰু যোগফল ২৫। ডাঙৰ সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Larger = (sum + difference)/2 = (25+15)/2 = 20.",
+      "as": "ডাঙৰ = (২৫+১৫)/২ = ২০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-043",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 3.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৩ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 3x + 1 = 0",
+        "as": "x² + ৩x + ১ = ০"
+      },
+      {
+        "en": "x² - 3x - 1 = 0",
+        "as": "x² - ৩x - ১ = ০"
+      },
+      {
+        "en": "x² + 3x - 1 = 0",
+        "as": "x² + ৩x - ১ = ০"
+      },
+      {
+        "en": "x² - 3x + 1 = 0",
+        "as": "x² - ৩x + ১ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x + 1/x = 3 ⇒ x² - 3x + 1 = 0 after multiplying by x.",
+      "as": "x + 1/x = ৩ ⇒ x² - ৩x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-044",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 4.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৪ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 4x + 1 = 0",
+        "as": "x² + ৪x + ১ = ০"
+      },
+      {
+        "en": "x² - 4x + 1 = 0",
+        "as": "x² - ৪x + ১ = ০"
+      },
+      {
+        "en": "x² - 4x - 1 = 0",
+        "as": "x² - ৪x - ১ = ০"
+      },
+      {
+        "en": "x² + 4x - 1 = 0",
+        "as": "x² + ৪x - ১ = ০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x + 1/x = 4 ⇒ x² - 4x + 1 = 0 after multiplying by x.",
+      "as": "x + 1/x = ৪ ⇒ x² - ৪x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-045",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 5.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৫ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 5x + 1 = 0",
+        "as": "x² + ৫x + ১ = ০"
+      },
+      {
+        "en": "x² - 5x - 1 = 0",
+        "as": "x² - ৫x - ১ = ০"
+      },
+      {
+        "en": "x² - 5x + 1 = 0",
+        "as": "x² - ৫x + ১ = ০"
+      },
+      {
+        "en": "x² + 5x - 1 = 0",
+        "as": "x² + ৫x - ১ = ০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x + 1/x = 5 ⇒ x² - 5x + 1 = 0 after multiplying by x.",
+      "as": "x + 1/x = ৫ ⇒ x² - ৫x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-046",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 6.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৬ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 6x + 1 = 0",
+        "as": "x² + ৬x + ১ = ০"
+      },
+      {
+        "en": "x² - 6x - 1 = 0",
+        "as": "x² - ৬x - ১ = ০"
+      },
+      {
+        "en": "x² + 6x - 1 = 0",
+        "as": "x² + ৬x - ১ = ০"
+      },
+      {
+        "en": "x² - 6x + 1 = 0",
+        "as": "x² - ৬x + ১ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x + 1/x = 6 ⇒ x² - 6x + 1 = 0 after multiplying by x.",
+      "as": "x + 1/x = ৬ ⇒ x² - ৬x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-047",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² - 8x + 15 = 0, find α + β.",
+      "as": "যদি x² - ৮x + ১৫ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "-15",
+        "as": "-১৫"
+      },
+      {
+        "en": "8 1",
+        "as": "৮ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "α+β = -b/a = 8.",
+      "as": "α+β = 8।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-048",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 2x² - 11x + 5 = 0, find α + β.",
+      "as": "যদি ২x² - ১১x + ৫ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11/2",
+        "as": "১১/২"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "-5/2",
+        "as": "-৫/২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "α+β = -b/a = 11/2.",
+      "as": "α+β = 11/2।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-049",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² + 4x - 12 = 0, find α + β.",
+      "as": "যদি x² + ৪x - ১২ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-12",
+        "as": "-১২"
+      },
+      {
+        "en": "-4",
+        "as": "-৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "-4 1",
+        "as": "-৪ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "α+β = -b/a = -4.",
+      "as": "α+β = -4।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-050",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 3x² - 10x + 3 = 0, find α + β.",
+      "as": "যদি ৩x² - ১০x + ৩ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "10/3",
+        "as": "১০/৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "α+β = -b/a = 10/3.",
+      "as": "α+β = 10/3।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-051",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² - 6x + 8 = 0, find α + β.",
+      "as": "যদি x² - ৬x + ৮ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "-8",
+        "as": "-৮"
+      },
+      {
+        "en": "6 1",
+        "as": "৬ ১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "α+β = -b/a = 6.",
+      "as": "α+β = 6।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-052",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 6 and 2.",
+      "as": "যাৰ মূল ৬ আৰু ২, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 8x + 12 = 0",
+        "as": "x² + ৮x + ১২ = ০"
+      },
+      {
+        "en": "x² - 8x - 12 = 0",
+        "as": "x² - ৮x - ১২ = ০"
+      },
+      {
+        "en": "x² - 8x + 12 = 0",
+        "as": "x² - ৮x + ১২ = ০"
+      },
+      {
+        "en": "x² + 12x + 8 = 0",
+        "as": "x² + ১২x + ৮ = ০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Equation: x² - 8x + 12 = 0.",
+      "as": "সমীকৰণ: x² - ৮x + ১২ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-053",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are -3 and 9.",
+      "as": "যাৰ মূল -৩ আৰু ৯, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 6x + -27 = 0",
+        "as": "x² + ৬x + -২৭ = ০"
+      },
+      {
+        "en": "x² - 6x + -27 = 0",
+        "as": "x² - ৬x + -২৭ = ০"
+      },
+      {
+        "en": "x² - 6x - -27 = 0",
+        "as": "x² - ৬x - -২৭ = ০"
+      },
+      {
+        "en": "x² + -27x + 6 = 0",
+        "as": "x² + -২৭x + ৬ = ০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Equation: x² - 6x + -27 = 0.",
+      "as": "সমীকৰণ: x² - ৬x + -২৭ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-054",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 7 and -4.",
+      "as": "যাৰ মূল ৭ আৰু -৪, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² - 3x + -28 = 0",
+        "as": "x² - ৩x + -২৮ = ০"
+      },
+      {
+        "en": "x² + 3x + -28 = 0",
+        "as": "x² + ৩x + -২৮ = ০"
+      },
+      {
+        "en": "x² - 3x - -28 = 0",
+        "as": "x² - ৩x - -২৮ = ০"
+      },
+      {
+        "en": "x² + -28x + 3 = 0",
+        "as": "x² + -২৮x + ৩ = ০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Equation: x² - 3x + -28 = 0.",
+      "as": "সমীকৰণ: x² - ৩x + -২৮ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-055",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 2 and 2.",
+      "as": "যাৰ মূল ২ আৰু ২, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 4x + 4 = 0",
+        "as": "x² + ৪x + ৪ = ০"
+      },
+      {
+        "en": "x² - 4x - 4 = 0",
+        "as": "x² - ৪x - ৪ = ০"
+      },
+      {
+        "en": "x² - 4x + 4 = 0 1",
+        "as": "x² - ৪x + ৪ = ০ ১"
+      },
+      {
+        "en": "x² - 4x + 4 = 0",
+        "as": "x² - ৪x + ৪ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Equation: x² - 4x + 4 = 0.",
+      "as": "সমীকৰণ: x² - ৪x + ৪ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-056",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² + 6x + 9 = 0 and state the nature of its roots.",
+      "as": "x² + ৬x + ৯ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D = 0; the equation has two equal real roots.",
+      "as": "D = ০; মূলৰ প্ৰকৃতি: two equal real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-057",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of 2x² + 5x + 2 = 0 and state the nature of its roots.",
+      "as": "২x² + ৫x + ২ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "-9",
+        "as": "-৯"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = 9; the equation has two distinct real roots.",
+      "as": "D = ৯; মূলৰ প্ৰকৃতি: two distinct real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-058",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² - 2x - 3 = 0 and state the nature of its roots.",
+      "as": "x² - ২x - ৩ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "-16",
+        "as": "-১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D = 16; the equation has two distinct real roots.",
+      "as": "D = ১৬; মূলৰ প্ৰকৃতি: two distinct real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-059",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of 4x² - 4x + 1 = 0 and state the nature of its roots.",
+      "as": "৪x² - ৪x + ১ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D = 0; the equation has two equal real roots.",
+      "as": "D = ০; মূলৰ প্ৰকৃতি: two equal real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-060",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 9x + 20 = 0.",
+      "as": "x² - ৯x + ২০ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "4, 5",
+        "as": "৪, ৫"
+      },
+      {
+        "en": "4, 6",
+        "as": "৪, ৬"
+      },
+      {
+        "en": "3, 5",
+        "as": "৩, ৫"
+      },
+      {
+        "en": "-4, -5",
+        "as": "-৪, -৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The roots add up to −b/a = 9 and multiply to c/a = 20; 4 + 5 = 9 and 4 × 5 = 20, so the roots are 4 and 5. The equation factors as (x − 4)(x − 5) = 0.",
+      "as": "মূলৰ যোগফল −b/a = ৯ আৰু গুণফল c/a = ২০; সেয়ে মূল ৪ আৰু ৫।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-061",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² + 2x - 15 = 0.",
+      "as": "x² + ২x − ১৫ = ০ সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "3, -4",
+        "as": "৩, -৪"
+      },
+      {
+        "en": "-5, 3",
+        "as": "-৫, ৩"
+      },
+      {
+        "en": "2, -5",
+        "as": "২, -৫"
+      },
+      {
+        "en": "-3, 5",
+        "as": "-৩, ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorising: x² + 2x - 15 = (x + 5)(x - 3) = 0, so x = -5 or x = 3.",
+      "as": "উৎপাদক বিশ্লেষণ: x² + ২x − ১৫ = (x + ৫)(x − ৩) = ০, গতিকে x = −৫ বা x = ৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-062",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 4x + 3 = 0.",
+      "as": "x² - ৪x + ৩ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "1, 4",
+        "as": "১, ৪"
+      },
+      {
+        "en": "0, 3",
+        "as": "০, ৩"
+      },
+      {
+        "en": "1, 3",
+        "as": "১, ৩"
+      },
+      {
+        "en": "-1, -3",
+        "as": "-১, -৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The roots add up to −b/a = 4 and multiply to c/a = 3; 1 + 3 = 4 and 1 × 3 = 3, so the roots are 1 and 3. The equation factors as (x − 1)(x − 3) = 0.",
+      "as": "মূলৰ যোগফল −b/a = ৪ আৰু গুণফল c/a = ৩; সেয়ে মূল ১ আৰু ৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-063",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 4x + 3y = 18 and 2x + -3y = 0.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ৪x + ৩y = ১৮ আৰু ২x + -৩y = ০।"
+    },
+    "options": [
+      {
+        "en": "x = 2, y = 3",
+        "as": "x = ২, y = ৩"
+      },
+      {
+        "en": "x = 4, y = 1",
+        "as": "x = ৪, y = ১"
+      },
+      {
+        "en": "x = 3, y = 2 1",
+        "as": "x = ৩, y = ২ ১"
+      },
+      {
+        "en": "x = 3, y = 2",
+        "as": "x = ৩, y = ২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x = 3, y = 2.",
+      "as": "x = ৩, y = ২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-064",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 2x + 5y = 19 and 3x + -2y = 4.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ২x + ৫y = ১৯ আৰু ৩x + -২y = ৪।"
+    },
+    "options": [
+      {
+        "en": "x = 3, y = 2",
+        "as": "x = ৩, y = ২"
+      },
+      {
+        "en": "x = 1, y = 4",
+        "as": "x = ১, y = ৪"
+      },
+      {
+        "en": "x = 2, y = 3",
+        "as": "x = ২, y = ৩"
+      },
+      {
+        "en": "x = 2, y = 3 1",
+        "as": "x = ২, y = ৩ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x = 2, y = 3.",
+      "as": "x = ২, y = ৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-065",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 45 and their difference is 9. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৪৫ আৰু পাৰ্থক্য ৯। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28, 17",
+        "as": "২৮, ১৭"
+      },
+      {
+        "en": "27, 18",
+        "as": "২৭, ১৮"
+      },
+      {
+        "en": "45, 9",
+        "as": "৪৫, ৯"
+      },
+      {
+        "en": "26, 19",
+        "as": "২৬, ১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The numbers are 27 and 18.",
+      "as": "সংখ্যা ২৭ আৰু ১৮।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-066",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 50 and their difference is 10. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৫০ আৰু পাৰ্থক্য ১০। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30, 20",
+        "as": "৩০, ২০"
+      },
+      {
+        "en": "31, 19",
+        "as": "৩১, ১৯"
+      },
+      {
+        "en": "50, 10",
+        "as": "৫০, ১০"
+      },
+      {
+        "en": "29, 21",
+        "as": "২৯, ২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The numbers are 30 and 20.",
+      "as": "সংখ্যা ৩০ আৰু ২০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-067",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 28 and their difference is 4. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ২৮ আৰু পাৰ্থক্য ৪। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17, 11",
+        "as": "১৭, ১১"
+      },
+      {
+        "en": "28, 4",
+        "as": "২৮, ৪"
+      },
+      {
+        "en": "15, 13",
+        "as": "১৫, ১৩"
+      },
+      {
+        "en": "16, 12",
+        "as": "১৬, ১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The numbers are 16 and 12.",
+      "as": "সংখ্যা ১৬ আৰু ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-068",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 2x² - 7x + 6 = 0, find α² + β².",
+      "as": "যদি ২x² - ৭x + ৬ = 0 ৰ মূল α আৰু β, তেন্তে α² + β² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "49/4",
+        "as": "৪৯/৪"
+      },
+      {
+        "en": "25/4",
+        "as": "২৫/৪"
+      },
+      {
+        "en": "73/4",
+        "as": "৭৩/৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "α²+β² = 25/4.",
+      "as": "α²+β² = 25/4।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-069",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² + 5x - 14 = 0, find α² + β².",
+      "as": "যদি x² + ৫x - ১৪ = 0 ৰ মূল α আৰু β, তেন্তে α² + β² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "α²+β² = 53.",
+      "as": "α²+β² = 53।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-070",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which x² + kx + 36 = 0 has equal roots.",
+      "as": "x² + kx + ৩৬ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "k² = 144, so k = 12.",
+      "as": "k = ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-071",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which 4x² + kx + 25 = 0 has equal roots.",
+      "as": "৪x² + kx + ২৫ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "k² = 400, so k = 20.",
+      "as": "k = ২০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-072",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which 9x² + kx + 25 = 0 has equal roots.",
+      "as": "৯x² + kx + ২৫ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "k² = 900, so k = 30.",
+      "as": "k = ৩০।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-073",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 6x + k = 0 is 2. Find k.",
+      "as": "x² - ৬x + k = 0 ৰ এটা মূল ২। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-8",
+        "as": "-৮"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Substitute x = 2 into the equation: 1×(2)² − 6×2 + k = 0, so 4 − 12 + k = 0 and k = 8.",
+      "as": "সমীকৰণত x = ২ বহুওৱা: k = ৮।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-074",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 8x + k = 0 is 3. Find k.",
+      "as": "x² - ৮x + k = 0 ৰ এটা মূল ৩। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-15",
+        "as": "-১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Substitute x = 3 into the equation: 1×(3)² − 8×3 + k = 0, so 9 − 24 + k = 0 and k = 15.",
+      "as": "সমীকৰণত x = ৩ বহুওৱা: k = ১৫।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-075",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² + 2x + k = 0 is 4. Find k.",
+      "as": "x² + ২x + k = 0 ৰ এটা মূল ৪। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "-23",
+        "as": "-২৩"
+      },
+      {
+        "en": "-25",
+        "as": "-২৫"
+      },
+      {
+        "en": "-24",
+        "as": "-২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Substitute x = 4 into the equation: 1×(4)² + 2×4 + k = 0, so 16 + 8 + k = 0 and k = -24.",
+      "as": "সমীকৰণত x = ৪ বহুওৱা: k = -২৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-076",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 7.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৭ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 7x + 1 = 0",
+        "as": "x² + ৭x + ১ = ০"
+      },
+      {
+        "en": "x² - 7x - 1 = 0",
+        "as": "x² - ৭x - ১ = ০"
+      },
+      {
+        "en": "x² - 7x + 1 = 0",
+        "as": "x² - ৭x + ১ = ০"
+      },
+      {
+        "en": "x² + 7x - 1 = 0",
+        "as": "x² + ৭x - ১ = ০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x² - 7x + 1 = 0.",
+      "as": "x² - ৭x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-077",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots satisfy x + 1/x = 8.",
+      "as": "যাৰ মূলবোৰে x + 1/x = ৮ সিদ্ধ কৰে, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 8x + 1 = 0",
+        "as": "x² + ৮x + ১ = ০"
+      },
+      {
+        "en": "x² - 8x + 1 = 0",
+        "as": "x² - ৮x + ১ = ০"
+      },
+      {
+        "en": "x² - 8x - 1 = 0",
+        "as": "x² - ৮x - ১ = ০"
+      },
+      {
+        "en": "x² + 8x - 1 = 0",
+        "as": "x² + ৮x - ১ = ০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² - 8x + 1 = 0.",
+      "as": "x² - ৮x + 1 = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-078",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² - 9x + 18 = 0, find α + β.",
+      "as": "যদি x² - ৯x + ১৮ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "-18",
+        "as": "-১৮"
+      },
+      {
+        "en": "9 1",
+        "as": "৯ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "α+β = 9.",
+      "as": "α+β = 9।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-079",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of x² + 7x + 10 = 0, find α + β.",
+      "as": "যদি x² + ৭x + ১০ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "-10",
+        "as": "-১০"
+      },
+      {
+        "en": "-7 1",
+        "as": "-৭ ১"
+      },
+      {
+        "en": "-7",
+        "as": "-৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "α+β = -7.",
+      "as": "α+β = -7।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-080",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "If α and β are the roots of 3x² - 8x + 4 = 0, find α + β.",
+      "as": "যদি ৩x² - ৮x + ৪ = 0 ৰ মূল α আৰু β, তেন্তে α + β নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "8/3",
+        "as": "৮/৩"
+      },
+      {
+        "en": "-4/3",
+        "as": "-৪/৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "α+β = 8/3.",
+      "as": "α+β = 8/3।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-081",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 8 and 3.",
+      "as": "যাৰ মূল ৮ আৰু ৩, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + 11x + 24 = 0",
+        "as": "x² + ১১x + ২৪ = ০"
+      },
+      {
+        "en": "x² - 11x - 24 = 0",
+        "as": "x² - ১১x - ২৪ = ০"
+      },
+      {
+        "en": "x² - 11x + 24 = 0",
+        "as": "x² - ১১x + ২৪ = ০"
+      },
+      {
+        "en": "x² + 24x + 11 = 0",
+        "as": "x² + ২৪x + ১১ = ০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x² - 11x + 24 = 0.",
+      "as": "x² - ১১x + ২৪ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-082",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are -5 and 2.",
+      "as": "যাৰ মূল -৫ আৰু ২, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² + -3x + -10 = 0",
+        "as": "x² + -৩x + -১০ = ০"
+      },
+      {
+        "en": "x² - -3x - -10 = 0",
+        "as": "x² - -৩x - -১০ = ০"
+      },
+      {
+        "en": "x² + -10x + -3 = 0",
+        "as": "x² + -১০x + -৩ = ০"
+      },
+      {
+        "en": "x² + 3x + -10 = 0",
+        "as": "x² + ৩x + -১০ = ০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x² - -3x + -10 = 0.",
+      "as": "x² - -৩x + -১০ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-083",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Form the quadratic equation whose roots are 4 and 4.",
+      "as": "যাৰ মূল ৪ আৰু ৪, তেনে দ্বিঘাত সমীকৰণ গঠন কৰা।"
+    },
+    "options": [
+      {
+        "en": "x² - 8x + 16 = 0",
+        "as": "x² - ৮x + ১৬ = ০"
+      },
+      {
+        "en": "x² + 8x + 16 = 0",
+        "as": "x² + ৮x + ১৬ = ০"
+      },
+      {
+        "en": "x² - 8x - 16 = 0",
+        "as": "x² - ৮x - ১৬ = ০"
+      },
+      {
+        "en": "x² + 16x + 8 = 0",
+        "as": "x² + ১৬x + ৮ = ০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² - 8x + 16 = 0.",
+      "as": "x² - ৮x + ১৬ = 0।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-084",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of x² + 3x - 4 = 0 and state the nature of its roots.",
+      "as": "x² + ৩x - ৪ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "-25",
+        "as": "-২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D = 25; the equation has two distinct real roots.",
+      "as": "D = ২৫; two distinct real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-085",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the discriminant of 2x² - 4x + 3 = 0 and state the nature of its roots.",
+      "as": "২x² - ৪x + ৩ = 0 ৰ নিৰ্ণায়ক নিৰ্ণয় কৰি মূলৰ প্ৰকৃতি কোৱা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "-8",
+        "as": "-৮"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D = -8; the equation has no real roots.",
+      "as": "D = -৮; no real roots।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-086",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 8x + 12 = 0.",
+      "as": "x² - ৮x + ১২ = 0 সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "2, 7",
+        "as": "২, ৭"
+      },
+      {
+        "en": "1, 6",
+        "as": "১, ৬"
+      },
+      {
+        "en": "2, 6",
+        "as": "২, ৬"
+      },
+      {
+        "en": "-2, -6",
+        "as": "-২, -৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The roots add up to −b/a = 8 and multiply to c/a = 12; 2 + 6 = 8 and 2 × 6 = 12, so the roots are 2 and 6. The equation factors as (x − 2)(x − 6) = 0.",
+      "as": "মূলৰ যোগফল −b/a = ৮ আৰু গুণফল c/a = ১২; সেয়ে মূল ২ আৰু ৬।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-087",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the equation x² - 5x + 4 = 0.",
+      "as": "x² − ৫x + ৪ = ০ সমাধান কৰা।"
+    },
+    "options": [
+      {
+        "en": "1, 5",
+        "as": "১, ৫"
+      },
+      {
+        "en": "0, 4",
+        "as": "০, ৪"
+      },
+      {
+        "en": "-1, -4",
+        "as": "-১, -৪"
+      },
+      {
+        "en": "1, 4",
+        "as": "১, ৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorising: x² - 5x + 4 = (x - 1)(x - 4) = 0, so x = 1 or x = 4.",
+      "as": "উৎপাদক বিশ্লেষণ: x² − ৫x + ৪ = (x − ১)(x − ৪) = ০, গতিকে x = ১ বা x = ৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-088",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 3x + 4y = 24 and 2x + -1y = 5.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ৩x + ৪y = ২৪ আৰু ২x + -১y = ৫।"
+    },
+    "options": [
+      {
+        "en": "x = 3, y = 4",
+        "as": "x = ৩, y = ৪"
+      },
+      {
+        "en": "x = 5, y = 2",
+        "as": "x = ৫, y = ২"
+      },
+      {
+        "en": "x = 4, y = 3",
+        "as": "x = ৪, y = ৩"
+      },
+      {
+        "en": "x = 4, y = 3 1",
+        "as": "x = ৪, y = ৩ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x = 4, y = 3.",
+      "as": "x = ৪, y = ৩।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-089",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Solve the system: 2x + 3y = 16 and 4x + -1y = 18.",
+      "as": "সমীকৰণ পদ্ধতি সমাধান কৰা: ২x + ৩y = ১৬ আৰু ৪x + -১y = ১৮।"
+    },
+    "options": [
+      {
+        "en": "x = 2, y = 5",
+        "as": "x = ২, y = ৫"
+      },
+      {
+        "en": "x = 5, y = 2",
+        "as": "x = ৫, y = ২"
+      },
+      {
+        "en": "x = 6, y = 1",
+        "as": "x = ৬, y = ১"
+      },
+      {
+        "en": "x = 4, y = 3",
+        "as": "x = ৪, y = ৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x = 5, y = 2.",
+      "as": "x = ৫, y = ২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-090",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 60 and their difference is 12. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৬০ আৰু পাৰ্থক্য ১২। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36, 24",
+        "as": "৩৬, ২৪"
+      },
+      {
+        "en": "37, 23",
+        "as": "৩৭, ২৩"
+      },
+      {
+        "en": "60, 12",
+        "as": "৬০, ১২"
+      },
+      {
+        "en": "35, 25",
+        "as": "৩৫, ২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The numbers are 36 and 24.",
+      "as": "সংখ্যা ৩৬ আৰু ২৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-091",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "The sum of two numbers is 38 and their difference is 6. Find the numbers.",
+      "as": "দুটা সংখ্যাৰ যোগফল ৩৮ আৰু পাৰ্থক্য ৬। সংখ্যা দুটা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "23, 15",
+        "as": "২৩, ১৫"
+      },
+      {
+        "en": "38, 6",
+        "as": "৩৮, ৬"
+      },
+      {
+        "en": "21, 17",
+        "as": "২১, ১৭"
+      },
+      {
+        "en": "22, 16",
+        "as": "২২, ১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The numbers are 22 and 16.",
+      "as": "সংখ্যা ২২ আৰু ১৬।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-092",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which x² + kx + 49 = 0 has equal roots.",
+      "as": "x² + kx + ৪৯ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "k = 14.",
+      "as": "k = ১৪।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-093",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "Find the positive value of k for which 9x² + kx + 4 = 0 has equal roots.",
+      "as": "৯x² + kx + ৪ = 0 ৰ মূল সমান হ'বলৈ k ৰ ধনাত্মক মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "k = 12.",
+      "as": "k = ১২।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-094",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 6x + k = 0 is 3. Find k.",
+      "as": "x² - ৬x + k = 0 ৰ এটা মূল ৩। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-9",
+        "as": "-৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Substitute x = 3 into the equation: 1×(3)² − 6×3 + k = 0, so 9 − 18 + k = 0 and k = 9.",
+      "as": "সমীকৰণত x = ৩ বহুওৱা: k = ৯।"
+    }
+  },
+  {
+    "id": "num-quadratic-linear-equations-095",
+    "leaf": "quadratic-linear-equations",
+    "q": {
+      "en": "One root of x² - 4x + k = 0 is 1. Find k.",
+      "as": "x² - ৪x + k = 0 ৰ এটা মূল ১। k নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substitute x = 1 into the equation: 1×(1)² − 4×1 + k = 0, so 1 − 4 + k = 0 and k = 3.",
+      "as": "সমীকৰণত x = ১ বহুওৱা: k = ৩।"
+    }
+  }
+]

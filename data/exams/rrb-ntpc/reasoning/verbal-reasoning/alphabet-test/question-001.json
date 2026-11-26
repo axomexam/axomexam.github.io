@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "alphabet-test-001",
+    "q": {
+      "en": "How many letters are there between the 5th letter from the left and the 5th letter from the right in the English alphabet?",
+      "as": "ইংৰাজী বৰ্ণমালাত বাওঁফালৰ পৰা ৫ম আখৰ আৰু সোঁফালৰ পৰা ৫ম আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5th from left is E, 5th from right is V; letters between E and V are 16.",
+      "as": "বাওঁফালৰ পৰা ৫ম E, সোঁফালৰ পৰা ৫ম V; E আৰু V ৰ মাজত ১৬ টা আখৰ।"
+    }
+  },
+  {
+    "id": "alphabet-test-002",
+    "q": {
+      "en": "Which letter is the 11th from the left in the English alphabet?",
+      "as": "ইংৰাজী বৰ্ণমালাত বাওঁফালৰ পৰা ১১সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting from A, the 11th letter is K.",
+      "as": "A ৰ পৰা গণি ১১সং আখৰ K।"
+    }
+  },
+  {
+    "id": "alphabet-test-003",
+    "q": {
+      "en": "Which letter is the 9th from the right in the English alphabet?",
+      "as": "ইংৰাজী বৰ্ণমালাত সোঁফালৰ পৰা ৯সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9th from the right is the 18th from the left, which is R.",
+      "as": "সোঁফালৰ পৰা ৯সং মানে বাওঁফালৰ পৰা ১৮সং, যি R।"
+    }
+  },
+  {
+    "id": "alphabet-test-004",
+    "q": {
+      "en": "What is the 15th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ১৫সং আখৰটো কি?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Counting from A, the 15th letter is O.",
+      "as": "A ৰ পৰা গণি ১৫সং আখৰ O।"
+    }
+  },
+  {
+    "id": "alphabet-test-005",
+    "q": {
+      "en": "Which letter is the 6th from the right?",
+      "as": "সোঁফালৰ পৰা ৬সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6th from the right is the 21st from the left, which is U.",
+      "as": "সোঁফালৰ পৰা ৬সং মানে বাওঁফালৰ পৰা ২১সং, যি U।"
+    }
+  },
+  {
+    "id": "alphabet-test-006",
+    "q": {
+      "en": "The 4th letter to the left of the 16th letter from the left is:",
+      "as": "বাওঁফালৰ পৰা ১৬সং আখৰৰ বাওঁফালে ৪ৰ্থ আখৰটো:"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "16 - 4 = 12, and the 12th letter is L.",
+      "as": "১৬ - ৪ = ১২, আৰু ১২সং আখৰ L।"
+    }
+  },
+  {
+    "id": "alphabet-test-007",
+    "q": {
+      "en": "The 7th letter to the right of the 8th letter from the left is:",
+      "as": "বাওঁফালৰ পৰা ৮সং আখৰৰ সোঁফালে ৭সং আখৰটো:"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8 + 7 = 15, and the 15th letter is O.",
+      "as": "৮ + ৭ = ১৫, আৰু ১৫সং আখৰ O।"
+    }
+  },
+  {
+    "id": "alphabet-test-008",
+    "q": {
+      "en": "If the first 10 letters of the alphabet are removed, which is the 5th letter of the remainder?",
+      "as": "বৰ্ণমালাৰ প্ৰথম ১০টা আখৰ আঁতৰালে, বাকীখিনিৰ ৫সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The remainder starts at K; its 5th letter is the 15th of the alphabet, O.",
+      "as": "বাকীখিনি K ৰ পৰা আৰম্ভ; তাৰ ৫সং আখৰ বৰ্ণমালাৰ ১৫সং, O।"
+    }
+  },
+  {
+    "id": "alphabet-test-009",
+    "q": {
+      "en": "The 3rd letter to the left of the 20th letter from the left is:",
+      "as": "বাওঁফালৰ পৰা ২০সং আখৰৰ বাওঁফালে ৩ৰ্থ আখৰটো:"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "20 - 3 = 17, and the 17th letter is Q.",
+      "as": "২০ - ৩ = ১৭, আৰু ১৭সং আখৰ Q।"
+    }
+  },
+  {
+    "id": "alphabet-test-010",
+    "q": {
+      "en": "The 5th letter to the right of the 21st letter from the right is:",
+      "as": "সোঁফালৰ পৰা ২১সং আখৰৰ সোঁফালে ৫সং আখৰটো:"
+    },
+    "options": [
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "21st from the right is F (6th from the left); 5 to the right gives K.",
+      "as": "সোঁফালৰ পৰা ২১সং F (বাওঁফালৰ পৰা ৬সং); সোঁফালে ৫ গ'লে K।"
+    }
+  },
+  {
+    "id": "alphabet-test-011",
+    "q": {
+      "en": "Which letter is 12th to the left of the 3rd letter from the right?",
+      "as": "সোঁফালৰ পৰা ৩সং আখৰৰ বাওঁফালে ১২সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3rd from the right is X (24th from left); 12 to the left gives L.",
+      "as": "সোঁফালৰ পৰা ৩সং X (বাওঁফালৰ পৰা ২৪সং); বাওঁফালে ১২ গ'লে L।"
+    }
+  },
+  {
+    "id": "alphabet-test-012",
+    "q": {
+      "en": "Which is the 8th letter from the left of the alphabet written in reverse order?",
+      "as": "ওলোটা ক্ৰমত লিখা বৰ্ণমালাৰ বাওঁফালৰ পৰা ৮সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the reversed alphabet the 8th from the left is the 19th of the normal order, S.",
+      "as": "ওলোটা বৰ্ণমালাত বাওঁফালৰ পৰা ৮সং সাধাৰণ ক্ৰমৰ ১৯সং, S।"
+    }
+  },
+  {
+    "id": "alphabet-test-013",
+    "q": {
+      "en": "Which letter is exactly 13 places to the right of the 13th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ১৩সং আখৰৰ সোঁফালে ঠিক ১৩ স্থানত কোন আখৰ?"
+    },
+    "options": [
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "13 + 13 = 26, and the 26th letter is Z.",
+      "as": "১৩ + ১৩ = ২৬, আৰু ২৬সং আখৰ Z।"
+    }
+  },
+  {
+    "id": "alphabet-test-014",
+    "q": {
+      "en": "How many letters are there between D and O in the alphabet?",
+      "as": "বৰ্ণমালাত D আৰু O ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "D is 4 and O is 15; letters between them = 15 - 4 - 1 = 10.",
+      "as": "D ৪ আৰু O ১৫; মাজত = ১৫ - ৪ - ১ = ১০।"
+    }
+  },
+  {
+    "id": "alphabet-test-015",
+    "q": {
+      "en": "How many letters are there between K and T?",
+      "as": "K আৰু T ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "K is 11 and T is 20; between them = 8.",
+      "as": "K ১১ আৰু T ২০; মাজত = ৮।"
+    }
+  },
+  {
+    "id": "alphabet-test-016",
+    "q": {
+      "en": "How many letters are between the 4th letter from the left and the 4th letter from the right?",
+      "as": "বাওঁফালৰ পৰা ৪ৰ্থ আখৰ আৰু সোঁফালৰ পৰা ৪ৰ্থ আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4th from left is D (4), 4th from right is W (23); between = 18.",
+      "as": "বাওঁফালৰ পৰা ৪ৰ্থ D (৪), সোঁফালৰ পৰা ৪ৰ্থ W (২৩); মাজত = ১৮।"
+    }
+  },
+  {
+    "id": "alphabet-test-017",
+    "q": {
+      "en": "How many letters are there between M and Z?",
+      "as": "M আৰু Z ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "M is 13 and Z is 26; between them = 12.",
+      "as": "M ১৩ আৰু Z ২৬; মাজত = ১২।"
+    }
+  },
+  {
+    "id": "alphabet-test-018",
+    "q": {
+      "en": "How many letters are between the 7th letter from the left and the 7th letter from the right?",
+      "as": "বাওঁফালৰ পৰা ৭সং আখৰ আৰু সোঁফালৰ পৰা ৭সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "7th from left is G (7), 7th from right is T (20); between = 12.",
+      "as": "বাওঁফালৰ পৰা ৭সং G (৭), সোঁফালৰ পৰা ৭সং T (২০); মাজত = ১২।"
+    }
+  },
+  {
+    "id": "alphabet-test-019",
+    "q": {
+      "en": "How many letters are there between B and H?",
+      "as": "B আৰু H ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B is 2 and H is 8; between them = 5.",
+      "as": "B ২ আৰু H ৮; মাজত = ৫।"
+    }
+  },
+  {
+    "id": "alphabet-test-020",
+    "q": {
+      "en": "How many letters lie between the 10th letter from the left and the 10th letter from the right?",
+      "as": "বাওঁফালৰ পৰা ১০সং আখৰ আৰু সোঁফালৰ পৰা ১০সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10th from left is J (10), 10th from right is Q (17); between = 6.",
+      "as": "বাওঁফালৰ পৰা ১০সং J (১০), সোঁফালৰ পৰা ১০সং Q (১৭); মাজত = ৬।"
+    }
+  },
+  {
+    "id": "alphabet-test-021",
+    "q": {
+      "en": "How many letters are there between P and X?",
+      "as": "P আৰু X ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P is 16 and X is 24; between them = 7.",
+      "as": "P ১৬ আৰু X ২৪; মাজত = ৭।"
+    }
+  },
+  {
+    "id": "alphabet-test-022",
+    "q": {
+      "en": "How many letters are between the 2nd letter from the right and the 2nd letter from the left?",
+      "as": "সোঁফালৰ পৰা ২সং আখৰ আৰু বাওঁফালৰ পৰা ২সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2nd from right is Y (25), 2nd from left is B (2); between = 22.",
+      "as": "সোঁফালৰ পৰা ২সং Y (২৫), বাওঁফালৰ পৰা ২সং B (২); মাজত = ২২।"
+    }
+  },
+  {
+    "id": "alphabet-test-023",
+    "q": {
+      "en": "How many letters are there between G and N?",
+      "as": "G আৰু N ৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "G is 7 and N is 14; between them = 6.",
+      "as": "G ৭ আৰু N ১৪; মাজত = ৬।"
+    }
+  },
+  {
+    "id": "alphabet-test-024",
+    "q": {
+      "en": "Which letter is exactly midway between B and J?",
+      "as": "B আৰু J ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "B is 2 and J is 10; the midpoint is 6, which is F.",
+      "as": "B ২ আৰু J ১০; মধ্যবিন্দু ৬, যি F।"
+    }
+  },
+  {
+    "id": "alphabet-test-025",
+    "q": {
+      "en": "Which letter is exactly midway between F and P?",
+      "as": "F আৰু P ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "F is 6 and P is 16; the midpoint is 11, which is K.",
+      "as": "F ৬ আৰু P ১৬; মধ্যবিন্দু ১১, যি K।"
+    }
+  },
+  {
+    "id": "alphabet-test-026",
+    "q": {
+      "en": "Which letter is exactly midway between C and K?",
+      "as": "C আৰু K ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C is 3 and K is 11; the midpoint is 7, which is G.",
+      "as": "C ৩ আৰু K ১১; মধ্যবিন্দু ৭, যি G।"
+    }
+  },
+  {
+    "id": "alphabet-test-027",
+    "q": {
+      "en": "Which letter is exactly midway between D and T?",
+      "as": "D আৰু T ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D is 4 and T is 20; the midpoint is 12, which is L.",
+      "as": "D ৪ আৰু T ২০; মধ্যবিন্দু ১২, যি L।"
+    }
+  },
+  {
+    "id": "alphabet-test-028",
+    "q": {
+      "en": "Which letter is exactly midway between H and R?",
+      "as": "H আৰু R ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "H is 8 and R is 18; the midpoint is 13, which is M.",
+      "as": "H ৮ আৰু R ১৮; মধ্যবিন্দু ১৩, যি M।"
+    }
+  },
+  {
+    "id": "alphabet-test-029",
+    "q": {
+      "en": "Which letter is exactly midway between A and M?",
+      "as": "A আৰু M ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A is 1 and M is 13; the midpoint is 7, which is G.",
+      "as": "A ১ আৰু M ১৩; মধ্যবিন্দু ৭, যি G।"
+    }
+  },
+  {
+    "id": "alphabet-test-030",
+    "q": {
+      "en": "Which letter is exactly midway between E and S?",
+      "as": "E আৰু S ৰ ঠিক মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "E is 5 and S is 19; the midpoint is 12, which is L.",
+      "as": "E ৫ আৰু S ১৯; মধ্যবিন্দু ১২, যি L।"
+    }
+  },
+  {
+    "id": "alphabet-test-031",
+    "q": {
+      "en": "Which letter is midway between the 4th letter from the left and the 5th letter from the right?",
+      "as": "বাওঁফালৰ পৰা ৪ৰ্থ আখৰ আৰু সোঁফালৰ পৰা ৫সং আখৰৰ মাজত কোন আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They are D (4) and V (22); the midpoint is 13, which is M.",
+      "as": "তেওঁলোক D (৪) আৰু V (২২); মধ্যবিন্দু ১৩, যি M।"
+    }
+  },
+  {
+    "id": "alphabet-test-032",
+    "q": {
+      "en": "If the alphabet is written in reverse order, which is the 5th letter from the left?",
+      "as": "বৰ্ণমালা ওলোটা ক্ৰমত লিখিলে, বাওঁফালৰ পৰা ৫সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In the reversed alphabet the 5th from the left is the 22nd of the normal order, V.",
+      "as": "ওলোটা বৰ্ণমালাত বাওঁফালৰ পৰা ৫সং সাধাৰণ ক্ৰমৰ ২২সং, V।"
+    }
+  },
+  {
+    "id": "alphabet-test-033",
+    "q": {
+      "en": "If the alphabet is written in reverse, which letter is 10th from the right?",
+      "as": "বৰ্ণমালা ওলোটা লিখিলে, সোঁফালৰ পৰা ১০সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10th from the right of the reversed alphabet is the 10th from the left of normal order, J.",
+      "as": "ওলোটা বৰ্ণমালাৰ সোঁফালৰ পৰা ১০সং সাধাৰণ ক্ৰমৰ বাওঁফালৰ ১০সং, J।"
+    }
+  },
+  {
+    "id": "alphabet-test-034",
+    "q": {
+      "en": "If the first 13 letters are written in reverse and the last 13 kept as they are, what is the 3rd letter from the left?",
+      "as": "প্ৰথম ১৩টা আখৰ ওলোটা কৰি শেষৰ ১৩টা ৰাখিলে, বাওঁফালৰ পৰা ৩ৰ্থ আখৰ কি?"
+    },
+    "options": [
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The first half becomes M, L, K, ...; the 3rd is K.",
+      "as": "প্ৰথম অৰ্ধ M, L, K, ... হয়; ৩ৰ্থ K।"
+    }
+  },
+  {
+    "id": "alphabet-test-035",
+    "q": {
+      "en": "If the first 13 letters are reversed and the rest kept, what is the 15th letter from the left?",
+      "as": "প্ৰথম ১৩টা আখৰ ওলোটা কৰি বাকীখিনি ৰাখিলে, বাওঁফালৰ পৰা ১৫সং আখৰ কি?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 15th position lies in the untouched second half, so it is O.",
+      "as": "১৫সং স্থান অস্পৰ্শিত দ্বিতীয় অৰ্ধত, গতিকে O।"
+    }
+  },
+  {
+    "id": "alphabet-test-036",
+    "q": {
+      "en": "If the second half of the alphabet is written in reverse, which is the 14th letter from the left?",
+      "as": "বৰ্ণমালাৰ দ্বিতীয় অৰ্ধ ওলোটা লিখিলে, বাওঁফালৰ পৰা ১৪সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 14th position becomes Z.",
+      "as": "১৪সং স্থান Z হয়।"
+    }
+  },
+  {
+    "id": "alphabet-test-037",
+    "q": {
+      "en": "If the second half of the alphabet is reversed, which is the 26th letter from the left?",
+      "as": "বৰ্ণমালাৰ দ্বিতীয় অৰ্ধ ওলোটা কৰিলে, বাওঁফালৰ পৰা ২৬সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 26th position becomes N.",
+      "as": "২৬সং স্থান N হয়।"
+    }
+  },
+  {
+    "id": "alphabet-test-038",
+    "q": {
+      "en": "If the two halves of the alphabet are interchanged, which is the 5th letter from the left?",
+      "as": "বৰ্ণমালাৰ দুটা অৰ্ধ সলনি কৰিলে, বাওঁফালৰ পৰা ৫সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The second half comes first: N, O, P, Q, R; the 5th is R.",
+      "as": "দ্বিতীয় অৰ্ধ আগত আহে: N, O, P, Q, R; ৫সং R।"
+    }
+  },
+  {
+    "id": "alphabet-test-039",
+    "q": {
+      "en": "If the two halves of the alphabet are interchanged, which is the 20th letter from the left?",
+      "as": "বৰ্ণমালাৰ দুটা অৰ্ধ সলনি কৰিলে, বাওঁফালৰ পৰা ২০সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The 20th position is the 7th of A to M, which is G.",
+      "as": "২০সং স্থান A ৰ পৰা M ৰ ৭সং, যি G।"
+    }
+  },
+  {
+    "id": "alphabet-test-040",
+    "q": {
+      "en": "In the reversed alphabet, which letter is 3rd to the right of the 7th letter from the left?",
+      "as": "ওলোটা বৰ্ণমালাত, বাওঁফালৰ পৰা ৭সং আখৰৰ সোঁফালে ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 7th from the left is T; three steps right gives the 10th, which is Q.",
+      "as": "বাওঁফালৰ পৰা ৭সং T; সোঁফালে তিনি খোজ গ'লে ১০সং, যি Q।"
+    }
+  },
+  {
+    "id": "alphabet-test-041",
+    "q": {
+      "en": "In the reversed alphabet, which letter is 4th to the left of the 10th letter from the left?",
+      "as": "ওলোটা বৰ্ণমালাত, বাওঁফালৰ পৰা ১০সং আখৰৰ বাওঁফালে ৪ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The 10th from the left is Q; four steps left gives the 6th, which is U.",
+      "as": "বাওঁফালৰ পৰা ১০সং Q; বাওঁফালে চাৰি খোজ গ'লে ৬সং, যি U।"
+    }
+  },
+  {
+    "id": "alphabet-test-042",
+    "q": {
+      "en": "In the reversed alphabet, how many letters lie between the 4th and the 9th letters from the left?",
+      "as": "ওলোটা বৰ্ণমালাত, বাওঁফালৰ পৰা ৪ৰ্থ আৰু ৯সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Simply the number of positions strictly between them, which is 4.",
+      "as": "তেওঁলোকৰ মাজৰ স্থানৰ সংখ্যা, অৰ্থাৎ ৪।"
+    }
+  },
+  {
+    "id": "alphabet-test-043",
+    "q": {
+      "en": "If the second half of the alphabet is written in reverse, which letter is the 20th from the left?",
+      "as": "বৰ্ণমালাৰ দ্বিতীয় অৰ্ধ ওলোটা লিখিলে, বাওঁফালৰ পৰা ২০সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The 20th position becomes T.",
+      "as": "২০সং স্থান T হয়।"
+    }
+  },
+  {
+    "id": "alphabet-test-044",
+    "q": {
+      "en": "Which letter is 5th to the right of the 11th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ১১সং আখৰৰ সোঁফালে ৫সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "11 + 5 = 16, which is P.",
+      "as": "১১ + ৫ = ১৬, যি P।"
+    }
+  },
+  {
+    "id": "alphabet-test-045",
+    "q": {
+      "en": "Which letter is 6th to the left of the 20th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ২০সং আখৰৰ বাওঁফালে ৬সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "20 - 6 = 14, which is N.",
+      "as": "২০ - ৬ = ১৪, যি N।"
+    }
+  },
+  {
+    "id": "alphabet-test-046",
+    "q": {
+      "en": "Which letter is 3rd to the right of the 5th letter from the right?",
+      "as": "সোঁফালৰ পৰা ৫সং আখৰৰ সোঁফালে ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "5th from the right is V (22); three right gives Y.",
+      "as": "সোঁফালৰ পৰা ৫সং V (২২); সোঁফালে তিনি গ'লে Y।"
+    }
+  },
+  {
+    "id": "alphabet-test-047",
+    "q": {
+      "en": "Which letter is 4th to the left of the 6th letter from the right?",
+      "as": "সোঁফালৰ পৰা ৬সং আখৰৰ বাওঁফালে ৪ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6th from the right is U (21); four left gives Q.",
+      "as": "সোঁফালৰ পৰা ৬সং U (২১); বাওঁফালে চাৰি গ'লে Q।"
+    }
+  },
+  {
+    "id": "alphabet-test-048",
+    "q": {
+      "en": "Which letter is 8th to the right of the 2nd letter from the left?",
+      "as": "বাওঁফালৰ পৰা ২সং আখৰৰ সোঁফালে ৮সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "I",
+        "as": "I"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "H",
+        "as": "H"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2 + 8 = 10, which is J.",
+      "as": "২ + ৮ = ১০, যি J।"
+    }
+  },
+  {
+    "id": "alphabet-test-049",
+    "q": {
+      "en": "Which letter is 7th to the left of the 3rd letter from the right?",
+      "as": "সোঁফালৰ পৰা ৩সং আখৰৰ বাওঁফালে ৭সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3rd from the right is X (24); seven left gives Q.",
+      "as": "সোঁফালৰ পৰা ৩সং X (২৪); বাওঁফালে সাত গ'লে Q।"
+    }
+  },
+  {
+    "id": "alphabet-test-050",
+    "q": {
+      "en": "Which letter is 2nd to the right of the 10th letter from the right?",
+      "as": "সোঁফালৰ পৰা ১০সং আখৰৰ সোঁফালে ২সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10th from the right is Q (17); two right gives S.",
+      "as": "সোঁফালৰ পৰা ১০সং Q (১৭); সোঁফালে দুই গ'লে S।"
+    }
+  },
+  {
+    "id": "alphabet-test-051",
+    "q": {
+      "en": "Which letter is 9th to the left of the 15th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ১৫সং আখৰৰ বাওঁফালে ৯সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15 - 9 = 6, which is F.",
+      "as": "১৫ - ৯ = ৬, যি F।"
+    }
+  },
+  {
+    "id": "alphabet-test-052",
+    "q": {
+      "en": "Which letter is 6th to the left of the 4th letter from the right?",
+      "as": "সোঁফালৰ পৰা ৪সং আখৰৰ বাওঁফালে ৬সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4th from the right is W (23); six left gives Q.",
+      "as": "সোঁফালৰ পৰা ৪সং W (২৩); বাওঁফালে ছয় গ'লে Q।"
+    }
+  },
+  {
+    "id": "alphabet-test-053",
+    "q": {
+      "en": "Which letter is 4th to the right of the 6th letter from the right?",
+      "as": "সোঁফালৰ পৰা ৬সং আখৰৰ সোঁফালে ৪ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6th from the right is U (21); four right gives Y.",
+      "as": "সোঁফালৰ পৰা ৬সং U (২১); সোঁফালে চাৰি গ'লে Y।"
+    }
+  },
+  {
+    "id": "alphabet-test-054",
+    "q": {
+      "en": "If the letters of the word TRIANGLE are arranged in alphabetical order, which letter is 4th from the left?",
+      "as": "TRIANGLE শব্দৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে, বাওঁফালৰ পৰা ৪ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "H",
+        "as": "H"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      },
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "I",
+        "as": "I"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sorted: A E G I L N R T; the 4th is I.",
+      "as": "সজোৱা: A E G I L N R T; ৪ৰ্থ I।"
+    }
+  },
+  {
+    "id": "alphabet-test-055",
+    "q": {
+      "en": "If the letters of the word COUNTRY are arranged alphabetically, which is the 3rd from the right?",
+      "as": "COUNTRY শব্দৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে, সোঁফালৰ পৰা ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sorted: C N O R T U Y; 3rd from the right is T.",
+      "as": "সজোৱা: C N O R T U Y; সোঁফালৰ পৰা ৩ৰ্থ T।"
+    }
+  },
+  {
+    "id": "alphabet-test-056",
+    "q": {
+      "en": "Arrange the letters of PAINTER alphabetically; which letter is in the middle?",
+      "as": "PAINTER ৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে মাজত কোন আখৰ থাকিব?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sorted: A E I N P R T; the middle (4th) is N.",
+      "as": "সজোৱা: A E I N P R T; মাজৰ (৪ৰ্থ) N।"
+    }
+  },
+  {
+    "id": "alphabet-test-057",
+    "q": {
+      "en": "If the letters of DIGEST are arranged alphabetically, what is the 5th letter from the left?",
+      "as": "DIGEST ৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে, বাওঁফালৰ পৰা ৫সং আখৰ কি?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sorted: D E G I S T; the 5th is S.",
+      "as": "সজোৱা: D E G I S T; ৫সং S।"
+    }
+  },
+  {
+    "id": "alphabet-test-058",
+    "q": {
+      "en": "If the letters of PRODUCTION are sorted alphabetically, which letter is 5th from the right?",
+      "as": "PRODUCTION ৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে, সোঁফালৰ পৰা ৫সং আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sorted: C D I N O O P R T U; 5th from the right is O.",
+      "as": "সজোৱা: C D I N O O P R T U; সোঁফালৰ পৰা ৫সং O।"
+    }
+  },
+  {
+    "id": "alphabet-test-059",
+    "q": {
+      "en": "The letters of MONKEY are arranged in alphabetical order; which letter is 4th from the left?",
+      "as": "MONKEY ৰ আখৰবোৰ বৰ্ণানুক্ৰমিক কৰিলে, বাওঁফালৰ পৰা ৪ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "L",
+        "as": "L"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sorted: E K M N O Y; the 4th is N.",
+      "as": "সজোৱা: E K M N O Y; ৪ৰ্থ N।"
+    }
+  },
+  {
+    "id": "alphabet-test-060",
+    "q": {
+      "en": "In the word EXAMINATION, which letter is 3rd to the left of the 5th letter from the right?",
+      "as": "EXAMINATION শব্দত, সোঁফালৰ পৰা ৫সং আখৰৰ বাওঁফালে ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5th from the right is A (7th from left); three left is M (4th).",
+      "as": "সোঁফালৰ পৰা ৫সং A (বাওঁফালৰ পৰা ৭সং); বাওঁফালে তিনি M (৪ৰ্থ)।"
+    }
+  },
+  {
+    "id": "alphabet-test-061",
+    "q": {
+      "en": "In the word COMPUTER, if the first and last letters are interchanged, which letter is 3rd from the left?",
+      "as": "COMPUTER শব্দত প্ৰথম আৰু শেষ আখৰ সলনি কৰিলে, বাওঁফালৰ পৰা ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Interchanging C and R gives R O M P U T E C; the 3rd letter is M.",
+      "as": "C আৰু R সলনি কৰিলে R O M P U T E C হয়; ৩ৰ্থ আখৰ M।"
+    }
+  },
+  {
+    "id": "alphabet-test-062",
+    "q": {
+      "en": "If each letter of WATER is moved two places forward and the result is sorted alphabetically, which is the 1st letter?",
+      "as": "WATER ৰ প্ৰতিটো আখৰ দুটা স্থান আগলৈ লৈ ফল সজালে, ১ম আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "W→Y, A→C, T→V, E→G, R→T; sorted C G T V Y, so the 1st is C.",
+      "as": "W→Y, A→C, T→V, E→G, R→T; সজোৱা C G T V Y, গতিকে ১ম C।"
+    }
+  },
+  {
+    "id": "alphabet-test-063",
+    "q": {
+      "en": "How many vowels are there in the word BEAUTIFUL?",
+      "as": "BEAUTIFUL শব্দত কিমানটা স্বৰবৰ্ণ আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The vowels are E, A, U, I, U, which is five.",
+      "as": "স্বৰবৰ্ণবোৰ E, A, U, I, U, অৰ্থাৎ পাঁচ।"
+    }
+  },
+  {
+    "id": "alphabet-test-064",
+    "q": {
+      "en": "If A=1 and so on, which letter's value equals the sum of the values of C and G?",
+      "as": "A=১ ধৰি, কোন আখৰৰ মান C আৰু G ৰ মানৰ যোগফলৰ সমান?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "C is 3 and G is 7; their sum is 10, which is J.",
+      "as": "C ৩ আৰু G ৭; যোগফল ১০, যি J।"
+    }
+  },
+  {
+    "id": "alphabet-test-065",
+    "q": {
+      "en": "If the alphabet is numbered 1 to 26, what is the difference between the values of R and G?",
+      "as": "বৰ্ণমালা ১ ৰ পৰা ২৬ লৈকে সংখ্যাঙ্কিত কৰিলে, R আৰু G ৰ মানৰ পাৰ্থক্য কিমান?"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "R is 18 and G is 7; the difference is 11.",
+      "as": "R ১৮ আৰু G ৭; পাৰ্থক্য ১১।"
+    }
+  },
+  {
+    "id": "alphabet-test-066",
+    "q": {
+      "en": "How many letters lie between the 6th letter from the left and the 6th letter from the right?",
+      "as": "বাওঁফালৰ পৰা ৬সং আখৰ আৰু সোঁফালৰ পৰা ৬সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6th from left is F (6), 6th from right is U (21); between = 14.",
+      "as": "বাওঁফালৰ পৰা ৬সং F (৬), সোঁফালৰ পৰা ৬সং U (২১); মাজত = ১৪।"
+    }
+  },
+  {
+    "id": "alphabet-test-067",
+    "q": {
+      "en": "How many letters are there between the 3rd letter and the 9th letter from the right?",
+      "as": "সোঁফালৰ পৰা ৩ৰ্থ আখৰ আৰু ৯সং আখৰৰ মাজত কিমান আখৰ আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3rd from right is X (24), 9th from right is R (18); between = 5.",
+      "as": "সোঁফালৰ পৰা ৩ৰ্থ X (২৪), ৯সং R (১৮); মাজত = ৫।"
+    }
+  },
+  {
+    "id": "alphabet-test-068",
+    "q": {
+      "en": "If the alphabet is written in reverse, which letter is 3rd to the right of the 12th letter from the left?",
+      "as": "বৰ্ণমালা ওলোটা লিখিলে, বাওঁফালৰ পৰা ১২সং আখৰৰ সোঁফালে ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "L",
+        "as": "L"
+      },
+      {
+        "en": "K",
+        "as": "K"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "J",
+        "as": "J"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 12th from the left is O; three right gives the 15th, which is L.",
+      "as": "বাওঁফালৰ পৰা ১২সং O; সোঁফালে তিনি গ'লে ১৫সং, যি L।"
+    }
+  },
+  {
+    "id": "alphabet-test-069",
+    "q": {
+      "en": "If the two halves of the alphabet are interchanged, which letter is 3rd to the right of the 8th letter from the left?",
+      "as": "বৰ্ণমালাৰ দুটা অৰ্ধ সলনি কৰিলে, বাওঁফালৰ পৰা ৮সং আখৰৰ সোঁফালে ৩ৰ্থ আখৰ কোন?"
+    },
+    "options": [
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "V",
+        "as": "V"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The 8th from the left is U; three right gives the 11th, which is X.",
+      "as": "বাওঁফালৰ পৰা ৮সং U; সোঁফালে তিনি গ'লে ১১সং, যি X।"
+    }
+  },
+  {
+    "id": "alphabet-test-070",
+    "q": {
+      "en": "In the word CHAIRS, how many letters occupy the same position as in the alphabet?",
+      "as": "CHAIRS শব্দত কিমানটা আখৰ বৰ্ণমালাৰ দৰেই একেই স্থানত আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "C is 3 (position 1), H is 8 (position 2) and so on; no letter matches its own position, so the count is zero.",
+      "as": "C ৩ (স্থান ১), H ৮ (স্থান ২) আদি; কোনো আখৰ নিজৰ স্থানত নাই, গতিকে গণনা শূন্য।"
+    }
+  },
+  {
+    "id": "alphabet-test-071",
+    "q": {
+      "en": "If A=1, what is the sum of the values of the letters of the word JAR?",
+      "as": "A=১ ধৰি, JAR শব্দৰ আখৰবোৰৰ মানৰ যোগফল কিমান?"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "J=10, A=1, R=18; the sum is 29.",
+      "as": "J=১০, A=১, R=১৮; যোগফল ২৯।"
+    }
+  },
+  {
+    "id": "alphabet-test-072",
+    "q": {
+      "en": "Which letter is 10 places to the left of the 26th letter from the left?",
+      "as": "বাওঁফালৰ পৰা ২৬সং আখৰৰ বাওঁফালে ১০ স্থানত কোন আখৰ?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "26 - 10 = 16, which is P.",
+      "as": "২৬ - ১০ = ১৬, যি P।"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "exam": "dhs-dme-technical",
+  "totalQuestions": 100,
+  "durationMinutes": 120,
+  "totalMarks": 100,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0,
+  "sets": 10,
+  "difficultyMix": { "easy": 45, "moderate": 40, "difficult": 15 },
+  "sections": [
+    {
+      "id": "technical-science",
+      "questions": 78,
+      "label": {
+        "en": "Technical / Science (Diploma & Degree Level)",
+        "as": "কাৰিকৰী / বিজ্ঞান (ডিপ্লমা আৰু ডিগ্ৰী স্তৰ)"
+      }
+    },
+    {
+      "id": "general-knowledge",
+      "questions": 12,
+      "label": {
+        "en": "General Knowledge & Current Affairs",
+        "as": "সাধাৰণ জ্ঞান আৰু সাম্প্ৰতিক ঘটনাৱলী"
+      }
+    },
+    {
+      "id": "general-english",
+      "questions": 5,
+      "label": {
+        "en": "General English",
+        "as": "সাধাৰণ ইংৰাজী"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "questions": 5,
+      "label": {
+        "en": "Reasoning & Mental Ability",
+        "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+      }
+    }
+  ]
+}

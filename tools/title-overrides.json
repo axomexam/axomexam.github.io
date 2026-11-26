@@ -1,0 +1,1229 @@
+{
+  "note": "Hand-tuned titles the generator cannot derive on its own: either a bracketed term the automatic fit shortened away, or the exam's official name where the page only carried its abbreviation.",
+  "titles": {
+    "topic/gk/art-culture/assam-art-culture-sec/assamese-literature-buranjis-culture/index.html": {
+      "title": "Assamese Literature (Buranjis) Questions — ADRE, APSC",
+      "why": "The fit dropped \"(Buranjis)\" to make room for \"Historical Chronicles\". Buranjis is the word people search; the chronicles gloss is not."
+    },
+    "topic/gk/economics/assam-economy-sec/assam-allied-primary-activities/index.html": {
+      "title": "Allied Activities (Fisheries, Forestry, Livestock) MCQs",
+      "why": "The fit dropped all three subject words to keep the exam list. The subjects are the searchable part."
+    },
+    "topic/gk/economics/indian-economy-sec/bop-forex-reserves-india/index.html": {
+      "title": "Balance of Payments (BoP) & Forex MCQs — ADRE, APSC",
+      "why": "Restores \"BoP\" and \"Forex\", the two abbreviations the fit cut. \"Foreign Exchange\" spells out Forex, so it is the part that goes."
+    },
+    "topic/gk/economics/indian-economy-sec/india-allied-sectors-dairy-fisheries/index.html": {
+      "title": "Allied Sectors (Dairy, Fisheries, Animal Husbandry) MCQs",
+      "why": "The fit dropped the whole subject list. Restored, with the exam list dropped instead."
+    },
+    "topic/gk/economics/indian-economy-sec/msme-handloom-psus-india/index.html": {
+      "title": "MSME, Handloom & Public Sector Undertakings (PSUs) MCQs",
+      "why": "Restores \"(PSUs)\", which is how the topic is searched, by cutting the exam list."
+    },
+    "topic/gk/indian-history/medieval-indian-history-sec/mughal-empire-admin/index.html": {
+      "title": "Mughal Empire (Babur to Aurangzeb) & Administration MCQs",
+      "why": "Restores the ruler range, the term the fit cut, by cutting the exam list."
+    },
+    "topic/gk/indian-history/medieval-indian-history-sec/turkish-invasions/index.html": {
+      "title": "Turkish Invasions (Mahmud of Ghazni & Muhammad Ghori) MCQs",
+      "why": "Restores both invader names, the most specific terms on the page."
+    },
+    "topic/gk/indian-history/modern-indian-history-sec/british-conquest-plassey-buxar/index.html": {
+      "title": "British Conquest & Consolidation (Plassey & Buxar) MCQs",
+      "why": "Restores the two battle names, which is what the page is searched by."
+    },
+    "topic/gk/indian-history/modern-indian-history-sec/constitutional-developments-acts/index.html": {
+      "title": "Constitutional Developments & Acts (1909, 1919, 1935) MCQs",
+      "why": "Restores the three act years, the terms the fit cut."
+    },
+    "exams/assam-police/index.html": {
+      "title": "Assam Police Constable (AB & UB) Exam Guide",
+      "why": "The exam page body already says \"Constable AB & UB (SLPRB)\", but the title and H1 said only \"AB & UB\". The site is ranked for assam police constable queries and the word was missing from every heading."
+    },
+    "exams/assam-police/syllabus/index.html": {
+      "title": "Assam Police Constable (AB & UB) Syllabus",
+      "why": "\"assam police constable syllabus\" brings impressions at position 66.5; the title read \"Syllabus for Assam Police AB & UB\"."
+    },
+    "exam-wise-mock-test/assam-police/index.html": {
+      "title": "Assam Police Constable Mock Test — Paper Sets",
+      "why": "\"assam police constable mock test\" 23 impressions at position 64.8 and \"assam police constable test series\" 4; the title said \"Assam Police Mock Test\"."
+    },
+    "previous-year/assam-police/ab-ub/2025/index.html": {
+      "title": "Assam Police AB UB 2025 Previous Year Question Paper PDF",
+      "why": "99 impressions on 'assam police previous year question paper 2025' and 30 on 'assam police previous year question paper', all at position 8-9, and the title never said 'Previous Year'."
+    },
+    "previous-year/assam-police/si/2025/index.html": {
+      "title": "Assam Police SI 2025 Previous Year Question Paper PDF",
+      "why": "77 impressions on 'assam police si previous year question paper' at position 27 and 11 on 'assam police si previous year paper' at 80; the title had neither word."
+    },
+    "exams/assam-police/general-knowledge-current-affairs/index.html": {
+      "title": "Assam Police GK & Current Affairs Questions with Answers",
+      "why": "The H1 says 'for Assam Police AB & UB' and the title dropped the exam, so the page competes with national GK sites."
+    },
+    "exams/dhs-dme/elementary-mathematics/statistics-and-data-interpretation/index.html": {
+      "title": "DHS & DME Statistics & Data Interpretation MCQs",
+      "why": "The H1 names DHS & DME Non-Technical Grade III and the title did not, leaving a generic title against national sites."
+    },
+    "exams/dhs-dme/logical-reasoning/analytical-critical-reasoning/index.html": {
+      "title": "DHS & DME Analytical & Critical Reasoning MCQs",
+      "why": "The H1 names DHS & DME Non-Technical Grade III and the title did not."
+    },
+    "exams/assam-police-si/general-knowledge-science-current-affairs/index.html": {
+      "title": "Assam Police SI GK, Science & Current Affairs MCQs",
+      "why": "The H1 names Assam Police Sub-Inspector (SI); 'for Assam' in the title matched no exam query."
+    },
+    "exams/assam-police-si/general-knowledge-science-current-affairs/indian-history-polity-economy/index.html": {
+      "title": "Assam Police SI History, Polity & Economy MCQs",
+      "why": "The H1 names Assam Police Sub-Inspector (SI) and the title was a generic national-history phrase with no exam context."
+    },
+    "exams/assam-police-si/general-knowledge-science-current-affairs/indian-history-national-movement/index.html": {
+      "title": "Assam Police SI Indian History National Movement MCQs",
+      "why": "The H1 names Assam Police Sub-Inspector (SI); the title had no exam context and competed with national history sites."
+    },
+    "exams/assam-police-si/general-knowledge-science-current-affairs/indian-polity-constitution/index.html": {
+      "title": "Assam Police SI Indian Polity & Constitution MCQs",
+      "why": "The H1 names Assam Police Sub-Inspector (SI); the title had no exam context."
+    },
+    "exams/assam-police-si/general-knowledge-science-current-affairs/general-science-technology/index.html": {
+      "title": "Assam Police SI General Science & Technology MCQs",
+      "why": "The H1 names Assam Police Sub-Inspector (SI); the title had no exam context."
+    },
+    "exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/shape-construction-grouping/index.html": {
+      "title": "ADRE 3.0 Grade III Shape Construction & Grouping MCQs",
+      "why": "The H1 names ADRE 3.0 Grade III and the title did not."
+    },
+    "exams/adre-grade-3/logical-reasoning/analytical-critical-reasoning/complex-puzzles/index.html": {
+      "title": "ADRE 3.0 Grade III Complex Puzzles (Floor, Box) MCQs",
+      "why": "The H1 names ADRE 3.0 Grade III and the title did not."
+    },
+    "exams/adre-grade-3/logical-reasoning/analytical-critical-reasoning/seating-arrangement/index.html": {
+      "title": "ADRE 3.0 Grade III Seating Arrangement MCQs",
+      "why": "The H1 names ADRE 3.0 Grade III and the title did not."
+    },
+    "as/exams/dhs-dme-technical/general-english/vocabulary/general-vocabulary/index.html": {
+      "title": "সাধাৰণ শব্দভাণ্ডাৰ (মিশ্ৰ অনুশীলন) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/general-knowledge/index.html": {
+      "title": "সাধাৰণ জ্ঞান আৰু সাম্প্ৰতিক ঘটনাৱলী — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/general-knowledge/current-affairs/national-international-news/index.html": {
+      "title": "ৰাষ্ট্ৰীয় আৰু আন্তৰ্জাতিক বাতৰি — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/physics/modern-nuclear-physics/index.html": {
+      "title": "আধুনিক আৰু কেন্দ্ৰীয় পদাৰ্থবিজ্ঞান — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/physics/general-physics/index.html": {
+      "title": "সাধাৰণ পদাৰ্থবিজ্ঞান (মিশ্ৰ অনুশীলন) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/nursing-paramedical/health-programmes-assam/index.html": {
+      "title": "স্বাস্থ্য আঁচনি আৰু অসমৰ স্বাস্থ্য ব্যৱস্থা — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/nursing-paramedical/first-aid-emergency/index.html": {
+      "title": "প্ৰাথমিক চিকিৎসা আৰু জৰুৰীকালীন সেৱা — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/chemistry/periodic-table/index.html": {
+      "title": "পৰ্যায় সাৰণি আৰু পৰ্যায়বৃত্তি — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/technical-science/biology/general-biology/index.html": {
+      "title": "সাধাৰণ জীৱবিজ্ঞান (মিশ্ৰ অনুশীলন) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/logical-reasoning/non-verbal-reasoning/visual-memory/index.html": {
+      "title": "দৃশ্যমান স্মৃতি আৰু নিয়ম চিনাক্তকৰণ — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/logical-reasoning/non-verbal-reasoning/general-non-verbal-reasoning/index.html": {
+      "title": "সাধাৰণ চিত্ৰভিত্তিক যুক্তিতৰ্ক (মিশ্ৰ অনুশীলন) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/logical-reasoning/verbal-reasoning/general-verbal-reasoning/index.html": {
+      "title": "সাধাৰণ ভাষিক যুক্তিতৰ্ক (মিশ্ৰ অনুশীলন) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme-technical/logical-reasoning/analytical-critical-reasoning/index.html": {
+      "title": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/dhs-dme-technical/logical-reasoning/analytical-critical-reasoning/decision-making-data-sufficiency/index.html": {
+      "title": "সিদ্ধান্ত গ্ৰহণ আৰু তথ্য পৰ্যাপ্ততা — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme/general-knowledge/index.html": {
+      "title": "সাধাৰণ জ্ঞান (অসম আৰু ভাৰত) — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme/elementary-mathematics/statistics-and-data-interpretation/index.html": {
+      "title": "পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ — DHS DME",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/dhs-dme/logical-reasoning/index.html": {
+      "title": "তৰ্কশক্তি আৰু মানসিক দক্ষতা — প্ৰশ্ন আৰু উত্তৰ — exams — DHS",
+      "why": "The H1 names the exam (DHS DME); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/assam-history-geography-culture/index.html": {
+      "title": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/assam-history-geography-culture/assam-culture/index.html": {
+      "title": "অসমৰ কলা, সাহিত্য আৰু সংস্কৃতি — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/general-knowledge-science-current-affairs/index.html": {
+      "title": "সাধাৰণ জ্ঞান, বিজ্ঞান আৰু সাম্প্ৰতিক ঘটনা — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/general-knowledge-science-current-affairs/indian-history-polity-economy/index.html": {
+      "title": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু অৰ্থনীতি — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/general-knowledge-science-current-affairs/indian-history-national-movement/index.html": {
+      "title": "ভাৰতৰ ইতিহাস আৰু জাতীয় আন্দোলন — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/elementary-mathematics/ratio-proportion/index.html": {
+      "title": "অনুপাত, সমানুপাত আৰু অংশীদাৰিত্ব — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/assam-police-si/elementary-mathematics/time-speed-distance/index.html": {
+      "title": "সময়, গতি, দূৰত্ব, ৰে'ল আৰু নাও — অসম আৰক্ষী SI",
+      "why": "The H1 names the exam (অসম আৰক্ষী SI); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-4/general-english/grammar/subject-verb-agreement/index.html": {
+      "title": "কৰ্তা-ক্ৰিয়াৰ মিল (Subject-Verb Agreement)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-english/vocabulary/synonyms-antonyms/index.html": {
+      "title": "সমৰ্থক আৰু বিপৰীত শব্দ (Synonyms & Antonyms) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড IV); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-4/general-english/vocabulary/one-word-substitution/index.html": {
+      "title": "এটা শব্দত প্ৰকাশ — ADRE 3.0 গ্ৰেড IV (One Word Substitution)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/social-studies/economy-environment/environment-pollution/index.html": {
+      "title": "পৰিৱেশ সংৰক্ষণ — ADRE 3.0 গ্ৰেড IV (Environment Pollution)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/social-studies/polity-constitution/constitution-preamble-rights/index.html": {
+      "title": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/social-studies/polity-constitution/president-pm-governor-cm/index.html": {
+      "title": "ৰাষ্ট্ৰপতি, প্ৰধানমন্ত্ৰী, ৰাজ্যপাল আৰু মুখ্যমন্ত্ৰীৰ পদবী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/india-general-knowledge/india-rivers-mountains-states/index.html": {
+      "title": "ভাৰতৰ প্ৰধান নদ-নদী, পৰ্বতমালা আৰু ৰাজ্যসমূহ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/india-general-knowledge/important-days-dates/index.html": {
+      "title": "উল্লেখযোগ্য দিন — ADRE 3.0 গ্ৰেড IV (Important Days Dates)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/assam-history-culture/assamese-literature/index.html": {
+      "title": "অসমীয়া সাহিত্যৰ — ADRE 3.0 গ্ৰেড IV (Assamese Literature)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/assam-history-culture/assam-folk-culture/index.html": {
+      "title": "অসমৰ লোক-সংস্কৃতি — ADRE 3.0 গ্ৰেড IV (Assam Folk Culture)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/assam-history-culture/assam-freedom-struggle/index.html": {
+      "title": "স্বাধীনতা সংগ্ৰামত অসমৰ ভূমিকা আৰু শ্বহীদসকল — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড IV); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/assam-history-culture/yandabo-british-rule/index.html": {
+      "title": "য়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসনৰ আৰম্ভণি — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড IV); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/assam-geography/assam-national-parks/index.html": {
+      "title": "অসমৰ ৰাষ্ট্ৰীয় — ADRE 3.0 গ্ৰেড IV (Assam National Parks)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/current-affairs/assam-india-current-affairs/index.html": {
+      "title": "বিগত ৬-৮ — ADRE 3.0 গ্ৰেড IV (Assam India Current Affairs)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/elementary-mathematics/problems-on-ages/index.html": {
+      "title": "বয়স সম্বন্ধীয় — ADRE 3.0 গ্ৰেড IV (Problems On Ages)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/elementary-mathematics/basic-mensuration/index.html": {
+      "title": "সাধাৰণ পৰিমিতি — ADRE 3.0 গ্ৰেড IV (Basic Mensuration)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/elementary-mathematics/ratio-proportion/index.html": {
+      "title": "অনুপাত আৰু সমানুপাত — ADRE 3.0 গ্ৰেড IV (Ratio Proportion)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/elementary-mathematics/time-speed-distance/index.html": {
+      "title": "সময় আৰু দূৰত্ব — ADRE 3.0 গ্ৰেড IV (Time Speed Distance)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/elementary-mathematics/simple-compound-interest/index.html": {
+      "title": "সৰল সুত — ADRE 3.0 গ্ৰেড IV (Simple Compound Interest)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/index.html": {
+      "title": "যুক্তি আৰু বৌদ্ধিক — ADRE 3.0 গ্ৰেড IV (Logical Reasoning)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/figure-series/index.html": {
+      "title": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম — ADRE 3.0 গ্ৰেড IV (Figure Series)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/paper-folding-cutting/index.html": {
+      "title": "কাগজ ভাঁজ কৰা — ADRE 3.0 গ্ৰেড IV (Paper Folding Cutting)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/figure-classification/index.html": {
+      "title": "৫টা চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড IV); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/analogy/index.html": {
+      "title": "সাদৃশ্য নিৰ্ণয় — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title carried an unclosed bracket, so the visible text stopped mid-parenthetical."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/blood-relations/index.html": {
+      "title": "তেজৰ বা পৰিয়ালৰ — ADRE 3.0 গ্ৰেড IV (Blood Relations)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/venn-diagrams/index.html": {
+      "title": "জ্যামিতিক চিত্ৰৰ জৰিয়তে — ADRE 3.0 গ্ৰেড IV (Venn Diagrams)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/odd-one-out/index.html": {
+      "title": "চাৰিটা বিকল্পৰ মাজৰ পৰা — ADRE 3.0 গ্ৰেড IV (Odd One Out)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/syllogism/index.html": {
+      "title": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয় (Syllogism) — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড IV); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-english/grammar/subject-verb-agreement/index.html": {
+      "title": "কৰ্তা-ক্ৰিয়াৰ মিল (Subject-Verb Agreement) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-english/vocabulary/one-word-substitution/index.html": {
+      "title": "এটা শব্দত প্ৰকাশ (One Word Substitution) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/social-studies/economy-environment/environment-pollution/index.html": {
+      "title": "পৰিৱেশ সংৰক্ষণ আৰু প্ৰদূষণ সম্পৰ্কীয় সজাগতা — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/social-studies/polity-constitution/constitution-preamble-rights/index.html": {
+      "title": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/social-studies/polity-constitution/president-pm-governor-cm/index.html": {
+      "title": "ৰাষ্ট্ৰপতি, প্ৰধানমন্ত্ৰী, ৰাজ্যপাল আৰু মুখ্যমন্ত্ৰীৰ — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/india-general-knowledge/india-rivers-mountains-states/index.html": {
+      "title": "ভাৰতৰ প্ৰধান নদ-নদী, পৰ্বতমালা আৰু ৰাজ্যসমূহ — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/india-general-knowledge/important-days-dates/index.html": {
+      "title": "উল্লেখযোগ্য দিন আৰু দিৱস (Important Days & Dates) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/assam-history-culture/assamese-literature/index.html": {
+      "title": "অসমীয়া সাহিত্যৰ উল্লেখযোগ্য লেখক আৰু গ্ৰন্থসমূহ — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/assam-history-culture/assam-folk-culture/index.html": {
+      "title": "অসমৰ লোক-সংস্কৃতি, বিহু, উৎসৱ-পাৰ্বণ, সত্ৰীয়া — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/assam-geography/assam-national-parks/index.html": {
+      "title": "অসমৰ ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্যসমূহ — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/current-affairs/assam-india-current-affairs/index.html": {
+      "title": "বিগত ৬-৮ মাহৰ অসম আৰু ভাৰতৰ গুৰুত্বপূৰ্ণ ঘটনাৱলী — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/problems-on-ages/index.html": {
+      "title": "বয়স সম্বন্ধীয় সমস্যা (Problems on Ages) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/basic-mensuration/index.html": {
+      "title": "সাধাৰণ পৰিমিতি আৰু জ্যামিতি (Basic Mensuration) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/ratio-proportion/index.html": {
+      "title": "অনুপাত আৰু সমানুপাত (Ratio & Proportion) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/time-speed-distance/index.html": {
+      "title": "সময় আৰু দূৰত্ব (Time, Speed & Distance) — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/mixture-and-alligation/index.html": {
+      "title": "মিশ্ৰণ আৰু সংযোগ (Mixture & Alligation) — ADRE 3.0 গ্ৰেড III",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/elementary-mathematics/simple-compound-interest/index.html": {
+      "title": "সৰল সুত আৰু চক্ৰবৃদ্ধি সুত — ADRE 3.0 গ্ৰেড III",
+      "why": "The title carried an unclosed bracket, so the visible text stopped mid-parenthetical."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/index.html": {
+      "title": "যুক্তি আৰু বৌদ্ধিক ক্ষমতা — ADRE 3.0 গ্ৰেড III",
+      "why": "The title carried an unclosed bracket, so the visible text stopped mid-parenthetical."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/figure-series/index.html": {
+      "title": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/paper-folding-cutting/index.html": {
+      "title": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/mathematical-operations/index.html": {
+      "title": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় — ADRE 3.0 গ্ৰেড III",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/number-alphabet-series/index.html": {
+      "title": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ — ADRE 3.0 গ্ৰেড III",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/alpha-numeric-series/index.html": {
+      "title": "বৰ্ণ আৰু সংখ্যাৰ মিশ্ৰিত শৃংখলা — ADRE 3.0 গ্ৰেড III",
+      "why": "The title carried an unclosed bracket, so the visible text stopped mid-parenthetical."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/blood-relations/index.html": {
+      "title": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/venn-diagrams/index.html": {
+      "title": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/odd-one-out/index.html": {
+      "title": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/syllogism/index.html": {
+      "title": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয় — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/clock-calendar/index.html": {
+      "title": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/input-output-machine/index.html": {
+      "title": "ইনপুট-আউটপুট আৰু যন্ত্ৰৰ ধাপ (Input-Output & Machine) — ADRE",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/word-formation-dictionary/index.html": {
+      "title": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা — ADRE 3.0 গ্ৰেড III",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/analytical-critical-reasoning/index.html": {
+      "title": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক — ADRE 3.0",
+      "why": "The H1 names the exam (ADRE 3.0 গ্ৰেড III); the title dropped it and competed with every national site instead."
+    },
+    "as/topic/gk/geography/indian-geography-sec/tiger-reserves-ramsar-conservation-india/index.html": {
+      "title": "ব্যাঘ্ৰ সংৰক্ষিত বনাঞ্চল, ৰামচাৰ ক্ষেত্ৰ — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/geography/astronomical-geography-sec/space-agencies-missions-isro-nasa/index.html": {
+      "title": "মহাকাশ সংস্থা আৰু ভাৰতীয় অভিযান — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/geography/astronomical-geography-sec/latitudes-longitudes-equator-idl/index.html": {
+      "title": "অক্ষৰেখা, দ্ৰাঘিমাৰেখা, বিষুৱৰেখা — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/geography/astronomical-geography-sec/upcoming-missions-space-telescopes/index.html": {
+      "title": "ভৱিষ্যতৰ অভিযান আৰু মহাকাশ দূৰবীক্ষণ যন্ত্ৰ — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/indian-history/modern-indian-history-sec/gandhian-era-movements/index.html": {
+      "title": "গান্ধীবাদী যুগ আৰু গণ আন্দোলন — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/polity/union-state-governance-sec/executive-president-governor-pm-cm/index.html": {
+      "title": "কাৰ্যপালিকা: ৰাষ্ট্ৰপতি, ৰাজ্যপাল — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/polity/union-state-governance-sec/judiciary-supreme-court-high-courts-subordinate/index.html": {
+      "title": "ন্যায়পালিকা: উচ্চতম ন্যায়ালয়, উচ্চ — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/economics/indian-economy-sec/physical-infrastructure-nh-rail-ports-aviation/index.html": {
+      "title": "আন্তঃগাঁথনি (ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'লৱে, বন্দৰ, বিমান পৰিবহণ)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/topic/gk/economics/assam-economy-sec/assam-transport-logistics-nw2/index.html": {
+      "title": "পৰিবহণ আৰু লজিষ্টিকছ — প্ৰশ্নোত্তৰ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/index.html": {
+      "title": "পৰীক্ষা-ভিত্তিক মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-10/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড — সম্পূৰ্ণ পত্ৰ ছেট 10 (Set 10)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-5/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 5 (Set 5)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-9/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 9 (Set 9)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-7/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 7 (Set 7)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-4/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 4 (Set 4)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-3/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 3 (Set 3)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-1/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-6/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 6 (Set 6)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-8/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 8 (Set 8)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-technical/set-2/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 2 (Set 2)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-10/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড — সম্পূৰ্ণ পত্ৰ ছেট 10 (Set 10)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-5/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 5 (Set 5)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-9/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 9 (Set 9)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-7/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 7 (Set 7)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-4/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 4 (Set 4)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-3/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 3 (Set 3)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-1/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-6/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 6 (Set 6)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-8/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 8 (Set 8)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme/set-2/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 2 (Set 2)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-10/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 10 (Set 10)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-5/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 5 (Set 5)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-9/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 9 (Set 9)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-7/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 7 (Set 7)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-4/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 4 (Set 4)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-3/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 3 (Set 3)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-1/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-6/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 6 (Set 6)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-8/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 8 (Set 8)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/assam-police-si/set-2/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) — সম্পূৰ্ণ পত্ৰ ছেট 2 (Set 2)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-10/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-5/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-9/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-7/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-4/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-3/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-1/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-6/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-8/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-4/set-2/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-10/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-5/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-9/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-7/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-4/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-3/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-1/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-6/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-8/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/adre-grade-3/set-2/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III — সম্পূৰ্ণ পত্ৰ ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-10/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-5/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-9/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-7/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-4/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-3/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-1/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-6/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-8/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exam-wise-mock-test/dhs-dme-grade-4/set-2/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV — সম্পূৰ্ণ পত্ৰ ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/previous-year/guwahati-hc/2026/index.html": {
+      "title": "গুৱাহাটী উচ্চ ন্যায়ালয় 2026 বিগত বছৰৰ প্ৰশ্নকাকত",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-10/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-5/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-9/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-7/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-4/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-3/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-1/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-6/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-8/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/non-verbal-reasoning/set-2/index.html": {
+      "title": "Non Verbal Reasoning মক টেষ্ট — ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-10/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-5/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-9/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-7/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-4/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-3/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-1/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-6/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-8/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/reasoning/analytical-critical-reasoning/set-2/index.html": {
+      "title": "Analytical Critical Reasoning মক টেষ্ট — ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/geography/astronomical-geography-sec/index.html": {
+      "title": "Astronomical Geography Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/indian-history/modern-indian-history-sec/index.html": {
+      "title": "Modern Indian History Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/indian-history/medieval-indian-history-sec/index.html": {
+      "title": "Medieval Indian History Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/indian-history/ancient-indian-history-sec/index.html": {
+      "title": "Ancient Indian History Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/polity/union-state-governance-sec/index.html": {
+      "title": "Union State Governance Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/assam-literature/post-independence-contemporary-sec/index.html": {
+      "title": "Post Independence Contemporary Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/assam-literature/ancient-pre-vaishnavite-sec/index.html": {
+      "title": "Ancient Pre Vaishnavite Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/gk/assam-literature/modern-era-arunodoi-jonaki-sec/index.html": {
+      "title": "Modern Era Arunodoi Jonaki Sec মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-10/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 10",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-5/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 5",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-9/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 9",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-7/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 7",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-4/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 4",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-3/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 3",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-1/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 1",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-6/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 6",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-8/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 8",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/mock-test/math/statistics-and-data-interpretation/set-2/index.html": {
+      "title": "Statistics And Data Interpretation মক টেষ্ট — ছেট 2",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/ebooks/indian-art-culture/index.html": {
+      "title": "ভাৰতীয় কলা আৰু সংস্কৃতি ই-বুক",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/ebooks/assam-literature/index.html": {
+      "title": "অসমীয়া সাহিত্যৰ সম্পূৰ্ণ গাইড ই-বুক",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/ebooks/indian-polity/index.html": {
+      "title": "ভাৰতীয় ৰাজনীতি আৰু সংবিধান ই-বুক",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/dhs-dme-technical/index.html": {
+      "title": "DHS আৰু DME কাৰিকৰী গ্ৰেড III পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/rrb-ntpc/index.html": {
+      "title": "RRB NTPC পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/index.html": {
+      "title": "অসম আৰক্ষী AB আৰু UB পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/figure-series/index.html": {
+      "title": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/figure-analogy/index.html": {
+      "title": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/paper-folding-cutting/index.html": {
+      "title": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/embedded-figures/index.html": {
+      "title": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/cubes-dice/index.html": {
+      "title": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/figure-classification/index.html": {
+      "title": "৫টা চিত্ৰৰ — অসম আৰক্ষী AB আৰু UB (Figure Classification)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/non-verbal-reasoning/counting-figures/index.html": {
+      "title": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/mathematical-operations/index.html": {
+      "title": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/number-alphabet-series/index.html": {
+      "title": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/analogy/index.html": {
+      "title": "সাদৃশ্য নিৰ্ণয় — অসম আৰক্ষী AB আৰু UB (Analogy)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/blood-relations/index.html": {
+      "title": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/venn-diagrams/index.html": {
+      "title": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/odd-one-out/index.html": {
+      "title": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/syllogism/index.html": {
+      "title": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/clock-calendar/index.html": {
+      "title": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/ranking-order/index.html": {
+      "title": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/coding-decoding/index.html": {
+      "title": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় — অসম আৰক্ষী AB আৰু UB",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police/logical-reasoning/verbal-reasoning/word-formation-dictionary/index.html": {
+      "title": "শব্দ গঠন — অসম আৰক্ষী AB আৰু UB (Word Formation Dictionary)",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/dhs-dme/index.html": {
+      "title": "DHS আৰু DME অসামৰিক গ্ৰেড III পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/assam-police-si/index.html": {
+      "title": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI) পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড IV পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-english/vocabulary/error-detection/index.html": {
+      "title": "ভুল বানান আৰু বাক্যৰ ভুল নিৰ্ণয় — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/general-knowledge-assam-gk/index.html": {
+      "title": "সাধাৰণ জ্ঞান আৰু অসম সম্পৰ্কীয় তথ্য — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/figure-analogy/index.html": {
+      "title": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/embedded-figures/index.html": {
+      "title": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/cubes-dice/index.html": {
+      "title": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/non-verbal-reasoning/counting-figures/index.html": {
+      "title": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/mathematical-operations/index.html": {
+      "title": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/clock-calendar/index.html": {
+      "title": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/ranking-order/index.html": {
+      "title": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-4/logical-reasoning/verbal-reasoning/coding-decoding/index.html": {
+      "title": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় — ADRE 3.0 গ্ৰেড IV",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/index.html": {
+      "title": "ADRE 3.0 গ্ৰেড III পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/general-knowledge-assam-gk/index.html": {
+      "title": "সাধাৰণ জ্ঞান আৰু অসম সম্পৰ্কীয় তথ্য — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/figure-analogy/index.html": {
+      "title": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/embedded-figures/index.html": {
+      "title": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/cubes-dice/index.html": {
+      "title": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/counting-figures/index.html": {
+      "title": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/ranking-order/index.html": {
+      "title": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/adre-grade-3/logical-reasoning/verbal-reasoning/coding-decoding/index.html": {
+      "title": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় — ADRE 3.0 গ্ৰেড III",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/exams/dhs-dme-grade-4/index.html": {
+      "title": "DHS আৰু DME গ্ৰেড IV পৰীক্ষাৰ প্ৰস্তুতি",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/environment-ecology/index.html": {
+      "title": "পৰিৱেশ আৰু জৈৱ-বৈচিত্ৰ্য চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/international-affairs/index.html": {
+      "title": "আন্তঃৰাষ্ট্ৰীয় পৰিক্ৰমা চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/summits-conferences/index.html": {
+      "title": "শীৰ্ষ সন্মিলন আৰু বৈঠক চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/defence-security/index.html": {
+      "title": "প্ৰতিৰক্ষা আৰু নিৰাপত্তা চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/science-technology/index.html": {
+      "title": "বিজ্ঞান আৰু প্ৰযুক্তি চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "as/current-affairs/important-days-themes/index.html": {
+      "title": "গুৰুত্বপূৰ্ণ দিৱস আৰু থিম চলিত ঘটনাৱলী",
+      "why": "The title had been truncated mid-word by an earlier length pass (an ellipsis plus a dangling word or pipe); rebuilt from the page's own H1."
+    },
+    "exams/dhs-dme-technical/general-knowledge/assam-gk/index.html": {
+      "title": "Assam Specific Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-technical/general-knowledge/geography/index.html": {
+      "title": "Geography Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-technical/general-knowledge/static-gk/index.html": {
+      "title": "Static GK Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-technical/general-knowledge/current-affairs/index.html": {
+      "title": "Current Affairs Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-technical/general-knowledge/assam-history/index.html": {
+      "title": "Assam History Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-technical/numerical-aptitude/arithmetic/index.html": {
+      "title": "Arithmetic Topics — DHS & DME Technical",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/reasoning/non-verbal-reasoning/index.html": {
+      "title": "Non-Verbal Reasoning Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/reasoning/analytical-logical-reasoning/index.html": {
+      "title": "Analytical Logical Reasoning Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/reasoning/verbal-reasoning/index.html": {
+      "title": "Verbal Reasoning Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/geography/index.html": {
+      "title": "Geography Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/history/index.html": {
+      "title": "History Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/static-gk-computers/index.html": {
+      "title": "Static GK Computers Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/economy/index.html": {
+      "title": "Economy Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/current-affairs/index.html": {
+      "title": "Current Affairs Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/polity/index.html": {
+      "title": "Political Science Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/rrb-ntpc/general-awareness/general-science/index.html": {
+      "title": "General Science Topics — RRB NTPC",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/assam-police/logical-reasoning/non-verbal-reasoning/index.html": {
+      "title": "Non-Verbal Reasoning Topics — Assam Police",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/assam-police-si/elementary-mathematics/index.html": {
+      "title": "Aptitude & Basic Topics — Assam Police SI",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/general-english/grammar/index.html": {
+      "title": "Grammar Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/general-english/vocabulary/index.html": {
+      "title": "Vocabulary Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/social-studies/index.html": {
+      "title": "Social Studies Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/social-studies/economy-environment/index.html": {
+      "title": "Economy Environment Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/social-studies/polity-constitution/index.html": {
+      "title": "Polity Constitution Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/history/indian-history/index.html": {
+      "title": "Indian History Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/history/assam-history/index.html": {
+      "title": "Assam History Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/general-knowledge-assam-gk/assam-history-culture/index.html": {
+      "title": "Assam History Culture Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/general-knowledge-assam-gk/assam-geography/index.html": {
+      "title": "Assam Geography Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/general-knowledge-assam-gk/current-affairs/index.html": {
+      "title": "Current Affairs Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/logical-reasoning/non-verbal-reasoning/index.html": {
+      "title": "Non-Verbal Reasoning Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/adre-grade-3/logical-reasoning/verbal-reasoning/index.html": {
+      "title": "Verbal Reasoning Topics — ADRE 3.0 Grade III",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    },
+    "exams/dhs-dme-grade-4/general-english/index.html": {
+      "title": "Basic English Topics — DHS & DME Grade IV",
+      "why": "The page is a sub-category hub with no questions and no answers on it; the title promised both. It now says what it holds."
+    }
+  }
+}

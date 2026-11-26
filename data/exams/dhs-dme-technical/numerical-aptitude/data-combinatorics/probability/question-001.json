@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "numerical-059",
+    "q": {
+      "en": "Two dice are thrown together. The probability of getting a sum of 9 is",
+      "as": "দুটাকৈ পাশা একেলগে পেলোৱা হ'ল। যোগফল ৯ হোৱাৰ সম্ভাৱিতা কিমান"
+    },
+    "options": [
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "5/36",
+        "as": "৫/৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sums of 9 come from (3,6), (4,5), (5,4) and (6,3), which is 4 outcomes out of 36. So the probability is 4/36 = 1/9.",
+      "as": "৯ ৰ যোগফল (৩,৬), (৪,৫), (৫,৪) আৰু (৬,৩) ৰপৰা হয়, অৰ্থাৎ ৩৬ ৰ ভিতৰত ৪ টা ফল। সেয়ে সম্ভাৱিতা ৪/৩৬ = ১/৯।"
+    }
+  },
+  {
+    "id": "numerical-060",
+    "q": {
+      "en": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a king is",
+      "as": "৫২ খন তাচৰ ভালদৰে মিহলোৱা পেকৰপৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হ'ল। সেয়া ৰজা হোৱাৰ সম্ভাৱিতা কিমান"
+    },
+    "options": [
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "4/13",
+        "as": "৪/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 4 kings in 52 cards, so the probability is 4/52 = 1/13.",
+      "as": "৫২ খন তাচত ৪ জন ৰজা আছে, সেয়ে সম্ভাৱিতা ৪/৫২ = ১/১৩।"
+    }
+  },
+  {
+    "id": "num-probability-001",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a 3.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a 3 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Favourable outcomes = 1, total = 6, so probability = 1/6 = 1/6.",
+      "as": "অনুকূল ফল ১, মুঠ ৬; সম্ভাৱনা = 1/6।"
+    }
+  },
+  {
+    "id": "num-probability-002",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting an even number.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting an even number ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Favourable outcomes = 2, total = 6, so probability = 2/6 = 1/3.",
+      "as": "অনুকূল ফল ২, মুঠ ৬; সম্ভাৱনা = 1/3।"
+    }
+  },
+  {
+    "id": "num-probability-003",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a number greater than 3.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a number greater than 3 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Favourable outcomes = 3, total = 6, so probability = 3/6 = 1/2.",
+      "as": "অনুকূল ফল ৩, মুঠ ৬; সম্ভাৱনা = 1/2।"
+    }
+  },
+  {
+    "id": "num-probability-004",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a 6.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a 6 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Favourable outcomes = 1, total = 6, so probability = 1/6 = 1/6.",
+      "as": "অনুকূল ফল ১, মুঠ ৬; সম্ভাৱনা = 1/6।"
+    }
+  },
+  {
+    "id": "num-probability-005",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a prime number.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a prime number ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Favourable outcomes = 3, total = 6, so probability = 3/6 = 1/2.",
+      "as": "অনুকূল ফল ৩, মুঠ ৬; সম্ভাৱনা = 1/2।"
+    }
+  },
+  {
+    "id": "num-probability-006",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 7.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ৭ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/6 1",
+        "as": "১/৬ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 6 favourable pairs out of 36, so probability = 6/36 = 1/6.",
+      "as": "৩৬ টা ফলৰ ৬ টা অনুকূল; সম্ভাৱনা = 1/6।"
+    }
+  },
+  {
+    "id": "num-probability-007",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 5.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ৫ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 4 favourable pairs out of 36, so probability = 4/36 = 1/9.",
+      "as": "৩৬ টা ফলৰ ৪ টা অনুকূল; সম্ভাৱনা = 1/9।"
+    }
+  },
+  {
+    "id": "num-probability-008",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 9.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ৯ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 4 favourable pairs out of 36, so probability = 4/36 = 1/9.",
+      "as": "৩৬ টা ফলৰ ৪ টা অনুকূল; সম্ভাৱনা = 1/9।"
+    }
+  },
+  {
+    "id": "num-probability-009",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 11.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ১১ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "17/18",
+        "as": "১৭/১৮"
+      },
+      {
+        "en": "1/18",
+        "as": "১/১৮"
+      },
+      {
+        "en": "1/18 1",
+        "as": "১/১৮ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 2 favourable pairs out of 36, so probability = 2/36 = 1/18.",
+      "as": "৩৬ টা ফলৰ ২ টা অনুকূল; সম্ভাৱনা = 1/18।"
+    }
+  },
+  {
+    "id": "num-probability-010",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 4.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ৪ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "11/12",
+        "as": "১১/১২"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 3 favourable pairs out of 36, so probability = 3/36 = 1/12.",
+      "as": "৩৬ টা ফলৰ ৩ টা অনুকূল; সম্ভাৱনা = 1/12।"
+    }
+  },
+  {
+    "id": "num-probability-011",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 12.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। সংখ্যা দুটাৰ যোগফল ১২ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "35/36",
+        "as": "৩৫/৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 1 favourable pairs out of 36, so probability = 1/36 = 1/36.",
+      "as": "৩৬ টা ফলৰ ১ টা অনুকূল; সম্ভাৱনা = 1/36।"
+    }
+  },
+  {
+    "id": "num-probability-012",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is an ace.",
+      "as": "৫২ খন তাচৰ পৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হয়। সেয়া an ace হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "4/13",
+        "as": "৪/১৩"
+      },
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Favourable cards = 4 out of 52, so probability = 4/52 = 1/13.",
+      "as": "অনুকূল ৪, মুঠ ৫২; সম্ভাৱনা = 1/13।"
+    }
+  },
+  {
+    "id": "num-probability-013",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a spade.",
+      "as": "৫২ খন তাচৰ পৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হয়। সেয়া a spade হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Favourable cards = 13 out of 52, so probability = 13/52 = 1/4.",
+      "as": "অনুকূল ১৩, মুঠ ৫২; সম্ভাৱনা = 1/4।"
+    }
+  },
+  {
+    "id": "num-probability-014",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a red card.",
+      "as": "৫২ খন তাচৰ পৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হয়। সেয়া a red card হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Favourable cards = 26 out of 52, so probability = 26/52 = 1/2.",
+      "as": "অনুকূল ২৬, মুঠ ৫২; সম্ভাৱনা = 1/2।"
+    }
+  },
+  {
+    "id": "num-probability-015",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a face card.",
+      "as": "৫২ খন তাচৰ পৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হয়। সেয়া a face card হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "10/13",
+        "as": "১০/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      },
+      {
+        "en": "3/13",
+        "as": "৩/১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Favourable cards = 12 out of 52, so probability = 12/52 = 3/13.",
+      "as": "অনুকূল ১২, মুঠ ৫২; সম্ভাৱনা = 3/13।"
+    }
+  },
+  {
+    "id": "num-probability-016",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a king.",
+      "as": "৫২ খন তাচৰ পৰা যাদৃচ্ছিকভাৱে এখন তাচ টনা হয়। সেয়া a king হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/13",
+        "as": "৪/১৩"
+      },
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Favourable cards = 4 out of 52, so probability = 4/52 = 1/13.",
+      "as": "অনুকূল ৪, মুঠ ৫২; সম্ভাৱনা = 1/13।"
+    }
+  },
+  {
+    "id": "num-probability-017",
+    "leaf": "probability",
+    "q": {
+      "en": "2 fair coins are tossed together. Find the probability of two heads.",
+      "as": "২ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। two heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/4 1",
+        "as": "১/৪ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total outcomes = 2^2 = 4; favourable = 1; probability = 1/4 = 1/4.",
+      "as": "মুঠ ফল ৪, অনুকূল ১; সম্ভাৱনা = 1/4।"
+    }
+  },
+  {
+    "id": "num-probability-018",
+    "leaf": "probability",
+    "q": {
+      "en": "2 fair coins are tossed together. Find the probability of at least one head.",
+      "as": "২ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। at least one head ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total outcomes = 2^2 = 4; favourable = 3; probability = 3/4 = 3/4.",
+      "as": "মুঠ ফল ৪, অনুকূল ৩; সম্ভাৱনা = 3/4।"
+    }
+  },
+  {
+    "id": "num-probability-019",
+    "leaf": "probability",
+    "q": {
+      "en": "3 fair coins are tossed together. Find the probability of three heads.",
+      "as": "৩ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। three heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total outcomes = 2^3 = 8; favourable = 1; probability = 1/8 = 1/8.",
+      "as": "মুঠ ফল ৮, অনুকূল ১; সম্ভাৱনা = 1/8।"
+    }
+  },
+  {
+    "id": "num-probability-020",
+    "leaf": "probability",
+    "q": {
+      "en": "3 fair coins are tossed together. Find the probability of at least one head.",
+      "as": "৩ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। at least one head ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      },
+      {
+        "en": "7/3",
+        "as": "৭/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total outcomes = 2^3 = 8; favourable = 7; probability = 7/8 = 7/8.",
+      "as": "মুঠ ফল ৮, অনুকূল ৭; সম্ভাৱনা = 7/8।"
+    }
+  },
+  {
+    "id": "num-probability-021",
+    "leaf": "probability",
+    "q": {
+      "en": "2 fair coins are tossed together. Find the probability of exactly one head.",
+      "as": "২ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। exactly one head ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/2 1",
+        "as": "১/২ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total outcomes = 2^2 = 4; favourable = 2; probability = 2/4 = 1/2.",
+      "as": "মুঠ ফল ৪, অনুকূল ২; সম্ভাৱনা = 1/2।"
+    }
+  },
+  {
+    "id": "num-probability-022",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 3 red and 2 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৩ টা ৰঙা আৰু ২ টা নীলা বল আছে। এটা বল যাদৃচ্ছিকভাৱে টনা হয়। সেয়া ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total balls = 5; favourable = 3; probability = 3/5 = 3/5.",
+      "as": "মুঠ বল ৫, অনুকূল ৩; সম্ভাৱনা = 3/5।"
+    }
+  },
+  {
+    "id": "num-probability-023",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 3 red and 2 blue balls. One ball is drawn at random. Find the probability that it is blue.",
+      "as": "এটা মোনাত ৩ টা ৰঙা আৰু ২ টা নীলা বল। এটা বল টনা হয়। সেয়া নীলা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 5 equally likely outcomes and 2 of them are favourable, so the probability is 2/5.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৫।"
+    }
+  },
+  {
+    "id": "num-probability-024",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৪ টা ৰঙা আৰু ৬ টা নীলা বল আছে। এটা বল যাদৃচ্ছিকভাৱে টনা হয়। সেয়া ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total balls = 10; favourable = 4; probability = 4/10 = 2/5.",
+      "as": "মুঠ বল ১০, অনুকূল ৪; সম্ভাৱনা = 2/5।"
+    }
+  },
+  {
+    "id": "num-probability-025",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. Find the probability that it is blue.",
+      "as": "এটা মোনাত ৪ টা ৰঙা আৰু ৬ টা নীলা বল। এটা বল টনা হয়। সেয়া নীলা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 10 equally likely outcomes and 6 of them are favourable, so the probability is 6/10 = 3/5.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১০ টা আৰু তাৰে ৬ টা অনুকূল, সেয়ে সম্ভাৱনা = ৬/১০ = ৩/৫।"
+    }
+  },
+  {
+    "id": "num-probability-026",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 5 red and 3 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৫ টা ৰঙা আৰু ৩ টা নীলা বল আছে। এটা বল যাদৃচ্ছিকভাৱে টনা হয়। সেয়া ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total balls = 8; favourable = 5; probability = 5/8 = 5/8.",
+      "as": "মুঠ বল ৮, অনুকূল ৫; সম্ভাৱনা = 5/8।"
+    }
+  },
+  {
+    "id": "num-probability-027",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 5 red and 3 blue balls. One ball is drawn at random. Find the probability that it is blue.",
+      "as": "এটা মোনাত ৫ টা ৰঙা আৰু ৩ টা নীলা বল। এটা বল টনা হয়। সেয়া নীলা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 8 equally likely outcomes and 3 of them are favourable, so the probability is 3/8.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৮ টা আৰু তাৰে ৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ৩/৮।"
+    }
+  },
+  {
+    "id": "num-probability-028",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 2 red and 8 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ২ টা ৰঙা আৰু ৮ টা নীলা বল আছে। এটা বল যাদৃচ্ছিকভাৱে টনা হয়। সেয়া ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total balls = 10; favourable = 2; probability = 2/10 = 1/5.",
+      "as": "মুঠ বল ১০, অনুকূল ২; সম্ভাৱনা = 1/5।"
+    }
+  },
+  {
+    "id": "num-probability-029",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 2 red and 8 blue balls. One ball is drawn at random. Find the probability that it is blue.",
+      "as": "এটা মোনাত ২ টা ৰঙা আৰু ৮ টা নীলা বল। এটা বল টনা হয়। সেয়া নীলা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 10 equally likely outcomes and 8 of them are favourable, so the probability is 8/10 = 4/5.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১০ টা আৰু তাৰে ৮ টা অনুকূল, সেয়ে সম্ভাৱনা = ৮/১০ = ৪/৫।"
+    }
+  },
+  {
+    "id": "num-probability-030",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 1/4, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ১/৪ হ'লে তাৰ পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P(not A) = 1 - 1/4 = 3/4.",
+      "as": "P(not A) = ১ - 1/4 = 3/4।"
+    }
+  },
+  {
+    "id": "num-probability-031",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 2/5, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ২/৫ হ'লে তাৰ পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(not A) = 1 - 2/5 = 3/5.",
+      "as": "P(not A) = ১ - 2/5 = 3/5।"
+    }
+  },
+  {
+    "id": "num-probability-032",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 3/7, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ৩/৭ হ'লে তাৰ পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/7",
+        "as": "৩/৭"
+      },
+      {
+        "en": "4/7",
+        "as": "৪/৭"
+      },
+      {
+        "en": "1/7",
+        "as": "১/৭"
+      },
+      {
+        "en": "7/3",
+        "as": "৭/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(not A) = 1 - 3/7 = 4/7.",
+      "as": "P(not A) = ১ - 3/7 = 4/7।"
+    }
+  },
+  {
+    "id": "num-probability-033",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 5/8, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ৫/৮ হ'লে তাৰ পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "8/5",
+        "as": "৮/৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P(not A) = 1 - 5/8 = 3/8.",
+      "as": "P(not A) = ১ - 5/8 = 3/8।"
+    }
+  },
+  {
+    "id": "num-probability-034",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 2/3, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ২/৩ হ'লে তাৰ পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(not A) = 1 - 2/3 = 1/3.",
+      "as": "P(not A) = ১ - 2/3 = 1/3।"
+    }
+  },
+  {
+    "id": "num-probability-035",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/2 and 1/3. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ১/৩। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For independent events, P(A and B) = P(A) × P(B) = 1/2 × 1/3 = 1/6.",
+      "as": "স্বাধীন ঘটনাৰ বাবে P(A and B) = 1/6।"
+    }
+  },
+  {
+    "id": "num-probability-036",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/4 and 1/2. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৪ আৰু ১/২। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For independent events, P(A and B) = P(A) × P(B) = 1/4 × 1/2 = 1/8.",
+      "as": "স্বাধীন ঘটনাৰ বাবে P(A and B) = 1/8।"
+    }
+  },
+  {
+    "id": "num-probability-037",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 2/5 and 1/2. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ২/৫ আৰু ১/২। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9/10",
+        "as": "৯/১০"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For independent events, P(A and B) = P(A) × P(B) = 2/5 × 1/2 = 1/5.",
+      "as": "স্বাধীন ঘটনাৰ বাবে P(A and B) = 1/5।"
+    }
+  },
+  {
+    "id": "num-probability-038",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/3 and 1/4. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৩ আৰু ১/৪। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For independent events, P(A and B) = P(A) × P(B) = 1/3 × 1/4 = 1/12.",
+      "as": "স্বাধীন ঘটনাৰ বাবে P(A and B) = 1/12।"
+    }
+  },
+  {
+    "id": "num-probability-039",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 1/4 and 1/3. Find P(A or B).",
+      "as": "দুটা পৰস্পৰ বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৪ আৰু ১/৩। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "7/6",
+        "as": "৭/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For mutually exclusive events, P(A or B) = P(A) + P(B) = 7/12.",
+      "as": "বৰ্জনকাৰী ঘটনাৰ বাবে P(A or B) = 7/12।"
+    }
+  },
+  {
+    "id": "num-probability-040",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 1/2 and 1/4. Find P(A or B).",
+      "as": "দুটা পৰস্পৰ বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ১/৪। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For mutually exclusive events, P(A or B) = P(A) + P(B) = 3/4.",
+      "as": "বৰ্জনকাৰী ঘটনাৰ বাবে P(A or B) = 3/4।"
+    }
+  },
+  {
+    "id": "num-probability-041",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 2/7 and 3/7. Find P(A or B).",
+      "as": "দুটা পৰস্পৰ বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ২/৭ আৰু ৩/৭। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6/49",
+        "as": "৬/৪৯"
+      },
+      {
+        "en": "5/7",
+        "as": "৫/৭"
+      },
+      {
+        "en": "10/7",
+        "as": "১০/৭"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For mutually exclusive events, P(A or B) = P(A) + P(B) = 5/7.",
+      "as": "বৰ্জনকাৰী ঘটনাৰ বাবে P(A or B) = 5/7।"
+    }
+  },
+  {
+    "id": "num-probability-042",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 1/5 and 2/5. Find P(A or B).",
+      "as": "দুটা পৰস্পৰ বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৫ আৰু ২/৫। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "2/25",
+        "as": "২/২৫"
+      },
+      {
+        "en": "6/5",
+        "as": "৬/৫"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For mutually exclusive events, P(A or B) = P(A) + P(B) = 3/5.",
+      "as": "বৰ্জনকাৰী ঘটনাৰ বাবে P(A or B) = 3/5।"
+    }
+  },
+  {
+    "id": "num-probability-043",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/2. Find the probability that it happens at least once in 2 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/২। ২ টা স্বাধীন পৰীক্ষাত কমেও এবাৰ সংঘটিত হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(at least once) = 1 - P(none) = 1 - (1 - 1/2)^2 = 3/4.",
+      "as": "P(কমেও এবাৰ) = ১ - (১ - 1/2)^২ = 3/4।"
+    }
+  },
+  {
+    "id": "num-probability-044",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/3. Find the probability that it happens at least once in 2 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/৩। ২ টা স্বাধীন পৰীক্ষাত কমেও এবাৰ সংঘটিত হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      },
+      {
+        "en": "5/9",
+        "as": "৫/৯"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "5/18",
+        "as": "৫/১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(at least once) = 1 - P(none) = 1 - (1 - 1/3)^2 = 5/9.",
+      "as": "P(কমেও এবাৰ) = ১ - (১ - 1/3)^২ = 5/9।"
+    }
+  },
+  {
+    "id": "num-probability-045",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/4. Find the probability that it happens at least once in 3 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/৪। ৩ টা স্বাধীন পৰীক্ষাত কমেও এবাৰ সংঘটিত হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/64",
+        "as": "১/৬৪"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "37/64",
+        "as": "৩৭/৬৪"
+      },
+      {
+        "en": "37/128",
+        "as": "৩৭/১২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P(at least once) = 1 - P(none) = 1 - (1 - 1/4)^3 = 37/64.",
+      "as": "P(কমেও এবাৰ) = ১ - (১ - 1/4)^৩ = 37/64।"
+    }
+  },
+  {
+    "id": "num-probability-046",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 2/3. Find the probability that it happens at least once in 2 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ২/৩। ২ টা স্বাধীন পৰীক্ষাত কমেও এবাৰ সংঘটিত হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/9",
+        "as": "৪/৯"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(at least once) = 1 - P(none) = 1 - (1 - 2/3)^2 = 8/9.",
+      "as": "P(কমেও এবাৰ) = ১ - (১ - 2/3)^২ = 8/9।"
+    }
+  },
+  {
+    "id": "num-probability-047",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/2 and 1/3. Find the probability that neither occurs.",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ১/৩। দুয়োটা নঘটাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P(neither) = (1 - P(A))(1 - P(B)) = 1/3.",
+      "as": "P(দুয়োটা নঘটা) = 1/3।"
+    }
+  },
+  {
+    "id": "num-probability-048",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/4 and 1/4. Find the probability that neither occurs.",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৪ আৰু ১/৪। দুয়োটা নঘটাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9/16",
+        "as": "৯/১৬"
+      },
+      {
+        "en": "1/16",
+        "as": "১/১৬"
+      },
+      {
+        "en": "7/16",
+        "as": "৭/১৬"
+      },
+      {
+        "en": "9/32",
+        "as": "৯/৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P(neither) = (1 - P(A))(1 - P(B)) = 9/16.",
+      "as": "P(দুয়োটা নঘটা) = 9/16।"
+    }
+  },
+  {
+    "id": "num-probability-049",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/3 and 1/2. Find the probability that neither occurs.",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৩ আৰু ১/২। দুয়োটা নঘটাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(neither) = (1 - P(A))(1 - P(B)) = 1/3.",
+      "as": "P(দুয়োটা নঘটা) = 1/3।"
+    }
+  },
+  {
+    "id": "num-probability-050",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a number less than 3.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a number less than 3 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 2 of them are favourable, so the probability is 2/6 = 1/3.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৬ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-051",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a number less than 5.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a number less than 5 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 4 of them are favourable, so the probability is 4/6 = 2/3.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ৪ টা অনুকূল, সেয়ে সম্ভাৱনা = ৪/৬ = ২/৩।"
+    }
+  },
+  {
+    "id": "num-probability-052",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting an odd prime.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting an odd prime ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 2 of them are favourable, so the probability is 2/6 = 1/3.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৬ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-053",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 6.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। যোগফল ৬ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/36",
+        "as": "৫/৩৬"
+      },
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "31/36",
+        "as": "৩১/৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 36 equally likely outcomes and 5 of them are favourable, so the probability is 5/36.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৩৬ টা আৰু তাৰে ৫ টা অনুকূল, সেয়ে সম্ভাৱনা = ৫/৩৬।"
+    }
+  },
+  {
+    "id": "num-probability-054",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 8.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। যোগফল ৮ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/36",
+        "as": "৫/৩৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "31/36",
+        "as": "৩১/৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 36 equally likely outcomes and 5 of them are favourable, so the probability is 5/36.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৩৬ টা আৰু তাৰে ৫ টা অনুকূল, সেয়ে সম্ভাৱনা = ৫/৩৬।"
+    }
+  },
+  {
+    "id": "num-probability-055",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 10.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। যোগফল ১০ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "11/12",
+        "as": "১১/১২"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 36 equally likely outcomes and 3 of them are favourable, so the probability is 3/36 = 1/12.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৩৬ টা আৰু তাৰে ৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ৩/৩৬ = ১/১২।"
+    }
+  },
+  {
+    "id": "num-probability-056",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum of the numbers is 3.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। যোগফল ৩ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/18",
+        "as": "১/১৮"
+      },
+      {
+        "en": "17/18",
+        "as": "১৭/১৮"
+      },
+      {
+        "en": "1/18 1",
+        "as": "১/১৮ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 36 equally likely outcomes and 2 of them are favourable, so the probability is 2/36 = 1/18.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৩৬ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৩৬ = ১/১৮।"
+    }
+  },
+  {
+    "id": "num-probability-057",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a heart.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a heart হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 13 of them are favourable, so the probability is 13/52 = 1/4.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ১৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ১৩/৫২ = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-058",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a black card.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a black card হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 26 of them are favourable, so the probability is 26/52 = 1/2.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ২৬ টা অনুকূল, সেয়ে সম্ভাৱনা = ২৬/৫২ = ১/২।"
+    }
+  },
+  {
+    "id": "num-probability-059",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a jack.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a jack হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "4/13",
+        "as": "৪/১৩"
+      },
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 4 of them are favourable, so the probability is 4/52 = 1/13.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ৪ টা অনুকূল, সেয়ে সম্ভাৱনা = ৪/৫২ = ১/১৩।"
+    }
+  },
+  {
+    "id": "num-probability-060",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a red king.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a red king হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/26",
+        "as": "১/২৬"
+      },
+      {
+        "en": "2/13",
+        "as": "২/১৩"
+      },
+      {
+        "en": "25/26",
+        "as": "২৫/২৬"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 2 of them are favourable, so the probability is 2/52 = 1/26.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৫২ = ১/২৬।"
+    }
+  },
+  {
+    "id": "num-probability-061",
+    "leaf": "probability",
+    "q": {
+      "en": "3 fair coins are tossed together. Find the probability of exactly two heads.",
+      "as": "৩ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। exactly two heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 8 equally likely outcomes and 3 of them are favourable, so the probability is 3/8.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৮ টা আৰু তাৰে ৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ৩/৮।"
+    }
+  },
+  {
+    "id": "num-probability-062",
+    "leaf": "probability",
+    "q": {
+      "en": "4 fair coins are tossed together. Find the probability of all heads.",
+      "as": "৪ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। all heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15/16",
+        "as": "১৫/১৬"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/16",
+        "as": "১/১৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 16 equally likely outcomes and 1 of them are favourable, so the probability is 1/16.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১৬ টা আৰু তাৰে ১ টা অনুকূল, সেয়ে সম্ভাৱনা = ১/১৬।"
+    }
+  },
+  {
+    "id": "num-probability-063",
+    "leaf": "probability",
+    "q": {
+      "en": "3 fair coins are tossed together. Find the probability of at least two heads.",
+      "as": "৩ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। at least two heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "1/2 1",
+        "as": "১/২ ১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 8 equally likely outcomes and 4 of them are favourable, so the probability is 4/8 = 1/2.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৮ টা আৰু তাৰে ৪ টা অনুকূল, সেয়ে সম্ভাৱনা = ৪/৮ = ১/২।"
+    }
+  },
+  {
+    "id": "num-probability-064",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 6 red and 4 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৬ টা ৰঙা আৰু ৪ টা নীলা বল। এটা বল টনা হয়। ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 10 equally likely outcomes and 6 of them are favourable, so the probability is 6/10 = 3/5.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১০ টা আৰু তাৰে ৬ টা অনুকূল, সেয়ে সম্ভাৱনা = ৬/১০ = ৩/৫।"
+    }
+  },
+  {
+    "id": "num-probability-065",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 7 red and 5 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৭ টা ৰঙা আৰু ৫ টা নীলা বল। এটা বল টনা হয়। ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "7/5",
+        "as": "৭/৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 12 equally likely outcomes and 7 of them are favourable, so the probability is 7/12.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১২ টা আৰু তাৰে ৭ টা অনুকূল, সেয়ে সম্ভাৱনা = ৭/১২।"
+    }
+  },
+  {
+    "id": "num-probability-066",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 3 red and 9 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৩ টা ৰঙা আৰু ৯ টা নীলা বল। এটা বল টনা হয়। ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 12 equally likely outcomes and 3 of them are favourable, so the probability is 3/12 = 1/4.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১২ টা আৰু তাৰে ৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ৩/১২ = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-067",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 1/5, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ১/৫ হ'লে পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(A) = 1/5, so P(not A) = 1 − 1/5 = 4/5.",
+      "as": "P(A) = ১/৫, সেয়ে P(not A) = ১ − ১/৫ = ৪/৫।"
+    }
+  },
+  {
+    "id": "num-probability-068",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 3/4, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ৩/৪ হ'লে পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(A) = 3/4, so P(not A) = 1 − 3/4 = 1/4.",
+      "as": "P(A) = ৩/৪, সেয়ে P(not A) = ১ − ৩/৪ = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-069",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 5/6, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ৫/৬ হ'লে পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "6/5",
+        "as": "৬/৫"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P(A) = 5/6, so P(not A) = 1 − 5/6 = 1/6.",
+      "as": "P(A) = ৫/৬, সেয়ে P(not A) = ১ − ৫/৬ = ১/৬।"
+    }
+  },
+  {
+    "id": "num-probability-070",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/2 and 2/3. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ২/৩। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/6",
+        "as": "৭/৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The events are independent, so multiply: P(A and B) = 1/2 × 2/3 = 1/3.",
+      "as": "ঘটনাবোৰ স্বতন্ত্ৰ, সেয়ে পূৰণ কৰা: P(A and B) = ১/২ × ২/৩ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-071",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/3 and 3/5. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৩ আৰু ৩/৫। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "14/15",
+        "as": "১৪/১৫"
+      },
+      {
+        "en": "2/5",
+        "as": "২/৫"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The events are independent, so multiply: P(A and B) = 1/3 × 3/5 = 1/5.",
+      "as": "ঘটনাবোৰ স্বতন্ত্ৰ, সেয়ে পূৰণ কৰা: P(A and B) = ১/৩ × ৩/৫ = ১/৫।"
+    }
+  },
+  {
+    "id": "num-probability-072",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 1/6 and 1/6. Find P(A or B).",
+      "as": "দুটা বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ১/৬ আৰু ১/৬। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The events are mutually exclusive, so add: P(A or B) = 1/6 + 1/6 = 1/3.",
+      "as": "ঘটনাবোৰ পৰস্পৰ বৰ্জিত, সেয়ে যোগ কৰা: P(A or B) = ১/৬ + ১/৬ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-073",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two mutually exclusive events A and B are 2/5 and 1/5. Find P(A or B).",
+      "as": "দুটা বৰ্জনকাৰী ঘটনা A আৰু B ৰ সম্ভাৱনা ২/৫ আৰু ১/৫। P(A or B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/25",
+        "as": "২/২৫"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "6/5",
+        "as": "৬/৫"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The events are mutually exclusive, so add: P(A or B) = 2/5 + 1/5 = 3/5.",
+      "as": "ঘটনাবোৰ পৰস্পৰ বৰ্জিত, সেয়ে যোগ কৰা: P(A or B) = ২/৫ + ১/৫ = ৩/৫।"
+    }
+  },
+  {
+    "id": "num-probability-074",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/6. Find the probability that it happens at least once in 2 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/৬। ২ টা পৰীক্ষাত কমেও এবাৰ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "11/36",
+        "as": "১১/৩৬"
+      },
+      {
+        "en": "11/72",
+        "as": "১১/৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P(at least once) = 11/36.",
+      "as": "P(কমেও এবাৰ) = 11/36।"
+    }
+  },
+  {
+    "id": "num-probability-075",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/2. Find the probability that it happens at least once in 3 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/২। ৩ টা পৰীক্ষাত কমেও এবাৰ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "7/16",
+        "as": "৭/১৬"
+      },
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(at least once) = 7/8.",
+      "as": "P(কমেও এবাৰ) = 7/8।"
+    }
+  },
+  {
+    "id": "num-probability-076",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/2 and 1/4. Find the probability that neither occurs.",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ১/৪। দুয়োটা নঘটাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "3/16",
+        "as": "৩/১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "P(neither) = 3/8.",
+      "as": "P(দুয়োটা নঘটা) = 3/8।"
+    }
+  },
+  {
+    "id": "num-probability-077",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 2/3 and 1/3. Find the probability that neither occurs.",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ২/৩ আৰু ১/৩। দুয়োটা নঘটাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/9",
+        "as": "৭/৯"
+      },
+      {
+        "en": "2/9",
+        "as": "২/৯"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(neither) = 2/9.",
+      "as": "P(দুয়োটা নঘটা) = 2/9।"
+    }
+  },
+  {
+    "id": "num-probability-078",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a 2.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a 2 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 1 of them are favourable, so the probability is 1/6.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ১ টা অনুকূল, সেয়ে সম্ভাৱনা = ১/৬।"
+    }
+  },
+  {
+    "id": "num-probability-079",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a multiple of 3.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a multiple of 3 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 2 of them are favourable, so the probability is 2/6 = 1/3.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৬ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-080",
+    "leaf": "probability",
+    "q": {
+      "en": "A fair die is rolled once. Find the probability of getting a number greater than 4.",
+      "as": "এটা ন্যায্য পাশা এবাৰ মেলা হয়। getting a number greater than 4 ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 6 equally likely outcomes and 2 of them are favourable, so the probability is 2/6 = 1/3.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৬ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৬ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-probability-081",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that both dice show the same number.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। both dice show the same number হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/6 1",
+        "as": "১/৬ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Favourable outcomes = 6 out of 36, so probability = 1/6.",
+      "as": "অনুকূল ফল ৬/৩৬, সেয়ে সম্ভাৱনা = 1/6।"
+    }
+  },
+  {
+    "id": "num-probability-082",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that at least one six appears.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। at least one six appears হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "11/12",
+        "as": "১১/১২"
+      },
+      {
+        "en": "25/36",
+        "as": "২৫/৩৬"
+      },
+      {
+        "en": "11/36",
+        "as": "১১/৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Favourable outcomes = 11 out of 36, so probability = 11/36.",
+      "as": "অনুকূল ফল ১১/৩৬, সেয়ে সম্ভাৱনা = 11/36।"
+    }
+  },
+  {
+    "id": "num-probability-083",
+    "leaf": "probability",
+    "q": {
+      "en": "Two fair dice are rolled. Find the probability that the sum is a multiple of 3.",
+      "as": "দুটা ন্যায্য পাশা মেলা হয়। the sum is a multiple of 3 হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Favourable outcomes = 12 out of 36, so probability = 1/3.",
+      "as": "অনুকূল ফল ১২/৩৬, সেয়ে সম্ভাৱনা = 1/3।"
+    }
+  },
+  {
+    "id": "num-probability-084",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a queen.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a queen হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "4/13",
+        "as": "৪/১৩"
+      },
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 4 of them are favourable, so the probability is 4/52 = 1/13.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ৪ টা অনুকূল, সেয়ে সম্ভাৱনা = ৪/৫২ = ১/১৩।"
+    }
+  },
+  {
+    "id": "num-probability-085",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a black ace.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a black ace হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/13",
+        "as": "২/১৩"
+      },
+      {
+        "en": "1/26",
+        "as": "১/২৬"
+      },
+      {
+        "en": "25/26",
+        "as": "২৫/২৬"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 2 of them are favourable, so the probability is 2/52 = 1/26.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ২ টা অনুকূল, সেয়ে সম্ভাৱনা = ২/৫২ = ১/২৬।"
+    }
+  },
+  {
+    "id": "num-probability-086",
+    "leaf": "probability",
+    "q": {
+      "en": "A card is drawn at random from a standard pack of 52 cards. Find the probability that it is a diamond.",
+      "as": "৫২ খন তাচৰ পৰা এখন তাচ টনা হয়। সেয়া a diamond হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/52",
+        "as": "১/৫২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 52 equally likely outcomes and 13 of them are favourable, so the probability is 13/52 = 1/4.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৫২ টা আৰু তাৰে ১৩ টা অনুকূল, সেয়ে সম্ভাৱনা = ১৩/৫২ = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-087",
+    "leaf": "probability",
+    "q": {
+      "en": "4 fair coins are tossed together. Find the probability of exactly two heads.",
+      "as": "৪ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। exactly two heads ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/16",
+        "as": "১/১৬"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "There are 16 equally likely outcomes and 6 of them are favourable, so the probability is 6/16 = 3/8.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১৬ টা আৰু তাৰে ৬ টা অনুকূল, সেয়ে সম্ভাৱনা = ৬/১৬ = ৩/৮।"
+    }
+  },
+  {
+    "id": "num-probability-088",
+    "leaf": "probability",
+    "q": {
+      "en": "2 fair coins are tossed together. Find the probability of both tails.",
+      "as": "২ টা ন্যায্য মুদ্ৰা একেলগে টছা হয়। both tails ৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/4 1",
+        "as": "১/৪ ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There are 4 equally likely outcomes and 1 of them are favourable, so the probability is 1/4.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ৪ টা আৰু তাৰে ১ টা অনুকূল, সেয়ে সম্ভাৱনা = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-089",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 5 red and 5 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৫ টা ৰঙা আৰু ৫ টা নীলা বল। এটা বল টনা হয়। ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "There are 10 equally likely outcomes and 5 of them are favourable, so the probability is 5/10 = 1/2.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১০ টা আৰু তাৰে ৫ টা অনুকূল, সেয়ে সম্ভাৱনা = ৫/১০ = ১/২।"
+    }
+  },
+  {
+    "id": "num-probability-090",
+    "leaf": "probability",
+    "q": {
+      "en": "A bag contains 8 red and 2 blue balls. One ball is drawn at random. Find the probability that it is red.",
+      "as": "এটা মোনাত ৮ টা ৰঙা আৰু ২ টা নীলা বল। এটা বল টনা হয়। ৰঙা হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "There are 10 equally likely outcomes and 8 of them are favourable, so the probability is 8/10 = 4/5.",
+      "as": "সামঞ্জস্যপূৰ্ণ ফল ১০ টা আৰু তাৰে ৮ টা অনুকূল, সেয়ে সম্ভাৱনা = ৮/১০ = ৪/৫।"
+    }
+  },
+  {
+    "id": "num-probability-091",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 1/8, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ১/৮ হ'লে পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "P(A) = 1/8, so P(not A) = 1 − 1/8 = 7/8.",
+      "as": "P(A) = ১/৮, সেয়ে P(not A) = ১ − ১/৮ = ৭/৮।"
+    }
+  },
+  {
+    "id": "num-probability-092",
+    "leaf": "probability",
+    "q": {
+      "en": "If the probability of an event is 7/10, find the probability of its complement.",
+      "as": "এটা ঘটনাৰ সম্ভাৱনা ৭/১০ হ'লে পূরক ঘটনাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/10",
+        "as": "৭/১০"
+      },
+      {
+        "en": "3/10",
+        "as": "৩/১০"
+      },
+      {
+        "en": "1/10",
+        "as": "১/১০"
+      },
+      {
+        "en": "10/7",
+        "as": "১০/৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "P(A) = 7/10, so P(not A) = 1 − 7/10 = 3/10.",
+      "as": "P(A) = ৭/১০, সেয়ে P(not A) = ১ − ৭/১০ = ৩/১০।"
+    }
+  },
+  {
+    "id": "num-probability-093",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 1/2 and 1/2. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ১/২ আৰু ১/২। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The events are independent, so multiply: P(A and B) = 1/2 × 1/2 = 1/4.",
+      "as": "ঘটনাবোৰ স্বতন্ত্ৰ, সেয়ে পূৰণ কৰা: P(A and B) = ১/২ × ১/২ = ১/৪।"
+    }
+  },
+  {
+    "id": "num-probability-094",
+    "leaf": "probability",
+    "q": {
+      "en": "The probabilities of two independent events A and B are 2/3 and 3/4. Find P(A and B).",
+      "as": "দুটা স্বাধীন ঘটনা A আৰু B ৰ সম্ভাৱনা ২/৩ আৰু ৩/৪। P(A and B) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17/12",
+        "as": "১৭/১২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The events are independent, so multiply: P(A and B) = 2/3 × 3/4 = 1/2.",
+      "as": "ঘটনাবোৰ স্বতন্ত্ৰ, সেয়ে পূৰণ কৰা: P(A and B) = ২/৩ × ৩/৪ = ১/২।"
+    }
+  },
+  {
+    "id": "num-probability-095",
+    "leaf": "probability",
+    "q": {
+      "en": "The probability that an event happens in one trial is 1/2. Find the probability that it happens at least once in 4 independent trials.",
+      "as": "এটা পৰীক্ষাত ঘটনা সংঘটিত হোৱাৰ সম্ভাৱনা ১/২। ৪ টা পৰীক্ষাত কমেও এবাৰ হোৱাৰ সম্ভাৱনা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15/16",
+        "as": "১৫/১৬"
+      },
+      {
+        "en": "1/16",
+        "as": "১/১৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "15/32",
+        "as": "১৫/৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "P(at least once) = 15/16.",
+      "as": "P(কমেও এবাৰ) = 15/16।"
+    }
+  }
+]

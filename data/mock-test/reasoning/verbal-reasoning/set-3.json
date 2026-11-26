@@ -1,0 +1,732 @@
+{
+  "setNumber": 3,
+  "title": "Set 3",
+  "subject": "Verbal",
+  "questions": [
+    {
+      "q": {
+        "en": "King is to Throne as Judge is to?",
+        "as": "ৰজাৰ লগত সিংহাসন যেনে, ন্যায়াধীশৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Bench",
+          "as": "ন্যায়াসন"
+        },
+        {
+          "en": "Court only",
+          "as": "কেৱল আদালত"
+        },
+        {
+          "en": "Law",
+          "as": "আইন"
+        },
+        {
+          "en": "Crown",
+          "as": "মুকুট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A king sits on a throne, which is his seat of authority; similarly a judge sits on the bench, the judge's official seat. Hence Bench.",
+        "as": "ৰজাই সিংহাসনত (throne) বহে, যি তেওঁৰ ক্ষমতাৰ আসন; সেইদৰে ন্যায়াধীশে ন্যায়াসনত (bench) বহে, যি তেওঁৰ চৰকাৰী আসন। সেয়ে শুদ্ধ উত্তৰ ন্যায়াসন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Square, Cube, Rectangle, Triangle",
+        "as": "বেলেগটো বাছক: বৰ্গ, ঘনক, আয়ত, ত্ৰিভুজ"
+      },
+      "options": [
+        {
+          "en": "Cube",
+          "as": "ঘনক"
+        },
+        {
+          "en": "Square",
+          "as": "বৰ্গ"
+        },
+        {
+          "en": "Rectangle",
+          "as": "আয়ত"
+        },
+        {
+          "en": "Triangle",
+          "as": "ত্ৰিভুজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Square, rectangle and triangle are two-dimensional plane figures, whereas a cube is a three-dimensional solid. Hence Cube is the odd one.",
+        "as": "বৰ্গ, আয়ত আৰু ত্ৰিভুজ দুমাত্ৰিক সমতল আকৃতি, কিন্তু ঘনক (cube) ত্ৰিমাত্ৰিক ঘন বস্তু। সেয়ে ঘনক বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 1, 1, 2, 3, 5, 8, ?",
+        "as": "পৰৱৰ্তী সংখ্যা: ১, ১, ২, ৩, ৫, ৮, ?"
+      },
+      "options": [
+        {
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "This is the Fibonacci series, in which each term is the sum of the previous two terms (1+1=2, 1+2=3, 2+3=5, 3+5=8); so the next term is 5+8=13.",
+        "as": "এইটো ফিবোনাচি শ্ৰেণী, য'ত প্ৰতিটো পদ আগৰ দুটা পদৰ যোগফল (১+১=২, ১+২=৩, ২+৩=৫, ৩+৫=৮); সেয়ে পৰৱৰ্তী পদ ৫+৮=১৩।"
+      }
+    },
+    {
+      "q": {
+        "en": "If in a code FISH is written as GJTI, then BIRD is written as?",
+        "as": "যদি FISH-ক GJTI লিখা হয়, BIRD কি লিখা হ’ব?"
+      },
+      "options": [
+        {
+          "en": "CJSE",
+          "as": "CJSE"
+        },
+        {
+          "en": "AHQC",
+          "as": "AHQC"
+        },
+        {
+          "en": "CJSD",
+          "as": "CJSD"
+        },
+        {
+          "en": "DKTF",
+          "as": "DKTF"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In the given code each letter of FISH is moved one step forward in the alphabet (F to G, I to J, S to T, H to I) to get GJTI. Applying the same shift to BIRD gives CJSE (B to C, I to J, R to S, D to E).",
+        "as": "প্ৰদত্ত সংকেতত FISH-ৰ প্ৰতিটো আখৰ বৰ্ণমালাত এখোপ আগুৱাই (F→G, I→J, S→T, H→I) GJTI পোৱা যায়। একেই নিয়ম BIRD-ত প্ৰয়োগ কৰিলে CJSE (B→C, I→J, R→S, D→E) হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "P is the mother of Q. Q is the brother of R. How is P related to R?",
+        "as": "P হৈছে Qৰ মাক। Q হৈছে Rৰ ভাই। P, Rৰ কি হয়?"
+      },
+      "options": [
+        {
+          "en": "Mother",
+          "as": "মাক"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Aunt",
+          "as": "পেহী"
+        },
+        {
+          "en": "Grandmother",
+          "as": "আইতা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Q is the brother of R, so Q and R are siblings and share the same mother P. Therefore P is the mother of R.",
+        "as": "Q, Rৰ ভাই, গতিকে Q আৰু R একেই মাকৰ সন্তান আৰু তেওঁলোকৰ মাক P। সেয়ে P, Rৰ মাক।"
+      }
+    },
+    {
+      "q": {
+        "en": "Milk is to Cow as Egg is to?",
+        "as": "গাখীৰৰ লগত গৰু যেনে, কণীৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Hen",
+          "as": "কুকুৰা"
+        },
+        {
+          "en": "Nest",
+          "as": "বাহ"
+        },
+        {
+          "en": "Chick",
+          "as": "কণীপোৱালি"
+        },
+        {
+          "en": "Farm",
+          "as": "খামাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Milk is obtained from a cow, so the cow is the source of milk; similarly an egg is obtained from a hen. Hence Hen.",
+        "as": "গাখীৰ গৰুৰ পৰা পোৱা যায়, অৰ্থাৎ গাখীৰৰ উৎস গৰু; সেইদৰে কণী কুকুৰাৰ পৰা পোৱা যায়। সেয়ে কুকুৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: 16, 25, 36, 48, 49",
+        "as": "বেলেগটো বাছক: ১৬, ২৫, ৩৬, ৪৮, ৪৯"
+      },
+      "options": [
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "49",
+          "as": "৪৯"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "16, 25, 36 and 49 are perfect squares (4 squared, 5 squared, 6 squared, 7 squared), while 48 is not a perfect square. Hence 48 is the odd one.",
+        "as": "১৬, ২৫, ৩৬ আৰু ৪৯ পূৰ্ণবৰ্গ (৪², ৫², ৬², ৭²), কিন্তু ৪৮ পূৰ্ণবৰ্গ নহয়। সেয়ে ৪৮ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete the series: B, D, G, K, ?",
+        "as": "শ্ৰেণী সম্পূৰ্ণ কৰক: B, D, G, K, ?"
+      },
+      "options": [
+        {
+          "en": "N",
+          "as": "N"
+        },
+        {
+          "en": "P",
+          "as": "P"
+        },
+        {
+          "en": "O",
+          "as": "O"
+        },
+        {
+          "en": "M",
+          "as": "M"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The gaps between consecutive letters increase by one: B to D is +2, D to G is +3, G to K is +4; so the next gap is +5, giving K+5 = P.",
+        "as": "ক্ৰমাগত আখৰৰ মাজৰ ব্যৱধান একেৰাহে বাঢ়ে: B→D (+২), D→G (+৩), G→K (+৪); সেয়ে পৰৱৰ্তী ব্যৱধান +৫, অৰ্থাৎ K+৫ = P।"
+      }
+    },
+    {
+      "q": {
+        "en": "How many days are there in a leap year?",
+        "as": "লীপ বৰ্ষত কিমান দিন থাকে?"
+      },
+      "options": [
+        {
+          "en": "365",
+          "as": "৩৬৫"
+        },
+        {
+          "en": "366",
+          "as": "৩৬৬"
+        },
+        {
+          "en": "364",
+          "as": "৩৬৪"
+        },
+        {
+          "en": "360",
+          "as": "৩৬০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A leap year has 366 days because February has 29 days instead of the usual 28, adding one extra day. Hence 366.",
+        "as": "লীপ বৰ্ষত ৩৬৬ দিন থাকে, কাৰণ ফেব্ৰুৱাৰীত সাধাৰণ ২৮ দিনৰ সলনি ২৯ দিন থাকে, অৰ্থাৎ এদিন বেছি। সেয়ে উত্তৰ ৩৬৬।"
+      }
+    },
+    {
+      "q": {
+        "en": "Rina faces north and turns 90° right. She now faces?",
+        "as": "ৰীণা উত্তৰফালে মুখ কৰি ৯০° সোঁফালে ঘূৰে। এতিয়া তাইৰ মুখ কোনফালে?"
+      },
+      "options": [
+        {
+          "en": "West",
+          "as": "পশ্চিম"
+        },
+        {
+          "en": "East",
+          "as": "পূব"
+        },
+        {
+          "en": "South",
+          "as": "দক্ষিণ"
+        },
+        {
+          "en": "North",
+          "as": "উত্তৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Facing north, a 90 degree right turn takes her to the east (right turns go north to east to south to west). So she faces East.",
+        "as": "উত্তৰফালে মুখ কৰি ৯০° সোঁফালে ঘূৰিলে পূবফালে পৰে (সোঁফালে ক্ৰমে উত্তৰ→পূব→দক্ষিণ→পশ্চিম)। সেয়ে তাইৰ মুখ পূবফালে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Cup is to Tea as Bowl is to?",
+        "as": "কাপৰ লগত চাহ যেনে, বাটিৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Spoon",
+          "as": "চামুচ"
+        },
+        {
+          "en": "Soup",
+          "as": "চুপ"
+        },
+        {
+          "en": "Plate",
+          "as": "থালী"
+        },
+        {
+          "en": "Water glass",
+          "as": "পানীৰ গিলাচ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A cup is the container used to drink tea; similarly a bowl is the container used to serve soup. Hence Soup.",
+        "as": "চাহ খোৱাৰ পাত্ৰ কাপ; সেইদৰে চুপ খোৱাৰ পাত্ৰ বাটি। সেয়ে চুপ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Car, Bus, Train, Aeroplane",
+        "as": "বেলেগটো বাছক: গাড়ী, বাছ, ৰেল, বিমান"
+      },
+      "options": [
+        {
+          "en": "Car",
+          "as": "গাড়ী"
+        },
+        {
+          "en": "Aeroplane",
+          "as": "বিমান"
+        },
+        {
+          "en": "Bus",
+          "as": "বাছ"
+        },
+        {
+          "en": "Train",
+          "as": "ৰেল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Car, bus and train run on land, whereas an aeroplane flies in the air. Hence Aeroplane is the odd one.",
+        "as": "গাড়ী, বাছ আৰু ৰেল স্থলপথে চলাচল কৰে, কিন্তু বিমান আকাশত উৰে। সেয়ে বিমান বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the next number: 100, 96, 88, 76, ?",
+        "as": "পৰৱৰ্তী সংখ্যা: ১০০, ৯৬, ৮৮, ৭৬, ?"
+      },
+      "options": [
+        {
+          "en": "64",
+          "as": "৬৪"
+        },
+        {
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "en": "62",
+          "as": "৬২"
+        },
+        {
+          "en": "70",
+          "as": "৭০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The numbers decrease by 4, 8 and 12 respectively, so the next decrease is 16: 76 minus 16 = 60. Hence 60.",
+        "as": "সংখ্যাকেইটা ক্ৰমে ৪, ৮ আৰু ১২ ৰ হাৰত কমিছে; সেয়ে পৰৱৰ্তী হ্ৰাস ১৬: ৭৬ − ১৬ = ৬০। সেয়ে ৬০।"
+      }
+    },
+    {
+      "q": {
+        "en": "Statements: All pens are books. Some books are tables. Conclusion: Some pens are tables. The conclusion is?",
+        "as": "সকলো কলম কিতাপ। কিছুমান কিতাপ টেবুল। সিদ্ধান্ত: কিছুমান কলম টেবুল। সিদ্ধান্তটো?"
+      },
+      "options": [
+        {
+          "en": "Definitely true",
+          "as": "নিশ্চিতভাৱে সত্য"
+        },
+        {
+          "en": "Definitely false",
+          "as": "নিশ্চিতভাৱে অসত্য"
+        },
+        {
+          "en": "Does not follow",
+          "as": "অনুসৰণ নকৰে"
+        },
+        {
+          "en": "True only if all books are pens",
+          "as": "যদি সকলো কিতাপ কলম হয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "All pens are books and some books are tables, but the books that are tables need not be pens. Since the middle term 'books' is not distributed, the conclusion 'some pens are tables' does not follow.",
+        "as": "সকলো কলম কিতাপ আৰু কিছুমান কিতাপ টেবুল, কিন্তু যিবোৰ কিতাপ টেবুল সেইবোৰ কলম নহ'বও পাৰে। মধ্যপদ 'কিতাপ' বিতৰণ নোহোৱা বাবে 'কিছুমান কলম টেবুল' সিদ্ধান্ত অনুসৰণ নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In a class of 40, Amit ranks 12th from the top. His rank from the bottom is?",
+        "as": "৪০ জনৰ শ্ৰেণীত অমিত ওপৰৰ পৰা ১২ নম্বৰ। তলৰ পৰা তেওঁৰ স্থান?"
+      },
+      "options": [
+        {
+          "en": "28th",
+          "as": "২৮ নম্বৰ"
+        },
+        {
+          "en": "12th",
+          "as": "১২ নম্বৰ"
+        },
+        {
+          "en": "29th",
+          "as": "২৯ নম্বৰ"
+        },
+        {
+          "en": "30th",
+          "as": "৩০ নম্বৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Rank from the bottom = total minus rank from the top plus 1 = 40 minus 12 plus 1 = 29. So his rank from the bottom is 29th.",
+        "as": "তলৰ পৰা স্থান = মুঠ − ওপৰৰ পৰা স্থান + ১ = ৪০ − ১২ + ১ = ২৯। সেয়ে তলৰ পৰা তেওঁৰ স্থান ২৯ নম্বৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Hour is to Minute as Minute is to?",
+        "as": "ঘণ্টাৰ লগত মিনিট যেনে, মিনিটৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Day",
+          "as": "দিন"
+        },
+        {
+          "en": "Week",
+          "as": "সপ্তাহ"
+        },
+        {
+          "en": "Second",
+          "as": "ছেকেণ্ড"
+        },
+        {
+          "en": "Year",
+          "as": "বছৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "An hour is a larger unit of time made of 60 minutes, and a minute is the next smaller unit made of 60 seconds. Hence Second.",
+        "as": "এক ঘণ্টা ৬০ মিনিটৰ ডাঙৰ একক, আৰু এক মিনিট ৬০ ছেকেণ্ডৰ সৰু একক। সেয়ে উত্তৰ ছেকেণ্ড।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Violin, Guitar, Flute, Piano",
+        "as": "বেলেগটো বাছক: বেহেলা, গিটাৰ, বাঁহী, পিয়ান"
+      },
+      "options": [
+        {
+          "en": "Violin",
+          "as": "বেহেলা"
+        },
+        {
+          "en": "Guitar",
+          "as": "গিটাৰ"
+        },
+        {
+          "en": "Flute",
+          "as": "বাঁহী"
+        },
+        {
+          "en": "Piano",
+          "as": "পিয়ান"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Violin, guitar and piano produce sound through vibrating strings, while a flute is a wind instrument played by blowing air. Hence Flute is the odd one.",
+        "as": "বেহেলা, গিটাৰ আৰু পিয়ান তাৰৰ কম্পনৰ জৰিয়তে শব্দ উৎপন্ন কৰে, কিন্তু বাঁহী ফুঁ মাৰি বজোৱা বায়ু বাদ্যযন্ত্ৰ। সেয়ে বাঁহী বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Complete: 7, 14, 28, 56, ?",
+        "as": "সম্পূৰ্ণ কৰক: ৭, ১৪, ২৮, ৫৬, ?"
+      },
+      "options": [
+        {
+          "en": "70",
+          "as": "৭০"
+        },
+        {
+          "en": "84",
+          "as": "৮৪"
+        },
+        {
+          "en": "112",
+          "as": "১১২"
+        },
+        {
+          "en": "98",
+          "as": "৯৮"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each term is double the previous term (7x2=14, 14x2=28, 28x2=56); so the next term is 56x2=112.",
+        "as": "প্ৰতিটো পদ আগৰ পদৰ দুগুণ (৭×২=১৪, ১৪×২=২৮, ২৮×২=৫৬); সেয়ে পৰৱৰ্তী পদ ৫৬×২=১১২।"
+      }
+    },
+    {
+      "q": {
+        "en": "If in a code MANGO is written as NZOHP, then APPLE is written as?",
+        "as": "যদি MANGO-ক NZOHP লিখা হয়, APPLE কি লিখা হ’ব?"
+      },
+      "options": [
+        {
+          "en": "ZOOKD",
+          "as": "ZOOKD"
+        },
+        {
+          "en": "BQQME",
+          "as": "BQQME"
+        },
+        {
+          "en": "BQQMF",
+          "as": "BQQMF"
+        },
+        {
+          "en": "CRRNG",
+          "as": "CRRNG"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In this coding each letter is replaced by the letter one step ahead in the alphabet, so APPLE becomes BQQMF (A to B, P to Q, P to Q, L to M, E to F).",
+        "as": "এই সংকেতত প্ৰতিটো আখৰ বৰ্ণমালাৰ এখোপ আগৰ আখৰেৰে সলনি হয়, সেয়ে APPLE → BQQMF (A→B, P→Q, P→Q, L→M, E→F)।"
+      }
+    },
+    {
+      "q": {
+        "en": "X is Y's sister. Y is Z's mother. How is X related to Z?",
+        "as": "X হৈছে Yৰ ভনী। Y হৈছে Zৰ মাক। X, Zৰ কি হয়?"
+      },
+      "options": [
+        {
+          "en": "Mother",
+          "as": "মাক"
+        },
+        {
+          "en": "Grandmother",
+          "as": "আইতা"
+        },
+        {
+          "en": "Sister",
+          "as": "ভনী"
+        },
+        {
+          "en": "Maternal aunt",
+          "as": "মামী / পেহী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "X is the sister of Y and Y is the mother of Z, so X is the sister of Z's mother, that is, Z's maternal aunt. Hence Maternal aunt.",
+        "as": "X, Yৰ ভনী আৰু Y, Zৰ মাক; গতিকে X হৈছে Zৰ মাকৰ ভনী, অৰ্থাৎ Zৰ মাহী/পেহী (maternal aunt)। সেয়ে মামী/পেহী।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sculptor is to Statue as Poet is to?",
+        "as": "ভাস্কৰৰ লগত মূৰ্তি যেনে, কবিৰ লগত কি?"
+      },
+      "options": [
+        {
+          "en": "Pen",
+          "as": "কলম"
+        },
+        {
+          "en": "Book only",
+          "as": "কেৱল কিতাপ"
+        },
+        {
+          "en": "Stage",
+          "as": "মঞ্চ"
+        },
+        {
+          "en": "Poem",
+          "as": "কবিতা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A sculptor creates a statue as the product of his art; similarly a poet creates a poem. Hence Poem.",
+        "as": "ভাস্কৰে তেওঁৰ কলাৰ ফলস্বৰূপে মূৰ্তি সৃষ্টি কৰে; সেইদৰে কবিয়ে কবিতা সৃষ্টি কৰে। সেয়ে কবিতা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Find the odd one: Wheat, Rice, Mustard, Barley",
+        "as": "বেলেগটো বাছক: ঘেঁহু, চাউল, সৰিয়হ, যৱ"
+      },
+      "options": [
+        {
+          "en": "Wheat",
+          "as": "ঘেঁহু"
+        },
+        {
+          "en": "Rice",
+          "as": "চাউল"
+        },
+        {
+          "en": "Barley",
+          "as": "যৱ"
+        },
+        {
+          "en": "Mustard",
+          "as": "সৰিয়হ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Wheat, rice and barley are cereal grains, whereas mustard is an oilseed crop. Hence Mustard is the odd one.",
+        "as": "ঘেঁহু, চাউল আৰু যৱ ধান্য শস্য, কিন্তু সৰিয়হ তেলবীজ শস্য। সেয়ে সৰিয়হ বেলেগ।"
+      }
+    },
+    {
+      "q": {
+        "en": "If 3² = 10, 4² = 17, then 5² = ?",
+        "as": "যদি ৩² = ১০, ৪² = ১৭, তেন্তে ৫² = ?"
+      },
+      "options": [
+        {
+          "en": "25",
+          "as": "২৫"
+        },
+        {
+          "en": "24",
+          "as": "২৪"
+        },
+        {
+          "en": "27",
+          "as": "২৭"
+        },
+        {
+          "en": "26",
+          "as": "২৬"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The rule is n squared plus 1: 3 squared +1 = 10 and 4 squared +1 = 17, so 5 squared +1 = 25+1 = 26. Hence 26.",
+        "as": "নিয়মটো হ'ল n² + ১: ৩²+১=১০ আৰু ৪²+১=১৭, সেয়ে ৫²+১=২৫+১=২৬। সেয়ে ২৬।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which word cannot be formed from EDUCATION?",
+        "as": "EDUCATION শব্দৰ পৰা কোনটো শব্দ গঠন নহয়?"
+      },
+      "options": [
+        {
+          "en": "NATION",
+          "as": "NATION"
+        },
+        {
+          "en": "AUCTION",
+          "as": "AUCTION"
+        },
+        {
+          "en": "CAUTION",
+          "as": "CAUTION"
+        },
+        {
+          "en": "CONDUCT",
+          "as": "CONDUCT"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "EDUCATION contains only one letter C, but CONDUCT requires two C's, so it cannot be formed from EDUCATION. Hence CONDUCT.",
+        "as": "EDUCATION-ত এটা মাত্ৰ 'C' আছে, কিন্তু CONDUCT গঠন কৰিবলৈ দুটা 'C' লাগে; গতিকে ই EDUCATION-ৰ পৰা গঠন নহয়। সেয়ে CONDUCT।"
+      }
+    },
+    {
+      "q": {
+        "en": "A clock shows 3:00. The angle between hour and minute hands is?",
+        "as": "ঘড়ীত ৩:০০। ঘণ্টা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "60°",
+          "as": "৬০°"
+        },
+        {
+          "en": "120°",
+          "as": "১২০°"
+        },
+        {
+          "en": "180°",
+          "as": "১৮০°"
+        },
+        {
+          "en": "90°",
+          "as": "৯০°"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "At 3:00 the minute hand points at 12 and the hour hand at 3, which are 3 divisions apart; each division is 30 degrees, so the angle is 3x30 = 90 degrees.",
+        "as": "৩:০০ বজাত মিনিটৰ কাঁটা ১২-ত আৰু ঘণ্টাৰ কাঁটা ৩-ত থাকে, দুয়োৰে মাজত ৩ ঘৰ; প্ৰতি ঘৰ ৩০°, সেয়ে কোণ = ৩×৩০° = ৯০°।"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "vr-statement-assumptions-001",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please use the lift instead of the stairs. Assumptions: I. A lift is available in the building. II. Some people find the stairs difficult.",
+      "as": "বিবৃতি: চিৰিৰ সলনি লিফ্ট ব্যৱহাৰ কৰিব। ধাৰণা: I. ভৱনত লিফ্ট আছে। II. কিছু লোকে চিৰি উঠাত কষ্ট পায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-002",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please use the lift instead of the stairs. Assumptions: I. A lift is available in the building. II. Everyone prefers to use a lift.",
+      "as": "বিবৃতি: চিৰিৰ সলনি লিফ্ট ব্যৱহাৰ কৰিব। ধাৰণা: I. ভৱনত লিফ্ট আছে। II. সকলোৱে লিফ্ট ব্যৱহাৰ কৰিব বিচাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-003",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please use the lift instead of the stairs. Assumptions: I. Everyone prefers to use a lift. II. Some people find the stairs difficult.",
+      "as": "বিবৃতি: চিৰিৰ সলনি লিফ্ট ব্যৱহাৰ কৰিব। ধাৰণা: I. সকলোৱে লিফ্ট ব্যৱহাৰ কৰিব বিচাৰে। II. কিছু লোকে চিৰি উঠাত কষ্ট পায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-004",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please use the lift instead of the stairs. Assumptions: I. Everyone prefers to use a lift. II. The stairs are broken.",
+      "as": "বিবৃতি: চিৰিৰ সলনি লিফ্ট ব্যৱহাৰ কৰিব। ধাৰণা: I. সকলোৱে লিফ্ট ব্যৱহাৰ কৰিব বিচাৰে। II. চিৰিখন ভঙা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-005",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Join our coaching class to crack the exam. Assumptions: I. The coaching class can help in cracking the exam. II. The exam is hard to crack without guidance.",
+      "as": "বিবৃতি: পৰীক্ষাত উত্তীৰ্ণ হ'বলৈ আমাৰ কোচিং শ্ৰেণীত যোগ দিয়া। ধাৰণা: I. কোচিং শ্ৰেণীয়ে পৰীক্ষাত সহায় কৰিব পাৰে। II. পথনিৰ্দেশ অবিহনে পৰীক্ষাত উত্তীৰ্ণ হোৱা কঠিন।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-006",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Join our coaching class to crack the exam. Assumptions: I. The coaching class can help in cracking the exam. II. Everyone will join the class.",
+      "as": "বিবৃতি: পৰীক্ষাত উত্তীৰ্ণ হ'বলৈ আমাৰ কোচিং শ্ৰেণীত যোগ দিয়া। ধাৰণা: I. কোচিং শ্ৰেণীয়ে পৰীক্ষাত সহায় কৰিব পাৰে। II. সকলোৱে শ্ৰেণীত যোগ দিব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-007",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Join our coaching class to crack the exam. Assumptions: I. Everyone will join the class. II. The exam is hard to crack without guidance.",
+      "as": "বিবৃতি: পৰীক্ষাত উত্তীৰ্ণ হ'বলৈ আমাৰ কোচিং শ্ৰেণীত যোগ দিয়া। ধাৰণা: I. সকলোৱে শ্ৰেণীত যোগ দিব। II. পথনিৰ্দেশ অবিহনে পৰীক্ষাত উত্তীৰ্ণ হোৱা কঠিন।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-008",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Join our coaching class to crack the exam. Assumptions: I. Everyone will join the class. II. The exam has been cancelled.",
+      "as": "বিবৃতি: পৰীক্ষাত উত্তীৰ্ণ হ'বলৈ আমাৰ কোচিং শ্ৰেণীত যোগ দিয়া। ধাৰণা: I. সকলোৱে শ্ৰেণীত যোগ দিব। II. পৰীক্ষা বাতিল হৈছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-009",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Beware of the dog. Assumptions: I. The dog may bite. II. The dog is dangerous.",
+      "as": "বিবৃতি: কুকুৰৰ পৰা সাৱধান থাকা। ধাৰণা: I. কুকুৰে কামুৰিব পাৰে। II. কুকুৰটো বিপজ্জনক।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-010",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Beware of the dog. Assumptions: I. The dog may bite. II. The dog is friendly.",
+      "as": "বিবৃতি: কুকুৰৰ পৰা সাৱধান থাকা। ধাৰণা: I. কুকুৰে কামুৰিব পাৰে। II. কুকুৰটো বন্ধুসুলভ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-011",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Beware of the dog. Assumptions: I. The dog is friendly. II. The dog is dangerous.",
+      "as": "বিবৃতি: কুকুৰৰ পৰা সাৱধান থাকা। ধাৰণা: I. কুকুৰটো বন্ধুসুলভ। II. কুকুৰটো বিপজ্জনক।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-012",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Beware of the dog. Assumptions: I. The dog is friendly. II. The dog belongs to the neighbour.",
+      "as": "বিবৃতি: কুকুৰৰ পৰা সাৱধান থাকা। ধাৰণা: I. কুকুৰটো বন্ধুসুলভ। II. কুকুৰটো চুবুৰীয়াৰ।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-013",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please switch off the lights before leaving. Assumptions: I. Lights consume electricity. II. Someone will leave the room.",
+      "as": "বিবৃতি: যোৱাৰ আগতে লাইট নুমুৱাই দিব। ধাৰণা: I. লাইটে বিদ্যুৎ খৰচ কৰে। II. কোনোবাই কোঠাটো এৰি যাব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-014",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please switch off the lights before leaving. Assumptions: I. Lights consume electricity. II. The room has no windows.",
+      "as": "বিবৃতি: যোৱাৰ আগতে লাইট নুমুৱাই দিব। ধাৰণা: I. লাইটে বিদ্যুৎ খৰচ কৰে। II. কোঠাটোত খিৰিকী নাই।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-015",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please switch off the lights before leaving. Assumptions: I. The room has no windows. II. Someone will leave the room.",
+      "as": "বিবৃতি: যোৱাৰ আগতে লাইট নুমুৱাই দিব। ধাৰণা: I. কোঠাটোত খিৰিকী নাই। II. কোনোবাই কোঠাটো এৰি যাব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-016",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please switch off the lights before leaving. Assumptions: I. The room has no windows. II. Electricity is free of cost.",
+      "as": "বিবৃতি: যোৱাৰ আগতে লাইট নুমুৱাই দিব। ধাৰণা: I. কোঠাটোত খিৰিকী নাই। II. বিদ্যুৎ বিনামূলীয়া।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-017",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use only boiled water for drinking. Assumptions: I. Boiling makes water safe. II. Unboiled water may cause illness.",
+      "as": "বিবৃতি: পান কৰিবলৈ কেৱল উতলোৱা পানী ব্যৱহাৰ কৰা। ধাৰণা: I. উতলালে পানী নিৰাপদ হয়। II. নুউতলোৱা পানীয়ে ৰোগ কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-018",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use only boiled water for drinking. Assumptions: I. Boiling makes water safe. II. All water is already boiled.",
+      "as": "বিবৃতি: পান কৰিবলৈ কেৱল উতলোৱা পানী ব্যৱহাৰ কৰা। ধাৰণা: I. উতলালে পানী নিৰাপদ হয়। II. সকলো পানী ইতিমধ্যে উতলোৱা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-019",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use only boiled water for drinking. Assumptions: I. All water is already boiled. II. Unboiled water may cause illness.",
+      "as": "বিবৃতি: পান কৰিবলৈ কেৱল উতলোৱা পানী ব্যৱহাৰ কৰা। ধাৰণা: I. সকলো পানী ইতিমধ্যে উতলোৱা। II. নুউতলোৱা পানীয়ে ৰোগ কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-020",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use only boiled water for drinking. Assumptions: I. All water is already boiled. II. Water is very expensive.",
+      "as": "বিবৃতি: পান কৰিবলৈ কেৱল উতলোৱা পানী ব্যৱহাৰ কৰা। ধাৰণা: I. সকলো পানী ইতিমধ্যে উতলোৱা। II. পানী অতি দামী।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-021",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Apply sunscreen before going out in the sun. Assumptions: I. Sunlight can harm the skin. II. Sunscreen protects the skin.",
+      "as": "বিবৃতি: ৰদত ওলোৱাৰ আগতে ছানস্ক্ৰিন লগোৱা। ধাৰণা: I. ৰদে ছালৰ ক্ষতি কৰিব পাৰে। II. ছানস্ক্ৰিনে ছাল ৰক্ষা কৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-022",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Apply sunscreen before going out in the sun. Assumptions: I. Sunlight can harm the skin. II. It will rain today.",
+      "as": "বিবৃতি: ৰদত ওলোৱাৰ আগতে ছানস্ক্ৰিন লগোৱা। ধাৰণা: I. ৰদে ছালৰ ক্ষতি কৰিব পাৰে। II. আজি বৰষুণ দিব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-023",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Apply sunscreen before going out in the sun. Assumptions: I. It will rain today. II. Sunscreen protects the skin.",
+      "as": "বিবৃতি: ৰদত ওলোৱাৰ আগতে ছানস্ক্ৰিন লগোৱা। ধাৰণা: I. আজি বৰষুণ দিব। II. ছানস্ক্ৰিনে ছাল ৰক্ষা কৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-024",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Apply sunscreen before going out in the sun. Assumptions: I. It will rain today. II. Everyone is allergic to sunlight.",
+      "as": "বিবৃতি: ৰদত ওলোৱাৰ আগতে ছানস্ক্ৰিন লগোৱা। ধাৰণা: I. আজি বৰষুণ দিব। II. সকলোৰে ৰদত এলাৰ্জী।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-025",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Read the instructions before using the machine. Assumptions: I. The machine needs careful handling. II. Wrong use may cause harm.",
+      "as": "বিবৃতি: যন্ত্ৰ ব্যৱহাৰৰ আগতে নিৰ্দেশনা পঢ়া। ধাৰণা: I. যন্ত্ৰটো সাৱধানে চলাব লাগে। II. ভুল ব্যৱহাৰে ক্ষতি কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-026",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Read the instructions before using the machine. Assumptions: I. The machine needs careful handling. II. The machine is useless.",
+      "as": "বিবৃতি: যন্ত্ৰ ব্যৱহাৰৰ আগতে নিৰ্দেশনা পঢ়া। ধাৰণা: I. যন্ত্ৰটো সাৱধানে চলাব লাগে। II. যন্ত্ৰটো অকামিলা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-027",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Read the instructions before using the machine. Assumptions: I. The machine is useless. II. Wrong use may cause harm.",
+      "as": "বিবৃতি: যন্ত্ৰ ব্যৱহাৰৰ আগতে নিৰ্দেশনা পঢ়া। ধাৰণা: I. যন্ত্ৰটো অকামিলা। II. ভুল ব্যৱহাৰে ক্ষতি কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-028",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Read the instructions before using the machine. Assumptions: I. The machine is useless. II. The instructions are wrong.",
+      "as": "বিবৃতি: যন্ত্ৰ ব্যৱহাৰৰ আগতে নিৰ্দেশনা পঢ়া। ধাৰণা: I. যন্ত্ৰটো অকামিলা। II. নিৰ্দেশনাবোৰ ভুল।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-029",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please keep the surroundings clean. Assumptions: I. The surroundings can get dirty. II. People can help in cleaning.",
+      "as": "বিবৃতি: চাৰিওফাল পৰিষ্কাৰ ৰাখিব। ধাৰণা: I. চাৰিওফাল লেতেৰা হ'ব পাৰে। II. লোকে পৰিষ্কাৰ কৰাত সহায় কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-030",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please keep the surroundings clean. Assumptions: I. The surroundings can get dirty. II. The surroundings are already clean for ever.",
+      "as": "বিবৃতি: চাৰিওফাল পৰিষ্কাৰ ৰাখিব। ধাৰণা: I. চাৰিওফাল লেতেৰা হ'ব পাৰে। II. চাৰিওফাল চিৰকাল পৰিষ্কাৰ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-031",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please keep the surroundings clean. Assumptions: I. The surroundings are already clean for ever. II. People can help in cleaning.",
+      "as": "বিবৃতি: চাৰিওফাল পৰিষ্কাৰ ৰাখিব। ধাৰণা: I. চাৰিওফাল চিৰকাল পৰিষ্কাৰ। II. লোকে পৰিষ্কাৰ কৰাত সহায় কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-032",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please keep the surroundings clean. Assumptions: I. The surroundings are already clean for ever. II. Cleaning is only the government's duty.",
+      "as": "বিবৃতি: চাৰিওফাল পৰিষ্কাৰ ৰাখিব। ধাৰণা: I. চাৰিওফাল চিৰকাল পৰিষ্কাৰ। II. পৰিষ্কাৰ কৰা কেৱল চৰকাৰৰ দায়িত্ব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-033",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Take this medicine after meals. Assumptions: I. The medicine works better after food. II. Taking it on an empty stomach may be harmful.",
+      "as": "বিবৃতি: এই ঔষধ খোৱাৰ পিছত খোৱা। ধাৰণা: I. খোৱাৰ পিছত ঔষধে ভাল কাম কৰে। II. খালী পেটত খালে ক্ষতি হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-034",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Take this medicine after meals. Assumptions: I. The medicine works better after food. II. The medicine is sweet.",
+      "as": "বিবৃতি: এই ঔষধ খোৱাৰ পিছত খোৱা। ধাৰণা: I. খোৱাৰ পিছত ঔষধে ভাল কাম কৰে। II. ঔষধটো মিঠা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-035",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Take this medicine after meals. Assumptions: I. The medicine is sweet. II. Taking it on an empty stomach may be harmful.",
+      "as": "বিবৃতি: এই ঔষধ খোৱাৰ পিছত খোৱা। ধাৰণা: I. ঔষধটো মিঠা। II. খালী পেটত খালে ক্ষতি হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-036",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Take this medicine after meals. Assumptions: I. The medicine is sweet. II. The patient takes no meals.",
+      "as": "বিবৃতি: এই ঔষধ খোৱাৰ পিছত খোৱা। ধাৰণা: I. ঔষধটো মিঠা। II. ৰোগীয়ে খোৱা নাখায়।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-037",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not park your vehicle here. Assumptions: I. Parking here causes problems. II. This area is meant for another purpose.",
+      "as": "বিবৃতি: ইয়াত বাহন ৰাখিব নালাগে। ধাৰণা: I. ইয়াত ৰাখিলে সমস্যা হয়। II. এই ঠাই আন কামৰ বাবে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-038",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not park your vehicle here. Assumptions: I. Parking here causes problems. II. The vehicle is brand new.",
+      "as": "বিবৃতি: ইয়াত বাহন ৰাখিব নালাগে। ধাৰণা: I. ইয়াত ৰাখিলে সমস্যা হয়। II. বাহনখন নতুন।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-039",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not park your vehicle here. Assumptions: I. The vehicle is brand new. II. This area is meant for another purpose.",
+      "as": "বিবৃতি: ইয়াত বাহন ৰাখিব নালাগে। ধাৰণা: I. বাহনখন নতুন। II. এই ঠাই আন কামৰ বাবে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-040",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not park your vehicle here. Assumptions: I. The vehicle is brand new. II. Nobody owns a vehicle.",
+      "as": "বিবৃতি: ইয়াত বাহন ৰাখিব নালাগে। ধাৰণা: I. বাহনখন নতুন। II. কাৰো বাহন নাই।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-041",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Save money for a rainy day. Assumptions: I. Hard times may come. II. Savings help in emergencies.",
+      "as": "বিবৃতি: বেয়া সময়ৰ বাবে ধন সাঁচি ৰাখা। ধাৰণা: I. কঠিন সময় আহিব পাৰে। II. সাঁচতীয়া ধনে বিপদত সহায় কৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-042",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Save money for a rainy day. Assumptions: I. Hard times may come. II. It will rain tomorrow.",
+      "as": "বিবৃতি: বেয়া সময়ৰ বাবে ধন সাঁচি ৰাখা। ধাৰণা: I. কঠিন সময় আহিব পাৰে। II. কাইলৈ বৰষুণ দিব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-043",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Save money for a rainy day. Assumptions: I. It will rain tomorrow. II. Savings help in emergencies.",
+      "as": "বিবৃতি: বেয়া সময়ৰ বাবে ধন সাঁচি ৰাখা। ধাৰণা: I. কাইলৈ বৰষুণ দিব। II. সাঁচতীয়া ধনে বিপদত সহায় কৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-044",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Save money for a rainy day. Assumptions: I. It will rain tomorrow. II. Banks will close for ever.",
+      "as": "বিবৃতি: বেয়া সময়ৰ বাবে ধন সাঁচি ৰাখা। ধাৰণা: I. কাইলৈ বৰষুণ দিব। II. বেংক চিৰকাল বন্ধ হ'ব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-045",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wear a helmet while riding a two-wheeler. Assumptions: I. Accidents can happen. II. A helmet reduces head injury.",
+      "as": "বিবৃতি: দুচকীয়া চলাওঁতে হেলমেট পিন্ধা। ধাৰণা: I. দুৰ্ঘটনা হ'ব পাৰে। II. হেলমেটে মূৰৰ আঘাত কমায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-046",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wear a helmet while riding a two-wheeler. Assumptions: I. Accidents can happen. II. Everyone owns a two-wheeler.",
+      "as": "বিবৃতি: দুচকীয়া চলাওঁতে হেলমেট পিন্ধা। ধাৰণা: I. দুৰ্ঘটনা হ'ব পাৰে। II. সকলোৰে দুচকীয়া আছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-047",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wear a helmet while riding a two-wheeler. Assumptions: I. Everyone owns a two-wheeler. II. A helmet reduces head injury.",
+      "as": "বিবৃতি: দুচকীয়া চলাওঁতে হেলমেট পিন্ধা। ধাৰণা: I. সকলোৰে দুচকীয়া আছে। II. হেলমেটে মূৰৰ আঘাত কমায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-048",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wear a helmet while riding a two-wheeler. Assumptions: I. Everyone owns a two-wheeler. II. Helmets are fashionable.",
+      "as": "বিবৃতি: দুচকীয়া চলাওঁতে হেলমেট পিন্ধা। ধাৰণা: I. সকলোৰে দুচকীয়া আছে। II. হেলমেট ফেশ্বনেবল।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-049",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please submit the form before Friday. Assumptions: I. There is a deadline for submission. II. Late submission may be rejected.",
+      "as": "বিবৃতি: শুক্ৰবাৰৰ আগতে ফৰ্ম জমা দিব। ধাৰণা: I. জমা দিয়াৰ সময়সীমা আছে। II. পলমকৈ দিলে নাকচ হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-050",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please submit the form before Friday. Assumptions: I. There is a deadline for submission. II. Friday is a holiday.",
+      "as": "বিবৃতি: শুক্ৰবাৰৰ আগতে ফৰ্ম জমা দিব। ধাৰণা: I. জমা দিয়াৰ সময়সীমা আছে। II. শুক্ৰবাৰ বন্ধৰ দিন।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-051",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please submit the form before Friday. Assumptions: I. Friday is a holiday. II. Late submission may be rejected.",
+      "as": "বিবৃতি: শুক্ৰবাৰৰ আগতে ফৰ্ম জমা দিব। ধাৰণা: I. শুক্ৰবাৰ বন্ধৰ দিন। II. পলমকৈ দিলে নাকচ হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-052",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please submit the form before Friday. Assumptions: I. Friday is a holiday. II. The form is unnecessary.",
+      "as": "বিবৃতি: শুক্ৰবাৰৰ আগতে ফৰ্ম জমা দিব। ধাৰণা: I. শুক্ৰবাৰ বন্ধৰ দিন। II. ফৰ্মটো প্ৰয়োজনীয় নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-053",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Avoid eating junk food. Assumptions: I. Junk food is harmful to health. II. Healthier food choices are available.",
+      "as": "বিবৃতি: জাংক ফুড খোৱাৰ পৰা বিৰত থাকা। ধাৰণা: I. জাংক ফুড স্বাস্থ্যৰ বাবে ক্ষতিকৰ। II. অধিক স্বাস্থ্যকৰ খাদ্য উপলব্ধ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-054",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Avoid eating junk food. Assumptions: I. Junk food is harmful to health. II. Junk food is cheap.",
+      "as": "বিবৃতি: জাংক ফুড খোৱাৰ পৰা বিৰত থাকা। ধাৰণা: I. জাংক ফুড স্বাস্থ্যৰ বাবে ক্ষতিকৰ। II. জাংক ফুড সস্তা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-055",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Avoid eating junk food. Assumptions: I. Junk food is cheap. II. Healthier food choices are available.",
+      "as": "বিবৃতি: জাংক ফুড খোৱাৰ পৰা বিৰত থাকা। ধাৰণা: I. জাংক ফুড সস্তা। II. অধিক স্বাস্থ্যকৰ খাদ্য উপলব্ধ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-056",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Avoid eating junk food. Assumptions: I. Junk food is cheap. II. Everyone eats junk food.",
+      "as": "বিবৃতি: জাংক ফুড খোৱাৰ পৰা বিৰত থাকা। ধাৰণা: I. জাংক ফুড সস্তা। II. সকলোৱে জাংক ফুড খায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-057",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Book your ticket in advance. Assumptions: I. Tickets may not be available later. II. Advance booking is possible.",
+      "as": "বিবৃতি: আগতীয়াকৈ টিকট বুক কৰা। ধাৰণা: I. পিছত টিকট নাপাব পাৰে। II. আগতীয়াকৈ বুকিং সম্ভৱ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-058",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Book your ticket in advance. Assumptions: I. Tickets may not be available later. II. The train will be cancelled.",
+      "as": "বিবৃতি: আগতীয়াকৈ টিকট বুক কৰা। ধাৰণা: I. পিছত টিকট নাপাব পাৰে। II. ৰে'ল বাতিল হ'ব।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-059",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Book your ticket in advance. Assumptions: I. The train will be cancelled. II. Advance booking is possible.",
+      "as": "বিবৃতি: আগতীয়াকৈ টিকট বুক কৰা। ধাৰণা: I. ৰে'ল বাতিল হ'ব। II. আগতীয়াকৈ বুকিং সম্ভৱ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-060",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Book your ticket in advance. Assumptions: I. The train will be cancelled. II. Tickets are free.",
+      "as": "বিবৃতি: আগতীয়াকৈ টিকট বুক কৰা। ধাৰণা: I. ৰে'ল বাতিল হ'ব। II. টিকট বিনামূলীয়া।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-061",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please speak softly in the library. Assumptions: I. Loud noise disturbs readers. II. People read in the library.",
+      "as": "বিবৃতি: পুথিভঁৰালত লাহে লাহে কথা কোৱা। ধাৰণা: I. উচচ্চ শব্দই পঢ়ুৱৈক আমনি কৰে। II. লোকে পুথিভঁৰালত পঢ়ে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-062",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please speak softly in the library. Assumptions: I. Loud noise disturbs readers. II. The library is closed.",
+      "as": "বিবৃতি: পুথিভঁৰালত লাহে লাহে কথা কোৱা। ধাৰণা: I. উচচ্চ শব্দই পঢ়ুৱৈক আমনি কৰে। II. পুথিভঁৰাল বন্ধ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-063",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please speak softly in the library. Assumptions: I. The library is closed. II. People read in the library.",
+      "as": "বিবৃতি: পুথিভঁৰালত লাহে লাহে কথা কোৱা। ধাৰণা: I. পুথিভঁৰাল বন্ধ। II. লোকে পুথিভঁৰালত পঢ়ে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-064",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Please speak softly in the library. Assumptions: I. The library is closed. II. Everyone there is deaf.",
+      "as": "বিবৃতি: পুথিভঁৰালত লাহে লাহে কথা কোৱা। ধাৰণা: I. পুথিভঁৰাল বন্ধ। II. তাত সকলোৱে বধিৰ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-065",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use a mosquito net while sleeping. Assumptions: I. Mosquitoes spread disease. II. A net keeps mosquitoes away.",
+      "as": "বিবৃতি: শুওঁতে মশাৰী ব্যৱহাৰ কৰা। ধাৰণা: I. মশাই ৰোগ বিয়পায়। II. মশাৰীয়ে মশা আঁতৰত ৰাখে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-066",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use a mosquito net while sleeping. Assumptions: I. Mosquitoes spread disease. II. There are no mosquitoes here.",
+      "as": "বিবৃতি: শুওঁতে মশাৰী ব্যৱহাৰ কৰা। ধাৰণা: I. মশাই ৰোগ বিয়পায়। II. ইয়াত মশা নাই।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-067",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use a mosquito net while sleeping. Assumptions: I. There are no mosquitoes here. II. A net keeps mosquitoes away.",
+      "as": "বিবৃতি: শুওঁতে মশাৰী ব্যৱহাৰ কৰা। ধাৰণা: I. ইয়াত মশা নাই। II. মশাৰীয়ে মশা আঁতৰত ৰাখে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-068",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Use a mosquito net while sleeping. Assumptions: I. There are no mosquitoes here. II. Mosquito nets are uncomfortable.",
+      "as": "বিবৃতি: শুওঁতে মশাৰী ব্যৱহাৰ কৰা। ধাৰণা: I. ইয়াত মশা নাই। II. মশাৰী অস্বস্তিকৰ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-069",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Plant more trees. Assumptions: I. Trees help the environment. II. There is space to plant trees.",
+      "as": "বিবৃতি: অধিক গছ ৰোপণ কৰা। ধাৰণা: I. গছে পৰিৱেশত সহায় কৰে। II. গছ ৰোপণৰ ঠাই আছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-070",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Plant more trees. Assumptions: I. Trees help the environment. II. Trees are useless.",
+      "as": "বিবৃতি: অধিক গছ ৰোপণ কৰা। ধাৰণা: I. গছে পৰিৱেশত সহায় কৰে। II. গছ অকামিলা।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-071",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Plant more trees. Assumptions: I. Trees are useless. II. There is space to plant trees.",
+      "as": "বিবৃতি: অধিক গছ ৰোপণ কৰা। ধাৰণা: I. গছ অকামিলা। II. গছ ৰোপণৰ ঠাই আছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-072",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Plant more trees. Assumptions: I. Trees are useless. II. All land is covered with concrete.",
+      "as": "বিবৃতি: অধিক গছ ৰোপণ কৰা। ধাৰণা: I. গছ অকামিলা। II. সকলো মাটি কংক্ৰিটেৰে ঢকা।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-073",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Keep your password secret. Assumptions: I. Sharing a password is risky. II. Others may misuse it.",
+      "as": "বিবৃতি: তোমাৰ পাছৱৰ্ড গোপন ৰাখা। ধাৰণা: I. পাছৱৰ্ড ভাগ কৰা বিপদজনক। II. আন লোকে অপব্যৱহাৰ কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-074",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Keep your password secret. Assumptions: I. Sharing a password is risky. II. Passwords are easy to guess.",
+      "as": "বিবৃতি: তোমাৰ পাছৱৰ্ড গোপন ৰাখা। ধাৰণা: I. পাছৱৰ্ড ভাগ কৰা বিপদজনক। II. পাছৱৰ্ড সহজে অনুমান কৰিব পাৰি।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-075",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Keep your password secret. Assumptions: I. Passwords are easy to guess. II. Others may misuse it.",
+      "as": "বিবৃতি: তোমাৰ পাছৱৰ্ড গোপন ৰাখা। ধাৰণা: I. পাছৱৰ্ড সহজে অনুমান কৰিব পাৰি। II. আন লোকে অপব্যৱহাৰ কৰিব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-076",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Keep your password secret. Assumptions: I. Passwords are easy to guess. II. Nobody uses the account.",
+      "as": "বিবৃতি: তোমাৰ পাছৱৰ্ড গোপন ৰাখা। ধাৰণা: I. পাছৱৰ্ড সহজে অনুমান কৰিব পাৰি। II. কোনেও একাউণ্ট ব্যৱহাৰ নকৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-077",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Exercise daily for good health. Assumptions: I. Exercise improves health. II. A daily routine matters.",
+      "as": "বিবৃতি: ভাল স্বাস্থ্যৰ বাবে প্ৰতিদিনে ব্যায়াম কৰা। ধাৰণা: I. ব্যায়ামে স্বাস্থ্য উন্নত কৰে। II. দৈনন্দিন অভ্যাসৰ গুৰুত্ব আছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-078",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Exercise daily for good health. Assumptions: I. Exercise improves health. II. Exercise is harmful.",
+      "as": "বিবৃতি: ভাল স্বাস্থ্যৰ বাবে প্ৰতিদিনে ব্যায়াম কৰা। ধাৰণা: I. ব্যায়ামে স্বাস্থ্য উন্নত কৰে। II. ব্যায়াম ক্ষতিকৰ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-079",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Exercise daily for good health. Assumptions: I. Exercise is harmful. II. A daily routine matters.",
+      "as": "বিবৃতি: ভাল স্বাস্থ্যৰ বাবে প্ৰতিদিনে ব্যায়াম কৰা। ধাৰণা: I. ব্যায়াম ক্ষতিকৰ। II. দৈনন্দিন অভ্যাসৰ গুৰুত্ব আছে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-080",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Exercise daily for good health. Assumptions: I. Exercise is harmful. II. Everyone is already healthy.",
+      "as": "বিবৃতি: ভাল স্বাস্থ্যৰ বাবে প্ৰতিদিনে ব্যায়াম কৰা। ধাৰণা: I. ব্যায়াম ক্ষতিকৰ। II. সকলোৱেই ইতিমধ্যে সুস্থ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-081",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wash your hands before eating. Assumptions: I. Hands may carry germs. II. Washing removes germs.",
+      "as": "বিবৃতি: খোৱাৰ আগতে হাত ধুৱা। ধাৰণা: I. হাতত জীৱাণু থাকিব পাৰে। II. ধুৱে জীৱাণু আঁতৰায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-082",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wash your hands before eating. Assumptions: I. Hands may carry germs. II. Hands are always clean.",
+      "as": "বিবৃতি: খোৱাৰ আগতে হাত ধুৱা। ধাৰণা: I. হাতত জীৱাণু থাকিব পাৰে। II. হাত সদায় পৰিষ্কাৰ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-083",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wash your hands before eating. Assumptions: I. Hands are always clean. II. Washing removes germs.",
+      "as": "বিবৃতি: খোৱাৰ আগতে হাত ধুৱা। ধাৰণা: I. হাত সদায় পৰিষ্কাৰ। II. ধুৱে জীৱাণু আঁতৰায়।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-084",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Wash your hands before eating. Assumptions: I. Hands are always clean. II. Soap is costly.",
+      "as": "বিবৃতি: খোৱাৰ আগতে হাত ধুৱা। ধাৰণা: I. হাত সদায় পৰিষ্কাৰ। II. চাবোন দামী।"
+    },
+    "options": [
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-085",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not use a mobile phone while driving. Assumptions: I. Using a phone distracts the driver. II. Distraction can cause accidents.",
+      "as": "বিবৃতি: গাড়ী চলাওঁতে ম'বাইল ফোন ব্যৱহাৰ নকৰিব। ধাৰণা: I. ফোন ব্যৱহাৰে চালকৰ মনোযোগ ভাঙে। II. মনোযোগ ভাঙিলে দুৰ্ঘটনা হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is implicit. Hence: Both assumptions are implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত। সেয়ে: দুয়োটা ধাৰণাই নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-086",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not use a mobile phone while driving. Assumptions: I. Using a phone distracts the driver. II. Mobile phones are banned.",
+      "as": "বিবৃতি: গাড়ী চলাওঁতে ম'বাইল ফোন ব্যৱহাৰ নকৰিব। ধাৰণা: I. ফোন ব্যৱহাৰে চালকৰ মনোযোগ ভাঙে। II. ম'বাইল ফোন নিষিদ্ধ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is implicit and assumption II is not implicit. Hence: Only assumption I is implicit.",
+      "as": "ধাৰণা I নিহিত, ধাৰণা II নিহিত নহয়। সেয়ে: কেৱল ধাৰণা I নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-087",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not use a mobile phone while driving. Assumptions: I. Mobile phones are banned. II. Distraction can cause accidents.",
+      "as": "বিবৃতি: গাড়ী চলাওঁতে ম'বাইল ফোন ব্যৱহাৰ নকৰিব। ধাৰণা: I. ম'বাইল ফোন নিষিদ্ধ। II. মনোযোগ ভাঙিলে দুৰ্ঘটনা হ'ব পাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is implicit. Hence: Only assumption II is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত। সেয়ে: কেৱল ধাৰণা II নিহিত।"
+    }
+  },
+  {
+    "id": "vr-statement-assumptions-088",
+    "leaf": "statement-assumptions",
+    "q": {
+      "en": "Statement: Do not use a mobile phone while driving. Assumptions: I. Mobile phones are banned. II. Driving is illegal.",
+      "as": "বিবৃতি: গাড়ী চলাওঁতে ম'বাইল ফোন ব্যৱহাৰ নকৰিব। ধাৰণা: I. ম'বাইল ফোন নিষিদ্ধ। II. গাড়ী চলোৱা অবৈধ।"
+    },
+    "options": [
+      {
+        "en": "Only assumption I is implicit",
+        "as": "কেৱল ধাৰণা I নিহিত"
+      },
+      {
+        "en": "Only assumption II is implicit",
+        "as": "কেৱল ধাৰণা II নিহিত"
+      },
+      {
+        "en": "Neither assumption is implicit",
+        "as": "কোনো ধাৰণাই নিহিত নহয়"
+      },
+      {
+        "en": "Both assumptions are implicit",
+        "as": "দুয়োটা ধাৰণাই নিহিত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Assumption I is not implicit and assumption II is not implicit. Hence: Neither assumption is implicit.",
+      "as": "ধাৰণা I নিহিত নহয়, ধাৰণা II নিহিত নহয়। সেয়ে: কোনো ধাৰণাই নিহিত নহয়।"
+    }
+  }
+]

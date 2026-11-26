@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "statement-conclusions-001",
+    "q": {
+      "en": "Statements: Some novels are books. No books are printed matter. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কিছু উপন্যাস পুথি। কোনো পুথি মুদ্ৰিত সামগ্ৰী নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some books are not novels",
+        "as": "কিছু পুথি উপন্যাস নহয়"
+      },
+      {
+        "en": "All books are novels",
+        "as": "সকলো পুথি উপন্যাস"
+      },
+      {
+        "en": "Some novels are not printed matter",
+        "as": "কিছু উপন্যাস মুদ্ৰিত সামগ্ৰী নহয়"
+      },
+      {
+        "en": "All books are printed matter",
+        "as": "সকলো পুথি মুদ্ৰিত সামগ্ৰী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some novels are not printed matter” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু উপন্যাস মুদ্ৰিত সামগ্ৰী নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-002",
+    "q": {
+      "en": "Statements: All mangoes are fruits. No fruits are food. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো আম ফল। কোনো ফল খাদ্য নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All mangoes are fruits",
+        "as": "সকলো আম ফল"
+      },
+      {
+        "en": "Some mangoes are not fruits",
+        "as": "কিছু আম ফল নহয়"
+      },
+      {
+        "en": "All fruits are mangoes",
+        "as": "সকলো ফল আম"
+      },
+      {
+        "en": "Some mangoes are food",
+        "as": "কিছু আম খাদ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All mangoes are fruits” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো আম ফল” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-003",
+    "q": {
+      "en": "Statement: A team won 12 of the 20 matches it played this season. Conclusions: I. The team won more matches than it lost. II. The team won all its matches.",
+      "as": "বিবৃতি: এটা দলে এই ছিজনত খেলা ২০ খন মেচৰ ১২ খন জিকিলে। সিদ্ধান্ত: I. দলটোৱে হেৰুওৱাতকৈ বেছি মেচ জিকিলে। II. দলটোৱে সকলো মেচ জিকিলে।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-004",
+    "q": {
+      "en": "Statements: No buses are vehicles. No machines are vehicles. Conclusions: I. Some buses are not machines. II. Some vehicles are not machines.",
+      "as": "বিবৃতি: কোনো বাছ যানবাহন নহয়। কোনো যন্ত্ৰ যানবাহন নহয়। সিদ্ধান্ত: I. কিছু বাছ যন্ত্ৰ নহয়। II. কিছু যানবাহন যন্ত্ৰ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-005",
+    "q": {
+      "en": "Statement: A student scored 480 out of 600 marks. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এজন ছাত্ৰই ৬০০ নম্বৰৰ ভিতৰত ৪৮০ নম্বৰ পালে। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "The student scored below half of the total.",
+        "as": "ছাত্ৰজনে মুঠৰ আধাতকৈ কম নম্বৰ পালে।"
+      },
+      {
+        "en": "The student scored above three-fourths of the total.",
+        "as": "ছাত্ৰজনে মুঠৰ চাৰি-চতুৰ্থাংশতকৈ বেছি নম্বৰ পালে।"
+      },
+      {
+        "en": "The student failed.",
+        "as": "ছাত্ৰজন অনুত্তীৰ্ণ হ'ল।"
+      },
+      {
+        "en": "The student scored full marks.",
+        "as": "ছাত্ৰজনে সম্পূৰ্ণ নম্বৰ পালে।"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“The student scored above three-fourths of the total.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“ছাত্ৰজনে মুঠৰ চাৰি-চতুৰ্থাংশতকৈ বেছি নম্বৰ পালে।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-006",
+    "q": {
+      "en": "Statements: Some roses are flowers. All flowers are plants. Conclusions: I. Some roses are flowers. II. No plants are roses.",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। সকলো ফুল উদ্ভিদ। সিদ্ধান্ত: I. কিছু গোলাপ ফুল। II. কোনো উদ্ভিদ গোলাপ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-007",
+    "q": {
+      "en": "Statement: A report says that of 500 accidents studied, 300 happened at night. Conclusions: I. Most of the studied accidents happened at night. II. No accident happens during the day.",
+      "as": "বিবৃতি: এটা প্ৰতিবেদনত কোৱা হৈছে যে অধ্যয়ন কৰা ৫০০ টা দুৰ্ঘটনাৰ ৩০০ টা ৰাতি হৈছিল। সিদ্ধান্ত: I. অধ্যয়ন কৰা বেছিভাগ দুৰ্ঘটনা ৰাতি হৈছিল। II. দিনত কোনো দুৰ্ঘটনা নঘটে।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-008",
+    "q": {
+      "en": "Statements: All mangoes are fruits. Some food are not fruits. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো আম ফল। কিছু খাদ্য ফল নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All mangoes are fruits",
+        "as": "সকলো আম ফল"
+      },
+      {
+        "en": "No food are fruits",
+        "as": "কোনো খাদ্য ফল নহয়"
+      },
+      {
+        "en": "Some mangoes are not food",
+        "as": "কিছু আম খাদ্য নহয়"
+      },
+      {
+        "en": "Some food are mangoes",
+        "as": "কিছু খাদ্য আম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All mangoes are fruits” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো আম ফল” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-009",
+    "q": {
+      "en": "Statement: A metro line carries 2 lakh passengers on weekdays and 1 lakh on Sundays. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এটা মেট্ৰ' লাইনে কামৰ দিনত ২ লাখ আৰু দেওবাৰে ১ লাখ যাত্ৰী কঢ়িয়ায়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "The line carries the same number every day.",
+        "as": "লাইনটোৱে প্ৰতিদিনে একেই সংখ্যক কঢ়িয়ায়।"
+      },
+      {
+        "en": "The line carries no passengers on Sundays.",
+        "as": "লাইনটোৱে দেওবাৰে কোনো যাত্ৰী নকঢ়িয়ায়।"
+      },
+      {
+        "en": "The line carries more passengers on weekdays than on Sundays.",
+        "as": "লাইনটোৱে দেওবাৰতকৈ কামৰ দিনত বেছি যাত্ৰী কঢ়িয়ায়।"
+      },
+      {
+        "en": "The line carries more passengers on Sundays.",
+        "as": "লাইনটোৱে দেওবাৰে বেছি যাত্ৰী কঢ়িয়ায়।"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“The line carries more passengers on weekdays than on Sundays.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“লাইনটোৱে দেওবাৰতকৈ কামৰ দিনত বেছি যাত্ৰী কঢ়িয়ায়।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-010",
+    "q": {
+      "en": "Statements: All sparrows are birds. No birds are animals. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো চৰাই পক্ষী। কোনো পক্ষী প্ৰাণী নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some birds are not animals",
+        "as": "কিছু পক্ষী প্ৰাণী নহয়"
+      },
+      {
+        "en": "Some sparrows are not birds",
+        "as": "কিছু চৰাই পক্ষী নহয়"
+      },
+      {
+        "en": "Some birds are not sparrows",
+        "as": "কিছু পক্ষী চৰাই নহয়"
+      },
+      {
+        "en": "Some animals are sparrows",
+        "as": "কিছু প্ৰাণী চৰাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some birds are not animals” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু পক্ষী প্ৰাণী নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-011",
+    "q": {
+      "en": "Statements: All engineers are graduates. Some workers are not graduates. Conclusions: I. Some engineers are not graduates. II. No workers are engineers.",
+      "as": "বিবৃতি: সকলো অভিযন্তা স্নাতক। কিছু কৰ্মী স্নাতক নহয়। সিদ্ধান্ত: I. কিছু অভিযন্তা স্নাতক নহয়। II. কোনো কৰ্মী অভিযন্তা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-012",
+    "q": {
+      "en": "Statements: No novels are books. No printed matter are books. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো উপন্যাস পুথি নহয়। কোনো মুদ্ৰিত সামগ্ৰী পুথি নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No books are novels",
+        "as": "কোনো পুথি উপন্যাস নহয়"
+      },
+      {
+        "en": "No novels are printed matter",
+        "as": "কোনো উপন্যাস মুদ্ৰিত সামগ্ৰী নহয়"
+      },
+      {
+        "en": "Some novels are not printed matter",
+        "as": "কিছু উপন্যাস মুদ্ৰিত সামগ্ৰী নহয়"
+      },
+      {
+        "en": "Some novels are books",
+        "as": "কিছু উপন্যাস পুথি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “No books are novels” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কোনো পুথি উপন্যাস নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-013",
+    "q": {
+      "en": "Statements: Some doctors are graduates. No graduates are citizens. Conclusions: I. Some citizens are not graduates. II. Some graduates are not citizens.",
+      "as": "বিবৃতি: কিছু ডাক্তৰ স্নাতক। কোনো স্নাতক নাগৰিক নহয়। সিদ্ধান্ত: I. কিছু নাগৰিক স্নাতক নহয়। II. কিছু স্নাতক নাগৰিক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-014",
+    "q": {
+      "en": "Statements: All buses are vehicles. All vehicles are machines. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো বাছ যানবাহন। সকলো যানবাহন যন্ত্ৰ। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All vehicles are buses",
+        "as": "সকলো যানবাহন বাছ"
+      },
+      {
+        "en": "Some buses are vehicles",
+        "as": "কিছু বাছ যানবাহন"
+      },
+      {
+        "en": "All machines are vehicles",
+        "as": "সকলো যন্ত্ৰ যানবাহন"
+      },
+      {
+        "en": "No vehicles are machines",
+        "as": "কোনো যানবাহন যন্ত্ৰ নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some buses are vehicles” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু বাছ যানবাহন” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-015",
+    "q": {
+      "en": "Statements: No doctors are graduates. All citizens are graduates. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো ডাক্তৰ স্নাতক নহয়। সকলো নাগৰিক স্নাতক। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some doctors are graduates",
+        "as": "কিছু ডাক্তৰ স্নাতক"
+      },
+      {
+        "en": "Some citizens are not graduates",
+        "as": "কিছু নাগৰিক স্নাতক নহয়"
+      },
+      {
+        "en": "Some citizens are not doctors",
+        "as": "কিছু নাগৰিক ডাক্তৰ নহয়"
+      },
+      {
+        "en": "All graduates are doctors",
+        "as": "সকলো স্নাতক ডাক্তৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some citizens are not doctors” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু নাগৰিক ডাক্তৰ নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-016",
+    "q": {
+      "en": "Statements: All engineers are graduates. No graduates are workers. Conclusions: I. Some engineers are not workers. II. All graduates are engineers.",
+      "as": "বিবৃতি: সকলো অভিযন্তা স্নাতক। কোনো স্নাতক কৰ্মী নহয়। সিদ্ধান্ত: I. কিছু অভিযন্তা কৰ্মী নহয়। II. সকলো স্নাতক অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-017",
+    "q": {
+      "en": "Statements: No novels are books. Some books are printed matter. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো উপন্যাস পুথি নহয়। কিছু পুথি মুদ্ৰিত সামগ্ৰী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No printed matter are books",
+        "as": "কোনো মুদ্ৰিত সামগ্ৰী পুথি নহয়"
+      },
+      {
+        "en": "No books are printed matter",
+        "as": "কোনো পুথি মুদ্ৰিত সামগ্ৰী নহয়"
+      },
+      {
+        "en": "All printed matter are novels",
+        "as": "সকলো মুদ্ৰিত সামগ্ৰী উপন্যাস"
+      },
+      {
+        "en": "Some novels are not books",
+        "as": "কিছু উপন্যাস পুথি নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some novels are not books” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু উপন্যাস পুথি নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-018",
+    "q": {
+      "en": "Statements: All novels are books. Some printed matter are books. Conclusions: I. Some novels are books. II. Some novels are printed matter.",
+      "as": "বিবৃতি: সকলো উপন্যাস পুথি। কিছু মুদ্ৰিত সামগ্ৰী পুথি। সিদ্ধান্ত: I. কিছু উপন্যাস পুথি। II. কিছু উপন্যাস মুদ্ৰিত সামগ্ৰী।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-019",
+    "q": {
+      "en": "Statements: All poets are writers. No writers are artists. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো কবি লেখক। কোনো লেখক শিল্পী নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some artists are poets",
+        "as": "কিছু শিল্পী কবি"
+      },
+      {
+        "en": "Some poets are artists",
+        "as": "কিছু কবি শিল্পী"
+      },
+      {
+        "en": "Some poets are not writers",
+        "as": "কিছু কবি লেখক নহয়"
+      },
+      {
+        "en": "Some writers are not artists",
+        "as": "কিছু লেখক শিল্পী নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some writers are not artists” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু লেখক শিল্পী নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-020",
+    "q": {
+      "en": "Statement: A bank's branch handled 1,200 customers on a day, double the usual number. Conclusions: I. The branch was busier than usual that day. II. The branch handled fewer customers than usual.",
+      "as": "বিবৃতি: এটা বেংকৰ শাখাই এদিনত ১,২০০ গ্ৰাহকৰ কাম কৰিলে, যি স্বাভাৱিকৰ দুগুণ। সিদ্ধান্ত: I. সেই দিনা শাখাটো স্বাভাৱিকতকৈ ব্যস্ত আছিল। II. শাখাটোৱে স্বাভাৱিকতকৈ কম গ্ৰাহকৰ কাম কৰিলে।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-021",
+    "q": {
+      "en": "Statements: All poets are writers. Some artists are not writers. Conclusions: I. All poets are writers. II. No poets are artists.",
+      "as": "বিবৃতি: সকলো কবি লেখক। কিছু শিল্পী লেখক নহয়। সিদ্ধান্ত: I. সকলো কবি লেখক। II. কোনো কবি শিল্পী নহয়।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-022",
+    "q": {
+      "en": "Statements: All doctors are graduates. No graduates are citizens. Conclusions: I. No graduates are citizens. II. All doctors are graduates.",
+      "as": "বিবৃতি: সকলো ডাক্তৰ স্নাতক। কোনো স্নাতক নাগৰিক নহয়। সিদ্ধান্ত: I. কোনো স্নাতক নাগৰিক নহয়। II. সকলো ডাক্তৰ স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-023",
+    "q": {
+      "en": "Statements: Some buses are vehicles. No vehicles are machines. Conclusions: I. Some buses are machines. II. Some vehicles are not machines.",
+      "as": "বিবৃতি: কিছু বাছ যানবাহন। কোনো যানবাহন যন্ত্ৰ নহয়। সিদ্ধান্ত: I. কিছু বাছ যন্ত্ৰ। II. কিছু যানবাহন যন্ত্ৰ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-024",
+    "q": {
+      "en": "Statements: Some poets are writers. All artists are writers. Conclusions: I. Some artists are writers. II. No writers are poets.",
+      "as": "বিবৃতি: কিছু কবি লেখক। সকলো শিল্পী লেখক। সিদ্ধান্ত: I. কিছু শিল্পী লেখক। II. কোনো লেখক কবি নহয়।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-025",
+    "q": {
+      "en": "Statement: A library issued 90 books in a day, of which 54 were fiction. Conclusions: I. Fiction formed the larger share of the books issued. II. No non-fiction book was issued.",
+      "as": "বিবৃতি: এটা পুথিভঁৰালে এদিনত ৯০ খন কিতাপ জাৰি কৰিলে, যাৰ ৫৪ খন কল্প-কাহিনী আছিল। সিদ্ধান্ত: I. জাৰি কৰা কিতাপৰ ডাঙৰ অংশ কল্প-কাহিনী আছিল। II. কোনো অ-কল্প-কাহিনী কিতাপ জাৰি নহ'ল।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-026",
+    "q": {
+      "en": "Statements: All mangoes are fruits. Some food are fruits. Conclusions: I. All mangoes are food. II. Some fruits are food.",
+      "as": "বিবৃতি: সকলো আম ফল। কিছু খাদ্য ফল। সিদ্ধান্ত: I. সকলো আম খাদ্য। II. কিছু ফল খাদ্য।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-027",
+    "q": {
+      "en": "Statements: Some doctors are graduates. All graduates are citizens. Conclusions: I. All doctors are graduates. II. No doctors are citizens.",
+      "as": "বিবৃতি: কিছু ডাক্তৰ স্নাতক। সকলো স্নাতক নাগৰিক। সিদ্ধান্ত: I. সকলো ডাক্তৰ স্নাতক। II. কোনো ডাক্তৰ নাগৰিক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-028",
+    "q": {
+      "en": "Statement: In a school of 400 pupils, 320 take the school bus. Conclusions: I. A majority of pupils use the school bus. II. Every pupil uses the school bus.",
+      "as": "বিবৃতি: ৪০০ ছাত্ৰৰ এটা বিদ্যালয়ত ৩২০ জনে বিদ্যালয়ৰ বাছ ব্যৱহাৰ কৰে। সিদ্ধান্ত: I. ছাত্ৰসকলৰ বেছিভাগে বিদ্যালয়ৰ বাছ ব্যৱহাৰ কৰে। II. প্ৰতিজন ছাত্ৰই বিদ্যালয়ৰ বাছ ব্যৱহাৰ কৰে।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-029",
+    "q": {
+      "en": "Statements: All mangoes are fruits. No fruits are food. Conclusions: I. Some food are mangoes. II. No fruits are food.",
+      "as": "বিবৃতি: সকলো আম ফল। কোনো ফল খাদ্য নহয়। সিদ্ধান্ত: I. কিছু খাদ্য আম। II. কোনো ফল খাদ্য নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-030",
+    "q": {
+      "en": "Statements: All poets are writers. Some writers are artists. Conclusions: I. All poets are writers. II. Some writers are artists.",
+      "as": "বিবৃতি: সকলো কবি লেখক। কিছু লেখক শিল্পী। সিদ্ধান্ত: I. সকলো কবি লেখক। II. কিছু লেখক শিল্পী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-031",
+    "q": {
+      "en": "Statements: Some roses are flowers. All plants are flowers. Conclusions: I. Some plants are flowers. II. No plants are roses.",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। সকলো উদ্ভিদ ফুল। সিদ্ধান্ত: I. কিছু উদ্ভিদ ফুল। II. কোনো উদ্ভিদ গোলাপ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-032",
+    "q": {
+      "en": "Statements: Some buses are vehicles. No vehicles are machines. Conclusions: I. Some buses are vehicles. II. Some machines are not vehicles.",
+      "as": "বিবৃতি: কিছু বাছ যানবাহন। কোনো যানবাহন যন্ত্ৰ নহয়। সিদ্ধান্ত: I. কিছু বাছ যানবাহন। II. কিছু যন্ত্ৰ যানবাহন নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-033",
+    "q": {
+      "en": "Statements: No buses are vehicles. Some vehicles are machines. Conclusions: I. Some vehicles are not buses. II. All buses are machines.",
+      "as": "বিবৃতি: কোনো বাছ যানবাহন নহয়। কিছু যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. কিছু যানবাহন বাছ নহয়। II. সকলো বাছ যন্ত্ৰ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-034",
+    "q": {
+      "en": "Statement: Of 200 trees planted, 150 survived after a year. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: ৰোপন কৰা ২০০ গছৰ এটা বছৰৰ পিছত ১৫০ টা জীয়াই থাকিল। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All the planted trees survived.",
+        "as": "ৰোপন কৰা সকলো গছ জীয়াই থাকিল।"
+      },
+      {
+        "en": "Exactly a quarter of the trees survived.",
+        "as": "গছৰ ঠিক চাৰি ভাগৰ এভাগ জীয়াই থাকিল।"
+      },
+      {
+        "en": "None of the planted trees survived.",
+        "as": "ৰোপন কৰা এটাও গছ জীয়াই নাথাকিল।"
+      },
+      {
+        "en": "More than half of the planted trees survived.",
+        "as": "ৰোপন কৰা গছৰ আধাতকৈ বেছি জীয়াই থাকিল।"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“More than half of the planted trees survived.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“ৰোপন কৰা গছৰ আধাতকৈ বেছি জীয়াই থাকিল।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-035",
+    "q": {
+      "en": "Statements: No sparrows are birds. Some birds are animals. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো চৰাই পক্ষী নহয়। কিছু পক্ষী প্ৰাণী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some birds are not sparrows",
+        "as": "কিছু পক্ষী চৰাই নহয়"
+      },
+      {
+        "en": "No birds are animals",
+        "as": "কোনো পক্ষী প্ৰাণী নহয়"
+      },
+      {
+        "en": "Some animals are not birds",
+        "as": "কিছু প্ৰাণী পক্ষী নহয়"
+      },
+      {
+        "en": "All animals are sparrows",
+        "as": "সকলো প্ৰাণী চৰাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some birds are not sparrows” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু পক্ষী চৰাই নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-036",
+    "q": {
+      "en": "Statement: A college admitted 250 students against a sanctioned strength of 200 seats. Conclusions: I. The college admitted more students than its sanctioned seats. II. The college has more than 300 students in all.",
+      "as": "বিবৃতি: এখনে মহাবিদ্যালয়ে ২০০ টা অনুমোদিত আসনৰ বিপৰীতে ২৫০ জন ছাত্ৰ ভৰ্তি কৰিলে। সিদ্ধান্ত: I. মহাবিদ্যালয়খনে অনুমোদিত আসনতকৈ বেছি ছাত্ৰ ভৰ্তি কৰিলে। II. মহাবিদ্যালয়খনত মুঠতে ৩০০ তকৈ বেছি ছাত্ৰ আছে।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-037",
+    "q": {
+      "en": "Statement: A reservoir is at 70 per cent of its capacity after the monsoon. Conclusions: I. The reservoir is less than full. II. The reservoir is completely dry.",
+      "as": "বিবৃতি: বৰ্ষাৰ পিছত এটা জলভঁৰাল নিজৰ ধাৰণক্ষমতাৰ ৭০ শতাংশত আছে। সিদ্ধান্ত: I. জলভঁৰালটো সম্পূৰ্ণ নহয়। II. জলভঁৰালটো সম্পূৰ্ণ শুকান।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-038",
+    "q": {
+      "en": "Statement: A farmer harvested 40 quintals of paddy from a field that yielded 25 quintals last year. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এজন খেতিয়কে এটা পথাৰৰ পৰা ৪০ কুইণ্টল ধান পালে, যি যোৱা বছৰ ২৫ কুইণ্টল দিছিল। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "The field yielded the same as last year.",
+        "as": "পথাৰটোৱে যোৱা বছৰৰ সমানেই দিলে।"
+      },
+      {
+        "en": "The field yielded less paddy than last year.",
+        "as": "পথাৰটোৱে যোৱা বছৰতকৈ কম ধান দিলে।"
+      },
+      {
+        "en": "The field yielded more paddy than last year.",
+        "as": "পথাৰটোৱে যোৱা বছৰতকৈ বেছি ধান দিলে।"
+      },
+      {
+        "en": "The field yielded nothing.",
+        "as": "পথাৰটোৱে একো নিদিলে।"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“The field yielded more paddy than last year.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“পথাৰটোৱে যোৱা বছৰতকৈ বেছি ধান দিলে।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-039",
+    "q": {
+      "en": "Statements: Some buses are vehicles. All vehicles are machines. Conclusions: I. Some vehicles are not buses. II. Some machines are vehicles.",
+      "as": "বিবৃতি: কিছু বাছ যানবাহন। সকলো যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. কিছু যানবাহন বাছ নহয়। II. কিছু যন্ত্ৰ যানবাহন।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-040",
+    "q": {
+      "en": "Statements: No doctors are graduates. All citizens are graduates. Conclusions: I. Some citizens are not doctors. II. All citizens are doctors.",
+      "as": "বিবৃতি: কোনো ডাক্তৰ স্নাতক নহয়। সকলো নাগৰিক স্নাতক। সিদ্ধান্ত: I. কিছু নাগৰিক ডাক্তৰ নহয়। II. সকলো নাগৰিক ডাক্তৰ।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-041",
+    "q": {
+      "en": "Statements: All sparrows are birds. Some animals are birds. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো চৰাই পক্ষী। কিছু প্ৰাণী পক্ষী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some sparrows are not animals",
+        "as": "কিছু চৰাই প্ৰাণী নহয়"
+      },
+      {
+        "en": "All sparrows are birds",
+        "as": "সকলো চৰাই পক্ষী"
+      },
+      {
+        "en": "Some birds are not sparrows",
+        "as": "কিছু পক্ষী চৰাই নহয়"
+      },
+      {
+        "en": "No sparrows are birds",
+        "as": "কোনো চৰাই পক্ষী নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “All sparrows are birds” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো চৰাই পক্ষী” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-042",
+    "q": {
+      "en": "Statements: No buses are vehicles. Some vehicles are machines. Conclusions: I. Some machines are not vehicles. II. Some buses are not machines.",
+      "as": "বিবৃতি: কোনো বাছ যানবাহন নহয়। কিছু যানবাহন যন্ত্ৰ। সিদ্ধান্ত: I. কিছু যন্ত্ৰ যানবাহন নহয়। II. কিছু বাছ যন্ত্ৰ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-043",
+    "q": {
+      "en": "Statements: No engineers are graduates. No workers are graduates. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো অভিযন্তা স্নাতক নহয়। কোনো কৰ্মী স্নাতক নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some graduates are workers",
+        "as": "কিছু স্নাতক কৰ্মী"
+      },
+      {
+        "en": "No workers are engineers",
+        "as": "কোনো কৰ্মী অভিযন্তা নহয়"
+      },
+      {
+        "en": "No engineers are workers",
+        "as": "কোনো অভিযন্তা কৰ্মী নহয়"
+      },
+      {
+        "en": "No engineers are graduates",
+        "as": "কোনো অভিযন্তা স্নাতক নহয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “No engineers are graduates” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কোনো অভিযন্তা স্নাতক নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-044",
+    "q": {
+      "en": "Statements: No engineers are graduates. No workers are graduates. Conclusions: I. No graduates are workers. II. Some workers are not engineers.",
+      "as": "বিবৃতি: কোনো অভিযন্তা স্নাতক নহয়। কোনো কৰ্মী স্নাতক নহয়। সিদ্ধান্ত: I. কোনো স্নাতক কৰ্মী নহয়। II. কিছু কৰ্মী অভিযন্তা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-045",
+    "q": {
+      "en": "Statements: Some roses are flowers. All flowers are plants. Conclusions: I. Some plants are flowers. II. Some roses are plants.",
+      "as": "বিবৃতি: কিছু গোলাপ ফুল। সকলো ফুল উদ্ভিদ। সিদ্ধান্ত: I. কিছু উদ্ভিদ ফুল। II. কিছু গোলাপ উদ্ভিদ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-046",
+    "q": {
+      "en": "Statements: Some engineers are graduates. All workers are graduates. Conclusions: I. Some workers are graduates. II. Some graduates are not engineers.",
+      "as": "বিবৃতি: কিছু অভিযন্তা স্নাতক। সকলো কৰ্মী স্নাতক। সিদ্ধান্ত: I. কিছু কৰ্মী স্নাতক। II. কিছু স্নাতক অভিযন্তা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-047",
+    "q": {
+      "en": "Statements: All doctors are graduates. All graduates are citizens. Conclusions: I. Some citizens are not doctors. II. Some doctors are citizens.",
+      "as": "বিবৃতি: সকলো ডাক্তৰ স্নাতক। সকলো স্নাতক নাগৰিক। সিদ্ধান্ত: I. কিছু নাগৰিক ডাক্তৰ নহয়। II. কিছু ডাক্তৰ নাগৰিক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-048",
+    "q": {
+      "en": "Statement: A town's population grew from 40,000 to 50,000 in a decade. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এটা নগৰৰ জনসংখ্যা এটা দশকত ৪০,০০০ ৰ পৰা ৫০,০০০ লৈ বাঢ়িল। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "The town's population fell.",
+        "as": "নগৰখনৰ জনসংখ্যা কমিল।"
+      },
+      {
+        "en": "The town's population did not change.",
+        "as": "নগৰখনৰ জনসংখ্যা সলনি নহ'ল।"
+      },
+      {
+        "en": "The town's population increased over the decade.",
+        "as": "দশকটোত নগৰখনৰ জনসংখ্যা বাঢ়িল।"
+      },
+      {
+        "en": "The town's population halved.",
+        "as": "নগৰখনৰ জনসংখ্যা আধা হ'ল।"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“The town's population increased over the decade.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“দশকটোত নগৰখনৰ জনসংখ্যা বাঢ়িল।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-049",
+    "q": {
+      "en": "Statement: A train that usually carries 800 passengers carried 1,000 on a festival day. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: সাধাৰণতে ৮০০ যাত্ৰী কঢ়িওৱা এখন ৰে'লে উৎসৱৰ দিনা ১,০০০ যাত্ৰী কঢ়িয়ালে। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "It carried more passengers than usual.",
+        "as": "ই সাধাৰণতকৈ বেছি যাত্ৰী কঢ়িয়ালে।"
+      },
+      {
+        "en": "It carried no passengers at all.",
+        "as": "ই কোনো যাত্ৰীয়েই কঢ়িয়ালে নাই।"
+      },
+      {
+        "en": "It carried fewer passengers than usual.",
+        "as": "ই সাধাৰণতকৈ কম যাত্ৰী কঢ়িয়ালে।"
+      },
+      {
+        "en": "It carried the same number as usual.",
+        "as": "ই সাধাৰণতে যিমান কঢ়িয়ায় সিমানেই কঢ়িয়ালে।"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“It carried more passengers than usual.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“ই সাধাৰণতকৈ বেছি যাত্ৰী কঢ়িয়ালে।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-050",
+    "q": {
+      "en": "Statements: All mangoes are fruits. All food are fruits. Conclusions: I. Some mangoes are fruits. II. Some food are fruits.",
+      "as": "বিবৃতি: সকলো আম ফল। সকলো খাদ্য ফল। সিদ্ধান্ত: I. কিছু আম ফল। II. কিছু খাদ্য ফল।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-051",
+    "q": {
+      "en": "Statement: The city's bus service added 30 new buses this year, taking the fleet to 130. Conclusions: I. The fleet has more than 100 buses now. II. All the new buses are air-conditioned.",
+      "as": "বিবৃতি: চহৰখনৰ বাছ সেৱাই এই বছৰ ৩০ খন নতুন বাছ যোগ কৰিলে, মুঠ বহৰ হ'ল ১৩০ খন। সিদ্ধান্ত: I. বহৰত এতিয়া ১০০ তকৈ বেছি বাছ আছে। II. সকলো নতুন বাছ শীত-তাপ নিয়ন্ত্ৰিত।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-052",
+    "q": {
+      "en": "Statements: All engineers are graduates. Some graduates are workers. Conclusions: I. No graduates are workers. II. No engineers are workers.",
+      "as": "বিবৃতি: সকলো অভিযন্তা স্নাতক। কিছু স্নাতক কৰ্মী। সিদ্ধান্ত: I. কোনো স্নাতক কৰ্মী নহয়। II. কোনো অভিযন্তা কৰ্মী নহয়।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-053",
+    "q": {
+      "en": "Statements: All engineers are graduates. Some workers are graduates. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো অভিযন্তা স্নাতক। কিছু কৰ্মী স্নাতক। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some workers are graduates",
+        "as": "কিছু কৰ্মী স্নাতক"
+      },
+      {
+        "en": "No graduates are engineers",
+        "as": "কোনো স্নাতক অভিযন্তা নহয়"
+      },
+      {
+        "en": "All graduates are workers",
+        "as": "সকলো স্নাতক কৰ্মী"
+      },
+      {
+        "en": "Some workers are not graduates",
+        "as": "কিছু কৰ্মী স্নাতক নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some workers are graduates” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু কৰ্মী স্নাতক” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-054",
+    "q": {
+      "en": "Statements: No doctors are graduates. No citizens are graduates. Conclusions: I. No citizens are graduates. II. Some doctors are not graduates.",
+      "as": "বিবৃতি: কোনো ডাক্তৰ স্নাতক নহয়। কোনো নাগৰিক স্নাতক নহয়। সিদ্ধান্ত: I. কোনো নাগৰিক স্নাতক নহয়। II. কিছু ডাক্তৰ স্নাতক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-055",
+    "q": {
+      "en": "Statements: No poets are writers. No artists are writers. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো কবি লেখক নহয়। কোনো শিল্পী লেখক নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All writers are artists",
+        "as": "সকলো লেখক শিল্পী"
+      },
+      {
+        "en": "All poets are artists",
+        "as": "সকলো কবি শিল্পী"
+      },
+      {
+        "en": "Some artists are not writers",
+        "as": "কিছু শিল্পী লেখক নহয়"
+      },
+      {
+        "en": "Some poets are artists",
+        "as": "কিছু কবি শিল্পী"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some artists are not writers” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু শিল্পী লেখক নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-056",
+    "q": {
+      "en": "Statements: Some novels are books. All printed matter are books. Conclusions: I. Some books are novels. II. Some printed matter are books.",
+      "as": "বিবৃতি: কিছু উপন্যাস পুথি। সকলো মুদ্ৰিত সামগ্ৰী পুথি। সিদ্ধান্ত: I. কিছু পুথি উপন্যাস। II. কিছু মুদ্ৰিত সামগ্ৰী পুথি।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-057",
+    "q": {
+      "en": "Statements: All doctors are graduates. All graduates are citizens. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো ডাক্তৰ স্নাতক। সকলো স্নাতক নাগৰিক। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No graduates are doctors",
+        "as": "কোনো স্নাতক ডাক্তৰ নহয়"
+      },
+      {
+        "en": "No doctors are citizens",
+        "as": "কোনো ডাক্তৰ নাগৰিক নহয়"
+      },
+      {
+        "en": "No citizens are doctors",
+        "as": "কোনো নাগৰিক ডাক্তৰ নহয়"
+      },
+      {
+        "en": "Some doctors are graduates",
+        "as": "কিছু ডাক্তৰ স্নাতক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some doctors are graduates” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু ডাক্তৰ স্নাতক” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-058",
+    "q": {
+      "en": "Statements: All novels are books. Some printed matter are not books. Conclusions: I. Some books are not novels. II. All novels are books.",
+      "as": "বিবৃতি: সকলো উপন্যাস পুথি। কিছু মুদ্ৰিত সামগ্ৰী পুথি নহয়। সিদ্ধান্ত: I. কিছু পুথি উপন্যাস নহয়। II. সকলো উপন্যাস পুথি।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II বৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-059",
+    "q": {
+      "en": "Statements: All poets are writers. Some writers are artists. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো কবি লেখক। কিছু লেখক শিল্পী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All artists are poets",
+        "as": "সকলো শিল্পী কবি"
+      },
+      {
+        "en": "No poets are writers",
+        "as": "কোনো কবি লেখক নহয়"
+      },
+      {
+        "en": "Some writers are artists",
+        "as": "কিছু লেখক শিল্পী"
+      },
+      {
+        "en": "Some poets are not artists",
+        "as": "কিছু কবি শিল্পী নহয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “Some writers are artists” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু লেখক শিল্পী” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-060",
+    "q": {
+      "en": "Statements: All sparrows are birds. No birds are insects. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো চৰাই এক প্ৰকাৰ পক্ষী। কোনো পক্ষী পতংগ নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All sparrows are insects",
+        "as": "সকলো চৰাই পতংগ"
+      },
+      {
+        "en": "Some sparrows are not birds",
+        "as": "কিছু চৰাই পক্ষী নহয়"
+      },
+      {
+        "en": "No insects are birds",
+        "as": "কোনো পতংগ পক্ষী নহয়"
+      },
+      {
+        "en": "All insects are sparrows",
+        "as": "সকলো পতংগ চৰাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “No insects are birds” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কোনো পতংগ পক্ষী নহয়” প্ৰতিটো আৰ্হিত সত্য; আন বিকল্পবোৰ অসত্য কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-061",
+    "q": {
+      "en": "Statements: All sparrows are birds. Some animals are not birds. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো চৰাই পক্ষী। কিছু প্ৰাণী পক্ষী নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All sparrows are birds",
+        "as": "সকলো চৰাই পক্ষী"
+      },
+      {
+        "en": "No sparrows are animals",
+        "as": "কোনো চৰাই প্ৰাণী নহয়"
+      },
+      {
+        "en": "All animals are sparrows",
+        "as": "সকলো প্ৰাণী চৰাই"
+      },
+      {
+        "en": "Some birds are animals",
+        "as": "কিছু পক্ষী প্ৰাণী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All sparrows are birds” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো চৰাই পক্ষী” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-062",
+    "q": {
+      "en": "Statements: All buses are vehicles. Some vehicles are machines. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো বাছ যানবাহন। কিছু যানবাহন যন্ত্ৰ। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some vehicles are not buses",
+        "as": "কিছু যানবাহন বাছ নহয়"
+      },
+      {
+        "en": "All machines are buses",
+        "as": "সকলো যন্ত্ৰ বাছ"
+      },
+      {
+        "en": "All vehicles are machines",
+        "as": "সকলো যানবাহন যন্ত্ৰ"
+      },
+      {
+        "en": "Some buses are vehicles",
+        "as": "কিছু বাছ যানবাহন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Some buses are vehicles” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু বাছ যানবাহন” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-063",
+    "q": {
+      "en": "Statement: In a class of 60 students, 45 passed the examination and the rest failed. Conclusions: I. More students passed than failed. II. All students in the class passed.",
+      "as": "বিবৃতি: ৬০ জন ছাত্ৰৰ এটা শ্ৰেণীত ৪৫ জনে পৰীক্ষাত উত্তীৰ্ণ হ'ল আৰু বাকীসকল অনুত্তীৰ্ণ হ'ল। সিদ্ধান্ত: I. অনুত্তীৰ্ণতকৈ বেছি ছাত্ৰ উত্তীৰ্ণ হৈছিল। II. শ্ৰেণীৰ সকলো ছাত্ৰ উত্তীৰ্ণ হৈছিল।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-064",
+    "q": {
+      "en": "Statements: All buses are vehicles. All machines are vehicles. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো বাছ যানবাহন। সকলো যন্ত্ৰ যানবাহন। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some machines are buses",
+        "as": "কিছু যন্ত্ৰ বাছ"
+      },
+      {
+        "en": "Some machines are vehicles",
+        "as": "কিছু যন্ত্ৰ যানবাহন"
+      },
+      {
+        "en": "Some machines are not buses",
+        "as": "কিছু যন্ত্ৰ বাছ নহয়"
+      },
+      {
+        "en": "All machines are buses",
+        "as": "সকলো যন্ত্ৰ বাছ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some machines are vehicles” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু যন্ত্ৰ যানবাহন” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-065",
+    "q": {
+      "en": "Statements: No mangoes are fruits. All food are fruits. Conclusions: I. No food are fruits. II. All fruits are mangoes.",
+      "as": "বিবৃতি: কোনো আম ফল নহয়। সকলো খাদ্য ফল। সিদ্ধান্ত: I. কোনো খাদ্য ফল নহয়। II. সকলো ফল আম।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is not valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I অবৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-066",
+    "q": {
+      "en": "Statements: All singers are musicians. Some musicians are composers. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো গায়ক সংগীতজ্ঞ। কিছু সংগীতজ্ঞ ৰচয়িতা। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Some composers are musicians",
+        "as": "কিছু ৰচয়িতা সংগীতজ্ঞ"
+      },
+      {
+        "en": "All musicians are singers",
+        "as": "সকলো সংগীতজ্ঞ গায়ক"
+      },
+      {
+        "en": "No singers are musicians",
+        "as": "কোনো গায়ক সংগীতজ্ঞ নহয়"
+      },
+      {
+        "en": "Some composers are not musicians",
+        "as": "কিছু ৰচয়িতা সংগীতজ্ঞ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “Some composers are musicians” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু ৰচয়িতা সংগীতজ্ঞ” প্ৰতিটো আৰ্হিত সত্য; আন বিকল্পবোৰ অসত্য কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-067",
+    "q": {
+      "en": "Statements: No roses are flowers. All plants are flowers. Conclusions: I. Some roses are not flowers. II. All roses are plants.",
+      "as": "বিবৃতি: কোনো গোলাপ ফুল নহয়। সকলো উদ্ভিদ ফুল। সিদ্ধান্ত: I. কিছু গোলাপ ফুল নহয়। II. সকলো গোলাপ উদ্ভিদ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-068",
+    "q": {
+      "en": "Statement: A company interviewed 150 candidates and selected 30. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এটা কোম্পানীয়ে ১৫০ জন প্ৰাৰ্থীৰ সাক্ষাৎকাৰ লৈ ৩০ জনক নিৰ্বাচিত কৰিলে। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All candidates were selected.",
+        "as": "সকলো প্ৰাৰ্থী নিৰ্বাচিত হ'ল।"
+      },
+      {
+        "en": "No candidate was selected.",
+        "as": "কোনো প্ৰাৰ্থী নিৰ্বাচিত নহ'ল।"
+      },
+      {
+        "en": "Fewer candidates were selected than rejected.",
+        "as": "নিৰ্বাচিততকৈ বেছি প্ৰাৰ্থী বাদ পৰিল।"
+      },
+      {
+        "en": "Half the candidates were selected.",
+        "as": "আধা প্ৰাৰ্থী নিৰ্বাচিত হ'ল।"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Fewer candidates were selected than rejected.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“নিৰ্বাচিততকৈ বেছি প্ৰাৰ্থী বাদ পৰিল।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-069",
+    "q": {
+      "en": "Statements: No doctors are graduates. No citizens are graduates. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কোনো ডাক্তৰ স্নাতক নহয়। কোনো নাগৰিক স্নাতক নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No graduates are doctors",
+        "as": "কোনো স্নাতক ডাক্তৰ নহয়"
+      },
+      {
+        "en": "All citizens are graduates",
+        "as": "সকলো নাগৰিক স্নাতক"
+      },
+      {
+        "en": "Some doctors are citizens",
+        "as": "কিছু ডাক্তৰ নাগৰিক"
+      },
+      {
+        "en": "No doctors are citizens",
+        "as": "কোনো ডাক্তৰ নাগৰিক নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “No graduates are doctors” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কোনো স্নাতক ডাক্তৰ নহয়” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-070",
+    "q": {
+      "en": "Statement: A village has 90 households, and 60 of them have piped water. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এটা গাঁৱত ৯০ টা পৰিয়াল আছে, আৰু তাৰ ৬০ টাত পাইপৰ পানী আছে। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No household has piped water.",
+        "as": "কোনো পৰিয়ালত পাইপৰ পানী নাই।"
+      },
+      {
+        "en": "Every household has piped water.",
+        "as": "প্ৰতিটো পৰিয়ালত পাইপৰ পানী আছে।"
+      },
+      {
+        "en": "Exactly one-third of the households have piped water.",
+        "as": "পৰিয়ালৰ ঠিক এটা-তৃতীয়াংশত পাইপৰ পানী আছে।"
+      },
+      {
+        "en": "A majority of the households have piped water.",
+        "as": "পৰিয়ালবোৰৰ বেছিভাগত পাইপৰ পানী আছে।"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“A majority of the households have piped water.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“পৰিয়ালবোৰৰ বেছিভাগত পাইপৰ পানী আছে।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-071",
+    "q": {
+      "en": "Statements: All poets are writers. All writers are artists. Conclusions: I. All poets are artists. II. No poets are writers.",
+      "as": "বিবৃতি: সকলো কবি লেখক। সকলো লেখক শিল্পী। সিদ্ধান্ত: I. সকলো কবি শিল্পী। II. কোনো কবি লেখক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Testing each conclusion against every model of the statements gives the answer: conclusion I is valid and conclusion II is not valid.",
+      "as": "প্ৰতিটো সিদ্ধান্ত বিবৃতিবোৰৰ প্ৰতিটো মডেলৰ বিপৰীতে পৰীক্ষা কৰিলে উত্তৰ পোৱা যায়: সিদ্ধান্ত I বৈধ আৰু সিদ্ধান্ত II অবৈধ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-072",
+    "q": {
+      "en": "Statements: All roses are flowers. Some plants are not flowers. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো গোলাপ ফুল। কিছু উদ্ভিদ ফুল নহয়। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All roses are flowers",
+        "as": "সকলো গোলাপ ফুল"
+      },
+      {
+        "en": "Some roses are not flowers",
+        "as": "কিছু গোলাপ ফুল নহয়"
+      },
+      {
+        "en": "All plants are flowers",
+        "as": "সকলো উদ্ভিদ ফুল"
+      },
+      {
+        "en": "All flowers are plants",
+        "as": "সকলো ফুল উদ্ভিদ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All roses are flowers” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো গোলাপ ফুল” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-073",
+    "q": {
+      "en": "Statements: All painters are artists. Some sculptors are artists. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো চিত্ৰশিল্পী শিল্পী। কিছু ভাস্কৰ্যশিল্পী শিল্পী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No painters are sculptors",
+        "as": "কোনো চিত্ৰশিল্পী ভাস্কৰ্যশিল্পী নহয়"
+      },
+      {
+        "en": "Some artists are sculptors",
+        "as": "কিছু শিল্পী ভাস্কৰ্যশিল্পী"
+      },
+      {
+        "en": "Some artists are not sculptors",
+        "as": "কিছু শিল্পী ভাস্কৰ্যশিল্পী নহয়"
+      },
+      {
+        "en": "Some painters are not sculptors",
+        "as": "কিছু চিত্ৰশিল্পী ভাস্কৰ্যশিল্পী নহয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some artists are sculptors” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু শিল্পী ভাস্কৰ্যশিল্পী” প্ৰতিটো আৰ্হিত সত্য; আন বিকল্পবোৰ অসত্য কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-074",
+    "q": {
+      "en": "Statements: All mangoes are fruits. All fruits are food. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: সকলো আম ফল। সকলো ফল খাদ্য। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "All mangoes are fruits",
+        "as": "সকলো আম ফল"
+      },
+      {
+        "en": "Some food are not mangoes",
+        "as": "কিছু খাদ্য আম নহয়"
+      },
+      {
+        "en": "No fruits are food",
+        "as": "কোনো ফল খাদ্য নহয়"
+      },
+      {
+        "en": "No mangoes are food",
+        "as": "কোনো আম খাদ্য নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “All mangoes are fruits” holds in every model; each other option can be made false.",
+      "as": "কেৱল “সকলো আম ফল” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-075",
+    "q": {
+      "en": "Statement: A firm's profit rose from 5 lakh to 8 lakh rupees in a year. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: এটা প্ৰতিষ্ঠানৰ লাভ এবছৰত ৫ লাখৰ পৰা ৮ লাখ টকালৈ বাঢ়িল। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "The firm's profit stayed unchanged.",
+        "as": "প্ৰতিষ্ঠানটোৰ লাভ অপৰিৱৰ্তিত থাকিল।"
+      },
+      {
+        "en": "The firm made a loss.",
+        "as": "প্ৰতিষ্ঠানটোৱে লোকচান কৰিলে।"
+      },
+      {
+        "en": "The firm's profit increased over the year.",
+        "as": "বছৰটোত প্ৰতিষ্ঠানটোৰ লাভ বাঢ়িল।"
+      },
+      {
+        "en": "The firm's profit halved.",
+        "as": "প্ৰতিষ্ঠানটোৰ লাভ আধা হ'ল।"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“The firm's profit increased over the year.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“বছৰটোত প্ৰতিষ্ঠানটোৰ লাভ বাঢ়িল।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  },
+  {
+    "id": "statement-conclusions-076",
+    "q": {
+      "en": "Statement: A survey of 800 residents found that 640 of them want a new park in the town. Conclusions: I. Most of the surveyed residents want a new park. II. Every resident of the town wants a new park.",
+      "as": "বিবৃতি: ৮০০ জন বাসিন্দাৰ এটা সমীক্ষাত দেখা গ'ল যে তেওঁলোকৰ ৬৪০ জনে চহৰখনত এটা নতুন উদ্যান বিচাৰে। সিদ্ধান্ত: I. সমীক্ষিত বাসিন্দাসকলৰ বেছিভাগে নতুন উদ্যান বিচাৰে। II. চহৰখনৰ প্ৰতিজন বাসিন্দাই নতুন উদ্যান বিচাৰে।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-077",
+    "q": {
+      "en": "Statement: A shopkeeper raised the price of rice from 40 rupees to 50 rupees a kilogram. Conclusions: I. The price of rice increased. II. The price of every other item also increased.",
+      "as": "বিবৃতি: এজন দোকানীয়ে চাউলৰ দাম কিলো ৪০ টকাৰ পৰা ৫০ টকালৈ বঢ়ালে। সিদ্ধান্ত: I. চাউলৰ দাম বাঢ়িল। II. আন প্ৰতিটো সামগ্ৰীৰ দামো বাঢ়িল।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-078",
+    "q": {
+      "en": "Statement: A district received 60 per cent of its normal rainfall this year. Conclusions: I. The district received less rain than normal. II. The district received no rain at all.",
+      "as": "বিবৃতি: এটা জিলাই এই বছৰ স্বাভাৱিক বৰষুণৰ ৬০ শতাংশ পালে। সিদ্ধান্ত: I. জিলাখনে স্বাভাৱিকতকৈ কম বৰষুণ পালে। II. জিলাখনে একেবাৰেই বৰষুণ নাপালে।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো এটাও সিদ্ধান্ত অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I is supported by the statement and conclusion II is not supported; hence the answer.",
+      "as": "সিদ্ধান্ত I বিবৃতিৰ দ্বাৰা সমৰ্থিত আৰু সিদ্ধান্ত II অসমৰ্থিত; সেয়ে এই উত্তৰ।"
+    }
+  },
+  {
+    "id": "statement-conclusions-079",
+    "q": {
+      "en": "Statements: Some poets are writers. All writers are artists. Which of the following conclusions follows from the statements?",
+      "as": "বিবৃতি: কিছু কবি লেখক। সকলো লেখক শিল্পী। তলৰ কোনটো সিদ্ধান্ত বিবৃতিবোৰৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "No artists are writers",
+        "as": "কোনো শিল্পী লেখক নহয়"
+      },
+      {
+        "en": "Some artists are writers",
+        "as": "কিছু শিল্পী লেখক"
+      },
+      {
+        "en": "All poets are artists",
+        "as": "সকলো কবি শিল্পী"
+      },
+      {
+        "en": "All poets are writers",
+        "as": "সকলো কবি লেখক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Some artists are writers” holds in every model; each other option can be made false.",
+      "as": "কেৱল “কিছু শিল্পী লেখক” প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি।"
+    }
+  },
+  {
+    "id": "statement-conclusions-080",
+    "q": {
+      "en": "Statement: A shop sold 70 of its 100 umbrellas on a rainy day. Which of the following conclusions follows from the statement?",
+      "as": "বিবৃতি: বৰষুণৰ এদিনত এটা দোকানে নিজৰ ১০০ খন ছাতিৰ ৭০ খন বিক্ৰী কৰিলে। তলৰ কোনটো সিদ্ধান্ত বিবৃতিৰ পৰা অনুসৰণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "Exactly half of the umbrellas were sold.",
+        "as": "ঠিক আধা ছাতি বিক্ৰী হ'ল।"
+      },
+      {
+        "en": "Most of the umbrellas were sold.",
+        "as": "বেছিভাগ ছাতি বিক্ৰী হ'ল।"
+      },
+      {
+        "en": "All of the umbrellas were sold.",
+        "as": "সকলো ছাতি বিক্ৰী হ'ল।"
+      },
+      {
+        "en": "None of the umbrellas were sold.",
+        "as": "এখনো ছাতি বিক্ৰী নহ'ল।"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“Most of the umbrellas were sold.” is the only conclusion the statement supports; the others go beyond it.",
+      "as": "“বেছিভাগ ছাতি বিক্ৰী হ'ল।” একমাত্ৰ সিদ্ধান্ত যি বিবৃতিয়ে সমৰ্থন কৰে; বাকীবোৰ ইয়াৰ বাহিৰলৈ যায়।"
+    }
+  }
+]

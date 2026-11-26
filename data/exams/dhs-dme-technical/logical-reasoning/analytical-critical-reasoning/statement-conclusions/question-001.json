@@ -1,0 +1,2730 @@
+[
+  {
+    "id": "vr-statement-conclusions-001",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Most of them are boys. II. All of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ল'ৰা। II. তেওঁলোক সকলোৱেই ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-002",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Most of them are boys. II. More than half of them are not boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ল'ৰা। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক ল'ৰা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-003",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. At least some of them are boys. II. None of them is boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু ল'ৰা। II. তেওঁলোকৰ কোনেও ল'ৰা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-004",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Exactly 60% of them are boys. II. Most of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ৬০% ল'ৰা। II. তেওঁলোকৰ অধিকাংশই ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-005",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Only a few of them are boys. II. Most of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ ল'ৰা। II. তেওঁলোকৰ অধিকাংশই ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-006",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. All of them are boys. II. At least some of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই ল'ৰা। II. তেওঁলোকৰ অন্ততঃ কিছু ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-007",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Most of them are boys. II. At least some of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ল'ৰা। II. তেওঁলোকৰ অন্ততঃ কিছু ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-008",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. More than half of them are not boys. II. Exactly 60% of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক ল'ৰা নহয়। II. তেওঁলোকৰ ঠিক ৬০% ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-009",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. None of them is boys. II. Most of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও ল'ৰা নহয়। II. তেওঁলোকৰ অধিকাংশই ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-010",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a school with 400 members, 240 are boys. Conclusions: I. Only a few of them are boys. II. At least some of them are boys.",
+      "as": "বিবৃতি: বিদ্যালয় ত ৪০০ জন সদস্যৰ ভিতৰত ২৪০ জন ল'ৰা। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ ল'ৰা। II. তেওঁলোকৰ অন্ততঃ কিছু ল'ৰা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-011",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Most of them are girls. II. All of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ছোৱালী। II. তেওঁলোক সকলোৱেই ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-012",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Most of them are girls. II. More than half of them are not girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ছোৱালী। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক ছোৱালী নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-013",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. At least some of them are girls. II. None of them is girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু ছোৱালী। II. তেওঁলোকৰ কোনেও ছোৱালী নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-014",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Exactly 60% of them are girls. II. Most of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ৬০% ছোৱালী। II. তেওঁলোকৰ অধিকাংশই ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-015",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Only a few of them are girls. II. Most of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ ছোৱালী। II. তেওঁলোকৰ অধিকাংশই ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-016",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. All of them are girls. II. At least some of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই ছোৱালী। II. তেওঁলোকৰ অন্ততঃ কিছু ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-017",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Most of them are girls. II. At least some of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই ছোৱালী। II. তেওঁলোকৰ অন্ততঃ কিছু ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-018",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. More than half of them are not girls. II. Exactly 60% of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক ছোৱালী নহয়। II. তেওঁলোকৰ ঠিক ৬০% ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-019",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. None of them is girls. II. Most of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও ছোৱালী নহয়। II. তেওঁলোকৰ অধিকাংশই ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-020",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a college with 500 members, 300 are girls. Conclusions: I. Only a few of them are girls. II. At least some of them are girls.",
+      "as": "বিবৃতি: মহাবিদ্যালয় ত ৫০০ জন সদস্যৰ ভিতৰত ৩০০ জন ছোৱালী। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ ছোৱালী। II. তেওঁলোকৰ অন্ততঃ কিছু ছোৱালী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-021",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Most of them are teachers. II. More than half of them are not teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই শিক্ষক। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক শিক্ষক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-022",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. At least some of them are teachers. II. None of them is teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু শিক্ষক। II. তেওঁলোকৰ কোনেও শিক্ষক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-023",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Exactly 40% of them are teachers. II. Most of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ৪০% শিক্ষক। II. তেওঁলোকৰ অধিকাংশই শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-024",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. All of them are teachers. II. At least some of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই শিক্ষক। II. তেওঁলোকৰ অন্ততঃ কিছু শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-025",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Most of them are teachers. II. At least some of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই শিক্ষক। II. তেওঁলোকৰ অন্ততঃ কিছু শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-026",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. More than half of them are not teachers. II. Exactly 40% of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক শিক্ষক নহয়। II. তেওঁলোকৰ ঠিক ৪০% শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-027",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Only a few of them are teachers. II. At least some of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ শিক্ষক। II. তেওঁলোকৰ অন্ততঃ কিছু শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-028",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Most of them are graduates. II. All of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই স্নাতক। II. তেওঁলোক সকলোৱেই স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-029",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Most of them are graduates. II. More than half of them are not graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই স্নাতক। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক স্নাতক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-030",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. At least some of them are graduates. II. None of them is graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু স্নাতক। II. তেওঁলোকৰ কোনেও স্নাতক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-031",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Exactly 100% of them are graduates. II. Most of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ১০০% স্নাতক। II. তেওঁলোকৰ অধিকাংশই স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-032",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Only a few of them are graduates. II. Most of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ স্নাতক। II. তেওঁলোকৰ অধিকাংশই স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-033",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. All of them are graduates. II. At least some of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই স্নাতক। II. তেওঁলোকৰ অন্ততঃ কিছু স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-034",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Most of them are graduates. II. At least some of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই স্নাতক। II. তেওঁলোকৰ অন্ততঃ কিছু স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-035",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. More than half of them are not graduates. II. Exactly 100% of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক স্নাতক নহয়। II. তেওঁলোকৰ ঠিক ১০০% স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-036",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. None of them is graduates. II. Most of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও স্নাতক নহয়। II. তেওঁলোকৰ অধিকাংশই স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-037",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a office with 600 members, 600 are graduates. Conclusions: I. Only a few of them are graduates. II. At least some of them are graduates.",
+      "as": "বিবৃতি: কাৰ্যালয় ত ৬০০ জন সদস্যৰ ভিতৰত ৬০০ জন স্নাতক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ স্নাতক। II. তেওঁলোকৰ অন্ততঃ কিছু স্নাতক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-038",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Most of them are doctors. II. More than half of them are not doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই চিকিৎসক। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক চিকিৎসক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-039",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. At least some of them are doctors. II. None of them is doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু চিকিৎসক। II. তেওঁলোকৰ কোনেও চিকিৎসক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-040",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Exactly 30% of them are doctors. II. Most of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ৩০% চিকিৎসক। II. তেওঁলোকৰ অধিকাংশই চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-041",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. All of them are doctors. II. At least some of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই চিকিৎসক। II. তেওঁলোকৰ অন্ততঃ কিছু চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-042",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Most of them are doctors. II. At least some of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই চিকিৎসক। II. তেওঁলোকৰ অন্ততঃ কিছু চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-043",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. More than half of them are not doctors. II. Exactly 30% of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক চিকিৎসক নহয়। II. তেওঁলোকৰ ঠিক ৩০% চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-044",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Only a few of them are doctors. II. At least some of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ চিকিৎসক। II. তেওঁলোকৰ অন্ততঃ কিছু চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-045",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Most of them are farmers. II. All of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই কৃষক। II. তেওঁলোক সকলোৱেই কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-046",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Most of them are farmers. II. More than half of them are not farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই কৃষক। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক কৃষক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-047",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. At least some of them are farmers. II. None of them is farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু কৃষক। II. তেওঁলোকৰ কোনেও কৃষক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-048",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Exactly 60% of them are farmers. II. Most of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ৬০% কৃষক। II. তেওঁলোকৰ অধিকাংশই কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-049",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Only a few of them are farmers. II. Most of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ কৃষক। II. তেওঁলোকৰ অধিকাংশই কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-050",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. All of them are farmers. II. At least some of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই কৃষক। II. তেওঁলোকৰ অন্ততঃ কিছু কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-051",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Most of them are farmers. II. At least some of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই কৃষক। II. তেওঁলোকৰ অন্ততঃ কিছু কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-052",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. More than half of them are not farmers. II. Exactly 60% of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক কৃষক নহয়। II. তেওঁলোকৰ ঠিক ৬০% কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-053",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. None of them is farmers. II. Most of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও কৃষক নহয়। II. তেওঁলোকৰ অধিকাংশই কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-054",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. Only a few of them are farmers. II. At least some of them are farmers.",
+      "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ কৃষক। II. তেওঁলোকৰ অন্ততঃ কিছু কৃষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-055",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Most of them are engineers. II. More than half of them are not engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই অভিযন্তা। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক অভিযন্তা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-056",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. At least some of them are engineers. II. None of them is engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু অভিযন্তা। II. তেওঁলোকৰ কোনেও অভিযন্তা নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-057",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Exactly 25% of them are engineers. II. Most of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ২৫% অভিযন্তা। II. তেওঁলোকৰ অধিকাংশই অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-058",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. All of them are engineers. II. At least some of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই অভিযন্তা। II. তেওঁলোকৰ অন্ততঃ কিছু অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-059",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Most of them are engineers. II. At least some of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই অভিযন্তা। II. তেওঁলোকৰ অন্ততঃ কিছু অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-060",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. More than half of them are not engineers. II. Exactly 25% of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক অভিযন্তা নহয়। II. তেওঁলোকৰ ঠিক ২৫% অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-061",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Only a few of them are engineers. II. At least some of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ অভিযন্তা। II. তেওঁলোকৰ অন্ততঃ কিছু অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-062",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. Most of them are players. II. All of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই খেলুৱৈ। II. তেওঁলোক সকলোৱেই খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-063",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. Most of them are players. II. More than half of them are not players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই খেলুৱৈ। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক খেলুৱৈ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-064",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. At least some of them are players. II. None of them is players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ অন্ততঃ কিছু খেলুৱৈ। II. তেওঁলোকৰ কোনেও খেলুৱৈ নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-065",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. Exactly 100% of them are players. II. Most of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ ঠিক ১০০% খেলুৱৈ। II. তেওঁলোকৰ অধিকাংশই খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-066",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. Only a few of them are players. II. Most of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ খেলুৱৈ। II. তেওঁলোকৰ অধিকাংশই খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-067",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. All of them are players. II. At least some of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই খেলুৱৈ। II. তেওঁলোকৰ অন্ততঃ কিছু খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-068",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. Most of them are players. II. At least some of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই খেলুৱৈ। II. তেওঁলোকৰ অন্ততঃ কিছু খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows and conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-069",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. More than half of them are not players. II. Exactly 100% of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক খেলুৱৈ নহয়। II. তেওঁলোকৰ ঠিক ১০০% খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-070",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a academy with 150 members, 150 are players. Conclusions: I. None of them is players. II. Most of them are players.",
+      "as": "বিবৃতি: একাডেমী ত ১৫০ জন সদস্যৰ ভিতৰত ১৫০ জন খেলুৱৈ। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও খেলুৱৈ নহয়। II. তেওঁলোকৰ অধিকাংশই খেলুৱৈ।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-071",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Most of them are teachers. II. All of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই শিক্ষক। II. তেওঁলোক সকলোৱেই শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-072",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. Only a few of them are teachers. II. Most of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ শিক্ষক। II. তেওঁলোকৰ অধিকাংশই শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-073",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a institute with 250 members, 100 are teachers. Conclusions: I. None of them is teachers. II. Most of them are teachers.",
+      "as": "বিবৃতি: প্ৰতিষ্ঠান ত ২৫০ জন সদস্যৰ ভিতৰত ১০০ জন শিক্ষক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও শিক্ষক নহয়। II. তেওঁলোকৰ অধিকাংশই শিক্ষক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-074",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Most of them are doctors. II. All of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই চিকিৎসক। II. তেওঁলোক সকলোৱেই চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-075",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. Only a few of them are doctors. II. Most of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ চিকিৎসক। II. তেওঁলোকৰ অধিকাংশই চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-076",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a hospital with 320 members, 96 are doctors. Conclusions: I. None of them is doctors. II. Most of them are doctors.",
+      "as": "বিবৃতি: চিকিৎসালয় ত ৩২০ জন সদস্যৰ ভিতৰত ৯৬ জন চিকিৎসক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও চিকিৎসক নহয়। II. তেওঁলোকৰ অধিকাংশই চিকিৎসক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-077",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Most of them are engineers. II. All of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই অভিযন্তা। II. তেওঁলোক সকলোৱেই অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-078",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. Only a few of them are engineers. II. Most of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ অভিযন্তা। II. তেওঁলোকৰ অধিকাংশই অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-079",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a company with 800 members, 200 are engineers. Conclusions: I. None of them is engineers. II. Most of them are engineers.",
+      "as": "বিবৃতি: কোম্পানী ত ৮০০ জন সদস্যৰ ভিতৰত ২০০ জন অভিযন্তা। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও অভিযন্তা নহয়। II. তেওঁলোকৰ অধিকাংশই অভিযন্তা।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-080",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a group with 280 members, 140 are singers. Conclusions: I. Most of them are singers. II. All of them are singers.",
+      "as": "বিবৃতি: দল ত ২৮০ জন সদস্যৰ ভিতৰত ১৪০ জন গায়ক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই গায়ক। II. তেওঁলোক সকলোৱেই গায়ক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-081",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a group with 280 members, 140 are singers. Conclusions: I. Most of them are singers. II. More than half of them are not singers.",
+      "as": "বিবৃতি: দল ত ২৮০ জন সদস্যৰ ভিতৰত ১৪০ জন গায়ক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই গায়ক। II. তেওঁলোকৰ অৰ্ধেকতকৈ অধিক গায়ক নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-082",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a group with 280 members, 140 are singers. Conclusions: I. Only a few of them are singers. II. Most of them are singers.",
+      "as": "বিবৃতি: দল ত ২৮০ জন সদস্যৰ ভিতৰত ১৪০ জন গায়ক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ গায়ক। II. তেওঁলোকৰ অধিকাংশই গায়ক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-083",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a group with 280 members, 140 are singers. Conclusions: I. None of them is singers. II. Most of them are singers.",
+      "as": "বিবৃতি: দল ত ২৮০ জন সদস্যৰ ভিতৰত ১৪০ জন গায়ক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও গায়ক নহয়। II. তেওঁলোকৰ অধিকাংশই গায়ক।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-084",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a club with 360 members, 90 are writers. Conclusions: I. Most of them are writers. II. All of them are writers.",
+      "as": "বিবৃতি: ক্লাব ত ৩৬০ জন সদস্যৰ ভিতৰত ৯০ জন লেখক। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই লেখক। II. তেওঁলোক সকলোৱেই লেখক।"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-085",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a club with 360 members, 90 are writers. Conclusions: I. Only a few of them are writers. II. Most of them are writers.",
+      "as": "বিবৃতি: ক্লাব ত ৩৬০ জন সদস্যৰ ভিতৰত ৯০ জন লেখক। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ লেখক। II. তেওঁলোকৰ অধিকাংশই লেখক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-086",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a club with 360 members, 90 are writers. Conclusions: I. None of them is writers. II. Most of them are writers.",
+      "as": "বিবৃতি: ক্লাব ত ৩৬০ জন সদস্যৰ ভিতৰত ৯০ জন লেখক। সিদ্ধান্ত: I. তেওঁলোকৰ কোনেও লেখক নহয়। II. তেওঁলোকৰ অধিকাংশই লেখক।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-087",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a studio with 500 members, 125 are artists. Conclusions: I. Most of them are artists. II. All of them are artists.",
+      "as": "বিবৃতি: ষ্টুডিঅ' ত ৫০০ জন সদস্যৰ ভিতৰত ১২৫ জন শিল্পী। সিদ্ধান্ত: I. তেওঁলোকৰ অধিকাংশই শিল্পী। II. তেওঁলোক সকলোৱেই শিল্পী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-conclusions-088",
+    "leaf": "statement-conclusions",
+    "q": {
+      "en": "Statement: In a studio with 500 members, 125 are artists. Conclusions: I. Only a few of them are artists. II. Most of them are artists.",
+      "as": "বিবৃতি: ষ্টুডিঅ' ত ৫০০ জন সদস্যৰ ভিতৰত ১২৫ জন শিল্পী। সিদ্ধান্ত: I. তেওঁলোকৰ কেৱল অলপ শিল্পী। II. তেওঁলোকৰ অধিকাংশই শিল্পী।"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow and conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  }
+]

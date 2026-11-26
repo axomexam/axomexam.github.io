@@ -1,0 +1,925 @@
+[
+  {
+    "id": "physics-006",
+    "q": {
+      "en": "Which instrument is used to measure atmospheric pressure?",
+      "as": "বায়ুমণ্ডলীয় চাপ জুখিবলৈ কোন যন্ত্ৰ ব্যৱহাৰ কৰা হয়?"
+    },
+    "options": [
+      {
+        "en": "Thermometer",
+        "as": "থাৰ্মোমিটাৰ"
+      },
+      {
+        "en": "Ammeter",
+        "as": "এমিটাৰ"
+      },
+      {
+        "en": "Barometer",
+        "as": "বেৰোমিটাৰ"
+      },
+      {
+        "en": "Hygrometer",
+        "as": "হাইগ্ৰোমিটাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A barometer measures atmospheric pressure by balancing it against a column of mercury.",
+      "as": "বেৰোমিটাৰে বায়ুমণ্ডলীয় চাপ জোখে; ই পাৰাৰ স্তম্ভৰ সৈতে ভাৰসাম্য ৰাখি চাপ নিৰ্ণয় কৰে।"
+    }
+  },
+  {
+    "id": "physics-022",
+    "q": {
+      "en": "The SI unit of pressure is?",
+      "as": "চাপৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pressure is force per unit area (P = F/A), and its SI unit is the pascal (Pa); 1 Pa = 1 N/m².",
+      "as": "চাপ = বল/কালি (P = F/A), ইয়াৰ SI একক পাস্কেল (Pa); ১ পাস্কেল = ১ নিউটন/বৰ্গমিটাৰ।"
+    }
+  },
+  {
+    "id": "physics-076",
+    "q": {
+      "en": "The density of water is maximum at?",
+      "as": "পানীৰ ঘনত্ব কিমান উষ্ণতাত সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "4°C",
+        "as": "৪°C"
+      },
+      {
+        "en": "0°C",
+        "as": "০°C"
+      },
+      {
+        "en": "100°C",
+        "as": "১০০°C"
+      },
+      {
+        "en": "–4°C",
+        "as": "–৪°C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water shows anomalous expansion: between 0°C and 4°C its volume decreases on heating, so its density is maximum at 4°C.",
+      "as": "পানীয়ে অস্বাভাৱিক প্ৰসাৰণ দেখুৱায়; ০°C ৰ পৰা ৪°C লৈ গৰম কৰিলে আয়তন কমে, সেয়ে ৪°C ত ঘনত্ব সৰ্বাধিক হয়।"
+    }
+  },
+  {
+    "id": "physics-077",
+    "q": {
+      "en": "Archimedes' principle is related to?",
+      "as": "আৰ্কিমিডিছৰ নীতি কিৰ সৈতে জড়িত?"
+    },
+    "options": [
+      {
+        "en": "Electricity",
+        "as": "বিদ্যুৎ"
+      },
+      {
+        "en": "Buoyancy",
+        "as": "উচ্ছতা"
+      },
+      {
+        "en": "Magnetism",
+        "as": "চুম্বকত্ব"
+      },
+      {
+        "en": "Optics",
+        "as": "আলোকবিজ্ঞান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Archimedes' principle states that a body immersed in a fluid experiences an upthrust equal to the weight of the fluid displaced, which is the basis of buoyancy.",
+      "as": "আৰ্কিমিডিছৰ নীতিমতে, তৰলত ডুব যোৱা বস্তুৱে অপসাৰিত তৰলৰ ওজনৰ সমান উচ্ছতা বল অনুভৱ কৰে; এইয়া উচ্ছতাৰ ভিত্তি।"
+    }
+  },
+  {
+    "id": "physics-078",
+    "q": {
+      "en": "A body floats in a liquid when?",
+      "as": "এটা বস্তু তৰলত ওপঙে কেতিয়া?"
+    },
+    "options": [
+      {
+        "en": "Weight is greater than upthrust",
+        "as": "ওজন উচ্ছতাৰতকৈ বেছি"
+      },
+      {
+        "en": "Density of body is much higher",
+        "as": "বস্তুৰ ঘনত্ব বহুত বেছি"
+      },
+      {
+        "en": "Weight is equal to upthrust",
+        "as": "ওজন উচ্ছতাৰ সমান"
+      },
+      {
+        "en": "Volume is zero",
+        "as": "আয়তন শূন্য"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A floating body is in equilibrium when the upthrust (buoyant force) exactly balances its weight, i.e. weight = upthrust.",
+      "as": "ওপঙি থকা বস্তুৰ ওজন উচ্ছতা বলৰ সমান হ'লে বস্তুটো সমতাৱস্থাত থাকে, অৰ্থাৎ ওজন = উচ্ছতা।"
+    }
+  },
+  {
+    "id": "physics-079",
+    "q": {
+      "en": "The instrument used to measure relative density of a liquid is?",
+      "as": "তৰলৰ আপেক্ষিক ঘনত্ব জুখিবলৈ ব্যৱহাৰ কৰা যন্ত্ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "Barometer",
+        "as": "বেৰোমিটাৰ"
+      },
+      {
+        "en": "Manometer",
+        "as": "মেনোমিতাৰ"
+      },
+      {
+        "en": "Ammeter",
+        "as": "এমিটাৰ"
+      },
+      {
+        "en": "Hydrometer",
+        "as": "হাইড্ৰোমিটাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A hydrometer works on Archimedes' principle and is used to measure the relative density (specific gravity) of a liquid by its depth of floatation.",
+      "as": "হাইড্ৰোমিটাৰ আৰ্কিমিডিছৰ নীতিত কাম কৰে আৰু ডুব যোৱা গভীৰতাৰ দ্বাৰা তৰলৰ আপেক্ষিক ঘনত্ব জোখে।"
+    }
+  },
+  {
+    "id": "physics-080",
+    "q": {
+      "en": "Pascal's law is used in?",
+      "as": "পাস্কেলৰ সূত্ৰ ক’ত ব্যৱহাৰ হয়?"
+    },
+    "options": [
+      {
+        "en": "Hydraulic lift",
+        "as": "হাইড্ৰলিক লিফ্ট"
+      },
+      {
+        "en": "Electric motor",
+        "as": "বিদ্যুৎ মটৰ"
+      },
+      {
+        "en": "Transformer",
+        "as": "ট্ৰান্সফৰ্মাৰ"
+      },
+      {
+        "en": "Microphone",
+        "as": "মাইক্ৰফোন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pascal's law states that pressure applied to an enclosed fluid is transmitted equally in all directions; this principle is used in the hydraulic lift (and hydraulic brakes).",
+      "as": "পাস্কেলৰ সূত্ৰমতে, আবদ্ধ তৰলত প্ৰয়োগ কৰা চাপ সকলো দিশলৈ সমানে সংক্ৰমিত হয়; এই নীতি হাইড্ৰলিক লিফ্টত ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "physics-200",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Pressure is defined as",
+      "as": "চাপক কি হিচাপে সংজ্ঞায়িত কৰা হয়"
+    },
+    "options": [
+      {
+        "en": "force per unit area",
+        "as": "একক কালিত বল"
+      },
+      {
+        "en": "force multiplied by area",
+        "as": "বল গুণ কালি"
+      },
+      {
+        "en": "area per unit force",
+        "as": "একক বলত কালি"
+      },
+      {
+        "en": "force per unit volume",
+        "as": "একক আয়তনত বল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pressure is the force acting normally on unit area, so the same force over a smaller area gives more pressure. That is why a sharp knife cuts easily.",
+      "as": "চাপ একক কালিত লম্বভাৱে ক্ৰিয়া কৰা বল, সেয়ে একেই বল সৰু কালিত বেছি চাপ দিয়ে। সেয়ে ধাৰাল ছুৰীয়ে সহজে কাটে।"
+    }
+  },
+  {
+    "id": "physics-201",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The pressure at a depth h in a liquid of density d is given by",
+      "as": "ঘনত্ব d থকা জুলীয়াৰ h গভীৰতাত চাপ কিৰ দ্বাৰা দিয়া হয়"
+    },
+    "options": [
+      {
+        "en": "h d g",
+        "as": "h d g"
+      },
+      {
+        "en": "h d",
+        "as": "h d"
+      },
+      {
+        "en": "h g",
+        "as": "h g"
+      },
+      {
+        "en": "d g",
+        "as": "d g"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Liquid pressure is depth times density times gravity, so it grows with depth and with the density of the liquid. Area does not appear.",
+      "as": "জুলীয়াৰ চাপ গভীৰতা গুণ ঘনত্ব গুণ মহাকৰ্ষণ, সেয়ে গভীৰতা আৰু জুলীয়াৰ ঘনত্বৰ সৈতে বাঢ়ে। কালি ইয়াত নাই।"
+    }
+  },
+  {
+    "id": "physics-202",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The pressure at a point inside a liquid depends on",
+      "as": "জুলীয়াৰ ভিতৰৰ বিন্দু এটাত চাপ কিৰ ওপৰত নিৰ্ভৰ কৰে"
+    },
+    "options": [
+      {
+        "en": "the depth below the surface",
+        "as": "পৃষ্ঠৰ তলৰ গভীৰতা"
+      },
+      {
+        "en": "the shape of the vessel",
+        "as": "পাত্ৰৰ আকৃতি"
+      },
+      {
+        "en": "the area of the surface",
+        "as": "পৃষ্ঠৰ কালি"
+      },
+      {
+        "en": "the volume of the liquid only",
+        "as": "কেৱল জুলীয়াৰ আয়তন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pressure depends only on depth, density and gravity, not on the shape or size of the container. This is the hydrostatic paradox.",
+      "as": "চাপ কেবল গভীৰতা, ঘনত্ব আৰু মহাকৰ্ষণৰ ওপৰত নিৰ্ভৰ, পাত্ৰৰ আকৃতি বা আকাৰৰ ওপৰত নহয়। এইয়া জলস্থিতিক আপাতবিৰোধ।"
+    }
+  },
+  {
+    "id": "physics-203",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Pascal's law states that pressure applied to an enclosed liquid is",
+      "as": "পাস্কেলৰ নীতিয়ে কয় যে বন্ধ জুলীয়াত প্ৰয়োগ কৰা চাপ"
+    },
+    "options": [
+      {
+        "en": "transmitted equally in all directions",
+        "as": "সকলো দিশলৈ সমানে সঞ্চাৰিত হয়"
+      },
+      {
+        "en": "transmitted only downwards",
+        "as": "কেৱল তললৈ সঞ্চাৰিত হয়"
+      },
+      {
+        "en": "reduced with depth",
+        "as": "গভীৰতাৰ সৈতে কমে"
+      },
+      {
+        "en": "lost at the walls",
+        "as": "বেৰত হেৰায়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The applied pressure is passed on undiminished throughout the liquid, which is the basis of the hydraulic press and hydraulic brakes.",
+      "as": "প্ৰয়োগ কৰা চাপ জুলীয়াৰ সকলো ঠাইতে অক্ষয়ভাৱে যায়, যি জলীয় প্ৰেছ আৰু জলীয় ব্ৰেকৰ ভিত্তি।"
+    }
+  },
+  {
+    "id": "physics-204",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A hydraulic press works on the principle of",
+      "as": "জলীয় প্ৰেছ কি নীতিত কাম কৰে"
+    },
+    "options": [
+      {
+        "en": "Pascal's law",
+        "as": "পাস্কেলৰ নীতিত"
+      },
+      {
+        "en": "Archimedes' principle",
+        "as": "আৰ্কিমিডিছৰ নীতিত"
+      },
+      {
+        "en": "Boyle's law",
+        "as": "বয়লৰ নীতিত"
+      },
+      {
+        "en": "Newton's third law",
+        "as": "নিউটনৰ তৃতীয় নীতিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A small force on a small piston creates a pressure that acts on a large piston, producing a large force. That is Pascal's law in action.",
+      "as": "সৰু পিষ্টনত সৰু বলে চাপ সৃষ্টি কৰে যি ডাঙৰ পিষ্টনত ক্ৰিয়া কৰি ডাঙৰ বল দিয়ে। সেয়া পাস্কেলৰ নীতিয়ে কাম কৰা।"
+    }
+  },
+  {
+    "id": "physics-205",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Archimedes' principle states that the upthrust on a body immersed in a fluid equals the weight of",
+      "as": "আৰ্কিমিডিছৰ নীতিয়ে কয় যে জুলীয়াত ডুবোৱা বস্তুৰ ওপৰৰ উৰ্দ্ধচাপ কিৰ ওজনৰ সমান"
+    },
+    "options": [
+      {
+        "en": "the fluid displaced by the body",
+        "as": "বস্তুৱে আঁতৰোৱা জুলীয়াৰ"
+      },
+      {
+        "en": "the body itself",
+        "as": "বস্তুটোৰ নিজৰ"
+      },
+      {
+        "en": "the fluid in the container",
+        "as": "পাত্ৰৰ জুলীয়াৰ"
+      },
+      {
+        "en": "the body in air",
+        "as": "বায়ুত বস্তুটোৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The upthrust equals the weight of the displaced fluid, which is why a ship floats by displacing a large volume of water.",
+      "as": "উৰ্দ্ধচাপ আঁতৰোৱা জুলীয়াৰ ওজনৰ সমান, সেয়ে জাহাজে বহু পানী আঁতৰাই ওপঙে।"
+    }
+  },
+  {
+    "id": "physics-206",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A body will float in a liquid if its density is",
+      "as": "বস্তু এটা জুলীয়াত ওপঙিব যদি তাৰ ঘনত্ব"
+    },
+    "options": [
+      {
+        "en": "less than that of the liquid",
+        "as": "জুলীয়াৰ ঘনত্বতকৈ কম"
+      },
+      {
+        "en": "equal to that of the liquid",
+        "as": "জুলীয়াৰ ঘনত্বৰ সমান"
+      },
+      {
+        "en": "greater than that of the liquid",
+        "as": "জুলীয়াৰ ঘনত্বতকৈ বেছি"
+      },
+      {
+        "en": "independent of the liquid",
+        "as": "জুলীয়াৰপৰা স্বতন্ত্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A body floats when its density is lower than the liquid, so the upthrust balances its weight before it is fully submerged. Higher density makes it sink.",
+      "as": "বস্তুৰ ঘনত্ব জুলীয়াৰতকৈ কম হ'লে ওপঙে, সেয়ে সম্পূৰ্ণ ডুবাৰ আগতে উৰ্দ্ধচাপে ওজন ভাৰসাম্য কৰে। বেছি ঘনত্বে ডুবায়।"
+    }
+  },
+  {
+    "id": "physics-207",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The buoyant force on a body immersed in a liquid acts",
+      "as": "জুলীয়াত ডুবোৱা বস্তুৰ ওপৰত উৰ্দ্ধচাপ ক্ৰিয়া কৰে"
+    },
+    "options": [
+      {
+        "en": "upwards",
+        "as": "ওপৰলৈ"
+      },
+      {
+        "en": "downwards",
+        "as": "তললৈ"
+      },
+      {
+        "en": "sideways only",
+        "as": "কেৱল কাষলৈ"
+      },
+      {
+        "en": "in no fixed direction",
+        "as": "কোনো নিৰ্দিষ্ট দিশলৈ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The pressure on the lower surface is greater than on the upper surface because it is deeper, so the net force is upward.",
+      "as": "তলৰ পৃষ্ঠত চাপ ওপৰৰ পৃষ্ঠতকৈ বেছি কাৰণ ই বেছি গভীৰ, সেয়ে মুঠ বল ওপৰলৈ।"
+    }
+  },
+  {
+    "id": "physics-208",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A hydrometer is used to measure the",
+      "as": "হাইড্ৰ'মিটাৰ কি জুখিবলৈ ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "relative density of a liquid",
+        "as": "জুলীয়াৰ আপেক্ষিক ঘনত্ব"
+      },
+      {
+        "en": "atmospheric pressure",
+        "as": "বায়ুমণ্ডলীয় চাপ"
+      },
+      {
+        "en": "humidity of air",
+        "as": "বায়ুৰ আৰ্দ্ৰতা"
+      },
+      {
+        "en": "temperature of a liquid",
+        "as": "জুলীয়াৰ উষ্ণতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A hydrometer floats at a depth that depends on the density of the liquid, so the scale reads relative density. A barometer reads pressure.",
+      "as": "হাইড্ৰ'মিটাৰ জুলীয়াৰ ঘনত্বৰ ওপৰত নিৰ্ভৰ কৰি এটা গভীৰতাত ওপঙে, সেয়ে মাপকে আপেক্ষিক ঘনত্ব পঢ়ে। বেৰ'মিটাৰে চাপ পঢ়ে।"
+    }
+  },
+  {
+    "id": "physics-209",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The atmospheric pressure at sea level is about",
+      "as": "সমুদ্ৰপৃষ্ঠত বায়ুমণ্ডলীয় চাপ প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "76 cm of mercury",
+        "as": "৭৬ ছেন্টিমিটাৰ পাৰা"
+      },
+      {
+        "en": "13.6 cm of mercury",
+        "as": "১৩.৬ ছেন্টিমিটাৰ পাৰা"
+      },
+      {
+        "en": "100 cm of mercury",
+        "as": "১০০ ছেন্টিমিটাৰ পাৰা"
+      },
+      {
+        "en": "760 cm of mercury",
+        "as": "৭৬০ ছেন্টিমিটাৰ পাৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Standard atmospheric pressure supports a mercury column of about seventy-six centimetres, which is one atmosphere. The figure 13.6 is the density of mercury.",
+      "as": "প্ৰামাণ্য বায়ুমণ্ডলীয় চাপে প্ৰায় ছয়াতৰ ছেন্টিমিটাৰ পাৰাৰ স্তম্ভ ধৰি ৰাখে, যি এক বায়ুমণ্ডল। ১৩.৬ পাৰাৰ ঘনত্ব।"
+    }
+  },
+  {
+    "id": "physics-210",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A barometer is used to measure",
+      "as": "বেৰ'মিটাৰ কি জুখিবলৈ ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "atmospheric pressure",
+        "as": "বায়ুমণ্ডলীয় চাপ"
+      },
+      {
+        "en": "liquid density",
+        "as": "জুলীয়াৰ ঘনত্ব"
+      },
+      {
+        "en": "wind speed",
+        "as": "বায়ুৰ গতি"
+      },
+      {
+        "en": "relative humidity",
+        "as": "আপেক্ষিক আৰ্দ্ৰতা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A barometer balances the weight of the atmosphere against a column of mercury, so it reads atmospheric pressure directly.",
+      "as": "বেৰ'মিটাৰে বায়ুমণ্ডলৰ ওজন পাৰাৰ স্তম্ভৰ সৈতে ভাৰসাম্য কৰে, সেয়ে ই বায়ুমণ্ডলীয় চাপ পোনপটীয়াকৈ পঢ়ে।"
+    }
+  },
+  {
+    "id": "physics-211",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "An object weighs less in water than in air because",
+      "as": "বস্তু এটা পানীত বায়ুতকৈ কম ওজনৰ অনুভৱ হয় কাৰণ"
+    },
+    "options": [
+      {
+        "en": "water exerts an upward buoyant force",
+        "as": "পানীয়ে ওপৰলৈ উৰ্দ্ধচাপ বল দিয়ে"
+      },
+      {
+        "en": "water reduces the mass",
+        "as": "পানীয়ে ভৰ কমায়"
+      },
+      {
+        "en": "gravity is weaker in water",
+        "as": "পানীত মহাকৰ্ষণ দুৰ্বল"
+      },
+      {
+        "en": "water has no weight",
+        "as": "পানীৰ ওজন নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The buoyant force acts upward and reduces the apparent weight, but the mass and the true weight are unchanged. Gravity is the same.",
+      "as": "উৰ্দ্ধচাপ বল ওপৰলৈ ক্ৰিয়া কৰি আপাত ওজন কমায়, কিন্তু ভৰ আৰু প্ৰকৃত ওজন অপৰিৱৰ্তিত। মহাকৰ্ষণ একেই।"
+    }
+  },
+  {
+    "id": "physics-212",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The relative density of a substance is the ratio of its density to the density of",
+      "as": "পদাৰ্থ এটাৰ আপেক্ষিক ঘনত্ব তাৰ ঘনত্ব আৰু কিৰ ঘনত্বৰ অনুপাত"
+    },
+    "options": [
+      {
+        "en": "water at 4 degrees Celsius",
+        "as": "৪ ডিগ্ৰী ছেলছিয়াছত পানীৰ"
+      },
+      {
+        "en": "mercury",
+        "as": "পাৰাৰ"
+      },
+      {
+        "en": "air",
+        "as": "বায়ুৰ"
+      },
+      {
+        "en": "the substance itself",
+        "as": "পদাৰ্থটোৰ নিজৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative density compares a substance with water at four degrees, where water is most dense. It has no unit because it is a ratio.",
+      "as": "আপেক্ষিক ঘনত্বে পদাৰ্থক চাৰি ডিগ্ৰীত পানীৰ সৈতে তুলনা কৰে, যত পানী আটাই ঘন। অনুপাত হোৱা বাবে ইয়াৰ একক নাই।"
+    }
+  },
+  {
+    "id": "physics-213",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The pressure exerted by a liquid at a given depth is independent of",
+      "as": "নিৰ্দিষ্ট গভীৰতাত জুলীয়াৰ চাপ কিৰ ওপৰত নিৰ্ভৰশীল নহয়"
+    },
+    "options": [
+      {
+        "en": "the area of the base of the vessel",
+        "as": "পাত্ৰৰ তলৰ কালিৰ"
+      },
+      {
+        "en": "the depth of the point",
+        "as": "বিন্দুৰ গভীৰতাৰ"
+      },
+      {
+        "en": "the density of the liquid",
+        "as": "জুলীয়াৰ ঘনত্বৰ"
+      },
+      {
+        "en": "the acceleration due to gravity",
+        "as": "মহাকৰ্ষণজনিত ত্বৰণৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only depth, density and gravity appear in the formula, so the base area does not matter. A wide and a narrow vessel of the same depth give the same pressure.",
+      "as": "সূত্ৰত কেবল গভীৰতা, ঘনত্ব আৰু মহাকৰ্ষণ থাকে, সেয়ে তলৰ কালিয়ে নধৰে। একেই গভীৰতাৰ বহল আৰু সৰু পাত্ৰই একেই চাপ দিয়ে।"
+    }
+  },
+  {
+    "id": "physics-214",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A device used to lift a car using a small force applied to a small piston is a",
+      "as": "সৰু পিষ্টনত সৰু বল প্ৰয়োগ কৰি গাড়ী তোলা যন্ত্ৰটো"
+    },
+    "options": [
+      {
+        "en": "hydraulic jack",
+        "as": "জলীয় জেক"
+      },
+      {
+        "en": "screw gauge",
+        "as": "স্ক্ৰু গজ"
+      },
+      {
+        "en": "barometer",
+        "as": "বেৰ'মিটাৰ"
+      },
+      {
+        "en": "manometer",
+        "as": "মেন'মিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The hydraulic jack uses Pascal's law, with a small piston creating pressure that acts on a large piston to raise the car.",
+      "as": "জলীয় জেকে পাস্কেলৰ নীতি ব্যৱহাৰ কৰে, সৰু পিষ্টনে চাপ সৃষ্টি কৰি ডাঙৰ পিস্তনত ক্ৰিয়া কৰি গাড়ী তোলে।"
+    }
+  },
+  {
+    "id": "physics-215",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The density of a substance is defined as",
+      "as": "পদাৰ্থ এটাৰ ঘনত্বক কি হিচাপে সংজ্ঞায়িত কৰা হয়"
+    },
+    "options": [
+      {
+        "en": "mass per unit volume",
+        "as": "একক আয়তনত ভৰ"
+      },
+      {
+        "en": "volume per unit mass",
+        "as": "একক ভৰত আয়তন"
+      },
+      {
+        "en": "weight per unit area",
+        "as": "একক কালিত ওজন"
+      },
+      {
+        "en": "force per unit area",
+        "as": "একক কালিত বল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Density is mass divided by volume, so a denser material packs more mass into the same space. Weight per unit area would be pressure.",
+      "as": "ঘনত্ব ভৰ ভাগ আয়তন, সেয়ে বেছি ঘন পদাৰ্থই একেই ঠাইত বেছি ভৰ ৰাখে। একক কালিত ওজন চাপ হ'ব।"
+    }
+  },
+  {
+    "id": "physics-216",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Ice floats on water because its density is",
+      "as": "বৰফ পানীত ওপঙে কাৰণ তাৰ ঘনত্ব"
+    },
+    "options": [
+      {
+        "en": "less than that of water",
+        "as": "পানীৰ ঘনত্বতকৈ কম"
+      },
+      {
+        "en": "equal to that of water",
+        "as": "পানীৰ ঘনত্বৰ সমান"
+      },
+      {
+        "en": "more than that of water",
+        "as": "পানীৰ ঘনত্বতকৈ বেছি"
+      },
+      {
+        "en": "zero",
+        "as": "শূন্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Water expands when it freezes, so ice is less dense than liquid water and floats with about a tenth of its volume above the surface.",
+      "as": "পানী জমিলে বিস্তৃত হয়, সেয়ে বৰফৰ ঘনত্ব কম আৰু ইয়াৰ প্ৰায় এক দশমাংশ পৃষ্ঠৰ ওপৰত থাকি ওপঙে।"
+    }
+  },
+  {
+    "id": "physics-217",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A manometer is used to measure the",
+      "as": "মেন'মিটাৰ কি জুখিবলৈ ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "pressure of a gas",
+        "as": "গেছেৰ চাপ"
+      },
+      {
+        "en": "density of a solid",
+        "as": "কঠিনৰ ঘনত্ব"
+      },
+      {
+        "en": "humidity of air",
+        "as": "বায়ুৰ আৰ্দ্ৰতা"
+      },
+      {
+        "en": "speed of a fluid",
+        "as": "জুলীয়াৰ গতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A manometer balances gas pressure against a liquid column and reads the difference. A barometer is for atmospheric pressure.",
+      "as": "মেন'মিটাৰে গেছেৰ চাপ জুলীয়াৰ স্তম্ভৰ সৈতে ভাৰসাম্য কৰি পাৰ্থক্য পঢ়ে। বেৰ'মিটাৰ বায়ুমণ্ডলীয় চাপৰ বাবে।"
+    }
+  },
+  {
+    "id": "physics-218",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The upthrust on a body depends on",
+      "as": "বস্তুৰ ওপৰৰ উৰ্দ্ধচাপ কিৰ ওপৰত নিৰ্ভৰ কৰে"
+    },
+    "options": [
+      {
+        "en": "the volume of the body immersed",
+        "as": "বস্তুৰ ডুবা আয়তনৰ"
+      },
+      {
+        "en": "the mass of the body only",
+        "as": "কেৱল বস্তুৰ ভৰৰ"
+      },
+      {
+        "en": "the shape of the body only",
+        "as": "কেৱল বস্তুৰ আকৃতিৰ"
+      },
+      {
+        "en": "the colour of the liquid",
+        "as": "জুলীয়াৰ ৰঙৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The upthrust equals the weight of displaced fluid, so it depends on the immersed volume and the liquid density, not on the body's mass.",
+      "as": "উৰ্দ্ধচাপ আঁতৰোৱা জুলীয়াৰ ওজনৰ সমান, সেয়ে ই ডুবা আয়তন আৰু জুলীয়াৰ ঘনত্বৰ ওপৰত নিৰ্ভৰ, বস্তুৰ ভৰৰ ওপৰত নহয়।"
+    }
+  },
+  {
+    "id": "physics-219",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Water in a tank has greater pressure at the bottom than at the top because",
+      "as": "টেংকিৰ পানীৰ তলত ওপৰতকৈ বেছি চাপ কাৰণ"
+    },
+    "options": [
+      {
+        "en": "the depth at the bottom is greater",
+        "as": "তলত গভীৰতা বেছি"
+      },
+      {
+        "en": "water is denser at the bottom",
+        "as": "তলত পানী বেছি ঘন"
+      },
+      {
+        "en": "the bottom has more area",
+        "as": "তলৰ কালি বেছি"
+      },
+      {
+        "en": "gravity acts only at the bottom",
+        "as": "মহাকৰ্ষণ কেবল তলত ক্ৰিয়া কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Pressure grows with depth, so the lower layers carry the weight of the water above them. Density and area do not change this.",
+      "as": "চাপ গভীৰতাৰ সৈতে বাঢ়ে, সেয়ে তলৰ স্তৰে ওপৰৰ পানীৰ ওজন বহন কৰে। ঘনত্ব আৰু কালিয়ে ইয়াক নসলায়।"
+    }
+  },
+  {
+    "id": "physics-220",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "Which of the following is true about the pressure of a gas in a closed container?",
+      "as": "বন্ধ পাত্ৰত গেছেৰ চাপৰ বিষয়ে তলৰ কোনটো সঁচা"
+    },
+    "options": [
+      {
+        "en": "it acts equally on all the walls",
+        "as": "ই সকলো বেৰত সমানে ক্ৰিয়া কৰে"
+      },
+      {
+        "en": "it acts only on the bottom",
+        "as": "ই কেবল তলত ক্ৰিয়া কৰে"
+      },
+      {
+        "en": "it is zero at the top",
+        "as": "ওপৰত শূন্য"
+      },
+      {
+        "en": "it decreases with time always",
+        "as": "সদায় সময়ৰ সৈতে কমে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gas molecules move freely and strike every surface, so the pressure is the same on all walls. It does not settle at the bottom.",
+      "as": "গেছৰ অণু মুক্তভাৱে চলি সকলো পৃষ্ঠত খুন্দা মাৰে, সেয়ে সকলো বেৰত চাপ একেই। ই তলত জমা নহয়।"
+    }
+  },
+  {
+    "id": "physics-221",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "The buoyant force on a floating body is equal to",
+      "as": "ওপঙি থকা বস্তুৰ ওপৰৰ উৰ্দ্ধচাপ কিৰ সমান"
+    },
+    "options": [
+      {
+        "en": "the weight of the body",
+        "as": "বস্তুৰ ওজনৰ"
+      },
+      {
+        "en": "twice the weight of the body",
+        "as": "বস্তুৰ ওজনৰ দুগুণ"
+      },
+      {
+        "en": "zero",
+        "as": "শূন্য"
+      },
+      {
+        "en": "the volume of the body",
+        "as": "বস্তুৰ আয়তনৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A floating body is in equilibrium, so the upward buoyant force must exactly balance its weight. A sinking body has less upthrust than weight.",
+      "as": "ওপঙি থকা বস্তু সাম্যাৱস্থাত, সেয়ে ওপৰলৈ উৰ্দ্ধচাপে তাৰ ওজন ঠিক ভাৰসাম্য কৰিব লাগে। ডুবা বস্তুৰ উৰ্দ্ধচাপ ওজনতকৈ কম।"
+    }
+  },
+  {
+    "id": "physics-222",
+    "leaf": "pressure-fluids",
+    "q": {
+      "en": "A submarine dives by",
+      "as": "চাবমেৰিনে ডুব যায় কিৰে"
+    },
+    "options": [
+      {
+        "en": "taking in water into its ballast tanks",
+        "as": "তাৰ বেলাষ্ট টেংকিত পানী লৈ"
+      },
+      {
+        "en": "increasing its speed",
+        "as": "তাৰ গতি বঢ়াই"
+      },
+      {
+        "en": "reducing its volume",
+        "as": "তাৰ আয়তন কমাই"
+      },
+      {
+        "en": "heating the surrounding water",
+        "as": "চাৰিওফালৰ পানী গৰম কৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Filling the ballast tanks adds mass without much change in volume, so the average density rises above that of water and the vessel sinks.",
+      "as": "বেলাষ্ট টেংক ভৰালে আয়তন প্ৰায় একেই থাকি ভৰ বাঢ়ে, সেয়ে গড় ঘনত্ব পানীতকৈ বেছি হয় আৰু জাহাজ ডোবে।"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sentence-improvement-001",
+    "q": {
+      "en": "Improve the sentence: 'She is more taller than her sister.'",
+      "as": "বাক্যটো উন্নত কৰা: 'She is more taller than her sister.'"
+    },
+    "options": [
+      {
+        "en": "more tall",
+        "as": "more tall"
+      },
+      {
+        "en": "taller",
+        "as": "taller"
+      },
+      {
+        "en": "most tall",
+        "as": "most tall"
+      },
+      {
+        "en": "tallest",
+        "as": "tallest"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "'Taller' is already comparative, so 'more' is redundant. Use 'She is taller than her sister.'",
+      "as": "'Taller' ইতিমধ্যে তুলনামূলক, সেয়ে 'more' বাহুল্য। 'She is taller than her sister.' শুদ্ধ।"
+    }
+  }
+]

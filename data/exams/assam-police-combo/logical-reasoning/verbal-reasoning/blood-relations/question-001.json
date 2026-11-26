@@ -1,0 +1,32 @@
+[
+  {
+    "id": "blood-relations-001",
+    "q": {
+      "en": "A is the father of B. B is the sister of C. How is A related to C?",
+      "as": "A হৈছে B ৰ পিতৃ। B হৈছে C ৰ ভগ্নী। A ৰ সৈতে C ৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Brother",
+        "as": "ভাই"
+      },
+      {
+        "en": "Uncle",
+        "as": "মামা/খুৰা"
+      },
+      {
+        "en": "Father",
+        "as": "পিতৃ"
+      },
+      {
+        "en": "Grandfather",
+        "as": "ককা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "B is the sister of C, so both are children of A. Therefore A is C's father.",
+      "as": "B হৈছে C ৰ ভগ্নী, সেয়ে দুয়ো A ৰ সন্তান। সেয়ে A হৈছে C ৰ পিতৃ।"
+    }
+  }
+]

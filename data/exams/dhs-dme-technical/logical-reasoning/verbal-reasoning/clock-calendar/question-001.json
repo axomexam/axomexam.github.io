@@ -1,0 +1,2913 @@
+[
+  {
+    "id": "verbal-reasoning-019",
+    "q": {
+      "en": "A clock shows 3:00. The angle between hour and minute hands is?",
+      "as": "ঘড়ীত ৩:০০। ঘণ্টা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "At 3:00 the minute hand points at 12 and the hour hand at 3, which are 3 divisions apart; each division is 30 degrees, so the angle is 3x30 = 90 degrees.",
+      "as": "৩:০০ বজাত মিনিটৰ কাঁটা ১২-ত আৰু ঘণ্টাৰ কাঁটা ৩-ত থাকে, দুয়োৰে মাজত ৩ ঘৰ; প্ৰতি ঘৰ ৩০°, সেয়ে কোণ = ৩×৩০° = ৯০°।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-028",
+    "q": {
+      "en": "If today is Wednesday, then day after tomorrow is?",
+      "as": "যদি আজি বুধবাৰ, তেন্তে পৰহু কোনবাৰ?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      },
+      {
+        "en": "Sunday",
+        "as": "দেওবাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "If today is Wednesday, tomorrow is Thursday and the day after tomorrow is Friday.",
+      "as": "আজি বুধবাৰ হ'লে কাইলৈ বৃহস্পতিবাৰ আৰু পৰহু শুক্ৰবাৰ হয়।"
+    }
+  },
+  {
+    "id": "verbal-reasoning-076",
+    "q": {
+      "en": "If today is Tuesday, what day will it be after 45 days?",
+      "as": "যদি আজি মঙ্গলবাৰ, তেন্তে ৪৫ দিনৰ পিছত কোনবাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "বুধবাৰ"
+      },
+      {
+        "en": "Thursday",
+        "as": "বৃহস্পতিবাৰ"
+      },
+      {
+        "en": "Friday",
+        "as": "শুক্ৰবাৰ"
+      },
+      {
+        "en": "Saturday",
+        "as": "শনিবাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "45 divided by 7 leaves a remainder of 3, so the day moves three days ahead of Tuesday, which is Friday.",
+      "as": "৪৫-ক ৭-ৰে হৰণ কৰিলে ভাগশেষ ৩ থাকে; মঙ্গলবাৰৰ পৰা তিনি দিন আগবঢ়ালে শুক্ৰবাৰ হয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-001",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 3:00.",
+      "as": "ঘড়ীত ৩:0০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105°",
+        "as": "১০৫°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×3 - 5.5×0| = 90°; taking the smaller angle gives 90°.",
+      "as": "কোণ = |৩০×৩ - ৫.৫×০| = 90°; সৰু কোণ 90°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-002",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 6:00.",
+      "as": "ঘড়ীত ৬:0০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "195°",
+        "as": "১৯৫°"
+      },
+      {
+        "en": "210°",
+        "as": "২১০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "225°",
+        "as": "২২৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×6 - 5.5×0| = 180°; taking the smaller angle gives 180°.",
+      "as": "কোণ = |৩০×৬ - ৫.৫×০| = 180°; সৰু কোণ 180°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-003",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 9:00.",
+      "as": "ঘড়ীত ৯:0০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105°",
+        "as": "১০৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×9 - 5.5×0| = 270°; taking the smaller angle gives 90°.",
+      "as": "কোণ = |৩০×৯ - ৫.৫×০| = 270°; সৰু কোণ 90°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-004",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 4:20.",
+      "as": "ঘড়ীত ৪:২০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25°",
+        "as": "২৫°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×4 - 5.5×20| = 10°; taking the smaller angle gives 10°.",
+      "as": "কোণ = |৩০×৪ - ৫.৫×২০| = 10°; সৰু কোণ 10°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-005",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 5:30.",
+      "as": "ঘড়ীত ৫:৩০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×5 - 5.5×30| = 15°; taking the smaller angle gives 15°.",
+      "as": "কোণ = |৩০×৫ - ৫.৫×৩০| = 15°; সৰু কোণ 15°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-006",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 7:40.",
+      "as": "ঘড়ীত ৭:৪০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "25°",
+        "as": "২৫°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×7 - 5.5×40| = 10°; taking the smaller angle gives 10°.",
+      "as": "কোণ = |৩০×৭ - ৫.৫×৪০| = 10°; সৰু কোণ 10°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-007",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 2:15.",
+      "as": "ঘড়ীত ২:১৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37.5°",
+        "as": "৩৭.৫°"
+      },
+      {
+        "en": "52.5°",
+        "as": "৫২.৫°"
+      },
+      {
+        "en": "67.5°",
+        "as": "৬৭.৫°"
+      },
+      {
+        "en": "22.5°",
+        "as": "২২.৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×2 - 5.5×15| = 22.5°; taking the smaller angle gives 22.5°.",
+      "as": "কোণ = |৩০×২ - ৫.৫×১৫| = 22.5°; সৰু কোণ 22.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-008",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 8:45.",
+      "as": "ঘড়ীত ৮:৪৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22.5°",
+        "as": "২২.৫°"
+      },
+      {
+        "en": "7.5°",
+        "as": "৭.৫°"
+      },
+      {
+        "en": "37.5°",
+        "as": "৩৭.৫°"
+      },
+      {
+        "en": "52.5°",
+        "as": "৫২.৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×8 - 5.5×45| = 7.5°; taking the smaller angle gives 7.5°.",
+      "as": "কোণ = |৩০×৮ - ৫.৫×৪৫| = 7.5°; সৰু কোণ 7.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-009",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 10:10.",
+      "as": "ঘড়ীত ১০:১০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      },
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×10 - 5.5×10| = 245°; taking the smaller angle gives 115°.",
+      "as": "কোণ = |৩০×১০ - ৫.৫×১০| = 245°; সৰু কোণ 115°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-010",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 11:25.",
+      "as": "ঘড়ীত ১১:২৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "182.5°",
+        "as": "১৮২.৫°"
+      },
+      {
+        "en": "197.5°",
+        "as": "১৯৭.৫°"
+      },
+      {
+        "en": "212.5°",
+        "as": "২১২.৫°"
+      },
+      {
+        "en": "167.5°",
+        "as": "১৬৭.৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×11 - 5.5×25| = 192.5°; taking the smaller angle gives 167.5°.",
+      "as": "কোণ = |৩০×১১ - ৫.৫×২৫| = 192.5°; সৰু কোণ 167.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-011",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 1:50.",
+      "as": "ঘড়ীত ১:৫০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×1 - 5.5×50| = 245°; taking the smaller angle gives 115°.",
+      "as": "কোণ = |৩০×১ - ৫.৫×৫০| = 245°; সৰু কোণ 115°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-012",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 12:30.",
+      "as": "ঘড়ীত ১২:৩০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "165°",
+        "as": "১৬৫°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "195°",
+        "as": "১৯৫°"
+      },
+      {
+        "en": "210°",
+        "as": "২১০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×12 - 5.5×30| = 165°; taking the smaller angle gives 165°.",
+      "as": "কোণ = |৩০×১২ - ৫.৫×৩০| = 165°; সৰু কোণ 165°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-013",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 4:40.",
+      "as": "ঘড়ীত ৪:৪০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×4 - 5.5×40| = 100°; taking the smaller angle gives 100°.",
+      "as": "কোণ = |৩০×৪ - ৫.৫×৪০| = 100°; সৰু কোণ 100°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-014",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 6:20.",
+      "as": "ঘড়ীত ৬:২০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "85°",
+        "as": "৮৫°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×6 - 5.5×20| = 70°; taking the smaller angle gives 70°.",
+      "as": "কোণ = |৩০×৬ - ৫.৫×২০| = 70°; সৰু কোণ 70°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-015",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 9:15.",
+      "as": "ঘড়ীত ৯:১৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "187.5°",
+        "as": "১৮৭.৫°"
+      },
+      {
+        "en": "202.5°",
+        "as": "২০২.৫°"
+      },
+      {
+        "en": "217.5°",
+        "as": "২১৭.৫°"
+      },
+      {
+        "en": "172.5°",
+        "as": "১৭২.৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×9 - 5.5×15| = 187.5°; taking the smaller angle gives 172.5°.",
+      "as": "কোণ = |৩০×৯ - ৫.৫×১৫| = 187.5°; সৰু কোণ 172.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-016",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 3:45.",
+      "as": "ঘড়ীত ৩:৪৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "172.5°",
+        "as": "১৭২.৫°"
+      },
+      {
+        "en": "187.5°",
+        "as": "১৮৭.৫°"
+      },
+      {
+        "en": "157.5°",
+        "as": "১৫৭.৫°"
+      },
+      {
+        "en": "202.5°",
+        "as": "২০২.৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×3 - 5.5×45| = 157.5°; taking the smaller angle gives 157.5°.",
+      "as": "কোণ = |৩০×৩ - ৫.৫×৪৫| = 157.5°; সৰু কোণ 157.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-017",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 5:10.",
+      "as": "ঘড়ীত ৫:১০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "95°",
+        "as": "৯৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×5 - 5.5×10| = 95°; taking the smaller angle gives 95°.",
+      "as": "কোণ = |৩০×৫ - ৫.৫×১০| = 95°; সৰু কোণ 95°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-018",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 7:05.",
+      "as": "ঘড়ীত ৭:0৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "177.5°",
+        "as": "১৭৭.৫°"
+      },
+      {
+        "en": "192.5°",
+        "as": "১৯২.৫°"
+      },
+      {
+        "en": "207.5°",
+        "as": "২০৭.৫°"
+      },
+      {
+        "en": "222.5°",
+        "as": "২২২.৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×7 - 5.5×5| = 182.5°; taking the smaller angle gives 177.5°.",
+      "as": "কোণ = |৩০×৭ - ৫.৫×৫| = 182.5°; সৰু কোণ 177.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-019",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 2:40.",
+      "as": "ঘড়ীত ২:৪০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "175°",
+        "as": "১৭৫°"
+      },
+      {
+        "en": "190°",
+        "as": "১৯০°"
+      },
+      {
+        "en": "205°",
+        "as": "২০৫°"
+      },
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×2 - 5.5×40| = 160°; taking the smaller angle gives 160°.",
+      "as": "কোণ = |৩০×২ - ৫.৫×৪০| = 160°; সৰু কোণ 160°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-020",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 8:20.",
+      "as": "ঘড়ীত ৮:২০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      },
+      {
+        "en": "175°",
+        "as": "১৭৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×8 - 5.5×20| = 130°; taking the smaller angle gives 130°.",
+      "as": "কোণ = |৩০×৮ - ৫.৫×২০| = 130°; সৰু কোণ 130°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-021",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 10:40.",
+      "as": "ঘড়ীত ১০:৪০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "95°",
+        "as": "৯৫°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×10 - 5.5×40| = 80°; taking the smaller angle gives 80°.",
+      "as": "কোণ = |৩০×১০ - ৫.৫×৪০| = 80°; সৰু কোণ 80°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-022",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 11:05.",
+      "as": "ঘড়ীত ১১:0৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72.5°",
+        "as": "৭২.৫°"
+      },
+      {
+        "en": "87.5°",
+        "as": "৮৭.৫°"
+      },
+      {
+        "en": "102.5°",
+        "as": "১০২.৫°"
+      },
+      {
+        "en": "57.5°",
+        "as": "৫৭.৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×11 - 5.5×5| = 302.5°; taking the smaller angle gives 57.5°.",
+      "as": "কোণ = |৩০×১১ - ৫.৫×৫| = 302.5°; সৰু কোণ 57.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-023",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 1:20.",
+      "as": "ঘড়ীত ১:২০ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "95°",
+        "as": "৯৫°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×1 - 5.5×20| = 80°; taking the smaller angle gives 80°.",
+      "as": "কোণ = |৩০×১ - ৫.৫×২০| = 80°; সৰু কোণ 80°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-024",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 12:45.",
+      "as": "ঘড়ীত ১২:৪৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "112.5°",
+        "as": "১১২.৫°"
+      },
+      {
+        "en": "127.5°",
+        "as": "১২৭.৫°"
+      },
+      {
+        "en": "142.5°",
+        "as": "১৪২.৫°"
+      },
+      {
+        "en": "157.5°",
+        "as": "১৫৭.৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×12 - 5.5×45| = 247.5°; taking the smaller angle gives 112.5°.",
+      "as": "কোণ = |৩০×১২ - ৫.৫×৪৫| = 247.5°; সৰু কোণ 112.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-025",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hour hand and the minute hand of a clock at 4:05.",
+      "as": "ঘড়ীত ৪:0৫ বজাত ঘণ্টা কাঁড় আৰু মিনিট কাঁড়ৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "107.5°",
+        "as": "১০৭.৫°"
+      },
+      {
+        "en": "92.5°",
+        "as": "৯২.৫°"
+      },
+      {
+        "en": "122.5°",
+        "as": "১২২.৫°"
+      },
+      {
+        "en": "137.5°",
+        "as": "১৩৭.৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×4 - 5.5×5| = 92.5°; taking the smaller angle gives 92.5°.",
+      "as": "কোণ = |৩০×৪ - ৫.৫×৫| = 92.5°; সৰু কোণ 92.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-026",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many times do the hands of a clock coincide in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁড় দুডাল কিমানবাৰ একেলগ হয়?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hands coincide 11 times in 12 hours (they are together 11 times, not 12).",
+      "as": "১২ ঘণ্টাত কাঁড় দুডাল ১১ বাৰ একেলগ হয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-027",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many times do the hands of a clock coincide in a day?",
+      "as": "এদিনত ঘড়ীৰ কাঁড় দুডাল কিমানবাৰ একেলগ হয়?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "11 times in 12 hours, so 22 times in 24 hours.",
+      "as": "১২ ঘণ্টাত ১১ বাৰ, সেয়ে ২৪ ঘণ্টাত ২২ বাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-028",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many times do the hands of a clock make a right angle in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁড় দুডাল কিমানবাৰ সমকোণ কৰে?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The hands are at right angles 22 times in 12 hours.",
+      "as": "১২ ঘণ্টাত কাঁড় দুডাল ২২ বাৰ সমকোণ কৰে।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-029",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many times do the hands of a clock make a straight line in 12 hours?",
+      "as": "১২ ঘণ্টাত ঘড়ীৰ কাঁড় দুডাল কিমানবাৰ সৰলৰেখা কৰে?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They are in a straight line 11 times in 12 hours.",
+      "as": "১২ ঘণ্টাত কাঁড় দুডাল ১১ বাৰ সৰলৰেখাত থাকে।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-030",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 2 and 3 o'clock will the hands of a clock coincide?",
+      "as": "২ আৰু ৩ বজাৰ মাজত কিমান বজাত ঘড়ীৰ কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2:10 10/11",
+        "as": "২:১০ ১০/১১"
+      },
+      {
+        "en": "2:12",
+        "as": "২:১২"
+      },
+      {
+        "en": "2:10",
+        "as": "২:১০"
+      },
+      {
+        "en": "2:11",
+        "as": "২:১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Coincidence time = 60×2/11 = 120/11 = 10 10/11 minutes past 2.",
+      "as": "একেলগ হোৱাৰ সময় = ৬০×২/১১ = ১০ ১০/১১ মিনিট, অৰ্থাৎ ২:১০ ১০/১১।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-031",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 45 days?",
+      "as": "আজি সোমবাৰ হ'লে ৪৫ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "45 ÷ 7 leaves remainder 3; Monday + 3 days = Thursday.",
+      "as": "৪৫ ÷ ৭ ৰ ভাগশেষ ৩; সোমবাৰ + ৩ দিন = বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-032",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Wednesday, what day will it be after 100 days?",
+      "as": "আজি বুধবাৰ হ'লে ১০০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "100 ÷ 7 leaves remainder 2; Wednesday + 2 days = Friday.",
+      "as": "১০০ ÷ ৭ ৰ ভাগশেষ ২; বুধবাৰ + ২ দিন = শুক্ৰবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-033",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Friday, what day will it be after 60 days?",
+      "as": "আজি শুক্ৰবাৰ হ'লে ৬০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "60 ÷ 7 leaves remainder 4; Friday + 4 days = Tuesday.",
+      "as": "৬০ ÷ ৭ ৰ ভাগশেষ ৪; শুক্ৰবাৰ + ৪ দিন = মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-034",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Sunday, what day will it be after 15 days?",
+      "as": "আজি দেওবাৰ হ'লে ১৫ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 ÷ 7 leaves remainder 1; Sunday + 1 days = Monday.",
+      "as": "১৫ ÷ ৭ ৰ ভাগশেষ ১; দেওবাৰ + ১ দিন = সোমবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-035",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Tuesday, what day will it be after 90 days?",
+      "as": "আজি মঙ্গলবাৰ হ'লে ৯০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "90 ÷ 7 leaves remainder 6; Tuesday + 6 days = Monday.",
+      "as": "৯০ ÷ ৭ ৰ ভাগশেষ ৬; মঙ্গলবাৰ + ৬ দিন = সোমবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-036",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Thursday, what day will it be after 75 days?",
+      "as": "আজি বৃহস্পতিবাৰ হ'লে ৭৫ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "75 ÷ 7 leaves remainder 5; Thursday + 5 days = Tuesday.",
+      "as": "৭৫ ÷ ৭ ৰ ভাগশেষ ৫; বৃহস্পতিবাৰ + ৫ দিন = মঙ্গলবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-037",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Saturday, what day will it be after 33 days?",
+      "as": "আজি শনিবাৰ হ'লে ৩৩ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "33 ÷ 7 leaves remainder 5; Saturday + 5 days = Thursday.",
+      "as": "৩৩ ÷ ৭ ৰ ভাগশেষ ৫; শনিবাৰ + ৫ দিন = বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-038",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Monday, what day will it be after 200 days?",
+      "as": "আজি সোমবাৰ হ'লে ২০০ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "200 ÷ 7 leaves remainder 4; Monday + 4 days = Friday.",
+      "as": "২০০ ÷ ৭ ৰ ভাগশেষ ৪; সোমবাৰ + ৪ দিন = শুক্ৰবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-039",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Wednesday, what day will it be after 365 days?",
+      "as": "আজি বুধবাৰ হ'লে ৩৬৫ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "365 ÷ 7 leaves remainder 1; Wednesday + 1 days = Thursday.",
+      "as": "৩৬৫ ÷ ৭ ৰ ভাগশেষ ১; বুধবাৰ + ১ দিন = বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-040",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Friday, what day will it be after 52 days?",
+      "as": "আজি শুক্ৰবাৰ হ'লে ৫২ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "52 ÷ 7 leaves remainder 3; Friday + 3 days = Monday.",
+      "as": "৫২ ÷ ৭ ৰ ভাগশেষ ৩; শুক্ৰবাৰ + ৩ দিন = সোমবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-041",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Sunday, what day will it be after 123 days?",
+      "as": "আজি দেওবাৰ হ'লে ১২৩ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "123 ÷ 7 leaves remainder 4; Sunday + 4 days = Thursday.",
+      "as": "১২৩ ÷ ৭ ৰ ভাগশেষ ৪; দেওবাৰ + ৪ দিন = বৃহস্পতিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-042",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Tuesday, what day will it be after 17 days?",
+      "as": "আজি মঙ্গলবাৰ হ'লে ১৭ দিনৰ পিছত কি বাৰ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "17 ÷ 7 leaves remainder 3; Tuesday + 3 days = Friday.",
+      "as": "১৭ ÷ ৭ ৰ ভাগশেষ ৩; মঙ্গলবাৰ + ৩ দিন = শুক্ৰবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-043",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 26-1-2024?",
+      "as": "২৬-১-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "26-1-2024 falls on Friday.",
+      "as": "২৬-১-২০২৪ তাৰিখ শুক্ৰবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-044",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 15-8-2024?",
+      "as": "১৫-৮-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "15-8-2024 falls on Thursday.",
+      "as": "১৫-৮-২০২৪ তাৰিখ বৃহস্পতিবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-045",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 1-1-2025?",
+      "as": "১-১-২০২৫ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1-1-2025 falls on Wednesday.",
+      "as": "১-১-২০২৫ তাৰিখ বুধবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-046",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 14-4-2025?",
+      "as": "১৪-৪-২০২৫ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "14-4-2025 falls on Monday.",
+      "as": "১৪-৪-২০২৫ তাৰিখ সোমবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-047",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 2-10-2024?",
+      "as": "২-১০-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2-10-2024 falls on Wednesday.",
+      "as": "২-১০-২০২৪ তাৰিখ বুধবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-048",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 26-1-2026?",
+      "as": "২৬-১-২০২৬ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "26-1-2026 falls on Monday.",
+      "as": "২৬-১-২০২৬ তাৰিখ সোমবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-049",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 25-12-2024?",
+      "as": "২৫-১২-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "25-12-2024 falls on Wednesday.",
+      "as": "২৫-১২-২০২৪ তাৰিখ বুধবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-050",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 15-8-2025?",
+      "as": "১৫-৮-২০২৫ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15-8-2025 falls on Friday.",
+      "as": "১৫-৮-২০২৫ তাৰিখ শুক্ৰবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-051",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 1900 a leap year?",
+      "as": "১৯০০ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1900 is not a leap year because a century year must be divisible by 400.",
+      "as": "১৯০০ অধিবৰ্ষ নহয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-052",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2000 a leap year?",
+      "as": "২০০০ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2000 is a leap year because a century year must be divisible by 400.",
+      "as": "২০০০ অধিবৰ্ষ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-053",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2023 a leap year?",
+      "as": "২০২৩ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2023 is not a leap year because a century year must be divisible by 400.",
+      "as": "২০২৩ অধিবৰ্ষ নহয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-054",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2024 a leap year?",
+      "as": "২০২৪ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2024 is a leap year because a century year must be divisible by 400.",
+      "as": "২০২৪ অধিবৰ্ষ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-055",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2100 a leap year?",
+      "as": "২১০০ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2100 is not a leap year because a century year must be divisible by 400.",
+      "as": "২১০০ অধিবৰ্ষ নহয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-056",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2016 a leap year?",
+      "as": "২০১৬ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2016 is a leap year because a century year must be divisible by 400.",
+      "as": "২০১৬ অধিবৰ্ষ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-057",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 1800 a leap year?",
+      "as": "১৮০০ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1800 is not a leap year because a century year must be divisible by 400.",
+      "as": "১৮০০ অধিবৰ্ষ নহয়।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-058",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Is 2400 a leap year?",
+      "as": "২৪০০ অধিবৰ্ষ হয়নে?"
+    },
+    "options": [
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot say",
+        "as": "Cannot say"
+      },
+      {
+        "en": "Only in some countries",
+        "as": "Only in some countries"
+      },
+      {
+        "en": "Yes",
+        "as": "Yes"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2400 is a leap year because a century year must be divisible by 400.",
+      "as": "২৪০০ অধিবৰ্ষ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-059",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many odd days are there in 100 years?",
+      "as": "১০০ বছৰত কিমান অযুগ্ম দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "100 years have 5 odd days.",
+      "as": "১০০ বছৰত ৫ টা অযুগ্ম দিন।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-060",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many odd days are there in 200 years?",
+      "as": "২০০ বছৰত কিমান অযুগ্ম দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "200 years have 3 odd days.",
+      "as": "২০০ বছৰত ৩ টা অযুগ্ম দিন।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-061",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many odd days are there in 300 years?",
+      "as": "৩০০ বছৰত কিমান অযুগ্ম দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "300 years have 1 odd days.",
+      "as": "৩০০ বছৰত ১ টা অযুগ্ম দিন।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-062",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "How many odd days are there in 400 years?",
+      "as": "৪০০ বছৰত কিমান অযুগ্ম দিন থাকে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "400 years have 0 odd days.",
+      "as": "৪০০ বছৰত ০ টা অযুগ্ম দিন।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-063",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 1:10.",
+      "as": "ঘড়ীত ১:১০ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "25°",
+        "as": "২৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×1 - 5.5×10| = 25°; smaller angle = 25°.",
+      "as": "কোণ = 25°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-064",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 2:05.",
+      "as": "ঘড়ীত ২:0৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "47.5°",
+        "as": "৪৭.৫°"
+      },
+      {
+        "en": "62.5°",
+        "as": "৬২.৫°"
+      },
+      {
+        "en": "32.5°",
+        "as": "৩২.৫°"
+      },
+      {
+        "en": "77.5°",
+        "as": "৭৭.৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×2 - 5.5×5| = 32.5°; smaller angle = 32.5°.",
+      "as": "কোণ = 32.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-065",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 3:25.",
+      "as": "ঘড়ীত ৩:২৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "62.5°",
+        "as": "৬২.৫°"
+      },
+      {
+        "en": "47.5°",
+        "as": "৪৭.৫°"
+      },
+      {
+        "en": "77.5°",
+        "as": "৭৭.৫°"
+      },
+      {
+        "en": "92.5°",
+        "as": "৯২.৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×3 - 5.5×25| = 47.5°; smaller angle = 47.5°.",
+      "as": "কোণ = 47.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-066",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 5:45.",
+      "as": "ঘড়ীত ৫:৪৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "97.5°",
+        "as": "৯৭.৫°"
+      },
+      {
+        "en": "112.5°",
+        "as": "১১২.৫°"
+      },
+      {
+        "en": "127.5°",
+        "as": "১২৭.৫°"
+      },
+      {
+        "en": "142.5°",
+        "as": "১৪২.৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×5 - 5.5×45| = 97.5°; smaller angle = 97.5°.",
+      "as": "কোণ = 97.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-067",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 6:40.",
+      "as": "ঘড়ীত ৬:৪০ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "85°",
+        "as": "৮৫°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×6 - 5.5×40| = 40°; smaller angle = 40°.",
+      "as": "কোণ = 40°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-068",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 7:15.",
+      "as": "ঘড়ীত ৭:১৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "142.5°",
+        "as": "১৪২.৫°"
+      },
+      {
+        "en": "127.5°",
+        "as": "১২৭.৫°"
+      },
+      {
+        "en": "157.5°",
+        "as": "১৫৭.৫°"
+      },
+      {
+        "en": "172.5°",
+        "as": "১৭২.৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×7 - 5.5×15| = 127.5°; smaller angle = 127.5°.",
+      "as": "কোণ = 127.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-069",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 8:05.",
+      "as": "ঘড়ীত ৮:0৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "162.5°",
+        "as": "১৬২.৫°"
+      },
+      {
+        "en": "177.5°",
+        "as": "১৭৭.৫°"
+      },
+      {
+        "en": "147.5°",
+        "as": "১৪৭.৫°"
+      },
+      {
+        "en": "192.5°",
+        "as": "১৯২.৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×8 - 5.5×5| = 212.5°; smaller angle = 147.5°.",
+      "as": "কোণ = 147.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-070",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 9:35.",
+      "as": "ঘড়ীত ৯:৩৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "92.5°",
+        "as": "৯২.৫°"
+      },
+      {
+        "en": "107.5°",
+        "as": "১০৭.৫°"
+      },
+      {
+        "en": "122.5°",
+        "as": "১২২.৫°"
+      },
+      {
+        "en": "77.5°",
+        "as": "৭৭.৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Angle = |30×9 - 5.5×35| = 77.5°; smaller angle = 77.5°.",
+      "as": "কোণ = 77.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-071",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 10:25.",
+      "as": "ঘড়ীত ১০:২৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "162.5°",
+        "as": "১৬২.৫°"
+      },
+      {
+        "en": "177.5°",
+        "as": "১৭৭.৫°"
+      },
+      {
+        "en": "192.5°",
+        "as": "১৯২.৫°"
+      },
+      {
+        "en": "207.5°",
+        "as": "২০৭.৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×10 - 5.5×25| = 162.5°; smaller angle = 162.5°.",
+      "as": "কোণ = 162.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-072",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 11:45.",
+      "as": "ঘড়ীত ১১:৪৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "82.5°",
+        "as": "৮২.৫°"
+      },
+      {
+        "en": "97.5°",
+        "as": "৯৭.৫°"
+      },
+      {
+        "en": "112.5°",
+        "as": "১১২.৫°"
+      },
+      {
+        "en": "127.5°",
+        "as": "১২৭.৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Angle = |30×11 - 5.5×45| = 82.5°; smaller angle = 82.5°.",
+      "as": "কোণ = 82.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-073",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 12:20.",
+      "as": "ঘড়ীত ১২:২০ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "155°",
+        "as": "১৫৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Angle = |30×12 - 5.5×20| = 110°; smaller angle = 110°.",
+      "as": "কোণ = 110°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-074",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "Find the angle between the hands of a clock at 4:55.",
+      "as": "ঘড়ীত ৪:৫৫ বজাত কাঁড় দুডালৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "192.5°",
+        "as": "১৯২.৫°"
+      },
+      {
+        "en": "207.5°",
+        "as": "২০৭.৫°"
+      },
+      {
+        "en": "177.5°",
+        "as": "১৭৭.৫°"
+      },
+      {
+        "en": "222.5°",
+        "as": "২২২.৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Angle = |30×4 - 5.5×55| = 182.5°; smaller angle = 177.5°.",
+      "as": "কোণ = 177.5°।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-075",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 1 and 2 o'clock will the hands of a clock coincide?",
+      "as": "১ আৰু ২ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "1:06",
+        "as": "১:০৬"
+      },
+      {
+        "en": "1:04",
+        "as": "১:০৪"
+      },
+      {
+        "en": "1:05",
+        "as": "১:০৫"
+      },
+      {
+        "en": "1:05 5/11",
+        "as": "১:০৫ ৫/১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Coincidence occurs at 60×1/11 = 5.45 minutes past 1, i.e. 1:05 5/11.",
+      "as": "একেলগ হয় ১ বজাৰ 5.45 মিনিটত, অৰ্থাৎ 1:05 5/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-076",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 3 and 4 o'clock will the hands of a clock coincide?",
+      "as": "৩ আৰু ৪ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "3:17",
+        "as": "৩:১৭"
+      },
+      {
+        "en": "3:15",
+        "as": "৩:১৫"
+      },
+      {
+        "en": "3:16 4/11",
+        "as": "৩:১৬ ৪/১১"
+      },
+      {
+        "en": "3:16",
+        "as": "৩:১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Coincidence occurs at 60×3/11 = 16.36 minutes past 3, i.e. 3:16 4/11.",
+      "as": "একেলগ হয় ৩ বজাৰ 16.36 মিনিটত, অৰ্থাৎ 3:16 4/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-077",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 4 and 5 o'clock will the hands of a clock coincide?",
+      "as": "৪ আৰু ৫ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4:22",
+        "as": "৪:২২"
+      },
+      {
+        "en": "4:21 9/11",
+        "as": "৪:২১ ৯/১১"
+      },
+      {
+        "en": "4:20",
+        "as": "৪:২০"
+      },
+      {
+        "en": "4:21",
+        "as": "৪:২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coincidence occurs at 60×4/11 = 21.82 minutes past 4, i.e. 4:21 9/11.",
+      "as": "একেলগ হয় ৪ বজাৰ 21.82 মিনিটত, অৰ্থাৎ 4:21 9/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-078",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 5 and 6 o'clock will the hands of a clock coincide?",
+      "as": "৫ আৰু ৬ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "5:27 3/11",
+        "as": "৫:২৭ ৩/১১"
+      },
+      {
+        "en": "5:28",
+        "as": "৫:২৮"
+      },
+      {
+        "en": "5:26",
+        "as": "৫:২৬"
+      },
+      {
+        "en": "5:27",
+        "as": "৫:২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Coincidence occurs at 60×5/11 = 27.27 minutes past 5, i.e. 5:27 3/11.",
+      "as": "একেলগ হয় ৫ বজাৰ 27.27 মিনিটত, অৰ্থাৎ 5:27 3/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-079",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 6 and 7 o'clock will the hands of a clock coincide?",
+      "as": "৬ আৰু ৭ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "6:33",
+        "as": "৬:৩৩"
+      },
+      {
+        "en": "6:31",
+        "as": "৬:৩১"
+      },
+      {
+        "en": "6:32",
+        "as": "৬:৩২"
+      },
+      {
+        "en": "6:32 8/11",
+        "as": "৬:৩২ ৮/১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Coincidence occurs at 60×6/11 = 32.73 minutes past 6, i.e. 6:32 8/11.",
+      "as": "একেলগ হয় ৬ বজাৰ 32.73 মিনিটত, অৰ্থাৎ 6:32 8/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-080",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "At what time between 7 and 8 o'clock will the hands of a clock coincide?",
+      "as": "৭ আৰু ৮ বজাৰ মাজত কিমান বজাত কাঁড় দুডাল একেলগ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "7:39",
+        "as": "৭:৩৯"
+      },
+      {
+        "en": "7:38 2/11",
+        "as": "৭:৩৮ ২/১১"
+      },
+      {
+        "en": "7:37",
+        "as": "৭:৩৭"
+      },
+      {
+        "en": "7:38",
+        "as": "৭:৩৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coincidence occurs at 60×7/11 = 38.18 minutes past 7, i.e. 7:38 2/11.",
+      "as": "একেলগ হয় ৭ বজাৰ 38.18 মিনিটত, অৰ্থাৎ 7:38 2/11।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-081",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Monday, what day was it 10 days ago?",
+      "as": "আজি সোমবাৰ হ'লে ১০ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10 ÷ 7 leaves remainder 3; going back gives Friday.",
+      "as": "১০ ÷ ৭ ৰ ভাগশেষ ৩; পিছলৈ গ'লে শুক্ৰবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-082",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Wednesday, what day was it 25 days ago?",
+      "as": "আজি বুধবাৰ হ'লে ২৫ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25 ÷ 7 leaves remainder 4; going back gives Saturday.",
+      "as": "২৫ ÷ ৭ ৰ ভাগশেষ ৪; পিছলৈ গ'লে শনিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-083",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Friday, what day was it 40 days ago?",
+      "as": "আজি শুক্ৰবাৰ হ'লে ৪০ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "40 ÷ 7 leaves remainder 5; going back gives Sunday.",
+      "as": "৪০ ÷ ৭ ৰ ভাগশেষ ৫; পিছলৈ গ'লে দেওবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-084",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Sunday, what day was it 8 days ago?",
+      "as": "আজি দেওবাৰ হ'লে ৮ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8 ÷ 7 leaves remainder 1; going back gives Saturday.",
+      "as": "৮ ÷ ৭ ৰ ভাগশেষ ১; পিছলৈ গ'লে শনিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-085",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Tuesday, what day was it 50 days ago?",
+      "as": "আজি মঙ্গলবাৰ হ'লে ৫০ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "50 ÷ 7 leaves remainder 1; going back gives Monday.",
+      "as": "৫০ ÷ ৭ ৰ ভাগশেষ ১; পিছলৈ গ'লে সোমবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-086",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "If today is Thursday, what day was it 33 days ago?",
+      "as": "আজি বৃহস্পতিবাৰ হ'লে ৩৩ দিন পূৰ্বে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "33 ÷ 7 leaves remainder 5; going back gives Saturday.",
+      "as": "৩৩ ÷ ৭ ৰ ভাগশেষ ৫; পিছলৈ গ'লে শনিবাৰ।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-087",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 8-3-2024?",
+      "as": "৮-৩-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8-3-2024 was a Friday.",
+      "as": "৮-৩-২০২৪ শুক্ৰবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-088",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 5-6-2024?",
+      "as": "৫-৬-২০২৪ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Tuesday",
+        "as": "Tuesday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5-6-2024 was a Wednesday.",
+      "as": "৫-৬-২০২৪ বুধবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-089",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 2-10-2025?",
+      "as": "২-১০-২০২৫ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2-10-2025 was a Thursday.",
+      "as": "২-১০-২০২৫ বৃহস্পতিবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-090",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 25-12-2025?",
+      "as": "২৫-১২-২০২৫ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Thursday",
+        "as": "Thursday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Wednesday",
+        "as": "Wednesday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "25-12-2025 was a Thursday.",
+      "as": "২৫-১২-২০২৫ বৃহস্পতিবাৰ আছিল।"
+    }
+  },
+  {
+    "id": "num-clock-calendar-091",
+    "leaf": "clock-calendar",
+    "q": {
+      "en": "What day of the week was 15-8-2026?",
+      "as": "১৫-৮-২০২৬ তাৰিখে কি বাৰ আছিল?"
+    },
+    "options": [
+      {
+        "en": "Sunday",
+        "as": "Sunday"
+      },
+      {
+        "en": "Friday",
+        "as": "Friday"
+      },
+      {
+        "en": "Monday",
+        "as": "Monday"
+      },
+      {
+        "en": "Saturday",
+        "as": "Saturday"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15-8-2026 was a Saturday.",
+      "as": "১৫-৮-২০২৬ শনিবাৰ আছিল।"
+    }
+  }
+]

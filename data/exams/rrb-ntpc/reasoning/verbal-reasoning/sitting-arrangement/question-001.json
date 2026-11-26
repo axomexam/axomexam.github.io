@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "sitting-arrangement-001",
+    "q": {
+      "en": "In how many ways can 5 people be seated in a straight row?",
+      "as": "এটা পোন শাৰীত ৫ জনক কিমান ধৰণে বহুৱাব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "118",
+        "as": "১১৮"
+      },
+      {
+        "en": "122",
+        "as": "১২২"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5 people in a row can be arranged in 5! = 120 ways.",
+      "as": "শাৰীত ৫ জনক 5! = 120 ধৰণে সজাব পাৰি।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-002",
+    "q": {
+      "en": "In how many ways can 6 people be seated in a straight row?",
+      "as": "এটা পোন শাৰীত ৬ জনক কিমান ধৰণে বহুৱাব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "726",
+        "as": "৭২৬"
+      },
+      {
+        "en": "722",
+        "as": "৭২২"
+      },
+      {
+        "en": "718",
+        "as": "৭১৮"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6! = 720 ways.",
+      "as": "6! = 720 ধৰণ।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-003",
+    "q": {
+      "en": "Five friends sit in a row with A always at one fixed end. How many arrangements are possible?",
+      "as": "পাঁচজন বন্ধু এটা শাৰীত বহে, A সদায় এটা নিৰ্দিষ্ট মূৰত। কিমান বিন্যাস সম্ভৱ?"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A is fixed; the remaining 4 can be arranged in 4! = 24 ways.",
+      "as": "A স্থিৰ; বাকী ৪ জনক 4! = 24 ধৰণে সজাব পাৰি।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-004",
+    "q": {
+      "en": "Six people sit in a row with two particular people always together. How many arrangements are possible?",
+      "as": "ছয়জন লোকে এটা শাৰীত বহে, দুজন নিৰ্দিষ্ট লোকে সদায় একেলগে। কিমান বিন্যাস সম্ভৱ?"
+    },
+    "options": [
+      {
+        "en": "238",
+        "as": "২৩৮"
+      },
+      {
+        "en": "242",
+        "as": "২৪২"
+      },
+      {
+        "en": "246",
+        "as": "২৪৬"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Treat the pair as one unit: 5! units × 2! internal = 240.",
+      "as": "যোৰটোক এটা একক ধৰি: 5! × 2! = 240।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-005",
+    "q": {
+      "en": "How many ways can 4 people sit around a round table?",
+      "as": "এখন গোল টেবুলৰ চাৰিওফালে ৪ জনে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Circular arrangements = (4 − 1)! = 3! = 6.",
+      "as": "বৃত্তীয় বিন্যাস = (4 − 1)! = 3! = 6।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-006",
+    "q": {
+      "en": "How many ways can 5 people sit around a round table?",
+      "as": "এখন গোল টেবুলৰ চাৰিওফালে ৫ জনে কিমান ধৰণে বহিব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Circular arrangements = (5 − 1)! = 4! = 24.",
+      "as": "বৃত্তীয় বিন্যাস = (5 − 1)! = 4! = 24।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-007",
+    "q": {
+      "en": "In how many ways can 7 people be seated in a straight row?",
+      "as": "এটা পোন শাৰীত ৭ জনক কিমান ধৰণে বহুৱাব পাৰি?"
+    },
+    "options": [
+      {
+        "en": "5046",
+        "as": "৫০৪৬"
+      },
+      {
+        "en": "5040",
+        "as": "৫০৪০"
+      },
+      {
+        "en": "5042",
+        "as": "৫০৪২"
+      },
+      {
+        "en": "5038",
+        "as": "৫০৩৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "7! = 5040 ways.",
+      "as": "7! = 5040 ধৰণ।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-008",
+    "q": {
+      "en": "Four people sit around a round table with two particular people always adjacent. How many circular arrangements are possible?",
+      "as": "চাৰিজনে এখন গোল টেবুলত বহে, দুজন নিৰ্দিষ্ট লোকে সদায় লগত লগত। কিমান বৃত্তীয় বিন্যাস সম্ভৱ?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Treat the pair as one unit: (3 − 1)! = 2! circular orders × 2! internal = 4.",
+      "as": "যোৰটোক এটা একক ধৰি: (3 − 1)! × 2! = 4।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-009",
+    "q": {
+      "en": "In a row of 5 persons facing north, C is 3rd from the left end and A is 1st from the left end. Who sits at the extreme right end?",
+      "as": "উত্তৰমুখী ৫ জনীয়া এটা শাৰীত C বাওঁমূৰৰ পৰা ৩তম আৰু A বাওঁমূৰৰ পৰা ১তম। আটাইতকৈ সোঁমূৰত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With C at position 3 and A at 1 from the left, the last seat (5th) is E.",
+      "as": "C বাওঁফালৰ পৰা ৩তম আৰু A ১তম হ'লে শেষ (৫তম) আসনত E।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-010",
+    "q": {
+      "en": "In a row of 5 persons facing north, Q is 2nd from the left end and S is 4th from the left end. Who sits at the extreme right end?",
+      "as": "উত্তৰমুখী ৫ জনীয়া এটা শাৰীত Q বাওঁমূৰৰ পৰা ২তম আৰু S বাওঁমূৰৰ পৰা ৪তম। আটাইতকৈ সোঁমূৰত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "T",
+        "as": "T"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With Q at position 2 and S at 4 from the left, the last seat (5th) is T.",
+      "as": "Q বাওঁফালৰ পৰা ২তম আৰু S ৪তম হ'লে শেষ (৫তম) আসনত T।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-011",
+    "q": {
+      "en": "In a row of 6 persons facing north, Q is 5th from the left end and N is 2nd from the left end. Who sits at the extreme right end?",
+      "as": "উত্তৰমুখী ৬ জনীয়া এটা শাৰীত Q বাওঁমূৰৰ পৰা ৫তম আৰু N বাওঁমূৰৰ পৰা ২তম। আটাইতকৈ সোঁমূৰত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With Q at position 5 and N at 2 from the left, the last seat (6th) is R.",
+      "as": "Q বাওঁফালৰ পৰা ৫তম আৰু N ২তম হ'লে শেষ (৬তম) আসনত R।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-012",
+    "q": {
+      "en": "In a row of 7 persons facing north, F is 6th from the left end and B is 2nd from the left end. Who sits at the extreme right end?",
+      "as": "উত্তৰমুখী ৭ জনীয়া এটা শাৰীত F বাওঁমূৰৰ পৰা ৬তম আৰু B বাওঁমূৰৰ পৰা ২তম। আটাইতকৈ সোঁমূৰত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "G",
+        "as": "G"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With F at position 6 and B at 2 from the left, the last seat (7th) is G.",
+      "as": "F বাওঁফালৰ পৰা ৬তম আৰু B ২তম হ'লে শেষ (৭তম) আসনত G।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-013",
+    "q": {
+      "en": "In a row of 4 persons facing north, Y is 3rd from the left end and X is 2nd from the left end. Who sits at the extreme right end?",
+      "as": "উত্তৰমুখী ৪ জনীয়া এটা শাৰীত Y বাওঁমূৰৰ পৰা ৩তম আৰু X বাওঁমূৰৰ পৰা ২তম। আটাইতকৈ সোঁমূৰত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With Y at position 3 and X at 2 from the left, the last seat (4th) is Z.",
+      "as": "Y বাওঁফালৰ পৰা ৩তম আৰু X ২তম হ'লে শেষ (৪তম) আসনত Z।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-014",
+    "q": {
+      "en": "5 persons sit in a row facing north. A is at the extreme left. Who sits exactly in the middle of the row?",
+      "as": "উত্তৰমুখী এটা শাৰীত ৫ জন বহি আছে। A আটাইতকৈ বাওঁমূৰত। শাৰীৰ ঠিক মাজত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The middle seat of 5 is position 3 from the left, which is C.",
+      "as": "5 জনৰ মাজৰ আসন বাওঁফালৰ পৰা 3 নম্বৰ, অৰ্থাৎ C।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-015",
+    "q": {
+      "en": "7 persons sit in a row facing north. P is at the extreme left. Who sits exactly in the middle of the row?",
+      "as": "উত্তৰমুখী এটা শাৰীত ৭ জন বহি আছে। P আটাইতকৈ বাওঁমূৰত। শাৰীৰ ঠিক মাজত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle seat of 7 is position 4 from the left, which is S.",
+      "as": "7 জনৰ মাজৰ আসন বাওঁফালৰ পৰা 4 নম্বৰ, অৰ্থাৎ S।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-016",
+    "q": {
+      "en": "5 persons sit in a row facing north. M is at the extreme left. Who sits exactly in the middle of the row?",
+      "as": "উত্তৰমুখী এটা শাৰীত ৫ জন বহি আছে। M আটাইতকৈ বাওঁমূৰত। শাৰীৰ ঠিক মাজত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The middle seat of 5 is position 3 from the left, which is O.",
+      "as": "5 জনৰ মাজৰ আসন বাওঁফালৰ পৰা 3 নম্বৰ, অৰ্থাৎ O।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-017",
+    "q": {
+      "en": "5 friends sit around a circular table facing the centre. C is at a seat. Who sits immediately to the right of C?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৫ জন বন্ধু বহি আছে। C ৰ সোঁফালে তৎক্ষণাত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Going around the circle the order is A → B → C → D → E → back to A; so the immediate right neighbour of C is D.",
+      "as": "বৃত্তটোত ক্ৰম A → B → C → D → E → A; গতিকে C ৰ সোঁৰ তৎক্ষণাত চুবুৰীয়া D।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-018",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre. Q is at a seat. Who sits immediately to the left of Q?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৬ জন বন্ধু বহি আছে। Q ৰ বাওঁফালে তৎক্ষণাত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Going around the circle the order is P → Q → R → S → T → U → back to P; so the immediate left neighbour of Q is P.",
+      "as": "বৃত্তটোত ক্ৰম P → Q → R → S → T → U → P; গতিকে Q ৰ বাওঁৰ তৎক্ষণাত চুবুৰীয়া P।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-019",
+    "q": {
+      "en": "4 friends sit around a circular table facing the centre. O is at a seat. Who sits immediately to the left of O?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৪ জন বন্ধু বহি আছে। O ৰ বাওঁফালে তৎক্ষণাত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Going around the circle the order is M → N → O → P → back to M; so the immediate left neighbour of O is N.",
+      "as": "বৃত্তটোত ক্ৰম M → N → O → P → M; গতিকে O ৰ বাওঁৰ তৎক্ষণাত চুবুৰীয়া N।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-020",
+    "q": {
+      "en": "7 friends sit around a circular table facing the centre. Y is at a seat. Who sits immediately to the left of Y?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৭ জন বন্ধু বহি আছে। Y ৰ বাওঁফালে তৎক্ষণাত কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "Z",
+        "as": "Z"
+      },
+      {
+        "en": "W",
+        "as": "W"
+      },
+      {
+        "en": "X",
+        "as": "X"
+      },
+      {
+        "en": "Y",
+        "as": "Y"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Going around the circle the order is W → X → Y → Z → U → V → T → back to W; so the immediate left neighbour of Y is X.",
+      "as": "বৃত্তটোত ক্ৰম W → X → Y → Z → U → V → T → W; গতিকে Y ৰ বাওঁৰ তৎক্ষণাত চুবুৰীয়া X।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-021",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre. Who sits opposite A?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৬ জন বন্ধু বহি আছে। A ৰ বিপৰীতে কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In a circle of 6, the opposite seat is 3 places away, so A faces D.",
+      "as": "6 জনীয়া বৃত্তত বিপৰীত আসন 3 স্থান দূৰত, গতিকে A ৰ বিপৰীতে D।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-022",
+    "q": {
+      "en": "6 friends sit around a circular table facing the centre. Who sits opposite R?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৬ জন বন্ধু বহি আছে। R ৰ বিপৰীতে কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "U",
+        "as": "U"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In a circle of 6, the opposite seat is 3 places away, so R faces U.",
+      "as": "6 জনীয়া বৃত্তত বিপৰীত আসন 3 স্থান দূৰত, গতিকে R ৰ বিপৰীতে U।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-023",
+    "q": {
+      "en": "4 friends sit around a circular table facing the centre. Who sits opposite M?",
+      "as": "কেন্দ্ৰমুখী এখন গোল টেবুলত ৪ জন বন্ধু বহি আছে। M ৰ বিপৰীতে কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "O",
+        "as": "O"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In a circle of 4, the opposite seat is 2 places away, so M faces O.",
+      "as": "4 জনীয়া বৃত্তত বিপৰীত আসন 2 স্থান দূৰত, গতিকে M ৰ বিপৰীতে O।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-024",
+    "q": {
+      "en": "8 people sit around a square table, four on each side, facing the centre. Who sits diagonally opposite A?",
+      "as": "বৰ্গাকৃতি টেবুলৰ চাৰিওফালে ৮ জন বহি আছে, প্ৰতিটো কাষত চাৰিজন, কেন্দ্ৰমুখী। A ৰ কৰ্ণত বিপৰীতে কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "E",
+        "as": "E"
+      },
+      {
+        "en": "A",
+        "as": "A"
+      },
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "B",
+        "as": "B"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonally opposite means 4 seats away in a circle of 8, so A faces E.",
+      "as": "বৰ্গত কৰ্ণত বিপৰীত অৰ্থাৎ ৮ জনীয়া বৃত্তত ৪ আসন দূৰত, গতিকে A ৰ বিপৰীতে E।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-025",
+    "q": {
+      "en": "8 people sit around a square table, four on each side, facing the centre. Who sits diagonally opposite R?",
+      "as": "বৰ্গাকৃতি টেবুলৰ চাৰিওফালে ৮ জন বহি আছে, প্ৰতিটো কাষত চাৰিজন, কেন্দ্ৰমুখী। R ৰ কৰ্ণত বিপৰীতে কোন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "V",
+        "as": "V"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonally opposite means 4 seats away in a circle of 8, so R faces V.",
+      "as": "বৰ্গত কৰ্ণত বিপৰীত অৰ্থাৎ ৮ জনীয়া বৃত্তত ৪ আসন দূৰত, গতিকে R ৰ বিপৰীতে V।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-026",
+    "q": {
+      "en": "4 people sit in a row facing south and 4 people sit in a parallel row facing north, so that each person faces exactly one person of the other row. A is 1st from the left of the south-facing row. Who faces A?",
+      "as": "৪ জন দক্ষিণমুখী শাৰীত আৰু ৪ জন উত্তৰমুখী সমান্তৰাল শাৰীত বহি আছে, প্ৰত্যেকে আনখন শাৰীৰ এজনৰ সন্মুখীন। দক্ষিণমুখী শাৰীখনৰ বাওঁফালৰ পৰা A ১তম। A ৰ সন্মুখত কোন আছে?"
+    },
+    "options": [
+      {
+        "en": "P",
+        "as": "P"
+      },
+      {
+        "en": "R",
+        "as": "R"
+      },
+      {
+        "en": "S",
+        "as": "S"
+      },
+      {
+        "en": "Q",
+        "as": "Q"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When two rows face each other, the 1th from the left of one row faces the 1th from the left of the other, so A faces P.",
+      "as": "দুই শাৰী মুখামুখি হ'লে এশাৰীৰ বাওঁফালৰ 1তমে আনশাৰীৰ বাওঁফালৰ 1তমৰ সন্মুখীন, গতিকে A ৰ সন্মুখত P।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-027",
+    "q": {
+      "en": "4 people sit in a row facing south and 4 people sit in a parallel row facing north, so that each person faces exactly one person of the other row. Y is 3rd from the left of the south-facing row. Who faces Y?",
+      "as": "৪ জন দক্ষিণমুখী শাৰীত আৰু ৪ জন উত্তৰমুখী সমান্তৰাল শাৰীত বহি আছে, প্ৰত্যেকে আনখন শাৰীৰ এজনৰ সন্মুখীন। দক্ষিণমুখী শাৰীখনৰ বাওঁফালৰ পৰা Y ৩তম। Y ৰ সন্মুখত কোন আছে?"
+    },
+    "options": [
+      {
+        "en": "O",
+        "as": "O"
+      },
+      {
+        "en": "M",
+        "as": "M"
+      },
+      {
+        "en": "N",
+        "as": "N"
+      },
+      {
+        "en": "P",
+        "as": "P"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "When two rows face each other, the 3th from the left of one row faces the 3th from the left of the other, so Y faces O.",
+      "as": "দুই শাৰী মুখামুখি হ'লে এশাৰীৰ বাওঁফালৰ 3তমে আনশাৰীৰ বাওঁফালৰ 3তমৰ সন্মুখীন, গতিকে Y ৰ সন্মুখত O।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-028",
+    "q": {
+      "en": "In a building of 6 floors (ground = 1), Ravi lives on the 2th floor from the bottom. How many floors are above Ravi's floor?",
+      "as": "৬ মহলীয়া এটা ঘৰত (ভূ-তল = ১) ৰবি তলৰ পৰা ২তম মহলত থাকে। ৰবিৰ মহলৰ ওপৰত কিমান মহল আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Floors above = 6 − 2 = 4.",
+      "as": "ওপৰৰ মহল = 6 − 2 = 4।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-029",
+    "q": {
+      "en": "In a building of 8 floors, Meena lives on the 5th floor from the top. How many floors are below her floor?",
+      "as": "৮ মহলীয়া এটা ঘৰত মীনা ওপৰৰ পৰা ৫তম মহলত থাকে। তাইৰ মহলৰ তলত কিমান মহল আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Floors below = 8 − 5 = 3.",
+      "as": "তলৰ মহল = 8 − 5 = 3।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-030",
+    "q": {
+      "en": "In a building of 5 floors (ground = 1), Ravi lives on the 3th floor from the bottom. How many floors are above Ravi's floor?",
+      "as": "৫ মহলীয়া এটা ঘৰত (ভূ-তল = ১) ৰবি তলৰ পৰা ৩তম মহলত থাকে। ৰবিৰ মহলৰ ওপৰত কিমান মহল আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Floors above = 5 − 3 = 2.",
+      "as": "ওপৰৰ মহল = 5 − 3 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-031",
+    "q": {
+      "en": "In a building of 7 floors, Meena lives on the 4th floor from the top. How many floors are below her floor?",
+      "as": "৭ মহলীয়া এটা ঘৰত মীনা ওপৰৰ পৰা ৪তম মহলত থাকে। তাইৰ মহলৰ তলত কিমান মহল আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Floors below = 7 − 4 = 3.",
+      "as": "তলৰ মহল = 7 − 4 = 3।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-032",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 2nd from the left end and Esha is 5th from the left end. How many persons sit between Divya and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ২তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Divya আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-033",
+    "q": {
+      "en": "Five friends sit in a row facing north. Gita is 1st from the left end and Chetan is 2nd from the left end. How many persons sit between Gita and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Gita বাওঁমূৰৰ পৰা ১তম আৰু Chetan বাওঁমূৰৰ পৰা ২তম। Gita আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 2 − 1 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 2 − 1 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-034",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 2nd from the left end and Chetan is 5th from the left end. How many persons sit between Farid and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ২তম আৰু Chetan বাওঁমূৰৰ পৰা ৫তম। Farid আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-035",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 2nd from the left end and Farid is 5th from the left end. How many persons sit between Chetan and Farid?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ২তম আৰু Farid বাওঁমূৰৰ পৰা ৫তম। Chetan আৰু Farid ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-036",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 2nd from the left end and Esha is 4th from the left end. How many persons sit between Divya and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ২তম আৰু Esha বাওঁমূৰৰ পৰা ৪তম। Divya আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 4 − 2 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 2 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-037",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 1st from the left end and Divya is 3rd from the left end. How many persons sit between Chetan and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ১তম আৰু Divya বাওঁমূৰৰ পৰা ৩তম। Chetan আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 3 − 1 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-038",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 2nd from the left end and Hari is 4th from the left end. How many persons sit between Chetan and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ২তম আৰু Hari বাওঁমূৰৰ পৰা ৪তম। Chetan আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 4 − 2 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 2 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-039",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 1st from the left end and Bina is 3rd from the left end. How many persons sit between Chetan and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ১তম আৰু Bina বাওঁমূৰৰ পৰা ৩তম। Chetan আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 3 − 1 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-040",
+    "q": {
+      "en": "Five friends sit in a row facing north. Esha is 1st from the left end and Amit is 4th from the left end. How many persons sit between Esha and Amit?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Esha বাওঁমূৰৰ পৰা ১তম আৰু Amit বাওঁমূৰৰ পৰা ৪তম। Esha আৰু Amit ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 4 − 1 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 1 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-041",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 1st from the left end and Amit is 4th from the left end. How many persons sit between Divya and Amit?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ১তম আৰু Amit বাওঁমূৰৰ পৰা ৪তম। Divya আৰু Amit ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 4 − 1 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 1 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-042",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 2nd from the left end and Chetan is 3rd from the left end. How many persons sit between Farid and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ২তম আৰু Chetan বাওঁমূৰৰ পৰা ৩তম। Farid আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-043",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 2nd from the left end and Gita is 3rd from the left end. How many persons sit between Divya and Gita?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ২তম আৰু Gita বাওঁমূৰৰ পৰা ৩তম। Divya আৰু Gita ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-044",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 2nd from the left end and Bina is 5th from the left end. How many persons sit between Chetan and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ২তম আৰু Bina বাওঁমূৰৰ পৰা ৫তম। Chetan আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-045",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 3rd from the left end and Chetan is 4th from the left end. How many persons sit between Bina and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ৩তম আৰু Chetan বাওঁমূৰৰ পৰা ৪তম। Bina আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 4 − 3 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 3 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-046",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 1st from the left end and Divya is 4th from the left end. How many persons sit between Farid and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ১তম আৰু Divya বাওঁমূৰৰ পৰা ৪তম। Farid আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 4 − 1 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 1 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-047",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 1st from the left end and Hari is 3rd from the left end. How many persons sit between Farid and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ১তম আৰু Hari বাওঁমূৰৰ পৰা ৩তম। Farid আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 3 − 1 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-048",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 2nd from the left end and Divya is 3rd from the left end. How many persons sit between Chetan and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ২তম আৰু Divya বাওঁমূৰৰ পৰা ৩তম। Chetan আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-049",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 4th from the left end and Divya is 5th from the left end. How many persons sit between Hari and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ৪তম আৰু Divya বাওঁমূৰৰ পৰা ৫তম। Hari আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 4 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 4 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-050",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 3rd from the left end and Divya is 4th from the left end. How many persons sit between Bina and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ৩তম আৰু Divya বাওঁমূৰৰ পৰা ৪তম। Bina আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 4 − 3 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 3 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-051",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 1st from the left end and Farid is 4th from the left end. How many persons sit between Divya and Farid?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ১তম আৰু Farid বাওঁমূৰৰ পৰা ৪তম। Divya আৰু Farid ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 4 − 1 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 1 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-052",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 2nd from the left end and Divya is 3rd from the left end. How many persons sit between Bina and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ২তম আৰু Divya বাওঁমূৰৰ পৰা ৩তম। Bina আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-053",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 3rd from the left end and Esha is 5th from the left end. How many persons sit between Farid and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ৩তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Farid আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 5 − 3 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 3 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-054",
+    "q": {
+      "en": "Five friends sit in a row facing north. Amit is 2nd from the left end and Farid is 4th from the left end. How many persons sit between Amit and Farid?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Amit বাওঁমূৰৰ পৰা ২তম আৰু Farid বাওঁমূৰৰ পৰা ৪তম। Amit আৰু Farid ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 4 − 2 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 2 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-055",
+    "q": {
+      "en": "Five friends sit in a row facing north. Esha is 2nd from the left end and Hari is 4th from the left end. How many persons sit between Esha and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Esha বাওঁমূৰৰ পৰা ২তম আৰু Hari বাওঁমূৰৰ পৰা ৪তম। Esha আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 4 − 2 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 2 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-056",
+    "q": {
+      "en": "Five friends sit in a row facing north. Farid is 4th from the left end and Bina is 5th from the left end. How many persons sit between Farid and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Farid বাওঁমূৰৰ পৰা ৪তম আৰু Bina বাওঁমূৰৰ পৰা ৫তম। Farid আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 4 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 4 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-057",
+    "q": {
+      "en": "Five friends sit in a row facing north. Esha is 2nd from the left end and Divya is 3rd from the left end. How many persons sit between Esha and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Esha বাওঁমূৰৰ পৰা ২তম আৰু Divya বাওঁমূৰৰ পৰা ৩তম। Esha আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-058",
+    "q": {
+      "en": "Five friends sit in a row facing north. Amit is 2nd from the left end and Hari is 3rd from the left end. How many persons sit between Amit and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Amit বাওঁমূৰৰ পৰা ২তম আৰু Hari বাওঁমূৰৰ পৰা ৩তম। Amit আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-059",
+    "q": {
+      "en": "Five friends sit in a row facing north. Amit is 3rd from the left end and Esha is 4th from the left end. How many persons sit between Amit and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Amit বাওঁমূৰৰ পৰা ৩তম আৰু Esha বাওঁমূৰৰ পৰা ৪তম। Amit আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 4 − 3 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 3 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-060",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 1st from the left end and Divya is 3rd from the left end. How many persons sit between Hari and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ১তম আৰু Divya বাওঁমূৰৰ পৰা ৩তম। Hari আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 3 − 1 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-061",
+    "q": {
+      "en": "Six friends sit in a row facing north. Anil is 2nd from the left end and Deepak is 6th from the left end. How many persons sit between Anil and Deepak?",
+      "as": "উত্তৰমুখী এটা শাৰীত ছজন বন্ধু বহি আছে। Anil বাওঁমূৰৰ পৰা ২তম আৰু Deepak বাওঁমূৰৰ পৰা ৬তম। Anil আৰু Deepak ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 6 − 2 − 1 = 3.",
+      "as": "তেওঁলোকৰ মাজত = ৬ − ২ − ১ = ৩।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-062",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 1st from the left end and Esha is 5th from the left end. How many persons sit between Bina and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ১তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Bina আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 1 − 1 = 3.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 1 − 1 = 3।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-063",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 2nd from the left end and Hari is 3rd from the left end. How many persons sit between Bina and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ২তম আৰু Hari বাওঁমূৰৰ পৰা ৩তম। Bina আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-064",
+    "q": {
+      "en": "Five friends sit in a row facing north. Gita is 2nd from the left end and Farid is 3rd from the left end. How many persons sit between Gita and Farid?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Gita বাওঁমূৰৰ পৰা ২তম আৰু Farid বাওঁমূৰৰ পৰা ৩তম। Gita আৰু Farid ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 3 − 2 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 2 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-065",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 2nd from the left end and Chetan is 5th from the left end. How many persons sit between Hari and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ২তম আৰু Chetan বাওঁমূৰৰ পৰা ৫তম। Hari আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-066",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 3rd from the left end and Esha is 5th from the left end. How many persons sit between Chetan and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ৩তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Chetan আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 3 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 3 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-067",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 4th from the left end and Esha is 5th from the left end. How many persons sit between Divya and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ৪তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Divya আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 5 − 4 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 4 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-068",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 1st from the left end and Farid is 5th from the left end. How many persons sit between Bina and Farid?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ১তম আৰু Farid বাওঁমূৰৰ পৰা ৫তম। Bina আৰু Farid ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 5 − 1 − 1 = 3.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 1 − 1 = 3।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-069",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 1st from the left end and Divya is 2nd from the left end. How many persons sit between Chetan and Divya?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ১তম আৰু Divya বাওঁমূৰৰ পৰা ২তম। Chetan আৰু Divya ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 2 − 1 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 2 − 1 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-070",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 4th from the left end and Esha is 5th from the left end. How many persons sit between Hari and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ৪তম আৰু Esha বাওঁমূৰৰ পৰা ৫তম। Hari আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 4 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 4 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-071",
+    "q": {
+      "en": "Five friends sit in a row facing north. Gita is 1st from the left end and Bina is 2nd from the left end. How many persons sit between Gita and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Gita বাওঁমূৰৰ পৰা ১তম আৰু Bina বাওঁমূৰৰ পৰা ২তম। Gita আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 2 − 1 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 2 − 1 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-072",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 1st from the left end and Hari is 3rd from the left end. How many persons sit between Chetan and Hari?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ১তম আৰু Hari বাওঁমূৰৰ পৰা ৩তম। Chetan আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 3 − 1 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-073",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 2nd from the left end and Amit is 5th from the left end. How many persons sit between Chetan and Amit?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ২তম আৰু Amit বাওঁমূৰৰ পৰা ৫তম। Chetan আৰু Amit ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Between them = 5 − 2 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 2 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-074",
+    "q": {
+      "en": "Six friends sit in a row facing north. Meera is 3rd from the left end and Sanjay is 6th from the left end. How many persons sit between Meera and Sanjay?",
+      "as": "উত্তৰমুখী এটা শাৰীত ছজন বন্ধু বহি আছে। Meera বাওঁমূৰৰ পৰা ৩তম আৰু Sanjay বাওঁমূৰৰ পৰা ৬তম। Meera আৰু Sanjay ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 6 − 3 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = ৬ − ৩ − ১ = ২।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-075",
+    "q": {
+      "en": "Five friends sit in a row facing north. Divya is 1st from the left end and Bina is 5th from the left end. How many persons sit between Divya and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Divya বাওঁমূৰৰ পৰা ১তম আৰু Bina বাওঁমূৰৰ পৰা ৫তম। Divya আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 1 − 1 = 3.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 1 − 1 = 3।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-076",
+    "q": {
+      "en": "Six friends sit in a row facing north. Riya is 4th from the left end and Karan is 5th from the left end. How many persons sit between Riya and Karan?",
+      "as": "উত্তৰমুখী এটা শাৰীত ছজন বন্ধু বহি আছে। Riya বাওঁমূৰৰ পৰা ৪তম আৰু Karan বাওঁমূৰৰ পৰা ৫তম। Riya আৰু Karan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 4 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = ৫ − ৪ − ১ = ০।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-077",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 1st from the left end and Gita is 4th from the left end. How many persons sit between Hari and Gita?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ১তম আৰু Gita বাওঁমূৰৰ পৰা ৪তম। Hari আৰু Gita ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Between them = 4 − 1 − 1 = 2.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 1 − 1 = 2।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-078",
+    "q": {
+      "en": "Five friends sit in a row facing north. Chetan is 3rd from the left end and Bina is 5th from the left end. How many persons sit between Chetan and Bina?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ৩তম আৰু Bina বাওঁমূৰৰ পৰা ৫তম। Chetan আৰু Bina ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 5 − 3 − 1 = 1.",
+      "as": "তেওঁলোকৰ মাজত = 5 − 3 − 1 = 1।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-079",
+    "q": {
+      "en": "Five friends sit in a row facing north. Hari is 3rd from the left end and Esha is 4th from the left end. How many persons sit between Hari and Esha?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Hari বাওঁমূৰৰ পৰা ৩তম আৰু Esha বাওঁমূৰৰ পৰা ৪তম। Hari আৰু Esha ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Between them = 4 − 3 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 4 − 3 − 1 = 0।"
+    }
+  },
+  {
+    "id": "sitting-arrangement-080",
+    "q": {
+      "en": "Five friends sit in a row facing north. Bina is 1st from the left end and Chetan is 2nd from the left end. How many persons sit between Bina and Chetan?",
+      "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ১তম আৰু Chetan বাওঁমূৰৰ পৰা ২তম। Bina আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Between them = 2 − 1 − 1 = 0.",
+      "as": "তেওঁলোকৰ মাজত = 2 − 1 − 1 = 0।"
+    }
+  }
+]

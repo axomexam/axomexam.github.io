@@ -1,0 +1,3089 @@
+{
+  "setNumber": 3,
+  "title": "Full Paper Set 3",
+  "exam": "rrb-ntpc",
+  "blueprint": {
+    "durationMinutes": 90,
+    "totalMarks": 100,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0.33,
+    "sections": [
+      {
+        "id": "mathematics",
+        "questions": 30,
+        "label": {
+          "en": "Section A: Mathematics",
+          "as": "শাখা A: গণিত"
+        }
+      },
+      {
+        "id": "reasoning",
+        "questions": 30,
+        "label": {
+          "en": "Section B: General Intelligence & Reasoning",
+          "as": "শাখা B: সাধাৰণ বুদ্ধিমত্তা আৰু যুক্তি"
+        }
+      },
+      {
+        "id": "general-awareness",
+        "questions": 40,
+        "label": {
+          "en": "Section C: General Awareness",
+          "as": "শাখা C: সাধাৰণ জ্ঞান"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "race-circular-track-038",
+      "q": {
+        "en": "On a 600 m circular track, A runs at 11 m/s and B at 8 m/s in the same direction. A laps B after:",
+        "as": "৬০০ মি.ৰ এটা বৃত্তাকাৰ পথত A এ ১১ মি./ছে. আৰু B এ ৮ মি./ছে. গতিত একেই দিশত দৌৰে। A এ B ক আগ বাঢ়ি যাবলৈ লোৱা সময়:"
+      },
+      "options": [
+        {
+          "en": "100 s",
+          "as": "১০০ s"
+        },
+        {
+          "en": "120 s",
+          "as": "১২০ s"
+        },
+        {
+          "en": "300 s",
+          "as": "৩০০ s"
+        },
+        {
+          "en": "200 s",
+          "as": "২০০ s"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Relative speed = 3 m/s, so the time is 600 ÷ 3 = 200 s.",
+        "as": "আপেক্ষিক গতি = ৩ মি./ছে., গতিকে সময় = ৬০০ ÷ ৩ = ২০০ ছে.।"
+      }
+    },
+    {
+      "id": "cause-effect-053",
+      "q": {
+        "en": "Event I: Rice prices rose in the market. Event II: A drought reduced the paddy harvest. What is the relationship between the two events?",
+        "as": "ঘটনা I: বজাৰত চাউলৰ দাম বাঢ়িল। ঘটনা II: খৰাংএ ধানৰ ফলন কমাই দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+      },
+      "options": [
+        {
+          "en": "Both are effects of a common cause",
+          "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+        },
+        {
+          "en": "II is the cause and I is its effect",
+          "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+        },
+        {
+          "en": "Both are independent and have no causal link",
+          "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+        },
+        {
+          "en": "I is the cause and II is its effect",
+          "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+        "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+      }
+    },
+    {
+      "id": "partnership-047",
+      "q": {
+        "en": "A invests ₹10,000 and after 4 months doubles it. B invests ₹12,000 for the whole year. The ratio of their profits is:",
+        "as": "A এ ₹১০,০০০ বিনিয়োগ কৰি ৪ মাহৰ পিছত দুগুণ কৰে। B এ গোটেই বছৰ ₹১২,০০০ বিনিয়োগ কৰে। সিহঁতৰ লাভৰ অনুপাত হ'ল:"
+      },
+      "options": [
+        {
+          "en": "18 : 25",
+          "as": "১৮ : ২৫"
+        },
+        {
+          "en": "5 : 6",
+          "as": "৫ : ৬"
+        },
+        {
+          "en": "25 : 18",
+          "as": "২৫ : ১৮"
+        },
+        {
+          "en": "10 : 12",
+          "as": "১০ : ১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A = 10000 × 4 + 20000 × 8 = 200000 and B = 12000 × 12 = 144000, so the ratio is 25 : 18.",
+        "as": "A = ১০০০০ × ৪ + ২০০০০ × ৮ = ২০০০০০ আৰু B = ১২০০০ × ১২ = ১৪৪০০০, গতিকে অনুপাত ২৫ : ১৮।"
+      }
+    },
+    {
+      "id": "syllogism-058",
+      "q": {
+        "en": "Statements: All mangoes are fruits. No fruits are food. All food are things. Therefore:",
+        "as": "বিবৃতি: সকলো আম ফল। কোনো ফল খাদ্য নহয়। সকলো খাদ্য বস্তু। গতিকে:"
+      },
+      "options": [
+        {
+          "en": "Some mangoes are things",
+          "as": "কিছু আম বস্তু"
+        },
+        {
+          "en": "All fruits are things",
+          "as": "সকলো ফল বস্তু"
+        },
+        {
+          "en": "Some food are not mangoes",
+          "as": "কিছু খাদ্য আম নহয়"
+        },
+        {
+          "en": "All fruits are food",
+          "as": "সকলো ফল খাদ্য"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Only “Some food are not mangoes” holds in every model of the statements; each other option can be made false, so it does not follow.",
+        "as": "কেৱল “কিছু খাদ্য আম নহয়” বিবৃতিসমূহৰ প্ৰতিটো মডেলত সত্য; বাকী বিকল্প মিছা কৰিব পাৰি, গতিকে অনুসৰণ নকৰে।"
+      }
+    },
+    {
+      "id": "modern-history-237",
+      "q": {
+        "en": "Which reformer was the chairman of the drafting committee of the Indian Constitution?",
+        "as": "ভাৰতীয় সংবিধান প্ৰণয়ন কৰা খচৰা সমিতিৰ মুৰব্বী কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "B. R. Ambedkar",
+          "as": "বি. আৰ. আম্বেদকৰ"
+        },
+        {
+          "en": "Rajendra Prasad",
+          "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
+        },
+        {
+          "en": "Jawaharlal Nehru",
+          "as": "জৱাহৰলাল নেহৰু"
+        },
+        {
+          "en": "Sardar Patel",
+          "as": "সৰদাৰ পেটেল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The drafting committee of the Indian Constitution was chaired by Dr B. R. Ambedkar.",
+        "as": "ভাৰতীয় সংবিধানৰ খচৰা সমিতিৰ অধ্যক্ষতা কৰিছিল ড° বি. আৰ. আম্বেদকৰে।"
+      }
+    },
+    {
+      "id": "partnership-013",
+      "q": {
+        "en": "A invests ₹8,000 for the whole year and B invests ₹12,000 but withdraws it after 6 months. The ratio of their profits is:",
+        "as": "A এ গোটেই বছৰ ₹৮,০০০ বিনিয়োগ কৰে আৰু B এ ₹১২,০০০ বিনিয়োগ কৰি ৬ মাহৰ পিছত উঠাই লয়। সিহঁতৰ লাভৰ অনুপাত হ'ল:"
+      },
+      "options": [
+        {
+          "en": "3 : 4",
+          "as": "৩ : ৪"
+        },
+        {
+          "en": "2 : 3",
+          "as": "২ : ৩"
+        },
+        {
+          "en": "8 : 12",
+          "as": "৮ : ১২"
+        },
+        {
+          "en": "4 : 3",
+          "as": "৪ : ৩"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A : B = 8000 × 12 : 12000 × 6 = 96000 : 72000 = 4 : 3.",
+        "as": "A : B = ৮০০০ × ১২ : ১২০০০ × ৬ = ৯৬০০০ : ৭২০০০ = ৪ : ৩।"
+      }
+    },
+    {
+      "id": "statement-assumptions-057",
+      "q": {
+        "en": "Statement: The bank will install cash machines in the villages. Assumptions: I. The bank wants to reach villagers. II. The bank can install the machines.",
+        "as": "বিবৃতি: বেংকটোৱে গাঁওবোৰত নগদ ধনৰ মেচিন লগাব। ধাৰণা: I. বেংকটোৱে গাঁৱৰ লোকে পালৈ পাব বিচাৰে। II. বেংকটোৱে মেচিনবোৰ লগাব পাৰে।"
+      },
+      "options": [
+        {
+          "en": "Only assumption II is implicit",
+          "as": "কেৱল ধাৰণা II অন্তৰ্নিহিত"
+        },
+        {
+          "en": "Neither assumption is implicit",
+          "as": "কোনো এটাও ধৰণা অন্তৰ্নিহিত নহয়"
+        },
+        {
+          "en": "Only assumption I is implicit",
+          "as": "কেৱল ধাৰণা I অন্তৰ্নিহিত"
+        },
+        {
+          "en": "Both assumptions are implicit",
+          "as": "দুয়োটা ধাৰণাই অন্তৰ্নিহিত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Assumption I is implicit and assumption II is implicit for the statement, which gives the answer.",
+        "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত আৰু ধাৰণা II অন্তৰ্নিহিত, যাৰ পৰা উত্তৰ পোৱা যায়।"
+      }
+    },
+    {
+      "id": "constitution-285",
+      "q": {
+        "en": "The law declared by the Supreme Court is binding on all courts under:",
+        "as": "সৰ্বোচ্চ ন্যায়ালয়ে ঘোষণা কৰা আইন ক'ত সকলো আদালতৰ ওপৰত বাধ্যতামূলক?"
+      },
+      "options": [
+        {
+          "en": "Article 142",
+          "as": "অনুচ্ছেদ ১৪২"
+        },
+        {
+          "en": "Article 143",
+          "as": "অনুচ্ছেদ ১৪৩"
+        },
+        {
+          "en": "Article 141",
+          "as": "অনুচ্ছেদ ১৪১"
+        },
+        {
+          "en": "Article 144",
+          "as": "অনুচ্ছেদ ১৪৪"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Article 141 says the law declared by the Supreme Court is binding on all courts.",
+        "as": "অনুচ্ছেদ ১৪১ এ কয় যে সৰ্বোচ্চ ন্যায়ালয়ে ঘোষণা কৰা আইন সকলো আদালতৰ ওপৰত বাধ্যতামূলক।"
+      }
+    },
+    {
+      "id": "miscellaneous-static-gk-109",
+      "q": {
+        "en": "Where is the headquarters of the Reserve Bank of India located?",
+        "as": "ভাৰতীয় ৰিজাৰ্ভ বেংকৰ মুখ্য কাৰ্যালয় কোন চহৰত?"
+      },
+      "options": [
+        {
+          "en": "New Delhi",
+          "as": "নতুন দিল্লী"
+        },
+        {
+          "en": "Kolkata",
+          "as": "কলকাতা"
+        },
+        {
+          "en": "Mumbai",
+          "as": "মুম্বাই"
+        },
+        {
+          "en": "Chennai",
+          "as": "চেন্নাই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Reserve Bank of India is headquartered in Mumbai.",
+        "as": "মুম্বাই হ'ল ভাৰতীয় ৰিজাৰ্ভ বেংকৰ মুখ্য কাৰ্যালয়ৰ স্থান।"
+      }
+    },
+    {
+      "id": "race-circular-track-064",
+      "q": {
+        "en": "In a 120 m race, A gives B a start of 10 m and still beats him by 10 m. The ratio of their speeds is:",
+        "as": "১২০ মিটাৰৰ এটা দৌৰত A এ B ক ১০ মি.ৰ আগ ধৰি দিয়েও ১০ মি.ৰ ব্যৱধানত পৰাস্ত কৰে। তেওঁলোকৰ গতিৰ অনুপাত:"
+      },
+      "options": [
+        {
+          "en": "5 : 6",
+          "as": "৫ : ৬"
+        },
+        {
+          "en": "6 : 5",
+          "as": "৬ : ৫"
+        },
+        {
+          "en": "12 : 11",
+          "as": "১২ : ১১"
+        },
+        {
+          "en": "11 : 10",
+          "as": "১১ : ১০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "When A runs 120 m, B runs 120 − 10 − 10 = 100 m, so the ratio is 120 : 100 = 6 : 5.",
+        "as": "A এ ১২০ মি. দৌৰোঁতে B এ ১২০ − ১০ − ১০ = ১০০ মি. দৌৰে, গতিকে অনুপাত ১২০ : ১০০ = ৬ : ৫।"
+      }
+    },
+    {
+      "id": "statement-course-of-action-058",
+      "q": {
+        "en": "Statement: Many children in a slum area are not attending school at all. Courses of action: I. A door-to-door survey should be done to find out-of-school children. II. Their parents should be counselled and helped to send them to school. Which of the following is correct?",
+        "as": "বিবৃতি: এটা বস্তি অঞ্চলত বহু শিশুৱে বিদ্যালয়লৈ একেবাৰেই যোৱা নাই কাৰ্যপন্থা: I. বিদ্যালয়ৰ বাহিৰত থকা শিশু বিচাৰিবলৈ ঘৰে ঘৰে সমীক্ষা কৰা উচিত II. তেওঁলোকৰ অভিভাৱকক পৰামৰ্শ দি সন্তানক বিদ্যালয়লৈ পঠিয়াবলৈ সহায় কৰা উচিত তলৰ কোনটো শুদ্ধ?"
+      },
+      "options": [
+        {
+          "en": "Only course of action I follows",
+          "as": "কেৱল কাৰ্যপন্থা I গ্ৰহণযোগ্য"
+        },
+        {
+          "en": "Only course of action II follows",
+          "as": "কেৱল কাৰ্যপন্থা II গ্ৰহণযোগ্য"
+        },
+        {
+          "en": "Both courses of action I and II follow",
+          "as": "কাৰ্যপন্থা I আৰু II দুয়ো গ্ৰহণযোগ্য"
+        },
+        {
+          "en": "Neither course of action I nor II follows",
+          "as": "কাৰ্যপন্থা I আৰু II কোনোৱেই গ্ৰহণযোগ্য নহয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Both courses of action are practical steps that address the problem.",
+        "as": "দুয়োটা কাৰ্যপন্থাই সমস্যাটো সমাধান কৰা বাস্তৱসন্মত পদক্ষেপ।"
+      }
+    },
+    {
+      "id": "mathematical-operations-062",
+      "q": {
+        "en": "If 6 @ 2 = 36 and 4 @ 3 = 64, then 5 @ 2 = ?",
+        "as": "যদি ৬ @ ২ = ৩৬ and ৪ @ ৩ = ৬৪, তেন্তে ৫ @ ২ = ?"
+      },
+      "options": [
+        {
+          "en": "50",
+          "as": "৫০"
+        },
+        {
+          "en": "48",
+          "as": "৪৮"
+        },
+        {
+          "en": "49",
+          "as": "৪৯"
+        },
+        {
+          "en": "51",
+          "as": "৫১"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The rule is that a @ b means (a + b)², so 5 @ 2 = 49.",
+        "as": "নিয়মটো হ'ল a @ b means (a + b)², গতিকে ৫ @ ২ = ৪৯।"
+      }
+    },
+    {
+      "id": "government-schemes-initiatives-052",
+      "q": {
+        "en": "The 'PM Gati Shakti' National Master Plan is primarily aimed at which objective?",
+        "as": "'পিএম গতি শক্তি' ৰাষ্ট্ৰীয় মুখ্য পৰিকল্পনা প্ৰাথমিকভাৱে কোন লক্ষ্যৰ বাবে?"
+      },
+      "options": [
+        {
+          "en": "Integrated multimodal infrastructure planning",
+          "as": "একত্ৰিত বহুমুখী আন্তঃগাঁথনি পৰিকল্পনা"
+        },
+        {
+          "en": "Providing free food grains",
+          "as": "বিনামূলীয়া খাদ্যশস্য প্ৰদান"
+        },
+        {
+          "en": "Skill training for youth",
+          "as": "যুৱক-যুৱতীৰ দক্ষতা প্ৰশিক্ষণ"
+        },
+        {
+          "en": "Rural sanitation",
+          "as": "গ্ৰাম্য পৰিষ্কাৰ-পৰিচ্ছন্নতা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "PM Gati Shakti is a digital platform that brings 16 ministries together for integrated planning of multimodal infrastructure connectivity.",
+        "as": "পিএম গতি শক্তি এটা ডিজিটেল মঞ্চ যিয়ে বহুমুখী আন্তঃগাঁথনি সংযোগৰ একত্ৰিত পৰিকল্পনাৰ বাবে ১৬ টা মন্ত্ৰালয়ক একত্ৰিত কৰে।"
+      }
+    },
+    {
+      "id": "national-international-news-024",
+      "q": {
+        "en": "An outbreak of which virus was reported in West Bengal in January 2026?",
+        "as": "২০২৬ চনৰ জানুৱাৰীত পশ্চিম বংগত কোনটো ভাইৰাছৰ প্ৰাদুৰ্ভাৱ প্ৰতিবেদন কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Zika virus",
+          "as": "জিকা ভাইৰাছ"
+        },
+        {
+          "en": "Dengue virus",
+          "as": "ডেংগু ভাইৰাছ"
+        },
+        {
+          "en": "Nipah virus",
+          "as": "নিপাহ ভাইৰাছ"
+        },
+        {
+          "en": "Japanese encephalitis",
+          "as": "জাপানী এনকেফালাইটিছ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "An outbreak of Nipah virus was reported in West Bengal in January 2026, with cases in Barasat.",
+        "as": "২০২৬ চনৰ জানুৱাৰীত পশ্চিম বংগত নিপাহ ভাইৰাছৰ প্ৰাদুৰ্ভাৱ প্ৰতিবেদন কৰা হৈছিল, বাৰাছাতত ৰোগী ধৰা পৰিছিল।"
+      }
+    },
+    {
+      "id": "lcm-hcf-063",
+      "q": {
+        "en": "The greatest number that divides 131, 197 and 263 leaving a remainder of 3 in each case is:",
+        "as": "১৩১, ১৯৭ আৰু ২৬৩ ক হৰণ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ৩ ৰ ভাগশেষ ৰখা আটাইতকৈ ডাঙৰ সংখ্যা হ'ল:"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "It is HCF(131 − 3, 197 − 3, 263 − 3) = HCF(128, 194, 260) = 2.",
+        "as": "ই হৈছে গ.সা.গু.(১৩১ − ৩, ১৯৭ − ৩, ২৬৩ − ৩) = গ.সা.গু.(১২৮, ১৯৪, ২৬০) = ২।"
+      }
+    },
+    {
+      "id": "simple-interest-002",
+      "q": {
+        "en": "The simple interest on ₹4,500 at 4% per annum for 3 years 4 months is:",
+        "as": "₹৪,৫০০ ৰ ওপৰত বছৰি ৪% হাৰে ৩ বছৰ ৪ মাহৰ সৰল সুত হ'ল:"
+      },
+      "options": [
+        {
+          "en": "₹600",
+          "as": "₹৬০০"
+        },
+        {
+          "en": "₹540",
+          "as": "₹৫৪০"
+        },
+        {
+          "en": "₹630",
+          "as": "₹৬৩০"
+        },
+        {
+          "en": "₹660",
+          "as": "₹৬৬০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = 3 + 4/12 = 10/3 years, so SI = (4500 × 4 × 10) ÷ (100 × 3) = ₹600.",
+        "as": "সময় = ৩ + ৪/১২ = ১০/৩ বছৰ, গতিকে সৰল সুত = (৪৫০০ × ৪ × ১০) ÷ (১০০ × ৩) = ₹৬০০।"
+      }
+    },
+    {
+      "id": "square-cube-root-058",
+      "q": {
+        "en": "The cube root of a perfect cube ending in 8 will end in:",
+        "as": "৮ ৰে শেষ হোৱা পূৰ্ণঘনৰ ঘনমূল শেষ হ'ব:"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The cube of a number ending in 2 ends in 8.",
+        "as": "২ ৰে শেষ হোৱা সংখ্যাৰ ঘন ৮ ৰে শেষ হয়।"
+      }
+    },
+    {
+      "id": "constitution-096",
+      "q": {
+        "en": "The right to education was made a Fundamental Right by which amendment?",
+        "as": "শিক্ষাৰ অধিকাৰ কোনটো সংশোধনীৰ দ্বাৰা মৌলিক অধিকাৰ কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "42nd Amendment",
+          "as": "৪২ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "86th Amendment",
+          "as": "৮৬ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "44th Amendment",
+          "as": "৪৪ সংখ্যক সংশোধনী"
+        },
+        {
+          "en": "73rd Amendment",
+          "as": "৭৩ সংখ্যক সংশোধনী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The 86th Amendment of 2002 inserted Article 21A on the right to education.",
+        "as": "২০০২ চনৰ ৮৬ সংখ্যক সংশোধনীয়ে শিক্ষাৰ অধিকাৰৰ ওপৰত অনুচ্ছেদ ২১ক সন্নিবিষ্ট কৰিছিল।"
+      }
+    },
+    {
+      "id": "mirror-water-image-016",
+      "q": {
+        "en": "Choose the correct water image (top-bottom reflection) of the given figure.",
+        "as": "দিয়া চিত্ৰখনৰ শুদ্ধ জল প্ৰতিবিম্ব (ওপৰ-তল প্ৰতিফলন) নিৰ্বাচন কৰক।"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"28.0\" x2=\"50.0\" y2=\"82.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,82.0 41.0,68.0 59.0,68.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"42.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"28.0\" x2=\"50.0\" y2=\"82.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,82.0 59.0,68.0 41.0,68.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"42.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"72.0\" x2=\"50.0\" y2=\"18.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,18.0 59.0,32.0 41.0,32.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"35.0\" cy=\"58.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><line x1=\"50.0\" y1=\"72.0\" x2=\"50.0\" y2=\"18.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,18.0 41.0,32.0 59.0,32.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"58.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 140\" width=\"240\" height=\"168\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"51.0\" y1=\"76.2\" x2=\"51.0\" y2=\"34.0\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"51.0,34.0 58.0,45.0 44.0,45.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"39.3\" cy=\"65.2\" r=\"5\" fill=\"#334155\"/><line x1=\"14\" y1=\"118\" x2=\"150\" y2=\"118\" stroke=\"#93c5fd\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/></svg>",
+      "explanation": {
+        "en": "A water image reverses the figure top to bottom, so the reflection across the horizontal line is the answer.",
+        "as": "জল প্ৰতিবিম্বই চিত্ৰখন ওপৰৰ পৰা তললৈ ওলোটা কৰে, সেয়ে আনুভূমিক ৰেখাৰ প্ৰতিফলনটোৱেই উত্তৰ।"
+      }
+    },
+    {
+      "id": "analogy-025",
+      "q": {
+        "en": "CAT turns into DBU under a rule. Applying it, DOG becomes:",
+        "as": "এক নিয়মত CAT হৈ পৰে DBU। সেই নিয়ম প্ৰয়োগ কৰিলে DOG হৈ পৰে:"
+      },
+      "options": [
+        {
+          "en": "EOH",
+          "as": "EOH"
+        },
+        {
+          "en": "EPH",
+          "as": "EPH"
+        },
+        {
+          "en": "EPI",
+          "as": "EPI"
+        },
+        {
+          "en": "DPH",
+          "as": "DPH"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Each letter moves one step forward, changing D, O and G into E, P and H.",
+        "as": "প্ৰতিটো আখৰ এখোজ আগুৱায়, D, O, G হৈ পৰে E, P, H।"
+      }
+    },
+    {
+      "id": "ratio-proportion-030",
+      "q": {
+        "en": "The ratio of two numbers is 3 : 5 and their LCM is 150. The smaller number is:",
+        "as": "দুটা সংখ্যাৰ অনুপাত ৩ : ৫ আৰু সিহঁতৰ ল.সা.গু. ১৫০। সৰু সংখ্যাটো হ'ল:"
+      },
+      "options": [
+        {
+          "en": "45",
+          "as": "৪৫"
+        },
+        {
+          "en": "60",
+          "as": "৬০"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "30",
+          "as": "৩০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The numbers are 3x and 5x with LCM 15x = 150, so x = 10 and the smaller is 30.",
+        "as": "সংখ্যা দুটা ৩x আৰু ৫x, ল.সা.গু. ১৫x = ১৫০, গতিকে x = ১০ আৰু সৰুটো ৩০।"
+      }
+    },
+    {
+      "id": "order-ranking-008",
+      "q": {
+        "en": "Ravi stands 25th from the top in a class of 60 students. Find his rank counted from the bottom.",
+        "as": "৬০ জন ছাত্ৰ থকা এটা শ্ৰেণীত ৰবি ওপৰৰ পৰা ২৫তম। তলৰ পৰা গণনা কৰিলে তেওঁৰ স্থান কিমান?"
+      },
+      "options": [
+        {
+          "en": "37th",
+          "as": "৩৭তম"
+        },
+        {
+          "en": "35th",
+          "as": "৩৫তম"
+        },
+        {
+          "en": "36th",
+          "as": "৩৬তম"
+        },
+        {
+          "en": "38th",
+          "as": "৩৮তম"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Counting upwards from the bottom: 60 − 25 + 1 = 36.",
+        "as": "তলৰ পৰা ওপৰলৈ গণনা: 60 − 25 + 1 = 36।"
+      }
+    },
+    {
+      "id": "basic-computers-212",
+      "q": {
+        "en": "Which folder in an email client stores messages that have been written but not yet sent?",
+        "as": "ইমেইল ক্লায়েণ্টৰ কোন ফল্ডাৰে লিখা কিন্তু এতিয়াও নপঠিওৱা বাৰ্তা সংৰক্ষণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Inbox",
+          "as": "ইনবক্স"
+        },
+        {
+          "en": "Drafts",
+          "as": "ড্ৰাফ্টছ"
+        },
+        {
+          "en": "Sent",
+          "as": "চেণ্ট"
+        },
+        {
+          "en": "Archive",
+          "as": "আৰ্কাইভ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Drafts folder stores messages that have been written but not yet sent.",
+        "as": "ড্ৰাফ্টছ ফল্ডাৰে লিখা কিন্তু এতিয়াও নপঠিওৱা বাৰ্তা সংৰক্ষণ কৰে।"
+      }
+    },
+    {
+      "id": "mirror-water-image-042",
+      "q": {
+        "en": "Choose the correct water image (top-bottom reflection) of the given figure.",
+        "as": "দিয়া চিত্ৰখনৰ শুদ্ধ জল প্ৰতিবিম্ব (ওপৰ-তল প্ৰতিফলন) নিৰ্বাচন কৰক।"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"34.0,24.0 56.0,24.0 56.0,62.0 72.0,62.0 72.0,80.0 34.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"44.0\" cy=\"32.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"66.0,24.0 44.0,24.0 44.0,62.0 28.0,62.0 28.0,80.0 66.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"56.0\" cy=\"32.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"66.0,76.0 44.0,76.0 44.0,38.0 28.0,38.0 28.0,20.0 66.0,20.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"56.0\" cy=\"68.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"34.0,76.0 56.0,76.0 56.0,38.0 72.0,38.0 72.0,20.0 34.0,20.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"44.0\" cy=\"68.0\" r=\"5\" fill=\"#334155\"/></svg>"
+        }
+      ],
+      "correct": 3,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 140\" width=\"240\" height=\"168\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"38.5,38.7 55.7,38.7 55.7,68.4 68.2,68.4 68.2,82.4 38.5,82.4\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"46.3\" cy=\"45.0\" r=\"5\" fill=\"#334155\"/><line x1=\"14\" y1=\"118\" x2=\"150\" y2=\"118\" stroke=\"#93c5fd\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/></svg>",
+      "explanation": {
+        "en": "A water image reverses the figure top to bottom, so the reflection across the horizontal line is the answer.",
+        "as": "জল প্ৰতিবিম্বই চিত্ৰখন ওপৰৰ পৰা তললৈ ওলোটা কৰে, সেয়ে আনুভূমিক ৰেখাৰ প্ৰতিফলনটোৱেই উত্তৰ।"
+      }
+    },
+    {
+      "id": "indian-geography-201",
+      "q": {
+        "en": "The national park famous for the Asiatic lion is:",
+        "as": "এছিয়াটিক সিংহৰ বাবে বিখ্যাত ৰাষ্ট্ৰীয় উদ্যানখন হ'ল:"
+      },
+      "options": [
+        {
+          "en": "Kaziranga National Park",
+          "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Gir National Park",
+          "as": "গিৰ ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Jim Corbett National Park",
+          "as": "জিম কৰবেট ৰাষ্ট্ৰীয় উদ্যান"
+        },
+        {
+          "en": "Ranthambore National Park",
+          "as": "ৰণথম্ভোৰ ৰাষ্ট্ৰীয় উদ্যান"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Gir National Park in Gujarat is the last home of the Asiatic lion.",
+        "as": "গুজৰাটৰ গিৰ ৰাষ্ট্ৰীয় উদ্যান এছিয়াটিক সিংহৰ অন্তিম ঘৰ।"
+      }
+    },
+    {
+      "id": "modern-history-139",
+      "q": {
+        "en": "Which title did Rabindranath Tagore renounce in protest against the Jallianwala Bagh massacre?",
+        "as": "জালিয়ানৱালাবাগ হত্যাকাণ্ডৰ প্ৰতিবাদত ৰবীন্দ্ৰনাথ ঠাকুৰে কোন উপাধি ত্যাগ কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Bharat Ratna",
+          "as": "ভাৰত ৰত্ন"
+        },
+        {
+          "en": "Knighthood",
+          "as": "নাইট উপাধি"
+        },
+        {
+          "en": "Nobel Prize",
+          "as": "ন'বেল বঁটা"
+        },
+        {
+          "en": "Doctorate",
+          "as": "ডক্টৰেট"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Tagore renounced his knighthood in 1919 in protest against the Jallianwala Bagh massacre.",
+        "as": "ঠাকুৰে ১৯১৯ চনত জালিয়ানৱালাবাগ হত্যাকাণ্ডৰ প্ৰতিবাদত তেওঁৰ নাইট উপাধি ত্যাগ কৰিছিল।"
+      }
+    },
+    {
+      "id": "profit-loss-discount-001",
+      "q": {
+        "en": "An article bought for ₹400 is sold for ₹500. The profit percent is:",
+        "as": "₹৪০০ ত কিনা এটা বস্তু ₹৫০০ ত বিক্ৰী কৰা হয়। লাভৰ শতকৰা হাৰ:"
+      },
+      "options": [
+        {
+          "en": "15%",
+          "as": "১৫%"
+        },
+        {
+          "en": "20%",
+          "as": "২০%"
+        },
+        {
+          "en": "25%",
+          "as": "২৫%"
+        },
+        {
+          "en": "30%",
+          "as": "৩০%"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Profit % = (100 ÷ 400) × 100 = 25%.",
+        "as": "লাভ % = (১০০ ÷ ৪০০) × ১০০ = ২৫%।"
+      }
+    },
+    {
+      "id": "ancient-history-315",
+      "q": {
+        "en": "Who founded the Gupta empire in ancient India?",
+        "as": "প্ৰাচীন ভাৰতত গুপ্ত সাম্ৰাজ্য কোনে প্ৰতিষ্ঠা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Samudragupta",
+          "as": "সমুদ্ৰগুপ্ত"
+        },
+        {
+          "en": "Sri Gupta",
+          "as": "শ্ৰীগুপ্ত"
+        },
+        {
+          "en": "Skandagupta",
+          "as": "স্কন্দগুপ্ত"
+        },
+        {
+          "en": "Chandragupta I",
+          "as": "প্ৰথম চন্দ্ৰগুপ্ত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Chandragupta I, who took the title Maharajadhiraja, is generally regarded as the founder of the Gupta empire.",
+        "as": "প্ৰথম চন্দ্ৰগুপ্ত, যিয়ে মহাৰাজাধিৰাজ উপাধি লৈছিল, সাধাৰণতে গুপ্ত সাম্ৰাজ্যৰ প্ৰতিষ্ঠাপক হিচাপে গণ্য কৰা হয়।"
+      }
+    },
+    {
+      "id": "national-international-news-047",
+      "q": {
+        "en": "Who scored the winning goal in the 2026 FIFA World Cup final?",
+        "as": "২০২৬ চনৰ ফিফা বিশ্বকাপৰ ফাইনেলত জয়ী গ'ল কোনে কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Lamine Yamal",
+          "as": "লামিন ইয়ামাল"
+        },
+        {
+          "en": "Ferran Torres",
+          "as": "ফেৰান টৰেছ"
+        },
+        {
+          "en": "Álvaro Morata",
+          "as": "আলভাৰ' মৰাটা"
+        },
+        {
+          "en": "Pedri",
+          "as": "পেড্ৰী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Ferran Torres scored the only goal in the 106th minute as Spain beat Argentina 1-0 in the 2026 final.",
+        "as": "ফেৰান টৰেছে ১০৬ সংখ্যক মিনিটত একমাত্ৰ গ'ল কৰিছিল, যাৰ ফলত স্পেইনে ২০২৬ চনৰ ফাইনেলত আৰ্জেণ্টিনাক ১-০ গ'লত পৰাজিত কৰিছিল।"
+      }
+    },
+    {
+      "id": "embedded-figures-068",
+      "q": {
+        "en": "Which of the following figures is embedded (hidden) in the given figure?",
+        "as": "দিয়া চিত্ৰখনত তলৰ কোনটো চিত্ৰ সংযোজিত (লুকাই) আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"92.0,18.0 92.0,89.0 18.0,89.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"18.0,54.0 92.0,54.0 92.0,89.0 18.0,89.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"18.0,18.0 55.0,54.0 55.0,89.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"18.0,18.0 92.0,18.0 18.0,89.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"18.0,18.0 92.0,18.0 92.0,89.0 18.0,89.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"55\" y1=\"18\" x2=\"55\" y2=\"89\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"54\" x2=\"92\" y2=\"54\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"18\" x2=\"92\" y2=\"89\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"18\" y1=\"54\" x2=\"92\" y2=\"54\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
+        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+      }
+    },
+    {
+      "id": "physics-073",
+      "q": {
+        "en": "The pressure exerted by a liquid at a depth depends on the:",
+        "as": "গভীৰতাত তৰল এটাই প্ৰয়োগ কৰা চাপ কিয়ৰ ওপৰত নিৰ্ভৰ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Shape of the vessel",
+          "as": "পাত্ৰৰ আকাৰ"
+        },
+        {
+          "en": "Volume of liquid",
+          "as": "তৰলৰ আয়তন"
+        },
+        {
+          "en": "Area of the base",
+          "as": "ভূমিৰ কালি"
+        },
+        {
+          "en": "Depth and density of the liquid",
+          "as": "গভীৰতা আৰু তৰলৰ ঘনত্ব"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Liquid pressure = hρg, so it depends on depth, density and gravity.",
+        "as": "তৰলৰ চাপ = hρg, গতিকে গভীৰতা, ঘনত্ব আৰু মাধ্যাকৰ্ষণৰ ওপৰত নিৰ্ভৰ কৰে।"
+      }
+    },
+    {
+      "id": "science-tech-environment-034",
+      "q": {
+        "en": "What is a group of stars forming a recognisable pattern called?",
+        "as": "চিনাক্ত কৰিব পৰা আকৃতি গঠন কৰা তৰাৰ সমষ্টিক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Galaxy",
+          "as": "ছায়াপথ"
+        },
+        {
+          "en": "Nebula",
+          "as": "নীহাৰিকা"
+        },
+        {
+          "en": "Meteor shower",
+          "as": "উল্কাবৃষ্টি"
+        },
+        {
+          "en": "Constellation",
+          "as": "তাৰকামণ্ডল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A constellation is a group of stars forming a recognisable pattern.",
+        "as": "তাৰকামণ্ডল হ'ল চিনাক্ত কৰিব পৰা আকৃতি গঠন কৰা তৰাৰ সমষ্টি।"
+      }
+    },
+    {
+      "id": "modern-history-417",
+      "q": {
+        "en": "Which Viceroy is associated with the appointment of the Simon Commission?",
+        "as": "চাইমন আয়োগ নিযুক্তিৰ সৈতে কোন ভাইচৰয় জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Lord Irwin",
+          "as": "লৰ্ড ইৰৱিন"
+        },
+        {
+          "en": "Lord Reading",
+          "as": "লৰ্ড ৰিডিং"
+        },
+        {
+          "en": "Lord Chelmsford",
+          "as": "লৰ্ড চেমছফৰ্ড"
+        },
+        {
+          "en": "Lord Willingdon",
+          "as": "লৰ্ড ৱিলিংডন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Simon Commission was appointed in 1927 during Lord Irwin's viceroyalty.",
+        "as": "চাইমন আয়োগ ১৯২৭ চনত লৰ্ড ইৰৱিনৰ ভাইচৰয়ত্বকালত নিযুক্ত কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "indian-economy-383",
+      "q": {
+        "en": "Which index represents the National Stock Exchange of India?",
+        "as": "কোন সূচকে ভাৰতৰ ৰাষ্ট্ৰীয় শ্বেয়াৰ বজাৰক প্ৰতিনিধিত্ব কৰে?"
+      },
+      "options": [
+        {
+          "en": "The Sensex",
+          "as": "ছেনছেক্স"
+        },
+        {
+          "en": "The Dow Jones",
+          "as": "ডাউ জ'নছ"
+        },
+        {
+          "en": "The Nifty",
+          "as": "নিফটি"
+        },
+        {
+          "en": "The FTSE",
+          "as": "এফটিএছই"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Nifty 50 is the benchmark index of the National Stock Exchange.",
+        "as": "নিফটি ৫০ ৰাষ্ট্ৰীয় শ্বেয়াৰ বজাৰৰ মানদণ্ড সূচক।"
+      }
+    },
+    {
+      "id": "statement-arguments-067",
+      "q": {
+        "en": "Statement: Should organ donation be made mandatory after death? Argument: Yes. It would greatly increase the supply of organs. The argument is:",
+        "as": "বিবৃতি: মৃত্যুৰ পিছত অংগদান বাধ্যতামূলক কৰা উচিত নেকি? যুক্তি: হয়। ই অংগৰ যোগান বহু পৰিমাণে বঢ়াব। যুক্তিটো হ'ল:"
+      },
+      "options": [
+        {
+          "en": "It is a strong argument",
+          "as": "যুক্তিটো সবল"
+        },
+        {
+          "en": "It is a weak argument",
+          "as": "যুক্তিটো দুৰ্বল"
+        },
+        {
+          "en": "It is a weak argument and not relevant to the statement",
+          "as": "যুক্তিটো দুৰ্বল আৰু বিবৃতিটোৰ সৈতে সম্পৰ্কহীন"
+        },
+        {
+          "en": "It is a strong argument but not relevant to the statement",
+          "as": "যুক্তিটো সবল কিন্তু বিবৃতিটোৰ সৈতে সম্পৰ্কহীন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The argument is relevant and based on a verifiable consequence, so it is strong.",
+        "as": "যুক্তিটো প্ৰাসংগিক আৰু এটা প্ৰমাণযোগ্য পৰিণামৰ ওপৰত আধাৰিত, গতিকে ই সবল।"
+      }
+    },
+    {
+      "id": "counting-figures-051",
+      "q": {
+        "en": "How many straight line segments are there in the figure?",
+        "as": "চিত্ৰখনত কিমানটা সৰল ৰেখাখণ্ড আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">14</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">9</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">11</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">13</text></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 172\" width=\"300\" height=\"258\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"168\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100\" y1=\"20\" x2=\"22\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"37.6\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"53.2\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"68.8\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"84.4\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"100\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"115.6\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"131.2\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"146.8\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"162.4\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"20\" x2=\"178\" y2=\"152\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "Counting each straight segment drawn in the figure, there are 11.",
+        "as": "চিত্ৰখনত অঁকা প্ৰতিটো সৰল ৰেখাখণ্ড গণনা কৰিলে 11 টা পোৱা যায়।"
+      }
+    },
+    {
+      "id": "clock-calendar-069",
+      "q": {
+        "en": "The angle between the hands of a clock at 12:30 is:",
+        "as": "১২:৩০ বজাত ঘড়ীৰ কাঁটা দুটাৰ মাজৰ কোণ:"
+      },
+      "options": [
+        {
+          "en": "165°",
+          "as": "১৬৫°"
+        },
+        {
+          "en": "180°",
+          "as": "১৮০°"
+        },
+        {
+          "en": "150°",
+          "as": "১৫০°"
+        },
+        {
+          "en": "175°",
+          "as": "১৭৫°"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Angle = |30 × 12 − 5.5 × 30| but with 12 taken as 0: |0 − 165| = 165°.",
+        "as": "কোণ = |৩০ × ০ − ৫.৫ × ৩০| = ১৬৫°।"
+      }
+    },
+    {
+      "id": "sports-142",
+      "q": {
+        "en": "India finished at which position in the medal tally at the 2026 Commonwealth Games?",
+        "as": "২০২৬ কমনৱেলথ গেমছৰ পদক তালিকাত ভাৰত কোন স্থানত আছিল?"
+      },
+      "options": [
+        {
+          "en": "Fourth",
+          "as": "চতুৰ্থ"
+        },
+        {
+          "en": "Second",
+          "as": "দ্বিতীয়"
+        },
+        {
+          "en": "Sixth",
+          "as": "ষষ্ঠ"
+        },
+        {
+          "en": "Third",
+          "as": "তৃতীয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "India finished fourth in the 2026 Commonwealth Games medal tally with 39 medals.",
+        "as": "ভাৰত ৩৯ টা পদকৰ সৈতে ২০২৬ কমনৱেলথ গেমছৰ পদক তালিকাত চতুৰ্থ স্থানত আছিল।"
+      }
+    },
+    {
+      "id": "embedded-figures-067",
+      "q": {
+        "en": "Which of the following figures is embedded (hidden) in the given figure?",
+        "as": "দিয়া চিত্ৰখনত তলৰ কোনটো চিত্ৰ সংযোজিত (লুকাই) আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"14.0,14.0 92.0,14.0 92.0,50.0 14.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"14.0,14.0 53.0,50.0 53.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"53.0,50.0 92.0,50.0 92.0,86.0 53.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"53.0,14.0 14.0,86.0 53.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"14.0,14.0 92.0,14.0 92.0,86.0 14.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"53\" y1=\"14\" x2=\"53\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"14\" y1=\"50\" x2=\"92\" y2=\"50\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"14\" y1=\"14\" x2=\"92\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"73\" y1=\"14\" x2=\"73\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"14\" y1=\"68\" x2=\"92\" y2=\"68\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"53\" y1=\"14\" x2=\"53\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"14\" y1=\"50\" x2=\"92\" y2=\"50\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
+        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+      }
+    },
+    {
+      "id": "sitting-arrangement-045",
+      "q": {
+        "en": "Five friends sit in a row facing north. Bina is 3rd from the left end and Chetan is 4th from the left end. How many persons sit between Bina and Chetan?",
+        "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Bina বাওঁমূৰৰ পৰা ৩তম আৰু Chetan বাওঁমূৰৰ পৰা ৪তম। Bina আৰু Chetan ৰ মাজত কিমানজন বহি আছে?"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "0",
+          "as": "০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Between them = 4 − 3 − 1 = 0.",
+        "as": "তেওঁলোকৰ মাজত = 4 − 3 − 1 = 0।"
+      }
+    },
+    {
+      "id": "national-international-news-122",
+      "q": {
+        "en": "Which city hosted the 56th World Economic Forum in January 2026?",
+        "as": "২০২৬ চনৰ জানুৱাৰীত ৫৬ সংখ্যক বিশ্ব অৰ্থনৈতিক মঞ্চ কোনখন চহৰে আয়োজন কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Davos",
+          "as": "ডাভ'ছ"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        },
+        {
+          "en": "Zurich",
+          "as": "জুৰিখ"
+        },
+        {
+          "en": "Basel",
+          "as": "বাচেল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The 56th World Economic Forum was held in Davos, Switzerland, from 19 to 23 January 2026.",
+        "as": "৫৬ সংখ্যক বিশ্ব অৰ্থনৈতিক মঞ্চ ২০২৬ চনৰ ১৯ৰপৰা ২৩ জানুৱাৰীলৈ ছুইজাৰলেণ্ডৰ ডাভ'ছত অনুষ্ঠিত হৈছিল।"
+      }
+    },
+    {
+      "id": "inequality-028",
+      "q": {
+        "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: N $ O @ P # Q.\nConclusions:\nI. N > P\nII. N < Q",
+        "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: N $ O @ P # Q।\nসিদ্ধান্ত:\nI. N > P\nII. N < Q"
+      },
+      "options": [
+        {
+          "en": "Only conclusion I follows",
+          "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+        },
+        {
+          "en": "Only conclusion II follows",
+          "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+        },
+        {
+          "en": "Both conclusions I and II follow",
+          "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+        },
+        {
+          "en": "Neither conclusion I nor II follows",
+          "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Decoding the symbols gives N = O > P < Q. Conclusion I (follows); conclusion II (does not follow).",
+        "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে N = O > P < Q পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+      }
+    },
+    {
+      "id": "geometry-025",
+      "q": {
+        "en": "The perimeter of a rectangle of length 12 cm and breadth 8 cm is:",
+        "as": "১২ ছে.মি. দীঘ আৰু ৮ ছে.মি. প্ৰস্থ থকা এটা আয়তৰ পৰিসীমা:"
+      },
+      "options": [
+        {
+          "en": "40 cm",
+          "as": "৪০ cm"
+        },
+        {
+          "en": "96 cm",
+          "as": "৯৬ cm"
+        },
+        {
+          "en": "20 cm",
+          "as": "২০ cm"
+        },
+        {
+          "en": "48 cm",
+          "as": "৪৮ cm"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Perimeter = 2(12 + 8) = 40 cm.",
+        "as": "পৰিসীমা = ২(১২ + ৮) = ৪০ ছে.মি.।"
+      }
+    },
+    {
+      "id": "modern-history-238",
+      "q": {
+        "en": "Which reform movement is associated with the founding of the Banaras Sanskrit College?",
+        "as": "বনাৰস সংস্কৃত কলেজ প্ৰতিষ্ঠাৰ সৈতে কোন সংস্কাৰ আন্দোলন জড়িত?"
+      },
+      "options": [
+        {
+          "en": "The orientalist education policy",
+          "as": "প্ৰাচ্যবাদী শিক্ষা নীতি"
+        },
+        {
+          "en": "The Young Bengal movement",
+          "as": "ইয়ং বেংগল আন্দোলন"
+        },
+        {
+          "en": "The Arya Samaj",
+          "as": "আৰ্য সমাজ"
+        },
+        {
+          "en": "The Brahmo Samaj",
+          "as": "ব্ৰাহ্ম সমাজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Banaras Sanskrit College was founded in 1791 under the orientalist education policy of the British.",
+        "as": "বনাৰস সংস্কৃত কলেজ ১৭৯১ চনত ব্ৰিটিছৰ প্ৰাচ্যবাদী শিক্ষা নীতিত প্ৰতিষ্ঠা কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "compound-interest-057",
+      "q": {
+        "en": "A sum of money invested at compound interest becomes 3 times in 8 years. It will become 27 times in:",
+        "as": "চক্ৰবৃদ্ধি সুতত বিনিয়োগ কৰা এটা ধন ৮ বছৰত ৩ গুণ হয়। ই কিমান বছৰত ২৭ গুণ হ'ব:"
+      },
+      "options": [
+        {
+          "en": "16 years",
+          "as": "১৬ বছৰ"
+        },
+        {
+          "en": "32 years",
+          "as": "৩২ বছৰ"
+        },
+        {
+          "en": "24 years",
+          "as": "২৪ বছৰ"
+        },
+        {
+          "en": "20 years",
+          "as": "২০ বছৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "27 = 3³, so it takes 3 × 8 = 24 years.",
+        "as": "২৭ = ৩³, গতিকে ৩ × ৮ = ২৪ বছৰ লাগে।"
+      }
+    },
+    {
+      "id": "inequality-057",
+      "q": {
+        "en": "Statements: R < S < T > U > V.\nConclusion: T > V. Does the conclusion follow?",
+        "as": "বিবৃতি: R < S < T > U > V।\nসিদ্ধান্ত: T > V। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+      },
+      "options": [
+        {
+          "en": "No, it does not follow",
+          "as": "No, it does not follow"
+        },
+        {
+          "en": "Cannot be determined",
+          "as": "Cannot be determined"
+        },
+        {
+          "en": "Only if the letters are equal",
+          "as": "Only if the letters are equal"
+        },
+        {
+          "en": "Yes, it follows",
+          "as": "Yes, it follows"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Every assignment consistent with R < S < T > U > V makes T > V true.",
+        "as": "R < S < T > U > V ৰ সৈতে সংগত প্ৰতিটো মান T > V সত্য কৰে।"
+      }
+    },
+    {
+      "id": "sitting-arrangement-072",
+      "q": {
+        "en": "Five friends sit in a row facing north. Chetan is 1st from the left end and Hari is 3rd from the left end. How many persons sit between Chetan and Hari?",
+        "as": "উত্তৰমুখী এটা শাৰীত পাঁচজন বন্ধু বহি আছে। Chetan বাওঁমূৰৰ পৰা ১তম আৰু Hari বাওঁমূৰৰ পৰা ৩তম। Chetan আৰু Hari ৰ মাজত কিমানজন বহি আছে?"
+      },
+      "options": [
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Between them = 3 − 1 − 1 = 1.",
+        "as": "তেওঁলোকৰ মাজত = 3 − 1 − 1 = 1।"
+      }
+    },
+    {
+      "id": "alphabet-series-039",
+      "q": {
+        "en": "What is the seventh letter from the left in the English alphabet?",
+        "as": "ইংৰাজী বৰ্ণমালাত বাওঁফালৰ পৰা সপ্তম আখৰটো কি?"
+      },
+      "options": [
+        {
+          "en": "H",
+          "as": "H"
+        },
+        {
+          "en": "F",
+          "as": "F"
+        },
+        {
+          "en": "G",
+          "as": "G"
+        },
+        {
+          "en": "I",
+          "as": "I"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Counting from A, the seventh letter is G.",
+        "as": "A ৰ পৰা গণি সপ্তম আখৰ G।"
+      }
+    },
+    {
+      "id": "figure-series-047",
+      "q": {
+        "en": "Find the next figure of the series.",
+        "as": "শৃংখলাটোৰ পৰৱৰ্তী চিত্ৰটো বিচাৰক।"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"227\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"374\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"38\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"325\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"10\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"17\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"24\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"31\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+      "explanation": {
+        "en": "The circle grows by the same amount at each step, so the next figure is the next larger circle.",
+        "as": "বৃত্তটো প্ৰতিটো পদক্ষেপত একেই পৰিমাণে ডাঙৰ হয়, সেয়ে পৰৱৰ্তী চিত্ৰটো তাৰ পিছৰ ডাঙৰ বৃত্ত।"
+      }
+    },
+    {
+      "id": "miscellaneous-static-gk-159",
+      "q": {
+        "en": "Which leader established the Ramakrishna Mission?",
+        "as": "কোন নেতাই ৰামকৃষ্ণ মিছন প্ৰতিষ্ঠা কৰিছিল?"
+      },
+      "options": [
+        {
+          "en": "Swami Vivekananda",
+          "as": "স্বামী বিবেকানন্দ"
+        },
+        {
+          "en": "Ramakrishna Paramahamsa",
+          "as": "ৰামকৃষ্ণ পৰমহংস"
+        },
+        {
+          "en": "Dayanand Saraswati",
+          "as": "দয়ানন্দ সৰস্বতী"
+        },
+        {
+          "en": "Raja Ram Mohan Roy",
+          "as": "ৰাজা ৰামমোহন ৰায়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Swami Vivekananda established the Ramakrishna Mission.",
+        "as": "ৰামকৃষ্ণ মিছন স্বামী বিবেকানন্দই গঢ়ি তুলিছিল।"
+      }
+    },
+    {
+      "id": "art-culture-021",
+      "q": {
+        "en": "Koodiyattam was recognised by UNESCO as a Masterpiece of the Oral and Intangible Heritage of Humanity in:",
+        "as": "ইউনেস্ক'ই কুডিয়াট্টমক কিমান চনত মানৱতাৰ মৌখিক আৰু অমূৰ্ত ঐতিহ্যৰ শ্ৰেষ্ঠ কৃতি হিচাপে স্বীকৃতি দিছিল?"
+      },
+      "options": [
+        {
+          "en": "2001",
+          "as": "২০০১"
+        },
+        {
+          "en": "1998",
+          "as": "১৯৯৮"
+        },
+        {
+          "en": "2005",
+          "as": "২০০৫"
+        },
+        {
+          "en": "2010",
+          "as": "২০১০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Koodiyattam was recognised by UNESCO in 2001.",
+        "as": "ইউনেস্ক'ই ২০০১ চনত কুডিয়াট্টমক স্বীকৃতি দিছিল।"
+      }
+    },
+    {
+      "id": "appointments-obituaries-150",
+      "q": {
+        "en": "Kuchipudi, a classical dance form associated with a recently deceased dancer, originated in which state?",
+        "as": "শেহতীয়াকৈ দেহত্যাগ কৰা এগৰাকী নৃত্যশিল্পীৰ সৈতে জড়িত শাস্ত্ৰীয় নৃত্য কুচিপুড়ি কোনখন ৰাজ্যত উৎপত্তি হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "Andhra Pradesh",
+          "as": "অন্ধ্ৰ প্ৰদেশ"
+        },
+        {
+          "en": "Tamil Nadu",
+          "as": "তামিলনাডু"
+        },
+        {
+          "en": "Kerala",
+          "as": "কেৰালা"
+        },
+        {
+          "en": "Karnataka",
+          "as": "কৰ্ণাটক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kuchipudi is a classical dance form that originated in Andhra Pradesh.",
+        "as": "কুচিপুড়ি অন্ধ্ৰ প্ৰদেশত উৎপত্তি হোৱা এটা শাস্ত্ৰীয় নৃত্যৰূপ।"
+      }
+    },
+    {
+      "id": "ratio-proportion-043",
+      "q": {
+        "en": "If a : b = 3 : 4 and b : c = 8 : 9, then a : b : c is:",
+        "as": "যদি a : b = ৩ : ৪ আৰু b : c = ৮ : ৯, তেন্তে a : b : c হ'ল:"
+      },
+      "options": [
+        {
+          "en": "3 : 8 : 9",
+          "as": "৩ : ৮ : ৯"
+        },
+        {
+          "en": "24 : 32 : 27",
+          "as": "২৪ : ৩২ : ২৭"
+        },
+        {
+          "en": "3 : 4 : 9",
+          "as": "৩ : ৪ : ৯"
+        },
+        {
+          "en": "6 : 8 : 9",
+          "as": "৬ : ৮ : ৯"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Make b equal: a : b = 6 : 8 and b : c = 8 : 9, so a : b : c = 6 : 8 : 9.",
+        "as": "b সমান কৰক: a : b = ৬ : ৮ আৰু b : c = ৮ : ৯, গতিকে a : b : c = ৬ : ৮ : ৯।"
+      }
+    },
+    {
+      "id": "lcm-hcf-003",
+      "q": {
+        "en": "The LCM of 16, 20 and 30 is:",
+        "as": "১৬, ২০ আৰু ৩০ ৰ ল.সা.গু. হ'ল:"
+      },
+      "options": [
+        {
+          "en": "240",
+          "as": "২৪০"
+        },
+        {
+          "en": "120",
+          "as": "১২০"
+        },
+        {
+          "en": "480",
+          "as": "৪৮০"
+        },
+        {
+          "en": "60",
+          "as": "৬০"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "16 = 2⁴, 20 = 2² × 5, 30 = 2 × 3 × 5, so LCM = 2⁴ × 3 × 5 = 240.",
+        "as": "১৬ = ২⁴, ২০ = ২² × ৫, ৩০ = ২ × ৩ × ৫, গতিকে ল.সা.গু. = ২⁴ × ৩ × ৫ = ২৪০।"
+      }
+    },
+    {
+      "id": "miscellaneous-static-gk-061",
+      "q": {
+        "en": "Name the deepest trench found in the world's oceans.",
+        "as": "বিশ্বৰ মহাসাগৰত থকা আটাইতকৈ গভীৰ খাদৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Tonga Trench",
+          "as": "টংগা খাদ"
+        },
+        {
+          "en": "Java Trench",
+          "as": "জাভা খাদ"
+        },
+        {
+          "en": "Puerto Rico Trench",
+          "as": "পুৱেৰ্টো ৰিক' খাদ"
+        },
+        {
+          "en": "Mariana Trench",
+          "as": "মাৰিয়ানা খাদ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The deepest trench in the oceans is the Mariana Trench.",
+        "as": "মহাসাগৰৰ আটাইতকৈ গভীৰ খাদ হ'ল মাৰিয়ানা খাদ।"
+      }
+    },
+    {
+      "id": "geometry-022",
+      "q": {
+        "en": "The number of sides of a regular polygon whose each exterior angle is 45° is:",
+        "as": "যি সুষম বহুভুজৰ প্ৰতিটো বহিঃকোণ ৪৫° তাৰ বাহুৰ সংখ্যা:"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Number of sides = 360 ÷ 45 = 8.",
+        "as": "বাহুৰ সংখ্যা = ৩৬০ ÷ ৪৫ = ৮।"
+      }
+    },
+    {
+      "id": "boats-streams-017",
+      "q": {
+        "en": "A boat covers 40 km downstream in 2 hours 30 minutes. Its downstream speed is:",
+        "as": "এখন নাওৱে ২ ঘণ্টা ৩০ মিনিটত ৪০ কি.মি. সোঁতৰ দিশত অতিক্ৰম কৰে। সোঁতৰ দিশত ইয়াৰ গতি:"
+      },
+      "options": [
+        {
+          "en": "16 km/h",
+          "as": "১৬ km/h"
+        },
+        {
+          "en": "14 km/h",
+          "as": "১৪ km/h"
+        },
+        {
+          "en": "18 km/h",
+          "as": "১৮ km/h"
+        },
+        {
+          "en": "15 km/h",
+          "as": "১৫ km/h"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Time = 2.5 hours, so the downstream speed is 40 ÷ 2.5 = 16 km/h.",
+        "as": "সময় = ২.৫ ঘণ্টা, গতিকে সোঁতৰ দিশত গতি = ৪০ ÷ ২.৫ = ১৬ কি.মি./ঘ.।"
+      }
+    },
+    {
+      "id": "sports-075",
+      "q": {
+        "en": "Who will challenge Ju Wenjun for the Women's World Chess Championship after winning the 2026 Women's Candidates Tournament?",
+        "as": "২০২৬ মহিলা কেণ্ডিডেটছ প্ৰতিযোগিতা জিকি কোনগৰাকীয়ে মহিলা বিশ্ব দবা চেম্পিয়নশ্বিপৰ বাবে জু ৱেনজুনৰ বিৰুদ্ধে প্ৰতিদ্বন্দ্বিতা কৰিব?"
+      },
+      "options": [
+        {
+          "en": "Divya Deshmukh",
+          "as": "দিব্যা দেশমুখ"
+        },
+        {
+          "en": "Koneru Humpy",
+          "as": "কোনেৰু হাম্পি"
+        },
+        {
+          "en": "Vaishali Rameshbabu",
+          "as": "বৈশালী ৰামেশ্ববাবু"
+        },
+        {
+          "en": "Harika Dronavalli",
+          "as": "হাৰিকা দ্ৰোণৱল্লী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Vaishali Rameshbabu won the Women's Candidates Tournament 2026 to earn the right to challenge Ju Wenjun.",
+        "as": "বৈশালী ৰামেশ্ববাবুৱে ২০২৬ মহিলা কেণ্ডিডেটছ প্ৰতিযোগিতা জিকি জু ৱেনজুনক প্ৰত্যাহ্বান জনোৱাৰ অধিকাৰ লাভ কৰিছিল।"
+      }
+    },
+    {
+      "id": "ancient-history-010",
+      "q": {
+        "en": "Microliths, tiny stone tools, are the characteristic feature of which age in India?",
+        "as": "মাইক্ৰ'লিথ, অতি সৰু শিলৰ সঁজুলি, ভাৰতত কোন যুগৰ বৈশিষ্ট্যপূৰ্ণ লক্ষণ?"
+      },
+      "options": [
+        {
+          "en": "Palaeolithic",
+          "as": "প্ৰাচীন প্ৰস্তৰ যুগ"
+        },
+        {
+          "en": "Neolithic",
+          "as": "নৱ প্ৰস্তৰ যুগ"
+        },
+        {
+          "en": "Mesolithic",
+          "as": "মধ্য প্ৰস্তৰ যুগ"
+        },
+        {
+          "en": "Iron Age",
+          "as": "লৌহ যুগ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Microliths — small blades and geometric pieces — are the hallmark of the Mesolithic age in India.",
+        "as": "মাইক্ৰ'লিথ — সৰু ফলি আৰু জ্যামিতিক টুকুৰা — ভাৰতত মধ্য প্ৰস্তৰ যুগৰ প্ৰধান চিহ্ন।"
+      }
+    },
+    {
+      "id": "percentage-024",
+      "q": {
+        "en": "Two successive discounts of 15% and 20% are equal to a single discount of:",
+        "as": "১৫% আৰু ২০% ৰ দুটা ক্ৰমিক ৰেহাই এটা ৰেহাইৰ সমান:"
+      },
+      "options": [
+        {
+          "en": "35%",
+          "as": "৩৫%"
+        },
+        {
+          "en": "30%",
+          "as": "৩০%"
+        },
+        {
+          "en": "32%",
+          "as": "৩২%"
+        },
+        {
+          "en": "28%",
+          "as": "২৮%"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Net factor = 0.85 × 0.80 = 0.68, so the single discount is 32%.",
+        "as": "মুঠ গুণক = ০.৮৫ × ০.৮০ = ০.৬৮, গতিকে এটা ৰেহাই ৩২%।"
+      }
+    },
+    {
+      "id": "ancient-history-321",
+      "q": {
+        "en": "The 'Meghaduta', a celebrated Sanskrit poem, was written by which poet?",
+        "as": "'মেঘদূত', এটা প্ৰখ্যাত সংস্কৃত কবিতা, কোন কবিয়ে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Harisena",
+          "as": "হৰিষেণ"
+        },
+        {
+          "en": "Kalidasa",
+          "as": "কালিদাস"
+        },
+        {
+          "en": "Vishakhadatta",
+          "as": "বিশাখদত্ত"
+        },
+        {
+          "en": "Bana",
+          "as": "বাণ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Meghaduta, or 'cloud messenger', is a lyrical poem by Kalidasa set in the Gupta age.",
+        "as": "মেঘদূত, বা 'মেঘ-দূত', গুপ্ত যুগত ৰচিত কালিদাসৰ এটা গীতিময় কবিতা।"
+      }
+    },
+    {
+      "id": "elementary-algebra-057",
+      "q": {
+        "en": "If 3^x = 81, the value of x is:",
+        "as": "যদি 3^x = ৮১, তেন্তে x ৰ মান:"
+      },
+      "options": [
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "81 = 3⁴, so x = 4.",
+        "as": "৮১ = 3⁴, গতিকে x = ৪।"
+      }
+    },
+    {
+      "id": "trigonometry-050",
+      "q": {
+        "en": "If cos θ = 1/2, the value of sec θ is:",
+        "as": "যদি cos θ = ১/২, sec θ ৰ মান:"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "1/2",
+          "as": "১/২"
+        },
+        {
+          "en": "√3",
+          "as": "√৩"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "sec θ = 1/cos θ = 2.",
+        "as": "sec θ = ১/cos θ = ২।"
+      }
+    },
+    {
+      "id": "organizations-institutions-180",
+      "q": {
+        "en": "The Punchhi Commission was set up to look into:",
+        "as": "পুঞ্ছি আয়োগ কিনো চোৱাৰ বাবে গঠিত হৈছিল:"
+      },
+      "options": [
+        {
+          "en": "Judicial appointments",
+          "as": "ন্যায়িক নিয়োগ"
+        },
+        {
+          "en": "Centre-state relations",
+          "as": "কেন্দ্ৰ-ৰাজ্য সম্পৰ্ক"
+        },
+        {
+          "en": "Defence procurement",
+          "as": "প্ৰতিৰক্ষা ক্ৰয়"
+        },
+        {
+          "en": "Agricultural pricing",
+          "as": "কৃষি মূল্য"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Punchhi Commission of 2007 reviewed Centre-state relations again after the Sarkaria Commission.",
+        "as": "চৰকাৰিয়া আয়োগৰ পিছত ২০০৭ চনৰ পুঞ্ছি আয়োগে পুনৰ কেন্দ্ৰ-ৰাজ্য সম্পৰ্ক পৰ্যালোচনা কৰিছিল।"
+      }
+    },
+    {
+      "id": "decision-making-data-sufficiency-057",
+      "q": {
+        "en": "Question: What is the average marks of the class? Statement I: The total marks of all students is 4200. Statement II: The number of students is 60. Which of the following is correct?",
+        "as": "প্ৰশ্ন: শ্ৰেণীটোৰ গড় নম্বৰ কিমান? বিবৃতি I: সকলো ছাত্ৰৰ মুঠ নম্বৰ ৪২০০। বিবৃতি II: ছাত্ৰৰ সংখ্যা ৬০। তলৰ কোনটো শুদ্ধ?"
+      },
+      "options": [
+        {
+          "en": "Statement I alone is sufficient, but statement II alone is not sufficient",
+          "as": "কেৱল বিবৃতি I পৰ্যাপ্ত, কিন্তু কেৱল বিবৃতি II পৰ্যাপ্ত নহয়"
+        },
+        {
+          "en": "Statement II alone is sufficient, but statement I alone is not sufficient",
+          "as": "কেৱল বিবৃতি II পৰ্যাপ্ত, কিন্তু কেৱল বিবৃতি I পৰ্যাপ্ত নহয়"
+        },
+        {
+          "en": "Both statements I and II together are sufficient, but neither alone is sufficient",
+          "as": "বিবৃতি I আৰু II দুয়ো একেলগে পৰ্যাপ্ত, কিন্তু কোনোৱে অকলেই পৰ্যাপ্ত নহয়"
+        },
+        {
+          "en": "Even both statements I and II together are not sufficient",
+          "as": "বিবৃতি I আৰু II দুয়ো একেলগেও পৰ্যাপ্ত নহয়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each statement alone is not enough, but together they fix the answer.",
+        "as": "প্ৰতিটো বিবৃতি অকলেই পৰ্যাপ্ত নহয়, কিন্তু একেলগে উত্তৰ নিৰ্ণয় কৰে।"
+      }
+    },
+    {
+      "id": "chemistry-098",
+      "q": {
+        "en": "The ore from which iron is mainly extracted is:",
+        "as": "যি আকৰিকৰ পৰা মূলতঃ লো উলিওৱা হয় সেয়া হ'ল:"
+      },
+      "options": [
+        {
+          "en": "Bauxite",
+          "as": "বক্সাইট"
+        },
+        {
+          "en": "Galena",
+          "as": "গেলেনা"
+        },
+        {
+          "en": "Haematite",
+          "as": "হিমাটাইট"
+        },
+        {
+          "en": "Cinnabar",
+          "as": "ছিনাবাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Haematite, Fe₂O₃, is the most important ore of iron.",
+        "as": "হিমাটাইট, Fe₂O₃, লোৰ আটাইতকৈ গুৰুত্বপূৰ্ণ আকৰিক।"
+      }
+    },
+    {
+      "id": "organizations-institutions-207",
+      "q": {
+        "en": "The National Payments Corporation of India was incorporated in the year:",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰীয় পেমেণ্ট কৰ্পৰেশ্যন পঞ্জীভুক্ত হৈছিল:"
+      },
+      "options": [
+        {
+          "en": "2005",
+          "as": "২০০৫"
+        },
+        {
+          "en": "2012",
+          "as": "২০১২"
+        },
+        {
+          "en": "2016",
+          "as": "২০১৬"
+        },
+        {
+          "en": "2008",
+          "as": "২০০৮"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "NPCI, which runs UPI and RuPay, was incorporated in 2008.",
+        "as": "ইউ পি আই আৰু ৰুপে' পৰিচালনা কৰা এন পি চি আই ২০০৮ চনত পঞ্জীভুক্ত হৈছিল।"
+      }
+    },
+    {
+      "id": "alphabet-test-021",
+      "q": {
+        "en": "How many letters are there between P and X?",
+        "as": "P আৰু X ৰ মাজত কিমান আখৰ আছে?"
+      },
+      "options": [
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "P is 16 and X is 24; between them = 7.",
+        "as": "P ১৬ আৰু X ২৪; মাজত = ৭।"
+      }
+    },
+    {
+      "id": "elementary-algebra-056",
+      "q": {
+        "en": "If 2^x = 32, the value of x is:",
+        "as": "যদি 2^x = ৩২, তেন্তে x ৰ মান:"
+      },
+      "options": [
+        {
+          "en": "4",
+          "as": "৪"
+        },
+        {
+          "en": "5",
+          "as": "৫"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "32 = 2⁵, so x = 5.",
+        "as": "৩২ = 2⁵, গতিকে x = ৫।"
+      }
+    },
+    {
+      "id": "chemistry-093",
+      "q": {
+        "en": "Which of the following non-metals is a good conductor of electricity?",
+        "as": "তলৰ কোনটো অধাতু বিদ্যুৎৰ ভাল পৰিবাহী?"
+      },
+      "options": [
+        {
+          "en": "Sulphur",
+          "as": "গন্ধক"
+        },
+        {
+          "en": "Phosphorus",
+          "as": "ফছফৰাছ"
+        },
+        {
+          "en": "Graphite",
+          "as": "গ্ৰেফাইট"
+        },
+        {
+          "en": "Iodine",
+          "as": "আয়'ডিন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Graphite, a form of carbon, has free electrons and conducts electricity.",
+        "as": "গ্ৰেফাইট, কাৰ্বনৰ এটা ৰূপ, তাত মুক্ত ইলেক্ট্ৰন থাকে আৰু ই বিদ্যুৎ পৰিবহন কৰে।"
+      }
+    },
+    {
+      "id": "medieval-history-065",
+      "q": {
+        "en": "Who wrote the 'Akbarnama' and the 'Ain-i-Akbari'?",
+        "as": "'আকবৰনামা' আৰু 'আইন-ই-আকবৰী' কোনে লিখিছিল?"
+      },
+      "options": [
+        {
+          "en": "Badauni",
+          "as": "বদাউনী"
+        },
+        {
+          "en": "Abul Fazl",
+          "as": "আবুল ফজল"
+        },
+        {
+          "en": "Birbal",
+          "as": "বীৰবল"
+        },
+        {
+          "en": "Faizi",
+          "as": "ফৈজী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Abul Fazl wrote the Akbarnama, a history of Akbar's reign, and the Ain-i-Akbari, an administrative record.",
+        "as": "আবুল ফজলে আকবৰনামা, আকবৰৰ ৰাজত্বকালৰ ইতিহাস, আৰু আইন-ই-আকবৰী, এটা প্ৰশাসনিক অভিলেখ লিখিছিল।"
+      }
+    },
+    {
+      "id": "mensuration-3d-046",
+      "q": {
+        "en": "The volume of a sphere of radius 1.5 cm is (π = 22/7):",
+        "as": "১.৫ ছে.মি. ব্যাসাৰ্ধৰ গোলকৰ আয়তন (π = ২২/৭):"
+      },
+      "options": [
+        {
+          "en": "33/7 cm³",
+          "as": "৩৩/৭ cm³"
+        },
+        {
+          "en": "198/7 cm³",
+          "as": "১৯৮/৭ cm³"
+        },
+        {
+          "en": "99/7 cm³",
+          "as": "৯৯/৭ cm³"
+        },
+        {
+          "en": "44/7 cm³",
+          "as": "৪৪/৭ cm³"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "(4/3) × (22/7) × 3.375 = 99/7 cm³.",
+        "as": "(৪/৩) × (২২/৭) × ৩.৩৭৫ = ৯৯/৭ ছে.মি.³।"
+      }
+    },
+    {
+      "id": "indian-economy-144",
+      "q": {
+        "en": "Which authority decides the rates of the Goods and Services Tax in India?",
+        "as": "ভাৰতত সামগ্ৰী আৰু সেৱা কৰৰ হাৰ কোন প্ৰাধিকৰণে নিৰ্ধাৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "The Finance Commission",
+          "as": "বিত্ত আয়োগ"
+        },
+        {
+          "en": "The Reserve Bank of India",
+          "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক"
+        },
+        {
+          "en": "The NITI Aayog",
+          "as": "নীতি আয়োগ"
+        },
+        {
+          "en": "The GST Council",
+          "as": "জিএছটি পৰিষদ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The GST Council, chaired by the Union Finance Minister, decides GST rates.",
+        "as": "সংঘৰ বিত্ত মন্ত্ৰীৰ অধ্যক্ষতাত জিএছটি পৰিষদে জিএছটি হাৰ নিৰ্ধাৰণ কৰে।"
+      }
+    },
+    {
+      "id": "order-ranking-035",
+      "q": {
+        "en": "A queue has 50 persons. A is 20th from the left end and B is 15th from the right end. How many persons stand between them?",
+        "as": "এটা শাৰীত ৫০ জন আছে। A বাওঁমূৰৰ পৰা ২০তম আৰু B সোঁমূৰৰ পৰা ১৫তম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+      },
+      "options": [
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "en": "17",
+          "as": "১৭"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Persons between them: 50 − 20 − 15 = 15.",
+        "as": "তেওঁলোকৰ মাজত থকা লোক: 50 − 20 − 15 = 15।"
+      }
+    },
+    {
+      "id": "paper-cutting-folding-057",
+      "q": {
+        "en": "A square paper is folded along the dotted line(s) as shown and a hole is punched at the red dot. Which option shows the paper when it is unfolded?",
+        "as": "দেখুওৱাৰ দৰে ডটেড ৰেখা(বোৰ)ৰ কাষেৰে এখন বৰ্গ কাগজ ভাঁজ কৰি ৰঙা বিন্দুটোত এটা বিন্ধা কৰা হ'ল। কাগজখন মেলিলে কেনে দেখিব, সেইটো বিকল্প নিৰ্বাচন কৰক।"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"74.48\" cy=\"60.08\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"74.48\" cy=\"39.92\" r=\"4.2\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"74.48\" cy=\"60.08\" r=\"4.2\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"74.48\" cy=\"39.92\" r=\"4.2\" fill=\"#334155\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"74.48\" cy=\"60.08\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"74.48\" cy=\"54.32\" r=\"4.2\" fill=\"#334155\"/></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"150\" height=\"150\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"14,14 86,14 86,86 14,86\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"14\" y1=\"50\" x2=\"86\" y2=\"50\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><circle cx=\"74.48\" cy=\"60.08\" r=\"4.2\" fill=\"#dc2626\"/></svg>",
+      "explanation": {
+        "en": "Unfolding reflects the punched hole across each crease, so the number and position of the holes follow from the fold.",
+        "as": "মেলিলে প্ৰতিটো ভাঁজৰ ৰেখাৰ ওপৰেৰে বিন্ধাটো প্ৰতিফলিত হয়, সেয়ে বিন্ধাৰ সংখ্যা আৰু অৱস্থান ভাঁজৰ পৰাই নিৰ্ধাৰিত হয়।"
+      }
+    },
+    {
+      "id": "boats-streams-024",
+      "q": {
+        "en": "A boat covers a distance downstream in 3 hours and the same distance upstream in 5 hours. The ratio of the speed of the boat to the speed of the stream is:",
+        "as": "এখন নাওৱে এটা দূৰত্ব সোঁতৰ দিশত ৩ ঘণ্টাত আৰু একেই দূৰত্ব সোঁতৰ বিপৰীত দিশত ৫ ঘণ্টাত অতিক্ৰম কৰে। নাওৰ গতিৰ লগত সোঁতৰ গতিৰ অনুপাত:"
+      },
+      "options": [
+        {
+          "en": "4 : 1",
+          "as": "৪ : ১"
+        },
+        {
+          "en": "3 : 1",
+          "as": "৩ : ১"
+        },
+        {
+          "en": "5 : 1",
+          "as": "৫ : ১"
+        },
+        {
+          "en": "2 : 1",
+          "as": "২ : ১"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Downstream : upstream = 5 : 3, so boat : stream = (5 + 3) : (5 − 3) = 8 : 2 = 4 : 1.",
+        "as": "সোঁতৰ দিশ : সোঁতৰ বিপৰীত = ৫ : ৩, গতিকে নাও : সোঁত = (৫ + ৩) : (৫ − ৩) = ৮ : ২ = ৪ : ১।"
+      }
+    },
+    {
+      "id": "mixture-alligation-035",
+      "q": {
+        "en": "A mixture of 40 kg of an alloy contains metals A and B in the ratio 5 : 3. How much of B must be added to make the ratio 1 : 1?",
+        "as": "৪০ কি.গ্ৰা. এটা সংকৰ ধাতুত A আৰু B ধাতু ৫ : ৩ অনুপাতত আছে। অনুপাত ১ : ১ কৰিবলৈ কিমান B যোগ কৰিব লাগিব?"
+      },
+      "options": [
+        {
+          "en": "8 kg",
+          "as": "৮ কি.গ্ৰা."
+        },
+        {
+          "en": "15 kg",
+          "as": "১৫ কি.গ্ৰা."
+        },
+        {
+          "en": "12 kg",
+          "as": "১২ কি.গ্ৰা."
+        },
+        {
+          "en": "10 kg",
+          "as": "১০ কি.গ্ৰা."
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A = 25 and B = 15; for 1 : 1 the B must be 25, so add 10 kg.",
+        "as": "A = ২৫ আৰু B = ১৫; ১ : ১ ৰ বাবে B ২৫ হ'ব লাগে, গতিকে ১০ কি.গ্ৰা. যোগ কৰক।"
+      }
+    },
+    {
+      "id": "assertion-reason-017",
+      "q": {
+        "en": "Assertion (A): Sound travels faster than light. Reason (R): light needs a material medium in order to travel. Choose the correct option.",
+        "as": "দাবী (A): শব্দ পোহৰতকৈ দ্ৰুতগতিত চলে। কাৰণ (R): চলিবলৈ পোহৰৰ এটা ভৌতিক মাধ্যমৰ প্ৰয়োজন। শুদ্ধ বিকল্প বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are false",
+          "as": "A আৰু R দুয়ো অসত্য"
+        },
+        {
+          "en": "A is true and R is false",
+          "as": "A সত্য আৰু R অসত্য"
+        },
+        {
+          "en": "A is false and R is true",
+          "as": "A অসত্য আৰু R সত্য"
+        },
+        {
+          "en": "Both A and R are true",
+          "as": "A আৰু R দুয়ো সত্য"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Both the assertion and the reason are factually wrong.",
+        "as": "দাবী আৰু কাৰণ দুয়োটা তথ্যগতভাৱে ভুল।"
+      }
+    },
+    {
+      "id": "assertion-reason-074",
+      "q": {
+        "en": "Assertion (A): We feel cooler after sweating. Reason (R): evaporation of sweat absorbs heat from the skin. Choose the correct option.",
+        "as": "দাবী (A): ঘামি উঠাৰ পিছত আমি শীতল অনুভৱ কৰোঁ। কাৰণ (R): ঘামৰ বাষ্পীভৱনে ছালৰ পৰা তাপ শোষণ কৰে। শুদ্ধ বিকল্প বাছনি কৰক।"
+      },
+      "options": [
+        {
+          "en": "Both A and R are true, and R is the correct explanation of A",
+          "as": "A আৰু R দুয়ো সত্য, আৰু R এ A ৰ শুদ্ধ ব্যাখ্যা"
+        },
+        {
+          "en": "Both A and R are true, but R is not the correct explanation of A",
+          "as": "A আৰু R দুয়ো সত্য, কিন্তু R এ A ৰ শুদ্ধ ব্যাখ্যা নহয়"
+        },
+        {
+          "en": "A is true but R is false",
+          "as": "A সত্য কিন্তু R অসত্য"
+        },
+        {
+          "en": "A is false but R is true",
+          "as": "A অসত্য কিন্তু R সত্য"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Both statements are true, and the reason states exactly why the assertion holds.",
+        "as": "দুয়োটা বিবৃতি সত্য, আৰু কাৰণে দাবীটো কিয় খাটে তাকেই কয়।"
+      }
+    },
+    {
+      "id": "embedded-figures-021",
+      "q": {
+        "en": "Which of the following figures is embedded (hidden) in the given figure?",
+        "as": "দিয়া চিত্ৰখনত তলৰ কোনটো চিত্ৰ সংযোজিত (লুকাই) আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,16.0 92.0,16.0 92.0,48.0 16.0,48.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,16.0 92.0,16.0 92.0,48.0 16.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,16.0 54.0,48.0 54.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,16.0 92.0,16.0 16.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        }
+      ],
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"16.0,16.0 92.0,16.0 92.0,80.0 16.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"54\" y1=\"16\" x2=\"54\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"48\" x2=\"92\" y2=\"48\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"16\" x2=\"92\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
+        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+      }
+    },
+    {
+      "id": "geometry-073",
+      "q": {
+        "en": "The radius of a circle whose circumference is 44 cm is (π = 22/7):",
+        "as": "যি বৃত্তৰ পৰিধি ৪৪ ছে.মি. তাৰ ব্যাসাৰ্ধ (π = ২২/৭):"
+      },
+      "options": [
+        {
+          "en": "14 cm",
+          "as": "১৪ cm"
+        },
+        {
+          "en": "11 cm",
+          "as": "১১ cm"
+        },
+        {
+          "en": "22 cm",
+          "as": "২২ cm"
+        },
+        {
+          "en": "7 cm",
+          "as": "৭ cm"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "2πr = 44, so r = 44 × 7 / (2 × 22) = 7 cm.",
+        "as": "2πr = ৪৪, গতিকে r = ৪৪ × ৭ / (২ × ২২) = ৭ ছে.মি.।"
+      }
+    },
+    {
+      "id": "medieval-history-275",
+      "q": {
+        "en": "Which medieval Indian fort is associated with the legend of Rani Padmini and Alauddin Khalji?",
+        "as": "কোন মধ্য যুগীয় ভাৰতীয় দুৰ্গ ৰাণী পদ্মিনী আৰু আলাউদ্দিন খিলজীৰ কিংবদন্তিৰ সৈতে জড়িত?"
+      },
+      "options": [
+        {
+          "en": "Chittor Fort",
+          "as": "চিতোৰ দুৰ্গ"
+        },
+        {
+          "en": "Mehrangarh Fort",
+          "as": "মেহৰানগড় দুৰ্গ"
+        },
+        {
+          "en": "Amber Fort",
+          "as": "আমেৰ দুৰ্গ"
+        },
+        {
+          "en": "Gwalior Fort",
+          "as": "গোৱালিয়ৰ দুৰ্গ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Chittor Fort is associated with the legend of Rani Padmini and the siege by Alauddin Khalji.",
+        "as": "চিতোৰ দুৰ্গ ৰাণী পদ্মিনীৰ কিংবদন্তি আৰু আলাউদ্দিন খিলজীৰ অৱৰোধৰ সৈতে জড়িত।"
+      }
+    },
+    {
+      "id": "partnership-053",
+      "q": {
+        "en": "Two partners share the profit in the ratio 7 : 5. If B's share is ₹5,000, the total profit is:",
+        "as": "দুজন অংশীদাৰে ৭ : ৫ অনুপাতত লাভ ভগাই লয়। B ৰ অংশ ₹৫,০০০ হ'লে মুঠ লাভ হ'ল:"
+      },
+      "options": [
+        {
+          "en": "₹10,000",
+          "as": "₹১০,০০০"
+        },
+        {
+          "en": "₹14,000",
+          "as": "₹১৪,০০০"
+        },
+        {
+          "en": "₹12,000",
+          "as": "₹১২,০০০"
+        },
+        {
+          "en": "₹8,000",
+          "as": "₹৮,০০০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Total = (12/5) × 5000 = ₹12,000.",
+        "as": "মুঠ = (১২/৫) × ৫০০০ = ₹১২,০০০।"
+      }
+    },
+    {
+      "id": "constitution-053",
+      "q": {
+        "en": "The Preamble of the Indian Constitution was adopted on:",
+        "as": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা গ্ৰহণ কৰা হৈছিল:"
+      },
+      "options": [
+        {
+          "en": "26 November 1949",
+          "as": "২৬ নৱেম্বৰ ১৯৪৯"
+        },
+        {
+          "en": "26 January 1950",
+          "as": "২৬ জানুৱাৰী ১৯৫০"
+        },
+        {
+          "en": "9 December 1946",
+          "as": "৯ ডিচেম্বৰ ১৯৪৬"
+        },
+        {
+          "en": "22 July 1947",
+          "as": "২২ জুলাই ১৯৪৭"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Preamble was adopted along with the Constitution on 26 November 1949.",
+        "as": "প্ৰস্তাৱনা ২৬ নৱেম্বৰ ১৯৪৯ ত সংবিধানৰ সৈতে গ্ৰহণ কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "lcm-hcf-062",
+      "q": {
+        "en": "The LCM of 0.25, 0.5 and 0.75 is:",
+        "as": "০.২৫, ০.৫ আৰু ০.৭৫ ৰ ল.সা.গু. হ'ল:"
+      },
+      "options": [
+        {
+          "en": "1.5",
+          "as": "১.৫"
+        },
+        {
+          "en": "0.25",
+          "as": "০.২৫"
+        },
+        {
+          "en": "3",
+          "as": "৩"
+        },
+        {
+          "en": "0.75",
+          "as": "০.৭৫"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "As fractions 1/4, 1/2 and 3/4 give LCM = LCM(1,1,3) ÷ HCF(4,2,4) = 3/4 = 0.75.",
+        "as": "ভগ্নাংশ হিচাপে ১/৪, ১/২ আৰু ৩/৪ ৰ পৰা ল.সা.গু. = ল.সা.গু.(১,১,৩) ÷ গ.সা.গু.(৪,২,৪) = ৩/৪ = ০.৭৫।"
+      }
+    },
+    {
+      "id": "average-003",
+      "q": {
+        "en": "The average of the squares of the first 10 natural numbers is:",
+        "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ বৰ্গৰ গড় হ'ল:"
+      },
+      "options": [
+        {
+          "en": "38.5",
+          "as": "৩৮.৫"
+        },
+        {
+          "en": "35",
+          "as": "৩৫"
+        },
+        {
+          "en": "40",
+          "as": "৪০"
+        },
+        {
+          "en": "42",
+          "as": "৪২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Average = (n + 1)(2n + 1)/6 = 11 × 21 / 6 = 38.5.",
+        "as": "গড় = (n + ১)(২n + ১)/৬ = ১১ × ২১ / ৬ = ৩৮.৫।"
+      }
+    },
+    {
+      "id": "profit-loss-discount-025",
+      "q": {
+        "en": "If the profit is 25% and the discount is 20%, the ratio of the marked price to the cost price is:",
+        "as": "লাভ ২৫% আৰু ৰেহাই ২০% হ'লে লিখা দাম আৰু ক্ৰয়মূল্যৰ অনুপাত হ'ল:"
+      },
+      "options": [
+        {
+          "en": "25 : 16",
+          "as": "২৫ : ১৬"
+        },
+        {
+          "en": "16 : 25",
+          "as": "১৬ : ২৫"
+        },
+        {
+          "en": "5 : 4",
+          "as": "৫ : ৪"
+        },
+        {
+          "en": "4 : 5",
+          "as": "৪ : ৫"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Marked price ÷ cost price = 125 ÷ 80 = 25 : 16.",
+        "as": "লিখা দাম ÷ ক্ৰয়মূল্য = ১২৫ ÷ ৮০ = ২৫ : ১৬।"
+      }
+    },
+    {
+      "id": "figure-series-004",
+      "q": {
+        "en": "In the following figure series, which figure comes next?",
+        "as": "তলৰ চিত্ৰ শৃংখলাত পৰৱৰ্তী চিত্ৰ কোনটো আহে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"75.5,24.5 84.8,40.7 84.8,59.3 75.5,75.5 59.3,84.8 40.7,84.8 24.5,75.5 15.2,59.3 15.2,40.7 24.5,24.5 40.7,15.2 59.3,15.2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"75.5,24.5 85.8,54.0 69.2,80.5 38.1,84.0 16.0,61.9 19.5,30.8 46.0,14.2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"75.5,24.5 85.2,42.3 83.7,62.6 71.6,78.8 52.6,85.9 32.7,81.6 18.4,67.3 14.1,47.4 21.2,28.4 37.4,16.3 57.7,14.8\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"75.5,24.5 85.9,46.9 79.5,70.6 59.3,84.8 34.8,82.6 17.4,65.2 15.2,40.7 29.4,20.5 53.1,14.1\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/></svg>"
+        }
+      ],
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"75.5,24.5 59.3,84.8 15.2,40.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"75.5,24.5 75.5,75.5 24.5,75.5 24.5,24.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"75.5,24.5 82.1,66.3 44.4,85.6 14.4,55.6 33.7,17.9\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"75.5,24.5 84.8,59.3 59.3,84.8 24.5,75.5 15.2,40.7 40.7,15.2\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+      "explanation": {
+        "en": "The number of sides increases by the same amount at each step, so the next figure continues that increase.",
+        "as": "প্ৰতিটো পদক্ষেপত বাহুৰ সংখ্যা একে পৰিমাণে বাঢ়ে, সেয়ে পৰৱৰ্তী চিত্ৰই সেই বৃদ্ধি অব্যাহত ৰাখে।"
+      }
+    },
+    {
+      "id": "miscellaneous-static-gk-178",
+      "q": {
+        "en": "Who was the Indian mathematician famous for his work on number theory and infinite series?",
+        "as": "সংখ্যা তত্ত্ব আৰু অসীম শ্ৰেণীত কামৰ বাবে বিখ্যাত ভাৰতীয় গণিতজ্ঞ কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "C. V. Raman",
+          "as": "চি. ভি. ৰমন"
+        },
+        {
+          "en": "Srinivasa Ramanujan",
+          "as": "শ্ৰীনিবাস ৰামানুজন"
+        },
+        {
+          "en": "Aryabhata",
+          "as": "আৰ্যভট্ট"
+        },
+        {
+          "en": "Brahmagupta",
+          "as": "ব্ৰহ্মগুপ্ত"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Srinivasa Ramanujan is famous for his contributions to number theory and infinite series.",
+        "as": "শ্ৰীনিবাস ৰামানুজন সংখ্যা তত্ত্ব আৰু অসীম শ্ৰেণীত অৱদানৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "id": "ancient-history-033",
+      "q": {
+        "en": "The Harappan civilisation is dated by archaeologists to which period?",
+        "as": "পুৰাতত্ত্ববিদসকলে হৰপ্পা সভ্যতাক কোন সময়ছোৱালৈকে ধৰে?"
+      },
+      "options": [
+        {
+          "en": "5000–3500 BCE",
+          "as": "৫০০০–৩৫০০ খ্ৰীঃপূঃ"
+        },
+        {
+          "en": "2600–1900 BCE",
+          "as": "২৬০০–১৯০০ খ্ৰীঃপূঃ"
+        },
+        {
+          "en": "1500–1000 BCE",
+          "as": "১৫০০–১০০০ খ্ৰীঃপূঃ"
+        },
+        {
+          "en": "1000–500 BCE",
+          "as": "১০০০–৫০০ খ্ৰীঃপূঃ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The mature Harappan phase is dated to about 2600–1900 BCE, with early and late phases on either side.",
+        "as": "প্ৰাপ্তবয়স্ক হৰপ্পা পৰ্যায় প্ৰায় ২৬০০–১৯০০ খ্ৰীঃপূঃলৈকে ধৰা হয়, দুয়োফালে প্ৰাৰম্ভিক আৰু শেষ পৰ্যায় থাকে।"
+      }
+    },
+    {
+      "id": "lcm-hcf-057",
+      "q": {
+        "en": "The HCF of two numbers is 11 and their LCM is 7700. If one number is 275, the other is:",
+        "as": "দুটা সংখ্যাৰ গ.সা.গু. ১১ আৰু ল.সা.গু. ৭৭০০। এটা সংখ্যা ২৭৫ হ'লে আনটো হ'ল:"
+      },
+      "options": [
+        {
+          "en": "280",
+          "as": "২৮০"
+        },
+        {
+          "en": "308",
+          "as": "৩০৮"
+        },
+        {
+          "en": "330",
+          "as": "৩৩০"
+        },
+        {
+          "en": "350",
+          "as": "৩৫০"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Other number = (11 × 7700) ÷ 275 = 308.",
+        "as": "আনটো সংখ্যা = (১১ × ৭৭০০) ÷ ২৭৫ = ৩০৮।"
+      }
+    },
+    {
+      "id": "time-work-062",
+      "q": {
+        "en": "A can do 1/2 of a work in 6 days and B can do 1/3 of the same work in 12 days. Working together, they will finish the work in:",
+        "as": "A এ ৬ দিনত এটা কামৰ ১/২ আৰু B এ ১২ দিনত একেই কামৰ ১/৩ কৰে। একেলগে কাম কৰিলে তেওঁলোকে কাম শেষ কৰিব:"
+      },
+      "options": [
+        {
+          "en": "10 days",
+          "as": "১০ দিন"
+        },
+        {
+          "en": "8 days",
+          "as": "৮ দিন"
+        },
+        {
+          "en": "9 days",
+          "as": "৯ দিন"
+        },
+        {
+          "en": "12 days",
+          "as": "১২ দিন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A's rate is (1/2) ÷ 6 = 1/12 and B's is (1/3) ÷ 12 = 1/36, so together 1/12 + 1/36 = 1/9, giving 9 days.",
+        "as": "A ৰ হাৰ = (১/২) ÷ ৬ = ১/১২ আৰু B ৰ = (১/৩) ÷ ১২ = ১/৩৬, গতিকে একেলগে ১/১২ + ১/৩৬ = ১/৯, যি ৯ দিন।"
+      }
+    },
+    {
+      "id": "percentage-013",
+      "q": {
+        "en": "The length of a rectangle is increased by 25% and the breadth is decreased by 20%. The area:",
+        "as": "এটা আয়তৰ দীঘ ২৫% বৃদ্ধি আৰু প্ৰস্থ ২০% হ্ৰাস কৰা হ'ল। কালি:"
+      },
+      "options": [
+        {
+          "en": "increases by 5%",
+          "as": "৫% বৃদ্ধি হয়"
+        },
+        {
+          "en": "decreases by 5%",
+          "as": "৫% হ্ৰাস হয়"
+        },
+        {
+          "en": "increases by 10%",
+          "as": "১০% বৃদ্ধি হয়"
+        },
+        {
+          "en": "remains unchanged",
+          "as": "অপৰিৱৰ্তিত থাকে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Area factor = 1.25 × 0.80 = 1.00, so the area is unchanged.",
+        "as": "কালিৰ গুণক = ১.২৫ × ০.৮০ = ১.০০, গতিকে কালি অপৰিৱৰ্তিত।"
+      }
+    },
+    {
+      "id": "space-defence-017",
+      "q": {
+        "en": "In which year was the Mars Orbiter Mission (Mangalyaan) launched?",
+        "as": "মঙ্গল অৰবিটাৰ মিছন (মংগলযান) কোন বছৰত উৎক্ষেপণ কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "2013",
+          "as": "২০১৩"
+        },
+        {
+          "en": "2011",
+          "as": "২০১১"
+        },
+        {
+          "en": "2015",
+          "as": "২০১৫"
+        },
+        {
+          "en": "2009",
+          "as": "২০০৯"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Mars Orbiter Mission was launched on 5 November 2013.",
+        "as": "মঙ্গল অৰবিটাৰ মিছন ২০১৩ চনৰ ৫ নৱেম্বৰত উৎক্ষেপণ কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "chemistry-021",
+      "q": {
+        "en": "The molecular formula of methane is:",
+        "as": "মিথেনৰ আণৱিক সংকেত হ'ল:"
+      },
+      "options": [
+        {
+          "en": "CH₃",
+          "as": "CH₃"
+        },
+        {
+          "en": "CH₄",
+          "as": "CH₄"
+        },
+        {
+          "en": "C₂H₆",
+          "as": "C₂H₆"
+        },
+        {
+          "en": "CH",
+          "as": "CH"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Methane, the simplest hydrocarbon, has one carbon and four hydrogen atoms.",
+        "as": "মিথেন, আটাইতকৈ সৰল হাইড্ৰ'কাৰ্বন, এটা কাৰ্বন আৰু চাৰিটা হাইড্ৰ'জেন পৰমাণুৰে গঠিত।"
+      }
+    },
+    {
+      "id": "counting-figures-015",
+      "q": {
+        "en": "How many triangles can be counted in the figure below?",
+        "as": "তলৰ চিত্ৰখনত কিমানটা ত্ৰিভুজ আছে?"
+      },
+      "options": [
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">10</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>"
+        },
+        {
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text></svg>"
+        }
+      ],
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"100\" y1=\"14\" x2=\"16\" y2=\"146\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"100\" y1=\"14\" x2=\"184\" y2=\"146\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"16\" y1=\"146\" x2=\"184\" y2=\"146\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"83.2\" y1=\"40.400000000000006\" x2=\"116.8\" y2=\"40.400000000000006\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"66.4\" y1=\"66.80000000000001\" x2=\"133.6\" y2=\"66.80000000000001\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"49.6\" y1=\"93.2\" x2=\"150.4\" y2=\"93.2\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"32.8\" y1=\"119.60000000000001\" x2=\"167.2\" y2=\"119.60000000000001\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
+      "explanation": {
+        "en": "Counting every triangle formed in the figure, the total comes to 5.",
+        "as": "চিত্ৰখনত গঠিত প্ৰতিটো ত্ৰিভুজ গণনা কৰিলে মুঠ 5 টা পোৱা যায়।"
+      }
+    },
+    {
+      "id": "miscellaneous-static-gk-042",
+      "q": {
+        "en": "Name the Indian who first won an individual gold at the Olympics.",
+        "as": "অলিম্পিকত প্ৰথম ব্যক্তিগত স্বৰ্ণ জয় কৰা ভাৰতীয়ৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Abhinav Bindra",
+          "as": "অভিনৱ বিন্দ্ৰা"
+        },
+        {
+          "en": "Neeraj Chopra",
+          "as": "নীৰজ চোপ্ৰা"
+        },
+        {
+          "en": "Milkha Singh",
+          "as": "মিলখা সিং"
+        },
+        {
+          "en": "Sushil Kumar",
+          "as": "সুশীল কুমাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In 2008 Abhinav Bindra shot his way to India's first individual Olympic gold.",
+        "as": "২০০৮ চনত অভিনৱ বিন্দ্ৰাই শ্বুটিংত ভাৰতৰ প্ৰথম ব্যক্তিগত অলিম্পিক স্বৰ্ণ লাভ কৰিছিল।"
+      }
+    },
+    {
+      "id": "art-culture-309",
+      "q": {
+        "en": "The 'Jantar Mantar' of Jaipur was declared a UNESCO World Heritage Site in:",
+        "as": "জয়পুৰৰ 'যন্ত্ৰ মন্তৰ' কিমান চনত ইউনেস্ক' বিশ্ব ঐতিহ্য স্থান ঘোষণা কৰা হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "2007",
+          "as": "২০০৭"
+        },
+        {
+          "en": "2010",
+          "as": "২০১০"
+        },
+        {
+          "en": "2013",
+          "as": "২০১৩"
+        },
+        {
+          "en": "2016",
+          "as": "২০১৬"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The Jantar Mantar of Jaipur was declared a World Heritage Site in 2010.",
+        "as": "জয়পুৰৰ যন্ত্ৰ মন্তৰ ২০১০ চনত বিশ্ব ঐতিহ্য স্থান ঘোষণা কৰা হৈছিল।"
+      }
+    },
+    {
+      "id": "puzzles-071",
+      "q": {
+        "en": "In a number puzzle the triplets are 6, 1, 7. By the same rule, find the third number for 8, 9, ?",
+        "as": "এটা সংখ্যা পাজলত ত্ৰিক ৬, ১, ৭। একে নিয়মে ৮, ৯, ? ৰ তৃতীয় সংখ্যা নিৰ্ণয় কৰক।"
+      },
+      "options": [
+        {
+          "en": "19",
+          "as": "১৯"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        },
+        {
+          "en": "16",
+          "as": "১৬"
+        },
+        {
+          "en": "17",
+          "as": "১৭"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Rule: third = first + second, so 8 + 9 = 17.",
+        "as": "নিয়ম: তৃতীয় = প্ৰথম + দ্বিতীয়, গতিকে ৮ + ৯ = ১৭।"
+      }
+    },
+    {
+      "id": "constitution-060",
+      "q": {
+        "en": "The Constitution of India is a blend of rigidity and flexibility in the matter of:",
+        "as": "ভাৰতৰ সংবিধান কিয়ৰ ক্ষেত্ৰত কঠোৰতা আৰু নমনীয়তাৰ মিশ্ৰণ?"
+      },
+      "options": [
+        {
+          "en": "Amendment",
+          "as": "সংশোধন"
+        },
+        {
+          "en": "Elections",
+          "as": "নিৰ্বাচন"
+        },
+        {
+          "en": "Judiciary",
+          "as": "ন্যায়পালিকা"
+        },
+        {
+          "en": "Citizenship",
+          "as": "নাগৰিকত্ব"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Constitution provides three ways to amend, making it partly rigid, partly flexible.",
+        "as": "সংবিধানে সংশোধনৰ তিনিটা উপায় প্ৰদান কৰে, যি ইয়াক আংশিক কঠোৰ, আংশিক নমনীয় কৰে।"
+      }
+    }
+  ]
+}

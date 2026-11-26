@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "geometry-001",
+    "q": {
+      "en": "In any triangle, the three interior angles always add up to:",
+      "as": "যিকোনো ত্ৰিভুজত তিনিটা অন্তঃকোণ সদায় যোগ হৈ হয়:"
+    },
+    "options": [
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "270°",
+        "as": "২৭০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The three interior angles of any triangle always add up to 180°.",
+      "as": "যিকোনো ত্ৰিভুজৰ তিনিটা অন্তঃকোণৰ যোগফল সদায় ১৮০°।"
+    }
+  },
+  {
+    "id": "geometry-002",
+    "q": {
+      "en": "Each interior angle of an equilateral triangle is:",
+      "as": "এটা সমবাহু ত্ৰিভুজৰ প্ৰতিটো অন্তঃকোণ:"
+    },
+    "options": [
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "180 ÷ 3 = 60°.",
+      "as": "১৮০ ÷ ৩ = ৬০°।"
+    }
+  },
+  {
+    "id": "geometry-003",
+    "q": {
+      "en": "Two angles of a triangle are 50° and 60°. The third angle is:",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৫০° আৰু ৬০°। তৃতীয় কোণটো:"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "180 − (50 + 60) = 70°.",
+      "as": "১৮০ − (৫০ + ৬০) = ৭০°।"
+    }
+  },
+  {
+    "id": "geometry-004",
+    "q": {
+      "en": "The exterior angle of a triangle equals:",
+      "as": "এটা ত্ৰিভুজৰ বহিঃকোণ সমান:"
+    },
+    "options": [
+      {
+        "en": "the difference of the two interior opposite angles",
+        "as": "the difference of the two interior opposite angles"
+      },
+      {
+        "en": "half the sum of the interior angles",
+        "as": "half the sum of the interior angles"
+      },
+      {
+        "en": "the third interior angle",
+        "as": "the third interior angle"
+      },
+      {
+        "en": "the sum of the two interior opposite angles",
+        "as": "the sum of the two interior opposite angles"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The exterior angle of a triangle is the sum of the two interior opposite angles.",
+      "as": "ত্ৰিভুজৰ বহিঃকোণ দুটা অন্তঃ বিপৰীত কোণৰ যোগফলৰ সমান।"
+    }
+  },
+  {
+    "id": "geometry-005",
+    "q": {
+      "en": "In a right triangle, the two acute angles are:",
+      "as": "এটা সমকোণী ত্ৰিভুজত দুটা সূক্ষ্মকোণ:"
+    },
+    "options": [
+      {
+        "en": "supplementary",
+        "as": "supplementary"
+      },
+      {
+        "en": "equal",
+        "as": "equal"
+      },
+      {
+        "en": "complementary",
+        "as": "complementary"
+      },
+      {
+        "en": "obtuse",
+        "as": "obtuse"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "In a right triangle the two acute angles add up to 90°, so they are complementary.",
+      "as": "সমকোণী ত্ৰিভুজত দুটা সূক্ষ্মকোণ যোগ হৈ ৯০° হয়, গতিকে সিহঁত পূৰক।"
+    }
+  },
+  {
+    "id": "geometry-006",
+    "q": {
+      "en": "The hypotenuse of a right triangle with legs 3 cm and 4 cm is:",
+      "as": "৩ ছে.মি. আৰু ৪ ছে.মি. ভুজ থকা এটা সমকোণী ত্ৰিভুজৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "5 cm",
+        "as": "৫ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hypotenuse = √(3² + 4²) = √25 = 5 cm.",
+      "as": "কৰ্ণ = √(৩² + ৪²) = √২৫ = ৫ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-007",
+    "q": {
+      "en": "The hypotenuse of a right triangle with legs 5 cm and 12 cm is:",
+      "as": "৫ ছে.মি. আৰু ১২ ছে.মি. ভুজ থকা এটা সমকোণী ত্ৰিভুজৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(25 + 144) = √169 = 13 cm.",
+      "as": "√(২৫ + ১৪৪) = √১৬৯ = ১৩ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-008",
+    "q": {
+      "en": "The hypotenuse of a right triangle with legs 8 cm and 15 cm is:",
+      "as": "৮ ছে.মি. আৰু ১৫ ছে.মি. ভুজ থকা এটা সমকোণী ত্ৰিভুজৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "23 cm",
+        "as": "২৩ cm"
+      },
+      {
+        "en": "19 cm",
+        "as": "১৯ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "21 cm",
+        "as": "২১ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "√(64 + 225) = √289 = 17 cm.",
+      "as": "√(৬৪ + ২২৫) = √২৮৯ = ১৭ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-009",
+    "q": {
+      "en": "The hypotenuse of a right triangle with legs 7 cm and 24 cm is:",
+      "as": "৭ ছে.মি. আৰু ২৪ ছে.মি. ভুজ থকা এটা সমকোণী ত্ৰিভুজৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      },
+      {
+        "en": "31 cm",
+        "as": "৩১ cm"
+      },
+      {
+        "en": "27 cm",
+        "as": "২৭ cm"
+      },
+      {
+        "en": "23 cm",
+        "as": "২৩ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "√(49 + 576) = √625 = 25 cm.",
+      "as": "√(৪৯ + ৫৭৬) = √৬২৫ = ২৫ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-010",
+    "q": {
+      "en": "The hypotenuse of a right triangle with legs 9 cm and 12 cm is:",
+      "as": "৯ ছে.মি. আৰু ১২ ছে.মি. ভুজ থকা এটা সমকোণী ত্ৰিভুজৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "21 cm",
+        "as": "২১ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "√(81 + 144) = √225 = 15 cm.",
+      "as": "√(৮১ + ১৪৪) = √২২৫ = ১৫ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-011",
+    "q": {
+      "en": "The area of a triangle with base 10 cm and height 6 cm is:",
+      "as": "১০ ছে.মি. ভূমি আৰু ৬ ছে.মি. উচ্চতা থকা এটা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "60 cm²",
+        "as": "৬০ cm²"
+      },
+      {
+        "en": "16 cm²",
+        "as": "১৬ cm²"
+      },
+      {
+        "en": "30 cm²",
+        "as": "৩০ cm²"
+      },
+      {
+        "en": "20 cm²",
+        "as": "২০ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = (1/2) × 10 × 6 = 30 cm².",
+      "as": "কালি = (১/২) × ১০ × ৬ = ৩০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-012",
+    "q": {
+      "en": "The area of a triangle with base 12 cm and height 8 cm is:",
+      "as": "১২ ছে.মি. ভূমি আৰু ৮ ছে.মি. উচ্চতা থকা এটা ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "48 cm²",
+        "as": "৪৮ cm²"
+      },
+      {
+        "en": "96 cm²",
+        "as": "৯৬ cm²"
+      },
+      {
+        "en": "20 cm²",
+        "as": "২০ cm²"
+      },
+      {
+        "en": "40 cm²",
+        "as": "৪০ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(1/2) × 12 × 8 = 48 cm².",
+      "as": "(১/২) × ১২ × ৮ = ৪৮ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-013",
+    "q": {
+      "en": "The area of an equilateral triangle of side 6 cm is:",
+      "as": "৬ ছে.মি. বাহু থকা এটা সমবাহু ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "18 cm²",
+        "as": "১৮ cm²"
+      },
+      {
+        "en": "9√3 cm²",
+        "as": "৯√৩ cm²"
+      },
+      {
+        "en": "36√3 cm²",
+        "as": "৩৬√৩ cm²"
+      },
+      {
+        "en": "6√3 cm²",
+        "as": "৬√৩ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = (√3/4) × 6² = (√3/4) × 36 = 9√3 cm².",
+      "as": "কালি = (√৩/৪) × ৬² = (√৩/৪) × ৩৬ = ৯√৩ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-014",
+    "q": {
+      "en": "The area of an equilateral triangle of side 4 cm is:",
+      "as": "৪ ছে.মি. বাহু থকা এটা সমবাহু ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "4√3 cm²",
+        "as": "৪√৩ cm²"
+      },
+      {
+        "en": "8 cm²",
+        "as": "৮ cm²"
+      },
+      {
+        "en": "16√3 cm²",
+        "as": "১৬√৩ cm²"
+      },
+      {
+        "en": "2√3 cm²",
+        "as": "২√৩ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(√3/4) × 16 = 4√3 cm².",
+      "as": "(√৩/৪) × ১৬ = ৪√৩ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-015",
+    "q": {
+      "en": "The area of an equilateral triangle of side 8 cm is:",
+      "as": "৮ ছে.মি. বাহু থকা এটা সমবাহু ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "32 cm²",
+        "as": "৩২ cm²"
+      },
+      {
+        "en": "64√3 cm²",
+        "as": "৬৪√৩ cm²"
+      },
+      {
+        "en": "8√3 cm²",
+        "as": "৮√৩ cm²"
+      },
+      {
+        "en": "16√3 cm²",
+        "as": "১৬√৩ cm²"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(√3/4) × 64 = 16√3 cm².",
+      "as": "(√৩/৪) × ৬৪ = ১৬√৩ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-016",
+    "q": {
+      "en": "The sum of the interior angles of a quadrilateral is:",
+      "as": "এটা চতুৰ্ভুজৰ অন্তঃকোণবোৰৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "540°",
+        "as": "৫৪০°"
+      },
+      {
+        "en": "270°",
+        "as": "২৭০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The interior angles of a quadrilateral add up to 360°.",
+      "as": "চতুৰ্ভুজৰ অন্তঃকোণবোৰ যোগ হৈ ৩৬০° হয়।"
+    }
+  },
+  {
+    "id": "geometry-017",
+    "q": {
+      "en": "The measure of each interior angle of a regular hexagon is:",
+      "as": "এটা সুষম ষড়ভুজৰ প্ৰতিটো অন্তঃকোণৰ মাপ:"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each interior angle = (n − 2) × 180 ÷ n = 4 × 180 ÷ 6 = 120°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = (n − ২) × ১৮০ ÷ n = ৪ × ১৮০ ÷ ৬ = ১২০°।"
+    }
+  },
+  {
+    "id": "geometry-018",
+    "q": {
+      "en": "Each interior angle of a regular pentagon is:",
+      "as": "এটা সুষম পঞ্চভুজৰ প্ৰতিটো অন্তঃকোণ:"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(5 − 2) × 180 ÷ 5 = 108°.",
+      "as": "(৫ − ২) × ১৮০ ÷ ৫ = ১০৮°।"
+    }
+  },
+  {
+    "id": "geometry-019",
+    "q": {
+      "en": "Each interior angle of a regular octagon is:",
+      "as": "এটা সুষম অষ্টভুজৰ প্ৰতিটো অন্তঃকোণ:"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "144°",
+        "as": "১৪৪°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(8 − 2) × 180 ÷ 8 = 135°.",
+      "as": "(৮ − ২) × ১৮০ ÷ ৮ = ১৩৫°।"
+    }
+  },
+  {
+    "id": "geometry-020",
+    "q": {
+      "en": "Each exterior angle of a regular hexagon is:",
+      "as": "এটা সুষম ষড়ভুজৰ প্ৰতিটো বহিঃকোণ:"
+    },
+    "options": [
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each exterior angle = 360 ÷ 6 = 60°.",
+      "as": "প্ৰতিটো বহিঃকোণ = ৩৬০ ÷ ৬ = ৬০°।"
+    }
+  },
+  {
+    "id": "geometry-021",
+    "q": {
+      "en": "Each exterior angle of a regular pentagon is:",
+      "as": "এটা সুষম পঞ্চভুজৰ প্ৰতিটো বহিঃকোণ:"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "360 ÷ 5 = 72°.",
+      "as": "৩৬০ ÷ ৫ = ৭২°।"
+    }
+  },
+  {
+    "id": "geometry-022",
+    "q": {
+      "en": "The number of sides of a regular polygon whose each exterior angle is 45° is:",
+      "as": "যি সুষম বহুভুজৰ প্ৰতিটো বহিঃকোণ ৪৫° তাৰ বাহুৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number of sides = 360 ÷ 45 = 8.",
+      "as": "বাহুৰ সংখ্যা = ৩৬০ ÷ ৪৫ = ৮।"
+    }
+  },
+  {
+    "id": "geometry-023",
+    "q": {
+      "en": "The number of sides of a regular polygon whose each exterior angle is 40° is:",
+      "as": "যি সুষম বহুভুজৰ প্ৰতিটো বহিঃকোণ ৪০° তাৰ বাহুৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "360 ÷ 40 = 9.",
+      "as": "৩৬০ ÷ ৪০ = ৯।"
+    }
+  },
+  {
+    "id": "geometry-024",
+    "q": {
+      "en": "The number of sides of a regular polygon whose each interior angle is 144° is:",
+      "as": "যি সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ ১৪৪° তাৰ বাহুৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exterior angle = 36°, so the number of sides = 360 ÷ 36 = 10.",
+      "as": "বহিঃকোণ = ৩৬°, গতিকে বাহুৰ সংখ্যা = ৩৬০ ÷ ৩৬ = ১০।"
+    }
+  },
+  {
+    "id": "geometry-025",
+    "q": {
+      "en": "The perimeter of a rectangle of length 12 cm and breadth 8 cm is:",
+      "as": "১২ ছে.মি. দীঘ আৰু ৮ ছে.মি. প্ৰস্থ থকা এটা আয়তৰ পৰিসীমা:"
+    },
+    "options": [
+      {
+        "en": "40 cm",
+        "as": "৪০ cm"
+      },
+      {
+        "en": "96 cm",
+        "as": "৯৬ cm"
+      },
+      {
+        "en": "20 cm",
+        "as": "২০ cm"
+      },
+      {
+        "en": "48 cm",
+        "as": "৪৮ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Perimeter = 2(12 + 8) = 40 cm.",
+      "as": "পৰিসীমা = ২(১২ + ৮) = ৪০ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-026",
+    "q": {
+      "en": "The area of a rectangle of length 15 cm and breadth 10 cm is:",
+      "as": "১৫ ছে.মি. দীঘ আৰু ১০ ছে.মি. প্ৰস্থ থকা এটা আয়তৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "150 cm²",
+        "as": "১৫০ cm²"
+      },
+      {
+        "en": "50 cm²",
+        "as": "৫০ cm²"
+      },
+      {
+        "en": "25 cm²",
+        "as": "২৫ cm²"
+      },
+      {
+        "en": "300 cm²",
+        "as": "৩০০ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = 15 × 10 = 150 cm².",
+      "as": "কালি = ১৫ × ১০ = ১৫০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-027",
+    "q": {
+      "en": "The diagonal of a rectangle of sides 12 cm and 5 cm is:",
+      "as": "১২ ছে.মি. আৰু ৫ ছে.মি. বাহু থকা এটা আয়তৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonal = √(12² + 5²) = √169 = 13 cm.",
+      "as": "কৰ্ণ = √(১২² + ৫²) = √১৬৯ = ১৩ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-028",
+    "q": {
+      "en": "The diagonal of a rectangle of sides 8 cm and 6 cm is:",
+      "as": "৮ ছে.মি. আৰু ৬ ছে.মি. বাহু থকা এটা আয়তৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "√(64 + 36) = 10 cm.",
+      "as": "√(৬৪ + ৩৬) = ১০ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-029",
+    "q": {
+      "en": "The perimeter of a square of side 9 cm is:",
+      "as": "৯ ছে.মি. বাহু থকা এটা বৰ্গৰ পৰিসীমা:"
+    },
+    "options": [
+      {
+        "en": "81 cm",
+        "as": "৮১ cm"
+      },
+      {
+        "en": "18 cm",
+        "as": "১৮ cm"
+      },
+      {
+        "en": "45 cm",
+        "as": "৪৫ cm"
+      },
+      {
+        "en": "36 cm",
+        "as": "৩৬ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Perimeter = 4 × 9 = 36 cm.",
+      "as": "পৰিসীমা = ৪ × ৯ = ৩৬ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-030",
+    "q": {
+      "en": "The area of a square of side 12 cm is:",
+      "as": "১২ ছে.মি. বাহু থকা এটা বৰ্গৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "48 cm²",
+        "as": "৪৮ cm²"
+      },
+      {
+        "en": "144 cm²",
+        "as": "১৪৪ cm²"
+      },
+      {
+        "en": "24 cm²",
+        "as": "২৪ cm²"
+      },
+      {
+        "en": "169 cm²",
+        "as": "১৬৯ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = 12² = 144 cm².",
+      "as": "কালি = ১২² = ১৪৪ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-031",
+    "q": {
+      "en": "The diagonal of a square of side 6 cm is:",
+      "as": "৬ ছে.মি. বাহু থকা এটা বৰ্গৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "6√2 cm",
+        "as": "৬√২ cm"
+      },
+      {
+        "en": "3√2 cm",
+        "as": "৩√২ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal = side × √2 = 6√2 cm.",
+      "as": "কৰ্ণ = বাহু × √২ = ৬√২ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-032",
+    "q": {
+      "en": "The diagonal of a square of side 10 cm is:",
+      "as": "১০ ছে.মি. বাহু থকা এটা বৰ্গৰ কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "20 cm",
+        "as": "২০ cm"
+      },
+      {
+        "en": "10√2 cm",
+        "as": "১০√২ cm"
+      },
+      {
+        "en": "5√2 cm",
+        "as": "৫√২ cm"
+      },
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal = 10√2 cm.",
+      "as": "কৰ্ণ = ১০√২ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-033",
+    "q": {
+      "en": "The area of a square whose perimeter is 40 cm is:",
+      "as": "যি বৰ্গৰ পৰিসীমা ৪০ ছে.মি. তাৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "160 cm²",
+        "as": "১৬০ cm²"
+      },
+      {
+        "en": "100 cm²",
+        "as": "১০০ cm²"
+      },
+      {
+        "en": "400 cm²",
+        "as": "৪০০ cm²"
+      },
+      {
+        "en": "80 cm²",
+        "as": "৮০ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Side = 40 ÷ 4 = 10 cm, so the area is 100 cm².",
+      "as": "বাহু = ৪০ ÷ ৪ = ১০ ছে.মি., গতিকে কালি ১০০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-034",
+    "q": {
+      "en": "The circumference of a circle of radius 7 cm is (π = 22/7):",
+      "as": "৭ ছে.মি. ব্যাসাৰ্ধৰ এটা বৃত্তৰ পৰিধি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "154 cm",
+        "as": "১৫৪ cm"
+      },
+      {
+        "en": "22 cm",
+        "as": "২২ cm"
+      },
+      {
+        "en": "49 cm",
+        "as": "৪৯ cm"
+      },
+      {
+        "en": "44 cm",
+        "as": "৪৪ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Circumference = 2πr = 2 × (22/7) × 7 = 44 cm.",
+      "as": "পৰিধি = 2πr = ২ × (২২/৭) × ৭ = ৪৪ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-035",
+    "q": {
+      "en": "The circumference of a circle of radius 14 cm is (π = 22/7):",
+      "as": "১৪ ছে.মি. ব্যাসাৰ্ধৰ এটা বৃত্তৰ পৰিধি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "44 cm",
+        "as": "৪৪ cm"
+      },
+      {
+        "en": "616 cm",
+        "as": "৬১৬ cm"
+      },
+      {
+        "en": "176 cm",
+        "as": "১৭৬ cm"
+      },
+      {
+        "en": "88 cm",
+        "as": "৮৮ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 × (22/7) × 14 = 88 cm.",
+      "as": "২ × (২২/৭) × ১৪ = ৮৮ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-036",
+    "q": {
+      "en": "The area of a circle of radius 7 cm is (π = 22/7):",
+      "as": "৭ ছে.মি. ব্যাসাৰ্ধৰ এটা বৃত্তৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "44 cm²",
+        "as": "৪৪ cm²"
+      },
+      {
+        "en": "308 cm²",
+        "as": "৩০৮ cm²"
+      },
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      },
+      {
+        "en": "77 cm²",
+        "as": "৭৭ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = πr² = (22/7) × 49 = 154 cm².",
+      "as": "কালি = πr² = (২২/৭) × ৪৯ = ১৫৪ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-037",
+    "q": {
+      "en": "The area of a circle of radius 14 cm is (π = 22/7):",
+      "as": "১৪ ছে.মি. ব্যাসাৰ্ধৰ এটা বৃত্তৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "308 cm²",
+        "as": "৩০৮ cm²"
+      },
+      {
+        "en": "616 cm²",
+        "as": "৬১৬ cm²"
+      },
+      {
+        "en": "88 cm²",
+        "as": "৮৮ cm²"
+      },
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(22/7) × 196 = 616 cm².",
+      "as": "(২২/৭) × ১৯৬ = ৬১৬ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-038",
+    "q": {
+      "en": "The area of a circle of diameter 14 cm is (π = 22/7):",
+      "as": "১৪ ছে.মি. ব্যাসৰ এটা বৃত্তৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "616 cm²",
+        "as": "৬১৬ cm²"
+      },
+      {
+        "en": "44 cm²",
+        "as": "৪৪ cm²"
+      },
+      {
+        "en": "308 cm²",
+        "as": "৩০৮ cm²"
+      },
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Radius = 7 cm, so the area is (22/7) × 49 = 154 cm².",
+      "as": "ব্যাসাৰ্ধ = ৭ ছে.মি., গতিকে কালি (২২/৭) × ৪৯ = ১৫৪ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-039",
+    "q": {
+      "en": "If the radius of a circle is doubled, its area becomes:",
+      "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ দুগুণ কৰিলে তাৰ কালি হয়:"
+    },
+    "options": [
+      {
+        "en": "2 times",
+        "as": "২ times"
+      },
+      {
+        "en": "4 times",
+        "as": "৪ times"
+      },
+      {
+        "en": "8 times",
+        "as": "৮ times"
+      },
+      {
+        "en": "unchanged",
+        "as": "unchanged"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area is proportional to r², so doubling r multiplies the area by 4.",
+      "as": "কালি r² ৰ সমানুপাতত, গতিকে r দুগুণ কৰিলে কালি ৪ গুণ হয়।"
+    }
+  },
+  {
+    "id": "geometry-040",
+    "q": {
+      "en": "If the radius of a circle is tripled, its area becomes:",
+      "as": "এটা বৃত্তৰ ব্যাসাৰ্ধ তিনি গুণ কৰিলে তাৰ কালি হয়:"
+    },
+    "options": [
+      {
+        "en": "9 times",
+        "as": "৯ times"
+      },
+      {
+        "en": "3 times",
+        "as": "৩ times"
+      },
+      {
+        "en": "6 times",
+        "as": "৬ times"
+      },
+      {
+        "en": "27 times",
+        "as": "২৭ times"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area ∝ r², so tripling r multiplies the area by 9.",
+      "as": "কালি ∝ r², গতিকে r তিনি গুণ কৰিলে কালি ৯ গুণ হয়।"
+    }
+  },
+  {
+    "id": "geometry-041",
+    "q": {
+      "en": "The area of a parallelogram with base 12 cm and height 7 cm is:",
+      "as": "১২ ছে.মি. ভূমি আৰু ৭ ছে.মি. উচ্চতা থকা এটা সমান্তৰালভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "42 cm²",
+        "as": "৪২ cm²"
+      },
+      {
+        "en": "19 cm²",
+        "as": "১৯ cm²"
+      },
+      {
+        "en": "168 cm²",
+        "as": "১৬৮ cm²"
+      },
+      {
+        "en": "84 cm²",
+        "as": "৮৪ cm²"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = base × height = 12 × 7 = 84 cm².",
+      "as": "কালি = ভূমি × উচ্চতা = ১২ × ৭ = ৮৪ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-042",
+    "q": {
+      "en": "The area of a parallelogram with base 15 cm and height 8 cm is:",
+      "as": "১৫ ছে.মি. ভূমি আৰু ৮ ছে.মি. উচ্চতা থকা এটা সমান্তৰালভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "60 cm²",
+        "as": "৬০ cm²"
+      },
+      {
+        "en": "120 cm²",
+        "as": "১২০ cm²"
+      },
+      {
+        "en": "23 cm²",
+        "as": "২৩ cm²"
+      },
+      {
+        "en": "240 cm²",
+        "as": "২৪০ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "15 × 8 = 120 cm².",
+      "as": "১৫ × ৮ = ১২০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-043",
+    "q": {
+      "en": "The area of a trapezium with parallel sides 12 cm and 8 cm and height 5 cm is:",
+      "as": "১২ ছে.মি. আৰু ৮ ছে.মি. সমান্তৰাল বাহু আৰু ৫ ছে.মি. উচ্চতা থকা এটা ট্ৰেপিজিয়ামৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "50 cm²",
+        "as": "৫০ cm²"
+      },
+      {
+        "en": "100 cm²",
+        "as": "১০০ cm²"
+      },
+      {
+        "en": "25 cm²",
+        "as": "২৫ cm²"
+      },
+      {
+        "en": "60 cm²",
+        "as": "৬০ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = (1/2) × (12 + 8) × 5 = 50 cm².",
+      "as": "কালি = (১/২) × (১২ + ৮) × ৫ = ৫০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-044",
+    "q": {
+      "en": "The area of a trapezium with parallel sides 10 cm and 6 cm and height 4 cm is:",
+      "as": "১০ ছে.মি. আৰু ৬ ছে.মি. সমান্তৰাল বাহু আৰু ৪ ছে.মি. উচ্চতা থকা এটা ট্ৰেপিজিয়ামৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "64 cm²",
+        "as": "৬৪ cm²"
+      },
+      {
+        "en": "16 cm²",
+        "as": "১৬ cm²"
+      },
+      {
+        "en": "32 cm²",
+        "as": "৩২ cm²"
+      },
+      {
+        "en": "40 cm²",
+        "as": "৪০ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(1/2) × (10 + 6) × 4 = 32 cm².",
+      "as": "(১/২) × (১০ + ৬) × ৪ = ৩২ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-045",
+    "q": {
+      "en": "The area of a rhombus whose diagonals are 10 cm and 8 cm is:",
+      "as": "যি ৰম্বছৰ কৰ্ণ ১০ ছে.মি. আৰু ৮ ছে.মি. তাৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "80 cm²",
+        "as": "৮০ cm²"
+      },
+      {
+        "en": "20 cm²",
+        "as": "২০ cm²"
+      },
+      {
+        "en": "18 cm²",
+        "as": "১৮ cm²"
+      },
+      {
+        "en": "40 cm²",
+        "as": "৪০ cm²"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = (1/2) × d₁ × d₂ = (1/2) × 10 × 8 = 40 cm².",
+      "as": "কালি = (১/২) × d₁ × d₂ = (১/২) × ১০ × ৮ = ৪০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-046",
+    "q": {
+      "en": "The area of a rhombus whose diagonals are 16 cm and 12 cm is:",
+      "as": "যি ৰম্বছৰ কৰ্ণ ১৬ ছে.মি. আৰু ১২ ছে.মি. তাৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "192 cm²",
+        "as": "১৯২ cm²"
+      },
+      {
+        "en": "48 cm²",
+        "as": "৪৮ cm²"
+      },
+      {
+        "en": "96 cm²",
+        "as": "৯৬ cm²"
+      },
+      {
+        "en": "28 cm²",
+        "as": "২৮ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(1/2) × 16 × 12 = 96 cm².",
+      "as": "(১/২) × ১৬ × ১২ = ৯৬ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-047",
+    "q": {
+      "en": "Two angles of a quadrilateral are 80° and 100° and a third is 70°. The fourth angle is:",
+      "as": "এটা চতুৰ্ভুজৰ দুটা কোণ ৮০° আৰু ১০০° আৰু তৃতীয়টো ৭০°। চতুৰ্থ কোণটো:"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "360 − (80 + 100 + 70) = 110°.",
+      "as": "৩৬০ − (৮০ + ১০০ + ৭০) = ১১০°।"
+    }
+  },
+  {
+    "id": "geometry-048",
+    "q": {
+      "en": "In a parallelogram, the opposite angles are:",
+      "as": "এটা সমান্তৰালভুজত বিপৰীত কোণবোৰ:"
+    },
+    "options": [
+      {
+        "en": "supplementary",
+        "as": "supplementary"
+      },
+      {
+        "en": "complementary",
+        "as": "complementary"
+      },
+      {
+        "en": "unequal",
+        "as": "unequal"
+      },
+      {
+        "en": "equal",
+        "as": "equal"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The opposite angles of a parallelogram are equal.",
+      "as": "সমান্তৰালভুজৰ বিপৰীত কোণবোৰ সমান।"
+    }
+  },
+  {
+    "id": "geometry-049",
+    "q": {
+      "en": "In a parallelogram, the adjacent angles are:",
+      "as": "এটা সমান্তৰালভুজত সন্নিহিত কোণবোৰ:"
+    },
+    "options": [
+      {
+        "en": "equal",
+        "as": "equal"
+      },
+      {
+        "en": "supplementary",
+        "as": "supplementary"
+      },
+      {
+        "en": "complementary",
+        "as": "complementary"
+      },
+      {
+        "en": "right angles",
+        "as": "right angles"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Adjacent angles of a parallelogram add up to 180°, so they are supplementary.",
+      "as": "সমান্তৰালভুজৰ সন্নিহিত কোণবোৰ যোগ হৈ ১৮০° হয়, গতিকে সিহঁত পৰিপূৰক।"
+    }
+  },
+  {
+    "id": "geometry-050",
+    "q": {
+      "en": "Each angle of a rectangle is:",
+      "as": "এটা আয়তৰ প্ৰতিটো কোণ:"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "All four angles of a rectangle are right angles, i.e. 90° each.",
+      "as": "আয়তৰ চাৰিওটা কোণ সমকোণ, অৰ্থাৎ প্ৰতিটো ৯০°।"
+    }
+  },
+  {
+    "id": "geometry-051",
+    "q": {
+      "en": "The diagonals of a rectangle are:",
+      "as": "এটা আয়তৰ কৰ্ণবোৰ:"
+    },
+    "options": [
+      {
+        "en": "perpendicular",
+        "as": "perpendicular"
+      },
+      {
+        "en": "unequal",
+        "as": "unequal"
+      },
+      {
+        "en": "equal and bisect each other",
+        "as": "equal and bisect each other"
+      },
+      {
+        "en": "parallel",
+        "as": "parallel"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The diagonals of a rectangle are equal and bisect each other.",
+      "as": "আয়তৰ কৰ্ণবোৰ সমান আৰু ইজনে সিজনক সমদ্বিখণ্ডিত কৰে।"
+    }
+  },
+  {
+    "id": "geometry-052",
+    "q": {
+      "en": "The diagonals of a rhombus are:",
+      "as": "এটা ৰম্বছৰ কৰ্ণবোৰ:"
+    },
+    "options": [
+      {
+        "en": "equal",
+        "as": "equal"
+      },
+      {
+        "en": "parallel",
+        "as": "parallel"
+      },
+      {
+        "en": "equal and perpendicular",
+        "as": "equal and perpendicular"
+      },
+      {
+        "en": "perpendicular bisectors of each other",
+        "as": "perpendicular bisectors of each other"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The diagonals of a rhombus bisect each other at right angles.",
+      "as": "ৰম্বছৰ কৰ্ণবোৰে ইজনে সিজনক সমকোণত সমদ্বিখণ্ডিত কৰে।"
+    }
+  },
+  {
+    "id": "geometry-053",
+    "q": {
+      "en": "The sum of the exterior angles of any polygon is:",
+      "as": "যিকোনো বহুভুজৰ বহিঃকোণবোৰৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      },
+      {
+        "en": "depends on the number of sides",
+        "as": "depends on the number of sides"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "540°",
+        "as": "৫৪০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The exterior angles of any convex polygon always add up to 360°.",
+      "as": "যিকোনো উত্তল বহুভুজৰ বহিঃকোণবোৰ সদায় যোগ হৈ ৩৬০° হয়।"
+    }
+  },
+  {
+    "id": "geometry-054",
+    "q": {
+      "en": "The number of diagonals of a hexagon is:",
+      "as": "এটা ষড়ভুজৰ কৰ্ণৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diagonals = n(n − 3)/2 = 6 × 3/2 = 9.",
+      "as": "কৰ্ণ = n(n − ৩)/২ = ৬ × ৩/২ = ৯।"
+    }
+  },
+  {
+    "id": "geometry-055",
+    "q": {
+      "en": "The number of diagonals of a pentagon is:",
+      "as": "এটা পঞ্চভুজৰ কৰ্ণৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "5 × 2/2 = 5.",
+      "as": "৫ × ২/২ = ৫।"
+    }
+  },
+  {
+    "id": "geometry-056",
+    "q": {
+      "en": "The number of diagonals of an octagon is:",
+      "as": "এটা অষ্টভুজৰ কৰ্ণৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "8 × 5/2 = 20.",
+      "as": "৮ × ৫/২ = ২০।"
+    }
+  },
+  {
+    "id": "geometry-057",
+    "q": {
+      "en": "If two sides of a triangle are 5 cm and 8 cm, the third side must be:",
+      "as": "এটা ত্ৰিভুজৰ দুটা বাহু ৫ ছে.মি. আৰু ৮ ছে.মি. হ'লে, তৃতীয় বাহু হ'ব লাগিব:"
+    },
+    "options": [
+      {
+        "en": "greater than 13 cm",
+        "as": "greater than ১৩ cm"
+      },
+      {
+        "en": "less than 3 cm",
+        "as": "less than ৩ cm"
+      },
+      {
+        "en": "between 3 cm and 13 cm",
+        "as": "between ৩ cm and ১৩ cm"
+      },
+      {
+        "en": "exactly 3 cm",
+        "as": "exactly ৩ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The third side is greater than the difference (3) and less than the sum (13).",
+      "as": "তৃতীয় বাহু পাৰ্থক্য (৩) তকৈ ডাঙৰ আৰু যোগফল (১৩) তকৈ সৰু।"
+    }
+  },
+  {
+    "id": "geometry-058",
+    "q": {
+      "en": "If two sides of a triangle are 7 cm and 10 cm, the third side must be:",
+      "as": "এটা ত্ৰিভুজৰ দুটা বাহু ৭ ছে.মি. আৰু ১০ ছে.মি. হ'লে, তৃতীয় বাহু হ'ব লাগিব:"
+    },
+    "options": [
+      {
+        "en": "greater than 17 cm",
+        "as": "greater than ১৭ cm"
+      },
+      {
+        "en": "less than 3 cm",
+        "as": "less than ৩ cm"
+      },
+      {
+        "en": "between 3 cm and 17 cm",
+        "as": "between ৩ cm and ১৭ cm"
+      },
+      {
+        "en": "exactly 3 cm",
+        "as": "exactly ৩ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It lies between 10 − 7 = 3 and 10 + 7 = 17.",
+      "as": "ই ১০ − ৭ = ৩ আৰু ১০ + ৭ = ১৭ ৰ মাজত থাকে।"
+    }
+  },
+  {
+    "id": "geometry-059",
+    "q": {
+      "en": "A triangle with sides 3 cm, 4 cm and 5 cm is:",
+      "as": "৩ ছে.মি., ৪ ছে.মি. আৰু ৫ ছে.মি. বাহু থকা এটা ত্ৰিভুজ:"
+    },
+    "options": [
+      {
+        "en": "equilateral",
+        "as": "equilateral"
+      },
+      {
+        "en": "obtuse-angled",
+        "as": "obtuse-angled"
+      },
+      {
+        "en": "right-angled",
+        "as": "right-angled"
+      },
+      {
+        "en": "isosceles",
+        "as": "isosceles"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3² + 4² = 5², so by the converse of Pythagoras it is right-angled.",
+      "as": "৩² + ৪² = ৫², গতিকে পাইথাগোৰাছৰ বিপৰীতৰ পৰা ই সমকোণী।"
+    }
+  },
+  {
+    "id": "geometry-060",
+    "q": {
+      "en": "A triangle with sides 5 cm, 12 cm and 13 cm is:",
+      "as": "৫ ছে.মি., ১২ ছে.মি. আৰু ১৩ ছে.মি. বাহু থকা এটা ত্ৰিভুজ:"
+    },
+    "options": [
+      {
+        "en": "equilateral",
+        "as": "equilateral"
+      },
+      {
+        "en": "obtuse-angled",
+        "as": "obtuse-angled"
+      },
+      {
+        "en": "right-angled",
+        "as": "right-angled"
+      },
+      {
+        "en": "acute-angled",
+        "as": "acute-angled"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "5² + 12² = 13², so it is right-angled.",
+      "as": "৫² + ১২² = ১৩², গতিকে ই সমকোণী।"
+    }
+  },
+  {
+    "id": "geometry-061",
+    "q": {
+      "en": "The angles of a triangle are in the ratio 2 : 3 : 4. The largest angle is:",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰ ২ : ৩ : ৪ অনুপাতত। আটাইতকৈ ডাঙৰ কোণটো:"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum of parts = 9, so the largest = (4/9) × 180 = 80°.",
+      "as": "অংশবোৰৰ যোগফল = ৯, গতিকে ডাঙৰটো = (৪/৯) × ১৮০ = ৮০°।"
+    }
+  },
+  {
+    "id": "geometry-062",
+    "q": {
+      "en": "The angles of a triangle are in the ratio 1 : 2 : 3. The largest angle is:",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰ ১ : ২ : ৩ অনুপাতত। আটাইতকৈ ডাঙৰ কোণটো:"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum of parts = 6, so the largest = (3/6) × 180 = 90°.",
+      "as": "অংশবোৰৰ যোগফল = ৬, গতিকে ডাঙৰটো = (৩/৬) × ১৮০ = ৯০°।"
+    }
+  },
+  {
+    "id": "geometry-063",
+    "q": {
+      "en": "The angles of a triangle are in the ratio 3 : 4 : 5. The smallest angle is:",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰ ৩ : ৪ : ৫ অনুপাতত। আটাইতকৈ সৰু কোণটো:"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "50°",
+        "as": "৫০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of parts = 12, so the smallest = (3/12) × 180 = 45°.",
+      "as": "অংশবোৰৰ যোগফল = ১২, গতিকে সৰুটো = (৩/১২) × ১৮০ = ৪৫°।"
+    }
+  },
+  {
+    "id": "geometry-064",
+    "q": {
+      "en": "The volume of a cube of side 3 cm is:",
+      "as": "৩ ছে.মি. বাহু থকা এটা ঘনকৰ আয়তন:"
+    },
+    "options": [
+      {
+        "en": "9 cm³",
+        "as": "৯ cm³"
+      },
+      {
+        "en": "27 cm³",
+        "as": "২৭ cm³"
+      },
+      {
+        "en": "18 cm³",
+        "as": "১৮ cm³"
+      },
+      {
+        "en": "81 cm³",
+        "as": "৮১ cm³"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume = 3³ = 27 cm³.",
+      "as": "আয়তন = ৩³ = ২৭ ছে.মি.³।"
+    }
+  },
+  {
+    "id": "geometry-065",
+    "q": {
+      "en": "The total surface area of a cube of side 5 cm is:",
+      "as": "৫ ছে.মি. বাহু থকা এটা ঘনকৰ মুঠ পৃষ্ঠকালি:"
+    },
+    "options": [
+      {
+        "en": "150 cm²",
+        "as": "১৫০ cm²"
+      },
+      {
+        "en": "125 cm²",
+        "as": "১২৫ cm²"
+      },
+      {
+        "en": "25 cm²",
+        "as": "২৫ cm²"
+      },
+      {
+        "en": "100 cm²",
+        "as": "১০০ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Surface area = 6 × 5² = 150 cm².",
+      "as": "পৃষ্ঠকালি = ৬ × ৫² = ১৫০ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-066",
+    "q": {
+      "en": "The volume of a cuboid of dimensions 5 cm × 4 cm × 3 cm is:",
+      "as": "৫ ছে.মি. × ৪ ছে.মি. × ৩ ছে.মি. মাপৰ এটা ঘনকীয় আয়তৰ আয়তন:"
+    },
+    "options": [
+      {
+        "en": "12 cm³",
+        "as": "১২ cm³"
+      },
+      {
+        "en": "47 cm³",
+        "as": "৪৭ cm³"
+      },
+      {
+        "en": "120 cm³",
+        "as": "১২০ cm³"
+      },
+      {
+        "en": "60 cm³",
+        "as": "৬০ cm³"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = 5 × 4 × 3 = 60 cm³.",
+      "as": "আয়তন = ৫ × ৪ × ৩ = ৬০ ছে.মি.³।"
+    }
+  },
+  {
+    "id": "geometry-067",
+    "q": {
+      "en": "The area of an equilateral triangle of side 10 cm is:",
+      "as": "১০ ছে.মি. বাহু থকা এটা সমবাহু ত্ৰিভুজৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "50 cm²",
+        "as": "৫০ cm²"
+      },
+      {
+        "en": "100√3 cm²",
+        "as": "১০০√৩ cm²"
+      },
+      {
+        "en": "25√3 cm²",
+        "as": "২৫√৩ cm²"
+      },
+      {
+        "en": "10√3 cm²",
+        "as": "১০√৩ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(√3/4) × 100 = 25√3 cm².",
+      "as": "(√৩/৪) × ১০০ = ২৫√৩ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-068",
+    "q": {
+      "en": "In an isosceles triangle, the base angles are:",
+      "as": "এটা সমদ্বিবাহু ত্ৰিভুজত ভূমি কোণবোৰ:"
+    },
+    "options": [
+      {
+        "en": "equal",
+        "as": "equal"
+      },
+      {
+        "en": "supplementary",
+        "as": "supplementary"
+      },
+      {
+        "en": "complementary",
+        "as": "complementary"
+      },
+      {
+        "en": "right angles",
+        "as": "right angles"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The angles opposite the equal sides are equal, so the base angles are equal.",
+      "as": "সমান বাহুৰ বিপৰীত কোণবোৰ সমান, গতিকে ভূমি কোণবোৰ সমান।"
+    }
+  },
+  {
+    "id": "geometry-069",
+    "q": {
+      "en": "If the equal sides of an isosceles right triangle are 7 cm each, the hypotenuse is:",
+      "as": "এটা সমদ্বিবাহু সমকোণী ত্ৰিভুজৰ সমান বাহু প্ৰতিটো ৭ ছে.মি. হ'লে, কৰ্ণ:"
+    },
+    "options": [
+      {
+        "en": "7√2 cm",
+        "as": "৭√২ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "14√2 cm",
+        "as": "১৪√২ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hypotenuse = side × √2 = 7√2 cm.",
+      "as": "কৰ্ণ = বাহু × √২ = ৭√২ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-070",
+    "q": {
+      "en": "The perimeter of an equilateral triangle of side 12 cm is:",
+      "as": "১২ ছে.মি. বাহু থকা এটা সমবাহু ত্ৰিভুজৰ পৰিসীমা:"
+    },
+    "options": [
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "144 cm",
+        "as": "১৪৪ cm"
+      },
+      {
+        "en": "48 cm",
+        "as": "৪৮ cm"
+      },
+      {
+        "en": "36 cm",
+        "as": "৩৬ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Perimeter = 3 × 12 = 36 cm.",
+      "as": "পৰিসীমা = ৩ × ১২ = ৩৬ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-071",
+    "q": {
+      "en": "The area of a rectangle is 96 cm² and its length is 12 cm. Its breadth is:",
+      "as": "এটা আয়তৰ কালি ৯৬ ছে.মি.² আৰু দীঘ ১২ ছে.মি.। ইয়াৰ প্ৰস্থ:"
+    },
+    "options": [
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Breadth = 96 ÷ 12 = 8 cm.",
+      "as": "প্ৰস্থ = ৯৬ ÷ ১২ = ৮ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-072",
+    "q": {
+      "en": "The perimeter of a square is 64 cm. Its area is:",
+      "as": "এটা বৰ্গৰ পৰিসীমা ৬৪ ছে.মি.। ইয়াৰ কালি:"
+    },
+    "options": [
+      {
+        "en": "256 cm²",
+        "as": "২৫৬ cm²"
+      },
+      {
+        "en": "128 cm²",
+        "as": "১২৮ cm²"
+      },
+      {
+        "en": "512 cm²",
+        "as": "৫১২ cm²"
+      },
+      {
+        "en": "64 cm²",
+        "as": "৬৪ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Side = 16 cm, so the area is 256 cm².",
+      "as": "বাহু = ১৬ ছে.মি., গতিকে কালি ২৫৬ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-073",
+    "q": {
+      "en": "The radius of a circle whose circumference is 44 cm is (π = 22/7):",
+      "as": "যি বৃত্তৰ পৰিধি ৪৪ ছে.মি. তাৰ ব্যাসাৰ্ধ (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "22 cm",
+        "as": "২২ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2πr = 44, so r = 44 × 7 / (2 × 22) = 7 cm.",
+      "as": "2πr = ৪৪, গতিকে r = ৪৪ × ৭ / (২ × ২২) = ৭ ছে.মি.।"
+    }
+  },
+  {
+    "id": "geometry-074",
+    "q": {
+      "en": "The area of a semicircle of radius 7 cm is (π = 22/7):",
+      "as": "৭ ছে.মি. ব্যাসাৰ্ধৰ এটা অৰ্ধবৃত্তৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      },
+      {
+        "en": "77 cm²",
+        "as": "৭৭ cm²"
+      },
+      {
+        "en": "38.5 cm²",
+        "as": "৩৮.৫ cm²"
+      },
+      {
+        "en": "44 cm²",
+        "as": "৪৪ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = (1/2)πr² = (1/2) × (22/7) × 49 = 77 cm².",
+      "as": "কালি = (১/২)πr² = (১/২) × (২২/৭) × ৪৯ = ৭৭ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-075",
+    "q": {
+      "en": "The area of a quadrant of a circle of radius 14 cm is (π = 22/7):",
+      "as": "১৪ ছে.মি. ব্যাসাৰ্ধৰ এটা বৃত্তৰ চতুৰ্থাংশৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "616 cm²",
+        "as": "৬১৬ cm²"
+      },
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      },
+      {
+        "en": "308 cm²",
+        "as": "৩০৮ cm²"
+      },
+      {
+        "en": "77 cm²",
+        "as": "৭৭ cm²"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = (1/4)πr² = (1/4) × (22/7) × 196 = 154 cm².",
+      "as": "কালি = (১/৪)πr² = (১/৪) × (২২/৭) × ১৯৬ = ১৫৪ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-076",
+    "q": {
+      "en": "The number of diagonals of a decagon is:",
+      "as": "এটা দশভুজৰ কৰ্ণৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonals = 10 × 7/2 = 35.",
+      "as": "কৰ্ণ = ১০ × ৭/২ = ৩৫।"
+    }
+  },
+  {
+    "id": "geometry-077",
+    "q": {
+      "en": "The area of a circle of diameter 28 cm is (π = 22/7):",
+      "as": "২৮ ছে.মি. ব্যাসৰ এটা বৃত্তৰ কালি (π = ২২/৭):"
+    },
+    "options": [
+      {
+        "en": "616 cm²",
+        "as": "৬১৬ cm²"
+      },
+      {
+        "en": "308 cm²",
+        "as": "৩০৮ cm²"
+      },
+      {
+        "en": "2464 cm²",
+        "as": "২৪৬৪ cm²"
+      },
+      {
+        "en": "154 cm²",
+        "as": "১৫৪ cm²"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Radius = 14 cm, so the area is (22/7) × 196 = 616 cm².",
+      "as": "ব্যাসাৰ্ধ = ১৪ ছে.মি., গতিকে কালি (২২/৭) × ১৯৬ = ৬১৬ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-078",
+    "q": {
+      "en": "If each interior angle of a regular polygon is 150°, the number of sides is:",
+      "as": "সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ ১৫০° হ'লে, বাহুৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exterior angle = 30°, so the number of sides = 360 ÷ 30 = 12.",
+      "as": "বহিঃকোণ = ৩০°, গতিকে বাহুৰ সংখ্যা = ৩৬০ ÷ ৩০ = ১২।"
+    }
+  },
+  {
+    "id": "geometry-079",
+    "q": {
+      "en": "The total surface area of a cuboid 6 cm × 4 cm × 3 cm is:",
+      "as": "৬ ছে.মি. × ৪ ছে.মি. × ৩ ছে.মি. ঘনকীয় আয়তৰ মুঠ পৃষ্ঠকালি:"
+    },
+    "options": [
+      {
+        "en": "72 cm²",
+        "as": "৭২ cm²"
+      },
+      {
+        "en": "54 cm²",
+        "as": "৫৪ cm²"
+      },
+      {
+        "en": "108 cm²",
+        "as": "১০৮ cm²"
+      },
+      {
+        "en": "144 cm²",
+        "as": "১৪৪ cm²"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Surface area = 2(lb + bh + hl) = 2(24 + 12 + 18) = 108 cm².",
+      "as": "পৃষ্ঠকালি = ২(lb + bh + hl) = ২(২৪ + ১২ + ১৮) = ১০৮ ছে.মি.²।"
+    }
+  },
+  {
+    "id": "geometry-080",
+    "q": {
+      "en": "The volume of a cube whose surface area is 96 cm² is:",
+      "as": "যি ঘনকৰ পৃষ্ঠকালি ৯৬ ছে.মি.² তাৰ আয়তন:"
+    },
+    "options": [
+      {
+        "en": "96 cm³",
+        "as": "৯৬ cm³"
+      },
+      {
+        "en": "64 cm³",
+        "as": "৬৪ cm³"
+      },
+      {
+        "en": "36 cm³",
+        "as": "৩৬ cm³"
+      },
+      {
+        "en": "216 cm³",
+        "as": "২১৬ cm³"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "6a² = 96 gives a² = 16 and a = 4, so the volume is 64 cm³.",
+      "as": "6a² = ৯৬ ৰ পৰা a² = ১৬ আৰু a = ৪, গতিকে আয়তন ৬৪ ছে.মি.³।"
+    }
+  }
+]

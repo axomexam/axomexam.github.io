@@ -1,0 +1,3047 @@
+{
+  "setNumber": 8,
+  "title": "Full Paper Set 8",
+  "exam": "dhs-dme-technical",
+  "blueprint": {
+    "durationMinutes": 120,
+    "totalMarks": 100,
+    "marksPerQuestion": 1,
+    "negativeMarking": 0,
+    "sections": [
+      {
+        "id": "technical-science",
+        "questions": 78,
+        "label": {
+          "en": "Technical / Science (Diploma & Degree Level)",
+          "as": "কাৰিকৰী / বিজ্ঞান (ডিপ্লমা আৰু ডিগ্ৰী স্তৰ)"
+        }
+      },
+      {
+        "id": "general-knowledge",
+        "questions": 12,
+        "label": {
+          "en": "General Knowledge & Current Affairs",
+          "as": "সাধাৰণ জ্ঞান আৰু সাম্প্ৰতিক ঘটনাৱলী"
+        }
+      },
+      {
+        "id": "general-english",
+        "questions": 5,
+        "label": {
+          "en": "General English",
+          "as": "সাধাৰণ ইংৰাজী"
+        }
+      },
+      {
+        "id": "logical-reasoning",
+        "questions": 5,
+        "label": {
+          "en": "Reasoning & Mental Ability",
+          "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+        }
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "technical-science-x110",
+      "q": {
+        "en": "Which chemical is used as a preservative in pickles?",
+        "as": "আচাৰত সংৰক্ষক ৰূপে কোন ৰাসায়নিক ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Sugar",
+          "as": "চেনি"
+        },
+        {
+          "en": "Vinegar",
+          "as": "ভিনেগাৰ"
+        },
+        {
+          "en": "Salt",
+          "as": "নিমখ"
+        },
+        {
+          "en": "Water",
+          "as": "পানী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Vinegar, containing acetic acid, acts as a preservative in pickles.",
+        "as": "এছেটিক আম্ল থকা ভিনেগাৰে আচাৰত সংৰক্ষক ৰূপে কাম কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x050",
+      "q": {
+        "en": "Write the chemical formula of common salt.",
+        "as": "সাধাৰণ নিমখৰ ৰাসায়নিক সংকেত লিখক।"
+      },
+      "options": [
+        {
+          "en": "CaCl2",
+          "as": "CaCl₂"
+        },
+        {
+          "en": "NaCl",
+          "as": "NaCl"
+        },
+        {
+          "en": "KCl",
+          "as": "KCl"
+        },
+        {
+          "en": "MgCl2",
+          "as": "MgCl₂"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Common salt is sodium chloride, NaCl.",
+        "as": "সাধাৰণ নিমখ হৈছে ছ'ডিয়াম ক্ল'ৰাইড, NaCl।"
+      }
+    },
+    {
+      "id": "technical-science-x192",
+      "q": {
+        "en": "The heating effect of current is used in?",
+        "as": "প্ৰৱাহৰ তাপীয় প্ৰভাৱ কিৰ বাবে ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Electric fan",
+          "as": "বিদ্যুৎ ফেন"
+        },
+        {
+          "en": "Loudspeaker",
+          "as": "লাউডস্পিকাৰ"
+        },
+        {
+          "en": "Electric bell",
+          "as": "বিদ্যুৎ ঘণ্টা"
+        },
+        {
+          "en": "Electric heater",
+          "as": "বিদ্যুৎ হিটাৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Electric heaters use the heating effect of current.",
+        "as": "বিদ্যুৎ হিটাৰে প্ৰৱাহৰ তাপীয় প্ৰভাৱ ব্যৱহাৰ কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x256",
+      "q": {
+        "en": "Which vitamin is produced in the human body on exposure to sunlight?",
+        "as": "সূৰ্যৰ পোহৰত মানৱ শৰীৰত কোন ভিটামিন উৎপন্ন হয়?"
+      },
+      "options": [
+        {
+          "en": "Vitamin C",
+          "as": "ভিটামিন C"
+        },
+        {
+          "en": "Vitamin K",
+          "as": "ভিটামিন K"
+        },
+        {
+          "en": "Vitamin D",
+          "as": "ভিটামিন D"
+        },
+        {
+          "en": "Vitamin A",
+          "as": "ভিটামিন A"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Sunlight helps the skin synthesise vitamin D.",
+        "as": "সূৰ্যৰ পোহৰে ছালক ভিটামিন D সংশ্লেষণত সহায় কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x234",
+      "q": {
+        "en": "Which of the following is a unit of energy?",
+        "as": "তলৰ কোনটো শক্তিৰ একক?"
+      },
+      "options": [
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        },
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Pascal",
+          "as": "পাস্কেল"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The joule is a unit of energy.",
+        "as": "জুল শক্তিৰ একক।"
+      }
+    },
+    {
+      "id": "technical-science-x207",
+      "q": {
+        "en": "Which subatomic particle carries no electric charge?",
+        "as": "কোন উপ-পাৰমাণৱিক কণিকাই কোনো বিদ্যুৎ আধান বহন নকৰে?"
+      },
+      "options": [
+        {
+          "en": "Neutron",
+          "as": "নিউট্ৰন"
+        },
+        {
+          "en": "Proton",
+          "as": "প্ৰ'টন"
+        },
+        {
+          "en": "Electron",
+          "as": "ইলেক্ট্ৰন"
+        },
+        {
+          "en": "Ion",
+          "as": "আয়ন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A neutron is electrically neutral.",
+        "as": "নিউট্ৰন বৈদ্যুতিকভাৱে প্ৰশম।"
+      }
+    },
+    {
+      "id": "general-knowledge-x018",
+      "q": {
+        "en": "Name the highest mountain peak located within India.",
+        "as": "ভাৰতৰ ভিতৰত অৱস্থিত আটাইতকৈ উচ্চ পৰ্বত শিখৰৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Kangchenjunga",
+          "as": "কাঞ্চনজঙ্ঘা"
+        },
+        {
+          "en": "Anamudi",
+          "as": "আনামুদি"
+        },
+        {
+          "en": "Nanda Devi",
+          "as": "নন্দা দেৱী"
+        },
+        {
+          "en": "K2",
+          "as": "কে-২"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Kangchenjunga is the highest peak located in India.",
+        "as": "কাঞ্চনজঙ্ঘা ভাৰতত অৱস্থিত আটাইতকৈ উচ্চ শিখৰ।"
+      }
+    },
+    {
+      "id": "technical-science-x111",
+      "q": {
+        "en": "The speed of light in vacuum is approximately?",
+        "as": "শূন্যস্থানত পোহৰৰ গতি প্ৰায় কিমান?"
+      },
+      "options": [
+        {
+          "en": "3 × 10^5 m/s",
+          "as": "৩ × ১০⁵ মি/ছে"
+        },
+        {
+          "en": "3 × 10^6 m/s",
+          "as": "৩ × ১০⁶ মি/ছে"
+        },
+        {
+          "en": "3 × 10^10 m/s",
+          "as": "৩ × ১০¹⁰ মি/ছে"
+        },
+        {
+          "en": "3 × 10^8 m/s",
+          "as": "৩ × ১০⁸ মি/ছে"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The speed of light in vacuum is about 3 × 10^8 m/s.",
+        "as": "শূন্যস্থানত পোহৰৰ গতি প্ৰায় ৩ × ১০⁸ মি/ছে।"
+      }
+    },
+    {
+      "id": "technical-science-x160",
+      "q": {
+        "en": "Bacteria belong to which kingdom?",
+        "as": "বেক্টেৰিয়া কোন ৰাজ্যৰ অন্তৰ্গত?"
+      },
+      "options": [
+        {
+          "en": "Animalia",
+          "as": "এনিমেলিয়া"
+        },
+        {
+          "en": "Monera",
+          "as": "মনেৰা"
+        },
+        {
+          "en": "Protista",
+          "as": "প্ৰ'টিষ্টা"
+        },
+        {
+          "en": "Fungi",
+          "as": "ফাংগাই"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Bacteria are prokaryotes placed in the kingdom Monera.",
+        "as": "বেক্টেৰিয়া প্ৰ'কাৰিয়'ট আৰু মনেৰা ৰাজ্যত পৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x022",
+      "q": {
+        "en": "How many bones are there in the human skull?",
+        "as": "মানৱ কৰোঁটত কিমানখন হাড় থাকে?"
+      },
+      "options": [
+        {
+          "en": "22",
+          "as": "২২"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        },
+        {
+          "en": "29",
+          "as": "২৯"
+        },
+        {
+          "en": "26",
+          "as": "২৬"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The human skull is made of 22 bones.",
+        "as": "মানৱ কৰোঁট ২২ খন হাড়েৰে গঠিত।"
+      }
+    },
+    {
+      "id": "technical-science-x326",
+      "q": {
+        "en": "Which of the following is used to test the presence of starch?",
+        "as": "ষ্টাৰ্চৰ উপস্থিতি পৰীক্ষা কৰিবলৈ তলৰ কোনটো ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Baking soda",
+          "as": "বেকিং ছ'ডা"
+        },
+        {
+          "en": "Litmus paper",
+          "as": "লিটমাছ কাগজ"
+        },
+        {
+          "en": "Iodine solution",
+          "as": "আয়'ডিন দ্ৰৱ"
+        },
+        {
+          "en": "Limewater",
+          "as": "চূণপানী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Iodine solution turns blue-black in the presence of starch.",
+        "as": "আয়'ডিন দ্ৰৱে ষ্টাৰ্চৰ উপস্থিতিত নীলা-ক'লা ৰং ধৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x390",
+      "q": {
+        "en": "A concave mirror is also known as a?",
+        "as": "অৱতল দাপোণক কি বুলিও জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Cylindrical mirror",
+          "as": "বেলনীয় দাপোণ"
+        },
+        {
+          "en": "Plane mirror",
+          "as": "সমতল দাপোণ"
+        },
+        {
+          "en": "Converging mirror",
+          "as": "অভিসাৰী দাপোণ"
+        },
+        {
+          "en": "Diverging mirror",
+          "as": "অপসাৰী দাপোণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A concave mirror converges light rays, so it is a converging mirror.",
+        "as": "অৱতল দাপোণে পোহৰ ৰশ্মি অভিসৃত কৰে, সেয়ে ই অভিসাৰী দাপোণ।"
+      }
+    },
+    {
+      "id": "technical-science-x126",
+      "q": {
+        "en": "The unit of frequency of a sound wave is?",
+        "as": "শব্দ তৰংগৰ কম্পনাংকৰ একক কি?"
+      },
+      "options": [
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Hertz",
+          "as": "হাৰ্টজ"
+        },
+        {
+          "en": "Decibel",
+          "as": "ডেচিবেল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Frequency is measured in hertz.",
+        "as": "কম্পনাংক হাৰ্টজত জোখা হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x102",
+      "q": {
+        "en": "What type of image is formed by a plane mirror?",
+        "as": "সমতল দাপোণে কি ধৰণৰ প্ৰতিবিম্ব গঠন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Real and erect",
+          "as": "বাস্তৱ আৰু সোজা"
+        },
+        {
+          "en": "Real and inverted",
+          "as": "বাস্তৱ আৰু ওলোটা"
+        },
+        {
+          "en": "Virtual and inverted",
+          "as": "অৱাস্তৱ আৰু ওলোটা"
+        },
+        {
+          "en": "Virtual and erect",
+          "as": "অৱাস্তৱ আৰু সোজা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A plane mirror forms a virtual, erect image.",
+        "as": "সমতল দাপোণে অৱাস্তৱ আৰু সোজা প্ৰতিবিম্ব গঠন কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x262",
+      "q": {
+        "en": "Which one among these is a biodegradable waste material?",
+        "as": "এইবোৰৰ কোনটো জৈৱ-বিয়োজনীয় আৱৰ্জনা?"
+      },
+      "options": [
+        {
+          "en": "Aluminium can",
+          "as": "এলুমিনিয়াম কেণ"
+        },
+        {
+          "en": "Glass bottle",
+          "as": "কাচৰ বটল"
+        },
+        {
+          "en": "Vegetable peel",
+          "as": "পাচলিৰ বাকলি"
+        },
+        {
+          "en": "Plastic bag",
+          "as": "প্লাষ্টিকৰ মোনা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Vegetable peels are biodegradable, broken down by microorganisms.",
+        "as": "পাচলিৰ বাকলি জৈৱ-বিয়োজনীয়, অণুজীৱে ইয়াক বিয়োজিত কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x292",
+      "q": {
+        "en": "Which vitamin is also known as ascorbic acid?",
+        "as": "কোন ভিটামিনক এছকৰবিক আম্ল বুলিও জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Vitamin E",
+          "as": "ভিটামিন E"
+        },
+        {
+          "en": "Vitamin D",
+          "as": "ভিটামিন D"
+        },
+        {
+          "en": "Vitamin C",
+          "as": "ভিটামিন C"
+        },
+        {
+          "en": "Vitamin A",
+          "as": "ভিটামিন A"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Vitamin C is chemically known as ascorbic acid.",
+        "as": "ভিটামিন C ক ৰাসায়নিকভাৱে এছকৰবিক আম্ল বোলা হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x358",
+      "q": {
+        "en": "Which of the following animals is a mammal that lays eggs?",
+        "as": "তলৰ কোনটো স্তন্যপায়ী প্ৰাণীয়ে কণী পাৰে?"
+      },
+      "options": [
+        {
+          "en": "Whale",
+          "as": "তিমি"
+        },
+        {
+          "en": "Kangaroo",
+          "as": "কেংগেৰু"
+        },
+        {
+          "en": "Bat",
+          "as": "বাদুলি"
+        },
+        {
+          "en": "Platypus",
+          "as": "প্লেটিপাছ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The platypus is an egg-laying mammal.",
+        "as": "প্লেটিপাছ এটা কণী পৰা স্তন্যপায়ী প্ৰাণী।"
+      }
+    },
+    {
+      "id": "technical-science-x367",
+      "q": {
+        "en": "Which of the following is a cold-blooded animal?",
+        "as": "তলৰ কোনটো শীতল-ৰক্তৰ প্ৰাণী?"
+      },
+      "options": [
+        {
+          "en": "Human",
+          "as": "মানুহ"
+        },
+        {
+          "en": "Cow",
+          "as": "গৰু"
+        },
+        {
+          "en": "Fish",
+          "as": "মাছ"
+        },
+        {
+          "en": "Dog",
+          "as": "কুকুৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Fish are cold-blooded (ectothermic) animals.",
+        "as": "মাছ শীতল-ৰক্তৰ প্ৰাণী।"
+      }
+    },
+    {
+      "id": "general-english-x026",
+      "q": {
+        "en": "Choose the correct tense: I ____ my homework before he came.",
+        "as": "শুদ্ধ কাল বাছনি কৰক: I ____ my homework before he came."
+      },
+      "options": [
+        {
+          "en": "had finished",
+          "as": "had finished"
+        },
+        {
+          "en": "finished",
+          "as": "finished"
+        },
+        {
+          "en": "have finished",
+          "as": "have finished"
+        },
+        {
+          "en": "will finish",
+          "as": "will finish"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The past perfect is used for the earlier of two past actions.",
+        "as": "দুটা অতীত কাৰ্যৰ আগটোৰ বাবে past perfect ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x040",
+      "q": {
+        "en": "The exchange of gases in the lungs takes place in the?",
+        "as": "হাওঁফাওঁত গেছৰ বিনিময় ক'ত হয়?"
+      },
+      "options": [
+        {
+          "en": "Pleura",
+          "as": "প্লুৰা"
+        },
+        {
+          "en": "Alveoli",
+          "as": "এলভিঅ'লাই"
+        },
+        {
+          "en": "Bronchi",
+          "as": "ব্ৰংকাই"
+        },
+        {
+          "en": "Trachea",
+          "as": "ট্ৰেকিয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Gas exchange occurs in the alveoli, tiny air sacs of the lungs.",
+        "as": "হাওঁফাওঁৰ সৰু বায়ু-মোন এলভিঅ'লাইত গেছৰ বিনিময় হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x019",
+      "q": {
+        "en": "Which structure controls the entry and exit of substances in an animal cell?",
+        "as": "প্ৰাণী কোষত পদাৰ্থৰ প্ৰৱেশ আৰু প্ৰস্থান কোন গঠনে নিয়ন্ত্ৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Golgi body",
+          "as": "গলজি বডি"
+        },
+        {
+          "en": "Plasma membrane",
+          "as": "প্লাজমা আৱৰণ"
+        },
+        {
+          "en": "Nucleus",
+          "as": "কোষকেন্দ্ৰ"
+        },
+        {
+          "en": "Cell wall",
+          "as": "কোষবেৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The plasma membrane is selectively permeable and controls transport.",
+        "as": "প্লাজমা আৱৰণ আংশিকভাৱে ভেদ্য আৰু ই পৰিবহন নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x044",
+      "q": {
+        "en": "Name the national flower of India.",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰীয় ফুলৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Marigold",
+          "as": "গাঁদা"
+        },
+        {
+          "en": "Lotus",
+          "as": "পদুম"
+        },
+        {
+          "en": "Rose",
+          "as": "গোলাপ"
+        },
+        {
+          "en": "Sunflower",
+          "as": "সূৰ্যমুখী"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The lotus is the national flower of India.",
+        "as": "পদুম ভাৰতৰ ৰাষ্ট্ৰীয় ফুল।"
+      }
+    },
+    {
+      "id": "technical-science-x052",
+      "q": {
+        "en": "The number of ribs in the human body is?",
+        "as": "মানৱ শৰীৰত কিমান যোৰ পাঁজৰ থাকে?"
+      },
+      "options": [
+        {
+          "en": "11 pairs",
+          "as": "১১ যোৰ"
+        },
+        {
+          "en": "12 pairs",
+          "as": "১২ যোৰ"
+        },
+        {
+          "en": "14 pairs",
+          "as": "১৪ যোৰ"
+        },
+        {
+          "en": "10 pairs",
+          "as": "১০ যোৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Humans have 12 pairs of ribs.",
+        "as": "মানুহৰ ১২ যোৰ পাঁজৰ থাকে।"
+      }
+    },
+    {
+      "id": "technical-science-x165",
+      "q": {
+        "en": "The device used to measure potential difference is?",
+        "as": "বিভৱ পাৰ্থক্য জুখিবলৈ ব্যৱহৃত যন্ত্ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Galvanometer",
+          "as": "গেলভান'মিটাৰ"
+        },
+        {
+          "en": "Voltmeter",
+          "as": "ভল্টমিটাৰ"
+        },
+        {
+          "en": "Barometer",
+          "as": "বেৰ'মিটাৰ"
+        },
+        {
+          "en": "Ammeter",
+          "as": "এমিটাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A voltmeter measures potential difference.",
+        "as": "ভল্টমিটাৰে বিভৱ পাৰ্থক্য জুখে।"
+      }
+    },
+    {
+      "id": "technical-science-x153",
+      "q": {
+        "en": "What is the SI unit used to measure electric current?",
+        "as": "বিদ্যুৎ প্ৰৱাহ জুখিবলৈ ব্যৱহৃত SI একক কি?"
+      },
+      "options": [
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Volt",
+          "as": "ভল্ট"
+        },
+        {
+          "en": "Ohm",
+          "as": "ও'ম"
+        },
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The SI unit of electric current is the ampere.",
+        "as": "বিদ্যুৎ প্ৰৱাহৰ SI একক হৈছে এম্পিয়াৰ।"
+      }
+    },
+    {
+      "id": "technical-science-x388",
+      "q": {
+        "en": "Which of the following is the largest bird found in Assam?",
+        "as": "তলৰ কোনটো অসমত পোৱা আটাইতকৈ ডাঙৰ চৰাই?"
+      },
+      "options": [
+        {
+          "en": "Myna",
+          "as": "শালিকা"
+        },
+        {
+          "en": "Crow",
+          "as": "কাউৰী"
+        },
+        {
+          "en": "Sparrow",
+          "as": "চৰাই"
+        },
+        {
+          "en": "Great hornbill",
+          "as": "ৰাজ ধনেশ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The great hornbill is the largest bird found in Assam.",
+        "as": "ৰাজ ধনেশ অসমত পোৱা আটাইতকৈ ডাঙৰ চৰাই।"
+      }
+    },
+    {
+      "id": "technical-science-x331",
+      "q": {
+        "en": "Which enzyme in saliva begins the digestion of starch?",
+        "as": "লালটিৰ কোন এনজাইমে শৰ্কৰাৰ পাচন আৰম্ভ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Pepsin",
+          "as": "পেপচিন"
+        },
+        {
+          "en": "Lipase",
+          "as": "লাইপেজ"
+        },
+        {
+          "en": "Trypsin",
+          "as": "ট্ৰিপচিন"
+        },
+        {
+          "en": "Salivary amylase",
+          "as": "লালটি এমাইলেজ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Salivary amylase starts the digestion of starch in the mouth.",
+        "as": "লালটি এমাইলেজে মুখতে শৰ্কৰাৰ পাচন আৰম্ভ কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x124",
+      "q": {
+        "en": "Which bird has been declared the state bird of Assam?",
+        "as": "কোন চৰাইক অসমৰ ৰাজ্যিক চৰাই ঘোষণা কৰা হৈছে?"
+      },
+      "options": [
+        {
+          "en": "White-winged wood duck",
+          "as": "দেওহাঁহ"
+        },
+        {
+          "en": "Parrot",
+          "as": "ভাটৌ"
+        },
+        {
+          "en": "Peacock",
+          "as": "ময়ূৰ"
+        },
+        {
+          "en": "Swan",
+          "as": "ৰাজহংস"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The white-winged wood duck (Deo haah) is the state bird of Assam.",
+        "as": "দেওহাঁহ অসমৰ ৰাজ্যিক চৰাই।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x020",
+      "q": {
+        "en": "At exactly 3 o'clock, what is the angle between the two hands of a clock?",
+        "as": "ঠিক ৩ বজাত ঘড়ীৰ দুটা কাঁটাৰ মাজৰ কোণ কিমান?"
+      },
+      "options": [
+        {
+          "en": "120 degrees",
+          "as": "১২০ ডিগ্ৰী"
+        },
+        {
+          "en": "60 degrees",
+          "as": "৬০ ডিগ্ৰী"
+        },
+        {
+          "en": "90 degrees",
+          "as": "৯০ ডিগ্ৰী"
+        },
+        {
+          "en": "180 degrees",
+          "as": "১৮০ ডিগ্ৰী"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Each hour is 30 degrees, so at 3 o'clock the angle is 90 degrees.",
+        "as": "প্ৰতি ঘণ্টা ৩০ ডিগ্ৰী, সেয়ে ৩ বজাত কোণ ৯০ ডিগ্ৰী।"
+      }
+    },
+    {
+      "id": "general-knowledge-x013",
+      "q": {
+        "en": "Name the state bird of Assam.",
+        "as": "অসমৰ ৰাজ্যিক চৰাইৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Parrot",
+          "as": "ভাটৌ"
+        },
+        {
+          "en": "Dove",
+          "as": "পাৰ"
+        },
+        {
+          "en": "Peacock",
+          "as": "ময়ূৰ"
+        },
+        {
+          "en": "White-winged wood duck",
+          "as": "দেওহাঁহ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The white-winged wood duck is the state bird of Assam.",
+        "as": "দেওহাঁহ অসমৰ ৰাজ্যিক চৰাই।"
+      }
+    },
+    {
+      "id": "technical-science-x280",
+      "q": {
+        "en": "Which of the following reproduces by binary fission?",
+        "as": "তলৰ কোনটো দ্বি-বিভাজনৰ জৰিয়তে বংশবৃদ্ধি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Rose",
+          "as": "গোলাপ"
+        },
+        {
+          "en": "Amoeba",
+          "as": "অ'মিবা"
+        },
+        {
+          "en": "Fern",
+          "as": "ঢেকীয়াশাক"
+        },
+        {
+          "en": "Hydra",
+          "as": "হাইড্ৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Amoeba reproduces asexually by binary fission.",
+        "as": "অ'মিবাই দ্বি-বিভাজনৰ জৰিয়তে অযৌন বংশবৃদ্ধি কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x119",
+      "q": {
+        "en": "Which gas is used in fire extinguishers?",
+        "as": "অগ্নি-নির্বাপক যন্ত্ৰত কোন গেছ ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Hydrogen",
+          "as": "হাইড্ৰ'জেন"
+        },
+        {
+          "en": "Carbon dioxide",
+          "as": "কাৰ্বন ডাইঅক্সাইড"
+        },
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Methane",
+          "as": "মিথেন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Carbon dioxide is used in fire extinguishers as it does not support combustion.",
+        "as": "কাৰ্বন ডাইঅক্সাইড অগ্নি-নির্বাপক যন্ত্ৰত ব্যৱহৃত হয় কাৰণ ই দহনত সহায় নকৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x181",
+      "q": {
+        "en": "Which of the following is a viral disease of humans?",
+        "as": "তলৰ কোনটো মানুহৰ ভাইৰাছজনিত ৰোগ?"
+      },
+      "options": [
+        {
+          "en": "Plague",
+          "as": "প্লেগ"
+        },
+        {
+          "en": "Tuberculosis",
+          "as": "যক্ষ্মা"
+        },
+        {
+          "en": "AIDS",
+          "as": "এইডছ"
+        },
+        {
+          "en": "Typhoid",
+          "as": "টাইফয়ড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "AIDS is caused by the human immunodeficiency virus (HIV).",
+        "as": "এইডছ হিউমেন ইমিউন'ডেফিচিয়েন্সি ভাইৰাছ (HIV) ৰ দ্বাৰা হয়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x005",
+      "q": {
+        "en": "The Right to Education is a fundamental right under which article?",
+        "as": "শিক্ষাৰ অধিকাৰ কোন অনুচ্ছেদৰ অধীনত মৌলিক অধিকাৰ?"
+      },
+      "options": [
+        {
+          "en": "Article 14",
+          "as": "অনুচ্ছেদ ১৪"
+        },
+        {
+          "en": "Article 19",
+          "as": "অনুচ্ছেদ ১৯"
+        },
+        {
+          "en": "Article 21A",
+          "as": "অনুচ্ছেদ ২১A"
+        },
+        {
+          "en": "Article 32",
+          "as": "অনুচ্ছেদ ৩২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Right to Education is guaranteed under Article 21A.",
+        "as": "শিক্ষাৰ অধিকাৰ অনুচ্ছেদ ২১A ৰ অধীনত নিশ্চিত।"
+      }
+    },
+    {
+      "id": "general-english-x024",
+      "q": {
+        "en": "Choose the correct preposition: He is angry ____ me.",
+        "as": "শুদ্ধ preposition বাছনি কৰক: He is angry ____ me."
+      },
+      "options": [
+        {
+          "en": "for",
+          "as": "for"
+        },
+        {
+          "en": "on",
+          "as": "on"
+        },
+        {
+          "en": "at",
+          "as": "at"
+        },
+        {
+          "en": "with",
+          "as": "with"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "We are 'angry with' a person.",
+        "as": "ব্যক্তিৰ সৈতে 'angry with' ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x015",
+      "q": {
+        "en": "A woman pointing at a man says, 'He is my mother's son.' What is the man to the woman?",
+        "as": "এগৰাকী মহিলাই এজন মানুহলৈ আঙুলিয়াই কয়, 'তেওঁ মোৰ মাকৰ পুত্ৰ।' মহিলাগৰাকীৰ সৈতে মানুহজনৰ সম্পৰ্ক কি?"
+      },
+      "options": [
+        {
+          "en": "Father",
+          "as": "পিতৃ"
+        },
+        {
+          "en": "Brother",
+          "as": "ভাই"
+        },
+        {
+          "en": "Cousin",
+          "as": "জ্ঞাতি ভাই"
+        },
+        {
+          "en": "Uncle",
+          "as": "খুৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The son of her mother is her brother.",
+        "as": "তেওঁৰ মাকৰ পুত্ৰ হৈছে তেওঁৰ ভাই।"
+      }
+    },
+    {
+      "id": "technical-science-x317",
+      "q": {
+        "en": "Which one among these is a good conductor of electricity?",
+        "as": "এইবোৰৰ কোনটো বিদ্যুৎৰ সুপৰিবাহী?"
+      },
+      "options": [
+        {
+          "en": "Wood",
+          "as": "কাঠ"
+        },
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Plastic",
+          "as": "প্লাষ্টিক"
+        },
+        {
+          "en": "Rubber",
+          "as": "ৰবৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Copper is a good conductor of electricity.",
+        "as": "তাম বিদ্যুৎৰ সুপৰিবাহী।"
+      }
+    },
+    {
+      "id": "technical-science-x029",
+      "q": {
+        "en": "Which acid gives vinegar its characteristic nature?",
+        "as": "কোন আম্লই ভিনেগাৰৰ বৈশিষ্ট্য প্ৰদান কৰে?"
+      },
+      "options": [
+        {
+          "en": "Citric acid",
+          "as": "চিট্ৰিক আম্ল"
+        },
+        {
+          "en": "Lactic acid",
+          "as": "লেক্টিক আম্ল"
+        },
+        {
+          "en": "Formic acid",
+          "as": "ফৰ্মিক আম্ল"
+        },
+        {
+          "en": "Acetic acid",
+          "as": "এছেটিক আম্ল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Vinegar contains acetic acid.",
+        "as": "ভিনেগাৰত এছেটিক আম্ল থাকে।"
+      }
+    },
+    {
+      "id": "technical-science-x304",
+      "q": {
+        "en": "Which of the following is a primary consumer in a food chain?",
+        "as": "খাদ্য শৃংখলত তলৰ কোনটো প্ৰাথমিক খাদক?"
+      },
+      "options": [
+        {
+          "en": "Producer",
+          "as": "উৎপাদক"
+        },
+        {
+          "en": "Herbivore",
+          "as": "তৃণভোজী"
+        },
+        {
+          "en": "Carnivore",
+          "as": "মাংসভোজী"
+        },
+        {
+          "en": "Decomposer",
+          "as": "বিয়োজক"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Herbivores are primary consumers that eat producers.",
+        "as": "তৃণভোজী প্ৰাথমিক খাদক, যিয়ে উৎপাদক খায়।"
+      }
+    },
+    {
+      "id": "technical-science-x267",
+      "q": {
+        "en": "Which one among these is not a unit of energy?",
+        "as": "এইবোৰৰ কোনটো শক্তিৰ একক নহয়?"
+      },
+      "options": [
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Joule",
+          "as": "জুল"
+        },
+        {
+          "en": "Calorie",
+          "as": "কেলৰি"
+        },
+        {
+          "en": "Kilowatt-hour",
+          "as": "কিল'ৱাট-ঘণ্টা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The newton is a unit of force, not energy.",
+        "as": "নিউটন বলৰ একক, শক্তিৰ নহয়।"
+      }
+    },
+    {
+      "id": "general-english-x008",
+      "q": {
+        "en": "Identify the correct plural: one knife, two ____.",
+        "as": "শুদ্ধ বহুবচন চিনাক্ত কৰক: one knife, two ____."
+      },
+      "options": [
+        {
+          "en": "knives",
+          "as": "knives"
+        },
+        {
+          "en": "knive",
+          "as": "knive"
+        },
+        {
+          "en": "knifes",
+          "as": "knifes"
+        },
+        {
+          "en": "knife",
+          "as": "knife"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Nouns ending in -fe form the plural with -ves.",
+        "as": "-fe ৰে শেষ হোৱা বিশেষ্যই -ves ৰে বহুবচন গঠন কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x104",
+      "q": {
+        "en": "Which of the following is the general formula of alkenes?",
+        "as": "তলৰ কোনটো এলকিনৰ সাধাৰণ সংকেত?"
+      },
+      "options": [
+        {
+          "en": "CnH2n-2",
+          "as": "CnH2n-2"
+        },
+        {
+          "en": "CnH2n+2",
+          "as": "CnH2n+2"
+        },
+        {
+          "en": "CnH2n",
+          "as": "CnH2n"
+        },
+        {
+          "en": "CnHn",
+          "as": "CnHn"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The general formula of alkenes is CnH2n.",
+        "as": "এলকিনৰ সাধাৰণ সংকেত CnH2n।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x025",
+      "q": {
+        "en": "Which of the following is the mirror image of the word 'CAT' when held in front of a plane mirror?",
+        "as": "সমতল দাপোণৰ সন্মুখত ধৰিলে 'CAT' শব্দটোৰ দাপোণ-প্ৰতিবিম্ব কেনেকুৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Reversed horizontally",
+          "as": "অনুভূমিকভাৱে ওলোটা"
+        },
+        {
+          "en": "Rotated 180 degrees",
+          "as": "১৮০ ডিগ্ৰী ঘূৰোৱা"
+        },
+        {
+          "en": "Unchanged",
+          "as": "অপৰিৱৰ্তিত"
+        },
+        {
+          "en": "Reversed vertically",
+          "as": "উল্লম্বভাৱে ওলোটা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A plane mirror reverses the image horizontally.",
+        "as": "সমতল দাপোণে প্ৰতিবিম্বক অনুভূমিকভাৱে ওলোটা কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x112",
+      "q": {
+        "en": "For which animal is Kaziranga National Park best known?",
+        "as": "কাজিৰঙা ৰাষ্ট্ৰীয় উদ্যান কোন জন্তুৰ বাবে আটাইতকৈ বেছি পৰিচিত?"
+      },
+      "options": [
+        {
+          "en": "Elephant",
+          "as": "হাতী"
+        },
+        {
+          "en": "Tiger",
+          "as": "বাঘ"
+        },
+        {
+          "en": "One-horned rhinoceros",
+          "as": "এশিঙীয়া গঁড়"
+        },
+        {
+          "en": "Lion",
+          "as": "সিংহ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Kaziranga is famous for the Indian one-horned rhinoceros.",
+        "as": "কাজিৰঙা ভাৰতীয় এশিঙীয়া গঁড়ৰ বাবে বিখ্যাত।"
+      }
+    },
+    {
+      "id": "technical-science-x058",
+      "q": {
+        "en": "Which endocrine gland is regarded as the master gland of the human body?",
+        "as": "কোন অন্তঃস্ৰাৱী গ্ৰন্থিক মানৱ শৰীৰৰ মুখ্য গ্ৰন্থি বুলি গণ্য কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "Adrenal gland",
+          "as": "এড্ৰিনেল গ্ৰন্থি"
+        },
+        {
+          "en": "Pancreas",
+          "as": "অগ্নাশয়"
+        },
+        {
+          "en": "Pituitary gland",
+          "as": "পিটিউটাৰী গ্ৰন্থি"
+        },
+        {
+          "en": "Thyroid gland",
+          "as": "থাইৰয়ড গ্ৰন্থি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The pituitary gland controls the other endocrine glands.",
+        "as": "পিটিউটাৰী গ্ৰন্থিয়ে আন অন্তঃস্ৰাৱী গ্ৰন্থি নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x128",
+      "q": {
+        "en": "Which substance is known as the universal solvent?",
+        "as": "কোন পদাৰ্থক সৰ্বজনীন দ্ৰাৱক বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Water",
+          "as": "পানী"
+        },
+        {
+          "en": "Alcohol",
+          "as": "এলকহল"
+        },
+        {
+          "en": "Acetone",
+          "as": "এছিট'ন"
+        },
+        {
+          "en": "Petrol",
+          "as": "পেট্ৰ'ল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Water is called the universal solvent as it dissolves many substances.",
+        "as": "পানীয়ে বহু পদাৰ্থ দ্ৰৱীভূত কৰে, সেয়ে ইয়াক সৰ্বজনীন দ্ৰাৱক বোলা হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x140",
+      "q": {
+        "en": "The percentage of oxygen in the air is about?",
+        "as": "বায়ুত অক্সিজেনৰ শতাংশ প্ৰায় কিমান?"
+      },
+      "options": [
+        {
+          "en": "78",
+          "as": "৭৮"
+        },
+        {
+          "en": "1",
+          "as": "১"
+        },
+        {
+          "en": "21",
+          "as": "২১"
+        },
+        {
+          "en": "50",
+          "as": "৫০"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Oxygen makes up about 21 percent of air.",
+        "as": "অক্সিজেনে বায়ুৰ প্ৰায় ২১ শতাংশ গঠন কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x043",
+      "q": {
+        "en": "Name the national bird of India.",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰীয় চৰাইৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Parrot",
+          "as": "ভাটৌ"
+        },
+        {
+          "en": "Eagle",
+          "as": "ঈগল"
+        },
+        {
+          "en": "Swan",
+          "as": "ৰাজহংস"
+        },
+        {
+          "en": "Peacock",
+          "as": "ময়ূৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The peacock is the national bird of India.",
+        "as": "ময়ূৰ ভাৰতৰ ৰাষ্ট্ৰীয় চৰাই।"
+      }
+    },
+    {
+      "id": "technical-science-x200",
+      "q": {
+        "en": "The modern periodic table is arranged in order of increasing?",
+        "as": "আধুনিক পৰ্যায় সাৰণী কিৰ বৰ্ধিত ক্ৰমত সজ্জিত?"
+      },
+      "options": [
+        {
+          "en": "Valency",
+          "as": "যোজনী"
+        },
+        {
+          "en": "Density",
+          "as": "ঘনত্ব"
+        },
+        {
+          "en": "Atomic mass",
+          "as": "পাৰমাণৱিক ভৰ"
+        },
+        {
+          "en": "Atomic number",
+          "as": "পাৰমাণৱিক সংখ্যা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The modern periodic table is arranged by increasing atomic number.",
+        "as": "আধুনিক পৰ্যায় সাৰণী বৰ্ধিত পাৰমাণৱিক সংখ্যাৰ ক্ৰমত সজ্জিত।"
+      }
+    },
+    {
+      "id": "technical-science-x354",
+      "q": {
+        "en": "What kind of electric charge do alpha particles carry?",
+        "as": "আলফা কণিকাই কি ধৰণৰ বিদ্যুৎ আধান বহন কৰে?"
+      },
+      "options": [
+        {
+          "en": "Neutral",
+          "as": "প্ৰশম"
+        },
+        {
+          "en": "Massless",
+          "as": "ভৰহীন"
+        },
+        {
+          "en": "Negatively charged",
+          "as": "ঋণাত্মক আধানযুক্ত"
+        },
+        {
+          "en": "Positively charged",
+          "as": "ধনাত্মক আধানযুক্ত"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Alpha particles are helium nuclei and carry a positive charge.",
+        "as": "আলফা কণিকা হিলিয়াম নিউক্লিয়াছ আৰু ধনাত্মক আধান বহন কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x030",
+      "q": {
+        "en": "How many players of a football team are on the field at a time?",
+        "as": "এক সময়ত এটা ফুটবল দলৰ কিমানজন খেলুৱৈ খেলপথাৰত থাকে?"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "9",
+          "as": "৯"
+        },
+        {
+          "en": "11",
+          "as": "১১"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A football team has 11 players on the field.",
+        "as": "এটা ফুটবল দলত খেলপথাৰত ১১ জন খেলুৱৈ থাকে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x021",
+      "q": {
+        "en": "Which Indian state is the smallest in terms of area?",
+        "as": "কালিৰ ফালৰ পৰা কোন ভাৰতীয় ৰাজ্য আটাইতকৈ সৰু?"
+      },
+      "options": [
+        {
+          "en": "Manipur",
+          "as": "মণিপুৰ"
+        },
+        {
+          "en": "Goa",
+          "as": "গোৱা"
+        },
+        {
+          "en": "Tripura",
+          "as": "ত্ৰিপুৰা"
+        },
+        {
+          "en": "Sikkim",
+          "as": "ছিক্কিম"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Goa is the smallest state of India by area.",
+        "as": "কালিৰ ফালৰ পৰা গোৱা ভাৰতৰ আটাইতকৈ সৰু ৰাজ্য।"
+      }
+    },
+    {
+      "id": "technical-science-x294",
+      "q": {
+        "en": "What is the approximate voltage of the household AC supply in India?",
+        "as": "ভাৰতত ঘৰুৱা AC যোগানৰ প্ৰায় ভল্টেজ কিমান?"
+      },
+      "options": [
+        {
+          "en": "220 V",
+          "as": "২২০ ভল্ট"
+        },
+        {
+          "en": "12 V",
+          "as": "১২ ভল্ট"
+        },
+        {
+          "en": "110 V",
+          "as": "১১০ ভল্ট"
+        },
+        {
+          "en": "440 V",
+          "as": "৪৪০ ভল্ট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Household AC supply in India is about 220 V.",
+        "as": "ভাৰতত ঘৰুৱা AC যোগান প্ৰায় ২২০ ভল্ট।"
+      }
+    },
+    {
+      "id": "technical-science-x103",
+      "q": {
+        "en": "The ozone layer is present in which layer of the atmosphere?",
+        "as": "অ'জ'ন স্তৰ বায়ুমণ্ডলৰ কোন স্তৰত আছে?"
+      },
+      "options": [
+        {
+          "en": "Troposphere",
+          "as": "ট্ৰ'প'ছ্ফিয়াৰ"
+        },
+        {
+          "en": "Mesosphere",
+          "as": "মেছ'ছ্ফিয়াৰ"
+        },
+        {
+          "en": "Ionosphere",
+          "as": "আয়ন'ছ্ফিয়াৰ"
+        },
+        {
+          "en": "Stratosphere",
+          "as": "ষ্ট্ৰেট'ছ্ফিয়াৰ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The ozone layer lies in the stratosphere and absorbs UV rays.",
+        "as": "অ'জ'ন স্তৰ ষ্ট্ৰেট'ছ্ফিয়াৰত থাকে আৰু অতিবেঙুনীয় ৰশ্মি শোষণ কৰে।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x005",
+      "q": {
+        "en": "Find the next number in the series: 2, 3, 5, 7, 11, ____.",
+        "as": "শৃংখলাত পৰৱৰ্তী সংখ্যা উলিয়াওক: 2, 3, 5, 7, 11, ____."
+      },
+      "options": [
+        {
+          "en": "14",
+          "as": "১৪"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "13",
+          "as": "১৩"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "These are prime numbers, so the next is 13.",
+        "as": "এইবোৰ মৌলিক সংখ্যা, সেয়ে পৰৱৰ্তীটো ১৩।"
+      }
+    },
+    {
+      "id": "technical-science-x178",
+      "q": {
+        "en": "Which disease is caused by the deficiency of vitamin B1?",
+        "as": "কোন ৰোগ ভিটামিন B1 ৰ অভাৱত হয়?"
+      },
+      "options": [
+        {
+          "en": "Scurvy",
+          "as": "স্কাৰ্ভি"
+        },
+        {
+          "en": "Rickets",
+          "as": "ৰিকেটছ"
+        },
+        {
+          "en": "Night blindness",
+          "as": "ৰাতি-অন্ধতা"
+        },
+        {
+          "en": "Beriberi",
+          "as": "বেৰিবেৰি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Vitamin B1 (thiamine) deficiency causes beriberi.",
+        "as": "ভিটামিন B1 (থায়ামিন) ৰ অভাৱত বেৰিবেৰি হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x311",
+      "q": {
+        "en": "Which of the following is the most abundant element in the Earth's crust?",
+        "as": "পৃথিৱীৰ ভূত্বকত তলৰ কোনটো মৌল সৰ্বাধিক পৰিমাণে আছে?"
+      },
+      "options": [
+        {
+          "en": "Oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "Iron",
+          "as": "লো"
+        },
+        {
+          "en": "Aluminium",
+          "as": "এলুমিনিয়াম"
+        },
+        {
+          "en": "Silicon",
+          "as": "ছিলিকন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Oxygen is the most abundant element in the Earth's crust.",
+        "as": "অক্সিজেন পৃথিৱীৰ ভূত্বকত সৰ্বাধিক পৰিমাণে থকা মৌল।"
+      }
+    },
+    {
+      "id": "general-knowledge-x002",
+      "q": {
+        "en": "How many members may the President of India nominate to the Rajya Sabha?",
+        "as": "ভাৰতৰ ৰাষ্ট্ৰপতিয়ে ৰাজ্যসভালৈ কিমানজন সদস্য মনোনয়ন কৰিব পাৰে?"
+      },
+      "options": [
+        {
+          "en": "2",
+          "as": "২"
+        },
+        {
+          "en": "15",
+          "as": "১৫"
+        },
+        {
+          "en": "10",
+          "as": "১০"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The President nominates 12 members to the Rajya Sabha.",
+        "as": "ৰাষ্ট্ৰপতিয়ে ৰাজ্যসভালৈ ১২ জন সদস্য মনোনীত কৰে।"
+      }
+    },
+    {
+      "id": "general-knowledge-x060",
+      "q": {
+        "en": "Name the capital city of Assam.",
+        "as": "অসমৰ ৰাজধানী নগৰৰ নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Dispur",
+          "as": "দিছপুৰ"
+        },
+        {
+          "en": "Jorhat",
+          "as": "যোৰহাট"
+        },
+        {
+          "en": "Guwahati",
+          "as": "গুৱাহাটী"
+        },
+        {
+          "en": "Tezpur",
+          "as": "তেজপুৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Dispur, within Guwahati, is the capital of Assam.",
+        "as": "গুৱাহাটীৰ অন্তৰ্গত দিছপুৰ অসমৰ ৰাজধানী।"
+      }
+    },
+    {
+      "id": "technical-science-x113",
+      "q": {
+        "en": "Which substance is used in the manufacture of soap?",
+        "as": "চাবোন উৎপাদনত কোন পদাৰ্থ ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Hydrochloric acid",
+          "as": "হাইড্ৰ'ক্লৰিক আম্ল"
+        },
+        {
+          "en": "Ammonia",
+          "as": "এম'নিয়া"
+        },
+        {
+          "en": "Sulphuric acid",
+          "as": "ছালফিউৰিক আম্ল"
+        },
+        {
+          "en": "Sodium hydroxide",
+          "as": "ছ'ডিয়াম হাইড্ৰ'ক্সাইড"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Sodium hydroxide is used in soap manufacture.",
+        "as": "ছ'ডিয়াম হাইড্ৰ'ক্সাইড চাবোন উৎপাদনত ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x168",
+      "q": {
+        "en": "In household wiring, appliances are connected in?",
+        "as": "ঘৰুৱা তাৰত সঁজুলিবোৰ কি সংযোগত লগোৱা হয়?"
+      },
+      "options": [
+        {
+          "en": "Series",
+          "as": "শ্ৰেণী"
+        },
+        {
+          "en": "Parallel",
+          "as": "সমান্তৰাল"
+        },
+        {
+          "en": "Mixed",
+          "as": "মিশ্ৰ"
+        },
+        {
+          "en": "Star",
+          "as": "তাৰকা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Household appliances are connected in parallel.",
+        "as": "ঘৰুৱা সঁজুলিবোৰ সমান্তৰাল সংযোগত লগোৱা হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x361",
+      "q": {
+        "en": "Which one among these animals is a mammal that can fly?",
+        "as": "এইবোৰৰ কোনটো উৰিব পৰা স্তন্যপায়ী প্ৰাণী?"
+      },
+      "options": [
+        {
+          "en": "Bat",
+          "as": "বাদুলি"
+        },
+        {
+          "en": "Flying fish",
+          "as": "উৰণীয়া মাছ"
+        },
+        {
+          "en": "Pigeon",
+          "as": "পাৰ"
+        },
+        {
+          "en": "Squirrel",
+          "as": "কটৌ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bats are the only mammals capable of true flight.",
+        "as": "বাদুলি হৈছে প্ৰকৃত উৰণৰ ক্ষমতা থকা একমাত্ৰ স্তন্যপায়ী প্ৰাণী।"
+      }
+    },
+    {
+      "id": "technical-science-x289",
+      "q": {
+        "en": "Which organ is protected by the skull?",
+        "as": "কোন অংগ কৰোঁটৰ দ্বাৰা সুৰক্ষিত থাকে?"
+      },
+      "options": [
+        {
+          "en": "Lungs",
+          "as": "হাওঁফাওঁ"
+        },
+        {
+          "en": "Liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "Heart",
+          "as": "হৃদযন্ত্ৰ"
+        },
+        {
+          "en": "Brain",
+          "as": "মগজু"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The skull protects the brain.",
+        "as": "কৰোঁটে মগজুক সুৰক্ষা দিয়ে।"
+      }
+    },
+    {
+      "id": "technical-science-x359",
+      "q": {
+        "en": "Aqua regia is a mixture of which two acids?",
+        "as": "একুৱা ৰিজিয়া কোন দুটা আম্লৰ মিশ্ৰণ?"
+      },
+      "options": [
+        {
+          "en": "Hydrochloric acid and nitric acid",
+          "as": "হাইড্ৰ'ক্লৰিক আম্ল আৰু নাইট্ৰিক আম্ল"
+        },
+        {
+          "en": "Sulphuric acid and nitric acid",
+          "as": "ছালফিউৰিক আম্ল আৰু নাইট্ৰিক আম্ল"
+        },
+        {
+          "en": "Acetic acid and citric acid",
+          "as": "এছেটিক আম্ল আৰু চিট্ৰিক আম্ল"
+        },
+        {
+          "en": "Hydrochloric acid and sulphuric acid",
+          "as": "হাইড্ৰ'ক্লৰিক আম্ল আৰু ছালফিউৰিক আম্ল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Aqua regia is a mixture of concentrated hydrochloric and nitric acids.",
+        "as": "একুৱা ৰিজিয়া ঘন হাইড্ৰ'ক্লৰিক আৰু নাইট্ৰিক আম্লৰ মিশ্ৰণ।"
+      }
+    },
+    {
+      "id": "general-knowledge-x059",
+      "q": {
+        "en": "Which Assamese was the first to receive the Bharat Ratna?",
+        "as": "ভাৰত ৰত্ন লাভ কৰা প্ৰথম অসমীয়া কোন আছিল?"
+      },
+      "options": [
+        {
+          "en": "Gopinath Bordoloi",
+          "as": "গোপীনাথ বৰদলৈ"
+        },
+        {
+          "en": "Bhupen Hazarika",
+          "as": "ভূপেন হাজৰিকা"
+        },
+        {
+          "en": "Bishnu Prasad Rabha",
+          "as": "বিষ্ণু প্ৰসাদ ৰাভা"
+        },
+        {
+          "en": "Jyoti Prasad Agarwala",
+          "as": "জ্যোতি প্ৰসাদ আগৰৱালা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Gopinath Bordoloi was the first Assamese to receive the Bharat Ratna.",
+        "as": "গোপীনাথ বৰদলৈ ভাৰত ৰত্ন লাভ কৰা প্ৰথম অসমীয়া আছিল।"
+      }
+    },
+    {
+      "id": "technical-science-x132",
+      "q": {
+        "en": "Echo is caused by?",
+        "as": "প্ৰতিধ্বনি কিৰ বাবে হয়?"
+      },
+      "options": [
+        {
+          "en": "Dispersion of sound",
+          "as": "শব্দৰ বিচ্ছুৰণ"
+        },
+        {
+          "en": "Reflection of sound",
+          "as": "শব্দৰ প্ৰতিফলন"
+        },
+        {
+          "en": "Refraction of sound",
+          "as": "শব্দৰ প্ৰতিসৰণ"
+        },
+        {
+          "en": "Absorption of sound",
+          "as": "শব্দৰ শোষণ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Echo is caused by the reflection of sound waves.",
+        "as": "শব্দ তৰংগৰ প্ৰতিফলনৰ বাবে প্ৰতিধ্বনি হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x214",
+      "q": {
+        "en": "Which organ of the body keeps blood circulating throughout the body?",
+        "as": "শৰীৰৰ কোন অংগই সমগ্ৰ শৰীৰত তেজ চলাচল কৰাই থাকে?"
+      },
+      "options": [
+        {
+          "en": "Heart",
+          "as": "হৃদযন্ত্ৰ"
+        },
+        {
+          "en": "Liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "Lungs",
+          "as": "হাওঁফাওঁ"
+        },
+        {
+          "en": "Kidney",
+          "as": "বৃক্ক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The heart pumps blood through the circulatory system.",
+        "as": "হৃদযন্ত্ৰই সংবহন তন্ত্ৰৰ জৰিয়তে তেজ পাম্প কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x336",
+      "q": {
+        "en": "Which of the following is the SI unit of electric resistance?",
+        "as": "তলৰ কোনটো বিদ্যুৎ ৰোধৰ SI একক?"
+      },
+      "options": [
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Volt",
+          "as": "ভল্ট"
+        },
+        {
+          "en": "Ohm",
+          "as": "ও'ম"
+        },
+        {
+          "en": "Ampere",
+          "as": "এম্পিয়াৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The SI unit of resistance is the ohm.",
+        "as": "ৰোধৰ SI একক হৈছে ও'ম।"
+      }
+    },
+    {
+      "id": "technical-science-x206",
+      "q": {
+        "en": "How many periods are there in the modern periodic table?",
+        "as": "আধুনিক পৰ্যায় সাৰণীত কিমানটা পৰ্যায় আছে?"
+      },
+      "options": [
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "18",
+          "as": "১৮"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The modern periodic table has 7 periods.",
+        "as": "আধুনিক পৰ্যায় সাৰণীত ৭ টা পৰ্যায় আছে।"
+      }
+    },
+    {
+      "id": "logical-reasoning-x021",
+      "q": {
+        "en": "If all roses are flowers and all flowers need water, then roses?",
+        "as": "সকলো গোলাপ ফুল আৰু সকলো ফুলে পানী লাগে, তেন্তে গোলাপে?"
+      },
+      "options": [
+        {
+          "en": "Need water",
+          "as": "পানী লাগে"
+        },
+        {
+          "en": "Are not flowers",
+          "as": "ফুল নহয়"
+        },
+        {
+          "en": "Do not need water",
+          "as": "পানী নালাগে"
+        },
+        {
+          "en": "Cannot be decided",
+          "as": "স্থিৰ কৰিব নোৱাৰি"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Since all roses are flowers and all flowers need water, roses need water.",
+        "as": "সকলো গোলাপ ফুল আৰু সকলো ফুলে পানী লাগে, সেয়ে গোলাপেও পানী লাগে।"
+      }
+    },
+    {
+      "id": "technical-science-x189",
+      "q": {
+        "en": "On which principle does a transformer work?",
+        "as": "ট্ৰান্সফৰ্মাৰ কোন নীতিত কাম কৰে?"
+      },
+      "options": [
+        {
+          "en": "Ohm's law",
+          "as": "ও'মৰ বিধি"
+        },
+        {
+          "en": "Self induction",
+          "as": "স্ব-আবেশ"
+        },
+        {
+          "en": "Mutual induction",
+          "as": "পাৰস্পৰিক আবেশ"
+        },
+        {
+          "en": "Heating effect",
+          "as": "তাপীয় প্ৰভাৱ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "A transformer works on mutual induction.",
+        "as": "ট্ৰান্সফৰ্মাৰ পাৰস্পৰিক আবেশত কাম কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x277",
+      "q": {
+        "en": "The growing of a seed into a young plant is called?",
+        "as": "বীজৰ পৰা সৰু উদ্ভিদ হোৱা প্ৰক্ৰিয়াক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Germination",
+          "as": "অংকুৰণ"
+        },
+        {
+          "en": "Transpiration",
+          "as": "বাষ্পীভৱন"
+        },
+        {
+          "en": "Fertilisation",
+          "as": "নিষেক"
+        },
+        {
+          "en": "Pollination",
+          "as": "পৰাগযোগ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Germination is the growth of a seed into a seedling.",
+        "as": "অংকুৰণ হৈছে বীজৰ পৰা পুলি হোৱা প্ৰক্ৰিয়া।"
+      }
+    },
+    {
+      "id": "technical-science-x006",
+      "q": {
+        "en": "Which of the following is the SI unit of mass?",
+        "as": "তলৰ কোনটো ভৰৰ SI একক?"
+      },
+      "options": [
+        {
+          "en": "Kilogram",
+          "as": "কিল'গ্ৰাম"
+        },
+        {
+          "en": "Gram",
+          "as": "গ্ৰাম"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Pound",
+          "as": "পাউণ্ড"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The SI unit of mass is the kilogram.",
+        "as": "ভৰৰ SI একক হৈছে কিল'গ্ৰাম।"
+      }
+    },
+    {
+      "id": "technical-science-x164",
+      "q": {
+        "en": "The law of conservation of mass states that mass can neither be created nor?",
+        "as": "ভৰ সংৰক্ষণ বিধি অনুসৰি ভৰ সৃষ্টি নহয় আৰু কি নহয়?"
+      },
+      "options": [
+        {
+          "en": "Converted",
+          "as": "ৰূপান্তৰিত"
+        },
+        {
+          "en": "Transferred",
+          "as": "স্থানান্তৰিত"
+        },
+        {
+          "en": "Multiplied",
+          "as": "বহুগুণিত"
+        },
+        {
+          "en": "Destroyed",
+          "as": "ধ্বংস"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Mass can neither be created nor destroyed in a chemical reaction.",
+        "as": "ৰাসায়নিক বিক্ৰিয়াত ভৰ সৃষ্টি বা ধ্বংস নহয়।"
+      }
+    },
+    {
+      "id": "technical-science-x341",
+      "q": {
+        "en": "Which of the following is used in the manufacture of cement?",
+        "as": "চিমেণ্ট উৎপাদনত তলৰ কোনটো ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Sulphur",
+          "as": "ছালফাৰ"
+        },
+        {
+          "en": "Copper",
+          "as": "তাম"
+        },
+        {
+          "en": "Silver",
+          "as": "ৰূপ"
+        },
+        {
+          "en": "Limestone",
+          "as": "চূণশিল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Limestone is a key raw material for cement.",
+        "as": "চূণশিল চিমেণ্টৰ এটা মূল কেঁচামাল।"
+      }
+    },
+    {
+      "id": "technical-science-x220",
+      "q": {
+        "en": "Which organ filters waste from the blood in the human body?",
+        "as": "মানৱ শৰীৰত কোন অংগই তেজৰ পৰা আৱৰ্জনা ছাঁননি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "Kidney",
+          "as": "বৃক্ক"
+        },
+        {
+          "en": "Spleen",
+          "as": "প্লীহা"
+        },
+        {
+          "en": "Heart",
+          "as": "হৃদযন্ত্ৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The kidneys filter waste products from the blood as urine.",
+        "as": "বৃক্কই তেজৰ পৰা আৱৰ্জনা প্ৰস্ৰাৱ ৰূপে ছাঁননি কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x169",
+      "q": {
+        "en": "Malaria is transmitted by which vector?",
+        "as": "মেলেৰিয়া কোন বাহকে সংক্ৰমিত কৰে?"
+      },
+      "options": [
+        {
+          "en": "Housefly",
+          "as": "ঘৰুৱা মাখি"
+        },
+        {
+          "en": "Aedes mosquito",
+          "as": "এডিছ মশা"
+        },
+        {
+          "en": "Female Anopheles mosquito",
+          "as": "মাইকী এন'ফেলিছ মশা"
+        },
+        {
+          "en": "Tick",
+          "as": "উকুন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Malaria spreads through the bite of the female Anopheles mosquito.",
+        "as": "মাইকী এন'ফেলিছ মশাৰ কামোৰত মেলেৰিয়া বিয়পে।"
+      }
+    },
+    {
+      "id": "technical-science-x278",
+      "q": {
+        "en": "The main constituent of LPG is?",
+        "as": "LPG ৰ মূল উপাদান কি?"
+      },
+      "options": [
+        {
+          "en": "Butane and propane",
+          "as": "বিউটেন আৰু প্ৰ'পেন"
+        },
+        {
+          "en": "Ethanol",
+          "as": "ইথানল"
+        },
+        {
+          "en": "Methane",
+          "as": "মিথেন"
+        },
+        {
+          "en": "Hydrogen",
+          "as": "হাইড্ৰ'জেন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "LPG mainly contains butane and propane.",
+        "as": "LPG ত মূলতঃ বিউটেন আৰু প্ৰ'পেন থাকে।"
+      }
+    },
+    {
+      "id": "technical-science-x384",
+      "q": {
+        "en": "Which of the following is the correct unit of pressure in the CGS system?",
+        "as": "CGS পদ্ধতিত চাপৰ শুদ্ধ একক কি?"
+      },
+      "options": [
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Barye",
+          "as": "বেৰি"
+        },
+        {
+          "en": "Pascal",
+          "as": "পাস্কেল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "In the CGS system, pressure is measured in barye.",
+        "as": "CGS পদ্ধতিত চাপ বেৰিত জোখা হয়।"
+      }
+    },
+    {
+      "id": "general-english-x006",
+      "q": {
+        "en": "Choose the correct passive voice: He writes a letter.",
+        "as": "শুদ্ধ কৰ্মবাচ্য বাছনি কৰক: He writes a letter."
+      },
+      "options": [
+        {
+          "en": "A letter is wrote by him.",
+          "as": "A letter is wrote by him."
+        },
+        {
+          "en": "A letter is written by him.",
+          "as": "A letter is written by him."
+        },
+        {
+          "en": "A letter written by him.",
+          "as": "A letter written by him."
+        },
+        {
+          "en": "A letter was written by him.",
+          "as": "A letter was written by him."
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Simple present active becomes 'is/am/are + past participle' in passive.",
+        "as": "Simple present সকৰ্মক কৰ্মবাচ্যত 'is/am/are + past participle' হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x130",
+      "q": {
+        "en": "Which of the following causes air pollution?",
+        "as": "তলৰ কোনটোৱে বায়ু প্ৰদূষণ ঘটায়?"
+      },
+      "options": [
+        {
+          "en": "Planting trees",
+          "as": "গছ ৰোপণ"
+        },
+        {
+          "en": "Burning of fossil fuels",
+          "as": "জীৱাশ্ম ইন্ধন দহন"
+        },
+        {
+          "en": "Use of solar energy",
+          "as": "সৌৰ শক্তিৰ ব্যৱহাৰ"
+        },
+        {
+          "en": "Rainfall",
+          "as": "বৰষুণ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Burning fossil fuels releases pollutants into the air.",
+        "as": "জীৱাশ্ম ইন্ধন দহনে বায়ুত প্ৰদূষক নিৰ্গত কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x100",
+      "q": {
+        "en": "Which of the following is a sex-linked disease?",
+        "as": "তলৰ কোনটো যৌন-সংযুক্ত ৰোগ?"
+      },
+      "options": [
+        {
+          "en": "Cholera",
+          "as": "কলেৰা"
+        },
+        {
+          "en": "Haemophilia",
+          "as": "হিম'ফিলিয়া"
+        },
+        {
+          "en": "Typhoid",
+          "as": "টাইফয়ড"
+        },
+        {
+          "en": "Malaria",
+          "as": "মেলেৰিয়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Haemophilia is a sex-linked (X-linked) genetic disorder.",
+        "as": "হিম'ফিলিয়া এটা যৌন-সংযুক্ত (X-সংযুক্ত) বংশগত ৰোগ।"
+      }
+    },
+    {
+      "id": "technical-science-x254",
+      "q": {
+        "en": "Which of the following is used as a fertiliser?",
+        "as": "তলৰ কোনটো সাৰ ৰূপে ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Sugar",
+          "as": "চেনি"
+        },
+        {
+          "en": "Vinegar",
+          "as": "ভিনেগাৰ"
+        },
+        {
+          "en": "Urea",
+          "as": "ইউৰিয়া"
+        },
+        {
+          "en": "Common salt",
+          "as": "সাধাৰণ নিমখ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Urea is a widely used nitrogenous fertiliser.",
+        "as": "ইউৰিয়া এটা বহুলভাৱে ব্যৱহৃত নাইট্ৰ'জেনীয় সাৰ।"
+      }
+    },
+    {
+      "id": "technical-science-x032",
+      "q": {
+        "en": "Which acid is used in car batteries?",
+        "as": "গাড়ীৰ বেটেৰীত কোন আম্ল ব্যৱহৃত হয়?"
+      },
+      "options": [
+        {
+          "en": "Sulphuric acid",
+          "as": "ছালফিউৰিক আম্ল"
+        },
+        {
+          "en": "Hydrochloric acid",
+          "as": "হাইড্ৰ'ক্লৰিক আম্ল"
+        },
+        {
+          "en": "Citric acid",
+          "as": "চিট্ৰিক আম্ল"
+        },
+        {
+          "en": "Nitric acid",
+          "as": "নাইট্ৰিক আম্ল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sulphuric acid is used as the electrolyte in lead-acid car batteries.",
+        "as": "ছীহ-আম্ল বেটেৰীত ছালফিউৰিক আম্ল বিদ্যুৎ-বিশ্লেষ্য ৰূপে ব্যৱহৃত হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x079",
+      "q": {
+        "en": "Rickets in children is caused by the deficiency of which vitamin?",
+        "as": "শিশুৰ ৰিকেটছ ৰোগ কোন ভিটামিনৰ অভাৱত হয়?"
+      },
+      "options": [
+        {
+          "en": "Vitamin K",
+          "as": "ভিটামিন K"
+        },
+        {
+          "en": "Vitamin A",
+          "as": "ভিটামিন A"
+        },
+        {
+          "en": "Vitamin D",
+          "as": "ভিটামিন D"
+        },
+        {
+          "en": "Vitamin C",
+          "as": "ভিটামিন C"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Vitamin D deficiency causes rickets, leading to weak bones.",
+        "as": "ভিটামিন D ৰ অভাৱত ৰিকেটছ হয় আৰু হাড় দুৰ্বল হৈ পৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x273",
+      "q": {
+        "en": "Which one among these is a non-renewable source of energy?",
+        "as": "এইবোৰৰ কোনটো অ-নৱীকৰণযোগ্য শক্তিৰ উৎস?"
+      },
+      "options": [
+        {
+          "en": "Solar energy",
+          "as": "সৌৰ শক্তি"
+        },
+        {
+          "en": "Wind energy",
+          "as": "বায়ু শক্তি"
+        },
+        {
+          "en": "Coal",
+          "as": "কয়লা"
+        },
+        {
+          "en": "Hydro energy",
+          "as": "জল শক্তি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Coal is a non-renewable fossil fuel.",
+        "as": "কয়লা এটা অ-নৱীকৰণযোগ্য জীৱাশ্ম ইন্ধন।"
+      }
+    },
+    {
+      "id": "technical-science-x005",
+      "q": {
+        "en": "The number of neutrons in a carbon-12 atom is?",
+        "as": "কাৰ্বন-১২ পৰমাণুত কিমানটা নিউট্ৰন থাকে?"
+      },
+      "options": [
+        {
+          "en": "7",
+          "as": "৭"
+        },
+        {
+          "en": "8",
+          "as": "৮"
+        },
+        {
+          "en": "6",
+          "as": "৬"
+        },
+        {
+          "en": "12",
+          "as": "১২"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Carbon-12 has 6 protons and 6 neutrons.",
+        "as": "কাৰ্বন-১২ ত ৬ টা প্ৰ'টন আৰু ৬ টা নিউট্ৰন থাকে।"
+      }
+    },
+    {
+      "id": "technical-science-x379",
+      "q": {
+        "en": "Which part of the plant is called the food factory?",
+        "as": "উদ্ভিদৰ কোন অংশক খাদ্য কাৰখানা বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Leaf",
+          "as": "পাত"
+        },
+        {
+          "en": "Stem",
+          "as": "কাণ্ড"
+        },
+        {
+          "en": "Flower",
+          "as": "ফুল"
+        },
+        {
+          "en": "Root",
+          "as": "শিপা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Leaves make food by photosynthesis and are called the food factory.",
+        "as": "পাতে সালোকসংশ্লেষণৰ দ্বাৰা খাদ্য প্ৰস্তুত কৰে, সেয়ে ইয়াক খাদ্য কাৰখানা বোলা হয়।"
+      }
+    },
+    {
+      "id": "general-knowledge-x028",
+      "q": {
+        "en": "The headquarters of the United Nations is located in?",
+        "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় ক'ত অৱস্থিত?"
+      },
+      "options": [
+        {
+          "en": "New York",
+          "as": "নিউয়ৰ্ক"
+        },
+        {
+          "en": "Geneva",
+          "as": "জেনেভা"
+        },
+        {
+          "en": "London",
+          "as": "লণ্ডন"
+        },
+        {
+          "en": "Paris",
+          "as": "পেৰিছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The UN headquarters is in New York.",
+        "as": "ৰাষ্ট্ৰসংঘৰ মুখ্য কাৰ্যালয় নিউয়ৰ্কত অৱস্থিত।"
+      }
+    },
+    {
+      "id": "technical-science-x345",
+      "q": {
+        "en": "The gravitational force between two bodies is inversely proportional to the square of the?",
+        "as": "দুটা বস্তুৰ মাজৰ মাধ্যাকৰ্ষণ বল কিৰ বৰ্গৰ সৈতে ব্যস্তানুপাতিক?"
+      },
+      "options": [
+        {
+          "en": "Distance between them",
+          "as": "তেওঁলোকৰ মাজৰ দূৰত্ব"
+        },
+        {
+          "en": "Time",
+          "as": "সময়"
+        },
+        {
+          "en": "Product of masses",
+          "as": "ভৰৰ গুণফল"
+        },
+        {
+          "en": "Velocity",
+          "as": "বেগ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Gravitational force is inversely proportional to the square of the distance.",
+        "as": "মাধ্যাকৰ্ষণ বল দূৰত্বৰ বৰ্গৰ সৈতে ব্যস্তানুপাতিক।"
+      }
+    },
+    {
+      "id": "technical-science-x243",
+      "q": {
+        "en": "Which one among these is a scalar quantity?",
+        "as": "এইবোৰৰ কোনটো এটা স্কেলাৰ ৰাশি?"
+      },
+      "options": [
+        {
+          "en": "Speed",
+          "as": "দ্ৰুতি"
+        },
+        {
+          "en": "Acceleration",
+          "as": "ত্বৰণ"
+        },
+        {
+          "en": "Velocity",
+          "as": "বেগ"
+        },
+        {
+          "en": "Force",
+          "as": "বল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Speed has magnitude only, so it is a scalar quantity.",
+        "as": "দ্ৰুতিৰ কেৱল মান আছে, সেয়ে ই স্কেলাৰ ৰাশি।"
+      }
+    },
+    {
+      "id": "technical-science-x258",
+      "q": {
+        "en": "A light year is a unit of?",
+        "as": "পোহৰ-বৰ্ষ কিৰ একক?"
+      },
+      "options": [
+        {
+          "en": "Speed",
+          "as": "দ্ৰুতি"
+        },
+        {
+          "en": "Time",
+          "as": "সময়"
+        },
+        {
+          "en": "Mass",
+          "as": "ভৰ"
+        },
+        {
+          "en": "Distance",
+          "as": "দূৰত্ব"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A light year is the distance light travels in one year.",
+        "as": "পোহৰ-বৰ্ষ হৈছে এটা বছৰত পোহৰে অতিক্ৰম কৰা দূৰত্ব।"
+      }
+    },
+    {
+      "id": "technical-science-x025",
+      "q": {
+        "en": "Which part of the brain controls balance and coordination of the body?",
+        "as": "মগজুৰ কোন অংশে শৰীৰৰ ভাৰসাম্য আৰু সমন্বয় নিয়ন্ত্ৰণ কৰে?"
+      },
+      "options": [
+        {
+          "en": "Medulla",
+          "as": "মেডুলা"
+        },
+        {
+          "en": "Pons",
+          "as": "পনছ"
+        },
+        {
+          "en": "Cerebrum",
+          "as": "চেৰিব্ৰাম"
+        },
+        {
+          "en": "Cerebellum",
+          "as": "চেৰিবেলাম"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The cerebellum controls balance, posture and coordination.",
+        "as": "চেৰিবেলামে ভাৰসাম্য, ভঙ্গি আৰু সমন্বয় নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "id": "technical-science-x307",
+      "q": {
+        "en": "The 10 percent law of energy transfer in food chains was given by?",
+        "as": "খাদ্য শৃংখলত শক্তি স্থানান্তৰণৰ ১০ শতাংশ বিধি কোনে দিছিল?"
+      },
+      "options": [
+        {
+          "en": "Odum",
+          "as": "অ'ডাম"
+        },
+        {
+          "en": "Lindeman",
+          "as": "লিণ্ডেমেন"
+        },
+        {
+          "en": "Darwin",
+          "as": "ডাৰউইন"
+        },
+        {
+          "en": "Mendel",
+          "as": "মেণ্ডেল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Raymond Lindeman proposed the 10 percent law of energy transfer.",
+        "as": "ৰেমণ্ড লিণ্ডেমেনে শক্তি স্থানান্তৰণৰ ১০ শতাংশ বিধি প্ৰস্তাৱ কৰিছিল।"
+      }
+    },
+    {
+      "id": "technical-science-x174",
+      "q": {
+        "en": "What is the commercial unit of electrical energy?",
+        "as": "বিদ্যুৎ শক্তিৰ ব্যৱসায়িক একক কি?"
+      },
+      "options": [
+        {
+          "en": "Newton",
+          "as": "নিউটন"
+        },
+        {
+          "en": "Watt",
+          "as": "ৱাট"
+        },
+        {
+          "en": "Kilowatt-hour",
+          "as": "কিল'ৱাট-ঘণ্টা"
+        },
+        {
+          "en": "Joule",
+          "as": "জুল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Electrical energy is measured in kilowatt-hours.",
+        "as": "বিদ্যুৎ শক্তি কিল'ৱাট-ঘণ্টাত জোখা হয়।"
+      }
+    },
+    {
+      "id": "technical-science-x008",
+      "q": {
+        "en": "Which particle is present in the nucleus of an atom?",
+        "as": "পৰমাণুৰ নিউক্লিয়াছত কোন কণিকা থাকে?"
+      },
+      "options": [
+        {
+          "en": "Electrons and protons",
+          "as": "ইলেক্ট্ৰন আৰু প্ৰ'টন"
+        },
+        {
+          "en": "Only protons",
+          "as": "কেৱল প্ৰ'টন"
+        },
+        {
+          "en": "Only electrons",
+          "as": "কেৱল ইলেক্ট্ৰন"
+        },
+        {
+          "en": "Protons and neutrons",
+          "as": "প্ৰ'টন আৰু নিউট্ৰন"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The nucleus contains protons and neutrons.",
+        "as": "নিউক্লিয়াছত প্ৰ'টন আৰু নিউট্ৰন থাকে।"
+      }
+    },
+    {
+      "id": "technical-science-x094",
+      "q": {
+        "en": "The scientific name of the human being is?",
+        "as": "মানুহৰ বৈজ্ঞানিক নাম কি?"
+      },
+      "options": [
+        {
+          "en": "Homo sapiens",
+          "as": "হ'ম' চেপিয়েন্স"
+        },
+        {
+          "en": "Hylobates hoolock",
+          "as": "হাইল'বেটছ হুলক"
+        },
+        {
+          "en": "Homo erectus",
+          "as": "হ'ম' ইৰেক্টাছ"
+        },
+        {
+          "en": "Pan troglodytes",
+          "as": "পেন ট্ৰ'গ্ল'ডাইটছ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The scientific name of modern humans is Homo sapiens.",
+        "as": "আধুনিক মানুহৰ বৈজ্ঞানিক নাম হ'ম' চেপিয়েন্স।"
+      }
+    },
+    {
+      "id": "technical-science-x136",
+      "q": {
+        "en": "The process by which plants lose water as vapour through leaves is called?",
+        "as": "উদ্ভিদে পাতৰ জৰিয়তে জলীয় বাষ্প ৰূপে পানী হেৰুওৱা প্ৰক্ৰিয়াক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Respiration",
+          "as": "শ্বসন"
+        },
+        {
+          "en": "Photosynthesis",
+          "as": "সালোকসংশ্লেষণ"
+        },
+        {
+          "en": "Transpiration",
+          "as": "বাষ্পীভৱন"
+        },
+        {
+          "en": "Absorption",
+          "as": "শোষণ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Transpiration is the loss of water vapour from plant leaves.",
+        "as": "বাষ্পীভৱন হৈছে উদ্ভিদৰ পাতৰ পৰা জলীয় বাষ্পৰ ক্ষয়।"
+      }
+    },
+    {
+      "id": "general-english-x018",
+      "q": {
+        "en": "Choose the correct idiom meaning: 'To let the cat out of the bag'.",
+        "as": "শুদ্ধ idiom অৰ্থ বাছনি কৰক: 'To let the cat out of the bag'."
+      },
+      "options": [
+        {
+          "en": "To reveal a secret",
+          "as": "গোপন কথা ফাঁচ কৰা"
+        },
+        {
+          "en": "To run away",
+          "as": "পলাই যোৱা"
+        },
+        {
+          "en": "To tell a lie",
+          "as": "মিছা কোৱা"
+        },
+        {
+          "en": "To free an animal",
+          "as": "জন্তু মুকলি কৰা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "'To let the cat out of the bag' means to reveal a secret.",
+        "as": "'To let the cat out of the bag' ৰ অৰ্থ গোপন কথা ফাঁচ কৰা।"
+      }
+    },
+    {
+      "id": "general-knowledge-x050",
+      "q": {
+        "en": "Which is the highest civilian award for women in India, awarded for bravery?",
+        "as": "বীৰতালৈ প্ৰদান কৰা ভাৰতৰ মহিলাৰ সৰ্বোচ্চ অসামৰিক সন্মান কি?"
+      },
+      "options": [
+        {
+          "en": "Sarojini Naidu Award",
+          "as": "সৰোজিনী নাইডু বঁটা"
+        },
+        {
+          "en": "Rani Lakshmibai Award",
+          "as": "ৰাণী লক্ষ্মীবাই বঁটা"
+        },
+        {
+          "en": "Indira Gandhi Award",
+          "as": "ইন্দিৰা গান্ধী বঁটা"
+        },
+        {
+          "en": "Kasturba Gandhi Award",
+          "as": "কস্তুৰবা গান্ধী বঁটা"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The Rani Lakshmibai Award recognises acts of bravery by women.",
+        "as": "ৰাণী লক্ষ্মীবাই বঁটাই মহিলাৰ বীৰতাক স্বীকৃতি দিয়ে।"
+      }
+    }
+  ]
+}

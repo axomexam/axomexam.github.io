@@ -1,0 +1,3038 @@
+[
+  {
+    "id": "numerical-041",
+    "q": {
+      "en": "The angles of a triangle are in the ratio 2 : 3 : 4. The largest angle is",
+      "as": "এটা ত্ৰিভুজৰ কোণবোৰ ২ : ৩ : ৪ অনুপাতত আছে। আটাইতকৈ ডাঙৰ কোণটো কিমান"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The sum is 180°, and the parts total 9, so one part is 20°. The largest is 4 × 20 = 80°.",
+      "as": "মুঠ ১৮০°, আৰু অংশৰ যোগফল ৯, সেয়ে এভাগ ২০°। আটাইতকৈ ডাঙৰ ৪ × ২০ = ৮০°।"
+    }
+  },
+  {
+    "id": "numerical-042",
+    "q": {
+      "en": "The sum of the interior angles of a regular hexagon is",
+      "as": "এটা সুষম ষড়ভুজৰ অন্তঃকোণবোৰৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "720°",
+        "as": "৭২০°"
+      },
+      {
+        "en": "540°",
+        "as": "৫৪০°"
+      },
+      {
+        "en": "900°",
+        "as": "৯০০°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For an n-sided polygon the interior angles sum to (n - 2) × 180°. For a hexagon, (6 - 2) × 180 = 720°.",
+      "as": "n বাহুৰ বহুভুজৰ অন্তঃকোণৰ যোগফল (n - ২) × ১৮০°। ষড়ভুজৰ বাবে (৬ - ২) × ১৮০ = ৭২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-001",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 50° and 60°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৫০° আৰু ৬০°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 50° - 60° = 70°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-002",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 45° and 75°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৪৫° আৰু ৭৫°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 45° - 75° = 60°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-003",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 70° and 40°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৭০° আৰু ৪০°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 70° - 40° = 70°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-004",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 35° and 85°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৩৫° আৰু ৮৫°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 35° - 85° = 60°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-005",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 62° and 48°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৬২° আৰু ৪৮°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "118°",
+        "as": "১১৮°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 62° - 48° = 70°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-006",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 55° and 65°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৫৫° আৰু ৬৫°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The angles of a triangle add up to 180°. Third angle = 180° - 55° - 65° = 60°.",
+      "as": "ত্ৰিভুজৰ কোণৰ যোগফল ১৮০°। তৃতীয় কোণ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-007",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 45° and 65°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৪৫° আৰু ৬৫°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An exterior angle equals the sum of the two interior opposite angles: 45° + 65° = 110°.",
+      "as": "বহিঃকোণ = ৪৫° + ৬৫° = ১১০°।"
+    }
+  },
+  {
+    "id": "num-geometry-008",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 70° and 50°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৭০° আৰু ৫০°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An exterior angle equals the sum of the two interior opposite angles: 70° + 50° = 120°.",
+      "as": "বহিঃকোণ = ৭০° + ৫০° = ১২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-009",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 35° and 85°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৩৫° আৰু ৮৫°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "35°",
+        "as": "৩৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An exterior angle equals the sum of the two interior opposite angles: 35° + 85° = 120°.",
+      "as": "বহিঃকোণ = ৩৫° + ৮৫° = ১২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-010",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 60° and 60°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৬০° আৰু ৬০°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An exterior angle equals the sum of the two interior opposite angles: 60° + 60° = 120°.",
+      "as": "বহিঃকোণ = ৬০° + ৬০° = ১২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-011",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two parallel lines are cut by a transversal. If one interior angle is 55°, find the co-interior angle on the same side.",
+      "as": "দুটা সমান্তৰাল ৰেখাক এডাল ছেদকে কাটিছে। এটা অন্তঃকোণ ৫৫° হ'লে একে ফালৰ সহ-অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "35°",
+        "as": "৩৫°"
+      },
+      {
+        "en": "235°",
+        "as": "২৩৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Co-interior angles are supplementary: 180° - 55° = 125°.",
+      "as": "সহ-অন্তঃকোণ পৰিপূৰক, সেয়ে ১২৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-012",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two parallel lines are cut by a transversal. If one interior angle is 70°, find the co-interior angle on the same side.",
+      "as": "দুটা সমান্তৰাল ৰেখাক এডাল ছেদকে কাটিছে। এটা অন্তঃকোণ ৭০° হ'লে একে ফালৰ সহ-অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "20°",
+        "as": "২০°"
+      },
+      {
+        "en": "250°",
+        "as": "২৫০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Co-interior angles are supplementary: 180° - 70° = 110°.",
+      "as": "সহ-অন্তঃকোণ পৰিপূৰক, সেয়ে ১১০°।"
+    }
+  },
+  {
+    "id": "num-geometry-013",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two parallel lines are cut by a transversal. If one interior angle is 110°, find the co-interior angle on the same side.",
+      "as": "দুটা সমান্তৰাল ৰেখাক এডাল ছেদকে কাটিছে। এটা অন্তঃকোণ ১১০° হ'লে একে ফালৰ সহ-অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "-20°",
+        "as": "-২০°"
+      },
+      {
+        "en": "290°",
+        "as": "২৯০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Co-interior angles are supplementary: 180° - 110° = 70°.",
+      "as": "সহ-অন্তঃকোণ পৰিপূৰক, সেয়ে ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-014",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two parallel lines are cut by a transversal. If one interior angle is 125°, find the co-interior angle on the same side.",
+      "as": "দুটা সমান্তৰাল ৰেখাক এডাল ছেদকে কাটিছে। এটা অন্তঃকোণ ১২৫° হ'লে একে ফালৰ সহ-অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "-35°",
+        "as": "-৩৫°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "305°",
+        "as": "৩০৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Co-interior angles are supplementary: 180° - 125° = 55°.",
+      "as": "সহ-অন্তঃকোণ পৰিপূৰক, সেয়ে ৫৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-015",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 80°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ৮০° কোণ কৰে। একে চাপে পৰিধিত কৰা কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "50°",
+        "as": "৫০°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The inscribed angle is half the central angle: 80°/2 = 40°.",
+      "as": "পৰিধি কোণ কেন্দ্ৰ কোণৰ আধা: ৪০°।"
+    }
+  },
+  {
+    "id": "num-geometry-016",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 100°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১০০° কোণ কৰে। একে চাপে পৰিধিত কৰা কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "50°",
+        "as": "৫০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The inscribed angle is half the central angle: 100°/2 = 50°.",
+      "as": "পৰিধি কোণ কেন্দ্ৰ কোণৰ আধা: ৫০°।"
+    }
+  },
+  {
+    "id": "num-geometry-017",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 120°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১২০° কোণ কৰে। একে চাপে পৰিধিত কৰা কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "60° 1",
+        "as": "৬০° ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The inscribed angle is half the central angle: 120°/2 = 60°.",
+      "as": "পৰিধি কোণ কেন্দ্ৰ কোণৰ আধা: ৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-018",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 140°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১৪০° কোণ কৰে। একে চাপে পৰিধিত কৰা কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The inscribed angle is half the central angle: 140°/2 = 70°.",
+      "as": "পৰিধি কোণ কেন্দ্ৰ কোণৰ আধা: ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-019",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 160°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১৬০° কোণ কৰে। একে চাপে পৰিধিত কৰা কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The inscribed angle is half the central angle: 160°/2 = 80°.",
+      "as": "পৰিধি কোণ কেন্দ্ৰ কোণৰ আধা: ৮০°।"
+    }
+  },
+  {
+    "id": "num-geometry-020",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 70°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ৭০°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "20°",
+        "as": "২০°"
+      },
+      {
+        "en": "250°",
+        "as": "২৫০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Opposite angles of a cyclic quadrilateral are supplementary: 180° - 70° = 110°.",
+      "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণ পৰিপূৰক: ১১০°।"
+    }
+  },
+  {
+    "id": "num-geometry-021",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 85°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ৮৫°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "85°",
+        "as": "৮৫°"
+      },
+      {
+        "en": "5°",
+        "as": "৫°"
+      },
+      {
+        "en": "95°",
+        "as": "৯৫°"
+      },
+      {
+        "en": "265°",
+        "as": "২৬৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Opposite angles of a cyclic quadrilateral are supplementary: 180° - 85° = 95°.",
+      "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণ পৰিপূৰক: ৯৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-022",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 110°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ১১০°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "-20°",
+        "as": "-২০°"
+      },
+      {
+        "en": "290°",
+        "as": "২৯০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Opposite angles of a cyclic quadrilateral are supplementary: 180° - 110° = 70°.",
+      "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণ পৰিপূৰক: ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-023",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 125°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ১২৫°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "-35°",
+        "as": "-৩৫°"
+      },
+      {
+        "en": "305°",
+        "as": "৩০৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Opposite angles of a cyclic quadrilateral are supplementary: 180° - 125° = 55°.",
+      "as": "চক্ৰীয় চতুৰ্ভুজৰ বিপৰীত কোণ পৰিপূৰক: ৫৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-024",
+    "leaf": "geometry",
+    "q": {
+      "en": "A tangent touches a circle at P and PA is a chord making an angle of 35° with the tangent. If the radius to P is drawn, find the angle between the chord and the radius.",
+      "as": "এটা স্পৰ্শকে P বিন্দুত বৃত্ত স্পৰ্শ কৰে আৰু PA জ্যা স্পৰ্শকৰ সৈতে ৩৫° কোণ কৰে। P লৈ ব্যাসাৰ্ধ টানিলে জ্যা আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "35°",
+        "as": "৩৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The radius is perpendicular to the tangent (90°), so the required angle is 90° - 35° = 55°.",
+      "as": "ব্যাসাৰ্ধ স্পৰ্শকৰ লম্ব (৯০°), সেয়ে কোণ = ৫৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-025",
+    "leaf": "geometry",
+    "q": {
+      "en": "A tangent touches a circle at P and PA is a chord making an angle of 40° with the tangent. If the radius to P is drawn, find the angle between the chord and the radius.",
+      "as": "এটা স্পৰ্শকে P বিন্দুত বৃত্ত স্পৰ্শ কৰে আৰু PA জ্যা স্পৰ্শকৰ সৈতে ৪০° কোণ কৰে। P লৈ ব্যাসাৰ্ধ টানিলে জ্যা আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "50°",
+        "as": "৫০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The radius is perpendicular to the tangent (90°), so the required angle is 90° - 40° = 50°.",
+      "as": "ব্যাসাৰ্ধ স্পৰ্শকৰ লম্ব (৯০°), সেয়ে কোণ = ৫০°।"
+    }
+  },
+  {
+    "id": "num-geometry-026",
+    "leaf": "geometry",
+    "q": {
+      "en": "A tangent touches a circle at P and PA is a chord making an angle of 50° with the tangent. If the radius to P is drawn, find the angle between the chord and the radius.",
+      "as": "এটা স্পৰ্শকে P বিন্দুত বৃত্ত স্পৰ্শ কৰে আৰু PA জ্যা স্পৰ্শকৰ সৈতে ৫০° কোণ কৰে। P লৈ ব্যাসাৰ্ধ টানিলে জ্যা আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50°",
+        "as": "৫০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The radius is perpendicular to the tangent (90°), so the required angle is 90° - 50° = 40°.",
+      "as": "ব্যাসাৰ্ধ স্পৰ্শকৰ লম্ব (৯০°), সেয়ে কোণ = ৪০°।"
+    }
+  },
+  {
+    "id": "num-geometry-027",
+    "leaf": "geometry",
+    "q": {
+      "en": "A tangent touches a circle at P and PA is a chord making an angle of 55° with the tangent. If the radius to P is drawn, find the angle between the chord and the radius.",
+      "as": "এটা স্পৰ্শকে P বিন্দুত বৃত্ত স্পৰ্শ কৰে আৰু PA জ্যা স্পৰ্শকৰ সৈতে ৫৫° কোণ কৰে। P লৈ ব্যাসাৰ্ধ টানিলে জ্যা আৰু ব্যাসাৰ্ধৰ মাজৰ কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "35°",
+        "as": "৩৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The radius is perpendicular to the tangent (90°), so the required angle is 90° - 55° = 35°.",
+      "as": "ব্যাসাৰ্ধ স্পৰ্শকৰ লম্ব (৯০°), সেয়ে কোণ = ৩৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-028",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 6 cm, DE = 9 cm and BC = 8 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৬ ছেমি, DE = ৯ ছেমি আৰু BC = ৮ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Similar triangles have proportional sides: AB/DE = BC/EF, so EF = BC × DE/AB = 8×9/6 = 12 cm.",
+      "as": "সদৃশ ত্ৰিভুজৰ বাহু সমানুপাতী: EF = ১২ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-029",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 5 cm, DE = 10 cm and BC = 7 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৫ ছেমি, DE = ১০ ছেমি আৰু BC = ৭ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Similar triangles have proportional sides: AB/DE = BC/EF, so EF = BC × DE/AB = 7×10/5 = 14 cm.",
+      "as": "সদৃশ ত্ৰিভুজৰ বাহু সমানুপাতী: EF = ১৪ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-030",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 8 cm, DE = 12 cm and BC = 10 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৮ ছেমি, DE = ১২ ছেমি আৰু BC = ১০ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "22 cm",
+        "as": "২২ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Similar triangles have proportional sides: AB/DE = BC/EF, so EF = BC × DE/AB = 10×12/8 = 15 cm.",
+      "as": "সদৃশ ত্ৰিভুজৰ বাহু সমানুপাতী: EF = ১৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-031",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 4 cm, DE = 6 cm and BC = 9 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৪ ছেমি, DE = ৬ ছেমি আৰু BC = ৯ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Similar triangles have proportional sides: AB/DE = BC/EF, so EF = BC × DE/AB = 9×6/4 = 13 cm.",
+      "as": "সদৃশ ত্ৰিভুজৰ বাহু সমানুপাতী: EF = ১৩ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-032",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 7 cm, DE = 14 cm and BC = 5 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৭ ছেমি, DE = ১৪ ছেমি আৰু BC = ৫ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "19 cm",
+        "as": "১৯ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Similar triangles have proportional sides: AB/DE = BC/EF, so EF = BC × DE/AB = 5×14/7 = 10 cm.",
+      "as": "সদৃশ ত্ৰিভুজৰ বাহু সমানুপাতী: EF = ১০ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-033",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 3 cm and 4 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ৩ ছেমি আৰু ৪ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      },
+      {
+        "en": "4 cm",
+        "as": "৪ cm"
+      },
+      {
+        "en": "5 cm",
+        "as": "৫ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(3² + 4²) = √25 = 5 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-034",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 5 cm and 12 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ৫ ছেমি আৰু ১২ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(5² + 12²) = √169 = 13 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ১৩ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-035",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 8 cm and 15 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ৮ ছেমি আৰু ১৫ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17 cm",
+        "as": "১৭ cm"
+      },
+      {
+        "en": "18 cm",
+        "as": "১৮ cm"
+      },
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      },
+      {
+        "en": "23 cm",
+        "as": "২৩ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(8² + 15²) = √289 = 17 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ১৭ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-036",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 7 cm and 24 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ৭ ছেমি আৰু ২৪ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      },
+      {
+        "en": "26 cm",
+        "as": "২৬ cm"
+      },
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "31 cm",
+        "as": "৩১ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(7² + 24²) = √625 = 25 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ২৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-037",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 9 cm and 40 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ৯ ছেমি আৰু ৪০ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42 cm",
+        "as": "৪২ cm"
+      },
+      {
+        "en": "41 cm",
+        "as": "৪১ cm"
+      },
+      {
+        "en": "40 cm",
+        "as": "৪০ cm"
+      },
+      {
+        "en": "49 cm",
+        "as": "৪৯ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(9² + 40²) = √1681 = 41 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ৪১ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-038",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 20 cm and 21 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ দুটা ২০ ছেমি আৰু ২১ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 cm",
+        "as": "৩০ cm"
+      },
+      {
+        "en": "28 cm",
+        "as": "২৮ cm"
+      },
+      {
+        "en": "29 cm",
+        "as": "২৯ cm"
+      },
+      {
+        "en": "41 cm",
+        "as": "৪১ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By Pythagoras' theorem, hypotenuse = √(20² + 21²) = √841 = 29 cm.",
+      "as": "পাইথাগোৰাছৰ উপপাদ্য অনুসৰি কৰ্ণ = ২৯ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-039",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 5 sides.",
+      "as": "৫ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "900°",
+        "as": "৯০০°"
+      },
+      {
+        "en": "540°",
+        "as": "৫৪০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum of interior angles = (n - 2) × 180° = (5 - 2) × 180° = 540°.",
+      "as": "অন্তঃকোণৰ যোগফল = (৫ - ২) × ১৮০° = ৫৪০°।"
+    }
+  },
+  {
+    "id": "num-geometry-040",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find each interior angle of a regular polygon with 5 sides.",
+      "as": "৫ বাহু থকা সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "540°",
+        "as": "৫৪০°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "118°",
+        "as": "১১৮°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each interior angle = (n - 2) × 180°/n = 540°/5 = 108°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = ১০৮°।"
+    }
+  },
+  {
+    "id": "num-geometry-041",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 6 sides.",
+      "as": "৬ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "720°",
+        "as": "৭২০°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "1080°",
+        "as": "১০৮০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum of interior angles = (n - 2) × 180° = (6 - 2) × 180° = 720°.",
+      "as": "অন্তঃকোণৰ যোগফল = (৬ - ২) × ১৮০° = ৭২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-042",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find each interior angle of a regular polygon with 6 sides.",
+      "as": "৬ বাহু থকা সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "720°",
+        "as": "৭২০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each interior angle = (n - 2) × 180°/n = 720°/6 = 120°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = ১২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-043",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 8 sides.",
+      "as": "৮ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "1440°",
+        "as": "১৪৪০°"
+      },
+      {
+        "en": "1080°",
+        "as": "১০৮০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum of interior angles = (n - 2) × 180° = (8 - 2) × 180° = 1080°.",
+      "as": "অন্তঃকোণৰ যোগফল = (৮ - ২) × ১৮০° = ১০৮০°।"
+    }
+  },
+  {
+    "id": "num-geometry-044",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find each interior angle of a regular polygon with 8 sides.",
+      "as": "৮ বাহু থকা সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1080°",
+        "as": "১০৮০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Each interior angle = (n - 2) × 180°/n = 1080°/8 = 135°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = ১৩৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-045",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 10 sides.",
+      "as": "১০ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144°",
+        "as": "১৪৪°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "1440°",
+        "as": "১৪৪০°"
+      },
+      {
+        "en": "1800°",
+        "as": "১৮০০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum of interior angles = (n - 2) × 180° = (10 - 2) × 180° = 1440°.",
+      "as": "অন্তঃকোণৰ যোগফল = (১০ - ২) × ১৮০° = ১৪৪০°।"
+    }
+  },
+  {
+    "id": "num-geometry-046",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find each interior angle of a regular polygon with 10 sides.",
+      "as": "১০ বাহু থকা সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1440°",
+        "as": "১৪৪০°"
+      },
+      {
+        "en": "36°",
+        "as": "৩৬°"
+      },
+      {
+        "en": "154°",
+        "as": "১৫৪°"
+      },
+      {
+        "en": "144°",
+        "as": "১৪৪°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each interior angle = (n - 2) × 180°/n = 1440°/10 = 144°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = ১৪৪°।"
+    }
+  },
+  {
+    "id": "num-geometry-047",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 12 sides.",
+      "as": "১২ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1800°",
+        "as": "১৮০০°"
+      },
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "2160°",
+        "as": "২১৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum of interior angles = (n - 2) × 180° = (12 - 2) × 180° = 1800°.",
+      "as": "অন্তঃকোণৰ যোগফল = (১২ - ২) × ১৮০° = ১৮০০°।"
+    }
+  },
+  {
+    "id": "num-geometry-048",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find each interior angle of a regular polygon with 12 sides.",
+      "as": "১২ বাহু থকা সুষম বহুভুজৰ প্ৰতিটো অন্তঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "1800°",
+        "as": "১৮০০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "160°",
+        "as": "১৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Each interior angle = (n - 2) × 180°/n = 1800°/12 = 150°.",
+      "as": "প্ৰতিটো অন্তঃকোণ = ১৫০°।"
+    }
+  },
+  {
+    "id": "num-geometry-049",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 6 cm, AC = 8 cm and BD = 3 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ৬ ছেমি, AC = ৮ ছেমি আৰু BD = ৩ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5 cm",
+        "as": "৫ cm"
+      },
+      {
+        "en": "4 cm",
+        "as": "৪ cm"
+      },
+      {
+        "en": "3 cm",
+        "as": "৩ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "By the angle bisector theorem, BD/DC = AB/AC, so DC = BD × AC/AB = 3×8/6 = 4 cm.",
+      "as": "কোণ দ্বিখণ্ডক উপপাদ্য অনুসৰি DC = ৪ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-050",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 9 cm, AC = 12 cm and BD = 6 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ৯ ছেমি, AC = ১২ ছেমি আৰু BD = ৬ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By the angle bisector theorem, BD/DC = AB/AC, so DC = BD × AC/AB = 6×12/9 = 8 cm.",
+      "as": "কোণ দ্বিখণ্ডক উপপাদ্য অনুসৰি DC = ৮ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-051",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 10 cm, AC = 15 cm and BD = 4 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ১০ ছেমি, AC = ১৫ ছেমি আৰু BD = ৪ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "5 cm",
+        "as": "৫ cm"
+      },
+      {
+        "en": "4 cm",
+        "as": "৪ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By the angle bisector theorem, BD/DC = AB/AC, so DC = BD × AC/AB = 4×15/10 = 6 cm.",
+      "as": "কোণ দ্বিখণ্ডক উপপাদ্য অনুসৰি DC = ৬ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-052",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 8 cm, AC = 14 cm and BD = 4 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ৮ ছেমি, AC = ১৪ ছেমি আৰু BD = ৪ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "4 cm",
+        "as": "৪ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By the angle bisector theorem, BD/DC = AB/AC, so DC = BD × AC/AB = 4×14/8 = 7 cm.",
+      "as": "কোণ দ্বিখণ্ডক উপপাদ্য অনুসৰি DC = ৭ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-053",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 5 cm is at a distance of 3 cm from the centre. Find the length of the chord.",
+      "as": "৫ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৩ ছেমি দূৰত। জ্যাডালৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4 cm",
+        "as": "৪ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The perpendicular from the centre bisects the chord. Half-chord = √(5² - 3²) = 4 cm, so the chord is 8 cm.",
+      "as": "কেন্দ্ৰৰ পৰা লম্বে জ্যাক দ্বিখণ্ডিত কৰে। জ্যা = ৮ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-054",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 13 cm is at a distance of 5 cm from the centre. Find the length of the chord.",
+      "as": "১৩ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৫ ছেমি দূৰত। জ্যাডালৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "26 cm",
+        "as": "২৬ cm"
+      },
+      {
+        "en": "18 cm",
+        "as": "১৮ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The perpendicular from the centre bisects the chord. Half-chord = √(13² - 5²) = 12 cm, so the chord is 24 cm.",
+      "as": "কেন্দ্ৰৰ পৰা লম্বে জ্যাক দ্বিখণ্ডিত কৰে। জ্যা = ২৪ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-055",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 10 cm is at a distance of 6 cm from the centre. Find the length of the chord.",
+      "as": "১০ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৬ ছেমি দূৰত। জ্যাডালৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "18 cm",
+        "as": "১৮ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The perpendicular from the centre bisects the chord. Half-chord = √(10² - 6²) = 8 cm, so the chord is 16 cm.",
+      "as": "কেন্দ্ৰৰ পৰা লম্বে জ্যাক দ্বিখণ্ডিত কৰে। জ্যা = ১৬ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-056",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 17 cm is at a distance of 8 cm from the centre. Find the length of the chord.",
+      "as": "১৭ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৮ ছেমি দূৰত। জ্যাডালৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "30 cm",
+        "as": "৩০ cm"
+      },
+      {
+        "en": "32 cm",
+        "as": "৩২ cm"
+      },
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The perpendicular from the centre bisects the chord. Half-chord = √(17² - 8²) = 15 cm, so the chord is 30 cm.",
+      "as": "কেন্দ্ৰৰ পৰা লম্বে জ্যাক দ্বিখণ্ডিত কৰে। জ্যা = ৩০ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-057",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 25 cm is at a distance of 7 cm from the centre. Find the length of the chord.",
+      "as": "২৫ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৭ ছেমি দূৰত। জ্যাডালৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "50 cm",
+        "as": "৫০ cm"
+      },
+      {
+        "en": "48 cm",
+        "as": "৪৮ cm"
+      },
+      {
+        "en": "32 cm",
+        "as": "৩২ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The perpendicular from the centre bisects the chord. Half-chord = √(25² - 7²) = 24 cm, so the chord is 48 cm.",
+      "as": "কেন্দ্ৰৰ পৰা লম্বে জ্যাক দ্বিখণ্ডিত কৰে। জ্যা = ৪৮ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-058",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 2 : 3. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ২ : ৩। তেওঁলোকৰ কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "9:4",
+        "as": "৯:৪"
+      },
+      {
+        "en": "5:3",
+        "as": "৫:৩"
+      },
+      {
+        "en": "4:9",
+        "as": "৪:৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The ratio of areas of similar triangles is the square of the side ratio: 2² : 3² = 4:9.",
+      "as": "সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত = ২² : ৩² = 4:9।"
+    }
+  },
+  {
+    "id": "num-geometry-059",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 3 : 4. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ৩ : ৪। তেওঁলোকৰ কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9:16",
+        "as": "৯:১৬"
+      },
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "16:9",
+        "as": "১৬:৯"
+      },
+      {
+        "en": "7:4",
+        "as": "৭:৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The ratio of areas of similar triangles is the square of the side ratio: 3² : 4² = 9:16.",
+      "as": "সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত = ৩² : ৪² = 9:16।"
+    }
+  },
+  {
+    "id": "num-geometry-060",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 5 : 7. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ৫ : ৭। তেওঁলোকৰ কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25:49",
+        "as": "২৫:৪৯"
+      },
+      {
+        "en": "5:7",
+        "as": "৫:৭"
+      },
+      {
+        "en": "49:25",
+        "as": "৪৯:২৫"
+      },
+      {
+        "en": "12:7",
+        "as": "১২:৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The ratio of areas of similar triangles is the square of the side ratio: 5² : 7² = 25:49.",
+      "as": "সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত = ৫² : ৭² = 25:49।"
+    }
+  },
+  {
+    "id": "num-geometry-061",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 4 : 9. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ৪ : ৯। তেওঁলোকৰ কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4:9",
+        "as": "৪:৯"
+      },
+      {
+        "en": "16:81",
+        "as": "১৬:৮১"
+      },
+      {
+        "en": "81:16",
+        "as": "৮১:১৬"
+      },
+      {
+        "en": "13:9",
+        "as": "১৩:৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The ratio of areas of similar triangles is the square of the side ratio: 4² : 9² = 16:81.",
+      "as": "সদৃশ ত্ৰিভুজৰ কালিৰ অনুপাত = ৪² : ৯² = 16:81।"
+    }
+  },
+  {
+    "id": "num-geometry-062",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 40° and 60°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৪০° আৰু ৬০°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third angle = 180° - 40° - 60° = 80°.",
+      "as": "তৃতীয় কোণ = ৮০°।"
+    }
+  },
+  {
+    "id": "num-geometry-063",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 55° and 35°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৫৫° আৰু ৩৫°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third angle = 180° - 55° - 35° = 90°.",
+      "as": "তৃতীয় কোণ = ৯০°।"
+    }
+  },
+  {
+    "id": "num-geometry-064",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 80° and 30°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ৮০° আৰু ৩০°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third angle = 180° - 80° - 30° = 70°.",
+      "as": "তৃতীয় কোণ = ৭০°।"
+    }
+  },
+  {
+    "id": "num-geometry-065",
+    "leaf": "geometry",
+    "q": {
+      "en": "Two angles of a triangle are 25° and 95°. Find the third angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা কোণ ২৫° আৰু ৯৫°। তৃতীয় কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "155°",
+        "as": "১৫৫°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Third angle = 180° - 25° - 95° = 60°.",
+      "as": "তৃতীয় কোণ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-066",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 40° and 70°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৪০° আৰু ৭০°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "40°",
+        "as": "৪০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Exterior angle = 40° + 70° = 110°.",
+      "as": "বহিঃকোণ = ১১০°।"
+    }
+  },
+  {
+    "id": "num-geometry-067",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 55° and 60°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৫৫° আৰু ৬০°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "65°",
+        "as": "৬৫°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Exterior angle = 55° + 60° = 115°.",
+      "as": "বহিঃকোণ = ১১৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-068",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a triangle, two interior opposite angles are 80° and 45°. Find the exterior angle.",
+      "as": "এটা ত্ৰিভুজৰ দুটা অন্তঃসম্মুখ কোণ ৮০° আৰু ৪৫°। বহিঃকোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Exterior angle = 80° + 45° = 125°.",
+      "as": "বহিঃকোণ = ১২৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-069",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 70°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ৭০° কোণ কৰে। পৰিধি কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70°",
+        "as": "৭০°"
+      },
+      {
+        "en": "145°",
+        "as": "১৪৫°"
+      },
+      {
+        "en": "35°",
+        "as": "৩৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Inscribed angle = 70°/2 = 35°.",
+      "as": "পৰিধি কোণ = ৩৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-070",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 90°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ৯০° কোণ কৰে। পৰিধি কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Inscribed angle = 90°/2 = 45°.",
+      "as": "পৰিধি কোণ = ৪৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-071",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 110°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১১০° কোণ কৰে। পৰিধি কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55°",
+        "as": "৫৫°"
+      },
+      {
+        "en": "110°",
+        "as": "১১০°"
+      },
+      {
+        "en": "125°",
+        "as": "১২৫°"
+      },
+      {
+        "en": "65°",
+        "as": "৬৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inscribed angle = 110°/2 = 55°.",
+      "as": "পৰিধি কোণ = ৫৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-072",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a circle, the central angle subtended by an arc is 130°. Find the inscribed angle subtended by the same arc.",
+      "as": "এটা বৃত্তত এটা চাপে কেন্দ্ৰত ১৩০° কোণ কৰে। পৰিধি কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "65°",
+        "as": "৬৫°"
+      },
+      {
+        "en": "130°",
+        "as": "১৩০°"
+      },
+      {
+        "en": "115°",
+        "as": "১১৫°"
+      },
+      {
+        "en": "75°",
+        "as": "৭৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Inscribed angle = 130°/2 = 65°.",
+      "as": "পৰিধি কোণ = ৬৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-073",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 60°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ৬০°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "240°",
+        "as": "২৪০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Opposite angle = 180° - 60° = 120°.",
+      "as": "বিপৰীত কোণ = ১২০°।"
+    }
+  },
+  {
+    "id": "num-geometry-074",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 95°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ৯৫°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "95°",
+        "as": "৯৫°"
+      },
+      {
+        "en": "-5°",
+        "as": "-৫°"
+      },
+      {
+        "en": "85°",
+        "as": "৮৫°"
+      },
+      {
+        "en": "275°",
+        "as": "২৭৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Opposite angle = 180° - 95° = 85°.",
+      "as": "বিপৰীত কোণ = ৮৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-075",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 100°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ১০০°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100°",
+        "as": "১০০°"
+      },
+      {
+        "en": "-10°",
+        "as": "-১০°"
+      },
+      {
+        "en": "280°",
+        "as": "২৮০°"
+      },
+      {
+        "en": "80°",
+        "as": "৮০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Opposite angle = 180° - 100° = 80°.",
+      "as": "বিপৰীত কোণ = ৮০°।"
+    }
+  },
+  {
+    "id": "num-geometry-076",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a cyclic quadrilateral, one angle is 135°. Find the opposite angle.",
+      "as": "এটা চক্ৰীয় চতুৰ্ভুজৰ এটা কোণ ১৩৫°। বিপৰীত কোণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "135°",
+        "as": "১৩৫°"
+      },
+      {
+        "en": "-45°",
+        "as": "-৪৫°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "315°",
+        "as": "৩১৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Opposite angle = 180° - 135° = 45°.",
+      "as": "বিপৰীত কোণ = ৪৫°।"
+    }
+  },
+  {
+    "id": "num-geometry-077",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 9 cm, DE = 12 cm and BC = 6 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ৯ ছেমি, DE = ১২ ছেমি আৰু BC = ৬ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "7 cm",
+        "as": "৭ cm"
+      },
+      {
+        "en": "18 cm",
+        "as": "১৮ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "EF = 6×12/9 = 8 cm.",
+      "as": "EF = ৮ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-078",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 10 cm, DE = 15 cm and BC = 8 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ১০ ছেমি, DE = ১৫ ছেমি আৰু BC = ৮ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "23 cm",
+        "as": "২৩ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "EF = 8×15/10 = 12 cm.",
+      "as": "EF = ১২ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-079",
+    "leaf": "geometry",
+    "q": {
+      "en": "Triangles ABC and DEF are similar, with AB = 12 cm, DE = 18 cm and BC = 10 cm. Find EF.",
+      "as": "ABC আৰু DEF ত্ৰিভুজ সদৃশ, AB = ১২ ছেমি, DE = ১৮ ছেমি আৰু BC = ১০ ছেমি। EF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "28 cm",
+        "as": "২৮ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "EF = 10×18/12 = 15 cm.",
+      "as": "EF = ১৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-080",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 6 cm and 8 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ ৬ ছেমি আৰু ৮ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Hypotenuse = √(6²+8²) = 10 cm.",
+      "as": "কৰ্ণ = ১০ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-081",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 9 cm and 12 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ ৯ ছেমি আৰু ১২ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      },
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "21 cm",
+        "as": "২১ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hypotenuse = √(9²+12²) = 15 cm.",
+      "as": "কৰ্ণ = ১৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-082",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 12 cm and 16 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ ১২ ছেমি আৰু ১৬ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21 cm",
+        "as": "২১ cm"
+      },
+      {
+        "en": "19 cm",
+        "as": "১৯ cm"
+      },
+      {
+        "en": "28 cm",
+        "as": "২৮ cm"
+      },
+      {
+        "en": "20 cm",
+        "as": "২০ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Hypotenuse = √(12²+16²) = 20 cm.",
+      "as": "কৰ্ণ = ২০ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-083",
+    "leaf": "geometry",
+    "q": {
+      "en": "In a right-angled triangle, the legs are 15 cm and 20 cm. Find the hypotenuse.",
+      "as": "এটা সমকোণী ত্ৰিভুজৰ ভুজ ১৫ ছেমি আৰু ২০ ছেমি। কৰ্ণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      },
+      {
+        "en": "26 cm",
+        "as": "২৬ cm"
+      },
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "35 cm",
+        "as": "৩৫ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hypotenuse = √(15²+20²) = 25 cm.",
+      "as": "কৰ্ণ = ২৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-084",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 7 sides.",
+      "as": "৭ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900°",
+        "as": "৯০০°"
+      },
+      {
+        "en": "128°",
+        "as": "১২৮°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "1260°",
+        "as": "১২৬০°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A polygon with 7 sides has interior angles adding up to (n−2)×180° = (7−2) × 180° = 5 × 180° = 900°.",
+      "as": "৭ বাহুযুক্ত বহুভুজৰ অন্তঃকোণবোৰৰ যোগফল (n−2)×180° = (৭−2) × 180° = ৫ × 180° = ৯০০°।"
+    }
+  },
+  {
+    "id": "num-geometry-085",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 9 sides.",
+      "as": "৯ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "140°",
+        "as": "১৪০°"
+      },
+      {
+        "en": "1260°",
+        "as": "১২৬০°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "1620°",
+        "as": "১৬২০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A polygon with 9 sides has interior angles adding up to (n−2)×180° = (9−2) × 180° = 7 × 180° = 1,260°.",
+      "as": "৯ বাহুযুক্ত বহুভুজৰ অন্তঃকোণবোৰৰ যোগফল (n−2)×180° = (৯−2) × 180° = ৭ × 180° = ১,২৬০°।"
+    }
+  },
+  {
+    "id": "num-geometry-086",
+    "leaf": "geometry",
+    "q": {
+      "en": "Find the sum of the interior angles of a regular polygon with 15 sides.",
+      "as": "১৫ বাহু থকা সুষম বহুভুজৰ অন্তঃকোণৰ যোগফল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "156°",
+        "as": "১৫৬°"
+      },
+      {
+        "en": "360°",
+        "as": "৩৬০°"
+      },
+      {
+        "en": "2340°",
+        "as": "২৩৪০°"
+      },
+      {
+        "en": "2700°",
+        "as": "২৭০০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A polygon with 15 sides has interior angles adding up to (n−2)×180° = (15−2) × 180° = 13 × 180° = 2,340°.",
+      "as": "১৫ বাহুযুক্ত বহুভুজৰ অন্তঃকোণবোৰৰ যোগফল (n−2)×180° = (১৫−2) × 180° = ১৩ × 180° = ২,৩৪০°।"
+    }
+  },
+  {
+    "id": "num-geometry-087",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 12 cm, AC = 18 cm and BD = 8 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ১২ ছেমি, AC = ১৮ ছেমি আৰু BD = ৮ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "DC = 8×18/12 = 12 cm.",
+      "as": "DC = ১২ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-088",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 15 cm, AC = 20 cm and BD = 9 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ১৫ ছেমি, AC = ২০ ছেমি আৰু BD = ৯ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      },
+      {
+        "en": "11 cm",
+        "as": "১১ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "DC = 9×20/15 = 12 cm.",
+      "as": "DC = ১২ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-089",
+    "leaf": "geometry",
+    "q": {
+      "en": "In triangle ABC, AD bisects angle A. If AB = 14 cm, AC = 21 cm and BD = 6 cm, find DC.",
+      "as": "ত্ৰিভুজ ABC ত AD এ A কোণক দ্বিখণ্ডিত কৰে। AB = ১৪ ছেমি, AC = ২১ ছেমি আৰু BD = ৬ ছেমি হ'লে DC নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "9 cm",
+        "as": "৯ cm"
+      },
+      {
+        "en": "8 cm",
+        "as": "৮ cm"
+      },
+      {
+        "en": "6 cm",
+        "as": "৬ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "DC = 6×21/14 = 9 cm.",
+      "as": "DC = ৯ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-090",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 13 cm is at a distance of 12 cm from the centre. Find the length of the chord.",
+      "as": "১৩ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ১২ ছেমি দূৰত। জ্যাৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10 cm",
+        "as": "১০ cm"
+      },
+      {
+        "en": "5 cm",
+        "as": "৫ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Chord = 2√(13²-12²) = 10 cm.",
+      "as": "জ্যা = ১০ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-091",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 15 cm is at a distance of 9 cm from the centre. Find the length of the chord.",
+      "as": "১৫ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ৯ ছেমি দূৰত। জ্যাৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "26 cm",
+        "as": "২৬ cm"
+      },
+      {
+        "en": "22 cm",
+        "as": "২২ cm"
+      },
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Chord = 2√(15²-9²) = 24 cm.",
+      "as": "জ্যা = ২৪ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-092",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 20 cm is at a distance of 12 cm from the centre. Find the length of the chord.",
+      "as": "২০ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ১২ ছেমি দূৰত। জ্যাৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 cm",
+        "as": "১৬ cm"
+      },
+      {
+        "en": "32 cm",
+        "as": "৩২ cm"
+      },
+      {
+        "en": "34 cm",
+        "as": "৩৪ cm"
+      },
+      {
+        "en": "30 cm",
+        "as": "৩০ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Chord = 2√(20²-12²) = 32 cm.",
+      "as": "জ্যা = ৩২ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-093",
+    "leaf": "geometry",
+    "q": {
+      "en": "A chord of a circle of radius 26 cm is at a distance of 10 cm from the centre. Find the length of the chord.",
+      "as": "২৬ ছেমি ব্যাসাৰ্ধৰ বৃত্তৰ এডাল জ্যা কেন্দ্ৰৰ পৰা ১০ ছেমি দূৰত। জ্যাৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 cm",
+        "as": "২৪ cm"
+      },
+      {
+        "en": "50 cm",
+        "as": "৫০ cm"
+      },
+      {
+        "en": "48 cm",
+        "as": "৪৮ cm"
+      },
+      {
+        "en": "36 cm",
+        "as": "৩৬ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Chord = 2√(26²-10²) = 48 cm.",
+      "as": "জ্যা = ৪৮ ছেমি।"
+    }
+  },
+  {
+    "id": "num-geometry-094",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 1 : 2. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ১ : ২। কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1:2",
+        "as": "১:২"
+      },
+      {
+        "en": "4:1",
+        "as": "৪:১"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      },
+      {
+        "en": "1:4",
+        "as": "১:৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area ratio = 1²:2² = 1:4.",
+      "as": "কালিৰ অনুপাত = 1:4।"
+    }
+  },
+  {
+    "id": "num-geometry-095",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 2 : 5. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ২ : ৫। কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4:25",
+        "as": "৪:২৫"
+      },
+      {
+        "en": "2:5",
+        "as": "২:৫"
+      },
+      {
+        "en": "25:4",
+        "as": "২৫:৪"
+      },
+      {
+        "en": "7:5",
+        "as": "৭:৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area ratio = 2²:5² = 4:25.",
+      "as": "কালিৰ অনুপাত = 4:25।"
+    }
+  },
+  {
+    "id": "num-geometry-096",
+    "leaf": "geometry",
+    "q": {
+      "en": "The sides of two similar triangles are in the ratio 3 : 5. Find the ratio of their areas.",
+      "as": "দুটা সদৃশ ত্ৰিভুজৰ বাহুৰ অনুপাত ৩ : ৫। কালিৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9:25",
+        "as": "৯:২৫"
+      },
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "25:9",
+        "as": "২৫:৯"
+      },
+      {
+        "en": "8:5",
+        "as": "৮:৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area ratio = 3²:5² = 9:25.",
+      "as": "কালিৰ অনুপাত = 9:25।"
+    }
+  }
+]

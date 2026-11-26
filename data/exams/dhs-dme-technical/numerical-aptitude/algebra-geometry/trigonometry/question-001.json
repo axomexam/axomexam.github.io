@@ -1,0 +1,2976 @@
+[
+  {
+    "id": "numerical-047",
+    "q": {
+      "en": "The value of sin 30° + cos 60° is",
+      "as": "sin ৩০° + cos ৬০° ৰ মান কিমান"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "sin 30° = 1/2 and cos 60° = 1/2, so the sum is 1.",
+      "as": "sin ৩০° = ১/২ আৰু cos ৬০° = ১/২, সেয়ে যোগফল ১।"
+    }
+  },
+  {
+    "id": "numerical-048",
+    "q": {
+      "en": "If tan θ = 3/4 and θ is acute, then sin θ is",
+      "as": "যদি tan θ = ৩/৪ আৰু θ সূক্ষ্মকোণ, তেন্তে sin θ কিমান"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With tan θ = opposite/adjacent = 3/4, the hypotenuse is √(9 + 16) = 5. So sin θ = 3/5.",
+      "as": "tan θ = বিপৰীত/সংলগ্ন = ৩/৪ ৰে অতিভুজ = √(৯ + ১৬) = ৫। সেয়ে sin θ = ৩/৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-001",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin 30°.",
+      "as": "sin ৩০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin 30° = 1/2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে sin ৩০° = 1/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-002",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos 60°.",
+      "as": "cos ৬০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cos 60° = 1/2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে cos ৬০° = 1/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-003",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of tan 45°.",
+      "as": "tan ৪৫° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan 45° = 1 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে tan ৪৫° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-004",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin 45°.",
+      "as": "sin ৪৫° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1/√2",
+        "as": "১/√২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "sin 45° = 1/√2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে sin ৪৫° = 1/√2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-005",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos 30°.",
+      "as": "cos ৩০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos 30° = √3/2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে cos ৩০° = √3/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-006",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of tan 60°.",
+      "as": "tan ৬০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "√3",
+        "as": "√৩"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 60° = √3 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে tan ৬০° = √3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-007",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin 60°.",
+      "as": "sin ৬০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "sin 60° = √3/2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে sin ৬০° = √3/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-008",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos 45°.",
+      "as": "cos ৪৫° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1/√2",
+        "as": "১/√২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos 45° = 1/√2 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে cos ৪৫° = 1/√2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-009",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of tan 30°.",
+      "as": "tan ৩০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan 30° = 1/√3 from the standard trigonometric table.",
+      "as": "মানক ত্ৰিকোণমিতিক তালিকামতে tan ৩০° = 1/√3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-010",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 3/5, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৩/৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "√(16)/5",
+        "as": "√(১৬)/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "cos²θ = 1 - sin²θ = 1 - (3/5)², so cos θ = √(5²-3²)/5 = √16/5.",
+      "as": "cos²θ = 1 - sin²θ, সেয়ে cos θ = √১৬/৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-011",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 5/13, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৫/১৩, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "√(144)/13",
+        "as": "√(১৪৪)/১৩"
+      },
+      {
+        "en": "5/13",
+        "as": "৫/১৩"
+      },
+      {
+        "en": "13/5",
+        "as": "১৩/৫"
+      },
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cos²θ = 1 - sin²θ = 1 - (5/13)², so cos θ = √(13²-5²)/13 = √144/13.",
+      "as": "cos²θ = 1 - sin²θ, সেয়ে cos θ = √১৪৪/১৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-012",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 8/17, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৮/১৭, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "√(225)/17",
+        "as": "√(২২৫)/১৭"
+      },
+      {
+        "en": "8/17",
+        "as": "৮/১৭"
+      },
+      {
+        "en": "17/8",
+        "as": "১৭/৮"
+      },
+      {
+        "en": "1/17",
+        "as": "১/১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cos²θ = 1 - sin²θ = 1 - (8/17)², so cos θ = √(17²-8²)/17 = √225/17.",
+      "as": "cos²θ = 1 - sin²θ, সেয়ে cos θ = √২২৫/১৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-013",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 7/25, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৭/২৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "7/25",
+        "as": "৭/২৫"
+      },
+      {
+        "en": "√(576)/25",
+        "as": "√(৫৭৬)/২৫"
+      },
+      {
+        "en": "25/7",
+        "as": "২৫/৭"
+      },
+      {
+        "en": "1/25",
+        "as": "১/২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos²θ = 1 - sin²θ = 1 - (7/25)², so cos θ = √(25²-7²)/25 = √576/25.",
+      "as": "cos²θ = 1 - sin²θ, সেয়ে cos θ = √৫৭৬/২৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-014",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 9/41, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৯/৪১, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "9/41",
+        "as": "৯/৪১"
+      },
+      {
+        "en": "41/9",
+        "as": "৪১/৯"
+      },
+      {
+        "en": "√(1600)/41",
+        "as": "√(১৬০০)/৪১"
+      },
+      {
+        "en": "1/41",
+        "as": "১/৪১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cos²θ = 1 - sin²θ = 1 - (9/41)², so cos θ = √(41²-9²)/41 = √1600/41.",
+      "as": "cos²θ = 1 - sin²θ, সেয়ে cos θ = √১৬০০/৪১।"
+    }
+  },
+  {
+    "id": "num-trigonometry-015",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate sec²θ - tan²θ for any acute angle θ.",
+      "as": "যিকোনো সূক্ষ্ম কোণ θ ৰ বাবে sec²θ - tan²θ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using the identity 1 + tan²θ = sec²θ, we get sec²θ - tan²θ = 1.",
+      "as": "1 + tan²θ = sec²θ অভেদমতে sec²θ - tan²θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-016",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate cosec²θ - cot²θ for any acute angle θ.",
+      "as": "যিকোনো সূক্ষ্ম কোণ θ ৰ বাবে cosec²θ - cot²θ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using 1 + cot²θ = cosec²θ, we get cosec²θ - cot²θ = 1.",
+      "as": "1 + cot²θ = cosec²θ অভেদমতে cosec²θ - cot²θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-017",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(70°) - cos(20°).",
+      "as": "sin(৭০°) - cos(২০°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin(90° - θ) = cos θ, so sin(70°) = cos(20°) and the difference is 0.",
+      "as": "sin(90° - θ) = cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-018",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(55°) - cos(35°).",
+      "as": "sin(৫৫°) - cos(৩৫°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "sin(90° - θ) = cos θ, so sin(55°) = cos(35°) and the difference is 0.",
+      "as": "sin(90° - θ) = cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-019",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(48°) - cos(42°).",
+      "as": "sin(৪৮°) - cos(৪২°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "sin(90° - θ) = cos θ, so sin(48°) = cos(42°) and the difference is 0.",
+      "as": "sin(90° - θ) = cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-020",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(35°) - cos(55°).",
+      "as": "sin(৩৫°) - cos(৫৫°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin(90° - θ) = cos θ, so sin(35°) = cos(55°) and the difference is 0.",
+      "as": "sin(90° - θ) = cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-021",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(22°) - cos(68°).",
+      "as": "sin(২২°) - cos(৬৮°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "sin(90° - θ) = cos θ, so sin(22°) = cos(68°) and the difference is 0.",
+      "as": "sin(90° - θ) = cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-022",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 3/5 and cos θ = √(16)/5, find tan θ.",
+      "as": "যদি sin θ = ৩/৫ আৰু cos θ = √(১৬)/৫, তেন্তে tan θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      },
+      {
+        "en": "√16/5",
+        "as": "√১৬/৫"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "3/√16",
+        "as": "৩/√১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = sin θ/cos θ = (3/5) ÷ (√16/5) = 3/√16.",
+      "as": "tan θ = sin θ/cos θ = ৩/√১৬।"
+    }
+  },
+  {
+    "id": "num-trigonometry-023",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 5/13 and cos θ = √(144)/13, find tan θ.",
+      "as": "যদি sin θ = ৫/১৩ আৰু cos θ = √(১৪৪)/১৩, তেন্তে tan θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/√144",
+        "as": "৫/√১৪৪"
+      },
+      {
+        "en": "13/5",
+        "as": "১৩/৫"
+      },
+      {
+        "en": "√144/13",
+        "as": "√১৪৪/১৩"
+      },
+      {
+        "en": "5/13",
+        "as": "৫/১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan θ = sin θ/cos θ = (5/13) ÷ (√144/13) = 5/√144.",
+      "as": "tan θ = sin θ/cos θ = ৫/√১৪৪।"
+    }
+  },
+  {
+    "id": "num-trigonometry-024",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 8/17 and cos θ = √(225)/17, find tan θ.",
+      "as": "যদি sin θ = ৮/১৭ আৰু cos θ = √(২২৫)/১৭, তেন্তে tan θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8/√225",
+        "as": "৮/√২২৫"
+      },
+      {
+        "en": "17/8",
+        "as": "১৭/৮"
+      },
+      {
+        "en": "√225/17",
+        "as": "√২২৫/১৭"
+      },
+      {
+        "en": "8/17",
+        "as": "৮/১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan θ = sin θ/cos θ = (8/17) ÷ (√225/17) = 8/√225.",
+      "as": "tan θ = sin θ/cos θ = ৮/√২২৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-025",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: sin 30° + cos 60°.",
+      "as": "মান নিৰ্ণয় কৰা: sin 30° + cos 60°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using standard values, sin 30° + cos 60° = 1.",
+      "as": "মানক মান ব্যৱহাৰ কৰি sin 30° + cos 60° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-026",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: tan 45° + sin 30°.",
+      "as": "মান নিৰ্ণয় কৰা: tan 45° + sin 30°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using standard values, tan 45° + sin 30° = 3/2.",
+      "as": "মানক মান ব্যৱহাৰ কৰি tan 45° + sin 30° = 3/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-027",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: cos 60° + sin 30°.",
+      "as": "মান নিৰ্ণয় কৰা: cos 60° + sin 30°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using standard values, cos 60° + sin 30° = 1.",
+      "as": "মানক মান ব্যৱহাৰ কৰি cos 60° + sin 30° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-028",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: tan 60° × tan 30°.",
+      "as": "মান নিৰ্ণয় কৰা: tan 60° × tan 30°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using standard values, tan 60° × tan 30° = 1.",
+      "as": "মানক মান ব্যৱহাৰ কৰি tan 60° × tan 30° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-029",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: sin 45° × cos 45°.",
+      "as": "মান নিৰ্ণয় কৰা: sin 45° × cos 45°।"
+    },
+    "options": [
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using standard values, sin 45° × cos 45° = 1/2.",
+      "as": "মানক মান ব্যৱহাৰ কৰি sin 45° × cos 45° = 1/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-030",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: sec 60°.",
+      "as": "মান নিৰ্ণয় কৰা: sec 60°।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using standard values, sec 60° = 2.",
+      "as": "মানক মান ব্যৱহাৰ কৰি sec 60° = 2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-031",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: cosec 30°.",
+      "as": "মান নিৰ্ণয় কৰা: cosec 30°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using standard values, cosec 30° = 2.",
+      "as": "মানক মান ব্যৱহাৰ কৰি cosec 30° = 2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-032",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: cot 45°.",
+      "as": "মান নিৰ্ণয় কৰা: cot 45°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using standard values, cot 45° = 1.",
+      "as": "মানক মান ব্যৱহাৰ কৰি cot 45° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-033",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 3/4, find sin θ (θ acute).",
+      "as": "যদি tan θ = ৩/৪, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan θ = 3/4 means opposite = 3, adjacent = 4, so hypotenuse = √(3²+4²) = 5. Hence sin θ = 3/5.",
+      "as": "tan θ = ৩/৪ ৰ পৰা কৰ্ণ = ৫, সেয়ে sin θ = ৩/৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-034",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 3/4, find cos θ (θ acute).",
+      "as": "যদি tan θ = ৩/৪, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      },
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With opposite 3 and adjacent 4, hypotenuse = 5, so cos θ = 4/5.",
+      "as": "কৰ্ণ = ৫, সেয়ে cos θ = ৪/৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-035",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 5/12, find sin θ (θ acute).",
+      "as": "যদি tan θ = ৫/১২, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "5/13",
+        "as": "৫/১৩"
+      },
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "13/5",
+        "as": "১৩/৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan θ = 5/12 means opposite = 5, adjacent = 12, so hypotenuse = √(5²+12²) = 13. Hence sin θ = 5/13.",
+      "as": "tan θ = ৫/১২ ৰ পৰা কৰ্ণ = ১৩, সেয়ে sin θ = ৫/১৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-036",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 5/12, find cos θ (θ acute).",
+      "as": "যদি tan θ = ৫/১২, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "5/13",
+        "as": "৫/১৩"
+      },
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "13/12",
+        "as": "১৩/১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With opposite 5 and adjacent 12, hypotenuse = 13, so cos θ = 12/13.",
+      "as": "কৰ্ণ = ১৩, সেয়ে cos θ = ১২/১৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-037",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 8/15, find sin θ (θ acute).",
+      "as": "যদি tan θ = ৮/১৫, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "15/17",
+        "as": "১৫/১৭"
+      },
+      {
+        "en": "8/17",
+        "as": "৮/১৭"
+      },
+      {
+        "en": "8/15",
+        "as": "৮/১৫"
+      },
+      {
+        "en": "17/8",
+        "as": "১৭/৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan θ = 8/15 means opposite = 8, adjacent = 15, so hypotenuse = √(8²+15²) = 17. Hence sin θ = 8/17.",
+      "as": "tan θ = ৮/১৫ ৰ পৰা কৰ্ণ = ১৭, সেয়ে sin θ = ৮/১৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-038",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 8/15, find cos θ (θ acute).",
+      "as": "যদি tan θ = ৮/১৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "8/17",
+        "as": "৮/১৭"
+      },
+      {
+        "en": "8/15",
+        "as": "৮/১৫"
+      },
+      {
+        "en": "15/17",
+        "as": "১৫/১৭"
+      },
+      {
+        "en": "17/15",
+        "as": "১৭/১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With opposite 8 and adjacent 15, hypotenuse = 17, so cos θ = 15/17.",
+      "as": "কৰ্ণ = ১৭, সেয়ে cos θ = ১৫/১৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-039",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 7/24, find sin θ (θ acute).",
+      "as": "যদি tan θ = ৭/২৪, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "24/25",
+        "as": "২৪/২৫"
+      },
+      {
+        "en": "7/24",
+        "as": "৭/২৪"
+      },
+      {
+        "en": "25/7",
+        "as": "২৫/৭"
+      },
+      {
+        "en": "7/25",
+        "as": "৭/২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = 7/24 means opposite = 7, adjacent = 24, so hypotenuse = √(7²+24²) = 25. Hence sin θ = 7/25.",
+      "as": "tan θ = ৭/২৪ ৰ পৰা কৰ্ণ = ২৫, সেয়ে sin θ = ৭/২৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-040",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 7/24, find cos θ (θ acute).",
+      "as": "যদি tan θ = ৭/২৪, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "7/25",
+        "as": "৭/২৫"
+      },
+      {
+        "en": "7/24",
+        "as": "৭/২৪"
+      },
+      {
+        "en": "24/25",
+        "as": "২৪/২৫"
+      },
+      {
+        "en": "25/24",
+        "as": "২৫/২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "With opposite 7 and adjacent 24, hypotenuse = 25, so cos θ = 24/25.",
+      "as": "কৰ্ণ = ২৫, সেয়ে cos θ = ২৪/২৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-041",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if sin θ = 1/2.",
+      "as": "sin θ = 1/2 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From the standard table, sin 30° = 1/2, so θ = 30°.",
+      "as": "মানক তালিকামতে sin ৩০° = 1/2, সেয়ে θ = ৩০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-042",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if cos θ = √3/2.",
+      "as": "cos θ = √3/2 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From the standard table, cos 30° = √3/2, so θ = 30°.",
+      "as": "মানক তালিকামতে cos ৩০° = √3/2, সেয়ে θ = ৩০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-043",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if tan θ = 1.",
+      "as": "tan θ = 1 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From the standard table, tan 45° = 1, so θ = 45°.",
+      "as": "মানক তালিকামতে tan ৪৫° = 1, সেয়ে θ = ৪৫°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-044",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if sin θ = √3/2.",
+      "as": "sin θ = √3/2 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75°",
+        "as": "৭৫°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From the standard table, sin 60° = √3/2, so θ = 60°.",
+      "as": "মানক তালিকামতে sin ৬০° = √3/2, সেয়ে θ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-045",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if cos θ = 1/2.",
+      "as": "cos θ = 1/2 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75°",
+        "as": "৭৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From the standard table, cos 60° = 1/2, so θ = 60°.",
+      "as": "মানক তালিকামতে cos ৬০° = 1/2, সেয়ে θ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-046",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate 2 sin 30° cos 30°.",
+      "as": "2 sin ৩০° cos ৩০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "√3",
+        "as": "√৩"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 sin θ cos θ = sin 2θ, so 2 sin 30° cos 30° = sin 60° = √3/2.",
+      "as": "2 sin θ cos θ = sin 2θ, সেয়ে মান = √3/2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-047",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate 2 sin 45° cos 45°.",
+      "as": "2 sin ৪৫° cos ৪৫° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "√3",
+        "as": "√৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2 sin θ cos θ = sin 2θ, so 2 sin 45° cos 45° = sin 90° = 1.",
+      "as": "2 sin θ cos θ = sin 2θ, সেয়ে মান = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-048",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 3/5, find cosec θ.",
+      "as": "যদি sin θ = 3/5, তেন্তে cosec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/3",
+        "as": "৫/৩"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "1/3/5",
+        "as": "১/৩/৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The reciprocal identity gives the answer 5/3.",
+      "as": "পাৰস্পৰিক অভেদমতে উত্তৰ 5/3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-049",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If cos θ = 4/5, find sec θ.",
+      "as": "যদি cos θ = 4/5, তেন্তে sec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      },
+      {
+        "en": "1/4/5",
+        "as": "১/৪/৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The reciprocal identity gives the answer 5/4.",
+      "as": "পাৰস্পৰিক অভেদমতে উত্তৰ 5/4।"
+    }
+  },
+  {
+    "id": "num-trigonometry-050",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 3/4, find cot θ.",
+      "as": "যদি tan θ = 3/4, তেন্তে cot θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/3/4",
+        "as": "১/৩/৪"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The reciprocal identity gives the answer 4/3.",
+      "as": "পাৰস্পৰিক অভেদমতে উত্তৰ 4/3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-051",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 1, find sin θ + cos θ (θ acute).",
+      "as": "যদি tan θ = 1, তেন্তে sin θ + cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/√2",
+        "as": "১/√২"
+      },
+      {
+        "en": "√2",
+        "as": "√২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = 1 ⇒ θ = 45°, so sin 45° + cos 45° = 1/√2 + 1/√2 = √2.",
+      "as": "tan θ = 1 ⇒ θ = 45°, সেয়ে sin 45° + cos 45° = √2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-052",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin 90°.",
+      "as": "sin ৯০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "sin 90° = 1.",
+      "as": "sin ৯০° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-053",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos 0°.",
+      "as": "cos ০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos 0° = 1.",
+      "as": "cos ০° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-054",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of tan 0°.",
+      "as": "tan ০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 0° = 0.",
+      "as": "tan ০° = 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-055",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin 0°.",
+      "as": "sin ০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "sin 0° = 0.",
+      "as": "sin ০° = 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-056",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos 90°.",
+      "as": "cos ৯০° ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "√3/2",
+        "as": "√৩/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos 90° = 0.",
+      "as": "cos ৯০° = 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-057",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 4/5, find cos θ (θ acute).",
+      "as": "যদি sin θ = ৪/৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      },
+      {
+        "en": "√(9)/5",
+        "as": "√(৯)/৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cos θ = √(5²-4²)/5 = √9/5.",
+      "as": "cos θ = √৯/৫।"
+    }
+  },
+  {
+    "id": "num-trigonometry-058",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 12/13, find cos θ (θ acute).",
+      "as": "যদি sin θ = ১২/১৩, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "12/13",
+        "as": "১২/১৩"
+      },
+      {
+        "en": "13/12",
+        "as": "১৩/১২"
+      },
+      {
+        "en": "1/13",
+        "as": "১/১৩"
+      },
+      {
+        "en": "√(25)/13",
+        "as": "√(২৫)/১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "cos θ = √(13²-12²)/13 = √25/13.",
+      "as": "cos θ = √২৫/১৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-059",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 15/17, find cos θ (θ acute).",
+      "as": "যদি sin θ = ১৫/১৭, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "√(64)/17",
+        "as": "√(৬৪)/১৭"
+      },
+      {
+        "en": "15/17",
+        "as": "১৫/১৭"
+      },
+      {
+        "en": "17/15",
+        "as": "১৭/১৫"
+      },
+      {
+        "en": "1/17",
+        "as": "১/১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cos θ = √(17²-15²)/17 = √64/17.",
+      "as": "cos θ = √৬৪/১৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-060",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 20/29, find cos θ (θ acute).",
+      "as": "যদি sin θ = ২০/২৯, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "√(441)/29",
+        "as": "√(৪৪১)/২৯"
+      },
+      {
+        "en": "20/29",
+        "as": "২০/২৯"
+      },
+      {
+        "en": "29/20",
+        "as": "২৯/২০"
+      },
+      {
+        "en": "1/29",
+        "as": "১/২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cos θ = √(29²-20²)/29 = √441/29.",
+      "as": "cos θ = √৪৪১/২৯।"
+    }
+  },
+  {
+    "id": "num-trigonometry-061",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(75°) - cos(15°).",
+      "as": "sin(৭৫°) - cos(১৫°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sin(90°-θ)=cos θ, so the difference is 0.",
+      "as": "sin(90°-θ)=cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-062",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(65°) - cos(25°).",
+      "as": "sin(৬৫°) - cos(২৫°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "sin(90°-θ)=cos θ, so the difference is 0.",
+      "as": "sin(90°-θ)=cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-063",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(42°) - cos(48°).",
+      "as": "sin(৪২°) - cos(৪৮°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "sin(90°-θ)=cos θ, so the difference is 0.",
+      "as": "sin(90°-θ)=cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-064",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of sin(28°) - cos(62°).",
+      "as": "sin(২৮°) - cos(৬২°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "sin(90°-θ)=cos θ, so the difference is 0.",
+      "as": "sin(90°-θ)=cos θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-065",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 9/40, find sin θ (θ acute).",
+      "as": "যদি tan θ = ৯/৪০, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "40/41",
+        "as": "৪০/৪১"
+      },
+      {
+        "en": "9/41",
+        "as": "৯/৪১"
+      },
+      {
+        "en": "9/40",
+        "as": "৯/৪০"
+      },
+      {
+        "en": "41/9",
+        "as": "৪১/৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan θ = 9/40 gives the opposite side 9 and the adjacent side 40. Hypotenuse = √(9² + 40²) = √1681 = 41, so sin θ = 9/41.",
+      "as": "tan θ = ৯/৪০ ৰপৰা বিপৰীত বাহু ৯ আৰু সংলগ্ন বাহু ৪০। কৰ্ণ = √(৯² + ৪০²) = ৪১, সেয়ে sin θ = ৯/৪১।"
+    }
+  },
+  {
+    "id": "num-trigonometry-066",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 9/40, find cos θ (θ acute).",
+      "as": "যদি tan θ = ৯/৪০, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "40/41",
+        "as": "৪০/৪১"
+      },
+      {
+        "en": "9/41",
+        "as": "৯/৪১"
+      },
+      {
+        "en": "9/40",
+        "as": "৯/৪০"
+      },
+      {
+        "en": "41/40",
+        "as": "৪১/৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan θ = 9/40 gives the opposite side 9 and the adjacent side 40. Hypotenuse = √(9² + 40²) = √1681 = 41, so cos θ = 40/41.",
+      "as": "tan θ = ৯/৪০ ৰপৰা বিপৰীত বাহু ৯ আৰু সংলগ্ন বাহু ৪০। কৰ্ণ = √(৯² + ৪০²) = ৪১, সেয়ে cos θ = ৯/৪১।"
+    }
+  },
+  {
+    "id": "num-trigonometry-067",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 11/60, find sin θ (θ acute).",
+      "as": "যদি tan θ = ১১/৬০, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "60/61",
+        "as": "৬০/৬১"
+      },
+      {
+        "en": "11/60",
+        "as": "১১/৬০"
+      },
+      {
+        "en": "61/11",
+        "as": "৬১/১১"
+      },
+      {
+        "en": "11/61",
+        "as": "১১/৬১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = 11/60 gives the opposite side 11 and the adjacent side 60. Hypotenuse = √(11² + 60²) = √3721 = 61, so sin θ = 11/61.",
+      "as": "tan θ = ১১/৬০ ৰপৰা বিপৰীত বাহু ১১ আৰু সংলগ্ন বাহু ৬০। কৰ্ণ = √(১১² + ৬০²) = ৬১, সেয়ে sin θ = ১১/৬১।"
+    }
+  },
+  {
+    "id": "num-trigonometry-068",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 11/60, find cos θ (θ acute).",
+      "as": "যদি tan θ = ১১/৬০, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "11/61",
+        "as": "১১/৬১"
+      },
+      {
+        "en": "60/61",
+        "as": "৬০/৬১"
+      },
+      {
+        "en": "11/60",
+        "as": "১১/৬০"
+      },
+      {
+        "en": "61/60",
+        "as": "৬১/৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan θ = 11/60 gives the opposite side 11 and the adjacent side 60. Hypotenuse = √(11² + 60²) = √3721 = 61, so cos θ = 60/61.",
+      "as": "tan θ = ১১/৬০ ৰপৰা বিপৰীত বাহু ১১ আৰু সংলগ্ন বাহু ৬০। কৰ্ণ = √(১১² + ৬০²) = ৬১, সেয়ে cos θ = ১১/৬১।"
+    }
+  },
+  {
+    "id": "num-trigonometry-069",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 12/35, find sin θ (θ acute).",
+      "as": "যদি tan θ = ১২/৩৫, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "35/37",
+        "as": "৩৫/৩৭"
+      },
+      {
+        "en": "12/35",
+        "as": "১২/৩৫"
+      },
+      {
+        "en": "12/37",
+        "as": "১২/৩৭"
+      },
+      {
+        "en": "37/12",
+        "as": "৩৭/১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan θ = 12/35 gives the opposite side 12 and the adjacent side 35. Hypotenuse = √(12² + 35²) = √1369 = 37, so sin θ = 12/37.",
+      "as": "tan θ = ১২/৩৫ ৰপৰা বিপৰীত বাহু ১২ আৰু সংলগ্ন বাহু ৩৫। কৰ্ণ = √(১২² + ৩৫²) = ৩৭, সেয়ে sin θ = ১২/৩৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-070",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 12/35, find cos θ (θ acute).",
+      "as": "যদি tan θ = ১২/৩৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "12/37",
+        "as": "১২/৩৭"
+      },
+      {
+        "en": "12/35",
+        "as": "১২/৩৫"
+      },
+      {
+        "en": "37/35",
+        "as": "৩৭/৩৫"
+      },
+      {
+        "en": "35/37",
+        "as": "৩৫/৩৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = 12/35 gives the opposite side 12 and the adjacent side 35. Hypotenuse = √(12² + 35²) = √1369 = 37, so cos θ = 35/37.",
+      "as": "tan θ = ১২/৩৫ ৰপৰা বিপৰীত বাহু ১২ আৰু সংলগ্ন বাহু ৩৫। কৰ্ণ = √(১২² + ৩৫²) = ৩৭, সেয়ে cos θ = ১২/৩৭।"
+    }
+  },
+  {
+    "id": "num-trigonometry-071",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if tan θ = √3.",
+      "as": "tan θ = √3 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "75°",
+        "as": "৭৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "θ = 60°.",
+      "as": "θ = ৬০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-072",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 5/13, find cosec θ.",
+      "as": "যদি sin θ = 5/13, তেন্তে cosec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13/5",
+        "as": "১৩/৫"
+      },
+      {
+        "en": "5/13",
+        "as": "৫/১৩"
+      },
+      {
+        "en": "1/5/13",
+        "as": "১/৫/১৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cosec θ is the reciprocal of sin θ, so cosec θ = 13/5 — the fraction is simply turned over.",
+      "as": "cosec θ হৈছে sin θ ৰ প্ৰতিক্ৰম, সেয়ে cosec θ = ১৩/৫ — ভগ্নাংশটো ওলোটাই দিয়া হয়।"
+    }
+  },
+  {
+    "id": "num-trigonometry-073",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If cos θ = 8/17, find sec θ.",
+      "as": "যদি cos θ = 8/17, তেন্তে sec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8/17",
+        "as": "৮/১৭"
+      },
+      {
+        "en": "17/8",
+        "as": "১৭/৮"
+      },
+      {
+        "en": "1/8/17",
+        "as": "১/৮/১৭"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sec θ is the reciprocal of cos θ, so sec θ = 17/8 — the fraction is simply turned over.",
+      "as": "sec θ হৈছে cos θ ৰ প্ৰতিক্ৰম, সেয়ে sec θ = ১৭/৮ — ভগ্নাংশটো ওলোটাই দিয়া হয়।"
+    }
+  },
+  {
+    "id": "num-trigonometry-074",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 5/12, find cot θ.",
+      "as": "যদি tan θ = 5/12, তেন্তে cot θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/12",
+        "as": "৫/১২"
+      },
+      {
+        "en": "1/5/12",
+        "as": "১/৫/১২"
+      },
+      {
+        "en": "12/5",
+        "as": "১২/৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cot θ is the reciprocal of tan θ, so cot θ = 12/5 — the fraction is simply turned over.",
+      "as": "cot θ হৈছে tan θ ৰ প্ৰতিক্ৰম, সেয়ে cot θ = ১২/৫ — ভগ্নাংশটো ওলোটাই দিয়া হয়।"
+    }
+  },
+  {
+    "id": "num-trigonometry-075",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Simplify: sin²θ + cos²θ.",
+      "as": "সৰল কৰা: sin²θ + cos²θ।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "sin θ",
+        "as": "sin θ"
+      },
+      {
+        "en": "cos θ",
+        "as": "cos θ"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using standard trigonometric identities, sin²θ + cos²θ = 1.",
+      "as": "মানক ত্ৰিকোণমিতিক অভেদমতে sin²θ + cos²θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-076",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Simplify: 1 + tan²θ.",
+      "as": "সৰল কৰা: 1 + tan²θ।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "sec²θ",
+        "as": "sec²θ"
+      },
+      {
+        "en": "sin θ",
+        "as": "sin θ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using standard trigonometric identities, 1 + tan²θ = sec²θ.",
+      "as": "মানক ত্ৰিকোণমিতিক অভেদমতে 1 + tan²θ = sec²θ।"
+    }
+  },
+  {
+    "id": "num-trigonometry-077",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Simplify: tan θ × cot θ.",
+      "as": "সৰল কৰা: tan θ × cot θ।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "sin θ",
+        "as": "sin θ"
+      },
+      {
+        "en": "cos θ",
+        "as": "cos θ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using standard trigonometric identities, tan θ × cot θ = 1.",
+      "as": "মানক ত্ৰিকোণমিতিক অভেদমতে tan θ × cot θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-078",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Simplify: sin(90° - θ) / cos θ.",
+      "as": "সৰল কৰা: sin(90° - θ) / cos θ।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "sin θ",
+        "as": "sin θ"
+      },
+      {
+        "en": "cos θ",
+        "as": "cos θ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using standard trigonometric identities, sin(90° - θ) / cos θ = 1.",
+      "as": "মানক ত্ৰিকোণমিতিক অভেদমতে sin(90° - θ) / cos θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-079",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Simplify: cos(90° - θ) / sin θ.",
+      "as": "সৰল কৰা: cos(90° - θ) / sin θ।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "sin θ",
+        "as": "sin θ"
+      },
+      {
+        "en": "cos θ",
+        "as": "cos θ"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using standard trigonometric identities, cos(90° - θ) / sin θ = 1.",
+      "as": "মানক ত্ৰিকোণমিতিক অভেদমতে cos(90° - θ) / sin θ = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-080",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos(80°) - sin(10°).",
+      "as": "cos(৮০°) - sin(১০°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "cos(90°-θ)=sin θ, so the difference is 0.",
+      "as": "cos(90°-θ)=sin θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-081",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos(60°) - sin(30°).",
+      "as": "cos(৬০°) - sin(৩০°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cos(90°-θ)=sin θ, so the difference is 0.",
+      "as": "cos(90°-θ)=sin θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-082",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos(50°) - sin(40°).",
+      "as": "cos(৫০°) - sin(৪০°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "cos(90°-θ)=sin θ, so the difference is 0.",
+      "as": "cos(90°-θ)=sin θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-083",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find the value of cos(25°) - sin(65°).",
+      "as": "cos(২৫°) - sin(৬৫°) ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "cos(90°-θ)=sin θ, so the difference is 0.",
+      "as": "cos(90°-θ)=sin θ, সেয়ে পাৰ্থক্য 0।"
+    }
+  },
+  {
+    "id": "num-trigonometry-084",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: tan 45° × cot 45°.",
+      "as": "মান নিৰ্ণয় কৰা: tan 45° × cot 45°।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "√3",
+        "as": "√৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 45° × cot 45° = 1.",
+      "as": "tan 45° × cot 45° = 1।"
+    }
+  },
+  {
+    "id": "num-trigonometry-085",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: sec 30°.",
+      "as": "মান নিৰ্ণয় কৰা: sec 30°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "2/√3",
+        "as": "২/√৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "sec 30° = 2/√3.",
+      "as": "sec 30° = 2/√3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-086",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: cosec 45°.",
+      "as": "মান নিৰ্ণয় কৰা: cosec 45°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "√2",
+        "as": "√২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cosec 45° = √2.",
+      "as": "cosec 45° = √2।"
+    }
+  },
+  {
+    "id": "num-trigonometry-087",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Evaluate: cot 60°.",
+      "as": "মান নিৰ্ণয় কৰা: cot 60°।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/√3",
+        "as": "১/√৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "cot 60° = 1/√3.",
+      "as": "cot 60° = 1/√3।"
+    }
+  },
+  {
+    "id": "num-trigonometry-088",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 20/21, find sin θ (θ acute).",
+      "as": "যদি tan θ = ২০/২১, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "21/29",
+        "as": "২১/২৯"
+      },
+      {
+        "en": "20/21",
+        "as": "২০/২১"
+      },
+      {
+        "en": "20/29",
+        "as": "২০/২৯"
+      },
+      {
+        "en": "29/20",
+        "as": "২৯/২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan θ = 20/21 gives the opposite side 20 and the adjacent side 21. Hypotenuse = √(20² + 21²) = √841 = 29, so sin θ = 20/29.",
+      "as": "tan θ = ২০/২১ ৰপৰা বিপৰীত বাহু ২০ আৰু সংলগ্ন বাহু ২১। কৰ্ণ = √(২০² + ২১²) = ২৯, সেয়ে sin θ = ২০/২৯।"
+    }
+  },
+  {
+    "id": "num-trigonometry-089",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 20/21, find cos θ (θ acute).",
+      "as": "যদি tan θ = ২০/২১, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "20/29",
+        "as": "২০/২৯"
+      },
+      {
+        "en": "21/29",
+        "as": "২১/২৯"
+      },
+      {
+        "en": "20/21",
+        "as": "২০/২১"
+      },
+      {
+        "en": "29/21",
+        "as": "২৯/২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan θ = 20/21 gives the opposite side 20 and the adjacent side 21. Hypotenuse = √(20² + 21²) = √841 = 29, so cos θ = 21/29.",
+      "as": "tan θ = ২০/২১ ৰপৰা বিপৰীত বাহু ২০ আৰু সংলগ্ন বাহু ২১। কৰ্ণ = √(২০² + ২১²) = ২৯, সেয়ে cos θ = ২০/২৯।"
+    }
+  },
+  {
+    "id": "num-trigonometry-090",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 28/45, find sin θ (θ acute).",
+      "as": "যদি tan θ = ২৮/৪৫, তেন্তে sin θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "28/53",
+        "as": "২৮/৫৩"
+      },
+      {
+        "en": "45/53",
+        "as": "৪৫/৫৩"
+      },
+      {
+        "en": "28/45",
+        "as": "২৮/৪৫"
+      },
+      {
+        "en": "53/28",
+        "as": "৫৩/২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan θ = 28/45 gives the opposite side 28 and the adjacent side 45. Hypotenuse = √(28² + 45²) = √2809 = 53, so sin θ = 28/53.",
+      "as": "tan θ = ২৮/৪৫ ৰপৰা বিপৰীত বাহু ২৮ আৰু সংলগ্ন বাহু ৪৫। কৰ্ণ = √(২৮² + ৪৫²) = ৫৩, সেয়ে sin θ = ২৮/৫৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-091",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If tan θ = 28/45, find cos θ (θ acute).",
+      "as": "যদি tan θ = ২৮/৪৫, তেন্তে cos θ নিৰ্ণয় কৰা (θ সূক্ষ্ম)।"
+    },
+    "options": [
+      {
+        "en": "28/53",
+        "as": "২৮/৫৩"
+      },
+      {
+        "en": "28/45",
+        "as": "২৮/৪৫"
+      },
+      {
+        "en": "53/45",
+        "as": "৫৩/৪৫"
+      },
+      {
+        "en": "45/53",
+        "as": "৪৫/৫৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan θ = 28/45 gives the opposite side 28 and the adjacent side 45. Hypotenuse = √(28² + 45²) = √2809 = 53, so cos θ = 45/53.",
+      "as": "tan θ = ২৮/৪৫ ৰপৰা বিপৰীত বাহু ২৮ আৰু সংলগ্ন বাহু ৪৫। কৰ্ণ = √(২৮² + ৪৫²) = ৫৩, সেয়ে cos θ = ২৮/৫৩।"
+    }
+  },
+  {
+    "id": "num-trigonometry-092",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "Find θ (0° < θ < 90°) if tan θ = 1/√3.",
+      "as": "tan θ = 1/√3 হ'লে θ (0° < θ < 90°) নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      },
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      },
+      {
+        "en": "15°",
+        "as": "১৫°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "θ = 30°.",
+      "as": "θ = ৩০°।"
+    }
+  },
+  {
+    "id": "num-trigonometry-093",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If sin θ = 7/25, find cosec θ.",
+      "as": "যদি sin θ = 7/25, তেন্তে cosec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/25",
+        "as": "৭/২৫"
+      },
+      {
+        "en": "1/7/25",
+        "as": "১/৭/২৫"
+      },
+      {
+        "en": "25/7",
+        "as": "২৫/৭"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "cosec θ is the reciprocal of sin θ, so cosec θ = 25/7 — the fraction is simply turned over.",
+      "as": "cosec θ হৈছে sin θ ৰ প্ৰতিক্ৰম, সেয়ে cosec θ = ২৫/৭ — ভগ্নাংশটো ওলোটাই দিয়া হয়।"
+    }
+  },
+  {
+    "id": "num-trigonometry-094",
+    "leaf": "trigonometry",
+    "q": {
+      "en": "If cos θ = 15/17, find sec θ.",
+      "as": "যদি cos θ = 15/17, তেন্তে sec θ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15/17",
+        "as": "১৫/১৭"
+      },
+      {
+        "en": "1/15/17",
+        "as": "১/১৫/১৭"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "17/15",
+        "as": "১৭/১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "sec θ is the reciprocal of cos θ, so sec θ = 17/15 — the fraction is simply turned over.",
+      "as": "sec θ হৈছে cos θ ৰ প্ৰতিক্ৰম, সেয়ে sec θ = ১৭/১৫ — ভগ্নাংশটো ওলোটাই দিয়া হয়।"
+    }
+  }
+]

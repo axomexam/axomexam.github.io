@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "data-interpretation-001",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The total units sold in the five days is:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। পাঁচ দিনত বিক্ৰী হোৱা মুঠ একক:"
+    },
+    "options": [
+      {
+        "en": "720",
+        "as": "৭২০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "630",
+        "as": "৬৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "120 + 150 + 180 + 90 + 210 = 750.",
+      "as": "১২০ + ১৫০ + ১৮০ + ৯০ + ২১০ = ৭৫০।"
+    }
+  },
+  {
+    "id": "data-interpretation-002",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The average units sold per day is:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। প্ৰতিদিনে বিক্ৰী হোৱা গড় একক:"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "750 ÷ 5 = 150 units per day.",
+      "as": "৭৫০ ÷ ৫ = ১৫০ একক প্ৰতিদিনে।"
+    }
+  },
+  {
+    "id": "data-interpretation-003",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The difference between the highest and the lowest day's sales is:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। সৰ্বোচ্চ আৰু সৰ্বনিম্ন দিনৰ বিক্ৰীৰ পাৰ্থক্য:"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Highest 210 and lowest 90, so the difference is 120.",
+      "as": "সৰ্বোচ্চ ২১০ আৰু সৰ্বনিম্ন ৯০, গতিকে পাৰ্থক্য ১২০।"
+    }
+  },
+  {
+    "id": "data-interpretation-004",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The highest day's sales as a percentage of the total is:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। মুঠৰ শতাংশ হিচাপে সৰ্বোচ্চ দিনৰ বিক্ৰী:"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "21%",
+        "as": "২১%"
+      },
+      {
+        "en": "28%",
+        "as": "২৮%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(210 ÷ 750) × 100 = 28%.",
+      "as": "(২১০ ÷ ৭৫০) × ১০০ = ২৮%।"
+    }
+  },
+  {
+    "id": "data-interpretation-005",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. The ratio of Wednesday's sales to Monday's sales is:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। বুধবাৰৰ বিক্ৰীৰ সোমবাৰৰ বিক্ৰীৰ সৈতে অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "3 : 1",
+        "as": "৩ : ১"
+      },
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "5 : 4",
+        "as": "৫ : ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "180 : 120 = 3 : 2.",
+      "as": "১৮০ : ১২০ = ৩ : ২।"
+    }
+  },
+  {
+    "id": "data-interpretation-006",
+    "q": {
+      "en": "A shop sold the following units over five days: Mon = 120, Tue = 150, Wed = 180, Thu = 90, Fri = 210. If the sales on Friday had been 250 instead of 210, the new weekly total would be:",
+      "as": "এখন দোকানে পাঁচ দিনত তলত দিয়া একক বিক্ৰী কৰিলে: সোম = ১২০, মঙ্গল = ১৫০, বুধ = ১৮০, বৃহস্পতি = ৯০, শুক্ৰ = ২১০। শুক্ৰবাৰৰ বিক্ৰী ২১০ ৰ সলনি ২৫০ হ'লে নতুন সাপ্তাহিক মুঠ হ'ব:"
+    },
+    "options": [
+      {
+        "en": "790",
+        "as": "৭৯০"
+      },
+      {
+        "en": "750",
+        "as": "৭৫০"
+      },
+      {
+        "en": "810",
+        "as": "৮১০"
+      },
+      {
+        "en": "770",
+        "as": "৭৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "750 + 40 = 790.",
+      "as": "৭৫০ + ৪০ = ৭৯০।"
+    }
+  },
+  {
+    "id": "data-interpretation-007",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. The total marks scored in the five subjects is:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। পাঁচটা বিষয়ত লাভ কৰা মুঠ নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "340",
+        "as": "৩৪০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "330",
+        "as": "৩৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "60 + 75 + 80 + 45 + 90 = 350.",
+      "as": "৬০ + ৭৫ + ৮০ + ৪৫ + ৯০ = ৩৫০।"
+    }
+  },
+  {
+    "id": "data-interpretation-008",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. The average marks per subject is:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। প্ৰতিটো বিষয়ৰ গড় নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "350 ÷ 5 = 70.",
+      "as": "৩৫০ ÷ ৫ = ৭০।"
+    }
+  },
+  {
+    "id": "data-interpretation-009",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. The highest marks exceed the lowest marks by:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। সৰ্বোচ্চ নম্বৰে সৰ্বনিম্ন নম্বৰক চেৰাই যায়:"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "90 − 45 = 45.",
+      "as": "৯০ − ৪৫ = ৪৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-010",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. The marks in the first three subjects as a percentage of the total marks is:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। মুঠ নম্বৰৰ শতাংশ হিচাপে প্ৰথম তিনিটা বিষয়ৰ নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "60%",
+        "as": "৬০%"
+      },
+      {
+        "en": "61.43%",
+        "as": "৬১.৪৩%"
+      },
+      {
+        "en": "65%",
+        "as": "৬৫%"
+      },
+      {
+        "en": "58%",
+        "as": "৫৮%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(60 + 75 + 80) ÷ 350 × 100 = 215 ÷ 350 × 100 ≈ 61.43%.",
+      "as": "(৬০ + ৭৫ + ৮০) ÷ ৩৫০ × ১০০ = ২১৫ ÷ ৩৫০ × ১০০ ≈ ৬১.৪৩%।"
+    }
+  },
+  {
+    "id": "data-interpretation-011",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. The median marks of the five subjects is:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। পাঁচটা বিষয়ৰ মধ্যমা নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranged: 45, 60, 75, 80, 90; the middle value is 75.",
+      "as": "সজাই: ৪৫, ৬০, ৭৫, ৮০, ৯০; মাজৰ মান ৭৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-012",
+    "q": {
+      "en": "A student scored the following marks in five subjects: 60, 75, 80, 45, 90. If the student needs an average of 72 over the five subjects, the marks he is short by are:",
+      "as": "এজন ছাত্ৰই পাঁচটা বিষয়ত তলত দিয়া নম্বৰ পাইছে: ৬০, ৭৫, ৮০, ৪৫, ৯০। ছাত্ৰজনে পাঁচটা বিষয়ত গড় ৭২ পাবলৈ যি নম্বৰেৰে কম পৰিছে সেয়া:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Required total = 360; scored 350, so he is short by 10.",
+      "as": "প্ৰয়োজনীয় মুঠ = ৩৬০; পাইছে ৩৫০, গতিকে ১০ ৰে কম পৰিছে।"
+    }
+  },
+  {
+    "id": "data-interpretation-013",
+    "q": {
+      "en": "The population of a town over five years was: 2000, 2500, 3000, 2200, 2800. The total population over the five years is:",
+      "as": "এখন নগৰৰ পাঁচ বছৰৰ জনসংখ্যা আছিল: ২০০০, ২৫০০, ৩০০০, ২২০০, ২৮০০। পাঁচ বছৰৰ মুঠ জনসংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "12500",
+        "as": "১২৫০০"
+      },
+      {
+        "en": "13000",
+        "as": "১৩০০০"
+      },
+      {
+        "en": "11500",
+        "as": "১১৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2000 + 2500 + 3000 + 2200 + 2800 = 12500.",
+      "as": "২০০০ + ২৫০০ + ৩০০০ + ২২০০ + ২৮০০ = ১২৫০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-014",
+    "q": {
+      "en": "The population of a town over five years was: 2000, 2500, 3000, 2200, 2800. The average population over the five years is:",
+      "as": "এখন নগৰৰ পাঁচ বছৰৰ জনসংখ্যা আছিল: ২০০০, ২৫০০, ৩০০০, ২২০০, ২৮০০। পাঁচ বছৰৰ গড় জনসংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "2500",
+        "as": "২৫০০"
+      },
+      {
+        "en": "2800",
+        "as": "২৮০০"
+      },
+      {
+        "en": "2200",
+        "as": "২২০০"
+      },
+      {
+        "en": "3000",
+        "as": "৩০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "12500 ÷ 5 = 2500.",
+      "as": "১২৫০০ ÷ ৫ = ২৫০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-015",
+    "q": {
+      "en": "The population of a town over five years was: 2000, 2500, 3000, 2200, 2800. The year with the highest population is:",
+      "as": "এখন নগৰৰ পাঁচ বছৰৰ জনসংখ্যা আছিল: ২০০০, ২৫০০, ৩০০০, ২২০০, ২৮০০। সৰ্বোচ্চ জনসংখ্যা থকা বছৰ:"
+    },
+    "options": [
+      {
+        "en": "the fifth year",
+        "as": "the fifth year"
+      },
+      {
+        "en": "the second year",
+        "as": "the second year"
+      },
+      {
+        "en": "the first year",
+        "as": "the first year"
+      },
+      {
+        "en": "the third year",
+        "as": "the third year"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The highest value is 3000, in the third year.",
+      "as": "সৰ্বোচ্চ মান ৩০০০, তৃতীয় বছৰত।"
+    }
+  },
+  {
+    "id": "data-interpretation-016",
+    "q": {
+      "en": "The population of a town over five years was: 2000, 2500, 3000, 2200, 2800. The percentage increase in population from the first year to the second year is:",
+      "as": "এখন নগৰৰ পাঁচ বছৰৰ জনসংখ্যা আছিল: ২০০০, ২৫০০, ৩০০০, ২২০০, ২৮০০। প্ৰথম বছৰৰ পৰা দ্বিতীয় বছৰলৈ জনসংখ্যাৰ শতাংশ বৃদ্ধি:"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(500 ÷ 2000) × 100 = 25%.",
+      "as": "(৫০০ ÷ ২০০০) × ১০০ = ২৫%।"
+    }
+  },
+  {
+    "id": "data-interpretation-017",
+    "q": {
+      "en": "The population of a town over five years was: 2000, 2500, 3000, 2200, 2800. The percentage decrease from the third year to the fourth year is:",
+      "as": "এখন নগৰৰ পাঁচ বছৰৰ জনসংখ্যা আছিল: ২০০০, ২৫০০, ৩০০০, ২২০০, ২৮০০। তৃতীয় বছৰৰ পৰা চতুৰ্থ বছৰলৈ শতাংশ হ্ৰাস:"
+    },
+    "options": [
+      {
+        "en": "26.67%",
+        "as": "২৬.৬৭%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(800 ÷ 3000) × 100 ≈ 26.67%.",
+      "as": "(৮০০ ÷ ৩০০০) × ১০০ ≈ ২৬.৬৭%।"
+    }
+  },
+  {
+    "id": "data-interpretation-018",
+    "q": {
+      "en": "A factory produced the following units in four quarters: Q1 = 400, Q2 = 550, Q3 = 650, Q4 = 400. The total production over the four quarters is:",
+      "as": "এখন কাৰখানাই চাৰি ত্ৰৈমাসিকত তলত দিয়া একক উৎপাদন কৰিলে: Q1 = ৪০০, Q2 = ৫৫০, Q3 = ৬৫০, Q4 = ৪০০। চাৰি ত্ৰৈমাসিকৰ মুঠ উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      },
+      {
+        "en": "2100",
+        "as": "২১০০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "2000",
+        "as": "২০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "400 + 550 + 650 + 400 = 2000.",
+      "as": "৪০০ + ৫৫০ + ৬৫০ + ৪০০ = ২০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-019",
+    "q": {
+      "en": "A factory produced the following units in four quarters: Q1 = 400, Q2 = 550, Q3 = 650, Q4 = 400. The average production per quarter is:",
+      "as": "এখন কাৰখানাই চাৰি ত্ৰৈমাসিকত তলত দিয়া একক উৎপাদন কৰিলে: Q1 = ৪০০, Q2 = ৫৫০, Q3 = ৬৫০, Q4 = ৪০০। প্ৰতিটো ত্ৰৈমাসিকৰ গড় উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2000 ÷ 4 = 500.",
+      "as": "২০০০ ÷ ৪ = ৫০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-020",
+    "q": {
+      "en": "A factory produced the following units in four quarters: Q1 = 400, Q2 = 550, Q3 = 650, Q4 = 400. The quarter with the highest production is:",
+      "as": "এখন কাৰখানাই চাৰি ত্ৰৈমাসিকত তলত দিয়া একক উৎপাদন কৰিলে: Q1 = ৪০০, Q2 = ৫৫০, Q3 = ৬৫০, Q4 = ৪০০। সৰ্বোচ্চ উৎপাদন থকা ত্ৰৈমাসিক:"
+    },
+    "options": [
+      {
+        "en": "Q2",
+        "as": "Q২"
+      },
+      {
+        "en": "Q1",
+        "as": "Q১"
+      },
+      {
+        "en": "Q3",
+        "as": "Q৩"
+      },
+      {
+        "en": "Q4",
+        "as": "Q৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The highest value is 650, in Q3.",
+      "as": "সৰ্বোচ্চ মান ৬৫০, Q3 ত।"
+    }
+  },
+  {
+    "id": "data-interpretation-021",
+    "q": {
+      "en": "A factory produced the following units in four quarters: Q1 = 400, Q2 = 550, Q3 = 650, Q4 = 400. The combined production of Q1 and Q4 is:",
+      "as": "এখন কাৰখানাই চাৰি ত্ৰৈমাসিকত তলত দিয়া একক উৎপাদন কৰিলে: Q1 = ৪০০, Q2 = ৫৫০, Q3 = ৬৫০, Q4 = ৪০০। Q1 আৰু Q4 ৰ একত্ৰিত উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "950",
+        "as": "৯৫০"
+      },
+      {
+        "en": "1050",
+        "as": "১০৫০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "400 + 400 = 800.",
+      "as": "৪০০ + ৪০০ = ৮০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-022",
+    "q": {
+      "en": "A factory produced the following units in four quarters: Q1 = 400, Q2 = 550, Q3 = 650, Q4 = 400. The production in Q3 as a percentage of the total is:",
+      "as": "এখন কাৰখানাই চাৰি ত্ৰৈমাসিকত তলত দিয়া একক উৎপাদন কৰিলে: Q1 = ৪০০, Q2 = ৫৫০, Q3 = ৬৫০, Q4 = ৪০০। মুঠৰ শতাংশ হিচাপে Q3 ৰ উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "32.5%",
+        "as": "৩২.৫%"
+      },
+      {
+        "en": "35%",
+        "as": "৩৫%"
+      },
+      {
+        "en": "27.5%",
+        "as": "২৭.৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(650 ÷ 2000) × 100 = 32.5%.",
+      "as": "(৬৫০ ÷ ২০০০) × ১০০ = ৩২.৫%।"
+    }
+  },
+  {
+    "id": "data-interpretation-023",
+    "q": {
+      "en": "A pie chart shows the expenditure of a family: food 40%, rent 25%, education 20%, savings 15%. If the total income is ₹20,000, the amount spent on food is:",
+      "as": "এটা পাই চাৰ্টে এটা পৰিয়ালৰ খৰচ দেখুৱায়: খাদ্য ৪০%, ভাড়া ২৫%, শিক্ষা ২০%, সঞ্চয় ১৫%। মুঠ আয় ₹২০,০০০ হ'লে খাদ্যত খৰচ হোৱা ধন:"
+    },
+    "options": [
+      {
+        "en": "₹5000",
+        "as": "₹৫০০০"
+      },
+      {
+        "en": "₹4000",
+        "as": "₹৪০০০"
+      },
+      {
+        "en": "₹3000",
+        "as": "₹৩০০০"
+      },
+      {
+        "en": "₹8000",
+        "as": "₹৮০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "40% of ₹20,000 = ₹8000.",
+      "as": "₹২০,০০০ ৰ ৪০% = ₹৮০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-024",
+    "q": {
+      "en": "A pie chart shows the expenditure of a family: food 40%, rent 25%, education 20%, savings 15%. If the total income is ₹20,000, the amount saved is:",
+      "as": "এটা পাই চাৰ্টে এটা পৰিয়ালৰ খৰচ দেখুৱায়: খাদ্য ৪০%, ভাড়া ২৫%, শিক্ষা ২০%, সঞ্চয় ১৫%। মুঠ আয় ₹২০,০০০ হ'লে সঞ্চয়ৰ পৰিমাণ:"
+    },
+    "options": [
+      {
+        "en": "₹3000",
+        "as": "₹৩০০০"
+      },
+      {
+        "en": "₹4000",
+        "as": "₹৪০০০"
+      },
+      {
+        "en": "₹5000",
+        "as": "₹৫০০০"
+      },
+      {
+        "en": "₹8000",
+        "as": "₹৮০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15% of ₹20,000 = ₹3000.",
+      "as": "₹২০,০০০ ৰ ১৫% = ₹৩০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-025",
+    "q": {
+      "en": "A pie chart shows the expenditure of a family: food 40%, rent 25%, education 20%, savings 15%. The central angle of the food sector is:",
+      "as": "এটা পাই চাৰ্টে এটা পৰিয়ালৰ খৰচ দেখুৱায়: খাদ্য ৪০%, ভাড়া ২৫%, শিক্ষা ২০%, সঞ্চয় ১৫%। খাদ্যৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "144°",
+        "as": "১৪৪°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "40% of 360° = 144°.",
+      "as": "৩৬০° ৰ ৪০% = ১৪৪°।"
+    }
+  },
+  {
+    "id": "data-interpretation-026",
+    "q": {
+      "en": "A pie chart shows the expenditure of a family: food 40%, rent 25%, education 20%, savings 15%. The central angle of the savings sector is:",
+      "as": "এটা পাই চাৰ্টে এটা পৰিয়ালৰ খৰচ দেখুৱায়: খাদ্য ৪০%, ভাড়া ২৫%, শিক্ষা ২০%, সঞ্চয় ১৫%। সঞ্চয়ৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "54°",
+        "as": "৫৪°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "45°",
+        "as": "৪৫°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15% of 360° = 54°.",
+      "as": "৩৬০° ৰ ১৫% = ৫৪°।"
+    }
+  },
+  {
+    "id": "data-interpretation-027",
+    "q": {
+      "en": "A pie chart shows the expenditure of a family: food 40%, rent 25%, education 20%, savings 15%. The amount spent on rent and education together, out of ₹20,000, is:",
+      "as": "এটা পাই চাৰ্টে এটা পৰিয়ালৰ খৰচ দেখুৱায়: খাদ্য ৪০%, ভাড়া ২৫%, শিক্ষা ২০%, সঞ্চয় ১৫%। ₹২০,০০০ ৰ ভিতৰত ভাড়া আৰু শিক্ষাত একেলগে খৰচ:"
+    },
+    "options": [
+      {
+        "en": "₹9000",
+        "as": "₹৯০০০"
+      },
+      {
+        "en": "₹8000",
+        "as": "₹৮০০০"
+      },
+      {
+        "en": "₹10000",
+        "as": "₹১০০০০"
+      },
+      {
+        "en": "₹7000",
+        "as": "₹৭০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "45% of ₹20,000 = ₹9000.",
+      "as": "₹২০,০০০ ৰ ৪৫% = ₹৯০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-028",
+    "q": {
+      "en": "A pie chart shows the marks of a student: Maths 30%, Science 25%, English 20%, Social 15%, Hindi 10%. If the total marks are 600, the marks in Maths are:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰৰ নম্বৰ দেখুৱায়: গণিত ৩০%, বিজ্ঞান ২৫%, ইংৰাজী ২০%, সমাজ ১৫%, হিন্দী ১০%। মুঠ নম্বৰ ৬০০ হ'লে গণিতৰ নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "30% of 600 = 180.",
+      "as": "৬০০ ৰ ৩০% = ১৮০।"
+    }
+  },
+  {
+    "id": "data-interpretation-029",
+    "q": {
+      "en": "A pie chart shows the marks of a student: Maths 30%, Science 25%, English 20%, Social 15%, Hindi 10%. If the total marks are 600, the marks in Science are:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰৰ নম্বৰ দেখুৱায়: গণিত ৩০%, বিজ্ঞান ২৫%, ইংৰাজী ২০%, সমাজ ১৫%, হিন্দী ১০%। মুঠ নম্বৰ ৬০০ হ'লে বিজ্ঞানৰ নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25% of 600 = 150.",
+      "as": "৬০০ ৰ ২৫% = ১৫০।"
+    }
+  },
+  {
+    "id": "data-interpretation-030",
+    "q": {
+      "en": "A pie chart shows the marks of a student: Maths 30%, Science 25%, English 20%, Social 15%, Hindi 10%. The central angle of the Maths sector is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰৰ নম্বৰ দেখুৱায়: গণিত ৩০%, বিজ্ঞান ২৫%, ইংৰাজী ২০%, সমাজ ১৫%, হিন্দী ১০%। গণিতৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "30% of 360° = 108°.",
+      "as": "৩৬০° ৰ ৩০% = ১০৮°।"
+    }
+  },
+  {
+    "id": "data-interpretation-031",
+    "q": {
+      "en": "A pie chart shows the marks of a student: Maths 30%, Science 25%, English 20%, Social 15%, Hindi 10%. The combined percentage of Maths and Science is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰৰ নম্বৰ দেখুৱায়: গণিত ৩০%, বিজ্ঞান ২৫%, ইংৰাজী ২০%, সমাজ ১৫%, হিন্দী ১০%। গণিত আৰু বিজ্ঞানৰ একত্ৰিত শতাংশ:"
+    },
+    "options": [
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "55%",
+        "as": "৫৫%"
+      },
+      {
+        "en": "60%",
+        "as": "৬০%"
+      },
+      {
+        "en": "45%",
+        "as": "৪৫%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "30 + 25 = 55%.",
+      "as": "৩০ + ২৫ = ৫৫%।"
+    }
+  },
+  {
+    "id": "data-interpretation-032",
+    "q": {
+      "en": "In a bar graph, 1 unit represents 20 students. A bar of 7 units represents:",
+      "as": "এটা দণ্ডলেখত ১ এককে ২০ জন ছাত্ৰক বুজায়। ৭ এককৰ দণ্ডই বুজায়:"
+    },
+    "options": [
+      {
+        "en": "27 students",
+        "as": "২৭ students"
+      },
+      {
+        "en": "140 students",
+        "as": "১৪০ students"
+      },
+      {
+        "en": "70 students",
+        "as": "৭০ students"
+      },
+      {
+        "en": "120 students",
+        "as": "১২০ students"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "7 × 20 = 140 students.",
+      "as": "৭ × ২০ = ১৪০ জন ছাত্ৰ।"
+    }
+  },
+  {
+    "id": "data-interpretation-033",
+    "q": {
+      "en": "In a bar graph, 1 unit represents 25 books. A bar of 8 units represents:",
+      "as": "এটা দণ্ডলেখত ১ এককে ২৫ খন কিতাপ বুজায়। ৮ এককৰ দণ্ডই বুজায়:"
+    },
+    "options": [
+      {
+        "en": "33 books",
+        "as": "৩৩ books"
+      },
+      {
+        "en": "200 books",
+        "as": "২০০ books"
+      },
+      {
+        "en": "100 books",
+        "as": "১০০ books"
+      },
+      {
+        "en": "180 books",
+        "as": "১৮০ books"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "8 × 25 = 200 books.",
+      "as": "৮ × ২৫ = ২০০ খন কিতাপ।"
+    }
+  },
+  {
+    "id": "data-interpretation-034",
+    "q": {
+      "en": "In a bar graph, 1 unit represents 50 people. A bar of 12 units represents:",
+      "as": "এটা দণ্ডলেখত ১ এককে ৫০ জন মানুহ বুজায়। ১২ এককৰ দণ্ডই বুজায়:"
+    },
+    "options": [
+      {
+        "en": "62 people",
+        "as": "৬২ people"
+      },
+      {
+        "en": "500 people",
+        "as": "৫০০ people"
+      },
+      {
+        "en": "120 people",
+        "as": "১২০ people"
+      },
+      {
+        "en": "600 people",
+        "as": "৬০০ people"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "12 × 50 = 600 people.",
+      "as": "১২ × ৫০ = ৬০০ জন মানুহ।"
+    }
+  },
+  {
+    "id": "data-interpretation-035",
+    "q": {
+      "en": "A bar graph shows the number of books read in four months: Jan = 8 units, Feb = 5 units, Mar = 10 units, Apr = 7 units, where 1 unit = 10 books. The total books read is:",
+      "as": "এটা দণ্ডলেখে চাৰি মাহত পঢ়া কিতাপৰ সংখ্যা দেখুৱায়: জানু = ৮ একক, ফেব্ৰু = ৫ একক, মাৰ্চ = ১০ একক, এপ্ৰিল = ৭ একক, য'ত ১ একক = ১০ খন কিতাপ। মুঠ পঢ়া কিতাপ:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total units = 30, so 30 × 10 = 300 books.",
+      "as": "মুঠ একক = ৩০, গতিকে ৩০ × ১০ = ৩০০ খন কিতাপ।"
+    }
+  },
+  {
+    "id": "data-interpretation-036",
+    "q": {
+      "en": "A bar graph shows the number of books read in four months: Jan = 8 units, Feb = 5 units, Mar = 10 units, Apr = 7 units, where 1 unit = 10 books. The month with the maximum books is:",
+      "as": "এটা দণ্ডলেখে চাৰি মাহত পঢ়া কিতাপৰ সংখ্যা দেখুৱায়: জানু = ৮ একক, ফেব্ৰু = ৫ একক, মাৰ্চ = ১০ একক, এপ্ৰিল = ৭ একক, য'ত ১ একক = ১০ খন কিতাপ। সৰ্বোচ্চ কিতাপ পঢ়া মাহ:"
+    },
+    "options": [
+      {
+        "en": "January",
+        "as": "January"
+      },
+      {
+        "en": "April",
+        "as": "April"
+      },
+      {
+        "en": "March",
+        "as": "March"
+      },
+      {
+        "en": "February",
+        "as": "February"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "March has the tallest bar, at 10 units.",
+      "as": "মাৰ্চৰ দণ্ডটো আটাইতকৈ ওখ, ১০ একক।"
+    }
+  },
+  {
+    "id": "data-interpretation-037",
+    "q": {
+      "en": "The table below gives the marks of students. | Marks | 40 | 50 | 60 | 70 | |---|---|---|---|---| | Students | 5 | 8 | 10 | 2 | The total number of students is:",
+      "as": "তলৰ তালিকাই ছাত্ৰৰ নম্বৰ দিয়ে। | নম্বৰ | ৪০ | ৫০ | ৬০ | ৭০ | |---|---|---|---|---| | ছাত্ৰ | ৫ | ৮ | ১০ | ২ | মুঠ ছাত্ৰৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "5 + 8 + 10 + 2 = 25 students.",
+      "as": "৫ + ৮ + ১০ + ২ = ২৫ জন ছাত্ৰ।"
+    }
+  },
+  {
+    "id": "data-interpretation-038",
+    "q": {
+      "en": "The table below gives the marks of students. | Marks | 40 | 50 | 60 | 70 | |---|---|---|---|---| | Students | 5 | 8 | 10 | 2 | The mean marks of the class is:",
+      "as": "তলৰ তালিকাই ছাত্ৰৰ নম্বৰ দিয়ে। | নম্বৰ | ৪০ | ৫০ | ৬০ | ৭০ | |---|---|---|---|---| | ছাত্ৰ | ৫ | ৮ | ১০ | ২ | শ্ৰেণীটোৰ গড় নম্বৰ:"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "54.8",
+        "as": "৫৪.৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(40×5 + 50×8 + 60×10 + 70×2) ÷ 25 = 1370 ÷ 25 = 54.8.",
+      "as": "(৪০×৫ + ৫০×৮ + ৬০×১০ + ৭০×২) ÷ ২৫ = ১৩৭০ ÷ ২৫ = ৫৪.৮।"
+    }
+  },
+  {
+    "id": "data-interpretation-039",
+    "q": {
+      "en": "The table below gives the marks of students. | Marks | 40 | 50 | 60 | 70 | |---|---|---|---|---| | Students | 5 | 8 | 10 | 2 | The number of students scoring at least 60 marks is:",
+      "as": "তলৰ তালিকাই ছাত্ৰৰ নম্বৰ দিয়ে। | নম্বৰ | ৪০ | ৫০ | ৬০ | ৭০ | |---|---|---|---|---| | ছাত্ৰ | ৫ | ৮ | ১০ | ২ | কমেও ৬০ নম্বৰ পোৱা ছাত্ৰৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10 + 2 = 12 students.",
+      "as": "১০ + ২ = ১২ জন ছাত্ৰ।"
+    }
+  },
+  {
+    "id": "data-interpretation-040",
+    "q": {
+      "en": "The table below gives the number of trees planted. | Year | 2019 | 2020 | 2021 | 2022 | |---|---|---|---|---| | Trees | 200 | 350 | 450 | 400 | The total trees planted in the four years is:",
+      "as": "তলৰ তালিকাই ৰোপণ কৰা গছৰ সংখ্যা দিয়ে। | বছৰ | ২০১৯ | ২০২০ | ২০২১ | ২০২২ | |---|---|---|---|---| | গছ | ২০০ | ৩৫০ | ৪৫০ | ৪০০ | চাৰি বছৰত মুঠ ৰোপণ কৰা গছ:"
+    },
+    "options": [
+      {
+        "en": "1400",
+        "as": "১৪০০"
+      },
+      {
+        "en": "1300",
+        "as": "১৩০০"
+      },
+      {
+        "en": "1500",
+        "as": "১৫০০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "200 + 350 + 450 + 400 = 1400.",
+      "as": "২০০ + ৩৫০ + ৪৫০ + ৪০০ = ১৪০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-041",
+    "q": {
+      "en": "The table below gives the number of trees planted. | Year | 2019 | 2020 | 2021 | 2022 | |---|---|---|---|---| | Trees | 200 | 350 | 450 | 400 | The year with the maximum plantation is:",
+      "as": "তলৰ তালিকাই ৰোপণ কৰা গছৰ সংখ্যা দিয়ে। | বছৰ | ২০১৯ | ২০২০ | ২০২১ | ২০২২ | |---|---|---|---|---| | গছ | ২০০ | ৩৫০ | ৪৫০ | ৪০০ | সৰ্বোচ্চ ৰোপণ থকা বছৰ:"
+    },
+    "options": [
+      {
+        "en": "2020",
+        "as": "২০২০"
+      },
+      {
+        "en": "2022",
+        "as": "২০২২"
+      },
+      {
+        "en": "2019",
+        "as": "২০১৯"
+      },
+      {
+        "en": "2021",
+        "as": "২০২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The maximum value is 450, in 2021.",
+      "as": "সৰ্বোচ্চ মান ৪৫০, ২০২১ ত।"
+    }
+  },
+  {
+    "id": "data-interpretation-042",
+    "q": {
+      "en": "The table below gives the number of trees planted. | Year | 2019 | 2020 | 2021 | 2022 | |---|---|---|---|---| | Trees | 200 | 350 | 450 | 400 | The average trees planted per year is:",
+      "as": "তলৰ তালিকাই ৰোপণ কৰা গছৰ সংখ্যা দিয়ে। | বছৰ | ২০১৯ | ২০২০ | ২০২১ | ২০২২ | |---|---|---|---|---| | গছ | ২০০ | ৩৫০ | ৪৫০ | ৪০০ | প্ৰতি বছৰে ৰোপণ কৰা গড় গছ:"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "350",
+        "as": "৩৫০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1400 ÷ 4 = 350.",
+      "as": "১৪০০ ÷ ৪ = ৩৫০।"
+    }
+  },
+  {
+    "id": "data-interpretation-043",
+    "q": {
+      "en": "A line graph shows the temperature over five hours: 20°, 24°, 30°, 28°, 22°. The highest temperature recorded is:",
+      "as": "এটা ৰেখা লেখে পাঁচ ঘণ্টাৰ উষ্ণতা দেখুৱায়: ২০°, ২৪°, ৩০°, ২৮°, ২২°। লিপিবদ্ধ সৰ্বোচ্চ উষ্ণতা:"
+    },
+    "options": [
+      {
+        "en": "30°",
+        "as": "৩০°"
+      },
+      {
+        "en": "28°",
+        "as": "২৮°"
+      },
+      {
+        "en": "24°",
+        "as": "২৪°"
+      },
+      {
+        "en": "22°",
+        "as": "২২°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Of the five readings 20°, 24°, 30°, 28° and 22°, the largest is 30°.",
+      "as": "পাঁচটা পাঠ ২০°, ২৪°, ৩০°, ২৮° আৰু ২২° ৰ ভিতৰত আটাইতকৈ ডাঙৰ ৩০°।"
+    }
+  },
+  {
+    "id": "data-interpretation-044",
+    "q": {
+      "en": "A line graph shows the temperature over five hours: 20°, 24°, 30°, 28°, 22°. The average temperature over the five hours is:",
+      "as": "এটা ৰেখা লেখে পাঁচ ঘণ্টাৰ উষ্ণতা দেখুৱায়: ২০°, ২৪°, ৩০°, ২৮°, ২২°। পাঁচ ঘণ্টাৰ গড় উষ্ণতা:"
+    },
+    "options": [
+      {
+        "en": "25°",
+        "as": "২৫°"
+      },
+      {
+        "en": "24°",
+        "as": "২৪°"
+      },
+      {
+        "en": "24.8°",
+        "as": "২৪.৮°"
+      },
+      {
+        "en": "26°",
+        "as": "২৬°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "124 ÷ 5 = 24.8°.",
+      "as": "১২৪ ÷ ৫ = ২৪.৮°।"
+    }
+  },
+  {
+    "id": "data-interpretation-045",
+    "q": {
+      "en": "A line graph shows the temperature over five hours: 20°, 24°, 30°, 28°, 22°. The fall in temperature from the third to the fifth hour is:",
+      "as": "এটা ৰেখা লেখে পাঁচ ঘণ্টাৰ উষ্ণতা দেখুৱায়: ২০°, ২৪°, ৩০°, ২৮°, ২২°। তৃতীয়ৰ পৰা পঞ্চম ঘণ্টালৈ উষ্ণতাৰ হ্ৰাস:"
+    },
+    "options": [
+      {
+        "en": "6°",
+        "as": "৬°"
+      },
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "4°",
+        "as": "৪°"
+      },
+      {
+        "en": "8°",
+        "as": "৮°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "30 − 22 = 8°.",
+      "as": "৩০ − ২২ = ৮°।"
+    }
+  },
+  {
+    "id": "data-interpretation-046",
+    "q": {
+      "en": "A line graph shows the temperature over five hours: 20°, 24°, 30°, 28°, 22°. The difference between the highest and the lowest temperature is:",
+      "as": "এটা ৰেখা লেখে পাঁচ ঘণ্টাৰ উষ্ণতা দেখুৱায়: ২০°, ২৪°, ৩০°, ২৮°, ২২°। সৰ্বোচ্চ আৰু সৰ্বনিম্ন উষ্ণতাৰ পাৰ্থক্য:"
+    },
+    "options": [
+      {
+        "en": "8°",
+        "as": "৮°"
+      },
+      {
+        "en": "12°",
+        "as": "১২°"
+      },
+      {
+        "en": "10°",
+        "as": "১০°"
+      },
+      {
+        "en": "6°",
+        "as": "৬°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30 − 20 = 10°.",
+      "as": "৩০ − ২০ = ১০°।"
+    }
+  },
+  {
+    "id": "data-interpretation-047",
+    "q": {
+      "en": "The table below gives the monthly income and expenditure of a family. | Month | Income | Expenditure | |---|---|---| | Jan | 30000 | 24000 | | Feb | 32000 | 25000 | The savings in January is:",
+      "as": "তলৰ তালিকাই এটা পৰিয়ালৰ মাহেকীয়া আয় আৰু ব্যয় দিয়ে। | মাহ | আয় | ব্যয় | |---|---|---| | জানু | ৩০০০০ | ২৪০০০ | | ফেব্ৰু | ৩২০০০ | ২৫০০০ | জানুৱাৰীৰ সঞ্চয়:"
+    },
+    "options": [
+      {
+        "en": "₹6000",
+        "as": "₹৬০০০"
+      },
+      {
+        "en": "₹7000",
+        "as": "₹৭০০০"
+      },
+      {
+        "en": "₹5000",
+        "as": "₹৫০০০"
+      },
+      {
+        "en": "₹8000",
+        "as": "₹৮০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "30000 − 24000 = ₹6000.",
+      "as": "৩০০০০ − ২৪০০০ = ₹৬০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-048",
+    "q": {
+      "en": "The table below gives the monthly income and expenditure of a family. | Month | Income | Expenditure | |---|---|---| | Jan | 30000 | 24000 | | Feb | 32000 | 25000 | The total savings over the two months is:",
+      "as": "তলৰ তালিকাই এটা পৰিয়ালৰ মাহেকীয়া আয় আৰু ব্যয় দিয়ে। | মাহ | আয় | ব্যয় | |---|---|---| | জানু | ৩০০০০ | ২৪০০০ | | ফেব্ৰু | ৩২০০০ | ২৫০০০ | দুটা মাহৰ মুঠ সঞ্চয়:"
+    },
+    "options": [
+      {
+        "en": "₹12000",
+        "as": "₹১২০০০"
+      },
+      {
+        "en": "₹14000",
+        "as": "₹১৪০০০"
+      },
+      {
+        "en": "₹11000",
+        "as": "₹১১০০০"
+      },
+      {
+        "en": "₹13000",
+        "as": "₹১৩০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "6000 + 7000 = ₹13000.",
+      "as": "৬০০০ + ৭০০০ = ₹১৩০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-049",
+    "q": {
+      "en": "The table below gives the monthly income and expenditure of a family. | Month | Income | Expenditure | |---|---|---| | Jan | 30000 | 24000 | | Feb | 32000 | 25000 | The expenditure in January as a percentage of the income is:",
+      "as": "তলৰ তালিকাই এটা পৰিয়ালৰ মাহেকীয়া আয় আৰু ব্যয় দিয়ে। | মাহ | আয় | ব্যয় | |---|---|---| | জানু | ৩০০০০ | ২৪০০০ | | ফেব্ৰু | ৩২০০০ | ২৫০০০ | আয়ৰ শতাংশ হিচাপে জানুৱাৰীৰ ব্যয়:"
+    },
+    "options": [
+      {
+        "en": "75%",
+        "as": "৭৫%"
+      },
+      {
+        "en": "80%",
+        "as": "৮০%"
+      },
+      {
+        "en": "85%",
+        "as": "৮৫%"
+      },
+      {
+        "en": "70%",
+        "as": "৭০%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(24000 ÷ 30000) × 100 = 80%.",
+      "as": "(২৪০০০ ÷ ৩০০০০) × ১০০ = ৮০%।"
+    }
+  },
+  {
+    "id": "data-interpretation-050",
+    "q": {
+      "en": "The table below gives the monthly income and expenditure of a family. | Month | Income | Expenditure | |---|---|---| | Jan | 30000 | 24000 | | Feb | 32000 | 25000 | The total income over the two months is:",
+      "as": "তলৰ তালিকাই এটা পৰিয়ালৰ মাহেকীয়া আয় আৰু ব্যয় দিয়ে। | মাহ | আয় | ব্যয় | |---|---|---| | জানু | ৩০০০০ | ২৪০০০ | | ফেব্ৰু | ৩২০০০ | ২৫০০০ | দুটা মাহৰ মুঠ আয়:"
+    },
+    "options": [
+      {
+        "en": "₹62000",
+        "as": "₹৬২০০০"
+      },
+      {
+        "en": "₹60000",
+        "as": "₹৬০০০০"
+      },
+      {
+        "en": "₹64000",
+        "as": "₹৬৪০০০"
+      },
+      {
+        "en": "₹58000",
+        "as": "₹৫৮০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "30000 + 32000 = ₹62000.",
+      "as": "৩০০০০ + ৩২০০০ = ₹৬২০০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-051",
+    "q": {
+      "en": "The table below gives the monthly income and expenditure of a family. | Month | Income | Expenditure | |---|---|---| | Jan | 30000 | 24000 | | Feb | 32000 | 25000 | The savings as a percentage of the total income over the two months is:",
+      "as": "তলৰ তালিকাই এটা পৰিয়ালৰ মাহেকীয়া আয় আৰু ব্যয় দিয়ে। | মাহ | আয় | ব্যয় | |---|---|---| | জানু | ৩০০০০ | ২৪০০০ | | ফেব্ৰু | ৩২০০০ | ২৫০০০ | দুটা মাহৰ মুঠ আয়ৰ শতাংশ হিচাপে সঞ্চয়:"
+    },
+    "options": [
+      {
+        "en": "21%",
+        "as": "২১%"
+      },
+      {
+        "en": "19%",
+        "as": "১৯%"
+      },
+      {
+        "en": "20.97%",
+        "as": "২০.৯৭%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(13000 ÷ 62000) × 100 ≈ 20.97%.",
+      "as": "(১৩০০০ ÷ ৬২০০০) × ১০০ ≈ ২০.৯৭%।"
+    }
+  },
+  {
+    "id": "data-interpretation-052",
+    "q": {
+      "en": "A pie chart shows the sources of a state's revenue: taxes 50%, loans 20%, grants 15%, others 15%. The central angle of the taxes sector is:",
+      "as": "এটা পাই চাৰ্টে এখন ৰাজ্যৰ ৰাজহৰ উৎস দেখুৱায়: কৰ ৫০%, ঋণ ২০%, অনুদান ১৫%, আন ১৫%। কৰৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "150°",
+        "as": "১৫০°"
+      },
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "180°",
+        "as": "১৮০°"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "50% of 360° = 180°.",
+      "as": "৩৬০° ৰ ৫০% = ১৮০°।"
+    }
+  },
+  {
+    "id": "data-interpretation-053",
+    "q": {
+      "en": "A pie chart shows the sources of a state's revenue: taxes 50%, loans 20%, grants 15%, others 15%. If the total revenue is ₹5000 crore, the amount from taxes is:",
+      "as": "এটা পাই চাৰ্টে এখন ৰাজ্যৰ ৰাজহৰ উৎস দেখুৱায়: কৰ ৫০%, ঋণ ২০%, অনুদান ১৫%, আন ১৫%। মুঠ ৰাজহ ₹৫০০০ কোটি হ'লে কৰৰ পৰা অহা ধন:"
+    },
+    "options": [
+      {
+        "en": "₹2000 crore",
+        "as": "₹২০০০ crore"
+      },
+      {
+        "en": "₹1500 crore",
+        "as": "₹১৫০০ crore"
+      },
+      {
+        "en": "₹2500 crore",
+        "as": "₹২৫০০ crore"
+      },
+      {
+        "en": "₹1000 crore",
+        "as": "₹১০০০ crore"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "50% of ₹5000 crore = ₹2500 crore.",
+      "as": "₹৫০০০ কোটিৰ ৫০% = ₹২৫০০ কোটি।"
+    }
+  },
+  {
+    "id": "data-interpretation-054",
+    "q": {
+      "en": "A pie chart shows the sources of a state's revenue: taxes 50%, loans 20%, grants 15%, others 15%. If the total revenue is ₹5000 crore, the amount from loans and grants together is:",
+      "as": "এটা পাই চাৰ্টে এখন ৰাজ্যৰ ৰাজহৰ উৎস দেখুৱায়: কৰ ৫০%, ঋণ ২০%, অনুদান ১৫%, আন ১৫%। মুঠ ৰাজহ ₹৫০০০ কোটি হ'লে ঋণ আৰু অনুদানৰ একত্ৰিত ধন:"
+    },
+    "options": [
+      {
+        "en": "₹1500 crore",
+        "as": "₹১৫০০ crore"
+      },
+      {
+        "en": "₹2000 crore",
+        "as": "₹২০০০ crore"
+      },
+      {
+        "en": "₹1250 crore",
+        "as": "₹১২৫০ crore"
+      },
+      {
+        "en": "₹1750 crore",
+        "as": "₹১৭৫০ crore"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "35% of ₹5000 crore = ₹1750 crore.",
+      "as": "₹৫০০০ কোটিৰ ৩৫% = ₹১৭৫০ কোটি।"
+    }
+  },
+  {
+    "id": "data-interpretation-055",
+    "q": {
+      "en": "A pie chart shows the sources of a state's revenue: taxes 50%, loans 20%, grants 15%, others 15%. The ratio of taxes to loans is:",
+      "as": "এটা পাই চাৰ্টে এখন ৰাজ্যৰ ৰাজহৰ উৎস দেখুৱায়: কৰ ৫০%, ঋণ ২০%, অনুদান ১৫%, আন ১৫%। কৰৰ ঋণৰ সৈতে অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "2 : 5",
+        "as": "২ : ৫"
+      },
+      {
+        "en": "5 : 3",
+        "as": "৫ : ৩"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "5 : 2",
+        "as": "৫ : ২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "50 : 20 = 5 : 2.",
+      "as": "৫০ : ২০ = ৫ : ২।"
+    }
+  },
+  {
+    "id": "data-interpretation-056",
+    "q": {
+      "en": "A pie chart shows the sources of a state's revenue: taxes 50%, loans 20%, grants 15%, others 15%. The central angle of the grants sector is:",
+      "as": "এটা পাই চাৰ্টে এখন ৰাজ্যৰ ৰাজহৰ উৎস দেখুৱায়: কৰ ৫০%, ঋণ ২০%, অনুদান ১৫%, আন ১৫%। অনুদানৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "54°",
+        "as": "৫৪°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "36°",
+        "as": "৩৬°"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "15% of 360° = 54°.",
+      "as": "৩৬০° ৰ ১৫% = ৫৪°।"
+    }
+  },
+  {
+    "id": "data-interpretation-057",
+    "q": {
+      "en": "A bar graph shows the number of cars sold by a dealer in four months: Jan = 30, Feb = 45, Mar = 60, Apr = 45. The total cars sold is:",
+      "as": "এটা দণ্ডলেখে এজন বিক্ৰেতাই চাৰি মাহত বিক্ৰী কৰা গাড়ীৰ সংখ্যা দেখুৱায়: জানু = ৩০, ফেব্ৰু = ৪৫, মাৰ্চ = ৬০, এপ্ৰিল = ৪৫। মুঠ বিক্ৰী হোৱা গাড়ী:"
+    },
+    "options": [
+      {
+        "en": "175",
+        "as": "১৭৫"
+      },
+      {
+        "en": "190",
+        "as": "১৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "165",
+        "as": "১৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30 + 45 + 60 + 45 = 180.",
+      "as": "৩০ + ৪৫ + ৬০ + ৪৫ = ১৮০।"
+    }
+  },
+  {
+    "id": "data-interpretation-058",
+    "q": {
+      "en": "A bar graph shows the number of cars sold by a dealer in four months: Jan = 30, Feb = 45, Mar = 60, Apr = 45. The average cars sold per month is:",
+      "as": "এটা দণ্ডলেখে এজন বিক্ৰেতাই চাৰি মাহত বিক্ৰী কৰা গাড়ীৰ সংখ্যা দেখুৱায়: জানু = ৩০, ফেব্ৰু = ৪৫, মাৰ্চ = ৬০, এপ্ৰিল = ৪৫। প্ৰতি মাহে বিক্ৰী হোৱা গড় গাড়ী:"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "180 ÷ 4 = 45.",
+      "as": "১৮০ ÷ ৪ = ৪৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-059",
+    "q": {
+      "en": "A bar graph shows the number of cars sold by a dealer in four months: Jan = 30, Feb = 45, Mar = 60, Apr = 45. The month with the maximum sales is:",
+      "as": "এটা দণ্ডলেখে এজন বিক্ৰেতাই চাৰি মাহত বিক্ৰী কৰা গাড়ীৰ সংখ্যা দেখুৱায়: জানু = ৩০, ফেব্ৰু = ৪৫, মাৰ্চ = ৬০, এপ্ৰিল = ৪৫। সৰ্বোচ্চ বিক্ৰী থকা মাহ:"
+    },
+    "options": [
+      {
+        "en": "February",
+        "as": "February"
+      },
+      {
+        "en": "April",
+        "as": "April"
+      },
+      {
+        "en": "March",
+        "as": "March"
+      },
+      {
+        "en": "January",
+        "as": "January"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "March has the highest value of 60.",
+      "as": "মাৰ্চৰ সৰ্বোচ্চ মান ৬০।"
+    }
+  },
+  {
+    "id": "data-interpretation-060",
+    "q": {
+      "en": "A bar graph shows the number of cars sold by a dealer in four months: Jan = 30, Feb = 45, Mar = 60, Apr = 45. The sales in March as a percentage of the total is:",
+      "as": "এটা দণ্ডলেখে এজন বিক্ৰেতাই চাৰি মাহত বিক্ৰী কৰা গাড়ীৰ সংখ্যা দেখুৱায়: জানু = ৩০, ফেব্ৰু = ৪৫, মাৰ্চ = ৬০, এপ্ৰিল = ৪৫। মুঠৰ শতাংশ হিচাপে মাৰ্চৰ বিক্ৰী:"
+    },
+    "options": [
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "35%",
+        "as": "৩৫%"
+      },
+      {
+        "en": "33.33%",
+        "as": "৩৩.৩৩%"
+      },
+      {
+        "en": "40%",
+        "as": "৪০%"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(60 ÷ 180) × 100 ≈ 33.33%.",
+      "as": "(৬০ ÷ ১৮০) × ১০০ ≈ ৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "data-interpretation-061",
+    "q": {
+      "en": "A bar graph shows the number of cars sold by a dealer in four months: Jan = 30, Feb = 45, Mar = 60, Apr = 45. The ratio of January's sales to February's sales is:",
+      "as": "এটা দণ্ডলেখে এজন বিক্ৰেতাই চাৰি মাহত বিক্ৰী কৰা গাড়ীৰ সংখ্যা দেখুৱায়: জানু = ৩০, ফেব্ৰু = ৪৫, মাৰ্চ = ৬০, এপ্ৰিল = ৪৫। জানুৱাৰীৰ বিক্ৰীৰ ফেব্ৰুৱাৰীৰ সৈতে অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "3 : 2",
+        "as": "৩ : ২"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30 : 45 = 2 : 3.",
+      "as": "৩০ : ৪৫ = ২ : ৩।"
+    }
+  },
+  {
+    "id": "data-interpretation-062",
+    "q": {
+      "en": "A table gives the number of students in four classes: VI = 40, VII = 45, VIII = 50, IX = 45. The total number of students is:",
+      "as": "এটা তালিকাই চাৰিটা শ্ৰেণীৰ ছাত্ৰৰ সংখ্যা দিয়ে: VI = ৪০, VII = ৪৫, VIII = ৫০, IX = ৪৫। মুঠ ছাত্ৰৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "175",
+        "as": "১৭৫"
+      },
+      {
+        "en": "185",
+        "as": "১৮৫"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "40 + 45 + 50 + 45 = 180.",
+      "as": "৪০ + ৪৫ + ৫০ + ৪৫ = ১৮০।"
+    }
+  },
+  {
+    "id": "data-interpretation-063",
+    "q": {
+      "en": "A table gives the number of students in four classes: VI = 40, VII = 45, VIII = 50, IX = 45. The average number of students per class is:",
+      "as": "এটা তালিকাই চাৰিটা শ্ৰেণীৰ ছাত্ৰৰ সংখ্যা দিয়ে: VI = ৪০, VII = ৪৫, VIII = ৫০, IX = ৪৫। প্ৰতি শ্ৰেণীত গড় ছাত্ৰৰ সংখ্যা:"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "180 ÷ 4 = 45.",
+      "as": "১৮০ ÷ ৪ = ৪৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-064",
+    "q": {
+      "en": "A table gives the number of students in four classes: VI = 40, VII = 45, VIII = 50, IX = 45. The class with the maximum students is:",
+      "as": "এটা তালিকাই চাৰিটা শ্ৰেণীৰ ছাত্ৰৰ সংখ্যা দিয়ে: VI = ৪০, VII = ৪৫, VIII = ৫০, IX = ৪৫। সৰ্বোচ্চ ছাত্ৰ থকা শ্ৰেণী:"
+    },
+    "options": [
+      {
+        "en": "VII",
+        "as": "VII"
+      },
+      {
+        "en": "VIII",
+        "as": "VIII"
+      },
+      {
+        "en": "IX",
+        "as": "IX"
+      },
+      {
+        "en": "VI",
+        "as": "VI"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Class VIII has the highest value of 50.",
+      "as": "অষ্টম শ্ৰেণীৰ সৰ্বোচ্চ মান ৫০।"
+    }
+  },
+  {
+    "id": "data-interpretation-065",
+    "q": {
+      "en": "A table gives the number of students in four classes: VI = 40, VII = 45, VIII = 50, IX = 45. The number of students in VI as a percentage of the total is:",
+      "as": "এটা তালিকাই চাৰিটা শ্ৰেণীৰ ছাত্ৰৰ সংখ্যা দিয়ে: VI = ৪০, VII = ৪৫, VIII = ৫০, IX = ৪৫। মুঠৰ শতাংশ হিচাপে VI ৰ ছাত্ৰ:"
+    },
+    "options": [
+      {
+        "en": "22.22%",
+        "as": "২২.২২%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "18%",
+        "as": "১৮%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(40 ÷ 180) × 100 ≈ 22.22%.",
+      "as": "(৪০ ÷ ১৮০) × ১০০ ≈ ২২.২২%।"
+    }
+  },
+  {
+    "id": "data-interpretation-066",
+    "q": {
+      "en": "A table gives the number of students in four classes: VI = 40, VII = 45, VIII = 50, IX = 45. The ratio of the students in VI to those in VIII is:",
+      "as": "এটা তালিকাই চাৰিটা শ্ৰেণীৰ ছাত্ৰৰ সংখ্যা দিয়ে: VI = ৪০, VII = ৪৫, VIII = ৫০, IX = ৪৫। VI ৰ ছাত্ৰৰ VIII ৰ সৈতে অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "5 : 4",
+        "as": "৫ : ৪"
+      },
+      {
+        "en": "8 : 9",
+        "as": "৮ : ৯"
+      },
+      {
+        "en": "9 : 10",
+        "as": "৯ : ১০"
+      },
+      {
+        "en": "4 : 5",
+        "as": "৪ : ৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "40 : 50 = 4 : 5.",
+      "as": "৪০ : ৫০ = ৪ : ৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-067",
+    "q": {
+      "en": "A pie chart shows the time spent by a student in a day: school 25%, sleep 33.33%, study 20%, play 8.33%, others 13.33%. The central angle of the school sector is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰই এদিনত খৰচ কৰা সময় দেখুৱায়: বিদ্যালয় ২৫%, টোপনি ৩৩.৩৩%, অধ্যয়ন ২০%, খেল ৮.৩৩%, আন ১৩.৩৩%। বিদ্যালয়ৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "72°",
+        "as": "৭২°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "60°",
+        "as": "৬০°"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "25% of 360° = 90°.",
+      "as": "৩৬০° ৰ ২৫% = ৯০°।"
+    }
+  },
+  {
+    "id": "data-interpretation-068",
+    "q": {
+      "en": "A pie chart shows the time spent by a student in a day: school 25%, sleep 33.33%, study 20%, play 8.33%, others 13.33%. The central angle of the sleep sector is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰই এদিনত খৰচ কৰা সময় দেখুৱায়: বিদ্যালয় ২৫%, টোপনি ৩৩.৩৩%, অধ্যয়ন ২০%, খেল ৮.৩৩%, আন ১৩.৩৩%। টোপনিৰ খণ্ডৰ কেন্দ্ৰীয় কোণ:"
+    },
+    "options": [
+      {
+        "en": "120°",
+        "as": "১২০°"
+      },
+      {
+        "en": "90°",
+        "as": "৯০°"
+      },
+      {
+        "en": "108°",
+        "as": "১০৮°"
+      },
+      {
+        "en": "144°",
+        "as": "১৪৪°"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "33.33% of 360° = 120°.",
+      "as": "৩৬০° ৰ ৩৩.৩৩% = ১২০°।"
+    }
+  },
+  {
+    "id": "data-interpretation-069",
+    "q": {
+      "en": "A pie chart shows the time spent by a student in a day: school 25%, sleep 33.33%, study 20%, play 8.33%, others 13.33%. The total time spent on school and study is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰই এদিনত খৰচ কৰা সময় দেখুৱায়: বিদ্যালয় ২৫%, টোপনি ৩৩.৩৩%, অধ্যয়ন ২০%, খেল ৮.৩৩%, আন ১৩.৩৩%। বিদ্যালয় আৰু অধ্যয়নত মুঠ খৰচ কৰা সময়:"
+    },
+    "options": [
+      {
+        "en": "45%",
+        "as": "৪৫%"
+      },
+      {
+        "en": "40%",
+        "as": "৪০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "55%",
+        "as": "৫৫%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "25% + 20% = 45%.",
+      "as": "২৫% + ২০% = ৪৫%।"
+    }
+  },
+  {
+    "id": "data-interpretation-070",
+    "q": {
+      "en": "A pie chart shows the time spent by a student in a day: school 25%, sleep 33.33%, study 20%, play 8.33%, others 13.33%. If the day has 24 hours, the hours spent sleeping are:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰই এদিনত খৰচ কৰা সময় দেখুৱায়: বিদ্যালয় ২৫%, টোপনি ৩৩.৩৩%, অধ্যয়ন ২০%, খেল ৮.৩৩%, আন ১৩.৩৩%। দিনটোত ২৪ ঘণ্টা হ'লে টোপনিত খৰচ কৰা ঘণ্টা:"
+    },
+    "options": [
+      {
+        "en": "6 hours",
+        "as": "৬ hours"
+      },
+      {
+        "en": "7 hours",
+        "as": "৭ hours"
+      },
+      {
+        "en": "9 hours",
+        "as": "৯ hours"
+      },
+      {
+        "en": "8 hours",
+        "as": "৮ hours"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "33.33% of 24 = 8 hours.",
+      "as": "২৪ ৰ ৩৩.৩৩% = ৮ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "data-interpretation-071",
+    "q": {
+      "en": "A pie chart shows the time spent by a student in a day: school 25%, sleep 33.33%, study 20%, play 8.33%, others 13.33%. The ratio of the time spent studying to that spent playing is:",
+      "as": "এটা পাই চাৰ্টে এজন ছাত্ৰই এদিনত খৰচ কৰা সময় দেখুৱায়: বিদ্যালয় ২৫%, টোপনি ৩৩.৩৩%, অধ্যয়ন ২০%, খেল ৮.৩৩%, আন ১৩.৩৩%। অধ্যয়ন আৰু খেলত খৰচ কৰা সময়ৰ অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "5 : 12",
+        "as": "৫ : ১২"
+      },
+      {
+        "en": "2 : 1",
+        "as": "২ : ১"
+      },
+      {
+        "en": "3 : 1",
+        "as": "৩ : ১"
+      },
+      {
+        "en": "12 : 5",
+        "as": "১২ : ৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "20 : 8.33 = 20 : (25/3) = 60 : 25 = 12 : 5.",
+      "as": "২০ : ৮.৩৩ = ২০ : (২৫/৩) = ৬০ : ২৫ = ১২ : ৫।"
+    }
+  },
+  {
+    "id": "data-interpretation-072",
+    "q": {
+      "en": "A table gives the production of a company in three years: 2019 = 500, 2020 = 600, 2021 = 700. The percentage increase from 2019 to 2020 is:",
+      "as": "এটা তালিকাই এটা কোম্পানীৰ তিনি বছৰৰ উৎপাদন দিয়ে: ২০১৯ = ৫০০, ২০২০ = ৬০০, ২০২১ = ৭০০। ২০১৯ ৰ পৰা ২০২০ লৈ শতাংশ বৃদ্ধি:"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(100 ÷ 500) × 100 = 20%.",
+      "as": "(১০০ ÷ ৫০০) × ১০০ = ২০%।"
+    }
+  },
+  {
+    "id": "data-interpretation-073",
+    "q": {
+      "en": "A table gives the production of a company in three years: 2019 = 500, 2020 = 600, 2021 = 700. The percentage increase from 2020 to 2021 is:",
+      "as": "এটা তালিকাই এটা কোম্পানীৰ তিনি বছৰৰ উৎপাদন দিয়ে: ২০১৯ = ৫০০, ২০২০ = ৬০০, ২০২১ = ৭০০। ২০২০ ৰ পৰা ২০২১ লৈ শতাংশ বৃদ্ধি:"
+    },
+    "options": [
+      {
+        "en": "20%",
+        "as": "২০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "16.67%",
+        "as": "১৬.৬৭%"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(100 ÷ 600) × 100 ≈ 16.67%.",
+      "as": "(১০০ ÷ ৬০০) × ১০০ ≈ ১৬.৬৭%।"
+    }
+  },
+  {
+    "id": "data-interpretation-074",
+    "q": {
+      "en": "A table gives the production of a company in three years: 2019 = 500, 2020 = 600, 2021 = 700. The average production over the three years is:",
+      "as": "এটা তালিকাই এটা কোম্পানীৰ তিনি বছৰৰ উৎপাদন দিয়ে: ২০১৯ = ৫০০, ২০২০ = ৬০০, ২০২১ = ৭০০। তিনি বছৰৰ গড় উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "650",
+        "as": "৬৫০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1800 ÷ 3 = 600.",
+      "as": "১৮০০ ÷ ৩ = ৬০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-075",
+    "q": {
+      "en": "A table gives the production of a company in three years: 2019 = 500, 2020 = 600, 2021 = 700. The total production over the three years is:",
+      "as": "এটা তালিকাই এটা কোম্পানীৰ তিনি বছৰৰ উৎপাদন দিয়ে: ২০১৯ = ৫০০, ২০২০ = ৬০০, ২০২১ = ৭০০। তিনি বছৰৰ মুঠ উৎপাদন:"
+    },
+    "options": [
+      {
+        "en": "1700",
+        "as": "১৭০০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "1900",
+        "as": "১৯০০"
+      },
+      {
+        "en": "1600",
+        "as": "১৬০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "500 + 600 + 700 = 1800.",
+      "as": "৫০০ + ৬০০ + ৭০০ = ১৮০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-076",
+    "q": {
+      "en": "A table gives the production of a company in three years: 2019 = 500, 2020 = 600, 2021 = 700. The ratio of the production in 2019 to that in 2021 is:",
+      "as": "এটা তালিকাই এটা কোম্পানীৰ তিনি বছৰৰ উৎপাদন দিয়ে: ২০১৯ = ৫০০, ২০২০ = ৬০০, ২০২১ = ৭০০। ২০১৯ ৰ উৎপাদনৰ ২০২১ ৰ সৈতে অনুপাত:"
+    },
+    "options": [
+      {
+        "en": "5 : 7",
+        "as": "৫ : ৭"
+      },
+      {
+        "en": "7 : 5",
+        "as": "৭ : ৫"
+      },
+      {
+        "en": "5 : 6",
+        "as": "৫ : ৬"
+      },
+      {
+        "en": "6 : 7",
+        "as": "৬ : ৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "500 : 700 = 5 : 7.",
+      "as": "৫০০ : ৭০০ = ৫ : ৭।"
+    }
+  },
+  {
+    "id": "data-interpretation-077",
+    "q": {
+      "en": "The table below gives the runs scored by a batsman in five innings: 40, 60, 80, 50, 70. The total runs scored is:",
+      "as": "তলৰ তালিকাই এজন বেটছমেনে পাঁচখন ইনিংছত কৰা ৰান দিয়ে: ৪০, ৬০, ৮০, ৫০, ৭০। মুঠ ৰান:"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "290",
+        "as": "২৯০"
+      },
+      {
+        "en": "310",
+        "as": "৩১০"
+      },
+      {
+        "en": "280",
+        "as": "২৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "40 + 60 + 80 + 50 + 70 = 300.",
+      "as": "৪০ + ৬০ + ৮০ + ৫০ + ৭০ = ৩০০।"
+    }
+  },
+  {
+    "id": "data-interpretation-078",
+    "q": {
+      "en": "The table below gives the runs scored by a batsman in five innings: 40, 60, 80, 50, 70. The average runs per innings is:",
+      "as": "তলৰ তালিকাই এজন বেটছমেনে পাঁচখন ইনিংছত কৰা ৰান দিয়ে: ৪০, ৬০, ৮০, ৫০, ৭০। প্ৰতি ইনিংছত গড় ৰান:"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "300 ÷ 5 = 60.",
+      "as": "৩০০ ÷ ৫ = ৬০।"
+    }
+  },
+  {
+    "id": "data-interpretation-079",
+    "q": {
+      "en": "The table below gives the runs scored by a batsman in five innings: 40, 60, 80, 50, 70. The highest score exceeds the lowest by:",
+      "as": "তলৰ তালিকাই এজন বেটছমেনে পাঁচখন ইনিংছত কৰা ৰান দিয়ে: ৪০, ৬০, ৮০, ৫০, ৭০। সৰ্বোচ্চ ৰানে সৰ্বনিম্নক চেৰাই যায়:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "80 − 40 = 40.",
+      "as": "৮০ − ৪০ = ৪০।"
+    }
+  },
+  {
+    "id": "data-interpretation-080",
+    "q": {
+      "en": "The table below gives the runs scored by a batsman in five innings: 40, 60, 80, 50, 70. The highest score as a percentage of the total is:",
+      "as": "তলৰ তালিকাই এজন বেটছমেনে পাঁচখন ইনিংছত কৰা ৰান দিয়ে: ৪০, ৬০, ৮০, ৫০, ৭০। মুঠৰ শতাংশ হিচাপে সৰ্বোচ্চ ৰান:"
+    },
+    "options": [
+      {
+        "en": "25%",
+        "as": "২৫%"
+      },
+      {
+        "en": "26.67%",
+        "as": "২৬.৬৭%"
+      },
+      {
+        "en": "30%",
+        "as": "৩০%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(80 ÷ 300) × 100 ≈ 26.67%.",
+      "as": "(৮০ ÷ ৩০০) × ১০০ ≈ ২৬.৬৭%।"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sentence-rearrangement-001",
+    "q": {
+      "en": "Arrange the words into a meaningful sentence: is / this / beautiful / a / garden",
+      "as": "শব্দবোৰ সজাই অৰ্থপূৰ্ণ বাক্য গঠন কৰা: is / this / beautiful / a / garden"
+    },
+    "options": [
+      {
+        "en": "This is a beautiful garden.",
+        "as": "This is a beautiful garden."
+      },
+      {
+        "en": "This a beautiful garden is.",
+        "as": "This a beautiful garden is."
+      },
+      {
+        "en": "A beautiful this is garden.",
+        "as": "A beautiful this is garden."
+      },
+      {
+        "en": "Beautiful garden this a is.",
+        "as": "Beautiful garden this a is."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The natural English order is subject + verb + article + adjective + noun.",
+      "as": "ইংৰাজীত স্বাভাৱিক ক্ৰম হৈছে কৰ্তা + ক্ৰিয়া + আৰ্টিকল + বিশেষণ + বিশেষ্য।"
+    }
+  }
+]

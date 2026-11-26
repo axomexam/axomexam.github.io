@@ -1,0 +1,2945 @@
+[
+  {
+    "id": "numerical-051",
+    "q": {
+      "en": "The distance between the points (0, 0) and (3, 4) is",
+      "as": "বিন্দু (০, ০) আৰু (৩, ৪) ৰ মাজৰ দূৰত্ব কিমান"
+    },
+    "options": [
+      {
+        "en": "5 units",
+        "as": "৫ একক"
+      },
+      {
+        "en": "7 units",
+        "as": "৭ একক"
+      },
+      {
+        "en": "25 units",
+        "as": "২৫ একক"
+      },
+      {
+        "en": "√7 units",
+        "as": "√৭ একক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = √((3 - 0)² + (4 - 0)²) = √(9 + 16) = √25 = 5 units.",
+      "as": "দূৰত্ব = √((৩ - ০)² + (৪ - ০)²) = √(৯ + ১৬) = √২৫ = ৫ একক।"
+    }
+  },
+  {
+    "id": "numerical-052",
+    "q": {
+      "en": "The midpoint of the line joining (2, 6) and (8, 4) is",
+      "as": "(২, ৬) আৰু (৮, ৪) সংযোগী ৰেখাৰ মধ্যবিন্দু কি"
+    },
+    "options": [
+      {
+        "en": "(5, 5)",
+        "as": "(৫, ৫)"
+      },
+      {
+        "en": "(10, 10)",
+        "as": "(১০, ১০)"
+      },
+      {
+        "en": "(6, 2)",
+        "as": "(৬, ২)"
+      },
+      {
+        "en": "(3, 1)",
+        "as": "(৩, ১)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Midpoint = ((2 + 8)/2, (6 + 4)/2) = (5, 5).",
+      "as": "মধ্যবিন্দু = ((২ + ৮)/২, (৬ + ৪)/২) = (৫, ৫)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-001",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (0, 0) and (3, 4).",
+      "as": "(০, ০) আৰু (৩, ৪) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = √((3-0)² + (4-0)²) = √25 = 5.",
+      "as": "দূৰত্ব = √((৩)² + (৪)²) = ৫।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-002",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (1, 2) and (4, 6).",
+      "as": "(১, ২) আৰু (৪, ৬) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = √((4-1)² + (6-2)²) = √25 = 5.",
+      "as": "দূৰত্ব = √((৩)² + (৪)²) = ৫।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-003",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (-2, 3) and (4, 11).",
+      "as": "(-২, ৩) আৰু (৪, ১১) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = √((4--2)² + (11-3)²) = √100 = 10.",
+      "as": "দূৰত্ব = √((৬)² + (৮)²) = ১০।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-004",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (5, -1) and (13, 4).",
+      "as": "(৫, -১) আৰু (১৩, ৪) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = √((13-5)² + (4--1)²) = √89 = 9.",
+      "as": "দূৰত্ব = √((৮)² + (৫)²) = ৯।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-005",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (2, 3) and (8, 11).",
+      "as": "(২, ৩) আৰু (৮, ১১) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = √((8-2)² + (11-3)²) = √100 = 10.",
+      "as": "দূৰত্ব = √((৬)² + (৮)²) = ১০।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-006",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (2, 4) and (8, 10).",
+      "as": "(২, ৪) আৰু (৮, ১০) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(5, 7)",
+        "as": "(৫, ৭)"
+      },
+      {
+        "en": "(10, 14)",
+        "as": "(১০, ১৪)"
+      },
+      {
+        "en": "(6, 6)",
+        "as": "(৬, ৬)"
+      },
+      {
+        "en": "(5, 7) 1",
+        "as": "(৫, ৭) ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = (5, 7).",
+      "as": "মধ্যবিন্দু = (5, 7)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-007",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (-3, 5) and (7, -1).",
+      "as": "(-৩, ৫) আৰু (৭, -১) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(4, 4)",
+        "as": "(৪, ৪)"
+      },
+      {
+        "en": "(10, -6)",
+        "as": "(১০, -৬)"
+      },
+      {
+        "en": "(3, 1)",
+        "as": "(৩, ১)"
+      },
+      {
+        "en": "(2, 2)",
+        "as": "(২, ২)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = (2, 2).",
+      "as": "মধ্যবিন্দু = (2, 2)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-008",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (0, 0) and (6, 8).",
+      "as": "(০, ০) আৰু (৬, ৮) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(6, 8)",
+        "as": "(৬, ৮)"
+      },
+      {
+        "en": "(3, 4)",
+        "as": "(৩, ৪)"
+      },
+      {
+        "en": "(4, 3)",
+        "as": "(৪, ৩)"
+      },
+      {
+        "en": "(3, 4) 1",
+        "as": "(৩, ৪) ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = (3, 4).",
+      "as": "মধ্যবিন্দু = (3, 4)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-009",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (4, -2) and (10, 6).",
+      "as": "(৪, -২) আৰু (১০, ৬) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(14, 4)",
+        "as": "(১৪, ৪)"
+      },
+      {
+        "en": "(6, 8)",
+        "as": "(৬, ৮)"
+      },
+      {
+        "en": "(7, 2)",
+        "as": "(৭, ২)"
+      },
+      {
+        "en": "(8, 1)",
+        "as": "(৮, ১)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = (7, 2).",
+      "as": "মধ্যবিন্দু = (7, 2)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-010",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (1, 3) and (9, 11).",
+      "as": "(১, ৩) আৰু (৯, ১১) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(10, 14)",
+        "as": "(১০, ১৪)"
+      },
+      {
+        "en": "(8, 8)",
+        "as": "(৮, ৮)"
+      },
+      {
+        "en": "(6, 6)",
+        "as": "(৬, ৬)"
+      },
+      {
+        "en": "(5, 7)",
+        "as": "(৫, ৭)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2) = (5, 7).",
+      "as": "মধ্যবিন্দু = (5, 7)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-011",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (2, 3) and (8, 9) internally in the ratio 1 : 2.",
+      "as": "(২, ৩) আৰু (৮, ৯) সংযোগ কৰা ৰেখাখণ্ডক ১ : ২ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(4, 5)",
+        "as": "(৪, ৫)"
+      },
+      {
+        "en": "(5, 4)",
+        "as": "(৫, ৪)"
+      },
+      {
+        "en": "(10, 12)",
+        "as": "(১০, ১২)"
+      },
+      {
+        "en": "(4, 5) 1",
+        "as": "(৪, ৫) ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Section formula: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)) = (4, 5).",
+      "as": "বিভাজন সূত্ৰমতে বিন্দু (4, 5)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-012",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (1, 1) and (7, 13) internally in the ratio 2 : 1.",
+      "as": "(১, ১) আৰু (৭, ১৩) সংযোগ কৰা ৰেখাখণ্ডক ২ : ১ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(5, 9)",
+        "as": "(৫, ৯)"
+      },
+      {
+        "en": "(9, 5)",
+        "as": "(৯, ৫)"
+      },
+      {
+        "en": "(8, 14)",
+        "as": "(৮, ১৪)"
+      },
+      {
+        "en": "(6, 8)",
+        "as": "(৬, ৮)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Section formula: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)) = (5, 9).",
+      "as": "বিভাজন সূত্ৰমতে বিন্দু (5, 9)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-013",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (0, 2) and (6, 8) internally in the ratio 1 : 1.",
+      "as": "(০, ২) আৰু (৬, ৮) সংযোগ কৰা ৰেখাখণ্ডক ১ : ১ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(5, 3)",
+        "as": "(৫, ৩)"
+      },
+      {
+        "en": "(3, 5)",
+        "as": "(৩, ৫)"
+      },
+      {
+        "en": "(6, 10)",
+        "as": "(৬, ১০)"
+      },
+      {
+        "en": "(4, 4)",
+        "as": "(৪, ৪)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Section formula: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)) = (3, 5).",
+      "as": "বিভাজন সূত্ৰমতে বিন্দু (3, 5)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-014",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (4, 1) and (10, 7) internally in the ratio 2 : 3.",
+      "as": "(৪, ১) আৰু (১০, ৭) সংযোগ কৰা ৰেখাখণ্ডক ২ : ৩ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(17/5, 32/5)",
+        "as": "(১৭/৫, ৩২/৫)"
+      },
+      {
+        "en": "(14, 8)",
+        "as": "(১৪, ৮)"
+      },
+      {
+        "en": "(32/5, 17/5)",
+        "as": "(৩২/৫, ১৭/৫)"
+      },
+      {
+        "en": "(37/5, 12/5)",
+        "as": "(৩৭/৫, ১২/৫)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Section formula: ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n)) = (32/5, 17/5).",
+      "as": "বিভাজন সূত্ৰমতে বিন্দু (32/5, 17/5)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-015",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (0, 0), (4, 0) and (0, 3).",
+      "as": "(০, ০), (৪, ০) আৰু (০, ৩) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| = ½ × 12 = 6 sq units.",
+      "as": "কালি = ½|...| = ৬ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-016",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (1, 2), (5, 2) and (3, 7).",
+      "as": "(১, ২), (৫, ২) আৰু (৩, ৭) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| = ½ × 20 = 10 sq units.",
+      "as": "কালি = ½|...| = ১০ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-017",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (-2, 1), (3, 1) and (1, 6).",
+      "as": "(-২, ১), (৩, ১) আৰু (১, ৬) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Area = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| = ½ × 24 = 12 sq units.",
+      "as": "কালি = ½|...| = ১২ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-018",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (0, 0), (6, 0) and (0, 8).",
+      "as": "(০, ০), (৬, ০) আৰু (০, ৮) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Area = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| = ½ × 48 = 24 sq units.",
+      "as": "কালি = ½|...| = ২৪ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-019",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (2, 3), (8, 3) and (5, 9).",
+      "as": "(২, ৩), (৮, ৩) আৰু (৫, ৯) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Area = ½|x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| = ½ × 36 = 18 sq units.",
+      "as": "কালি = ½|...| = ১৮ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-020",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (1, 2) and (5, 10).",
+      "as": "(১, ২) আৰু (৫, ১০) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Slope = (y₂-y₁)/(x₂-x₁) = (10-2)/(5-1) = 2.",
+      "as": "ঢাল = (৮)/(৪) = 2।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-021",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (2, 3) and (6, 11).",
+      "as": "(২, ৩) আৰু (৬, ১১) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Slope = (y₂-y₁)/(x₂-x₁) = (11-3)/(6-2) = 2.",
+      "as": "ঢাল = (৮)/(৪) = 2।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-022",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (-1, 4) and (3, 8).",
+      "as": "(-১, ৪) আৰু (৩, ৮) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1 1",
+        "as": "১ ১"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Slope = (y₂-y₁)/(x₂-x₁) = (8-4)/(3--1) = 1.",
+      "as": "ঢাল = (৪)/(৪) = 1।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-023",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (3, 5) and (7, 2).",
+      "as": "(৩, ৫) আৰু (৭, ২) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-3/4",
+        "as": "-৩/৪"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "-4/3",
+        "as": "-৪/৩"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂-y₁)/(x₂-x₁) = (2-5)/(7-3) = -3/4.",
+      "as": "ঢাল = (-৩)/(৪) = -3/4।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-024",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (0, 0) and (4, 6).",
+      "as": "(০, ০) আৰু (৪, ৬) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "-3/2",
+        "as": "-৩/২"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂-y₁)/(x₂-x₁) = (6-0)/(4-0) = 3/2.",
+      "as": "ঢাল = (৬)/(৪) = 3/2।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-025",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 2 and y-intercept 3.",
+      "as": "ঢাল ২ আৰু y-ছেদ ৩ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 2x - 3",
+        "as": "y = ২x - ৩"
+      },
+      {
+        "en": "y = 2x + 3",
+        "as": "y = ২x + ৩"
+      },
+      {
+        "en": "y = 3x + 2",
+        "as": "y = ৩x + ২"
+      },
+      {
+        "en": "y = -2x + 3",
+        "as": "y = -২x + ৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using y = mx + c, the equation is y = 2x + 3.",
+      "as": "y = mx + c ব্যৱহাৰ কৰি সমীকৰণ y = ২x + ৩।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-026",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope -3 and y-intercept 5.",
+      "as": "ঢাল -৩ আৰু y-ছেদ ৫ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = -3x - 5",
+        "as": "y = -৩x - ৫"
+      },
+      {
+        "en": "y = 5x + -3",
+        "as": "y = ৫x + -৩"
+      },
+      {
+        "en": "y = -3x + 5",
+        "as": "y = -৩x + ৫"
+      },
+      {
+        "en": "y = --3x + 5",
+        "as": "y = --৩x + ৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using y = mx + c, the equation is y = -3x + 5.",
+      "as": "y = mx + c ব্যৱহাৰ কৰি সমীকৰণ y = -৩x + ৫।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-027",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 4 and y-intercept -2.",
+      "as": "ঢাল ৪ আৰু y-ছেদ -২ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 4x + 2",
+        "as": "y = ৪x + ২"
+      },
+      {
+        "en": "y = -2x + 4",
+        "as": "y = -২x + ৪"
+      },
+      {
+        "en": "y = -4x + -2",
+        "as": "y = -৪x + -২"
+      },
+      {
+        "en": "y = 4x - 2",
+        "as": "y = ৪x - ২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using y = mx + c, the equation is y = 4x - 2.",
+      "as": "y = mx + c ব্যৱহাৰ কৰি সমীকৰণ y = ৪x - ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-028",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope -1 and y-intercept 7.",
+      "as": "ঢাল -১ আৰু y-ছেদ ৭ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = -1x - 7",
+        "as": "y = -১x - ৭"
+      },
+      {
+        "en": "y = 7x + -1",
+        "as": "y = ৭x + -১"
+      },
+      {
+        "en": "y = -1x + 7",
+        "as": "y = -১x + ৭"
+      },
+      {
+        "en": "y = --1x + 7",
+        "as": "y = --১x + ৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using y = mx + c, the equation is y = -1x + 7.",
+      "as": "y = mx + c ব্যৱহাৰ কৰি সমীকৰণ y = -১x + ৭।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-029",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line parallel to y = 3x + 1 passing through (1, 2).",
+      "as": "y = ৩x + 1 ৰ সমান্তৰাল আৰু (১, ২) ৰ মাজেৰে যোৱা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = -3x + -1",
+        "as": "y = -৩x + -১"
+      },
+      {
+        "en": "y = 3x - 1",
+        "as": "y = ৩x - ১"
+      },
+      {
+        "en": "y = 3x + 1",
+        "as": "y = ৩x + ১"
+      },
+      {
+        "en": "y = 3x - 1 1",
+        "as": "y = ৩x - ১ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Parallel lines have equal slope 3. Using y - 2 = 3(x - 1) gives y = 3x - 1.",
+      "as": "সমান্তৰাল ৰেখাৰ ঢাল সমান; সেয়ে y = ৩x - ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-030",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line parallel to y = 2x + 1 passing through (3, 5).",
+      "as": "y = ২x + 1 ৰ সমান্তৰাল আৰু (৩, ৫) ৰ মাজেৰে যোৱা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 2x - 1",
+        "as": "y = ২x - ১"
+      },
+      {
+        "en": "y = -2x + -1",
+        "as": "y = -২x + -১"
+      },
+      {
+        "en": "y = 2x + 1",
+        "as": "y = ২x + ১"
+      },
+      {
+        "en": "y = 2x - 1 1",
+        "as": "y = ২x - ১ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Parallel lines have equal slope 2. Using y - 5 = 2(x - 3) gives y = 2x - 1.",
+      "as": "সমান্তৰাল ৰেখাৰ ঢাল সমান; সেয়ে y = ২x - ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-031",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line parallel to y = -4x + 1 passing through (2, 1).",
+      "as": "y = -৪x + 1 ৰ সমান্তৰাল আৰু (২, ১) ৰ মাজেৰে যোৱা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = --4x + 9",
+        "as": "y = --৪x + ৯"
+      },
+      {
+        "en": "y = -4x + 11",
+        "as": "y = -৪x + ১১"
+      },
+      {
+        "en": "y = -4x - 9",
+        "as": "y = -৪x - ৯"
+      },
+      {
+        "en": "y = -4x + 9",
+        "as": "y = -৪x + ৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Parallel lines have equal slope -4. Using y - 1 = -4(x - 2) gives y = -4x + 9.",
+      "as": "সমান্তৰাল ৰেখাৰ ঢাল সমান; সেয়ে y = -৪x + ৯।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-032",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope 2.",
+      "as": "ঢাল ২ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-1/2",
+        "as": "-১/২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For perpendicular lines m₁m₂ = -1, so the slope is -1/2 = -1/2.",
+      "as": "লম্ব ৰেখাৰ বাবে m₁m₂ = -1, সেয়ে ঢাল -1/2।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-033",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope 3.",
+      "as": "ঢাল ৩ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "-1/3",
+        "as": "-১/৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For perpendicular lines m₁m₂ = -1, so the slope is -1/3 = -1/3.",
+      "as": "লম্ব ৰেখাৰ বাবে m₁m₂ = -1, সেয়ে ঢাল -1/3।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-034",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope -4.",
+      "as": "ঢাল -৪ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-4",
+        "as": "-৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "-1/4",
+        "as": "-১/৪"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For perpendicular lines m₁m₂ = -1, so the slope is -1/-4 = 1/4.",
+      "as": "লম্ব ৰেখাৰ বাবে m₁m₂ = -1, সেয়ে ঢাল 1/4।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-035",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope 5.",
+      "as": "ঢাল ৫ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-1/5",
+        "as": "-১/৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For perpendicular lines m₁m₂ = -1, so the slope is -1/5 = -1/5.",
+      "as": "লম্ব ৰেখাৰ বাবে m₁m₂ = -1, সেয়ে ঢাল -1/5।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-036",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Check whether the points (1, 2), (2, 4) and (3, 6) are collinear.",
+      "as": "(১, ২), (২, ৪) আৰু (৩, ৬) বিন্দু তিনিটা সমৰেখীয় হয় নে নহয় পৰীক্ষা কৰা।"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only two are collinear",
+        "as": "Only two are collinear"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The area of the triangle formed is 0, so the points are collinear.",
+      "as": "গঠিত ত্ৰিভুজৰ কালি ০, সেয়ে বিন্দুবোৰ সমৰেখীয়।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-037",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Check whether the points (1, 1), (2, 3) and (4, 5) are collinear.",
+      "as": "(১, ১), (২, ৩) আৰু (৪, ৫) বিন্দু তিনিটা সমৰেখীয় হয় নে নহয় পৰীক্ষা কৰা।"
+    },
+    "options": [
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only two are collinear",
+        "as": "Only two are collinear"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The area of the triangle formed is 1, so the points are not collinear.",
+      "as": "গঠিত ত্ৰিভুজৰ কালি ১, সেয়ে বিন্দুবোৰ সমৰেখীয় নহয়।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-038",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Check whether the points (0, 0), (2, 2) and (5, 5) are collinear.",
+      "as": "(০, ০), (২, ২) আৰু (৫, ৫) বিন্দু তিনিটা সমৰেখীয় হয় নে নহয় পৰীক্ষা কৰা।"
+    },
+    "options": [
+      {
+        "en": "No",
+        "as": "No"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Yes",
+        "as": "Yes"
+      },
+      {
+        "en": "Only two are collinear",
+        "as": "Only two are collinear"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The area of the triangle formed is 0, so the points are collinear.",
+      "as": "গঠিত ত্ৰিভুজৰ কালি ০, সেয়ে বিন্দুবোৰ সমৰেখীয়।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-039",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 4x + 3y = 12.",
+      "as": "4x + 3y = 12 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Putting y = 0 gives 4x = 12, so x = 3.",
+      "as": "y = 0 বহুৱালে x = ৩।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-040",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the y-intercept of the line 4x + 3y = 12.",
+      "as": "4x + 3y = 12 ৰেখাৰ y-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Putting x = 0 gives 3y = 12, so y = 4.",
+      "as": "x = 0 বহুৱালে y = ৪।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-041",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 2x + 5y = 10.",
+      "as": "2x + 5y = 10 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Putting y = 0 gives 2x = 10, so x = 5.",
+      "as": "y = 0 বহুৱালে x = ৫।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-042",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the y-intercept of the line 2x + 5y = 10.",
+      "as": "2x + 5y = 10 ৰেখাৰ y-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Putting x = 0 gives 5y = 10, so y = 2.",
+      "as": "x = 0 বহুৱালে y = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-043",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 6x + 4y = 24.",
+      "as": "6x + 4y = 24 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Putting y = 0 gives 6x = 24, so x = 4.",
+      "as": "y = 0 বহুৱালে x = ৪।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-044",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the y-intercept of the line 6x + 4y = 24.",
+      "as": "6x + 4y = 24 ৰেখাৰ y-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Putting x = 0 gives 4y = 24, so y = 6.",
+      "as": "x = 0 বহুৱালে y = ৬।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-045",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 4x - 6y + 9 = 0.",
+      "as": "x² + y² - ৪x - ৬y + ৯ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Centre = (2, 3); radius = √(g² + f² - c) = √(2² + 3² - 9) = 2.",
+      "as": "কেন্দ্ৰ = (২, ৩); ব্যাসাৰ্ধ = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-046",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 2x - 4y + 4 = 0.",
+      "as": "x² + y² - ২x - ৪y + ৪ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Centre = (1, 2); radius = √(g² + f² - c) = √(1² + 2² - 4) = 1.",
+      "as": "কেন্দ্ৰ = (১, ২); ব্যাসাৰ্ধ = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-047",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 6x - 8y + 21 = 0.",
+      "as": "x² + y² - ৬x - ৮y + ২১ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Centre = (3, 4); radius = √(g² + f² - c) = √(3² + 4² - 21) = 2.",
+      "as": "কেন্দ্ৰ = (৩, ৪); ব্যাসাৰ্ধ = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-048",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (0, 0) and (5, 12).",
+      "as": "(০, ০) আৰু (৫, ১২) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the distance formula: √((5−0)² + (12−0)²) = √(5² + 12²) = √(25 + 144) = 13 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৫−০)² + (১২−০)²) = √(৫² + ১২²) = ১৩ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-049",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (2, 1) and (5, 5).",
+      "as": "(২, ১) আৰু (৫, ৫) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the distance formula: √((5−2)² + (5−1)²) = √(3² + 4²) = √(9 + 16) = 5 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৫−২)² + (৫−১)²) = √(৩² + ৪²) = ৫ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-050",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (-3, 2) and (5, 8).",
+      "as": "(-৩, ২) আৰু (৫, ৮) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the distance formula: √((5−-3)² + (8−2)²) = √(8² + 6²) = √(64 + 36) = 10 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৫−-৩)² + (৮−২)²) = √(৮² + ৬²) = ১০ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-051",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (4, 3) and (10, 11).",
+      "as": "(৪, ৩) আৰু (১০, ১১) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the distance formula: √((10−4)² + (11−3)²) = √(6² + 8²) = √(36 + 64) = 10 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((১০−৪)² + (১১−৩)²) = √(৬² + ৮²) = ১০ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-052",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (1, 2) and (5, 8).",
+      "as": "(১, ২) আৰু (৫, ৮) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(6, 10)",
+        "as": "(৬, ১০)"
+      },
+      {
+        "en": "(4, 6)",
+        "as": "(৪, ৬)"
+      },
+      {
+        "en": "(3, 5)",
+        "as": "(৩, ৫)"
+      },
+      {
+        "en": "(4, 4)",
+        "as": "(৪, ৪)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((1+5)/2, (2+8)/2) = (3, 5).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((১+৫)/2, (২+৮)/2) = (৩, ৫)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-053",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (-2, 4) and (6, 10).",
+      "as": "(-২, ৪) আৰু (৬, ১০) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(4, 14)",
+        "as": "(৪, ১৪)"
+      },
+      {
+        "en": "(2, 7)",
+        "as": "(২, ৭)"
+      },
+      {
+        "en": "(8, 6)",
+        "as": "(৮, ৬)"
+      },
+      {
+        "en": "(3, 6)",
+        "as": "(৩, ৬)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((-2+6)/2, (4+10)/2) = (2, 7).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((-২+৬)/2, (৪+১০)/2) = (২, ৭)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-054",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (3, 1) and (9, 7).",
+      "as": "(৩, ১) আৰু (৯, ৭) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(6, 4)",
+        "as": "(৬, ৪)"
+      },
+      {
+        "en": "(12, 8)",
+        "as": "(১২, ৮)"
+      },
+      {
+        "en": "(6, 6)",
+        "as": "(৬, ৬)"
+      },
+      {
+        "en": "(7, 3)",
+        "as": "(৭, ৩)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((3+9)/2, (1+7)/2) = (6, 4).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((৩+৯)/2, (১+৭)/2) = (৬, ৪)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-055",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (0, 0), (5, 0) and (0, 4).",
+      "as": "(০, ০), (৫, ০) আৰু (০, ৪) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the shoelace formula to (0, 0), (5, 0) and (0, 4): area = ½|0(0−4) + 5(4−0) + 0(0−0)| = ½ × 20 = 10 square units.",
+      "as": "(০, ০), (৫, ০) আৰু (০, ৪) বিন্দুত শ্ব'লেছ সূত্ৰ প্ৰয়োগ কৰা: কালি = ½ × ২০ = ১০ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-056",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (1, 1), (6, 1) and (3, 5).",
+      "as": "(১, ১), (৬, ১) আৰু (৩, ৫) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the shoelace formula to (1, 1), (6, 1) and (3, 5): area = ½|1(1−5) + 6(5−1) + 3(1−1)| = ½ × 20 = 10 square units.",
+      "as": "(১, ১), (৬, ১) আৰু (৩, ৫) বিন্দুত শ্ব'লেছ সূত্ৰ প্ৰয়োগ কৰা: কালি = ½ × ২০ = ১০ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-057",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (2, 2), (7, 2) and (4, 9).",
+      "as": "(২, ২), (৭, ২) আৰু (৪, ৯) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Area = 17 sq units.",
+      "as": "কালি = ১৭ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-058",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (1, 1) and (3, 7).",
+      "as": "(১, ১) আৰু (৩, ৭) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (7 − 1)/(3 − 1) = 6/2 = 3.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (৭ − ১)/(৩ − ১) = ৩।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-059",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (2, 5) and (6, 9).",
+      "as": "(২, ৫) আৰু (৬, ৯) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1 1",
+        "as": "১ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (9 − 5)/(6 − 2) = 4/4 = 1.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (৯ − ৫)/(৬ − ২) = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-060",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (-1, 2) and (3, 6).",
+      "as": "(-১, ২) আৰু (৩, ৬) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1 1",
+        "as": "১ ১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (6 − 2)/(3 − -1) = 4/4 = 1.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (৬ − ২)/(৩ − -১) = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-061",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 3 and y-intercept 2.",
+      "as": "ঢাল ৩ আৰু y-ছেদ ২ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 3x - 2",
+        "as": "y = ৩x - ২"
+      },
+      {
+        "en": "y = 3x + 2",
+        "as": "y = ৩x + ২"
+      },
+      {
+        "en": "y = 2x + 3",
+        "as": "y = ২x + ৩"
+      },
+      {
+        "en": "y = -3x + 2",
+        "as": "y = -৩x + ২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "y = 3x + 2.",
+      "as": "y = ৩x + ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-062",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope -2 and y-intercept 6.",
+      "as": "ঢাল -২ আৰু y-ছেদ ৬ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = -2x - 6",
+        "as": "y = -২x - ৬"
+      },
+      {
+        "en": "y = 6x + -2",
+        "as": "y = ৬x + -২"
+      },
+      {
+        "en": "y = -2x + 6",
+        "as": "y = -২x + ৬"
+      },
+      {
+        "en": "y = --2x + 6",
+        "as": "y = --২x + ৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "y = -2x + 6.",
+      "as": "y = -২x + ৬।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-063",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 5 and y-intercept -1.",
+      "as": "ঢাল ৫ আৰু y-ছেদ -১ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 5x + 1",
+        "as": "y = ৫x + ১"
+      },
+      {
+        "en": "y = -1x + 5",
+        "as": "y = -১x + ৫"
+      },
+      {
+        "en": "y = -5x + -1",
+        "as": "y = -৫x + -১"
+      },
+      {
+        "en": "y = 5x - 1",
+        "as": "y = ৫x - ১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "y = 5x - 1.",
+      "as": "y = ৫x - ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-064",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope 6.",
+      "as": "ঢাল ৬ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      },
+      {
+        "en": "-1/6",
+        "as": "-১/৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Slope = -1/6 = -1/6.",
+      "as": "ঢাল = -1/6।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-065",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 2x - 2y + 1 = 0.",
+      "as": "x² + y² - ২x - ২y + ১ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Radius = √(1²+1²-1) = 1.",
+      "as": "ব্যাসাৰ্ধ = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-066",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 4x - 4y + 8 = 0.",
+      "as": "x² + y² - ৪x - ৪y + ৮ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Radius = √(2²+2²-8) = 0.",
+      "as": "ব্যাসাৰ্ধ = ০।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-067",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 5x + 2y = 10.",
+      "as": "5x + 2y = 10 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The x-intercept is where the line meets the x-axis, so put y = 0: 5x + 2×0 = 10, which gives x = 10/5 = 2.",
+      "as": "x-অক্ষত লগ পোৱা বিন্দুত y = ০: ৫x = ১০, সেয়ে x = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-068",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 3x + 6y = 18.",
+      "as": "3x + 6y = 18 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The x-intercept is where the line meets the x-axis, so put y = 0: 3x + 6×0 = 18, which gives x = 18/3 = 6.",
+      "as": "x-অক্ষত লগ পোৱা বিন্দুত y = ০: ৩x = ১৮, সেয়ে x = ৬।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-069",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (0, 0) and (6, 8).",
+      "as": "(০, ০) আৰু (৬, ৮) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the distance formula: √((6−0)² + (8−0)²) = √(6² + 8²) = √(36 + 64) = 10 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৬−০)² + (৮−০)²) = √(৬² + ৮²) = ১০ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-070",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (1, 3) and (4, 7).",
+      "as": "(১, ৩) আৰু (৪, ৭) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the distance formula: √((4−1)² + (7−3)²) = √(3² + 4²) = √(9 + 16) = 5 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৪−১)² + (৭−৩)²) = √(৩² + ৪²) = ৫ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-071",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (-2, -3) and (4, 5).",
+      "as": "(-২, -৩) আৰু (৪, ৫) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the distance formula: √((4−-2)² + (5−-3)²) = √(6² + 8²) = √(36 + 64) = 10 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((৪−-২)² + (৫−-৩)²) = √(৬² + ৮²) = ১০ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-072",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the distance between the points (7, 1) and (13, 9).",
+      "as": "(৭, ১) আৰু (১৩, ৯) বিন্দু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply the distance formula: √((13−7)² + (9−1)²) = √(6² + 8²) = √(36 + 64) = 10 units.",
+      "as": "দূৰত্বৰ সূত্ৰ প্ৰয়োগ কৰা: √((১৩−৭)² + (৯−১)²) = √(৬² + ৮²) = ১০ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-073",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (1, 5) and (7, 9).",
+      "as": "(১, ৫) আৰু (৭, ৯) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(8, 14)",
+        "as": "(৮, ১৪)"
+      },
+      {
+        "en": "(4, 7)",
+        "as": "(৪, ৭)"
+      },
+      {
+        "en": "(6, 4)",
+        "as": "(৬, ৪)"
+      },
+      {
+        "en": "(5, 6)",
+        "as": "(৫, ৬)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((1+7)/2, (5+9)/2) = (4, 7).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((১+৭)/2, (৫+৯)/2) = (৪, ৭)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-074",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (-2, 6) and (4, -2).",
+      "as": "(-২, ৬) আৰু (৪, -২) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(2, 4)",
+        "as": "(২, ৪)"
+      },
+      {
+        "en": "(6, -8)",
+        "as": "(৬, -৮)"
+      },
+      {
+        "en": "(1, 2)",
+        "as": "(১, ২)"
+      },
+      {
+        "en": "(2, 1)",
+        "as": "(২, ১)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((-2+4)/2, (6+-2)/2) = (1, 2).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((-২+৪)/2, (৬+-২)/2) = (১, ২)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-075",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the midpoint of the line segment joining (3, 3) and (9, 11).",
+      "as": "(৩, ৩) আৰু (৯, ১১) সংযোগ কৰা ৰেখাখণ্ডৰ মধ্যবিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(12, 14)",
+        "as": "(১২, ১৪)"
+      },
+      {
+        "en": "(6, 8)",
+        "as": "(৬, ৮)"
+      },
+      {
+        "en": "(7, 6)",
+        "as": "(৭, ৬)"
+      },
+      {
+        "en": "(6, 7)",
+        "as": "(৬, ৭)"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The midpoint averages the two x-coordinates and the two y-coordinates: ((3+9)/2, (3+11)/2) = (6, 7).",
+      "as": "মধ্যবিন্দুৱে দুয়োটা x আৰু দুয়োটা y স্থানাংকৰ গড় লয়: ((৩+৯)/2, (৩+১১)/2) = (৬, ৭)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-076",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (0, 0) and (6, 9) internally in the ratio 1 : 2.",
+      "as": "(০, ০) আৰু (৬, ৯) সংযোগ কৰা ৰেখাখণ্ডক ১ : ২ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(3, 2)",
+        "as": "(৩, ২)"
+      },
+      {
+        "en": "(6, 9)",
+        "as": "(৬, ৯)"
+      },
+      {
+        "en": "(2, 3)",
+        "as": "(২, ৩)"
+      },
+      {
+        "en": "(2, 3) 1",
+        "as": "(২, ৩) ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Point = (2, 3).",
+      "as": "বিন্দু = (2, 3)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-077",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (2, 4) and (8, 10) internally in the ratio 1 : 2.",
+      "as": "(২, ৪) আৰু (৮, ১০) সংযোগ কৰা ৰেখাখণ্ডক ১ : ২ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(6, 4)",
+        "as": "(৬, ৪)"
+      },
+      {
+        "en": "(4, 6)",
+        "as": "(৪, ৬)"
+      },
+      {
+        "en": "(10, 14)",
+        "as": "(১০, ১৪)"
+      },
+      {
+        "en": "(5, 5)",
+        "as": "(৫, ৫)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Point = (4, 6).",
+      "as": "বিন্দু = (4, 6)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-078",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the point dividing the line segment joining (1, 2) and (7, 10) internally in the ratio 1 : 2.",
+      "as": "(১, ২) আৰু (৭, ১০) সংযোগ কৰা ৰেখাখণ্ডক ১ : ২ অনুপাতত অন্তৰ্ভাগত বিভক্ত কৰা বিন্দু নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "(3, 14/3)",
+        "as": "(৩, ১৪/৩)"
+      },
+      {
+        "en": "(14/3, 3)",
+        "as": "(১৪/৩, ৩)"
+      },
+      {
+        "en": "(8, 12)",
+        "as": "(৮, ১২)"
+      },
+      {
+        "en": "(4, 11/3)",
+        "as": "(৪, ১১/৩)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Point = (3, 14/3).",
+      "as": "বিন্দু = (3, 14/3)।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-079",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (0, 0), (4, 0) and (0, 5).",
+      "as": "(০, ০), (৪, ০) আৰু (০, ৫) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply the shoelace formula to (0, 0), (4, 0) and (0, 5): area = ½|0(0−5) + 4(5−0) + 0(0−0)| = ½ × 20 = 10 square units.",
+      "as": "(০, ০), (৪, ০) আৰু (০, ৫) বিন্দুত শ্ব'লেছ সূত্ৰ প্ৰয়োগ কৰা: কালি = ½ × ২০ = ১০ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-080",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (1, 1), (5, 1) and (3, 6).",
+      "as": "(১, ১), (৫, ১) আৰু (৩, ৬) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply the shoelace formula to (1, 1), (5, 1) and (3, 6): area = ½|1(1−6) + 5(6−1) + 3(1−1)| = ½ × 20 = 10 square units.",
+      "as": "(১, ১), (৫, ১) আৰু (৩, ৬) বিন্দুত শ্ব'লেছ সূত্ৰ প্ৰয়োগ কৰা: কালি = ½ × ২০ = ১০ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-081",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the area of the triangle with vertices (2, 2), (8, 2) and (5, 8).",
+      "as": "(২, ২), (৮, ২) আৰু (৫, ৮) শীৰ্ষবিন্দু থকা ত্ৰিভুজৰ কালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply the shoelace formula to (2, 2), (8, 2) and (5, 8): area = ½|2(2−8) + 8(8−2) + 5(2−2)| = ½ × 36 = 18 square units.",
+      "as": "(২, ২), (৮, ২) আৰু (৫, ৮) বিন্দুত শ্ব'লেছ সূত্ৰ প্ৰয়োগ কৰা: কালি = ½ × ৩৬ = ১৮ বৰ্গ একক।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-082",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (1, 2) and (3, 8).",
+      "as": "(১, ২) আৰু (৩, ৮) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-3",
+        "as": "-৩"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (8 − 2)/(3 − 1) = 6/2 = 3.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (৮ − ২)/(৩ − ১) = ৩।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-083",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (2, 1) and (6, 9).",
+      "as": "(২, ১) আৰু (৬, ৯) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (9 − 1)/(6 − 2) = 8/4 = 2.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (৯ − ১)/(৬ − ২) = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-084",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of the line joining (0, 3) and (4, 11).",
+      "as": "(০, ৩) আৰু (৪, ১১) সংযোগ কৰা ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slope = (y₂ − y₁)/(x₂ − x₁) = (11 − 3)/(4 − 0) = 8/4 = 2.",
+      "as": "ঢাল = (y₂ − y₁)/(x₂ − x₁) = (১১ − ৩)/(৪ − ০) = ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-085",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 2 and y-intercept 5.",
+      "as": "ঢাল ২ আৰু y-ছেদ ৫ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 2x - 5",
+        "as": "y = ২x - ৫"
+      },
+      {
+        "en": "y = 2x + 5",
+        "as": "y = ২x + ৫"
+      },
+      {
+        "en": "y = 5x + 2",
+        "as": "y = ৫x + ২"
+      },
+      {
+        "en": "y = -2x + 5",
+        "as": "y = -২x + ৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "y = 2x + 5.",
+      "as": "y = ২x + ৫।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-086",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope -3 and y-intercept 4.",
+      "as": "ঢাল -৩ আৰু y-ছেদ ৪ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = -3x - 4",
+        "as": "y = -৩x - ৪"
+      },
+      {
+        "en": "y = 4x + -3",
+        "as": "y = ৪x + -৩"
+      },
+      {
+        "en": "y = -3x + 4",
+        "as": "y = -৩x + ৪"
+      },
+      {
+        "en": "y = --3x + 4",
+        "as": "y = --৩x + ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "y = -3x + 4.",
+      "as": "y = -৩x + ৪।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-087",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the equation of the line with slope 6 and y-intercept -2.",
+      "as": "ঢাল ৬ আৰু y-ছেদ -২ থকা ৰেখাৰ সমীকৰণ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "y = 6x + 2",
+        "as": "y = ৬x + ২"
+      },
+      {
+        "en": "y = -2x + 6",
+        "as": "y = -২x + ৬"
+      },
+      {
+        "en": "y = -6x + -2",
+        "as": "y = -৬x + -২"
+      },
+      {
+        "en": "y = 6x - 2",
+        "as": "y = ৬x - ২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "y = 6x - 2.",
+      "as": "y = ৬x - ২।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-088",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope 7.",
+      "as": "ঢাল ৭ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "-7",
+        "as": "-৭"
+      },
+      {
+        "en": "-1/7",
+        "as": "-১/৭"
+      },
+      {
+        "en": "1/7",
+        "as": "১/৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Slope = -1/7 = -1/7.",
+      "as": "ঢাল = -1/7।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-089",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the slope of a line perpendicular to a line of slope -8.",
+      "as": "ঢাল -৮ থকা ৰেখাৰ লম্ব ৰেখাৰ ঢাল নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-8",
+        "as": "-৮"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "-1/8",
+        "as": "-১/৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Slope = -1/-8 = 1/8.",
+      "as": "ঢাল = 1/8।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-090",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 4x - 2y + 4 = 0.",
+      "as": "x² + y² - ৪x - ২y + ৪ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Radius = 1.",
+      "as": "ব্যাসাৰ্ধ = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-091",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the radius of the circle x² + y² - 8x - 6y + 24 = 0.",
+      "as": "x² + y² - ৮x - ৬y + ২৪ = 0 বৃত্তৰ ব্যাসাৰ্ধ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Radius = 1.",
+      "as": "ব্যাসাৰ্ধ = ১।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-092",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 3x + 4y = 12.",
+      "as": "3x + 4y = 12 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The x-intercept is where the line meets the x-axis, so put y = 0: 3x + 4×0 = 12, which gives x = 12/3 = 4.",
+      "as": "x-অক্ষত লগ পোৱা বিন্দুত y = ০: ৩x = ১২, সেয়ে x = ৪।"
+    }
+  },
+  {
+    "id": "num-coordinate-geometry-093",
+    "leaf": "coordinate-geometry",
+    "q": {
+      "en": "Find the x-intercept of the line 6x + 5y = 30.",
+      "as": "6x + 5y = 30 ৰেখাৰ x-ছেদ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The x-intercept is where the line meets the x-axis, so put y = 0: 6x + 5×0 = 30, which gives x = 30/6 = 5.",
+      "as": "x-অক্ষত লগ পোৱা বিন্দুত y = ০: ৬x = ৩০, সেয়ে x = ৫।"
+    }
+  }
+]

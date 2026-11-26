@@ -1,0 +1,2495 @@
+{
+  "id": 5,
+  "title": {
+    "en": "Cyber Security",
+    "as": "চাইবাৰ সুৰক্ষা"
+  },
+  "description": {
+    "en": "Questions on malware, phishing, encryption, online safety, cyber laws of India and best practices.",
+    "as": "মালৱেৰ, ফিছিং, এনক্ৰিপশন, অনলাইন সুৰক্ষা, ভাৰতৰ চাইবাৰ আইন আৰু উত্তম পদ্ধতি সম্পৰ্কীয় প্ৰশ্ন।"
+  },
+  "tags": [
+    "cyber-security",
+    "malware",
+    "phishing",
+    "it-act",
+    "online-safety"
+  ],
+  "questions": [
+    {
+      "q": {
+        "en": "Which software protects a computer from viruses?",
+        "as": "কোন ছফ্টৱেৰে কম্পিউটাৰক ভাইৰাছৰ পৰা ৰক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Antivirus",
+          "as": "Antivirus"
+        },
+        {
+          "en": "Word processor",
+          "as": "Word processor"
+        },
+        {
+          "en": "Spreadsheet",
+          "as": "Spreadsheet"
+        },
+        {
+          "en": "Browser",
+          "as": "Browser"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Antivirus software detects and removes viruses and malware.",
+        "as": "antivirus ছফ্টৱেৰে ভাইৰাছ আৰু malware চিনাক্ত আৰু আঁতৰায়।"
+      },
+      "explanation": {
+        "en": "Antivirus software scans files and memory, detects known virus signatures and suspicious behaviour, and removes or quarantines the threat. A word processor, spreadsheet or browser cannot do this.",
+        "as": "Antivirus ছফ্টৱেৰে ফাইল আৰু memory স্কেন কৰি জনাজাত ভাইৰাছ signature আৰু সন্দেহজনক আচৰণ চিনাক্ত কৰি বিপদ আঁতৰায় বা quarantine কৰে। Word processor, spreadsheet বা browser-এ এইটো কৰিব নোৱাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A malicious program that copies itself and spreads to other computers is called a ___",
+        "as": "নিজকে কপি কৰি আন কম্পিউটাৰলৈ বিয়পোৱা দুষ্ট program ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Virus",
+          "as": "Virus"
+        },
+        {
+          "en": "Spam",
+          "as": "Spam"
+        },
+        {
+          "en": "Cookie",
+          "as": "Cookie"
+        },
+        {
+          "en": "Patch",
+          "as": "Patch"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A computer virus copies itself and spreads to other systems.",
+        "as": "কম্পিউটাৰ ভাইৰাছ নিজকে কপি কৰি আন ছিষ্টেমলৈ বিয়পে।"
+      },
+      "explanation": {
+        "en": "A computer virus is a malicious program that attaches to a host file, copies itself and spreads to other computers, usually when the infected file is opened or shared.",
+        "as": "কম্পিউটাৰ ভাইৰাছ হৈছে এনে ক্ষতিকাৰক program যিয়ে host ফাইলত লগ লাগি নিজকে কপি কৰে আৰু আন কম্পিউটাৰলৈ বিয়পে, সাধাৰণতে সংক্ৰমিত ফাইল খোলা বা শেয়াৰ কৰিলে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The umbrella term for all types of malicious software is ___",
+        "as": "সকলো ধৰণৰ দুষ্ট ছফ্টৱেৰক বুজোৱা পৰিভাষা ___।"
+      },
+      "options": [
+        {
+          "en": "Malware",
+          "as": "Malware"
+        },
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Firmware",
+          "as": "Firmware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Malware (malicious software) includes viruses, worms, trojans and ransomware.",
+        "as": "malware (দুষ্ট ছফ্টৱেৰ) ত ভাইৰাছ, worm, trojan আৰু ransomware আদি অন্তর্ভুক্ত।"
+      },
+      "explanation": {
+        "en": "Malware is the umbrella term for all malicious software, including viruses, worms, trojans, ransomware, spyware and adware. Freeware, shareware and firmware are legitimate software types.",
+        "as": "Malware হৈছে সকলো ক্ষতিকাৰক ছফ্টৱেৰৰ সাধাৰণ নাম, যাৰ ভিতৰত ভাইৰাছ, worm, trojan, ransomware, spyware আৰু adware পৰে। Freeware, shareware আৰু firmware বৈধ ছফ্টৱেৰৰ প্ৰকাৰ।"
+      }
+    },
+    {
+      "q": {
+        "en": "A software that demands payment (ransom) after locking your files is called ___",
+        "as": "ফাইল লক কৰি মূল্য দাবি কৰা ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Ransomware",
+          "as": "Ransomware"
+        },
+        {
+          "en": "Adware",
+          "as": "Adware"
+        },
+        {
+          "en": "Spyware",
+          "as": "Spyware"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Ransomware encrypts/locks files and demands money to unlock them.",
+        "as": "ransomware য়ে ফাইল এনক্রিপ্ট/লক কৰি মুকলি কৰিবলৈ ধন দাবি কৰে।"
+      },
+      "explanation": {
+        "en": "Ransomware encrypts or locks the victim's files and then demands a ransom payment, often in cryptocurrency, to restore access.",
+        "as": "Ransomware য়ে ভুক্তভোগীৰ ফাইল encrypt বা lock কৰি পুনৰ প্ৰৱেশৰ বাবে মুক্তিপণ (সাধাৰণতে cryptocurrency) দাবী কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which malware displays unwanted advertisements on your computer?",
+        "as": "কোন malware য়ে কম্পিউটাৰত অবাঞ্ছিত বিজ্ঞাপন দেখুৱায়?"
+      },
+      "options": [
+        {
+          "en": "Adware",
+          "as": "Adware"
+        },
+        {
+          "en": "Ransomware",
+          "as": "Ransomware"
+        },
+        {
+          "en": "Worm",
+          "as": "Worm"
+        },
+        {
+          "en": "Boot sector virus",
+          "as": "Boot sector virus"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Adware shows unwanted pop-up advertisements.",
+        "as": "adware য়ে অবাঞ্ছিত pop-up বিজ্ঞাপন দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "Adware is unwanted software that automatically displays advertisements or pop-ups, often slowing the system and tracking browsing habits.",
+        "as": "Adware হৈছে অবাঞ্ছিত ছফ্টৱেৰ যিয়ে স্বয়ংক্ৰিয়ভাৱে বিজ্ঞাপন বা pop-up দেখুৱায়, প্ৰায়ে system লেহেমীয়া কৰে আৰু browsing অভ্যাস ট্ৰেক কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software that secretly collects information about the user is called ___",
+        "as": "গোপনে ইউজাৰৰ তথ্য সংগ্ৰহ কৰা ছফ্টৱেৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Spyware",
+          "as": "Spyware"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Groupware",
+          "as": "Groupware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Spyware secretly tracks user activity and collects information.",
+        "as": "spyware য়ে গোপনে ইউজাৰৰ কাৰ্য আৰু তথ্য সংগ্ৰহ কৰে।"
+      },
+      "explanation": {
+        "en": "Spyware secretly monitors a user's activity, collecting passwords, browsing history and other private information without consent.",
+        "as": "Spyware য়ে ব্যৱহাৰকাৰীৰ কাৰ্যকলাপ গোপনে নিৰীক্ষণ কৰি সম্মতি নোহোৱাকৈ পাছৱৰ্ড, browsing ইতিহাস আৰু ব্যক্তিগত তথ্য সংগ্ৰহ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A program that appears useful but actually harms your computer is called a ___",
+        "as": "উপকাৰী যেন লাগি আচলতে কম্পিউটাৰৰ ক্ষতি কৰা program ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Trojan horse",
+          "as": "Trojan horse"
+        },
+        {
+          "en": "Worm",
+          "as": "Worm"
+        },
+        {
+          "en": "Adware",
+          "as": "Adware"
+        },
+        {
+          "en": "Patch",
+          "as": "Patch"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A Trojan horse hides malicious code inside seemingly useful software.",
+        "as": "Trojan horse য়ে উপকাৰী যেন লগা ছফ্টৱেৰৰ ভিতৰত দুষ্ট code লুকুৱায়।"
+      },
+      "explanation": {
+        "en": "A Trojan horse disguises itself as useful or legitimate software, but once installed it performs harmful actions such as opening a backdoor for attackers.",
+        "as": "Trojan horse য়ে উপযোগী বা বৈধ ছফ্টৱেৰ হিচাপে নিজকে লুকুৱায়, কিন্তু ইনষ্টল হোৱাৰ পিছত আক্ৰমণকাৰীৰ বাবে backdoor খোলাৰ দৰে ক্ষতিকাৰক কাম কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A self-replicating program that spreads without attaching to a file is called a ___",
+        "as": "ফাইলত লগ নলগাই নিজে নিজে বিয়পা program ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Worm",
+          "as": "Worm"
+        },
+        {
+          "en": "Trojan",
+          "as": "Trojan"
+        },
+        {
+          "en": "Spyware",
+          "as": "Spyware"
+        },
+        {
+          "en": "Adware",
+          "as": "Adware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A worm spreads over networks by itself without attaching to files.",
+        "as": "worm ফাইলত নলগাই নিজে নিজে network ত বিয়পে।"
+      },
+      "explanation": {
+        "en": "A worm is self-replicating malware that spreads across networks on its own without attaching to a host file, which is why it can spread very quickly.",
+        "as": "Worm হৈছে স্ব-প্ৰতিলিপিকাৰী malware যিয়ে host ফাইলত লগ নালাগিয়েই নিজে নেটৱৰ্কত বিয়পে, সেয়ে অতি দ্ৰুতগতিত বিয়পিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fake emails that trick users into revealing passwords are called ___",
+        "as": "পাছৱৰ্ড উদ্ধাৰৰ বাবে ছলনা কৰা ভুৱা ইমেইলক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Phishing emails",
+          "as": "Phishing emails"
+        },
+        {
+          "en": "Spam emails",
+          "as": "Spam emails"
+        },
+        {
+          "en": "Draft emails",
+          "as": "Draft emails"
+        },
+        {
+          "en": "Auto emails",
+          "as": "Auto emails"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Phishing emails pretend to be trusted sources to steal personal data.",
+        "as": "phishing ইমেইলে বিশ্বাসী উৎসৰ ছল ধৰি ব্যক্তিগত তথ্য চুৰি কৰে।"
+      },
+      "explanation": {
+        "en": "Phishing emails are fraudulent messages that pretend to come from a trusted source such as a bank, and trick the reader into revealing passwords, OTPs or card details.",
+        "as": "Phishing email হৈছে ভুৱা বাৰ্তা যিয়ে বেংকৰ দৰে বিশ্বাসযোগ্য উৎসৰ পৰা অহা বুলি দেখুৱাই প্ৰাপকক পাছৱৰ্ড, OTP বা card তথ্য প্ৰকাশ কৰিবলৈ প্ৰতাৰণা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The act of disguising oneself as a trusted person to steal data is called ___",
+        "as": "তথ্য চুৰিৰ বাবে বিশ্বাসী ব্যক্তিৰ ছল ধৰাক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Impersonation / phishing",
+          "as": "Impersonation / phishing"
+        },
+        {
+          "en": "Firewalling",
+          "as": "Firewalling"
+        },
+        {
+          "en": "Encryption",
+          "as": "Encryption"
+        },
+        {
+          "en": "Backup",
+          "as": "Backup"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Phishing/impersonation tricks users by pretending to be trusted people or organizations.",
+        "as": "phishing/impersonation য়ে বিশ্বাসী ব্যক্তি বা সংস্থাৰ ছল ধৰি ইউজাৰক ঠগে।"
+      },
+      "explanation": {
+        "en": "In phishing or impersonation an attacker pretends to be a trusted person or organisation in order to obtain confidential information such as login credentials.",
+        "as": "Phishing বা impersonation-ত আক্ৰমণকাৰীয়ে বিশ্বাসযোগ্য ব্যক্তি বা প্ৰতিষ্ঠান হিচাপে নিজকে দেখুৱাই login তথ্যৰ দৰে গোপন তথ্য লাভ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A cyber attack that makes a service unavailable by flooding it with traffic is called ___",
+        "as": "traffic ঢালি সেৱা অনুপলব্ধ কৰা cyber আক্রমণক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Denial of Service (DoS/DDoS)",
+          "as": "Denial of Service (DoS/DDoS)"
+        },
+        {
+          "en": "Phishing",
+          "as": "Phishing"
+        },
+        {
+          "en": "Spamming",
+          "as": "Spamming"
+        },
+        {
+          "en": "Spoofing",
+          "as": "Spoofing"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "DoS/DDoS attacks flood a server so that it cannot serve real users.",
+        "as": "DoS/DDoS আক্রমণে server ৰ ওপৰত traffic ঢালি সি বাস্তৱ ইউজাৰক সেৱা দিব নোৱাৰা কৰে।"
+      },
+      "explanation": {
+        "en": "In a Denial of Service (DoS/DDoS) attack, a flood of fake requests is sent to a server so that genuine users cannot access the service.",
+        "as": "Denial of Service (DoS/DDoS) আক্ৰমণত server লৈ ভুৱা request ৰ বান পঠোৱা হয়, যাৰ ফলত প্ৰকৃত ব্যৱহাৰকাৰীয়ে সেৱা ব্যৱহাৰ কৰিব নোৱাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The practice of stealing personal information by making a fake website look like a real one is called ___",
+        "as": "আচল website ৰ দৰে ভুৱা website বনাই ব্যক্তিগত তথ্য চুৰি কৰাকে ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Phishing",
+          "as": "Phishing"
+        },
+        {
+          "en": "Hacking legally",
+          "as": "বৈধ হেকিং"
+        },
+        {
+          "en": "Backing up",
+          "as": "backup"
+        },
+        {
+          "en": "Downloading",
+          "as": "download"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Website phishing copies a real site to steal login details.",
+        "as": "website phishing য়ে আচল site ৰ অনুকৰণ কৰি login তথ্য চুৰি কৰে।"
+      },
+      "explanation": {
+        "en": "Website phishing creates a look-alike copy of a genuine website to capture user IDs and passwords when victims try to log in.",
+        "as": "ৱেবছাইট phishing য়ে প্ৰকৃত ৱেবছাইটৰ নকল প্ৰতিলিপি বনাই ভুক্তভোগীয়ে login কৰিবলৈ চেষ্টা কৰোঁতে user ID আৰু পাছৱৰ্ড চোৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these passwords is the strongest?",
+        "as": "এইবোৰৰ কোনটো password সবাতোকৈ শক্তিশালী?"
+      },
+      "options": [
+        {
+          "en": "As3#kQ!9zW@2",
+          "as": "As3#kQ!9zW@2"
+        },
+        {
+          "en": "123456",
+          "as": "123456"
+        },
+        {
+          "en": "password",
+          "as": "password"
+        },
+        {
+          "en": "abc123",
+          "as": "abc123"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Strong passwords mix upper/lower case letters, numbers and symbols and are long.",
+        "as": "শক্তিশালী password ত ডাঙৰ/সৰু আখৰ, সংখ্যা আৰু চিহ্ন মিহলি আৰু দীঘল হয়।"
+      },
+      "explanation": {
+        "en": "A strong password is long and mixes uppercase and lowercase letters, digits and symbols. 'As3#kQ!9zW@2' meets these rules, while the other choices are common and easily guessed.",
+        "as": "শক্তিশালী পাছৱৰ্ড দীঘল আৰু ইয়াত uppercase, lowercase, অংক আৰু symbol মিশ্ৰিত থাকে। 'As3#kQ!9zW@2' এই নিয়ম পূৰণ কৰে, আনহাতে বাকীবোৰ সাধাৰণ আৰু সহজে অনুমান কৰিব পৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a weak password?",
+        "as": "তলৰ কোনটো দুৰ্বল password?"
+      },
+      "options": [
+        {
+          "en": "123456",
+          "as": "123456"
+        },
+        {
+          "en": "Kt#8pLq$2m",
+          "as": "Kt#8pLq$2m"
+        },
+        {
+          "en": "x9@BqW4!z",
+          "as": "x9@BqW4!z"
+        },
+        {
+          "en": "R3d!g0ld7",
+          "as": "R3d!g0ld7"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Simple passwords like 123456 are very weak and easy to guess.",
+        "as": "123456 দৰে সহজ password অতি দুৰ্বল আৰু অনুমান কৰা সহজ।"
+      },
+      "explanation": {
+        "en": "'123456' is one of the most common passwords and can be guessed instantly. A strong password needs length and a mix of characters.",
+        "as": "'123456' আটাইতকৈ সাধাৰণ পাছৱৰ্ডবোৰৰ এটা আৰু তৎক্ষণাত অনুমান কৰিব পৰা যায়। শক্তিশালী পাছৱৰ্ডৰ বাবে দীঘল আৰু বিভিন্ন আখৰৰ মিশ্ৰণ প্ৰয়োজন।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is 'two-factor authentication' (2FA)?",
+        "as": "'টু-ফেক্টৰ প্ৰমাণীকৰণ' (2FA) কি?"
+      },
+      "options": [
+        {
+          "en": "Login using two different proofs of identity",
+          "as": "দুটা ভিন্ন পৰিচয় প্রমাণেৰে login"
+        },
+        {
+          "en": "Two computers together",
+          "as": "দুটা কম্পিউটাৰ একেলগে"
+        },
+        {
+          "en": "Two antivirus programs",
+          "as": "দুটা antivirus"
+        },
+        {
+          "en": "Two internet connections",
+          "as": "দুটা ইন্টারনেট সংযোগ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "2FA needs password plus a second factor like an OTP to log in.",
+        "as": "2FA ত login ৰ বাবে password ৰ লগত OTP আদি দ্বিতীয় ফেক্টৰ লাগে।"
+      },
+      "explanation": {
+        "en": "Two-factor authentication requires two different proofs of identity, typically a password plus a second factor such as an OTP or fingerprint, so a stolen password alone is not enough.",
+        "as": "Two-factor authentication-ত দুটা ভিন্ন পৰিচয় প্ৰমাণ লাগে, সাধাৰণতে এটা পাছৱৰ্ড আৰু OTP বা আঙুলিৰ ছাপৰ দৰে দ্বিতীয় factor, সেয়ে কেৱল চোৰ কৰা পাছৱৰ্ডেৰে প্ৰৱেশ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "An OTP (One Time Password) is mainly used for ___",
+        "as": "OTP (One Time Password) মূলত ___ বাবে ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Verifying identity during login/transactions",
+          "as": "login/লেনদেনত পৰিচয় সত্যাপন"
+        },
+        {
+          "en": "Increasing internet speed",
+          "as": "ইন্টারনেট বেগ"
+        },
+        {
+          "en": "Cleaning viruses",
+          "as": "ভাইৰাছ পৰিষ্কাৰ"
+        },
+        {
+          "en": "Printing documents",
+          "as": "দলিল প্ৰিন্ট"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "OTP is a temporary code sent to verify the user during login or transactions.",
+        "as": "OTP হৈছে login বা লেনদেনত ইউজাৰ সত্যাপনৰ বাবে পঠোৱা সাময়িক কোড।"
+      },
+      "explanation": {
+        "en": "An OTP (One Time Password) is a temporary code valid for a short time, sent to the registered mobile or email to verify the user during login or a transaction.",
+        "as": "OTP (One Time Password) হৈছে অলপ সময়ৰ বাবে বৈধ এটা অস্থায়ী code, login বা লেনদেনৰ সময়ত ব্যৱহাৰকাৰীক সত্যতা প্ৰমাণ কৰিবলৈ পঞ্জীকৃত ম'বাইল বা ইমেইললৈ পঠোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does CAPTCHA protect against?",
+        "as": "CAPTCHA য়ে কিসৰ পৰা ৰক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Automated bots / spam",
+          "as": "স্বয়ংক্রিয় bot / spam"
+        },
+        {
+          "en": "Power failure",
+          "as": "বিদ্যুৎ বিভ্রাট"
+        },
+        {
+          "en": "Virus in RAM",
+          "as": "RAM ৰ ভাইৰাছ"
+        },
+        {
+          "en": "Printer errors",
+          "as": "প্ৰিন্টাৰ ত্রুটি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CAPTCHA stops automated bots from misusing forms and services.",
+        "as": "CAPTCHA য়ে স্বয়ংক্রিয় bot ৰ দ্বাৰা ফর্ম আৰু সেৱাৰ অপব্যৱহাৰ ৰোধ কৰে।"
+      },
+      "explanation": {
+        "en": "CAPTCHA tests whether the user is a human and blocks automated bots from using forms, creating fake accounts or sending spam.",
+        "as": "CAPTCHA য়ে ব্যৱহাৰকাৰী মানুহ হয় নে নহয় পৰীক্ষা কৰে আৰু স্বয়ংক্ৰিয় bot-ক form ব্যৱহাৰ, ভুৱা account সৃষ্টি বা spam পঠোৱাৰ পৰা বাধা দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which law in India deals with cyber crimes?",
+        "as": "ভাৰতত cyber অপরাধ সম্পৰ্কে কোন আইন?"
+      },
+      "options": [
+        {
+          "en": "IT Act, 2000",
+          "as": "IT Act, 2000"
+        },
+        {
+          "en": "RTI Act",
+          "as": "RTI Act"
+        },
+        {
+          "en": "Consumer Act",
+          "as": "Consumer Act"
+        },
+        {
+          "en": "Companies Act",
+          "as": "Companies Act"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Information Technology Act, 2000 is India's cyber law.",
+        "as": "Information Technology Act, 2000 হৈছে ভাৰতৰ cyber আইন।"
+      },
+      "explanation": {
+        "en": "The Information Technology Act, 2000 is India's main cyber law. It defines cyber offences and gives legal recognition to electronic transactions.",
+        "as": "Information Technology Act, 2000 ভাৰতৰ প্ৰধান cyber আইন। ই cyber অপৰাধ নিৰ্ধাৰণ কৰে আৰু electronic লেনদেনক আইনী স্বীকৃতি দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Section 66 of the IT Act deals with ___",
+        "as": "IT Act ৰ ধাৰা 66 ___ সৈতে জড়িত।"
+      },
+      "options": [
+        {
+          "en": "Computer related offences",
+          "as": "কম্পিউটাৰ সম্পর্কিত অপৰাধ"
+        },
+        {
+          "en": "Tax rules",
+          "as": "কৰ নিয়ম"
+        },
+        {
+          "en": "Marriage law",
+          "as": "বিবাহ আইন"
+        },
+        {
+          "en": "Motor vehicles",
+          "as": "মোটৰ যানবাহন"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Section 66 of the IT Act covers computer-related offences like hacking.",
+        "as": "IT Act ৰ ধাৰা 66 ত hacking আদি কম্পিউটাৰ সম্পর্কিত অপৰাধ জড়িত।"
+      },
+      "explanation": {
+        "en": "Section 66 of the IT Act punishes computer-related offences, such as hacking, data theft or causing damage to computer resources, with imprisonment and fine.",
+        "as": "IT Act ৰ ধাৰা 66 য়ে hacking, তথ্য চুৰি বা কম্পিউটাৰ সম্পদৰ ক্ষতিৰ দৰে computer-সংশ্লিষ্ট অপৰাধৰ বাবে কাৰাদণ্ড আৰু জৰিমনাৰ বিধান দিয়ে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The personal data collection and processing law of India is the ___",
+        "as": "ভাৰতৰ ব্যক্তিগত তথ্য সংগ্ৰহ আৰু প্রক্রিয়া আইন ___।"
+      },
+      "options": [
+        {
+          "en": "DPDP Act, 2023 (Digital Personal Data Protection)",
+          "as": "DPDP Act, 2023 (Digital Personal Data Protection)"
+        },
+        {
+          "en": "RTI Act, 2005",
+          "as": "RTI Act, 2005"
+        },
+        {
+          "en": "Cinema Act",
+          "as": "Cinema Act"
+        },
+        {
+          "en": "Police Act",
+          "as": "Police Act"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The Digital Personal Data Protection Act, 2023 protects personal data in India.",
+        "as": "Digital Personal Data Protection Act, 2023 য়ে ভাৰতত ব্যক্তিগত তথ্য ৰক্ষা কৰে।"
+      },
+      "explanation": {
+        "en": "The Digital Personal Data Protection (DPDP) Act, 2023 governs the collection, processing and protection of personal digital data in India.",
+        "as": "Digital Personal Data Protection (DPDP) Act, 2023 য়ে ভাৰতত ব্যক্তিগত ডিজিটেল তথ্যৰ সংগ্ৰহ, প্ৰক্ৰিয়াকৰণ আৰু সুৰক্ষা নিয়ন্ত্ৰণ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of converting readable data into a secret code is called ___",
+        "as": "পঠনযোগ্য তথ্য গোপন code লৈ ৰূপান্তৰকে ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Encryption",
+          "as": "Encryption"
+        },
+        {
+          "en": "Decryption",
+          "as": "Decryption"
+        },
+        {
+          "en": "Compression",
+          "as": "Compression"
+        },
+        {
+          "en": "Deletion",
+          "as": "Deletion"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Encryption converts plain text into unreadable cipher text.",
+        "as": "encryption য়ে সহজ text অপঠনযোগ্য cipher text লৈ ৰূপান্তৰ কৰে।"
+      },
+      "explanation": {
+        "en": "Encryption converts readable data (plain text) into an unreadable secret form (cipher text) using an algorithm and a key, so that only authorised users can read it.",
+        "as": "Encryption য়ে algorithm আৰু key ব্যৱহাৰ কৰি পঢ়িব পৰা তথ্য (plain text) ক অপঢ়নীয় গোপন ৰূপ (cipher text) লৈ সলনি কৰে, যাতে কেৱল অনুমোদিত ব্যৱহাৰকাৰীয়ে পঢ়িব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The process of converting encrypted data back to readable form is called ___",
+        "as": "এনক্রিপ্টেড তথ্য আকৌ পঠনযোগ্য কৰাকে ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Decryption",
+          "as": "Decryption"
+        },
+        {
+          "en": "Encryption",
+          "as": "Encryption"
+        },
+        {
+          "en": "Formatting",
+          "as": "Formatting"
+        },
+        {
+          "en": "Scanning",
+          "as": "Scanning"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Decryption converts cipher text back into readable plain text.",
+        "as": "decryption য়ে cipher text আকৌ পঠনযোগ্য সহজ text লৈ আনে।"
+      },
+      "explanation": {
+        "en": "Decryption is the reverse of encryption: it converts cipher text back into readable plain text using the correct key.",
+        "as": "Decryption হৈছে encryption ৰ ওলোটা প্ৰক্ৰিয়া: ই সঠিক key ব্যৱহাৰ কৰি cipher text ক পুনৰ পঢ়িব পৰা plain text লৈ ৰূপান্তৰ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "In cryptography, the original readable data is called ___",
+        "as": "গুপ্তলিপি শাস্ত্ৰত মূল পঠনযোগ্য তথ্যক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Plain text",
+          "as": "Plain text"
+        },
+        {
+          "en": "Cipher text",
+          "as": "Cipher text"
+        },
+        {
+          "en": "Key text",
+          "as": "Key text"
+        },
+        {
+          "en": "Hex text",
+          "as": "Hex text"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Plain text is the readable original data; cipher text is its encrypted form.",
+        "as": "plain text হৈছে পঠনযোগ্য মূল তথ্য; cipher text হৈছে ইয়াৰ এনক্রিপ্টেড ৰূপ।"
+      },
+      "explanation": {
+        "en": "In cryptography the original, readable message before encryption is called plain text; after encryption it becomes cipher text.",
+        "as": "Cryptography-ত encryption ৰ আগৰ পঢ়িব পৰা মূল বাৰ্তাক plain text বোলে; encryption ৰ পিছত ই cipher text হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "The unreadable form of encrypted data is called ___",
+        "as": "এনক্রিপ্টেড তথ্যৰ অপঠনযোগ্য ৰূপক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Cipher text",
+          "as": "Cipher text"
+        },
+        {
+          "en": "Plain text",
+          "as": "Plain text"
+        },
+        {
+          "en": "Soft text",
+          "as": "Soft text"
+        },
+        {
+          "en": "Binary text",
+          "as": "Binary text"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cipher text is the scrambled, unreadable output of encryption.",
+        "as": "cipher text হৈছে encryption ৰ বিচ্ছিন্ন অপঠনযোগ্য ফল।"
+      },
+      "explanation": {
+        "en": "Cipher text is the scrambled, unreadable output produced by encryption. It can only be turned back into plain text with the correct key.",
+        "as": "Cipher text হৈছে encryption ৰ পৰা ওলোৱা এলোমেলো, অপঢ়নীয় ৰূপ। সঠিক key অবিহনে ইয়াক plain text লৈ ঘূৰাই আনিব নোৱাৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which algorithm is commonly used for secure data encryption?",
+        "as": "নিৰাপদ তথ্য এনক্রিপশনৰ বাবে সাধাৰণতে কোন algorithm?"
+      },
+      "options": [
+        {
+          "en": "AES",
+          "as": "AES"
+        },
+        {
+          "en": "HTTP",
+          "as": "HTTP"
+        },
+        {
+          "en": "SMTP",
+          "as": "SMTP"
+        },
+        {
+          "en": "PDF",
+          "as": "PDF"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "AES (Advanced Encryption Standard) is a widely used encryption algorithm.",
+        "as": "AES (Advanced Encryption Standard) বহুল ব্যৱহৃত encryption algorithm।"
+      },
+      "explanation": {
+        "en": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm widely used to protect data. HTTP, SMTP and PDF are protocols or file formats, not encryption algorithms.",
+        "as": "AES (Advanced Encryption Standard) হৈছে তথ্য সুৰক্ষিত কৰিবলৈ বহুলভাৱে ব্যৱহৃত symmetric encryption algorithm। HTTP, SMTP আৰু PDF protocol বা file format, encryption algorithm নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'digital signature' used for?",
+        "as": "'ডিজিটেল চহি' (digital signature) কিয়াৰ বাবে ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "To verify the authenticity of digital messages/documents",
+          "as": "ডিজিটেল বাৰ্তা/দলিলৰ সত্যতা যাচাই"
+        },
+        {
+          "en": "To increase font size",
+          "as": "ফন্ট আকাৰ বঢ়াবলৈ"
+        },
+        {
+          "en": "To print faster",
+          "as": "দ্রুত প্ৰিন্ট"
+        },
+        {
+          "en": "To change the wallpaper",
+          "as": "wallpaper সলনি"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A digital signature proves that a document is genuine and unaltered.",
+        "as": "digital signature য়ে দলিল সত্য আৰু অপৰিৱর্তিত বুলি প্রমাণ কৰে।"
+      },
+      "explanation": {
+        "en": "A digital signature verifies the authenticity and integrity of a digital document; it proves who signed it and confirms that the content has not been altered.",
+        "as": "Digital signature য়ে ডিজিটেল দলিলৰ সত্যতা আৰু অখণ্ডতা প্ৰমাণ কৰে; ই কাক signed কৰিছে সেয়া আৰু content সলনি হোৱা নাই সেয়া নিশ্চিত কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which organization issues digital signature certificates in India?",
+        "as": "ভাৰতত digital signature certificate কোনে জাৰি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Certifying Authorities (licensed by Government)",
+          "as": "Certifying Authorities (চৰকাৰৰ অনুজ্ঞাপত্ৰপ্ৰাপ্ত)"
+        },
+        {
+          "en": "Cinema halls",
+          "as": "চিনেমা হল"
+        },
+        {
+          "en": "Book sellers",
+          "as": "কিতাপ বিক্রেতা"
+        },
+        {
+          "en": "Electricity board",
+          "as": "বিদ্যুৎ বিভাগ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Government-licensed Certifying Authorities issue digital signature certificates.",
+        "as": "চৰকাৰৰ অনুজ্ঞাপত্ৰপ্ৰাপ্ত Certifying Authorities য়ে digital signature certificate জাৰি কৰে।"
+      },
+      "explanation": {
+        "en": "In India digital signature certificates are issued by Certifying Authorities (CAs) that are licensed and regulated under the IT Act.",
+        "as": "ভাৰতত digital signature certificate য়ে IT Act ৰ অধীনত অনুমোদিত আৰু নিয়ন্ত্ৰিত Certifying Authority (CA) ৰ পৰা প্ৰদান কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'botnet'?",
+        "as": "'বটনেট' (botnet) কি?"
+      },
+      "options": [
+        {
+          "en": "A network of infected computers controlled by an attacker",
+          "as": "আক্রমণকাৰীৰ নিয়ন্ত্ৰণত থকা সংক্রমিত কম্পিউটাৰ network"
+        },
+        {
+          "en": "A type of printer",
+          "as": "এবিধ প্ৰিন্টাৰ"
+        },
+        {
+          "en": "A search engine",
+          "as": "search engine"
+        },
+        {
+          "en": "An email server",
+          "as": "email server"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A botnet is a group of compromised computers ('bots') used by hackers for attacks.",
+        "as": "botnet হৈছে হেকাৰৰ আক্রমণত ব্যৱহৃত সংক্রমিত কম্পিউটাৰ ('bot') সমূহ।"
+      },
+      "explanation": {
+        "en": "A botnet is a network of compromised computers (bots or zombies) that an attacker controls remotely, often to send spam or launch DDoS attacks.",
+        "as": "Botnet হৈছে সংক্ৰমিত কম্পিউটাৰ (bot বা zombie) ৰ এটা নেটৱৰ্ক, যাক আক্ৰমণকাৰীয়ে দূৰৰ পৰা নিয়ন্ত্ৰণ কৰি spam পঠোৱা বা DDoS আক্ৰমণ চলায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A computer controlled remotely by a hacker without the owner's knowledge is called a ___",
+        "as": "মালিকৰ অজ্ঞাতে হেকাৰে দূৰৰ পৰা নিয়ন্ত্ৰণ কৰা কম্পিউটাৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Zombie / bot",
+          "as": "Zombie / bot"
+        },
+        {
+          "en": "Server",
+          "as": "Server"
+        },
+        {
+          "en": "Gateway",
+          "as": "Gateway"
+        },
+        {
+          "en": "Proxy",
+          "as": "Proxy"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Compromised computers used secretly are called zombies or bots.",
+        "as": "গোপনে ব্যৱহৃত সংক্রমিত কম্পিউটাৰক zombie বা bot বোলে।"
+      },
+      "explanation": {
+        "en": "A compromised computer that a hacker controls remotely without the owner's knowledge is called a zombie or bot. Many zombies together form a botnet.",
+        "as": "মালিকৰ অজ্ঞাতসাৰে hacker য়ে দূৰৰ পৰা নিয়ন্ত্ৰণ কৰা সংক্ৰমিত কম্পিউটাৰক zombie বা bot বোলে। বহু zombie একেলগে botnet গঠন কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Unethical hackers who break into systems for personal gain are called ___",
+        "as": "ব্যক্তিগত লাভৰ বাবে ছিষ্টেমত সোমোৱা অনৈতিক হেকাৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Black hat hackers",
+          "as": "Black hat হেকাৰ"
+        },
+        {
+          "en": "White hat hackers",
+          "as": "White hat হেকাৰ"
+        },
+        {
+          "en": "Grey hat hackers",
+          "as": "Grey hat হেকাৰ"
+        },
+        {
+          "en": "Blue hat hackers",
+          "as": "Blue hat হেকাৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Black hat hackers break into systems illegally for personal gain.",
+        "as": "black hat হেকাৰে ব্যক্তিগত লাভৰ বাবে অবৈধভাৱে ছিষ্টেমত সোমায়।"
+      },
+      "explanation": {
+        "en": "Black hat hackers break into computer systems illegally for personal gain, such as theft or extortion, without any authorisation.",
+        "as": "Black hat hacker য়ে কোনো অনুমতি নোহোৱাকৈ ব্যক্তিগত লাভৰ বাবে, যেনে চুৰি বা ভাবুকিৰ জৰিয়তে, আইন বিৰুদ্ধভাৱে কম্পিউটাৰ system ত প্ৰৱেশ কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Ethical hackers who test systems with permission are called ___",
+        "as": "অনুমতি লৈ ছিষ্টেম পৰীক্ষা কৰা নৈতিক হেকাৰক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "White hat hackers",
+          "as": "White hat হেকাৰ"
+        },
+        {
+          "en": "Black hat hackers",
+          "as": "Black hat হেকাৰ"
+        },
+        {
+          "en": "Script kiddies",
+          "as": "Script kiddies"
+        },
+        {
+          "en": "Phishers",
+          "as": "Phishers"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "White hat hackers find vulnerabilities legally with permission to improve security.",
+        "as": "white hat হেকাৰে সুৰক্ষা উন্নত কৰিবলৈ অনুমতি সৈতে বৈধভাৱে দোষ বিচাৰে।"
+      },
+      "explanation": {
+        "en": "White hat (ethical) hackers test systems with proper permission and report the vulnerabilities found, helping organisations improve their security.",
+        "as": "White hat (ethical) hacker য়ে যথাযথ অনুমতি লৈ system পৰীক্ষা কৰে আৰু পোৱা দুর্বলতা প্ৰতিবেদন কৰে, ফলত প্ৰতিষ্ঠানৰ সুৰক্ষা উন্নত হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "A person who breaks into computer systems illegally is called a ___",
+        "as": "অবৈধভাৱে কম্পিউটাৰ ছিষ্টেমত সোমোৱা ব্যক্তিক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Hacker",
+          "as": "Hacker"
+        },
+        {
+          "en": "Programmer",
+          "as": "Programmer"
+        },
+        {
+          "en": "Operator",
+          "as": "Operator"
+        },
+        {
+          "en": "Designer",
+          "as": "Designer"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A hacker is someone who breaks into computer systems, often illegally.",
+        "as": "হেকাৰ হৈছে কম্পিউটাৰ ছিষ্টেমত সোমোৱা ব্যক্তি, প্ৰায়ে অবৈধভাৱে।"
+      },
+      "explanation": {
+        "en": "A hacker is a person who explores or breaks into computer systems. Doing this without authorisation is a crime under laws such as the IT Act.",
+        "as": "Hacker হৈছে কম্পিউটাৰ system অনুসন্ধান বা ভাঙি প্ৰৱেশ কৰা ব্যক্তি। অনুমতি নোহোৱাকৈ কৰিলে IT Act ৰ দৰে আইনৰ অধীনত ই অপৰাধ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Sending a fake message pretending to be a bank to get your PIN is an example of ___",
+        "as": "বেংকৰ ছল ধৰি PIN ল'বলৈ ভুৱা বাৰ্তা পঠোৱা ___ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "Phishing / vishing",
+          "as": "Phishing / vishing"
+        },
+        {
+          "en": "Firewalling",
+          "as": "Firewalling"
+        },
+        {
+          "en": "Formatting",
+          "as": "Formatting"
+        },
+        {
+          "en": "Backup",
+          "as": "Backup"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Fake calls/messages from imposters to steal money details are vishing/phishing.",
+        "as": "ধনৰ তথ্য চুৰিৰ বাবে ছলাকলিৰ ভুৱা কল/বাৰ্তা vishing/phishing।"
+      },
+      "explanation": {
+        "en": "Fake calls or messages that pretend to be from a bank and ask for a PIN or OTP are examples of vishing (voice phishing) and phishing, which are social engineering attacks.",
+        "as": "বেংকৰ পৰা বুলি ভুৱা কল বা বাৰ্তা পঠিয়াই PIN বা OTP বিচৰাটো vishing (voice phishing) আৰু phishing ৰ উদাহৰণ, যি social engineering আক্ৰমণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "What should you do with suspicious emails asking for your bank password?",
+        "as": "বেংক পাছৱৰ্ড বিচৰা সন্দেহজনক ইমেইলত কি কৰা উচিত?"
+      },
+      "options": [
+        {
+          "en": "Never reply and report/delete it",
+          "as": "উত্তৰ নিদি report/মচি পেলাওক"
+        },
+        {
+          "en": "Send the password",
+          "as": "পাছৱৰ্ড পঠাওক"
+        },
+        {
+          "en": "Forward to friends",
+          "as": "বন্ধুলৈ পঠাওক"
+        },
+        {
+          "en": "Reply with OTP",
+          "as": "OTP ৰে উত্তৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Banks never ask passwords by email; ignore and report such mails.",
+        "as": "বেংকে ইমেইলত কেতিয়াও পাছৱৰ্ড নোসোধে; এনে মেইল উপেক্ষা আৰু report কৰক।"
+      },
+      "explanation": {
+        "en": "Banks never ask for passwords, PINs or OTPs by email. Such mails should be reported as phishing and deleted without replying or clicking any link.",
+        "as": "বেংকে কেতিয়াও ইমেইলৰ জৰিয়তে পাছৱৰ্ড, PIN বা OTP নিবিচাৰে। এনে মেইল phishing হিচাপে report কৰি উত্তৰ নিদিয়াকৈ বা link নাটিপিয়াকৈ মচি পেলোৱা উচিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Never share your OTP because ___",
+        "as": "OTP কেতিয়াও নাভাগৰিৱক কাৰণ ___।"
+      },
+      "options": [
+        {
+          "en": "It can be misused to access your accounts",
+          "as": "ইয়াৰে আপোনাৰ account ত প্রবেশ হ'ব পাৰে"
+        },
+        {
+          "en": "It is too long",
+          "as": "ই বহুত দীঘল"
+        },
+        {
+          "en": "It expires in a year",
+          "as": "ই এবছৰত শেষ হয়"
+        },
+        {
+          "en": "It has no use",
+          "as": "ইয়াৰ কোনো ব্যৱহাৰ নাই"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Sharing OTP can let fraudsters access your accounts and steal money.",
+        "as": "OTP ভাগ কৰিলে ঠগাই আপোনাৰ account ত সোমাই ধন চুৰি কৰিব পাৰে।"
+      },
+      "explanation": {
+        "en": "An OTP is the key to completing a transaction, so anyone who obtains it can authorise payments or log in as you. Never share it, even if the caller claims to be from the bank.",
+        "as": "OTP হৈছে লেনদেন সম্পূৰ্ণ কৰাৰ চাবি, সেয়ে যি কেও ইয়াক পাই তেওঁ আপোনাৰ হৈ payment authorize বা login কৰিব পাৰে। বেংকৰ পৰা বুলি ক'লেও কাকো OTP নিদিব।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is safe to share publicly on the internet?",
+        "as": "ইন্টারনেটত তলৰ কোনটো জনসাধাৰণৰ সৈতে ভাগ কৰা নিৰাপদ?"
+      },
+      "options": [
+        {
+          "en": "Your favourite hobby",
+          "as": "আপোনাৰ পছন্দৰ চখ"
+        },
+        {
+          "en": "Aadhaar number",
+          "as": "আধাৰ নম্বৰ"
+        },
+        {
+          "en": "Bank account number",
+          "as": "বেংক একাউণ্ট নম্বৰ"
+        },
+        {
+          "en": "OTP",
+          "as": "OTP"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Sharing hobbies is fine, but never share personal IDs like Aadhaar, bank details or OTP.",
+        "as": "চখ ভাগ কৰা ভাল, কিন্তু আধাৰ, বেংক তথ্য বা OTP কেতিয়াও নাভাগৰিব।"
+      },
+      "explanation": {
+        "en": "General interests such as hobbies are safe to share. Personal identifiers like Aadhaar number, bank account details and OTP must never be posted publicly.",
+        "as": "চখৰ দৰে সাধাৰণ আগ্ৰহ share কৰিব পাৰি। Aadhaar নম্বৰ, বেংক account তথ্য আৰু OTP ৰ দৰে ব্যক্তিগত চিনাক্তকাৰী তথ্য কেতিয়াও ৰাজহুৱাভাৱে নিদিব।"
+      }
+    },
+    {
+      "q": {
+        "en": "A strong password should NOT be ___",
+        "as": "শক্তিশালী password ___ নহ'ব লাগে।"
+      },
+      "options": [
+        {
+          "en": "Your name or birth date",
+          "as": "আপোনাৰ নাম বা জন্ম তাৰিখ"
+        },
+        {
+          "en": "A mix of letters, numbers, symbols",
+          "as": "আখৰ, সংখ্যা, চিহ্নৰ মিশ্রণ"
+        },
+        {
+          "en": "More than 8 characters",
+          "as": "8 আখৰতকৈ বেছি"
+        },
+        {
+          "en": "Different from other accounts",
+          "as": "আন account ৰ পৰা বেলেগ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Passwords based on name or birth date are easy to guess and unsafe.",
+        "as": "নাম বা জন্ম তাৰিখৰ password অনুমান সহজ আৰু অসুৰক্ষিত।"
+      },
+      "explanation": {
+        "en": "Passwords based on your name, birth date or phone number are easy to guess from social media, so they should never be used. A good password is long and mixes characters.",
+        "as": "আপোনাৰ নাম, জন্ম তাৰিখ বা ফোন নম্বৰৰ ভিত্তিত পাছৱৰ্ড social media ৰ পৰা সহজে অনুমান কৰিব পৰা যায়, সেয়ে এনে পাছৱৰ্ড কেতিয়াও ব্যৱহাৰ নকৰিব। ভাল পাছৱৰ্ড দীঘল আৰু বিভিন্ন আখৰৰ মিশ্ৰণ।"
+      }
+    },
+    {
+      "q": {
+        "en": "The practice of checking if a website uses a valid SSL certificate is important before ___",
+        "as": "কোনো website ত SSL certificate আছে নে পৰীক্ষা কৰা ___ আগতে গুৰুত্বপূর্ণ।"
+      },
+      "options": [
+        {
+          "en": "Entering personal/bank details",
+          "as": "ব্যক্তিগত/বেংক তথ্য দিয়া"
+        },
+        {
+          "en": "Changing wallpaper",
+          "as": "wallpaper সলনি"
+        },
+        {
+          "en": "Reading news",
+          "as": "বাতৰি পঢ়া"
+        },
+        {
+          "en": "Opening calculator",
+          "as": "কেলকুলেটৰ খোলা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Look for 'https' and padlock before entering sensitive details on a website.",
+        "as": "website ত সংবেদনশীল তথ্য দিয়াৰ আগতে 'https' আৰু padlock চাওক।"
+      },
+      "explanation": {
+        "en": "Before entering personal, card or bank details, always check that the website uses HTTPS with a valid SSL certificate, shown by the padlock icon.",
+        "as": "ব্যক্তিগত, card বা বেংক তথ্য দিয়াৰ আগতে ৱেবছাইটে বৈধ SSL certificate সৈতে HTTPS ব্যৱহাৰ কৰে নে নাই সদায় পৰীক্ষা কৰক, যি padlock icon য়ে দেখুৱায়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is indicated by a 'padlock' symbol in the browser address bar?",
+        "as": "browser address bar ৰ 'padlock' চিহ্নই কি বুজায়?"
+      },
+      "options": [
+        {
+          "en": "The connection is secure (HTTPS)",
+          "as": "সংযোগ নিৰাপদ (HTTPS)"
+        },
+        {
+          "en": "The page is slow",
+          "as": "পৃষ্ঠা লেহেমীয়া"
+        },
+        {
+          "en": "The site is free",
+          "as": "site বিনামূলীয়া"
+        },
+        {
+          "en": "The computer has a virus",
+          "as": "কম্পিউটাৰত ভাইৰাছ আছে"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "The padlock shows a secure, encrypted HTTPS connection.",
+        "as": "padlock য়ে নিৰাপদ, এনক্রিপ্টেড HTTPS সংযোগ দেখুৱায়।"
+      },
+      "explanation": {
+        "en": "The padlock icon in the address bar means the connection between your browser and the website is encrypted using HTTPS, so data sent is protected in transit.",
+        "as": "Address bar ত padlock icon য়ে বুজায় যে আপোনাৰ browser আৰু ৱেবছাইটৰ মাজৰ সংযোগ HTTPS ৰে encrypt কৰা, সেয়ে পঠিওৱা তথ্য সুৰক্ষিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'backup' of computer data means ___",
+        "as": "কম্পিউটাৰ তথ্যৰ 'ব্যাকআপ' মানে ___।"
+      },
+      "options": [
+        {
+          "en": "Making a copy to restore later if data is lost",
+          "as": "তথ্য হেৰালে পুনৰুদ্ধাৰৰ বাবে কপি ৰখা"
+        },
+        {
+          "en": "Deleting the data",
+          "as": "তথ্য মচা"
+        },
+        {
+          "en": "Hiding the data",
+          "as": "তথ্য লুকুওৱা"
+        },
+        {
+          "en": "Printing the data",
+          "as": "তথ্য প্ৰিন্ট"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Backup is a copy of data kept safely to restore it in case of loss.",
+        "as": "backup হৈছে তথ্য হেৰালে পুনৰুদ্ধাৰৰ বাবে নিৰাপদে ৰখা কপি।"
+      },
+      "explanation": {
+        "en": "A backup is an extra copy of data stored separately, which can be used to restore files and settings if the originals are lost, corrupted or stolen.",
+        "as": "Backup হৈছে সুকীয়াকৈ ৰখা তথ্যৰ অতিৰিক্ত কপি, মূল ফাইল হেৰাই গ'লে, নষ্ট হ'লে বা চোৰ হ'লে পুনৰুদ্ধাৰ কৰিবলৈ ব্যৱহাৰ কৰা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which is a good backup practice?",
+        "as": "ভাল backup অভ্যাস কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Keep backups in multiple places (3-2-1 rule)",
+          "as": "একাধিক ঠাইত backup ৰখা (3-2-1 নিয়ম)"
+        },
+        {
+          "en": "Backup only once a year",
+          "as": "বছৰত এবাৰ backup"
+        },
+        {
+          "en": "Keep backup in the same folder as originals",
+          "as": "মূল ফাইলৰ একে ফোল্ডাৰত backup"
+        },
+        {
+          "en": "Never make backups",
+          "as": "কেতিয়াও backup নকৰা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Keep at least 3 copies on 2 different media with 1 offsite copy (3-2-1).",
+        "as": "2 ভিন্ন মাধ্যমে কমেও 3 কপি, তাৰে 1 অফছাইট (3-2-1) ৰাখক।"
+      },
+      "explanation": {
+        "en": "The 3-2-1 rule means keeping at least 3 copies of data, on 2 different types of media, with 1 copy stored offsite or in the cloud.",
+        "as": "3-2-1 নিয়মত তথ্যৰ অন্ততঃ ৩ টা কপি, ২ টা ভিন্ন মাধ্যমত, আৰু ১ টা কপি বাহিৰত বা cloud-ত ৰখা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following helps protect a computer from data loss?",
+        "as": "তলৰ কোনটোৱে কম্পিউটাৰ তথ্য হেৰোৱাৰ পৰা ৰক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Regular backup",
+          "as": "নিয়মীয়া backup"
+        },
+        {
+          "en": "Changing wallpaper",
+          "as": "wallpaper সলনি"
+        },
+        {
+          "en": "Adding speakers",
+          "as": "স্পীকাৰ যোগ"
+        },
+        {
+          "en": "Using mouse",
+          "as": "মাউছ ব্যৱহাৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Regular backups protect against accidental data loss.",
+        "as": "নিয়মীয়া backup য়ে আকস্মিক তথ্য ক্ষতিৰ পৰা ৰক্ষা কৰে।"
+      },
+      "explanation": {
+        "en": "Regular backups are the most reliable protection against data loss caused by hardware failure, virus attacks or accidental deletion. The other options do not protect data at all.",
+        "as": "নিয়মীয়া backup হৈছে hardware বিকল, ভাইৰাছ আক্ৰমণ বা ভুলবশত মচাৰ পৰা তথ্য ৰক্ষাৰ আটাইতকৈ নিৰ্ভৰযোগ্য উপায়। আন বিকল্পই তথ্য ৰক্ষা নকৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'firewall' in a computer is ___",
+        "as": "কম্পিউটাৰৰ 'ফায়ারওয়াল' হৈছে ___।"
+      },
+      "options": [
+        {
+          "en": "A security system that blocks unauthorized access",
+          "as": "অবৈধ প্রবেশ ৰোধ কৰা সুৰক্ষা ব্যৱস্থা"
+        },
+        {
+          "en": "A wall that burns data",
+          "as": "তথ্য পোৰা বেৰ"
+        },
+        {
+          "en": "A cooling fan",
+          "as": "শীতলীকৰণ পংখা"
+        },
+        {
+          "en": "A power supply",
+          "as": "বিদ্যুৎ যোগান"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A firewall filters traffic and blocks unauthorized access to a system.",
+        "as": "firewall য়ে traffic বাছি অবৈধ প্রবেশ ৰোধ কৰে।"
+      },
+      "explanation": {
+        "en": "A firewall monitors incoming and outgoing network traffic and blocks unauthorised access based on security rules, acting as a barrier between a system and the network.",
+        "as": "Firewall য়ে inbound আৰু outbound network traffic নিৰীক্ষণ কৰি সুৰক্ষা নিয়ম অনুসৰি অননুমোদিত প্ৰৱেশ ব্লক কৰে, system আৰু নেটৱৰ্কৰ মাজত প্ৰাচীৰ হিচাপে কাম কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Software updates (patches) are important because they ___",
+        "as": "ছফ্টৱেৰ আপডেট (patch) গুৰুত্বপূর্ণ কাৰণ সেইবোৰে ___।"
+      },
+      "options": [
+        {
+          "en": "Fix security holes and bugs",
+          "as": "সুৰক্ষা দোষ আৰু bug সমাধান কৰে"
+        },
+        {
+          "en": "Make the computer heavier",
+          "as": "কম্পিউটাৰ গধুৰ কৰে"
+        },
+        {
+          "en": "Change the colour only",
+          "as": "কেৱল ৰং সলনি"
+        },
+        {
+          "en": "Slow down the computer",
+          "as": "কম্পিউটাৰ লেহেমীয়া"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Updates patch security vulnerabilities and fix software bugs.",
+        "as": "আপডেটে সুৰক্ষা দোষ বন্ধ আৰু bug সমাধান কৰে।"
+      },
+      "explanation": {
+        "en": "Software updates fix bugs and, more importantly, close security vulnerabilities that attackers could exploit. Keeping software updated is a basic security practice.",
+        "as": "ছফ্টৱেৰ update য়ে bug মেৰামতি কৰে আৰু আটাইতকৈ গুৰুত্বপূৰ্ণভাৱে আক্ৰমণকাৰীয়ে ব্যৱহাৰ কৰিব পৰা সুৰক্ষা দুর্বলতা বন্ধ কৰে। ছফ্টৱেৰ update ৰখা মৌলিক সুৰক্ষা অভ্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'security patch'?",
+        "as": "'সিকিউৰিটি patch' কি?"
+      },
+      "options": [
+        {
+          "en": "An update that fixes a security vulnerability",
+          "as": "সুৰক্ষা দোষ সমাধান কৰা আপডেট"
+        },
+        {
+          "en": "A type of virus",
+          "as": "এবিধ ভাইৰাছ"
+        },
+        {
+          "en": "A password",
+          "as": "password"
+        },
+        {
+          "en": "A piece of hardware",
+          "as": "হাৰ্ডৱেৰ অংশ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A security patch is a software update that closes a security flaw.",
+        "as": "security patch হৈছে সুৰক্ষা দোষ বন্ধ কৰা ছফ্টৱেৰ আপডেট।"
+      },
+      "explanation": {
+        "en": "A security patch is a small software update released specifically to fix a known security vulnerability or hole in a program.",
+        "as": "Security patch হৈছে program এটাত থকা জনাজাত সুৰক্ষা দুর্বলতা বা ফুটা মেৰামতি কৰিবলৈ বিশেষভাৱে মুকলি কৰা সৰু ছফ্টৱেৰ update।"
+      }
+    },
+    {
+      "q": {
+        "en": "Cyber criminals who trick people into revealing secrets over the phone are called ___",
+        "as": "টেলিফোনত গোপন তথ্য উদ্ধাৰৰ বাবে ঠগোৱা cyber অপৰাধীক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Vishing callers",
+          "as": "Vishing কলকাৰী"
+        },
+        {
+          "en": "Net surfers",
+          "as": "Net surfers"
+        },
+        {
+          "en": "Programmers",
+          "as": "programmer"
+        },
+        {
+          "en": "Bloggers",
+          "as": "blogger"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Vishing is voice phishing over phone calls to steal information.",
+        "as": "vishing হৈছে তথ্য চুৰিৰ বাবে ফোনত voice phishing।"
+      },
+      "explanation": {
+        "en": "Vishing (voice phishing) is a social engineering attack in which fraudsters call victims, pretend to be bank or government officials, and trick them into revealing OTPs, PINs or card details.",
+        "as": "Vishing (voice phishing) হৈছে social engineering আক্ৰমণ য'ত প্ৰতাৰকে ফোনেৰে ভুক্তভোগীক কল কৰি বেংক বা চৰকাৰী বিষয়া বুলি কৈ OTP, PIN বা card তথ্য উলিয়াই লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Fake SMS messages to steal money or data are called ___",
+        "as": "ধন বা তথ্য চুৰিৰ বাবে ভুৱা SMS ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Smishing",
+          "as": "Smishing"
+        },
+        {
+          "en": "Vishing",
+          "as": "Vishing"
+        },
+        {
+          "en": "Pharming",
+          "as": "Pharming"
+        },
+        {
+          "en": "Rooting",
+          "as": "Rooting"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Smishing is phishing done through SMS text messages.",
+        "as": "smishing হৈছে SMS বাৰ্তাৰ দ্বাৰা phishing।"
+      },
+      "explanation": {
+        "en": "Smishing is phishing carried out through SMS. The message usually contains a malicious link or asks the user to call a fake number.",
+        "as": "Smishing হৈছে SMS ৰ জৰিয়তে কৰা phishing। বাৰ্তাত সাধাৰণতে এটা ক্ষতিকাৰক link থাকে বা ভুৱা নম্বৰলৈ কল কৰিবলৈ কোৱা হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Redirecting users of a real website to a fake one to steal data is called ___",
+        "as": "তথ্য চুৰিৰ বাবে আচল website ৰ ইউজাৰক ভুৱা site লৈ পঠোৱাকে ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Pharming",
+          "as": "Pharming"
+        },
+        {
+          "en": "Smishing",
+          "as": "Smishing"
+        },
+        {
+          "en": "Farming",
+          "as": "Farming"
+        },
+        {
+          "en": "Spamming",
+          "as": "Spamming"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Pharming redirects a user to a fake website even without clicking a fake link.",
+        "as": "pharming ত ভুৱা লিংক নোচোওঁতেই ইউজাৰ ভুৱা website লৈ যায়।"
+      },
+      "explanation": {
+        "en": "Pharming redirects a user to a fraudulent website even without clicking a malicious link, typically by corrupting DNS settings or the hosts file.",
+        "as": "Pharming য়ে ক্ষতিকাৰক link নাটিপিয়াকৈও ব্যৱহাৰকাৰীক ভুৱা ৱেবছাইটলৈ পুনঃনিৰ্দেশ কৰে, সাধাৰণতে DNS setting বা hosts ফাইল নষ্ট কৰি।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does 'cyber stalking' mean?",
+        "as": "'সাইবার স্টকিং' ৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Repeatedly following/harassing someone online",
+          "as": "অনলাইনত কাৰোবাক বাৰে বাৰে তাড়না/উৎপীড়ন"
+        },
+        {
+          "en": "Searching for jobs",
+          "as": "চাকৰি বিচৰা"
+        },
+        {
+          "en": "Sending legal notices",
+          "as": "আইনী নোটিচ পঠোৱা"
+        },
+        {
+          "en": "Online shopping",
+          "as": "অনলাইন বজাৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cyber stalking means repeatedly harassing or following someone online.",
+        "as": "cyber stalking অৰ্থ অনলাইনত কাৰোবাক বাৰে বাৰে উৎপীড়ন বা অনুসৰণ।"
+      },
+      "explanation": {
+        "en": "Cyber stalking means repeatedly following, monitoring or harassing a person through the internet, email or social media, causing fear or distress.",
+        "as": "Cyber stalking মানে ইন্টাৰনেট, ইমেইল বা social media ৰ জৰিয়তে কোনো ব্যক্তিক বাৰে বাৰে অনুসৰণ, নিৰীক্ষণ বা উৎপীড়ন কৰা, যাৰ ফলত ভয় বা মানসিক কষ্ট হয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Posting abusive messages about someone online is an example of ___",
+        "as": "অনলাইনত কাৰোবাক লৈ অপমানজনক বাৰ্তা পোষ্ট ___ উদাহৰণ।"
+      },
+      "options": [
+        {
+          "en": "Cyber bullying",
+          "as": "Cyber bullying"
+        },
+        {
+          "en": "E-shopping",
+          "as": "E-shopping"
+        },
+        {
+          "en": "E-learning",
+          "as": "E-learning"
+        },
+        {
+          "en": "Net banking",
+          "as": "Net banking"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Harassing someone online through messages is cyber bullying.",
+        "as": "বাৰ্তাৰ দ্বাৰা অনলাইনত কাৰোবাক উৎপীড়নকে cyber bullying বোলে।"
+      },
+      "explanation": {
+        "en": "Cyber bullying is the use of electronic communication to post abusive, threatening or embarrassing messages about a person, often repeatedly.",
+        "as": "Cyber bullying হৈছে কোনো ব্যক্তিৰ বিষয়ে অপমানজনক, ভাবুকিপূৰ্ণ বা লাজকৰ বাৰ্তা electronic যোগাযোগৰ জৰিয়তে প্ৰায়ে বাৰে বাৰে পোষ্ট কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is a 'computer worm's' main difference from a virus?",
+        "as": "ভাইৰাছৰ পৰা 'কম্পিউটাৰ worm' ৰ মূল পাৰ্থক্য কি?"
+      },
+      "options": [
+        {
+          "en": "Worms spread on their own without host files",
+          "as": "worm host ফাইল নোহোৱাকৈ নিজে বিয়পে"
+        },
+        {
+          "en": "Worms are slower",
+          "as": "worm লেহেমীয়া"
+        },
+        {
+          "en": "Worms are visual",
+          "as": "worm দৃশ্যমান"
+        },
+        {
+          "en": "Worms only print",
+          "as": "worm কেৱল প্ৰিন্ট"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Worms self-replicate over networks; viruses need host files and user action.",
+        "as": "worm network ত নিজে বিয়পে; ভাইৰাছক host ফাইল আৰু ইউজাৰ কাৰ্য লাগে।"
+      },
+      "explanation": {
+        "en": "The main difference is that a worm self-replicates and spreads across networks on its own, whereas a virus needs a host file and usually a user action to spread.",
+        "as": "মূল পাৰ্থক্য হ'ল worm য়ে নিজে প্ৰতিলিপি বনাই নেটৱৰ্কত বিয়পে, আনহাতে ভাইৰাছে বিয়পিবলৈ host ফাইল আৰু সাধাৰণতে ব্যৱহাৰকাৰীৰ কাৰ্য প্ৰয়োজন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is NOT safe browsing behaviour?",
+        "as": "এইবোৰৰ কোনটো নিৰাপদ ব্ৰাউজিং আচৰণ নহয়?"
+      },
+      "options": [
+        {
+          "en": "Clicking links in unknown emails",
+          "as": "অজ্ঞাত ইমেইলৰ লিংকত ক্লিক"
+        },
+        {
+          "en": "Checking https padlock",
+          "as": "https padlock পৰীক্ষা"
+        },
+        {
+          "en": "Using updated browser",
+          "as": "আপডেটেড browser"
+        },
+        {
+          "en": "Keeping antivirus on",
+          "as": "antivirus চলাই ৰখা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Clicking unknown email links can lead to phishing or malware.",
+        "as": "অজ্ঞাত ইমেইল লিংকত ক্লিক কৰিলে phishing বা malware হ'ব পাৰে।"
+      },
+      "explanation": {
+        "en": "Clicking links in unknown or unexpected emails is unsafe because they may lead to phishing pages or download malware. The other three are good security practices.",
+        "as": "অজ্ঞাত বা অপ্ৰত্যাশিত ইমেইলৰ link টিপোৱা অসুৰক্ষিত, কাৰণ সেইবোৰে phishing পৃষ্ঠালৈ নিব পাৰে বা malware download কৰাব পাৰে। বাকী তিনিটা ভাল সুৰক্ষা অভ্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is 'cyber crime'?",
+        "as": "'সাইবার অপরাধ' কি?"
+      },
+      "options": [
+        {
+          "en": "Crimes committed using computers or the internet",
+          "as": "কম্পিউটাৰ বা ইন্টারনেট ব্যৱহাৰ কৰি অপৰাধ"
+        },
+        {
+          "en": "Crimes about building roads",
+          "as": "পথ নির্মাণৰ অপৰাধ"
+        },
+        {
+          "en": "Crimes about cooking",
+          "as": "ৰন্ধনৰ অপৰাধ"
+        },
+        {
+          "en": "Crimes about farming",
+          "as": "খেতিৰ অপৰাধ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Cyber crime is any illegal act done using computers or the internet.",
+        "as": "cyber crime হৈছে কম্পিউটাৰ বা ইন্টারনেট ব্যৱহাৰ কৰি হোৱা যিকোনো অবৈধ কাৰ্য।"
+      },
+      "explanation": {
+        "en": "Cyber crime is any illegal activity carried out using a computer, network or the internet, such as hacking, identity theft, online fraud or cyber stalking.",
+        "as": "Cyber crime হৈছে কম্পিউটাৰ, নেটৱৰ্ক বা ইন্টাৰনেট ব্যৱহাৰ কৰি কৰা যিকোনো অবৈধ কাৰ্য, যেনে hacking, পৰিচয় চুৰি, অনলাইন প্ৰতাৰণা বা cyber stalking।"
+      }
+    },
+    {
+      "q": {
+        "en": "A program that appears to be an antivirus but is actually harmful is called ___",
+        "as": "antivirus যেন লাগি আচলতে ক্ষতিকাৰক program ক ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Rogue software / fake antivirus",
+          "as": "Rogue ছফ্টৱেৰ / ভুৱা antivirus"
+        },
+        {
+          "en": "Shareware",
+          "as": "Shareware"
+        },
+        {
+          "en": "Freeware",
+          "as": "Freeware"
+        },
+        {
+          "en": "Firmware",
+          "as": "Firmware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Fake/rogue antivirus tricks users into paying or installing more malware.",
+        "as": "ভুৱা/rogue antivirus য়ে ইউজাৰক ধন দিয়া বা বেছি malware লগোৱাত ঠগে।"
+      },
+      "explanation": {
+        "en": "Rogue software or fake antivirus is a program that pretends to be a security tool, shows fake infection alerts and then demands payment or installs more malware.",
+        "as": "Rogue ছফ্টৱেৰ বা ভুৱা antivirus হৈছে এনে program যিয়ে সুৰক্ষা সঁজুলি বুলি দেখুৱায়, ভুৱা সংক্ৰমণৰ সতৰ্কবাণী দিয়ে, তাৰ পিছত টকা দাবী কৰে বা অধিক malware ইনষ্টল কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of the following is a safe way to receive money online?",
+        "as": "অনলাইনত ধন লোৱাৰ নিৰাপদ উপায় কোনটো?"
+      },
+      "options": [
+        {
+          "en": "Giving your OTP to the sender",
+          "as": "পঠাওঁতাজনক OTP দিয়া"
+        },
+        {
+          "en": "Using official UPI/apps only",
+          "as": "কেৱল চৰকাৰী UPI/app ব্যৱহাৰ"
+        },
+        {
+          "en": "Sharing your PIN",
+          "as": "PIN ভাগ"
+        },
+        {
+          "en": "Sharing CVV",
+          "as": "CVV ভাগ"
+        }
+      ],
+      "correct": 1,
+      "a": {
+        "en": "Receive money only through official apps; never share OTP/PIN/CVV.",
+        "as": "কেৱল চৰকাৰী app ৰে ধন লওক; OTP/PIN/CVV কেতিয়াও নাভাগৰিব।"
+      },
+      "explanation": {
+        "en": "Money should be received only through official bank or UPI apps. You never need to share an OTP, PIN or CVV to receive money; those are only for sending or authorising payments.",
+        "as": "টকা কেৱল চৰকাৰী বেংক বা UPI app ৰ জৰিয়তে ল'ব লাগে। টকা লাভ কৰিবলৈ কেতিয়াও OTP, PIN বা CVV share কৰাৰ প্ৰয়োজন নাই; সেইবোৰ কেৱল পঠিওৱা বা payment authorize কৰিবলৈ।"
+      }
+    },
+    {
+      "q": {
+        "en": "To receive money on UPI you generally need to share ___",
+        "as": "UPI ত ধন ল'বলৈ সাধাৰণতে ___ ভাগ কৰিব লাগে।"
+      },
+      "options": [
+        {
+          "en": "Your UPI ID/QR code only",
+          "as": "কেৱল UPI ID/QR code"
+        },
+        {
+          "en": "Your UPI PIN",
+          "as": "UPI PIN"
+        },
+        {
+          "en": "Your OTP",
+          "as": "OTP"
+        },
+        {
+          "en": "Your CVV",
+          "as": "CVV"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Share only UPI ID or QR code to receive money; PIN/OTP must stay secret.",
+        "as": "ধন ল'বলৈ কেৱল UPI ID বা QR code ভাগ কৰক; PIN/OTP গোপন ৰাখিব।"
+      },
+      "explanation": {
+        "en": "To receive money on UPI you share only your UPI ID or QR code. The UPI PIN is secret and is needed only to send money, not to receive it.",
+        "as": "UPI ত টকা লাভ কৰিবলৈ কেৱল আপোনাৰ UPI ID বা QR code share কৰা হয়। UPI PIN গোপন, আৰু টকা পঠিয়াবলৈহে প্ৰয়োজন, লাভ কৰিবলৈ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "Calling the bank customer care number given at the back of your debit card is an example of using ___",
+        "as": "ডেবিট কাৰ্ডৰ পিছফালে থকা বেংক customer care নম্বৰলৈ ফোন ___ ব্যৱহাৰ।"
+      },
+      "options": [
+        {
+          "en": "An official verified channel",
+          "as": "চৰকাৰী সত্যাপিত মাধ্যম"
+        },
+        {
+          "en": "A phishing site",
+          "as": "phishing site"
+        },
+        {
+          "en": "A trojan",
+          "as": "trojan"
+        },
+        {
+          "en": "Spyware",
+          "as": "spyware"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Official numbers printed on cards are verified channels for bank help.",
+        "as": "কাৰ্ডত থকা চৰকাৰী নম্বৰ বেংক সহায়ৰ সত্যাপিত মাধ্যম।"
+      },
+      "explanation": {
+        "en": "The customer care number printed on the back of a debit or credit card is an official, verified channel of the bank and is safe to use.",
+        "as": "Debit বা credit card ৰ পিছফালে লিখা customer care নম্বৰ বেংকৰ চৰকাৰী, প্ৰমাণিত মাধ্যম আৰু ব্যৱহাৰ কৰা সুৰক্ষিত।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which organization handles cyber security incidents in India (Computer Emergency Response Team)?",
+        "as": "ভাৰতত cyber সুৰক্ষা ঘটনা পৰিচালনা কৰা সংস্থা (Computer Emergency Response Team) কোনখন?"
+      },
+      "options": [
+        {
+          "en": "CERT-In",
+          "as": "CERT-In"
+        },
+        {
+          "en": "ISRO",
+          "as": "ISRO"
+        },
+        {
+          "en": "BARC",
+          "as": "BARC"
+        },
+        {
+          "en": "DRDO",
+          "as": "DRDO"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "CERT-In (Indian Computer Emergency Response Team) handles cyber incidents in India.",
+        "as": "CERT-In (Indian Computer Emergency Response Team) য়ে ভাৰতত cyber ঘটনা পৰিচালনা কৰে।"
+      },
+      "explanation": {
+        "en": "CERT-In (Indian Computer Emergency Response Team) is the national nodal agency under MeitY that handles cyber security incidents, alerts and advisories in India.",
+        "as": "CERT-In (Indian Computer Emergency Response Team) হৈছে MeitY ৰ অধীনৰ ৰাষ্ট্ৰীয় ন'ডেল সংস্থা, যিয়ে ভাৰতত cyber সুৰক্ষা ঘটনা, alert আৰু advisory পৰিচালনা কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The National Cyber Security Policy of India was launched in ___",
+        "as": "ভাৰতৰ National Cyber Security Policy কেতিয়া চালু হৈছিল?"
+      },
+      "options": [
+        {
+          "en": "2013",
+          "as": "2013"
+        },
+        {
+          "en": "2000",
+          "as": "2000"
+        },
+        {
+          "en": "2005",
+          "as": "2005"
+        },
+        {
+          "en": "2018",
+          "as": "2018"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "India's National Cyber Security Policy was launched in 2013.",
+        "as": "ভাৰতৰ National Cyber Security Policy 2013 ত চালু হৈছিল।"
+      },
+      "explanation": {
+        "en": "India's National Cyber Security Policy was launched in 2013 to build a safe, resilient and trusted cyber environment.",
+        "as": "ভাৰতৰ National Cyber Security Policy ২০১৩ চনত আৰম্ভ কৰা হৈছিল, সুৰক্ষিত, স্থিতিশীল আৰু বিশ্বাসযোগ্য cyber পৰিৱেশ গঢ়িবলৈ।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which Indian agency is responsible for 'cyber forensics' investigation support?",
+        "as": "ভাৰতত 'cyber forensics' তদন্ত সহায়তাৰ বাবে দায়ী সংস্থা কোনখন?"
+      },
+      "options": [
+        {
+          "en": "CBI (with cyber cells)",
+          "as": "CBI (cyber cell সহ)"
+        },
+        {
+          "en": "BARC",
+          "as": "BARC"
+        },
+        {
+          "en": "NPCI",
+          "as": "NPCI"
+        },
+        {
+          "en": "NABARD",
+          "as": "NABARD"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Police cyber cells and CBI handle cyber crime investigation and forensics in India.",
+        "as": "ভাৰতত পুলিচ cyber cell আৰু CBI য়ে cyber অপরাধ তদন্ত আৰু forensics পৰিচালনা কৰে।"
+      },
+      "explanation": {
+        "en": "Cyber crime cases in India are investigated by state police cyber cells, with specialised support from agencies such as the CBI for major or inter-state cases.",
+        "as": "ভাৰতত cyber অপৰাধৰ মামিলা ৰাজ্যিক আৰক্ষীৰ cyber cell য়ে তদন্ত কৰে, ডাঙৰ বা আন্তঃৰাজ্যিক মামিলাত CBI ৰ দৰে সংস্থাৰ বিশেষ সহায়তাত।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does the term 'netiquette' mean?",
+        "as": "'নেটিকেট' (netiquette) শব্দৰ অৰ্থ কি?"
+      },
+      "options": [
+        {
+          "en": "Rules of polite behaviour on the internet",
+          "as": "ইন্টারনেটত সভ্য আচৰণৰ নিয়ম"
+        },
+        {
+          "en": "A type of networking cable",
+          "as": "এবিধ networking cable"
+        },
+        {
+          "en": "A computer virus",
+          "as": "কম্পিউটাৰ ভাইৰাছ"
+        },
+        {
+          "en": "A web browser",
+          "as": "web browser"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Netiquette is internet etiquette - polite and respectful behaviour online.",
+        "as": "netiquette হৈছে ইন্টারনেটত সভ্য আৰু শ্রদ্ধাপূর্ণ আচৰণৰ নিয়ম।"
+      },
+      "explanation": {
+        "en": "Netiquette means internet etiquette: the accepted rules of polite, respectful and responsible behaviour while communicating online.",
+        "as": "Netiquette মানে ইন্টাৰনেট শিষ্টাচাৰ: অনলাইনত যোগাযোগ কৰোঁতে ভদ্ৰ, শ্ৰদ্ধাশীল আৰু দায়িত্বশীল আচৰণৰ স্বীকৃত নিয়ম।"
+      }
+    },
+    {
+      "q": {
+        "en": "'Shoulder surfing' in cyber security means ___",
+        "as": "cyber সুৰক্ষাত 'শল্ডাৰ সার্ফিং' মানে ___।"
+      },
+      "options": [
+        {
+          "en": "Watching someone type their password secretly",
+          "as": "গোপনে কাৰোবাক password টাইপ কৰা চোৱা"
+        },
+        {
+          "en": "Surfing websites on the shoulder",
+          "as": "কান্ধত website ব্ৰাউজ"
+        },
+        {
+          "en": "A shoulder massage app",
+          "as": "কান্ধ মালিছ app"
+        },
+        {
+          "en": "Swimming exercise",
+          "as": "সাঁতোৰ ব্যায়াম"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Shoulder surfing is stealing information by watching over someone's shoulder.",
+        "as": "shoulder surfing হৈছে কাৰোবাৰ কান্ধত চাই তথ্য চুৰি কৰা।"
+      },
+      "explanation": {
+        "en": "Shoulder surfing is observing a person while they enter a password, PIN or card details in order to steal that information.",
+        "as": "Shoulder surfing হৈছে কোনোৱে পাছৱৰ্ড, PIN বা card তথ্য দি থকাৰ সময়ত চাই লৈ সেই তথ্য চুৰি কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Looking for passwords or data thrown away in the trash is called ___",
+        "as": "আবর্জনাত পেলোৱা পাছৱৰ্ড বা তথ্য বিচৰাকে ___ বোলে।"
+      },
+      "options": [
+        {
+          "en": "Dumpster diving",
+          "as": "Dumpster diving"
+        },
+        {
+          "en": "Sky diving",
+          "as": "Sky diving"
+        },
+        {
+          "en": "Deep diving",
+          "as": "Deep diving"
+        },
+        {
+          "en": "Web diving",
+          "as": "Web diving"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Dumpster diving is collecting data from discarded papers/devices.",
+        "as": "dumpster diving হৈছে পেলোৱা কাগজ/যন্ত্ৰৰ পৰা তথ্য সংগ্ৰহ।"
+      },
+      "explanation": {
+        "en": "Dumpster diving is recovering information from discarded papers, letters, hard disks or other trash in order to misuse it.",
+        "as": "Dumpster diving হৈছে পেলনীয়া কাগজ, চিঠি, hard disk বা আৱৰ্জনাৰ পৰা তথ্য উদ্ধাৰ কৰি ইয়াক দুৰুপযোগ কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is an example of social engineering attack?",
+        "as": "এইবোৰৰ কোনটো social engineering আক্রমণৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Tricking a person to reveal their password",
+          "as": "ছল ধৰি password উদ্ধাৰ"
+        },
+        {
+          "en": "Installing a printer",
+          "as": "প্ৰিন্টাৰ লগোৱা"
+        },
+        {
+          "en": "Formatting a disk",
+          "as": "ডিস্ক format"
+        },
+        {
+          "en": "Defragmenting the disk",
+          "as": "ডিস্ক defragment"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Social engineering manipulates people into giving away secrets.",
+        "as": "social engineering ত লোকক ঠগাই গোপন তথ্য উদ্ধাৰ কৰা হয়।"
+      },
+      "explanation": {
+        "en": "Social engineering manipulates human psychology rather than technical flaws. For example, a caller pretending to be a bank officer tricks a person into revealing the password.",
+        "as": "Social engineering য়ে কাৰিকৰী দুর্বলতাৰ পৰিৱৰ্তে মানৱ মনোবিজ্ঞান ব্যৱহাৰ কৰে। উদাহৰণস্বৰূপে, বেংক বিষয়া বুলি কৈ কল কৰা ব্যক্তিয়ে পাছৱৰ্ড উলিয়াই লয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "What is the safest way to receive a call from a bank?",
+        "as": "বেংকৰ ফোন লোৱাৰ সবাতোকৈ নিৰাপদ উপায় কি?"
+      },
+      "options": [
+        {
+          "en": "Call the official bank number yourself and verify",
+          "as": "নিজে চৰকাৰী বেংক নম্বৰত ফোন কৰি সত্যাপন"
+        },
+        {
+          "en": "Share OTP if asked on call",
+          "as": "ফোনত সুধিলে OTP দিয়া"
+        },
+        {
+          "en": "Give CVV on call",
+          "as": "ফোনত CVV দিয়া"
+        },
+        {
+          "en": "Transfer money to the caller",
+          "as": "কলকাৰীলৈ ধন পঠিওৱা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Always verify by calling the official number; never trust unsolicited calls.",
+        "as": "চৰকাৰী নম্বৰত ফোন কৰি সত্যাপন; অজ্ঞাত ফোনত বিশ্বাস নকৰিব।"
+      },
+      "explanation": {
+        "en": "The safest approach is to never act on an unsolicited call; instead hang up and call the bank's official number yourself to verify.",
+        "as": "আটাইতকৈ সুৰক্ষিত উপায় হ'ল অযাচিত কলত কেতিয়াও কাম নকৰা; বৰং ফোন ৰাখি নিজে বেংকৰ চৰকাৰী নম্বৰলৈ কল কৰি সত্যতা প্ৰমাণ কৰা।"
+      }
+    },
+    {
+      "q": {
+        "en": "A 'keylogger' is a ___",
+        "as": "'কিলগার' (keylogger) হৈছে ___।"
+      },
+      "options": [
+        {
+          "en": "Spyware that records every keystroke",
+          "as": "প্ৰতিটো key-stroke লিপিবদ্ধ spyware"
+        },
+        {
+          "en": "Type of keyboard",
+          "as": "এবিধ keyboard"
+        },
+        {
+          "en": "Music player",
+          "as": "music player"
+        },
+        {
+          "en": "Screen saver",
+          "as": "screen saver"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "A keylogger secretly records keystrokes to steal passwords.",
+        "as": "keylogger য়ে গোপনে key-stroke লিপিবদ্ধ কৰি password চুৰি কৰে।"
+      },
+      "explanation": {
+        "en": "A keylogger is spyware that silently records every keystroke made on a computer or device, allowing the attacker to steal passwords and card numbers.",
+        "as": "Keylogger হৈছে এনে spyware যিয়ে কম্পিউটাৰ বা ডিভাইচত টাইপ কৰা প্ৰতিটো key গোপনে লিপিবদ্ধ কৰে, যাৰ ফলত আক্ৰমণকাৰীয়ে পাছৱৰ্ড আৰু card নম্বৰ চুৰি কৰিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these helps protect your wireless home network?",
+        "as": "তলৰ কোনটোৱে ঘৰৰ wireless network ৰক্ষা কৰে?"
+      },
+      "options": [
+        {
+          "en": "Strong Wi-Fi password with WPA2/WPA3 encryption",
+          "as": "WPA2/WPA3 এনক্রিপশন সহ শক্তিশালী Wi-Fi password"
+        },
+        {
+          "en": "Open network without password",
+          "as": "password নোহোৱা মুক্ত network"
+        },
+        {
+          "en": "Sharing password publicly",
+          "as": "password সাৰ্বজনীন ভাগ"
+        },
+        {
+          "en": "Keeping router admin password default",
+          "as": "router ৰ আগতীয়া password ৰখা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Use a strong password and WPA2/WPA3 to secure your Wi-Fi.",
+        "as": "শক্তিশালী password আৰু WPA2/WPA3 য়ে Wi-Fi নিৰাপদ কৰে।"
+      },
+      "explanation": {
+        "en": "A wireless home network is protected by a strong Wi-Fi password together with WPA2 or WPA3 encryption, which scrambles the traffic between devices and the router.",
+        "as": "ৱায়াৰলেছ ঘৰুৱা নেটৱৰ্ক এটা শক্তিশালী Wi-Fi পাছৱৰ্ড আৰু WPA2 বা WPA3 encryption ৰ দ্বাৰা সুৰক্ষিত থাকে, যিয়ে ডিভাইচ আৰু router ৰ মাজৰ traffic encrypt কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "WPA2 and WPA3 are ___",
+        "as": "WPA2 আৰু WPA3 হৈছে ___।"
+      },
+      "options": [
+        {
+          "en": "Wireless security protocols",
+          "as": "wireless সুৰক্ষা protocol"
+        },
+        {
+          "en": "Web browsers",
+          "as": "web browser"
+        },
+        {
+          "en": "Operating systems",
+          "as": "অপাৰেটিং ছিষ্টেম"
+        },
+        {
+          "en": "CPU types",
+          "as": "CPU ধৰণ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "WPA2/WPA3 are security protocols that encrypt Wi-Fi connections.",
+        "as": "WPA2/WPA3 হৈছে Wi-Fi সংযোগ এনক্রিপ্ট কৰা সুৰক্ষা protocol।"
+      },
+      "explanation": {
+        "en": "WPA2 and WPA3 are wireless security protocols (WPA = Wi-Fi Protected Access). WPA3 is newer and stronger, and both encrypt data sent over Wi-Fi.",
+        "as": "WPA2 আৰু WPA3 হৈছে wireless সুৰক্ষা protocol (WPA = Wi-Fi Protected Access)। WPA3 নতুন আৰু বেছি শক্তিশালী, আৰু দুয়োটাই Wi-Fi ৰ data encrypt কৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The first common antivirus for personal computers was based on work by ___",
+        "as": "পার্সোনাল কম্পিউটাৰৰ প্ৰথম জনপ্ৰিয় antivirus ___ ৰ কামৰ ওপৰত আছিল।"
+      },
+      "options": [
+        {
+          "en": "Several early developers (e.g., John McAfee, Eugene Kaspersky)",
+          "as": "কেইবাজনো আদি বিকাশক (যেনে John McAfee, Eugene Kaspersky)"
+        },
+        {
+          "en": "Tim Berners-Lee only",
+          "as": "কেৱল Tim Berners-Lee"
+        },
+        {
+          "en": "Charles Babbage only",
+          "as": "কেৱল Charles Babbage"
+        },
+        {
+          "en": "Ada Lovelace only",
+          "as": "কেৱল Ada Lovelace"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Companies like McAfee and Kaspersky were pioneers of antivirus software.",
+        "as": "McAfee আৰু Kaspersky আদি কোম্পানী antivirus ছফ্টৱেৰৰ পথিকৃৎ আছিল।"
+      },
+      "explanation": {
+        "en": "Early antivirus pioneers include John McAfee (McAfee) and Eugene Kaspersky (Kaspersky Lab). Tim Berners-Lee invented the World Wide Web, and Babbage and Lovelace worked on early computing.",
+        "as": "আগৰ antivirus অগ্ৰণীসকলৰ ভিতৰত John McAfee (McAfee) আৰু Eugene Kaspersky (Kaspersky Lab) আছে। Tim Berners-Lee য়ে World Wide Web বনাইছিল, আৰু Babbage আৰু Lovelace য়ে প্ৰাৰম্ভিক কম্পিউটাৰত কাম কৰিছিল।"
+      }
+    },
+    {
+      "q": {
+        "en": "What does 'incognito/private browsing' do?",
+        "as": "'ইনকগনিটো/প্রাইভেট ব্ৰাউজিং' কি কৰে?"
+      },
+      "options": [
+        {
+          "en": "Does not save history/cookies on the local device",
+          "as": "স্থানীয় যন্ত্ৰত history/cookie save নকৰে"
+        },
+        {
+          "en": "Makes you invisible to the internet",
+          "as": "ইন্টারনেটত অদৃশ্য"
+        },
+        {
+          "en": "Speeds up the internet",
+          "as": "ইন্টারনেট বেগায়"
+        },
+        {
+          "en": "Blocks all ads forever",
+          "as": "সকলো বিজ্ঞাপন চিৰদিন বন্ধ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Private mode stops saving local history/cookies, but the ISP can still see traffic.",
+        "as": "private mode ত স্থানীয় history/cookie নাথাকে, কিন্তু ISP য়ে traffic এতিয়াও দেখে।"
+      },
+      "explanation": {
+        "en": "Private or incognito browsing prevents the browser from saving local history, cookies and form data. However, the ISP, employer or websites can still see the activity.",
+        "as": "Private বা incognito browsing য়ে browser-ক স্থানীয় history, cookie আৰু form তথ্য save কৰাৰ পৰা বাধা দিয়ে। কিন্তু ISP, নিয়োগকৰ্তা বা ৱেবছাইটে তথাপিও কাৰ্যকলাপ দেখিব পাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is an example of data privacy protection?",
+        "as": "তলৰ কোনটো তথ্য গোপনীয়তা ৰক্ষাৰ উদাহৰণ?"
+      },
+      "options": [
+        {
+          "en": "Reading a privacy policy before sharing data",
+          "as": "তথ্য ভাগ কৰাৰ আগতে privacy policy পঢ়া"
+        },
+        {
+          "en": "Posting your Aadhaar online",
+          "as": "আধাৰ অনলাইনত পোষ্ট"
+        },
+        {
+          "en": "Sharing address with strangers",
+          "as": "অচিনাকি লোকলৈ ঠিকনা"
+        },
+        {
+          "en": "Clicking unknown links",
+          "as": "অজ্ঞাত লিংকত ক্লিক"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Reading privacy policies and limiting shared data protects your privacy.",
+        "as": "privacy policy পঢ়া আৰু তথ্য সীমিত ভাগেই গোপনীয়তা ৰক্ষা কৰে।"
+      },
+      "explanation": {
+        "en": "Reading a site's privacy policy before sharing data helps you understand how your information will be collected, used and protected, which is a key data-privacy practice.",
+        "as": "তথ্য share কৰাৰ আগতে ৱেবছাইটৰ privacy policy পঢ়িলে আপোনাৰ তথ্য কেনেকৈ সংগ্ৰহ, ব্যৱহাৰ আৰু সুৰক্ষা কৰা হ'ব সেয়া বুজিব পাৰি, যি মূল data-privacy অভ্যাস।"
+      }
+    },
+    {
+      "q": {
+        "en": "A biometric login uses ___",
+        "as": "biometric login ত ___ ব্যৱহাৰ হয়।"
+      },
+      "options": [
+        {
+          "en": "Physical traits like fingerprint or face",
+          "as": "আঙুলিৰ ছাপ বা মুখ আদি শাৰীৰিক বৈশিষ্ট্য"
+        },
+        {
+          "en": "Only text passwords",
+          "as": "কেৱল text password"
+        },
+        {
+          "en": "A printed paper",
+          "as": "মুদ্ৰিত কাগজ"
+        },
+        {
+          "en": "A barcode sticker",
+          "as": "barcode ষ্টিকাৰ"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Biometrics verify identity through unique physical traits like fingerprints.",
+        "as": "biometric য়ে আঙুলিৰ ছাপ আদি শাৰীৰিক বৈশিষ্ট্যৰে পৰিচয় সত্যাপন কৰে।"
+      },
+      "explanation": {
+        "en": "Biometric login authenticates a user using unique physical or behavioural traits such as a fingerprint, face, iris or voice, which are difficult to forge.",
+        "as": "Biometric login য়ে আঙুলিৰ ছাপ, মুখ, iris বা মাতৰ দৰে অদ্বিতীয় শাৰীৰিক বা আচৰণগত বৈশিষ্ট্যৰ দ্বাৰা ব্যৱহাৰকাৰীক প্ৰমাণিত কৰে, যিবোৰ নকল কৰা কঠিন।"
+      }
+    },
+    {
+      "q": {
+        "en": "Which of these is a strong way to verify an online purchase payment?",
+        "as": "অনলাইন ক্রয় মূল্য সত্যাপনৰ শক্তিশালী উপায় কোনটো?"
+      },
+      "options": [
+        {
+          "en": "3-D Secure / OTP verification by bank",
+          "as": "বেংকৰ 3-D Secure / OTP সত্যাপন"
+        },
+        {
+          "en": "Sharing card photo online",
+          "as": "কাৰ্ডৰ ছবি অনলাইনত"
+        },
+        {
+          "en": "Writing CVV in chat",
+          "as": "চেটত CVV লিখা"
+        },
+        {
+          "en": "Sending PIN by SMS",
+          "as": "SMS ত PIN পঠোৱা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Banks verify online payments with 3-D Secure and OTP for safety.",
+        "as": "বেংকে নিৰাপত্তাৰ বাবে online পেমেন্ট 3-D Secure আৰু OTP ৰে সত্যাপন কৰে।"
+      },
+      "explanation": {
+        "en": "Banks use 3-D Secure with OTP verification to authenticate online card payments, so that even if card details leak, the payment cannot be completed without the OTP.",
+        "as": "বেংকে OTP প্ৰমাণন সৈতে 3-D Secure ব্যৱহাৰ কৰি অনলাইন card payment প্ৰমাণিত কৰে, যাতে card তথ্য ঢুকি গ'লেও OTP অবিহনে payment সম্পূৰ্ণ নহয়।"
+      }
+    },
+    {
+      "q": {
+        "en": "If you receive a prize message 'You won a lottery, pay a fee to claim', it is most likely ___",
+        "as": "'আপুনি লটাৰি জিকিলে, দাবি কৰিবলৈ ফি দিয়ক' বাৰ্তাটো বেছিভাগেই ___।"
+      },
+      "options": [
+        {
+          "en": "A fraud / advance fee scam",
+          "as": "ঠগ / আগতীয়া ফি জালিয়াতি"
+        },
+        {
+          "en": "A genuine bank message",
+          "as": "আচল বেংক বাৰ্তা"
+        },
+        {
+          "en": "A government order",
+          "as": "চৰকাৰী নিৰ্দেশ"
+        },
+        {
+          "en": "A school notice",
+          "as": "বিদ্যালয় notice"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Lottery prize demands for fees are classic advance-fee frauds.",
+        "as": "লটাৰি পুৰস্কাৰৰ নামত ফি দাবি আগতীয়া-ফি ঠগ।"
+      },
+      "explanation": {
+        "en": "Messages claiming you won a lottery or prize and asking for a processing fee are advance-fee frauds. Genuine lotteries never demand money to release a prize.",
+        "as": "আপুনি লটাৰী বা পুৰস্কাৰ জিকিলে বুলি কৈ processing fee বিচৰা বাৰ্তা advance-fee প্ৰতাৰণা। প্ৰকৃত লটাৰীয়ে পুৰস্কাৰ মুকলি কৰিবলৈ কেতিয়াও টকা নিবিচাৰে।"
+      }
+    },
+    {
+      "q": {
+        "en": "The proper way to respond to a cyber attack on a company is to ___",
+        "as": "কোম্পানীত cyber আক্রমণ হ'লে সঠিক প্ৰতিক্রিয়া ___।"
+      },
+      "options": [
+        {
+          "en": "Report to CERT-In and follow the incident response plan",
+          "as": "CERT-In ৰ report আৰু incident response পরিকল্পনা মানা"
+        },
+        {
+          "en": "Hide the incident",
+          "as": "ঘটনা লুকুওৱা"
+        },
+        {
+          "en": "Pay the ransom secretly",
+          "as": "গোপনে মুক্তিপণ দিয়া"
+        },
+        {
+          "en": "Ignore it",
+          "as": "উপেক্ষা"
+        }
+      ],
+      "correct": 0,
+      "a": {
+        "en": "Companies should report attacks to CERT-In and follow incident response procedures.",
+        "as": "কোম্পানীয়ে আক্রমণ CERT-In ত report আৰু incident response নিয়ম মানা উচিত।"
+      },
+      "explanation": {
+        "en": "The correct response is to report the incident to CERT-In and follow the organisation's incident response plan. Hiding it, paying ransom or ignoring it makes the damage worse.",
+        "as": "শুদ্ধ প্ৰতিক্ৰিয়া হ'ল ঘটনাটো CERT-In লৈ report কৰি প্ৰতিষ্ঠানৰ incident response plan অনুসৰণ কৰা। লুকুওৱা, মুক্তিপণ দিয়া বা অৱহেলা কৰিলে ক্ষতি বাঢ়ি যায়।"
+      }
+    }
+  ]
+}

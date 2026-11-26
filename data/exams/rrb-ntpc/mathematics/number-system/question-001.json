@@ -1,0 +1,2132 @@
+[
+  {
+    "id": "number-system-001",
+    "q": {
+      "en": "The smallest prime number is:",
+      "as": "আটাইতকৈ সৰু মৌলিক সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2 is the smallest prime number; 1 is neither prime nor composite.",
+      "as": "২ হ'ল আটাইতকৈ সৰু মৌলিক সংখ্যা; ১ মৌলিকো নহয় যৌগিকো নহয়।"
+    }
+  },
+  {
+    "id": "number-system-002",
+    "q": {
+      "en": "The number of prime numbers between 30 and 40 is:",
+      "as": "৩০ আৰু ৪০ ৰ মাজত মৌলিক সংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The primes between 30 and 40 are 31 and 37, so there are two of them.",
+      "as": "৩০ আৰু ৪০ ৰ মাজৰ মৌলিক সংখ্যা হৈছে ৩১ আৰু ৩৭, গতিকে দুটা।"
+    }
+  },
+  {
+    "id": "number-system-003",
+    "q": {
+      "en": "Which of the following is a pair of twin primes?",
+      "as": "তলৰ কোনটো যুগল মৌলিক সংখ্যাৰ যোৰ?"
+    },
+    "options": [
+      {
+        "en": "5 and 7",
+        "as": "৫ আৰু ৭"
+      },
+      {
+        "en": "11 and 15",
+        "as": "১১ আৰু ১৫"
+      },
+      {
+        "en": "9 and 11",
+        "as": "৯ আৰু ১১"
+      },
+      {
+        "en": "13 and 17",
+        "as": "১৩ আৰু ১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Twin primes differ by 2; 5 and 7 are both prime and differ by 2.",
+      "as": "যুগল মৌলিকে ২ ৰ ব্যৱধান ৰাখে; ৫ আৰু ৭ দুয়োটা মৌলিক আৰু ব্যৱধান ২।"
+    }
+  },
+  {
+    "id": "number-system-004",
+    "q": {
+      "en": "The smallest two-digit composite number is:",
+      "as": "আটাইতকৈ সৰু দুটা অংকৰ যৌগিক সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "10 is the first two-digit number and it has factors other than 1 and itself.",
+      "as": "১০ প্ৰথম দুটা অংকৰ সংখ্যা আৰু ইয়াৰ ১ আৰু নিজৰ বাহিৰেও উৎপাদক আছে।"
+    }
+  },
+  {
+    "id": "number-system-005",
+    "q": {
+      "en": "The number of whole numbers from 0 to 50 (both included) is:",
+      "as": "০ ৰ পৰা ৫০ লৈ (দুয়োটো ধৰি) পূৰ্ণসংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From 0 to 50 there are 50 - 0 + 1 = 51 whole numbers.",
+      "as": "০ ৰ পৰা ৫০ লৈ ৫০ − ০ + ১ = ৫১ টা পূৰ্ণসংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "number-system-006",
+    "q": {
+      "en": "The place value of the digit 4 in 5,47,320 is:",
+      "as": "৫,৪৭,৩২০ ত ৪ অংকটোৰ স্থানীয় মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4,000",
+        "as": "৪,০০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "40,000",
+        "as": "৪০,০০০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The digit 4 sits in the ten-thousands column, so its place value is 40,000.",
+      "as": "৪ অংকটো দহ-হাজাৰ স্তম্ভত আছে, গতিকে ইয়াৰ স্থানীয় মান ৪০,০০০।"
+    }
+  },
+  {
+    "id": "number-system-007",
+    "q": {
+      "en": "The difference between the place value and the face value of 5 in 2,573 is:",
+      "as": "২,৫৭৩ ত ৫ ৰ স্থানীয় মান আৰু অভিহিত মানৰ পাৰ্থক্য হ'ল:"
+    },
+    "options": [
+      {
+        "en": "505",
+        "as": "৫০৫"
+      },
+      {
+        "en": "495",
+        "as": "৪৯৫"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The place value is 500 and the face value is 5, so the difference is 495.",
+      "as": "স্থানীয় মান ৫০০ আৰু অভিহিত মান ৫, গতিকে পাৰ্থক্য ৪৯৫।"
+    }
+  },
+  {
+    "id": "number-system-008",
+    "q": {
+      "en": "A number is divisible by 6 if it is divisible by:",
+      "as": "এটা সংখ্যা ৬ ৰে বিভাজ্য হ'ব যদি ই বিভাজ্য হয়:"
+    },
+    "options": [
+      {
+        "en": "3 and 4",
+        "as": "৩ আৰু ৪"
+      },
+      {
+        "en": "2 and 5",
+        "as": "২ আৰু ৫"
+      },
+      {
+        "en": "2 and 3",
+        "as": "২ আৰু ৩"
+      },
+      {
+        "en": "5 and 6",
+        "as": "৫ আৰু ৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6 = 2 x 3, so a number divisible by both 2 and 3 is divisible by 6.",
+      "as": "৬ = ২ × ৩, গতিকে ২ আৰু ৩ দুয়োটাৰে বিভাজ্য সংখ্যা ৬ ৰেও বিভাজ্য।"
+    }
+  },
+  {
+    "id": "number-system-009",
+    "q": {
+      "en": "A number is divisible by 8 if its last ______ digits form a number divisible by 8.",
+      "as": "এটা সংখ্যা ৮ ৰে বিভাজ্য হ'ব যদি ইয়াৰ শেষ ______ অংকৰ সংখ্যাটো ৮ ৰে বিভাজ্য হয়।"
+    },
+    "options": [
+      {
+        "en": "two",
+        "as": "দুটা"
+      },
+      {
+        "en": "four",
+        "as": "চাৰিটা"
+      },
+      {
+        "en": "one",
+        "as": "এটা"
+      },
+      {
+        "en": "three",
+        "as": "তিনিটা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The divisibility test for 8 looks at the last three digits of the number.",
+      "as": "৮ ৰ বিভাজ্যতা পৰীক্ষাই সংখ্যাটোৰ শেষৰ তিনিটা অংক চায়।"
+    }
+  },
+  {
+    "id": "number-system-010",
+    "q": {
+      "en": "The largest three-digit number divisible by 7 is:",
+      "as": "৭ ৰে বিভাজ্য আটাইতকৈ ডাঙৰ তিনিটা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "994",
+        "as": "৯৯৪"
+      },
+      {
+        "en": "996",
+        "as": "৯৯৬"
+      },
+      {
+        "en": "999",
+        "as": "৯৯৯"
+      },
+      {
+        "en": "989",
+        "as": "৯৮৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7 x 142 = 994, and the next multiple 1001 has four digits.",
+      "as": "৭ × ১৪২ = ৯৯৪, আৰু পৰৱৰ্তী গুণিতক ১০০১ চাৰিটা অংকৰ।"
+    }
+  },
+  {
+    "id": "number-system-011",
+    "q": {
+      "en": "The smallest four-digit number divisible by 8 is:",
+      "as": "৮ ৰে বিভাজ্য আটাইতকৈ সৰু চাৰিটা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "1008",
+        "as": "১০০৮"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "1004",
+        "as": "১০০৪"
+      },
+      {
+        "en": "1002",
+        "as": "১০০২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1000 = 8 x 125, so 1000 is the smallest four-digit multiple of 8.",
+      "as": "১০০০ = ৮ × ১২৫, গতিকে ১০০০ হৈছে ৮ ৰ আটাইতকৈ সৰু চাৰিটা অংকৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "number-system-012",
+    "q": {
+      "en": "The number of factors of 60 is:",
+      "as": "৬০ ৰ উৎপাদকৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "60 = 2^2 x 3 x 5, so the number of factors is (2+1)(1+1)(1+1) = 12.",
+      "as": "৬০ = ২² × ৩ × ৫, গতিকে উৎপাদকৰ সংখ্যা (২+১)(১+১)(১+১) = ১২।"
+    }
+  },
+  {
+    "id": "number-system-013",
+    "q": {
+      "en": "The number of factors of 72 is:",
+      "as": "৭২ ৰ উৎপাদকৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "72 = 2^3 x 3^2, so the number of factors is (3+1)(2+1) = 12.",
+      "as": "৭২ = ২³ × ৩², গতিকে উৎপাদকৰ সংখ্যা (৩+১)(২+১) = ১২।"
+    }
+  },
+  {
+    "id": "number-system-014",
+    "q": {
+      "en": "The sum of all the factors of 28 is:",
+      "as": "২৮ ৰ সকলো উৎপাদকৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The factors of 28 are 1, 2, 4, 7, 14 and 28, and their sum is 56.",
+      "as": "২৮ ৰ উৎপাদক ১, ২, ৪, ৭, ১৪ আৰু ২৮, আৰু সিহঁতৰ যোগফল ৫৬।"
+    }
+  },
+  {
+    "id": "number-system-015",
+    "q": {
+      "en": "For two numbers, the product of their HCF and LCM is equal to:",
+      "as": "দুটা সংখ্যাৰ বাবে সিহঁতৰ গ.সা.গু. আৰু ল.সা.গু. ৰ গুণফল সমান:"
+    },
+    "options": [
+      {
+        "en": "the product of the two numbers",
+        "as": "দুটা সংখ্যাৰ গুণফলৰ"
+      },
+      {
+        "en": "the sum of the two numbers",
+        "as": "দুটা সংখ্যাৰ যোগফলৰ"
+      },
+      {
+        "en": "the difference of the two numbers",
+        "as": "দুটা সংখ্যাৰ পাৰ্থক্যৰ"
+      },
+      {
+        "en": "the ratio of the two numbers",
+        "as": "দুটা সংখ্যাৰ অনুপাতৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For two numbers, the HCF and the LCM multiply together to give the product of the numbers.",
+      "as": "দুটা সংখ্যাৰ ক্ষেত্ৰত, গ.সা.গু. আৰু ল.সা.গু. পূৰণ কৰিলে সংখ্যা দুটাৰ গুণফল পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-016",
+    "q": {
+      "en": "The LCM of 15 and 20 is:",
+      "as": "১৫ আৰু ২০ ৰ ল.সা.গু. হ'ল:"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15 = 3 x 5 and 20 = 2^2 x 5, so the LCM is 2^2 x 3 x 5 = 60.",
+      "as": "১৫ ৰ উৎপাদক ৩ × ৫ আৰু ২০ ৰ ২² × ৫; সাধাৰণ উৎপাদকবোৰ লৈ ল.সা.গু. = ৬০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-017",
+    "q": {
+      "en": "The HCF of 36 and 84 is:",
+      "as": "৩৬ আৰু ৮৪ ৰ গ.সা.গু. হ'ল:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "36 = 2^2 x 3^2 and 84 = 2^2 x 3 x 7, so the HCF is 2^2 x 3 = 12.",
+      "as": "৩৬ = ২² × ৩² আৰু ৮৪ = ২² × ৩ × ৭, গতিকে গ.সা.গু. = ২² × ৩ = ১২।"
+    }
+  },
+  {
+    "id": "number-system-018",
+    "q": {
+      "en": "The HCF of two numbers is 9 and their LCM is 90. If one number is 18, the other number is:",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ৯ আৰু ল.সা.গু. ৯০। এটা সংখ্যা ১৮ হ'লে আনটো সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The other number = (9 x 90) / 18 = 45.",
+      "as": "আনটো সংখ্যা = (৯ × ৯০) / ১৮ = ৪৫।"
+    }
+  },
+  {
+    "id": "number-system-019",
+    "q": {
+      "en": "The least number which when divided by 10, 15 and 20 leaves a remainder of 7 in each case is:",
+      "as": "১০, ১৫ আৰু ২০ ৰে হৰণ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ৭ ৰ ভাগশেষ ৰখা আটাইতকৈ সৰু সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "67",
+        "as": "৬৭"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM(10, 15, 20) = 60, and adding the common remainder gives 60 + 7 = 67.",
+      "as": "ল.সা.গু.(১০, ১৫, ২০) = ৬০, আৰু সাধাৰণ ভাগশেষ যোগ কৰিলে ৬০ + ৭ = ৬৭।"
+    }
+  },
+  {
+    "id": "number-system-020",
+    "q": {
+      "en": "The greatest number that divides 43, 79 and 115 leaving the same remainder in each case is:",
+      "as": "৪৩, ৭৯ আৰু ১১৫ ক হৰণ কৰিলে প্ৰতিটো ক্ষেত্ৰতে একে ভাগশেষ ৰখা আটাইতকৈ ডাঙৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "It is the HCF of the differences 36, 36 and 72, which is 36.",
+      "as": "ই পাৰ্থক্য ৩৬, ৩৬ আৰু ৭২ ৰ গ.সা.গু., যি ৩৬।"
+    }
+  },
+  {
+    "id": "number-system-021",
+    "q": {
+      "en": "The unit digit of 2^50 is:",
+      "as": "২^৫০ ৰ একক অংক হ'ল:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The unit digits of powers of 2 repeat as 2, 4, 8, 6; since 50 mod 4 = 2, the unit digit is 4.",
+      "as": "২ ৰ ঘাতৰ একক অংক ২, ৪, ৮, ৬ হিচাপে পুনৰাবৃত্তি হয়; ৫০ mod ৪ = ২, গতিকে একক অংক ৪।"
+    }
+  },
+  {
+    "id": "number-system-022",
+    "q": {
+      "en": "The unit digit of 4^37 is:",
+      "as": "৪^৩৭ ৰ একক অংক হ'ল:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The unit digit of a power of 4 is 4 for odd powers and 6 for even powers.",
+      "as": "৪ ৰ ঘাতৰ একক অংক অযুগ্ম ঘাতত ৪ আৰু যুগ্ম ঘাতত ৬ হয়।"
+    }
+  },
+  {
+    "id": "number-system-023",
+    "q": {
+      "en": "The unit digit of 9^63 is:",
+      "as": "৯^৬৩ ৰ একক অংক হ'ল:"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The unit digit of a power of 9 is 9 for odd powers and 1 for even powers.",
+      "as": "৯ ৰ ঘাতৰ একক অংক অযুগ্ম ঘাতত ৯ আৰু যুগ্ম ঘাতত ১ হয়।"
+    }
+  },
+  {
+    "id": "number-system-024",
+    "q": {
+      "en": "The unit digit of the product 22 x 33 x 44 x 55 is:",
+      "as": "২২ × ৩৩ × ৪৪ × ৫৫ গুণফলৰ একক অংক হ'ল:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The unit digits 2, 3, 4, 5 multiply to 120, so the unit digit is 0.",
+      "as": "একক অংক ২, ৩, ৪, ৫ ৰ গুণফল ১২০, গতিকে একক অংক ০।"
+    }
+  },
+  {
+    "id": "number-system-025",
+    "q": {
+      "en": "The remainder when 3^40 is divided by 5 is:",
+      "as": "৩^৪০ ক ৫ ৰে হৰণ কৰিলে ভাগশেষ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "3^4 = 81 leaves remainder 1 on division by 5, and 40 is a multiple of 4.",
+      "as": "৩⁴ = ৮১ ক ৫ ৰে হৰণ কৰিলে ভাগশেষ ১, আৰু ৪০ হৈছে ৪ ৰ গুণিতক।"
+    }
+  },
+  {
+    "id": "number-system-026",
+    "q": {
+      "en": "The number of zeros at the end of 20! is:",
+      "as": "২০! ৰ শেষত থকা শূন্যৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The number of trailing zeros is the count of 5s in 20!, which is 20/5 = 4.",
+      "as": "শেষৰ শূন্যৰ সংখ্যা ২০! ত ৫ ৰ গণনা, যি ২০/৫ = ৪।"
+    }
+  },
+  {
+    "id": "number-system-027",
+    "q": {
+      "en": "The number of zeros at the end of 100! is:",
+      "as": "১০০! ৰ শেষত থকা শূন্যৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Count the 5s: 100/5 + 100/25 = 20 + 4 = 24.",
+      "as": "৫ ৰ গণনা: ১০০/৫ + ১০০/২৫ = ২০ + ৪ = ২৪।"
+    }
+  },
+  {
+    "id": "number-system-028",
+    "q": {
+      "en": "The Roman numeral for 400 is:",
+      "as": "৪০০ ৰ ৰোমান অংক হ'ল:"
+    },
+    "options": [
+      {
+        "en": "C",
+        "as": "C"
+      },
+      {
+        "en": "CD",
+        "as": "CD"
+      },
+      {
+        "en": "D",
+        "as": "D"
+      },
+      {
+        "en": "CC",
+        "as": "CC"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In Roman numerals, CD means 500 - 100 = 400.",
+      "as": "ৰোমান অংকত CD ৰ অৰ্থ ৫০০ − ১০০ = ৪০০।"
+    }
+  },
+  {
+    "id": "number-system-029",
+    "q": {
+      "en": "The Roman numeral XL stands for:",
+      "as": "ৰোমান অংক XL ৰ অৰ্থ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "X is 10 and L is 50; XL means 50 - 10 = 40.",
+      "as": "X হৈছে ১০ আৰু L হৈছে ৫০; XL ৰ অৰ্থ ৫০ − ১০ = ৪০।"
+    }
+  },
+  {
+    "id": "number-system-030",
+    "q": {
+      "en": "The sum of the first 15 natural numbers is:",
+      "as": "প্ৰথম ১৫ টা স্বাভাৱিক সংখ্যাৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sum is n(n+1)/2 = 15 x 16 / 2 = 120.",
+      "as": "যোগফল n(n+১)/২ = ১৫ × ১৬ / ২ = ১২০।"
+    }
+  },
+  {
+    "id": "number-system-031",
+    "q": {
+      "en": "The sum of the first 12 odd numbers is:",
+      "as": "প্ৰথম ১২ টা অযুগ্ম সংখ্যাৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The sum of the first n odd numbers is n^2, so it is 12^2 = 144.",
+      "as": "প্ৰথম n টা অযুগ্ম সংখ্যাৰ যোগফল n², গতিকে ১২² = ১৪৪।"
+    }
+  },
+  {
+    "id": "number-system-032",
+    "q": {
+      "en": "The sum of the first 12 even numbers is:",
+      "as": "প্ৰথম ১২ টা যুগ্ম সংখ্যাৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sum is 2(1 + 2 + ... + 12) = 2 x 78 = 156.",
+      "as": "যোগফল ২(১ + ২ + ... + ১২) = ২ × ৭৮ = ১৫৬।"
+    }
+  },
+  {
+    "id": "number-system-033",
+    "q": {
+      "en": "The sum of the squares of the first 12 natural numbers is:",
+      "as": "প্ৰথম ১২ টা স্বাভাৱিক সংখ্যাৰ বৰ্গৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "506",
+        "as": "৫০৬"
+      },
+      {
+        "en": "620",
+        "as": "৬২০"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "650",
+        "as": "৬৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The formula n(n+1)(2n+1)/6 gives 12 x 13 x 25 / 6 = 650.",
+      "as": "সূত্ৰ n(n+১)(২n+১)/৬ ৰ পৰা ১২ × ১৩ × ২৫ / ৬ = ৬৫০।"
+    }
+  },
+  {
+    "id": "number-system-034",
+    "q": {
+      "en": "The sum of the cubes of the first 4 natural numbers is:",
+      "as": "প্ৰথম ৪ টা স্বাভাৱিক সংখ্যাৰ ঘনৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The sum of cubes of the first n natural numbers is (n(n+1)/2)^2 = 10^2 = 100.",
+      "as": "প্ৰথম n টা স্বাভাৱিক সংখ্যাৰ ঘনৰ যোগফল (n(n+১)/২)² = ১০² = ১০০।"
+    }
+  },
+  {
+    "id": "number-system-035",
+    "q": {
+      "en": "The square of 35 is:",
+      "as": "৩৫ ৰ বৰ্গ হ'ল:"
+    },
+    "options": [
+      {
+        "en": "1125",
+        "as": "১১২৫"
+      },
+      {
+        "en": "1225",
+        "as": "১২২৫"
+      },
+      {
+        "en": "1325",
+        "as": "১৩২৫"
+      },
+      {
+        "en": "925",
+        "as": "৯২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "35 x 35 = 1225.",
+      "as": "৩৫ × ৩৫ = ১২২৫।"
+    }
+  },
+  {
+    "id": "number-system-036",
+    "q": {
+      "en": "The value of the square root of 1936 is:",
+      "as": "১৯৩৬ ৰ বৰ্গমূল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "44 x 44 = 1936, so the square root is 44.",
+      "as": "৪৪ × ৪৪ = ১৯৩৬, গতিকে বৰ্গমূল ৪৪।"
+    }
+  },
+  {
+    "id": "number-system-037",
+    "q": {
+      "en": "The cube of 15 is:",
+      "as": "১৫ ৰ ঘন হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3250",
+        "as": "৩২৫০"
+      },
+      {
+        "en": "3375",
+        "as": "৩৩৭৫"
+      },
+      {
+        "en": "3125",
+        "as": "৩১২৫"
+      },
+      {
+        "en": "3475",
+        "as": "৩৪৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "15 x 15 x 15 = 3375.",
+      "as": "১৫ × ১৫ × ১৫ = ৩৩৭৫।"
+    }
+  },
+  {
+    "id": "number-system-038",
+    "q": {
+      "en": "The value of the cube root of 1728 is:",
+      "as": "১৭২৮ ৰ ঘনমূল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 x 12 x 12 = 1728, so the cube root is 12.",
+      "as": "১২ × ১২ × ১২ = ১৭২৮, গতিকে ঘনমূল ১২।"
+    }
+  },
+  {
+    "id": "number-system-039",
+    "q": {
+      "en": "The decimal 0.375 expressed as a fraction in the lowest terms is:",
+      "as": "দশমিক ০.৩৭৫ ক আটাইতকৈ সৰল ভগ্নাংশত প্ৰকাশ কৰিলে হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "375/1000",
+        "as": "৩৭৫/১০০০"
+      },
+      {
+        "en": "15/40",
+        "as": "১৫/৪০"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.375 = 375/1000, which reduces to 3/8.",
+      "as": "০.৩৭৫ = ৩৭৫/১০০০, যি ৩/৮ লৈ সৰল হয়।"
+    }
+  },
+  {
+    "id": "number-system-040",
+    "q": {
+      "en": "The fraction 5/8 expressed as a decimal is:",
+      "as": "ভগ্নাংশ ৫/৮ ক দশমিকত প্ৰকাশ কৰিলে হ'ল:"
+    },
+    "options": [
+      {
+        "en": "0.625",
+        "as": "০.৬২৫"
+      },
+      {
+        "en": "0.58",
+        "as": "০.৫৮"
+      },
+      {
+        "en": "0.65",
+        "as": "০.৬৫"
+      },
+      {
+        "en": "0.685",
+        "as": "০.৬৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5 divided by 8 gives 0.625.",
+      "as": "৫ ক ৮ ৰে হৰণ কৰিলে ০.৬২৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-041",
+    "q": {
+      "en": "The recurring decimal 0.666... expressed as a fraction is:",
+      "as": "আৱৰ্ত দশমিক ০.৬৬৬... ক ভগ্নাংশত প্ৰকাশ কৰিলে হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "6/11",
+        "as": "৬/১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The recurring decimal 0.666... equals 2/3.",
+      "as": "আৱৰ্ত দশমিক ০.৬৬৬... সমান ২/৩।"
+    }
+  },
+  {
+    "id": "number-system-042",
+    "q": {
+      "en": "Among the fractions given below, which one has the greatest value?",
+      "as": "তলত দিয়া ভগ্নাংশবোৰৰ ভিতৰত কোনটোৰ মান আটাইতকৈ বেছি?"
+    },
+    "options": [
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "As decimals they are 0.667, 0.583, 0.625 and 0.6, so 2/3 is the greatest.",
+      "as": "দশমিক হিচাপে সিহঁত ০.৬৬৭, ০.৫৮৩, ০.৬২৫ আৰু ০.৬, গতিকে ২/৩ আটাইতকৈ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "number-system-043",
+    "q": {
+      "en": "Among the fractions given below, which one has the least value?",
+      "as": "তলত দিয়া ভগ্নাংশবোৰৰ ভিতৰত কোনটোৰ মান আটাইতকৈ কম?"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/7",
+        "as": "৫/৭"
+      },
+      {
+        "en": "7/9",
+        "as": "৭/৯"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "As decimals they are 0.667, 0.75, 0.714 and 0.778, so 2/3 is the smallest.",
+      "as": "দশমিক হিচাপে সিহঁত ০.৬৬৭, ০.৭৫, ০.৭১৪ আৰু ০.৭৭৮, গতিকে ২/৩ আটাইতকৈ সৰু।"
+    }
+  },
+  {
+    "id": "number-system-044",
+    "q": {
+      "en": "The value of 0.3 x 0.03 is:",
+      "as": "০.৩ × ০.০৩ ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "0.009",
+        "as": "০.০০৯"
+      },
+      {
+        "en": "0.09",
+        "as": "০.০৯"
+      },
+      {
+        "en": "0.0009",
+        "as": "০.০০০৯"
+      },
+      {
+        "en": "0.9",
+        "as": "০.৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3 x 3 = 9 and there are three decimal places, so the product is 0.009.",
+      "as": "৩ × ৩ = ৯ আৰু তিনিটা দশমিক স্থান আছে, গতিকে গুণফল ০.০০৯।"
+    }
+  },
+  {
+    "id": "number-system-045",
+    "q": {
+      "en": "The value of 1.2 divided by 0.04 is:",
+      "as": "১.২ ক ০.০৪ ৰে হৰণ কৰিলে মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "0.3",
+        "as": "০.৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1.2 / 0.04 = 120 / 4 = 30.",
+      "as": "১.২ / ০.০৪ = ১২০ / ৪ = ৩০।"
+    }
+  },
+  {
+    "id": "number-system-046",
+    "q": {
+      "en": "The smallest number by which 180 must be multiplied to make it a perfect square is:",
+      "as": "১৮০ ক পূৰ্ণবৰ্গ কৰিবলৈ যি আটাইতকৈ সৰু সংখ্যাৰে পূৰণ কৰিব লাগে সেইটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "180 = 2^2 x 3^2 x 5, so multiplying by 5 makes it 2^2 x 3^2 x 5^2.",
+      "as": "১৮০ = ২² × ৩² × ৫, গতিকে ৫ ৰে পূৰণ কৰিলে ই ২² × ৩² × ৫² হয়।"
+    }
+  },
+  {
+    "id": "number-system-047",
+    "q": {
+      "en": "The smallest number by which 392 must be divided to make it a perfect square is:",
+      "as": "৩৯২ ক পূৰ্ণবৰ্গ কৰিবলৈ যি আটাইতকৈ সৰু সংখ্যাৰে হৰণ কৰিব লাগে সেইটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "392 = 2^3 x 7^2, so dividing by 2 leaves 2^2 x 7^2.",
+      "as": "৩৯২ = ২³ × ৭², গতিকে ২ ৰে হৰণ কৰিলে ২² × ৭² থাকে।"
+    }
+  },
+  {
+    "id": "number-system-048",
+    "q": {
+      "en": "The greatest five-digit number formed by the digits 4, 0, 9, 2, 6 (each used once) is:",
+      "as": "৪, ০, ৯, ২, ৬ অংকৰে (প্ৰতিটো এবাৰ) গঠিত আটাইতকৈ ডাঙৰ পাঁচটা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "96420",
+        "as": "৯৬৪২০"
+      },
+      {
+        "en": "96240",
+        "as": "৯৬২৪০"
+      },
+      {
+        "en": "96402",
+        "as": "৯৬৪০২"
+      },
+      {
+        "en": "94260",
+        "as": "৯৪২৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arrange the digits in descending order: 9, 6, 4, 2, 0 gives 96420.",
+      "as": "অংকবোৰ অৱৰোহী ক্ৰমত সজাওক: ৯, ৬, ৪, ২, ০ লে ৯৬৪২০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-049",
+    "q": {
+      "en": "The smallest five-digit number formed by the digits 4, 0, 9, 2, 6 (each used once) is:",
+      "as": "৪, ০, ৯, ২, ৬ অংকৰে (প্ৰতিটো এবাৰ) গঠিত আটাইতকৈ সৰু পাঁচটা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "02469",
+        "as": "০২৪৬৯"
+      },
+      {
+        "en": "20469",
+        "as": "২০৪৬৯"
+      },
+      {
+        "en": "24690",
+        "as": "২৪৬৯০"
+      },
+      {
+        "en": "20496",
+        "as": "২০৪৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Put 2 first (0 cannot lead), then the rest ascending: 20469.",
+      "as": "২ প্ৰথমে ৰাখক (০ আগত থাকিব নোৱাৰে), তাৰ পিছত বাকীবোৰ ঊৰ্ধ্বক্ৰমে: ২০৪৬৯।"
+    }
+  },
+  {
+    "id": "number-system-050",
+    "q": {
+      "en": "The number of two-digit numbers divisible by 9 is:",
+      "as": "৯ ৰে বিভাজ্য দুটা অংকৰ সংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The two-digit multiples of 9 run from 18 to 99, which is 10 numbers.",
+      "as": "৯ ৰ দুটা অংকৰ গুণিতক ১৮ ৰ পৰা ৯৯ লৈ, যি ১০ টা সংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-051",
+    "q": {
+      "en": "The number of integers from 1 to 200 that are divisible by 7 is:",
+      "as": "১ ৰ পৰা ২০০ লৈ ৭ ৰে বিভাজ্য পূৰ্ণসংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The count is the greatest integer in 200/7, which is 28.",
+      "as": "গণনা ২০০/৭ ৰ আটাইতকৈ ডাঙৰ পূৰ্ণসংখ্যা, যি ২৮।"
+    }
+  },
+  {
+    "id": "number-system-052",
+    "q": {
+      "en": "The number of three-digit numbers divisible by 4 is:",
+      "as": "৪ ৰে বিভাজ্য তিনিটা অংকৰ সংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "224",
+        "as": "২২৪"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "226",
+        "as": "২২৬"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They run from 100 to 996, so the count is (996 - 100)/4 + 1 = 225.",
+      "as": "সিহঁত ১০০ ৰ পৰা ৯৯৬ লৈ, গতিকে গণনা (৯৯৬ − ১০০)/৪ + ১ = ২২৫।"
+    }
+  },
+  {
+    "id": "number-system-053",
+    "q": {
+      "en": "The absolute value of |-23| is:",
+      "as": "|−২৩| ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "-23",
+        "as": "−২৩"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The absolute value of a number is its distance from zero, so |-23| = 23.",
+      "as": "সংখ্যাৰ পৰম মান শূন্যৰ পৰা ইয়াৰ দূৰত্ব, গতিকে |−২৩| = ২৩।"
+    }
+  },
+  {
+    "id": "number-system-054",
+    "q": {
+      "en": "The number of integers between -4 and 4 is:",
+      "as": "−৪ আৰু ৪ ৰ মাজত থকা পূৰ্ণসংখ্যাৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "They are -3, -2, -1, 0, 1, 2, 3, which is 7 integers.",
+      "as": "সিহঁত −৩, −২, −১, ০, ১, ২, ৩, যি ৭ টা পূৰ্ণসংখ্যা।"
+    }
+  },
+  {
+    "id": "number-system-055",
+    "q": {
+      "en": "The successor of 10,099 is:",
+      "as": "১০,০৯৯ ৰ পৰৱৰ্তী সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "10,098",
+        "as": "১০,০৯৮"
+      },
+      {
+        "en": "10,101",
+        "as": "১০,১০১"
+      },
+      {
+        "en": "10,100",
+        "as": "১০,১০০"
+      },
+      {
+        "en": "10,099",
+        "as": "১০,০৯৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The successor is obtained by adding 1, so it is 10,099 + 1 = 10,100.",
+      "as": "পৰৱৰ্তী সংখ্যা ১ যোগ কৰি পোৱা যায়, গতিকে ১০,০৯৯ + ১ = ১০,১০০।"
+    }
+  },
+  {
+    "id": "number-system-056",
+    "q": {
+      "en": "The predecessor of 8,000 is:",
+      "as": "৮,০০০ ৰ পূৰ্বৱৰ্তী সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "8,001",
+        "as": "৮,০০১"
+      },
+      {
+        "en": "7,998",
+        "as": "৭,৯৯৮"
+      },
+      {
+        "en": "8,000",
+        "as": "৮,০০০"
+      },
+      {
+        "en": "7,999",
+        "as": "৭,৯৯৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The predecessor is obtained by subtracting 1, so it is 8,000 - 1 = 7,999.",
+      "as": "পূৰ্বৱৰ্তী সংখ্যা ১ বিয়োগ কৰি পোৱা যায়, গতিকে ৮,০০০ − ১ = ৭,৯৯৯।"
+    }
+  },
+  {
+    "id": "number-system-057",
+    "q": {
+      "en": "The value of (-8) + (-5) is:",
+      "as": "(−৮) + (−৫) ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "-13",
+        "as": "−১৩"
+      },
+      {
+        "en": "-3",
+        "as": "−৩"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Adding two negative numbers adds their values and keeps the negative sign.",
+      "as": "দুটা ঋণাত্মক সংখ্যা যোগ কৰিলে সিহঁতৰ মান যোগ হয় আৰু ঋণাত্মক চিন থাকে।"
+    }
+  },
+  {
+    "id": "number-system-058",
+    "q": {
+      "en": "The value of (-6) x (-7) is:",
+      "as": "(−৬) × (−৭) ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "-42",
+        "as": "−৪২"
+      },
+      {
+        "en": "-13",
+        "as": "−১৩"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The product of two negative numbers is positive, so it is 42.",
+      "as": "দুটা ঋণাত্মক সংখ্যাৰ গুণফল ধনাত্মক, গতিকে ৪২।"
+    }
+  },
+  {
+    "id": "number-system-059",
+    "q": {
+      "en": "The number of digits in 10^6 is:",
+      "as": "১০^৬ ত অংকৰ সংখ্যা কিমান?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "10^6 = 1,000,000, which has seven digits.",
+      "as": "১০⁶ = ১০,০০,০০০, য'ত সাতটা অংক আছে।"
+    }
+  },
+  {
+    "id": "number-system-060",
+    "q": {
+      "en": "The smallest six-digit number is:",
+      "as": "আটাইতকৈ সৰু ছয়টা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "100000",
+        "as": "১০০০০০"
+      },
+      {
+        "en": "111111",
+        "as": "১১১১১১"
+      },
+      {
+        "en": "999999",
+        "as": "৯৯৯৯৯৯"
+      },
+      {
+        "en": "100001",
+        "as": "১০০০০১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest six-digit number is 1 followed by five zeros, that is 100000.",
+      "as": "আটাইতকৈ সৰু ছয়টা অংকৰ সংখ্যা ১ ৰ পিছত পাঁচটা শূন্য, অৰ্থাৎ ১০০০০০।"
+    }
+  },
+  {
+    "id": "number-system-061",
+    "q": {
+      "en": "The largest five-digit number is:",
+      "as": "আটাইতকৈ ডাঙৰ পাঁচটা অংকৰ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "100000",
+        "as": "১০০০০০"
+      },
+      {
+        "en": "99990",
+        "as": "৯৯৯৯০"
+      },
+      {
+        "en": "99999",
+        "as": "৯৯৯৯৯"
+      },
+      {
+        "en": "98765",
+        "as": "৯৮৭৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The largest five-digit number is made of five nines, that is 99999.",
+      "as": "আটাইতকৈ ডাঙৰ পাঁচটা অংকৰ সংখ্যা পাঁচটা ন ৰে গঠিত, অৰ্থাৎ ৯৯৯৯৯।"
+    }
+  },
+  {
+    "id": "number-system-062",
+    "q": {
+      "en": "Which number given below is a perfect square?",
+      "as": "তলত দিয়া কোনটো সংখ্যা এটা পূৰ্ণবৰ্গ?"
+    },
+    "options": [
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "215",
+        "as": "২১৫"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "196 = 14 x 14, so it is a perfect square.",
+      "as": "১৯৬ = ১৪ × ১৪, গতিকে ই এটা পূৰ্ণবৰ্গ।"
+    }
+  },
+  {
+    "id": "number-system-063",
+    "q": {
+      "en": "Which number given below is a perfect cube?",
+      "as": "তলত দিয়া কোনটো সংখ্যা এটা পূৰ্ণঘন?"
+    },
+    "options": [
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "216 = 6 x 6 x 6, so it is a perfect cube.",
+      "as": "২১৬ = ৬ × ৬ × ৬, গতিকে ই এটা পূৰ্ণঘন।"
+    }
+  },
+  {
+    "id": "number-system-064",
+    "q": {
+      "en": "The number 0 is:",
+      "as": "০ সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "an integer",
+        "as": "এটা পূৰ্ণসংখ্যা"
+      },
+      {
+        "en": "a natural number",
+        "as": "এটা স্বাভাৱিক সংখ্যা"
+      },
+      {
+        "en": "a prime number",
+        "as": "এটা মৌলিক সংখ্যা"
+      },
+      {
+        "en": "an irrational number",
+        "as": "এটা অপৰিমেয় সংখ্যা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0 is an integer; it is neither a natural number nor a prime number.",
+      "as": "০ এটা পূৰ্ণসংখ্যা; ই স্বাভাৱিক সংখ্যাও নহয় মৌলিক সংখ্যাও নহয়।"
+    }
+  },
+  {
+    "id": "number-system-065",
+    "q": {
+      "en": "The product of any number and zero is:",
+      "as": "যিকোনো সংখ্যা আৰু শূন্যৰ গুণফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "the number itself",
+        "as": "সংখ্যাটো নিজেই"
+      },
+      {
+        "en": "undefined",
+        "as": "অসংজ্ঞায়িত"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiplying any number by zero always gives zero.",
+      "as": "যিকোনো সংখ্যাক শূন্যৰে পূৰণ কৰিলে সদায় শূন্য পোৱা যায়।"
+    }
+  },
+  {
+    "id": "number-system-066",
+    "q": {
+      "en": "The sum of any number and zero is:",
+      "as": "যিকোনো সংখ্যা আৰু শূন্যৰ যোগফল হ'ল:"
+    },
+    "options": [
+      {
+        "en": "the number itself",
+        "as": "সংখ্যাটো নিজেই"
+      },
+      {
+        "en": "zero",
+        "as": "শূন্য"
+      },
+      {
+        "en": "one",
+        "as": "এক"
+      },
+      {
+        "en": "twice the number",
+        "as": "সংখ্যাটোৰ দুগুণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Zero is the additive identity, so adding it leaves the number unchanged.",
+      "as": "শূন্য হৈছে যোগাত্মক অভেদ, গতিকে ইয়াক যোগ কৰিলে সংখ্যা অপৰিৱৰ্তিত থাকে।"
+    }
+  },
+  {
+    "id": "number-system-067",
+    "q": {
+      "en": "Which of the following is an even prime number?",
+      "as": "তলৰ কোনটো যুগ্ম মৌলিক সংখ্যা?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "2 is the only even prime number; all other even numbers are composite.",
+      "as": "২ একমাত্ৰ যুগ্ম মৌলিক সংখ্যা; আন সকলো যুগ্ম সংখ্যা যৌগিক।"
+    }
+  },
+  {
+    "id": "number-system-068",
+    "q": {
+      "en": "The HCF of two consecutive natural numbers is always:",
+      "as": "দুটা ক্ৰমিক স্বাভাৱিক সংখ্যাৰ গ.সা.গু. সদায়:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "equal to the smaller number",
+        "as": "সৰু সংখ্যাটোৰ সমান"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Consecutive numbers have no common factor except 1, so their HCF is 1.",
+      "as": "ক্ৰমিক সংখ্যাৰ ১ ৰ বাহিৰে সাধাৰণ উৎপাদক নাথাকে, গতিকে গ.সা.গু. ১।"
+    }
+  },
+  {
+    "id": "number-system-069",
+    "q": {
+      "en": "The number 91 is:",
+      "as": "৯১ সংখ্যাটো হ'ল:"
+    },
+    "options": [
+      {
+        "en": "a prime number",
+        "as": "এটা মৌলিক সংখ্যা"
+      },
+      {
+        "en": "a composite number",
+        "as": "এটা যৌগিক সংখ্যা"
+      },
+      {
+        "en": "neither prime nor composite",
+        "as": "মৌলিকো নহয় যৌগিকো নহয়"
+      },
+      {
+        "en": "a perfect square",
+        "as": "এটা পূৰ্ণবৰ্গ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "91 = 7 x 13, so it has factors other than 1 and itself.",
+      "as": "৯১ = ৭ × ১৩, গতিকে ইয়াৰ ১ আৰু নিজৰ বাহিৰেও উৎপাদক আছে।"
+    }
+  },
+  {
+    "id": "number-system-070",
+    "q": {
+      "en": "The largest two-digit number that is a perfect square is:",
+      "as": "আটাইতকৈ ডাঙৰ দুটা অংকৰ পূৰ্ণবৰ্গ সংখ্যা হ'ল:"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9 x 9 = 81, and 10 x 10 = 100 has three digits.",
+      "as": "৯ × ৯ = ৮১, আৰু ১০ × ১০ = ১০০ তিনিটা অংকৰ।"
+    }
+  },
+  {
+    "id": "number-system-071",
+    "q": {
+      "en": "The value of 7^2 + 8^2 is:",
+      "as": "৭² + ৮² ৰ মান হ'ল:"
+    },
+    "options": [
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "113",
+        "as": "১১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "7^2 = 49 and 8^2 = 64, so the sum is 49 + 64 = 113.",
+      "as": "৭² = ৪৯ আৰু ৮² = ৬৪, গতিকে যোগফল ৪৯ + ৬৪ = ১১৩।"
+    }
+  }
+]

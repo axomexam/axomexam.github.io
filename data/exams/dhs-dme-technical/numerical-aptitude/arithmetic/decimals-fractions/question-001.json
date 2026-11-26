@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "numerical-005",
+    "q": {
+      "en": "The value of 0.6 × 0.6 + 0.4 × 0.4 - 2 × 0.6 × 0.4 is",
+      "as": "০.৬ × ০.৬ + ০.৪ × ০.৪ - ২ × ০.৬ × ০.৪ ৰ মান কিমান"
+    },
+    "options": [
+      {
+        "en": "0.04",
+        "as": "০.০৪"
+      },
+      {
+        "en": "0.4",
+        "as": "০.৪"
+      },
+      {
+        "en": "0.16",
+        "as": "০.১৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The expression is a² + b² - 2ab = (a - b)² with a = 0.6 and b = 0.4. So (0.6 - 0.4)² = 0.2² = 0.04.",
+      "as": "ৰাশিটো a² + b² - 2ab = (a - b)², য'ত a = ০.৬ আৰু b = ০.৪। সেয়ে (০.৬ - ০.৪)² = ০.২² = ০.০৪।"
+    }
+  },
+  {
+    "id": "numerical-006",
+    "q": {
+      "en": "Which fraction is the largest: 3/5, 5/8, 7/12, 9/16?",
+      "as": "কোনটো ভগ্নাংশ আটাইতকৈ ডাঙৰ: ৩/৫, ৫/৮, ৭/১২, ৯/১৬?"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "9/16",
+        "as": "৯/১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Convert to decimals: 0.600, 0.625, 0.583, 0.5625. The largest is 5/8 = 0.625.",
+      "as": "দশমিকলৈ ৰূপান্তৰ কৰক: ০.৬০০, ০.৬২৫, ০.৫৮৩, ০.৫৬২৫। আটাইতকৈ ডাঙৰ ৫/৮ = ০.৬২৫।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-001",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{3} as a fraction in its lowest terms.",
+      "as": "0.\\overline{3} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/9",
+        "as": "৪/৯"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "8/33",
+        "as": "৮/৩৩"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 1/3.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ১/৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-002",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{6} as a fraction in its lowest terms.",
+      "as": "0.\\overline{6} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/9",
+        "as": "৭/৯"
+      },
+      {
+        "en": "19/33",
+        "as": "১৯/৩৩"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 2/3.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ২/৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-003",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{1} as a fraction in its lowest terms.",
+      "as": "0.\\overline{1} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/9",
+        "as": "২/৯"
+      },
+      {
+        "en": "2/99",
+        "as": "২/৯৯"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 1/9.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ১/৯ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-004",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{27} as a fraction in its lowest terms.",
+      "as": "0.\\overline{27} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "38/99",
+        "as": "৩৮/৯৯"
+      },
+      {
+        "en": "2/11",
+        "as": "২/১১"
+      },
+      {
+        "en": "3/11",
+        "as": "৩/১১"
+      },
+      {
+        "en": "6/11",
+        "as": "৬/১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 3/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৩/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-005",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{45} as a fraction in its lowest terms.",
+      "as": "0.\\overline{45} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "56/99",
+        "as": "৫৬/৯৯"
+      },
+      {
+        "en": "5/11",
+        "as": "৫/১১"
+      },
+      {
+        "en": "4/11",
+        "as": "৪/১১"
+      },
+      {
+        "en": "10/11",
+        "as": "১০/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 5/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৫/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-006",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{72} as a fraction in its lowest terms.",
+      "as": "0.\\overline{72} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "8/11",
+        "as": "৮/১১"
+      },
+      {
+        "en": "83/99",
+        "as": "৮৩/৯৯"
+      },
+      {
+        "en": "7/11",
+        "as": "৭/১১"
+      },
+      {
+        "en": "16/11",
+        "as": "১৬/১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 8/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৮/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-007",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{142857} as a fraction in its lowest terms.",
+      "as": "0.\\overline{142857} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "16/63",
+        "as": "১৬/৬৩"
+      },
+      {
+        "en": "4/77",
+        "as": "৪/৭৭"
+      },
+      {
+        "en": "2/7",
+        "as": "২/৭"
+      },
+      {
+        "en": "1/7",
+        "as": "১/৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 1/7.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ১/৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-008",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{09} as a fraction in its lowest terms.",
+      "as": "0.\\overline{09} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "20/99",
+        "as": "২০/৯৯"
+      },
+      {
+        "en": "1/11",
+        "as": "১/১১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "2/11",
+        "as": "২/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 1/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ১/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-009",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.1\\overline{6} as a fraction in its lowest terms.",
+      "as": "0.1\\overline{6} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/18",
+        "as": "৫/১৮"
+      },
+      {
+        "en": "5/66",
+        "as": "৫/৬৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 1/6.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ১/৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-010",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.2\\overline{7} as a fraction in its lowest terms.",
+      "as": "0.2\\overline{7} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/18",
+        "as": "৭/১৮"
+      },
+      {
+        "en": "37/198",
+        "as": "৩৭/১৯৮"
+      },
+      {
+        "en": "5/9",
+        "as": "৫/৯"
+      },
+      {
+        "en": "5/18",
+        "as": "৫/১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 5/18.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৫/১৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-011",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.1\\overline{3} as a fraction in its lowest terms.",
+      "as": "0.1\\overline{3} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/15",
+        "as": "২/১৫"
+      },
+      {
+        "en": "11/45",
+        "as": "১১/৪৫"
+      },
+      {
+        "en": "7/165",
+        "as": "৭/১৬৫"
+      },
+      {
+        "en": "4/15",
+        "as": "৪/১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 2/15.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ২/১৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-012",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.4\\overline{5} as a fraction in its lowest terms.",
+      "as": "0.4\\overline{5} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "41/90",
+        "as": "৪১/৯০"
+      },
+      {
+        "en": "17/30",
+        "as": "১৭/৩০"
+      },
+      {
+        "en": "361/990",
+        "as": "৩৬১/৯৯০"
+      },
+      {
+        "en": "41/45",
+        "as": "৪১/৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 41/90.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৪১/৯০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-013",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{36} as a fraction in its lowest terms.",
+      "as": "0.\\overline{36} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "47/99",
+        "as": "৪৭/৯৯"
+      },
+      {
+        "en": "4/11",
+        "as": "৪/১১"
+      },
+      {
+        "en": "3/11",
+        "as": "৩/১১"
+      },
+      {
+        "en": "8/11",
+        "as": "৮/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 4/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৪/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-014",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{81} as a fraction in its lowest terms.",
+      "as": "0.\\overline{81} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "92/99",
+        "as": "৯২/৯৯"
+      },
+      {
+        "en": "8/11",
+        "as": "৮/১১"
+      },
+      {
+        "en": "9/11",
+        "as": "৯/১১"
+      },
+      {
+        "en": "18/11",
+        "as": "১৮/১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 9/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৯/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-015",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 7/9 or 8/11?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 7/9 নে 8/11?"
+    },
+    "options": [
+      {
+        "en": "8/11",
+        "as": "৮/১১"
+      },
+      {
+        "en": "15/20",
+        "as": "১৫/২০"
+      },
+      {
+        "en": "56/99",
+        "as": "৫৬/৯৯"
+      },
+      {
+        "en": "7/9",
+        "as": "৭/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 7 × 11 = 77 against 8 × 9 = 72. The larger product belongs to the larger fraction, so 7/9 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৭ × ১১ = ৭৭ আৰু ৮ × ৯ = ৭২। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৭/৯ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-016",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 5/8 or 7/12?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 5/8 নে 7/12?"
+    },
+    "options": [
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "12/20",
+        "as": "১২/২০"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "35/96",
+        "as": "৩৫/৯৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 5 × 12 = 60 against 7 × 8 = 56. The larger product belongs to the larger fraction, so 5/8 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৫ × ১২ = ৬০ আৰু ৭ × ৮ = ৫৬। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৫/৮ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-017",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 11/15 or 13/18?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 11/15 নে 13/18?"
+    },
+    "options": [
+      {
+        "en": "13/18",
+        "as": "১৩/১৮"
+      },
+      {
+        "en": "11/15",
+        "as": "১১/১৫"
+      },
+      {
+        "en": "24/33",
+        "as": "২৪/৩৩"
+      },
+      {
+        "en": "143/270",
+        "as": "১৪৩/২৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 11 × 18 = 198 against 13 × 15 = 195. The larger product belongs to the larger fraction, so 11/15 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১১ × ১৮ = ১৯৮ আৰু ১৩ × ১৫ = ১৯৫। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১১/১৫ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-018",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 9/13 or 7/10?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 9/13 নে 7/10?"
+    },
+    "options": [
+      {
+        "en": "7/10",
+        "as": "৭/১০"
+      },
+      {
+        "en": "9/13",
+        "as": "৯/১৩"
+      },
+      {
+        "en": "16/23",
+        "as": "১৬/২৩"
+      },
+      {
+        "en": "63/130",
+        "as": "৬৩/১৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 7 × 13 = 91 against 9 × 10 = 90. The larger product belongs to the larger fraction, so 7/10 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৭ × ১৩ = ৯১ আৰু ৯ × ১০ = ৯০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৭/১০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-019",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 17/20 or 21/25?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 17/20 নে 21/25?"
+    },
+    "options": [
+      {
+        "en": "21/25",
+        "as": "২১/২৫"
+      },
+      {
+        "en": "38/45",
+        "as": "৩৮/৪৫"
+      },
+      {
+        "en": "357/500",
+        "as": "৩৫৭/৫০০"
+      },
+      {
+        "en": "17/20",
+        "as": "১৭/২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 17 × 25 = 425 against 21 × 20 = 420. The larger product belongs to the larger fraction, so 17/20 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১৭ × ২৫ = ৪২৫ আৰু ২১ × ২০ = ৪২০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১৭/২০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-020",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 13/16 or 19/24?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 13/16 নে 19/24?"
+    },
+    "options": [
+      {
+        "en": "19/24",
+        "as": "১৯/২৪"
+      },
+      {
+        "en": "13/16",
+        "as": "১৩/১৬"
+      },
+      {
+        "en": "32/40",
+        "as": "৩২/৪০"
+      },
+      {
+        "en": "247/384",
+        "as": "২৪৭/৩৮৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 13 × 24 = 312 against 19 × 16 = 304. The larger product belongs to the larger fraction, so 13/16 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১৩ × ২৪ = ৩১২ আৰু ১৯ × ১৬ = ৩০৪। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১৩/১৬ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-021",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 23/30 or 17/22?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 23/30 নে 17/22?"
+    },
+    "options": [
+      {
+        "en": "23/30",
+        "as": "২৩/৩০"
+      },
+      {
+        "en": "40/52",
+        "as": "৪০/৫২"
+      },
+      {
+        "en": "17/22",
+        "as": "১৭/২২"
+      },
+      {
+        "en": "391/660",
+        "as": "৩৯১/৬৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 17 × 30 = 510 against 23 × 22 = 506. The larger product belongs to the larger fraction, so 17/22 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১৭ × ৩০ = ৫১০ আৰু ২৩ × ২২ = ৫০৬। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১৭/২২ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-022",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 29/40 or 31/42?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 29/40 নে 31/42?"
+    },
+    "options": [
+      {
+        "en": "29/40",
+        "as": "২৯/৪০"
+      },
+      {
+        "en": "60/82",
+        "as": "৬০/৮২"
+      },
+      {
+        "en": "899/1680",
+        "as": "৮৯৯/১৬৮০"
+      },
+      {
+        "en": "31/42",
+        "as": "৩১/৪২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 31 × 40 = 1240 against 29 × 42 = 1218. The larger product belongs to the larger fraction, so 31/42 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৩১ × ৪০ = ১২৪০ আৰু ২৯ × ৪২ = ১২১৮। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৩১/৪২ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-023",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 37/50 or 41/55?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 37/50 নে 41/55?"
+    },
+    "options": [
+      {
+        "en": "41/55",
+        "as": "৪১/৫৫"
+      },
+      {
+        "en": "37/50",
+        "as": "৩৭/৫০"
+      },
+      {
+        "en": "78/105",
+        "as": "৭৮/১০৫"
+      },
+      {
+        "en": "1517/2750",
+        "as": "১৫১৭/২৭৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 41 × 50 = 2050 against 37 × 55 = 2035. The larger product belongs to the larger fraction, so 41/55 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৪১ × ৫০ = ২০৫০ আৰু ৩৭ × ৫৫ = ২০৩৫। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৪১/৫৫ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-024",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 19/27 or 23/33?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 19/27 নে 23/33?"
+    },
+    "options": [
+      {
+        "en": "19/27",
+        "as": "১৯/২৭"
+      },
+      {
+        "en": "23/33",
+        "as": "২৩/৩৩"
+      },
+      {
+        "en": "42/60",
+        "as": "৪২/৬০"
+      },
+      {
+        "en": "437/891",
+        "as": "৪৩৭/৮৯১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 19 × 33 = 627 against 23 × 27 = 621. The larger product belongs to the larger fraction, so 19/27 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১৯ × ৩৩ = ৬২৭ আৰু ২৩ × ২৭ = ৬২১। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১৯/২৭ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-025",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 3/5, 2/3, 7/10, 5/8",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 3/5, 2/3, 7/10, 5/8"
+    },
+    "options": [
+      {
+        "en": "2/3 < 3/5 < 7/10 < 5/8",
+        "as": "২/৩ < ৩/৫ < ৭/১০ < ৫/৮"
+      },
+      {
+        "en": "3/5 < 5/8 < 2/3 < 7/10",
+        "as": "৩/৫ < ৫/৮ < ২/৩ < ৭/১০"
+      },
+      {
+        "en": "7/10 < 2/3 < 5/8 < 3/5",
+        "as": "৭/১০ < ২/৩ < ৫/৮ < ৩/৫"
+      },
+      {
+        "en": "5/8 < 7/10 < 3/5 < 2/3",
+        "as": "৫/৮ < ৭/১০ < ৩/৫ < ২/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing the decimal values gives 3/5 < 5/8 < 2/3 < 7/10.",
+      "as": "দশমিক মান তুলনা কৰিলে 3/5 < 5/8 < 2/3 < 7/10 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-026",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 4/7, 5/9, 3/5, 7/12",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 4/7, 5/9, 3/5, 7/12"
+    },
+    "options": [
+      {
+        "en": "3/5 < 5/9 < 4/7 < 7/12",
+        "as": "৩/৫ < ৫/৯ < ৪/৭ < ৭/১২"
+      },
+      {
+        "en": "7/12 < 3/5 < 5/9 < 4/7",
+        "as": "৭/১২ < ৩/৫ < ৫/৯ < ৪/৭"
+      },
+      {
+        "en": "5/9 < 4/7 < 7/12 < 3/5",
+        "as": "৫/৯ < ৪/৭ < ৭/১২ < ৩/৫"
+      },
+      {
+        "en": "4/7 < 7/12 < 3/5 < 5/9",
+        "as": "৪/৭ < ৭/১২ < ৩/৫ < ৫/৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing the decimal values gives 5/9 < 4/7 < 7/12 < 3/5.",
+      "as": "দশমিক মান তুলনা কৰিলে 5/9 < 4/7 < 7/12 < 3/5 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-027",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 5/6, 7/9, 11/15, 13/18",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 5/6, 7/9, 11/15, 13/18"
+    },
+    "options": [
+      {
+        "en": "5/6 < 13/18 < 11/15 < 7/9",
+        "as": "৫/৬ < ১৩/১৮ < ১১/১৫ < ৭/৯"
+      },
+      {
+        "en": "7/9 < 5/6 < 13/18 < 11/15",
+        "as": "৭/৯ < ৫/৬ < ১৩/১৮ < ১১/১৫"
+      },
+      {
+        "en": "11/15 < 7/9 < 5/6 < 13/18",
+        "as": "১১/১৫ < ৭/৯ < ৫/৬ < ১৩/১৮"
+      },
+      {
+        "en": "13/18 < 11/15 < 7/9 < 5/6",
+        "as": "১৩/১৮ < ১১/১৫ < ৭/৯ < ৫/৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing the decimal values gives 13/18 < 11/15 < 7/9 < 5/6.",
+      "as": "দশমিক মান তুলনা কৰিলে 13/18 < 11/15 < 7/9 < 5/6 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-028",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 2/7, 3/10, 1/4, 4/15",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 2/7, 3/10, 1/4, 4/15"
+    },
+    "options": [
+      {
+        "en": "4/15 < 2/7 < 3/10 < 1/4",
+        "as": "৪/১৫ < ২/৭ < ৩/১০ < ১/৪"
+      },
+      {
+        "en": "2/7 < 3/10 < 1/4 < 4/15",
+        "as": "২/৭ < ৩/১০ < ১/৪ < ৪/১৫"
+      },
+      {
+        "en": "1/4 < 4/15 < 2/7 < 3/10",
+        "as": "১/৪ < ৪/১৫ < ২/৭ < ৩/১০"
+      },
+      {
+        "en": "3/10 < 1/4 < 4/15 < 2/7",
+        "as": "৩/১০ < ১/৪ < ৪/১৫ < ২/৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Comparing the decimal values gives 1/4 < 4/15 < 2/7 < 3/10.",
+      "as": "দশমিক মান তুলনা কৰিলে 1/4 < 4/15 < 2/7 < 3/10 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-029",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 9/11, 7/9, 5/6, 11/13",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 9/11, 7/9, 5/6, 11/13"
+    },
+    "options": [
+      {
+        "en": "5/6 < 7/9 < 11/13 < 9/11",
+        "as": "৫/৬ < ৭/৯ < ১১/১৩ < ৯/১১"
+      },
+      {
+        "en": "7/9 < 9/11 < 5/6 < 11/13",
+        "as": "৭/৯ < ৯/১১ < ৫/৬ < ১১/১৩"
+      },
+      {
+        "en": "11/13 < 5/6 < 9/11 < 7/9",
+        "as": "১১/১৩ < ৫/৬ < ৯/১১ < ৭/৯"
+      },
+      {
+        "en": "9/11 < 11/13 < 7/9 < 5/6",
+        "as": "৯/১১ < ১১/১৩ < ৭/৯ < ৫/৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing the decimal values gives 7/9 < 9/11 < 5/6 < 11/13.",
+      "as": "দশমিক মান তুলনা কৰিলে 7/9 < 9/11 < 5/6 < 11/13 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-030",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 8/15, 5/9, 3/5, 7/12",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 8/15, 5/9, 3/5, 7/12"
+    },
+    "options": [
+      {
+        "en": "8/15 < 5/9 < 7/12 < 3/5",
+        "as": "৮/১৫ < ৫/৯ < ৭/১২ < ৩/৫"
+      },
+      {
+        "en": "5/9 < 3/5 < 8/15 < 7/12",
+        "as": "৫/৯ < ৩/৫ < ৮/১৫ < ৭/১২"
+      },
+      {
+        "en": "3/5 < 7/12 < 5/9 < 8/15",
+        "as": "৩/৫ < ৭/১২ < ৫/৯ < ৮/১৫"
+      },
+      {
+        "en": "7/12 < 8/15 < 3/5 < 5/9",
+        "as": "৭/১২ < ৮/১৫ < ৩/৫ < ৫/৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Comparing the decimal values gives 8/15 < 5/9 < 7/12 < 3/5.",
+      "as": "দশমিক মান তুলনা কৰিলে 8/15 < 5/9 < 7/12 < 3/5 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-031",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 13/20, 7/11, 5/8, 17/25",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 13/20, 7/11, 5/8, 17/25"
+    },
+    "options": [
+      {
+        "en": "17/25 < 5/8 < 7/11 < 13/20",
+        "as": "১৭/২৫ < ৫/৮ < ৭/১১ < ১৩/২০"
+      },
+      {
+        "en": "13/20 < 17/25 < 5/8 < 7/11",
+        "as": "১৩/২০ < ১৭/২৫ < ৫/৮ < ৭/১১"
+      },
+      {
+        "en": "7/11 < 13/20 < 17/25 < 5/8",
+        "as": "৭/১১ < ১৩/২০ < ১৭/২৫ < ৫/৮"
+      },
+      {
+        "en": "5/8 < 7/11 < 13/20 < 17/25",
+        "as": "৫/৮ < ৭/১১ < ১৩/২০ < ১৭/২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Comparing the decimal values gives 5/8 < 7/11 < 13/20 < 17/25.",
+      "as": "দশমিক মান তুলনা কৰিলে 5/8 < 7/11 < 13/20 < 17/25 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-032",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Arrange the following fractions in ascending order: 6/11, 4/7, 7/13, 5/9",
+      "as": "তলৰ ভগ্নাংশবোৰ উৰ্ধক্ৰমত সজোৱা: 6/11, 4/7, 7/13, 5/9"
+    },
+    "options": [
+      {
+        "en": "5/9 < 4/7 < 6/11 < 7/13",
+        "as": "৫/৯ < ৪/৭ < ৬/১১ < ৭/১৩"
+      },
+      {
+        "en": "7/13 < 6/11 < 5/9 < 4/7",
+        "as": "৭/১৩ < ৬/১১ < ৫/৯ < ৪/৭"
+      },
+      {
+        "en": "6/11 < 7/13 < 4/7 < 5/9",
+        "as": "৬/১১ < ৭/১৩ < ৪/৭ < ৫/৯"
+      },
+      {
+        "en": "4/7 < 5/9 < 7/13 < 6/11",
+        "as": "৪/৭ < ৫/৯ < ৭/১৩ < ৬/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Comparing the decimal values gives 7/13 < 6/11 < 5/9 < 4/7.",
+      "as": "দশমিক মান তুলনা কৰিলে 7/13 < 6/11 < 5/9 < 4/7 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-033",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 3/7 of 294.",
+      "as": "২৯৪ ৰ ৩/৭ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "252",
+        "as": "২৫২"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply the fraction by 294: 3/7 × 294 = 126.",
+      "as": "ভগ্নাংশটোক ২৯৪ ৰে পূৰণ কৰা: 3/7 × ২৯৪ = ১২৬।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-034",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 5/8 of 512.",
+      "as": "৫১২ ৰ ৫/৮ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "192",
+        "as": "১৯২"
+      },
+      {
+        "en": "640",
+        "as": "৬৪০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "320",
+        "as": "৩২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply the fraction by 512: 5/8 × 512 = 320.",
+      "as": "ভগ্নাংশটোক ৫১২ ৰে পূৰণ কৰা: 5/8 × ৫১২ = ৩২০।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-035",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 7/12 of 588.",
+      "as": "৫৮৮ ৰ ৭/১২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "245",
+        "as": "২৪৫"
+      },
+      {
+        "en": "686",
+        "as": "৬৮৬"
+      },
+      {
+        "en": "343/2",
+        "as": "৩৪৩/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply the fraction by 588: 7/12 × 588 = 343.",
+      "as": "ভগ্নাংশটোক ৫৮৮ ৰে পূৰণ কৰা: 7/12 × ৫৮৮ = ৩৪৩।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-036",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 9/11 of 737.",
+      "as": "৭৩৭ ৰ ৯/১১ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "603",
+        "as": "৬০৩"
+      },
+      {
+        "en": "134",
+        "as": "১৩৪"
+      },
+      {
+        "en": "1206",
+        "as": "১২০৬"
+      },
+      {
+        "en": "603/2",
+        "as": "৬০৩/২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply the fraction by 737: 9/11 × 737 = 603.",
+      "as": "ভগ্নাংশটোক ৭৩৭ ৰে পূৰণ কৰা: 9/11 × ৭৩৭ = ৬০৩।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-037",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 4/9 of 675.",
+      "as": "৬৭৫ ৰ ৪/৯ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "375",
+        "as": "৩৭৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply the fraction by 675: 4/9 × 675 = 300.",
+      "as": "ভগ্নাংশটোক ৬৭৫ ৰে পূৰণ কৰা: 4/9 × ৬৭৫ = ৩০০।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-038",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 11/15 of 825.",
+      "as": "৮২৫ ৰ ১১/১৫ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "1210",
+        "as": "১২১০"
+      },
+      {
+        "en": "605",
+        "as": "৬০৫"
+      },
+      {
+        "en": "605/2",
+        "as": "৬০৫/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply the fraction by 825: 11/15 × 825 = 605.",
+      "as": "ভগ্নাংশটোক ৮২৫ ৰে পূৰণ কৰা: 11/15 × ৮২৫ = ৬০৫।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-039",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 13/17 of 969.",
+      "as": "৯৬৯ ৰ ১৩/১৭ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "228",
+        "as": "২২৮"
+      },
+      {
+        "en": "1482",
+        "as": "১৪৮২"
+      },
+      {
+        "en": "741/2",
+        "as": "৭৪১/২"
+      },
+      {
+        "en": "741",
+        "as": "৭৪১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply the fraction by 969: 13/17 × 969 = 741.",
+      "as": "ভগ্নাংশটোক ৯৬৯ ৰে পূৰণ কৰা: 13/17 × ৯৬৯ = ৭৪১।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-040",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 7/15 of 1125.",
+      "as": "১১২৫ ৰ ৭/১৫ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "1050",
+        "as": "১০৫০"
+      },
+      {
+        "en": "525",
+        "as": "৫২৫"
+      },
+      {
+        "en": "525/2",
+        "as": "৫২৫/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply the fraction by 1125: 7/15 × 1125 = 525.",
+      "as": "ভগ্নাংশটোক ১১২৫ ৰে পূৰণ কৰা: 7/15 × ১১২৫ = ৫২৫।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-041",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 5/12 of 936.",
+      "as": "৯৩৬ ৰ ৫/১২ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "546",
+        "as": "৫৪৬"
+      },
+      {
+        "en": "390",
+        "as": "৩৯০"
+      },
+      {
+        "en": "780",
+        "as": "৭৮০"
+      },
+      {
+        "en": "195",
+        "as": "১৯৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply the fraction by 936: 5/12 × 936 = 390.",
+      "as": "ভগ্নাংশটোক ৯৩৬ ৰে পূৰণ কৰা: 5/12 × ৯৩৬ = ৩৯০।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-042",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 8/13 of 1001.",
+      "as": "১০০১ ৰ ৮/১৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "385",
+        "as": "৩৮৫"
+      },
+      {
+        "en": "1232",
+        "as": "১২৩২"
+      },
+      {
+        "en": "308",
+        "as": "৩০৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply the fraction by 1001: 8/13 × 1001 = 616.",
+      "as": "ভগ্নাংশটোক ১০০১ ৰে পূৰণ কৰা: 8/13 × ১০০১ = ৬১৬।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-043",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.375 into a fraction in its lowest terms.",
+      "as": "0.375 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/16",
+        "as": "৭/১৬"
+      },
+      {
+        "en": "5/16",
+        "as": "৫/১৬"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.375 = 375/1000. Cancel the common factor 125, which leaves 3/8.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.375 = 375/1000। সাধাৰণ উৎপাদক ১২৫ কটাৰ পিছত ৩/৮ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-044",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.625 into a fraction in its lowest terms.",
+      "as": "0.625 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "11/16",
+        "as": "১১/১৬"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "9/16",
+        "as": "৯/১৬"
+      },
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.625 = 625/1000. Cancel the common factor 125, which leaves 5/8.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.625 = 625/1000। সাধাৰণ উৎপাদক ১২৫ কটাৰ পিছত ৫/৮ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-045",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.875 into a fraction in its lowest terms.",
+      "as": "0.875 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "15/16",
+        "as": "১৫/১৬"
+      },
+      {
+        "en": "13/16",
+        "as": "১৩/১৬"
+      },
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      },
+      {
+        "en": "7/4",
+        "as": "৭/৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.875 = 875/1000. Cancel the common factor 125, which leaves 7/8.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.875 = 875/1000। সাধাৰণ উৎপাদক ১২৫ কটাৰ পিছত ৭/৮ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-046",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.3125 into a fraction in its lowest terms.",
+      "as": "0.3125 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "5/16",
+        "as": "৫/১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.3125 = 3125/10000. Cancel the common factor 625, which leaves 5/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.3125 = 3125/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ৫/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-047",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.0625 into a fraction in its lowest terms.",
+      "as": "0.0625 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/16",
+        "as": "১/১৬"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "15/16",
+        "as": "১৫/১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.0625 = 625/10000. Cancel the common factor 625, which leaves 1/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.0625 = 625/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ১/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-048",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.1875 into a fraction in its lowest terms.",
+      "as": "0.1875 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/16",
+        "as": "৩/১৬"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "1/8",
+        "as": "১/৮"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.1875 = 1875/10000. Cancel the common factor 625, which leaves 3/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.1875 = 1875/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ৩/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-049",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.4375 into a fraction in its lowest terms.",
+      "as": "0.4375 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "7/16",
+        "as": "৭/১৬"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.4375 = 4375/10000. Cancel the common factor 625, which leaves 7/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.4375 = 4375/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ৭/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-050",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.5625 into a fraction in its lowest terms.",
+      "as": "0.5625 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      },
+      {
+        "en": "9/16",
+        "as": "৯/১৬"
+      },
+      {
+        "en": "9/8",
+        "as": "৯/৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.5625 = 5625/10000. Cancel the common factor 625, which leaves 9/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.5625 = 5625/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ৯/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-051",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.6875 into a fraction in its lowest terms.",
+      "as": "0.6875 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      },
+      {
+        "en": "11/8",
+        "as": "১১/৮"
+      },
+      {
+        "en": "11/16",
+        "as": "১১/১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.6875 = 6875/10000. Cancel the common factor 625, which leaves 11/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.6875 = 6875/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ১১/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-052",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert 0.8125 into a fraction in its lowest terms.",
+      "as": "0.8125 ক নিম্নতম ৰূপত ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "7/8",
+        "as": "৭/৮"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "13/16",
+        "as": "১৩/১৬"
+      },
+      {
+        "en": "13/8",
+        "as": "১৩/৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write the decimal over its place value: 0.8125 = 8125/10000. Cancel the common factor 625, which leaves 13/16.",
+      "as": "দশমিকটো তাৰ স্থানীয় মানৰ ওপৰত লিখা: 0.8125 = 8125/10000। সাধাৰণ উৎপাদক ৬২৫ কটাৰ পিছত ১৩/১৬ থাকে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-053",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which of the following fractions has a terminating decimal?",
+      "as": "তলৰ কোন ভগ্নাংশৰ দশমিক প্ৰকাশ সমাপ্ত হয়?"
+    },
+    "options": [
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "3/8",
+        "as": "৩/৮"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "2/9",
+        "as": "২/৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "3/8 has a denominator of the form 2^m × 5^n, so its decimal terminates.",
+      "as": "3/8 ৰ হৰ ২^m × ৫^n ৰূপত আছে, সেয়ে দশমিক সমাপ্ত হয়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-054",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 5 3/8 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৫ ৩/৮ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "43/8",
+        "as": "৪৩/৮"
+      },
+      {
+        "en": "37/8",
+        "as": "৩৭/৮"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "5 3/8 = (5 × 8 + 3)/8 = 43/8.",
+      "as": "৫ ৩/৮ = (৫ × ৮ + ৩)/৮ = 43/8।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-055",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 7 5/9 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৭ ৫/৯ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "58/9",
+        "as": "৫৮/৯"
+      },
+      {
+        "en": "4/3",
+        "as": "৪/৩"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "68/9",
+        "as": "৬৮/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "7 5/9 = (7 × 9 + 5)/9 = 68/9.",
+      "as": "৭ ৫/৯ = (৭ × ৯ + ৫)/৯ = 68/9।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-056",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 9 7/11 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৯ ৭/১১ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "92/11",
+        "as": "৯২/১১"
+      },
+      {
+        "en": "106/11",
+        "as": "১০৬/১১"
+      },
+      {
+        "en": "16/11",
+        "as": "১৬/১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9 7/11 = (9 × 11 + 7)/11 = 106/11.",
+      "as": "৯ ৭/১১ = (৯ × ১১ + ৭)/১১ = 106/11।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-057",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 4 5/12 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৪ ৫/১২ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "43/12",
+        "as": "৪৩/১২"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "53/12",
+        "as": "৫৩/১২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 5/12 = (4 × 12 + 5)/12 = 53/12.",
+      "as": "৪ ৫/১২ = (৪ × ১২ + ৫)/১২ = 53/12।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-058",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 8 9/13 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৮ ৯/১৩ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "95/13",
+        "as": "৯৫/১৩"
+      },
+      {
+        "en": "17/13",
+        "as": "১৭/১৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "113/13",
+        "as": "১১৩/১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "8 9/13 = (8 × 13 + 9)/13 = 113/13.",
+      "as": "৮ ৯/১৩ = (৮ × ১৩ + ৯)/১৩ = 113/13।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-059",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 6 11/15 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ৬ ১১/১৫ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "101/15",
+        "as": "১০১/১৫"
+      },
+      {
+        "en": "79/15",
+        "as": "৭৯/১৫"
+      },
+      {
+        "en": "17/15",
+        "as": "১৭/১৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "6 11/15 = (6 × 15 + 11)/15 = 101/15.",
+      "as": "৬ ১১/১৫ = (৬ × ১৫ + ১১)/১৫ = 101/15।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-060",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 10 7/16 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১০ ৭/১৬ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "167/16",
+        "as": "১৬৭/১৬"
+      },
+      {
+        "en": "153/16",
+        "as": "১৫৩/১৬"
+      },
+      {
+        "en": "17/16",
+        "as": "১৭/১৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "10 7/16 = (10 × 16 + 7)/16 = 167/16.",
+      "as": "১০ ৭/১৬ = (১০ × ১৬ + ৭)/১৬ = 167/16।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-061",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 12 5/17 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১২ ৫/১৭ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "199/17",
+        "as": "১৯৯/১৭"
+      },
+      {
+        "en": "209/17",
+        "as": "২০৯/১৭"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "12 5/17 = (12 × 17 + 5)/17 = 209/17.",
+      "as": "১২ ৫/১৭ = (১২ × ১৭ + ৫)/১৭ = 209/17।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-062",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (3/4 × 5/6) ÷ (7/12)",
+      "as": "সৰল কৰা: (3/4 × 5/6) ÷ (7/12)"
+    },
+    "options": [
+      {
+        "en": "29/14",
+        "as": "২৯/১৪"
+      },
+      {
+        "en": "4/7",
+        "as": "৪/৭"
+      },
+      {
+        "en": "15/14",
+        "as": "১৫/১৪"
+      },
+      {
+        "en": "15/7",
+        "as": "১৫/৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 15/14. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৫/১৪ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-063",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (5/8 × 7/12) ÷ (11/24)",
+      "as": "সৰল কৰা: (5/8 × 7/12) ÷ (11/24)"
+    },
+    "options": [
+      {
+        "en": "79/44",
+        "as": "৭৯/৪৪"
+      },
+      {
+        "en": "13/44",
+        "as": "১৩/৪৪"
+      },
+      {
+        "en": "35/22",
+        "as": "৩৫/২২"
+      },
+      {
+        "en": "35/44",
+        "as": "৩৫/৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 35/44. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৩৫/৪৪ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-064",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (2/3 × 3/5) ÷ (19/30)",
+      "as": "সৰল কৰা: (2/3 × 3/5) ÷ (19/30)"
+    },
+    "options": [
+      {
+        "en": "31/19",
+        "as": "৩১/১৯"
+      },
+      {
+        "en": "5/38",
+        "as": "৫/৩৮"
+      },
+      {
+        "en": "12/19",
+        "as": "১২/১৯"
+      },
+      {
+        "en": "24/19",
+        "as": "২৪/১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 12/19. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১২/১৯ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-065",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (7/9 × 5/6) ÷ (29/36)",
+      "as": "সৰল কৰা: (7/9 × 5/6) ÷ (29/36)"
+    },
+    "options": [
+      {
+        "en": "157/87",
+        "as": "১৫৭/৮৭"
+      },
+      {
+        "en": "70/87",
+        "as": "৭০/৮৭"
+      },
+      {
+        "en": "53/174",
+        "as": "৫৩/১৭৪"
+      },
+      {
+        "en": "140/87",
+        "as": "১৪০/৮৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 70/87. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৭০/৮৭ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-066",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (4/5 × 3/10) ÷ (11/20)",
+      "as": "সৰল কৰা: (4/5 × 3/10) ÷ (11/20)"
+    },
+    "options": [
+      {
+        "en": "24/55",
+        "as": "২৪/৫৫"
+      },
+      {
+        "en": "79/55",
+        "as": "৭৯/৫৫"
+      },
+      {
+        "en": "-7/110",
+        "as": "-৭/১১০"
+      },
+      {
+        "en": "48/55",
+        "as": "৪৮/৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 24/55. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ২৪/৫৫ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-067",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (9/10 × 2/5) ÷ (13/20)",
+      "as": "সৰল কৰা: (9/10 × 2/5) ÷ (13/20)"
+    },
+    "options": [
+      {
+        "en": "101/65",
+        "as": "১০১/৬৫"
+      },
+      {
+        "en": "7/130",
+        "as": "৭/১৩০"
+      },
+      {
+        "en": "72/65",
+        "as": "৭২/৬৫"
+      },
+      {
+        "en": "36/65",
+        "as": "৩৬/৬৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 36/65. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৩৬/৬৫ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-068",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (5/6 × 7/9) ÷ (29/36)",
+      "as": "সৰল কৰা: (5/6 × 7/9) ÷ (29/36)"
+    },
+    "options": [
+      {
+        "en": "157/87",
+        "as": "১৫৭/৮৭"
+      },
+      {
+        "en": "70/87",
+        "as": "৭০/৮৭"
+      },
+      {
+        "en": "53/174",
+        "as": "৫৩/১৭৪"
+      },
+      {
+        "en": "140/87",
+        "as": "১৪০/৮৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 70/87. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৭০/৮৭ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-069",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Simplify: (3/7 × 4/9) ÷ (55/63)",
+      "as": "সৰল কৰা: (3/7 × 4/9) ÷ (55/63)"
+    },
+    "options": [
+      {
+        "en": "67/55",
+        "as": "৬৭/৫৫"
+      },
+      {
+        "en": "-31/110",
+        "as": "-৩১/১১০"
+      },
+      {
+        "en": "12/55",
+        "as": "১২/৫৫"
+      },
+      {
+        "en": "24/55",
+        "as": "২৪/৫৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 12/55. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১২/৫৫ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-070",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 3/5 and 4/7?",
+      "as": "কোন ভগ্নাংশ 3/5 আৰু 4/7 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "33/70",
+        "as": "৩৩/৭০"
+      },
+      {
+        "en": "7/10",
+        "as": "৭/১০"
+      },
+      {
+        "en": "4/7",
+        "as": "৪/৭"
+      },
+      {
+        "en": "41/70",
+        "as": "৪১/৭০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The midpoint 41/70 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 41/70 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-071",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 5/8 and 2/3?",
+      "as": "কোন ভগ্নাংশ 5/8 আৰু 2/3 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "31/48",
+        "as": "৩১/৪৮"
+      },
+      {
+        "en": "21/40",
+        "as": "২১/৪০"
+      },
+      {
+        "en": "23/30",
+        "as": "২৩/৩০"
+      },
+      {
+        "en": "5/8",
+        "as": "৫/৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The midpoint 31/48 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 31/48 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-072",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 7/12 and 3/5?",
+      "as": "কোন ভগ্নাংশ 7/12 আৰু 3/5 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "71/120",
+        "as": "৭১/১২০"
+      },
+      {
+        "en": "29/60",
+        "as": "২৯/৬০"
+      },
+      {
+        "en": "7/10",
+        "as": "৭/১০"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The midpoint 71/120 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 71/120 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-073",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 9/13 and 5/7?",
+      "as": "কোন ভগ্নাংশ 9/13 আৰু 5/7 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "77/130",
+        "as": "৭৭/১৩০"
+      },
+      {
+        "en": "64/91",
+        "as": "৬৪/৯১"
+      },
+      {
+        "en": "57/70",
+        "as": "৫৭/৭০"
+      },
+      {
+        "en": "9/13",
+        "as": "৯/১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The midpoint 64/91 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 64/91 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-074",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 11/15 and 7/10?",
+      "as": "কোন ভগ্নাংশ 11/15 আৰু 7/10 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "3/5",
+        "as": "৩/৫"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "43/60",
+        "as": "৪৩/৬০"
+      },
+      {
+        "en": "7/10",
+        "as": "৭/১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The midpoint 43/60 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 43/60 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-075",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 13/18 and 3/4?",
+      "as": "কোন ভগ্নাংশ 13/18 আৰু 3/4 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "28/45",
+        "as": "২৮/৪৫"
+      },
+      {
+        "en": "17/20",
+        "as": "১৭/২০"
+      },
+      {
+        "en": "13/18",
+        "as": "১৩/১৮"
+      },
+      {
+        "en": "53/72",
+        "as": "৫৩/৭২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The midpoint 53/72 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 53/72 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-076",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 17/20 and 5/6?",
+      "as": "কোন ভগ্নাংশ 17/20 আৰু 5/6 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "11/15",
+        "as": "১১/১৫"
+      },
+      {
+        "en": "19/20",
+        "as": "১৯/২০"
+      },
+      {
+        "en": "101/120",
+        "as": "১০১/১২০"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The midpoint 101/120 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 101/120 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-077",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction lies between 19/24 and 7/9?",
+      "as": "কোন ভগ্নাংশ 19/24 আৰু 7/9 ৰ মাজত আছে?"
+    },
+    "options": [
+      {
+        "en": "61/90",
+        "as": "৬১/৯০"
+      },
+      {
+        "en": "113/144",
+        "as": "১১৩/১৪৪"
+      },
+      {
+        "en": "107/120",
+        "as": "১০৭/১২০"
+      },
+      {
+        "en": "7/9",
+        "as": "৭/৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The midpoint 113/144 lies between the two fractions.",
+      "as": "মধ্যবিন্দু 113/144 দুয়োটা ভগ্নাংশৰ মাজত আছে।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-078",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 0.\\overline{3} + 0.\\overline{6}.",
+      "as": "0.\\overline{3} + 0.\\overline{6} ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "10/9",
+        "as": "১০/৯"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "0.\\overline{3} = 3/9 and 0.\\overline{6} = 6/9, so the sum is 3/9 + 6/9 = 9/9 = 1.",
+      "as": "০.\\overline{৩} = ৩/৯ আৰু ০.\\overline{৬} = ৬/৯, গতিকে যোগফল ৩/৯ + ৬/৯ = ৯/৯ = ১।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-079",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 0.\\overline{9}.",
+      "as": "0.\\overline{9} ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10/9",
+        "as": "১০/৯"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "0.\\overline{9} = 9/9 = 1.",
+      "as": "০.\\overline{৯} = ৯/৯ = ১।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-080",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 0.\\overline{1} + 0.\\overline{2}.",
+      "as": "0.\\overline{1} + 0.\\overline{2} ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4/9",
+        "as": "৪/৯"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "2/9",
+        "as": "২/৯"
+      },
+      {
+        "en": "2/3",
+        "as": "২/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "0.\\overline{1} = 1/9 and 0.\\overline{2} = 2/9, so the sum is 1/9 + 2/9 = 3/9 = 1/3.",
+      "as": "০.\\overline{১} = ১/৯ আৰু ০.\\overline{২} = ২/৯, গতিকে যোগফল ৩/৯ = ১/৩।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-081",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 0.\\overline{27} + 0.\\overline{72}.",
+      "as": "0.\\overline{27} + 0.\\overline{72} ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10/9",
+        "as": "১০/৯"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "0.\\overline{27} = 27/99 and 0.\\overline{72} = 72/99, so the sum is 99/99 = 1.",
+      "as": "০.\\overline{২৭} = ২৭/৯৯ আৰু ০.\\overline{৭২} = ৭২/৯৯, গতিকে যোগফল ৯৯/৯৯ = ১।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-082",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 0.\\overline{45} - 0.\\overline{27}.",
+      "as": "0.\\overline{45} - 0.\\overline{27} ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29/99",
+        "as": "২৯/৯৯"
+      },
+      {
+        "en": "7/99",
+        "as": "৭/৯৯"
+      },
+      {
+        "en": "4/11",
+        "as": "৪/১১"
+      },
+      {
+        "en": "2/11",
+        "as": "২/১১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "0.\\overline{45} = 45/99 and 0.\\overline{27} = 27/99, so the difference is 18/99 = 2/11.",
+      "as": "০.\\overline{৪৫} = ৪৫/৯৯ আৰু ০.\\overline{২৭} = ২৭/৯৯, গতিকে পাৰ্থক্য ১৮/৯৯ = ২/১১।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-083",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{18} as a fraction in its lowest terms.",
+      "as": "0.\\overline{18} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/11",
+        "as": "২/১১"
+      },
+      {
+        "en": "29/99",
+        "as": "২৯/৯৯"
+      },
+      {
+        "en": "1/11",
+        "as": "১/১১"
+      },
+      {
+        "en": "4/11",
+        "as": "৪/১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 2/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ২/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-084",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{54} as a fraction in its lowest terms.",
+      "as": "0.\\overline{54} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "6/11",
+        "as": "৬/১১"
+      },
+      {
+        "en": "65/99",
+        "as": "৬৫/৯৯"
+      },
+      {
+        "en": "5/11",
+        "as": "৫/১১"
+      },
+      {
+        "en": "12/11",
+        "as": "১২/১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 6/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৬/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-085",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.\\overline{63} as a fraction in its lowest terms.",
+      "as": "0.\\overline{63} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "74/99",
+        "as": "৭৪/৯৯"
+      },
+      {
+        "en": "7/11",
+        "as": "৭/১১"
+      },
+      {
+        "en": "6/11",
+        "as": "৬/১১"
+      },
+      {
+        "en": "14/11",
+        "as": "১৪/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 7/11.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৭/১১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-086",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Express 0.5\\overline{3} as a fraction in its lowest terms.",
+      "as": "0.5\\overline{3} ক নিম্নতম ৰূপত ভগ্নাংশ হিচাপে প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "29/45",
+        "as": "২৯/৪৫"
+      },
+      {
+        "en": "73/165",
+        "as": "৭৩/১৬৫"
+      },
+      {
+        "en": "8/15",
+        "as": "৮/১৫"
+      },
+      {
+        "en": "16/15",
+        "as": "১৬/১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A recurring decimal is written as the repeating block over as many 9s: 0.̅ab = ab/99, and simplifying here gives 8/15.",
+      "as": "পুনৰাবৃত্তি দশমিকক ৯ ৰে ভাগ কৰি লিখা হয়: 0.̅ab = ab/99; ইয়াত সৰল কৰিলে ৮/১৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-087",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 21/25 or 17/20?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 21/25 নে 17/20?"
+    },
+    "options": [
+      {
+        "en": "21/25",
+        "as": "২১/২৫"
+      },
+      {
+        "en": "38/45",
+        "as": "৩৮/৪৫"
+      },
+      {
+        "en": "357/500",
+        "as": "৩৫৭/৫০০"
+      },
+      {
+        "en": "17/20",
+        "as": "১৭/২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 17 × 25 = 425 against 21 × 20 = 420. The larger product belongs to the larger fraction, so 17/20 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ১৭ × ২৫ = ৪২৫ আৰু ২১ × ২০ = ৪২০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ১৭/২০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-088",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 31/40 or 23/30?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 31/40 নে 23/30?"
+    },
+    "options": [
+      {
+        "en": "23/30",
+        "as": "২৩/৩০"
+      },
+      {
+        "en": "54/70",
+        "as": "৫৪/৭০"
+      },
+      {
+        "en": "31/40",
+        "as": "৩১/৪০"
+      },
+      {
+        "en": "713/1200",
+        "as": "৭১৩/১২০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 31 × 30 = 930 against 23 × 40 = 920. The larger product belongs to the larger fraction, so 31/40 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৩১ × ৩০ = ৯৩০ আৰু ২৩ × ৪০ = ৯২০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৩১/৪০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-089",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 43/50 or 47/55?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 43/50 নে 47/55?"
+    },
+    "options": [
+      {
+        "en": "47/55",
+        "as": "৪৭/৫৫"
+      },
+      {
+        "en": "43/50",
+        "as": "৪৩/৫০"
+      },
+      {
+        "en": "90/105",
+        "as": "৯০/১০৫"
+      },
+      {
+        "en": "2021/2750",
+        "as": "২০২১/২৭৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 43 × 55 = 2365 against 47 × 50 = 2350. The larger product belongs to the larger fraction, so 43/50 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৪৩ × ৫৫ = ২৩৬৫ আৰু ৪৭ × ৫০ = ২৩৫০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৪৩/৫০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-090",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Which fraction is greater: 33/40 or 41/50?",
+      "as": "কোন ভগ্নাংশ ডাঙৰ: 33/40 নে 41/50?"
+    },
+    "options": [
+      {
+        "en": "33/40",
+        "as": "৩৩/৪০"
+      },
+      {
+        "en": "41/50",
+        "as": "৪১/৫০"
+      },
+      {
+        "en": "74/90",
+        "as": "৭৪/৯০"
+      },
+      {
+        "en": "1353/2000",
+        "as": "১৩৫৩/২০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cross-multiply the two fractions: 33 × 50 = 1650 against 41 × 40 = 1640. The larger product belongs to the larger fraction, so 33/40 is greater.",
+      "as": "দুয়োটা ভগ্নাংশ ক্ৰছ-গুণ কৰা: ৩৩ × ৫০ = ১৬৫০ আৰু ৪১ × ৪০ = ১৬৪০। ডাঙৰ গুণফলৰ ভগ্নাংশটোৱেই ডাঙৰ, সেয়ে ৩৩/৪০ ডাঙৰ।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-091",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 5/9 of 729.",
+      "as": "৭২৯ ৰ ৫/৯ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "810",
+        "as": "৮১০"
+      },
+      {
+        "en": "405/2",
+        "as": "৪০৫/২"
+      },
+      {
+        "en": "405",
+        "as": "৪০৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply the fraction by 729: 5/9 × 729 = 405.",
+      "as": "ভগ্নাংশটোক ৭২৯ ৰে পূৰণ কৰা: 5/9 × ৭২৯ = ৪০৫।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-092",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 7/11 of 847.",
+      "as": "৮৪৭ ৰ ৭/১১ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "308",
+        "as": "৩০৮"
+      },
+      {
+        "en": "539",
+        "as": "৫৩৯"
+      },
+      {
+        "en": "1078",
+        "as": "১০৭৮"
+      },
+      {
+        "en": "539/2",
+        "as": "৫৩৯/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply the fraction by 847: 7/11 × 847 = 539.",
+      "as": "ভগ্নাংশটোক ৮৪৭ ৰে পূৰণ কৰা: 7/11 × ৮৪৭ = ৫৩৯।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-093",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 9/13 of 1053.",
+      "as": "১০৫৩ ৰ ৯/১৩ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "1458",
+        "as": "১৪৫৮"
+      },
+      {
+        "en": "729",
+        "as": "৭২৯"
+      },
+      {
+        "en": "729/2",
+        "as": "৭২৯/২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply the fraction by 1053: 9/13 × 1053 = 729.",
+      "as": "ভগ্নাংশটোক ১০৫৩ ৰে পূৰণ কৰা: 9/13 × ১০৫৩ = ৭২৯।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-094",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Find the value of 11/17 of 1156.",
+      "as": "১১৫৬ ৰ ১১/১৭ ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "408",
+        "as": "৪০৮"
+      },
+      {
+        "en": "1496",
+        "as": "১৪৯৬"
+      },
+      {
+        "en": "374",
+        "as": "৩৭৪"
+      },
+      {
+        "en": "748",
+        "as": "৭৪৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply the fraction by 1156: 11/17 × 1156 = 748.",
+      "as": "ভগ্নাংশটোক ১১৫৬ ৰে পূৰণ কৰা: 11/17 × ১১৫৬ = ৭৪৮।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-095",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 13 3/18 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১৩ ৩/১৮ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "79/6",
+        "as": "৭৯/৬"
+      },
+      {
+        "en": "77/6",
+        "as": "৭৭/৬"
+      },
+      {
+        "en": "8/9",
+        "as": "৮/৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "13 3/18 = (13 × 18 + 3)/18 = 79/6.",
+      "as": "১৩ ৩/১৮ = (১৩ × ১৮ + ৩)/১৮ = 79/6।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-096",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 15 7/19 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১৫ ৭/১৯ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "292/19",
+        "as": "২৯২/১৯"
+      },
+      {
+        "en": "278/19",
+        "as": "২৭৮/১৯"
+      },
+      {
+        "en": "22/19",
+        "as": "২২/১৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "15 7/19 = (15 × 19 + 7)/19 = 292/19.",
+      "as": "১৫ ৭/১৯ = (১৫ × ১৯ + ৭)/১৯ = 292/19।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-097",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 11 9/20 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১১ ৯/২০ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "211/20",
+        "as": "২১১/২০"
+      },
+      {
+        "en": "229/20",
+        "as": "২২৯/২০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "11 9/20 = (11 × 20 + 9)/20 = 229/20.",
+      "as": "১১ ৯/২০ = (১১ × ২০ + ৯)/২০ = 229/20।"
+    }
+  },
+  {
+    "id": "num-decimals-fractions-098",
+    "leaf": "decimals-fractions",
+    "q": {
+      "en": "Convert the mixed number 14 5/21 into an improper fraction.",
+      "as": "মিশ্ৰ সংখ্যা ১৪ ৫/২১ ক অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "289/21",
+        "as": "২৮৯/২১"
+      },
+      {
+        "en": "19/21",
+        "as": "১৯/২১"
+      },
+      {
+        "en": "299/21",
+        "as": "২৯৯/২১"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "14 5/21 = (14 × 21 + 5)/21 = 299/21.",
+      "as": "১৪ ৫/২১ = (১৪ × ২১ + ৫)/২১ = 299/21।"
+    }
+  }
+]

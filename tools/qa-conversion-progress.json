@@ -1,0 +1,972 @@
+{
+  "task": "Add 4 options (A-D, random correct) + bilingual explanation to GK Q&A-only questions",
+  "rules": {
+    "options": 4,
+    "correct": "random A/B/C/D, balanced, no wrong answers",
+    "explanation": "bilingual en+as, states why the correct option is right",
+    "schemas": {
+      "q/a": "q + options[{en,as}] + correct + explanation{en,as}",
+      "question_en": "question_en/as + options_en/as + correct + explanation_en/as"
+    }
+  },
+  "batch_size": 25,
+  "files_done": [
+    {
+      "path": "data/content/gk/fundamental-rights.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/emergency-provisions.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/executive-president-governor-pm-cm.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/finance-commission-state-fc.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/historical-background-making-sources.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/judiciary-supreme-court-high-courts-subordinate.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/latitudes-longitudes-equator-idl.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/legal-officers-attorney-general-advocate-general.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/legislature-parliament-state-legislature.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/nebulae-blackholes-supernovae.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/panchayati-raj-municipalities.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/planetary-moons-titan-ganymede-europa.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/pre-proto-history.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/preamble-key-amendments.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/sixth-schedule-autonomous-councils.json",
+      "converted": 25,
+      "schema": "question_en"
+    },
+    {
+      "path": "data/content/gk/space-agencies-missions-isro-nasa.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/stars-lifecycle-constellations-lightyear.json",
+      "converted": 25,
+      "schema": "q"
+    },
+    {
+      "path": "data/content/gk/neo-vaishnavite-movement.json",
+      "converted": 25,
+      "schema": "question_en",
+      "chunk": "Q1-25"
+    },
+    {
+      "path": "data/content/gk/neo-vaishnavite-movement.json",
+      "converted": 25,
+      "schema": "question_en",
+      "chunk": "Q26-50"
+    },
+    {
+      "path": "data/content/gk/neo-vaishnavite-movement.json",
+      "converted": 25,
+      "schema": "question_en",
+      "chunk": "Q51-75"
+    },
+    {
+      "path": "data/content/gk/neo-vaishnavite-movement.json",
+      "converted": 15,
+      "schema": "question_en",
+      "chunk": "Q76-90",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/socio-religious-reforms.json",
+      "converted": 25,
+      "schema": "q",
+      "chunk": "Q1-25"
+    },
+    {
+      "path": "data/content/gk/socio-religious-reforms.json",
+      "converted": 25,
+      "schema": "q",
+      "chunk": "Q26-50"
+    },
+    {
+      "path": "data/content/gk/socio-religious-reforms.json",
+      "converted": 23,
+      "schema": "q",
+      "chunk": "Q51-73",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/nationalism-inc-formation.json",
+      "converted": 71,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mountbatten-partition-independence.json",
+      "converted": 71,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/gandhian-era-movements.json",
+      "converted": 71,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/subhas-bose-ina.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/revolutionary-movements.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/revolt-of-1857.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/partition-bengal-swadeshi.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/major-ahom-rulers.json",
+      "converted": 70,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/medieval-assam.json",
+      "converted": 300,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/industrial-belts-borders-frontiers-india.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/constitutional-developments-acts.json",
+      "converted": 70,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/tripartite-struggle-dynasties.json",
+      "converted": 62,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/national-parks.json",
+      "converted": 60,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/quit-india-martyrs.json",
+      "converted": 60,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/saraighat-itakhuli.json",
+      "converted": 60,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/chola-south-kingdoms.json",
+      "converted": 59,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/turkish-invasions.json",
+      "converted": 56,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/socio-cultural-awakening.json",
+      "converted": 55,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/revolt-1857-assam.json",
+      "converted": 55,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/moamoria-rebellion.json",
+      "converted": 55,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/jainism-buddhism.json",
+      "converted": 55,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/post-mauryan-period.json",
+      "converted": 55,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mughal-empire-admin.json",
+      "converted": 54,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/indus-valley-civilization.json",
+      "converted": 53,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/delhi-sultanate.json",
+      "converted": 52,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/later-mughals-regional-states.json",
+      "converted": 51,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/maratha-empire-peshwas.json",
+      "converted": 51,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mauryan-empire.json",
+      "converted": 51,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/prehistoric-stone-age.json",
+      "converted": 51,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/line-system-immigration.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/reorganization-assam-accord.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/grouping-scheme-bordoloi.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/gupta-empire.json",
+      "converted": 50,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/varman-dynasty.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mahajanapadas-magadha.json",
+      "converted": 50,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/yandabo-ahom-fall.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/partition-sylhet-referendum.json",
+      "converted": 50,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/non-cooperation-assam.json",
+      "converted": 45,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/peasant-uprisings.json",
+      "converted": 45,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/early-anti-british-revolts.json",
+      "converted": 45,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/political-associations.json",
+      "converted": 45,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/buranjis-historical-chronicles.json",
+      "converted": 41,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/chutiya-kingdom.json",
+      "converted": 40,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/kachari-kingdom.json",
+      "converted": 40,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/kamata-khen-kingdom.json",
+      "converted": 40,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/early-invasions.json",
+      "converted": 40,
+      "schema": "question_en",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/court-scientific-literature.json",
+      "converted": 40,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/jonaki-era-romantic-movement.json",
+      "converted": 38,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/early-modern-novels-poems-drama.json",
+      "converted": 37,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/sankardev-madhavdev-works.json",
+      "converted": 37,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/charyapada-folk-songs.json",
+      "converted": 37,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/early-poets-translations.json",
+      "converted": 37,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/charit-puthis-early-prose.json",
+      "converted": 37,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/literary-awards-jnanpith-sahitya-akademi.json",
+      "converted": 36,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/modern-literature-major-writers.json",
+      "converted": 36,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/foreign-trade-fdi-wto-imf-wb.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/sattras-charaideo-maidams-assam.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/transport-highways-railways-ports-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/demography-census-sexratio-literacy-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/tiger-reserves-ramsar-conservation-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/physical-himalayas-plains-plateau-islands.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mountain-peaks-passes-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/planning-history-niti-aayog.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/capital-money-markets-sebi.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/green-revolution-msp-pds-subsidies.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/energy-renewable-nonrenewable-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/rbi-monetary-policy.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/dams-river-projects-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/vegetation-forest-types-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/core-industries-make-in-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/india-allied-sectors-dairy-fisheries.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/theatre-ankiya-naat-bhaona-assam.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/crafts-bell-metal-brass-cane-bamboo-assam.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/inflation-price-indices-cpi-wpi.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/physical-infrastructure-nh-rail-ports-aviation.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/national-income-gdp-gnp-nnp.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/india-agriculture-cropping-patterns.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/crops-kharif-rabi-cash-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/poverty-inequality-unemployment-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/climate-monsoon-soils-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/salastambha-dynasty.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/music-folk-instruments-assam.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/historical-temple-architecture-assam.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/manuscript-paintings-mask-making-assam.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/industrial-policies-1991-reforms.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/classical-folk-dances-assam.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/handlooms-silk-textiles-assam.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/pala-dynasty.json",
+      "converted": 35,
+      "schema": "mixed",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/digital-infrastructure-fintech-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/central-flagship-welfare-schemes.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/demographics-hdi-census-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/minerals-iron-coal-petroleum-bauxite-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/national-parks-wls-biosphere-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/union-budget-gst-fiscal-policy.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/indigenous-tribal-traditions-customs-assam.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/commercial-banking-npa-inclusion.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/services-sector-it-telecom-tourism.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/major-festivals-fairs-assam.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/rivers-indus-ganga-brahmaputra-peninsular.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/msme-handloom-psus-india.json",
+      "converted": 35,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/classical-folk-dances-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/classical-languages-literature-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/handlooms-textiles-crafts-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/grasslands-agricultural-belts-world.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/modern-architecture-unesco-sites-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/straits-canals-seas-gulfs.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/fairs-festivals-intangible-heritage-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/music-traditions-classical-folk-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/minerals-oil-belts-sea-routes-world.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/international-border-lines-world.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/major-religions-philosophies-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/medieval-indo-islamic-structures.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/mountains-deserts-islands-earthquakes.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/earth-layers-plates-volcanoes.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/sculptures-pottery-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/paintings-murals-miniatures-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/oceans-currents-trenches-rivers-lakes.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/theatre-puppetry-martial-arts-india.json",
+      "converted": 30,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/ramsar-endemic-flora-fauna-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/industries-refineries-tea-gardens.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/demography-population-density-literacy-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/power-hydro-thermal-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/national-parks-wls-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/minerals-oil-gas-coal-limestone.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/climate-monsoon-floods-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/tributaries-majuli-wetlands.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/transport-nh-railways-waterways-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/tribes-distribution-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/tiger-biosphere-reserves-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/hills-karbi-dima-hasao.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/forest-types-area-assam.json",
+      "converted": 26,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/upcoming-missions-space-telescopes.json",
+      "converted": 25,
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/sun-structure-core-flares.json",
+      "converted": 25,
+      "skill": "n/a",
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/upsc-apsc.json",
+      "converted": 25,
+      "skill": "n/a",
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/timezones-standard-time-calculation.json",
+      "converted": 25,
+      "skill": "n/a",
+      "schema": "q",
+      "status": "complete"
+    },
+    {
+      "path": "data/content/gk/xuanzang-visit.json",
+      "converted": 25,
+      "skill": "n/a",
+      "schema": "q",
+      "status": "complete"
+    }
+  ],
+  "total_converted": 9900,
+  "remaining_questions": 0,
+  "remaining_files": 0,
+  "next_files": [],
+  "total_questions": 9900,
+  "status": "complete",
+  "completed_at": "2026-11-23",
+  "notes": "All GK questions have 4 bilingual options, aligned correct answer, bilingual explanation, balanced answer distribution and no 3-in-a-row runs."
+}

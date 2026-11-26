@@ -1,0 +1,31 @@
+dist/
+_preview/
+
+# Dev-only tooling (jsdom for the local test suites). Never shipped.
+node_modules/
+
+# Android build output and secrets — never publish these.
+# axomexam-release.jks is the app signing key; leaking it would let
+# anyone publish an update to in.axomexam.app under our identity.
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.jks
+*.keystore
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Internal planning and audit artifacts. GitHub Pages publishes every
+# committed file, so these must never be committed — several tool scripts
+# regenerate them at the repo root.
+keyword-map.csv
+page-actions.csv
+seo-audit.csv
+llms-full.txt
+GROWTH-ROADMAP.md
+SEO-AUDIT.md
+SEO-ACTION-PLAN.md
+internal/

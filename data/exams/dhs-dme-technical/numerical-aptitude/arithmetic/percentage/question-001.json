@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "numerical-009",
+    "q": {
+      "en": "A number is increased by 20% and then decreased by 20%. The net change is",
+      "as": "এটা সংখ্যা ২০% বঢ়াই তাৰ পিছত ২০% কমোৱা হ'ল। মুঠ পৰিৱৰ্তন কিমান"
+    },
+    "options": [
+      {
+        "en": "No change",
+        "as": "কোনো পৰিৱৰ্তন নাই"
+      },
+      {
+        "en": "4% decrease",
+        "as": "৪% হ্ৰাস"
+      },
+      {
+        "en": "4% increase",
+        "as": "৪% বৃদ্ধি"
+      },
+      {
+        "en": "2% decrease",
+        "as": "২% হ্ৰাস"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take 100. A 20% rise gives 120; a 20% fall on 120 gives 120 × 0.8 = 96. The net change is a 4% decrease.",
+      "as": "১০০ ধৰক। ২০% বৃদ্ধিত ১২০ হয়; ১২০ ৰ ওপৰত ২০% হ্ৰাসত ১২০ × ০.৮ = ৯৬। মুঠ পৰিৱৰ্তন ৪% হ্ৰাস।"
+    }
+  },
+  {
+    "id": "numerical-010",
+    "q": {
+      "en": "In an examination 35% failed in Mathematics and 25% failed in English, while 10% failed in both. The percentage that passed in both subjects is",
+      "as": "এটা পৰীক্ষাত ৩৫% গণিতত অনুত্তীৰ্ণ আৰু ২৫% ইংৰাজীত অনুত্তীৰ্ণ, আৰু ১০% দুয়োটাতে অনুত্তীৰ্ণ। দুয়ো বিষয়তে উত্তীৰ্ণৰ শতকৰা হাৰ কিমান"
+    },
+    "options": [
+      {
+        "en": "40%",
+        "as": "৪০%"
+      },
+      {
+        "en": "50%",
+        "as": "৫০%"
+      },
+      {
+        "en": "60%",
+        "as": "৬০%"
+      },
+      {
+        "en": "70%",
+        "as": "৭০%"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Failed in at least one subject = 35 + 25 - 10 = 50%. So those who passed in both = 100 - 50 = 50%.",
+      "as": "অন্তত এটা বিষয়ত অনুত্তীৰ্ণ = ৩৫ + ২৫ - ১০ = ৫০%। সেয়ে দুয়ো বিষয়তে উত্তীৰ্ণ = ১০০ - ৫০ = ৫০%।"
+    }
+  },
+  {
+    "id": "num-percentage-001",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 37.5% of 896.",
+      "as": "৩৭.৫% of ৮৯৬ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "672.0",
+        "as": "৬৭২.০"
+      },
+      {
+        "en": "336.0",
+        "as": "৩৩৬.০"
+      },
+      {
+        "en": "168.0",
+        "as": "১৬৮.০"
+      },
+      {
+        "en": "560.0",
+        "as": "৫৬০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "37.5% of 896 = 37.5/100 × 896 = 336.0.",
+      "as": "৩৭.৫% of ৮৯৬ = ৩৩৬.০।"
+    }
+  },
+  {
+    "id": "num-percentage-002",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 62.5% of 768.",
+      "as": "৬২.৫% of ৭৬৮ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "960.0",
+        "as": "৯৬০.০"
+      },
+      {
+        "en": "240.0",
+        "as": "২৪০.০"
+      },
+      {
+        "en": "480.0",
+        "as": "৪৮০.০"
+      },
+      {
+        "en": "288.0",
+        "as": "২৮৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "62.5% of 768 = 62.5/100 × 768 = 480.0.",
+      "as": "৬২.৫% of ৭৬৮ = ৪৮০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-003",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 87.5% of 512.",
+      "as": "৮৭.৫% of ৫১২ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "896.0",
+        "as": "৮৯৬.০"
+      },
+      {
+        "en": "224.0",
+        "as": "২২৪.০"
+      },
+      {
+        "en": "64.0",
+        "as": "৬৪.০"
+      },
+      {
+        "en": "448.0",
+        "as": "৪৪৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "87.5% of 512 = 87.5/100 × 512 = 448.0.",
+      "as": "৮৭.৫% of ৫১২ = ৪৪৮.০।"
+    }
+  },
+  {
+    "id": "num-percentage-004",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 12.5% of 1248.",
+      "as": "১২.৫% of ১২৪৮ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "312.0",
+        "as": "৩১২.০"
+      },
+      {
+        "en": "78.0",
+        "as": "৭৮.০"
+      },
+      {
+        "en": "156.0",
+        "as": "১৫৬.০"
+      },
+      {
+        "en": "1092.0",
+        "as": "১০৯২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "12.5% of 1248 = 12.5/100 × 1248 = 156.0.",
+      "as": "১২.৫% of ১২৪৮ = ১৫৬.০।"
+    }
+  },
+  {
+    "id": "num-percentage-005",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 16.66% of 300.",
+      "as": "১৬.৬৬% of ৩০০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "99.96",
+        "as": "৯৯.৯৬"
+      },
+      {
+        "en": "49.98",
+        "as": "৪৯.৯৮"
+      },
+      {
+        "en": "24.99",
+        "as": "২৪.৯৯"
+      },
+      {
+        "en": "250.02",
+        "as": "২৫০.০২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "16.66% of 300 = 16.66/100 × 300 = 49.98.",
+      "as": "১৬.৬৬% of ৩০০ = ৪৯.৯৮।"
+    }
+  },
+  {
+    "id": "num-percentage-006",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 33.33% of 660.",
+      "as": "৩৩.৩৩% of ৬৬০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "219.98",
+        "as": "২১৯.৯৮"
+      },
+      {
+        "en": "439.96",
+        "as": "৪৩৯.৯৬"
+      },
+      {
+        "en": "109.99",
+        "as": "১০৯.৯৯"
+      },
+      {
+        "en": "440.02",
+        "as": "৪৪০.০২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "33.33% of 660 = 33.33/100 × 660 = 219.98.",
+      "as": "৩৩.৩৩% of ৬৬০ = ২১৯.৯৮।"
+    }
+  },
+  {
+    "id": "num-percentage-007",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 66.66% of 450.",
+      "as": "৬৬.৬৬% of ৪৫০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "599.94",
+        "as": "৫৯৯.৯৪"
+      },
+      {
+        "en": "149.99",
+        "as": "১৪৯.৯৯"
+      },
+      {
+        "en": "150.03",
+        "as": "১৫০.০৩"
+      },
+      {
+        "en": "299.97",
+        "as": "২৯৯.৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "66.66% of 450 = 66.66/100 × 450 = 299.97.",
+      "as": "৬৬.৬৬% of ৪৫০ = ২৯৯.৯৭।"
+    }
+  },
+  {
+    "id": "num-percentage-008",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 14.28% of 560.",
+      "as": "১৪.২৮% of ৫৬০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "159.94",
+        "as": "১৫৯.৯৪"
+      },
+      {
+        "en": "79.97",
+        "as": "৭৯.৯৭"
+      },
+      {
+        "en": "39.98",
+        "as": "৩৯.৯৮"
+      },
+      {
+        "en": "480.03",
+        "as": "৪৮০.০৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "14.28% of 560 = 14.28/100 × 560 = 79.97.",
+      "as": "১৪.২৮% of ৫৬০ = ৭৯.৯৭।"
+    }
+  },
+  {
+    "id": "num-percentage-009",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 28.57% of 700.",
+      "as": "২৮.৫৭% of ৭০০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "399.98",
+        "as": "৩৯৯.৯৮"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "199.99",
+        "as": "১৯৯.৯৯"
+      },
+      {
+        "en": "500.01",
+        "as": "৫০০.০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "28.57% of 700 = 28.57/100 × 700 = 199.99.",
+      "as": "২৮.৫৭% of ৭০০ = ১৯৯.৯৯।"
+    }
+  },
+  {
+    "id": "num-percentage-010",
+    "leaf": "percentage",
+    "q": {
+      "en": "Find 42.85% of 350.",
+      "as": "৪২.৮৫% of ৩৫০ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "299.94",
+        "as": "২৯৯.৯৪"
+      },
+      {
+        "en": "74.98",
+        "as": "৭৪.৯৮"
+      },
+      {
+        "en": "200.03",
+        "as": "২০০.০৩"
+      },
+      {
+        "en": "149.97",
+        "as": "১৪৯.৯৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "42.85% of 350 = 42.85/100 × 350 = 149.97.",
+      "as": "৪২.৮৫% of ৩৫০ = ১৪৯.৯৭।"
+    }
+  },
+  {
+    "id": "num-percentage-011",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 45 is 180?",
+      "as": "৪৫ ৰ কিমান শতাংশ ১৮০?"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "-300.0",
+        "as": "-৩০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 180/45 × 100 = 400%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ১৮০/৪৫ × 100 = ৪০০%।"
+    }
+  },
+  {
+    "id": "num-percentage-012",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 72 is 240?",
+      "as": "৭২ ৰ কিমান শতাংশ ২৪০?"
+    },
+    "options": [
+      {
+        "en": "333.33",
+        "as": "৩৩৩.৩৩"
+      },
+      {
+        "en": "166.66",
+        "as": "১৬৬.৬৬"
+      },
+      {
+        "en": "666.66",
+        "as": "৬৬৬.৬৬"
+      },
+      {
+        "en": "-233.33",
+        "as": "-২৩৩.৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 240/72 × 100 = 333.33%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ২৪০/৭২ × 100 = ৩৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-percentage-013",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 96 is 320?",
+      "as": "৯৬ ৰ কিমান শতাংশ ৩২০?"
+    },
+    "options": [
+      {
+        "en": "166.66",
+        "as": "১৬৬.৬৬"
+      },
+      {
+        "en": "333.33",
+        "as": "৩৩৩.৩৩"
+      },
+      {
+        "en": "666.66",
+        "as": "৬৬৬.৬৬"
+      },
+      {
+        "en": "-233.33",
+        "as": "-২৩৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 320/96 × 100 = 333.33%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ৩২০/৯৬ × 100 = ৩৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-percentage-014",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 135 is 540?",
+      "as": "১৩৫ ৰ কিমান শতাংশ ৫৪০?"
+    },
+    "options": [
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "-300.0",
+        "as": "-৩০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 540/135 × 100 = 400%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ৫৪০/১৩৫ × 100 = ৪০০%।"
+    }
+  },
+  {
+    "id": "num-percentage-015",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 84 is 210?",
+      "as": "৮৪ ৰ কিমান শতাংশ ২১০?"
+    },
+    "options": [
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "-150.0",
+        "as": "-১৫০.০"
+      },
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 210/84 × 100 = 250%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ২১০/৮৪ × 100 = ২৫০%।"
+    }
+  },
+  {
+    "id": "num-percentage-016",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 128 is 512?",
+      "as": "১২৮ ৰ কিমান শতাংশ ৫১২?"
+    },
+    "options": [
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "-300.0",
+        "as": "-৩০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 512/128 × 100 = 400%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ৫১২/১২৮ × 100 = ৪০০%।"
+    }
+  },
+  {
+    "id": "num-percentage-017",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 156 is 390?",
+      "as": "১৫৬ ৰ কিমান শতাংশ ৩৯০?"
+    },
+    "options": [
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      },
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "-150.0",
+        "as": "-১৫০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 390/156 × 100 = 250%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ৩৯০/১৫৬ × 100 = ২৫০%।"
+    }
+  },
+  {
+    "id": "num-percentage-018",
+    "leaf": "percentage",
+    "q": {
+      "en": "What percent of 225 is 900?",
+      "as": "২২৫ ৰ কিমান শতাংশ ৯০০?"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "-300.0",
+        "as": "-৩০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write the comparison as a fraction and convert it: 900/225 × 100 = 400%.",
+      "as": "তুলনাটো ভগ্নাংশ হিচাপে লিখি শতাংশলৈ ৰূপান্তৰ কৰা: ৯০০/২২৫ × 100 = ৪০০%।"
+    }
+  },
+  {
+    "id": "num-percentage-019",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 240 to 300. Find the percentage increase.",
+      "as": "এটা সংখ্যা ২৪০ ৰ পৰা ৩০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Increase = 60; % increase = 60/240 × 100 = 25.0%.",
+      "as": "বৃদ্ধি = ৬০; শতাংশ বৃদ্ধি = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-020",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 450 to 540. Find the percentage increase.",
+      "as": "এটা সংখ্যা ৪৫০ ৰ পৰা ৫৪০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Increase = 90; % increase = 90/450 × 100 = 20.0%.",
+      "as": "বৃদ্ধি = ৯০; শতাংশ বৃদ্ধি = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-021",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 680 to 850. Find the percentage increase.",
+      "as": "এটা সংখ্যা ৬৮০ ৰ পৰা ৮৫০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Increase = 170; % increase = 170/680 × 100 = 25.0%.",
+      "as": "বৃদ্ধি = ১৭০; শতাংশ বৃদ্ধি = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-022",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 1250 to 1500. Find the percentage increase.",
+      "as": "এটা সংখ্যা ১২৫০ ৰ পৰা ১৫০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Increase = 250; % increase = 250/1250 × 100 = 20.0%.",
+      "as": "বৃদ্ধি = ২৫০; শতাংশ বৃদ্ধি = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-023",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 960 to 1200. Find the percentage increase.",
+      "as": "এটা সংখ্যা ৯৬০ ৰ পৰা ১২০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Increase = 240; % increase = 240/960 × 100 = 25.0%.",
+      "as": "বৃদ্ধি = ২৪০; শতাংশ বৃদ্ধি = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-024",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 1750 to 2100. Find the percentage increase.",
+      "as": "এটা সংখ্যা ১৭৫০ ৰ পৰা ২১০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Increase = 350; % increase = 350/1750 × 100 = 20.0%.",
+      "as": "বৃদ্ধি = ৩৫০; শতাংশ বৃদ্ধি = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-025",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 320 to 400. Find the percentage increase.",
+      "as": "এটা সংখ্যা ৩২০ ৰ পৰা ৪০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Increase = 80; % increase = 80/320 × 100 = 25.0%.",
+      "as": "বৃদ্ধি = ৮০; শতাংশ বৃদ্ধি = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-026",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number increases from 1440 to 1800. Find the percentage increase.",
+      "as": "এটা সংখ্যা ১৪৪০ ৰ পৰা ১৮০০ লৈ বৃদ্ধি হয়। শতাংশ বৃদ্ধি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Increase = 360; % increase = 360/1440 × 100 = 25.0%.",
+      "as": "বৃদ্ধি = ৩৬০; শতাংশ বৃদ্ধি = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-027",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 500 to 400. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ৫০০ ৰ পৰা ৪০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Decrease = 100; % decrease = 100/500 × 100 = 20.0%.",
+      "as": "হ্ৰাস = ১০০; শতাংশ হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-028",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 750 to 600. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ৭৫০ ৰ পৰা ৬০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Decrease = 150; % decrease = 150/750 × 100 = 20.0%.",
+      "as": "হ্ৰাস = ১৫০; শতাংশ হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-029",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 920 to 736. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ৯২০ ৰ পৰা ৭৩৬ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decrease = 184; % decrease = 184/920 × 100 = 20.0%.",
+      "as": "হ্ৰাস = ১৮৪; শতাংশ হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-030",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 1500 to 1200. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ১৫০০ ৰ পৰা ১২০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Decrease = 300; % decrease = 300/1500 × 100 = 20.0%.",
+      "as": "হ্ৰাস = ৩০০; শতাংশ হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-031",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 2400 to 1800. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ২৪০০ ৰ পৰা ১৮০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Decrease = 600; % decrease = 600/2400 × 100 = 25.0%.",
+      "as": "হ্ৰাস = ৬০০; শতাংশ হ্ৰাস = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-032",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 3600 to 2700. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ৩৬০০ ৰ পৰা ২৭০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decrease = 900; % decrease = 900/3600 × 100 = 25.0%.",
+      "as": "হ্ৰাস = ৯০০; শতাংশ হ্ৰাস = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-033",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 800 to 680. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ৮০০ ৰ পৰা ৬৮০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "85.0",
+        "as": "৮৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Decrease = 120; % decrease = 120/800 × 100 = 15.0%.",
+      "as": "হ্ৰাস = ১২০; শতাংশ হ্ৰাস = ১৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-034",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number decreases from 1250 to 1000. Find the percentage decrease.",
+      "as": "এটা সংখ্যা ১২৫০ ৰ পৰা ১০০০ লৈ হ্ৰাস হয়। শতাংশ হ্ৰাস নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Decrease = 250; % decrease = 250/1250 × 100 = 20.0%.",
+      "as": "হ্ৰাস = ২৫০; শতাংশ হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-035",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 20% and then decreased by 10%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ২০% বৃদ্ধি কৰি তাৰ পিছত ১০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "-8.0",
+        "as": "-৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net factor = (1 + 20/100)(1 - 10/100) = 1.08; net change = 8.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = ৮.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-036",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 25% and then decreased by 20%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ২৫% বৃদ্ধি কৰি তাৰ পিছত ২০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0.0",
+        "as": "০.০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net factor = (1 + 25/100)(1 - 20/100) = 1.0; net change = 0.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = ০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-037",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 30% and then decreased by 10%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ৩০% বৃদ্ধি কৰি তাৰ পিছত ১০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "-17.0",
+        "as": "-১৭.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net factor = (1 + 30/100)(1 - 10/100) = 1.17; net change = 17.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = ১৭.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-038",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 40% and then decreased by 25%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ৪০% বৃদ্ধি কৰি তাৰ পিছত ২৫% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "-5.0",
+        "as": "-৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net factor = (1 + 40/100)(1 - 25/100) = 1.05; net change = 5.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = ৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-039",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 15% and then decreased by 20%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ১৫% বৃদ্ধি কৰি তাৰ পিছত ২০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "-8.0",
+        "as": "-৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net factor = (1 + 15/100)(1 - 20/100) = 0.92; net change = -8.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = -৮.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-040",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 50% and then decreased by 20%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ৫০% বৃদ্ধি কৰি তাৰ পিছত ২০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "-20.0",
+        "as": "-২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net factor = (1 + 50/100)(1 - 20/100) = 1.2; net change = 20.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-041",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 12% and then decreased by 25%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ১২% বৃদ্ধি কৰি তাৰ পিছত ২৫% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-13",
+        "as": "-১৩"
+      },
+      {
+        "en": "-16.0",
+        "as": "-১৬.০"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net factor = (1 + 12/100)(1 - 25/100) = 0.84; net change = -16.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = -১৬.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-042",
+    "leaf": "percentage",
+    "q": {
+      "en": "A number is increased by 10% and then decreased by 10%. Find the net percentage change.",
+      "as": "এটা সংখ্যা ১০% বৃদ্ধি কৰি তাৰ পিছত ১০% হ্ৰাস কৰা হয়। মুঠ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-1.0",
+        "as": "-১.০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net factor = (1 + 10/100)(1 - 10/100) = 0.99; net change = -1.0%.",
+      "as": "মুঠ পৰিৱৰ্তন = -১.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-043",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 35% of a number is 210, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৩৫% = ২১০, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "245",
+        "as": "২৪৫"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number = 210 × 100 / 35 = 600.0.",
+      "as": "সংখ্যা = ২১০ × ১০০ / ৩৫ = ৬০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-044",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 45% of a number is 315, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৪৫% = ৩১৫, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "350.0",
+        "as": "৩৫০.০"
+      },
+      {
+        "en": "700.0",
+        "as": "৭০০.০"
+      },
+      {
+        "en": "1400.0",
+        "as": "১৪০০.০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number = 315 × 100 / 45 = 700.0.",
+      "as": "সংখ্যা = ৩১৫ × ১০০ / ৪৫ = ৭০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-045",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 28% of a number is 196, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ২৮% = ১৯৬, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "350.0",
+        "as": "৩৫০.০"
+      },
+      {
+        "en": "1400.0",
+        "as": "১৪০০.০"
+      },
+      {
+        "en": "700.0",
+        "as": "৭০০.০"
+      },
+      {
+        "en": "224",
+        "as": "২২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Number = 196 × 100 / 28 = 700.0.",
+      "as": "সংখ্যা = ১৯৬ × ১০০ / ২৮ = ৭০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-046",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 64% of a number is 512, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৬৪% = ৫১২, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "1600.0",
+        "as": "১৬০০.০"
+      },
+      {
+        "en": "576",
+        "as": "৫৭৬"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Number = 512 × 100 / 64 = 800.0.",
+      "as": "সংখ্যা = ৫১২ × ১০০ / ৬৪ = ৮০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-047",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 72% of a number is 648, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৭২% = ৬৪৮, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "450.0",
+        "as": "৪৫০.০"
+      },
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Number = 648 × 100 / 72 = 900.0.",
+      "as": "সংখ্যা = ৬৪৮ × ১০০ / ৭২ = ৯০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-048",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 15% of a number is 180, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ১৫% = ১৮০, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      },
+      {
+        "en": "195",
+        "as": "১৯৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Number = 180 × 100 / 15 = 1200.0.",
+      "as": "সংখ্যা = ১৮০ × ১০০ / ১৫ = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-049",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 85% of a number is 1020, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৮৫% = ১০২০, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      },
+      {
+        "en": "1105",
+        "as": "১১০৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Number = 1020 × 100 / 85 = 1200.0.",
+      "as": "সংখ্যা = ১০২০ × ১০০ / ৮৫ = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-050",
+    "leaf": "percentage",
+    "q": {
+      "en": "If 92% of a number is 1380, find the number.",
+      "as": "যদি এটা সংখ্যাৰ ৯২% = ১৩৮০, তেন্তে সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "750.0",
+        "as": "৭৫০.০"
+      },
+      {
+        "en": "3000.0",
+        "as": "৩০০০.০"
+      },
+      {
+        "en": "1500.0",
+        "as": "১৫০০.০"
+      },
+      {
+        "en": "1472",
+        "as": "১৪৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Number = 1380 × 100 / 92 = 1500.0.",
+      "as": "সংখ্যা = ১৩৮০ × ১০০ / ৯২ = ১৫০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-051",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 20% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ২০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "8.34",
+        "as": "৮.৩৪"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required % = 20/(100+20) × 100 = 16.67%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ১৬.৬৭%।"
+    }
+  },
+  {
+    "id": "num-percentage-052",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 25% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ২৫% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Required % = 25/(100+25) × 100 = 20.0%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-053",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 30% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৩০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "23.08",
+        "as": "২৩.০৮"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "11.54",
+        "as": "১১.৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Required % = 30/(100+30) × 100 = 23.08%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ২৩.০৮%।"
+    }
+  },
+  {
+    "id": "num-percentage-054",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 40% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৪০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "28.57",
+        "as": "২৮.৫৭"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Required % = 40/(100+40) × 100 = 28.57%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ২৮.৫৭%।"
+    }
+  },
+  {
+    "id": "num-percentage-055",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 50% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৫০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "16.66",
+        "as": "১৬.৬৬"
+      },
+      {
+        "en": "66.66",
+        "as": "৬৬.৬৬"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required % = 50/(100+50) × 100 = 33.33%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-percentage-056",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 60% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৬০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "18.75",
+        "as": "১৮.৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Required % = 60/(100+60) × 100 = 37.5%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ৩৭.৫%।"
+    }
+  },
+  {
+    "id": "num-percentage-057",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 75% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৭৫% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "42.86",
+        "as": "৪২.৮৬"
+      },
+      {
+        "en": "21.43",
+        "as": "২১.৪৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Required % = 75/(100+75) × 100 = 42.86%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ৪২.৮৬%।"
+    }
+  },
+  {
+    "id": "num-percentage-058",
+    "leaf": "percentage",
+    "q": {
+      "en": "A's income is 80% more than B's. By what percent is B's income less than A's?",
+      "as": "A ৰ আয় B ৰ আয়তকৈ ৮০% বেছি। B ৰ আয় A ৰ আয়তকৈ কিমান শতাংশ কম?"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22.22",
+        "as": "২২.২২"
+      },
+      {
+        "en": "44.44",
+        "as": "৪৪.৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required % = 80/(100+80) × 100 = 44.44%.",
+      "as": "প্ৰয়োজনীয় শতাংশ = ৪৪.৪৪%।"
+    }
+  },
+  {
+    "id": "num-percentage-059",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 20%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ২০% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "8.34",
+        "as": "৮.৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reduction = 20/(100+20) × 100 = 16.67%.",
+      "as": "হ্ৰাস = ১৬.৬৭%।"
+    }
+  },
+  {
+    "id": "num-percentage-060",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 25%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ২৫% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reduction = 25/(100+25) × 100 = 20.0%.",
+      "as": "হ্ৰাস = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-061",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 30%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ৩০% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "23.08",
+        "as": "২৩.০৮"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "11.54",
+        "as": "১১.৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reduction = 30/(100+30) × 100 = 23.08%.",
+      "as": "হ্ৰাস = ২৩.০৮%।"
+    }
+  },
+  {
+    "id": "num-percentage-062",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 40%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ৪০% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "28.57",
+        "as": "২৮.৫৭"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reduction = 40/(100+40) × 100 = 28.57%.",
+      "as": "হ্ৰাস = ২৮.৫৭%।"
+    }
+  },
+  {
+    "id": "num-percentage-063",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 50%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ৫০% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "16.66",
+        "as": "১৬.৬৬"
+      },
+      {
+        "en": "66.66",
+        "as": "৬৬.৬৬"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Reduction = 50/(100+50) × 100 = 33.33%.",
+      "as": "হ্ৰাস = ৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-percentage-064",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 60%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ৬০% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "18.75",
+        "as": "১৮.৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Reduction = 60/(100+60) × 100 = 37.5%.",
+      "as": "হ্ৰাস = ৩৭.৫%।"
+    }
+  },
+  {
+    "id": "num-percentage-065",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 12.5%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ১২.৫% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "11.11",
+        "as": "১১.১১"
+      },
+      {
+        "en": "87.5",
+        "as": "৮৭.৫"
+      },
+      {
+        "en": "5.55",
+        "as": "৫.৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Reduction = 12.5/(100+12.5) × 100 = 11.11%.",
+      "as": "হ্ৰাস = ১১.১১%।"
+    }
+  },
+  {
+    "id": "num-percentage-066",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of an item increases by 16.66%. By what percent must consumption be reduced so that expenditure remains the same?",
+      "as": "এটা বস্তুৰ মূল্য ১৬.৬৬% বৃদ্ধি হয়। খৰচ একেই থাকিবলৈ ব্যৱহাৰ কিমান শতাংশ হ্ৰাস কৰিব লাগিব?"
+    },
+    "options": [
+      {
+        "en": "14.28",
+        "as": "১৪.২৮"
+      },
+      {
+        "en": "16.66",
+        "as": "১৬.৬৬"
+      },
+      {
+        "en": "83.34",
+        "as": "৮৩.৩৪"
+      },
+      {
+        "en": "7.14",
+        "as": "৭.১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reduction = 16.66/(100+16.66) × 100 = 14.28%.",
+      "as": "হ্ৰাস = ১৪.২৮%।"
+    }
+  },
+  {
+    "id": "num-percentage-067",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 8000. It grows at 5% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ৮০০০। বছৰি ৫% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8400.0",
+        "as": "৮৪০০.০"
+      },
+      {
+        "en": "8800.0",
+        "as": "৮৮০০.০"
+      },
+      {
+        "en": "9261.0",
+        "as": "৯২৬১.০"
+      },
+      {
+        "en": "8820.0",
+        "as": "৮৮২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Population = 8000(1 + 5/100)² = 8820.0.",
+      "as": "জনসংখ্যা = ৮০০০(১ + ৫/১০০)² = ৮৮২০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-068",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 12000. It grows at 10% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ১২০০০। বছৰি ১০% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13200.0",
+        "as": "১৩২০০.০"
+      },
+      {
+        "en": "14520.0",
+        "as": "১৪৫২০.০"
+      },
+      {
+        "en": "14400.0",
+        "as": "১৪৪০০.০"
+      },
+      {
+        "en": "15972.0",
+        "as": "১৫৯৭২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Population = 12000(1 + 10/100)² = 14520.0.",
+      "as": "জনসংখ্যা = ১২০০০(১ + ১০/১০০)² = ১৪৫২০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-069",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 25000. It grows at 4% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ২৫০০০। বছৰি ৪% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26000.0",
+        "as": "২৬০০০.০"
+      },
+      {
+        "en": "27000.0",
+        "as": "২৭০০০.০"
+      },
+      {
+        "en": "27040.0",
+        "as": "২৭০৪০.০"
+      },
+      {
+        "en": "28121.6",
+        "as": "২৮১২১.৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Population = 25000(1 + 4/100)² = 27040.0.",
+      "as": "জনসংখ্যা = ২৫০০০(১ + ৪/১০০)² = ২৭০৪০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-070",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 64000. It grows at 12.5% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ৬৪০০০। বছৰি ১২.৫% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72000.0",
+        "as": "৭২০০০.০"
+      },
+      {
+        "en": "80000.0",
+        "as": "৮০০০০.০"
+      },
+      {
+        "en": "91125.0",
+        "as": "৯১১২৫.০"
+      },
+      {
+        "en": "81000.0",
+        "as": "৮১০০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Population = 64000(1 + 12.5/100)² = 81000.0.",
+      "as": "জনসংখ্যা = ৬৪০০০(১ + ১২.৫/১০০)² = ৮১০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-071",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 50000. It grows at 8% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ৫০০০০। বছৰি ৮% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "58320.0",
+        "as": "৫৮৩২০.০"
+      },
+      {
+        "en": "54000.0",
+        "as": "৫৪০০০.০"
+      },
+      {
+        "en": "58000.0",
+        "as": "৫৮০০০.০"
+      },
+      {
+        "en": "62985.6",
+        "as": "৬২৯৮৫.৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Population = 50000(1 + 8/100)² = 58320.0.",
+      "as": "জনসংখ্যা = ৫০০০০(১ + ৮/১০০)² = ৫৮৩২০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-072",
+    "leaf": "percentage",
+    "q": {
+      "en": "The population of a town is 96000. It grows at 6% per year. Find the population after 2 years.",
+      "as": "এখন চহৰৰ জনসংখ্যা ৯৬০০০। বছৰি ৬% হাৰে বৃদ্ধি পায়। ২ বছৰৰ পিছত জনসংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "107865.6",
+        "as": "১০৭৮৬৫.৬"
+      },
+      {
+        "en": "101760.0",
+        "as": "১০১৭৬০.০"
+      },
+      {
+        "en": "107520.0",
+        "as": "১০৭৫২০.০"
+      },
+      {
+        "en": "114337.54",
+        "as": "১১৪৩৩৭.৫৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Population = 96000(1 + 6/100)² = 107865.6.",
+      "as": "জনসংখ্যা = ৯৬০০০(১ + ৬/১০০)² = ১০৭৮৬৫.৬।"
+    }
+  },
+  {
+    "id": "num-percentage-073",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 10000 depreciates at 10% per year. Find its value after 2 years.",
+      "as": "১০০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ১০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9000.0",
+        "as": "৯০০০.০"
+      },
+      {
+        "en": "8100.0",
+        "as": "৮১০০.০"
+      },
+      {
+        "en": "8000.0",
+        "as": "৮০০০.০"
+      },
+      {
+        "en": "7290.0",
+        "as": "৭২৯০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Value = 10000(1 - 10/100)² = 8100.0.",
+      "as": "মূল্য = ১০০০০(১ - ১০/১০০)² = ৮১০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-074",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 25000 depreciates at 20% per year. Find its value after 2 years.",
+      "as": "২৫০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ২০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20000.0",
+        "as": "২০০০০.০"
+      },
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "16000.0",
+        "as": "১৬০০০.০"
+      },
+      {
+        "en": "12800.0",
+        "as": "১২৮০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value = 25000(1 - 20/100)² = 16000.0.",
+      "as": "মূল্য = ২৫০০০(১ - ২০/১০০)² = ১৬০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-075",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 80000 depreciates at 5% per year. Find its value after 2 years.",
+      "as": "৮০০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ৫% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "76000.0",
+        "as": "৭৬০০০.০"
+      },
+      {
+        "en": "72000.0",
+        "as": "৭২০০০.০"
+      },
+      {
+        "en": "68590.0",
+        "as": "৬৮৫৯০.০"
+      },
+      {
+        "en": "72200.0",
+        "as": "৭২২০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Value = 80000(1 - 5/100)² = 72200.0.",
+      "as": "মূল্য = ৮০০০০(১ - ৫/১০০)² = ৭২২০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-076",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 125000 depreciates at 12% per year. Find its value after 2 years.",
+      "as": "১২৫০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ১২% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110000.0",
+        "as": "১১০০০০.০"
+      },
+      {
+        "en": "95000.0",
+        "as": "৯৫০০০.০"
+      },
+      {
+        "en": "96800.0",
+        "as": "৯৬৮০০.০"
+      },
+      {
+        "en": "85184.0",
+        "as": "৮৫১৮৪.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value = 125000(1 - 12/100)² = 96800.0.",
+      "as": "মূল্য = ১২৫০০০(১ - ১২/১০০)² = ৯৬৮০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-077",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 64000 depreciates at 25% per year. Find its value after 2 years.",
+      "as": "৬৪০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ২৫% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "48000.0",
+        "as": "৪৮০০০.০"
+      },
+      {
+        "en": "36000.0",
+        "as": "৩৬০০০.০"
+      },
+      {
+        "en": "32000.0",
+        "as": "৩২০০০.০"
+      },
+      {
+        "en": "27000.0",
+        "as": "২৭০০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Value = 64000(1 - 25/100)² = 36000.0.",
+      "as": "মূল্য = ৬৪০০০(১ - ২৫/১০০)² = ৩৬০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-078",
+    "leaf": "percentage",
+    "q": {
+      "en": "A machine worth 50000 depreciates at 8% per year. Find its value after 2 years.",
+      "as": "৫০০০০ মূল্যৰ এটা যন্ত্ৰ বছৰি ৮% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত ইয়াৰ মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42320.0",
+        "as": "৪২৩২০.০"
+      },
+      {
+        "en": "46000.0",
+        "as": "৪৬০০০.০"
+      },
+      {
+        "en": "42000.0",
+        "as": "৪২০০০.০"
+      },
+      {
+        "en": "38934.4",
+        "as": "৩৮৯৩৪.৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Value = 50000(1 - 8/100)² = 42320.0.",
+      "as": "মূল্য = ৫০০০০(১ - ৮/১০০)² = ৪২৩২০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-079",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 60% of the valid votes and won by 5000 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৬০% বৈধ ভোট পাই ৫০০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12500.0",
+        "as": "১২৫০০.০"
+      },
+      {
+        "en": "50000.0",
+        "as": "৫০০০০.০"
+      },
+      {
+        "en": "8333.33",
+        "as": "৮৩৩৩.৩৩"
+      },
+      {
+        "en": "25000.0",
+        "as": "২৫০০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = 20% = 5000, so total = 5000 × 100 / 20 = 25000.0.",
+      "as": "ব্যৱধান = ২০% = ৫০০০, সেয়ে মুঠ = ২৫০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-080",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 65% of the valid votes and won by 9000 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৬৫% বৈধ ভোট পাই ৯০০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "30000.0",
+        "as": "৩০০০০.০"
+      },
+      {
+        "en": "60000.0",
+        "as": "৬০০০০.০"
+      },
+      {
+        "en": "13846.15",
+        "as": "১৩৮৪৬.১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = 30% = 9000, so total = 9000 × 100 / 30 = 30000.0.",
+      "as": "ব্যৱধান = ৩০% = ৯০০০, সেয়ে মুঠ = ৩০০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-081",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 55% of the valid votes and won by 3000 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৫৫% বৈধ ভোট পাই ৩০০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "60000.0",
+        "as": "৬০০০০.০"
+      },
+      {
+        "en": "30000.0",
+        "as": "৩০০০০.০"
+      },
+      {
+        "en": "5454.55",
+        "as": "৫৪৫৪.৫৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 10% = 3000, so total = 3000 × 100 / 10 = 30000.0.",
+      "as": "ব্যৱধান = ১০% = ৩০০০, সেয়ে মুঠ = ৩০০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-082",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 70% of the valid votes and won by 12000 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৭০% বৈধ ভোট পাই ১২০০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "60000.0",
+        "as": "৬০০০০.০"
+      },
+      {
+        "en": "17142.86",
+        "as": "১৭১৪২.৮৬"
+      },
+      {
+        "en": "30000.0",
+        "as": "৩০০০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = 40% = 12000, so total = 12000 × 100 / 40 = 30000.0.",
+      "as": "ব্যৱধান = ৪০% = ১২০০০, সেয়ে মুঠ = ৩০০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-083",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 58% of the valid votes and won by 4800 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৫৮% বৈধ ভোট পাই ৪৮০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30000.0",
+        "as": "৩০০০০.০"
+      },
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "60000.0",
+        "as": "৬০০০০.০"
+      },
+      {
+        "en": "8275.86",
+        "as": "৮২৭৫.৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = 16% = 4800, so total = 4800 × 100 / 16 = 30000.0.",
+      "as": "ব্যৱধান = ১৬% = ৪৮০০, সেয়ে মুঠ = ৩০০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-084",
+    "leaf": "percentage",
+    "q": {
+      "en": "In an election, the winner got 62% of the valid votes and won by 7200 votes. Find the total number of valid votes.",
+      "as": "এটা নিৰ্বাচনত বিজয়ীয়ে ৬২% বৈধ ভোট পাই ৭২০০ ভোটৰ ব্যৱধানত জয়ী হয়। মুঠ বৈধ ভোট নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30000.0",
+        "as": "৩০০০০.০"
+      },
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "60000.0",
+        "as": "৬০০০০.০"
+      },
+      {
+        "en": "11612.9",
+        "as": "১১৬১২.৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = 24% = 7200, so total = 7200 × 100 / 24 = 30000.0.",
+      "as": "ব্যৱধান = ২৪% = ৭২০০, সেয়ে মুঠ = ৩০০০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-085",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 30% marks fails by 50 marks, while 40% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ৩০% নম্বৰ পাই ৫০ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৪০% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      },
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gap = 10% = 50 marks, so total = 50 × 100 / 10 = 500.0.",
+      "as": "ব্যৱধান = ১০% = ৫০ নম্বৰ, সেয়ে মুঠ = ৫০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-086",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 25% marks fails by 40 marks, while 35% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ২৫% নম্বৰ পাই ৪০ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৩৫% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "114.29",
+        "as": "১১৪.২৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gap = 10% = 40 marks, so total = 40 × 100 / 10 = 400.0.",
+      "as": "ব্যৱধান = ১০% = ৪০ নম্বৰ, সেয়ে মুঠ = ৪০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-087",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 40% marks fails by 60 marks, while 50% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ৪০% নম্বৰ পাই ৬০ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৫০% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gap = 10% = 60 marks, so total = 60 × 100 / 10 = 600.0.",
+      "as": "ব্যৱধান = ১০% = ৬০ নম্বৰ, সেয়ে মুঠ = ৬০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-088",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 35% marks fails by 30 marks, while 45% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ৩৫% নম্বৰ পাই ৩০ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৪৫% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "66.67",
+        "as": "৬৬.৬৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Gap = 10% = 30 marks, so total = 30 × 100 / 10 = 300.0.",
+      "as": "ব্যৱধান = ১০% = ৩০ নম্বৰ, সেয়ে মুঠ = ৩০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-089",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 50% marks fails by 80 marks, while 60% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ৫০% নম্বৰ পাই ৮০ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৬০% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "1600.0",
+        "as": "১৬০০.০"
+      },
+      {
+        "en": "133.33",
+        "as": "১৩৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Gap = 10% = 80 marks, so total = 80 × 100 / 10 = 800.0.",
+      "as": "ব্যৱধান = ১০% = ৮০ নম্বৰ, সেয়ে মুঠ = ৮০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-090",
+    "leaf": "percentage",
+    "q": {
+      "en": "A student who scores 25% marks fails by 24 marks, while 33% is required to pass. Find the total marks.",
+      "as": "এজন ছাত্ৰই ২৫% নম্বৰ পাই ২৪ নম্বৰৰ ব্যৱধানত অনুত্তীৰ্ণ হয়, কিন্তু উত্তীৰ্ণৰ বাবে ৩৩% প্ৰয়োজন। মুঠ নম্বৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "72.73",
+        "as": "৭২.৭৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Gap = 8% = 24 marks, so total = 24 × 100 / 8 = 300.0.",
+      "as": "ব্যৱধান = ৮% = ২৪ নম্বৰ, সেয়ে মুঠ = ৩০০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-091",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of rice increases by 25% and a family reduces consumption by 20%. Find the percentage change in expenditure.",
+      "as": "চাউলৰ মূল্য ২৫% বৃদ্ধি হয় আৰু এটা পৰিয়ালে ব্যৱহাৰ ২০% হ্ৰাস কৰে। খৰচৰ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "-6.25",
+        "as": "-৬.২৫"
+      },
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Expenditure factor = (1+25/100)(1-20/100); change = 6.25%.",
+      "as": "খৰচৰ পৰিৱৰ্তন = ৬.২৫%।"
+    }
+  },
+  {
+    "id": "num-percentage-092",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of rice increases by 20% and a family reduces consumption by 16.66%. Find the percentage change in expenditure.",
+      "as": "চাউলৰ মূল্য ২০% বৃদ্ধি হয় আৰু এটা পৰিয়ালে ব্যৱহাৰ ১৬.৬৬% হ্ৰাস কৰে। খৰচৰ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.34",
+        "as": "৩.৩৪"
+      },
+      {
+        "en": "4.01",
+        "as": "৪.০১"
+      },
+      {
+        "en": "36.66",
+        "as": "৩৬.৬৬"
+      },
+      {
+        "en": "-4.01",
+        "as": "-৪.০১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Expenditure factor = (1+20/100)(1-16.66/100); change = 4.01%.",
+      "as": "খৰচৰ পৰিৱৰ্তন = ৪.০১%।"
+    }
+  },
+  {
+    "id": "num-percentage-093",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of rice increases by 50% and a family reduces consumption by 33.33%. Find the percentage change in expenditure.",
+      "as": "চাউলৰ মূল্য ৫০% বৃদ্ধি হয় আৰু এটা পৰিয়ালে ব্যৱহাৰ ৩৩.৩৩% হ্ৰাস কৰে। খৰচৰ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "83.33",
+        "as": "৮৩.৩৩"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "-25.0",
+        "as": "-২৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Expenditure factor = (1+50/100)(1-33.33/100); change = 25.0%.",
+      "as": "খৰচৰ পৰিৱৰ্তন = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-094",
+    "leaf": "percentage",
+    "q": {
+      "en": "The price of rice increases by 10% and a family reduces consumption by 9.09%. Find the percentage change in expenditure.",
+      "as": "চাউলৰ মূল্য ১০% বৃদ্ধি হয় আৰু এটা পৰিয়ালে ব্যৱহাৰ ৯.০৯% হ্ৰাস কৰে। খৰচৰ শতাংশ পৰিৱৰ্তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0.91",
+        "as": "০.৯১"
+      },
+      {
+        "en": "19.09",
+        "as": "১৯.০৯"
+      },
+      {
+        "en": "-1.0",
+        "as": "-১.০"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Expenditure factor = (1+10/100)(1-9.09/100); change = 1.0%.",
+      "as": "খৰচৰ পৰিৱৰ্তন = ১.০%।"
+    }
+  },
+  {
+    "id": "num-percentage-095",
+    "leaf": "percentage",
+    "q": {
+      "en": "40 litres of a mixture contains 20% milk. 10 litres of another mixture containing 50% milk is added. Find the percentage of milk in the final mixture.",
+      "as": "৪০ লিটাৰ মিশ্ৰণত ২০% গাখীৰ আছে। ৫০% গাখীৰ থকা ১০ লিটাৰ মিশ্ৰণ যোগ কৰা হয়। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "31.0",
+        "as": "৩১.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk = 8.0 + 10×50/100 = 13.0; total = 50; % = 26.0.",
+      "as": "গাখীৰ = ১৩.০; মুঠ = ৫০; শতাংশ = ২৬.০।"
+    }
+  },
+  {
+    "id": "num-percentage-096",
+    "leaf": "percentage",
+    "q": {
+      "en": "60 litres of a mixture contains 30% milk. 20 litres of another mixture containing 50% milk is added. Find the percentage of milk in the final mixture.",
+      "as": "৬০ লিটাৰ মিশ্ৰণত ৩০% গাখীৰ আছে। ৫০% গাখীৰ থকা ২০ লিটাৰ মিশ্ৰণ যোগ কৰা হয়। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Milk = 18.0 + 20×50/100 = 28.0; total = 80; % = 35.0.",
+      "as": "গাখীৰ = ২৮.০; মুঠ = ৮০; শতাংশ = ৩৫.০।"
+    }
+  },
+  {
+    "id": "num-percentage-097",
+    "leaf": "percentage",
+    "q": {
+      "en": "80 litres of a mixture contains 25% milk. 20 litres of another mixture containing 50% milk is added. Find the percentage of milk in the final mixture.",
+      "as": "৮০ লিটাৰ মিশ্ৰণত ২৫% গাখীৰ আছে। ৫০% গাখীৰ থকা ২০ লিটাৰ মিশ্ৰণ যোগ কৰা হয়। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Milk = 20.0 + 20×50/100 = 30.0; total = 100; % = 30.0.",
+      "as": "গাখীৰ = ৩০.০; মুঠ = ১০০; শতাংশ = ৩০.০।"
+    }
+  },
+  {
+    "id": "num-percentage-098",
+    "leaf": "percentage",
+    "q": {
+      "en": "100 litres of a mixture contains 40% milk. 20 litres of another mixture containing 70% milk is added. Find the percentage of milk in the final mixture.",
+      "as": "১০০ লিটাৰ মিশ্ৰণত ৪০% গাখীৰ আছে। ৭০% গাখীৰ থকা ২০ লিটাৰ মিশ্ৰণ যোগ কৰা হয়। চূড়ান্ত মিশ্ৰণত গাখীৰৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "55.0",
+        "as": "৫৫.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Milk = 40.0 + 20×70/100 = 54.0; total = 120; % = 45.0.",
+      "as": "গাখীৰ = ৫৪.০; মুঠ = ১২০; শতাংশ = ৪৫.০।"
+    }
+  }
+]

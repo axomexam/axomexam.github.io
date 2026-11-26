@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "statistics-001",
+    "q": {
+      "en": "The median of 4, 8, 6, 2, 10 is:",
+      "as": "৪, ৮, ৬, ২, ১০ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranged: 2, 4, 6, 8, 10; the middle value is 6.",
+      "as": "সজাই: ২, ৪, ৬, ৮, ১০; মাজৰ মান ৬।"
+    }
+  },
+  {
+    "id": "statistics-002",
+    "q": {
+      "en": "The median of 12, 7, 9, 15, 5 is:",
+      "as": "১২, ৭, ৯, ১৫, ৫ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arranged: 5, 7, 9, 12, 15; the middle value is 9.",
+      "as": "সজাই: ৫, ৭, ৯, ১২, ১৫; মাজৰ মান ৯।"
+    }
+  },
+  {
+    "id": "statistics-003",
+    "q": {
+      "en": "The median of 3, 11, 7, 5 is:",
+      "as": "৩, ১১, ৭, ৫ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranged: 3, 5, 7, 11; the median is (5 + 7)/2 = 6.",
+      "as": "সজাই: ৩, ৫, ৭, ১১; মধ্যমা (৫ + ৭)/২ = ৬।"
+    }
+  },
+  {
+    "id": "statistics-004",
+    "q": {
+      "en": "The median of 10, 20, 30, 40 is:",
+      "as": "১০, ২০, ৩০, ৪০ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arranged: 10, 20, 30, 40; the median is (20 + 30)/2 = 25.",
+      "as": "সজাই: ১০, ২০, ৩০, ৪০; মধ্যমা (২০ + ৩০)/২ = ২৫।"
+    }
+  },
+  {
+    "id": "statistics-005",
+    "q": {
+      "en": "The median of 2, 4, 6, 8, 10, 12 is:",
+      "as": "২, ৪, ৬, ৮, ১০, ১২ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The median is (6 + 8)/2 = 7.",
+      "as": "মধ্যমা (৬ + ৮)/২ = ৭।"
+    }
+  },
+  {
+    "id": "statistics-006",
+    "q": {
+      "en": "The mode of 2, 3, 3, 5, 7 is:",
+      "as": "২, ৩, ৩, ৫, ৭ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3 appears most often, so the mode is 3.",
+      "as": "৩ আটাইতকৈ বেছি বাৰ আছে, গতিকে বহুলক ৩।"
+    }
+  },
+  {
+    "id": "statistics-007",
+    "q": {
+      "en": "The mode of 4, 4, 5, 6, 6, 6, 7 is:",
+      "as": "৪, ৪, ৫, ৬, ৬, ৬, ৭ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "6 appears three times, more than any other value.",
+      "as": "৬ তিনি বাৰ আছে, আন যিকোনো মানতকৈ বেছি।"
+    }
+  },
+  {
+    "id": "statistics-008",
+    "q": {
+      "en": "The mode of 1, 2, 2, 3, 4, 4, 4 is:",
+      "as": "১, ২, ২, ৩, ৪, ৪, ৪ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 appears three times, so the mode is 4.",
+      "as": "৪ তিনি বাৰ আছে, গতিকে বহুলক ৪।"
+    }
+  },
+  {
+    "id": "statistics-009",
+    "q": {
+      "en": "The mode of 7, 7, 7, 8, 8, 9 is:",
+      "as": "৭, ৭, ৭, ৮, ৮, ৯ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "7 appears three times, the highest frequency.",
+      "as": "৭ তিনি বাৰ আছে, সৰ্বোচ্চ বাৰম্বাৰতা।"
+    }
+  },
+  {
+    "id": "statistics-010",
+    "q": {
+      "en": "The range of 5, 9, 12, 3, 15 is:",
+      "as": "৫, ৯, ১২, ৩, ১৫ ৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Range = largest − smallest = 15 − 3 = 12.",
+      "as": "পৰিসৰ = আটাইতকৈ ডাঙৰ − আটাইতকৈ সৰু = ১৫ − ৩ = ১২।"
+    }
+  },
+  {
+    "id": "statistics-011",
+    "q": {
+      "en": "The range of 20, 45, 30, 60, 25 is:",
+      "as": "২০, ৪৫, ৩০, ৬০, ২৫ ৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "60 − 20 = 40.",
+      "as": "৬০ − ২০ = ৪০।"
+    }
+  },
+  {
+    "id": "statistics-012",
+    "q": {
+      "en": "The mean of 2, 4, 6, 8, 10 is:",
+      "as": "২, ৪, ৬, ৮, ১০ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 30, mean = 30 ÷ 5 = 6.",
+      "as": "যোগফল = ৩০, মধ্যমান = ৩০ ÷ ৫ = ৬।"
+    }
+  },
+  {
+    "id": "statistics-013",
+    "q": {
+      "en": "The mean of 5, 10, 15, 20 is:",
+      "as": "৫, ১০, ১৫, ২০ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 50, mean = 50 ÷ 4 = 12.5.",
+      "as": "যোগফল = ৫০, মধ্যমান = ৫০ ÷ ৪ = ১২.৫।"
+    }
+  },
+  {
+    "id": "statistics-014",
+    "q": {
+      "en": "The mean of the first 10 natural numbers is:",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean = (n + 1)/2 = 11/2 = 5.5.",
+      "as": "মধ্যমান = (n + ১)/২ = ১১/২ = ৫.৫।"
+    }
+  },
+  {
+    "id": "statistics-015",
+    "q": {
+      "en": "The mean of the first 20 natural numbers is:",
+      "as": "প্ৰথম ২০ টা স্বাভাৱিক সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean = (20 + 1)/2 = 10.5.",
+      "as": "মধ্যমান = (২০ + ১)/২ = ১০.৫।"
+    }
+  },
+  {
+    "id": "statistics-016",
+    "q": {
+      "en": "The mean of the first 10 even natural numbers is:",
+      "as": "প্ৰথম ১০ টা যুগ্ম স্বাভাৱিক সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The numbers are 2, 4, ..., 20; the mean is (2 + 20)/2 = 11.",
+      "as": "সংখ্যাবোৰ ২, ৪, ..., ২০; মধ্যমান (২ + ২০)/২ = ১১।"
+    }
+  },
+  {
+    "id": "statistics-017",
+    "q": {
+      "en": "The mean of the first 10 odd natural numbers is:",
+      "as": "প্ৰথম ১০ টা অযুগ্ম স্বাভাৱিক সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The numbers are 1, 3, ..., 19; the mean is (1 + 19)/2 = 10.",
+      "as": "সংখ্যাবোৰ ১, ৩, ..., ১৯; মধ্যমান (১ + ১৯)/২ = ১০।"
+    }
+  },
+  {
+    "id": "statistics-018",
+    "q": {
+      "en": "The mean of the first 5 multiples of 4 is:",
+      "as": "৪ ৰ প্ৰথম ৫ টা গুণিতকৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The numbers are 4, 8, 12, 16, 20; the middle is 12.",
+      "as": "সংখ্যাবোৰ ৪, ৮, ১২, ১৬, ২০; মাজৰটো ১২।"
+    }
+  },
+  {
+    "id": "statistics-019",
+    "q": {
+      "en": "The mean of the first 4 multiples of 3 is:",
+      "as": "৩ ৰ প্ৰথম ৪ টা গুণিতকৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The numbers are 3, 6, 9, 12; the mean is (3 + 12)/2 = 7.5.",
+      "as": "সংখ্যাবোৰ ৩, ৬, ৯, ১২; মধ্যমান (৩ + ১২)/২ = ৭.৫।"
+    }
+  },
+  {
+    "id": "statistics-020",
+    "q": {
+      "en": "If the mean of 5 numbers is 12, their sum is:",
+      "as": "যদি ৫ টা সংখ্যাৰ মধ্যমান ১২ হয়, সিহঁতৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = mean × count = 12 × 5 = 60.",
+      "as": "যোগফল = মধ্যমান × সংখ্যা = ১২ × ৫ = ৬০।"
+    }
+  },
+  {
+    "id": "statistics-021",
+    "q": {
+      "en": "If the mean of 8 numbers is 15, their sum is:",
+      "as": "যদি ৮ টা সংখ্যাৰ মধ্যমান ১৫ হয়, সিহঁতৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "15 × 8 = 120.",
+      "as": "১৫ × ৮ = ১২০।"
+    }
+  },
+  {
+    "id": "statistics-022",
+    "q": {
+      "en": "If the mean of 6 numbers is 9, their sum is:",
+      "as": "যদি ৬ টা সংখ্যাৰ মধ্যমান ৯ হয়, সিহঁতৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "9 × 6 = 54.",
+      "as": "৯ × ৬ = ৫৪।"
+    }
+  },
+  {
+    "id": "statistics-023",
+    "q": {
+      "en": "The mean of three numbers is 20. If two of them are 15 and 25, the third is:",
+      "as": "তিনিটা সংখ্যাৰ মধ্যমান ২০। দুটা ১৫ আৰু ২৫ হ'লে, তৃতীয়টো:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = 60, so the third = 60 − 15 − 25 = 20.",
+      "as": "যোগফল = ৬০, গতিকে তৃতীয়টো = ৬০ − ১৫ − ২৫ = ২০।"
+    }
+  },
+  {
+    "id": "statistics-024",
+    "q": {
+      "en": "The mean of four numbers is 15. If three of them are 10, 20 and 15, the fourth is:",
+      "as": "চাৰিটা সংখ্যাৰ মধ্যমান ১৫। তিনিটা ১০, ২০ আৰু ১৫ হ'লে, চতুৰ্থটো:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 60, so the fourth = 60 − 45 = 15.",
+      "as": "যোগফল = ৬০, গতিকে চতুৰ্থটো = ৬০ − ৪৫ = ১৫।"
+    }
+  },
+  {
+    "id": "statistics-025",
+    "q": {
+      "en": "The mean of 5 numbers is 18. If one number is 30, the mean of the remaining 4 is:",
+      "as": "৫ টা সংখ্যাৰ মধ্যমান ১৮। এটা সংখ্যা ৩০ হ'লে, বাকী ৪ টাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 90; the remaining sum = 60, so the mean is 60 ÷ 4 = 15.",
+      "as": "যোগফল = ৯০; বাকী যোগফল = ৬০, গতিকে মধ্যমান ৬০ ÷ ৪ = ১৫।"
+    }
+  },
+  {
+    "id": "statistics-026",
+    "q": {
+      "en": "The mean of 10 numbers is 25. If one number is 40, the mean of the remaining 9 is:",
+      "as": "১০ টা সংখ্যাৰ মধ্যমান ২৫। এটা সংখ্যা ৪০ হ'লে, বাকী ৯ টাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "70/3",
+        "as": "৭০/৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 250; the remaining sum = 210, so the mean is 210 ÷ 9 = 70/3.",
+      "as": "যোগফল = ২৫০; বাকী যোগফল = ২১০, গতিকে মধ্যমান ২১০ ÷ ৯ = ৭০/৩।"
+    }
+  },
+  {
+    "id": "statistics-027",
+    "q": {
+      "en": "The median of the first 5 natural numbers is:",
+      "as": "প্ৰথম ৫ টা স্বাভাৱিক সংখ্যাৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The numbers are 1, 2, 3, 4, 5; the median is 3.",
+      "as": "সংখ্যাবোৰ ১, ২, ৩, ৪, ৫; মধ্যমা ৩।"
+    }
+  },
+  {
+    "id": "statistics-028",
+    "q": {
+      "en": "The median of the first 6 natural numbers is:",
+      "as": "প্ৰথম ৬ টা স্বাভাৱিক সংখ্যাৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "3.5",
+        "as": "৩.৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The numbers are 1, 2, 3, 4, 5, 6; the median is (3 + 4)/2 = 3.5.",
+      "as": "সংখ্যাবোৰ ১, ২, ৩, ৪, ৫, ৬; মধ্যমা (৩ + ৪)/২ = ৩.৫।"
+    }
+  },
+  {
+    "id": "statistics-029",
+    "q": {
+      "en": "The median of 15, 18, 12, 20, 25 is:",
+      "as": "১৫, ১৮, ১২, ২০, ২৫ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Arranged: 12, 15, 18, 20, 25; the middle value is 18.",
+      "as": "সজাই: ১২, ১৫, ১৮, ২০, ২৫; মাজৰ মান ১৮।"
+    }
+  },
+  {
+    "id": "statistics-030",
+    "q": {
+      "en": "The median of 30, 10, 50, 20, 40, 60 is:",
+      "as": "৩০, ১০, ৫০, ২০, ৪০, ৬০ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arranged: 10, 20, 30, 40, 50, 60; the median is (30 + 40)/2 = 35.",
+      "as": "সজাই: ১০, ২০, ৩০, ৪০, ৫০, ৬০; মধ্যমা (৩০ + ৪০)/২ = ৩৫।"
+    }
+  },
+  {
+    "id": "statistics-031",
+    "q": {
+      "en": "The mean of 10, 20, 30, 40, 50 is:",
+      "as": "১০, ২০, ৩০, ৪০, ৫০ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 150, mean = 30.",
+      "as": "যোগফল = ১৫০, মধ্যমান = ৩০।"
+    }
+  },
+  {
+    "id": "statistics-032",
+    "q": {
+      "en": "If the mean of 5 numbers is 20 and one number is removed, the mean of the remaining 4 is 18. The removed number is:",
+      "as": "৫ টা সংখ্যাৰ মধ্যমান ২০ আৰু এটা সংখ্যা আঁতৰালে বাকী ৪ টাৰ মধ্যমান ১৮। আঁতৰোৱা সংখ্যাটো:"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = 100 and the remaining sum = 72, so the removed number is 28.",
+      "as": "যোগফল = ১০০ আৰু বাকী যোগফল = ৭২, গতিকে আঁতৰোৱা সংখ্যাটো ২৮।"
+    }
+  },
+  {
+    "id": "statistics-033",
+    "q": {
+      "en": "If the mean of 8 numbers is 15 and a number is added so that the new mean is 16, the added number is:",
+      "as": "৮ টা সংখ্যাৰ মধ্যমান ১৫ আৰু এটা সংখ্যা যোগ কৰিলে নতুন মধ্যমান ১৬ হয়, যোগ কৰা সংখ্যাটো:"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New sum = 16 × 9 = 144, old sum = 120, so the added number is 24.",
+      "as": "নতুন যোগফল = ১৬ × ৯ = ১৪৪, পুৰণি যোগফল = ১২০, গতিকে যোগ কৰা সংখ্যাটো ২৪।"
+    }
+  },
+  {
+    "id": "statistics-034",
+    "q": {
+      "en": "If each of 10 numbers is increased by 5, the mean:",
+      "as": "১০ টা সংখ্যাৰ প্ৰতিটো ৫ ৰে বঢ়ালে, মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "increases by 50",
+        "as": "increases by ৫০"
+      },
+      {
+        "en": "remains the same",
+        "as": "remains the same"
+      },
+      {
+        "en": "decreases by 5",
+        "as": "decreases by ৫"
+      },
+      {
+        "en": "increases by 5",
+        "as": "increases by ৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Adding a constant to every value adds the same constant to the mean.",
+      "as": "প্ৰতিটো মানত এটা ধ্ৰুৱক যোগ কৰিলে মধ্যমানতো সেই ধ্ৰুৱকেই যোগ হয়।"
+    }
+  },
+  {
+    "id": "statistics-035",
+    "q": {
+      "en": "If each of 12 numbers is multiplied by 3, the mean:",
+      "as": "১২ টা সংখ্যাৰ প্ৰতিটো ৩ ৰে পূৰণ কৰিলে, মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "is increased by 3",
+        "as": "is increased by ৩"
+      },
+      {
+        "en": "remains the same",
+        "as": "remains the same"
+      },
+      {
+        "en": "is divided by 3",
+        "as": "is divided by ৩"
+      },
+      {
+        "en": "is multiplied by 3",
+        "as": "is multiplied by ৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiplying every value by a constant multiplies the mean by the same constant.",
+      "as": "প্ৰতিটো মান এটা ধ্ৰুৱকৰে পূৰণ কৰিলে মধ্যমানতো সেই ধ্ৰুৱকেই পূৰণ হয়।"
+    }
+  },
+  {
+    "id": "statistics-036",
+    "q": {
+      "en": "If each of 10 numbers is decreased by 4, the mean:",
+      "as": "১০ টা সংখ্যাৰ প্ৰতিটো ৪ ৰে কমালে, মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "decreases by 40",
+        "as": "decreases by ৪০"
+      },
+      {
+        "en": "remains the same",
+        "as": "remains the same"
+      },
+      {
+        "en": "decreases by 4",
+        "as": "decreases by ৪"
+      },
+      {
+        "en": "increases by 4",
+        "as": "increases by ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Subtracting a constant from every value subtracts it from the mean.",
+      "as": "প্ৰতিটো মানৰ পৰা এটা ধ্ৰুৱক বিয়োগ কৰিলে মধ্যমানৰ পৰাও বিয়োগ হয়।"
+    }
+  },
+  {
+    "id": "statistics-037",
+    "q": {
+      "en": "If the mean of 7 numbers is 12, the mean when each number is doubled is:",
+      "as": "৭ টা সংখ্যাৰ মধ্যমান ১২; প্ৰতিটো সংখ্যা দুগুণ কৰিলে মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Doubling every value doubles the mean.",
+      "as": "প্ৰতিটো মান দুগুণ কৰিলে মধ্যমানো দুগুণ হয়।"
+    }
+  },
+  {
+    "id": "statistics-038",
+    "q": {
+      "en": "The mean of 4 numbers is 15. If 10 is added to each, the new mean is:",
+      "as": "৪ টা সংখ্যাৰ মধ্যমান ১৫। প্ৰতিটোত ১০ যোগ কৰিলে নতুন মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "15 + 10 = 25.",
+      "as": "১৫ + ১০ = ২৫।"
+    }
+  },
+  {
+    "id": "statistics-039",
+    "q": {
+      "en": "The mode of 5, 5, 6, 6, 6, 7, 8, 8 is:",
+      "as": "৫, ৫, ৬, ৬, ৬, ৭, ৮, ৮ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "6 appears three times, more than 5 and 8 which appear twice.",
+      "as": "৬ তিনি বাৰ আছে, ৫ আৰু ৮ দুবাৰকৈ আছে।"
+    }
+  },
+  {
+    "id": "statistics-040",
+    "q": {
+      "en": "The mode of 11, 12, 12, 13, 13, 13, 14 is:",
+      "as": "১১, ১২, ১২, ১৩, ১৩, ১৩, ১৪ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "13 appears three times, the highest frequency.",
+      "as": "১৩ তিনি বাৰ আছে, সৰ্বোচ্চ বাৰম্বাৰতা।"
+    }
+  },
+  {
+    "id": "statistics-041",
+    "q": {
+      "en": "The range of 45, 12, 78, 34, 56 is:",
+      "as": "৪৫, ১২, ৭৮, ৩৪, ৫৬ ৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "78 − 12 = 66.",
+      "as": "৭৮ − ১২ = ৬৬।"
+    }
+  },
+  {
+    "id": "statistics-042",
+    "q": {
+      "en": "The range of 100, 250, 175, 300, 225 is:",
+      "as": "১০০, ২৫০, ১৭৫, ৩০০, ২২৫ ৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "300 − 100 = 200.",
+      "as": "৩০০ − ১০০ = ২০০।"
+    }
+  },
+  {
+    "id": "statistics-043",
+    "q": {
+      "en": "The mean of the numbers 8, 12, 16, 20 and 24 is:",
+      "as": "৮, ১২, ১৬, ২০ আৰু ২৪ সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 80, mean = 80 ÷ 5 = 16.",
+      "as": "যোগফল = ৮০, মধ্যমান = ৮০ ÷ ৫ = ১৬।"
+    }
+  },
+  {
+    "id": "statistics-044",
+    "q": {
+      "en": "If the mean of 9 numbers is 40 and one number is 50, the mean of the remaining 8 is:",
+      "as": "৯ টা সংখ্যাৰ মধ্যমান ৪০ আৰু এটা সংখ্যা ৫০, বাকী ৮ টাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "310/8",
+        "as": "৩১০/৮"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 360; the remaining sum = 310, so the mean is 310 ÷ 8 = 38.75.",
+      "as": "যোগফল = ৩৬০; বাকী যোগফল = ৩১০, গতিকে মধ্যমান ৩১০ ÷ ৮ = ৩৮.৭৫।"
+    }
+  },
+  {
+    "id": "statistics-045",
+    "q": {
+      "en": "The mean of 5 consecutive numbers is 20. The largest is:",
+      "as": "৫ টা ক্ৰমিক সংখ্যাৰ মধ্যমান ২০। আটাইতকৈ ডাঙৰটো:"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle number is 20, so the largest is 20 + 2 = 22.",
+      "as": "মাজৰ সংখ্যাটো ২০, গতিকে আটাইতকৈ ডাঙৰটো ২০ + ২ = ২২।"
+    }
+  },
+  {
+    "id": "statistics-046",
+    "q": {
+      "en": "The mean of 3 consecutive numbers is 15. The smallest is:",
+      "as": "৩ টা ক্ৰমিক সংখ্যাৰ মধ্যমান ১৫। আটাইতকৈ সৰুটো:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The middle number is 15, so the smallest is 14.",
+      "as": "মাজৰ সংখ্যাটো ১৫, গতিকে আটাইতকৈ সৰুটো ১৪।"
+    }
+  },
+  {
+    "id": "statistics-047",
+    "q": {
+      "en": "The mean of 5 consecutive odd numbers is 27. The smallest is:",
+      "as": "৫ টা ক্ৰমিক অযুগ্ম সংখ্যাৰ মধ্যমান ২৭। আটাইতকৈ সৰুটো:"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The middle is 27, so the numbers are 23, 25, 27, 29, 31; the smallest is 23.",
+      "as": "মাজৰটো ২৭, গতিকে সংখ্যাবোৰ ২৩, ২৫, ২৭, ২৯, ৩১; আটাইতকৈ সৰুটো ২৩।"
+    }
+  },
+  {
+    "id": "statistics-048",
+    "q": {
+      "en": "The mean of 5 consecutive even numbers is 30. The largest is:",
+      "as": "৫ টা ক্ৰমিক যুগ্ম সংখ্যাৰ মধ্যমান ৩০। আটাইতকৈ ডাঙৰটো:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle is 30, so the largest is 30 + 4 = 34.",
+      "as": "মাজৰটো ৩০, গতিকে আটাইতকৈ ডাঙৰটো ৩০ + ৪ = ৩৪।"
+    }
+  },
+  {
+    "id": "statistics-049",
+    "q": {
+      "en": "The median of the numbers 1, 2, 3, 4, 5, 6, 7 is:",
+      "as": "১, ২, ৩, ৪, ৫, ৬, ৭ সংখ্যাৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3.5",
+        "as": "৩.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The middle value of seven ordered numbers is the fourth, which is 4.",
+      "as": "সাতটা ক্ৰমিক সংখ্যাৰ মাজৰ মান চতুৰ্থটো, যি ৪।"
+    }
+  },
+  {
+    "id": "statistics-050",
+    "q": {
+      "en": "If the mean of 3, 5, x is 6, the value of x is:",
+      "as": "যদি ৩, ৫, x ৰ মধ্যমান ৬ হয়, x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3 + 5 + x = 18, so x = 10.",
+      "as": "৩ + ৫ + x = ১৮, গতিকে x = ১০।"
+    }
+  },
+  {
+    "id": "statistics-051",
+    "q": {
+      "en": "If the mean of 4, 7, x and 9 is 8, the value of x is:",
+      "as": "যদি ৪, ৭, x আৰু ৯ ৰ মধ্যমান ৮ হয়, x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "4 + 7 + x + 9 = 32, so x = 12.",
+      "as": "৪ + ৭ + x + ৯ = ৩২, গতিকে x = ১২।"
+    }
+  },
+  {
+    "id": "statistics-052",
+    "q": {
+      "en": "If the mean of 10, 12, 14, x is 13, the value of x is:",
+      "as": "যদি ১০, ১২, ১৪, x ৰ মধ্যমান ১৩ হয়, x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = 52, so x = 52 − 36 = 16.",
+      "as": "যোগফল = ৫২, গতিকে x = ৫২ − ৩৬ = ১৬।"
+    }
+  },
+  {
+    "id": "statistics-053",
+    "q": {
+      "en": "The mean of the numbers 1 to 9 is:",
+      "as": "১ ৰ পৰা ৯ লৈকে সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean = (1 + 9)/2 = 5.",
+      "as": "মধ্যমান = (১ + ৯)/২ = ৫।"
+    }
+  },
+  {
+    "id": "statistics-054",
+    "q": {
+      "en": "The mean of the numbers 1 to 100 is:",
+      "as": "১ ৰ পৰা ১০০ লৈকে সংখ্যাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "50.5",
+        "as": "৫০.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean = (1 + 100)/2 = 50.5.",
+      "as": "মধ্যমান = (১ + ১০০)/২ = ৫০.৫।"
+    }
+  },
+  {
+    "id": "statistics-055",
+    "q": {
+      "en": "The mean of all the factors of 15 is:",
+      "as": "১৫ ৰ সকলো উৎপাদকৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The factors are 1, 3, 5, 15; the sum is 24 and the mean is 24 ÷ 4 = 6.",
+      "as": "উৎপাদকবোৰ ১, ৩, ৫, ১৫; যোগফল ২৪ আৰু মধ্যমান ২৪ ÷ ৪ = ৬।"
+    }
+  },
+  {
+    "id": "statistics-056",
+    "q": {
+      "en": "The mean of all the factors of 16 is:",
+      "as": "১৬ ৰ সকলো উৎপাদকৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6.2",
+        "as": "৬.২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The factors are 1, 2, 4, 8, 16; the sum is 31 and the mean is 31 ÷ 5 = 6.2.",
+      "as": "উৎপাদকবোৰ ১, ২, ৪, ৮, ১৬; যোগফল ৩১ আৰু মধ্যমান ৩১ ÷ ৫ = ৬.২।"
+    }
+  },
+  {
+    "id": "statistics-057",
+    "q": {
+      "en": "The mode of 1, 1, 2, 3, 3, 3, 4, 4 is:",
+      "as": "১, ১, ২, ৩, ৩, ৩, ৪, ৪ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "3 appears three times, the highest frequency.",
+      "as": "৩ তিনি বাৰ আছে, সৰ্বোচ্চ বাৰম্বাৰতা।"
+    }
+  },
+  {
+    "id": "statistics-058",
+    "q": {
+      "en": "The range of 2, 5, 8, 11, 14 is:",
+      "as": "২, ৫, ৮, ১১, ১৪ ৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "14 − 2 = 12.",
+      "as": "১৪ − ২ = ১২।"
+    }
+  },
+  {
+    "id": "statistics-059",
+    "q": {
+      "en": "If the mean of 6 numbers is 14 and each is increased by 2, the new mean is:",
+      "as": "৬ টা সংখ্যাৰ মধ্যমান ১৪ আৰু প্ৰতিটো ২ ৰে বঢ়ালে নতুন মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "14 + 2 = 16.",
+      "as": "১৪ + ২ = ১৬।"
+    }
+  },
+  {
+    "id": "statistics-060",
+    "q": {
+      "en": "The mean of 25, 30, 35, 40, 45 is:",
+      "as": "২৫, ৩০, ৩৫, ৪০, ৪৫ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = 175, mean = 35.",
+      "as": "যোগফল = ১৭৫, মধ্যমান = ৩৫।"
+    }
+  },
+  {
+    "id": "statistics-061",
+    "q": {
+      "en": "The median of 9, 1, 8, 2, 7, 3 is:",
+      "as": "৯, ১, ৮, ২, ৭, ৩ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Arranged: 1, 2, 3, 7, 8, 9; the median is (3 + 7)/2 = 5.",
+      "as": "সজাই: ১, ২, ৩, ৭, ৮, ৯; মধ্যমা (৩ + ৭)/২ = ৫।"
+    }
+  },
+  {
+    "id": "statistics-062",
+    "q": {
+      "en": "If the mean of 10 observations is 18 and the mean of the first 5 is 16, the mean of the last 5 is:",
+      "as": "১০ টা পৰ্যবেক্ষণৰ মধ্যমান ১৮ আৰু প্ৰথম ৫ টাৰ মধ্যমান ১৬, শেষৰ ৫ টাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 180, first half = 80, so the last half sums to 100 and its mean is 20.",
+      "as": "মুঠ = ১৮০, প্ৰথম আধা = ৮০, গতিকে শেষ আধাৰ যোগফল ১০০ আৰু মধ্যমান ২০।"
+    }
+  },
+  {
+    "id": "statistics-063",
+    "q": {
+      "en": "The mean of 4 numbers is 25. If one number 40 is replaced by 20, the new mean is:",
+      "as": "৪ টা সংখ্যাৰ মধ্যমান ২৫। এটা সংখ্যা ৪০ ক ২০ ৰে সলনি কৰিলে নতুন মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The sum falls by 20 to 80, so the mean is 80 ÷ 4 = 20.",
+      "as": "যোগফল ২০ ৰে কমি ৮০ হয়, গতিকে মধ্যমান ৮০ ÷ ৪ = ২০।"
+    }
+  },
+  {
+    "id": "statistics-064",
+    "q": {
+      "en": "The median of 50, 40, 30, 20, 10 is:",
+      "as": "৫০, ৪০, ৩০, ২০, ১০ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Arranged: 10, 20, 30, 40, 50; the middle is 30.",
+      "as": "সজাই: ১০, ২০, ৩০, ৪০, ৫০; মাজৰটো ৩০।"
+    }
+  },
+  {
+    "id": "statistics-065",
+    "q": {
+      "en": "If the mean of 5, 8, 12, x and 15 is 10, the value of x is:",
+      "as": "যদি ৫, ৮, ১২, x আৰু ১৫ ৰ মধ্যমান ১০ হয়, x ৰ মান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 50, so x = 50 − 40 = 10.",
+      "as": "যোগফল = ৫০, গতিকে x = ৫০ − ৪০ = ১০।"
+    }
+  },
+  {
+    "id": "statistics-066",
+    "q": {
+      "en": "The mean of 3, 6, 9, 12, 15 is:",
+      "as": "৩, ৬, ৯, ১২, ১৫ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = 45, mean = 9.",
+      "as": "যোগফল = ৪৫, মধ্যমান = ৯।"
+    }
+  },
+  {
+    "id": "statistics-067",
+    "q": {
+      "en": "If the mean of 20 numbers is 30, the sum of the numbers is:",
+      "as": "২০ টা সংখ্যাৰ মধ্যমান ৩০ হ'লে সংখ্যাবোৰৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30 × 20 = 600.",
+      "as": "৩০ × ২০ = ৬০০।"
+    }
+  },
+  {
+    "id": "statistics-068",
+    "q": {
+      "en": "The mode of 2, 4, 4, 6, 6, 6, 8, 8, 8, 8 is:",
+      "as": "২, ৪, ৪, ৬, ৬, ৬, ৮, ৮, ৮, ৮ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "8 appears four times, the highest frequency.",
+      "as": "৮ চাৰি বাৰ আছে, সৰ্বোচ্চ বাৰম্বাৰতা।"
+    }
+  },
+  {
+    "id": "statistics-069",
+    "q": {
+      "en": "The median of 7, 3, 9, 5, 11, 13 is:",
+      "as": "৭, ৩, ৯, ৫, ১১, ১৩ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Arranged: 3, 5, 7, 9, 11, 13; the median is (7 + 9)/2 = 8.",
+      "as": "সজাই: ৩, ৫, ৭, ৯, ১১, ১৩; মধ্যমা (৭ + ৯)/২ = ৮।"
+    }
+  },
+  {
+    "id": "statistics-070",
+    "q": {
+      "en": "The mean of 2, 4, 6, 8, 10, 12, 14 is:",
+      "as": "২, ৪, ৬, ৮, ১০, ১২, ১৪ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The middle value of this arithmetic progression is 8, which is also the mean.",
+      "as": "এই সমান্তৰ প্ৰগতিৰ মাজৰ মান ৮, যি মধ্যমানো।"
+    }
+  },
+  {
+    "id": "statistics-071",
+    "q": {
+      "en": "If the mean of 12 numbers is 25 and each is decreased by 5, the new mean is:",
+      "as": "১২ টা সংখ্যাৰ মধ্যমান ২৫ আৰু প্ৰতিটো ৫ ৰে কমালে নতুন মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25 − 5 = 20.",
+      "as": "২৫ − ৫ = ২০।"
+    }
+  },
+  {
+    "id": "statistics-072",
+    "q": {
+      "en": "The mean of the numbers 5, 15, 25, 35, 45 is:",
+      "as": "৫, ১৫, ২৫, ৩৫, ৪৫ ৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = 125, mean = 25.",
+      "as": "যোগফল = ১২৫, মধ্যমান = ২৫।"
+    }
+  },
+  {
+    "id": "statistics-073",
+    "q": {
+      "en": "The range of the first 10 natural numbers is:",
+      "as": "প্ৰথম ১০ টা স্বাভাৱিক সংখ্যাৰ পৰিসৰ:"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "10 − 1 = 9.",
+      "as": "১০ − ১ = ৯।"
+    }
+  },
+  {
+    "id": "statistics-074",
+    "q": {
+      "en": "If the mean of 4 numbers is 12 and a fifth number 22 is added, the new mean is:",
+      "as": "৪ টা সংখ্যাৰ মধ্যমান ১২ আৰু পঞ্চম সংখ্যা ২২ যোগ কৰিলে নতুন মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "New sum = 48 + 22 = 70, so the mean is 70 ÷ 5 = 14.",
+      "as": "নতুন যোগফল = ৪৮ + ২২ = ৭০, গতিকে মধ্যমান ৭০ ÷ ৫ = ১৪।"
+    }
+  },
+  {
+    "id": "statistics-075",
+    "q": {
+      "en": "The median of 1, 4, 9, 16, 25, 36, 49, 64 is:",
+      "as": "১, ৪, ৯, ১৬, ২৫, ৩৬, ৪৯, ৬৪ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20.5",
+        "as": "২০.৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With eight values the median is (16 + 25)/2 = 20.5.",
+      "as": "আঠটা মানৰ বাবে মধ্যমা (১৬ + ২৫)/২ = ২০.৫।"
+    }
+  },
+  {
+    "id": "statistics-076",
+    "q": {
+      "en": "The mode of 10, 20, 20, 30, 30, 30, 40 is:",
+      "as": "১০, ২০, ২০, ৩০, ৩০, ৩০, ৪০ ৰ বহুলক:"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "30 appears three times, the highest frequency.",
+      "as": "৩০ তিনি বাৰ আছে, সৰ্বোচ্চ বাৰম্বাৰতা।"
+    }
+  },
+  {
+    "id": "statistics-077",
+    "q": {
+      "en": "If the mean of 5 numbers is 8 and the mean of 3 of them is 6, the mean of the other 2 is:",
+      "as": "৫ টা সংখ্যাৰ মধ্যমান ৮ আৰু তাৰে ৩ টাৰ মধ্যমান ৬, আন ২ টাৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 40, the three sum to 18, so the other two sum to 22 and their mean is 11.",
+      "as": "মুঠ = ৪০, তিনিটাৰ যোগফল ১৮, গতিকে আন দুটাৰ যোগফল ২২ আৰু মধ্যমান ১১।"
+    }
+  },
+  {
+    "id": "statistics-078",
+    "q": {
+      "en": "The mean of the first 6 multiples of 5 is:",
+      "as": "৫ ৰ প্ৰথম ৬ টা গুণিতকৰ মধ্যমান:"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The numbers are 5, 10, 15, 20, 25, 30; the mean is (5 + 30)/2 = 17.5.",
+      "as": "সংখ্যাবোৰ ৫, ১০, ১৫, ২০, ২৫, ৩০; মধ্যমান (৫ + ৩০)/২ = ১৭.৫।"
+    }
+  },
+  {
+    "id": "statistics-079",
+    "q": {
+      "en": "The median of 11, 22, 33, 44, 55 is:",
+      "as": "১১, ২২, ৩৩, ৪৪, ৫৫ ৰ মধ্যমা:"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "27.5",
+        "as": "২৭.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The middle value of the ordered list is 33.",
+      "as": "সজোৱা তালিকাৰ মাজৰ মান ৩৩।"
+    }
+  },
+  {
+    "id": "statistics-080",
+    "q": {
+      "en": "If the mean of 30 numbers is 20, the sum of the numbers is:",
+      "as": "৩০ টা সংখ্যাৰ মধ্যমান ২০ হ'লে সংখ্যাবোৰৰ যোগফল:"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "20 × 30 = 600.",
+      "as": "২০ × ৩০ = ৬০০।"
+    }
+  }
+]

@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "computer-151",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "In a relational database, data is stored in",
+      "as": "সম্পৰ্কীয় ডাটাবেছত তথ্য ৰখা হয়"
+    },
+    "options": [
+      {
+        "en": "images only",
+        "as": "কেৱল ছবিত"
+      },
+      {
+        "en": "tables made of rows and columns",
+        "as": "শাৰী আৰু স্তম্ভৰ তালিকাত"
+      },
+      {
+        "en": "a single long text file",
+        "as": "এটা দীঘল লিখা ফাইলত"
+      },
+      {
+        "en": "folders only",
+        "as": "কেৱল ফোল্ডাৰত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A relation is a table: each row is a record and each column a field. This structure is what makes SQL queries possible.",
+      "as": "সম্পৰ্ক এটা তালিকা: প্ৰতিটো শাৰী অভিলেখ আৰু প্ৰতিটো স্তম্ভ ক্ষেত্ৰ। এই গঠনে SQL প্ৰশ্ন সম্ভৱ কৰে।"
+    }
+  },
+  {
+    "id": "computer-152",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The binary equivalent of the decimal number 10 is",
+      "as": "দশমিক সংখ্যা ১০ ৰ দ্বিমিক ৰূপ"
+    },
+    "options": [
+      {
+        "en": "1010",
+        "as": "১০১০"
+      },
+      {
+        "en": "1100",
+        "as": "১১০০"
+      },
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "1110",
+        "as": "১১১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ten is eight plus two, which sets the eight and two place values, giving 1010. Reversing the last two digits gives the wrong 1001.",
+      "as": "দহ মানে আঠ যোগ দুই, সেয়ে আঠ আৰু দুইৰ স্থানত এক, অৰ্থাৎ ১০১০। শেষৰ দুটা অংক ওলোটালে ভুলকৈ ১০০১ হয়।"
+    }
+  },
+  {
+    "id": "computer-153",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The primary key in a database table is used to",
+      "as": "ডাটাবেছ তালিকাৰ প্ৰাথমিক চাবি কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "sort the table by name",
+        "as": "তালিকা নামেৰে সজাবলৈ"
+      },
+      {
+        "en": "encrypt the table",
+        "as": "তালিকা এনক্ৰিপ্ট কৰিবলৈ"
+      },
+      {
+        "en": "count the rows",
+        "as": "শাৰী গণিবলৈ"
+      },
+      {
+        "en": "uniquely identify each record",
+        "as": "প্ৰতিটো অভিলেখ অদ্বিতীয়ভাৱে চিনাক্ত কৰিবলৈ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A primary key must be unique and not null, so no two rows can be confused. A sort order is a separate matter.",
+      "as": "প্ৰাথমিক চাবি অদ্বিতীয় আৰু শূন্য নহ'ব লাগে, সেয়ে দুটা শাৰী মিলি নাযায়। সজোৱা ক্ৰম বেলেগ কথা।"
+    }
+  },
+  {
+    "id": "computer-154",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The decimal value of the binary number 1111 is",
+      "as": "দ্বিমিক সংখ্যা ১১১১ ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Four ones mean eight plus four plus two plus one, that is fifteen. Sixteen would need a fifth bit set.",
+      "as": "চাৰিটা এক মানে আঠ যোগ চাৰি যোগ দুই যোগ এক = পোন্ধৰ। ষোল্ললৈ পঞ্চম বিট লাগিব।"
+    }
+  },
+  {
+    "id": "computer-155",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Which language is used to query a relational database?",
+      "as": "সম্পৰ্কীয় ডাটাবেছত প্ৰশ্ন সোধাৰ বাবে কোন ভাষা ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "XML",
+        "as": "XML"
+      },
+      {
+        "en": "SQL",
+        "as": "SQL"
+      },
+      {
+        "en": "HTML",
+        "as": "HTML"
+      },
+      {
+        "en": "CSS",
+        "as": "CSS"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Structured query language selects, inserts and updates records. HTML marks up pages and CSS styles them.",
+      "as": "SQL এ অভিলেখ বাছে, সুমুৱায় আৰু আপডেট কৰে। HTML এ পৃষ্ঠা চিহ্নিত কৰে আৰু CSS এ ৰূপ দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-156",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The hexadecimal number system has a base of",
+      "as": "হেক্সাডেচিমেল সংখ্যা পদ্ধতিৰ ভিত্তি"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Hexadecimal uses sixteen symbols, zero to nine plus A to F. Base eight is octal and base two is binary.",
+      "as": "হেক্সাডেচিমেলে ষোল্ল চিহ্ন, শূন্যৰপৰা ন আৰু A ৰপৰা F। ভিত্তি আঠ অষ্টাল আৰু ভিত্তি দুই দ্বিমিক।"
+    }
+  },
+  {
+    "id": "computer-157",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "In a database, a field that refers to the primary key of another table is called a",
+      "as": "ডাটাবেছত আন তালিকাৰ প্ৰাথমিক চাবিলৈ দেখুওৱা ক্ষেত্ৰক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "primary key",
+        "as": "প্ৰাথমিক চাবি"
+      },
+      {
+        "en": "candidate key",
+        "as": "প্ৰাৰ্থী চাবি"
+      },
+      {
+        "en": "super key",
+        "as": "ছুপাৰ চাবি"
+      },
+      {
+        "en": "foreign key",
+        "as": "বহিঃ চাবি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A foreign key links two tables and enforces that the referenced row exists, which is how relationships are built.",
+      "as": "বহিঃ চাবিয়ে দুটা তালিকা জোড়ে আৰু নিৰ্দেশিত শাৰী আছে বুলি নিশ্চিত কৰে, সেয়ে সম্পৰ্ক গঢ়ে।"
+    }
+  },
+  {
+    "id": "computer-158",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The binary addition of 101 and 11 gives",
+      "as": "১০১ আৰু ১১ ৰ দ্বিমিক যোগফল"
+    },
+    "options": [
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "1010",
+        "as": "১০১০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Five plus three is eight, and eight in binary is 1000. Writing 111 would ignore the carry.",
+      "as": "পাঁচ যোগ তিনি = আঠ, আৰু দ্বিমিকে আঠ ১০০০। ১১১ লিখিলে হাত বঢ়োৱা উপেক্ষা হয়।"
+    }
+  },
+  {
+    "id": "computer-159",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Which SQL statement is used to retrieve data from a table?",
+      "as": "তালিকাৰপৰা তথ্য অনাৰ বাবে কোন SQL নিৰ্দেশ ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "UPDATE",
+        "as": "UPDATE"
+      },
+      {
+        "en": "SELECT",
+        "as": "SELECT"
+      },
+      {
+        "en": "INSERT",
+        "as": "INSERT"
+      },
+      {
+        "en": "DELETE",
+        "as": "DELETE"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SELECT reads rows. INSERT adds, UPDATE changes and DELETE removes them.",
+      "as": "SELECT এ শাৰী পঢ়ে। INSERT এ যোগ, UPDATE এ সলনি আৰু DELETE এ মচে।"
+    }
+  },
+  {
+    "id": "computer-160",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "One nibble is equal to",
+      "as": "এক নিবল কিৰ সমান"
+    },
+    "options": [
+      {
+        "en": "4 bits",
+        "as": "৪ বিট"
+      },
+      {
+        "en": "8 bits",
+        "as": "৮ বিট"
+      },
+      {
+        "en": "2 bits",
+        "as": "২ বিট"
+      },
+      {
+        "en": "16 bits",
+        "as": "১৬ বিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A nibble is half a byte, that is four bits, and it is exactly one hexadecimal digit.",
+      "as": "নিবল আধা বাইট, অৰ্থাৎ চাৰি বিট, আৰু ই ঠিক এটা হেক্সাডেচিমেল অংক।"
+    }
+  },
+  {
+    "id": "computer-161",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Redundancy in a database leads to",
+      "as": "ডাটাবেছত বাহুল্যই কিৰ সৃষ্টি কৰে"
+    },
+    "options": [
+      {
+        "en": "faster queries always",
+        "as": "সদায় দ্ৰুত প্ৰশ্ন"
+      },
+      {
+        "en": "better security",
+        "as": "উত্তম সুৰক্ষা"
+      },
+      {
+        "en": "smaller files",
+        "as": "সৰু ফাইল"
+      },
+      {
+        "en": "wasted space and inconsistent data",
+        "as": "অপচয় ঠাই আৰু অসামঞ্জস্য তথ্য"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Storing the same fact in many places wastes space and lets copies disagree. Normalisation removes such repetition.",
+      "as": "একেই তথ্য বহু ঠাইত ৰাখিলে ঠাই নষ্ট হয় আৰু নকলবোৰ বেলেগ হ'ব পাৰে। নৰ্মেলাইজেশনে পুনৰাবৃত্তি আঁতৰায়।"
+    }
+  },
+  {
+    "id": "computer-162",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The decimal number 25 in binary is",
+      "as": "দশমিক সংখ্যা ২৫ ৰ দ্বিমিক ৰূপ"
+    },
+    "options": [
+      {
+        "en": "11010",
+        "as": "১১০১০"
+      },
+      {
+        "en": "10011",
+        "as": "১০০১১"
+      },
+      {
+        "en": "11001",
+        "as": "১১০০১"
+      },
+      {
+        "en": "10101",
+        "as": "১০১০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Twenty-five is sixteen plus eight plus one, so bits four, three and zero are set, giving 11001.",
+      "as": "পঁচিশ মানে ষোল্ল যোগ আঠ যোগ এক, সেয়ে চাৰি, তিনি আৰু শূন্য স্থানত এক, অৰ্থাৎ ১১০০১।"
+    }
+  },
+  {
+    "id": "computer-163",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A DBMS is used mainly to",
+      "as": "DBMS মূলতঃ কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "scan documents",
+        "as": "ডকুমেণ্ট স্কেন কৰা"
+      },
+      {
+        "en": "store, retrieve and manage large amounts of data",
+        "as": "বহু তথ্য ৰখা, অনা আৰু চলোৱা"
+      },
+      {
+        "en": "design web pages",
+        "as": "ৱেব পৃষ্ঠা ডিজাইন কৰা"
+      },
+      {
+        "en": "edit photographs",
+        "as": "ফট'গ্ৰাফ সম্পাদনা কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A database management system controls access, keeps data consistent and answers queries. It is not a design tool.",
+      "as": "DBMS এ প্ৰৱেশ নিয়ন্ত্ৰণ কৰি তথ্য সামঞ্জস্য ৰাখি প্ৰশ্নৰ উত্তৰ দিয়ে। ই ডিজাইন সজুলি নহয়।"
+    }
+  },
+  {
+    "id": "computer-164",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The octal equivalent of the decimal number 8 is",
+      "as": "দশমিক সংখ্যা ৮ ৰ অষ্টাল ৰূপ"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In base eight the digits run only to seven, so eight is written as one zero. The symbol 8 does not exist in octal.",
+      "as": "ভিত্তি আঠত অংক কেবল সাতলৈকে, সেয়ে আঠক এক শূন্য লিখা হয়। অষ্টালত ৮ চিহ্ন নাই।"
+    }
+  },
+  {
+    "id": "computer-165",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Which of the following is a database constraint that prevents null values?",
+      "as": "শূন্য মান ৰোধ কৰা ডাটাবেছ বাধ্যতামূলক চৰ্তটো"
+    },
+    "options": [
+      {
+        "en": "UNIQUE only",
+        "as": "কেৱল UNIQUE"
+      },
+      {
+        "en": "DEFAULT",
+        "as": "DEFAULT"
+      },
+      {
+        "en": "INDEX",
+        "as": "INDEX"
+      },
+      {
+        "en": "NOT NULL",
+        "as": "NOT NULL"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "NOT NULL forces a value in every row. UNIQUE prevents duplicates but still permits a null in many systems.",
+      "as": "NOT NULL এ প্ৰতিটো শাৰীত মান বাধ্যতামূলক কৰে। UNIQUE এ নকল ৰোধ কৰে কিন্তু বহু চিষ্টেমত শূন্য মান দিব পাৰি।"
+    }
+  },
+  {
+    "id": "computer-166",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The binary number 100000 has the decimal value",
+      "as": "দ্বিমিক সংখ্যা ১০০০০০ ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A one followed by five zeros sets the two to the fifth place, which is thirty-two.",
+      "as": "একৰ পিছত পাঁচটা শূন্য মানে দুইৰ ঘাত পাঁচ স্থানত এক, অৰ্থাৎ বত্ৰিশ।"
+    }
+  },
+  {
+    "id": "computer-167",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "In a table of students, the column that stores the date of birth is a",
+      "as": "শিক্ষাৰ্থীৰ তালিকাত জন্ম তাৰিখ ৰখা স্তম্ভটো এটা"
+    },
+    "options": [
+      {
+        "en": "relation",
+        "as": "সম্পৰ্ক"
+      },
+      {
+        "en": "field",
+        "as": "ক্ষেত্ৰ"
+      },
+      {
+        "en": "record",
+        "as": "অভিলেখ"
+      },
+      {
+        "en": "primary key",
+        "as": "প্ৰাথমিক চাবি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A column is a field describing one attribute. A whole row about one student is a record.",
+      "as": "স্তম্ভ এটা ক্ষেত্ৰ যি এটা গুণ বৰ্ণনা কৰে। এজন শিক্ষাৰ্থীৰ গোটেই শাৰী এটা অভিলেখ।"
+    }
+  },
+  {
+    "id": "computer-168",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The result of subtracting 1 from the binary number 1000 is",
+      "as": "দ্বিমিক সংখ্যা ১০০০ ৰপৰা ১ বিয়োগ কৰিলে পোৱা ফল"
+    },
+    "options": [
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "0111 only",
+        "as": "কেৱল ০১১১"
+      },
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "999",
+        "as": "৯৯৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Eight minus one is seven, which is 111 in binary. Nine would be addition, not subtraction.",
+      "as": "আঠ বিয়োগ এক = সাত, যি দ্বিমিকে ১১১। ন হ'লে যোগ হ'ব, বিয়োগ নহয়।"
+    }
+  },
+  {
+    "id": "computer-169",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A view in a database is",
+      "as": "ডাটাবেছত ভিউ হ'ল"
+    },
+    "options": [
+      {
+        "en": "a copy of the whole database",
+        "as": "গোটেই ডাটাবেছৰ নকল"
+      },
+      {
+        "en": "a type of index",
+        "as": "এবিধ সূচী"
+      },
+      {
+        "en": "a backup file",
+        "as": "এটা বেকআপ ফাইল"
+      },
+      {
+        "en": "a stored query that behaves like a virtual table",
+        "as": "সাঁচি ৰখা প্ৰশ্ন যি আভাসিক তালিকা যেন কাম কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A view holds no data of its own; it runs its query and shows the result, which also limits what a user can see.",
+      "as": "ভিউৱে নিজৰ তথ্য নৰাখে; ই প্ৰশ্ন চলাই ফল দেখুৱায়, যিয়ে ব্যৱহাৰকাৰীয়ে দেখা সমলো সীমিত কৰে।"
+    }
+  },
+  {
+    "id": "computer-170",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The hexadecimal digit F has the decimal value",
+      "as": "হেক্সাডেচিমেল অংক F ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The digits run 0 to 9 and then A to F, so F is the sixteenth value counting from zero, that is fifteen.",
+      "as": "অংক শূন্যৰপৰা ন, তাৰ পিছত A ৰপৰা F, সেয়ে F শূন্যৰপৰা গণি ষোল্লতম, অৰ্থাৎ পোন্ধৰ।"
+    }
+  },
+  {
+    "id": "computer-171",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Which normal form removes partial dependency on a composite primary key?",
+      "as": "কোন নৰ্মেল ৰূপে যৌগিক প্ৰাথমিক চাবিৰ আংশিক নিৰ্ভৰতা আঁতৰায়"
+    },
+    "options": [
+      {
+        "en": "fourth normal form",
+        "as": "চতুৰ্থ নৰ্মেল ৰূপ"
+      },
+      {
+        "en": "second normal form",
+        "as": "দ্বিতীয় নৰ্মেল ৰূপ"
+      },
+      {
+        "en": "first normal form",
+        "as": "প্ৰথম নৰ্মেল ৰূপ"
+      },
+      {
+        "en": "third normal form",
+        "as": "তৃতীয় নৰ্মেল ৰূপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Second normal form requires every non-key attribute to depend on the whole key, not part of it. First normal form only removes repeating groups.",
+      "as": "দ্বিতীয় নৰ্মেল ৰূপত প্ৰতিটো অ-চাবি গুণ গোটেই চাবিৰ ওপৰত নিৰ্ভৰ কৰিব লাগে, তাৰ অংশৰ ওপৰত নহয়। প্ৰথমটোৱে কেবল পুনৰাবৃত্ত গোট আঁতৰায়।"
+    }
+  },
+  {
+    "id": "computer-172",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The binary equivalent of the decimal number 7 is",
+      "as": "দশমিক সংখ্যা ৭ ৰ দ্বিমিক ৰূপ"
+    },
+    "options": [
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Seven is four plus two plus one, so the first three bits are set. Eight would be 1000.",
+      "as": "সাত মানে চাৰি যোগ দুই যোগ এক, সেয়ে প্ৰথম তিনি বিটত এক। আঠ হ'লে ১০০০।"
+    }
+  },
+  {
+    "id": "computer-173",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "An index in a database is created mainly to",
+      "as": "ডাটাবেছত সূচী সজা হয় মূলতঃ কিৰ বাবে"
+    },
+    "options": [
+      {
+        "en": "save disk space",
+        "as": "ডিস্কৰ ঠাই ৰাখিবলৈ"
+      },
+      {
+        "en": "encrypt the column",
+        "as": "স্তম্ভ এনক্ৰিপ্ট কৰিবলৈ"
+      },
+      {
+        "en": "delete duplicate rows",
+        "as": "নকল শাৰী মচিবলৈ"
+      },
+      {
+        "en": "speed up searches on that column",
+        "as": "সেই স্তম্ভত সন্ধান দ্ৰুত কৰিবলৈ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An index is a lookup structure that shortens the search, at the cost of extra space and slower writes.",
+      "as": "সূচী এটা সন্ধান গঠন যি খোজ কমায়, কিন্তু অতিৰিক্ত ঠাই লাগে আৰু লিখা ধীৰ হয়।"
+    }
+  },
+  {
+    "id": "computer-174",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The hexadecimal equivalent of the binary number 1111 is",
+      "as": "দ্বিমিক সংখ্যা ১১১১ ৰ হেক্সাডেচিমেল ৰূপ"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "F",
+        "as": "F"
+      },
+      {
+        "en": "E",
+        "as": "E"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Four binary ones make fifteen, and fifteen is written F in hexadecimal. Writing 15 mixes the two bases.",
+      "as": "চাৰিটা দ্বিমিক একে পোন্ধৰ কৰে, আৰু পোন্ধৰক হেক্সাডেচিমেলত F লিখা হয়। ১৫ লিখিলে দুয়ো ভিত্তি মিলি যায়।"
+    }
+  },
+  {
+    "id": "computer-175",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "Which of the following is not a type of database model?",
+      "as": "তলৰ কোনটো ডাটাবেছ আৰ্হি নহয়"
+    },
+    "options": [
+      {
+        "en": "network model",
+        "as": "নেটৱৰ্ক আৰ্হি"
+      },
+      {
+        "en": "spreadsheet model",
+        "as": "স্প্ৰেডশ্বীট আৰ্হি"
+      },
+      {
+        "en": "relational model",
+        "as": "সম্পৰ্কীয় আৰ্হি"
+      },
+      {
+        "en": "hierarchical model",
+        "as": "শ্ৰেণীবদ্ধ আৰ্হি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The classic models are relational, hierarchical, network and object oriented. A spreadsheet is a tool, not a database model.",
+      "as": "প্ৰচলিত আৰ্হি সম্পৰ্কীয়, শ্ৰেণীবদ্ধ, নেটৱৰ্ক আৰু বস্তুগত। স্প্ৰেডশ্বীট এটা সজুলি, ডাটাবেছ আৰ্হি নহয়।"
+    }
+  },
+  {
+    "id": "computer-176",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The decimal number 100 in binary is",
+      "as": "দশমিক সংখ্যা ১০০ ৰ দ্বিমিক ৰূপ"
+    },
+    "options": [
+      {
+        "en": "1100100",
+        "as": "১১০০১০০"
+      },
+      {
+        "en": "1100010",
+        "as": "১১০০০১০"
+      },
+      {
+        "en": "1010100",
+        "as": "১০১০১০০"
+      },
+      {
+        "en": "1000100",
+        "as": "১০০০১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One hundred is sixty-four plus thirty-two plus four, which sets those three bits in a seven-bit number, giving 1100100.",
+      "as": "এশ মানে চৌষষ্ঠি যোগ বত্ৰিশ যোগ চাৰি, সেয়ে সাত বিটৰ সংখ্যাত সেই তিনি বিটত এক, অৰ্থাৎ ১১০০১০০।"
+    }
+  },
+  {
+    "id": "computer-177",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A relation in a relational database must have",
+      "as": "সম্পৰ্কীয় ডাটাবেছত সম্পৰ্ক এটাত থাকিব লাগে"
+    },
+    "options": [
+      {
+        "en": "at least one image column",
+        "as": "অন্ততঃ এটা ছবি স্তম্ভ"
+      },
+      {
+        "en": "exactly one row",
+        "as": "ঠিক এটা শাৰী"
+      },
+      {
+        "en": "no primary key ever",
+        "as": "কেতিয়াও প্ৰাথমিক চাবি নাথাকিব"
+      },
+      {
+        "en": "no duplicate rows",
+        "as": "নকল শাৰী নাথাকিব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A true relation is a set, so identical rows cannot repeat. Every table normally also has a primary key.",
+      "as": "প্ৰকৃত সম্পৰ্ক এটা সমষ্টি, সেয়ে একেই শাৰী পুনৰ নহয়। প্ৰতিটো তালিকাত সাধাৰণতে প্ৰাথমিক চাবিও থাকে।"
+    }
+  },
+  {
+    "id": "computer-178",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The value of the binary fraction 0.1 in decimal is",
+      "as": "দ্বিমিক ভগ্নাংশ ০.১ ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "0.2",
+        "as": "০.২"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      },
+      {
+        "en": "0.5",
+        "as": "০.৫"
+      },
+      {
+        "en": "0.1",
+        "as": "০.১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The first place after the binary point means one half, so 0.1 in binary is 0.5 in decimal. Reading it as 0.1 is the common mistake.",
+      "as": "দ্বিমিক বিন্দুৰ পিছৰ প্ৰথম স্থান মানে আধা, সেয়ে দ্বিমিক ০.১ = দশমিক ০.৫। ০.১ বুলি পঢ়াটো সাধাৰণ ভুল।"
+    }
+  },
+  {
+    "id": "computer-179",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A relational database reduces duplication mainly through",
+      "as": "সম্পৰ্কীয় ডাটাবেছে পুনৰাবৃত্তি কমায় মূলতঃ কিৰে"
+    },
+    "options": [
+      {
+        "en": "compressing the file",
+        "as": "ফাইল সংকুচিত কৰি"
+      },
+      {
+        "en": "normalisation into related tables",
+        "as": "সম্পৰ্কিত তালিকাত নৰ্মেলাইজেশ্যন কৰি"
+      },
+      {
+        "en": "storing everything in one table",
+        "as": "সকলো এটা তালিকাত ৰাখি"
+      },
+      {
+        "en": "deleting old records",
+        "as": "পুৰণি অভিলেখ মচি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Splitting data into related tables and joining them on keys removes repeated facts. One big table invites redundancy.",
+      "as": "তথ্য সম্পৰ্কিত তালিকাত ভাগ কৰি চাবিত জোড়ালে পুনৰাবৃত্ত তথ্য আঁতৰে। এটা ডাঙৰ তালিকাই বাহুল্য মাতি আনে।"
+    }
+  },
+  {
+    "id": "computer-180",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The two digits used in the binary system are",
+      "as": "দ্বিমিক পদ্ধতিত ব্যৱহৃত দুটা অংক"
+    },
+    "options": [
+      {
+        "en": "0 and 1",
+        "as": "০ আৰু ১"
+      },
+      {
+        "en": "1 and 2",
+        "as": "১ আৰু ২"
+      },
+      {
+        "en": "0 and 9",
+        "as": "০ আৰু ৯"
+      },
+      {
+        "en": "1 and 9",
+        "as": "১ আৰু ৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Binary is base two, so only zero and one exist. That matches the two states of a digital circuit, off and on.",
+      "as": "দ্বিমিক ভিত্তি দুই, সেয়ে কেবল শূন্য আৰু এক আছে। ই ডিজিটেল বৰ্তনীৰ দুটা অৱস্থা, বন্ধ আৰু চলিত,ৰ সৈতে মিলে।"
+    }
+  },
+  {
+    "id": "computer-281",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The decimal number 45 is represented in binary as",
+      "as": "দশমিক সংখ্যা ৪৫ দ্বিমিকত হ'ব"
+    },
+    "options": [
+      {
+        "en": "101011",
+        "as": "১০১০১১"
+      },
+      {
+        "en": "110101",
+        "as": "১১০১০১"
+      },
+      {
+        "en": "100101",
+        "as": "১০০১০১"
+      },
+      {
+        "en": "101101",
+        "as": "১০১১০১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Thirty-two plus eight plus four plus one is forty-five, which sets the bits at 32, 8, 4 and 1 and gives 101101. The other patterns sum to forty-three, fifty-three and thirty-seven.",
+      "as": "বত্ৰিশ যোগ আঠ যোগ চাৰি যোগ এক = পঞ্চল্লিশ, যিয়ে ৩২, ৮, ৪ আৰু ১ ৰ স্থানত বিট দি ১০১১০১ দিয়ে। আন আৰ্হিবোৰৰ যোগফল তেতাল্লিশ, তিৰ্পন্ন আৰু সাতত্ৰিশ।"
+    }
+  },
+  {
+    "id": "computer-282",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A register holds the bit pattern 11011 and the technician must report it as a decimal count. The value is",
+      "as": "ৰেজিষ্টাৰত ১১০১১ বিট আৰ্হি আছে আৰু কৰ্মীয়ে তাক দশমিক গণনা হিচাপে জনাব লাগে। মানটো"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sixteen plus eight plus two plus one is twenty-seven, counting the set bits at 16, 8, 2 and 1. Twenty-three, twenty-nine and thirty-one would need different bit patterns.",
+      "as": "ষোল্ল যোগ আঠ যোগ দুই যোগ এক = সাতাইশ, ১৬, ৮, ২ আৰু ১ ৰ স্থানত থকা বিট গণি। তেইশ, ঊনত্ৰিশ আৰু একত্ৰিশৰ বাবে বেলেগ বিট আৰ্হি লাগে।"
+    }
+  },
+  {
+    "id": "computer-283",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "In a database, a candidate key that was not chosen as the primary key is called a",
+      "as": "ডেটাবেছত প্ৰাথমিক কি হিচাপে নবাছা এটা প্ৰাৰ্থী কি ক তোলা হয়"
+    },
+    "options": [
+      {
+        "en": "super key",
+        "as": "ছুপাৰ কি"
+      },
+      {
+        "en": "alternate key",
+        "as": "বৈকল্পিক কি"
+      },
+      {
+        "en": "foreign key",
+        "as": "বহিঃ কি"
+      },
+      {
+        "en": "composite key",
+        "as": "যৌগিক কি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An alternate key is a candidate that could have been the primary key but was not selected. A foreign key points to another table, a composite key spans several columns and a super key is any set that uniquely identifies a row.",
+      "as": "বৈকল্পিক কি এটা প্ৰাৰ্থী যি প্ৰাথমিক কি হ'ব পাৰিলেহেঁতেন কিন্তু বাছনি নহ'ল। বহিঃ কিয়ে আন তালিকালৈ আঙুলিয়ায়, যৌগিক কিয়ে কেইবাটাও স্তম্ভ লয় আৰু ছুপাৰ কি যিকোনো এনে গোট যি শাৰী অদ্বিতীয়ভাৱে চিনাক্ত কৰে।"
+    }
+  },
+  {
+    "id": "computer-284",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The hexadecimal number 2F has the decimal value",
+      "as": "ষোড়শিক সংখ্যা 2F ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "215",
+        "as": "২১৫"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The left digit is two sixteens, or thirty-two, and F is fifteen, so the total is forty-seven. Thirty-one, two hundred fifteen and forty-five come from misreading F or the place values.",
+      "as": "বাওঁ অংকটো দুই ষোল্ল, অৰ্থাৎ বত্ৰিশ, আৰু F  পোন্ধৰ, সেয়ে মুঠ সাতচল্লিশ। একত্ৰিশ, দুইশ পোন্ধৰ আৰু পঞ্চল্লিশ F বা স্থানীয় মান ভুল পঢ়াৰপৰা আহে।"
+    }
+  },
+  {
+    "id": "computer-285",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A table must enforce that no two students share the same roll number. The constraint used is",
+      "as": "তালিকাত দুই শিক্ষাৰ্থীৰ একেই ৰোল নম্বৰ নোহোৱাটো বলবৎ কৰিব লাগে। ব্যৱহৃত বাধা"
+    },
+    "options": [
+      {
+        "en": "a check constraint on age",
+        "as": "বয়সৰ ওপৰত পৰীক্ষা বাধা"
+      },
+      {
+        "en": "a default value",
+        "as": "অৱিকল্পিত মান"
+      },
+      {
+        "en": "a foreign key",
+        "as": "বহিঃ কি"
+      },
+      {
+        "en": "a unique constraint",
+        "as": "অদ্বিতীয় বাধা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A unique constraint rejects any duplicate value in the column, which is exactly the roll number rule. A check constraint tests a condition on values, a default fills an empty field and a foreign key links to another table.",
+      "as": "অদ্বিতীয় বাধাই স্তম্ভত যিকোনো পুনৰাবৃত্ত মান নাকচ কৰে, যি ঠিক ৰোল নম্বৰৰ নিয়ম। পৰীক্ষা বাধাই মানৰ ওপৰত চৰ্ত পৰীক্ষা কৰে, অৱিকল্পিত মানে খালী ক্ষেত্ৰ ভৰায় আৰু বহিঃ কিয়ে আন তালিকালৈ সংযোগ কৰে।"
+    }
+  },
+  {
+    "id": "computer-286",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The result of adding the binary numbers 1101 and 1011 is",
+      "as": "দ্বিমিক সংখ্যা ১১০১ আৰু ১০১১ যোগ কৰাৰ ফল"
+    },
+    "options": [
+      {
+        "en": "11010",
+        "as": "১১০১০"
+      },
+      {
+        "en": "10011",
+        "as": "১০০১১"
+      },
+      {
+        "en": "11000",
+        "as": "১১০০০"
+      },
+      {
+        "en": "10110",
+        "as": "১০১১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Thirteen plus eleven is twenty-four, and twenty-four in binary is 11000, with a carry out of the fourth place. The other patterns are twenty-two, twenty-six and nineteen.",
+      "as": "তেৰ যোগ এঘাৰ = চৌবিশ, আৰু দ্বিমিকত চৌবিশ ১১০০০, চতুৰ্থ স্থানৰপৰা কেৰী ওলায়। আন আৰ্হিবোৰ বাইশ, ছাব্বিশ আৰু ঊনৈশ।"
+    }
+  },
+  {
+    "id": "computer-287",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "In SQL, the clause used to filter rows before grouping is",
+      "as": "SQL ত গোট কৰাৰ আগতে শাৰী ছাঁকিবলৈ ব্যৱহৃত ধাৰা"
+    },
+    "options": [
+      {
+        "en": "GROUP BY",
+        "as": "GROUP BY"
+      },
+      {
+        "en": "WHERE",
+        "as": "WHERE"
+      },
+      {
+        "en": "HAVING",
+        "as": "HAVING"
+      },
+      {
+        "en": "ORDER BY",
+        "as": "ORDER BY"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "WHERE filters individual rows as they are read, which happens before any grouping. HAVING filters the groups after aggregation, ORDER BY sorts the result and GROUP BY forms the groups.",
+      "as": "WHERE এ পঢ়ি থকাৰ সময়ত প্ৰতিটো শাৰী ছাঁকি দিয়ে, যি গোট কৰাৰ আগতে হয়। HAVING এ জমা কৰাৰ পিছত গোটবোৰ ছাঁকি দিয়ে, ORDER BY এ ফল সজায় আৰু GROUP BY এ গোট গঢ়ে।"
+    }
+  },
+  {
+    "id": "computer-288",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A relation is said to be in second normal form when it is in first normal form and",
+      "as": "সম্পৰ্ক দ্বিতীয় স্বাভাৱিক ৰূপত বুলি কোৱা হয় যেতিয়া ই প্ৰথম স্বাভাৱিক ৰূপত থাকে আৰু"
+    },
+    "options": [
+      {
+        "en": "no non key attribute depends on part of a composite key",
+        "as": "কোনো অ-কি গুণ যৌগিক কিৰ অংশৰ ওপৰত নিৰ্ভৰ নকৰে"
+      },
+      {
+        "en": "every attribute is atomic",
+        "as": "প্ৰতিটো গুণ পাৰমাণৱিক"
+      },
+      {
+        "en": "there is no transitive dependency",
+        "as": "কোনো পাৰগম্য নিৰ্ভৰশীলতা নাই"
+      },
+      {
+        "en": "every table has a foreign key",
+        "as": "প্ৰতিটো তালিকাত বহিঃ কি আছে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Second normal form removes partial dependencies, where an attribute needs only part of a composite key. Atomic attributes are first normal form, removing transitive dependency is third normal form, and foreign keys are unrelated.",
+      "as": "দ্বিতীয় স্বাভাৱিক ৰূপে আংশিক নিৰ্ভৰশীলতা আঁতৰায়, য'ত গুণ এটাই যৌগিক কিৰ কেৱল এটা অংশ লাগে। পাৰমাণৱিক গুণ প্ৰথম স্বাভাবিক ৰূপ, পাৰগম্য নিৰ্ভৰশীলতা আঁতৰোৱা তৃতীয় স্বাভাৱিক ৰূপ, আৰু বহিঃ কিৰ সম্পৰ্ক নাই।"
+    }
+  },
+  {
+    "id": "computer-289",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A file permission mask is stored as the binary pattern 101101 and must be written in octal for the config file. The octal value is",
+      "as": "ফাইল অনুমতিৰ মাস্ক ১০১১০১ দ্বিমিক আৰ্হিত আছে আৰু কনফিগ ফাইলত অষ্টিকত লিখিব লাগে। অষ্টিক মানটো"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "101",
+        "as": "১০১"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Grouping from the right in threes gives 101 and 101, which are five and five, so the octal form is 55. The other options come from misgrouping or reading in decimal.",
+      "as": "সোঁফালৰপৰা তিনি কৰি গোটালে ১০১ আৰু ১০১ পোৱা যায়, যি পাঁচ আৰু পাঁচ, সেয়ে অষ্টিক ৰূপ ৫৫। আন বাছনিবোৰ ভুল গোট বা দশমিক পঢ়াৰপৰা আহে।"
+    }
+  },
+  {
+    "id": "computer-290",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A database table stores a customer's city in every order row. The anomaly this creates is",
+      "as": "ডেটাবেছ তালিকাত প্ৰতিটো অৰ্ডাৰ শাৰীত গ্ৰাহকৰ চহৰ ৰখা হয়। ইয়াৰপৰা হোৱা অসংগতি"
+    },
+    "options": [
+      {
+        "en": "a hardware failure",
+        "as": "হাৰ্ডৱেৰ বিফলতা"
+      },
+      {
+        "en": "a network timeout",
+        "as": "নেটৱৰ্ক সময়সীমা"
+      },
+      {
+        "en": "an update anomaly, because the city must be changed in many rows",
+        "as": "নবীকৰণ অসংগতি, কাৰণ চহৰ বহু শাৰীত সলনি কৰিব লাগে"
+      },
+      {
+        "en": "a syntax error",
+        "as": "বাক্য গঠনৰ ত্ৰুটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Repeating the city means an update must touch every copy, and missing one leaves contradictory data, which is an update anomaly cured by normalisation. Syntax, hardware and network faults are not caused by data design.",
+      "as": "চহৰ পুনৰাবৃত্তি কৰিলে নবীকৰণে প্ৰতিটো নকল স্পৰ্শ কৰিব লাগে, আৰু এটা এৰি গ'লে বিৰোধী তথ্য থাকে, যি নৰ্মেলাইজেশ্যনে সমাধান কৰা নবীকৰণ অসংগতি। বাক্য গঠন, হাৰ্ডৱেৰ আৰু নেটৱৰ্ক ত্ৰুটি তথ্যৰ আৰ্হিৰপৰা নহয়।"
+    }
+  },
+  {
+    "id": "computer-291",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A subnet has 200 usable host addresses to number. The binary form the engineer writes for 200 is",
+      "as": "এটা ছাবনেটত ২০০ ব্যৱহাৰযোগ্য হ'ষ্ট ঠিকনা দিব লাগে। অভিযন্তাই ২০০ ৰ বাবে লিখা দ্বিমিক ৰূপ"
+    },
+    "options": [
+      {
+        "en": "11100000",
+        "as": "১১১০০০০০"
+      },
+      {
+        "en": "11001000",
+        "as": "১১০০১০০০"
+      },
+      {
+        "en": "11000100",
+        "as": "১১০০০১০০"
+      },
+      {
+        "en": "10101000",
+        "as": "১০১০১০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One hundred twenty-eight plus sixty-four plus eight is two hundred, which sets bits 7, 6 and 3 and gives 11001000. The others evaluate to one hundred ninety-six, one hundred sixty-eight and two hundred twenty-four.",
+      "as": "একশ অঠাইশ যোগ চৌষট্টি যোগ আঠ = দুইশ, যিয়ে ৭, ৬ আৰু ৩ নম্বৰ বিট দি ১১০০১০০০ দিয়ে। আনবোৰৰ মান একশ ছয়ানব্বৈ, একশ অঠষষ্টি আৰু দুইশ চৌবিশ।"
+    }
+  },
+  {
+    "id": "computer-292",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A query must return only those departments that have more than five employees. The clause used is",
+      "as": "প্ৰশ্নই কেৱল পাঁচতকৈ বেছি কৰ্মচাৰী থকা বিভাগ ঘূৰাব লাগে। ব্যৱহৃত ধাৰা"
+    },
+    "options": [
+      {
+        "en": "HAVING with COUNT",
+        "as": "COUNT ৰ সৈতে HAVING"
+      },
+      {
+        "en": "WHERE with COUNT",
+        "as": "COUNT ৰ সৈতে WHERE"
+      },
+      {
+        "en": "ORDER BY with COUNT",
+        "as": "COUNT ৰ সৈতে ORDER BY"
+      },
+      {
+        "en": "DISTINCT with COUNT",
+        "as": "COUNT ৰ সৈতে DISTINCT"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The condition applies to an aggregate, so it belongs in HAVING after grouping by department. WHERE cannot test an aggregate, ORDER BY only sorts and DISTINCT removes repeated rows.",
+      "as": "চৰ্তটো এটা সমষ্টিৰ ওপৰত প্ৰযোজ্য, সেয়ে বিভাগ অনুসৰি গোট কৰাৰ পিছত HAVING ত থাকিব লাগে। WHERE এ সমষ্টি পৰীক্ষা কৰিব নোৱাৰে, ORDER BY এ কেৱল সজায় আৰু DISTINCT এ পুনৰাবৃত্ত শাৰী আঁতৰায়।"
+    }
+  },
+  {
+    "id": "computer-293",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The hexadecimal equivalent of the decimal number 255 is",
+      "as": "দশমিক সংখ্যা ২৫৫ ৰ ষোড়শিক সমতুল্য"
+    },
+    "options": [
+      {
+        "en": "FE",
+        "as": "FE"
+      },
+      {
+        "en": "F0",
+        "as": "F0"
+      },
+      {
+        "en": "1FF",
+        "as": "১FF"
+      },
+      {
+        "en": "FF",
+        "as": "FF"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Two hundred fifty-five is fifteen sixteens plus fifteen, which is FF, the largest two digit hexadecimal value. FE is two hundred fifty-four, F0 is two hundred forty and 1FF is five hundred eleven.",
+      "as": "দুইশ পঞ্চাশ পাঁচ = পোন্ধৰ ষোল্ল যোগ পোন্ধৰ, যি FF, দুই অংকৰ আটাই ডাঙৰ ষোড়শিক মান। FE  দুইশ চুৱান্ন, F0  দুইশ চল্লিশ আৰু ১FF  পাঁচশ এঘাৰ।"
+    }
+  },
+  {
+    "id": "computer-294",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A foreign key in a child table must satisfy which rule?",
+      "as": "শিশু তালিকাৰ বহিঃ কিয়ে কোন নিয়ম মানিব লাগে"
+    },
+    "options": [
+      {
+        "en": "it must be the largest column",
+        "as": "আটাই ডাঙৰ স্তম্ভ হ'ব লাগে"
+      },
+      {
+        "en": "it must never be indexed",
+        "as": "কেতিয়াও সূচীবদ্ধ নহ'ব লাগে"
+      },
+      {
+        "en": "its value must exist in the parent table or be null",
+        "as": "ইয়াৰ মান পিতৃ তালিকাত থাকিব লাগে বা শূন্য হ'ব লাগে"
+      },
+      {
+        "en": "it must always be unique in the child table",
+        "as": "শিশু তালিকাত সদায় অদ্বিতীয় হ'ব লাগে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Referential integrity requires that a foreign key matches an existing parent key or is empty, which is what keeps the link valid. It is not unique in the child, has no size rule and is commonly indexed for speed.",
+      "as": "তথ্যসূত্ৰীয় অখণ্ডতাই বিচাৰে বহিঃ কিয়ে বিদ্যমান পিতৃ কিৰ লগত মিলক বা খালী থাকক, যিয়ে সংযোগ বৈধ ৰাখে। ই শিশুত অদ্বিতীয় নহয়, আকাৰৰ নিয়ম নাই আৰু গতিৰ বাবে সাধাৰণতে সূচীবদ্ধ কৰা হয়।"
+    }
+  },
+  {
+    "id": "computer-295",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The binary subtraction 1000 minus 1 gives",
+      "as": "দ্বিমিক বিয়োগ ১০০০ ৰপৰা ১ বিয়োগ কৰিলে"
+    },
+    "options": [
+      {
+        "en": "1011",
+        "as": "১০১১"
+      },
+      {
+        "en": "111",
+        "as": "১১১"
+      },
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Eight minus one is seven, and seven in binary is 111. The other options are nine, six and eleven.",
+      "as": "আঠ বিয়োগ এক = সাত, আৰু দ্বিমিকত সাত ১১১। আন বাছনিবোৰ ন, ছয় আৰু এঘাৰ।"
+    }
+  },
+  {
+    "id": "computer-296",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A report that filters on customer_id takes 40 seconds on a table of two million rows. The change that will speed it up most is to",
+      "as": "বিশ লাখ শাৰীৰ তালিকাত customer_id ৰ ওপৰত ছাঁকি লোৱা প্ৰতিবেদন এটাত ৪০ ছেকেণ্ড লাগে। তাক আটাই দ্ৰুত কৰা পৰিৱৰ্তন"
+    },
+    "options": [
+      {
+        "en": "speed up searches on that column",
+        "as": "সেই স্তম্ভত সন্ধান দ্ৰুত কৰিবলৈ"
+      },
+      {
+        "en": "reduce the disk space used",
+        "as": "ব্যৱহৃত ডিস্ক স্থান কমাবলৈ"
+      },
+      {
+        "en": "encrypt the values",
+        "as": "মানবোৰ এনক্ৰিপ্ট কৰিবলৈ"
+      },
+      {
+        "en": "prevent null values",
+        "as": "শূন্য মান ৰোধ কৰিবলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An index is a separate structure that lets the engine find rows without scanning the whole table, which is why searches speed up. It actually uses extra space, does not encrypt and does not enforce null rules.",
+      "as": "সূচী এটা পৃথক গঠন যিয়ে ইঞ্জিনক গোটেই তালিকা স্কেন নকৰাকৈ শাৰী বিচাৰিবলৈ দিয়ে, সেয়ে সন্ধান দ্ৰুত হয়। ই আচলতে অতিৰিক্ত স্থান লয়, এনক্ৰিপ্ট নকৰে আৰু শূন্যৰ নিয়ম বলবৎ নকৰে।"
+    }
+  },
+  {
+    "id": "computer-297",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The two's complement of the 4 bit binary number 0110 is",
+      "as": "৪ বিট দ্বিমিক সংখ্যা ০১১০ ৰ দুইৰ পূৰক"
+    },
+    "options": [
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "0111",
+        "as": "০১১১"
+      },
+      {
+        "en": "1100",
+        "as": "১১০০"
+      },
+      {
+        "en": "1010",
+        "as": "১০১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Inverting the bits gives 1001 and adding one gives 1010, which represents minus six. 1001 is only the inversion, and 0111 and 1100 are unrelated values.",
+      "as": "বিটবোৰ ওলটালে ১০০১ আৰু এক যোগ কৰিলে ১০১০, যিয়ে ঋণাত্মক ছয় বুজায়। ১০০১ কেৱল ওলোটা, আৰু ০১১১ তথা ১১০০ অসম্পৰ্কীয় মান।"
+    }
+  },
+  {
+    "id": "computer-298",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A view in a database is best described as",
+      "as": "ডেটাবেছৰ ভিউ ক শ্ৰেষ্ঠভাৱে বৰ্ণনা কৰা হয়"
+    },
+    "options": [
+      {
+        "en": "a backup of the database",
+        "as": "ডেটাবেছৰ বেকআপ"
+      },
+      {
+        "en": "an index on two columns",
+        "as": "দুটা স্তম্ভৰ সূচী"
+      },
+      {
+        "en": "a stored query that behaves like a table",
+        "as": "তালিকা যেন ব্যৱহাৰ হোৱা সাঁচি ৰখা প্ৰশ্ন"
+      },
+      {
+        "en": "a physical copy of all rows",
+        "as": "সকলো শাৰীৰ ভৌতিক নকল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A view stores the query definition rather than the data, so it presents a virtual table over the base tables. It is not a copy, a backup or an index.",
+      "as": "ভিউৱে তথ্য নহয় প্ৰশ্নৰ সংজ্ঞা সাঁচি ৰাখে, সেয়ে ই মূল তালিকাৰ ওপৰত এটা আভাসমূলক তালিকা দিয়ে। ই নকল, বেকআপ বা সূচী নহয়।"
+    }
+  },
+  {
+    "id": "computer-299",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "The decimal value of the binary fraction 0.101 is",
+      "as": "দ্বিমিক ভগ্নাংশ ০.১০১ ৰ দশমিক মান"
+    },
+    "options": [
+      {
+        "en": "0.375",
+        "as": "০.৩৭৫"
+      },
+      {
+        "en": "0.625",
+        "as": "০.৬২৫"
+      },
+      {
+        "en": "0.5",
+        "as": "০.৫"
+      },
+      {
+        "en": "0.75",
+        "as": "০.৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The bits stand for one half, zero quarters and one eighth, and 0.5 plus 0.125 is 0.625. The other values would need different bit patterns.",
+      "as": "বিটবোৰে আধা, শূন্য চতুৰ্থাংশ আৰু এক অষ্টমাংশ বুজায়, আৰু ০.৫ যোগ ০.১২৫ = ০.৬২৫। আন মানৰ বাবে বেলেগ বিট আৰ্হি লাগে।"
+    }
+  },
+  {
+    "id": "computer-300",
+    "leaf": "dbms-number-system",
+    "q": {
+      "en": "A table has columns order_id, product_id and quantity, with the key being order_id plus product_id. Storing product_name here violates",
+      "as": "তালিকাত order_id, product_id আৰু quantity স্তম্ভ আছে, কি হ'ল order_id লগতে product_id। ইয়াত product_name ৰখাই উলংঘা কৰে"
+    },
+    "options": [
+      {
+        "en": "second normal form, because it depends on only part of the key",
+        "as": "দ্বিতীয় স্বাভাৱিক ৰূপ, কাৰণ ই কিৰ কেৱল এটা অংশৰ ওপৰত নিৰ্ভৰশীল"
+      },
+      {
+        "en": "first normal form, because values are not atomic",
+        "as": "প্ৰথম স্বাভাৱিক ৰূপ, কাৰণ মান পাৰমাণৱিক নহয়"
+      },
+      {
+        "en": "third normal form, because of a transitive dependency",
+        "as": "তৃতীয় স্বাভাৱিক ৰূপ, কাৰণ পাৰগম্য নিৰ্ভৰশীলতা"
+      },
+      {
+        "en": "no normal form at all",
+        "as": "কোনো স্বাভাৱিক ৰূপ নহয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The product name depends on product_id alone, not on the whole composite key, which is a partial dependency that second normal form removes. Atomicity is not the issue, and a transitive dependency involves a non key attribute determining another.",
+      "as": "পণ্যৰ নাম কেৱল product_id ৰ ওপৰত নিৰ্ভৰশীল, গোটেই যৌগিক কিৰ ওপৰত নহয়, যি আংশিক নিৰ্ভৰশীলতা আৰু দ্বিতীয় স্বাভাৱিক ৰূপে তাক আঁতৰায়। পাৰমাণৱিকতা সমস্যা নহয়, আৰু পাৰগম্য নিৰ্ভৰশীলতাত এটা অ-কি গুণে আন এটাক নিৰ্ণয় কৰে।"
+    }
+  }
+]

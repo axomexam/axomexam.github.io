@@ -1,0 +1,3038 @@
+[
+  {
+    "id": "numerical-029",
+    "q": {
+      "en": "A car covers a distance in 5 hours at 60 km/h. To cover the same distance in 4 hours its speed must be",
+      "as": "এখন গাড়ীয়ে ৬০ কিমি/ঘণ্টা বেগেৰে এটা দূৰত্ব ৫ ঘণ্টাত অতিক্ৰম কৰে। একেই দূৰত্ব ৪ ঘণ্টাত অতিক্ৰম কৰিবলৈ বেগ কিমান হ'ব লাগিব"
+    },
+    "options": [
+      {
+        "en": "75 km/h",
+        "as": "৭৫ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "72 km/h",
+        "as": "৭২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "80 km/h",
+        "as": "৮০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "70 km/h",
+        "as": "৭০ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 60 × 5 = 300 km. Speed for 4 hours = 300 ÷ 4 = 75 km/h.",
+      "as": "দূৰত্ব = ৬০ × ৫ = ৩০০ কিমি। ৪ ঘণ্টাৰ বাবে বেগ = ৩০০ ÷ ৪ = ৭৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "numerical-030",
+    "q": {
+      "en": "A man walks at 5 km/h and reaches office 10 minutes late. At 6 km/h he reaches 5 minutes early. The distance to the office is",
+      "as": "এজন লোকে ৫ কিমি/ঘণ্টা বেগেৰে খোজ কাঢ়ি অফিচত ১০ মিনিট দেৰিকৈ পায়। ৬ কিমি/ঘণ্টা বেগেৰে ৫ মিনিট আগতীয়াকৈ পায়। অফিচলৈ দূৰত্ব কিমান"
+    },
+    "options": [
+      {
+        "en": "7.5 km",
+        "as": "৭.৫ কিমি"
+      },
+      {
+        "en": "6 km",
+        "as": "৬ কিমি"
+      },
+      {
+        "en": "8 km",
+        "as": "৮ কিমি"
+      },
+      {
+        "en": "9 km",
+        "as": "৯ কিমি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The time difference is 15 minutes = 1/4 hour. With distance d, d/5 - d/6 = 1/4, so d/30 = 1/4 and d = 7.5 km.",
+      "as": "সময়ৰ পাৰ্থক্য ১৫ মিনিট = ১/৪ ঘণ্টা। দূৰত্ব d হ'লে d/৫ - d/৬ = ১/৪, সেয়ে d/৩০ = ১/৪ আৰু d = ৭.৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-001",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 60 km/h for 4 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৬০ km/h বেগেৰে ৪ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = speed × time = 60 × 4 = 240 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৬০ × ৪ = ২৪০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-002",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 75 km/h for 3 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৭৫ km/h বেগেৰে ৩ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "112.5",
+        "as": "১১২.৫"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = speed × time = 75 × 3 = 225 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৭৫ × ৩ = ২২৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-003",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 45 km/h for 5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৪৫ km/h বেগেৰে ৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "112.5",
+        "as": "১১২.৫"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = speed × time = 45 × 5 = 225 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৪৫ × ৫ = ২২৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-004",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 80 km/h for 2.5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৮০ km/h বেগেৰে ২.৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "82.5",
+        "as": "৮২.৫"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = speed × time = 80 × 2.5 = 200.0 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৮০ × ২.৫ = ২০০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-005",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 90 km/h for 4 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৯০ km/h বেগেৰে ৪ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "94",
+        "as": "৯৪"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "720",
+        "as": "৭২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = speed × time = 90 × 4 = 360 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৯০ × ৪ = ৩৬০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-006",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 55 km/h for 6 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৫৫ km/h বেগেৰে ৬ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "330",
+        "as": "৩৩০"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "165.0",
+        "as": "১৬৫.০"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = speed × time = 55 × 6 = 330 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৫৫ × ৬ = ৩৩০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-007",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 120 km/h for 1.5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ১২০ km/h বেগেৰে ১.৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "121.5",
+        "as": "১২১.৫"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = speed × time = 120 × 1.5 = 180.0 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ১২০ × ১.৫ = ১৮০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-008",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 70 km/h for 3 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৭০ km/h বেগেৰে ৩ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "73",
+        "as": "৭৩"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "105.0",
+        "as": "১০৫.০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = speed × time = 70 × 3 = 210 km.",
+      "as": "দূৰত্ব = বেগ × সময় = ৭০ × ৩ = ২১০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-009",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 30 km/h and returns at 60 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ৩০ km/h বেগেৰে যায় আৰু ৬০ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×30×60/90 = 40.0 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ৪০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-010",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 40 km/h and returns at 60 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ৪০ km/h বেগেৰে যায় আৰু ৬০ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "53.0",
+        "as": "৫৩.০"
+      },
+      {
+        "en": "43.0",
+        "as": "৪৩.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×40×60/100 = 48.0 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ৪৮.০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-011",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 20 km/h and returns at 30 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ২০ km/h বেগেৰে যায় আৰু ৩০ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "29.0",
+        "as": "২৯.০"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×20×30/50 = 24.0 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ২৪.০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-012",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 50 km/h and returns at 70 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ৫০ km/h বেগেৰে যায় আৰু ৭০ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "58.33",
+        "as": "৫৮.৩৩"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "63.33",
+        "as": "৬৩.৩৩"
+      },
+      {
+        "en": "53.33",
+        "as": "৫৩.৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×50×70/120 = 58.33 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ৫৮.৩৩ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-013",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 12 km/h and returns at 18 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ১২ km/h বেগেৰে যায় আৰু ১৮ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "14.4",
+        "as": "১৪.৪"
+      },
+      {
+        "en": "19.4",
+        "as": "১৯.৪"
+      },
+      {
+        "en": "9.4",
+        "as": "৯.৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×12×18/30 = 14.4 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ১৪.৪ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-014",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 25 km/h and returns at 75 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ২৫ km/h বেগেৰে যায় আৰু ৭৫ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "42.5",
+        "as": "৪২.৫"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "32.5",
+        "as": "৩২.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "For equal distances, average speed = 2xy/(x+y) = 2×25×75/100 = 37.5 km/h.",
+      "as": "সমান দূৰত্বৰ বাবে গড় বেগ = 2xy/(x+y) = ৩৭.৫ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-015",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 80 km/h and 60 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ৮০ km/h আৰু ৬০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Same direction: relative speed = 80 - 60 = 20 km/h.",
+      "as": "একে দিশত আপেক্ষিক বেগ = ৮০ - ৬০ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-016",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 90 km/h and 70 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ৯০ km/h আৰু ৭০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Same direction: relative speed = 90 - 70 = 20 km/h.",
+      "as": "একে দিশত আপেক্ষিক বেগ = ৯০ - ৭০ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-017",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 100 km/h and 80 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ১০০ km/h আৰু ৮০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Same direction: relative speed = 100 - 80 = 20 km/h.",
+      "as": "একে দিশত আপেক্ষিক বেগ = ১০০ - ৮০ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-018",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 75 km/h and 55 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ৭৫ km/h আৰু ৫৫ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "130",
+        "as": "১৩০"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Same direction: relative speed = 75 - 55 = 20 km/h.",
+      "as": "একে দিশত আপেক্ষিক বেগ = ৭৫ - ৫৫ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-019",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 120 km/h and 90 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ১২০ km/h আৰু ৯০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Same direction: relative speed = 120 - 90 = 30 km/h.",
+      "as": "একে দিশত আপেক্ষিক বেগ = ১২০ - ৯০ = ৩০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-020",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 60 km/h and 40 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৬০ km/h আৰু ৪০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Opposite directions: relative speed = 60 + 40 = 100 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক বেগ = ৬০ + ৪০ = ১০০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-021",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 75 km/h and 45 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৭৫ km/h আৰু ৪৫ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Opposite directions: relative speed = 75 + 45 = 120 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক বেগ = ৭৫ + ৪৫ = ১২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-022",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 90 km/h and 60 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৯০ km/h আৰু ৬০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Opposite directions: relative speed = 90 + 60 = 150 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক বেগ = ৯০ + ৬০ = ১৫০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-023",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 50 km/h and 30 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৫০ km/h আৰু ৩০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Opposite directions: relative speed = 50 + 30 = 80 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক বেগ = ৫০ + ৩০ = ৮০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-024",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 110 km/h and 70 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ১১০ km/h আৰু ৭০ km/h বেগেৰে যায়। তেওঁলোকৰ আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Opposite directions: relative speed = 110 + 70 = 180 km/h.",
+      "as": "বিপৰীত দিশত আপেক্ষিক বেগ = ১১০ + ৭০ = ১৮০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-025",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 36 km/h into m/s.",
+      "as": "৩৬ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "129.6",
+        "as": "১২৯.৬"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply by 5/18: 36 × 5/18 = 10.0 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ১০.০ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-026",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 54 km/h into m/s.",
+      "as": "৫৪ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "194.4",
+        "as": "১৯৪.৪"
+      },
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply by 5/18: 54 × 5/18 = 15.0 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ১৫.০ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-027",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 72 km/h into m/s.",
+      "as": "৭২ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "259.2",
+        "as": "২৫৯.২"
+      },
+      {
+        "en": "36.0",
+        "as": "৩৬.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply by 5/18: 72 × 5/18 = 20.0 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ২০.০ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-028",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 90 km/h into m/s.",
+      "as": "৯০ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "324.0",
+        "as": "৩২৪.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply by 5/18: 90 × 5/18 = 25.0 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ২৫.০ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-029",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 108 km/h into m/s.",
+      "as": "১০৮ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "388.8",
+        "as": "৩৮৮.৮"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply by 5/18: 108 × 5/18 = 30.0 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ৩০.০ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-030",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 45 km/h into m/s.",
+      "as": "৪৫ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "162.0",
+        "as": "১৬২.০"
+      },
+      {
+        "en": "22.5",
+        "as": "২২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply by 5/18: 45 × 5/18 = 12.5 m/s.",
+      "as": "৫/১৮ ৰে পূৰণ কৰিলে ১২.৫ m/s পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-031",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 600 km at 50 km/h and another covers the same distance at 60 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৬০০ কিমি ৫০ km/h বেগেৰে আৰু আনখনে ৬০ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time at 50 km/h = 12.0 h; at 60 km/h = 10.0 h. Difference = 2.0 h.",
+      "as": "সময়ৰ পাৰ্থক্য = ২.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-032",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 720 km at 60 km/h and another covers the same distance at 80 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৭২০ কিমি ৬০ km/h বেগেৰে আৰু আনখনে ৮০ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21.0",
+        "as": "২১.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time at 60 km/h = 12.0 h; at 80 km/h = 9.0 h. Difference = 3.0 h.",
+      "as": "সময়ৰ পাৰ্থক্য = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-033",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 480 km at 40 km/h and another covers the same distance at 60 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৪৮০ কিমি ৪০ km/h বেগেৰে আৰু আনখনে ৬০ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time at 40 km/h = 12.0 h; at 60 km/h = 8.0 h. Difference = 4.0 h.",
+      "as": "সময়ৰ পাৰ্থক্য = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-034",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 900 km at 75 km/h and another covers the same distance at 90 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৯০০ কিমি ৭৫ km/h বেগেৰে আৰু আনখনে ৯০ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time at 75 km/h = 12.0 h; at 90 km/h = 10.0 h. Difference = 2.0 h.",
+      "as": "সময়ৰ পাৰ্থক্য = ২.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-035",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 300 km apart and move towards each other at 40 km/h and 60 km/h. After how many hours will they meet?",
+      "as": "৩০০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৪০ km/h আৰু ৬০ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 40 + 60 = 100 km/h, so time = 300/100 = 3.0 h.",
+      "as": "আপেক্ষিক বেগ = ১০০ km/h, সেয়ে সময় = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-036",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 450 km apart and move towards each other at 50 km/h and 70 km/h. After how many hours will they meet?",
+      "as": "৪৫০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৫০ km/h আৰু ৭০ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "3.75",
+        "as": "৩.৭৫"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "6.43",
+        "as": "৬.৪৩"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 50 + 70 = 120 km/h, so time = 450/120 = 3.75 h.",
+      "as": "আপেক্ষিক বেগ = ১২০ km/h, সেয়ে সময় = ৩.৭৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-037",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 240 km apart and move towards each other at 30 km/h and 50 km/h. After how many hours will they meet?",
+      "as": "২৪০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৩০ km/h আৰু ৫০ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 30 + 50 = 80 km/h, so time = 240/80 = 3.0 h.",
+      "as": "আপেক্ষিক বেগ = ৮০ km/h, সেয়ে সময় = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-038",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 600 km apart and move towards each other at 80 km/h and 70 km/h. After how many hours will they meet?",
+      "as": "৬০০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৮০ km/h আৰু ৭০ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "8.57",
+        "as": "৮.৫৭"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Relative speed = 80 + 70 = 150 km/h, so time = 600/150 = 4.0 h.",
+      "as": "আপেক্ষিক বেগ = ১৫০ km/h, সেয়ে সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-039",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 30 km/h reaches his destination 1 hour(s) late, but at 40 km/h he reaches 1 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ৩০ km/h বেগেৰে গ'লে ১ ঘণ্টা দেৰি হয়, কিন্তু ৪০ km/h বেগেৰে গ'লে ১ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time difference = 2 h = D/30 - D/40, so D = 120 km.",
+      "as": "সময়ৰ পাৰ্থক্য = ২ ঘণ্টা, সেয়ে D = ১২০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-040",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 45 km/h reaches his destination 1 hour(s) late, but at 60 km/h he reaches 1 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ৪৫ km/h বেগেৰে গ'লে ১ ঘণ্টা দেৰি হয়, কিন্তু ৬০ km/h বেগেৰে গ'লে ১ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time difference = 2 h = D/45 - D/60, so D = 180 km.",
+      "as": "সময়ৰ পাৰ্থক্য = ২ ঘণ্টা, সেয়ে D = ১৮০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-041",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 40 km/h reaches his destination 2 hour(s) late, but at 60 km/h he reaches 2 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ৪০ km/h বেগেৰে গ'লে ২ ঘণ্টা দেৰি হয়, কিন্তু ৬০ km/h বেগেৰে গ'লে ২ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "270",
+        "as": "২৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time difference = 4 h = D/40 - D/60, so D = 240 km.",
+      "as": "সময়ৰ পাৰ্থক্য = ৪ ঘণ্টা, সেয়ে D = ২৪০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-042",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 50 km/h reaches his destination 1 hour(s) late, but at 75 km/h he reaches 1 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ৫০ km/h বেগেৰে গ'লে ১ ঘণ্টা দেৰি হয়, কিন্তু ৭৫ km/h বেগেৰে গ'লে ১ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time difference = 2 h = D/50 - D/75, so D = 150 km.",
+      "as": "সময়ৰ পাৰ্থক্য = ২ ঘণ্টা, সেয়ে D = ১৫০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-043",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 120 km at 60 km/h and then 180 km at 90 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ১২০ কিমি ৬০ km/h বেগেৰে আৰু তাৰ পিছত ১৮০ কিমি ৯০ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total time = 120/60 + 180/90 = 4.0 hours.",
+      "as": "মুঠ সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-044",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 150 km at 50 km/h and then 200 km at 80 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ১৫০ কিমি ৫০ km/h বেগেৰে আৰু তাৰ পিছত ২০০ কিমি ৮০ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.69",
+        "as": "২.৬৯"
+      },
+      {
+        "en": "5.5",
+        "as": "৫.৫"
+      },
+      {
+        "en": "2.75",
+        "as": "২.৭৫"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total time = 150/50 + 200/80 = 5.5 hours.",
+      "as": "মুঠ সময় = ৫.৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-045",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 90 km at 45 km/h and then 120 km at 60 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ৯০ কিমি ৪৫ km/h বেগেৰে আৰু তাৰ পিছত ১২০ কিমি ৬০ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total time = 90/45 + 120/60 = 4.0 hours.",
+      "as": "মুঠ সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-046",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 400 m at speeds 10 m/s and 6 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৪০০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ১০ m/s আৰু ৬ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Relative speed = 4 m/s; time = 400/4 = 100.0 s.",
+      "as": "আপেক্ষিক বেগ = ৪ m/s; সময় = ১০০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-047",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 600 m at speeds 15 m/s and 9 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৬০০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ১৫ m/s আৰু ৯ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 6 m/s; time = 600/6 = 100.0 s.",
+      "as": "আপেক্ষিক বেগ = ৬ m/s; সময় = ১০০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-048",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 800 m at speeds 20 m/s and 12 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৮০০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ২০ m/s আৰু ১২ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 8 m/s; time = 800/8 = 100.0 s.",
+      "as": "আপেক্ষিক বেগ = ৮ m/s; সময় = ১০০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-049",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 500 m at speeds 12 m/s and 8 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৫০০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ১২ m/s আৰু ৮ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "125.0",
+        "as": "১২৫.০"
+      },
+      {
+        "en": "62.5",
+        "as": "৬২.৫"
+      },
+      {
+        "en": "250.0",
+        "as": "২৫০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 4 m/s; time = 500/4 = 125.0 s.",
+      "as": "আপেক্ষিক বেগ = ৪ m/s; সময় = ১২৫.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-050",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 3 : 4. If the distance between the towns is 120 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৩ : ৪। চহৰ দুখনৰ দূৰত্ব ১২০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "68.57",
+        "as": "৬৮.৫৭"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "51.43",
+        "as": "৫১.৪৩"
+      },
+      {
+        "en": "102.86",
+        "as": "১০২.৮৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance is shared in the ratio of speeds. Slower car covers 120×3/7 = 51.43 km.",
+      "as": "দূৰত্ব বেগৰ অনুপাতত ভাগ হয়। সৰু গাড়ী = ৫১.৪৩ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-051",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 5 : 7. If the distance between the towns is 210 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৫ : ৭। চহৰ দুখনৰ দূৰত্ব ২১০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "122.5",
+        "as": "১২২.৫"
+      },
+      {
+        "en": "105.0",
+        "as": "১০৫.০"
+      },
+      {
+        "en": "175.0",
+        "as": "১৭৫.০"
+      },
+      {
+        "en": "87.5",
+        "as": "৮৭.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance is shared in the ratio of speeds. Slower car covers 210×5/12 = 87.5 km.",
+      "as": "দূৰত্ব বেগৰ অনুপাতত ভাগ হয়। সৰু গাড়ী = ৮৭.৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-052",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 2 : 5. If the distance between the towns is 140 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ২ : ৫। চহৰ দুখনৰ দূৰত্ব ১৪০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "70.0",
+        "as": "৭০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance is shared in the ratio of speeds. Slower car covers 140×2/7 = 40.0 km.",
+      "as": "দূৰত্ব বেগৰ অনুপাতত ভাগ হয়। সৰু গাড়ী = ৪০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-053",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 7 : 9. If the distance between the towns is 288 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৭ : ৯। চহৰ দুখনৰ দূৰত্ব ২৮৮ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "162.0",
+        "as": "১৬২.০"
+      },
+      {
+        "en": "126.0",
+        "as": "১২৬.০"
+      },
+      {
+        "en": "144.0",
+        "as": "১৪৪.০"
+      },
+      {
+        "en": "252.0",
+        "as": "২৫২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance is shared in the ratio of speeds. Slower car covers 288×7/16 = 126.0 km.",
+      "as": "দূৰত্ব বেগৰ অনুপাতত ভাগ হয়। সৰু গাড়ী = ১২৬.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-054",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The ratio of speeds of two cars is 3 : 4. If the slower car takes 1 hour(s) more than the faster to cover the same distance, find the time taken by the faster car.",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৩ : ৪। একে দূৰত্বত সৰু বেগৰ গাড়ীয়ে ১ ঘণ্টা বেছি লয়। দ্ৰুত গাড়ীৰ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time ratio = 4:3; difference = (4-3) parts = 1, so faster car takes 3 hours.",
+      "as": "সময়ৰ অনুপাত = ৪:৩; দ্ৰুত গাড়ীৰ সময় ৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-055",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The ratio of speeds of two cars is 5 : 6. If the slower car takes 2 hour(s) more than the faster to cover the same distance, find the time taken by the faster car.",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৫ : ৬। একে দূৰত্বত সৰু বেগৰ গাড়ীয়ে ২ ঘণ্টা বেছি লয়। দ্ৰুত গাড়ীৰ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time ratio = 6:5; difference = (6-5) parts = 2, so faster car takes 10 hours.",
+      "as": "সময়ৰ অনুপাত = ৬:৫; দ্ৰুত গাড়ীৰ সময় ১০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-056",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The ratio of speeds of two cars is 4 : 5. If the slower car takes 1 hour(s) more than the faster to cover the same distance, find the time taken by the faster car.",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৪ : ৫। একে দূৰত্বত সৰু বেগৰ গাড়ীয়ে ১ ঘণ্টা বেছি লয়। দ্ৰুত গাড়ীৰ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time ratio = 5:4; difference = (5-4) parts = 1, so faster car takes 4 hours.",
+      "as": "সময়ৰ অনুপাত = ৫:৪; দ্ৰুত গাড়ীৰ সময় ৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-057",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The ratio of speeds of two cars is 7 : 8. If the slower car takes 3 hour(s) more than the faster to cover the same distance, find the time taken by the faster car.",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৭ : ৮। একে দূৰত্বত সৰু বেগৰ গাড়ীয়ে ৩ ঘণ্টা বেছি লয়। দ্ৰুত গাড়ীৰ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time ratio = 8:7; difference = (8-7) parts = 3, so faster car takes 21 hours.",
+      "as": "সময়ৰ অনুপাত = ৮:৭; দ্ৰুত গাড়ীৰ সময় ২১ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-058",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 65 km/h for 4 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৬৫ km/h বেগেৰে ৪ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "69",
+        "as": "৬৯"
+      },
+      {
+        "en": "130.0",
+        "as": "১৩০.০"
+      },
+      {
+        "en": "520",
+        "as": "৫২০"
+      },
+      {
+        "en": "260",
+        "as": "২৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = 65 × 4 = 260 km.",
+      "as": "দূৰত্ব = ২৬০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-059",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 85 km/h for 2 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৮৫ km/h বেগেৰে ২ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "87",
+        "as": "৮৭"
+      },
+      {
+        "en": "85.0",
+        "as": "৮৫.০"
+      },
+      {
+        "en": "340",
+        "as": "৩৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 85 × 2 = 170 km.",
+      "as": "দূৰত্ব = ১৭০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-060",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 48 km/h for 7.5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৪৮ km/h বেগেৰে ৭.৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "55.5",
+        "as": "৫৫.৫"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 48 × 7.5 = 360.0 km.",
+      "as": "দূৰত্ব = ৩৬০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-061",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 95 km/h for 3 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৯৫ km/h বেগেৰে ৩ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "285",
+        "as": "২৮৫"
+      },
+      {
+        "en": "142.5",
+        "as": "১৪২.৫"
+      },
+      {
+        "en": "570",
+        "as": "৫৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 95 × 3 = 285 km.",
+      "as": "দূৰত্ব = ২৮৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-062",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 110 km/h for 2.5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ১১০ km/h বেগেৰে ২.৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "112.5",
+        "as": "১১২.৫"
+      },
+      {
+        "en": "137.5",
+        "as": "১৩৭.৫"
+      },
+      {
+        "en": "275.0",
+        "as": "২৭৫.০"
+      },
+      {
+        "en": "550.0",
+        "as": "৫৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = 110 × 2.5 = 275.0 km.",
+      "as": "দূৰত্ব = ২৭৫.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-063",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car travels at 58 km/h for 5 hours. Find the distance covered.",
+      "as": "এখন গাড়ীয়ে ৫৮ km/h বেগেৰে ৫ ঘণ্টা যায়। অতিক্ৰম কৰা দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "145.0",
+        "as": "১৪৫.০"
+      },
+      {
+        "en": "580",
+        "as": "৫৮০"
+      },
+      {
+        "en": "290",
+        "as": "২৯০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = 58 × 5 = 290 km.",
+      "as": "দূৰত্ব = ২৯০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-064",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 15 km/h and returns at 45 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ১৫ km/h বেগেৰে যায় আৰু ৪৫ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "27.5",
+        "as": "২৭.৫"
+      },
+      {
+        "en": "22.5",
+        "as": "২২.৫"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Average speed = 2xy/(x+y) = 22.5 km/h.",
+      "as": "গড় বেগ = ২২.৫ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-065",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 20 km/h and returns at 60 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ২০ km/h বেগেৰে যায় আৰু ৬০ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Average speed = 2xy/(x+y) = 30.0 km/h.",
+      "as": "গড় বেগ = ৩০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-066",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 35 km/h and returns at 55 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ৩৫ km/h বেগেৰে যায় আৰু ৫৫ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42.78",
+        "as": "৪২.৭৮"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "47.78",
+        "as": "৪৭.৭৮"
+      },
+      {
+        "en": "37.78",
+        "as": "৩৭.৭৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Average speed = 2xy/(x+y) = 42.78 km/h.",
+      "as": "গড় বেগ = ৪২.৭৮ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-067",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car goes from A to B at 18 km/h and returns at 36 km/h. Find its average speed for the whole journey.",
+      "as": "এখন গাড়ীয়ে A ৰ পৰা B লৈ ১৮ km/h বেগেৰে যায় আৰু ৩৬ km/h বেগেৰে উভতি আহে। সমগ্ৰ যাত্ৰাৰ গড় বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "29.0",
+        "as": "২৯.০"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Average speed = 2xy/(x+y) = 24.0 km/h.",
+      "as": "গড় বেগ = ২৪.০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-068",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 85 km/h and 65 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ৮৫ km/h আৰু ৬৫ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 85 - 65 = 20 km/h.",
+      "as": "আপেক্ষিক বেগ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-069",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 95 km/h and 75 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ৯৫ km/h আৰু ৭৫ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "170",
+        "as": "১৭০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Relative speed = 95 - 75 = 20 km/h.",
+      "as": "আপেক্ষিক বেগ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-070",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel in the same direction at 110 km/h and 85 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী একে দিশত ১১০ km/h আৰু ৮৫ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "195",
+        "as": "১৯৫"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Relative speed = 110 - 85 = 25 km/h.",
+      "as": "আপেক্ষিক বেগ = ২৫ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-071",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 65 km/h and 35 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৬৫ km/h আৰু ৩৫ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 65 + 35 = 100 km/h.",
+      "as": "আপেক্ষিক বেগ = ১০০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-072",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 80 km/h and 50 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৮০ km/h আৰু ৫০ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "130",
+        "as": "১৩০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Relative speed = 80 + 50 = 130 km/h.",
+      "as": "আপেক্ষিক বেগ = ১৩০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-073",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars travel towards each other at 95 km/h and 65 km/h. Find their relative speed.",
+      "as": "দুখন গাড়ী পৰস্পৰৰ ফালে ৯৫ km/h আৰু ৬৫ km/h বেগেৰে যায়। আপেক্ষিক বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Relative speed = 95 + 65 = 160 km/h.",
+      "as": "আপেক্ষিক বেগ = ১৬০ km/h।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-074",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 18 km/h into m/s.",
+      "as": "১৮ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "64.8",
+        "as": "৬৪.৮"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "18 × 5/18 = 5.0 m/s.",
+      "as": "১৮ × ৫/১৮ = ৫.০ m/s।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-075",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 27 km/h into m/s.",
+      "as": "২৭ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "97.2",
+        "as": "৯৭.২"
+      },
+      {
+        "en": "13.5",
+        "as": "১৩.৫"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "27 × 5/18 = 7.5 m/s.",
+      "as": "২৭ × ৫/১৮ = ৭.৫ m/s।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-076",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 63 km/h into m/s.",
+      "as": "৬৩ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "226.8",
+        "as": "২২৬.৮"
+      },
+      {
+        "en": "31.5",
+        "as": "৩১.৫"
+      },
+      {
+        "en": "17.5",
+        "as": "১৭.৫"
+      },
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "63 × 5/18 = 17.5 m/s.",
+      "as": "৬৩ × ৫/১৮ = ১৭.৫ m/s।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-077",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 81 km/h into m/s.",
+      "as": "৮১ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "291.6",
+        "as": "২৯১.৬"
+      },
+      {
+        "en": "22.5",
+        "as": "২২.৫"
+      },
+      {
+        "en": "40.5",
+        "as": "৪০.৫"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "81 × 5/18 = 22.5 m/s.",
+      "as": "৮১ × ৫/১৮ = ২২.৫ m/s।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-078",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Convert 126 km/h into m/s.",
+      "as": "১২৬ km/h ক m/s লৈ ৰূপান্তৰ কৰা।"
+    },
+    "options": [
+      {
+        "en": "35.0",
+        "as": "৩৫.০"
+      },
+      {
+        "en": "453.6",
+        "as": "৪৫৩.৬"
+      },
+      {
+        "en": "63.0",
+        "as": "৬৩.০"
+      },
+      {
+        "en": "70.0",
+        "as": "৭০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "126 × 5/18 = 35.0 m/s.",
+      "as": "১২৬ × ৫/১৮ = ৩৫.০ m/s।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-079",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 540 km at 45 km/h and another covers the same distance at 60 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৫৪০ কিমি ৪৫ km/h আৰু আনখনে ৬০ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21.0",
+        "as": "২১.০"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = 540/45 - 540/60 = 3.0 h.",
+      "as": "পাৰ্থক্য = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-080",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 840 km at 70 km/h and another covers the same distance at 84 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৮৪০ কিমি ৭০ km/h আৰু আনখনে ৮৪ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = 840/70 - 840/84 = 2.0 h.",
+      "as": "পাৰ্থক্য = ২.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-081",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A car covers 360 km at 30 km/h and another covers the same distance at 45 km/h. Find the difference in time.",
+      "as": "এখন গাড়ীয়ে ৩৬০ কিমি ৩০ km/h আৰু আনখনে ৪৫ km/h বেগেৰে যায়। সময়ৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = 360/30 - 360/45 = 4.0 h.",
+      "as": "পাৰ্থক্য = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-082",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 360 km apart and move towards each other at 45 km/h and 75 km/h. After how many hours will they meet?",
+      "as": "৩৬০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৪৫ km/h আৰু ৭৫ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 360/(45+75) = 3.0 h.",
+      "as": "সময় = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-083",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 280 km apart and move towards each other at 35 km/h and 45 km/h. After how many hours will they meet?",
+      "as": "২৮০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৩৫ km/h আৰু ৪৫ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "3.5",
+        "as": "৩.৫"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "6.22",
+        "as": "৬.২২"
+      },
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = 280/(35+45) = 3.5 h.",
+      "as": "সময় = ৩.৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-084",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two cars start from two towns 520 km apart and move towards each other at 60 km/h and 70 km/h. After how many hours will they meet?",
+      "as": "৫২০ কিমি দূৰত্বৰ দুখন চহৰৰ পৰা দুখন গাড়ী পৰস্পৰৰ ফালে ৬০ km/h আৰু ৭০ km/h বেগেৰে ওলায়। কিমান ঘণ্টাত লগ পাব?"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.67",
+        "as": "৮.৬৭"
+      },
+      {
+        "en": "7.43",
+        "as": "৭.৪৩"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = 520/(60+70) = 4.0 h.",
+      "as": "সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-085",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 20 km/h reaches his destination 1 hour(s) late, but at 30 km/h he reaches 1 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ২০ km/h বেগেৰে গ'লে ১ ঘণ্টা দেৰি হয়, কিন্তু ৩০ km/h বেগেৰে গ'লে ১ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "110",
+        "as": "১১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2×1 = D/20 - D/30, so D = 90 km.",
+      "as": "D = ৯০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-086",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 25 km/h reaches his destination 2 hour(s) late, but at 50 km/h he reaches 2 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ২৫ km/h বেগেৰে গ'লে ২ ঘণ্টা দেৰি হয়, কিন্তু ৫০ km/h বেগেৰে গ'লে ২ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "2×2 = D/25 - D/50, so D = 150 km.",
+      "as": "D = ১৫০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-087",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travelling at 40 km/h reaches his destination 1 hour(s) late, but at 50 km/h he reaches 1 hour(s) early. Find the distance.",
+      "as": "এজন মানুহে ৪০ km/h বেগেৰে গ'লে ১ ঘণ্টা দেৰি হয়, কিন্তু ৫০ km/h বেগেৰে গ'লে ১ ঘণ্টা সোনকালে হয়। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2×1 = D/40 - D/50, so D = 200 km.",
+      "as": "D = ২০০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-088",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 180 km at 60 km/h and then 240 km at 80 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ১৮০ কিমি ৬০ km/h আৰু ২৪০ কিমি ৮০ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total time = 6.0 hours.",
+      "as": "মুঠ সময় = ৬.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-089",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 100 km at 50 km/h and then 150 km at 75 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ১০০ কিমি ৫০ km/h আৰু ১৫০ কিমি ৭৫ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total time = 4.0 hours.",
+      "as": "মুঠ সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-090",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "A man travels 240 km at 80 km/h and then 180 km at 60 km/h. Find the total time taken.",
+      "as": "এজন মানুহে ২৪০ কিমি ৮০ km/h আৰু ১৮০ কিমি ৬০ km/h বেগেৰে যায়। মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total time = 6.0 hours.",
+      "as": "মুঠ সময় = ৬.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-091",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 300 m at speeds 8 m/s and 5 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৩০০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ৮ m/s আৰু ৫ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "23.08",
+        "as": "২৩.০৮"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 300/(8-5) = 100.0 s.",
+      "as": "সময় = ১০০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-092",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 720 m at speeds 18 m/s and 10 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৭২০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ১৮ m/s আৰু ১০ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "25.71",
+        "as": "২৫.৭১"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = 720/(18-10) = 90.0 s.",
+      "as": "সময় = ৯০.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-093",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "Two runners run around a circular track of length 450 m at speeds 15 m/s and 9 m/s in the same direction. After how many seconds will the faster runner overtake the slower one?",
+      "as": "৪৫০ মিটাৰ দৈৰ্ঘ্যৰ বৃত্তাকাৰ পথত দুজন ধাৱকে ১৫ m/s আৰু ৯ m/s বেগেৰে একে দিশত দৌৰে। কিমান ছেকেণ্ডত দ্ৰুতজনে লেহুকাক অতিক্ৰম কৰিব?"
+    },
+    "options": [
+      {
+        "en": "18.75",
+        "as": "১৮.৭৫"
+      },
+      {
+        "en": "37.5",
+        "as": "৩৭.৫"
+      },
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 450/(15-9) = 75.0 s.",
+      "as": "সময় = ৭৫.০ ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-094",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 4 : 5. If the distance between the towns is 180 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৪ : ৫। চহৰ দুখনৰ দূৰত্ব ১৮০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "160.0",
+        "as": "১৬০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Slower car covers 180×4/9 = 80.0 km.",
+      "as": "সৰু গাড়ী = ৮০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-095",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 3 : 7. If the distance between the towns is 200 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৩ : ৭। চহৰ দুখনৰ দূৰত্ব ২০০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "140.0",
+        "as": "১৪০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slower car covers 200×3/10 = 60.0 km.",
+      "as": "সৰু গাড়ী = ৬০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-time-speed-distance-096",
+    "leaf": "time-speed-distance",
+    "q": {
+      "en": "The speeds of two cars are in the ratio 5 : 9. If the distance between the towns is 280 km and they start towards each other, how far does the slower car travel before meeting?",
+      "as": "দুখন গাড়ীৰ বেগৰ অনুপাত ৫ : ৯। চহৰ দুখনৰ দূৰত্ব ২৮০ কিমি। লগ পোৱাৰ আগে সৰু বেগৰ গাড়ীয়ে কিমান দূৰ যায়?"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "140.0",
+        "as": "১৪০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Slower car covers 280×5/14 = 100.0 km.",
+      "as": "সৰু গাড়ী = ১০০.০ কিমি।"
+    }
+  }
+]

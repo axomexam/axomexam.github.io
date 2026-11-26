@@ -1,0 +1,3038 @@
+[
+  {
+    "id": "numerical-037",
+    "q": {
+      "en": "If x + 1/x = 3, the value of x² + 1/x² is",
+      "as": "যদি x + ১/x = ৩, তেন্তে x² + ১/x² ৰ মান কিমান"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Squaring both sides: (x + 1/x)² = x² + 2 + 1/x² = 9, so x² + 1/x² = 9 - 2 = 7.",
+      "as": "দুয়োপক্ষে বৰ্গ কৰক: (x + ১/x)² = x² + ২ + ১/x² = ৯, সেয়ে x² + ১/x² = ৯ - ২ = ৭।"
+    }
+  },
+  {
+    "id": "numerical-038",
+    "q": {
+      "en": "If a + b = 10 and ab = 21, then a² + b² equals",
+      "as": "যদি a + b = ১০ আৰু ab = ২১, তেন্তে a² + b² ৰ মান কিমান"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "a² + b² = (a + b)² - 2ab = 100 - 42 = 58.",
+      "as": "a² + b² = (a + b)² - ২ab = ১০০ - ৪২ = ৫৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-001",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 3, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৩, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 3² - 2 = 7.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৩² - ২ = ৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-002",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 4, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৪, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 4² - 2 = 14.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৪² - ২ = ১৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-003",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 5, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৫, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 5² - 2 = 23.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৫² - ২ = ২৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-004",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 6, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৬, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 6² - 2 = 34.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৬² - ২ = ৩৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-005",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 7, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৭, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 7² - 2 = 47.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৭² - ২ = ৪৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-006",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 8, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৮, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 8² - 2 = 62.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৮² - ২ = ৬২।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-007",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 9, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ৯, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      },
+      {
+        "en": "77",
+        "as": "৭৭"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 9² - 2 = 79.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ৯² - ২ = ৭৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-008",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 10, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১০, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "102",
+        "as": "১০২"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Square both sides: (x + 1/x)² = x² + 2 + 1/x². So x² + 1/x² = 10² - 2 = 98.",
+      "as": "দুয়োপক্ষৰ বৰ্গ ল'লে x² + 1/x² = ১০² - ২ = ৯৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-009",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 10 and ab + bc + ca = 30, find a² + b² + c².",
+      "as": "যদি a + b + c = ১০ আৰু ab + bc + ca = ৩০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 10² - 2×30 = 40.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ৪০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-010",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 12 and ab + bc + ca = 40, find a² + b² + c².",
+      "as": "যদি a + b + c = ১২ আৰু ab + bc + ca = ৪০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "104",
+        "as": "১০৪"
+      },
+      {
+        "en": "224",
+        "as": "২২৪"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 12² - 2×40 = 64.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ৬৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-011",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 15 and ab + bc + ca = 60, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৫ আৰু ab + bc + ca = ৬০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "165",
+        "as": "১৬৫"
+      },
+      {
+        "en": "345",
+        "as": "৩৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 15² - 2×60 = 105.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ১০৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-012",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 9 and ab + bc + ca = 20, find a² + b² + c².",
+      "as": "যদি a + b + c = ৯ আৰু ab + bc + ca = ২০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 9² - 2×20 = 41.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ৪১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-013",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 14 and ab + bc + ca = 50, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৪ আৰু ab + bc + ca = ৫০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "196",
+        "as": "১৯৬"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "146",
+        "as": "১৪৬"
+      },
+      {
+        "en": "296",
+        "as": "২৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 14² - 2×50 = 96.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ৯৬।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-014",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 11 and ab + bc + ca = 35, find a² + b² + c².",
+      "as": "যদি a + b + c = ১১ আৰু ab + bc + ca = ৩৫, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "86",
+        "as": "৮৬"
+      },
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "191",
+        "as": "১৯১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca). Hence a²+b²+c² = 11² - 2×35 = 51.",
+      "as": "(a+b+c)² = a²+b²+c² + 2(ab+bc+ca), সেয়ে a²+b²+c² = ৫১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-015",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 6 and ab + bc + ca = 11, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ৬ আৰু ab + bc + ca = ১১, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). Since a²+b²+c² = 6²-2×11, the value is 6×(6²-3×11) = 18.",
+      "as": "সূত্ৰমতে মান = ৬×(৬²-3×১১) = ১৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-016",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 8 and ab + bc + ca = 19, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ৮ আৰু ab + bc + ca = ১৯, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "512",
+        "as": "৫১২"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). Since a²+b²+c² = 8²-2×19, the value is 8×(8²-3×19) = 56.",
+      "as": "সূত্ৰমতে মান = ৮×(৮²-3×১৯) = ৫৬।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-017",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 10 and ab + bc + ca = 31, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ১০ আৰু ab + bc + ca = ৩১, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "690",
+        "as": "৬৯০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). Since a²+b²+c² = 10²-2×31, the value is 10×(10²-3×31) = 70.",
+      "as": "সূত্ৰমতে মান = ১০×(১০²-3×৩১) = ৭০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-018",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 7 and ab + bc + ca = 14, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ৭ আৰু ab + bc + ca = ১৪, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "245",
+        "as": "২৪৫"
+      },
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). Since a²+b²+c² = 7²-2×14, the value is 7×(7²-3×14) = 49.",
+      "as": "সূত্ৰমতে মান = ৭×(৭²-3×১৪) = ৪৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-019",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 9 and ab + bc + ca = 26, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ৯ আৰু ab + bc + ca = ২৬, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "495",
+        "as": "৪৯৫"
+      },
+      {
+        "en": "729",
+        "as": "৭২৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca). Since a²+b²+c² = 9²-2×26, the value is 9×(9²-3×26) = 27.",
+      "as": "সূত্ৰমতে মান = ৯×(৯²-3×২৬) = ২৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-020",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 5)(x + 7).",
+      "as": "(x + ৫)(x + ৭) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "-2",
+        "as": "-২"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 5+7 = 12.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ১২।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-021",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 8)(x + 3).",
+      "as": "(x + ৮)(x + ৩) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 8+3 = 11.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ১১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-022",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 9)(x + 4).",
+      "as": "(x + ৯)(x + ৪) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 9+4 = 13.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ১৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-023",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 6)(x + 11).",
+      "as": "(x + ৬)(x + ১১) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "-5",
+        "as": "-৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 6+11 = 17.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ১৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-024",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 12)(x + 5).",
+      "as": "(x + ১২)(x + ৫) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 12+5 = 17.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ১৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-025",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 7)(x + 13).",
+      "as": "(x + ৭)(x + ১৩) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "-6",
+        "as": "-৬"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(x+a)(x+b) = x² + (a+b)x + ab, so the coefficient of x is 7+13 = 20.",
+      "as": "(x+a)(x+b) = x² + (a+b)x + ab, সেয়ে x ৰ সহগ ২০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-026",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + x² - 3x + 2 is divided by (x - 2).",
+      "as": "x³ + x² - ৩x + ২ ক (x - ২) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By the remainder theorem, substitute x = 2: 2³ + 1(2)² + -3(2) + 2 = 8.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = ২ বহুৱাওঁলে ৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-027",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 2x² + 1x - 4 is divided by (x - 3).",
+      "as": "x³ + ২x² + ১x - ৪ ক (x - ৩) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "By the remainder theorem, substitute x = 3: 3³ + 2(3)² + 1(3) + -4 = 44.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = ৩ বহুৱাওঁলে ৪৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-028",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + x² + 2x - 5 is divided by (x - 4).",
+      "as": "x³ + x² + ২x - ৫ ক (x - ৪) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "87",
+        "as": "৮৭"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "By the remainder theorem, substitute x = 4: 4³ + 1(4)² + 2(4) + -5 = 83.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = ৪ বহুৱাওঁলে ৮৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-029",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ - 2x² + 3x + 1 is divided by (x - 2).",
+      "as": "x³ - ২x² + ৩x + ১ ক (x - ২) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "By the remainder theorem, substitute x = 2: 2³ + -2(2)² + 3(2) + 1 = 7.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = ২ বহুৱাওঁলে ৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-030",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 3x² - 2x + 4 is divided by (x - 1).",
+      "as": "x³ + ৩x² - ২x + ৪ ক (x - ১) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "By the remainder theorem, substitute x = 1: 1³ + 3(1)² + -2(1) + 4 = 6.",
+      "as": "ভাগশেষ উপপাদ্য অনুসৰি x = ১ বহুৱাওঁলে ৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-031",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√5 + √3).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√৫ + √৩)।"
+    },
+    "options": [
+      {
+        "en": "(√5 + √3)/2",
+        "as": "(√৫ + √৩)/২"
+      },
+      {
+        "en": "(√5 - √3)/8",
+        "as": "(√৫ - √৩)/৮"
+      },
+      {
+        "en": "1/(2)",
+        "as": "১/(২)"
+      },
+      {
+        "en": "(√5 - √3)/2",
+        "as": "(√৫ - √৩)/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply numerator and denominator by (√5 - √3): the denominator becomes 5 - 3 = 2, so the result is (√5 - √3)/2.",
+      "as": "লব আৰু হৰক (√৫ - √৩) ৰে পূৰণ কৰিলে ৫-৩ = ২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-032",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√7 + √2).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√৭ + √২)।"
+    },
+    "options": [
+      {
+        "en": "(√7 + √2)/5",
+        "as": "(√৭ + √২)/৫"
+      },
+      {
+        "en": "(√7 - √2)/5",
+        "as": "(√৭ - √২)/৫"
+      },
+      {
+        "en": "(√7 - √2)/9",
+        "as": "(√৭ - √২)/৯"
+      },
+      {
+        "en": "1/(5)",
+        "as": "১/(৫)"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply numerator and denominator by (√7 - √2): the denominator becomes 7 - 2 = 5, so the result is (√7 - √2)/5.",
+      "as": "লব আৰু হৰক (√৭ - √২) ৰে পূৰণ কৰিলে ৭-২ = ৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-033",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√6 + √5).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√৬ + √৫)।"
+    },
+    "options": [
+      {
+        "en": "(√6 + √5)/1",
+        "as": "(√৬ + √৫)/১"
+      },
+      {
+        "en": "(√6 - √5)/11",
+        "as": "(√৬ - √৫)/১১"
+      },
+      {
+        "en": "(√6 - √5)/1",
+        "as": "(√৬ - √৫)/১"
+      },
+      {
+        "en": "1/(1)",
+        "as": "১/(১)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply numerator and denominator by (√6 - √5): the denominator becomes 6 - 5 = 1, so the result is (√6 - √5)/1.",
+      "as": "লব আৰু হৰক (√৬ - √৫) ৰে পূৰণ কৰিলে ৬-৫ = ১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-034",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√8 + √3).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√৮ + √৩)।"
+    },
+    "options": [
+      {
+        "en": "(√8 + √3)/5",
+        "as": "(√৮ + √৩)/৫"
+      },
+      {
+        "en": "(√8 - √3)/11",
+        "as": "(√৮ - √৩)/১১"
+      },
+      {
+        "en": "1/(5)",
+        "as": "১/(৫)"
+      },
+      {
+        "en": "(√8 - √3)/5",
+        "as": "(√৮ - √৩)/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply numerator and denominator by (√8 - √3): the denominator becomes 8 - 3 = 5, so the result is (√8 - √3)/5.",
+      "as": "লব আৰু হৰক (√৮ - √৩) ৰে পূৰণ কৰিলে ৮-৩ = ৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-035",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√10 + √7).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√১০ + √৭)।"
+    },
+    "options": [
+      {
+        "en": "(√10 - √7)/3",
+        "as": "(√১০ - √৭)/৩"
+      },
+      {
+        "en": "(√10 + √7)/3",
+        "as": "(√১০ + √৭)/৩"
+      },
+      {
+        "en": "(√10 - √7)/17",
+        "as": "(√১০ - √৭)/১৭"
+      },
+      {
+        "en": "1/(3)",
+        "as": "১/(৩)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Multiply numerator and denominator by (√10 - √7): the denominator becomes 10 - 7 = 3, so the result is (√10 - √7)/3.",
+      "as": "লব আৰু হৰক (√১০ - √৭) ৰে পূৰণ কৰিলে ১০-৭ = ৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-036",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 2^x = 32.",
+      "as": "x ৰ বাবে সমাধান কৰা: ২^x = ৩২।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Write 32 as a power of 2: 2^5 = 32, so x = 5.",
+      "as": "৩২ ক ২ ৰ ঘাত হিচাপে লিখিলে x = ৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-037",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 3^x = 81.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৩^x = ৮১।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Write 81 as a power of 3: 3^4 = 81, so x = 4.",
+      "as": "৮১ ক ৩ ৰ ঘাত হিচাপে লিখিলে x = ৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-038",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 5^x = 125.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৫^x = ১২৫।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write 125 as a power of 5: 5^3 = 125, so x = 3.",
+      "as": "১২৫ ক ৫ ৰ ঘাত হিচাপে লিখিলে x = ৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-039",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 2^x = 128.",
+      "as": "x ৰ বাবে সমাধান কৰা: ২^x = ১২৮।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Write 128 as a power of 2: 2^7 = 128, so x = 7.",
+      "as": "১২৮ ক ২ ৰ ঘাত হিচাপে লিখিলে x = ৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-040",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 7^x = 343.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৭^x = ৩৪৩।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Write 343 as a power of 7: 7^3 = 343, so x = 3.",
+      "as": "৩৪৩ ক ৭ ৰ ঘাত হিচাপে লিখিলে x = ৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-041",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If 2^(x+1) = 16, find x.",
+      "as": "যদি ২^(x+1) = ১৬, তেন্তে x নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "16 = 2^5, so x + 1 = 5 and x = 4.",
+      "as": "১৬ = ২^৫, সেয়ে x = ৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-042",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If 3^(x+1) = 27, find x.",
+      "as": "যদি ৩^(x+1) = ২৭, তেন্তে x নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "27 = 3^4, so x + 1 = 4 and x = 3.",
+      "as": "২৭ = ৩^৪, সেয়ে x = ৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-043",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If 5^(x+1) = 25, find x.",
+      "as": "যদি ৫^(x+1) = ২৫, তেন্তে x নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "25 = 5^3, so x + 1 = 3 and x = 2.",
+      "as": "২৫ = ৫^৩, সেয়ে x = ২।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-044",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If 2^(x+1) = 64, find x.",
+      "as": "যদি ২^(x+1) = ৬৪, তেন্তে x নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "64 = 2^7, so x + 1 = 7 and x = 6.",
+      "as": "৬৪ = ২^৭, সেয়ে x = ৬।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-045",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If 4^(x+1) = 16, find x.",
+      "as": "যদি ৪^(x+1) = ১৬, তেন্তে x নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "16 = 4^3, so x + 1 = 3 and x = 2.",
+      "as": "১৬ = ৪^৩, সেয়ে x = ২।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-046",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x² - 9)/(x - 3) and evaluate at x = 7.",
+      "as": "(x² - ৯)/(x - ৩) সৰল কৰি x = ৭ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x² - 9 = (x - 3)(x + 3), so the expression equals x + 3. At x = 7 it is 10.",
+      "as": "x² - ৯ = (x - ৩)(x + ৩), সেয়ে মান ১০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-047",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x² - 25)/(x - 5) and evaluate at x = 9.",
+      "as": "(x² - ২৫)/(x - ৫) সৰল কৰি x = ৯ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² - 25 = (x - 5)(x + 5), so the expression equals x + 5. At x = 9 it is 14.",
+      "as": "x² - ২৫ = (x - ৫)(x + ৫), সেয়ে মান ১৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-048",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x² - 16)/(x - 4) and evaluate at x = 11.",
+      "as": "(x² - ১৬)/(x - ৪) সৰল কৰি x = ১১ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² - 16 = (x - 4)(x + 4), so the expression equals x + 4. At x = 11 it is 15.",
+      "as": "x² - ১৬ = (x - ৪)(x + ৪), সেয়ে মান ১৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-049",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x² - 36)/(x - 6) and evaluate at x = 13.",
+      "as": "(x² - ৩৬)/(x - ৬) সৰল কৰি x = ১৩ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² - 36 = (x - 6)(x + 6), so the expression equals x + 6. At x = 13 it is 19.",
+      "as": "x² - ৩৬ = (x - ৬)(x + ৬), সেয়ে মান ১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-050",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x³ - 8)/(x - 2) and evaluate at x = 5.",
+      "as": "(x³ - ৮)/(x - ২) সৰল কৰি x = ৫ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x³ - 8 = (x - 2)(x² + 2x + 4), so the value is 5² + 2×5 + 4 = 39.",
+      "as": "সূত্ৰমতে মান = ৩৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-051",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x³ - 27)/(x - 3) and evaluate at x = 6.",
+      "as": "(x³ - ২৭)/(x - ৩) সৰল কৰি x = ৬ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "x³ - 27 = (x - 3)(x² + 3x + 9), so the value is 6² + 3×6 + 9 = 63.",
+      "as": "সূত্ৰমতে মান = ৬৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-052",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Simplify (x³ - 64)/(x - 4) and evaluate at x = 7.",
+      "as": "(x³ - ৬৪)/(x - ৪) সৰল কৰি x = ৭ ত মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "93",
+        "as": "৯৩"
+      },
+      {
+        "en": "97",
+        "as": "৯৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x³ - 64 = (x - 4)(x² + 4x + 16), so the value is 7² + 4×7 + 16 = 93.",
+      "as": "সূত্ৰমতে মান = ৯৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-053",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 10 and ab = 21, find a² + b².",
+      "as": "যদি a + b = ১০ আৰু ab = ২১, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "142",
+        "as": "১৪২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 10² - 2×21 = 58.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ৫৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-054",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 12 and ab = 32, find a² + b².",
+      "as": "যদি a + b = ১২ আৰু ab = ৩২, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "208",
+        "as": "২০৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 12² - 2×32 = 80.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ৮০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-055",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 15 and ab = 50, find a² + b².",
+      "as": "যদি a + b = ১৫ আৰু ab = ৫০, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "175",
+        "as": "১৭৫"
+      },
+      {
+        "en": "325",
+        "as": "৩২৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 15² - 2×50 = 125.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ১২৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-056",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 9 and ab = 18, find a² + b².",
+      "as": "যদি a + b = ৯ আৰু ab = ১৮, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "117",
+        "as": "১১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 9² - 2×18 = 45.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ৪৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-057",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 13 and ab = 40, find a² + b².",
+      "as": "যদি a + b = ১৩ আৰু ab = ৪০, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "129",
+        "as": "১২৯"
+      },
+      {
+        "en": "89",
+        "as": "৮৯"
+      },
+      {
+        "en": "249",
+        "as": "২৪৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 13² - 2×40 = 89.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ৮৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-058",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b = 11 and ab = 24, find a² + b².",
+      "as": "যদি a + b = ১১ আৰু ab = ২৪, তেন্তে a² + b² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "97",
+        "as": "৯৭"
+      },
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b², so a² + b² = 11² - 2×24 = 73.",
+      "as": "(a+b)² = a² + 2ab + b², সেয়ে a² + b² = ৭৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-059",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 11, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১১, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "119",
+        "as": "১১৯"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "123",
+        "as": "১২৩"
+      },
+      {
+        "en": "117",
+        "as": "১১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² + 1/x² = 11² - 2 = 119.",
+      "as": "x² + 1/x² = ১১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-060",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 12, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১২, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "142",
+        "as": "১৪২"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "146",
+        "as": "১৪৬"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "x² + 1/x² = 12² - 2 = 142.",
+      "as": "x² + 1/x² = ১৪২।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-061",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 13, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১৩, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "167",
+        "as": "১৬৭"
+      },
+      {
+        "en": "171",
+        "as": "১৭১"
+      },
+      {
+        "en": "165",
+        "as": "১৬৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² + 1/x² = 13² - 2 = 167.",
+      "as": "x² + 1/x² = ১৬৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-062",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 13 and ab + bc + ca = 42, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৩ আৰু ab + bc + ca = ৪২, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "253",
+        "as": "২৫৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "a²+b²+c² = 13² - 2×42 = 85.",
+      "as": "a²+b²+c² = ৮৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-063",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 16 and ab + bc + ca = 70, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৬ আৰু ab + bc + ca = ৭০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "186",
+        "as": "১৮৬"
+      },
+      {
+        "en": "396",
+        "as": "৩৯৬"
+      },
+      {
+        "en": "116",
+        "as": "১১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a²+b²+c² = 16² - 2×70 = 116.",
+      "as": "a²+b²+c² = ১১৬।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-064",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 18 and ab + bc + ca = 90, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৮ আৰু ab + bc + ca = ৯০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "234",
+        "as": "২৩৪"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "504",
+        "as": "৫০৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "a²+b²+c² = 18² - 2×90 = 144.",
+      "as": "a²+b²+c² = ১৪৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-065",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 11 and ab + bc + ca = 30, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ১১ আৰু ab + bc + ca = ৩০, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "341",
+        "as": "৩৪১"
+      },
+      {
+        "en": "1331",
+        "as": "১৩৩১"
+      },
+      {
+        "en": "170",
+        "as": "১৭০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Evaluate the bracket first: 11² − 3×30 = 121 − 90 = 31. Then multiply: 11 × 31 = 341.",
+      "as": "প্ৰথমে বন্ধনীৰ মান উলিওৱা: ১১² − ৩×৩০ = ১২১ − ৯০ = ৩১। তাৰপিছত পূৰণ কৰা: ১১ × ৩১ = ৩৪১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-066",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 12 and ab + bc + ca = 35, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ১২ আৰু ab + bc + ca = ৩৫, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "468",
+        "as": "৪৬৮"
+      },
+      {
+        "en": "1308",
+        "as": "১৩০৮"
+      },
+      {
+        "en": "1728",
+        "as": "১৭২৮"
+      },
+      {
+        "en": "234",
+        "as": "২৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Evaluate the bracket first: 12² − 3×35 = 144 − 105 = 39. Then multiply: 12 × 39 = 468.",
+      "as": "প্ৰথমে বন্ধনীৰ মান উলিওৱা: ১২² − ৩×৩৫ = ১৪৪ − ১০৫ = ৩৯। তাৰপিছত পূৰণ কৰা: ১২ × ৩৯ = ৪৬৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-067",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 15)(x + 4).",
+      "as": "(x + ১৫)(x + ৪) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Coefficient of x = 15 + 4 = 19.",
+      "as": "x ৰ সহগ = ১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-068",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 10)(x + 9).",
+      "as": "(x + ১০)(x + ৯) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Coefficient of x = 10 + 9 = 19.",
+      "as": "x ৰ সহগ = ১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-069",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 14)(x + 3).",
+      "as": "(x + ১৪)(x + ৩) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Coefficient of x = 14 + 3 = 17.",
+      "as": "x ৰ সহগ = ১৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-070",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 11)(x + 8).",
+      "as": "(x + ১১)(x + ৮) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Coefficient of x = 11 + 8 = 19.",
+      "as": "x ৰ সহগ = ১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-071",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 2x² - 5x + 6 is divided by (x - 3).",
+      "as": "x³ + ২x² - ৫x + ৬ ক (x - ৩) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substituting x = 3 gives 36.",
+      "as": "x = ৩ বহুৱাওঁলে ৩৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-072",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + x² - 4x + 3 is divided by (x - 2).",
+      "as": "x³ + x² - ৪x + ৩ ক (x - ২) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substituting x = 2 gives 7.",
+      "as": "x = ২ বহুৱাওঁলে ৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-073",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 3x² + 2x - 6 is divided by (x - 1).",
+      "as": "x³ + ৩x² + ২x - ৬ ক (x - ১) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "-1",
+        "as": "-১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Substituting x = 1 gives 0.",
+      "as": "x = ১ বহুৱাওঁলে ০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-074",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√11 + √2).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√১১ + √২)।"
+    },
+    "options": [
+      {
+        "en": "(√11 + √2)/9",
+        "as": "(√১১ + √২)/৯"
+      },
+      {
+        "en": "(√11 - √2)/13",
+        "as": "(√১১ - √২)/১৩"
+      },
+      {
+        "en": "(√11 - √2)/9",
+        "as": "(√১১ - √২)/৯"
+      },
+      {
+        "en": "1/(9)",
+        "as": "১/(৯)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply above and below by the conjugate √11 − √2: the denominator becomes (√11)² − (√2)² = 11 − 2 = 9, so the result is (√11 − √2)/9.",
+      "as": "ওপৰ-তল দুয়োটাকে সংযুক্ত √১১ − √২ ৰে পূৰণ কৰা: হৰ হয় ১১ − ২ = ৯; ফলাফল (√১১ − √২)/৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-075",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√9 + √4).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√৯ + √৪)।"
+    },
+    "options": [
+      {
+        "en": "(√9 + √4)/5",
+        "as": "(√৯ + √৪)/৫"
+      },
+      {
+        "en": "(√9 - √4)/13",
+        "as": "(√৯ - √৪)/১৩"
+      },
+      {
+        "en": "1/(5)",
+        "as": "১/(৫)"
+      },
+      {
+        "en": "(√9 - √4)/5",
+        "as": "(√৯ - √৪)/৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply above and below by the conjugate √9 − √4: the denominator becomes (√9)² − (√4)² = 9 − 4 = 5, so the result is (√9 − √4)/5.",
+      "as": "ওপৰ-তল দুয়োটাকে সংযুক্ত √৯ − √৪ ৰে পূৰণ কৰা: হৰ হয় ৯ − ৪ = ৫; ফলাফল (√৯ − √৪)/৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-076",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√12 + √5).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√১২ + √৫)।"
+    },
+    "options": [
+      {
+        "en": "(√12 + √5)/7",
+        "as": "(√১২ + √৫)/৭"
+      },
+      {
+        "en": "(√12 - √5)/17",
+        "as": "(√১২ - √৫)/১৭"
+      },
+      {
+        "en": "(√12 - √5)/7",
+        "as": "(√১২ - √৫)/৭"
+      },
+      {
+        "en": "1/(7)",
+        "as": "১/(৭)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply above and below by the conjugate √12 − √5: the denominator becomes (√12)² − (√5)² = 12 − 5 = 7, so the result is (√12 − √5)/7.",
+      "as": "ওপৰ-তল দুয়োটাকে সংযুক্ত √১২ − √৫ ৰে পূৰণ কৰা: হৰ হয় ১২ − ৫ = ৭; ফলাফল (√১২ − √৫)/৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-077",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 3^x = 243.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৩^x = ২৪৩।"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "243 = 3^5, so x = 5.",
+      "as": "x = ৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-078",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 2^x = 256.",
+      "as": "x ৰ বাবে সমাধান কৰা: ২^x = ২৫৬।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "256 = 2^8, so x = 8.",
+      "as": "x = ৮।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-079",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 6^x = 216.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৬^x = ২১৬।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "216 = 6^3, so x = 3.",
+      "as": "x = ৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-080",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 14, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১৪, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "196",
+        "as": "১৯৬"
+      },
+      {
+        "en": "194",
+        "as": "১৯৪"
+      },
+      {
+        "en": "198",
+        "as": "১৯৮"
+      },
+      {
+        "en": "192",
+        "as": "১৯২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "x² + 1/x² = 14² - 2 = 194.",
+      "as": "x² + 1/x² = ১৯৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-081",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If x + 1/x = 15, find the value of x² + 1/x².",
+      "as": "যদি x + 1/x = ১৫, তেন্তে x² + 1/x² ৰ মান নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "227",
+        "as": "২২৭"
+      },
+      {
+        "en": "223",
+        "as": "২২৩"
+      },
+      {
+        "en": "221",
+        "as": "২২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "x² + 1/x² = 15² - 2 = 223.",
+      "as": "x² + 1/x² = ২২৩।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-082",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 20 and ab + bc + ca = 100, find a² + b² + c².",
+      "as": "যদি a + b + c = ২০ আৰু ab + bc + ca = ১০০, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a²+b²+c² = 20² - 2×100 = 200.",
+      "as": "a²+b²+c² = ২০০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-083",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 17 and ab + bc + ca = 72, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৭ আৰু ab + bc + ca = ৭২, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "145",
+        "as": "১৪৫"
+      },
+      {
+        "en": "289",
+        "as": "২৮৯"
+      },
+      {
+        "en": "217",
+        "as": "২১৭"
+      },
+      {
+        "en": "433",
+        "as": "৪৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "a²+b²+c² = 17² - 2×72 = 145.",
+      "as": "a²+b²+c² = ১৪৫।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-084",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 19 and ab + bc + ca = 85, find a² + b² + c².",
+      "as": "যদি a + b + c = ১৯ আৰু ab + bc + ca = ৮৫, তেন্তে a² + b² + c² নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "191",
+        "as": "১৯১"
+      },
+      {
+        "en": "361",
+        "as": "৩৬১"
+      },
+      {
+        "en": "276",
+        "as": "২৭৬"
+      },
+      {
+        "en": "531",
+        "as": "৫৩১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "a²+b²+c² = 19² - 2×85 = 191.",
+      "as": "a²+b²+c² = ১৯১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-085",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 13 and ab + bc + ca = 40, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ১৩ আৰু ab + bc + ca = ৪০, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1677",
+        "as": "১৬৭৭"
+      },
+      {
+        "en": "637",
+        "as": "৬৩৭"
+      },
+      {
+        "en": "2197",
+        "as": "২১৯৭"
+      },
+      {
+        "en": "318",
+        "as": "৩১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Evaluate the bracket first: 13² − 3×40 = 169 − 120 = 49. Then multiply: 13 × 49 = 637.",
+      "as": "প্ৰথমে বন্ধনীৰ মান উলিওৱা: ১৩² − ৩×৪০ = ১৬৯ − ১২০ = ৪৯। তাৰপিছত পূৰণ কৰা: ১৩ × ৪৯ = ৬৩৭।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-086",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "If a + b + c = 14 and ab + bc + ca = 45, find a³ + b³ + c³ - 3abc.",
+      "as": "যদি a + b + c = ১৪ আৰু ab + bc + ca = ৪৫, তেন্তে a³ + b³ + c³ - 3abc নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2114",
+        "as": "২১১৪"
+      },
+      {
+        "en": "2744",
+        "as": "২৭৪৪"
+      },
+      {
+        "en": "854",
+        "as": "৮৫৪"
+      },
+      {
+        "en": "427",
+        "as": "৪২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Evaluate the bracket first: 14² − 3×45 = 196 − 135 = 61. Then multiply: 14 × 61 = 854.",
+      "as": "প্ৰথমে বন্ধনীৰ মান উলিওৱা: ১৪² − ৩×৪৫ = ১৯৬ − ১৩৫ = ৬১। তাৰপিছত পূৰণ কৰা: ১৪ × ৬১ = ৮৫৪।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-087",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 13)(x + 6).",
+      "as": "(x + ১৩)(x + ৬) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply out: (x + 13)(x + 6) = x² + (13 + 6)x + 78. The coefficient of x is the sum of the two constants, 13 + 6 = 19.",
+      "as": "পূৰণ কৰা: (x + ১৩)(x + ৬) = x² + ১৯x + ৭৮; সেয়ে x ৰ সহগ = ১৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-088",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 9)(x + 7).",
+      "as": "(x + ৯)(x + ৭) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply out: (x + 9)(x + 7) = x² + (9 + 7)x + 63. The coefficient of x is the sum of the two constants, 9 + 7 = 16.",
+      "as": "পূৰণ কৰা: (x + ৯)(x + ৭) = x² + ১৬x + ৬৩; সেয়ে x ৰ সহগ = ১৬।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-089",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the coefficient of x in the expansion of (x + 16)(x + 5).",
+      "as": "(x + ১৬)(x + ৫) ৰ বিস্তাৰত x ৰ সহগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Multiply out: (x + 16)(x + 5) = x² + (16 + 5)x + 80. The coefficient of x is the sum of the two constants, 16 + 5 = 21.",
+      "as": "পূৰণ কৰা: (x + ১৬)(x + ৫) = x² + ২১x + ৮০; সেয়ে x ৰ সহগ = ২১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-090",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 2x² + 3x - 5 is divided by (x - 2).",
+      "as": "x³ + ২x² + ৩x - ৫ ক (x - ২) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Substituting x = 2 gives 17.",
+      "as": "x = ২ বহুৱাওঁলে ১৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-091",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + x² - 2x - 8 is divided by (x - 4).",
+      "as": "x³ + x² - ২x - ৮ ক (x - ৪) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Substituting x = 4 gives 64.",
+      "as": "x = ৪ বহুৱাওঁলে ৬৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-092",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Find the remainder when x³ + 4x² - 3x + 2 is divided by (x - 3).",
+      "as": "x³ + ৪x² - ৩x + ২ ক (x - ৩) ৰে ভাগ কৰিলে ভাগশেষ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "59",
+        "as": "৫৯"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Substituting x = 3 gives 56.",
+      "as": "x = ৩ বহুৱাওঁলে ৫৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-093",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√13 + √3).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√১৩ + √৩)।"
+    },
+    "options": [
+      {
+        "en": "(√13 + √3)/10",
+        "as": "(√১৩ + √৩)/১০"
+      },
+      {
+        "en": "(√13 - √3)/16",
+        "as": "(√১৩ - √৩)/১৬"
+      },
+      {
+        "en": "(√13 - √3)/10",
+        "as": "(√১৩ - √৩)/১০"
+      },
+      {
+        "en": "1/(10)",
+        "as": "১/(১০)"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Multiply above and below by the conjugate √13 − √3: the denominator becomes (√13)² − (√3)² = 13 − 3 = 10, so the result is (√13 − √3)/10.",
+      "as": "ওপৰ-তল দুয়োটাকে সংযুক্ত √১৩ − √৩ ৰে পূৰণ কৰা: হৰ হয় ১৩ − ৩ = ১০; ফলাফল (√১৩ − √৩)/১০।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-094",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Rationalise the denominator: 1/(√10 + √9).",
+      "as": "হৰ পৰিমেয় কৰা: 1/(√১০ + √৯)।"
+    },
+    "options": [
+      {
+        "en": "(√10 + √9)/1",
+        "as": "(√১০ + √৯)/১"
+      },
+      {
+        "en": "(√10 - √9)/19",
+        "as": "(√১০ - √৯)/১৯"
+      },
+      {
+        "en": "1/(1)",
+        "as": "১/(১)"
+      },
+      {
+        "en": "(√10 - √9)/1",
+        "as": "(√১০ - √৯)/১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Multiply above and below by the conjugate √10 − √9: the denominator becomes (√10)² − (√9)² = 10 − 9 = 1, so the result is (√10 − √9)/1.",
+      "as": "ওপৰ-তল দুয়োটাকে সংযুক্ত √১০ − √৯ ৰে পূৰণ কৰা: হৰ হয় ১০ − ৯ = ১; ফলাফল (√১০ − √৯)/১।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-095",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 2^x = 512.",
+      "as": "x ৰ বাবে সমাধান কৰা: ২^x = ৫১২।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "256",
+        "as": "২৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "512 = 2^9, so x = 9.",
+      "as": "x = ৯।"
+    }
+  },
+  {
+    "id": "num-elementary-algebra-096",
+    "leaf": "elementary-algebra",
+    "q": {
+      "en": "Solve for x: 5^x = 625.",
+      "as": "x ৰ বাবে সমাধান কৰা: ৫^x = ৬২৫।"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "625 = 5^4, so x = 4.",
+      "as": "x = ৪।"
+    }
+  }
+]

@@ -1,0 +1,2606 @@
+[
+  {
+    "id": "num-input-output-001",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 45 12 67 23 89. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 45 12 67 23 89। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "12 23 45 67 89",
+        "as": "১২ ২৩ ৪৫ ৬৭ ৮৯"
+      },
+      {
+        "en": "12 23 67 45 89",
+        "as": "১২ ২৩ ৬৭ ৪৫ ৮৯"
+      },
+      {
+        "en": "12 45 67 23 89",
+        "as": "১২ ৪৫ ৬৭ ২৩ ৮৯"
+      },
+      {
+        "en": "45 12 67 23 89",
+        "as": "৪৫ ১২ ৬৭ ২৩ ৮৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 12 23 67 45 89.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 12 23 67 45 89।"
+    }
+  },
+  {
+    "id": "num-input-output-002",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 45 12 67 23 89. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 45 12 67 23 89। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "12 23 67 45 89",
+        "as": "১২ ২৩ ৬৭ ৪৫ ৮৯"
+      },
+      {
+        "en": "45 12 67 23 89",
+        "as": "৪৫ ১২ ৬৭ ২৩ ৮৯"
+      },
+      {
+        "en": "12 23 45 67 89",
+        "as": "১২ ২৩ ৪৫ ৬৭ ৮৯"
+      },
+      {
+        "en": "89 67 45 23 12",
+        "as": "৮৯ ৬৭ ৪৫ ২৩ ১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 12 23 45 67 89.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 12 23 45 67 89।"
+    }
+  },
+  {
+    "id": "num-input-output-003",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 34 78 12 56 90. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 34 78 12 56 90। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "12 34 56 78 90",
+        "as": "১২ ৩৪ ৫৬ ৭৮ ৯০"
+      },
+      {
+        "en": "12 78 34 56 90",
+        "as": "১২ ৭৮ ৩৪ ৫৬ ৯০"
+      },
+      {
+        "en": "34 78 12 56 90",
+        "as": "৩৪ ৭৮ ১২ ৫৬ ৯০"
+      },
+      {
+        "en": "12 34 78 56 90",
+        "as": "১২ ৩৪ ৭৮ ৫৬ ৯০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 12 34 78 56 90.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 12 34 78 56 90।"
+    }
+  },
+  {
+    "id": "num-input-output-004",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 34 78 12 56 90. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 34 78 12 56 90। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "12 34 78 56 90",
+        "as": "১২ ৩৪ ৭৮ ৫৬ ৯০"
+      },
+      {
+        "en": "34 78 12 56 90",
+        "as": "৩৪ ৭৮ ১২ ৫৬ ৯০"
+      },
+      {
+        "en": "12 34 56 78 90",
+        "as": "১২ ৩৪ ৫৬ ৭৮ ৯০"
+      },
+      {
+        "en": "90 78 56 34 12",
+        "as": "৯০ ৭৮ ৫৬ ৩৪ ১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 12 34 56 78 90.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 12 34 56 78 90।"
+    }
+  },
+  {
+    "id": "num-input-output-005",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 25 63 18 47 82. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 25 63 18 47 82। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "18 25 47 63 82",
+        "as": "১৮ ২৫ ৪৭ ৬৩ ৮২"
+      },
+      {
+        "en": "18 25 63 47 82",
+        "as": "১৮ ২৫ ৬৩ ৪৭ ৮২"
+      },
+      {
+        "en": "18 63 25 47 82",
+        "as": "১৮ ৬৩ ২৫ ৪৭ ৮২"
+      },
+      {
+        "en": "25 63 18 47 82",
+        "as": "২৫ ৬৩ ১৮ ৪৭ ৮২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 18 25 63 47 82.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 18 25 63 47 82।"
+    }
+  },
+  {
+    "id": "num-input-output-006",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 25 63 18 47 82. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 25 63 18 47 82। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "18 25 47 63 82",
+        "as": "১৮ ২৫ ৪৭ ৬৩ ৮২"
+      },
+      {
+        "en": "18 25 63 47 82",
+        "as": "১৮ ২৫ ৬৩ ৪৭ ৮২"
+      },
+      {
+        "en": "25 63 18 47 82",
+        "as": "২৫ ৬৩ ১৮ ৪৭ ৮২"
+      },
+      {
+        "en": "82 63 47 25 18",
+        "as": "৮২ ৬৩ ৪৭ ২৫ ১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 18 25 47 63 82.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 18 25 47 63 82।"
+    }
+  },
+  {
+    "id": "num-input-output-007",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 51 29 74 16 38. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 51 29 74 16 38। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "16 29 38 51 74",
+        "as": "১৬ ২৯ ৩৮ ৫১ ৭৪"
+      },
+      {
+        "en": "51 29 74 16 38",
+        "as": "৫১ ২৯ ৭৪ ১৬ ৩৮"
+      },
+      {
+        "en": "74 51 38 29 16",
+        "as": "৭৪ ৫১ ৩৮ ২৯ ১৬"
+      },
+      {
+        "en": "16 29 74 51 38",
+        "as": "১৬ ২৯ ৭৪ ৫১ ৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 16 29 74 51 38.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 16 29 74 51 38।"
+    }
+  },
+  {
+    "id": "num-input-output-008",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 51 29 74 16 38. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 51 29 74 16 38। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "16 29 74 51 38",
+        "as": "১৬ ২৯ ৭৪ ৫১ ৩৮"
+      },
+      {
+        "en": "16 29 38 51 74",
+        "as": "১৬ ২৯ ৩৮ ৫১ ৭৪"
+      },
+      {
+        "en": "51 29 74 16 38",
+        "as": "৫১ ২৯ ৭৪ ১৬ ৩৮"
+      },
+      {
+        "en": "74 51 38 29 16",
+        "as": "৭৪ ৫১ ৩৮ ২৯ ১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 16 29 38 51 74.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 16 29 38 51 74।"
+    }
+  },
+  {
+    "id": "num-input-output-009",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 68 24 55 11 93. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 68 24 55 11 93। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "68 24 55 11 93",
+        "as": "৬৮ ২৪ ৫৫ ১১ ৯৩"
+      },
+      {
+        "en": "93 68 55 24 11",
+        "as": "৯৩ ৬৮ ৫৫ ২৪ ১১"
+      },
+      {
+        "en": "11 24 55 68 93",
+        "as": "১১ ২৪ ৫৫ ৬৮ ৯৩"
+      },
+      {
+        "en": "24 11 55 68 93",
+        "as": "২৪ ১১ ৫৫ ৬৮ ৯৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 11 24 55 68 93.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 11 24 55 68 93।"
+    }
+  },
+  {
+    "id": "num-input-output-010",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 68 24 55 11 93. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 68 24 55 11 93। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "68 24 55 11 93",
+        "as": "৬৮ ২৪ ৫৫ ১১ ৯৩"
+      },
+      {
+        "en": "93 68 55 24 11",
+        "as": "৯৩ ৬৮ ৫৫ ২৪ ১১"
+      },
+      {
+        "en": "24 11 55 68 93",
+        "as": "২৪ ১১ ৫৫ ৬৮ ৯৩"
+      },
+      {
+        "en": "11 24 55 68 93",
+        "as": "১১ ২৪ ৫৫ ৬৮ ৯৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 11 24 55 68 93.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 11 24 55 68 93।"
+    }
+  },
+  {
+    "id": "num-input-output-011",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 40 85 17 62 31. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 40 85 17 62 31। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "17 31 40 62 85",
+        "as": "১৭ ৩১ ৪০ ৬২ ৮৫"
+      },
+      {
+        "en": "17 85 40 62 31",
+        "as": "১৭ ৮৫ ৪০ ৬২ ৩১"
+      },
+      {
+        "en": "40 85 17 62 31",
+        "as": "৪০ ৮৫ ১৭ ৬২ ৩১"
+      },
+      {
+        "en": "85 62 40 31 17",
+        "as": "৮৫ ৬২ ৪০ ৩১ ১৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 17 31 40 62 85.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 17 31 40 62 85।"
+    }
+  },
+  {
+    "id": "num-input-output-012",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 40 85 17 62 31. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 40 85 17 62 31। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "17 31 40 62 85",
+        "as": "১৭ ৩১ ৪০ ৬২ ৮৫"
+      },
+      {
+        "en": "40 85 17 62 31",
+        "as": "৪০ ৮৫ ১৭ ৬২ ৩১"
+      },
+      {
+        "en": "85 62 40 31 17",
+        "as": "৮৫ ৬২ ৪০ ৩১ ১৭"
+      },
+      {
+        "en": "31 17 40 62 85",
+        "as": "৩১ ১৭ ৪০ ৬২ ৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 17 31 40 62 85.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 17 31 40 62 85।"
+    }
+  },
+  {
+    "id": "num-input-output-013",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 19 72 46 88 27. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 19 72 46 88 27। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "19 72 46 88 27",
+        "as": "১৯ ৭২ ৪৬ ৮৮ ২৭"
+      },
+      {
+        "en": "19 27 46 88 72",
+        "as": "১৯ ২৭ ৪৬ ৮৮ ৭২"
+      },
+      {
+        "en": "19 27 46 72 88",
+        "as": "১৯ ২৭ ৪৬ ৭২ ৮৮"
+      },
+      {
+        "en": "88 72 46 27 19",
+        "as": "৮৮ ৭২ ৪৬ ২৭ ১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 19 27 46 88 72.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 19 27 46 88 72।"
+    }
+  },
+  {
+    "id": "num-input-output-014",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 19 72 46 88 27. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 19 72 46 88 27। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "19 27 46 72 88",
+        "as": "১৯ ২৭ ৪৬ ৭২ ৮৮"
+      },
+      {
+        "en": "19 72 46 88 27",
+        "as": "১৯ ৭২ ৪৬ ৮৮ ২৭"
+      },
+      {
+        "en": "19 27 46 88 72",
+        "as": "১৯ ২৭ ৪৬ ৮৮ ৭২"
+      },
+      {
+        "en": "88 72 46 27 19",
+        "as": "৮৮ ৭২ ৪৬ ২৭ ১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 19 27 46 88 72.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 19 27 46 88 72।"
+    }
+  },
+  {
+    "id": "num-input-output-015",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 57 33 91 14 65. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 57 33 91 14 65। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "14 33 57 91 65",
+        "as": "১৪ ৩৩ ৫৭ ৯১ ৬৫"
+      },
+      {
+        "en": "14 33 57 65 91",
+        "as": "১৪ ৩৩ ৫৭ ৬৫ ৯১"
+      },
+      {
+        "en": "57 33 91 14 65",
+        "as": "৫৭ ৩৩ ৯১ ১৪ ৬৫"
+      },
+      {
+        "en": "14 33 91 57 65",
+        "as": "১৪ ৩৩ ৯১ ৫৭ ৬৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2 has the 2 smallest numbers fixed at the left: 14 33 91 57 65.",
+      "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 14 33 91 57 65।"
+    }
+  },
+  {
+    "id": "num-input-output-016",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 57 33 91 14 65. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 57 33 91 14 65। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "14 33 57 65 91",
+        "as": "১৪ ৩৩ ৫৭ ৬৫ ৯১"
+      },
+      {
+        "en": "14 33 91 57 65",
+        "as": "১৪ ৩৩ ৯১ ৫৭ ৬৫"
+      },
+      {
+        "en": "14 33 57 91 65",
+        "as": "১৪ ৩৩ ৫৭ ৯১ ৬৫"
+      },
+      {
+        "en": "57 33 91 14 65",
+        "as": "৫৭ ৩৩ ৯১ ১৪ ৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3 has the 3 smallest numbers fixed at the left: 14 33 57 91 65.",
+      "as": "ধাপ ৩ ত সৰু ৩ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 14 33 57 91 65।"
+    }
+  },
+  {
+    "id": "num-input-output-017",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 45 12 67 23 89. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 45 12 67 23 89। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "89 12 67 23 45",
+        "as": "৮৯ ১২ ৬৭ ২৩ ৪৫"
+      },
+      {
+        "en": "89 67 12 23 45",
+        "as": "৮৯ ৬৭ ১২ ২৩ ৪৫"
+      },
+      {
+        "en": "89 67 45 23 12",
+        "as": "৮৯ ৬৭ ৪৫ ২৩ ১২"
+      },
+      {
+        "en": "45 12 67 23 89",
+        "as": "৪৫ ১২ ৬৭ ২৩ ৮৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2 has the two largest numbers fixed at the left: 89 67 12 23 45.",
+      "as": "ধাপ ২ ত ডাঙৰ দুটা সংখ্যা বাওঁফালে স্থিৰ হয়: 89 67 12 23 45।"
+    }
+  },
+  {
+    "id": "num-input-output-018",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 34 78 12 56 90. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 34 78 12 56 90। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "90 78 12 56 34",
+        "as": "৯০ ৭৮ ১২ ৫৬ ৩৪"
+      },
+      {
+        "en": "90 78 56 12 34",
+        "as": "৯০ ৭৮ ৫৬ ১২ ৩৪"
+      },
+      {
+        "en": "90 78 56 34 12",
+        "as": "৯০ ৭৮ ৫৬ ৩৪ ১২"
+      },
+      {
+        "en": "34 78 12 56 90",
+        "as": "৩৪ ৭৮ ১২ ৫৬ ৯০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2 has the two largest numbers fixed at the left: 90 78 12 56 34.",
+      "as": "ধাপ ২ ত ডাঙৰ দুটা সংখ্যা বাওঁফালে স্থিৰ হয়: 90 78 12 56 34।"
+    }
+  },
+  {
+    "id": "num-input-output-019",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 25 63 18 47 82. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 25 63 18 47 82। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "82 63 47 18 25",
+        "as": "৮২ ৬৩ ৪৭ ১৮ ২৫"
+      },
+      {
+        "en": "82 63 47 25 18",
+        "as": "৮২ ৬৩ ৪৭ ২৫ ১৮"
+      },
+      {
+        "en": "25 63 18 47 82",
+        "as": "২৫ ৬৩ ১৮ ৪৭ ৮২"
+      },
+      {
+        "en": "82 63 18 47 25",
+        "as": "৮২ ৬৩ ১৮ ৪৭ ২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2 has the two largest numbers fixed at the left: 82 63 18 47 25.",
+      "as": "ধাপ ২ ত ডাঙৰ দুটা সংখ্যা বাওঁফালে স্থিৰ হয়: 82 63 18 47 25।"
+    }
+  },
+  {
+    "id": "num-input-output-020",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 51 29 74 16 38. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 51 29 74 16 38। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "74 29 51 16 38",
+        "as": "৭৪ ২৯ ৫১ ১৬ ৩৮"
+      },
+      {
+        "en": "74 51 29 16 38",
+        "as": "৭৪ ৫১ ২৯ ১৬ ৩৮"
+      },
+      {
+        "en": "74 51 38 16 29",
+        "as": "৭৪ ৫১ ৩৮ ১৬ ২৯"
+      },
+      {
+        "en": "74 51 38 29 16",
+        "as": "৭৪ ৫১ ৩৮ ২৯ ১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2 has the two largest numbers fixed at the left: 74 51 29 16 38.",
+      "as": "ধাপ ২ ত ডাঙৰ দুটা সংখ্যা বাওঁফালে স্থিৰ হয়: 74 51 29 16 38।"
+    }
+  },
+  {
+    "id": "num-input-output-021",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 68 24 55 11 93. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 68 24 55 11 93। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "93 24 55 11 68",
+        "as": "৯৩ ২৪ ৫৫ ১১ ৬৮"
+      },
+      {
+        "en": "93 68 55 24 11",
+        "as": "৯৩ ৬৮ ৫৫ ২৪ ১১"
+      },
+      {
+        "en": "93 68 55 11 24",
+        "as": "৯৩ ৬৮ ৫৫ ১১ ২৪"
+      },
+      {
+        "en": "68 24 55 11 93",
+        "as": "৬৮ ২৪ ৫৫ ১১ ৯৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2 has the two largest numbers fixed at the left: 93 68 55 11 24.",
+      "as": "ধাপ ২ ত ডাঙৰ দুটা সংখ্যা বাওঁফালে স্থিৰ হয়: 93 68 55 11 24।"
+    }
+  },
+  {
+    "id": "num-input-output-022",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 45 12 67 23 89. In how many steps will the arrangement be complete?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 45 12 67 23 89। কিমান ধাপত সজোৱা সম্পূৰ্ণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With 5 numbers, the arrangement is complete after 4 steps.",
+      "as": "৫ টা সংখ্যাৰ বাবে ৪ ধাপত সম্পূৰ্ণ হয়।"
+    }
+  },
+  {
+    "id": "num-input-output-023",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 34 78 12 56 90. In how many steps will the arrangement be complete?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 34 78 12 56 90। কিমান ধাপত সজোৱা সম্পূৰ্ণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 5 numbers, the arrangement is complete after 4 steps.",
+      "as": "৫ টা সংখ্যাৰ বাবে ৪ ধাপত সম্পূৰ্ণ হয়।"
+    }
+  },
+  {
+    "id": "num-input-output-024",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 25 63 18 47 82. In how many steps will the arrangement be complete?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 25 63 18 47 82। কিমান ধাপত সজোৱা সম্পূৰ্ণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "With 5 numbers, the arrangement is complete after 4 steps.",
+      "as": "৫ টা সংখ্যাৰ বাবে ৪ ধাপত সম্পূৰ্ণ হয়।"
+    }
+  },
+  {
+    "id": "num-input-output-025",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 51 29 74 16 38. In how many steps will the arrangement be complete?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 51 29 74 16 38। কিমান ধাপত সজোৱা সম্পূৰ্ণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With 5 numbers, the arrangement is complete after 4 steps.",
+      "as": "৫ টা সংখ্যাৰ বাবে ৪ ধাপত সম্পূৰ্ণ হয়।"
+    }
+  },
+  {
+    "id": "num-input-output-026",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: apple, mango, banana, grape, cherry. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: apple, mango, banana, grape, cherry। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "apple, banana, cherry, grape, mango",
+        "as": "apple, banana, cherry, grape, mango"
+      },
+      {
+        "en": "apple, mango, banana, grape, cherry",
+        "as": "apple, mango, banana, grape, cherry"
+      },
+      {
+        "en": "apple, banana, mango, grape, cherry",
+        "as": "apple, banana, mango, grape, cherry"
+      },
+      {
+        "en": "banana, apple, mango, grape, cherry",
+        "as": "banana, apple, mango, grape, cherry"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2: apple, banana, mango, grape, cherry.",
+      "as": "ধাপ ২: apple, banana, mango, grape, cherry।"
+    }
+  },
+  {
+    "id": "num-input-output-027",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: apple, mango, banana, grape, cherry. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: apple, mango, banana, grape, cherry। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "apple, banana, mango, grape, cherry",
+        "as": "apple, banana, mango, grape, cherry"
+      },
+      {
+        "en": "apple, mango, banana, grape, cherry",
+        "as": "apple, mango, banana, grape, cherry"
+      },
+      {
+        "en": "banana, apple, cherry, grape, mango",
+        "as": "banana, apple, cherry, grape, mango"
+      },
+      {
+        "en": "apple, banana, cherry, grape, mango",
+        "as": "apple, banana, cherry, grape, mango"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: apple, banana, cherry, grape, mango.",
+      "as": "ধাপ ৩: apple, banana, cherry, grape, mango।"
+    }
+  },
+  {
+    "id": "num-input-output-028",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: rose, lily, lotus, daisy, tulip. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: rose, lily, lotus, daisy, tulip। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "rose, lily, lotus, daisy, tulip",
+        "as": "rose, lily, lotus, daisy, tulip"
+      },
+      {
+        "en": "lily, daisy, lotus, rose, tulip",
+        "as": "lily, daisy, lotus, rose, tulip"
+      },
+      {
+        "en": "daisy, lily, lotus, rose, tulip",
+        "as": "daisy, lily, lotus, rose, tulip"
+      },
+      {
+        "en": "daisy, lotus, lily, rose, tulip",
+        "as": "daisy, lotus, lily, rose, tulip"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2: daisy, lily, lotus, rose, tulip.",
+      "as": "ধাপ ২: daisy, lily, lotus, rose, tulip।"
+    }
+  },
+  {
+    "id": "num-input-output-029",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: rose, lily, lotus, daisy, tulip. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: rose, lily, lotus, daisy, tulip। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "rose, lily, lotus, daisy, tulip",
+        "as": "rose, lily, lotus, daisy, tulip"
+      },
+      {
+        "en": "daisy, lily, lotus, rose, tulip",
+        "as": "daisy, lily, lotus, rose, tulip"
+      },
+      {
+        "en": "lily, daisy, lotus, rose, tulip",
+        "as": "lily, daisy, lotus, rose, tulip"
+      },
+      {
+        "en": "daisy, lotus, lily, rose, tulip",
+        "as": "daisy, lotus, lily, rose, tulip"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 3: daisy, lily, lotus, rose, tulip.",
+      "as": "ধাপ ৩: daisy, lily, lotus, rose, tulip।"
+    }
+  },
+  {
+    "id": "num-input-output-030",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: pen, book, bag, copy, scale. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: pen, book, bag, copy, scale। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "bag, book, pen, copy, scale",
+        "as": "bag, book, pen, copy, scale"
+      },
+      {
+        "en": "bag, book, copy, pen, scale",
+        "as": "bag, book, copy, pen, scale"
+      },
+      {
+        "en": "pen, book, bag, copy, scale",
+        "as": "pen, book, bag, copy, scale"
+      },
+      {
+        "en": "book, bag, pen, copy, scale",
+        "as": "book, bag, pen, copy, scale"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2: bag, book, pen, copy, scale.",
+      "as": "ধাপ ২: bag, book, pen, copy, scale।"
+    }
+  },
+  {
+    "id": "num-input-output-031",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: pen, book, bag, copy, scale. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: pen, book, bag, copy, scale। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "bag, book, pen, copy, scale",
+        "as": "bag, book, pen, copy, scale"
+      },
+      {
+        "en": "pen, book, bag, copy, scale",
+        "as": "pen, book, bag, copy, scale"
+      },
+      {
+        "en": "book, bag, copy, pen, scale",
+        "as": "book, bag, copy, pen, scale"
+      },
+      {
+        "en": "bag, book, copy, pen, scale",
+        "as": "bag, book, copy, pen, scale"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: bag, book, copy, pen, scale.",
+      "as": "ধাপ ৩: bag, book, copy, pen, scale।"
+    }
+  },
+  {
+    "id": "num-input-output-032",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: red, blue, green, black, white. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: red, blue, green, black, white। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "red, blue, green, black, white",
+        "as": "red, blue, green, black, white"
+      },
+      {
+        "en": "black, blue, green, red, white",
+        "as": "black, blue, green, red, white"
+      },
+      {
+        "en": "blue, black, green, red, white",
+        "as": "blue, black, green, red, white"
+      },
+      {
+        "en": "black, green, blue, red, white",
+        "as": "black, green, blue, red, white"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2: black, blue, green, red, white.",
+      "as": "ধাপ ২: black, blue, green, red, white।"
+    }
+  },
+  {
+    "id": "num-input-output-033",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: red, blue, green, black, white. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: red, blue, green, black, white। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "red, blue, green, black, white",
+        "as": "red, blue, green, black, white"
+      },
+      {
+        "en": "blue, black, green, red, white",
+        "as": "blue, black, green, red, white"
+      },
+      {
+        "en": "black, blue, green, red, white",
+        "as": "black, blue, green, red, white"
+      },
+      {
+        "en": "black, green, blue, red, white",
+        "as": "black, green, blue, red, white"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3: black, blue, green, red, white.",
+      "as": "ধাপ ৩: black, blue, green, red, white।"
+    }
+  },
+  {
+    "id": "num-input-output-034",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 22 58 14 76 41. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "14 22 41 76 58",
+        "as": "১৪ ২২ ৪১ ৭৬ ৫৮"
+      },
+      {
+        "en": "14 58 22 76 41",
+        "as": "১৪ ৫৮ ২২ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 41 58 76",
+        "as": "১৪ ২২ ৪১ ৫৮ ৭৬"
+      },
+      {
+        "en": "14 22 58 76 41",
+        "as": "১৪ ২২ ৫৮ ৭৬ ৪১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2: 14 22 58 76 41.",
+      "as": "ধাপ ২: 14 22 58 76 41।"
+    }
+  },
+  {
+    "id": "num-input-output-035",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 22 58 14 76 41. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "14 22 41 76 58",
+        "as": "১৪ ২২ ৪১ ৭৬ ৫৮"
+      },
+      {
+        "en": "14 22 41 58 76",
+        "as": "১৪ ২২ ৪১ ৫৮ ৭৬"
+      },
+      {
+        "en": "14 22 58 76 41",
+        "as": "১৪ ২২ ৫৮ ৭৬ ৪১"
+      },
+      {
+        "en": "22 58 14 76 41",
+        "as": "২২ ৫৮ ১৪ ৭৬ ৪১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: 14 22 41 76 58.",
+      "as": "ধাপ ৩: 14 22 41 76 58।"
+    }
+  },
+  {
+    "id": "num-input-output-036",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 22 58 14 76 41. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "14 58 22 76 41",
+        "as": "১৪ ৫৮ ২২ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 58 76 41",
+        "as": "১৪ ২২ ৫৮ ৭৬ ৪১"
+      },
+      {
+        "en": "22 58 14 76 41",
+        "as": "২২ ৫৮ ১৪ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 41 76 58",
+        "as": "১৪ ২২ ৪১ ৭৬ ৫৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 14 58 22 76 41.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 14 58 22 76 41।"
+    }
+  },
+  {
+    "id": "num-input-output-037",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 22 58 14 76 41. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "76 58 41 22 14",
+        "as": "৭৬ ৫৮ ৪১ ২২ ১৪"
+      },
+      {
+        "en": "14 22 41 58 76",
+        "as": "১৪ ২২ ৪১ ৫৮ ৭৬"
+      },
+      {
+        "en": "14 58 22 76 41",
+        "as": "১৪ ৫৮ ২২ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 58 76 41",
+        "as": "১৪ ২২ ৫৮ ৭৬ ৪১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 14 22 41 58 76.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 14 22 41 58 76।"
+    }
+  },
+  {
+    "id": "num-input-output-038",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 63 27 85 39 12. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "12 27 39 85 63",
+        "as": "১২ ২৭ ৩৯ ৮৫ ৬৩"
+      },
+      {
+        "en": "12 27 39 63 85",
+        "as": "১২ ২৭ ৩৯ ৬৩ ৮৫"
+      },
+      {
+        "en": "12 27 85 39 63",
+        "as": "১২ ২৭ ৮৫ ৩৯ ৬৩"
+      },
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2: 12 27 85 39 63.",
+      "as": "ধাপ ২: 12 27 85 39 63।"
+    }
+  },
+  {
+    "id": "num-input-output-039",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 63 27 85 39 12. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "12 27 39 63 85",
+        "as": "১২ ২৭ ৩৯ ৬৩ ৮৫"
+      },
+      {
+        "en": "12 27 85 39 63",
+        "as": "১২ ২৭ ৮৫ ৩৯ ৬৩"
+      },
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      },
+      {
+        "en": "12 27 39 85 63",
+        "as": "১২ ২৭ ৩৯ ৮৫ ৬৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 12 27 39 85 63.",
+      "as": "ধাপ ৩: 12 27 39 85 63।"
+    }
+  },
+  {
+    "id": "num-input-output-040",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 63 27 85 39 12. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      },
+      {
+        "en": "12 27 39 85 63",
+        "as": "১২ ২৭ ৩৯ ৮৫ ৬৩"
+      },
+      {
+        "en": "12 27 85 39 63",
+        "as": "১২ ২৭ ৮৫ ৩৯ ৬৩"
+      },
+      {
+        "en": "85 63 39 27 12",
+        "as": "৮৫ ৬৩ ৩৯ ২৭ ১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 12 27 85 39 63.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 12 27 85 39 63।"
+    }
+  },
+  {
+    "id": "num-input-output-041",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 63 27 85 39 12. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "85 63 39 27 12",
+        "as": "৮৫ ৬৩ ৩৯ ২৭ ১২"
+      },
+      {
+        "en": "12 27 39 63 85",
+        "as": "১২ ২৭ ৩৯ ৬৩ ৮৫"
+      },
+      {
+        "en": "12 27 85 39 63",
+        "as": "১২ ২৭ ৮৫ ৩৯ ৬৩"
+      },
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 12 27 39 63 85.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 12 27 39 63 85।"
+    }
+  },
+  {
+    "id": "num-input-output-042",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 48 19 66 32 74. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "19 32 66 48 74",
+        "as": "১৯ ৩২ ৬৬ ৪৮ ৭৪"
+      },
+      {
+        "en": "19 32 48 66 74",
+        "as": "১৯ ৩২ ৪৮ ৬৬ ৭৪"
+      },
+      {
+        "en": "19 48 66 32 74",
+        "as": "১৯ ৪৮ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "48 19 66 32 74",
+        "as": "৪৮ ১৯ ৬৬ ৩২ ৭৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2: 19 32 66 48 74.",
+      "as": "ধাপ ২: 19 32 66 48 74।"
+    }
+  },
+  {
+    "id": "num-input-output-043",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 48 19 66 32 74. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "19 32 66 48 74",
+        "as": "১৯ ৩২ ৬৬ ৪৮ ৭৪"
+      },
+      {
+        "en": "48 19 66 32 74",
+        "as": "৪৮ ১৯ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "74 66 48 32 19",
+        "as": "৭৪ ৬৬ ৪৮ ৩২ ১৯"
+      },
+      {
+        "en": "19 32 48 66 74",
+        "as": "১৯ ৩২ ৪৮ ৬৬ ৭৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 19 32 48 66 74.",
+      "as": "ধাপ ৩: 19 32 48 66 74।"
+    }
+  },
+  {
+    "id": "num-input-output-044",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 48 19 66 32 74. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "19 32 66 48 74",
+        "as": "১৯ ৩২ ৬৬ ৪৮ ৭৪"
+      },
+      {
+        "en": "19 48 66 32 74",
+        "as": "১৯ ৪৮ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "48 19 66 32 74",
+        "as": "৪৮ ১৯ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "19 32 48 66 74",
+        "as": "১৯ ৩২ ৪৮ ৬৬ ৭৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 19 48 66 32 74.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 19 48 66 32 74।"
+    }
+  },
+  {
+    "id": "num-input-output-045",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 48 19 66 32 74. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "74 66 48 32 19",
+        "as": "৭৪ ৬৬ ৪৮ ৩২ ১৯"
+      },
+      {
+        "en": "19 48 66 32 74",
+        "as": "১৯ ৪৮ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "19 32 48 66 74",
+        "as": "১৯ ৩২ ৪৮ ৬৬ ৭৪"
+      },
+      {
+        "en": "19 32 66 48 74",
+        "as": "১৯ ৩২ ৬৬ ৪৮ ৭৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 19 32 48 66 74.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 19 32 48 66 74।"
+    }
+  },
+  {
+    "id": "num-input-output-046",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 36 81 24 59 15. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "15 24 36 59 81",
+        "as": "১৫ ২৪ ৩৬ ৫৯ ৮১"
+      },
+      {
+        "en": "15 81 24 59 36",
+        "as": "১৫ ৮১ ২৪ ৫৯ ৩৬"
+      },
+      {
+        "en": "36 81 24 59 15",
+        "as": "৩৬ ৮১ ২৪ ৫৯ ১৫"
+      },
+      {
+        "en": "15 24 81 59 36",
+        "as": "১৫ ২৪ ৮১ ৫৯ ৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2: 15 24 81 59 36.",
+      "as": "ধাপ ২: 15 24 81 59 36।"
+    }
+  },
+  {
+    "id": "num-input-output-047",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 36 81 24 59 15. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "15 24 36 59 81",
+        "as": "১৫ ২৪ ৩৬ ৫৯ ৮১"
+      },
+      {
+        "en": "15 24 81 59 36",
+        "as": "১৫ ২৪ ৮১ ৫৯ ৩৬"
+      },
+      {
+        "en": "36 81 24 59 15",
+        "as": "৩৬ ৮১ ২৪ ৫৯ ১৫"
+      },
+      {
+        "en": "81 59 36 24 15",
+        "as": "৮১ ৫৯ ৩৬ ২৪ ১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: 15 24 36 59 81.",
+      "as": "ধাপ ৩: 15 24 36 59 81।"
+    }
+  },
+  {
+    "id": "num-input-output-048",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 36 81 24 59 15. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "15 81 24 59 36",
+        "as": "১৫ ৮১ ২৪ ৫৯ ৩৬"
+      },
+      {
+        "en": "15 24 81 59 36",
+        "as": "১৫ ২৪ ৮১ ৫৯ ৩৬"
+      },
+      {
+        "en": "36 81 24 59 15",
+        "as": "৩৬ ৮১ ২৪ ৫৯ ১৫"
+      },
+      {
+        "en": "15 24 36 59 81",
+        "as": "১৫ ২৪ ৩৬ ৫৯ ৮১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 15 81 24 59 36.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 15 81 24 59 36।"
+    }
+  },
+  {
+    "id": "num-input-output-049",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 36 81 24 59 15. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "81 59 36 24 15",
+        "as": "৮১ ৫৯ ৩৬ ২৪ ১৫"
+      },
+      {
+        "en": "15 24 36 59 81",
+        "as": "১৫ ২৪ ৩৬ ৫৯ ৮১"
+      },
+      {
+        "en": "15 81 24 59 36",
+        "as": "১৫ ৮১ ২৪ ৫৯ ৩৬"
+      },
+      {
+        "en": "15 24 81 59 36",
+        "as": "১৫ ২৪ ৮১ ৫৯ ৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 15 24 36 59 81.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 15 24 36 59 81।"
+    }
+  },
+  {
+    "id": "num-input-output-050",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 71 44 28 63 17. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "17 44 28 63 71",
+        "as": "১৭ ৪৪ ২৮ ৬৩ ৭১"
+      },
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      },
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "71 63 44 28 17",
+        "as": "৭১ ৬৩ ৪৪ ২৮ ১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2: 17 28 44 63 71.",
+      "as": "ধাপ ২: 17 28 44 63 71।"
+    }
+  },
+  {
+    "id": "num-input-output-051",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 71 44 28 63 17. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      },
+      {
+        "en": "71 63 44 28 17",
+        "as": "৭১ ৬৩ ৪৪ ২৮ ১৭"
+      },
+      {
+        "en": "28 17 44 63 71",
+        "as": "২৮ ১৭ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 17 28 44 63 71.",
+      "as": "ধাপ ৩: 17 28 44 63 71।"
+    }
+  },
+  {
+    "id": "num-input-output-052",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 71 44 28 63 17. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      },
+      {
+        "en": "17 44 28 63 71",
+        "as": "১৭ ৪৪ ২৮ ৬৩ ৭১"
+      },
+      {
+        "en": "71 63 44 28 17",
+        "as": "৭১ ৬৩ ৪৪ ২৮ ১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 17 44 28 63 71.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 17 44 28 63 71।"
+    }
+  },
+  {
+    "id": "num-input-output-053",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 71 44 28 63 17. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "71 63 44 28 17",
+        "as": "৭১ ৬৩ ৪৪ ২৮ ১৭"
+      },
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "17 44 28 63 71",
+        "as": "১৭ ৪৪ ২৮ ৬৩ ৭১"
+      },
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 17 28 44 63 71.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 17 28 44 63 71।"
+    }
+  },
+  {
+    "id": "num-input-output-054",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 53 16 87 42 69. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 53 16 87 42 69। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "16 42 87 53 69",
+        "as": "১৬ ৪২ ৮৭ ৫৩ ৬৯"
+      },
+      {
+        "en": "16 42 53 87 69",
+        "as": "১৬ ৪২ ৫৩ ৮৭ ৬৯"
+      },
+      {
+        "en": "16 53 87 42 69",
+        "as": "১৬ ৫৩ ৮৭ ৪২ ৬৯"
+      },
+      {
+        "en": "16 42 53 69 87",
+        "as": "১৬ ৪২ ৫৩ ৬৯ ৮৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2: 16 42 87 53 69.",
+      "as": "ধাপ ২: 16 42 87 53 69।"
+    }
+  },
+  {
+    "id": "num-input-output-055",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 53 16 87 42 69. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 53 16 87 42 69। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "16 42 53 69 87",
+        "as": "১৬ ৪২ ৫৩ ৬৯ ৮৭"
+      },
+      {
+        "en": "16 42 87 53 69",
+        "as": "১৬ ৪২ ৮৭ ৫৩ ৬৯"
+      },
+      {
+        "en": "53 16 87 42 69",
+        "as": "৫৩ ১৬ ৮৭ ৪২ ৬৯"
+      },
+      {
+        "en": "16 42 53 87 69",
+        "as": "১৬ ৪২ ৫৩ ৮৭ ৬৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 16 42 53 87 69.",
+      "as": "ধাপ ৩: 16 42 53 87 69।"
+    }
+  },
+  {
+    "id": "num-input-output-056",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 53 16 87 42 69. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 53 16 87 42 69। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "16 42 87 53 69",
+        "as": "১৬ ৪২ ৮৭ ৫৩ ৬৯"
+      },
+      {
+        "en": "16 53 87 42 69",
+        "as": "১৬ ৫৩ ৮৭ ৪২ ৬৯"
+      },
+      {
+        "en": "53 16 87 42 69",
+        "as": "৫৩ ১৬ ৮৭ ৪২ ৬৯"
+      },
+      {
+        "en": "16 42 53 87 69",
+        "as": "১৬ ৪২ ৫৩ ৮৭ ৬৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 16 53 87 42 69.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 16 53 87 42 69।"
+    }
+  },
+  {
+    "id": "num-input-output-057",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 53 16 87 42 69. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 53 16 87 42 69। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "87 69 53 42 16",
+        "as": "৮৭ ৬৯ ৫৩ ৪২ ১৬"
+      },
+      {
+        "en": "16 53 87 42 69",
+        "as": "১৬ ৫৩ ৮৭ ৪২ ৬৯"
+      },
+      {
+        "en": "16 42 53 69 87",
+        "as": "১৬ ৪২ ৫৩ ৬৯ ৮৭"
+      },
+      {
+        "en": "16 42 87 53 69",
+        "as": "১৬ ৪২ ৮৭ ৫৩ ৬৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 16 42 53 69 87.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 16 42 53 69 87।"
+    }
+  },
+  {
+    "id": "num-input-output-058",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 29 64 38 91 55. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 29 64 38 91 55। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "29 38 55 91 64",
+        "as": "২৯ ৩৮ ৫৫ ৯১ ৬৪"
+      },
+      {
+        "en": "29 64 38 91 55",
+        "as": "২৯ ৬৪ ৩৮ ৯১ ৫৫"
+      },
+      {
+        "en": "29 38 55 64 91",
+        "as": "২৯ ৩৮ ৫৫ ৬৪ ৯১"
+      },
+      {
+        "en": "29 38 64 91 55",
+        "as": "২৯ ৩৮ ৬৪ ৯১ ৫৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2: 29 38 64 91 55.",
+      "as": "ধাপ ২: 29 38 64 91 55।"
+    }
+  },
+  {
+    "id": "num-input-output-059",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 29 64 38 91 55. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 29 64 38 91 55। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "29 38 55 91 64",
+        "as": "২৯ ৩৮ ৫৫ ৯১ ৬৪"
+      },
+      {
+        "en": "29 38 55 64 91",
+        "as": "২৯ ৩৮ ৫৫ ৬৪ ৯১"
+      },
+      {
+        "en": "29 38 64 91 55",
+        "as": "২৯ ৩৮ ৬৪ ৯১ ৫৫"
+      },
+      {
+        "en": "29 64 38 91 55",
+        "as": "২৯ ৬৪ ৩৮ ৯১ ৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: 29 38 55 91 64.",
+      "as": "ধাপ ৩: 29 38 55 91 64।"
+    }
+  },
+  {
+    "id": "num-input-output-060",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 29 64 38 91 55. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 29 64 38 91 55। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "29 64 38 91 55",
+        "as": "২৯ ৬৪ ৩৮ ৯১ ৫৫"
+      },
+      {
+        "en": "29 38 64 91 55",
+        "as": "২৯ ৩৮ ৬৪ ৯১ ৫৫"
+      },
+      {
+        "en": "29 38 55 91 64",
+        "as": "২৯ ৩৮ ৫৫ ৯১ ৬৪"
+      },
+      {
+        "en": "91 64 55 38 29",
+        "as": "৯১ ৬৪ ৫৫ ৩৮ ২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 29 64 38 91 55.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 29 64 38 91 55।"
+    }
+  },
+  {
+    "id": "num-input-output-061",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 29 64 38 91 55. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 29 64 38 91 55। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "91 64 55 38 29",
+        "as": "৯১ ৬৪ ৫৫ ৩৮ ২৯"
+      },
+      {
+        "en": "29 38 55 64 91",
+        "as": "২৯ ৩৮ ৫৫ ৬৪ ৯১"
+      },
+      {
+        "en": "29 64 38 91 55",
+        "as": "২৯ ৬৪ ৩৮ ৯১ ৫৫"
+      },
+      {
+        "en": "29 38 64 91 55",
+        "as": "২৯ ৩৮ ৬৪ ৯১ ৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 29 38 55 64 91.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 29 38 55 64 91।"
+    }
+  },
+  {
+    "id": "num-input-output-062",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 82 47 13 68 34. What is Step 2?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 82 47 13 68 34। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "13 34 47 68 82",
+        "as": "১৩ ৩৪ ৪৭ ৬৮ ৮২"
+      },
+      {
+        "en": "13 47 82 68 34",
+        "as": "১৩ ৪৭ ৮২ ৬৮ ৩৪"
+      },
+      {
+        "en": "13 34 82 68 47",
+        "as": "১৩ ৩৪ ৮২ ৬৮ ৪৭"
+      },
+      {
+        "en": "82 47 13 68 34",
+        "as": "৮২ ৪৭ ১৩ ৬৮ ৩৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 2: 13 34 82 68 47.",
+      "as": "ধাপ ২: 13 34 82 68 47।"
+    }
+  },
+  {
+    "id": "num-input-output-063",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 82 47 13 68 34. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 82 47 13 68 34। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "13 34 82 68 47",
+        "as": "১৩ ৩৪ ৮২ ৬৮ ৪৭"
+      },
+      {
+        "en": "82 47 13 68 34",
+        "as": "৮২ ৪৭ ১৩ ৬৮ ৩৪"
+      },
+      {
+        "en": "82 68 47 34 13",
+        "as": "৮২ ৬৮ ৪৭ ৩৪ ১৩"
+      },
+      {
+        "en": "13 34 47 68 82",
+        "as": "১৩ ৩৪ ৪৭ ৬৮ ৮২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 13 34 47 68 82.",
+      "as": "ধাপ ৩: 13 34 47 68 82।"
+    }
+  },
+  {
+    "id": "num-input-output-064",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 82 47 13 68 34. What is Step 1?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 82 47 13 68 34। ধাপ ১ কি?"
+    },
+    "options": [
+      {
+        "en": "13 34 82 68 47",
+        "as": "১৩ ৩৪ ৮২ ৬৮ ৪৭"
+      },
+      {
+        "en": "82 47 13 68 34",
+        "as": "৮২ ৪৭ ১৩ ৬৮ ৩৪"
+      },
+      {
+        "en": "13 47 82 68 34",
+        "as": "১৩ ৪৭ ৮২ ৬৮ ৩৪"
+      },
+      {
+        "en": "13 34 47 68 82",
+        "as": "১৩ ৩৪ ৪৭ ৬৮ ৮২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The smallest number moves to the first place: 13 47 82 68 34.",
+      "as": "সৰু সংখ্যাটো প্ৰথম স্থানলৈ যায়: 13 47 82 68 34।"
+    }
+  },
+  {
+    "id": "num-input-output-065",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 82 47 13 68 34. What is the final step?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 82 47 13 68 34। অন্তিম ধাপ কি?"
+    },
+    "options": [
+      {
+        "en": "82 68 47 34 13",
+        "as": "৮২ ৬৮ ৪৭ ৩৪ ১৩"
+      },
+      {
+        "en": "13 34 47 68 82",
+        "as": "১৩ ৩৪ ৪৭ ৬৮ ৮২"
+      },
+      {
+        "en": "13 47 82 68 34",
+        "as": "১৩ ৪৭ ৮২ ৬৮ ৩৪"
+      },
+      {
+        "en": "13 34 82 68 47",
+        "as": "১৩ ৩৪ ৮২ ৬৮ ৪৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The final step is the fully sorted sequence: 13 34 47 68 82.",
+      "as": "অন্তিম ধাপ সম্পূৰ্ণ সজোৱা ক্ৰম: 13 34 47 68 82।"
+    }
+  },
+  {
+    "id": "num-input-output-066",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 22 58 14 76 41. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "76 58 41 22 14",
+        "as": "৭৬ ৫৮ ৪১ ২২ ১৪"
+      },
+      {
+        "en": "76 58 14 22 41",
+        "as": "৭৬ ৫৮ ১৪ ২২ ৪১"
+      },
+      {
+        "en": "22 58 14 76 41",
+        "as": "২২ ৫৮ ১৪ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 41 58 76",
+        "as": "১৪ ২২ ৪১ ৫৮ ৭৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: 76 58 41 22 14.",
+      "as": "ধাপ ৩: 76 58 41 22 14।"
+    }
+  },
+  {
+    "id": "num-input-output-067",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 63 27 85 39 12. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "85 63 27 39 12",
+        "as": "৮৫ ৬৩ ২৭ ৩৯ ১২"
+      },
+      {
+        "en": "85 27 63 39 12",
+        "as": "৮৫ ২৭ ৬৩ ৩৯ ১২"
+      },
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      },
+      {
+        "en": "85 63 39 27 12",
+        "as": "৮৫ ৬৩ ৩৯ ২৭ ১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 85 63 39 27 12.",
+      "as": "ধাপ ৩: 85 63 39 27 12।"
+    }
+  },
+  {
+    "id": "num-input-output-068",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 48 19 66 32 74. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "74 66 19 32 48",
+        "as": "৭৪ ৬৬ ১৯ ৩২ ৪৮"
+      },
+      {
+        "en": "74 66 48 32 19",
+        "as": "৭৪ ৬৬ ৪৮ ৩২ ১৯"
+      },
+      {
+        "en": "74 19 66 32 48",
+        "as": "৭৪ ১৯ ৬৬ ৩২ ৪৮"
+      },
+      {
+        "en": "48 19 66 32 74",
+        "as": "৪৮ ১৯ ৬৬ ৩২ ৭৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 3: 74 66 48 32 19.",
+      "as": "ধাপ ৩: 74 66 48 32 19।"
+    }
+  },
+  {
+    "id": "num-input-output-069",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 36 81 24 59 15. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "81 59 24 36 15",
+        "as": "৮১ ৫৯ ২৪ ৩৬ ১৫"
+      },
+      {
+        "en": "81 36 24 59 15",
+        "as": "৮১ ৩৬ ২৪ ৫৯ ১৫"
+      },
+      {
+        "en": "81 59 36 24 15",
+        "as": "৮১ ৫৯ ৩৬ ২৪ ১৫"
+      },
+      {
+        "en": "36 81 24 59 15",
+        "as": "৩৬ ৮১ ২৪ ৫৯ ১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3: 81 59 36 24 15.",
+      "as": "ধাপ ৩: 81 59 36 24 15।"
+    }
+  },
+  {
+    "id": "num-input-output-070",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in descending order, one number per step. Input: 71 44 28 63 17. What is Step 3?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি অধঃক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "71 63 28 44 17",
+        "as": "৭১ ৬৩ ২৮ ৪৪ ১৭"
+      },
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      },
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "71 63 44 28 17",
+        "as": "৭১ ৬৩ ৪৪ ২৮ ১৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 3: 71 63 44 28 17.",
+      "as": "ধাপ ৩: 71 63 44 28 17।"
+    }
+  },
+  {
+    "id": "num-input-output-071",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: cat, dog, ant, fox, hen. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: cat, dog, ant, fox, hen। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "ant, cat, dog, fox, hen",
+        "as": "ant, cat, dog, fox, hen"
+      },
+      {
+        "en": "ant, dog, cat, fox, hen",
+        "as": "ant, dog, cat, fox, hen"
+      },
+      {
+        "en": "cat, dog, ant, fox, hen",
+        "as": "cat, dog, ant, fox, hen"
+      },
+      {
+        "en": "cat, ant, dog, fox, hen",
+        "as": "cat, ant, dog, fox, hen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 2: ant, cat, dog, fox, hen.",
+      "as": "ধাপ ২: ant, cat, dog, fox, hen।"
+    }
+  },
+  {
+    "id": "num-input-output-072",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: cat, dog, ant, fox, hen. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: cat, dog, ant, fox, hen। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "ant, cat, dog, fox, hen",
+        "as": "ant, cat, dog, fox, hen"
+      },
+      {
+        "en": "cat, dog, ant, fox, hen",
+        "as": "cat, dog, ant, fox, hen"
+      },
+      {
+        "en": "cat, ant, dog, fox, hen",
+        "as": "cat, ant, dog, fox, hen"
+      },
+      {
+        "en": "ant, dog, cat, fox, hen",
+        "as": "ant, dog, cat, fox, hen"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: ant, cat, dog, fox, hen.",
+      "as": "ধাপ ৩: ant, cat, dog, fox, hen।"
+    }
+  },
+  {
+    "id": "num-input-output-073",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: sun, moon, star, sky, sea. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: sun, moon, star, sky, sea। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "moon, sea, sky, star, sun",
+        "as": "moon, sea, sky, star, sun"
+      },
+      {
+        "en": "moon, sea, star, sky, sun",
+        "as": "moon, sea, star, sky, sun"
+      },
+      {
+        "en": "moon, sun, star, sky, sea",
+        "as": "moon, sun, star, sky, sea"
+      },
+      {
+        "en": "sun, moon, star, sky, sea",
+        "as": "sun, moon, star, sky, sea"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2: moon, sea, star, sky, sun.",
+      "as": "ধাপ ২: moon, sea, star, sky, sun।"
+    }
+  },
+  {
+    "id": "num-input-output-074",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: sun, moon, star, sky, sea. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: sun, moon, star, sky, sea। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "moon, sea, star, sky, sun",
+        "as": "moon, sea, star, sky, sun"
+      },
+      {
+        "en": "sun, moon, star, sky, sea",
+        "as": "sun, moon, star, sky, sea"
+      },
+      {
+        "en": "moon, sea, sky, star, sun",
+        "as": "moon, sea, sky, star, sun"
+      },
+      {
+        "en": "sea, moon, sky, star, sun",
+        "as": "sea, moon, sky, star, sun"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3: moon, sea, sky, star, sun.",
+      "as": "ধাপ ৩: moon, sea, sky, star, sun।"
+    }
+  },
+  {
+    "id": "num-input-output-075",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: gold, silver, iron, copper, zinc. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: gold, silver, iron, copper, zinc। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "copper, silver, iron, gold, zinc",
+        "as": "copper, silver, iron, gold, zinc"
+      },
+      {
+        "en": "gold, silver, iron, copper, zinc",
+        "as": "gold, silver, iron, copper, zinc"
+      },
+      {
+        "en": "gold, copper, iron, silver, zinc",
+        "as": "gold, copper, iron, silver, zinc"
+      },
+      {
+        "en": "copper, gold, iron, silver, zinc",
+        "as": "copper, gold, iron, silver, zinc"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 2: copper, gold, iron, silver, zinc.",
+      "as": "ধাপ ২: copper, gold, iron, silver, zinc।"
+    }
+  },
+  {
+    "id": "num-input-output-076",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: gold, silver, iron, copper, zinc. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: gold, silver, iron, copper, zinc। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "gold, silver, iron, copper, zinc",
+        "as": "gold, silver, iron, copper, zinc"
+      },
+      {
+        "en": "gold, copper, iron, silver, zinc",
+        "as": "gold, copper, iron, silver, zinc"
+      },
+      {
+        "en": "copper, gold, iron, silver, zinc",
+        "as": "copper, gold, iron, silver, zinc"
+      },
+      {
+        "en": "copper, iron, gold, silver, zinc",
+        "as": "copper, iron, gold, silver, zinc"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 3: copper, gold, iron, silver, zinc.",
+      "as": "ধাপ ৩: copper, gold, iron, silver, zinc।"
+    }
+  },
+  {
+    "id": "num-input-output-077",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: one, two, three, four, five. What is Step 2?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: one, two, three, four, five। ধাপ ২ কি?"
+    },
+    "options": [
+      {
+        "en": "five, four, one, two, three",
+        "as": "five, four, one, two, three"
+      },
+      {
+        "en": "five, four, three, two, one",
+        "as": "five, four, three, two, one"
+      },
+      {
+        "en": "five, two, three, four, one",
+        "as": "five, two, three, four, one"
+      },
+      {
+        "en": "five, four, one, three, two",
+        "as": "five, four, one, three, two"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 2: five, four, three, two, one.",
+      "as": "ধাপ ২: five, four, three, two, one।"
+    }
+  },
+  {
+    "id": "num-input-output-078",
+    "leaf": "input-output",
+    "q": {
+      "en": "A word-arrangement machine arranges words in alphabetical order, one word per step. Input: one, two, three, four, five. What is Step 3?",
+      "as": "শব্দ সজোৱা যন্ত্ৰই শব্দবোৰ বৰ্ণানুক্ৰমে একোটা কৰি সজায়। ইনপুট: one, two, three, four, five। ধাপ ৩ কি?"
+    },
+    "options": [
+      {
+        "en": "five, four, one, two, three",
+        "as": "five, four, one, two, three"
+      },
+      {
+        "en": "five, four, one, three, two",
+        "as": "five, four, one, three, two"
+      },
+      {
+        "en": "five, four, three, two, one",
+        "as": "five, four, three, two, one"
+      },
+      {
+        "en": "one, two, three, four, five",
+        "as": "one, two, three, four, five"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 3: five, four, one, two, three.",
+      "as": "ধাপ ৩: five, four, one, two, three।"
+    }
+  },
+  {
+    "id": "num-input-output-079",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 22 58 14 76 41. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 22 58 14 76 41। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "14 22 41 76 58",
+        "as": "১৪ ২২ ৪১ ৭৬ ৫৮"
+      },
+      {
+        "en": "14 22 58 76 41",
+        "as": "১৪ ২২ ৫৮ ৭৬ ৪১"
+      },
+      {
+        "en": "22 58 14 76 41",
+        "as": "২২ ৫৮ ১৪ ৭৬ ৪১"
+      },
+      {
+        "en": "14 22 41 58 76",
+        "as": "১৪ ২২ ৪১ ৫৮ ৭৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 4: 14 22 41 58 76.",
+      "as": "ধাপ ৪: 14 22 41 58 76।"
+    }
+  },
+  {
+    "id": "num-input-output-080",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 63 27 85 39 12. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 63 27 85 39 12। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "12 27 39 85 63",
+        "as": "১২ ২৭ ৩৯ ৮৫ ৬৩"
+      },
+      {
+        "en": "12 27 39 63 85",
+        "as": "১২ ২৭ ৩৯ ৬৩ ৮৫"
+      },
+      {
+        "en": "12 27 85 39 63",
+        "as": "১২ ২৭ ৮৫ ৩৯ ৬৩"
+      },
+      {
+        "en": "63 27 85 39 12",
+        "as": "৬৩ ২৭ ৮৫ ৩৯ ১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Step 4: 12 27 39 63 85.",
+      "as": "ধাপ ৪: 12 27 39 63 85।"
+    }
+  },
+  {
+    "id": "num-input-output-081",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 48 19 66 32 74. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 48 19 66 32 74। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "19 32 66 48 74",
+        "as": "১৯ ৩২ ৬৬ ৪৮ ৭৪"
+      },
+      {
+        "en": "48 19 66 32 74",
+        "as": "৪৮ ১৯ ৬৬ ৩২ ৭৪"
+      },
+      {
+        "en": "19 32 48 66 74",
+        "as": "১৯ ৩২ ৪৮ ৬৬ ৭৪"
+      },
+      {
+        "en": "32 19 48 66 74",
+        "as": "৩২ ১৯ ৪৮ ৬৬ ৭৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Step 4: 19 32 48 66 74.",
+      "as": "ধাপ ৪: 19 32 48 66 74।"
+    }
+  },
+  {
+    "id": "num-input-output-082",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 36 81 24 59 15. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 36 81 24 59 15। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "15 24 81 59 36",
+        "as": "১৫ ২৪ ৮১ ৫৯ ৩৬"
+      },
+      {
+        "en": "36 81 24 59 15",
+        "as": "৩৬ ৮১ ২৪ ৫৯ ১৫"
+      },
+      {
+        "en": "24 15 36 59 81",
+        "as": "২৪ ১৫ ৩৬ ৫৯ ৮১"
+      },
+      {
+        "en": "15 24 36 59 81",
+        "as": "১৫ ২৪ ৩৬ ৫৯ ৮১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Step 4: 15 24 36 59 81.",
+      "as": "ধাপ ৪: 15 24 36 59 81।"
+    }
+  },
+  {
+    "id": "num-input-output-083",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 71 44 28 63 17. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 71 44 28 63 17। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "17 28 44 63 71",
+        "as": "১৭ ২৮ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "71 44 28 63 17",
+        "as": "৭১ ৪৪ ২৮ ৬৩ ১৭"
+      },
+      {
+        "en": "28 17 44 63 71",
+        "as": "২৮ ১৭ ৪৪ ৬৩ ৭১"
+      },
+      {
+        "en": "17 44 28 63 71",
+        "as": "১৭ ৪৪ ২৮ ৬৩ ৭১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 4: 17 28 44 63 71.",
+      "as": "ধাপ ৪: 17 28 44 63 71।"
+    }
+  },
+  {
+    "id": "num-input-output-084",
+    "leaf": "input-output",
+    "q": {
+      "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 53 16 87 42 69. What is Step 4?",
+      "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 53 16 87 42 69। ধাপ ৪ কি?"
+    },
+    "options": [
+      {
+        "en": "16 42 53 69 87",
+        "as": "১৬ ৪২ ৫৩ ৬৯ ৮৭"
+      },
+      {
+        "en": "16 42 53 87 69",
+        "as": "১৬ ৪২ ৫৩ ৮৭ ৬৯"
+      },
+      {
+        "en": "16 42 87 53 69",
+        "as": "১৬ ৪২ ৮৭ ৫৩ ৬৯"
+      },
+      {
+        "en": "53 16 87 42 69",
+        "as": "৫৩ ১৬ ৮৭ ৪২ ৬৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Step 4: 16 42 53 69 87.",
+      "as": "ধাপ ৪: 16 42 53 69 87।"
+    }
+  }
+]

@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "computer-061",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In Microsoft Excel, a file is saved with the extension",
+      "as": "মাইক্ৰ'ছফ্ট এক্সেলত ফাইল কি এক্সটেনশ্বনেৰে সঞ্চয় হয়"
+    },
+    "options": [
+      {
+        "en": ".docx",
+        "as": ".docx"
+      },
+      {
+        "en": ".pptx",
+        "as": ".pptx"
+      },
+      {
+        "en": ".mdb",
+        "as": ".mdb"
+      },
+      {
+        "en": ".xlsx",
+        "as": ".xlsx"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Excel workbooks use xlsx. Word documents use docx and PowerPoint shows use pptx.",
+      "as": "এক্সেল কৰ্কবুক .xlsx ব্যৱহাৰ কৰে। ৱৰ্ড ডকুমেণ্ট .docx আৰু পাৱাৰপইণ্ট .pptx।"
+    }
+  },
+  {
+    "id": "computer-062",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The keyboard shortcut to save a document in MS Word is",
+      "as": "MS ৱৰ্ডত ডকুমেণ্ট সঞ্চয় কৰাৰ কীবৰ্ড চৰ্টকাট"
+    },
+    "options": [
+      {
+        "en": "Ctrl + V",
+        "as": "Ctrl + V"
+      },
+      {
+        "en": "Ctrl + X",
+        "as": "Ctrl + X"
+      },
+      {
+        "en": "Ctrl + S",
+        "as": "Ctrl + S"
+      },
+      {
+        "en": "Ctrl + P",
+        "as": "Ctrl + P"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ctrl + S saves, Ctrl + P prints, Ctrl + V pastes and Ctrl + X cuts. Confusing S with P is the common slip.",
+      "as": "Ctrl + S এ সঞ্চয়, Ctrl + P এ প্ৰিণ্ট, Ctrl + V এ পেষ্ট আৰু Ctrl + X এ কাটে। S আৰু P মিলাই পেলোৱা সাধাৰণ ভুল।"
+    }
+  },
+  {
+    "id": "computer-063",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Excel, the cell reference A1 refers to",
+      "as": "MS এক্সেলত A1 কোষ নিৰ্দেশে বুজায়"
+    },
+    "options": [
+      {
+        "en": "range A to 1",
+        "as": "A ৰপৰা 1 লৈ পৰিসৰ"
+      },
+      {
+        "en": "column A and row 1",
+        "as": "স্তম্ভ A আৰু শাৰী ১"
+      },
+      {
+        "en": "row A and column 1",
+        "as": "শাৰী A আৰু স্তম্ভ ১"
+      },
+      {
+        "en": "sheet A and cell 1",
+        "as": "শ্বীট A আৰু কোষ ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Excel names cells by column letter first and row number second, so A1 is the top left cell. Reversing them is the usual error.",
+      "as": "এক্সেলে কোষৰ নামত প্ৰথমে স্তম্ভৰ আখৰ আৰু পিছত শাৰীৰ সংখ্যা দিয়ে, সেয়ে A1 ওপৰ বাওঁৰ কোষ। ওলোটা কৰাটো সাধাৰণ ভুল।"
+    }
+  },
+  {
+    "id": "computer-064",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which function in MS Excel adds a range of numbers?",
+      "as": "MS এক্সেলত সংখ্যাৰ পৰিসৰ যোগ কৰা ফলনটো"
+    },
+    "options": [
+      {
+        "en": "SUM",
+        "as": "SUM"
+      },
+      {
+        "en": "COUNT",
+        "as": "COUNT"
+      },
+      {
+        "en": "AVERAGE",
+        "as": "AVERAGE"
+      },
+      {
+        "en": "MAX",
+        "as": "MAX"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SUM totals the values. COUNT counts how many there are, AVERAGE gives the mean and MAX the largest.",
+      "as": "SUM এ যোগফল দিয়ে। COUNT এ কিমানটা গণে, AVERAGE এ গড় আৰু MAX এ আটাই ডাঙৰ।"
+    }
+  },
+  {
+    "id": "computer-065",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS PowerPoint, the view used to show slides to an audience is",
+      "as": "MS পাৱাৰপইণ্টত দৰ্শকক শ্লাইড দেখুৱাবলৈ ব্যৱহৃত ভিউ"
+    },
+    "options": [
+      {
+        "en": "Normal",
+        "as": "নৰ্মেল"
+      },
+      {
+        "en": "Slide Sorter",
+        "as": "শ্লাইড ছৰ্টাৰ"
+      },
+      {
+        "en": "Notes Page",
+        "as": "নোটছ পেজ"
+      },
+      {
+        "en": "Slide Show",
+        "as": "শ্লাইড শ্ব'"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Slide Show fills the screen and runs the presentation. Slide Sorter only rearranges thumbnails.",
+      "as": "শ্লাইড শ্ব'ই পৰ্দা ভৰাই প্ৰেজেণ্টেশ্যন চলায়। শ্লাইড ছৰ্টাৰে কেবল থাম্বনেইল সজায়।"
+    }
+  },
+  {
+    "id": "computer-066",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The default file extension of a MS Word document is",
+      "as": "MS ৱৰ্ড ডকুমেণ্টৰ পূৰ্বনিৰ্ধাৰিত এক্সটেনশ্বন"
+    },
+    "options": [
+      {
+        "en": ".xls",
+        "as": ".xls"
+      },
+      {
+        "en": ".rtf",
+        "as": ".rtf"
+      },
+      {
+        "en": ".docx",
+        "as": ".docx"
+      },
+      {
+        "en": ".txt",
+        "as": ".txt"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Modern Word saves in docx, the XML based format. Plain text and rich text formats lose most formatting.",
+      "as": "আধুনিক ৱৰ্ডে docx ত সঞ্চয় কৰে, যি XML ভিত্তিক। সাধাৰণ লিখা আৰু RTF এ বেছিভাগ ৰূপান্তৰ হেৰুৱায়।"
+    }
+  },
+  {
+    "id": "computer-067",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which MS Office program is best suited for preparing a monthly budget table?",
+      "as": "মাহিলী বাজেট তালিকা প্ৰস্তুত কৰিবলৈ কোন MS Office প্ৰগ্ৰাম আটাই উপযুক্ত"
+    },
+    "options": [
+      {
+        "en": "Outlook",
+        "as": "আউটলুক"
+      },
+      {
+        "en": "Excel",
+        "as": "এক্সেল"
+      },
+      {
+        "en": "Word",
+        "as": "ৱৰ্ড"
+      },
+      {
+        "en": "PowerPoint",
+        "as": "পাৱাৰপইণ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Excel holds figures in cells and recalculates totals automatically, which suits budgets. Word is for prose.",
+      "as": "এক্সেলে কোষত সংখ্যা ৰাখি যোগফল নিজে পুনৰ গণে, সেয়ে বাজেটৰ বাবে উপযুক্ত। ৱৰ্ড গদ্যৰ বাবে।"
+    }
+  },
+  {
+    "id": "computer-068",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Word, the shortcut Ctrl + Z is used to",
+      "as": "MS ৱৰ্ডত Ctrl + Z চৰ্টকাট কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "undo the last action",
+        "as": "শেষ কামটো বাতিল কৰিবলৈ"
+      },
+      {
+        "en": "redo the last action",
+        "as": "শেষ কামটো পুনৰ কৰিবলৈ"
+      },
+      {
+        "en": "zoom the page",
+        "as": "পৃষ্ঠা জুম কৰিবলৈ"
+      },
+      {
+        "en": "close the document",
+        "as": "ডকুমেণ্ট বন্ধ কৰিবলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ctrl + Z steps back one action, and Ctrl + Y redoes it. Closing uses Ctrl + W.",
+      "as": "Ctrl + Z এ এটা কাম পিছুৱায়, আৰু Ctrl + Y এ পুনৰ কৰে। বন্ধ কৰিবলৈ Ctrl + W।"
+    }
+  },
+  {
+    "id": "computer-069",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A cell in MS Excel can hold",
+      "as": "MS এক্সেলৰ এটা কোষে ৰাখিব পাৰে"
+    },
+    "options": [
+      {
+        "en": "only numbers",
+        "as": "কেৱল সংখ্যা"
+      },
+      {
+        "en": "only formulas",
+        "as": "কেৱল সূত্ৰ"
+      },
+      {
+        "en": "only text",
+        "as": "কেৱল লিখা"
+      },
+      {
+        "en": "text, numbers or formulas",
+        "as": "লিখা, সংখ্যা বা সূত্ৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A cell takes text, a number or a formula beginning with an equals sign, which is what makes Excel flexible.",
+      "as": "কোষে লিখা, সংখ্যা বা সমান চিনেৰে আৰম্ভ হোৱা সূত্ৰ লয়, সেয়ে এক্সেল নমনীয়।"
+    }
+  },
+  {
+    "id": "computer-070",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS PowerPoint, a single page of the presentation is called a",
+      "as": "MS পাৱাৰপইণ্টত প্ৰেজেণ্টেশ্যনৰ এটা পৃষ্ঠাক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "page",
+        "as": "পেজ"
+      },
+      {
+        "en": "frame",
+        "as": "ফ্ৰেম"
+      },
+      {
+        "en": "slide",
+        "as": "শ্লাইড"
+      },
+      {
+        "en": "sheet",
+        "as": "শ্বীট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "PowerPoint calls each page a slide. Excel uses sheets and Word uses pages.",
+      "as": "পাৱাৰপইণ্টে প্ৰতিটো পৃষ্ঠাক শ্লাইড বোলে। এক্সেলে শ্বীট আৰু ৱৰ্ডে পেজ ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "computer-071",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The shortcut Ctrl + C is used to",
+      "as": "Ctrl + C চৰ্টকাট কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "clear the formatting",
+        "as": "ৰূপান্তৰ মচিবলৈ"
+      },
+      {
+        "en": "copy the selected content",
+        "as": "বাছনি কৰা সমল নকল কৰিবলৈ"
+      },
+      {
+        "en": "cut the selected content",
+        "as": "বাছনি কৰা সমল কাটিবলৈ"
+      },
+      {
+        "en": "paste the copied content",
+        "as": "নকল কৰা সমল পেষ্ট কৰিবলৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ctrl + C copies and leaves the original, while Ctrl + X removes it. Ctrl + V then pastes.",
+      "as": "Ctrl + C এ নকল কৰি মূল ৰাখে, Ctrl + X এ আঁতৰায়। তাৰ পিছত Ctrl + V এ পেষ্ট কৰে।"
+    }
+  },
+  {
+    "id": "computer-072",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Excel, which symbol must a formula begin with?",
+      "as": "MS এক্সেলত সূত্ৰ কি চিনেৰে আৰম্ভ হ'ব লাগে"
+    },
+    "options": [
+      {
+        "en": "equals sign",
+        "as": "সমান চিন"
+      },
+      {
+        "en": "plus sign",
+        "as": "যোগ চিন"
+      },
+      {
+        "en": "hash sign",
+        "as": "হেশ চিন"
+      },
+      {
+        "en": "dollar sign",
+        "as": "ডলাৰ চিন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every formula starts with an equals sign, which tells Excel to calculate rather than store text. Without it the entry stays as text.",
+      "as": "প্ৰতিটো সূত্ৰ সমান চিনেৰে আৰম্ভ হয়, যিয়ে এক্সেলক লিখা নহয় গণনা কৰিবলৈ কয়। নহ'লে লিখা হিচাপেই থাকে।"
+    }
+  },
+  {
+    "id": "computer-073",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which MS Office application is used mainly for email and calendars?",
+      "as": "কোন MS Office এপ্লিকেশ্যন মূলতঃ ইমেইল আৰু কেলেণ্ডাৰৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "Access",
+        "as": "এক্সেছ"
+      },
+      {
+        "en": "Publisher",
+        "as": "পাব্লিছাৰ"
+      },
+      {
+        "en": "OneNote",
+        "as": "ৱাননোট"
+      },
+      {
+        "en": "Outlook",
+        "as": "আউটলুক"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Outlook handles mail, contacts and scheduling. Access is a database and Publisher makes printed designs.",
+      "as": "আউটলুকে মেইল, সম্পৰ্ক আৰু সময়সূচী চম্ভালে। এক্সেছ ডাটাবেছ আৰু পাব্লিছাৰে ছপা ডিজাইন বনায়।"
+    }
+  },
+  {
+    "id": "computer-074",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Word, the feature that checks spelling and grammar is found under the",
+      "as": "MS ৱৰ্ডত বানান আৰু ব্যাকৰণ পৰীক্ষা কৰা সুবিধা ক'ত পোৱা যায়"
+    },
+    "options": [
+      {
+        "en": "Design tab",
+        "as": "ডিজাইন টেবত"
+      },
+      {
+        "en": "View tab",
+        "as": "ভিউ টেবত"
+      },
+      {
+        "en": "Review tab",
+        "as": "ৰিভিউ টেবত"
+      },
+      {
+        "en": "Insert tab",
+        "as": "ইনছাৰ্ট টেবত"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Spelling and grammar sit in the Review tab along with comments and tracking. Insert handles pictures and tables.",
+      "as": "বানান আৰু ব্যাকৰণ ৰিভিউ টেবত, মন্তব্য আৰু ট্ৰেকিঙৰ সৈতে থাকে। ইনছাৰ্টে ছবি আৰু তালিকা চম্ভালে।"
+    }
+  },
+  {
+    "id": "computer-075",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The MS Excel function that returns the average of a range is",
+      "as": "পৰিসৰৰ গড় দিয়া MS এক্সেল ফলনটো"
+    },
+    "options": [
+      {
+        "en": "MODE",
+        "as": "MODE"
+      },
+      {
+        "en": "AVERAGE",
+        "as": "AVERAGE"
+      },
+      {
+        "en": "SUM",
+        "as": "SUM"
+      },
+      {
+        "en": "MEDIAN",
+        "as": "MEDIAN"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "AVERAGE adds the values and divides by the count. MEDIAN gives the middle value and MODE the most frequent.",
+      "as": "AVERAGE এ যোগফলক সংখ্যাৰে ভাগ কৰে। MEDIAN এ মাজৰ মান আৰু MODE এ আটাই সঘন মান দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-076",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A PowerPoint presentation is normally saved with the extension",
+      "as": "পাৱাৰপইণ্ট প্ৰেজেণ্টেশ্যন সাধাৰণতে কি এক্সটেনশ্বনত সঞ্চয় হয়"
+    },
+    "options": [
+      {
+        "en": ".pptx",
+        "as": ".pptx"
+      },
+      {
+        "en": ".docx",
+        "as": ".docx"
+      },
+      {
+        "en": ".xlsx",
+        "as": ".xlsx"
+      },
+      {
+        "en": ".pdf",
+        "as": ".pdf"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Presentations use pptx. PDF is a fixed output format, not the editable source.",
+      "as": "প্ৰেজেণ্টেশ্যন .pptx ব্যৱহাৰ কৰে। PDF এটা স্থিৰ আউটপুট, সম্পাদনযোগ্য উৎস নহয়।"
+    }
+  },
+  {
+    "id": "computer-077",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Excel, the intersection of a row and a column is called a",
+      "as": "MS এক্সেলত শাৰী আৰু স্তম্ভৰ ছেদবিন্দুক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "range",
+        "as": "পৰিসৰ"
+      },
+      {
+        "en": "worksheet",
+        "as": "ৱৰ্কশ্বীট"
+      },
+      {
+        "en": "workbook",
+        "as": "ৱৰ্কবুক"
+      },
+      {
+        "en": "cell",
+        "as": "কোষ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A cell is one box at the crossing of a row and column. A range is a group of cells and a workbook holds all the sheets.",
+      "as": "কোষ শাৰী আৰু স্তম্ভৰ ছেদত থকা এটা বাকচ। পৰিসৰ কোষৰ গোট আৰু ৱৰ্কবুকে সকলো শ্বীট ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-078",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which key combination selects all the content in a Word document?",
+      "as": "ৱৰ্ড ডকুমেণ্টৰ সকলো সমল বাছনি কৰা কি চাবিৰ সংযোগ"
+    },
+    "options": [
+      {
+        "en": "Ctrl + D",
+        "as": "Ctrl + D"
+      },
+      {
+        "en": "Ctrl + F",
+        "as": "Ctrl + F"
+      },
+      {
+        "en": "Ctrl + A",
+        "as": "Ctrl + A"
+      },
+      {
+        "en": "Ctrl + E",
+        "as": "Ctrl + E"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ctrl + A selects all. Ctrl + F opens find and Ctrl + E centres the paragraph.",
+      "as": "Ctrl + A এ সকলো বাছনি কৰে। Ctrl + F এ বিচাৰ খোলে আৰু Ctrl + E এ অনুচ্ছেদ কেন্দ্ৰত ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-079",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Word, mail merge is used to",
+      "as": "MS ৱৰ্ডত মেইল মাৰ্জ কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "convert a document into a spreadsheet",
+        "as": "ডকুমেণ্ট স্প্ৰেডশ্বীটলৈ সলনি কৰিবলৈ"
+      },
+      {
+        "en": "produce many personalised letters from one template",
+        "as": "এটা আৰ্হিৰপৰা বহু ব্যক্তিগত চিঠি বনাবলৈ"
+      },
+      {
+        "en": "send email without an internet link",
+        "as": "ইণ্টাৰনেট সংযোগ নোহোৱাকৈ ইমেইল পঠিয়াবলৈ"
+      },
+      {
+        "en": "merge two documents into one",
+        "as": "দুটা ডকুমেণ্ট এটালৈ মিলাবলৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mail merge combines a fixed template with a list of names and addresses, so each copy is personalised.",
+      "as": "মেইল মাৰ্জে এটা স্থিৰ আৰ্হিক নাম আৰু ঠিকনাৰ তালিকাৰ সৈতে মিলায়, সেয়ে প্ৰতিটো নকল ব্যক্তিগত হয়।"
+    }
+  },
+  {
+    "id": "computer-080",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Excel, the symbol $ in a cell reference such as $A$1 means the reference is",
+      "as": "MS এক্সেলত $A$1 ৰ দৰে কোষ নিৰ্দেশত $ চিনে বুজায় যে নিৰ্দেশটো"
+    },
+    "options": [
+      {
+        "en": "absolute and does not change when copied",
+        "as": "পূৰ্ণ আৰু নকল কৰিলে নসলায়"
+      },
+      {
+        "en": "relative and shifts when copied",
+        "as": "আপেক্ষিক আৰু নকল কৰিলে সলনি হয়"
+      },
+      {
+        "en": "invalid",
+        "as": "অবৈধ"
+      },
+      {
+        "en": "a text entry",
+        "as": "লিখা প্ৰৱিষ্টি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The dollar signs lock the column and the row, so copying the formula elsewhere still points at A1. Without them both shift.",
+      "as": "ডলাৰ চিনে স্তম্ভ আৰু শাৰী বন্ধ কৰে, সেয়ে সূত্ৰ আন ঠাইত নকল কৰিলেও A1 লৈয়ে দেখুৱায়। নহ'লে দুয়ো সৰি যায়।"
+    }
+  },
+  {
+    "id": "computer-081",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which MS Office program is a database management system?",
+      "as": "কোন MS Office প্ৰগ্ৰাম এটা ডাটাবেছ ব্যৱস্থাপনা পদ্ধতি"
+    },
+    "options": [
+      {
+        "en": "Excel",
+        "as": "এক্সেল"
+      },
+      {
+        "en": "Word",
+        "as": "ৱৰ্ড"
+      },
+      {
+        "en": "Visio",
+        "as": "ভিজিঅ'"
+      },
+      {
+        "en": "Access",
+        "as": "এক্সেছ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Access stores records in tables and lets you query them. Excel holds data in sheets but is not a relational database.",
+      "as": "এক্সেছে তালিকাত অভিলেখ ৰাখি প্ৰশ্ন সোধাৰ সুবিধা দিয়ে। এক্সেলে শ্বীটত তথ্য ৰাখে কিন্তু সম্পৰ্কীয় ডাটাবেছ নহয়।"
+    }
+  },
+  {
+    "id": "computer-082",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The shortcut to print a document is",
+      "as": "ডকুমেণ্ট প্ৰিণ্ট কৰাৰ চৰ্টকাট"
+    },
+    "options": [
+      {
+        "en": "Ctrl + N",
+        "as": "Ctrl + N"
+      },
+      {
+        "en": "Ctrl + O",
+        "as": "Ctrl + O"
+      },
+      {
+        "en": "Ctrl + P",
+        "as": "Ctrl + P"
+      },
+      {
+        "en": "Ctrl + S",
+        "as": "Ctrl + S"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ctrl + P opens the print dialogue. Ctrl + N makes a new file and Ctrl + O opens an existing one.",
+      "as": "Ctrl + P এ প্ৰিণ্ট সংলাপ খোলে। Ctrl + N এ নতুন ফাইল আৰু Ctrl + O এ থকা ফাইল খোলে।"
+    }
+  },
+  {
+    "id": "computer-083",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS PowerPoint, the transition effect is applied to",
+      "as": "MS পাৱাৰপইণ্টত ট্ৰেনজিশ্যন প্ৰভাৱ কিৰ ওপৰত প্ৰয়োগ হয়"
+    },
+    "options": [
+      {
+        "en": "the printed handout",
+        "as": "ছপা হেণ্ডআউটত"
+      },
+      {
+        "en": "the change from one slide to the next",
+        "as": "এটা শ্লাইডৰপৰা পৰৱৰ্তী শ্লাইডলৈ পৰিৱৰ্তনত"
+      },
+      {
+        "en": "the text inside one slide",
+        "as": "এটা শ্লাইডৰ ভিতৰৰ লিখাত"
+      },
+      {
+        "en": "the slide background only",
+        "as": "কেৱল শ্লাইডৰ পৃষ্ঠভূমিত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Transitions act between slides, while animations act on objects within a slide. Mixing the two is a common error.",
+      "as": "ট্ৰেনজিশ্যন শ্লাইডৰ মাজত ক্ৰিয়া কৰে, এনিমেশ্যনে এটা শ্লাইডৰ ভিতৰৰ বস্তুত। দুয়োটা মিলাই পেলোৱাটো সাধাৰণ ভুল।"
+    }
+  },
+  {
+    "id": "computer-084",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which of the following is a spreadsheet formula that would give the largest value in the range A1 to A10?",
+      "as": "A1 ৰপৰা A10 পৰিসৰৰ আটাই ডাঙৰ মান দিয়া স্প্ৰেডশ্বীট সূত্ৰটো"
+    },
+    "options": [
+      {
+        "en": "=MAX(A1:A10)",
+        "as": "=MAX(A1:A10)"
+      },
+      {
+        "en": "=MIN(A1:A10)",
+        "as": "=MIN(A1:A10)"
+      },
+      {
+        "en": "=SUM(A1:A10)",
+        "as": "=SUM(A1:A10)"
+      },
+      {
+        "en": "=COUNT(A1:A10)",
+        "as": "=COUNT(A1:A10)"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MAX returns the largest. MIN gives the smallest, SUM the total and COUNT how many numbers there are.",
+      "as": "MAX এ আটাই ডাঙৰ দিয়ে। MIN এ আটাই সৰু, SUM এ যোগফল আৰু COUNT এ সংখ্যা কিমানটা।"
+    }
+  },
+  {
+    "id": "computer-085",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Word, the header appears",
+      "as": "MS ৱৰ্ডত হেডাৰ দেখা যায়"
+    },
+    "options": [
+      {
+        "en": "at the bottom of every page",
+        "as": "প্ৰতিটো পৃষ্ঠাৰ তলত"
+      },
+      {
+        "en": "only on the first page",
+        "as": "কেৱল প্ৰথম পৃষ্ঠাত"
+      },
+      {
+        "en": "inside the footnote area",
+        "as": "পাদটীকাৰ ঠাইত"
+      },
+      {
+        "en": "at the top of every page",
+        "as": "প্ৰতিটো পৃষ্ঠাৰ ওপৰত"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The header repeats at the top of each page and the footer at the bottom, which is how page numbers are added.",
+      "as": "হেডাৰ প্ৰতিটো পৃষ্ঠাৰ ওপৰত আৰু ফুটাৰ তলত পুনৰায় আহে, সেয়ে পৃষ্ঠা সংখ্যা দিয়া হয়।"
+    }
+  },
+  {
+    "id": "computer-086",
+    "leaf": "ms-office",
+    "q": {
+      "en": "The MS Excel feature that displays only the rows matching a condition is",
+      "as": "শৰ্ত পূৰণ কৰা শাৰীবোৰ কেবল দেখুওৱা MS এক্সেল সুবিধাটো"
+    },
+    "options": [
+      {
+        "en": "freeze panes",
+        "as": "ফ্ৰীজ পেন"
+      },
+      {
+        "en": "merge cells",
+        "as": "মাৰ্জ ছেল"
+      },
+      {
+        "en": "filter",
+        "as": "ফিল্টাৰ"
+      },
+      {
+        "en": "sort",
+        "as": "ছৰ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Filtering hides rows that do not match, while sorting reorders all rows. Freezing panes only fixes headings on screen.",
+      "as": "ফিল্টাৰে নমিলা শাৰী লুকুৱায়, ছৰ্টে সকলো শাৰী সজায়। ফ্ৰীজ পেনে কেবল শিৰোনামা পৰ্দাত স্থিৰ ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-087",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which of the following is the correct way to start a new line inside the same paragraph in MS Word?",
+      "as": "MS ৱৰ্ডত একেই অনুচ্ছেদৰ ভিতৰত নতুন শাৰী আৰম্ভ কৰাৰ শুদ্ধ উপায়"
+    },
+    "options": [
+      {
+        "en": "Alt + Enter",
+        "as": "Alt + Enter"
+      },
+      {
+        "en": "Shift + Enter",
+        "as": "Shift + Enter"
+      },
+      {
+        "en": "Enter",
+        "as": "Enter"
+      },
+      {
+        "en": "Ctrl + Enter",
+        "as": "Ctrl + Enter"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shift + Enter inserts a line break without ending the paragraph. Enter alone starts a new paragraph.",
+      "as": "Shift + Enter এ অনুচ্ছেদ নটুটি নতুন শাৰী দিয়ে। অকলৈ Enter এ নতুন অনুচ্ছেদ আৰম্ভ কৰে।"
+    }
+  },
+  {
+    "id": "computer-088",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS PowerPoint, the notes pane is used to",
+      "as": "MS পাৱাৰপইণ্টত নোটছ পেন কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "write speaker notes not shown to the audience",
+        "as": "দৰ্শকক নেদেখুৱা বক্তাৰ টোকা লিখিবলৈ"
+      },
+      {
+        "en": "add animation to objects",
+        "as": "বস্তুত এনিমেশ্যন যোগ কৰিবলৈ"
+      },
+      {
+        "en": "change the slide size",
+        "as": "শ্লাইডৰ আকাৰ সলাবলৈ"
+      },
+      {
+        "en": "insert a chart",
+        "as": "চাৰ্ট সুমুৱাবলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Notes stay with the slide but appear only in presenter view or printed notes, so they help the speaker.",
+      "as": "টোকা শ্লাইডৰ সৈতে থাকে কিন্তু কেবল প্ৰেজেণ্টাৰ ভিউ বা ছপা টোকাত ওলায়, সেয়ে বক্তাক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "computer-089",
+    "leaf": "ms-office",
+    "q": {
+      "en": "Which MS Office tool would you use to create a formal invitation card?",
+      "as": "আনুষ্ঠানিক নিমন্ত্ৰণ পত্ৰ বনাবলৈ কোন MS Office সজুলি ব্যৱহাৰ কৰিব"
+    },
+    "options": [
+      {
+        "en": "Excel",
+        "as": "এক্সেল"
+      },
+      {
+        "en": "Access",
+        "as": "এক্সেছ"
+      },
+      {
+        "en": "Outlook",
+        "as": "আউটলুক"
+      },
+      {
+        "en": "Publisher",
+        "as": "পাব্লিছাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Publisher is built for page layout and print design. Excel and Access handle numbers and records.",
+      "as": "পাব্লিছাৰ পৃষ্ঠা সজ্জা আৰু ছপা ডিজাইনৰ বাবে বনোৱা। এক্সেল আৰু এক্সেছে সংখ্যা আৰু অভিলেখ চম্ভালে।"
+    }
+  },
+  {
+    "id": "computer-090",
+    "leaf": "ms-office",
+    "q": {
+      "en": "In MS Word, pressing Ctrl + E will",
+      "as": "MS ৱৰ্ডত Ctrl + E টিপিলে"
+    },
+    "options": [
+      {
+        "en": "exit the program",
+        "as": "প্ৰগ্ৰামৰপৰা ওলায়"
+      },
+      {
+        "en": "open a new window",
+        "as": "নতুন উইণ্ড' খোলে"
+      },
+      {
+        "en": "centre the selected paragraph",
+        "as": "বাছনি কৰা অনুচ্ছেদ কেন্দ্ৰত ৰাখে"
+      },
+      {
+        "en": "make the text bold",
+        "as": "লিখা ডাঠ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ctrl + E centres, Ctrl + B bolds and Ctrl + L aligns left. Ctrl + E does not close anything.",
+      "as": "Ctrl + E এ কেন্দ্ৰত, Ctrl + B এ ডাঠ আৰু Ctrl + L এ বাওঁফালে ৰাখে। Ctrl + E এ একো বন্ধ নহয়।"
+    }
+  },
+  {
+    "id": "computer-261",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user types 007 into a cell and Excel displays 7. The reason is that Excel",
+      "as": "ব্যৱহাৰকাৰীয়ে এটা ঘৰত 007 লিখিলে এক্সেলে ৭ দেখুৱায়। কাৰণ এক্সেলে"
+    },
+    "options": [
+      {
+        "en": "has a corrupted formula bar",
+        "as": "সূত্ৰ বাৰ নষ্ট হৈছে"
+      },
+      {
+        "en": "cannot store text at all",
+        "as": "পাঠ একেবাৰে সাঁচিব নোৱাৰে"
+      },
+      {
+        "en": "has run out of memory",
+        "as": "স্মৃতি শেষ হৈছে"
+      },
+      {
+        "en": "treats the entry as a number and drops leading zeros",
+        "as": "প্ৰৱেশক সংখ্যা ধৰি আগৰ শূন্য আঁতৰায়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A plain numeric entry is stored as a value, so the leading zeros carry no meaning and are dropped. Formatting the cell as text or prefixing an apostrophe keeps them, and the formula bar, text storage and memory are all working.",
+      "as": "সাধাৰণ সংখ্যাজনিত প্ৰৱেশ মান হিচাপে সাঁচি ৰখা হয়, সেয়ে আগৰ শূন্যৰ অৰ্থ নাথাকে আৰু আঁতৰি যায়। ঘৰটো পাঠ হিচাপে সংৰচিত কৰিলে বা এপ'ষ্ট্ৰফি আগত দিলে তাক ৰাখে, আৰু সূত্ৰ বাৰ, পাঠ সাঁচনি তথা স্মৃতি ঠিকেই আছে।"
+    }
+  },
+  {
+    "id": "computer-262",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A formula in Excel returns the error #REF!. The most likely cause is that the formula",
+      "as": "এক্সেলত এটা সূত্ৰই #REF! ত্ৰুটি দিয়ে। আটাই সম্ভাব্য কাৰণ — সূত্ৰই"
+    },
+    "options": [
+      {
+        "en": "divides by zero",
+        "as": "শূন্যৰে হৰণ কৰিছে"
+      },
+      {
+        "en": "uses text where a number is needed",
+        "as": "সংখ্যা লাগিলেও পাঠ ব্যৱহাৰ কৰিছে"
+      },
+      {
+        "en": "refers to a cell that has been deleted",
+        "as": "মচি পেলোৱা ঘৰলৈ আঙুলিয়াইছে"
+      },
+      {
+        "en": "contains a spelling mistake in a function name",
+        "as": "ফাংচনৰ নামত বানান ভুল আছে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "#REF! appears when the reference itself is no longer valid, which happens when the referenced cell or column is deleted. A misspelt function gives #NAME?, division by zero gives #DIV/0! and wrong data type gives #VALUE!.",
+      "as": "আঙুলিওৱা ঘৰ বা স্তম্ভ মচি পেলালে সূত্ৰৰ সংযোগ আৰু বৈধ নাথাকে, তেতিয়া #REF! ওলায়। বানান ভুল ফাংচনে #NAME? দিয়ে, শূন্যৰে হৰণে #DIV/0! দিয়ে আৰু ভুল তথ্যৰ প্ৰকাৰে #VALUE! দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-263",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user wants the same header row to appear at the top of every printed page in Excel. The setting used is",
+      "as": "ব্যৱহাৰকাৰীয়ে এক্সেলত ছপা প্ৰতিটো পৃষ্ঠাৰ ওপৰত একেই শিৰোনাম শাৰী দেখুৱাব বিচাৰে। ব্যৱহৃত ছেটিং"
+    },
+    "options": [
+      {
+        "en": "wrap text",
+        "as": "পাঠ মেৰিওৱা"
+      },
+      {
+        "en": "print titles with rows to repeat at top",
+        "as": "ওপৰত পুনৰাবৃত্তি কৰিবলগীয়া শাৰীসহ প্ৰিন্ট শিৰোনাম"
+      },
+      {
+        "en": "freeze panes",
+        "as": "পেন ফ্ৰিজ কৰা"
+      },
+      {
+        "en": "page break preview",
+        "as": "পৃষ্ঠা বিভাজন পূৰ্বদৰ্শন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Print titles tell the printer to repeat chosen rows on every page, which is what a long table needs. Freeze panes only affects the screen, page break preview shows where pages split and wrap text changes cell display.",
+      "as": "প্ৰিন্ট শিৰোনামে বাছনি কৰা শাৰী প্ৰতিটো পৃষ্ঠাত পুনৰাবৃত্তি কৰিবলৈ প্ৰিন্টাৰক কয়, যি দীঘল তালিকাৰ বাবে প্ৰয়োজন। পেন ফ্ৰিজে কেৱল পৰ্দাত প্ৰভাৱ পেলায়, পৃষ্ঠা বিভাজন পূৰ্বদৰ্শনে ক'ত ভাগ হয় দেখুৱায় আৰু পাঠ মেৰিওৱাই ঘৰৰ প্ৰদৰ্শন সলায়।"
+    }
+  },
+  {
+    "id": "computer-264",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user needs to find all rows where the city is Guwahati and the sales exceed 5000. The tool that does this is",
+      "as": "ব্যৱহাৰকাৰীয়ে চহৰ গুৱাহাটী আৰু বিক্ৰী ৫০০০ৰ ওপৰ হোৱা সকলো শাৰী বিচাৰে। এই কাম কৰা সঁজুলি"
+    },
+    "options": [
+      {
+        "en": "an advanced filter with two criteria",
+        "as": "দুটা চৰ্তযুক্ত উন্নত ফিল্টাৰ"
+      },
+      {
+        "en": "the sort command only",
+        "as": "কেৱল ছৰ্ট আদেশ"
+      },
+      {
+        "en": "freeze panes",
+        "as": "পেন ফ্ৰিজ কৰা"
+      },
+      {
+        "en": "the spelling checker",
+        "as": "বানান পৰীক্ষক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An advanced filter applies several conditions at once and copies or hides the matching rows, which is exactly a two criterion search. Sorting only orders rows, freezing panes affects the view and a spelling checker reads text.",
+      "as": "উন্নত ফিল্টাৰে একেসময়ত কেইবাটাও চৰ্ত প্ৰয়োগ কৰি মিলা শাৰীবোৰ নকল বা লুকুৱায়, যি ঠিক দুই চৰ্তৰ সন্ধান। ছৰ্টে কেৱল শাৰী সজায়, পেন ফ্ৰিজে দৃশ্যত প্ৰভাৱ পেলায় আৰু বানান পৰীক্ষকে পাঠ পঢ়ে।"
+    }
+  },
+  {
+    "id": "computer-265",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A Word document must show different page numbers in the header for odd and even pages. The setting required is",
+      "as": "এখন ৱৰ্ড নথিত অযুগ্ম আৰু যুগ্ম পৃষ্ঠাৰ শিৰোনামত বেলেগ পৃষ্ঠা সংখ্যা দেখুৱাব লাগে। প্ৰয়োজনীয় ছেটিং"
+    },
+    "options": [
+      {
+        "en": "mirror margins only",
+        "as": "কেৱল প্ৰতিবিম্বিত পাৰ্শ্ব"
+      },
+      {
+        "en": "a section break with no header",
+        "as": "শিৰোনাম নোহোৱা অংশ বিভাজন"
+      },
+      {
+        "en": "landscape orientation",
+        "as": "আনুভূমিক অভিমুখ"
+      },
+      {
+        "en": "different odd and even pages",
+        "as": "অযুগ্ম আৰু যুগ্ম পৃষ্ঠা বেলেগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Turning on different odd and even pages gives each parity its own header, which is how books number pages. Mirror margins only swap left and right, a headerless section removes numbering and orientation changes page shape.",
+      "as": "অযুগ্ম আৰু যুগ্ম পৃষ্ঠা বেলেগ চালু কৰিলে প্ৰত্যেক যুগলৰ নিজা শিৰোনাম হয়, পুথিয়ে এনেদৰেই পৃষ্ঠা সংখ্যা দিয়ে। প্ৰতিবিম্বিত পাৰ্শ্বে কেৱল বাওঁ-সোঁ সলনি কৰে, শিৰোনাম নোহোৱা অংশই সংখ্যা আঁতৰায় আৰু অভিমুখে পৃষ্ঠাৰ আকাৰ সলায়।"
+    }
+  },
+  {
+    "id": "computer-266",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must total a column but only the visible rows after filtering. The function that ignores hidden rows is",
+      "as": "ব্যৱহাৰকাৰীয়ে এটা স্তম্ভৰ যোগফল বিচাৰে কিন্তু ফিল্টাৰৰ পিছত দেখুওৱা শাৰীবোৰহে। লুকুৱা শাৰী এৰাই যোৱা ফাংচন"
+    },
+    "options": [
+      {
+        "en": "COUNT",
+        "as": "COUNT"
+      },
+      {
+        "en": "AVERAGE",
+        "as": "AVERAGE"
+      },
+      {
+        "en": "SUBTOTAL",
+        "as": "SUBTOTAL"
+      },
+      {
+        "en": "SUM",
+        "as": "SUM"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SUBTOTAL is designed to work on the visible subset, so it recalculates as the filter changes. SUM adds every cell in the range, and COUNT and AVERAGE have the same limitation as SUM.",
+      "as": "SUBTOTAL দেখুওৱা উপগোটত কাম কৰিবলৈ বনোৱা, সেয়ে ফিল্টাৰ সলনি হ'লে পুনৰ গণনা হয়। SUM এ পৰিসৰৰ প্ৰতিটো ঘৰ যোগ কৰে, আৰু COUNT তথা AVERAGE ৰো SUM ৰ দৰেই সীমাবদ্ধতা।"
+    }
+  },
+  {
+    "id": "computer-267",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user needs the same closing paragraph at the bottom of every page in a long Word document. The correct feature is a",
+      "as": "ব্যৱহাৰকাৰীয়ে দীঘল ৱৰ্ড নথিত প্ৰতিটো পৃষ্ঠাৰ তলত একেই সামৰণি অনুচ্ছেদ বিচাৰে। শুদ্ধ সুবিধা"
+    },
+    "options": [
+      {
+        "en": "text box",
+        "as": "টেক্সট বক্স"
+      },
+      {
+        "en": "footer",
+        "as": "ফুটাৰ"
+      },
+      {
+        "en": "footnote",
+        "as": "ফুটনোট"
+      },
+      {
+        "en": "endnote",
+        "as": "এণ্ডনোট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A footer repeats on every page of its section, which is what a fixed closing line needs. A footnote sits at the bottom of one page for a reference, an endnote collects at the end and a text box stays where it is placed.",
+      "as": "ফুটাৰে নিজৰ অংশৰ প্ৰতিটো পৃষ্ঠাত পুনৰাবৃত্তি হয়, যি স্থিৰ সামৰণি শাৰীৰ বাবে প্ৰয়োজন। ফুটনোটে এটা পৃষ্ঠাৰ তলত তথ্যসূত্ৰৰ বাবে থাকে, এণ্ডনোটে শেষত জমা হয় আৰু টেক্সট বক্স য'ত ৰখা হয় তাতে থাকে।"
+    }
+  },
+  {
+    "id": "computer-268",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user pastes a table from Excel into Word and it breaks the page margins. The best fix is to",
+      "as": "ব্যৱহাৰকাৰীয়ে এক্সেলৰপৰা তালিকা ৱৰ্ডত পে'ষ্ট কৰিলে পৃষ্ঠাৰ পাৰ্শ্ব ভাঙে। শ্ৰেষ্ঠ সমাধান"
+    },
+    "options": [
+      {
+        "en": "use paste special and choose keep source formatting or auto fit to window",
+        "as": "পে'ষ্ট বিশেষ ব্যৱহাৰ কৰি উৎস সংৰচনা ৰখা বা জানালালৈ স্বয়ং মিলোৱা বাছনি কৰা"
+      },
+      {
+        "en": "reduce the font size to one point",
+        "as": "ফণ্টৰ আকাৰ এক পইণ্টলৈ কমোৱা"
+      },
+      {
+        "en": "delete the table and retype it by hand",
+        "as": "তালিকা মচি হাতেৰে পুনৰ লিখা"
+      },
+      {
+        "en": "change the page to landscape and leave it",
+        "as": "পৃষ্ঠা আনুভূমিক কৰি এৰি দিয়া"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Paste special lets the table keep its own layout or fit the page width, which solves the overflow without damaging the content. Shrinking the font to one point makes it unreadable, retyping loses formatting and simply switching to landscape does not fix a table wider than the page.",
+      "as": "পে'ষ্ট বিশেষে তালিকাক নিজৰ বিন্যাস ৰাখিব বা পৃষ্ঠাৰ প্ৰস্থত মিলিবলৈ দিয়ে, যিয়ে বস্তু নষ্ট নকৰাকৈ উপচি পৰা সমাধান কৰে। ফণ্ট এক পইণ্টলৈ কমালে অপাঠ্য হয়, পুনৰ লিখিলে বিন্যাস যায় আৰু কেৱল আনুভূমিক কৰিলে পৃষ্ঠাতকৈ বহল তালিকা নশুধৰে।"
+    }
+  },
+  {
+    "id": "computer-269",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user wants a slide to build up bullet by bullet on click. The feature used is",
+      "as": "ব্যৱহাৰকাৰীয়ে ক্লিকত এটা এটাকৈ বিন্দু ওলোৱা স্লাইড বিচাৰে। ব্যৱহৃত সুবিধা"
+    },
+    "options": [
+      {
+        "en": "slide transition",
+        "as": "স্লাইড পৰিৱৰ্তন"
+      },
+      {
+        "en": "slide master",
+        "as": "স্লাইড মাষ্টাৰ"
+      },
+      {
+        "en": "speaker notes",
+        "as": "বক্তাৰ টোকা"
+      },
+      {
+        "en": "animation with appear on click",
+        "as": "ক্লিকত ওলোৱা এনিমেশ্যন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Animations act on the objects inside a slide, so each bullet can be set to appear on click. A transition affects the change between slides, the master sets the design and notes are for the presenter only.",
+      "as": "এনিমেশ্যনে স্লাইডৰ ভিতৰৰ বস্তুত ক্ৰিয়া কৰে, সেয়ে প্ৰতিটো বিন্দু ক্লিকত ওলাবলৈ ছেট কৰিব পাৰি। পৰিৱৰ্তনে স্লাইডৰ মাজৰ সলনি কৰে, মাষ্টাৰে আৰ্হি নিৰ্ধাৰণ কৰে আৰু টোকা কেৱল উপস্থাপকৰ বাবে।"
+    }
+  },
+  {
+    "id": "computer-270",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must send a presentation that will look the same on a computer without PowerPoint. The safest export is",
+      "as": "ব্যৱহাৰকাৰীয়ে PowerPoint নথকা কম্পিউটাৰতো একেই দেখা প্ৰেজেণ্টেশ্যন পঠিয়াব লাগে। আটাই সুৰক্ষিত ৰপ্তানি"
+    },
+    "options": [
+      {
+        "en": "a folder of images without order",
+        "as": "ক্ৰম নোহোৱা ছবিৰ ফোল্ডাৰ"
+      },
+      {
+        "en": "a text file of the outline",
+        "as": "ৰূপৰেখাৰ পাঠ ফাইল"
+      },
+      {
+        "en": "a PDF file",
+        "as": "এটা PDF ফাইল"
+      },
+      {
+        "en": "the editable PPTX file",
+        "as": "সম্পাদনযোগ্য PPTX ফাইল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A PDF embeds the layout and fonts, so it renders identically anywhere without the authoring software. A PPTX needs PowerPoint, unordered images lose the sequence and an outline drops all design.",
+      "as": "PDF এ বিন্যাস আৰু ফণ্ট সাঁচি ৰাখে, সেয়ে মূল ছফ্টৱেৰ নোহোৱাকৈ যিকোনো ঠাইত একেই দেখা যায়। PPTX লৈ PowerPoint লাগে, ক্ৰম নোহোৱা ছবিয়ে ক্ৰম হেৰুৱায় আৰু ৰূপৰেখাই গোটেই আৰ্হি এৰি দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-271",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user needs a single mailing to 300 people each with their own name in the letter. The Word feature is",
+      "as": "ব্যৱহাৰকাৰীয়ে ৩০০ লোকলৈ এখন চিঠিত প্ৰত্যেকৰ নিজা নাম লিখি পঠিয়াব লাগে। ৱৰ্ডৰ সুবিধা"
+    },
+    "options": [
+      {
+        "en": "a table of contents",
+        "as": "বিষয়বস্তুৰ তালিকা"
+      },
+      {
+        "en": "mail merge with a data source",
+        "as": "তথ্য উৎসসহ মেইল মাৰ্জ"
+      },
+      {
+        "en": "the thesaurus",
+        "as": "সমাৰ্থ শব্দকোষ"
+      },
+      {
+        "en": "track changes",
+        "as": "পৰিৱৰ্তন অনুসৰণ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mail merge takes one template and fills the placeholder fields from a list, producing a personalised copy per record. The thesaurus suggests words, track changes records edits and a contents list indexes headings.",
+      "as": "মেইল মাৰ্জে এটা আৰ্হি লৈ তালিকাৰপৰা স্থানধাৰক ক্ষেত্ৰ ভৰায়, যিয়ে প্ৰতিটো ৰেকৰ্ডৰ বাবে ব্যক্তিগত নকল বনায়। সমাৰ্থ শব্দকোষে শব্দ দিয়ে, পৰিৱৰ্তন অনুসৰণে সম্পাদনা লিখে আৰু বিষয়বস্তুৰ তালিকাই শিৰোনাম সূচীবদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "computer-272",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must compare two versions of a document and see every edit. The feature used is",
+      "as": "ব্যৱহাৰকাৰীয়ে নথিৰ দুটা সংস্কৰণ তুলনা কৰি প্ৰতিটো সম্পাদনা চাব লাগে। ব্যৱহৃত সুবিধা"
+    },
+    "options": [
+      {
+        "en": "compare documents",
+        "as": "নথি তুলনা"
+      },
+      {
+        "en": "spell check",
+        "as": "বানান পৰীক্ষা"
+      },
+      {
+        "en": "word count",
+        "as": "শব্দ গণনা"
+      },
+      {
+        "en": "page colour",
+        "as": "পৃষ্ঠাৰ ৰং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The compare tool aligns two files and marks insertions, deletions and formatting changes, which is exactly the requirement. Spelling, word count and page colour say nothing about what changed.",
+      "as": "তুলনা সঁজুলিয়ে দুটা ফাইল মিলাই সোমোৱা, মচা আৰু বিন্যাসৰ পৰিৱৰ্তন চিহ্নিত কৰে, যি ঠিক প্ৰয়োজন। বানান, শব্দ গণনা আৰু পৃষ্ঠাৰ ৰঙে কি সলনি হ'ল তাত একো নকয়।"
+    }
+  },
+  {
+    "id": "computer-273",
+    "leaf": "ms-office",
+    "q": {
+      "en": "An Excel formula must return PASS if marks are 40 or more and FAIL otherwise. The correct function is",
+      "as": "এক্সেলৰ সূত্ৰই নম্বৰ ৪০ বা বেছি হ'লে PASS আৰু নহ'লে FAIL ঘূৰাব লাগে। শুদ্ধ ফাংচন"
+    },
+    "options": [
+      {
+        "en": "SUM",
+        "as": "SUM"
+      },
+      {
+        "en": "CONCATENATE",
+        "as": "CONCATENATE"
+      },
+      {
+        "en": "VLOOKUP",
+        "as": "VLOOKUP"
+      },
+      {
+        "en": "IF",
+        "as": "IF"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "IF tests a condition and returns one value when true and another when false, which is a two way choice. SUM adds numbers, CONCATENATE joins text and VLOOKUP searches a table for a matching row.",
+      "as": "IF এ চৰ্ত পৰীক্ষা কৰি সঁচা হ'লে এটা মান আৰু মিছা হ'লে আন এটা ঘূৰায়, যি দুই দিশৰ বাছনি। SUM এ সংখ্যা যোগ কৰে, CONCATENATE এ পাঠ জোড়ে আৰু VLOOKUP এ তালিকাত মিলা শাৰী বিচাৰে।"
+    }
+  },
+  {
+    "id": "computer-274",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must keep the top row visible while scrolling through 500 rows. The feature used is",
+      "as": "ব্যৱহাৰকাৰীয়ে ৫০০ শাৰী স্ক্ৰ'ল কৰোতে ওপৰৰ শাৰী দৃশ্যমান ৰাখিব লাগে। ব্যৱহৃত সুবিধা"
+    },
+    "options": [
+      {
+        "en": "hide the row",
+        "as": "শাৰী লুকুওৱা"
+      },
+      {
+        "en": "merge cells",
+        "as": "ঘৰ মিলোৱা"
+      },
+      {
+        "en": "freeze top row",
+        "as": "ওপৰৰ শাৰী ফ্ৰিজ কৰা"
+      },
+      {
+        "en": "print titles",
+        "as": "প্ৰিন্ট শিৰোনাম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Freezing pins the row on screen while the rest scrolls, which is what a long sheet needs. Print titles only affect printing, hiding removes the row and merging joins cells without pinning them.",
+      "as": "ফ্ৰিজ কৰিলে বাকীখিনি স্ক্ৰ'ল হওতে শাৰীটো পৰ্দাত আঁট খাই থাকে, যি দীঘল শীটৰ বাবে প্ৰয়োজন। প্ৰিন্ট শিৰোনামে কেৱল ছপাত প্ৰভাৱ পেলায়, লুকুওৱাই শাৰী আঁতৰায় আৰু মিলোৱাই ঘৰ জোড়ে কিন্তু আঁটি নধৰে।"
+    }
+  },
+  {
+    "id": "computer-275",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user needs a chart that shows how a value changed month by month over two years. The most suitable chart is a",
+      "as": "ব্যৱহাৰকাৰীয়ে দুই বছৰত মাহে মাহে মান কেনেকৈ সলনি হ'ল দেখুওৱা চাৰ্ট বিচাৰে। আটাই উপযুক্ত চাৰ্ট"
+    },
+    "options": [
+      {
+        "en": "doughnut chart",
+        "as": "ড'নাট চাৰ্ট"
+      },
+      {
+        "en": "line chart",
+        "as": "ৰেখা চাৰ্ট"
+      },
+      {
+        "en": "pie chart",
+        "as": "পাই চাৰ্ট"
+      },
+      {
+        "en": "scatter chart without lines",
+        "as": "ৰেখা নোহোৱা স্কেটাৰ চাৰ্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A line chart places time along one axis and joins the points, so a trend over months reads at once. Pie and doughnut charts show parts of a whole, and a scatter without lines hides the sequence.",
+      "as": "ৰেখা চাৰ্টে এটা অক্ষত সময় ৰাখি বিন্দুবোৰ জোড়ে, সেয়ে মাহে মাহে প্ৰবণতা একেদৰেই পঢ়া যায়। পাই আৰু ড'নাট চাৰ্টে গোটৰ অংশ দেখুৱায়, আৰু ৰেখা নোহোৱা স্কেটাৰে ক্ৰম লুকুৱায়।"
+    }
+  },
+  {
+    "id": "computer-276",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must prevent others from changing a finished Word document but still allow reading. The correct step is to",
+      "as": "ব্যৱহাৰকাৰীয়ে চূড়ান্ত ৱৰ্ড নথি আনৰপৰা সলনি হোৱাৰপৰা ৰাখি পঢ়িবলৈ দিব লাগে। শুদ্ধ পদক্ষেপ"
+    },
+    "options": [
+      {
+        "en": "mark the document as final or restrict editing with a password",
+        "as": "নথিক চূড়ান্ত বুলি চিহ্নিত কৰা বা পাছৱৰ্ডেৰে সম্পাদনা সীমিত কৰা"
+      },
+      {
+        "en": "print it and file the paper copy",
+        "as": "ছপাই কাগজৰ নকল ফাইল কৰা"
+      },
+      {
+        "en": "rename the file with a new date",
+        "as": "নতুন তাৰিখেৰে ফাইলৰ নাম সলনি কৰা"
+      },
+      {
+        "en": "delete all the formatting",
+        "as": "সকলো বিন্যাস মচা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Marking as final or restricting editing tells the reader the file is complete and blocks casual changes, which is the intent. Printing, renaming or stripping formatting leaves the file fully editable.",
+      "as": "চূড়ান্ত বুলি চিহ্নিত কৰা বা সম্পাদনা সীমিত কৰিলে পঢ়োঁতাক ফাইল সম্পূৰ্ণ বুলি জনায় আৰু সাধাৰণ পৰিৱৰ্তন ৰোধ কৰে, যি উদ্দেশ্য। ছপা, নাম সলনি বা বিন্যাস মচিলে ফাইল সম্পূৰ্ণ সম্পাদনযোগ্য থাকি যায়।"
+    }
+  },
+  {
+    "id": "computer-277",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user wants every sheet in a workbook to print with the same company logo. The efficient method is to",
+      "as": "ব্যৱহাৰকাৰীয়ে ৱৰ্কবুকৰ প্ৰতিটো শীট একেই কোম্পানীৰ ল'গ'সহ ছপা কৰিব বিচাৰে। দক্ষ উপায়"
+    },
+    "options": [
+      {
+        "en": "paste the logo onto the data area of each sheet",
+        "as": "প্ৰতিটো শীটৰ তথ্যৰ অংশত ল'গ' পে'ষ্ট কৰা"
+      },
+      {
+        "en": "type the company name in every cell",
+        "as": "প্ৰতিটো ঘৰত কোম্পানীৰ নাম লিখা"
+      },
+      {
+        "en": "take a screenshot of the logo each time",
+        "as": "প্ৰতিবাৰ ল'গ'ৰ স্ক্ৰীণশ্বট লোৱা"
+      },
+      {
+        "en": "insert the logo in the header of each sheet or use a template",
+        "as": "প্ৰতিটো শীটৰ শিৰোনামত ল'গ' ভৰোৱা বা আৰ্হি ব্যৱহাৰ কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A header image repeats on every printed page without touching the data, and a template applies it to new sheets automatically. Pasting over data, typing in cells or taking screenshots either damages the sheet or wastes effort.",
+      "as": "শিৰোনামৰ ছবি তথ্য নোচোৱাকৈ প্ৰতিটো ছপা পৃষ্ঠাত পুনৰাবৃত্তি হয়, আৰু আৰ্হিয়ে নতুন শীটত স্বয়ংক্ৰিয়ভাৱে লগায়। তথ্যৰ ওপৰত পে'ষ্ট, ঘৰত টাইপ বা বাৰে বাৰে স্ক্ৰীণশ্বটে শীট নষ্ট বা পৰিশ্ৰম নষ্ট কৰে।"
+    }
+  },
+  {
+    "id": "computer-278",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must remove duplicate rows from a list of 5,000 entries in Excel. The correct tool is",
+      "as": "ব্যৱহাৰকাৰীয়ে এক্সেলত ৫,০০০ প্ৰৱেশৰ তালিকাৰপৰা নকল শাৰী আঁতৰাব লাগে। শুদ্ধ সঁজুলি"
+    },
+    "options": [
+      {
+        "en": "conditional formatting",
+        "as": "চৰ্তসাপেক্ষ বিন্যাস"
+      },
+      {
+        "en": "text to columns",
+        "as": "পাঠৰপৰা স্তম্ভ"
+      },
+      {
+        "en": "remove duplicates on the data tab",
+        "as": "ডেটা টেবত নকল আঁতৰোৱা"
+      },
+      {
+        "en": "sort ascending only",
+        "as": "কেৱল ঊৰ্ধ্বক্ৰমে ছৰ্ট কৰা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Remove duplicates compares the chosen columns and deletes repeated rows in one pass, which is the task. Sorting only groups duplicates together, conditional formatting highlights them and text to columns splits one column into several.",
+      "as": "নকল আঁতৰোৱাই বাছনি কৰা স্তম্ভ তুলনা কৰি এটা পাছত পুনৰাবৃত্ত শাৰী মচি পেলায়, যি কামটো। ছৰ্টে কেৱল নকলবোৰ ওচৰা-ওচৰিকৈ আনে, চৰ্তসাপেক্ষ বিন্যাসে চিহ্নিত কৰে আৰু পাঠৰপৰা স্তম্ভই এটা স্তম্ভক কেইবাটাও কৰে।"
+    }
+  },
+  {
+    "id": "computer-279",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must show a value with two decimal places and a thousands separator. The correct approach is to",
+      "as": "ব্যৱহাৰকাৰীয়ে দুই দশমিক স্থান আৰু হাজাৰৰ বিভাজকসহ মান দেখুৱাব লাগে। শুদ্ধ উপায়"
+    },
+    "options": [
+      {
+        "en": "widen the column",
+        "as": "স্তম্ভ বহল কৰা"
+      },
+      {
+        "en": "apply a number format to the cells",
+        "as": "ঘৰবোৰত সংখ্যা বিন্যাস প্ৰয়োগ কৰা"
+      },
+      {
+        "en": "retype every value with commas",
+        "as": "প্ৰতিটো মান কমাৰে পুনৰ লিখা"
+      },
+      {
+        "en": "change the font to bold",
+        "as": "ফণ্ট গাঢ় কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A number format controls how the stored value is displayed, so decimals and separators appear without altering the data. Retyping turns numbers into text, and bold or a wider column changes appearance only.",
+      "as": "সংখ্যা বিন্যাসে সাঁচি ৰখা মান কেনেকৈ দেখুৱাব লাগে নিয়ন্ত্ৰণ কৰে, সেয়ে তথ্য নসলোৱাকৈ দশমিক আৰু বিভাজক ওলায়। পুনৰ লিখিলে সংখ্যা পাঠলৈ সলনি হয়, আৰু গাঢ় ফণ্ট বা বহল স্তম্ভই কেৱল ৰূপ সলায়।"
+    }
+  },
+  {
+    "id": "computer-280",
+    "leaf": "ms-office",
+    "q": {
+      "en": "A user must protect a shared Excel file so that only certain cells can be edited. The correct sequence is to",
+      "as": "ব্যৱহাৰকাৰীয়ে ভগা এক্সেল ফাইল সুৰক্ষিত কৰি কেৱল নিৰ্দিষ্ট ঘৰত সম্পাদনা কৰিব পৰাকৈ ৰাখিব লাগে। শুদ্ধ ক্ৰম"
+    },
+    "options": [
+      {
+        "en": "unlock the editable cells first, then protect the sheet",
+        "as": "প্ৰথমে সম্পাদনযোগ্য ঘৰবোৰ খুলি তাৰ পিছত শীট সুৰক্ষিত কৰা"
+      },
+      {
+        "en": "protect the sheet first, then unlock the cells",
+        "as": "প্ৰথমে শীট সুৰক্ষিত কৰি তাৰ পিছত ঘৰ খোলা"
+      },
+      {
+        "en": "hide the sheet and share the file",
+        "as": "শীট লুকুৱাই ফাইল ভগ কৰা"
+      },
+      {
+        "en": "password protect the whole workbook only",
+        "as": "কেৱল গোটেই ৱৰ্কবুক পাছৱৰ্ডেৰে সুৰক্ষিত কৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cells are locked by default, so the editable ones must be unlocked before protection takes effect, otherwise the whole sheet is frozen. Doing it in the reverse order locks everything, hiding removes access and workbook protection does not distinguish cells.",
+      "as": "ঘৰবোৰ সাধাৰণতে বন্ধ থাকে, সেয়ে সুৰক্ষা কাৰ্যকৰী হোৱাৰ আগতে সম্পাদনযোগ্যবোৰ খুলিব লাগে, নহ'লে গোটেই শীট আঁটি যায়। উলটি ক্ৰমে সকলো বন্ধ কৰে, লুকুওৱাই প্ৰৱেশ আঁতৰায় আৰু ৱৰ্কবুক সুৰক্ষাই ঘৰ পৃথক নকৰে।"
+    }
+  }
+]

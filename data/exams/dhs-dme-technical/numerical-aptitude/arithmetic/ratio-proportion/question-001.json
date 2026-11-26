@@ -1,0 +1,3069 @@
+[
+  {
+    "id": "numerical-011",
+    "q": {
+      "en": "If a : b = 3 : 4 and b : c = 8 : 9, then a : c is",
+      "as": "যদি a : b = ৩ : ৪ আৰু b : c = ৮ : ৯, তেন্তে a : c কিমান"
+    },
+    "options": [
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      },
+      {
+        "en": "8 : 9",
+        "as": "৮ : ৯"
+      },
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Make b common. a : b = 6 : 8 and b : c = 8 : 9, so a : b : c = 6 : 8 : 9 and a : c = 6 : 9 = 2 : 3.",
+      "as": "b ৰ মান একে কৰক। a : b = ৬ : ৮ আৰু b : c = ৮ : ৯, সেয়ে a : b : c = ৬ : ৮ : ৯ আৰু a : c = ৬ : ৯ = ২ : ৩।"
+    }
+  },
+  {
+    "id": "numerical-012",
+    "q": {
+      "en": "₹4,200 is divided among A, B and C in the ratio 3 : 4 : 7. The share of C exceeds that of A by",
+      "as": "৪,২০০ টকা A, B আৰু C ৰ মাজত ৩ : ৪ : ৭ অনুপাতত ভগোৱা হ'ল। C ৰ অংশই A ৰ অংশতকৈ কিমান বেছি"
+    },
+    "options": [
+      {
+        "en": "₹840",
+        "as": "৮৪০ টকা"
+      },
+      {
+        "en": "₹1,200",
+        "as": "১,২০০ টকা"
+      },
+      {
+        "en": "₹1,260",
+        "as": "১,২৬০ টকা"
+      },
+      {
+        "en": "₹1,400",
+        "as": "১,৪০০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total parts = 3 + 4 + 7 = 14, so one part = 4200 ÷ 14 = ₹300. C - A = 7 - 3 = 4 parts = 4 × 300 = ₹1,200.",
+      "as": "মুঠ অংশ = ৩ + ৪ + ৭ = ১৪, সেয়ে এভাগ = ৪২০০ ÷ ১৪ = ৩০০ টকা। C - A = ৭ - ৩ = ৪ ভাগ = ৪ × ৩০০ = ১,২০০ টকা।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-001",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 144 : 180 in its simplest form.",
+      "as": "১৪৪ : ১৮০ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "4:6",
+        "as": "৪:৬"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "5:5",
+        "as": "৫:৫"
+      },
+      {
+        "en": "72:90",
+        "as": "৭২:৯০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dividing both terms by HCF 36 gives 4:5.",
+      "as": "উভয় পদক গ.সা.গু. ৩৬ ৰে ভাগ কৰিলে ৪:৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-002",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 252 : 336 in its simplest form.",
+      "as": "২৫২ : ৩৩৬ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "126:168",
+        "as": "১২৬:১৬৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dividing both terms by HCF 84 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ৮৪ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-003",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 375 : 625 in its simplest form.",
+      "as": "৩৭৫ : ৬২৫ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:6",
+        "as": "৩:৬"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "187:312",
+        "as": "১৮৭:৩১২"
+      },
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dividing both terms by HCF 125 gives 3:5.",
+      "as": "উভয় পদক গ.সা.গু. ১২৫ ৰে ভাগ কৰিলে ৩:৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-004",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 486 : 810 in its simplest form.",
+      "as": "৪৮৬ : ৮১০ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:6",
+        "as": "৩:৬"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "243:405",
+        "as": "২৪৩:৪০৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dividing both terms by HCF 162 gives 3:5.",
+      "as": "উভয় পদক গ.সা.গু. ১৬২ ৰে ভাগ কৰিলে ৩:৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-005",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 1176 : 1512 in its simplest form.",
+      "as": "১১৭৬ : ১৫১২ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "7:10",
+        "as": "৭:১০"
+      },
+      {
+        "en": "7:9",
+        "as": "৭:৯"
+      },
+      {
+        "en": "8:9",
+        "as": "৮:৯"
+      },
+      {
+        "en": "588:756",
+        "as": "৫৮৮:৭৫৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dividing both terms by HCF 168 gives 7:9.",
+      "as": "উভয় পদক গ.সা.গু. ১৬৮ ৰে ভাগ কৰিলে ৭:৯ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-006",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 2025 : 2700 in its simplest form.",
+      "as": "২০২৫ : ২৭০০ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "1012:1350",
+        "as": "১০১২:১৩৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dividing both terms by HCF 675 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ৬৭৫ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-007",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 1458 : 1944 in its simplest form.",
+      "as": "১৪৫৮ : ১৯৪৪ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "729:972",
+        "as": "৭২৯:৯৭২"
+      },
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Dividing both terms by HCF 486 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ৪৮৬ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-008",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 3087 : 4116 in its simplest form.",
+      "as": "৩০৮৭ : ৪১১৬ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "1543:2058",
+        "as": "১৫৪৩:২০৫৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dividing both terms by HCF 1029 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ১০২৯ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-009",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 7200 among A, B and C in the ratio 3 : 4 : 5. What is A's share?",
+      "as": "৭২০০ টকা A, B আৰু C ৰ মাজত ৩ : ৪ : ৫ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "2400",
+        "as": "২৪০০"
+      },
+      {
+        "en": "3000",
+        "as": "৩০০০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's share = 7200 × 3/12 = 1800.",
+      "as": "A ৰ অংশ = ৭২০০ × ৩/১২ = ১৮০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-010",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 9450 among A, B and C in the ratio 2 : 3 : 4. What is A's share?",
+      "as": "৯৪৫০ টকা A, B আৰু C ৰ মাজত ২ : ৩ : ৪ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "3150",
+        "as": "৩১৫০"
+      },
+      {
+        "en": "4200",
+        "as": "৪২০০"
+      },
+      {
+        "en": "1050",
+        "as": "১০৫০"
+      },
+      {
+        "en": "2100",
+        "as": "২১০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's share = 9450 × 2/9 = 2100.",
+      "as": "A ৰ অংশ = ৯৪৫০ × ২/৯ = ২১০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-011",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 11700 among A, B and C in the ratio 5 : 4 : 3. What is A's share?",
+      "as": "১১৭০০ টকা A, B আৰু C ৰ মাজত ৫ : ৪ : ৩ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "4875",
+        "as": "৪৮৭৫"
+      },
+      {
+        "en": "3900",
+        "as": "৩৯০০"
+      },
+      {
+        "en": "2925",
+        "as": "২৯২৫"
+      },
+      {
+        "en": "975",
+        "as": "৯৭৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 11700 × 5/12 = 4875.",
+      "as": "A ৰ অংশ = ১১৭০০ × ৫/১২ = ৪৮৭৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-012",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 15600 among A, B and C in the ratio 7 : 5 : 3. What is A's share?",
+      "as": "১৫৬০০ টকা A, B আৰু C ৰ মাজত ৭ : ৫ : ৩ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "7280",
+        "as": "৭২৮০"
+      },
+      {
+        "en": "5200",
+        "as": "৫২০০"
+      },
+      {
+        "en": "3120",
+        "as": "৩১২০"
+      },
+      {
+        "en": "1040",
+        "as": "১০৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 15600 × 7/15 = 7280.",
+      "as": "A ৰ অংশ = ১৫৬০০ × ৭/১৫ = ৭২৮০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-013",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 21600 among A, B and C in the ratio 4 : 5 : 7. What is A's share?",
+      "as": "২১৬০০ টকা A, B আৰু C ৰ মাজত ৪ : ৫ : ৭ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "6750",
+        "as": "৬৭৫০"
+      },
+      {
+        "en": "5400",
+        "as": "৫৪০০"
+      },
+      {
+        "en": "9450",
+        "as": "৯৪৫০"
+      },
+      {
+        "en": "1350",
+        "as": "১৩৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's share = 21600 × 4/16 = 5400.",
+      "as": "A ৰ অংশ = ২১৬০০ × ৪/১৬ = ৫৪০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-014",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 8400 among A, B and C in the ratio 2 : 5 : 7. What is A's share?",
+      "as": "৮৪০০ টকা A, B আৰু C ৰ মাজত ২ : ৫ : ৭ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "3000",
+        "as": "৩০০০"
+      },
+      {
+        "en": "4200",
+        "as": "৪২০০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's share = 8400 × 2/14 = 1200.",
+      "as": "A ৰ অংশ = ৮৪০০ × ২/১৪ = ১২০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-015",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 3 : 4 and b : c = 5 : 6, find a : b : c.",
+      "as": "যদি a : b = ৩ : ৪ আৰু b : c = ৫ : ৬, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:4:6",
+        "as": "৩:৪:৬"
+      },
+      {
+        "en": "3:4:5",
+        "as": "৩:৪:৫"
+      },
+      {
+        "en": "16:20:24",
+        "as": "১৬:২০:২৪"
+      },
+      {
+        "en": "15:20:24",
+        "as": "১৫:২০:২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a:b:c = 3×5 : 4×5 : 4×6 = 15:20:24 = 15:20:24.",
+      "as": "a:b:c = ১৫:২০:২৪।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-016",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 2 : 3 and b : c = 4 : 5, find a : b : c.",
+      "as": "যদি a : b = ২ : ৩ আৰু b : c = ৪ : ৫, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2:3:5",
+        "as": "২:৩:৫"
+      },
+      {
+        "en": "2:3:4",
+        "as": "২:৩:৪"
+      },
+      {
+        "en": "8:12:15",
+        "as": "৮:১২:১৫"
+      },
+      {
+        "en": "9:12:15",
+        "as": "৯:১২:১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "a:b:c = 2×4 : 3×4 : 3×5 = 8:12:15 = 8:12:15.",
+      "as": "a:b:c = ৮:১২:১৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-017",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 5 : 7 and b : c = 3 : 4, find a : b : c.",
+      "as": "যদি a : b = ৫ : ৭ আৰু b : c = ৩ : ৪, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5:7:4",
+        "as": "৫:৭:৪"
+      },
+      {
+        "en": "15:21:28",
+        "as": "১৫:২১:২৮"
+      },
+      {
+        "en": "5:7:3",
+        "as": "৫:৭:৩"
+      },
+      {
+        "en": "16:21:28",
+        "as": "১৬:২১:২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "a:b:c = 5×3 : 7×3 : 7×4 = 15:21:28 = 15:21:28.",
+      "as": "a:b:c = ১৫:২১:২৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-018",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 7 : 9 and b : c = 6 : 11, find a : b : c.",
+      "as": "যদি a : b = ৭ : ৯ আৰু b : c = ৬ : ১১, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14:18:33",
+        "as": "১৪:১৮:৩৩"
+      },
+      {
+        "en": "7:9:11",
+        "as": "৭:৯:১১"
+      },
+      {
+        "en": "7:9:6",
+        "as": "৭:৯:৬"
+      },
+      {
+        "en": "43:54:99",
+        "as": "৪৩:৫৪:৯৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "a:b:c = 7×6 : 9×6 : 9×11 = 42:54:99 = 14:18:33.",
+      "as": "a:b:c = ১৪:১৮:৩৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-019",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 4 : 5 and b : c = 10 : 13, find a : b : c.",
+      "as": "যদি a : b = ৪ : ৫ আৰু b : c = ১০ : ১৩, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4:5:13",
+        "as": "৪:৫:১৩"
+      },
+      {
+        "en": "4:5:10",
+        "as": "৪:৫:১০"
+      },
+      {
+        "en": "41:50:65",
+        "as": "৪১:৫০:৬৫"
+      },
+      {
+        "en": "8:10:13",
+        "as": "৮:১০:১৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a:b:c = 4×10 : 5×10 : 5×13 = 40:50:65 = 8:10:13.",
+      "as": "a:b:c = ৮:১০:১৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-020",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 4 and 25.",
+      "as": "৪ আৰু ২৫ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean proportional = √(4 × 25) = 10.",
+      "as": "মধ্য সমানুপাতী = √(৪ × ২৫) = ১০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-021",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 9 and 49.",
+      "as": "৯ আৰু ৪৯ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Mean proportional = √(9 × 49) = 21.",
+      "as": "মধ্য সমানুপাতী = √(৯ × ৪৯) = ২১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-022",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 16 and 81.",
+      "as": "১৬ আৰু ৮১ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "97",
+        "as": "৯৭"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean proportional = √(16 × 81) = 36.",
+      "as": "মধ্য সমানুপাতী = √(১৬ × ৮১) = ৩৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-023",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 25 and 144.",
+      "as": "২৫ আৰু ১৪৪ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "169",
+        "as": "১৬৯"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean proportional = √(25 × 144) = 60.",
+      "as": "মধ্য সমানুপাতী = √(২৫ × ১৪৪) = ৬০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-024",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 36 and 100.",
+      "as": "৩৬ আৰু ১০০ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "136",
+        "as": "১৩৬"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean proportional = √(36 × 100) = 60.",
+      "as": "মধ্য সমানুপাতী = √(৩৬ × ১০০) = ৬০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-025",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 49 and 196.",
+      "as": "৪৯ আৰু ১৯৬ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "245",
+        "as": "২৪৫"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "122",
+        "as": "১২২"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Mean proportional = √(49 × 196) = 98.",
+      "as": "মধ্য সমানুপাতী = √(৪৯ × ১৯৬) = ৯৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-026",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 4 and 12.",
+      "as": "৪ আৰু ১২ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third proportional = b²/a = 12²/4 = 36.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৩৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-027",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 5 and 15.",
+      "as": "৫ আৰু ১৫ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third proportional = b²/a = 15²/5 = 45.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৪৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-028",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 6 and 18.",
+      "as": "৬ আৰু ১৮ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third proportional = b²/a = 18²/6 = 54.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৫৪।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-029",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 7 and 21.",
+      "as": "৭ আৰু ২১ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "147",
+        "as": "১৪৭"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Third proportional = b²/a = 21²/7 = 63.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৬৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-030",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 9 and 27.",
+      "as": "৯ আৰু ২৭ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "243",
+        "as": "২৪৩"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Third proportional = b²/a = 27²/9 = 81.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৮১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-031",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 11 and 33.",
+      "as": "১১ আৰু ৩৩ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "363",
+        "as": "৩৬৩"
+      },
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third proportional = b²/a = 33²/11 = 99.",
+      "as": "তৃতীয় সমানুপাতী = b²/a = ৯৯।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-032",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 3, 4 and 15.",
+      "as": "৩, ৪ আৰু ১৫ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 4 × 15 / 3 = 20.",
+      "as": "চতুৰ্থ সমানুপাতী = ৪ × ১৫ / ৩ = ২০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-033",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 5, 7 and 20.",
+      "as": "৫, ৭ আৰু ২০ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 7 × 20 / 5 = 28.",
+      "as": "চতুৰ্থ সমানুপাতী = ৭ × ২০ / ৫ = ২৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-034",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 6, 9 and 14.",
+      "as": "৬, ৯ আৰু ১৪ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 9 × 14 / 6 = 21.",
+      "as": "চতুৰ্থ সমানুপাতী = ৯ × ১৪ / ৬ = ২১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-035",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 8, 11 and 24.",
+      "as": "৮, ১১ আৰু ২৪ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 11 × 24 / 8 = 33.",
+      "as": "চতুৰ্থ সমানুপাতী = ১১ × ২৪ / ৮ = ৩৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-036",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 7, 12 and 21.",
+      "as": "৭, ১২ আৰু ২১ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 12 × 21 / 7 = 36.",
+      "as": "চতুৰ্থ সমানুপাতী = ১২ × ২১ / ৭ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-037",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 3 : 4 and 5 : 6.",
+      "as": "৩ : ৪ আৰু ৫ : ৬ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8:10",
+        "as": "৮:১০"
+      },
+      {
+        "en": "5:8",
+        "as": "৫:৮"
+      },
+      {
+        "en": "18:20",
+        "as": "১৮:২০"
+      },
+      {
+        "en": "15:24",
+        "as": "১৫:২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Compound ratio = (3×5) : (4×6) = 15:24 = 5:8.",
+      "as": "যৌগিক অনুপাত = ৫:৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-038",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 2 : 5 and 7 : 9.",
+      "as": "২ : ৫ আৰু ৭ : ৯ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9:14",
+        "as": "৯:১৪"
+      },
+      {
+        "en": "18:35",
+        "as": "১৮:৩৫"
+      },
+      {
+        "en": "14:45",
+        "as": "১৪:৪৫"
+      },
+      {
+        "en": "15:45",
+        "as": "১৫:৪৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Compound ratio = (2×7) : (5×9) = 14:45 = 14:45.",
+      "as": "যৌগিক অনুপাত = ১৪:৪৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-039",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 4 : 7 and 3 : 8.",
+      "as": "৪ : ৭ আৰু ৩ : ৮ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7:15",
+        "as": "৭:১৫"
+      },
+      {
+        "en": "32:21",
+        "as": "৩২:২১"
+      },
+      {
+        "en": "12:56",
+        "as": "১২:৫৬"
+      },
+      {
+        "en": "3:14",
+        "as": "৩:১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Compound ratio = (4×3) : (7×8) = 12:56 = 3:14.",
+      "as": "যৌগিক অনুপাত = ৩:১৪।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-040",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 5 : 9 and 6 : 11.",
+      "as": "৫ : ৯ আৰু ৬ : ১১ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11:20",
+        "as": "১১:২০"
+      },
+      {
+        "en": "55:54",
+        "as": "৫৫:৫৪"
+      },
+      {
+        "en": "10:33",
+        "as": "১০:৩৩"
+      },
+      {
+        "en": "30:99",
+        "as": "৩০:৯৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Compound ratio = (5×6) : (9×11) = 30:99 = 10:33.",
+      "as": "যৌগিক অনুপাত = ১০:৩৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-041",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 3 : 4.",
+      "as": "৩ : ৪ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "9:16",
+        "as": "৯:১৬"
+      },
+      {
+        "en": "6:8",
+        "as": "৬:৮"
+      },
+      {
+        "en": "9:4",
+        "as": "৯:৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Duplicate ratio = 3² : 4² = 9:16.",
+      "as": "দ্বিগুণ অনুপাত = ৯:১৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-042",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 5 : 7.",
+      "as": "৫ : ৭ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25:49",
+        "as": "২৫:৪৯"
+      },
+      {
+        "en": "5:7",
+        "as": "৫:৭"
+      },
+      {
+        "en": "10:14",
+        "as": "১০:১৪"
+      },
+      {
+        "en": "25:7",
+        "as": "২৫:৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Duplicate ratio = 5² : 7² = 25:49.",
+      "as": "দ্বিগুণ অনুপাত = ২৫:৪৯।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-043",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 6 : 11.",
+      "as": "৬ : ১১ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6:11",
+        "as": "৬:১১"
+      },
+      {
+        "en": "12:22",
+        "as": "১২:২২"
+      },
+      {
+        "en": "36:11",
+        "as": "৩৬:১১"
+      },
+      {
+        "en": "36:121",
+        "as": "৩৬:১২১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Duplicate ratio = 6² : 11² = 36:121.",
+      "as": "দ্বিগুণ অনুপাত = ৩৬:১২১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-044",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 8 : 9.",
+      "as": "৮ : ৯ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8:9",
+        "as": "৮:৯"
+      },
+      {
+        "en": "64:81",
+        "as": "৬৪:৮১"
+      },
+      {
+        "en": "16:18",
+        "as": "১৬:১৮"
+      },
+      {
+        "en": "64:9",
+        "as": "৬৪:৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Duplicate ratio = 8² : 9² = 64:81.",
+      "as": "দ্বিগুণ অনুপাত = ৬৪:৮১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-045",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 2 : 5.",
+      "as": "২ : ৫ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2:5",
+        "as": "২:৫"
+      },
+      {
+        "en": "4:10",
+        "as": "৪:১০"
+      },
+      {
+        "en": "4:25",
+        "as": "৪:২৫"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Duplicate ratio = 2² : 5² = 4:25.",
+      "as": "দ্বিগুণ অনুপাত = ৪:২৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-046",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 3 : 4. If 6 is added to both, the ratio becomes 5 : 6. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৩ : ৪ অনুপাতত আছে। উভয়তে ৬ যোগ কৰিলে অনুপাত ৫ : ৬ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving gives k = 3, so the numbers are 9 and 12; the smaller is 9.",
+      "as": "সমাধান কৰিলে k = ৩, সংখ্যা দুটা ৯ আৰু ১২; সৰুটো ৯।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-047",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 2 : 3. If 4 is added to both, the ratio becomes 5 : 7. Find the smaller number.",
+      "as": "দুটা সংখ্যা ২ : ৩ অনুপাতত আছে। উভয়তে ৪ যোগ কৰিলে অনুপাত ৫ : ৭ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Solving gives k = 8, so the numbers are 16 and 24; the smaller is 16.",
+      "as": "সমাধান কৰিলে k = ৮, সংখ্যা দুটা ১৬ আৰু ২৪; সৰুটো ১৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-048",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 4 : 5. If 5 is added to both, the ratio becomes 5 : 6. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৪ : ৫ অনুপাতত আছে। উভয়তে ৫ যোগ কৰিলে অনুপাত ৫ : ৬ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Solving gives k = 5, so the numbers are 20 and 25; the smaller is 20.",
+      "as": "সমাধান কৰিলে k = ৫, সংখ্যা দুটা ২০ আৰু ২৫; সৰুটো ২০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-049",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 5 : 7. If 6 is added to both, the ratio becomes 7 : 9. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৫ : ৭ অনুপাতত আছে। উভয়তে ৬ যোগ কৰিলে অনুপাত ৭ : ৯ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Solving gives k = 3, so the numbers are 15 and 21; the smaller is 15.",
+      "as": "সমাধান কৰিলে k = ৩, সংখ্যা দুটা ১৫ আৰু ২১; সৰুটো ১৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-050",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 5 : 4 and their expenditures are in the ratio 3 : 2. If each saves 4000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৫ : ৪ আৰু ব্যয়ৰ অনুপাত ৩ : ২। প্ৰত্যেকে ৪০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8000",
+        "as": "৮০০০"
+      },
+      {
+        "en": "6000",
+        "as": "৬০০০"
+      },
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      },
+      {
+        "en": "6666",
+        "as": "৬৬৬৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Savings are equal, so 5x - 3y = 4x - 2y; solving with the saving gives A's income = 10000.",
+      "as": "সাঁচ সমান, সেয়ে A ৰ আয় = ১০০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-051",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 5 : 7 and their expenditures are in the ratio 3 : 4. If each saves 6000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৫ : ৭ আৰু ব্যয়ৰ অনুপাত ৩ : ৪। প্ৰত্যেকে ৬০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-42000",
+        "as": "-৪২০০০"
+      },
+      {
+        "en": "-36000",
+        "as": "-৩৬০০০"
+      },
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      },
+      {
+        "en": "-30000",
+        "as": "-৩০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Savings are equal, so 5x - 3y = 7x - 4y; solving with the saving gives A's income = -30000.",
+      "as": "সাঁচ সমান, সেয়ে A ৰ আয় = -৩০০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-052",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 9 : 11 and their expenditures are in the ratio 5 : 6. If each saves 8000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৯ : ১১ আৰু ব্যয়ৰ অনুপাত ৫ : ৬। প্ৰত্যেকে ৮০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-88000",
+        "as": "-৮৮০০০"
+      },
+      {
+        "en": "-80000",
+        "as": "-৮০০০০"
+      },
+      {
+        "en": "-72000",
+        "as": "-৭২০০০"
+      },
+      {
+        "en": "14400",
+        "as": "১৪৪০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Savings are equal, so 9x - 5y = 11x - 6y; solving with the saving gives A's income = -72000.",
+      "as": "সাঁচ সমান, সেয়ে A ৰ আয় = -৭২০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-053",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 7 : 9 and their expenditures are in the ratio 4 : 5. If each saves 7000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৭ : ৯ আৰু ব্যয়ৰ অনুপাত ৪ : ৫। প্ৰত্যেকে ৭০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "-63000",
+        "as": "-৬৩০০০"
+      },
+      {
+        "en": "-49000",
+        "as": "-৪৯০০০"
+      },
+      {
+        "en": "-56000",
+        "as": "-৫৬০০০"
+      },
+      {
+        "en": "12250",
+        "as": "১২২৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Savings are equal, so 7x - 4y = 9x - 5y; solving with the saving gives A's income = -49000.",
+      "as": "সাঁচ সমান, সেয়ে A ৰ আয় = -৪৯০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-054",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 3 : 4 : 5. If the total value is 450, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৩ : ৪ : ৫ অনুপাতত আছে। মুঠ মূল্য ৪৫০ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "288",
+        "as": "২৮৮"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Value ratio = 3 : 2.0 : 1.25; total parts = 6.25; 1-rupee coins = 216.",
+      "as": "মূল্যৰ অনুপাত = ৩ : ২.০ : ১.২৫; ১ টকাৰ মুদ্ৰা = ২১৬।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-055",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 2 : 3 : 4. If the total value is 450, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ২ : ৩ : ৪ অনুপাতত আছে। মুঠ মূল্য ৪৫০ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Value ratio = 2 : 1.5 : 1.0; total parts = 4.5; 1-rupee coins = 200.",
+      "as": "মূল্যৰ অনুপাত = ২ : ১.৫ : ১.০; ১ টকাৰ মুদ্ৰা = ২০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-056",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 5 : 6 : 7. If the total value is 975, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৫ : ৬ : ৭ অনুপাতত আছে। মুঠ মূল্য ৯৭৫ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Value ratio = 5 : 3.0 : 1.75; total parts = 9.75; 1-rupee coins = 500.",
+      "as": "মূল্যৰ অনুপাত = ৫ : ৩.০ : ১.৭৫; ১ টকাৰ মুদ্ৰা = ৫০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-057",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 4 : 5 : 6. If the total value is 720, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৪ : ৫ : ৬ অনুপাতত আছে। মুঠ মূল্য ৭২০ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value ratio = 4 : 2.5 : 1.5; total parts = 8.0; 1-rupee coins = 360.",
+      "as": "মূল্যৰ অনুপাত = ৪ : ২.৫ : ১.৫; ১ টকাৰ মুদ্ৰা = ৩৬০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-058",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Which of the following is a correct proportion?",
+      "as": "তলৰ কোনটো শুদ্ধ সমানুপাত?"
+    },
+    "options": [
+      {
+        "en": "2 : 3 = 5 : 7",
+        "as": "২ : ৩ = ৫ : ৭"
+      },
+      {
+        "en": "4 : 5 = 8 : 11",
+        "as": "৪ : ৫ = ৮ : ১১"
+      },
+      {
+        "en": "1 : 2 = 3 : 5",
+        "as": "১ : ২ = ৩ : ৫"
+      },
+      {
+        "en": "3 : 4 = 9 : 12",
+        "as": "৩ : ৪ = ৯ : ১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "In 3 : 4 = 9 : 12, the cross products are equal.",
+      "as": "3 : 4 = 9 : 12 ত ক্ৰছ গুণফল সমান, সেয়ে ই শুদ্ধ সমানুপাত।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-059",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 315 : 420 in its simplest form.",
+      "as": "৩১৫ : ৪২০ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "157:210",
+        "as": "১৫৭:২১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dividing both terms by HCF 105 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ১০৫ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-060",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 462 : 770 in its simplest form.",
+      "as": "৪৬২ : ৭৭০ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "3:6",
+        "as": "৩:৬"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "231:385",
+        "as": "২৩১:৩৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Dividing both terms by HCF 154 gives 3:5.",
+      "as": "উভয় পদক গ.সা.গু. ১৫৪ ৰে ভাগ কৰিলে ৩:৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-061",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 693 : 924 in its simplest form.",
+      "as": "৬৯৩ : ৯২৪ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:5",
+        "as": "৩:৫"
+      },
+      {
+        "en": "3:4",
+        "as": "৩:৪"
+      },
+      {
+        "en": "4:4",
+        "as": "৪:৪"
+      },
+      {
+        "en": "346:462",
+        "as": "৩৪৬:৪৬২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dividing both terms by HCF 231 gives 3:4.",
+      "as": "উভয় পদক গ.সা.গু. ২৩১ ৰে ভাগ কৰিলে ৩:৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-062",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Express the ratio 1024 : 1536 in its simplest form.",
+      "as": "১০২৪ : ১৫৩৬ অনুপাতক সৰলতম ৰূপত প্ৰকাশ কৰা।"
+    },
+    "options": [
+      {
+        "en": "2:4",
+        "as": "২:৪"
+      },
+      {
+        "en": "3:3",
+        "as": "৩:৩"
+      },
+      {
+        "en": "2:3",
+        "as": "২:৩"
+      },
+      {
+        "en": "512:768",
+        "as": "৫১২:৭৬৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Dividing both terms by HCF 512 gives 2:3.",
+      "as": "উভয় পদক গ.সা.গু. ৫১২ ৰে ভাগ কৰিলে ২:৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-063",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 13500 among A, B and C in the ratio 2 : 3 : 5. What is A's share?",
+      "as": "১৩৫০০ টকা A, B আৰু C ৰ মাজত ২ : ৩ : ৫ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "4050",
+        "as": "৪০৫০"
+      },
+      {
+        "en": "6750",
+        "as": "৬৭৫০"
+      },
+      {
+        "en": "1350",
+        "as": "১৩৫০"
+      },
+      {
+        "en": "2700",
+        "as": "২৭০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's share = 13500 × 2/10 = 2700.",
+      "as": "A ৰ অংশ = ২৭০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-064",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 18000 among A, B and C in the ratio 5 : 6 : 7. What is A's share?",
+      "as": "১৮০০০ টকা A, B আৰু C ৰ মাজত ৫ : ৬ : ৭ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "6000",
+        "as": "৬০০০"
+      },
+      {
+        "en": "7000",
+        "as": "৭০০০"
+      },
+      {
+        "en": "5000",
+        "as": "৫০০০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's share = 18000 × 5/18 = 5000.",
+      "as": "A ৰ অংশ = ৫০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-065",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 12600 among A, B and C in the ratio 4 : 3 : 2. What is A's share?",
+      "as": "১২৬০০ টকা A, B আৰু C ৰ মাজত ৪ : ৩ : ২ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "4200",
+        "as": "৪২০০"
+      },
+      {
+        "en": "5600",
+        "as": "৫৬০০"
+      },
+      {
+        "en": "2800",
+        "as": "২৮০০"
+      },
+      {
+        "en": "1400",
+        "as": "১৪০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's share = 12600 × 4/9 = 5600.",
+      "as": "A ৰ অংশ = ৫৬০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-066",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Divide 9600 among A, B and C in the ratio 7 : 3 : 2. What is A's share?",
+      "as": "৯৬০০ টকা A, B আৰু C ৰ মাজত ৭ : ৩ : ২ অনুপাতত ভগোৱা হয়। A ৰ অংশ কিমান?"
+    },
+    "options": [
+      {
+        "en": "5600",
+        "as": "৫৬০০"
+      },
+      {
+        "en": "2400",
+        "as": "২৪০০"
+      },
+      {
+        "en": "1600",
+        "as": "১৬০০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 9600 × 7/12 = 5600.",
+      "as": "A ৰ অংশ = ৫৬০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-067",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 6 : 7 and b : c = 8 : 9, find a : b : c.",
+      "as": "যদি a : b = ৬ : ৭ আৰু b : c = ৮ : ৯, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6:7:9",
+        "as": "৬:৭:৯"
+      },
+      {
+        "en": "6:7:8",
+        "as": "৬:৭:৮"
+      },
+      {
+        "en": "49:56:63",
+        "as": "৪৯:৫৬:৬৩"
+      },
+      {
+        "en": "48:56:63",
+        "as": "৪৮:৫৬:৬৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "a:b:c = 48:56:63.",
+      "as": "a:b:c = ৪৮:৫৬:৬৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-068",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 3 : 8 and b : c = 5 : 9, find a : b : c.",
+      "as": "যদি a : b = ৩ : ৮ আৰু b : c = ৫ : ৯, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3:8:9",
+        "as": "৩:৮:৯"
+      },
+      {
+        "en": "15:40:72",
+        "as": "১৫:৪০:৭২"
+      },
+      {
+        "en": "3:8:5",
+        "as": "৩:৮:৫"
+      },
+      {
+        "en": "16:40:72",
+        "as": "১৬:৪০:৭২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "a:b:c = 15:40:72.",
+      "as": "a:b:c = ১৫:৪০:৭২।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-069",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "If a : b = 9 : 4 and b : c = 7 : 5, find a : b : c.",
+      "as": "যদি a : b = ৯ : ৪ আৰু b : c = ৭ : ৫, তেন্তে a : b : c নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9:4:5",
+        "as": "৯:৪:৫"
+      },
+      {
+        "en": "9:4:7",
+        "as": "৯:৪:৭"
+      },
+      {
+        "en": "63:28:20",
+        "as": "৬৩:২৮:২০"
+      },
+      {
+        "en": "64:28:20",
+        "as": "৬৪:২৮:২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "a:b:c = 63:28:20.",
+      "as": "a:b:c = ৬৩:২৮:২০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-070",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 64 and 225.",
+      "as": "৬৪ আৰু ২২৫ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "289",
+        "as": "২৮৯"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mean proportional = √(64 × 225) = 120.",
+      "as": "মধ্য সমানুপাতী = ১২০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-071",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 81 and 100.",
+      "as": "৮১ আৰু ১০০ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "181",
+        "as": "১৮১"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "8100",
+        "as": "৮১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean proportional = √(81 × 100) = 90.",
+      "as": "মধ্য সমানুপাতী = ৯০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-072",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the mean proportional between 121 and 169.",
+      "as": "১২১ আৰু ১৬৯ ৰ মাজৰ মধ্য সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "143",
+        "as": "১৪৩"
+      },
+      {
+        "en": "290",
+        "as": "২৯০"
+      },
+      {
+        "en": "145",
+        "as": "১৪৫"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Mean proportional = √(121 × 169) = 143.",
+      "as": "মধ্য সমানুপাতী = ১৪৩।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-073",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 8 and 24.",
+      "as": "৮ আৰু ২৪ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "192",
+        "as": "১৯২"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Third proportional = b²/a = 72.",
+      "as": "তৃতীয় সমানুপাতী = ৭২।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-074",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 10 and 30.",
+      "as": "১০ আৰু ৩০ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third proportional = b²/a = 90.",
+      "as": "তৃতীয় সমানুপাতী = ৯০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-075",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the third proportional to 12 and 36.",
+      "as": "১২ আৰু ৩৬ ৰ তৃতীয় সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "432",
+        "as": "৪৩২"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Third proportional = b²/a = 108.",
+      "as": "তৃতীয় সমানুপাতী = ১০৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-076",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 4, 5 and 12.",
+      "as": "৪, ৫ আৰু ১২ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 15.",
+      "as": "চতুৰ্থ সমানুপাতী = ১৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-077",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 9, 10 and 18.",
+      "as": "৯, ১০ আৰু ১৮ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 20.",
+      "as": "চতুৰ্থ সমানুপাতী = ২০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-078",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the fourth proportional to 2, 7 and 8.",
+      "as": "২, ৭ আৰু ৮ ৰ চতুৰ্থ সমানুপাতী নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Fourth proportional = b × c / a = 28.",
+      "as": "চতুৰ্থ সমানুপাতী = ২৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-079",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 7 : 8 and 9 : 10.",
+      "as": "৭ : ৮ আৰু ৯ : ১০ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16:18",
+        "as": "১৬:১৮"
+      },
+      {
+        "en": "70:72",
+        "as": "৭০:৭২"
+      },
+      {
+        "en": "64:80",
+        "as": "৬৪:৮০"
+      },
+      {
+        "en": "63:80",
+        "as": "৬৩:৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A compound ratio multiplies the first terms together and the second terms together: (7 × 9) : (8 × 10) = 63 : 80 = 63 : 80.",
+      "as": "সংযুক্ত অনুপাতত প্ৰথম পদবোৰ আৰু দ্বিতীয় পদবোৰ বেলেগে গুণ কৰা: (৭ × ৯) : (৮ × ১০) = ৬৩ : ৮০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-080",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 3 : 7 and 4 : 9.",
+      "as": "৩ : ৭ আৰু ৪ : ৯ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7:16",
+        "as": "৭:১৬"
+      },
+      {
+        "en": "4:21",
+        "as": "৪:২১"
+      },
+      {
+        "en": "27:28",
+        "as": "২৭:২৮"
+      },
+      {
+        "en": "12:63",
+        "as": "১২:৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A compound ratio multiplies the first terms together and the second terms together: (3 × 4) : (7 × 9) = 12 : 63 = 4 : 21.",
+      "as": "সংযুক্ত অনুপাতত প্ৰথম পদবোৰ আৰু দ্বিতীয় পদবোৰ বেলেগে গুণ কৰা: (৩ × ৪) : (৭ × ৯) = ৪ : ২১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-081",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 6 : 5 and 2 : 3.",
+      "as": "৬ : ৫ আৰু ২ : ৩ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8:8",
+        "as": "৮:৮"
+      },
+      {
+        "en": "18:10",
+        "as": "১৮:১০"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "12:15",
+        "as": "১২:১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A compound ratio multiplies the first terms together and the second terms together: (6 × 2) : (5 × 3) = 12 : 15 = 4 : 5.",
+      "as": "সংযুক্ত অনুপাতত প্ৰথম পদবোৰ আৰু দ্বিতীয় পদবোৰ বেলেগে গুণ কৰা: (৬ × ২) : (৫ × ৩) = ৪ : ৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-082",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the compound ratio of 8 : 11 and 5 : 7.",
+      "as": "৮ : ১১ আৰু ৫ : ৭ ৰ যৌগিক অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13:18",
+        "as": "১৩:১৮"
+      },
+      {
+        "en": "56:55",
+        "as": "৫৬:৫৫"
+      },
+      {
+        "en": "41:77",
+        "as": "৪১:৭৭"
+      },
+      {
+        "en": "40:77",
+        "as": "৪০:৭৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A compound ratio multiplies the first terms together and the second terms together: (8 × 5) : (11 × 7) = 40 : 77 = 40 : 77.",
+      "as": "সংযুক্ত অনুপাতত প্ৰথম পদবোৰ আৰু দ্বিতীয় পদবোৰ বেলেগে গুণ কৰা: (৮ × ৫) : (১১ × ৭) = ৪০ : ৭৭।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-083",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 7 : 9.",
+      "as": "৭ : ৯ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "49:81",
+        "as": "৪৯:৮১"
+      },
+      {
+        "en": "7:9",
+        "as": "৭:৯"
+      },
+      {
+        "en": "14:18",
+        "as": "১৪:১৮"
+      },
+      {
+        "en": "49:9",
+        "as": "৪৯:৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Duplicate ratio = 7² : 9² = 49:81.",
+      "as": "দ্বিগুণ অনুপাত = ৪৯:৮১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-084",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 4 : 9.",
+      "as": "৪ : ৯ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16:81",
+        "as": "১৬:৮১"
+      },
+      {
+        "en": "4:9",
+        "as": "৪:৯"
+      },
+      {
+        "en": "8:18",
+        "as": "৮:১৮"
+      },
+      {
+        "en": "16:9",
+        "as": "১৬:৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Duplicate ratio = 4² : 9² = 16:81.",
+      "as": "দ্বিগুণ অনুপাত = ১৬:৮১।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-085",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Find the duplicate ratio of 10 : 13.",
+      "as": "১০ : ১৩ ৰ দ্বিগুণ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10:13",
+        "as": "১০:১৩"
+      },
+      {
+        "en": "100:169",
+        "as": "১০০:১৬৯"
+      },
+      {
+        "en": "20:26",
+        "as": "২০:২৬"
+      },
+      {
+        "en": "100:13",
+        "as": "১০০:১৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Duplicate ratio = 10² : 13² = 100:169.",
+      "as": "দ্বিগুণ অনুপাত = ১০০:১৬৯।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-086",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 2 : 5. If 4 is added to both, the ratio becomes 1 : 2. Find the smaller number.",
+      "as": "দুটা সংখ্যা ২ : ৫ অনুপাতত আছে। উভয়তে ৪ যোগ কৰিলে অনুপাত ১ : ২ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Solving gives k = 4; the smaller number is 8.",
+      "as": "সমাধান কৰিলে k = ৪; সৰু সংখ্যা ৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-087",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 3 : 8. If 10 is added to both, the ratio becomes 1 : 2. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৩ : ৮ অনুপাতত আছে। উভয়তে ১০ যোগ কৰিলে অনুপাত ১ : ২ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Solving gives k = 5; the smaller number is 15.",
+      "as": "সমাধান কৰিলে k = ৫; সৰু সংখ্যা ১৫।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-088",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 4 : 7. If 6 is added to both, the ratio becomes 2 : 3. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৪ : ৭ অনুপাতত আছে। উভয়তে ৬ যোগ কৰিলে অনুপাত ২ : ৩ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Solving gives k = 3; the smaller number is 12.",
+      "as": "সমাধান কৰিলে k = ৩; সৰু সংখ্যা ১২।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-089",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 5 : 9. If 8 is added to both, the ratio becomes 9 : 13. Find the smaller number.",
+      "as": "দুটা সংখ্যা ৫ : ৯ অনুপাতত আছে। উভয়তে ৮ যোগ কৰিলে অনুপাত ৯ : ১৩ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Solving gives k = 2; the smaller number is 10.",
+      "as": "সমাধান কৰিলে k = ২; সৰু সংখ্যা ১০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-090",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "Two numbers are in the ratio 2 : 3. If 4 is added to both, the ratio becomes 3 : 4. Find the smaller number.",
+      "as": "দুটা সংখ্যা ২ : ৩ অনুপাতত আছে। উভয়তে ৪ যোগ কৰিলে অনুপাত ৩ : ৪ হয়। সৰু সংখ্যাটো নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Solving gives k = 4; the smaller number is 8.",
+      "as": "সমাধান কৰিলে k = ৪; সৰু সংখ্যা ৮।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-091",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 6 : 5 and their expenditures are in the ratio 4 : 3. If each saves 5000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৬ : ৫ আৰু ব্যয়ৰ অনুপাত ৪ : ৩। প্ৰত্যেকে ৫০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12500",
+        "as": "১২৫০০"
+      },
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      },
+      {
+        "en": "7500",
+        "as": "৭৫০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Equal savings give A's income = 15000.",
+      "as": "সমান সাঁচৰ পৰা A ৰ আয় = ১৫০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-092",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 8 : 7 and their expenditures are in the ratio 5 : 4. If each saves 9000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ৮ : ৭ আৰু ব্যয়ৰ অনুপাত ৫ : ৪। প্ৰত্যেকে ৯০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21000",
+        "as": "২১০০০"
+      },
+      {
+        "en": "24000",
+        "as": "২৪০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "14400",
+        "as": "১৪৪০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Equal savings give A's income = 24000.",
+      "as": "সমান সাঁচৰ পৰা A ৰ আয় = ২৪০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-093",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "The incomes of A and B are in the ratio 10 : 9 and their expenditures are in the ratio 6 : 5. If each saves 8000, find A's income.",
+      "as": "A আৰু B ৰ আয়ৰ অনুপাত ১০ : ৯ আৰু ব্যয়ৰ অনুপাত ৬ : ৫। প্ৰত্যেকে ৮০০০ সাঁচে যদি A ৰ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "20000",
+        "as": "২০০০০"
+      },
+      {
+        "en": "13333",
+        "as": "১৩৩৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Equal savings give A's income = 20000.",
+      "as": "সমান সাঁচৰ পৰা A ৰ আয় = ২০০০০।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-094",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 6 : 5 : 4. If the total value is 950, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৬ : ৫ : ৪ অনুপাতত আছে। মুঠ মূল্য ৯৫০ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One part of the ratio is worth 6×₹1 + 5×₹0.50 + 4×₹0.25 = ₹9.5. Total ₹950 ÷ ₹9.5 = 100 parts, so the number of 1-rupee coins is 6 × 100 = 600.",
+      "as": "অনুপাতৰ এভাগৰ মূল্য = ₹৯.৫; ₹৯৫০ ÷ ₹৯.৫ = ১০০ ভাগ, সেয়ে ১ টকাৰ মুদ্ৰা ৬০০ টা।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-095",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 3 : 5 : 7. If the total value is 725, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৩ : ৫ : ৭ অনুপাতত আছে। মুঠ মূল্য ৭২৫ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One part of the ratio is worth 3×₹1 + 5×₹0.50 + 7×₹0.25 = ₹7.25. Total ₹725 ÷ ₹7.25 = 100 parts, so the number of 1-rupee coins is 3 × 100 = 300.",
+      "as": "অনুপাতৰ এভাগৰ মূল্য = ₹৭.২৫; ₹৭২৫ ÷ ₹৭.২৫ = ১০০ ভাগ, সেয়ে ১ টকাৰ মুদ্ৰা ৩০০ টা।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-096",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 2 : 5 : 6. If the total value is 600, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ২ : ৫ : ৬ অনুপাতত আছে। মুঠ মূল্য ৬০০ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One part of the ratio is worth 2×₹1 + 5×₹0.50 + 6×₹0.25 = ₹6. Total ₹600 ÷ ₹6 = 100 parts, so the number of 1-rupee coins is 2 × 100 = 200.",
+      "as": "অনুপাতৰ এভাগৰ মূল্য = ₹৬; ₹৬০০ ÷ ₹৬ = ১০০ ভাগ, সেয়ে ১ টকাৰ মুদ্ৰা ২০০ টা।"
+    }
+  },
+  {
+    "id": "num-ratio-proportion-097",
+    "leaf": "ratio-proportion",
+    "q": {
+      "en": "A bag contains 1-rupee, 50-paise and 25-paise coins in the ratio 7 : 4 : 3. If the total value is 975, find the number of 1-rupee coins.",
+      "as": "এটা মোনাত ১ টকা, ৫০ পইচা আৰু ২৫ পইচাৰ মুদ্ৰা ৭ : ৪ : ৩ অনুপাতত আছে। মুঠ মূল্য ৯৭৫ হ'লে ১ টকাৰ মুদ্ৰাৰ সংখ্যা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "One part of the ratio is worth 7×₹1 + 4×₹0.50 + 3×₹0.25 = ₹9.75. Total ₹975 ÷ ₹9.75 = 100 parts, so the number of 1-rupee coins is 7 × 100 = 700.",
+      "as": "অনুপাতৰ এভাগৰ মূল্য = ₹৯.৭৫; ₹৯৭৫ ÷ ₹৯.৭৫ = ১০০ ভাগ, সেয়ে ১ টকাৰ মুদ্ৰা ৭০০ টা।"
+    }
+  }
+]

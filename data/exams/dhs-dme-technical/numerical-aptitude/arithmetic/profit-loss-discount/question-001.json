@@ -1,0 +1,3565 @@
+[
+  {
+    "id": "numerical-015",
+    "q": {
+      "en": "A shopkeeper marks an article 40% above cost and allows a discount of 25%. His profit percentage is",
+      "as": "এজন দোকানীয়ে এটা সামগ্ৰীৰ মূল্য ক্ৰয়মূল্যতকৈ ৪০% বেছি লিখি ২৫% ৰেহাই দিয়ে। তেওঁৰ লাভৰ শতকৰা হাৰ কিমান"
+    },
+    "options": [
+      {
+        "en": "5%",
+        "as": "৫%"
+      },
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      },
+      {
+        "en": "20%",
+        "as": "২০%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take cost ₹100. Marked price = ₹140. After a 25% discount the selling price is 140 × 0.75 = ₹105, so profit = 5%.",
+      "as": "ক্ৰয়মূল্য ১০০ টকা ধৰক। লিখিত মূল্য = ১৪০ টকা। ২৫% ৰেহাইৰ পিছত বিক্ৰয়মূল্য = ১৪০ × ০.৭৫ = ১০৫ টকা, সেয়ে লাভ ৫%।"
+    }
+  },
+  {
+    "id": "numerical-016",
+    "q": {
+      "en": "By selling an article for ₹720 a man loses 10%. To gain 15% he must sell it for",
+      "as": "এটা সামগ্ৰী ৭২০ টকাত বিক্ৰী কৰি এজন লোকে ১০% লোকচান হয়। ১৫% লাভ কৰিবলৈ তেওঁ কিমানত বিক্ৰী কৰিব লাগিব"
+    },
+    "options": [
+      {
+        "en": "₹920",
+        "as": "৯২০ টকা"
+      },
+      {
+        "en": "₹900",
+        "as": "৯০০ টকা"
+      },
+      {
+        "en": "₹880",
+        "as": "৮৮০ টকা"
+      },
+      {
+        "en": "₹960",
+        "as": "৯৬০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cost = 720 ÷ 0.90 = ₹800. For a 15% gain the selling price is 800 × 1.15 = ₹920.",
+      "as": "ক্ৰয়মূল্য = ৭২০ ÷ ০.৯০ = ৮০০ টকা। ১৫% লাভৰ বাবে বিক্ৰয়মূল্য = ৮০০ × ১.১৫ = ৯২০ টকা।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-001",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 400 and sold for 500. Find the profit percent.",
+      "as": "এটা বস্তু ৪০০ টকাত কিনি ৫০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 100; profit% = 100/400 × 100 = 25.0%.",
+      "as": "লাভ = ১০০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-002",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 750 and sold for 900. Find the profit percent.",
+      "as": "এটা বস্তু ৭৫০ টকাত কিনি ৯০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit = 150; profit% = 150/750 × 100 = 20.0%.",
+      "as": "লাভ = ১৫০; লাভ% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-003",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1250 and sold for 1500. Find the profit percent.",
+      "as": "এটা বস্তু ১২৫০ টকাত কিনি ১৫০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit = 250; profit% = 250/1250 × 100 = 20.0%.",
+      "as": "লাভ = ২৫০; লাভ% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-004",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 2400 and sold for 3000. Find the profit percent.",
+      "as": "এটা বস্তু ২৪০০ টকাত কিনি ৩০০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit = 600; profit% = 600/2400 × 100 = 25.0%.",
+      "as": "লাভ = ৬০০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-005",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1800 and sold for 2250. Find the profit percent.",
+      "as": "এটা বস্তু ১৮০০ টকাত কিনি ২২৫০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 450; profit% = 450/1800 × 100 = 25.0%.",
+      "as": "লাভ = ৪৫০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-006",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 3200 and sold for 4000. Find the profit percent.",
+      "as": "এটা বস্তু ৩২০০ টকাত কিনি ৪০০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit = 800; profit% = 800/3200 × 100 = 25.0%.",
+      "as": "লাভ = ৮০০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-007",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 960 and sold for 1200. Find the profit percent.",
+      "as": "এটা বস্তু ৯৬০ টকাত কিনি ১২০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit = 240; profit% = 240/960 × 100 = 25.0%.",
+      "as": "লাভ = ২৪০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-008",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1440 and sold for 1800. Find the profit percent.",
+      "as": "এটা বস্তু ১৪৪০ টকাত কিনি ১৮০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit = 360; profit% = 360/1440 × 100 = 25.0%.",
+      "as": "লাভ = ৩৬০; লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-009",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 800 and profit is 25%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৮০০ আৰু লাভ ২৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = CP × (100 + 25)/100 = 1000.0.",
+      "as": "বিক্ৰয়মূল্য = ১০০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-010",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 1200 and profit is 15%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ১২০০ আৰু লাভ ১৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "1020.0",
+        "as": "১০২০.০"
+      },
+      {
+        "en": "1560.0",
+        "as": "১৫৬০.০"
+      },
+      {
+        "en": "1380.0",
+        "as": "১৩৮০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = CP × (100 + 15)/100 = 1380.0.",
+      "as": "বিক্ৰয়মূল্য = ১৩৮০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-011",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 2500 and profit is 12%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ২৫০০ আৰু লাভ ১২% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2800.0",
+        "as": "২৮০০.০"
+      },
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "2200.0",
+        "as": "২২০০.০"
+      },
+      {
+        "en": "3100.0",
+        "as": "৩১০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = CP × (100 + 12)/100 = 2800.0.",
+      "as": "বিক্ৰয়মূল্য = ২৮০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-012",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 3600 and profit is 20%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৩৬০০ আৰু লাভ ২০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4320.0",
+        "as": "৪৩২০.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      },
+      {
+        "en": "2880.0",
+        "as": "২৮৮০.০"
+      },
+      {
+        "en": "5040.0",
+        "as": "৫০৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = CP × (100 + 20)/100 = 4320.0.",
+      "as": "বিক্ৰয়মূল্য = ৪৩২০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-013",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 4500 and profit is 8%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৪৫০০ আৰু লাভ ৮% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "4860.0",
+        "as": "৪৮৬০.০"
+      },
+      {
+        "en": "4140.0",
+        "as": "৪১৪০.০"
+      },
+      {
+        "en": "5220.0",
+        "as": "৫২২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = CP × (100 + 8)/100 = 4860.0.",
+      "as": "বিক্ৰয়মূল্য = ৪৮৬০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-014",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 6400 and profit is 35%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৬৪০০ আৰু লাভ ৩৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2240.0",
+        "as": "২২৪০.০"
+      },
+      {
+        "en": "4160.0",
+        "as": "৪১৬০.০"
+      },
+      {
+        "en": "8640.0",
+        "as": "৮৬৪০.০"
+      },
+      {
+        "en": "10880.0",
+        "as": "১০৮৮০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = CP × (100 + 35)/100 = 8640.0.",
+      "as": "বিক্ৰয়মূল্য = ৮৬৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-015",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 660 at a profit of 10%. Find its cost price.",
+      "as": "এটা বস্তু ১০% লাভত ৬৬০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "726.0",
+        "as": "৭২৬.০"
+      },
+      {
+        "en": "594.0",
+        "as": "৫৯৪.০"
+      },
+      {
+        "en": "330.0",
+        "as": "৩৩০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CP = 660 × 100/(100 + 10) = 600.0.",
+      "as": "ক্ৰয়মূল্য = ৬০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-016",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 840 at a profit of 20%. Find its cost price.",
+      "as": "এটা বস্তু ২০% লাভত ৮৪০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1008.0",
+        "as": "১০০৮.০"
+      },
+      {
+        "en": "672.0",
+        "as": "৬৭২.০"
+      },
+      {
+        "en": "700.0",
+        "as": "৭০০.০"
+      },
+      {
+        "en": "420.0",
+        "as": "৪২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CP = 840 × 100/(100 + 20) = 700.0.",
+      "as": "ক্ৰয়মূল্য = ৭০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-017",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1120 at a profit of 12%. Find its cost price.",
+      "as": "এটা বস্তু ১২% লাভত ১১২০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1254.4",
+        "as": "১২৫৪.৪"
+      },
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "985.6",
+        "as": "৯৮৫.৬"
+      },
+      {
+        "en": "560.0",
+        "as": "৫৬০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 1120 × 100/(100 + 12) = 1000.0.",
+      "as": "ক্ৰয়মূল্য = ১০০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-018",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1440 at a profit of 20%. Find its cost price.",
+      "as": "এটা বস্তু ২০% লাভত ১৪৪০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "1728.0",
+        "as": "১৭২৮.০"
+      },
+      {
+        "en": "1152.0",
+        "as": "১১৫২.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 1440 × 100/(100 + 20) = 1200.0.",
+      "as": "ক্ৰয়মূল্য = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-019",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1800 at a profit of 25%. Find its cost price.",
+      "as": "এটা বস্তু ২৫% লাভত ১৮০০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2250.0",
+        "as": "২২৫০.০"
+      },
+      {
+        "en": "1350.0",
+        "as": "১৩৫০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "1440.0",
+        "as": "১৪৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CP = 1800 × 100/(100 + 25) = 1440.0.",
+      "as": "ক্ৰয়মূল্য = ১৪৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-020",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 2300 at a profit of 15%. Find its cost price.",
+      "as": "এটা বস্তু ১৫% লাভত ২৩০০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2645.0",
+        "as": "২৬৪৫.০"
+      },
+      {
+        "en": "2000.0",
+        "as": "২০০০.০"
+      },
+      {
+        "en": "1955.0",
+        "as": "১৯৫৫.০"
+      },
+      {
+        "en": "1150.0",
+        "as": "১১৫০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CP = 2300 × 100/(100 + 15) = 2000.0.",
+      "as": "ক্ৰয়মূল্য = ২০০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-021",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 500 and sold for 400. Find the loss percent.",
+      "as": "এটা বস্তু ৫০০ টকাত কিনি ৪০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Loss = 100; loss% = 100/500 × 100 = 20.0%.",
+      "as": "লোকচান = ১০০; লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-022",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 900 and sold for 750. Find the loss percent.",
+      "as": "এটা বস্তু ৯০০ টকাত কিনি ৭৫০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.33",
+        "as": "৮.৩৩"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Loss = 150; loss% = 150/900 × 100 = 16.67%.",
+      "as": "লোকচান = ১৫০; লোকচান% = ১৬.৬৭%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-023",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1600 and sold for 1200. Find the loss percent.",
+      "as": "এটা বস্তু ১৬০০ টকাত কিনি ১২০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss = 400; loss% = 400/1600 × 100 = 25.0%.",
+      "as": "লোকচান = ৪০০; লোকচান% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-024",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 2500 and sold for 2000. Find the loss percent.",
+      "as": "এটা বস্তু ২৫০০ টকাত কিনি ২০০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss = 500; loss% = 500/2500 × 100 = 20.0%.",
+      "as": "লোকচান = ৫০০; লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-025",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 3600 and sold for 2700. Find the loss percent.",
+      "as": "এটা বস্তু ৩৬০০ টকাত কিনি ২৭০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Loss = 900; loss% = 900/3600 × 100 = 25.0%.",
+      "as": "লোকচান = ৯০০; লোকচান% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-026",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 4800 and sold for 3840. Find the loss percent.",
+      "as": "এটা বস্তু ৪৮০০ টকাত কিনি ৩৮৪০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Loss = 960; loss% = 960/4800 × 100 = 20.0%.",
+      "as": "লোকচান = ৯৬০; লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-027",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 900 and loss is 10%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৯০০ আৰু লোকচান ১০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "990.0",
+        "as": "৯৯০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "810.0",
+        "as": "৮১০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = CP × (100 - 10)/100 = 810.0.",
+      "as": "বিক্ৰয়মূল্য = ৮১০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-028",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 1500 and loss is 20%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ১৫০০ আৰু লোকচান ২০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "1500.0",
+        "as": "১৫০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = CP × (100 - 20)/100 = 1200.0.",
+      "as": "বিক্ৰয়মূল্য = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-029",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 2400 and loss is 15%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ২৪০০ আৰু লোকচান ১৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "2040.0",
+        "as": "২০৪০.০"
+      },
+      {
+        "en": "2760.0",
+        "as": "২৭৬০.০"
+      },
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = CP × (100 - 15)/100 = 2040.0.",
+      "as": "বিক্ৰয়মূল্য = ২০৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-030",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 3600 and loss is 25%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৩৬০০ আৰু লোকচান ২৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2700.0",
+        "as": "২৭০০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "4500.0",
+        "as": "৪৫০০.০"
+      },
+      {
+        "en": "3600.0",
+        "as": "৩৬০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = CP × (100 - 25)/100 = 2700.0.",
+      "as": "বিক্ৰয়মূল্য = ২৭০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-031",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 4800 and loss is 12%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৪৮০০ আৰু লোকচান ১২% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "576.0",
+        "as": "৫৭৬.০"
+      },
+      {
+        "en": "5376.0",
+        "as": "৫৩৭৬.০"
+      },
+      {
+        "en": "4800.0",
+        "as": "৪৮০০.০"
+      },
+      {
+        "en": "4224.0",
+        "as": "৪২২৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = CP × (100 - 12)/100 = 4224.0.",
+      "as": "বিক্ৰয়মূল্য = ৪২২৪.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-032",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 7200 and loss is 30%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৭২০০ আৰু লোকচান ৩০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2160.0",
+        "as": "২১৬০.০"
+      },
+      {
+        "en": "5040.0",
+        "as": "৫০৪০.০"
+      },
+      {
+        "en": "9360.0",
+        "as": "৯৩৬০.০"
+      },
+      {
+        "en": "7200.0",
+        "as": "৭২০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = CP × (100 - 30)/100 = 5040.0.",
+      "as": "বিক্ৰয়মূল্য = ৫০৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-033",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 500 and it is sold for 400. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ৫০০ আৰু বিক্ৰয়মূল্য ৪০০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Discount = 100; discount% = 100/500 × 100 = 20.0%.",
+      "as": "ৰেহাই% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-034",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 800 and it is sold for 700. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ৮০০ আৰু বিক্ৰয়মূল্য ৭০০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Discount = 100; discount% = 100/800 × 100 = 12.5%.",
+      "as": "ৰেহাই% = ১২.৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-035",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 1200 and it is sold for 900. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ১২০০ আৰু বিক্ৰয়মূল্য ৯০০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Discount = 300; discount% = 300/1200 × 100 = 25.0%.",
+      "as": "ৰেহাই% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-036",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 1500 and it is sold for 1200. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ১৫০০ আৰু বিক্ৰয়মূল্য ১২০০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Discount = 300; discount% = 300/1500 × 100 = 20.0%.",
+      "as": "ৰেহাই% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-037",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 2400 and it is sold for 1800. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ২৪০০ আৰু বিক্ৰয়মূল্য ১৮০০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Discount = 600; discount% = 600/2400 × 100 = 25.0%.",
+      "as": "ৰেহাই% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-038",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 3600 and it is sold for 3060. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ৩৬০০ আৰু বিক্ৰয়মূল্য ৩০৬০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Discount = 540; discount% = 540/3600 × 100 = 15.0%.",
+      "as": "ৰেহাই% = ১৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-039",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 600 after a discount of 10%.",
+      "as": "৬০০ টকাত চিহ্নিত বস্তু ১০% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "660.0",
+        "as": "৬৬০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      },
+      {
+        "en": "540.0",
+        "as": "৫৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = MP × (100 - 10)/100 = 540.0.",
+      "as": "বিক্ৰয়মূল্য = ৫৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-040",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 900 after a discount of 20%.",
+      "as": "৯০০ টকাত চিহ্নিত বস্তু ২০% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "1080.0",
+        "as": "১০৮০.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = MP × (100 - 20)/100 = 720.0.",
+      "as": "বিক্ৰয়মূল্য = ৭২০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-041",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 1200 after a discount of 25%.",
+      "as": "১২০০ টকাত চিহ্নিত বস্তু ২৫% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "1500.0",
+        "as": "১৫০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = MP × (100 - 25)/100 = 900.0.",
+      "as": "বিক্ৰয়মূল্য = ৯০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-042",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 1800 after a discount of 15%.",
+      "as": "১৮০০ টকাত চিহ্নিত বস্তু ১৫% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "1530.0",
+        "as": "১৫৩০.০"
+      },
+      {
+        "en": "270.0",
+        "as": "২৭০.০"
+      },
+      {
+        "en": "2070.0",
+        "as": "২০৭০.০"
+      },
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = MP × (100 - 15)/100 = 1530.0.",
+      "as": "বিক্ৰয়মূল্য = ১৫৩০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-043",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 2500 after a discount of 12%.",
+      "as": "২৫০০ টকাত চিহ্নিত বস্তু ১২% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "2800.0",
+        "as": "২৮০০.০"
+      },
+      {
+        "en": "2500.0",
+        "as": "২৫০০.০"
+      },
+      {
+        "en": "2200.0",
+        "as": "২২০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = MP × (100 - 12)/100 = 2200.0.",
+      "as": "বিক্ৰয়মূল্য = ২২০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-044",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 3200 after a discount of 30%.",
+      "as": "৩২০০ টকাত চিহ্নিত বস্তু ৩০% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "960.0",
+        "as": "৯৬০.০"
+      },
+      {
+        "en": "2240.0",
+        "as": "২২৪০.০"
+      },
+      {
+        "en": "4160.0",
+        "as": "৪১৬০.০"
+      },
+      {
+        "en": "3200.0",
+        "as": "৩২০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = MP × (100 - 30)/100 = 2240.0.",
+      "as": "বিক্ৰয়মূল্য = ২২৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-045",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 720 after a discount of 10%. Find its marked price.",
+      "as": "এটা বস্তু ১০% ৰেহাইৰ পিছত ৭২০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "648.0",
+        "as": "৬৪৮.০"
+      },
+      {
+        "en": "792.0",
+        "as": "৭৯২.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MP = 720 × 100/(100 - 10) = 800.0.",
+      "as": "চিহ্নিত মূল্য = ৮০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-046",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 960 after a discount of 20%. Find its marked price.",
+      "as": "এটা বস্তু ২০% ৰেহাইৰ পিছত ৯৬০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "768.0",
+        "as": "৭৬৮.০"
+      },
+      {
+        "en": "1152.0",
+        "as": "১১৫২.০"
+      },
+      {
+        "en": "480.0",
+        "as": "৪৮০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "MP = 960 × 100/(100 - 20) = 1200.0.",
+      "as": "চিহ্নিত মূল্য = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-047",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1050 after a discount of 25%. Find its marked price.",
+      "as": "এটা বস্তু ২৫% ৰেহাইৰ পিছত ১০৫০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1400.0",
+        "as": "১৪০০.০"
+      },
+      {
+        "en": "787.5",
+        "as": "৭৮৭.৫"
+      },
+      {
+        "en": "1312.5",
+        "as": "১৩১২.৫"
+      },
+      {
+        "en": "525.0",
+        "as": "৫২৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MP = 1050 × 100/(100 - 25) = 1400.0.",
+      "as": "চিহ্নিত মূল্য = ১৪০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-048",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1360 after a discount of 15%. Find its marked price.",
+      "as": "এটা বস্তু ১৫% ৰেহাইৰ পিছত ১৩৬০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1600.0",
+        "as": "১৬০০.০"
+      },
+      {
+        "en": "1156.0",
+        "as": "১১৫৬.০"
+      },
+      {
+        "en": "1564.0",
+        "as": "১৫৬৪.০"
+      },
+      {
+        "en": "680.0",
+        "as": "৬৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MP = 1360 × 100/(100 - 15) = 1600.0.",
+      "as": "চিহ্নিত মূল্য = ১৬০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-049",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1760 after a discount of 12%. Find its marked price.",
+      "as": "এটা বস্তু ১২% ৰেহাইৰ পিছত ১৭৬০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1548.8",
+        "as": "১৫৪৮.৮"
+      },
+      {
+        "en": "2000.0",
+        "as": "২০০০.০"
+      },
+      {
+        "en": "1971.2",
+        "as": "১৯৭১.২"
+      },
+      {
+        "en": "880.0",
+        "as": "৮৮০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "MP = 1760 × 100/(100 - 12) = 2000.0.",
+      "as": "চিহ্নিত মূল্য = ২০০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-050",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 2100 after a discount of 30%. Find its marked price.",
+      "as": "এটা বস্তু ৩০% ৰেহাইৰ পিছত ২১০০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1470.0",
+        "as": "১৪৭০.০"
+      },
+      {
+        "en": "2730.0",
+        "as": "২৭৩০.০"
+      },
+      {
+        "en": "3000.0",
+        "as": "৩০০০.০"
+      },
+      {
+        "en": "1050.0",
+        "as": "১০৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "MP = 2100 × 100/(100 - 30) = 3000.0.",
+      "as": "চিহ্নিত মূল্য = ৩০০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-051",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 20% and 10% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ২০% আৰু ১০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "28.0",
+        "as": "২৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net discount = 100 - (100-20)(100-10)/100 = 28.0%.",
+      "as": "মুঠ ৰেহাই = ২৮.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-052",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 25% and 20% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ২৫% আৰু ২০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net discount = 100 - (100-25)(100-20)/100 = 40.0%.",
+      "as": "মুঠ ৰেহাই = ৪০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-053",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 30% and 10% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ৩০% আৰু ১০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "37.0",
+        "as": "৩৭.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "18.5",
+        "as": "১৮.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net discount = 100 - (100-30)(100-10)/100 = 37.0%.",
+      "as": "মুঠ ৰেহাই = ৩৭.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-054",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 40% and 25% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ৪০% আৰু ২৫% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "55.0",
+        "as": "৫৫.০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "27.5",
+        "as": "২৭.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net discount = 100 - (100-40)(100-25)/100 = 55.0%.",
+      "as": "মুঠ ৰেহাই = ৫৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-055",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 15% and 20% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ১৫% আৰু ২০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "32.0",
+        "as": "৩২.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net discount = 100 - (100-15)(100-20)/100 = 32.0%.",
+      "as": "মুঠ ৰেহাই = ৩২.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-056",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 50% and 20% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ৫০% আৰু ২০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net discount = 100 - (100-50)(100-20)/100 = 60.0%.",
+      "as": "মুঠ ৰেহাই = ৬০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-057",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 12% and 25% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ১২% আৰু ২৫% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "34.0",
+        "as": "৩৪.০"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net discount = 100 - (100-12)(100-25)/100 = 34.0%.",
+      "as": "মুঠ ৰেহাই = ৩৪.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-058",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 10% and 10% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ১০% আৰু ১০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "9.5",
+        "as": "৯.৫"
+      },
+      {
+        "en": "19.0",
+        "as": "১৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net discount = 100 - (100-10)(100-10)/100 = 19.0%.",
+      "as": "মুঠ ৰেহাই = ১৯.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-059",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 1000 is sold after a discount of 20%, giving a profit of 25%. Find the cost price.",
+      "as": "১০০০ টকাত চিহ্নিত বস্তু ২০% ৰেহাইৰ পিছত ২৫% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "640.0",
+        "as": "৬৪০.০"
+      },
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "320.0",
+        "as": "৩২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = 1000×80/100 = 800.0; CP = SP×100/(100+25) = 640.0.",
+      "as": "ক্ৰয়মূল্য = ৬৪০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-060",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 1500 is sold after a discount of 10%, giving a profit of 20%. Find the cost price.",
+      "as": "১৫০০ টকাত চিহ্নিত বস্তু ১০% ৰেহাইৰ পিছত ২০% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1125.0",
+        "as": "১১২৫.০"
+      },
+      {
+        "en": "1350.0",
+        "as": "১৩৫০.০"
+      },
+      {
+        "en": "375.0",
+        "as": "৩৭৫.০"
+      },
+      {
+        "en": "562.5",
+        "as": "৫৬২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "SP = 1500×90/100 = 1350.0; CP = SP×100/(100+20) = 1125.0.",
+      "as": "ক্ৰয়মূল্য = ১১২৫.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-061",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 2400 is sold after a discount of 25%, giving a profit of 20%. Find the cost price.",
+      "as": "২৪০০ টকাত চিহ্নিত বস্তু ২৫% ৰেহাইৰ পিছত ২০% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      },
+      {
+        "en": "1500.0",
+        "as": "১৫০০.০"
+      },
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "750.0",
+        "as": "৭৫০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "SP = 2400×75/100 = 1800.0; CP = SP×100/(100+20) = 1500.0.",
+      "as": "ক্ৰয়মূল্য = ১৫০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-062",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 3000 is sold after a discount of 15%, giving a profit of 30%. Find the cost price.",
+      "as": "৩০০০ টকাত চিহ্নিত বস্তু ১৫% ৰেহাইৰ পিছত ৩০% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2550.0",
+        "as": "২৫৫০.০"
+      },
+      {
+        "en": "1038.46",
+        "as": "১০৩৮.৪৬"
+      },
+      {
+        "en": "1961.54",
+        "as": "১৯৬১.৫৪"
+      },
+      {
+        "en": "980.77",
+        "as": "৯৮০.৭৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "SP = 3000×85/100 = 2550.0; CP = SP×100/(100+30) = 1961.54.",
+      "as": "ক্ৰয়মূল্য = ১৯৬১.৫৪।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-063",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 800 is sold after a discount of 20%, giving a profit of 15%. Find the cost price.",
+      "as": "৮০০ টকাত চিহ্নিত বস্তু ২০% ৰেহাইৰ পিছত ১৫% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "640.0",
+        "as": "৬৪০.০"
+      },
+      {
+        "en": "243.48",
+        "as": "২৪৩.৪৮"
+      },
+      {
+        "en": "278.26",
+        "as": "২৭৮.২৬"
+      },
+      {
+        "en": "556.52",
+        "as": "৫৫৬.৫২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "SP = 800×80/100 = 640.0; CP = SP×100/(100+15) = 556.52.",
+      "as": "ক্ৰয়মূল্য = ৫৫৬.৫২।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-064",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 10% and the other at a loss of 10%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ১০% লাভত আৰু আনটো ১০% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      },
+      {
+        "en": "0.5",
+        "as": "০.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 10²/100 = 1.0%.",
+      "as": "মুঠ লোকচান% = ১.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-065",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 20% and the other at a loss of 20%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ২০% লাভত আৰু আনটো ২০% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 20²/100 = 4.0%.",
+      "as": "মুঠ লোকচান% = ৪.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-066",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 25% and the other at a loss of 25%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ২৫% লাভত আৰু আনটো ২৫% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "3.12",
+        "as": "৩.১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 25²/100 = 6.25%.",
+      "as": "মুঠ লোকচান% = ৬.২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-067",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 30% and the other at a loss of 30%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ৩০% লাভত আৰু আনটো ৩০% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 30²/100 = 9.0%.",
+      "as": "মুঠ লোকচান% = ৯.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-068",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 15% and the other at a loss of 15%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ১৫% লাভত আৰু আনটো ১৫% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "2.25",
+        "as": "২.২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "1.12",
+        "as": "১.১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 15²/100 = 2.25%.",
+      "as": "মুঠ লোকচান% = ২.২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-069",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 40% and the other at a loss of 40%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ৪০% লাভত আৰু আনটো ৪০% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 40²/100 = 16.0%.",
+      "as": "মুঠ লোকচান% = ১৬.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-070",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 12% and the other at a loss of 12%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ১২% লাভত আৰু আনটো ১২% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "0.72",
+        "as": "০.৭২"
+      },
+      {
+        "en": "1.44",
+        "as": "১.৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 12²/100 = 1.44%.",
+      "as": "মুঠ লোকচান% = ১.৪৪%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-071",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 50% and the other at a loss of 50%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ৫০% লাভত আৰু আনটো ৫০% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Overall loss% = x²/100 = 50²/100 = 25.0%.",
+      "as": "মুঠ লোকচান% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-072",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 900 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৯০০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11.11",
+        "as": "১১.১১"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.56",
+        "as": "৫.৫৬"
+      },
+      {
+        "en": "12.11",
+        "as": "১২.১১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit% = (1000 - 900)/900 × 100 = 11.11%.",
+      "as": "লাভ% = ১১.১১%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-073",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 800 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৮০০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "26.0",
+        "as": "২৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit% = (1000 - 800)/800 × 100 = 25.0%.",
+      "as": "লাভ% = ২৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-074",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 750 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৭৫০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "16.67",
+        "as": "১৬.৬৭"
+      },
+      {
+        "en": "33.33",
+        "as": "৩৩.৩৩"
+      },
+      {
+        "en": "34.33",
+        "as": "৩৪.৩৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = (1000 - 750)/750 × 100 = 33.33%.",
+      "as": "লাভ% = ৩৩.৩৩%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-075",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 950 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৯৫০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.63",
+        "as": "২.৬৩"
+      },
+      {
+        "en": "6.26",
+        "as": "৬.২৬"
+      },
+      {
+        "en": "5.26",
+        "as": "৫.২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit% = (1000 - 950)/950 × 100 = 5.26%.",
+      "as": "লাভ% = ৫.২৬%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-076",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 850 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৮৫০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "8.82",
+        "as": "৮.৮২"
+      },
+      {
+        "en": "17.65",
+        "as": "১৭.৬৫"
+      },
+      {
+        "en": "18.65",
+        "as": "১৮.৬৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit% = (1000 - 850)/850 × 100 = 17.65%.",
+      "as": "লাভ% = ১৭.৬৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-077",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 960 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৯৬০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "4.17",
+        "as": "৪.১৭"
+      },
+      {
+        "en": "2.08",
+        "as": "২.০৮"
+      },
+      {
+        "en": "5.17",
+        "as": "৫.১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit% = (1000 - 960)/960 × 100 = 4.17%.",
+      "as": "লাভ% = ৪.১৭%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-078",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 40% above cost price and gives a discount of 25%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৪০% বেছি ৰাখি ২৫% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net profit% = (1+40/100)(1-25/100)×100 - 100 = 5.0%.",
+      "as": "মুঠ লাভ% = ৫.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-079",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 50% above cost price and gives a discount of 20%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৫০% বেছি ৰাখি ২০% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net profit% = (1+50/100)(1-20/100)×100 - 100 = 20.0%.",
+      "as": "মুঠ লাভ% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-080",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 60% above cost price and gives a discount of 25%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৬০% বেছি ৰাখি ২৫% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net profit% = (1+60/100)(1-25/100)×100 - 100 = 20.0%.",
+      "as": "মুঠ লাভ% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-081",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 25% above cost price and gives a discount of 10%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ২৫% বেছি ৰাখি ১০% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net profit% = (1+25/100)(1-10/100)×100 - 100 = 12.5%.",
+      "as": "মুঠ লাভ% = ১২.৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-082",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 30% above cost price and gives a discount of 20%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৩০% বেছি ৰাখি ২০% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Net profit% = (1+30/100)(1-20/100)×100 - 100 = 4.0%.",
+      "as": "মুঠ লাভ% = ৪.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-083",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 80% above cost price and gives a discount of 40%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৮০% বেছি ৰাখি ৪০% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Net profit% = (1+80/100)(1-40/100)×100 - 100 = 8.0%.",
+      "as": "মুঠ লাভ% = ৮.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-084",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 600 and sold for 750. Find the profit percent.",
+      "as": "এটা বস্তু ৬০০ টকাত কিনি ৭৫০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 25%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-085",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1000 and sold for 1250. Find the profit percent.",
+      "as": "এটা বস্তু ১০০০ টকাত কিনি ১২৫০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 25%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-086",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 2000 and sold for 2500. Find the profit percent.",
+      "as": "এটা বস্তু ২০০০ টকাত কিনি ২৫০০ টকাত বিক্ৰী কৰা হয়। লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 25%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-087",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 900 and profit is 10%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ৯০০ আৰু লাভ ১০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "810.0",
+        "as": "৮১০.০"
+      },
+      {
+        "en": "1080.0",
+        "as": "১০৮০.০"
+      },
+      {
+        "en": "990.0",
+        "as": "৯৯০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 990.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ৯৯০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-088",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 1600 and profit is 25%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ১৬০০ আৰু লাভ ২৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "2000.0",
+        "as": "২০০০.০"
+      },
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 2,000.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ২,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-089",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 2800 and profit is 15%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ২৮০০ আৰু লাভ ১৫% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "420.0",
+        "as": "৪২০.০"
+      },
+      {
+        "en": "3220.0",
+        "as": "৩২২০.০"
+      },
+      {
+        "en": "2380.0",
+        "as": "২৩৮০.০"
+      },
+      {
+        "en": "3640.0",
+        "as": "৩৬৪০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 3,220.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ৩,২২০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-090",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 550 at a profit of 10%. Find its cost price.",
+      "as": "এটা বস্তু ১০% লাভত ৫৫০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "500.0",
+        "as": "৫০০.০"
+      },
+      {
+        "en": "605.0",
+        "as": "৬০৫.০"
+      },
+      {
+        "en": "495.0",
+        "as": "৪৯৫.০"
+      },
+      {
+        "en": "275.0",
+        "as": "২৭৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cost price = SP × 100/(100 + profit%) = 550 × 100/110 = 500. Check: profit = 550 − 500 = 50 on a cost of 500.",
+      "as": "ক্ৰয় মূল্য = SP × ১০০/(১০০ + লাভ%) = ৫৫০ × ১০০/১১০ = ৫০০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-091",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 720 at a profit of 20%. Find its cost price.",
+      "as": "এটা বস্তু ২০% লাভত ৭২০ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "864.0",
+        "as": "৮৬৪.০"
+      },
+      {
+        "en": "576.0",
+        "as": "৫৭৬.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "600.0",
+        "as": "৬০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cost price = SP × 100/(100 + profit%) = 720 × 100/120 = 600. Check: profit = 720 − 600 = 120 on a cost of 600.",
+      "as": "ক্ৰয় মূল্য = SP × ১০০/(১০০ + লাভ%) = ৭২০ × ১০০/১২০ = ৬০০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-092",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1265 at a profit of 15%. Find its cost price.",
+      "as": "এটা বস্তু ১৫% লাভত ১২৬৫ টকাত বিক্ৰী কৰা হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1454.75",
+        "as": "১৪৫৪.৭৫"
+      },
+      {
+        "en": "1100.0",
+        "as": "১১০০.০"
+      },
+      {
+        "en": "1075.25",
+        "as": "১০৭৫.২৫"
+      },
+      {
+        "en": "632.5",
+        "as": "৬৩২.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cost price = SP × 100/(100 + profit%) = 1,265 × 100/115 = 1,100. Check: profit = 1,265 − 1,100 = 165 on a cost of 1,100.",
+      "as": "ক্ৰয় মূল্য = SP × ১০০/(১০০ + লাভ%) = ১,২৬৫ × ১০০/১১৫ = ১,১০০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-093",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 600 and sold for 480. Find the loss percent.",
+      "as": "এটা বস্তু ৬০০ টকাত কিনি ৪৮০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Loss% = 20.0%.",
+      "as": "লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-094",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 1000 and sold for 800. Find the loss percent.",
+      "as": "এটা বস্তু ১০০০ টকাত কিনি ৮০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Loss% = 20.0%.",
+      "as": "লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-095",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is bought for 2000 and sold for 1600. Find the loss percent.",
+      "as": "এটা বস্তু ২০০০ টকাত কিনি ১৬০০ টকাত বিক্ৰী কৰা হয়। লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Loss% = 20.0%.",
+      "as": "লোকচান% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-096",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 1100 and loss is 20%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ১১০০ আৰু লোকচান ২০% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "880.0",
+        "as": "৮৮০.০"
+      },
+      {
+        "en": "220.0",
+        "as": "২২০.০"
+      },
+      {
+        "en": "1320.0",
+        "as": "১৩২০.০"
+      },
+      {
+        "en": "1100.0",
+        "as": "১১০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 880.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ৮৮০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-097",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article whose cost price is 2500 and loss is 16%.",
+      "as": "এটা বস্তুৰ ক্ৰয়মূল্য ২৫০০ আৰু লোকচান ১৬% হ'লে বিক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400.0",
+        "as": "৪০০.০"
+      },
+      {
+        "en": "2100.0",
+        "as": "২১০০.০"
+      },
+      {
+        "en": "2900.0",
+        "as": "২৯০০.০"
+      },
+      {
+        "en": "2500.0",
+        "as": "২৫০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 2,100.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ২,১০০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-098",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 600 and it is sold for 480. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ৬০০ আৰু বিক্ৰয়মূল্য ৪৮০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Discount% = 20.0%.",
+      "as": "ৰেহাই% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-099",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "The marked price of an article is 900 and it is sold for 720. Find the discount percent.",
+      "as": "এটা বস্তুৰ চিহ্নিত মূল্য ৯০০ আৰু বিক্ৰয়মূল্য ৭২০। ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Discount% = 20.0%.",
+      "as": "ৰেহাই% = ২০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-100",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 700 after a discount of 15%.",
+      "as": "৭০০ টকাত চিহ্নিত বস্তু ১৫% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "105.0",
+        "as": "১০৫.০"
+      },
+      {
+        "en": "805.0",
+        "as": "৮০৫.০"
+      },
+      {
+        "en": "595.0",
+        "as": "৫৯৫.০"
+      },
+      {
+        "en": "700.0",
+        "as": "৭০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 595.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ৫৯৫ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-101",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Find the selling price of an article marked at 1500 after a discount of 20%.",
+      "as": "১৫০০ টকাত চিহ্নিত বস্তু ২০% ৰেহাইৰ পিছত কিমান টকাত বিক্ৰী হ'ব?"
+    },
+    "options": [
+      {
+        "en": "300.0",
+        "as": "৩০০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      },
+      {
+        "en": "1500.0",
+        "as": "১৫০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Start from the cost price, apply the profit or discount percentage, and the selling price comes to 1,200.",
+      "as": "ক্ৰয় মূল্যৰপৰা আৰম্ভ কৰি লাভ বা ৰেহাইৰ শতাংশ প্ৰয়োগ কৰিলে বিক্ৰয় মূল্য ১,২০০ হয়।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-102",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 680 after a discount of 15%. Find its marked price.",
+      "as": "এটা বস্তু ১৫% ৰেহাইৰ পিছত ৬৮০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "800.0",
+        "as": "৮০০.০"
+      },
+      {
+        "en": "578.0",
+        "as": "৫৭৮.০"
+      },
+      {
+        "en": "782.0",
+        "as": "৭৮২.০"
+      },
+      {
+        "en": "340.0",
+        "as": "৩৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "MP = 800.0.",
+      "as": "চিহ্নিত মূল্য = ৮০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-103",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article is sold for 1140 after a discount of 5%. Find its marked price.",
+      "as": "এটা বস্তু ৫% ৰেহাইৰ পিছত ১১৪০ টকাত বিক্ৰী হয়। চিহ্নিত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1083.0",
+        "as": "১০৮৩.০"
+      },
+      {
+        "en": "1197.0",
+        "as": "১১৯৭.০"
+      },
+      {
+        "en": "570.0",
+        "as": "৫৭০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "MP = 1200.0.",
+      "as": "চিহ্নিত মূল্য = ১২০০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-104",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 20% and 25% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ২০% আৰু ২৫% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net discount = 40.0%.",
+      "as": "মুঠ ৰেহাই = ৪০.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-105",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two successive discounts of 30% and 20% are given on an article. Find the net discount percent.",
+      "as": "এটা বস্তুত ৩০% আৰু ২০% দুটা ক্ৰমিক ৰেহাই দিয়া হয়। মুঠ ৰেহাইৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "44.0",
+        "as": "৪৪.০"
+      },
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net discount = 44.0%.",
+      "as": "মুঠ ৰেহাই = ৪৪.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-106",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 1200 is sold after a discount of 25%, giving a profit of 20%. Find the cost price.",
+      "as": "১২০০ টকাত চিহ্নিত বস্তু ২৫% ৰেহাইৰ পিছত ২০% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900.0",
+        "as": "৯০০.০"
+      },
+      {
+        "en": "450.0",
+        "as": "৪৫০.০"
+      },
+      {
+        "en": "375.0",
+        "as": "৩৭৫.০"
+      },
+      {
+        "en": "750.0",
+        "as": "৭৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CP = 750.0.",
+      "as": "ক্ৰয়মূল্য = ৭৫০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-107",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "An article marked at 2000 is sold after a discount of 20%, giving a profit of 25%. Find the cost price.",
+      "as": "২০০০ টকাত চিহ্নিত বস্তু ২০% ৰেহাইৰ পিছত ২৫% লাভত বিক্ৰী হয়। ক্ৰয়মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1280.0",
+        "as": "১২৮০.০"
+      },
+      {
+        "en": "1600.0",
+        "as": "১৬০০.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      },
+      {
+        "en": "640.0",
+        "as": "৬৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CP = 1280.0.",
+      "as": "ক্ৰয়মূল্য = ১২৮০.০।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-108",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 8% and the other at a loss of 8%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ৮% লাভত আৰু আনটো ৮% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0.64",
+        "as": "০.৬৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "0.32",
+        "as": "০.৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Overall loss% = 0.64%.",
+      "as": "মুঠ লোকচান% = ০.৬৪%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-109",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "Two articles are sold at the same selling price, one at a profit of 5% and the other at a loss of 5%. Find the overall loss percent.",
+      "as": "দুটা বস্তু একে বিক্ৰয়মূল্যত বিক্ৰী হয়, এটা ৫% লাভত আৰু আনটো ৫% লোকচানত। মুঠ লোকচানৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "0.25",
+        "as": "০.২৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "0.12",
+        "as": "০.১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Overall loss% = 0.25%.",
+      "as": "মুঠ লোকচান% = ০.২৫%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-110",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 920 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৯২০ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.35",
+        "as": "৪.৩৫"
+      },
+      {
+        "en": "8.7",
+        "as": "৮.৭"
+      },
+      {
+        "en": "9.7",
+        "as": "৯.৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 8.7%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ৮.৭%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-111",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A dishonest dealer sells goods at cost price but uses a weight of 875 g instead of 1 kg. Find his profit percent.",
+      "as": "এজন অসাধু ব্যৱসায়ীয়ে ক্ৰয়মূল্যত বস্তু বিক্ৰী কৰে কিন্তু ১ কিলোগ্ৰামৰ সলনি ৮৭৫ গ্ৰাম ওজন ব্যৱহাৰ কৰে। তেওঁৰ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "7.14",
+        "as": "৭.১৪"
+      },
+      {
+        "en": "15.29",
+        "as": "১৫.২৯"
+      },
+      {
+        "en": "14.29",
+        "as": "১৪.২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit per cent = (profit ÷ cost price) × 100, which works out to 14.29%.",
+      "as": "লাভৰ শতাংশ = (লাভ ÷ ক্ৰয় মূল্য) × 100, যাৰ মান ১৪.২৯%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-112",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 45% above cost price and gives a discount of 20%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৪৫% বেছি ৰাখি ২০% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Net profit% = 16.0%.",
+      "as": "মুঠ লাভ% = ১৬.০%।"
+    }
+  },
+  {
+    "id": "num-profit-loss-discount-113",
+    "leaf": "profit-loss-discount",
+    "q": {
+      "en": "A shopkeeper marks his goods 35% above cost price and gives a discount of 25%. Find his net profit percent.",
+      "as": "এজন দোকানীয়ে বস্তুৰ মূল্য ক্ৰয়মূল্যতকৈ ৩৫% বেছি ৰাখি ২৫% ৰেহাই দিয়ে। তেওঁৰ মুঠ লাভৰ শতাংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "1.25",
+        "as": "১.২৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "0.63",
+        "as": "০.৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Net profit% = 1.25%.",
+      "as": "মুঠ লাভ% = ১.২৫%।"
+    }
+  }
+]

@@ -1,0 +1,3162 @@
+[
+  {
+    "id": "numerical-019",
+    "q": {
+      "en": "The difference between compound interest and simple interest on ₹10,000 for 2 years at 10% per annum is",
+      "as": "বছৰি ১০% হাৰত ১০,০০০ টকাৰ ২ বছৰৰ চক্ৰবৃদ্ধি সুত আৰু সৰল সুতৰ পাৰ্থক্য কিমান"
+    },
+    "options": [
+      {
+        "en": "₹100",
+        "as": "১০০ টকা"
+      },
+      {
+        "en": "₹50",
+        "as": "৫০ টকা"
+      },
+      {
+        "en": "₹200",
+        "as": "২০০ টকা"
+      },
+      {
+        "en": "₹110",
+        "as": "১১০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "For 2 years the difference is P(R/100)² = 10000 × (0.10)² = ₹100. Directly: CI = ₹2,100 and SI = ₹2,000.",
+      "as": "২ বছৰৰ বাবে পাৰ্থক্য = P(R/100)² = ১০০০০ × (০.১০)² = ১০০ টকা। পোনপটীয়াকৈ: CI = ২,১০০ টকা আৰু SI = ২,০০০ টকা।"
+    }
+  },
+  {
+    "id": "numerical-020",
+    "q": {
+      "en": "At what rate per annum will ₹5,000 amount to ₹6,050 in 2 years if interest is compounded annually?",
+      "as": "বছৰি কিমান হাৰত ৫,০০০ টকা ২ বছৰত ৬,০৫০ টকা হ'ব যদি সুত বছৰি চক্ৰবৃদ্ধি হয়"
+    },
+    "options": [
+      {
+        "en": "10%",
+        "as": "১০%"
+      },
+      {
+        "en": "12%",
+        "as": "১২%"
+      },
+      {
+        "en": "8%",
+        "as": "৮%"
+      },
+      {
+        "en": "15%",
+        "as": "১৫%"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A/P = 6050/5000 = 1.21. Since (1 + R/100)² = 1.21, 1 + R/100 = 1.10 and R = 10%.",
+      "as": "A/P = ৬০৫০/৫০০০ = ১.২১। যিহেতু (১ + R/১০০)² = ১.২১, ১ + R/১০০ = ১.১০ আৰু R = ১০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-001",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 10000 at 10% per annum for 2 years.",
+      "as": "১০০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12000.0",
+        "as": "১২০০০.০"
+      },
+      {
+        "en": "12100.0",
+        "as": "১২১০০.০"
+      },
+      {
+        "en": "2100.0",
+        "as": "২১০০.০"
+      },
+      {
+        "en": "22100.0",
+        "as": "২২১০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 10000(1+10/100)^2 = 12100.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ১০০০০(১+১০/১০০)^২ = ১২১০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-002",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 15000 at 8% per annum for 2 years.",
+      "as": "১৫০০০ টকাৰ ওপৰত বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17400.0",
+        "as": "১৭৪০০.০"
+      },
+      {
+        "en": "2496.0",
+        "as": "২৪৯৬.০"
+      },
+      {
+        "en": "17496.0",
+        "as": "১৭৪৯৬.০"
+      },
+      {
+        "en": "32496.0",
+        "as": "৩২৪৯৬.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 15000(1+8/100)^2 = 17496.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ১৫০০০(১+৮/১০০)^২ = ১৭৪৯৬.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-003",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 20000 at 12% per annum for 2 years.",
+      "as": "২০০০০ টকাৰ ওপৰত বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24800.0",
+        "as": "২৪৮০০.০"
+      },
+      {
+        "en": "5088.0",
+        "as": "৫০৮৮.০"
+      },
+      {
+        "en": "45088.0",
+        "as": "৪৫০৮৮.০"
+      },
+      {
+        "en": "25088.0",
+        "as": "২৫০৮৮.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 20000(1+12/100)^2 = 25088.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ২০০০০(১+১২/১০০)^২ = ২৫০৮৮.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-004",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 25000 at 6% per annum for 3 years.",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ৬% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29500.0",
+        "as": "২৯৫০০.০"
+      },
+      {
+        "en": "4775.4",
+        "as": "৪৭৭৫.৪"
+      },
+      {
+        "en": "29775.4",
+        "as": "২৯৭৭৫.৪"
+      },
+      {
+        "en": "54775.4",
+        "as": "৫৪৭৭৫.৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 25000(1+6/100)^3 = 29775.4.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ২৫০০০(১+৬/১০০)^৩ = ২৯৭৭৫.৪।"
+    }
+  },
+  {
+    "id": "num-compound-interest-005",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 40000 at 5% per annum for 2 years.",
+      "as": "৪০০০০ টকাৰ ওপৰত বছৰি ৫% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "44000.0",
+        "as": "৪৪০০০.০"
+      },
+      {
+        "en": "44100.0",
+        "as": "৪৪১০০.০"
+      },
+      {
+        "en": "4100.0",
+        "as": "৪১০০.০"
+      },
+      {
+        "en": "84100.0",
+        "as": "৮৪১০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 40000(1+5/100)^2 = 44100.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ৪০০০০(১+৫/১০০)^২ = ৪৪১০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-006",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 50000 at 10% per annum for 3 years.",
+      "as": "৫০০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "66550.0",
+        "as": "৬৬৫৫০.০"
+      },
+      {
+        "en": "65000.0",
+        "as": "৬৫০০০.০"
+      },
+      {
+        "en": "16550.0",
+        "as": "১৬৫৫০.০"
+      },
+      {
+        "en": "116550.0",
+        "as": "১১৬৫৫০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 50000(1+10/100)^3 = 66550.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ৫০০০০(১+১০/১০০)^৩ = ৬৬৫৫০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-007",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 64000 at 15% per annum for 2 years.",
+      "as": "৬৪০০০ টকাৰ ওপৰত বছৰি ১৫% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "83200.0",
+        "as": "৮৩২০০.০"
+      },
+      {
+        "en": "20640.0",
+        "as": "২০৬৪০.০"
+      },
+      {
+        "en": "148640.0",
+        "as": "১৪৮৬৪০.০"
+      },
+      {
+        "en": "84640.0",
+        "as": "৮৪৬৪০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 64000(1+15/100)^2 = 84640.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ৬৪০০০(১+১৫/১০০)^২ = ৮৪৬৪০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-008",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 80000 at 12% per annum for 2 years.",
+      "as": "৮০০০০ টকাৰ ওপৰত বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "99200.0",
+        "as": "৯৯২০০.০"
+      },
+      {
+        "en": "100352.0",
+        "as": "১০০৩৫২.০"
+      },
+      {
+        "en": "20352.0",
+        "as": "২০৩৫২.০"
+      },
+      {
+        "en": "180352.0",
+        "as": "১৮০৩৫২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 80000(1+12/100)^2 = 100352.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ৮০০০০(১+১২/১০০)^২ = ১০০৩৫২.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-009",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 12000 at 20% per annum for 2 years.",
+      "as": "১২০০০ টকাৰ ওপৰত বছৰি ২০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16800.0",
+        "as": "১৬৮০০.০"
+      },
+      {
+        "en": "5280.0",
+        "as": "৫২৮০.০"
+      },
+      {
+        "en": "17280.0",
+        "as": "১৭২৮০.০"
+      },
+      {
+        "en": "29280.0",
+        "as": "২৯২৮০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 12000(1+20/100)^2 = 17280.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ১২০০০(১+২০/১০০)^২ = ১৭২৮০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-010",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 18000 at 25% per annum for 2 years.",
+      "as": "১৮০০০ টকাৰ ওপৰত বছৰি ২৫% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27000.0",
+        "as": "২৭০০০.০"
+      },
+      {
+        "en": "10125.0",
+        "as": "১০১২৫.০"
+      },
+      {
+        "en": "46125.0",
+        "as": "৪৬১২৫.০"
+      },
+      {
+        "en": "28125.0",
+        "as": "২৮১২৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1+r/100)^n = 18000(1+25/100)^2 = 28125.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১+r/১০০)^n = ১৮০০০(১+২৫/১০০)^২ = ২৮১২৫.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-011",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 12000 at 10% per annum for 2 years.",
+      "as": "১২০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2520.0",
+        "as": "২৫২০.০"
+      },
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      },
+      {
+        "en": "1260.0",
+        "as": "১২৬০.০"
+      },
+      {
+        "en": "14520.0",
+        "as": "১৪৫২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 12,000 × (1 + 10/100)^2 = 14,520. Compound interest = amount − principal = 14,520 − 12,000 = 2,520.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ১২,০০০ × (১ + ১০/১০০)^২ = ১৪,৫২০। চক্ৰবৃদ্ধি সুত = ২,৫২০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-012",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 18000 at 8% per annum for 2 years.",
+      "as": "১৮০০০ টকাৰ ওপৰত বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2995.2",
+        "as": "২৯৯৫.২"
+      },
+      {
+        "en": "2880.0",
+        "as": "২৮৮০.০"
+      },
+      {
+        "en": "1497.6",
+        "as": "১৪৯৭.৬"
+      },
+      {
+        "en": "20995.2",
+        "as": "২০৯৯৫.২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 18,000 × (1 + 8/100)^2 = 20,995.2. Compound interest = amount − principal = 20,995.2 − 18,000 = 2,995.2.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ১৮,০০০ × (১ + ৮/১০০)^২ = ২০,৯৯৫.২। চক্ৰবৃদ্ধি সুত = ২,৯৯৫.২।"
+    }
+  },
+  {
+    "id": "num-compound-interest-013",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 25000 at 12% per annum for 2 years.",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6000.0",
+        "as": "৬০০০.০"
+      },
+      {
+        "en": "6360.0",
+        "as": "৬৩৬০.০"
+      },
+      {
+        "en": "3180.0",
+        "as": "৩১৮০.০"
+      },
+      {
+        "en": "31360.0",
+        "as": "৩১৩৬০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 25,000 × (1 + 12/100)^2 = 31,360. Compound interest = amount − principal = 31,360 − 25,000 = 6,360.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ২৫,০০০ × (১ + ১২/১০০)^২ = ৩১,৩৬০। চক্ৰবৃদ্ধি সুত = ৬,৩৬০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-014",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 30000 at 5% per annum for 3 years.",
+      "as": "৩০০০০ টকাৰ ওপৰত বছৰি ৫% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4500.0",
+        "as": "৪৫০০.০"
+      },
+      {
+        "en": "2364.38",
+        "as": "২৩৬৪.৩৮"
+      },
+      {
+        "en": "4728.75",
+        "as": "৪৭২৮.৭৫"
+      },
+      {
+        "en": "34728.75",
+        "as": "৩৪৭২৮.৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 30,000 × (1 + 5/100)^3 = 34,728.75. Compound interest = amount − principal = 34,728.75 − 30,000 = 4,728.75.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৩০,০০০ × (১ + ৫/১০০)^৩ = ৩৪,৭২৮.৭৫। চক্ৰবৃদ্ধি সুত = ৪,৭২৮.৭৫।"
+    }
+  },
+  {
+    "id": "num-compound-interest-015",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 45000 at 10% per annum for 2 years.",
+      "as": "৪৫০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9000.0",
+        "as": "৯০০০.০"
+      },
+      {
+        "en": "4725.0",
+        "as": "৪৭২৫.০"
+      },
+      {
+        "en": "54450.0",
+        "as": "৫৪৪৫০.০"
+      },
+      {
+        "en": "9450.0",
+        "as": "৯৪৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 45,000 × (1 + 10/100)^2 = 54,450. Compound interest = amount − principal = 54,450 − 45,000 = 9,450.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৪৫,০০০ × (১ + ১০/১০০)^২ = ৫৪,৪৫০। চক্ৰবৃদ্ধি সুত = ৯,৪৫০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-016",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 60000 at 6% per annum for 2 years.",
+      "as": "৬০০০০ টকাৰ ওপৰত বছৰি ৬% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7200.0",
+        "as": "৭২০০.০"
+      },
+      {
+        "en": "3708.0",
+        "as": "৩৭০৮.০"
+      },
+      {
+        "en": "7416.0",
+        "as": "৭৪১৬.০"
+      },
+      {
+        "en": "67416.0",
+        "as": "৬৭৪১৬.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 60,000 × (1 + 6/100)^2 = 67,416. Compound interest = amount − principal = 67,416 − 60,000 = 7,416.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৬০,০০০ × (১ + ৬/১০০)^২ = ৬৭,৪১৬। চক্ৰবৃদ্ধি সুত = ৭,৪১৬।"
+    }
+  },
+  {
+    "id": "num-compound-interest-017",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 72000 at 15% per annum for 2 years.",
+      "as": "৭২০০০ টকাৰ ওপৰত বছৰি ১৫% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21600.0",
+        "as": "২১৬০০.০"
+      },
+      {
+        "en": "23220.0",
+        "as": "২৩২২০.০"
+      },
+      {
+        "en": "11610.0",
+        "as": "১১৬১০.০"
+      },
+      {
+        "en": "95220.0",
+        "as": "৯৫২২০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 72,000 × (1 + 15/100)^2 = 95,220. Compound interest = amount − principal = 95,220 − 72,000 = 23,220.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৭২,০০০ × (১ + ১৫/১০০)^২ = ৯৫,২২০। চক্ৰবৃদ্ধি সুত = ২৩,২২০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-018",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 90000 at 8% per annum for 3 years.",
+      "as": "৯০০০০ টকাৰ ওপৰত বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "23374.08",
+        "as": "২৩৩৭৪.০৮"
+      },
+      {
+        "en": "21600.0",
+        "as": "২১৬০০.০"
+      },
+      {
+        "en": "11687.04",
+        "as": "১১৬৮৭.০৪"
+      },
+      {
+        "en": "113374.08",
+        "as": "১১৩৩৭৪.০৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 90,000 × (1 + 8/100)^3 = 113,374.08. Compound interest = amount − principal = 113,374.08 − 90,000 = 23,374.08.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৯০,০০০ × (১ + ৮/১০০)^৩ = ১১৩,৩৭৪.০৮। চক্ৰবৃদ্ধি সুত = ২৩,৩৭৪.০৮।"
+    }
+  },
+  {
+    "id": "num-compound-interest-019",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 10% per annum is 12100. Find the principal.",
+      "as": "বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ১২১০০ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2100.0",
+        "as": "২১০০.০"
+      },
+      {
+        "en": "5000.0",
+        "as": "৫০০০.০"
+      },
+      {
+        "en": "10083.33",
+        "as": "১০০৮৩.৩৩"
+      },
+      {
+        "en": "10000.0",
+        "as": "১০০০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 10000.0.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ১০০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-020",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 8% per annum is 17496. Find the principal.",
+      "as": "বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ১৭৪৯৬ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2496.0",
+        "as": "২৪৯৬.০"
+      },
+      {
+        "en": "15000.0",
+        "as": "১৫০০০.০"
+      },
+      {
+        "en": "7500.0",
+        "as": "৭৫০০.০"
+      },
+      {
+        "en": "15082.76",
+        "as": "১৫০৮২.৭৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 15000.0.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ১৫০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-021",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 12% per annum is 25088. Find the principal.",
+      "as": "বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ২৫০৮৮ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5088.0",
+        "as": "৫০৮৮.০"
+      },
+      {
+        "en": "10000.0",
+        "as": "১০০০০.০"
+      },
+      {
+        "en": "20000.0",
+        "as": "২০০০০.০"
+      },
+      {
+        "en": "20232.26",
+        "as": "২০২৩২.২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 20000.0.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ২০০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-022",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 3 years at 5% per annum is 33750. Find the principal.",
+      "as": "বছৰি ৫% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ পিছত মুঠ ধন ৩৩৭৫০ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4595.48",
+        "as": "৪৫৯৫.৪৮"
+      },
+      {
+        "en": "14577.26",
+        "as": "১৪৫৭৭.২৬"
+      },
+      {
+        "en": "29347.83",
+        "as": "২৯৩৪৭.৮৩"
+      },
+      {
+        "en": "29154.52",
+        "as": "২৯১৫৪.৫২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 29154.52.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ২৯১৫৪.৫২।"
+    }
+  },
+  {
+    "id": "num-compound-interest-023",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 10% per annum is 60500. Find the principal.",
+      "as": "বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ৬০৫০০ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50000.0",
+        "as": "৫০০০০.০"
+      },
+      {
+        "en": "10500.0",
+        "as": "১০৫০০.০"
+      },
+      {
+        "en": "25000.0",
+        "as": "২৫০০০.০"
+      },
+      {
+        "en": "50416.67",
+        "as": "৫০৪১৬.৬৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 50000.0.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ৫০০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-024",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 8% per annum is 81000. Find the principal.",
+      "as": "বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ৮১০০০ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "69444.44",
+        "as": "৬৯৪৪৪.৪৪"
+      },
+      {
+        "en": "11555.56",
+        "as": "১১৫৫৫.৫৬"
+      },
+      {
+        "en": "34722.22",
+        "as": "৩৪৭২২.২২"
+      },
+      {
+        "en": "69827.59",
+        "as": "৬৯৮২৭.৫৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The principal, using A = P(1 + R/100)^n: A/(1+r/100)^n = 69444.44.",
+      "as": "The principal, using A = P(1 + R/100)^n: A/(১+r/১০০)^n = ৬৯৪৪৪.৪৪।"
+    }
+  },
+  {
+    "id": "num-compound-interest-025",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 10000 amounts to 12100 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "১০০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ১২১০০ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "r = [(A/P)^(1/n) - 1] × 100 = 10.0%.",
+      "as": "হাৰ = ১০.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-026",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 15000 amounts to 18150 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "১৫০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ১৮১৫০ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "r = [(A/P)^(1/n) - 1] × 100 = 10.0%.",
+      "as": "হাৰ = ১০.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-027",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 20000 amounts to 25920 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "২০০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ২৫৯২০ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.92",
+        "as": "৬.৯২"
+      },
+      {
+        "en": "27.68",
+        "as": "২৭.৬৮"
+      },
+      {
+        "en": "14.8",
+        "as": "১৪.৮"
+      },
+      {
+        "en": "13.84",
+        "as": "১৩.৮৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "r = [(A/P)^(1/n) - 1] × 100 = 13.84%.",
+      "as": "হাৰ = ১৩.৮৪%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-028",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 25000 amounts to 30250 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "২৫০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ৩০২৫০ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "r = [(A/P)^(1/n) - 1] × 100 = 10.0%.",
+      "as": "হাৰ = ১০.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-029",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 8000 amounts to 10368 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "৮০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ১০৩৬৮ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.92",
+        "as": "৬.৯২"
+      },
+      {
+        "en": "13.84",
+        "as": "১৩.৮৪"
+      },
+      {
+        "en": "27.68",
+        "as": "২৭.৬৮"
+      },
+      {
+        "en": "14.8",
+        "as": "১৪.৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "r = [(A/P)^(1/n) - 1] × 100 = 13.84%.",
+      "as": "হাৰ = ১৩.৮৪%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-030",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 10000 at 10% per annum for 2 years.",
+      "as": "১০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 10000×(10/100)² = 100.0.",
+      "as": "পাৰ্থক্য = ১০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-031",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 20000 at 5% per annum for 2 years.",
+      "as": "২০০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000.0",
+        "as": "১০০০.০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 20000×(5/100)² = 50.0.",
+      "as": "পাৰ্থক্য = ৫০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-032",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 15000 at 8% per annum for 2 years.",
+      "as": "১৫০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "192.0",
+        "as": "১৯২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 15000×(8/100)² = 96.0.",
+      "as": "পাৰ্থক্য = ৯৬.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-033",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 25000 at 12% per annum for 2 years.",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3000.0",
+        "as": "৩০০০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      },
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "720.0",
+        "as": "৭২০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 25000×(12/100)² = 360.0.",
+      "as": "পাৰ্থক্য = ৩৬০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-034",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 40000 at 6% per annum for 2 years.",
+      "as": "৪০০০০ টকাৰ ওপৰত বছৰি ৬% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2400.0",
+        "as": "২৪০০.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "288.0",
+        "as": "২৮৮.০"
+      },
+      {
+        "en": "144.0",
+        "as": "১৪৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 40000×(6/100)² = 144.0.",
+      "as": "পাৰ্থক্য = ১৪৪.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-035",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 50000 at 15% per annum for 2 years.",
+      "as": "৫০০০০ টকাৰ ওপৰত বছৰি ১৫% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1125.0",
+        "as": "১১২৫.০"
+      },
+      {
+        "en": "7500.0",
+        "as": "৭৫০০.০"
+      },
+      {
+        "en": "562.5",
+        "as": "৫৬২.৫"
+      },
+      {
+        "en": "2250.0",
+        "as": "২২৫০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = P(r/100)² = 50000×(15/100)² = 1125.0.",
+      "as": "পাৰ্থক্য = ১১২৫.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-036",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 10000 at 10% per annum for 3 years.",
+      "as": "১০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "310.0",
+        "as": "৩১০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "155.0",
+        "as": "১৫৫.০"
+      },
+      {
+        "en": "620.0",
+        "as": "৬২০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Difference = P(r/100)²(3 + r/100) = 310.0.",
+      "as": "পাৰ্থক্য = ৩১০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-037",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 20000 at 5% per annum for 3 years.",
+      "as": "২০০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "152.5",
+        "as": "১৫২.৫"
+      },
+      {
+        "en": "76.25",
+        "as": "৭৬.২৫"
+      },
+      {
+        "en": "305.0",
+        "as": "৩০৫.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Difference = P(r/100)²(3 + r/100) = 152.5.",
+      "as": "পাৰ্থক্য = ১৫২.৫।"
+    }
+  },
+  {
+    "id": "num-compound-interest-038",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 15000 at 8% per annum for 3 years.",
+      "as": "১৫০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "147.84",
+        "as": "১৪৭.৮৪"
+      },
+      {
+        "en": "295.68",
+        "as": "২৯৫.৬৮"
+      },
+      {
+        "en": "591.36",
+        "as": "৫৯১.৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Difference = P(r/100)²(3 + r/100) = 295.68.",
+      "as": "পাৰ্থক্য = ২৯৫.৬৮।"
+    }
+  },
+  {
+    "id": "num-compound-interest-039",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 25000 at 12% per annum for 3 years.",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360.0",
+        "as": "৩৬০.০"
+      },
+      {
+        "en": "561.6",
+        "as": "৫৬১.৬"
+      },
+      {
+        "en": "2246.4",
+        "as": "২২৪৬.৪"
+      },
+      {
+        "en": "1123.2",
+        "as": "১১২৩.২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Difference = P(r/100)²(3 + r/100) = 1123.2.",
+      "as": "পাৰ্থক্য = ১১২৩.২।"
+    }
+  },
+  {
+    "id": "num-compound-interest-040",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 20000 at 10% per annum compounded half-yearly for 1 year(s).",
+      "as": "২০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22000.0",
+        "as": "২২০০০.০"
+      },
+      {
+        "en": "2050.0",
+        "as": "২০৫০.০"
+      },
+      {
+        "en": "22050.0",
+        "as": "২২০৫০.০"
+      },
+      {
+        "en": "42050.0",
+        "as": "৪২০৫০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 22050.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ২২০৫০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-041",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 40000 at 8% per annum compounded half-yearly for 1 year(s).",
+      "as": "৪০০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "43200.0",
+        "as": "৪৩২০০.০"
+      },
+      {
+        "en": "43264.0",
+        "as": "৪৩২৬৪.০"
+      },
+      {
+        "en": "3264.0",
+        "as": "৩২৬৪.০"
+      },
+      {
+        "en": "83264.0",
+        "as": "৮৩২৬৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 43264.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ৪৩২৬৪.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-042",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 50000 at 12% per annum compounded half-yearly for 1 year(s).",
+      "as": "৫০০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "56180.0",
+        "as": "৫৬১৮০.০"
+      },
+      {
+        "en": "56000.0",
+        "as": "৫৬০০০.০"
+      },
+      {
+        "en": "6180.0",
+        "as": "৬১৮০.০"
+      },
+      {
+        "en": "106180.0",
+        "as": "১০৬১৮০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 56180.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ৫৬১৮০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-043",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 16000 at 10% per annum compounded half-yearly for 2 year(s).",
+      "as": "১৬০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "19360.0",
+        "as": "১৯৩৬০.০"
+      },
+      {
+        "en": "3448.1",
+        "as": "৩৪৪৮.১"
+      },
+      {
+        "en": "35448.1",
+        "as": "৩৫৪৪৮.১"
+      },
+      {
+        "en": "19448.1",
+        "as": "১৯৪৪৮.১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 19448.1.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ১৯৪৪৮.১।"
+    }
+  },
+  {
+    "id": "num-compound-interest-044",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 25000 at 8% per annum compounded half-yearly for 2 year(s).",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29160.0",
+        "as": "২৯১৬০.০"
+      },
+      {
+        "en": "29246.46",
+        "as": "২৯২৪৬.৪৬"
+      },
+      {
+        "en": "4246.46",
+        "as": "৪২৪৬.৪৬"
+      },
+      {
+        "en": "54246.46",
+        "as": "৫৪২৪৬.৪৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 29246.46.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ২৯২৪৬.৪৬।"
+    }
+  },
+  {
+    "id": "num-compound-interest-045",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 64000 at 5% per annum compounded half-yearly for 1 year(s).",
+      "as": "৬৪০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "67200.0",
+        "as": "৬৭২০০.০"
+      },
+      {
+        "en": "3240.0",
+        "as": "৩২৪০.০"
+      },
+      {
+        "en": "67240.0",
+        "as": "৬৭২৪০.০"
+      },
+      {
+        "en": "131240.0",
+        "as": "১৩১২৪০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/200)^(2n) = 67240.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/২০০)^(২n) = ৬৭২৪০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-046",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 16000 at 12% per annum compounded quarterly for 1 year(s).",
+      "as": "১৬০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17920.0",
+        "as": "১৭৯২০.০"
+      },
+      {
+        "en": "17977.6",
+        "as": "১৭৯৭৭.৬"
+      },
+      {
+        "en": "2008.14",
+        "as": "২০০৮.১৪"
+      },
+      {
+        "en": "18008.14",
+        "as": "১৮০০৮.১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/400)^(4n) = 18008.14.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/৪০০)^(৪n) = ১৮০০৮.১৪।"
+    }
+  },
+  {
+    "id": "num-compound-interest-047",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 25000 at 8% per annum compounded quarterly for 1 year(s).",
+      "as": "২৫০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27060.8",
+        "as": "২৭০৬০.৮"
+      },
+      {
+        "en": "27000.0",
+        "as": "২৭০০০.০"
+      },
+      {
+        "en": "27040.0",
+        "as": "২৭০৪০.০"
+      },
+      {
+        "en": "2060.8",
+        "as": "২০৬০.৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/400)^(4n) = 27060.8.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/৪০০)^(৪n) = ২৭০৬০.৮।"
+    }
+  },
+  {
+    "id": "num-compound-interest-048",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 40000 at 10% per annum compounded quarterly for 1 year(s).",
+      "as": "৪০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "44152.52",
+        "as": "৪৪১৫২.৫২"
+      },
+      {
+        "en": "44000.0",
+        "as": "৪৪০০০.০"
+      },
+      {
+        "en": "44100.0",
+        "as": "৪৪১০০.০"
+      },
+      {
+        "en": "4152.52",
+        "as": "৪১৫২.৫২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/400)^(4n) = 44152.52.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/৪০০)^(৪n) = ৪৪১৫২.৫২।"
+    }
+  },
+  {
+    "id": "num-compound-interest-049",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 50000 at 6% per annum compounded quarterly for 1 year(s).",
+      "as": "৫০০০০ টকাৰ ওপৰত বছৰি ৬% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "53000.0",
+        "as": "৫৩০০০.০"
+      },
+      {
+        "en": "53068.18",
+        "as": "৫৩০৬৮.১৮"
+      },
+      {
+        "en": "53045.0",
+        "as": "৫৩০৪৫.০"
+      },
+      {
+        "en": "3068.18",
+        "as": "৩০৬৮.১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: P(1 + r/400)^(4n) = 53068.18.",
+      "as": "The amount, using A = P(1 + R/100)^n: P(১ + r/৪০০)^(৪n) = ৫৩০৬৮.১৮।"
+    }
+  },
+  {
+    "id": "num-compound-interest-050",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 10000 if the rate is 10% for the first year and 20% for the second year.",
+      "as": "১০০০০ টকাৰ ওপৰত প্ৰথম বছৰ ১০% আৰু দ্বিতীয় বছৰ ২০% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "13225.0",
+        "as": "১৩২২৫.০"
+      },
+      {
+        "en": "3200.0",
+        "as": "৩২০০.০"
+      },
+      {
+        "en": "13200.0",
+        "as": "১৩২০০.০"
+      },
+      {
+        "en": "11000.0",
+        "as": "১১০০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: 10000(1+10/100)(1+20/100) = 13200.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: ১০০০০(১+১০/১০০)(১+২০/১০০) = ১৩২০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-051",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 20000 if the rate is 5% for the first year and 10% for the second year.",
+      "as": "২০০০০ টকাৰ ওপৰত প্ৰথম বছৰ ৫% আৰু দ্বিতীয় বছৰ ১০% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "23112.5",
+        "as": "২৩১১২.৫"
+      },
+      {
+        "en": "3100.0",
+        "as": "৩১০০.০"
+      },
+      {
+        "en": "21000.0",
+        "as": "২১০০০.০"
+      },
+      {
+        "en": "23100.0",
+        "as": "২৩১০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: 20000(1+5/100)(1+10/100) = 23100.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: ২০০০০(১+৫/১০০)(১+১০/১০০) = ২৩১০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-052",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 15000 if the rate is 8% for the first year and 12% for the second year.",
+      "as": "১৫০০০ টকাৰ ওপৰত প্ৰথম বছৰ ৮% আৰু দ্বিতীয় বছৰ ১২% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18150.0",
+        "as": "১৮১৫০.০"
+      },
+      {
+        "en": "3144.0",
+        "as": "৩১৪৪.০"
+      },
+      {
+        "en": "18144.0",
+        "as": "১৮১৪৪.০"
+      },
+      {
+        "en": "16200.0",
+        "as": "১৬২০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: 15000(1+8/100)(1+12/100) = 18144.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: ১৫০০০(১+৮/১০০)(১+১২/১০০) = ১৮১৪৪.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-053",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 25000 if the rate is 6% for the first year and 8% for the second year.",
+      "as": "২৫০০০ টকাৰ ওপৰত প্ৰথম বছৰ ৬% আৰু দ্বিতীয় বছৰ ৮% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28622.5",
+        "as": "২৮৬২২.৫"
+      },
+      {
+        "en": "28620.0",
+        "as": "২৮৬২০.০"
+      },
+      {
+        "en": "3620.0",
+        "as": "৩৬২০.০"
+      },
+      {
+        "en": "26500.0",
+        "as": "২৬৫০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: 25000(1+6/100)(1+8/100) = 28620.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: ২৫০০০(১+৬/১০০)(১+৮/১০০) = ২৮৬২০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-054",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 40000 if the rate is 12% for the first year and 5% for the second year.",
+      "as": "৪০০০০ টকাৰ ওপৰত প্ৰথম বছৰ ১২% আৰু দ্বিতীয় বছৰ ৫% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "47040.0",
+        "as": "৪৭০৪০.০"
+      },
+      {
+        "en": "47089.0",
+        "as": "৪৭০৮৯.০"
+      },
+      {
+        "en": "7040.0",
+        "as": "৭০৪০.০"
+      },
+      {
+        "en": "44800.0",
+        "as": "৪৪৮০০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The amount, using A = P(1 + R/100)^n: 40000(1+12/100)(1+5/100) = 47040.0.",
+      "as": "The amount, using A = P(1 + R/100)^n: ৪০০০০(১+১২/১০০)(১+৫/১০০) = ৪৭০৪০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-055",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 10% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ১০% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "5.13",
+        "as": "৫.১৩"
+      },
+      {
+        "en": "10.25",
+        "as": "১০.২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Effective rate = [(1 + 10/200)² - 1] × 100 = 10.25%.",
+      "as": "প্ৰকৃত হাৰ = ১০.২৫%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-056",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 12% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ১২% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "12.36",
+        "as": "১২.৩৬"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "6.18",
+        "as": "৬.১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Effective rate = [(1 + 12/200)² - 1] × 100 = 12.36%.",
+      "as": "প্ৰকৃত হাৰ = ১২.৩৬%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-057",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 8% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ৮% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.16",
+        "as": "৮.১৬"
+      },
+      {
+        "en": "4.08",
+        "as": "৪.০৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Effective rate = [(1 + 8/200)² - 1] × 100 = 8.16%.",
+      "as": "প্ৰকৃত হাৰ = ৮.১৬%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-058",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 15% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ১৫% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "7.78",
+        "as": "৭.৭৮"
+      },
+      {
+        "en": "15.56",
+        "as": "১৫.৫৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Effective rate = [(1 + 15/200)² - 1] × 100 = 15.56%.",
+      "as": "প্ৰকৃত হাৰ = ১৫.৫৬%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-059",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 20% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ২০% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21.0",
+        "as": "২১.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "10.5",
+        "as": "১০.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = [(1 + 20/200)² - 1] × 100 = 21.0%.",
+      "as": "প্ৰকৃত হাৰ = ২১.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-060",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 5% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ৫% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.06",
+        "as": "৫.০৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "2.53",
+        "as": "২.৫৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = [(1 + 5/200)² - 1] × 100 = 5.06%.",
+      "as": "প্ৰকৃত হাৰ = ৫.০৬%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-061",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 80000 depreciates at 10% per annum. Find its value after 2 years.",
+      "as": "৮০০০০ মূল্যৰ যন্ত্ৰ বছৰি ১০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "64000.0",
+        "as": "৬৪০০০.০"
+      },
+      {
+        "en": "64800.0",
+        "as": "৬৪৮০০.০"
+      },
+      {
+        "en": "15200.0",
+        "as": "১৫২০০.০"
+      },
+      {
+        "en": "32400.0",
+        "as": "৩২৪০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Value = 80000(1 - 10/100)^2 = 64800.0.",
+      "as": "মূল্য = ৬৪৮০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-062",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 125000 depreciates at 20% per annum. Find its value after 2 years.",
+      "as": "১২৫০০০ মূল্যৰ যন্ত্ৰ বছৰি ২০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75000.0",
+        "as": "৭৫০০০.০"
+      },
+      {
+        "en": "45000.0",
+        "as": "৪৫০০০.০"
+      },
+      {
+        "en": "80000.0",
+        "as": "৮০০০০.০"
+      },
+      {
+        "en": "40000.0",
+        "as": "৪০০০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value = 125000(1 - 20/100)^2 = 80000.0.",
+      "as": "মূল্য = ৮০০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-063",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 64000 depreciates at 25% per annum. Find its value after 2 years.",
+      "as": "৬৪০০০ মূল্যৰ যন্ত্ৰ বছৰি ২৫% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32000.0",
+        "as": "৩২০০০.০"
+      },
+      {
+        "en": "28000.0",
+        "as": "২৮০০০.০"
+      },
+      {
+        "en": "18000.0",
+        "as": "১৮০০০.০"
+      },
+      {
+        "en": "36000.0",
+        "as": "৩৬০০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Value = 64000(1 - 25/100)^2 = 36000.0.",
+      "as": "মূল্য = ৩৬০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-064",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 50000 depreciates at 8% per annum. Find its value after 2 years.",
+      "as": "৫০০০০ মূল্যৰ যন্ত্ৰ বছৰি ৮% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42000.0",
+        "as": "৪২০০০.০"
+      },
+      {
+        "en": "7680.0",
+        "as": "৭৬৮০.০"
+      },
+      {
+        "en": "42320.0",
+        "as": "৪২৩২০.০"
+      },
+      {
+        "en": "21160.0",
+        "as": "২১১৬০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value = 50000(1 - 8/100)^2 = 42320.0.",
+      "as": "মূল্য = ৪২৩২০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-065",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 30000 at 10% per annum for 2 years.",
+      "as": "৩০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6000.0",
+        "as": "৬০০০.০"
+      },
+      {
+        "en": "6300.0",
+        "as": "৬৩০০.০"
+      },
+      {
+        "en": "3150.0",
+        "as": "৩১৫০.০"
+      },
+      {
+        "en": "36300.0",
+        "as": "৩৬৩০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 30,000 × (1 + 10/100)^2 = 36,300. Compound interest = amount − principal = 36,300 − 30,000 = 6,300.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৩০,০০০ × (১ + ১০/১০০)^২ = ৩৬,৩০০। চক্ৰবৃদ্ধি সুত = ৬,৩০০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-066",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 45000 at 8% per annum for 2 years.",
+      "as": "৪৫০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7488.0",
+        "as": "৭৪৮৮.০"
+      },
+      {
+        "en": "7200.0",
+        "as": "৭২০০.০"
+      },
+      {
+        "en": "3744.0",
+        "as": "৩৭৪৪.০"
+      },
+      {
+        "en": "52488.0",
+        "as": "৫২৪৮৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 45,000 × (1 + 8/100)^2 = 52,488. Compound interest = amount − principal = 52,488 − 45,000 = 7,488.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৪৫,০০০ × (১ + ৮/১০০)^২ = ৫২,৪৮৮। চক্ৰবৃদ্ধি সুত = ৭,৪৮৮।"
+    }
+  },
+  {
+    "id": "num-compound-interest-067",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 60000 at 12% per annum for 2 years.",
+      "as": "৬০০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14400.0",
+        "as": "১৪৪০০.০"
+      },
+      {
+        "en": "7632.0",
+        "as": "৭৬৩২.০"
+      },
+      {
+        "en": "75264.0",
+        "as": "৭৫২৬৪.০"
+      },
+      {
+        "en": "15264.0",
+        "as": "১৫২৬৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 60,000 × (1 + 12/100)^2 = 75,264. Compound interest = amount − principal = 75,264 − 60,000 = 15,264.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৬০,০০০ × (১ + ১২/১০০)^২ = ৭৫,২৬৪। চক্ৰবৃদ্ধি সুত = ১৫,২৬৪।"
+    }
+  },
+  {
+    "id": "num-compound-interest-068",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 75000 at 5% per annum for 2 years.",
+      "as": "৭৫০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7500.0",
+        "as": "৭৫০০.০"
+      },
+      {
+        "en": "7687.5",
+        "as": "৭৬৮৭.৫"
+      },
+      {
+        "en": "3843.75",
+        "as": "৩৮৪৩.৭৫"
+      },
+      {
+        "en": "82687.5",
+        "as": "৮২৬৮৭.৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 75,000 × (1 + 5/100)^2 = 82,687.5. Compound interest = amount − principal = 82,687.5 − 75,000 = 7,687.5.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৭৫,০০০ × (১ + ৫/১০০)^২ = ৮২,৬৮৭.৫। চক্ৰবৃদ্ধি সুত = ৭,৬৮৭.৫।"
+    }
+  },
+  {
+    "id": "num-compound-interest-069",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 90000 at 15% per annum for 2 years.",
+      "as": "৯০০০০ টকাৰ ওপৰত বছৰি ১৫% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27000.0",
+        "as": "২৭০০০.০"
+      },
+      {
+        "en": "14512.5",
+        "as": "১৪৫১২.৫"
+      },
+      {
+        "en": "29025.0",
+        "as": "২৯০২৫.০"
+      },
+      {
+        "en": "119025.0",
+        "as": "১১৯০২৫.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 90,000 × (1 + 15/100)^2 = 119,025. Compound interest = amount − principal = 119,025 − 90,000 = 29,025.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৯০,০০০ × (১ + ১৫/১০০)^২ = ১১৯,০২৫। চক্ৰবৃদ্ধি সুত = ২৯,০২৫।"
+    }
+  },
+  {
+    "id": "num-compound-interest-070",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 30000 at 10% per annum for 2 years.",
+      "as": "৩০০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36000.0",
+        "as": "৩৬০০০.০"
+      },
+      {
+        "en": "6300.0",
+        "as": "৬৩০০.০"
+      },
+      {
+        "en": "66300.0",
+        "as": "৬৬৩০০.০"
+      },
+      {
+        "en": "36300.0",
+        "as": "৩৬৩০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 36,300.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৩৬,৩০০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-071",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 45000 at 8% per annum for 2 years.",
+      "as": "৪৫০০০ টকাৰ ওপৰত বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "52488.0",
+        "as": "৫২৪৮৮.০"
+      },
+      {
+        "en": "52200.0",
+        "as": "৫২২০০.০"
+      },
+      {
+        "en": "7488.0",
+        "as": "৭৪৮৮.০"
+      },
+      {
+        "en": "97488.0",
+        "as": "৯৭৪৮৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 52,488.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৫২,৪৮৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-072",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 60000 at 12% per annum for 2 years.",
+      "as": "৬০০০০ টকাৰ ওপৰত বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75264.0",
+        "as": "৭৫২৬৪.০"
+      },
+      {
+        "en": "74400.0",
+        "as": "৭৪৪০০.০"
+      },
+      {
+        "en": "15264.0",
+        "as": "১৫২৬৪.০"
+      },
+      {
+        "en": "135264.0",
+        "as": "১৩৫২৬৪.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 75,264.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৭৫,২৬৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-073",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 75000 at 6% per annum for 2 years.",
+      "as": "৭৫০০০ টকাৰ ওপৰত বছৰি ৬% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "84000.0",
+        "as": "৮৪০০০.০"
+      },
+      {
+        "en": "84270.0",
+        "as": "৮৪২৭০.০"
+      },
+      {
+        "en": "9270.0",
+        "as": "৯২৭০.০"
+      },
+      {
+        "en": "159270.0",
+        "as": "১৫৯২৭০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 84,270.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৮৪,২৭০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-074",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 16000 at 10% per annum for 2 years.",
+      "as": "১৬০০০ টকাৰ ওপৰত বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3200.0",
+        "as": "৩২০০.০"
+      },
+      {
+        "en": "1680.0",
+        "as": "১৬৮০.০"
+      },
+      {
+        "en": "3360.0",
+        "as": "৩৩৬০.০"
+      },
+      {
+        "en": "19360.0",
+        "as": "১৯৩৬০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 16,000 × (1 + 10/100)^2 = 19,360. Compound interest = amount − principal = 19,360 − 16,000 = 3,360.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ১৬,০০০ × (১ + ১০/১০০)^২ = ১৯,৩৬০। চক্ৰবৃদ্ধি সুত = ৩,৩৬০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-075",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 24000 at 8% per annum for 2 years.",
+      "as": "২৪০০০ টকাৰ ওপৰত বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3840.0",
+        "as": "৩৮৪০.০"
+      },
+      {
+        "en": "1996.8",
+        "as": "১৯৯৬.৮"
+      },
+      {
+        "en": "27993.6",
+        "as": "২৭৯৯৩.৬"
+      },
+      {
+        "en": "3993.6",
+        "as": "৩৯৯৩.৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 24,000 × (1 + 8/100)^2 = 27,993.6. Compound interest = amount − principal = 27,993.6 − 24,000 = 3,993.6.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ২৪,০০০ × (১ + ৮/১০০)^২ = ২৭,৯৯৩.৬। চক্ৰবৃদ্ধি সুত = ৩,৯৯৩.৬।"
+    }
+  },
+  {
+    "id": "num-compound-interest-076",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 36000 at 12% per annum for 2 years.",
+      "as": "৩৬০০০ টকাৰ ওপৰত বছৰি ১২% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8640.0",
+        "as": "৮৬৪০.০"
+      },
+      {
+        "en": "4579.2",
+        "as": "৪৫৭৯.২"
+      },
+      {
+        "en": "9158.4",
+        "as": "৯১৫৮.৪"
+      },
+      {
+        "en": "45158.4",
+        "as": "৪৫১৫৮.৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 36,000 × (1 + 12/100)^2 = 45,158.4. Compound interest = amount − principal = 45,158.4 − 36,000 = 9,158.4.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৩৬,০০০ × (১ + ১২/১০০)^২ = ৪৫,১৫৮.৪। চক্ৰবৃদ্ধি সুত = ৯,১৫৮.৪।"
+    }
+  },
+  {
+    "id": "num-compound-interest-077",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 48000 at 5% per annum for 3 years.",
+      "as": "৪৮০০০ টকাৰ ওপৰত বছৰি ৫% চক্ৰবৃদ্ধি হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7200.0",
+        "as": "৭২০০.০"
+      },
+      {
+        "en": "7566.0",
+        "as": "৭৫৬৬.০"
+      },
+      {
+        "en": "3783.0",
+        "as": "৩৭৮৩.০"
+      },
+      {
+        "en": "55566.0",
+        "as": "৫৫৫৬৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 48,000 × (1 + 5/100)^3 = 55,566. Compound interest = amount − principal = 55,566 − 48,000 = 7,566.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ৪৮,০০০ × (১ + ৫/১০০)^৩ = ৫৫,৫৬৬। চক্ৰবৃদ্ধি সুত = ৭,৫৬৬।"
+    }
+  },
+  {
+    "id": "num-compound-interest-078",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 10% per annum is 14641. Find the principal.",
+      "as": "বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ১৪৬৪১ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12100.0",
+        "as": "১২১০০.০"
+      },
+      {
+        "en": "2541.0",
+        "as": "২৫৪১.০"
+      },
+      {
+        "en": "6050.0",
+        "as": "৬০৫০.০"
+      },
+      {
+        "en": "12200.83",
+        "as": "১২২০০.৮৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the principal: it works out to 12,100.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মূলধন উলিয়ালে ১২,১০০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-079",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 8% per annum is 20736. Find the principal.",
+      "as": "বছৰি ৮% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ২০৭৩৬ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2958.22",
+        "as": "২৯৫৮.২২"
+      },
+      {
+        "en": "8888.89",
+        "as": "৮৮৮৮.৮৯"
+      },
+      {
+        "en": "17875.86",
+        "as": "১৭৮৭৫.৮৬"
+      },
+      {
+        "en": "17777.78",
+        "as": "১৭৭৭৭.৭৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the principal: it works out to 17,777.78.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মূলধন উলিয়ালে ১৭,৭৭৭.৭৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-080",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "The compound amount after 2 years at 10% per annum is 33880. Find the principal.",
+      "as": "বছৰি ১০% চক্ৰবৃদ্ধি হাৰে ২ বছৰৰ পিছত মুঠ ধন ৩৩৮৮০ হ'লে মূলধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5880.0",
+        "as": "৫৮৮০.০"
+      },
+      {
+        "en": "28000.0",
+        "as": "২৮০০০.০"
+      },
+      {
+        "en": "14000.0",
+        "as": "১৪০০০.০"
+      },
+      {
+        "en": "28233.33",
+        "as": "২৮২৩৩.৩৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the principal: it works out to 28,000.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মূলধন উলিয়ালে ২৮,০০০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-081",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 10000 amounts to 11025 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "১০০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ১১০২৫ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "5.12",
+        "as": "৫.১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "r = 5.0%.",
+      "as": "হাৰ = ৫.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-082",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 16000 amounts to 17640 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "১৬০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ১৭৬৪০ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.12",
+        "as": "৫.১২"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "r = 5.0%.",
+      "as": "হাৰ = ৫.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-083",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A sum of 40000 amounts to 44944 in 2 years at compound interest. Find the rate percent per annum.",
+      "as": "৪০০০০ টকা চক্ৰবৃদ্ধি সুতত ২ বছৰত ৪৪৯৪৪ হয়। বছৰি সুতৰ হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "6.18",
+        "as": "৬.১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "r = 6.0%.",
+      "as": "হাৰ = ৬.০%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-084",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 12000 at 10% per annum for 2 years.",
+      "as": "১২০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "1200.0",
+        "as": "১২০০.০"
+      },
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "240.0",
+        "as": "২৪০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "CI = 12,000 × (1 + 10/100)^2 − 12,000 = 2,520; SI = 12,000 × 10 × 2/100 = 2,400. Difference = 2,520 − 2,400 = 120.",
+      "as": "CI = ২,৫২০ আৰু SI = ২,৪০০; পাৰ্থক্য = ১২০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-085",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 18000 at 8% per annum for 2 years.",
+      "as": "১৮০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1440.0",
+        "as": "১৪৪০.০"
+      },
+      {
+        "en": "115.2",
+        "as": "১১৫.২"
+      },
+      {
+        "en": "57.6",
+        "as": "৫৭.৬"
+      },
+      {
+        "en": "230.4",
+        "as": "২৩০.৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "CI = 18,000 × (1 + 8/100)^2 − 18,000 = 2,995.2; SI = 18,000 × 8 × 2/100 = 2,880. Difference = 2,995.2 − 2,880 = 115.2.",
+      "as": "CI = ২,৯৯৫.২ আৰু SI = ২,৮৮০; পাৰ্থক্য = ১১৫.২।"
+    }
+  },
+  {
+    "id": "num-compound-interest-086",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 36000 at 5% per annum for 2 years.",
+      "as": "৩৬০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1800.0",
+        "as": "১৮০০.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "180.0",
+        "as": "১৮০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CI = 36,000 × (1 + 5/100)^2 − 36,000 = 3,690; SI = 36,000 × 5 × 2/100 = 3,600. Difference = 3,690 − 3,600 = 90.",
+      "as": "CI = ৩,৬৯০ আৰু SI = ৩,৬০০; পাৰ্থক্য = ৯০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-087",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 20000 at 10% per annum for 3 years.",
+      "as": "২০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "200.0",
+        "as": "২০০.০"
+      },
+      {
+        "en": "310.0",
+        "as": "৩১০.০"
+      },
+      {
+        "en": "1240.0",
+        "as": "১২৪০.০"
+      },
+      {
+        "en": "620.0",
+        "as": "৬২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "CI = 20,000 × (1 + 10/100)^3 − 20,000 = 6,620; SI = 20,000 × 10 × 3/100 = 6,000. Difference = 6,620 − 6,000 = 620.",
+      "as": "CI = ৬,৬২০ আৰু SI = ৬,০০০; পাৰ্থক্য = ৬২০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-088",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the difference between compound interest and simple interest on 30000 at 5% per annum for 3 years.",
+      "as": "৩০০০০ টকাৰ ওপৰত বছৰি ৫% হাৰে ৩ বছৰৰ চক্ৰবৃদ্ধি আৰু সৰল সুতৰ পাৰ্থক্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "75.0",
+        "as": "৭৫.০"
+      },
+      {
+        "en": "114.38",
+        "as": "১১৪.৩৮"
+      },
+      {
+        "en": "228.75",
+        "as": "২২৮.৭৫"
+      },
+      {
+        "en": "457.5",
+        "as": "৪৫৭.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "CI = 30,000 × (1 + 5/100)^3 − 30,000 = 4,728.75; SI = 30,000 × 5 × 3/100 = 4,500. Difference = 4,728.75 − 4,500 = 228.75.",
+      "as": "CI = ৪,৭২৮.৭৫ আৰু SI = ৪,৫০০; পাৰ্থক্য = ২২৮.৭৫।"
+    }
+  },
+  {
+    "id": "num-compound-interest-089",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 10000 at 10% per annum compounded half-yearly for 2 year(s).",
+      "as": "১০০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ২ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12100.0",
+        "as": "১২১০০.০"
+      },
+      {
+        "en": "12155.06",
+        "as": "১২১৫৫.০৬"
+      },
+      {
+        "en": "2155.06",
+        "as": "২১৫৫.০৬"
+      },
+      {
+        "en": "22155.06",
+        "as": "২২১৫৫.০৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 12,155.06.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ১২,১৫৫.০৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-090",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 32000 at 8% per annum compounded half-yearly for 1 year(s).",
+      "as": "৩২০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "34611.2",
+        "as": "৩৪৬১১.২"
+      },
+      {
+        "en": "34560.0",
+        "as": "৩৪৫৬০.০"
+      },
+      {
+        "en": "2611.2",
+        "as": "২৬১১.২"
+      },
+      {
+        "en": "66611.2",
+        "as": "৬৬৬১১.২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 34,611.2.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৩৪,৬১১.২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-091",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 64000 at 10% per annum compounded quarterly for 1 year(s).",
+      "as": "৬৪০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "70400.0",
+        "as": "৭০৪০০.০"
+      },
+      {
+        "en": "70560.0",
+        "as": "৭০৫৬০.০"
+      },
+      {
+        "en": "6644.02",
+        "as": "৬৬৪৪.০২"
+      },
+      {
+        "en": "70644.02",
+        "as": "৭০৬৪৪.০২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 70,644.02.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৭০,৬৪৪.০২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-092",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 81000 at 8% per annum compounded quarterly for 1 year(s).",
+      "as": "৮১০০০ টকাৰ ওপৰত বছৰি ৮% হাৰে ত্ৰৈমাসিক চক্ৰবৃদ্ধিত ১ বছৰৰ মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "87480.0",
+        "as": "৮৭৪৮০.০"
+      },
+      {
+        "en": "87677.0",
+        "as": "৮৭৬৭৭.০"
+      },
+      {
+        "en": "87609.6",
+        "as": "৮৭৬০৯.৬"
+      },
+      {
+        "en": "6677.0",
+        "as": "৬৬৭৭.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 87,677.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ৮৭,৬৭৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-093",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 12000 if the rate is 10% for the first year and 15% for the second year.",
+      "as": "১২০০০ টকাৰ ওপৰত প্ৰথম বছৰ ১০% আৰু দ্বিতীয় বছৰ ১৫% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15187.5",
+        "as": "১৫১৮৭.৫"
+      },
+      {
+        "en": "3180.0",
+        "as": "৩১৮০.০"
+      },
+      {
+        "en": "15180.0",
+        "as": "১৫১৮০.০"
+      },
+      {
+        "en": "13200.0",
+        "as": "১৩২০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 15,180.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ১৫,১৮০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-094",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound amount on 20000 if the rate is 8% for the first year and 10% for the second year.",
+      "as": "২০০০০ টকাৰ ওপৰত প্ৰথম বছৰ ৮% আৰু দ্বিতীয় বছৰ ১০% হাৰ হ'লে মুঠ ধন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "23762.0",
+        "as": "২৩৭৬২.০"
+      },
+      {
+        "en": "3760.0",
+        "as": "৩৭৬০.০"
+      },
+      {
+        "en": "21600.0",
+        "as": "২১৬০০.০"
+      },
+      {
+        "en": "23760.0",
+        "as": "২৩৭৬০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Use the compound interest relation A = P(1 + R/100)^n and solve for the amount: it works out to 23,760.",
+      "as": "চক্ৰবৃদ্ধি সুতৰ সম্পৰ্ক A = P(1 + R/100)^n ব্যৱহাৰ কৰি মুঠ ধন উলিয়ালে ২৩,৭৬০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-compound-interest-095",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 6% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ৬% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.09",
+        "as": "৬.০৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "3.04",
+        "as": "৩.০৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = 6.09%.",
+      "as": "প্ৰকৃত হাৰ = ৬.০৯%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-096",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the effective annual rate of interest if the nominal rate is 25% per annum compounded half-yearly.",
+      "as": "বাৰ্ষিক নামমাত্ৰ হাৰ ২৫% আৰু অৰ্ধবাৰ্ষিক চক্ৰবৃদ্ধি হ'লে প্ৰকৃত বাৰ্ষিক হাৰ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26.56",
+        "as": "২৬.৫৬"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "13.28",
+        "as": "১৩.২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Effective rate = 26.56%.",
+      "as": "প্ৰকৃত হাৰ = ২৬.৫৬%।"
+    }
+  },
+  {
+    "id": "num-compound-interest-097",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 100000 depreciates at 10% per annum. Find its value after 2 years.",
+      "as": "১০০০০০ মূল্যৰ যন্ত্ৰ বছৰি ১০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "80000.0",
+        "as": "৮০০০০.০"
+      },
+      {
+        "en": "81000.0",
+        "as": "৮১০০০.০"
+      },
+      {
+        "en": "19000.0",
+        "as": "১৯০০০.০"
+      },
+      {
+        "en": "40500.0",
+        "as": "৪০৫০০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Value = 81000.0.",
+      "as": "মূল্য = ৮১০০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-098",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "A machine worth 80000 depreciates at 20% per annum. Find its value after 2 years.",
+      "as": "৮০০০০ মূল্যৰ যন্ত্ৰ বছৰি ২০% হাৰে অৱমূল্যন হয়। ২ বছৰৰ পিছত মূল্য নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "48000.0",
+        "as": "৪৮০০০.০"
+      },
+      {
+        "en": "28800.0",
+        "as": "২৮৮০০.০"
+      },
+      {
+        "en": "51200.0",
+        "as": "৫১২০০.০"
+      },
+      {
+        "en": "25600.0",
+        "as": "২৫৬০০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Value = 51200.0.",
+      "as": "মূল্য = ৫১২০০.০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-099",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 15000 at 10% per annum for 2 years.",
+      "as": "১৫০০০ টকাৰ ওপৰত বছৰি ১০% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3000.0",
+        "as": "৩০০০.০"
+      },
+      {
+        "en": "1575.0",
+        "as": "১৫৭৫.০"
+      },
+      {
+        "en": "18150.0",
+        "as": "১৮১৫০.০"
+      },
+      {
+        "en": "3150.0",
+        "as": "৩১৫০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 15,000 × (1 + 10/100)^2 = 18,150. Compound interest = amount − principal = 18,150 − 15,000 = 3,150.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ১৫,০০০ × (১ + ১০/১০০)^২ = ১৮,১৫০। চক্ৰবৃদ্ধি সুত = ৩,১৫০।"
+    }
+  },
+  {
+    "id": "num-compound-interest-100",
+    "leaf": "compound-interest",
+    "q": {
+      "en": "Find the compound interest on 24000 at 12% per annum for 2 years.",
+      "as": "২৪০০০ টকাৰ ওপৰত বছৰি ১২% হাৰে ২ বছৰৰ চক্ৰবৃদ্ধি সুত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5760.0",
+        "as": "৫৭৬০.০"
+      },
+      {
+        "en": "3052.8",
+        "as": "৩০৫২.৮"
+      },
+      {
+        "en": "6105.6",
+        "as": "৬১০৫.৬"
+      },
+      {
+        "en": "30105.6",
+        "as": "৩০১০৫.৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Amount = P(1 + R/100)^n = 24,000 × (1 + 12/100)^2 = 30,105.6. Compound interest = amount − principal = 30,105.6 − 24,000 = 6,105.6.",
+      "as": "মুঠ ধন = P(১ + R/১০০)^n = ২৪,০০০ × (১ + ১২/১০০)^২ = ৩০,১০৫.৬। চক্ৰবৃদ্ধি সুত = ৬,১০৫.৬।"
+    }
+  }
+]

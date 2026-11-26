@@ -1,0 +1,2883 @@
+[
+  {
+    "id": "numerical-045",
+    "q": {
+      "en": "The volume of a cylinder of radius 7 cm and height 10 cm is (take π = 22/7)",
+      "as": "৭ ছে.মি. ব্যাসাৰ্ধ আৰু ১০ ছে.মি. উচ্চতাৰ চুঙাৰ আয়তন কিমান (π = ২২/৭ ল'ব)"
+    },
+    "options": [
+      {
+        "en": "1540 cm³",
+        "as": "১৫৪০ ঘন ছে.মি."
+      },
+      {
+        "en": "1540 cm²",
+        "as": "১৫৪০ বৰ্গ ছে.মি."
+      },
+      {
+        "en": "440 cm³",
+        "as": "৪৪০ ঘন ছে.মি."
+      },
+      {
+        "en": "770 cm³",
+        "as": "৭৭০ ঘন ছে.মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = πr²h = (22/7) × 49 × 10 = 22 × 7 × 10 = 1540 cm³.",
+      "as": "আয়তন = πr²h = (২২/৭) × ৪৯ × ১০ = ২২ × ৭ × ১০ = ১৫৪০ ঘন ছে.মি।"
+    }
+  },
+  {
+    "id": "numerical-046",
+    "q": {
+      "en": "The total surface area of a cube of side 5 cm is",
+      "as": "৫ ছে.মি. বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি কিমান"
+    },
+    "options": [
+      {
+        "en": "150 cm²",
+        "as": "১৫০ বৰ্গ ছে.মি."
+      },
+      {
+        "en": "125 cm²",
+        "as": "১২৫ বৰ্গ ছে.মি."
+      },
+      {
+        "en": "100 cm²",
+        "as": "১০০ বৰ্গ ছে.মি."
+      },
+      {
+        "en": "25 cm²",
+        "as": "২৫ বৰ্গ ছে.মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A cube has six equal square faces, so total surface area = 6a² = 6 × 25 = 150 cm². Note 125 cm³ is its volume, not its area.",
+      "as": "ঘনকৰ ছয়োটা সমান বৰ্গমুখ থাকে, সেয়ে মুঠ পৃষ্ঠকালি = ৬a² = ৬ × ২৫ = ১৫০ বৰ্গ ছে.মি.। মন কৰক ১২৫ ঘন ছে.মি. হ'ল আয়তন, কালি নহয়।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-001",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 4 cm.",
+      "as": "৪ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cube = a³ = 4³ = 64 cm³.",
+      "as": "ঘনকৰ আয়তন = a³ = ৬৪ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-002",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 4 cm.",
+      "as": "৪ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total surface area of a cube = 6a² = 6 × 4² = 96 cm².",
+      "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6a² = ৯৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-003",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 6 cm.",
+      "as": "৬ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cube = a³ = 6³ = 216 cm³.",
+      "as": "ঘনকৰ আয়তন = a³ = ২১৬ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-004",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 6 cm.",
+      "as": "৬ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "217",
+        "as": "২১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total surface area of a cube = 6a² = 6 × 6² = 216 cm².",
+      "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6a² = ২১৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-005",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 9 cm.",
+      "as": "৯ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "486",
+        "as": "৪৮৬"
+      },
+      {
+        "en": "729",
+        "as": "৭২৯"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cube = a³ = 9³ = 729 cm³.",
+      "as": "ঘনকৰ আয়তন = a³ = ৭২৯ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-006",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 9 cm.",
+      "as": "৯ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "486",
+        "as": "৪৮৬"
+      },
+      {
+        "en": "729",
+        "as": "৭২৯"
+      },
+      {
+        "en": "324",
+        "as": "৩২৪"
+      },
+      {
+        "en": "81",
+        "as": "৮১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total surface area of a cube = 6a² = 6 × 9² = 486 cm².",
+      "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6a² = ৪৮৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-007",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 12 cm.",
+      "as": "১২ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "1728",
+        "as": "১৭২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cube = a³ = 12³ = 1728 cm³.",
+      "as": "ঘনকৰ আয়তন = a³ = ১৭২৮ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-008",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 12 cm.",
+      "as": "১২ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1728",
+        "as": "১৭২৮"
+      },
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "576",
+        "as": "৫৭৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total surface area of a cube = 6a² = 6 × 12² = 864 cm².",
+      "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6a² = ৮৬৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-009",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 15 cm.",
+      "as": "১৫ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1350",
+        "as": "১৩৫০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "3375",
+        "as": "৩৩৭৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a cube = a³ = 15³ = 3375 cm³.",
+      "as": "ঘনকৰ আয়তন = a³ = ৩৩৭৫ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-010",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 15 cm.",
+      "as": "১৫ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3375",
+        "as": "৩৩৭৫"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      },
+      {
+        "en": "1350",
+        "as": "১৩৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total surface area of a cube = 6a² = 6 × 15² = 1350 cm².",
+      "as": "ঘনকৰ মুঠ পৃষ্ঠকালি = 6a² = ১৩৫০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-011",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 12 cm × 9 cm × 8 cm.",
+      "as": "১২ × ৯ × ৮ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "552",
+        "as": "৫৫২"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "432",
+        "as": "৪৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a cuboid = l × b × h = 12 × 9 × 8 = 864 cm³.",
+      "as": "ঘনাবয়ৰ আয়তন = ৮৬৪ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-012",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cuboid of dimensions 12 cm × 9 cm × 8 cm.",
+      "as": "১২ × ৯ × ৮ ছেমি মাপৰ ঘনাবয়ৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "552",
+        "as": "৫৫২"
+      },
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "276",
+        "as": "২৭৬"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total surface area = 2(lb + bh + hl) = 2(108+72+96) = 552 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ৫৫২ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-013",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 15 cm × 10 cm × 6 cm.",
+      "as": "১৫ × ১০ × ৬ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "450",
+        "as": "৪৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cuboid = l × b × h = 15 × 10 × 6 = 900 cm³.",
+      "as": "ঘনাবয়ৰ আয়তন = ৯০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-014",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cuboid of dimensions 15 cm × 10 cm × 6 cm.",
+      "as": "১৫ × ১০ × ৬ ছেমি মাপৰ ঘনাবয়ৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "900",
+        "as": "৯০০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total surface area = 2(lb + bh + hl) = 2(150+60+90) = 600 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ৬০০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-015",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 20 cm × 12 cm × 10 cm.",
+      "as": "২০ × ১২ × ১০ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1120",
+        "as": "১১২০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      },
+      {
+        "en": "2400",
+        "as": "২৪০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cuboid = l × b × h = 20 × 12 × 10 = 2400 cm³.",
+      "as": "ঘনাবয়ৰ আয়তন = ২৪০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-016",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cuboid of dimensions 20 cm × 12 cm × 10 cm.",
+      "as": "২০ × ১২ × ১০ ছেমি মাপৰ ঘনাবয়ৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2400",
+        "as": "২৪০০"
+      },
+      {
+        "en": "560",
+        "as": "৫৬০"
+      },
+      {
+        "en": "1120",
+        "as": "১১২০"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total surface area = 2(lb + bh + hl) = 2(240+120+200) = 1120 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ১১২০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-017",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 18 cm × 14 cm × 5 cm.",
+      "as": "১৮ × ১৪ × ৫ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "824",
+        "as": "৮২৪"
+      },
+      {
+        "en": "1260",
+        "as": "১২৬০"
+      },
+      {
+        "en": "322",
+        "as": "৩২২"
+      },
+      {
+        "en": "630",
+        "as": "৬৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cuboid = l × b × h = 18 × 14 × 5 = 1260 cm³.",
+      "as": "ঘনাবয়ৰ আয়তন = ১২৬০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-018",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cuboid of dimensions 18 cm × 14 cm × 5 cm.",
+      "as": "১৮ × ১৪ × ৫ ছেমি মাপৰ ঘনাবয়ৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "824",
+        "as": "৮২৪"
+      },
+      {
+        "en": "1260",
+        "as": "১২৬০"
+      },
+      {
+        "en": "412",
+        "as": "৪১২"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total surface area = 2(lb + bh + hl) = 2(252+70+90) = 824 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ৮২৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-019",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 7 cm and height 10 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ১০ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "440",
+        "as": "৪৪০"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      },
+      {
+        "en": "1540",
+        "as": "১৫৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cylinder = πr²h = (22/7) × 7² × 10 = 1540 cm³.",
+      "as": "চুঙাৰ আয়তন = ১৫৪০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-020",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cylinder of radius 7 cm and height 10 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ১০ ছেমি উচ্চতাৰ চুঙাৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1540",
+        "as": "১৫৪০"
+      },
+      {
+        "en": "440",
+        "as": "৪৪০"
+      },
+      {
+        "en": "748",
+        "as": "৭৪৮"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × 10 = 440 cm².",
+      "as": "বক্ৰ পৃষ্ঠকালি = ৪৪০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-021",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 14 cm and height 15 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধ আৰু ১৫ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1320",
+        "as": "১৩২০"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "9240",
+        "as": "৯২৪০"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a cylinder = πr²h = (22/7) × 14² × 15 = 9240 cm³.",
+      "as": "চুঙাৰ আয়তন = ৯২৪০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-022",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cylinder of radius 14 cm and height 15 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধ আৰু ১৫ ছেমি উচ্চতাৰ চুঙাৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "9240",
+        "as": "৯২৪০"
+      },
+      {
+        "en": "2552",
+        "as": "২৫৫২"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "1320",
+        "as": "১৩২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Curved surface area = 2πrh = 2 × (22/7) × 14 × 15 = 1320 cm².",
+      "as": "বক্ৰ পৃষ্ঠকালি = ১৩২০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-023",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 21 cm and height 20 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ২০ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "27720",
+        "as": "২৭৭২০"
+      },
+      {
+        "en": "2640",
+        "as": "২৬৪০"
+      },
+      {
+        "en": "1320",
+        "as": "১৩২০"
+      },
+      {
+        "en": "1386",
+        "as": "১৩৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a cylinder = πr²h = (22/7) × 21² × 20 = 27720 cm³.",
+      "as": "চুঙাৰ আয়তন = ২৭৭২০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-024",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cylinder of radius 21 cm and height 20 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ২০ ছেমি উচ্চতাৰ চুঙাৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "2640",
+        "as": "২৬৪০"
+      },
+      {
+        "en": "27720",
+        "as": "২৭৭২০"
+      },
+      {
+        "en": "5412",
+        "as": "৫৪১২"
+      },
+      {
+        "en": "1320",
+        "as": "১৩২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Curved surface area = 2πrh = 2 × (22/7) × 21 × 20 = 2640 cm².",
+      "as": "বক্ৰ পৃষ্ঠকালি = ২৬৪০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-025",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 7 cm and height 24 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ২৪ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1056",
+        "as": "১০৫৬"
+      },
+      {
+        "en": "3696",
+        "as": "৩৬৯৬"
+      },
+      {
+        "en": "528",
+        "as": "৫২৮"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cylinder = πr²h = (22/7) × 7² × 24 = 3696 cm³.",
+      "as": "চুঙাৰ আয়তন = ৩৬৯৬ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-026",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cylinder of radius 7 cm and height 24 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ২৪ ছেমি উচ্চতাৰ চুঙাৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "3696",
+        "as": "৩৬৯৬"
+      },
+      {
+        "en": "1364",
+        "as": "১৩৬৪"
+      },
+      {
+        "en": "1056",
+        "as": "১০৫৬"
+      },
+      {
+        "en": "528",
+        "as": "৫২৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Curved surface area = 2πrh = 2 × (22/7) × 7 × 24 = 1056 cm².",
+      "as": "বক্ৰ পৃষ্ঠকালি = ১০৫৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-027",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cone of radius 7 cm and height 24 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ২৪ ছেমি উচ্চতাৰ শংকুৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "3696",
+        "as": "৩৬৯৬"
+      },
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "1056",
+        "as": "১০৫৬"
+      },
+      {
+        "en": "1232",
+        "as": "১২৩২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cone = ⅓πr²h = ⅓ × (22/7) × 7² × 24 = 1232 cm³.",
+      "as": "শংকুৰ আয়তন = ১২৩২ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-028",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cone of radius 7 cm and slant height 25 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ২৫ ছেমি নতি উচ্চতাৰ শংকুৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "154",
+        "as": "১৫৪"
+      },
+      {
+        "en": "1100",
+        "as": "১১০০"
+      },
+      {
+        "en": "550",
+        "as": "৫৫০"
+      },
+      {
+        "en": "275",
+        "as": "২৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Curved surface area of a cone = πrl = (22/7) × 7 × 25 = 550 cm².",
+      "as": "শংকুৰ বক্ৰ পৃষ্ঠকালি = ৫৫০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-029",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cone of radius 14 cm and height 48 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধ আৰু ৪৮ ছেমি উচ্চতাৰ শংকুৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "29568",
+        "as": "২৯৫৬৮"
+      },
+      {
+        "en": "9856",
+        "as": "৯৮৫৬"
+      },
+      {
+        "en": "2200",
+        "as": "২২০০"
+      },
+      {
+        "en": "4224",
+        "as": "৪২২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a cone = ⅓πr²h = ⅓ × (22/7) × 14² × 48 = 9856 cm³.",
+      "as": "শংকুৰ আয়তন = ৯৮৫৬ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-030",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cone of radius 14 cm and slant height 50 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধ আৰু ৫০ ছেমি নতি উচ্চতাৰ শংকুৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "2200",
+        "as": "২২০০"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "4400",
+        "as": "৪৪০০"
+      },
+      {
+        "en": "1100",
+        "as": "১১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Curved surface area of a cone = πrl = (22/7) × 14 × 50 = 2200 cm².",
+      "as": "শংকুৰ বক্ৰ পৃষ্ঠকালি = ২২০০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-031",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cone of radius 21 cm and height 28 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ২৮ ছেমি উচ্চতাৰ শংকুৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "38808",
+        "as": "৩৮৮০৮"
+      },
+      {
+        "en": "2310",
+        "as": "২৩১০"
+      },
+      {
+        "en": "3696",
+        "as": "৩৬৯৬"
+      },
+      {
+        "en": "12936",
+        "as": "১২৯৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a cone = ⅓πr²h = ⅓ × (22/7) × 21² × 28 = 12936 cm³.",
+      "as": "শংকুৰ আয়তন = ১২৯৩৬ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-032",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cone of radius 21 cm and slant height 35 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ৩৫ ছেমি নতি উচ্চতাৰ শংকুৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1386",
+        "as": "১৩৮৬"
+      },
+      {
+        "en": "2310",
+        "as": "২৩১০"
+      },
+      {
+        "en": "4620",
+        "as": "৪৬২০"
+      },
+      {
+        "en": "1155",
+        "as": "১১৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Curved surface area of a cone = πrl = (22/7) × 21 × 35 = 2310 cm².",
+      "as": "শংকুৰ বক্ৰ পৃষ্ঠকালি = ২৩১০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-033",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cone of radius 9 cm and height 12 cm. (π = 22/7)",
+      "as": "৯ ছেমি ব্যাসাৰ্ধ আৰু ১২ ছেমি উচ্চতাৰ শংকুৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "3054",
+        "as": "৩০৫৪"
+      },
+      {
+        "en": "424",
+        "as": "৪২৪"
+      },
+      {
+        "en": "1018",
+        "as": "১০১৮"
+      },
+      {
+        "en": "678",
+        "as": "৬৭৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a cone = ⅓πr²h = ⅓ × (22/7) × 9² × 12 = 1018 cm³.",
+      "as": "শংকুৰ আয়তন = ১০১৮ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-034",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the curved surface area of a cone of radius 9 cm and slant height 15 cm. (π = 22/7)",
+      "as": "৯ ছেমি ব্যাসাৰ্ধ আৰু ১৫ ছেমি নতি উচ্চতাৰ শংকুৰ বক্ৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "254",
+        "as": "২৫৪"
+      },
+      {
+        "en": "848",
+        "as": "৮৪৮"
+      },
+      {
+        "en": "212",
+        "as": "২১২"
+      },
+      {
+        "en": "424",
+        "as": "৪২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Curved surface area of a cone = πrl = (22/7) × 9 × 15 = 424 cm².",
+      "as": "শংকুৰ বক্ৰ পৃষ্ঠকালি = ৪২৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-035",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the surface area of a sphere of radius 7 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      },
+      {
+        "en": "308",
+        "as": "৩০৮"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Surface area of a sphere = 4πr² = 4 × (22/7) × 7² = 616 cm².",
+      "as": "গোলকৰ পৃষ্ঠকালি = ৬১৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-036",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a sphere of radius 7 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধৰ গোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1437.33",
+        "as": "১৪৩৭.৩৩"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "718.67",
+        "as": "৭১৮.৬৭"
+      },
+      {
+        "en": "1078",
+        "as": "১০৭৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a sphere = (4/3)πr³ = (4/3) × (22/7) × 7³ = 1437.33 cm³.",
+      "as": "গোলকৰ আয়তন = ১৪৩৭.৩৩ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-037",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the surface area of a sphere of radius 14 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "2464",
+        "as": "২৪৬৪"
+      },
+      {
+        "en": "1232",
+        "as": "১২৩২"
+      },
+      {
+        "en": "176",
+        "as": "১৭৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Surface area of a sphere = 4πr² = 4 × (22/7) × 14² = 2464 cm².",
+      "as": "গোলকৰ পৃষ্ঠকালি = ২৪৬৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-038",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a sphere of radius 14 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধৰ গোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "2464",
+        "as": "২৪৬৪"
+      },
+      {
+        "en": "5749.33",
+        "as": "৫৭৪৯.৩৩"
+      },
+      {
+        "en": "11498.67",
+        "as": "১১৪৯৮.৬৭"
+      },
+      {
+        "en": "8624",
+        "as": "৮৬২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a sphere = (4/3)πr³ = (4/3) × (22/7) × 14³ = 11498.67 cm³.",
+      "as": "গোলকৰ আয়তন = ১১৪৯৮.৬৭ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-039",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the surface area of a sphere of radius 21 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1386",
+        "as": "১৩৮৬"
+      },
+      {
+        "en": "2772",
+        "as": "২৭৭২"
+      },
+      {
+        "en": "264",
+        "as": "২৬৪"
+      },
+      {
+        "en": "5544",
+        "as": "৫৫৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Surface area of a sphere = 4πr² = 4 × (22/7) × 21² = 5544 cm².",
+      "as": "গোলকৰ পৃষ্ঠকালি = ৫৫৪৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-040",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a sphere of radius 21 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ গোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "5544",
+        "as": "৫৫৪৪"
+      },
+      {
+        "en": "19404.0",
+        "as": "১৯৪০৪.০"
+      },
+      {
+        "en": "38808.0",
+        "as": "৩৮৮০৮.০"
+      },
+      {
+        "en": "29106",
+        "as": "২৯১০৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume of a sphere = (4/3)πr³ = (4/3) × (22/7) × 21³ = 38808.0 cm³.",
+      "as": "গোলকৰ আয়তন = ৩৮৮০৮.০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-041",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the surface area of a sphere of radius 42 cm. (π = 22/7)",
+      "as": "৪২ ছেমি ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "5544",
+        "as": "৫৫৪৪"
+      },
+      {
+        "en": "22176",
+        "as": "২২১৭৬"
+      },
+      {
+        "en": "11088",
+        "as": "১১০৮৮"
+      },
+      {
+        "en": "528",
+        "as": "৫২৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Surface area of a sphere = 4πr² = 4 × (22/7) × 42² = 22176 cm².",
+      "as": "গোলকৰ পৃষ্ঠকালি = ২২১৭৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-042",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a sphere of radius 42 cm. (π = 22/7)",
+      "as": "৪২ ছেমি ব্যাসাৰ্ধৰ গোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "310464.0",
+        "as": "৩১০৪৬৪.০"
+      },
+      {
+        "en": "22176",
+        "as": "২২১৭৬"
+      },
+      {
+        "en": "155232.0",
+        "as": "১৫৫২৩২.০"
+      },
+      {
+        "en": "232848",
+        "as": "২৩২৮৪৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a sphere = (4/3)πr³ = (4/3) × (22/7) × 42³ = 310464.0 cm³.",
+      "as": "গোলকৰ আয়তন = ৩১০৪৬৪.০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-043",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a hemisphere of radius 7 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "308",
+        "as": "৩০৮"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      },
+      {
+        "en": "462",
+        "as": "৪৬২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total surface area of a hemisphere = 3πr² = 3 × (22/7) × 7² = 462 cm².",
+      "as": "অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি = ৪৬২ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-044",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a hemisphere of radius 7 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1437.33",
+        "as": "১৪৩৭.৩৩"
+      },
+      {
+        "en": "718.67",
+        "as": "৭১৮.৬৭"
+      },
+      {
+        "en": "462",
+        "as": "৪৬২"
+      },
+      {
+        "en": "1078.0",
+        "as": "১০৭৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume of a hemisphere = (2/3)πr³ = (2/3) × (22/7) × 7³ = 718.67 cm³.",
+      "as": "অৰ্ধগোলকৰ আয়তন = ৭১৮.৬৭ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-045",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a hemisphere of radius 14 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "1232",
+        "as": "১২৩২"
+      },
+      {
+        "en": "2464",
+        "as": "২৪৬৪"
+      },
+      {
+        "en": "1848",
+        "as": "১৮৪৮"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total surface area of a hemisphere = 3πr² = 3 × (22/7) × 14² = 1848 cm².",
+      "as": "অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি = ১৮৪৮ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-046",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a hemisphere of radius 14 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "11498.67",
+        "as": "১১৪৯৮.৬৭"
+      },
+      {
+        "en": "1848",
+        "as": "১৮৪৮"
+      },
+      {
+        "en": "8624.0",
+        "as": "৮৬২৪.০"
+      },
+      {
+        "en": "5749.33",
+        "as": "৫৭৪৯.৩৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume of a hemisphere = (2/3)πr³ = (2/3) × (22/7) × 14³ = 5749.33 cm³.",
+      "as": "অৰ্ধগোলকৰ আয়তন = ৫৭৪৯.৩৩ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-047",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a hemisphere of radius 21 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "4158",
+        "as": "৪১৫৮"
+      },
+      {
+        "en": "2772",
+        "as": "২৭৭২"
+      },
+      {
+        "en": "5544",
+        "as": "৫৫৪৪"
+      },
+      {
+        "en": "1386",
+        "as": "১৩৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total surface area of a hemisphere = 3πr² = 3 × (22/7) × 21² = 4158 cm².",
+      "as": "অৰ্ধগোলকৰ মুঠ পৃষ্ঠকালি = ৪১৫৮ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-048",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a hemisphere of radius 21 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ অৰ্ধগোলকৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "19404.0",
+        "as": "১৯৪০৪.০"
+      },
+      {
+        "en": "38808.0",
+        "as": "৩৮৮০৮.০"
+      },
+      {
+        "en": "4158",
+        "as": "৪১৫৮"
+      },
+      {
+        "en": "29106.0",
+        "as": "২৯১০৬.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume of a hemisphere = (2/3)πr³ = (2/3) × (22/7) × 21³ = 19404.0 cm³.",
+      "as": "অৰ্ধগোলকৰ আয়তন = ১৯৪০৪.০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-049",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 8 cm and height 6 cm, and whose length is 10 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ৮ ছেমি, উচ্চতা ৬ ছেমি আৰু দীঘ ১০ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Base area = ½ × 8 × 6 = 24 cm². Volume = base area × length = 24 × 10 = 240 cm³.",
+      "as": "ভূমিৰ কালি = ২৪; আয়তন = ২৪০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-050",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 12 cm and height 9 cm, and whose length is 15 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ১২ ছেমি, উচ্চতা ৯ ছেমি আৰু দীঘ ১৫ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1620",
+        "as": "১৬২০"
+      },
+      {
+        "en": "405",
+        "as": "৪০৫"
+      },
+      {
+        "en": "810",
+        "as": "৮১০"
+      },
+      {
+        "en": "315",
+        "as": "৩১৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Base area = ½ × 12 × 9 = 54 cm². Volume = base area × length = 54 × 15 = 810 cm³.",
+      "as": "ভূমিৰ কালি = ৫৪; আয়তন = ৮১০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-051",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 10 cm and height 8 cm, and whose length is 20 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ১০ ছেমি, উচ্চতা ৮ ছেমি আৰু দীঘ ২০ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1600",
+        "as": "১৬০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "800",
+        "as": "৮০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Base area = ½ × 10 × 8 = 40 cm². Volume = base area × length = 40 × 20 = 800 cm³.",
+      "as": "ভূমিৰ কালি = ৪০; আয়তন = ৮০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-052",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 16 cm and height 12 cm, and whose length is 25 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ১৬ ছেমি, উচ্চতা ১২ ছেমি আৰু দীঘ ২৫ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4800",
+        "as": "৪৮০০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      },
+      {
+        "en": "2400",
+        "as": "২৪০০"
+      },
+      {
+        "en": "700",
+        "as": "৭০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Base area = ½ × 16 × 12 = 96 cm². Volume = base area × length = 96 × 25 = 2400 cm³.",
+      "as": "ভূমিৰ কালি = ৯৬; আয়তন = ২৪০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-053",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 6 cm and height 10 cm.",
+      "as": "ভূমিৰ বাহু ৬ ছেমি আৰু উচ্চতা ১০ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Base area = 6² = 36 cm². Volume = ⅓ × base area × height = ⅓ × 36 × 10 = 120 cm³.",
+      "as": "ভূমিৰ কালি = ৩৬; আয়তন = ১২০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-054",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 8 cm and height 12 cm.",
+      "as": "ভূমিৰ বাহু ৮ ছেমি আৰু উচ্চতা ১২ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "768",
+        "as": "৭৬৮"
+      },
+      {
+        "en": "512",
+        "as": "৫১২"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Base area = 8² = 64 cm². Volume = ⅓ × base area × height = ⅓ × 64 × 12 = 256 cm³.",
+      "as": "ভূমিৰ কালি = ৬৪; আয়তন = ২৫৬ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-055",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 10 cm and height 15 cm.",
+      "as": "ভূমিৰ বাহু ১০ ছেমি আৰু উচ্চতা ১৫ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1500",
+        "as": "১৫০০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Base area = 10² = 100 cm². Volume = ⅓ × base area × height = ⅓ × 100 × 15 = 500 cm³.",
+      "as": "ভূমিৰ কালি = ১০০; আয়তন = ৫০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-056",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 12 cm and height 20 cm.",
+      "as": "ভূমিৰ বাহু ১২ ছেমি আৰু উচ্চতা ২০ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2880",
+        "as": "২৮৮০"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      },
+      {
+        "en": "1920",
+        "as": "১৯২০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Base area = 12² = 144 cm². Volume = ⅓ × base area × height = ⅓ × 144 × 20 = 960 cm³.",
+      "as": "ভূমিৰ কালি = ১৪৪; আয়তন = ৯৬০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-057",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "If the radius of a sphere is multiplied by 2, by what factor does its volume become?",
+      "as": "এটা গোলকৰ ব্যাসাৰ্ধ ২ গুণ কৰিলে আয়তন কিমান গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume ∝ r³, so multiplying r by 2 multiplies the volume by 2³ = 8.",
+      "as": "আয়তন ∝ r³, সেয়ে ৮ গুণ হ'ব।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-058",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "If the radius of a sphere is multiplied by 3, by what factor does its volume become?",
+      "as": "এটা গোলকৰ ব্যাসাৰ্ধ ৩ গুণ কৰিলে আয়তন কিমান গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume ∝ r³, so multiplying r by 3 multiplies the volume by 3³ = 27.",
+      "as": "আয়তন ∝ r³, সেয়ে ২৭ গুণ হ'ব।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-059",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "If the radius of a sphere is multiplied by 4, by what factor does its volume become?",
+      "as": "এটা গোলকৰ ব্যাসাৰ্ধ ৪ গুণ কৰিলে আয়তন কিমান গুণ হ'ব?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume ∝ r³, so multiplying r by 4 multiplies the volume by 4³ = 64.",
+      "as": "আয়তন ∝ r³, সেয়ে ৬৪ গুণ হ'ব।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-060",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "A sphere of radius 21 cm is melted and recast into small spheres of radius 7 cm. How many small spheres are obtained?",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ গোলক গলাই ৭ ছেমি ব্যাসাৰ্ধৰ সৰু গোলকত পুনৰ্গঠন কৰা হয়। কিমান সৰু গোলক পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume is conserved, so n = (R/r)³ = (21/7)³ = 27.",
+      "as": "আয়তন সংৰক্ষিত থাকে, সেয়ে n = ২৭।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-061",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "A sphere of radius 14 cm is melted and recast into small spheres of radius 7 cm. How many small spheres are obtained?",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধৰ গোলক গলাই ৭ ছেমি ব্যাসাৰ্ধৰ সৰু গোলকত পুনৰ্গঠন কৰা হয়। কিমান সৰু গোলক পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume is conserved, so n = (R/r)³ = (14/7)³ = 8.",
+      "as": "আয়তন সংৰক্ষিত থাকে, সেয়ে n = ৮।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-062",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "A sphere of radius 42 cm is melted and recast into small spheres of radius 14 cm. How many small spheres are obtained?",
+      "as": "৪২ ছেমি ব্যাসাৰ্ধৰ গোলক গলাই ১৪ ছেমি ব্যাসাৰ্ধৰ সৰু গোলকত পুনৰ্গঠন কৰা হয়। কিমান সৰু গোলক পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume is conserved, so n = (R/r)³ = (42/14)³ = 27.",
+      "as": "আয়তন সংৰক্ষিত থাকে, সেয়ে n = ২৭।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-063",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cube of side 5 cm.",
+      "as": "৫ ছেমি বাহুৰ ঘনকৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5√2 cm",
+        "as": "৫√২ cm"
+      },
+      {
+        "en": "15 cm",
+        "as": "১৫ cm"
+      },
+      {
+        "en": "25√3 cm",
+        "as": "২৫√৩ cm"
+      },
+      {
+        "en": "5√3 cm",
+        "as": "৫√৩ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diagonal of a cube = a√3 = 5√3 cm.",
+      "as": "ঘনকৰ কৰ্ণ = ৫√3 ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-064",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cube of side 7 cm.",
+      "as": "৭ ছেমি বাহুৰ ঘনকৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7√2 cm",
+        "as": "৭√২ cm"
+      },
+      {
+        "en": "21 cm",
+        "as": "২১ cm"
+      },
+      {
+        "en": "7√3 cm",
+        "as": "৭√৩ cm"
+      },
+      {
+        "en": "49√3 cm",
+        "as": "৪৯√৩ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Diagonal of a cube = a√3 = 7√3 cm.",
+      "as": "ঘনকৰ কৰ্ণ = ৭√3 ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-065",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cube of side 9 cm.",
+      "as": "৯ ছেমি বাহুৰ ঘনকৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9√2 cm",
+        "as": "৯√২ cm"
+      },
+      {
+        "en": "9√3 cm",
+        "as": "৯√৩ cm"
+      },
+      {
+        "en": "27 cm",
+        "as": "২৭ cm"
+      },
+      {
+        "en": "81√3 cm",
+        "as": "৮১√৩ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal of a cube = a√3 = 9√3 cm.",
+      "as": "ঘনকৰ কৰ্ণ = ৯√3 ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-066",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cube of side 11 cm.",
+      "as": "১১ ছেমি বাহুৰ ঘনকৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11√3 cm",
+        "as": "১১√৩ cm"
+      },
+      {
+        "en": "11√2 cm",
+        "as": "১১√২ cm"
+      },
+      {
+        "en": "33 cm",
+        "as": "৩৩ cm"
+      },
+      {
+        "en": "121√3 cm",
+        "as": "১২১√৩ cm"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Diagonal of a cube = a√3 = 11√3 cm.",
+      "as": "ঘনকৰ কৰ্ণ = ১১√3 ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-067",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cuboid of dimensions 3 cm × 4 cm × 12 cm.",
+      "as": "৩ × ৪ × ১২ ছেমি মাপৰ ঘনাবয়ৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14 cm",
+        "as": "১৪ cm"
+      },
+      {
+        "en": "12 cm",
+        "as": "১২ cm"
+      },
+      {
+        "en": "19 cm",
+        "as": "১৯ cm"
+      },
+      {
+        "en": "13 cm",
+        "as": "১৩ cm"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Diagonal = √(l²+b²+h²) = √(3²+4²+12²) = 13 cm.",
+      "as": "কৰ্ণ = ১৩ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-068",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cuboid of dimensions 6 cm × 8 cm × 24 cm.",
+      "as": "৬ × ৮ × ২৪ ছেমি মাপৰ ঘনাবয়ৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27 cm",
+        "as": "২৭ cm"
+      },
+      {
+        "en": "26 cm",
+        "as": "২৬ cm"
+      },
+      {
+        "en": "25 cm",
+        "as": "২৫ cm"
+      },
+      {
+        "en": "38 cm",
+        "as": "৩৮ cm"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Diagonal = √(l²+b²+h²) = √(6²+8²+24²) = 26 cm.",
+      "as": "কৰ্ণ = ২৬ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-069",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the length of the diagonal of a cuboid of dimensions 5 cm × 12 cm × 84 cm.",
+      "as": "৫ × ১২ × ৮৪ ছেমি মাপৰ ঘনাবয়ৰ কৰ্ণৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "86 cm",
+        "as": "৮৬ cm"
+      },
+      {
+        "en": "84 cm",
+        "as": "৮৪ cm"
+      },
+      {
+        "en": "85 cm",
+        "as": "৮৫ cm"
+      },
+      {
+        "en": "101 cm",
+        "as": "১০১ cm"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Diagonal = √(l²+b²+h²) = √(5²+12²+84²) = 85 cm.",
+      "as": "কৰ্ণ = ৮৫ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-070",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 5 cm.",
+      "as": "৫ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = 5³ = 125 cm³.",
+      "as": "আয়তন = ১২৫ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-071",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 5 cm.",
+      "as": "৫ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "TSA = 6a² = 150 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ১৫০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-072",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 8 cm.",
+      "as": "৮ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "512",
+        "as": "৫১২"
+      },
+      {
+        "en": "384",
+        "as": "৩৮৪"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = 8³ = 512 cm³.",
+      "as": "আয়তন = ৫১২ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-073",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 8 cm.",
+      "as": "৮ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "512",
+        "as": "৫১২"
+      },
+      {
+        "en": "384",
+        "as": "৩৮৪"
+      },
+      {
+        "en": "256",
+        "as": "২৫৬"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "TSA = 6a² = 384 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ৩৮৪ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-074",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 10 cm.",
+      "as": "১০ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume = 10³ = 1000 cm³.",
+      "as": "আয়তন = ১০০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-075",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 10 cm.",
+      "as": "১০ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000",
+        "as": "১০০০"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "TSA = 6a² = 600 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ৬০০ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-076",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cube of side 14 cm.",
+      "as": "১৪ ছেমি বাহুৰ ঘনকৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1176",
+        "as": "১১৭৬"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      },
+      {
+        "en": "2744",
+        "as": "২৭৪৪"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume = 14³ = 2744 cm³.",
+      "as": "আয়তন = ২৭৪৪ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-077",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the total surface area of a cube of side 14 cm.",
+      "as": "১৪ ছেমি বাহুৰ ঘনকৰ মুঠ পৃষ্ঠকালি নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2744",
+        "as": "২৭৪৪"
+      },
+      {
+        "en": "1176",
+        "as": "১১৭৬"
+      },
+      {
+        "en": "784",
+        "as": "৭৮৪"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "TSA = 6a² = 1176 cm².",
+      "as": "মুঠ পৃষ্ঠকালি = ১১৭৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-078",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 10 cm × 8 cm × 6 cm.",
+      "as": "১০ × ৮ × ৬ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "376",
+        "as": "৩৭৬"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = 10×8×6 = 480 cm³.",
+      "as": "আয়তন = ৪৮০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-079",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 14 cm × 10 cm × 8 cm.",
+      "as": "১৪ × ১০ × ৮ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "664",
+        "as": "৬৬৪"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "560",
+        "as": "৫৬০"
+      },
+      {
+        "en": "1120",
+        "as": "১১২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = 14×10×8 = 1120 cm³.",
+      "as": "আয়তন = ১১২০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-080",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cuboid of dimensions 25 cm × 15 cm × 12 cm.",
+      "as": "২৫ × ১৫ × ১২ ছেমি মাপৰ ঘনাবয়ৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1710",
+        "as": "১৭১০"
+      },
+      {
+        "en": "4500",
+        "as": "৪৫০০"
+      },
+      {
+        "en": "555",
+        "as": "৫৫৫"
+      },
+      {
+        "en": "2250",
+        "as": "২২৫০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume = 25×15×12 = 4500 cm³.",
+      "as": "আয়তন = ৪৫০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-081",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 7 cm and height 20 cm. (π = 22/7)",
+      "as": "৭ ছেমি ব্যাসাৰ্ধ আৰু ২০ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "880",
+        "as": "৮৮০"
+      },
+      {
+        "en": "440",
+        "as": "৪৪০"
+      },
+      {
+        "en": "3080",
+        "as": "৩০৮০"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume = πr²h = 3080 cm³.",
+      "as": "আয়তন = ৩০৮০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-082",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 14 cm and height 10 cm. (π = 22/7)",
+      "as": "১৪ ছেমি ব্যাসাৰ্ধ আৰু ১০ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "880",
+        "as": "৮৮০"
+      },
+      {
+        "en": "440",
+        "as": "৪৪০"
+      },
+      {
+        "en": "616",
+        "as": "৬১৬"
+      },
+      {
+        "en": "6160",
+        "as": "৬১৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = πr²h = 6160 cm³.",
+      "as": "আয়তন = ৬১৬০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-083",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cylinder of radius 21 cm and height 30 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ৩০ ছেমি উচ্চতাৰ চুঙাৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "41580",
+        "as": "৪১৫৮০"
+      },
+      {
+        "en": "3960",
+        "as": "৩৯৬০"
+      },
+      {
+        "en": "1980",
+        "as": "১৯৮০"
+      },
+      {
+        "en": "1386",
+        "as": "১৩৮৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = πr²h = 41580 cm³.",
+      "as": "আয়তন = ৪১৫৮০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-084",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a cone of radius 21 cm and height 20 cm. (π = 22/7)",
+      "as": "২১ ছেমি ব্যাসাৰ্ধ আৰু ২০ ছেমি উচ্চতাৰ শংকুৰ আয়তন নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "9240",
+        "as": "৯২৪০"
+      },
+      {
+        "en": "27720",
+        "as": "২৭৭২০"
+      },
+      {
+        "en": "1914",
+        "as": "১৯১৪"
+      },
+      {
+        "en": "2640",
+        "as": "২৬৪০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Volume = ⅓πr²h = 9240 cm³.",
+      "as": "আয়তন = ৯২৪০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-085",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the surface area of a sphere of radius 28 cm. (π = 22/7)",
+      "as": "২৮ ছেমি ব্যাসাৰ্ধৰ গোলকৰ পৃষ্ঠকালি নিৰ্ণয় কৰা। (π = 22/7)"
+    },
+    "options": [
+      {
+        "en": "2464",
+        "as": "২৪৬৪"
+      },
+      {
+        "en": "9856",
+        "as": "৯৮৫৬"
+      },
+      {
+        "en": "4928",
+        "as": "৪৯২৮"
+      },
+      {
+        "en": "352",
+        "as": "৩৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Surface area = 4πr² = 9856 cm².",
+      "as": "পৃষ্ঠকালি = ৯৮৫৬ বৰ্গ ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-086",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 6 cm and height 8 cm, and whose length is 12 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ৬ ছেমি, উচ্চতা ৮ ছেমি আৰু দীঘ ১২ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "576",
+        "as": "৫৭৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "288",
+        "as": "২৮৮"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume = ½×6×8×12 = 288 cm³.",
+      "as": "আয়তন = ২৮৮ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-087",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a triangular prism whose triangular base has base 9 cm and height 12 cm, and whose length is 20 cm.",
+      "as": "ত্ৰিভুজাকাৰ ভূমিৰ ভূমি ৯ ছেমি, উচ্চতা ১২ ছেমি আৰু দীঘ ২০ ছেমি থকা প্ৰিজমৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2160",
+        "as": "২১৬০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "1080",
+        "as": "১০৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Volume = ½×9×12×20 = 1080 cm³.",
+      "as": "আয়তন = ১০৮০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-088",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 5 cm and height 12 cm.",
+      "as": "ভূমিৰ বাহু ৫ ছেমি আৰু উচ্চতা ১২ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "200",
+        "as": "২০০"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Volume = ⅓×5²×12 = 100 cm³.",
+      "as": "আয়তন = ১০০ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-089",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "Find the volume of a square pyramid with base side 9 cm and height 14 cm.",
+      "as": "ভূমিৰ বাহু ৯ ছেমি আৰু উচ্চতা ১৪ ছেমি থকা বৰ্গ পিৰামিডৰ আয়তন নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1134",
+        "as": "১১৩৪"
+      },
+      {
+        "en": "378",
+        "as": "৩৭৮"
+      },
+      {
+        "en": "756",
+        "as": "৭৫৬"
+      },
+      {
+        "en": "189",
+        "as": "১৮৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Volume = ⅓×9²×14 = 378 cm³.",
+      "as": "আয়তন = ৩৭৮ ঘন ছেমি।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-090",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "A sphere of radius 28 cm is melted and recast into small spheres of radius 7 cm. How many small spheres are obtained?",
+      "as": "২৮ ছেমি ব্যাসাৰ্ধৰ গোলক গলাই ৭ ছেমি ব্যাসাৰ্ধৰ সৰু গোলকত পুনৰ্গঠন কৰা হয়। কিমান সৰু গোলক পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "n = (R/r)³ = 64.",
+      "as": "n = ৬৪।"
+    }
+  },
+  {
+    "id": "num-mensuration-3d-091",
+    "leaf": "mensuration-3d",
+    "q": {
+      "en": "A sphere of radius 21 cm is melted and recast into small spheres of radius 3 cm. How many small spheres are obtained?",
+      "as": "২১ ছেমি ব্যাসাৰ্ধৰ গোলক গলাই ৩ ছেমি ব্যাসাৰ্ধৰ সৰু গোলকত পুনৰ্গঠন কৰা হয়। কিমান সৰু গোলক পোৱা যাব?"
+    },
+    "options": [
+      {
+        "en": "686",
+        "as": "৬৮৬"
+      },
+      {
+        "en": "171",
+        "as": "১৭১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "n = (R/r)³ = 343.",
+      "as": "n = ৩৪৩।"
+    }
+  }
+]

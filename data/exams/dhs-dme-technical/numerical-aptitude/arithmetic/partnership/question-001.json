@@ -1,0 +1,3100 @@
+[
+  {
+    "id": "numerical-021",
+    "q": {
+      "en": "A invests ₹20,000 and B ₹30,000 in a business. After 6 months A withdraws half his capital. In what ratio should the year's profit be shared?",
+      "as": "এজন লোকে ২০,০০০ টকা আৰু B এ ৩০,০০০ টকা বিনিয়োগ কৰে। ৬ মাহৰ পিছত A এ নিজৰ মূলধনৰ আধা উলিয়াই লয়। বছৰটোৰ লাভ কোন অনুপাতত ভগাব লাগে"
+    },
+    "options": [
+      {
+        "en": "1 : 2",
+        "as": "১ : ২"
+      },
+      {
+        "en": "2 : 3",
+        "as": "২ : ৩"
+      },
+      {
+        "en": "5 : 6",
+        "as": "৫ : ৬"
+      },
+      {
+        "en": "3 : 4",
+        "as": "৩ : ৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's capital-months = 20000 × 6 + 10000 × 6 = 180000. B's = 30000 × 12 = 360000. Ratio 180000 : 360000 = 1 : 2.",
+      "as": "A ৰ মূলধন-মাহ = ২০০০০ × ৬ + ১০০০০ × ৬ = ১৮০০০০। B ৰ = ৩০০০০ × ১২ = ৩৬০০০০। অনুপাত ১৮০০০০ : ৩৬০০০০ = ১ : ২।"
+    }
+  },
+  {
+    "id": "numerical-022",
+    "q": {
+      "en": "Three partners share profit in the ratio 5 : 3 : 2. If the third partner receives ₹4,000, the total profit is",
+      "as": "তিনিজন অংশীদাৰে ৫ : ৩ : ২ অনুপাতত লাভ ভগায়। তৃতীয়জনে ৪,০০০ টকা পাইলে মুঠ লাভ কিমান"
+    },
+    "options": [
+      {
+        "en": "₹20,000",
+        "as": "২০,০০০ টকা"
+      },
+      {
+        "en": "₹16,000",
+        "as": "১৬,০০০ টকা"
+      },
+      {
+        "en": "₹24,000",
+        "as": "২৪,০০০ টকা"
+      },
+      {
+        "en": "₹18,000",
+        "as": "১৮,০০০ টকা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total parts = 10 and the third partner holds 2 parts = ₹4,000, so one part = ₹2,000. Total = 10 × 2000 = ₹20,000.",
+      "as": "মুঠ অংশ = ১০ আৰু তৃতীয়জনে ২ অংশ = ৪,০০০ টকা, সেয়ে এভাগ = ২,০০০ টকা। মুঠ = ১০ × ২০০০ = ২০,০০০ টকা।"
+    }
+  },
+  {
+    "id": "num-partnership-001",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 30000 and 20000 respectively in a business. If the total profit is 25000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৩০০০০ আৰু ২০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২৫০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "7500",
+        "as": "৭৫০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A:B = 30000:20000, so A's share = 25000×30000/50000 = 15000.",
+      "as": "A ৰ অংশ = ১৫০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-002",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 45000 and 30000 respectively in a business. If the total profit is 30000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৪৫০০০ আৰু ৩০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৩০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "9000",
+        "as": "৯০০০"
+      },
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "36000",
+        "as": "৩৬০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A:B = 45000:30000, so A's share = 30000×45000/75000 = 18000.",
+      "as": "A ৰ অংশ = ১৮০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-003",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 60000 and 40000 respectively in a business. If the total profit is 50000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৬০০০০ আৰু ৪০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৫০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20000",
+        "as": "২০০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A:B = 60000:40000, so A's share = 50000×60000/100000 = 30000.",
+      "as": "A ৰ অংশ = ৩০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-004",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 75000 and 50000 respectively in a business. If the total profit is 62500, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৭৫০০০ আৰু ৫০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৬২৫০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "18750",
+        "as": "১৮৭৫০"
+      },
+      {
+        "en": "37500",
+        "as": "৩৭৫০০"
+      },
+      {
+        "en": "75000",
+        "as": "৭৫০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A:B = 75000:50000, so A's share = 62500×75000/125000 = 37500.",
+      "as": "A ৰ অংশ = ৩৭৫০০।"
+    }
+  },
+  {
+    "id": "num-partnership-005",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 90000 and 60000 respectively in a business. If the total profit is 75000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৯০০০০ আৰু ৬০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৭৫০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "45000",
+        "as": "৪৫০০০"
+      },
+      {
+        "en": "22500",
+        "as": "২২৫০০"
+      },
+      {
+        "en": "90000",
+        "as": "৯০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A:B = 90000:60000, so A's share = 75000×90000/150000 = 45000.",
+      "as": "A ৰ অংশ = ৪৫০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-006",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 120000 and 80000 respectively in a business. If the total profit is 100000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ১২০০০০ আৰু ৮০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "40000",
+        "as": "৪০০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "120000",
+        "as": "১২০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A:B = 120000:80000, so A's share = 100000×120000/200000 = 60000.",
+      "as": "A ৰ অংশ = ৬০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-007",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 20000 for 12 months and B invests 30000 for 8 months. If the total profit is 48000, find A's share.",
+      "as": "A এ ১২ মাহৰ বাবে ২০০০০ টকা আৰু B এ ৮ মাহৰ বাবে ৩০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৪৮০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "48000",
+        "as": "৪৮০০০"
+      },
+      {
+        "en": "24001",
+        "as": "২৪০০১"
+      },
+      {
+        "en": "24000",
+        "as": "২৪০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = 20000×12 : 30000×8 = 240000:240000; A's share = 24000.",
+      "as": "অনুপাত = ২৪০০০০:২৪০০০০; A ৰ অংশ = ২৪০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-008",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 25000 for 6 months and B invests 40000 for 9 months. If the total profit is 102000, find A's share.",
+      "as": "A এ ৬ মাহৰ বাবে ২৫০০০ টকা আৰু B এ ৯ মাহৰ বাবে ৪০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১০২০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72000",
+        "as": "৭২০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = 25000×6 : 40000×9 = 150000:360000; A's share = 30000.",
+      "as": "অনুপাত = ১৫০০০০:৩৬০০০০; A ৰ অংশ = ৩০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-009",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 30000 for 10 months and B invests 45000 for 8 months. If the total profit is 132000, find A's share.",
+      "as": "A এ ১০ মাহৰ বাবে ৩০০০০ টকা আৰু B এ ৮ মাহৰ বাবে ৪৫০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১৩২০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72000",
+        "as": "৭২০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "120000",
+        "as": "১২০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ratio = 30000×10 : 45000×8 = 300000:360000; A's share = 60000.",
+      "as": "অনুপাত = ৩০০০০০:৩৬০০০০; A ৰ অংশ = ৬০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-010",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 40000 for 12 months and B invests 50000 for 6 months. If the total profit is 156000, find A's share.",
+      "as": "A এ ১২ মাহৰ বাবে ৪০০০০ টকা আৰু B এ ৬ মাহৰ বাবে ৫০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১৫৬০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "48000",
+        "as": "৪৮০০০"
+      },
+      {
+        "en": "192000",
+        "as": "১৯২০০০"
+      },
+      {
+        "en": "96000",
+        "as": "৯৬০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = 40000×12 : 50000×6 = 480000:300000; A's share = 96000.",
+      "as": "অনুপাত = ৪৮০০০০:৩০০০০০; A ৰ অংশ = ৯৬০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-011",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 50000 for 9 months and B invests 60000 for 12 months. If the total profit is 234000, find A's share.",
+      "as": "A এ ৯ মাহৰ বাবে ৫০০০০ টকা আৰু B এ ১২ মাহৰ বাবে ৬০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২৩৪০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90000",
+        "as": "৯০০০০"
+      },
+      {
+        "en": "144000",
+        "as": "১৪৪০০০"
+      },
+      {
+        "en": "45000",
+        "as": "৪৫০০০"
+      },
+      {
+        "en": "180000",
+        "as": "১৮০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ratio = 50000×9 : 60000×12 = 450000:720000; A's share = 90000.",
+      "as": "অনুপাত = ৪৫০০০০:৭২০০০০; A ৰ অংশ = ৯০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-012",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 3 : 2. If A's share is 18000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৩ : ২ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ১৮০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "48000",
+        "as": "৪৮০০০"
+      },
+      {
+        "en": "9000",
+        "as": "৯০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = A's share × (sum of ratio)/A's term = 18000×5/3 = 30000.",
+      "as": "মুঠ লাভ = ৩০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-013",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 5 : 4. If A's share is 25000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৫ : ৪ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ২৫০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20000",
+        "as": "২০০০০"
+      },
+      {
+        "en": "45000",
+        "as": "৪৫০০০"
+      },
+      {
+        "en": "70000",
+        "as": "৭০০০০"
+      },
+      {
+        "en": "12500",
+        "as": "১২৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = A's share × (sum of ratio)/A's term = 25000×9/5 = 45000.",
+      "as": "মুঠ লাভ = ৪৫০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-014",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 7 : 5. If A's share is 35000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৭ : ৫ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৩৫০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "95000",
+        "as": "৯৫০০০"
+      },
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "17500",
+        "as": "১৭৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Total = A's share × (sum of ratio)/A's term = 35000×12/7 = 60000.",
+      "as": "মুঠ লাভ = ৬০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-015",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 4 : 3. If A's share is 24000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৪ : ৩ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ২৪০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "66000",
+        "as": "৬৬০০০"
+      },
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      },
+      {
+        "en": "42000",
+        "as": "৪২০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = A's share × (sum of ratio)/A's term = 24000×7/4 = 42000.",
+      "as": "মুঠ লাভ = ৪২০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-016",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 20000 for 12 months and B invests 30000. If their profit shares are in the ratio 24000 : 18000, for how many months did B invest?",
+      "as": "A এ ১২ মাহৰ বাবে ২০০০০ টকা আৰু B এ ৩০০০০ টকা বিনিয়োগ কৰে। তেওঁলোকৰ লাভৰ অনুপাত ২৪০০০ : ১৮০০০ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "24000:18000 = 20000×12 : 30000×t2, so t2 = 6 months.",
+      "as": "B এ ৬ মাহ বিনিয়োগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "num-partnership-017",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 30000 for 8 months and B invests 40000. If their profit shares are in the ratio 24000 : 32000, for how many months did B invest?",
+      "as": "A এ ৮ মাহৰ বাবে ৩০০০০ টকা আৰু B এ ৪০০০০ টকা বিনিয়োগ কৰে। তেওঁলোকৰ লাভৰ অনুপাত ২৪০০০ : ৩২০০০ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "24000:32000 = 30000×8 : 40000×t2, so t2 = 8 months.",
+      "as": "B এ ৮ মাহ বিনিয়োগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "num-partnership-018",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 40000 for 6 months and B invests 50000. If their profit shares are in the ratio 24000 : 30000, for how many months did B invest?",
+      "as": "A এ ৬ মাহৰ বাবে ৪০০০০ টকা আৰু B এ ৫০০০০ টকা বিনিয়োগ কৰে। তেওঁলোকৰ লাভৰ অনুপাত ২৪০০০ : ৩০০০০ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "24000:30000 = 40000×6 : 50000×t2, so t2 = 6 months.",
+      "as": "B এ ৬ মাহ বিনিয়োগ কৰিছিল।"
+    }
+  },
+  {
+    "id": "num-partnership-019",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 30000 for 12 months and B invests for 8 months. If their profit shares are in the ratio 36000 : 24000, find B's investment.",
+      "as": "A এ ১২ মাহৰ বাবে ৩০০০০ টকা আৰু B এ ৮ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ৩৬০০০ : ২৪০০০ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "35000",
+        "as": "৩৫০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "36000:24000 = 30000×12 : B×8, so B = 30000.",
+      "as": "B ৰ বিনিয়োগ = ৩০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-020",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 40000 for 9 months and B invests for 6 months. If their profit shares are in the ratio 36000 : 30000, find B's investment.",
+      "as": "A এ ৯ মাহৰ বাবে ৪০০০০ টকা আৰু B এ ৬ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ৩৬০০০ : ৩০০০০ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100000",
+        "as": "১০০০০০"
+      },
+      {
+        "en": "50000",
+        "as": "৫০০০০"
+      },
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "55000",
+        "as": "৫৫০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "36000:30000 = 40000×9 : B×6, so B = 50000.",
+      "as": "B ৰ বিনিয়োগ = ৫০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-021",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 50000 for 6 months and B invests for 10 months. If their profit shares are in the ratio 30000 : 50000, find B's investment.",
+      "as": "A এ ৬ মাহৰ বাবে ৫০০০০ টকা আৰু B এ ১০ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ৩০০০০ : ৫০০০০ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "100000",
+        "as": "১০০০০০"
+      },
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "50000",
+        "as": "৫০০০০"
+      },
+      {
+        "en": "55000",
+        "as": "৫৫০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "30000:50000 = 50000×6 : B×10, so B = 50000.",
+      "as": "B ৰ বিনিয়োগ = ৫০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-022",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 20000, 30000 and 40000 respectively. If the total profit is 54000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ২০০০০, ৩০০০০ আৰু ৪০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৫৪০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "24000",
+        "as": "২৪০০০"
+      },
+      {
+        "en": "6000",
+        "as": "৬০০০"
+      },
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's share = 54000×20000/90000 = 12000.",
+      "as": "A ৰ অংশ = ১২০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-023",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 30000, 45000 and 60000 respectively. If the total profit is 81000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৩০০০০, ৪৫০০০ আৰু ৬০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৮১০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "27000",
+        "as": "২৭০০০"
+      },
+      {
+        "en": "36000",
+        "as": "৩৬০০০"
+      },
+      {
+        "en": "9000",
+        "as": "৯০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 81000×30000/135000 = 18000.",
+      "as": "A ৰ অংশ = ১৮০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-024",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 40000, 50000 and 60000 respectively. If the total profit is 75000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৪০০০০, ৫০০০০ আৰু ৬০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৭৫০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20000",
+        "as": "২০০০০"
+      },
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 75000×40000/150000 = 20000.",
+      "as": "A ৰ অংশ = ২০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-025",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 50000, 60000 and 90000 respectively. If the total profit is 100000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৫০০০০, ৬০০০০ আৰু ৯০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "25000",
+        "as": "২৫০০০"
+      },
+      {
+        "en": "45000",
+        "as": "৪৫০০০"
+      },
+      {
+        "en": "12500",
+        "as": "১২৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's share = 100000×50000/200000 = 25000.",
+      "as": "A ৰ অংশ = ২৫০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-026",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 60000. After 3 months, B joins with 45000. If the annual profit is 70000, find A's share.",
+      "as": "A এ ৬০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৪৫০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ৭০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25200",
+        "as": "২৫২০০"
+      },
+      {
+        "en": "22400",
+        "as": "২২৪০০"
+      },
+      {
+        "en": "44800",
+        "as": "৪৪৮০০"
+      },
+      {
+        "en": "89600",
+        "as": "৮৯৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ratio = 60000×12 : 45000×9 = 720000:405000; A's share = 44800.",
+      "as": "অনুপাত = ৭২০০০০:৪০৫০০০; A ৰ অংশ = ৪৪৮০০।"
+    }
+  },
+  {
+    "id": "num-partnership-027",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 80000. After 3 months, B joins with 60000. If the annual profit is 84000, find A's share.",
+      "as": "A এ ৮০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৬০০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ৮৪০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30240",
+        "as": "৩০২৪০"
+      },
+      {
+        "en": "26880",
+        "as": "২৬৮৮০"
+      },
+      {
+        "en": "107520",
+        "as": "১০৭৫২০"
+      },
+      {
+        "en": "53760",
+        "as": "৫৩৭৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = 80000×12 : 60000×9 = 960000:540000; A's share = 53760.",
+      "as": "অনুপাত = ৯৬০০০০:৫৪০০০০; A ৰ অংশ = ৫৩৭৬০।"
+    }
+  },
+  {
+    "id": "num-partnership-028",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 90000. After 3 months, B joins with 75000. If the annual profit is 175500, find A's share.",
+      "as": "A এ ৯০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৭৫০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ১৭৫৫০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "67500",
+        "as": "৬৭৫০০"
+      },
+      {
+        "en": "54000",
+        "as": "৫৪০০০"
+      },
+      {
+        "en": "108000",
+        "as": "১০৮০০০"
+      },
+      {
+        "en": "216000",
+        "as": "২১৬০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ratio = 90000×12 : 75000×9 = 1080000:675000; A's share = 108000.",
+      "as": "অনুপাত = ১০৮০০০০:৬৭৫০০০; A ৰ অংশ = ১০৮০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-029",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 20000 for 12 months and B invests 30000 for 8 months.",
+      "as": "A এ ১২ মাহৰ বাবে ২০০০০ টকা আৰু B এ ৮ মাহৰ বাবে ৩০০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20000:30000",
+        "as": "২০০০০:৩০০০০"
+      },
+      {
+        "en": "1:1",
+        "as": "১:১"
+      },
+      {
+        "en": "12:8",
+        "as": "১২:৮"
+      },
+      {
+        "en": "2:1",
+        "as": "২:১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = 20000×12 : 30000×8 = 240000:240000 = 1:1.",
+      "as": "অনুপাত = ১:১।"
+    }
+  },
+  {
+    "id": "num-partnership-030",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 25000 for 9 months and B invests 40000 for 6 months.",
+      "as": "A এ ৯ মাহৰ বাবে ২৫০০০ টকা আৰু B এ ৬ মাহৰ বাবে ৪০০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15:16",
+        "as": "১৫:১৬"
+      },
+      {
+        "en": "25000:40000",
+        "as": "২৫০০০:৪০০০০"
+      },
+      {
+        "en": "9:6",
+        "as": "৯:৬"
+      },
+      {
+        "en": "16:16",
+        "as": "১৬:১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ratio = 25000×9 : 40000×6 = 225000:240000 = 15:16.",
+      "as": "অনুপাত = ১৫:১৬।"
+    }
+  },
+  {
+    "id": "num-partnership-031",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 35000 for 8 months and B invests 50000 for 7 months.",
+      "as": "A এ ৮ মাহৰ বাবে ৩৫০০০ টকা আৰু B এ ৭ মাহৰ বাবে ৫০০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35000:50000",
+        "as": "৩৫০০০:৫০০০০"
+      },
+      {
+        "en": "8:7",
+        "as": "৮:৭"
+      },
+      {
+        "en": "5:5",
+        "as": "৫:৫"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Ratio = 35000×8 : 50000×7 = 280000:350000 = 4:5.",
+      "as": "অনুপাত = ৪:৫।"
+    }
+  },
+  {
+    "id": "num-partnership-032",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 45000 for 6 months and B invests 60000 for 9 months.",
+      "as": "A এ ৬ মাহৰ বাবে ৪৫০০০ টকা আৰু B এ ৯ মাহৰ বাবে ৬০০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "45000:60000",
+        "as": "৪৫০০০:৬০০০০"
+      },
+      {
+        "en": "1:2",
+        "as": "১:২"
+      },
+      {
+        "en": "6:9",
+        "as": "৬:৯"
+      },
+      {
+        "en": "2:2",
+        "as": "২:২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ratio = 45000×6 : 60000×9 = 270000:540000 = 1:2.",
+      "as": "অনুপাত = ১:২।"
+    }
+  },
+  {
+    "id": "num-partnership-033",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 40000, B invests 60000, and A receives a salary of 5000 from a profit of 50000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৪০০০০ আৰু B এ ৬০০০০ বিনিয়োগ কৰে। মুঠ লাভ ৫০০০০ ৰ পৰা A এ ৫০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "5000",
+        "as": "৫০০০"
+      },
+      {
+        "en": "23000",
+        "as": "২৩০০০"
+      },
+      {
+        "en": "11500",
+        "as": "১১৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's total = salary + share of remaining profit = 5000 + 18000 = 23000.",
+      "as": "A ৰ মুঠ আয় = ২৩০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-034",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 50000, B invests 70000, and A receives a salary of 6000 from a profit of 60000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৫০০০০ আৰু B এ ৭০০০০ বিনিয়োগ কৰে। মুঠ লাভ ৬০০০০ ৰ পৰা A এ ৬০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22500",
+        "as": "২২৫০০"
+      },
+      {
+        "en": "6000",
+        "as": "৬০০০"
+      },
+      {
+        "en": "14250",
+        "as": "১৪২৫০"
+      },
+      {
+        "en": "28500",
+        "as": "২৮৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's total = salary + share of remaining profit = 6000 + 22500 = 28500.",
+      "as": "A ৰ মুঠ আয় = ২৮৫০০।"
+    }
+  },
+  {
+    "id": "num-partnership-035",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 60000, B invests 90000, and A receives a salary of 7500 from a profit of 75000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৬০০০০ আৰু B এ ৯০০০০ বিনিয়োগ কৰে। মুঠ লাভ ৭৫০০০ ৰ পৰা A এ ৭৫০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "34500",
+        "as": "৩৪৫০০"
+      },
+      {
+        "en": "27000",
+        "as": "২৭০০০"
+      },
+      {
+        "en": "7500",
+        "as": "৭৫০০"
+      },
+      {
+        "en": "17250",
+        "as": "১৭২৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's total = salary + share of remaining profit = 7500 + 27000 = 34500.",
+      "as": "A ৰ মুঠ আয় = ৩৪৫০০।"
+    }
+  },
+  {
+    "id": "num-partnership-036",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 30000 for the first 6 months and then 40000 for the next 6 months. B invests 50000 for the whole year. If the profit is 102000, find A's share.",
+      "as": "A এ প্ৰথম ৬ মাহ ৩০০০০ আৰু পৰৱৰ্তী ৬ মাহ ৪০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৫০০০০ টকা বিনিয়োগ কৰে। লাভ ১০২০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42000",
+        "as": "৪২০০০"
+      },
+      {
+        "en": "60000",
+        "as": "৬০০০০"
+      },
+      {
+        "en": "21000",
+        "as": "২১০০০"
+      },
+      {
+        "en": "84000",
+        "as": "৮৪০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's capital = 30000×6 + 40000×6 = 420000; ratio = 420000:600000; A's share = 42000.",
+      "as": "A ৰ অংশ = ৪২০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-037",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 40000 for the first 4 months and then 60000 for the next 8 months. B invests 60000 for the whole year. If the profit is 136000, find A's share.",
+      "as": "A এ প্ৰথম ৪ মাহ ৪০০০০ আৰু পৰৱৰ্তী ৮ মাহ ৬০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৬০০০০ টকা বিনিয়োগ কৰে। লাভ ১৩৬০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72000",
+        "as": "৭২০০০"
+      },
+      {
+        "en": "64000",
+        "as": "৬৪০০০"
+      },
+      {
+        "en": "32000",
+        "as": "৩২০০০"
+      },
+      {
+        "en": "128000",
+        "as": "১২৮০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's capital = 40000×4 + 60000×8 = 640000; ratio = 640000:720000; A's share = 64000.",
+      "as": "A ৰ অংশ = ৬৪০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-038",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 35000 and 25000 respectively in a business. If the total profit is 60000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৩৫০০০ আৰু ২৫০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৬০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25000000",
+        "as": "২৫০০০০০০"
+      },
+      {
+        "en": "17500000",
+        "as": "১৭৫০০০০০"
+      },
+      {
+        "en": "35000000",
+        "as": "৩৫০০০০০০"
+      },
+      {
+        "en": "70000000",
+        "as": "৭০০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capitals are in the ratio 35,000 : 25,000 = 7 : 5, so A holds 7 of the 12 parts. A's share = 60,000,000 × 7/12 = 35,000,000.",
+      "as": "মূলধনৰ অনুপাত ৩৫,০০০ : ২৫,০০০ = ৭ : ৫, সেয়ে A ৰ অংশ ১২ ভাগৰ ৭ ভাগ। A ৰ অংশ = ৬০,০০০,০০০ × ৭/১২ = ৩৫,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-039",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 48000 and 32000 respectively in a business. If the total profit is 100000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৪৮০০০ আৰু ৩২০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১০০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40000000",
+        "as": "৪০০০০০০০"
+      },
+      {
+        "en": "30000000",
+        "as": "৩০০০০০০০"
+      },
+      {
+        "en": "120000000",
+        "as": "১২০০০০০০০"
+      },
+      {
+        "en": "60000000",
+        "as": "৬০০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capitals are in the ratio 48,000 : 32,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 100,000,000 × 3/5 = 60,000,000.",
+      "as": "মূলধনৰ অনুপাত ৪৮,০০০ : ৩২,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ১০০,০০০,০০০ × ৩/৫ = ৬০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-040",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 64000 and 48000 respectively in a business. If the total profit is 168000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৬৪০০০ আৰু ৪৮০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১৬৮০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "72000000",
+        "as": "৭২০০০০০০"
+      },
+      {
+        "en": "48000000",
+        "as": "৪৮০০০০০০"
+      },
+      {
+        "en": "96000000",
+        "as": "৯৬০০০০০০"
+      },
+      {
+        "en": "192000000",
+        "as": "১৯২০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capitals are in the ratio 64,000 : 48,000 = 4 : 3, so A holds 4 of the 7 parts. A's share = 168,000,000 × 4/7 = 96,000,000.",
+      "as": "মূলধনৰ অনুপাত ৬৪,০০০ : ৪৮,০০০ = ৪ : ৩, সেয়ে A ৰ অংশ ৭ ভাগৰ ৪ ভাগ। A ৰ অংশ = ১৬৮,০০০,০০০ × ৪/৭ = ৯৬,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-041",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 72000 and 54000 respectively in a business. If the total profit is 220500000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৭২০০০ আৰু ৫৪০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২২০৫০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "94500000",
+        "as": "৯৪৫০০০০০"
+      },
+      {
+        "en": "126000000",
+        "as": "১২৬০০০০০০"
+      },
+      {
+        "en": "63000000",
+        "as": "৬৩০০০০০০"
+      },
+      {
+        "en": "252000000",
+        "as": "২৫২০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capitals are in the ratio 72,000 : 54,000 = 4 : 3, so A holds 4 of the 7 parts. A's share = 220,500,000 × 4/7 = 126,000,000.",
+      "as": "মূলধনৰ অনুপাত ৭২,০০০ : ৫৪,০০০ = ৪ : ৩, সেয়ে A ৰ অংশ ৭ ভাগৰ ৪ ভাগ। A ৰ অংশ = ২২০,৫০০,০০০ × ৪/৭ = ১২৬,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-042",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 84000 and 56000 respectively in a business. If the total profit is 280000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৮৪০০০ আৰু ৫৬০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২৮০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "168000000",
+        "as": "১৬৮০০০০০০"
+      },
+      {
+        "en": "112000000",
+        "as": "১১২০০০০০০"
+      },
+      {
+        "en": "84000000",
+        "as": "৮৪০০০০০০"
+      },
+      {
+        "en": "336000000",
+        "as": "৩৩৬০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capitals are in the ratio 84,000 : 56,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 280,000,000 × 3/5 = 168,000,000.",
+      "as": "মূলধনৰ অনুপাত ৮৪,০০০ : ৫৬,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ২৮০,০০০,০০০ × ৩/৫ = ১৬৮,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-043",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 96000 and 64000 respectively in a business. If the total profit is 360000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ৯৬০০০ আৰু ৬৪০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৩৬০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144000000",
+        "as": "১৪৪০০০০০০"
+      },
+      {
+        "en": "108000000",
+        "as": "১০৮০০০০০০"
+      },
+      {
+        "en": "432000000",
+        "as": "৪৩২০০০০০০"
+      },
+      {
+        "en": "216000000",
+        "as": "২১৬০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capitals are in the ratio 96,000 : 64,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 360,000,000 × 3/5 = 216,000,000.",
+      "as": "মূলধনৰ অনুপাত ৯৬,০০০ : ৬৪,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ৩৬০,০০০,০০০ × ৩/৫ = ২১৬,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-044",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 108000 and 72000 respectively in a business. If the total profit is 450000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ১০৮০০০ আৰু ৭২০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৪৫০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180000000",
+        "as": "১৮০০০০০০০"
+      },
+      {
+        "en": "270000000",
+        "as": "২৭০০০০০০০"
+      },
+      {
+        "en": "135000000",
+        "as": "১৩৫০০০০০০"
+      },
+      {
+        "en": "540000000",
+        "as": "৫৪০০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capitals are in the ratio 108,000 : 72,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 450,000,000 × 3/5 = 270,000,000.",
+      "as": "মূলধনৰ অনুপাত ১০৮,০০০ : ৭২,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ৪৫০,০০০,০০০ × ৩/৫ = ২৭০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-045",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 120000 and 90000 respectively in a business. If the total profit is 577500000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ১২০০০০ আৰু ৯০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৫৭৭৫০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "247500000",
+        "as": "২৪৭৫০০০০০"
+      },
+      {
+        "en": "165000000",
+        "as": "১৬৫০০০০০০"
+      },
+      {
+        "en": "330000000",
+        "as": "৩৩০০০০০০০"
+      },
+      {
+        "en": "660000000",
+        "as": "৬৬০০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capitals are in the ratio 120,000 : 90,000 = 4 : 3, so A holds 4 of the 7 parts. A's share = 577,500,000 × 4/7 = 330,000,000.",
+      "as": "মূলধনৰ অনুপাত ১২০,০০০ : ৯০,০০০ = ৪ : ৩, সেয়ে A ৰ অংশ ৭ ভাগৰ ৪ ভাগ। A ৰ অংশ = ৫৭৭,৫০০,০০০ × ৪/৭ = ৩৩০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-046",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 135000 and 90000 respectively in a business. If the total profit is 675000000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ১৩৫০০০ আৰু ৯০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৬৭৫০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "270000000",
+        "as": "২৭০০০০০০০"
+      },
+      {
+        "en": "202500000",
+        "as": "২০২৫০০০০০"
+      },
+      {
+        "en": "810000000",
+        "as": "৮১০০০০০০০"
+      },
+      {
+        "en": "405000000",
+        "as": "৪০৫০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capitals are in the ratio 135,000 : 90,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 675,000,000 × 3/5 = 405,000,000.",
+      "as": "মূলধনৰ অনুপাত ১৩৫,০০০ : ৯০,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ৬৭৫,০০০,০০০ × ৩/৫ = ৪০৫,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-047",
+    "leaf": "partnership",
+    "q": {
+      "en": "A and B invest 150000 and 100000 respectively in a business. If the total profit is 812500000, find A's share.",
+      "as": "A আৰু B এ ব্যৱসায়ত ক্ৰমে ১৫০০০০ আৰু ১০০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৮১২৫০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "487500000",
+        "as": "৪৮৭৫০০০০০"
+      },
+      {
+        "en": "325000000",
+        "as": "৩২৫০০০০০০"
+      },
+      {
+        "en": "243750000",
+        "as": "২৪৩৭৫০০০০"
+      },
+      {
+        "en": "975000000",
+        "as": "৯৭৫০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capitals are in the ratio 150,000 : 100,000 = 3 : 2, so A holds 3 of the 5 parts. A's share = 812,500,000 × 3/5 = 487,500,000.",
+      "as": "মূলধনৰ অনুপাত ১৫০,০০০ : ১০০,০০০ = ৩ : ২, সেয়ে A ৰ অংশ ৫ ভাগৰ ৩ ভাগ। A ৰ অংশ = ৮১২,৫০০,০০০ × ৩/৫ = ৪৮৭,৫০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-048",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 18000 for 12 months and B invests 24000 for 9 months. If the total profit is 216000000, find A's share.",
+      "as": "A এ ১২ মাহৰ বাবে ১৮০০০ টকা আৰু B এ ৯ মাহৰ বাবে ২৪০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২১৬০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108000000",
+        "as": "১০৮০০০০০০"
+      },
+      {
+        "en": "54000000",
+        "as": "৫৪০০০০০০"
+      },
+      {
+        "en": "216000000",
+        "as": "২১৬০০০০০০"
+      },
+      {
+        "en": "108000001",
+        "as": "১০৮০০০০০১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capital × time: A = 18,000 × 12.0 = 216,000, B = 24,000 × 9.0 = 216,000, so the ratio is 216,000 : 216,000 = 1 : 1. A's share = 216,000,000 × 1/2 = 108,000,000.",
+      "as": "মূলধন × সময়: A = ১৮,০০০ × ১২ = ২১৬,০০০, B = ২৪,০০০ × ৯ = ২১৬,০০০; অনুপাত ১ : ১। A ৰ অংশ = ১০৮,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-049",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 22000 for 10 months and B invests 33000 for 8 months. If the total profit is 290400000, find A's share.",
+      "as": "A এ ১০ মাহৰ বাবে ২২০০০ টকা আৰু B এ ৮ মাহৰ বাবে ৩৩০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২৯০৪০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "158400000",
+        "as": "১৫৮৪০০০০০"
+      },
+      {
+        "en": "132000000",
+        "as": "১৩২০০০০০০"
+      },
+      {
+        "en": "66000000",
+        "as": "৬৬০০০০০০"
+      },
+      {
+        "en": "264000000",
+        "as": "২৬৪০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capital × time: A = 22,000 × 10.0 = 220,000, B = 33,000 × 8.0 = 264,000, so the ratio is 220,000 : 264,000 = 5 : 6. A's share = 290,400,000 × 5/11 = 132,000,000.",
+      "as": "মূলধন × সময়: A = ২২,০০০ × ১০ = ২২০,০০০, B = ৩৩,০০০ × ৮ = ২৬৪,০০০; অনুপাত ৫ : ৬। A ৰ অংশ = ১৩২,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-050",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 26000 for 9 months and B invests 39000 for 6 months. If the total profit is 327600000, find A's share.",
+      "as": "A এ ৯ মাহৰ বাবে ২৬০০০ টকা আৰু B এ ৬ মাহৰ বাবে ৩৯০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৩২৭৬০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "81900000",
+        "as": "৮১৯০০০০০"
+      },
+      {
+        "en": "327600000",
+        "as": "৩২৭৬০০০০০"
+      },
+      {
+        "en": "163800000",
+        "as": "১৬৩৮০০০০০"
+      },
+      {
+        "en": "163800001",
+        "as": "১৬৩৮০০০০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capital × time: A = 26,000 × 9.0 = 234,000, B = 39,000 × 6.0 = 234,000, so the ratio is 234,000 : 234,000 = 1 : 1. A's share = 327,600,000 × 1/2 = 163,800,000.",
+      "as": "মূলধন × সময়: A = ২৬,০০০ × ৯ = ২৩৪,০০০, B = ৩৯,০০০ × ৬ = ২৩৪,০০০; অনুপাত ১ : ১। A ৰ অংশ = ১৬৩,৮০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-051",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 30000 for 12 months and B invests 45000 for 4 months. If the total profit is 432000000, find A's share.",
+      "as": "A এ ১২ মাহৰ বাবে ৩০০০০ টকা আৰু B এ ৪ মাহৰ বাবে ৪৫০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৪৩২০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144000000",
+        "as": "১৪৪০০০০০০"
+      },
+      {
+        "en": "576000000",
+        "as": "৫৭৬০০০০০০"
+      },
+      {
+        "en": "288000001",
+        "as": "২৮৮০০০০০১"
+      },
+      {
+        "en": "288000000",
+        "as": "২৮৮০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capital × time: A = 30,000 × 12.0 = 360,000, B = 45,000 × 4.0 = 180,000, so the ratio is 360,000 : 180,000 = 2 : 1. A's share = 432,000,000 × 2/3 = 288,000,000.",
+      "as": "মূলধন × সময়: A = ৩০,০০০ × ১২ = ৩৬০,০০০, B = ৪৫,০০০ × ৪ = ১৮০,০০০; অনুপাত ২ : ১। A ৰ অংশ = ২৮৮,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-052",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 36000 for 8 months and B invests 48000 for 12 months. If the total profit is 777600000, find A's share.",
+      "as": "A এ ৮ মাহৰ বাবে ৩৬০০০ টকা আৰু B এ ১২ মাহৰ বাবে ৪৮০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৭৭৭৬০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "518400000",
+        "as": "৫১৮৪০০০০০"
+      },
+      {
+        "en": "129600000",
+        "as": "১২৯৬০০০০০"
+      },
+      {
+        "en": "259200000",
+        "as": "২৫৯২০০০০০"
+      },
+      {
+        "en": "259200001",
+        "as": "২৫৯২০০০০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capital × time: A = 36,000 × 8.0 = 288,000, B = 48,000 × 12.0 = 576,000, so the ratio is 288,000 : 576,000 = 1 : 2. A's share = 777,600,000 × 1/3 = 259,200,000.",
+      "as": "মূলধন × সময়: A = ৩৬,০০০ × ৮ = ২৮৮,০০০, B = ৪৮,০০০ × ১২ = ৫৭৬,০০০; অনুপাত ১ : ২। A ৰ অংশ = ২৫৯,২০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-053",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 42000 for 6 months and B invests 56000 for 9 months. If the total profit is 756000000, find A's share.",
+      "as": "A এ ৬ মাহৰ বাবে ৪২০০০ টকা আৰু B এ ৯ মাহৰ বাবে ৫৬০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৭৫৬০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "504000000",
+        "as": "৫০৪০০০০০০"
+      },
+      {
+        "en": "252000000",
+        "as": "২৫২০০০০০০"
+      },
+      {
+        "en": "126000000",
+        "as": "১২৬০০০০০০"
+      },
+      {
+        "en": "252000001",
+        "as": "২৫২০০০০০১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capital × time: A = 42,000 × 6.0 = 252,000, B = 56,000 × 9.0 = 504,000, so the ratio is 252,000 : 504,000 = 1 : 2. A's share = 756,000,000 × 1/3 = 252,000,000.",
+      "as": "মূলধন × সময়: A = ৪২,০০০ × ৬ = ২৫২,০০০, B = ৫৬,০০০ × ৯ = ৫০৪,০০০; অনুপাত ১ : ২। A ৰ অংশ = ২৫২,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-054",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 48000 for 10 months and B invests 60000 for 5 months. If the total profit is 858000000, find A's share.",
+      "as": "A এ ১০ মাহৰ বাবে ৪৮০০০ টকা আৰু B এ ৫ মাহৰ বাবে ৬০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৮৫৮০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "528000000",
+        "as": "৫২৮০০০০০০"
+      },
+      {
+        "en": "330000000",
+        "as": "৩৩০০০০০০০"
+      },
+      {
+        "en": "264000000",
+        "as": "২৬৪০০০০০০"
+      },
+      {
+        "en": "1056000000",
+        "as": "১০৫৬০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Capital × time: A = 48,000 × 10.0 = 480,000, B = 60,000 × 5.0 = 300,000, so the ratio is 480,000 : 300,000 = 8 : 5. A's share = 858,000,000 × 8/13 = 528,000,000.",
+      "as": "মূলধন × সময়: A = ৪৮,০০০ × ১০ = ৪৮০,০০০, B = ৬০,০০০ × ৫ = ৩০০,০০০; অনুপাত ৮ : ৫। A ৰ অংশ = ৫২৮,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-055",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 54000 for 9 months and B invests 72000 for 6 months. If the total profit is 1101600000, find A's share.",
+      "as": "A এ ৯ মাহৰ বাবে ৫৪০০০ টকা আৰু B এ ৬ মাহৰ বাবে ৭২০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১১০১৬০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "518400000",
+        "as": "৫১৮৪০০০০০"
+      },
+      {
+        "en": "291600000",
+        "as": "২৯১৬০০০০০"
+      },
+      {
+        "en": "1166400000",
+        "as": "১১৬৬৪০০০০০"
+      },
+      {
+        "en": "583200000",
+        "as": "৫৮৩২০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Capital × time: A = 54,000 × 9.0 = 486,000, B = 72,000 × 6.0 = 432,000, so the ratio is 486,000 : 432,000 = 9 : 8. A's share = 1,101,600,000 × 9/17 = 583,200,000.",
+      "as": "মূলধন × সময়: A = ৫৪,০০০ × ৯ = ৪৮৬,০০০, B = ৭২,০০০ × ৬ = ৪৩২,০০০; অনুপাত ৯ : ৮। A ৰ অংশ = ৫৮৩,২০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-056",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 60000 for 12 months and B invests 80000 for 3 months. If the total profit is 1248000000, find A's share.",
+      "as": "A এ ১২ মাহৰ বাবে ৬০০০০ টকা আৰু B এ ৩ মাহৰ বাবে ৮০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১২৪৮০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "312000000",
+        "as": "৩১২০০০০০০"
+      },
+      {
+        "en": "936000000",
+        "as": "৯৩৬০০০০০০"
+      },
+      {
+        "en": "468000000",
+        "as": "৪৬৮০০০০০০"
+      },
+      {
+        "en": "1872000000",
+        "as": "১৮৭২০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Capital × time: A = 60,000 × 12.0 = 720,000, B = 80,000 × 3.0 = 240,000, so the ratio is 720,000 : 240,000 = 3 : 1. A's share = 1,248,000,000 × 3/4 = 936,000,000.",
+      "as": "মূলধন × সময়: A = ৬০,০০০ × ১২ = ৭২০,০০০, B = ৮০,০০০ × ৩ = ২৪০,০০০; অনুপাত ৩ : ১। A ৰ অংশ = ৯৩৬,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-057",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 66000 for 8 months and B invests 88000 for 12 months. If the total profit is 2217600000, find A's share.",
+      "as": "A এ ৮ মাহৰ বাবে ৬৬০০০ টকা আৰু B এ ১২ মাহৰ বাবে ৮৮০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২২১৭৬০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1478400000",
+        "as": "১৪৭৮৪০০০০০"
+      },
+      {
+        "en": "369600000",
+        "as": "৩৬৯৬০০০০০"
+      },
+      {
+        "en": "739200000",
+        "as": "৭৩৯২০০০০০"
+      },
+      {
+        "en": "739200001",
+        "as": "৭৩৯২০০০০১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Capital × time: A = 66,000 × 8.0 = 528,000, B = 88,000 × 12.0 = 1,056,000, so the ratio is 528,000 : 1,056,000 = 1 : 2. A's share = 2,217,600,000 × 1/3 = 739,200,000.",
+      "as": "মূলধন × সময়: A = ৬৬,০০০ × ৮ = ৫২৮,০০০, B = ৮৮,০০০ × ১২ = ১,০৫৬,০০০; অনুপাত ১ : ২। A ৰ অংশ = ৭৩৯,২০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-058",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 25000, 35000 and 45000 respectively. If the total profit is 63000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ২৫০০০, ৩৫০০০ আৰু ৪৫০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৬৩০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "21000000",
+        "as": "২১০০০০০০"
+      },
+      {
+        "en": "27000000",
+        "as": "২৭০০০০০০"
+      },
+      {
+        "en": "7500000",
+        "as": "৭৫০০০০০"
+      },
+      {
+        "en": "15000000",
+        "as": "১৫০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capitals 25,000 : 35,000 : 45,000 reduce to 5 : 7 : 9, a total of 21 parts. A's share = 63,000,000 × 5/21 = 15,000,000.",
+      "as": "মূলধন ২৫,০০০ : ৩৫,০০০ : ৪৫,০০০ ৰ সৰল ৰূপ ৫ : ৭ : ৯। A ৰ অংশ = ১৫,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-059",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 30000, 50000 and 70000 respectively. If the total profit is 120000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৩০০০০, ৫০০০০ আৰু ৭০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১২০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24000000",
+        "as": "২৪০০০০০০"
+      },
+      {
+        "en": "40000000",
+        "as": "৪০০০০০০০"
+      },
+      {
+        "en": "56000000",
+        "as": "৫৬০০০০০০"
+      },
+      {
+        "en": "12000000",
+        "as": "১২০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capitals 30,000 : 50,000 : 70,000 reduce to 3 : 5 : 7, a total of 15 parts. A's share = 120,000,000 × 3/15 = 24,000,000.",
+      "as": "মূলধন ৩০,০০০ : ৫০,০০০ : ৭০,০০০ ৰ সৰল ৰূপ ৩ : ৫ : ৭। A ৰ অংশ = ২৪,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-060",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 40000, 60000 and 80000 respectively. If the total profit is 180000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৪০০০০, ৬০০০০ আৰু ৮০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ১৮০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40000000",
+        "as": "৪০০০০০০০"
+      },
+      {
+        "en": "60000000",
+        "as": "৬০০০০০০০"
+      },
+      {
+        "en": "80000000",
+        "as": "৮০০০০০০০"
+      },
+      {
+        "en": "20000000",
+        "as": "২০০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The capitals 40,000 : 60,000 : 80,000 reduce to 2 : 3 : 4, a total of 9 parts. A's share = 180,000,000 × 2/9 = 40,000,000.",
+      "as": "মূলধন ৪০,০০০ : ৬০,০০০ : ৮০,০০০ ৰ সৰল ৰূপ ২ : ৩ : ৪। A ৰ অংশ = ৪০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-061",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 45000, 75000 and 105000 respectively. If the total profit is 270000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৪৫০০০, ৭৫০০০ আৰু ১০৫০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ২৭০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90000000",
+        "as": "৯০০০০০০০"
+      },
+      {
+        "en": "54000000",
+        "as": "৫৪০০০০০০"
+      },
+      {
+        "en": "126000000",
+        "as": "১২৬০০০০০০"
+      },
+      {
+        "en": "27000000",
+        "as": "২৭০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The capitals 45,000 : 75,000 : 105,000 reduce to 3 : 5 : 7, a total of 15 parts. A's share = 270,000,000 × 3/15 = 54,000,000.",
+      "as": "মূলধন ৪৫,০০০ : ৭৫,০০০ : ১০৫,০০০ ৰ সৰল ৰূপ ৩ : ৫ : ৭। A ৰ অংশ = ৫৪,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-062",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 50000, 75000 and 100000 respectively. If the total profit is 315000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৫০০০০, ৭৫০০০ আৰু ১০০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৩১৫০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105000000",
+        "as": "১০৫০০০০০০"
+      },
+      {
+        "en": "140000000",
+        "as": "১৪০০০০০০০"
+      },
+      {
+        "en": "70000000",
+        "as": "৭০০০০০০০"
+      },
+      {
+        "en": "35000000",
+        "as": "৩৫০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The capitals 50,000 : 75,000 : 100,000 reduce to 2 : 3 : 4, a total of 9 parts. A's share = 315,000,000 × 2/9 = 70,000,000.",
+      "as": "মূলধন ৫০,০০০ : ৭৫,০০০ : ১০০,০০০ ৰ সৰল ৰূপ ২ : ৩ : ৪। A ৰ অংশ = ৭০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-063",
+    "leaf": "partnership",
+    "q": {
+      "en": "A, B and C invest 60000, 90000 and 120000 respectively. If the total profit is 432000000, find A's share.",
+      "as": "A, B আৰু C এ ক্ৰমে ৬০০০০, ৯০০০০ আৰু ১২০০০০ টকা বিনিয়োগ কৰে। মুঠ লাভ ৪৩২০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144000000",
+        "as": "১৪৪০০০০০০"
+      },
+      {
+        "en": "192000000",
+        "as": "১৯২০০০০০০"
+      },
+      {
+        "en": "48000000",
+        "as": "৪৮০০০০০০"
+      },
+      {
+        "en": "96000000",
+        "as": "৯৬০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The capitals 60,000 : 90,000 : 120,000 reduce to 2 : 3 : 4, a total of 9 parts. A's share = 432,000,000 × 2/9 = 96,000,000.",
+      "as": "মূলধন ৬০,০০০ : ৯০,০০০ : ১২০,০০০ ৰ সৰল ৰূপ ২ : ৩ : ৪। A ৰ অংশ = ৯৬,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-064",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 50000. After 3 months, B joins with 40000. If the annual profit is 768000000, find A's share.",
+      "as": "A এ ৫০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৪০০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ৭৬৮০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "288000000",
+        "as": "২৮৮০০০০০০"
+      },
+      {
+        "en": "240000000",
+        "as": "২৪০০০০০০০"
+      },
+      {
+        "en": "480000000",
+        "as": "৪৮০০০০০০০"
+      },
+      {
+        "en": "960000000",
+        "as": "৯৬০০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A works the whole year: 50,000 × 12 = 600,000. B works only 9 months: 40,000 × 9 = 360,000. Ratio 5 : 3, so A's share = 768,000,000 × 5/8 = 480,000,000.",
+      "as": "A ৰ বছৰজোৰা: ৫০,০০০ × ১২ = ৬০০,০০০; B ৰ ৯ মাহ: ৪০,০০০ × ৯ = ৩৬০,০০০। A ৰ অংশ = ৪৮০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-065",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 70000. After 3 months, B joins with 50000. If the annual profit is 1290000000, find A's share.",
+      "as": "A এ ৭০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৫০০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ১২৯০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "450000000",
+        "as": "৪৫০০০০০০০"
+      },
+      {
+        "en": "840000000",
+        "as": "৮৪০০০০০০০"
+      },
+      {
+        "en": "420000000",
+        "as": "৪২০০০০০০০"
+      },
+      {
+        "en": "1680000000",
+        "as": "১৬৮০০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A works the whole year: 70,000 × 12 = 840,000. B works only 9 months: 50,000 × 9 = 450,000. Ratio 28 : 15, so A's share = 1,290,000,000 × 28/43 = 840,000,000.",
+      "as": "A ৰ বছৰজোৰা: ৭০,০০০ × ১২ = ৮৪০,০০০; B ৰ ৯ মাহ: ৫০,০০০ × ৯ = ৪৫০,০০০। A ৰ অংশ = ৮৪০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-066",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 80000. After 3 months, B joins with 60000. If the annual profit is 1800000000, find A's share.",
+      "as": "A এ ৮০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৬০০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ১৮০০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1152000000",
+        "as": "১১৫২০০০০০০"
+      },
+      {
+        "en": "648000000",
+        "as": "৬৪৮০০০০০০"
+      },
+      {
+        "en": "576000000",
+        "as": "৫৭৬০০০০০০"
+      },
+      {
+        "en": "2304000000",
+        "as": "২৩০৪০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A works the whole year: 80,000 × 12 = 960,000. B works only 9 months: 60,000 × 9 = 540,000. Ratio 16 : 9, so A's share = 1,800,000,000 × 16/25 = 1,152,000,000.",
+      "as": "A ৰ বছৰজোৰা: ৮০,০০০ × ১২ = ৯৬০,০০০; B ৰ ৯ মাহ: ৬০,০০০ × ৯ = ৫৪০,০০০। A ৰ অংশ = ১,১৫২,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-067",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 100000. After 3 months, B joins with 75000. If the annual profit is 2625000000, find A's share.",
+      "as": "A এ ১০০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৭৫০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ২৬২৫০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "945000000",
+        "as": "৯৪৫০০০০০০"
+      },
+      {
+        "en": "840000000",
+        "as": "৮৪০০০০০০০"
+      },
+      {
+        "en": "3360000000",
+        "as": "৩৩৬০০০০০০০"
+      },
+      {
+        "en": "1680000000",
+        "as": "১৬৮০০০০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A works the whole year: 100,000 × 12 = 1,200,000. B works only 9 months: 75,000 × 9 = 675,000. Ratio 16 : 9, so A's share = 2,625,000,000 × 16/25 = 1,680,000,000.",
+      "as": "A ৰ বছৰজোৰা: ১০০,০০০ × ১২ = ১,২০০,০০০; B ৰ ৯ মাহ: ৭৫,০০০ × ৯ = ৬৭৫,০০০। A ৰ অংশ = ১,৬৮০,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-068",
+    "leaf": "partnership",
+    "q": {
+      "en": "A starts a business with 120000. After 3 months, B joins with 90000. If the annual profit is 3600000000, find A's share.",
+      "as": "A এ ১২০০০০ টকাৰে ব্যৱসায় আৰম্ভ কৰে। ৩ মাহৰ পিছত B এ ৯০০০০ টকাৰে যোগ দিয়ে। বছৰেকীয়া লাভ ৩৬০০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1296000000",
+        "as": "১২৯৬০০০০০০"
+      },
+      {
+        "en": "2304000000",
+        "as": "২৩০৪০০০০০০"
+      },
+      {
+        "en": "1152000000",
+        "as": "১১৫২০০০০০০"
+      },
+      {
+        "en": "4608000000",
+        "as": "৪৬০৮০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A works the whole year: 120,000 × 12 = 1,440,000. B works only 9 months: 90,000 × 9 = 810,000. Ratio 16 : 9, so A's share = 3,600,000,000 × 16/25 = 2,304,000,000.",
+      "as": "A ৰ বছৰজোৰা: ১২০,০০০ × ১২ = ১,৪৪০,০০০; B ৰ ৯ মাহ: ৯০,০০০ × ৯ = ৮১০,০০০। A ৰ অংশ = ২,৩০৪,০০০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-069",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 3 : 2. If A's share is 21000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৩ : ২ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ২১০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14000",
+        "as": "১৪০০০"
+      },
+      {
+        "en": "56000",
+        "as": "৫৬০০০"
+      },
+      {
+        "en": "35000",
+        "as": "৩৫০০০"
+      },
+      {
+        "en": "10500",
+        "as": "১০৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 35,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ৩৫,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-070",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 5 : 3. If A's share is 30000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৫ : ৩ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৩০০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18000",
+        "as": "১৮০০০"
+      },
+      {
+        "en": "78000",
+        "as": "৭৮০০০"
+      },
+      {
+        "en": "15000",
+        "as": "১৫০০০"
+      },
+      {
+        "en": "48000",
+        "as": "৪৮০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 48,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ৪৮,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-071",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 7 : 4. If A's share is 42000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৭ : ৪ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৪২০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "66000",
+        "as": "৬৬০০০"
+      },
+      {
+        "en": "24000",
+        "as": "২৪০০০"
+      },
+      {
+        "en": "108000",
+        "as": "১০৮০০০"
+      },
+      {
+        "en": "21000",
+        "as": "২১০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 66,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ৬৬,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-072",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 9 : 5. If A's share is 54000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ৯ : ৫ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৫৪০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "84000",
+        "as": "৮৪০০০"
+      },
+      {
+        "en": "30000",
+        "as": "৩০০০০"
+      },
+      {
+        "en": "138000",
+        "as": "১৩৮০০০"
+      },
+      {
+        "en": "27000",
+        "as": "২৭০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 84,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ৮৪,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-073",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 11 : 6. If A's share is 66000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ১১ : ৬ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৬৬০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36000",
+        "as": "৩৬০০০"
+      },
+      {
+        "en": "102000",
+        "as": "১০২০০০"
+      },
+      {
+        "en": "168000",
+        "as": "১৬৮০০০"
+      },
+      {
+        "en": "33000",
+        "as": "৩৩০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 102,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ১০২,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-074",
+    "leaf": "partnership",
+    "q": {
+      "en": "In a partnership, A and B share profits in the ratio 13 : 7. If A's share is 78000, find the total profit.",
+      "as": "এটা অংশীদাৰিত্বত A আৰু B এ ১৩ : ৭ অনুপাতত লাভ ভাগ কৰে। A ৰ অংশ ৭৮০০০ হ'লে মুঠ লাভ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "42000",
+        "as": "৪২০০০"
+      },
+      {
+        "en": "198000",
+        "as": "১৯৮০০০"
+      },
+      {
+        "en": "120000",
+        "as": "১২০০০০"
+      },
+      {
+        "en": "39000",
+        "as": "৩৯০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Add the given parts and the total comes to 120,000.",
+      "as": "দিয়া অংশবোৰ যোগ কৰিলে মুঠ ১২০,০০০ হয়।"
+    }
+  },
+  {
+    "id": "num-partnership-075",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 24000 for 10 months and B invests 36000. If their profit shares are in the ratio 5 : 6, for how many months did B invest?",
+      "as": "A এ ১০ মাহৰ বাবে ২৪০০০ টকা আৰু B এ ৩৬০০০ টকা বিনিয়োগ কৰে। লাভৰ অনুপাত ৫ : ৬ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit shares follow capital × time, so 5 : 6 = 24,000×10 : 36,000×t. Solving gives t = (6 × 24,000 × 10) ÷ (5 × 36,000) = 8 months.",
+      "as": "লাভৰ অনুপাত মূলধন × সময়ৰ অনুপাত, সেয়ে ৫.০ : ৬.০ = ২৪,০০০×১০ : ৩৬,০০০×t; ইয়াৰপৰা t = ৮ মাহ।"
+    }
+  },
+  {
+    "id": "num-partnership-076",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 32000 for 9 months and B invests 48000. If their profit shares are in the ratio 1 : 1, for how many months did B invest?",
+      "as": "A এ ৯ মাহৰ বাবে ৩২০০০ টকা আৰু B এ ৪৮০০০ টকা বিনিয়োগ কৰে। লাভৰ অনুপাত ১ : ১ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Profit shares follow capital × time, so 1 : 1 = 32,000×9 : 48,000×t. Solving gives t = (1 × 32,000 × 9) ÷ (1 × 48,000) = 6 months.",
+      "as": "লাভৰ অনুপাত মূলধন × সময়ৰ অনুপাত, সেয়ে ১.০ : ১.০ = ৩২,০০০×৯ : ৪৮,০০০×t; ইয়াৰপৰা t = ৬ মাহ।"
+    }
+  },
+  {
+    "id": "num-partnership-077",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 40000 for 12 months and B invests 60000. If their profit shares are in the ratio 8 : 5, for how many months did B invest?",
+      "as": "A এ ১২ মাহৰ বাবে ৪০০০০ টকা আৰু B এ ৬০০০০ টকা বিনিয়োগ কৰে। লাভৰ অনুপাত ৮ : ৫ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Profit shares follow capital × time, so 8 : 5 = 40,000×12 : 60,000×t. Solving gives t = (5 × 40,000 × 12) ÷ (8 × 60,000) = 5 months.",
+      "as": "লাভৰ অনুপাত মূলধন × সময়ৰ অনুপাত, সেয়ে ৮.০ : ৫.০ = ৪০,০০০×১২ : ৬০,০০০×t; ইয়াৰপৰা t = ৫ মাহ।"
+    }
+  },
+  {
+    "id": "num-partnership-078",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 48000 for 8 months and B invests 72000. If their profit shares are in the ratio 4 : 3, for how many months did B invest?",
+      "as": "A এ ৮ মাহৰ বাবে ৪৮০০০ টকা আৰু B এ ৭২০০০ টকা বিনিয়োগ কৰে। লাভৰ অনুপাত ৪ : ৩ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Profit shares follow capital × time, so 4 : 3 = 48,000×8 : 72,000×t. Solving gives t = (3 × 48,000 × 8) ÷ (4 × 72,000) = 4 months.",
+      "as": "লাভৰ অনুপাত মূলধন × সময়ৰ অনুপাত, সেয়ে ৪.০ : ৩.০ = ৪৮,০০০×৮ : ৭২,০০০×t; ইয়াৰপৰা t = ৪ মাহ।"
+    }
+  },
+  {
+    "id": "num-partnership-079",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 56000 for 6 months and B invests 84000. If their profit shares are in the ratio 4 : 9, for how many months did B invest?",
+      "as": "A এ ৬ মাহৰ বাবে ৫৬০০০ টকা আৰু B এ ৮৪০০০ টকা বিনিয়োগ কৰে। লাভৰ অনুপাত ৪ : ৯ হ'লে B এ কিমান মাহ বিনিয়োগ কৰিছিল?"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Profit shares follow capital × time, so 4 : 9 = 56,000×6 : 84,000×t. Solving gives t = (9 × 56,000 × 6) ÷ (4 × 84,000) = 9 months.",
+      "as": "লাভৰ অনুপাত মূলধন × সময়ৰ অনুপাত, সেয়ে ৪.০ : ৯.০ = ৫৬,০০০×৬ : ৮৪,০০০×t; ইয়াৰপৰা t = ৯ মাহ।"
+    }
+  },
+  {
+    "id": "num-partnership-080",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 36000 for 12 months and B invests for 8 months. If their profit shares are in the ratio 1 : 1, find B's investment.",
+      "as": "A এ ১২ মাহৰ বাবে ৩৬০০০ টকা আৰু B এ ৮ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ১ : ১ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108000",
+        "as": "১০৮০০০"
+      },
+      {
+        "en": "54000",
+        "as": "৫৪০০০"
+      },
+      {
+        "en": "27000",
+        "as": "২৭০০০"
+      },
+      {
+        "en": "59000",
+        "as": "৫৯০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "1 : 1 = 36,000×12 : B×8, so B = (1 × 36,000 × 12) ÷ (1 × 8) = 54,000.",
+      "as": "১.০ : ১.০ = ৩৬,০০০×১২ : B×৮, সেয়ে B ৰ বিনিয়োগ = ৫৪,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-081",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 48000 for 9 months and B invests for 6 months. If their profit shares are in the ratio 1 : 1, find B's investment.",
+      "as": "A এ ৯ মাহৰ বাবে ৪৮০০০ টকা আৰু B এ ৬ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ১ : ১ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "144000",
+        "as": "১৪৪০০০"
+      },
+      {
+        "en": "36000",
+        "as": "৩৬০০০"
+      },
+      {
+        "en": "72000",
+        "as": "৭২০০০"
+      },
+      {
+        "en": "77000",
+        "as": "৭৭০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1 : 1 = 48,000×9 : B×6, so B = (1 × 48,000 × 9) ÷ (1 × 6) = 72,000.",
+      "as": "১.০ : ১.০ = ৪৮,০০০×৯ : B×৬, সেয়ে B ৰ বিনিয়োগ = ৭২,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-082",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 60000 for 6 months and B invests for 10 months. If their profit shares are in the ratio 2 : 5, find B's investment.",
+      "as": "A এ ৬ মাহৰ বাবে ৬০০০০ টকা আৰু B এ ১০ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ২ : ৫ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "180000",
+        "as": "১৮০০০০"
+      },
+      {
+        "en": "45000",
+        "as": "৪৫০০০"
+      },
+      {
+        "en": "95000",
+        "as": "৯৫০০০"
+      },
+      {
+        "en": "90000",
+        "as": "৯০০০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "2 : 5 = 60,000×6 : B×10, so B = (5 × 60,000 × 6) ÷ (2 × 10) = 90,000.",
+      "as": "২.০ : ৫.০ = ৬০,০০০×৬ : B×১০, সেয়ে B ৰ বিনিয়োগ = ৯০,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-083",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 72000 for 10 months and B invests for 5 months. If their profit shares are in the ratio 4 : 3, find B's investment.",
+      "as": "A এ ১০ মাহৰ বাবে ৭২০০০ টকা আৰু B এ ৫ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ৪ : ৩ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108000",
+        "as": "১০৮০০০"
+      },
+      {
+        "en": "216000",
+        "as": "২১৬০০০"
+      },
+      {
+        "en": "54000",
+        "as": "৫৪০০০"
+      },
+      {
+        "en": "113000",
+        "as": "১১৩০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4 : 3 = 72,000×10 : B×5, so B = (3 × 72,000 × 10) ÷ (4 × 5) = 108,000.",
+      "as": "৪.০ : ৩.০ = ৭২,০০০×১০ : B×৫, সেয়ে B ৰ বিনিয়োগ = ১০৮,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-084",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 84000 for 8 months and B invests for 12 months. If their profit shares are in the ratio 4 : 9, find B's investment.",
+      "as": "A এ ৮ মাহৰ বাবে ৮৪০০০ টকা আৰু B এ ১২ মাহৰ বাবে বিনিয়োগ কৰে। লাভৰ অনুপাত ৪ : ৯ হ'লে B ৰ বিনিয়োগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "126000",
+        "as": "১২৬০০০"
+      },
+      {
+        "en": "252000",
+        "as": "২৫২০০০"
+      },
+      {
+        "en": "63000",
+        "as": "৬৩০০০"
+      },
+      {
+        "en": "131000",
+        "as": "১৩১০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "4 : 9 = 84,000×8 : B×12, so B = (9 × 84,000 × 8) ÷ (4 × 12) = 126,000.",
+      "as": "৪.০ : ৯.০ = ৮৪,০০০×৮ : B×১২, সেয়ে B ৰ বিনিয়োগ = ১২৬,০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-085",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 28000 for 12 months and B invests 42000 for 10 months.",
+      "as": "A এ ১২ মাহৰ বাবে ২৮০০০ টকা আৰু B এ ১০ মাহৰ বাবে ৪২০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28000:42000",
+        "as": "২৮০০০:৪২০০০"
+      },
+      {
+        "en": "4:5",
+        "as": "৪:৫"
+      },
+      {
+        "en": "12:10",
+        "as": "১২:১০"
+      },
+      {
+        "en": "5:5",
+        "as": "৫:৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 4 : 5 = 4 : 5.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৪ : ৫ = ৪ : ৫।"
+    }
+  },
+  {
+    "id": "num-partnership-086",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 36000 for 8 months and B invests 54000 for 6 months.",
+      "as": "A এ ৮ মাহৰ বাবে ৩৬০০০ টকা আৰু B এ ৬ মাহৰ বাবে ৫৪০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36000:54000",
+        "as": "৩৬০০০:৫৪০০০"
+      },
+      {
+        "en": "8:6",
+        "as": "৮:৬"
+      },
+      {
+        "en": "8:9",
+        "as": "৮:৯"
+      },
+      {
+        "en": "9:9",
+        "as": "৯:৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 8 : 9 = 8 : 9.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৮ : ৯ = ৮ : ৯।"
+    }
+  },
+  {
+    "id": "num-partnership-087",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 44000 for 9 months and B invests 66000 for 4 months.",
+      "as": "A এ ৯ মাহৰ বাবে ৪৪০০০ টকা আৰু B এ ৪ মাহৰ বাবে ৬৬০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "44000:66000",
+        "as": "৪৪০০০:৬৬০০০"
+      },
+      {
+        "en": "9:4",
+        "as": "৯:৪"
+      },
+      {
+        "en": "4:2",
+        "as": "৪:২"
+      },
+      {
+        "en": "3:2",
+        "as": "৩:২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 3 : 2 = 3 : 2.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৩ : ২ = ৩ : ২।"
+    }
+  },
+  {
+    "id": "num-partnership-088",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 52000 for 10 months and B invests 78000 for 5 months.",
+      "as": "A এ ১০ মাহৰ বাবে ৫২০০০ টকা আৰু B এ ৫ মাহৰ বাবে ৭৮০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "52000:78000",
+        "as": "৫২০০০:৭৮০০০"
+      },
+      {
+        "en": "10:5",
+        "as": "১০:৫"
+      },
+      {
+        "en": "4:3",
+        "as": "৪:৩"
+      },
+      {
+        "en": "5:3",
+        "as": "৫:৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 4 : 3 = 4 : 3.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৪ : ৩ = ৪ : ৩।"
+    }
+  },
+  {
+    "id": "num-partnership-089",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 60000 for 6 months and B invests 90000 for 8 months.",
+      "as": "A এ ৬ মাহৰ বাবে ৬০০০০ টকা আৰু B এ ৮ মাহৰ বাবে ৯০০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60000:90000",
+        "as": "৬০০০০:৯০০০০"
+      },
+      {
+        "en": "1:2",
+        "as": "১:২"
+      },
+      {
+        "en": "6:8",
+        "as": "৬:৮"
+      },
+      {
+        "en": "2:2",
+        "as": "২:২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 1 : 2 = 1 : 2.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ১ : ২ = ১ : ২।"
+    }
+  },
+  {
+    "id": "num-partnership-090",
+    "leaf": "partnership",
+    "q": {
+      "en": "Find the ratio of the capitals of A and B if A invests 68000 for 12 months and B invests 102000 for 3 months.",
+      "as": "A এ ১২ মাহৰ বাবে ৬৮০০০ টকা আৰু B এ ৩ মাহৰ বাবে ১০২০০০ টকা বিনিয়োগ কৰিলে তেওঁলোকৰ মূলধনৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8:3",
+        "as": "৮:৩"
+      },
+      {
+        "en": "68000:102000",
+        "as": "৬৮০০০:১০২০০০"
+      },
+      {
+        "en": "12:3",
+        "as": "১২:৩"
+      },
+      {
+        "en": "9:3",
+        "as": "৯:৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Both quantities are already in the same unit, so cancel the common factor 1: 8 : 3 = 8 : 3.",
+      "as": "দুয়োটা ৰাশি একে এককতে আছে, সেয়ে সাধাৰণ উৎপাদক ১ কটা: ৮ : ৩ = ৮ : ৩।"
+    }
+  },
+  {
+    "id": "num-partnership-091",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 45000, B invests 75000, and A receives a salary of 6000 from a profit of 60000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৪৫০০০ আৰু B এ ৭৫০০০ বিনিয়োগ কৰে। লাভ ৬০০০০ ৰ পৰা A এ ৬০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20250",
+        "as": "২০২৫০"
+      },
+      {
+        "en": "6000",
+        "as": "৬০০০"
+      },
+      {
+        "en": "13125",
+        "as": "১৩১২৫"
+      },
+      {
+        "en": "26250",
+        "as": "২৬২৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's total income = 26250.",
+      "as": "A ৰ মুঠ আয় = ২৬২৫০।"
+    }
+  },
+  {
+    "id": "num-partnership-092",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 55000, B invests 85000, and A receives a salary of 7000 from a profit of 70000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৫৫০০০ আৰু B এ ৮৫০০০ বিনিয়োগ কৰে। লাভ ৭০০০০ ৰ পৰা A এ ৭০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24750",
+        "as": "২৪৭৫০"
+      },
+      {
+        "en": "31750",
+        "as": "৩১৭৫০"
+      },
+      {
+        "en": "7000",
+        "as": "৭০০০"
+      },
+      {
+        "en": "15875",
+        "as": "১৫৮৭৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's total income = 31750.",
+      "as": "A ৰ মুঠ আয় = ৩১৭৫০।"
+    }
+  },
+  {
+    "id": "num-partnership-093",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 65000, B invests 95000, and A receives a salary of 8000 from a profit of 80000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৬৫০০০ আৰু B এ ৯৫০০০ বিনিয়োগ কৰে। লাভ ৮০০০০ ৰ পৰা A এ ৮০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "29250",
+        "as": "২৯২৫০"
+      },
+      {
+        "en": "8000",
+        "as": "৮০০০"
+      },
+      {
+        "en": "37250",
+        "as": "৩৭২৫০"
+      },
+      {
+        "en": "18625",
+        "as": "১৮৬২৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's total income = 37250.",
+      "as": "A ৰ মুঠ আয় = ৩৭২৫০।"
+    }
+  },
+  {
+    "id": "num-partnership-094",
+    "leaf": "partnership",
+    "q": {
+      "en": "A is a working partner and B a sleeping partner. A invests 75000, B invests 105000, and A receives a salary of 9000 from a profit of 90000. Find A's total income.",
+      "as": "A কৰ্মী অংশীদাৰ আৰু B নিষ্ক্ৰিয় অংশীদাৰ। A এ ৭৫০০০ আৰু B এ ১০৫০০০ বিনিয়োগ কৰে। লাভ ৯০০০০ ৰ পৰা A এ ৯০০০ দৰমহা পায়। A ৰ মুঠ আয় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "33750",
+        "as": "৩৩৭৫০"
+      },
+      {
+        "en": "9000",
+        "as": "৯০০০"
+      },
+      {
+        "en": "21375",
+        "as": "২১৩৭৫"
+      },
+      {
+        "en": "42750",
+        "as": "৪২৭৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A's total income = 42750.",
+      "as": "A ৰ মুঠ আয় = ৪২৭৫০।"
+    }
+  },
+  {
+    "id": "num-partnership-095",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 35000 for the first 6 months and then 50000 for the next 6 months. B invests 60000 for the whole year. If the profit is 1230000000, find A's share.",
+      "as": "A এ প্ৰথম ৬ মাহ ৩৫০০০ আৰু পৰৱৰ্তী ৬ মাহ ৫০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৬০০০০ টকা বিনিয়োগ কৰে। লাভ ১২৩০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "510000000",
+        "as": "৫১০০০০০০০"
+      },
+      {
+        "en": "720000000",
+        "as": "৭২০০০০০০০"
+      },
+      {
+        "en": "255000000",
+        "as": "২৫৫০০০০০০"
+      },
+      {
+        "en": "1020000000",
+        "as": "১০২০০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 510000000.",
+      "as": "A ৰ অংশ = ৫১০০০০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-096",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 45000 for the first 4 months and then 70000 for the next 8 months. B invests 70000 for the whole year. If the profit is 1580000000, find A's share.",
+      "as": "A এ প্ৰথম ৪ মাহ ৪৫০০০ আৰু পৰৱৰ্তী ৮ মাহ ৭০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৭০০০০ টকা বিনিয়োগ কৰে। লাভ ১৫৮০০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "740000000",
+        "as": "৭৪০০০০০০০"
+      },
+      {
+        "en": "840000000",
+        "as": "৮৪০০০০০০০"
+      },
+      {
+        "en": "370000000",
+        "as": "৩৭০০০০০০০"
+      },
+      {
+        "en": "1480000000",
+        "as": "১৪৮০০০০০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A's share = 740000000.",
+      "as": "A ৰ অংশ = ৭৪০০০০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-097",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 55000 for the first 5 months and then 90000 for the next 7 months. B invests 80000 for the whole year. If the profit is 1865000000, find A's share.",
+      "as": "A এ প্ৰথম ৫ মাহ ৫৫০০০ আৰু পৰৱৰ্তী ৭ মাহ ৯০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৮০০০০ টকা বিনিয়োগ কৰে। লাভ ১৮৬৫০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "960000000",
+        "as": "৯৬০০০০০০০"
+      },
+      {
+        "en": "905000000",
+        "as": "৯০৫০০০০০০"
+      },
+      {
+        "en": "452500000",
+        "as": "৪৫২৫০০০০০"
+      },
+      {
+        "en": "1810000000",
+        "as": "১৮১০০০০০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A's share = 905000000.",
+      "as": "A ৰ অংশ = ৯০৫০০০০০০।"
+    }
+  },
+  {
+    "id": "num-partnership-098",
+    "leaf": "partnership",
+    "q": {
+      "en": "A invests 65000 for the first 3 months and then 110000 for the next 9 months. B invests 90000 for the whole year. If the profit is 2265000000, find A's share.",
+      "as": "A এ প্ৰথম ৩ মাহ ৬৫০০০ আৰু পৰৱৰ্তী ৯ মাহ ১১০০০০ টকা বিনিয়োগ কৰে। B এ গোটেই বছৰ ৯০০০০ টকা বিনিয়োগ কৰে। লাভ ২২৬৫০০০০০০ হ'লে A ৰ অংশ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1080000000",
+        "as": "১০৮০০০০০০০"
+      },
+      {
+        "en": "592500000",
+        "as": "৫৯২৫০০০০০"
+      },
+      {
+        "en": "1185000000",
+        "as": "১১৮৫০০০০০০"
+      },
+      {
+        "en": "2370000000",
+        "as": "২৩৭০০০০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A's share = 1185000000.",
+      "as": "A ৰ অংশ = ১১৮৫০০০০০০।"
+    }
+  }
+]

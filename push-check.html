@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Notification check — axomexam</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  body{font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;margin:0;padding:20px;background:#f7f8fa;color:#111}
+  h1{font-size:19px;margin:0 0 4px}
+  p.sub{margin:0 0 18px;color:#666;font-size:14px}
+  .row{background:#fff;border:1px solid #e3e6ea;border-radius:10px;padding:12px 14px;margin-bottom:10px}
+  .k{font-weight:600;font-size:14px;color:#444;margin-bottom:3px}
+  .v{font-size:15px;word-break:break-all;font-family:ui-monospace,Menlo,monospace}
+  .ok{color:#0a7d33}.bad{color:#c02626}.warn{color:#b26a00}
+  .box{border-radius:10px;padding:14px;margin:16px 0;font-size:15px;line-height:1.55}
+  .box.good{background:#e7f6ec;border:1px solid #b7e0c4}
+  .box.bad{background:#fdeaea;border:1px solid #f3c2c2}
+  .box.info{background:#eef4ff;border:1px solid #c9dbff}
+  button{font:inherit;padding:11px 16px;border-radius:9px;border:0;background:#1b57d6;color:#fff;font-weight:600;margin:6px 6px 0 0}
+  button.alt{background:#5a6472}
+  .as{font-size:14px;color:#555}
+</style>
+</head>
+<body>
+<h1>Notification check</h1>
+<p class="sub">Is page ka jawab batao — phone par exact wajah mil jayegi.<br>
+<span class="as">এই পৃষ্ঠাই ক’ব কিয় জাননী অহা নাই।</span></p>
+
+<div id="out"></div>
+
+<div class="box info" id="verdict">Checking…</div>
+
+<button id="fix">Fix — turn on notifications</button>
+<button class="alt" id="reset">Reset and check again</button>
+
+<script src="/js/push-config.js"></script>
+<script>
+const out = document.getElementById("out");
+const verdict = document.getElementById("verdict");
+
+function row(k, v, cls) {
+  const d = document.createElement("div");
+  d.className = "row";
+  d.innerHTML = '<div class="k"></div><div class="v ' + (cls || "") + '"></div>';
+  d.querySelector(".k").textContent = k;
+  d.querySelector(".v").textContent = v;
+  out.appendChild(d);
+}
+
+async function check() {
+  out.innerHTML = "";
+  const ua = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(ua) || (ua.includes("Macintosh") && "ontouchend" in document);
+  const standalone = navigator.standalone === true ||
+    (window.matchMedia && matchMedia("(display-mode: standalone)").matches);
+
+  row("Device", /Android/.test(ua) ? "Android" : isIOS ? "iPhone / iPad" : "Computer");
+
+  const supported = "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+  row("Browser supports push", supported ? "yes" : "NO", supported ? "ok" : "bad");
+
+  if (isIOS && !standalone) {
+    verdict.className = "box bad";
+    verdict.textContent =
+      "iPhone par notification tabhi chalti hai jab site Home Screen par install ho. " +
+      "Abhi normal Safari tab hai — isliye notification kabhi nahi aayegi. " +
+      "Share → Add to Home Screen karo, phir us icon se kholo.";
+    return;
+  }
+
+  const perm = "Notification" in window ? Notification.permission : "unsupported";
+  const permCls = perm === "granted" ? "ok" : perm === "denied" ? "bad" : "warn";
+  row("Notification permission", perm, permCls);
+
+  if (!("serviceWorker" in navigator)) return;
+
+  let reg = null;
+  try {
+    reg = await navigator.serviceWorker.getRegistration("/");
+  } catch (e) {}
+
+  row("Service worker", reg ? "installed" : "NOT installed", reg ? "ok" : "bad");
+
+  let sub = null;
+  if (reg && reg.pushManager) {
+    try { sub = await reg.pushManager.getSubscription(); } catch (e) {}
+  }
+
+  if (sub) {
+    let host = "?";
+    try { host = new URL(sub.endpoint).host; } catch (e) {}
+    row("Push subscription", "subscribed", "ok");
+    row("Push service", host, "");
+    const age = sub.expirationTime ? "expires " + new Date(sub.expirationTime).toISOString() : "no expiry";
+    row("Subscription", age, "");
+  } else {
+    row("Push subscription", "NOT subscribed", "bad");
+  }
+
+  if (perm === "denied") {
+    verdict.className = "box bad";
+    verdict.textContent =
+      "Aapne notification permission BLOCK kar di hai. Browser settings mein " +
+      "axomexam.in ki notification permission Allow karo, phir yahan wapas aao.";
+    return;
+  }
+
+  if (sub) {
+    verdict.className = "box good";
+    verdict.textContent =
+      "Sab theek hai — yeh device subscribed hai. Notification aani chahiye. " +
+      "Agar nahi aayi to phone ki notification settings mein axomexam/Chrome ki " +
+      "notification band nahi hai, aur Do Not Disturb off hai — woh check karo.";
+  } else {
+    verdict.className = "box warn";
+    verdict.textContent =
+      "Yeh device SUBSCRIBED NAHI hai — isliye notification nahi aayi. " +
+      "Neeche 'Fix' button dabao aur Allow karo.";
+  }
+}
+
+document.getElementById("fix").onclick = async () => {
+  try {
+    if (Notification.permission !== "granted") {
+      const r = await Notification.requestPermission();
+      if (r !== "granted") { await check(); return; }
+    }
+    const reg = await navigator.serviceWorker.register("/sw.js");
+    await navigator.serviceWorker.ready;
+    const cfg = window.AXOMEXAM_PUSH_CONFIG;
+    const pad = "=".repeat((4 - (cfg.vapidPublicKey.length % 4)) % 4);
+    const raw = atob((cfg.vapidPublicKey + pad).replace(/-/g, "+").replace(/_/g, "/"));
+    const key = new Uint8Array(raw.length);
+    for (let i = 0; i < raw.length; i++) key[i] = raw.charCodeAt(i);
+
+    let sub = await reg.pushManager.getSubscription();
+    if (!sub) {
+      sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: key });
+    }
+
+    // Save the same way /js/push.js does.
+    const j = sub.toJSON();
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(j.endpoint));
+    const id = Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+    const base = "https://firestore.googleapis.com/v1/projects/" + cfg.projectId +
+      "/databases/(default)/documents/" + encodeURIComponent(cfg.collection);
+    const body = { fields: {
+      endpoint: { stringValue: j.endpoint },
+      p256dh: { stringValue: j.keys.p256dh },
+      auth: { stringValue: j.keys.auth },
+      lang: { stringValue: (localStorage.getItem("axomexam-ui-lang") === "as") ? "as" : "en" },
+      tz: { stringValue: Intl.DateTimeFormat().resolvedOptions().timeZone || "" },
+      ua: { stringValue: navigator.userAgent.slice(0, 180) },
+      created: { integerValue: String(Date.now()) },
+    }};
+    let res = await fetch(base + "?documentId=" + id + "&key=" + cfg.apiKey, {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+    });
+    if (res.status === 409) {
+      await fetch(base + "/" + id + "?key=" + cfg.apiKey, { method: "DELETE" }).catch(() => {});
+      res = await fetch(base + "?documentId=" + id + "&key=" + cfg.apiKey, {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body),
+      });
+    }
+    localStorage.removeItem("axomexam-push-prompt");
+    await check();
+  } catch (e) {
+    verdict.className = "box bad";
+    verdict.textContent = "Error: " + e.message;
+  }
+};
+
+document.getElementById("reset").onclick = async () => {
+  try {
+    const reg = await navigator.serviceWorker.getRegistration("/");
+    if (reg) {
+      const sub = await reg.pushManager.getSubscription();
+      if (sub) await sub.unsubscribe();
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+      await reg.unregister();
+    }
+    localStorage.removeItem("axomexam-push-prompt");
+  } catch (e) {}
+  location.reload();
+};
+
+check();
+</script>
+  <script src="/js/copy-guard.js?v=98bd0293" defer></script>
+  <script src="/js/install.js?v=a9e84cbb" defer></script>
+</body>
+</html>

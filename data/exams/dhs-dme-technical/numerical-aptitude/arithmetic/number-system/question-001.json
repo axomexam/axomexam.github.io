@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "numerical-001",
+    "q": {
+      "en": "The least number that must be added to 2497 to make it divisible by 5, 6 and 4 is",
+      "as": "২৪৯৭ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যাটো কিমান হ'লে সংখ্যাটো ৫, ৬ আৰু ৪ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of 5, 6 and 4 is 60. Dividing 2497 by 60 leaves remainder 37, so the next multiple is 2497 + (60 - 37) = 2520, which needs 23 added.",
+      "as": "৫, ৬ আৰু ৪ ৰ ল.সা.গু. ৬০। ২৪৯৭ ক ৬০ ৰে ভাগ কৰিলে ভাগশেষ ৩৭ থাকে, সেয়ে পৰৱৰ্তী গুণিতক ২৪৯৭ + (৬০ - ৩৭) = ২৫২০, অৰ্থাৎ ২৩ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "numerical-002",
+    "q": {
+      "en": "The largest three-digit number that leaves a remainder of 4 when divided by 9 is",
+      "as": "৯ ৰে ভাগ কৰিলে ভাগশেষ ৪ ৰখা আটাইতকৈ ডাঙৰ তিনি অংকৰ সংখ্যাটো কি"
+    },
+    "options": [
+      {
+        "en": "994",
+        "as": "৯৯৪"
+      },
+      {
+        "en": "998",
+        "as": "৯৯৮"
+      },
+      {
+        "en": "985",
+        "as": "৯৮৫"
+      },
+      {
+        "en": "976",
+        "as": "৯৭৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "999 divided by 9 leaves 0, so 999 - 9 + 4 = 994. Check: 994 = 9 × 110 + 4.",
+      "as": "৯৯৯ ক ৯ ৰে ভাগ কৰিলে ভাগশেষ ০, সেয়ে ৯৯৯ - ৯ + ৪ = ৯৯৪। পৰীক্ষা: ৯৯৪ = ৯ × ১১০ + ৪।"
+    }
+  },
+  {
+    "id": "num-number-system-001",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 12, 15 and 18 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১২, ১৫ আৰু ১৮ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9720",
+        "as": "৯৭২০"
+      },
+      {
+        "en": "9900",
+        "as": "৯৯০০"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "9540",
+        "as": "৯৫৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM(12,15,18) = 180; 9999 ÷ 180 leaves remainder 99, so the largest multiple is 9900.",
+      "as": "ল.সা.গু. = 180; ৯৯৯৯ ÷ 180 ৰ ভাগশেষ ৯৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯০০।"
+    }
+  },
+  {
+    "id": "num-number-system-002",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 8, 12 and 20 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৮, ১২ আৰু ২০ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9840",
+        "as": "৯৮৪০"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "9960",
+        "as": "৯৯৬০"
+      },
+      {
+        "en": "9720",
+        "as": "৯৭২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM(8,12,20) = 120; 9999 ÷ 120 leaves remainder 39, so the largest multiple is 9960.",
+      "as": "ল.সা.গু. = 120; ৯৯৯৯ ÷ 120 ৰ ভাগশেষ ৩৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯৬০।"
+    }
+  },
+  {
+    "id": "num-number-system-003",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 9, 14 and 21 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৯, ১৪ আৰু ২১ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9828",
+        "as": "৯৮২৮"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "9702",
+        "as": "৯৭০২"
+      },
+      {
+        "en": "9954",
+        "as": "৯৯৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM(9,14,21) = 126; 9999 ÷ 126 leaves remainder 45, so the largest multiple is 9954.",
+      "as": "ল.সা.গু. = 126; ৯৯৯৯ ÷ 126 ৰ ভাগশেষ ৪৫, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯৫৪।"
+    }
+  },
+  {
+    "id": "num-number-system-004",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 6, 10 and 15 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৬, ১০ আৰু ১৫ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9960",
+        "as": "৯৯৬০"
+      },
+      {
+        "en": "10020",
+        "as": "১০০২০"
+      },
+      {
+        "en": "9990",
+        "as": "৯৯৯০"
+      },
+      {
+        "en": "9930",
+        "as": "৯৯৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM(6,10,15) = 30; 9999 ÷ 30 leaves remainder 9, so the largest multiple is 9990.",
+      "as": "ল.সা.গু. = 30; ৯৯৯৯ ÷ 30 ৰ ভাগশেষ ৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯৯০।"
+    }
+  },
+  {
+    "id": "num-number-system-005",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 16, 18 and 24 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১৬, ১৮ আৰু ২৪ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9792",
+        "as": "৯৭৯২"
+      },
+      {
+        "en": "9936",
+        "as": "৯৯৩৬"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "9648",
+        "as": "৯৬৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM(16,18,24) = 144; 9999 ÷ 144 leaves remainder 63, so the largest multiple is 9936.",
+      "as": "ল.সা.গু. = 144; ৯৯৯৯ ÷ 144 ৰ ভাগশেষ ৬৩, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯৩৬।"
+    }
+  },
+  {
+    "id": "num-number-system-006",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 7, 11 and 13 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৭, ১১ আৰু ১৩ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9009",
+        "as": "৯০০৯"
+      },
+      {
+        "en": "8008",
+        "as": "৮০০৮"
+      },
+      {
+        "en": "10010",
+        "as": "১০০১০"
+      },
+      {
+        "en": "7007",
+        "as": "৭০০৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM(7,11,13) = 1001; 9999 ÷ 1001 leaves remainder 990, so the largest multiple is 9009.",
+      "as": "ল.সা.গু. = 1001; ৯৯৯৯ ÷ 1001 ৰ ভাগশেষ ৯৯০, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯০০৯।"
+    }
+  },
+  {
+    "id": "num-number-system-007",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 5, 9 and 12 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৫, ৯ আৰু ১২ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9720",
+        "as": "৯৭২০"
+      },
+      {
+        "en": "10080",
+        "as": "১০০৮০"
+      },
+      {
+        "en": "9540",
+        "as": "৯৫৪০"
+      },
+      {
+        "en": "9900",
+        "as": "৯৯০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM(5,9,12) = 180; 9999 ÷ 180 leaves remainder 99, so the largest multiple is 9900.",
+      "as": "ল.সা.গু. = 180; ৯৯৯৯ ÷ 180 ৰ ভাগশেষ ৯৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯০০।"
+    }
+  },
+  {
+    "id": "num-number-system-008",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 10, 14 and 25 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১০, ১৪ আৰু ২৫ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9450",
+        "as": "৯৪৫০"
+      },
+      {
+        "en": "9800",
+        "as": "৯৮০০"
+      },
+      {
+        "en": "10150",
+        "as": "১০১৫০"
+      },
+      {
+        "en": "9100",
+        "as": "৯১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM(10,14,25) = 350; 9999 ÷ 350 leaves remainder 199, so the largest multiple is 9800.",
+      "as": "ল.সা.গু. = 350; ৯৯৯৯ ÷ 350 ৰ ভাগশেষ ১৯৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৮০০।"
+    }
+  },
+  {
+    "id": "num-number-system-009",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 15, 20 and 30 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১৫, ২০ আৰু ৩০ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "9900",
+        "as": "৯৯০০"
+      },
+      {
+        "en": "10020",
+        "as": "১০০২০"
+      },
+      {
+        "en": "9960",
+        "as": "৯৯৬০"
+      },
+      {
+        "en": "9840",
+        "as": "৯৮৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM(15,20,30) = 60; 9999 ÷ 60 leaves remainder 39, so the largest multiple is 9960.",
+      "as": "ল.সা.গু. = 60; ৯৯৯৯ ÷ 60 ৰ ভাগশেষ ৩৯, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৯৬০।"
+    }
+  },
+  {
+    "id": "num-number-system-010",
+    "leaf": "number-system",
+    "q": {
+      "en": "The largest 4-digit number exactly divisible by 8, 9 and 11 is",
+      "as": "৪ অংকৰ আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৮, ৯ আৰু ১১ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "8712",
+        "as": "৮৭১২"
+      },
+      {
+        "en": "10296",
+        "as": "১০২৯৬"
+      },
+      {
+        "en": "7920",
+        "as": "৭৯২০"
+      },
+      {
+        "en": "9504",
+        "as": "৯৫০৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM(8,9,11) = 792; 9999 ÷ 792 leaves remainder 495, so the largest multiple is 9504.",
+      "as": "ল.সা.গু. = 792; ৯৯৯৯ ÷ 792 ৰ ভাগশেষ ৪৯৫, সেয়ে আটাইতকৈ ডাঙৰ গুণিতক ৯৫০৪।"
+    }
+  },
+  {
+    "id": "num-number-system-011",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 2457 so that it is exactly divisible by 6, 8 and 12 is",
+      "as": "২৪৫৭ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৬, ৮ আৰু ১২ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 24; 2457 ÷ 24 leaves 9, so 24 - 9 = 15 must be added.",
+      "as": "ল.সা.গু. = 24; ২৪৫৭ ÷ 24 ৰ ভাগশেষ ৯, সেয়ে ২৪ - ৯ = ১৫ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-012",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 3871 so that it is exactly divisible by 5, 7 and 9 is",
+      "as": "৩৮৭১ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৫, ৭ আৰু ৯ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "224",
+        "as": "২২৪"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      },
+      {
+        "en": "539",
+        "as": "৫৩৯"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 315; 3871 ÷ 315 leaves 91, so 315 - 91 = 224 must be added.",
+      "as": "ল.সা.গু. = 315; ৩৮৭১ ÷ 315 ৰ ভাগশেষ ৯১, সেয়ে ৩১৫ - ৯১ = ২২৪ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-013",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 5236 so that it is exactly divisible by 8, 11 and 16 is",
+      "as": "৫২৩৬ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৮, ১১ আৰু ১৬ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "220",
+        "as": "২২০"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM = 176; 5236 ÷ 176 leaves 132, so 176 - 132 = 44 must be added.",
+      "as": "ল.সা.গু. = 176; ৫২৩৬ ÷ 176 ৰ ভাগশেষ ১৩২, সেয়ে ১৭৬ - ১৩২ = ৪৪ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-014",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 7194 so that it is exactly divisible by 12, 15 and 20 is",
+      "as": "৭১৯৪ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ১২, ১৫ আৰু ২০ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = 60; 7194 ÷ 60 leaves 54, so 60 - 54 = 6 must be added.",
+      "as": "ল.সা.গু. = 60; ৭১৯৪ ÷ 60 ৰ ভাগশেষ ৫৪, সেয়ে ৬০ - ৫৪ = ৬ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-015",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 4367 so that it is exactly divisible by 9, 10 and 14 is",
+      "as": "৪৩৬৭ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৯, ১০ আৰু ১৪ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "587",
+        "as": "৫৮৭"
+      },
+      {
+        "en": "673",
+        "as": "৬৭৩"
+      },
+      {
+        "en": "44",
+        "as": "৪৪"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 630; 4367 ÷ 630 leaves 587, so 630 - 587 = 43 must be added.",
+      "as": "ল.সা.গু. = 630; ৪৩৬৭ ÷ 630 ৰ ভাগশেষ ৫৮৭, সেয়ে ৬৩০ - ৫৮৭ = ৪৩ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-016",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 8125 so that it is exactly divisible by 6, 11 and 15 is",
+      "as": "৮১২৫ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৬, ১১ আৰু ১৫ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "205",
+        "as": "২০৫"
+      },
+      {
+        "en": "455",
+        "as": "৪৫৫"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = 330; 8125 ÷ 330 leaves 205, so 330 - 205 = 125 must be added.",
+      "as": "ল.সা.গু. = 330; ৮১২৫ ÷ 330 ৰ ভাগশেষ ২০৫, সেয়ে ৩৩০ - ২০৫ = ১২৫ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-017",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 6543 so that it is exactly divisible by 7, 12 and 18 is",
+      "as": "৬৫৪৩ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৭, ১২ আৰু ১৮ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "243",
+        "as": "২৪৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "261",
+        "as": "২৬১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM = 252; 6543 ÷ 252 leaves 243, so 252 - 243 = 9 must be added.",
+      "as": "ল.সা.গু. = 252; ৬৫৪৩ ÷ 252 ৰ ভাগশেষ ২৪৩, সেয়ে ২৫২ - ২৪৩ = ৯ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-018",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 2987 so that it is exactly divisible by 5, 8 and 13 is",
+      "as": "২৯৮৭ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৫, ৮ আৰু ১৩ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "133",
+        "as": "১৩৩"
+      },
+      {
+        "en": "387",
+        "as": "৩৮৭"
+      },
+      {
+        "en": "653",
+        "as": "৬৫৩"
+      },
+      {
+        "en": "134",
+        "as": "১৩৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 520; 2987 ÷ 520 leaves 387, so 520 - 387 = 133 must be added.",
+      "as": "ল.সা.গু. = 520; ২৯৮৭ ÷ 520 ৰ ভাগশেষ ৩৮৭, সেয়ে ৫২০ - ৩৮৭ = ১৩৩ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-019",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 9413 so that it is exactly divisible by 4, 9 and 15 is",
+      "as": "৯৪১৩ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৪, ৯ আৰু ১৫ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "307",
+        "as": "৩০৭"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "127",
+        "as": "১২৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 180; 9413 ÷ 180 leaves 53, so 180 - 53 = 127 must be added.",
+      "as": "ল.সা.গু. = 180; ৯৪১৩ ÷ 180 ৰ ভাগশেষ ৫৩, সেয়ে ১৮০ - ৫৩ = ১২৭ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-020",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be added to 3762 so that it is exactly divisible by 10, 12 and 25 is",
+      "as": "৩৭৬২ ৰ লগত যোগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ১০, ১২ আৰু ২৫ ৰে সম্পূৰ্ণ বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "138",
+        "as": "১৩৮"
+      },
+      {
+        "en": "438",
+        "as": "৪৩৮"
+      },
+      {
+        "en": "139",
+        "as": "১৩৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM = 300; 3762 ÷ 300 leaves 162, so 300 - 162 = 138 must be added.",
+      "as": "ল.সা.গু. = 300; ৩৭৬২ ÷ 300 ৰ ভাগশেষ ১৬২, সেয়ে ৩০০ - ১৬২ = ১৩৮ যোগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-021",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 5432 to make it divisible by 6, 9 and 12 is",
+      "as": "৫৪৩২ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৬, ৯ আৰু ১২ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = 36; 5432 ÷ 36 leaves remainder 32, so 32 must be subtracted.",
+      "as": "ল.সা.গু. = 36; ৫৪৩২ ÷ 36 ৰ ভাগশেষ ৩২, সেয়ে ৩২ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-022",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 8765 to make it divisible by 8, 10 and 15 is",
+      "as": "৮৭৬৫ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৮, ১০ আৰু ১৫ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 120; 8765 ÷ 120 leaves remainder 5, so 5 must be subtracted.",
+      "as": "ল.সা.গু. = 120; ৮৭৬৫ ÷ 120 ৰ ভাগশেষ ৫, সেয়ে ৫ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-023",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 3219 to make it divisible by 7, 11 and 14 is",
+      "as": "৩২১৯ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৭, ১১ আৰু ১৪ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "139",
+        "as": "১৩৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "154",
+        "as": "১৫৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 154; 3219 ÷ 154 leaves remainder 139, so 139 must be subtracted.",
+      "as": "ল.সা.গু. = 154; ৩২১৯ ÷ 154 ৰ ভাগশেষ ১৩৯, সেয়ে ১৩৯ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-024",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 9876 to make it divisible by 5, 12 and 18 is",
+      "as": "৯৮৭৬ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৫, ১২ আৰু ১৮ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "156",
+        "as": "১৫৬"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "157",
+        "as": "১৫৭"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM = 180; 9876 ÷ 180 leaves remainder 156, so 156 must be subtracted.",
+      "as": "ল.সা.গু. = 180; ৯৮৭৬ ÷ 180 ৰ ভাগশেষ ১৫৬, সেয়ে ১৫৬ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-025",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 4567 to make it divisible by 9, 13 and 15 is",
+      "as": "৪৫৬৭ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৯, ১৩ আৰু ১৫ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "113",
+        "as": "১১৩"
+      },
+      {
+        "en": "472",
+        "as": "৪৭২"
+      },
+      {
+        "en": "473",
+        "as": "৪৭৩"
+      },
+      {
+        "en": "585",
+        "as": "৫৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM = 585; 4567 ÷ 585 leaves remainder 472, so 472 must be subtracted.",
+      "as": "ল.সা.গু. = 585; ৪৫৬৭ ÷ 585 ৰ ভাগশেষ ৪৭২, সেয়ে ৪৭২ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-026",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 7654 to make it divisible by 6, 14 and 21 is",
+      "as": "৭৬৫৪ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৬, ১৪ আৰু ২১ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = 42; 7654 ÷ 42 leaves remainder 10, so 10 must be subtracted.",
+      "as": "ল.সা.গু. = 42; ৭৬৫৪ ÷ 42 ৰ ভাগশেষ ১০, সেয়ে ১০ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-027",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 2345 to make it divisible by 8, 15 and 20 is",
+      "as": "২৩৪৫ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৮, ১৫ আৰু ২০ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM = 120; 2345 ÷ 120 leaves remainder 65, so 65 must be subtracted.",
+      "as": "ল.সা.গু. = 120; ২৩৪৫ ÷ 120 ৰ ভাগশেষ ৬৫, সেয়ে ৬৫ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-028",
+    "leaf": "number-system",
+    "q": {
+      "en": "The least number that must be subtracted from 8901 to make it divisible by 7, 10 and 16 is",
+      "as": "৮৯০১ ৰ পৰা বিয়োগ কৰিবলগীয়া আটাইতকৈ সৰু সংখ্যা কিমান হ'লে সেয়া ৭, ১০ আৰু ১৬ ৰে বিভাজ্য হ'ব"
+    },
+    "options": [
+      {
+        "en": "59",
+        "as": "৫৯"
+      },
+      {
+        "en": "502",
+        "as": "৫০২"
+      },
+      {
+        "en": "501",
+        "as": "৫০১"
+      },
+      {
+        "en": "560",
+        "as": "৫৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM = 560; 8901 ÷ 560 leaves remainder 501, so 501 must be subtracted.",
+      "as": "ল.সা.গু. = 560; ৮৯০১ ÷ 560 ৰ ভাগশেষ ৫০১, সেয়ে ৫০১ বিয়োগ কৰিব লাগে।"
+    }
+  },
+  {
+    "id": "num-number-system-029",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 7^45 is divided by 10 is",
+      "as": "৭^৪৫ ক ১০ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using modular exponentiation, 7^45 ≡ 7 (mod 10).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৭^৪৫ ≡ ৭ (mod ১০)।"
+    }
+  },
+  {
+    "id": "num-number-system-030",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 3^100 is divided by 7 is",
+      "as": "৩^১০০ ক ৭ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using modular exponentiation, 3^100 ≡ 4 (mod 7).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৩^১০০ ≡ ৪ (mod ৭)।"
+    }
+  },
+  {
+    "id": "num-number-system-031",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 5^63 is divided by 9 is",
+      "as": "৫^৬৩ ক ৯ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using modular exponentiation, 5^63 ≡ 8 (mod 9).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৫^৬৩ ≡ ৮ (mod ৯)।"
+    }
+  },
+  {
+    "id": "num-number-system-032",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 11^50 is divided by 13 is",
+      "as": "১১^৫০ ক ১৩ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using modular exponentiation, 11^50 ≡ 4 (mod 13).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ১১^৫০ ≡ ৪ (mod ১৩)।"
+    }
+  },
+  {
+    "id": "num-number-system-033",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 2^81 is divided by 5 is",
+      "as": "২^৮১ ক ৫ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using modular exponentiation, 2^81 ≡ 2 (mod 5).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ২^৮১ ≡ ২ (mod ৫)।"
+    }
+  },
+  {
+    "id": "num-number-system-034",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 13^27 is divided by 17 is",
+      "as": "১৩^২৭ ক ১৭ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using modular exponentiation, 13^27 ≡ 4 (mod 17).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ১৩^২৭ ≡ ৪ (mod ১৭)।"
+    }
+  },
+  {
+    "id": "num-number-system-035",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 9^44 is divided by 11 is",
+      "as": "৯^৪৪ ক ১১ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using modular exponentiation, 9^44 ≡ 5 (mod 11).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৯^৪৪ ≡ ৫ (mod ১১)।"
+    }
+  },
+  {
+    "id": "num-number-system-036",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 6^55 is divided by 8 is",
+      "as": "৬^৫৫ ক ৮ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using modular exponentiation, 6^55 ≡ 0 (mod 8).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৬^৫৫ ≡ ০ (mod ৮)।"
+    }
+  },
+  {
+    "id": "num-number-system-037",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 17^31 is divided by 19 is",
+      "as": "১৭^৩১ ক ১৯ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using modular exponentiation, 17^31 ≡ 16 (mod 19).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ১৭^৩১ ≡ ১৬ (mod ১৯)।"
+    }
+  },
+  {
+    "id": "num-number-system-038",
+    "leaf": "number-system",
+    "q": {
+      "en": "The remainder when 4^73 is divided by 15 is",
+      "as": "৪^৭৩ ক ১৫ ৰে ভাগ কৰিলে ভাগশেষ কিমান"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using modular exponentiation, 4^73 ≡ 4 (mod 15).",
+      "as": "মডুলাৰ ঘাতাংক ব্যৱহাৰ কৰি ৪^৭৩ ≡ ৪ (mod ১৫)।"
+    }
+  },
+  {
+    "id": "num-number-system-039",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 7^123 is",
+      "as": "৭^১২৩ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 7^123 ends in 3.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৭^১২৩ ৰ শেষ অংক ৩।"
+    }
+  },
+  {
+    "id": "num-number-system-040",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 3^246 is",
+      "as": "৩^২৪৬ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 3^246 ends in 9.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৩^২৪৬ ৰ শেষ অংক ৯।"
+    }
+  },
+  {
+    "id": "num-number-system-041",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 8^157 is",
+      "as": "৮^১৫৭ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 8^157 ends in 8.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৮^১৫৭ ৰ শেষ অংক ৮।"
+    }
+  },
+  {
+    "id": "num-number-system-042",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 9^214 is",
+      "as": "৯^২১৪ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 9^214 ends in 1.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৯^২১৪ ৰ শেষ অংক ১।"
+    }
+  },
+  {
+    "id": "num-number-system-043",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 2^305 is",
+      "as": "২^৩০৫ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 2^305 ends in 2.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ২^৩০৫ ৰ শেষ অংক ২।"
+    }
+  },
+  {
+    "id": "num-number-system-044",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 4^111 is",
+      "as": "৪^১১১ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 4^111 ends in 4.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৪^১১১ ৰ শেষ অংক ৪।"
+    }
+  },
+  {
+    "id": "num-number-system-045",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 6^199 is",
+      "as": "৬^১৯৯ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 6^199 ends in 6.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ৬^১৯৯ ৰ শেষ অংক ৬।"
+    }
+  },
+  {
+    "id": "num-number-system-046",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 13^77 is",
+      "as": "১৩^৭৭ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 13^77 ends in 3.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ১৩^৭৭ ৰ শেষ অংক ৩।"
+    }
+  },
+  {
+    "id": "num-number-system-047",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 17^89 is",
+      "as": "১৭^৮৯ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 17^89 ends in 7.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ১৭^৮৯ ৰ শেষ অংক ৭।"
+    }
+  },
+  {
+    "id": "num-number-system-048",
+    "leaf": "number-system",
+    "q": {
+      "en": "The unit digit of 19^64 is",
+      "as": "১৯^৬৪ ৰ একক অংক কিমান"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The unit digit repeats in a cycle; 19^64 ends in 1.",
+      "as": "একক অংক চক্ৰাকাৰে পুনৰাবৃত্তি হয়; ১৯^৬৪ ৰ শেষ অংক ১।"
+    }
+  },
+  {
+    "id": "num-number-system-049",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 720 is",
+      "as": "৭২০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "720 = 2^4 × 3^2 × 5^1; number of divisors = 5 × 3 × 2 = 30.",
+      "as": "৭২০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৩০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-050",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 840 is",
+      "as": "৮৪০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "840 = 2^3 × 3^1 × 5^1 × 7^1; number of divisors = 4 × 2 × 2 × 2 = 32.",
+      "as": "৮৪০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৩২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-051",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 1260 is",
+      "as": "১২৬০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "1260 = 2^2 × 3^2 × 5^1 × 7^1; number of divisors = 3 × 3 × 2 × 2 = 36.",
+      "as": "১২৬০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৩৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-052",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 1680 is",
+      "as": "১৬৮০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "1680 = 2^4 × 3^1 × 5^1 × 7^1; number of divisors = 5 × 2 × 2 × 2 = 40.",
+      "as": "১৬৮০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৪০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-053",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 2520 is",
+      "as": "২৫২০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "2520 = 2^3 × 3^2 × 5^1 × 7^1; number of divisors = 4 × 3 × 2 × 2 = 48.",
+      "as": "২৫২০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৪৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-054",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 3600 is",
+      "as": "৩৬০০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "3600 = 2^4 × 3^2 × 5^2; number of divisors = 5 × 3 × 3 = 45.",
+      "as": "৩৬০০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৪৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-055",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 4620 is",
+      "as": "৪৬২০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "4620 = 2^2 × 3^1 × 5^1 × 7^1 × 11^1; number of divisors = 3 × 2 × 2 × 2 × 2 = 48.",
+      "as": "৪৬২০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৪৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-056",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 5040 is",
+      "as": "৫০৪০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "5040 = 2^4 × 3^2 × 5^1 × 7^1; number of divisors = 5 × 3 × 2 × 2 = 60.",
+      "as": "৫০৪০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৬০ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-057",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 6300 is",
+      "as": "৬৩০০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "6300 = 2^2 × 3^2 × 5^2 × 7^1; number of divisors = 3 × 3 × 3 × 2 = 54.",
+      "as": "৬৩০০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৫৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-058",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 7560 is",
+      "as": "৭৫৬০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "7560 = 2^3 × 3^3 × 5^1 × 7^1; number of divisors = 4 × 4 × 2 × 2 = 64.",
+      "as": "৭৫৬০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৬৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-059",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 9240 is",
+      "as": "৯২৪০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "9240 = 2^3 × 3^1 × 5^1 × 7^1 × 11^1; number of divisors = 4 × 2 × 2 × 2 × 2 = 64.",
+      "as": "৯২৪০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৬৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-060",
+    "leaf": "number-system",
+    "q": {
+      "en": "The total number of positive divisors of 10080 is",
+      "as": "১০০৮০ ৰ মুঠ ধনাত্মক উৎপাদকৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "10080 = 2^5 × 3^2 × 5^1 × 7^1; number of divisors = 6 × 3 × 2 × 2 = 72.",
+      "as": "১০০৮০ ৰ উৎপাদক বিশ্লেষণ কৰি উৎপাদকৰ সংখ্যা ৭২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-number-system-061",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 360 is",
+      "as": "৩৬০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "1530",
+        "as": "১৫৩০"
+      },
+      {
+        "en": "1170",
+        "as": "১১৭০"
+      },
+      {
+        "en": "810",
+        "as": "৮১০"
+      },
+      {
+        "en": "585",
+        "as": "৫৮৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(360) = 1170.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(৩৬০) = ১১৭০।"
+    }
+  },
+  {
+    "id": "num-number-system-062",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 504 is",
+      "as": "৫০৪ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "2064",
+        "as": "২০৬৪"
+      },
+      {
+        "en": "1056",
+        "as": "১০৫৬"
+      },
+      {
+        "en": "1560",
+        "as": "১৫৬০"
+      },
+      {
+        "en": "780",
+        "as": "৭৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(504) = 1560.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(৫০৪) = ১৫৬০।"
+    }
+  },
+  {
+    "id": "num-number-system-063",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 720 is",
+      "as": "৭২০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "3138",
+        "as": "৩১৩৮"
+      },
+      {
+        "en": "1698",
+        "as": "১৬৯৮"
+      },
+      {
+        "en": "1209",
+        "as": "১২০৯"
+      },
+      {
+        "en": "2418",
+        "as": "২৪১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(720) = 2418.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(৭২০) = ২৪১৮।"
+    }
+  },
+  {
+    "id": "num-number-system-064",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 840 is",
+      "as": "৮৪০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "3720",
+        "as": "৩৭২০"
+      },
+      {
+        "en": "2040",
+        "as": "২০৪০"
+      },
+      {
+        "en": "2880",
+        "as": "২৮৮০"
+      },
+      {
+        "en": "1440",
+        "as": "১৪৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(840) = 2880.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(৮৪০) = ২৮৮০।"
+    }
+  },
+  {
+    "id": "num-number-system-065",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 960 is",
+      "as": "৯৬০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "4008",
+        "as": "৪০০৮"
+      },
+      {
+        "en": "3048",
+        "as": "৩০৪৮"
+      },
+      {
+        "en": "2088",
+        "as": "২০৮৮"
+      },
+      {
+        "en": "1524",
+        "as": "১৫২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(960) = 3048.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(৯৬০) = ৩০৪৮।"
+    }
+  },
+  {
+    "id": "num-number-system-066",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 1080 is",
+      "as": "১০৮০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "3600",
+        "as": "৩৬০০"
+      },
+      {
+        "en": "4680",
+        "as": "৪৬৮০"
+      },
+      {
+        "en": "2520",
+        "as": "২৫২০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(1080) = 3600.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(১০৮০) = ৩৬০০।"
+    }
+  },
+  {
+    "id": "num-number-system-067",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 1260 is",
+      "as": "১২৬০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "5628",
+        "as": "৫৬২৮"
+      },
+      {
+        "en": "3108",
+        "as": "৩১০৮"
+      },
+      {
+        "en": "2184",
+        "as": "২১৮৪"
+      },
+      {
+        "en": "4368",
+        "as": "৪৩৬৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(1260) = 4368.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(১২৬০) = ৪৩৬৮।"
+    }
+  },
+  {
+    "id": "num-number-system-068",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of all positive divisors of 1440 is",
+      "as": "১৪৪০ ৰ সকলো ধনাত্মক উৎপাদকৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "6354",
+        "as": "৬৩৫৪"
+      },
+      {
+        "en": "4914",
+        "as": "৪৯১৪"
+      },
+      {
+        "en": "3474",
+        "as": "৩৪৭৪"
+      },
+      {
+        "en": "2457",
+        "as": "২৪৫৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Using the divisor-sum formula, σ(1440) = 4914.",
+      "as": "উৎপাদক-যোগ সূত্ৰ ব্যৱহাৰ কৰি σ(১৪৪০) = ৪৯১৪।"
+    }
+  },
+  {
+    "id": "num-number-system-069",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 50! is",
+      "as": "৫০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "13",
+        "as": "১৩"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Zeros = ⌊50/5⌋ + ⌊50/25⌋ + ... = 12.",
+      "as": "শূন্যৰ সংখ্যা = ⌊৫০/৫⌋ + ⌊৫০/২৫⌋ + ... = ১২।"
+    }
+  },
+  {
+    "id": "num-number-system-070",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 75! is",
+      "as": "৭৫! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Zeros = ⌊75/5⌋ + ⌊75/25⌋ + ... = 18.",
+      "as": "শূন্যৰ সংখ্যা = ⌊৭৫/৫⌋ + ⌊৭৫/২৫⌋ + ... = ১৮।"
+    }
+  },
+  {
+    "id": "num-number-system-071",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 100! is",
+      "as": "১০০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Zeros = ⌊100/5⌋ + ⌊100/25⌋ + ... = 24.",
+      "as": "শূন্যৰ সংখ্যা = ⌊১০০/৫⌋ + ⌊১০০/২৫⌋ + ... = ২৪।"
+    }
+  },
+  {
+    "id": "num-number-system-072",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 125! is",
+      "as": "১২৫! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Zeros = ⌊125/5⌋ + ⌊125/25⌋ + ... = 31.",
+      "as": "শূন্যৰ সংখ্যা = ⌊১২৫/৫⌋ + ⌊১২৫/২৫⌋ + ... = ৩১।"
+    }
+  },
+  {
+    "id": "num-number-system-073",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 150! is",
+      "as": "১৫০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Zeros = ⌊150/5⌋ + ⌊150/25⌋ + ... = 37.",
+      "as": "শূন্যৰ সংখ্যা = ⌊১৫০/৫⌋ + ⌊১৫০/২৫⌋ + ... = ৩৭।"
+    }
+  },
+  {
+    "id": "num-number-system-074",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 200! is",
+      "as": "২০০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Zeros = ⌊200/5⌋ + ⌊200/25⌋ + ... = 49.",
+      "as": "শূন্যৰ সংখ্যা = ⌊২০০/৫⌋ + ⌊২০০/২৫⌋ + ... = ৪৯।"
+    }
+  },
+  {
+    "id": "num-number-system-075",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 250! is",
+      "as": "২৫০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "63",
+        "as": "৬৩"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Zeros = ⌊250/5⌋ + ⌊250/25⌋ + ... = 62.",
+      "as": "শূন্যৰ সংখ্যা = ⌊২৫০/৫⌋ + ⌊২৫০/২৫⌋ + ... = ৬২।"
+    }
+  },
+  {
+    "id": "num-number-system-076",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 300! is",
+      "as": "৩০০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "73",
+        "as": "৭৩"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Zeros = ⌊300/5⌋ + ⌊300/25⌋ + ... = 74.",
+      "as": "শূন্যৰ সংখ্যা = ⌊৩০০/৫⌋ + ⌊৩০০/২৫⌋ + ... = ৭৪।"
+    }
+  },
+  {
+    "id": "num-number-system-077",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 400! is",
+      "as": "৪০০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "100",
+        "as": "১০০"
+      },
+      {
+        "en": "99",
+        "as": "৯৯"
+      },
+      {
+        "en": "98",
+        "as": "৯৮"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Zeros = ⌊400/5⌋ + ⌊400/25⌋ + ... = 99.",
+      "as": "শূন্যৰ সংখ্যা = ⌊৪০০/৫⌋ + ⌊৪০০/২৫⌋ + ... = ৯৯।"
+    }
+  },
+  {
+    "id": "num-number-system-078",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of zeros at the end of 500! is",
+      "as": "৫০০! ৰ শেষত কিমান শূন্য থাকিব"
+    },
+    "options": [
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "123",
+        "as": "১২৩"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Zeros = ⌊500/5⌋ + ⌊500/25⌋ + ... = 124.",
+      "as": "শূন্যৰ সংখ্যা = ⌊৫০০/৫⌋ + ⌊৫০০/২৫⌋ + ... = ১২৪।"
+    }
+  },
+  {
+    "id": "num-number-system-079",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 3 that divides 100! is",
+      "as": "১০০! ক ভাগ কৰা ৩ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest power = ⌊100/3⌋ + ⌊100/3²⌋ + ... = 48.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊১০০/৩⌋ + ⌊১০০/৩²⌋ + ... = ৪৮।"
+    }
+  },
+  {
+    "id": "num-number-system-080",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 2 that divides 120! is",
+      "as": "১২০! ক ভাগ কৰা ২ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "117",
+        "as": "১১৭"
+      },
+      {
+        "en": "116",
+        "as": "১১৬"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Highest power = ⌊120/2⌋ + ⌊120/2²⌋ + ... = 116.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊১২০/২⌋ + ⌊১২০/২²⌋ + ... = ১১৬।"
+    }
+  },
+  {
+    "id": "num-number-system-081",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 5 that divides 150! is",
+      "as": "১৫০! ক ভাগ কৰা ৫ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Highest power = ⌊150/5⌋ + ⌊150/5²⌋ + ... = 37.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊১৫০/৫⌋ + ⌊১৫০/৫²⌋ + ... = ৩৭।"
+    }
+  },
+  {
+    "id": "num-number-system-082",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 7 that divides 200! is",
+      "as": "২০০! ক ভাগ কৰা ৭ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Highest power = ⌊200/7⌋ + ⌊200/7²⌋ + ... = 32.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊২০০/৭⌋ + ⌊২০০/৭²⌋ + ... = ৩২।"
+    }
+  },
+  {
+    "id": "num-number-system-083",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 3 that divides 250! is",
+      "as": "২৫০! ক ভাগ কৰা ৩ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "123",
+        "as": "১২৩"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "122",
+        "as": "১২২"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Highest power = ⌊250/3⌋ + ⌊250/3²⌋ + ... = 123.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊২৫০/৩⌋ + ⌊২৫০/৩²⌋ + ... = ১২৩।"
+    }
+  },
+  {
+    "id": "num-number-system-084",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 2 that divides 300! is",
+      "as": "৩০০! ক ভাগ কৰা ২ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "296",
+        "as": "২৯৬"
+      },
+      {
+        "en": "297",
+        "as": "২৯৭"
+      },
+      {
+        "en": "295",
+        "as": "২৯৫"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Highest power = ⌊300/2⌋ + ⌊300/2²⌋ + ... = 296.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊৩০০/২⌋ + ⌊৩০০/২²⌋ + ... = ২৯৬।"
+    }
+  },
+  {
+    "id": "num-number-system-085",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 11 that divides 180! is",
+      "as": "১৮০! ক ভাগ কৰা ১১ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Highest power = ⌊180/11⌋ + ⌊180/11²⌋ + ... = 17.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊১৮০/১১⌋ + ⌊১৮০/১১²⌋ + ... = ১৭।"
+    }
+  },
+  {
+    "id": "num-number-system-086",
+    "leaf": "number-system",
+    "q": {
+      "en": "The highest power of 13 that divides 220! is",
+      "as": "২২০! ক ভাগ কৰা ১৩ ৰ সৰ্বোচ্চ ঘাত কিমান"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Highest power = ⌊220/13⌋ + ⌊220/13²⌋ + ... = 17.",
+      "as": "সৰ্বোচ্চ ঘাত = ⌊২২০/১৩⌋ + ⌊২২০/১৩²⌋ + ... = ১৭।"
+    }
+  },
+  {
+    "id": "num-number-system-087",
+    "leaf": "number-system",
+    "q": {
+      "en": "Which of the following numbers is exactly divisible by 11?",
+      "as": "তলৰ কোনটো সংখ্যা ১১ ৰে সম্পূৰ্ণ বিভাজ্য?"
+    },
+    "options": [
+      {
+        "en": "12345",
+        "as": "১২৩৪৫"
+      },
+      {
+        "en": "12346",
+        "as": "১২৩৪৬"
+      },
+      {
+        "en": "12348",
+        "as": "১২৩৪৮"
+      },
+      {
+        "en": "12342",
+        "as": "১২৩৪২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "12342 ÷ 11 = 1122, so it is divisible by 11.",
+      "as": "১২৩৪২ ÷ ১১ = ১১২২, সেয়ে ই ১১ ৰে বিভাজ্য।"
+    }
+  },
+  {
+    "id": "num-number-system-088",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 40 natural numbers is",
+      "as": "প্ৰথম ৪০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "860",
+        "as": "৮৬০"
+      },
+      {
+        "en": "780",
+        "as": "৭৮০"
+      },
+      {
+        "en": "820",
+        "as": "৮২০"
+      },
+      {
+        "en": "1600",
+        "as": "১৬০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 40 × 41 / 2 = 820.",
+      "as": "যোগফল = n(n+১)/২ = ৪০ × ৪১ / ২ = ৮২০।"
+    }
+  },
+  {
+    "id": "num-number-system-089",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 50 natural numbers is",
+      "as": "প্ৰথম ৫০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "1325",
+        "as": "১৩২৫"
+      },
+      {
+        "en": "1275",
+        "as": "১২৭৫"
+      },
+      {
+        "en": "1225",
+        "as": "১২২৫"
+      },
+      {
+        "en": "2500",
+        "as": "২৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 50 × 51 / 2 = 1275.",
+      "as": "যোগফল = n(n+১)/২ = ৫০ × ৫১ / ২ = ১২৭৫।"
+    }
+  },
+  {
+    "id": "num-number-system-090",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 60 natural numbers is",
+      "as": "প্ৰথম ৬০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "1830",
+        "as": "১৮৩০"
+      },
+      {
+        "en": "1890",
+        "as": "১৮৯০"
+      },
+      {
+        "en": "1770",
+        "as": "১৭৭০"
+      },
+      {
+        "en": "3600",
+        "as": "৩৬০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 60 × 61 / 2 = 1830.",
+      "as": "যোগফল = n(n+১)/২ = ৬০ × ৬১ / ২ = ১৮৩০।"
+    }
+  },
+  {
+    "id": "num-number-system-091",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 75 natural numbers is",
+      "as": "প্ৰথম ৭৫ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "2925",
+        "as": "২৯২৫"
+      },
+      {
+        "en": "2775",
+        "as": "২৭৭৫"
+      },
+      {
+        "en": "5625",
+        "as": "৫৬২৫"
+      },
+      {
+        "en": "2850",
+        "as": "২৮৫০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 75 × 76 / 2 = 2850.",
+      "as": "যোগফল = n(n+১)/২ = ৭৫ × ৭৬ / ২ = ২৮৫০।"
+    }
+  },
+  {
+    "id": "num-number-system-092",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 80 natural numbers is",
+      "as": "প্ৰথম ৮০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "3320",
+        "as": "৩৩২০"
+      },
+      {
+        "en": "3240",
+        "as": "৩২৪০"
+      },
+      {
+        "en": "3160",
+        "as": "৩১৬০"
+      },
+      {
+        "en": "6400",
+        "as": "৬৪০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 80 × 81 / 2 = 3240.",
+      "as": "যোগফল = n(n+১)/২ = ৮০ × ৮১ / ২ = ৩২৪০।"
+    }
+  },
+  {
+    "id": "num-number-system-093",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 100 natural numbers is",
+      "as": "প্ৰথম ১০০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "5150",
+        "as": "৫১৫০"
+      },
+      {
+        "en": "4950",
+        "as": "৪৯৫০"
+      },
+      {
+        "en": "5050",
+        "as": "৫০৫০"
+      },
+      {
+        "en": "10000",
+        "as": "১০০০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 100 × 101 / 2 = 5050.",
+      "as": "যোগফল = n(n+১)/২ = ১০০ × ১০১ / ২ = ৫০৫০।"
+    }
+  },
+  {
+    "id": "num-number-system-094",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 120 natural numbers is",
+      "as": "প্ৰথম ১২০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "7380",
+        "as": "৭৩৮০"
+      },
+      {
+        "en": "7140",
+        "as": "৭১৪০"
+      },
+      {
+        "en": "14400",
+        "as": "১৪৪০০"
+      },
+      {
+        "en": "7260",
+        "as": "৭২৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 120 × 121 / 2 = 7260.",
+      "as": "যোগফল = n(n+১)/২ = ১২০ × ১২১ / ২ = ৭২৬০।"
+    }
+  },
+  {
+    "id": "num-number-system-095",
+    "leaf": "number-system",
+    "q": {
+      "en": "The sum of the first 150 natural numbers is",
+      "as": "প্ৰথম ১৫০ টা স্বাভাৱিক সংখ্যাৰ যোগফল কিমান"
+    },
+    "options": [
+      {
+        "en": "11325",
+        "as": "১১৩২৫"
+      },
+      {
+        "en": "11475",
+        "as": "১১৪৭৫"
+      },
+      {
+        "en": "11175",
+        "as": "১১১৭৫"
+      },
+      {
+        "en": "22500",
+        "as": "২২৫০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sum = n(n+1)/2 = 150 × 151 / 2 = 11325.",
+      "as": "যোগফল = n(n+১)/২ = ১৫০ × ১৫১ / ২ = ১১৩২৫।"
+    }
+  },
+  {
+    "id": "num-number-system-096",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 1000 that are divisible by 3 or 5 is",
+      "as": "১ ৰ পৰা ১০০০ লৈকে ৩ বা ৫ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "467",
+        "as": "৪৬৭"
+      },
+      {
+        "en": "468",
+        "as": "৪৬৮"
+      },
+      {
+        "en": "466",
+        "as": "৪৬৬"
+      },
+      {
+        "en": "533",
+        "as": "৫৩৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Count = ⌊1000/3⌋ + ⌊1000/5⌋ - ⌊1000/15⌋ = 467.",
+      "as": "সংখ্যা = ⌊১০০০/৩⌋ + ⌊১০০০/৫⌋ - ⌊১০০০/১৫⌋ = ৪৬৭।"
+    }
+  },
+  {
+    "id": "num-number-system-097",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 1200 that are divisible by 4 or 6 is",
+      "as": "১ ৰ পৰা ১২০০ লৈকে ৪ বা ৬ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "401",
+        "as": "৪০১"
+      },
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "399",
+        "as": "৩৯৯"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Count = ⌊1200/4⌋ + ⌊1200/6⌋ - ⌊1200/12⌋ = 400.",
+      "as": "সংখ্যা = ⌊১২০০/৪⌋ + ⌊১২০০/৬⌋ - ⌊১২০০/১২⌋ = ৪০০।"
+    }
+  },
+  {
+    "id": "num-number-system-098",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 1500 that are divisible by 5 or 7 is",
+      "as": "১ ৰ পৰা ১৫০০ লৈকে ৫ বা ৭ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "473",
+        "as": "৪৭৩"
+      },
+      {
+        "en": "471",
+        "as": "৪৭১"
+      },
+      {
+        "en": "472",
+        "as": "৪৭২"
+      },
+      {
+        "en": "514",
+        "as": "৫১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Count = ⌊1500/5⌋ + ⌊1500/7⌋ - ⌊1500/35⌋ = 472.",
+      "as": "সংখ্যা = ⌊১৫০০/৫⌋ + ⌊১৫০০/৭⌋ - ⌊১৫০০/৩৫⌋ = ৪৭২।"
+    }
+  },
+  {
+    "id": "num-number-system-099",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 2000 that are divisible by 6 or 8 is",
+      "as": "১ ৰ পৰা ২০০০ লৈকে ৬ বা ৮ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "501",
+        "as": "৫০১"
+      },
+      {
+        "en": "499",
+        "as": "৪৯৯"
+      },
+      {
+        "en": "583",
+        "as": "৫৮৩"
+      },
+      {
+        "en": "500",
+        "as": "৫০০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Count = ⌊2000/6⌋ + ⌊2000/8⌋ - ⌊2000/24⌋ = 500.",
+      "as": "সংখ্যা = ⌊২০০০/৬⌋ + ⌊২০০০/৮⌋ - ⌊২০০০/২৪⌋ = ৫০০।"
+    }
+  },
+  {
+    "id": "num-number-system-100",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 2500 that are divisible by 3 or 11 is",
+      "as": "১ ৰ পৰা ২৫০০ লৈকে ৩ বা ১১ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "986",
+        "as": "৯৮৬"
+      },
+      {
+        "en": "984",
+        "as": "৯৮৪"
+      },
+      {
+        "en": "985",
+        "as": "৯৮৫"
+      },
+      {
+        "en": "1060",
+        "as": "১০৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Count = ⌊2500/3⌋ + ⌊2500/11⌋ - ⌊2500/33⌋ = 985.",
+      "as": "সংখ্যা = ⌊২৫০০/৩⌋ + ⌊২৫০০/১১⌋ - ⌊২৫০০/৩৩⌋ = ৯৮৫।"
+    }
+  },
+  {
+    "id": "num-number-system-101",
+    "leaf": "number-system",
+    "q": {
+      "en": "The number of integers from 1 to 3000 that are divisible by 7 or 9 is",
+      "as": "১ ৰ পৰা ৩০০০ লৈকে ৭ বা ৯ ৰে বিভাজ্য সংখ্যাৰ সংখ্যা কিমান"
+    },
+    "options": [
+      {
+        "en": "715",
+        "as": "৭১৫"
+      },
+      {
+        "en": "714",
+        "as": "৭১৪"
+      },
+      {
+        "en": "713",
+        "as": "৭১৩"
+      },
+      {
+        "en": "761",
+        "as": "৭৬১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Count = ⌊3000/7⌋ + ⌊3000/9⌋ - ⌊3000/63⌋ = 714.",
+      "as": "সংখ্যা = ⌊৩০০০/৭⌋ + ⌊৩০০০/৯⌋ - ⌊৩০০০/৬৩⌋ = ৭১৪।"
+    }
+  }
+]

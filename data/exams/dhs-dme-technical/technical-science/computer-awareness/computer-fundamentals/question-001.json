@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "computer-001",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The part of a computer that performs arithmetic and logical operations is the",
+      "as": "কম্পিউটাৰৰ যি অংশই গাণিতিক আৰু যুক্তিমূলক কাম কৰে তাক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "control unit",
+        "as": "নিয়ন্ত্ৰণ ইউনিট"
+      },
+      {
+        "en": "memory unit",
+        "as": "স্মৃতি ইউনিট"
+      },
+      {
+        "en": "input unit",
+        "as": "ইনপুট ইউনিট"
+      },
+      {
+        "en": "ALU",
+        "as": "ALU"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The arithmetic logic unit carries out addition, subtraction and comparisons. The control unit only directs traffic between the parts.",
+      "as": "অংকীয় যুক্তি ইউনিটে যোগ, বিয়োগ আৰু তুলনা কৰে। নিয়ন্ত্ৰণ ইউনিটে কেবল অংশবোৰৰ মাজত কাম চলায়।"
+    }
+  },
+  {
+    "id": "computer-002",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which generation of computers used integrated circuits?",
+      "as": "কম্পিউটাৰৰ কোন প্ৰজন্মই সমন্বিত বৰ্তনী ব্যৱহাৰ কৰিছিল"
+    },
+    "options": [
+      {
+        "en": "second generation",
+        "as": "দ্বিতীয় প্ৰজন্ম"
+      },
+      {
+        "en": "fifth generation",
+        "as": "পঞ্চম প্ৰজন্ম"
+      },
+      {
+        "en": "third generation",
+        "as": "তৃতীয় প্ৰজন্ম"
+      },
+      {
+        "en": "first generation",
+        "as": "প্ৰথম প্ৰজন্ম"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Third generation machines replaced transistors with integrated circuits. The first used valves and the second used discrete transistors.",
+      "as": "তৃতীয় প্ৰজন্মই ট্ৰান্সিষ্টৰৰ সলনি সমন্বিত বৰ্তনী দিলে। প্ৰথমে ভেল্ভ আৰু দ্বিতীয়ই সুকীয়া ট্ৰান্সিষ্টৰ ব্যৱহাৰ কৰিছিল।"
+    }
+  },
+  {
+    "id": "computer-003",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "One kilobyte is equal to",
+      "as": "এক কিল'বাইট কিৰ সমান"
+    },
+    "options": [
+      {
+        "en": "512 bytes",
+        "as": "৫১২ বাইট"
+      },
+      {
+        "en": "1024 bytes",
+        "as": "১০২৪ বাইট"
+      },
+      {
+        "en": "1000 bytes",
+        "as": "১০০০ বাইট"
+      },
+      {
+        "en": "1024 bits",
+        "as": "১০২৪ বিট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Memory is counted in powers of two, so a kilobyte is two to the tenth, that is 1024 bytes. Decimal 1000 is used only by disk makers.",
+      "as": "স্মৃতি দুইৰ ঘাতত গণা হয়, সেয়ে এক কিল'বাইট = ২ ৰ ঘাত ১০ = ১০২৪ বাইট। ১০০০ কেবল ডিস্ক প্ৰস্তুতকাৰীয়ে ব্যৱহাৰ কৰে।"
+    }
+  },
+  {
+    "id": "computer-004",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The brain of a computer is the",
+      "as": "কম্পিউটাৰৰ মগজু হ'ল"
+    },
+    "options": [
+      {
+        "en": "CPU",
+        "as": "CPU"
+      },
+      {
+        "en": "monitor",
+        "as": "মনিটৰ"
+      },
+      {
+        "en": "keyboard",
+        "as": "কীবৰ্ড"
+      },
+      {
+        "en": "hard disk",
+        "as": "হাৰ্ড ডিস্ক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The central processing unit fetches, decodes and executes every instruction, so it is called the brain. The others are input or storage devices.",
+      "as": "কেন্দ্ৰীয় প্ৰচেছিং ইউনিটে প্ৰতিটো নিৰ্দেশ লৈ, বুজি কাৰ্যকৰী কৰে, সেয়ে ইয়াক মগজু বোলা হয়। বাকীবোৰ ইনপুট বা সঞ্চয় সজুলি।"
+    }
+  },
+  {
+    "id": "computer-005",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is an output device?",
+      "as": "তলৰ কোনটো আউটপুট সজুলি"
+    },
+    "options": [
+      {
+        "en": "scanner",
+        "as": "স্কেনাৰ"
+      },
+      {
+        "en": "mouse",
+        "as": "মাউছ"
+      },
+      {
+        "en": "light pen",
+        "as": "লাইট পেন"
+      },
+      {
+        "en": "plotter",
+        "as": "প্লটাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A plotter draws large technical drawings on paper, so it outputs. Scanner, mouse and light pen all send data into the computer.",
+      "as": "প্লটাৰে কাগজত ডাঙৰ নক্সা আঁকে, সেয়ে ই আউটপুট। স্কেনাৰ, মাউছ আৰু লাইট পেনে তথ্য কম্পিউটাৰলৈ পঠিয়ায়।"
+    }
+  },
+  {
+    "id": "computer-006",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The first electronic digital computer was",
+      "as": "প্ৰথম ইলেক্ট্ৰনিক ডিজিটেল কম্পিউটাৰ আছিল"
+    },
+    "options": [
+      {
+        "en": "IBM 360",
+        "as": "IBM 360"
+      },
+      {
+        "en": "Altair",
+        "as": "আল্টেয়াৰ"
+      },
+      {
+        "en": "ENIAC",
+        "as": "ENIAC"
+      },
+      {
+        "en": "UNIVAC",
+        "as": "UNIVAC"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "ENIAC, completed in 1946, was the first general-purpose electronic digital computer. UNIVAC came later as a commercial machine.",
+      "as": "১৯৪৬ চনত সম্পূৰ্ণ ENIAC প্ৰথম সাধাৰণ উদ্দেশ্যৰ ইলেক্ট্ৰনিক ডিজিটেল কম্পিউটাৰ আছিল। UNIVAC পিছত বাণিজ্যিক ৰূপে আহিল।"
+    }
+  },
+  {
+    "id": "computer-007",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The number of bits in one byte is",
+      "as": "এক বাইটত থকা বিটৰ সংখ্যা"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A byte holds eight bits, enough to store one character. Four bits is a nibble and sixteen bits is a word on older machines.",
+      "as": "এক বাইটত আঠ বিট থাকে, যি এটা আখৰ ৰাখিবলৈ যথেষ্ট। চাৰি বিট নিবল আৰু ষোল্ল বিট পুৰণি যন্ত্ৰৰ শব্দ।"
+    }
+  },
+  {
+    "id": "computer-008",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which memory is volatile, losing its contents when power is switched off?",
+      "as": "কোন স্মৃতি অস্থিৰ, বিদ্যুৎ বন্ধ হ'লে তথ্য হেৰুৱায়"
+    },
+    "options": [
+      {
+        "en": "RAM",
+        "as": "RAM"
+      },
+      {
+        "en": "ROM",
+        "as": "ROM"
+      },
+      {
+        "en": "hard disk",
+        "as": "হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "pen drive",
+        "as": "পেন ড্ৰাইভ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "RAM needs constant power to hold its charge, so a shutdown clears it. ROM and storage devices keep their contents without power.",
+      "as": "RAM এ আধান ধৰি ৰাখিবলৈ নিৰন্তৰ বিদ্যুৎ লাগে, সেয়ে বন্ধ কৰিলে মচি যায়। ROM আৰু সঞ্চয় সজুলিয়ে বিদ্যুৎ নোহোৱাকৈও ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-009",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The speed of a processor is measured in",
+      "as": "প্ৰচেছৰৰ গতি কিৰে জোখা হয়"
+    },
+    "options": [
+      {
+        "en": "gigabyte",
+        "as": "গিগাবাইট"
+      },
+      {
+        "en": "megapixel",
+        "as": "মেগাপিক্সেল"
+      },
+      {
+        "en": "decibel",
+        "as": "ডেচিবেল"
+      },
+      {
+        "en": "gigahertz",
+        "as": "গিগাহাৰ্টজ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Clock speed counts cycles per second, so it is quoted in gigahertz. Gigabyte measures storage and megapixel measures camera resolution.",
+      "as": "ঘড়ীৰ গতি প্ৰতি ছেকেণ্ডত চক্ৰ গণে, সেয়ে গিগাহাৰ্টজত দিয়া হয়। গিগাবাইটে সঞ্চয় আৰু মেগাপিক্সেলে কেমেৰাৰ ৰিজ'লিউশন জোখে।"
+    }
+  },
+  {
+    "id": "computer-010",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is system software?",
+      "as": "তলৰ কোনটো চিষ্টেম ছফ্টৱেৰ"
+    },
+    "options": [
+      {
+        "en": "web browser",
+        "as": "ৱেব ব্ৰাউজাৰ"
+      },
+      {
+        "en": "photo editor",
+        "as": "ফটো এডিটৰ"
+      },
+      {
+        "en": "operating system",
+        "as": "অপাৰেটিং চিষ্টেম"
+      },
+      {
+        "en": "spreadsheet",
+        "as": "স্প্ৰেডশ্বীট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The operating system manages hardware and runs other programs, so it is system software. The rest are application software.",
+      "as": "অপাৰেটিং চিষ্টেমে হাৰ্ডৱেৰ চলাই আন প্ৰগ্ৰাম সক্ৰিয় কৰে, সেয়ে ই চিষ্টেম ছফ্টৱেৰ। বাকীবোৰ এপ্লিকেশ্যন ছফ্টৱেৰ।"
+    }
+  },
+  {
+    "id": "computer-011",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The base of the binary number system is",
+      "as": "দ্বিমিক সংখ্যা পদ্ধতিৰ ভিত্তি"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Binary uses only the digits zero and one, so its base is two. Base eight is octal and base sixteen is hexadecimal.",
+      "as": "দ্বিমিকে কেবল শূন্য আৰু এক ব্যৱহাৰ কৰে, সেয়ে ভিত্তি দুই। ভিত্তি আঠ অষ্টাল আৰু ভিত্তি ষোল্ল হেক্সাডেচিমেল।"
+    }
+  },
+  {
+    "id": "computer-012",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is the fastest memory?",
+      "as": "তলৰ কোনটো আটাই দ্ৰুত স্মৃতি"
+    },
+    "options": [
+      {
+        "en": "cache memory",
+        "as": "কেশ্ব স্মৃতি"
+      },
+      {
+        "en": "main memory",
+        "as": "মূল স্মৃতি"
+      },
+      {
+        "en": "hard disk",
+        "as": "হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "magnetic tape",
+        "as": "চুম্বকীয় টেপ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Cache sits on or beside the processor and serves it in a few cycles. Hard disks and tapes are thousands of times slower.",
+      "as": "কেশ্ব প্ৰচেছৰৰ ওপৰত বা কাষত থাকে আৰু কেইচক্ৰতেই তথ্য দিয়ে। হাৰ্ড ডিস্ক আৰু টেপ হাজাৰ গুণ ধীৰ।"
+    }
+  },
+  {
+    "id": "computer-013",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The full form of ROM is",
+      "as": "ROM ৰ সম্পূৰ্ণ ৰূপ"
+    },
+    "options": [
+      {
+        "en": "Random Only Memory",
+        "as": "Random Only Memory"
+      },
+      {
+        "en": "Read Open Memory",
+        "as": "Read Open Memory"
+      },
+      {
+        "en": "Rapid Output Memory",
+        "as": "Rapid Output Memory"
+      },
+      {
+        "en": "Read Only Memory",
+        "as": "Read Only Memory"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Read only memory is written at manufacture and normally only read. RAM, by contrast, is read and written freely.",
+      "as": "Read Only Memory নিৰ্মাণতে লিখা হয় আৰু সাধাৰণতে কেবল পঢ়া হয়। RAM কিন্তু মুক্তভাৱে পঢ়া আৰু লিখা যায়।"
+    }
+  },
+  {
+    "id": "computer-014",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A computer virus is",
+      "as": "কম্পিউটাৰ ভাইৰাছ হ'ল"
+    },
+    "options": [
+      {
+        "en": "a type of hardware",
+        "as": "এবিধ হাৰ্ডৱেৰ"
+      },
+      {
+        "en": "a cooling fan",
+        "as": "এটা শীতলক ফেন"
+      },
+      {
+        "en": "a program that copies itself and damages files",
+        "as": "এটা প্ৰগ্ৰাম যি নিজকে নকল কৰি ফাইল নষ্ট কৰে"
+      },
+      {
+        "en": "a fault in the monitor",
+        "as": "মনিটৰৰ ত্ৰুটি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A virus is executable code that attaches itself to files and spreads. It is software, not a physical fault.",
+      "as": "ভাইৰাছ হ'ল চলনশীল ক'ড যি ফাইলত লাগি বিয়পে। ই ছফ্টৱেৰ, শাৰীৰিক ত্ৰুটি নহয়।"
+    }
+  },
+  {
+    "id": "computer-015",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The device that converts hard copy into digital form is a",
+      "as": "কঠিন কপিক ডিজিটেল ৰূপলৈ সলনি কৰা সজুলিটো"
+    },
+    "options": [
+      {
+        "en": "speaker",
+        "as": "স্পীকাৰ"
+      },
+      {
+        "en": "scanner",
+        "as": "স্কেনাৰ"
+      },
+      {
+        "en": "plotter",
+        "as": "প্লটাৰ"
+      },
+      {
+        "en": "printer",
+        "as": "প্ৰিণ্টাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A scanner reads a printed page and stores it as an image. Printers and plotters go the other way, from digital to paper.",
+      "as": "স্কেনাৰে ছপা পৃষ্ঠা পঢ়ি ছবি হিচাপে ৰাখে। প্ৰিণ্টাৰ আৰু প্লটাৰে ওলোটা কৰে, ডিজিটেলৰপৰা কাগজলৈ।"
+    }
+  },
+  {
+    "id": "computer-016",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is an example of a non-volatile memory?",
+      "as": "তলৰ কোনটো অস্থিৰ নোহোৱা স্মৃতিৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "flash memory",
+        "as": "ফ্লেশ্ব স্মৃতি"
+      },
+      {
+        "en": "DRAM",
+        "as": "DRAM"
+      },
+      {
+        "en": "SRAM",
+        "as": "SRAM"
+      },
+      {
+        "en": "register",
+        "as": "ৰেজিষ্টাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Flash memory keeps its data without power, which is why pen drives and memory cards work. DRAM, SRAM and registers all lose data.",
+      "as": "ফ্লেশ্ব স্মৃতি বিদ্যুৎ নোহোৱাকৈও তথ্য ৰাখে, সেয়ে পেন ড্ৰাইভ আৰু মেম'ৰি কাৰ্ড চলে। DRAM, SRAM আৰু ৰেজিষ্টাৰে তথ্য হেৰুৱায়।"
+    }
+  },
+  {
+    "id": "computer-017",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The process of starting a computer and loading the operating system is called",
+      "as": "কম্পিউটাৰ আৰম্ভ কৰি অপাৰেটিং চিষ্টেম লোড কৰা প্ৰক্ৰিয়াক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "browsing",
+        "as": "ব্ৰাউজিং"
+      },
+      {
+        "en": "batching",
+        "as": "বেটচিং"
+      },
+      {
+        "en": "buffering",
+        "as": "বাফাৰিং"
+      },
+      {
+        "en": "booting",
+        "as": "বুটিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Booting runs the firmware, tests the hardware and hands control to the operating system. Browsing is reading web pages.",
+      "as": "বুটিঙে ফাৰ্মৱেৰ চলায়, হাৰ্ডৱেৰ পৰীক্ষা কৰি নিয়ন্ত্ৰণ অপাৰেটিং চিষ্টেমলৈ দিয়ে। ব্ৰাউজিঙে ৱেব পৃষ্ঠা পঢ়ে।"
+    }
+  },
+  {
+    "id": "computer-018",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The number of bits a processor can handle at one time is its",
+      "as": "প্ৰচেছৰে এসময়ত কিমান বিট চম্ভালিব পাৰে সেয়া তাৰ"
+    },
+    "options": [
+      {
+        "en": "bus width only",
+        "as": "কেৱল বাছ প্ৰস্থ"
+      },
+      {
+        "en": "cache size",
+        "as": "কেশ্ব আকাৰ"
+      },
+      {
+        "en": "word length",
+        "as": "শব্দ দৈৰ্ঘ্য"
+      },
+      {
+        "en": "clock speed",
+        "as": "ঘড়ীৰ গতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Word length describes how many bits move together through the processor, as in a 32-bit or 64-bit machine. Clock speed is cycles per second.",
+      "as": "শব্দ দৈৰ্ঘ্যই প্ৰচেছৰৰ মাজেৰে একেলগে যোৱা বিটৰ সংখ্যা বুজায়, যেনে ৩২-বিট বা ৬৪-বিট। ঘড়ীৰ গতি প্ৰতি ছেকেণ্ডত চক্ৰ।"
+    }
+  },
+  {
+    "id": "computer-019",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following stores the largest amount of data?",
+      "as": "তলৰ কোনটোত আটাই বেছি তথ্য ৰখা যায়"
+    },
+    "options": [
+      {
+        "en": "kilobyte",
+        "as": "কিল'বাইট"
+      },
+      {
+        "en": "terabyte",
+        "as": "টাৰাবাইট"
+      },
+      {
+        "en": "megabyte",
+        "as": "মেগাবাইট"
+      },
+      {
+        "en": "gigabyte",
+        "as": "গিগাবাইট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A terabyte is about a thousand gigabytes, so it is the largest of these. The order from small to large is kilo, mega, giga, tera.",
+      "as": "এক টাৰাবাইট প্ৰায় এহাজাৰ গিগাবাইট, সেয়ে ইহঁতৰ ভিতৰত আটাই ডাঙৰ। সৰুৰপৰা ডাঙৰলৈ ক্ৰম কিল', মেগা, গিগা, টেৰা।"
+    }
+  },
+  {
+    "id": "computer-020",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "An example of an input device that reads marks on an answer sheet is an",
+      "as": "উত্তৰপত্ৰৰ দাগ পঢ়া ইনপুট সজুলি এটাৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "OMR",
+        "as": "OMR"
+      },
+      {
+        "en": "OCR",
+        "as": "OCR"
+      },
+      {
+        "en": "MICR",
+        "as": "MICR"
+      },
+      {
+        "en": "LCD",
+        "as": "LCD"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Optical mark recognition senses darkened bubbles, which is how objective tests are scored. OCR reads printed characters and MICR reads cheque codes.",
+      "as": "OMR এ ক'লা কৰা বৃত্ত চিনি লয়, সেয়ে বস্তুনিষ্ঠ পৰীক্ষা জোখা হয়। OCR এ ছপা আখৰ আৰু MICR এ চেকৰ ক'ড পঢ়ে।"
+    }
+  },
+  {
+    "id": "computer-021",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The unit that coordinates and controls all parts of a computer is the",
+      "as": "কম্পিউটাৰৰ সকলো অংশ সমন্বয় আৰু নিয়ন্ত্ৰণ কৰা ইউনিটটো"
+    },
+    "options": [
+      {
+        "en": "arithmetic logic unit",
+        "as": "অংকীয় যুক্তি ইউনিট"
+      },
+      {
+        "en": "memory unit",
+        "as": "স্মৃতি ইউনিট"
+      },
+      {
+        "en": "output unit",
+        "as": "আউটপুট ইউনিট"
+      },
+      {
+        "en": "control unit",
+        "as": "নিয়ন্ত্ৰণ ইউনিট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The control unit reads each instruction and signals the other units in the right order. The ALU only does the arithmetic itself.",
+      "as": "নিয়ন্ত্ৰণ ইউনিটে প্ৰতিটো নিৰ্দেশ পঢ়ি শুদ্ধ ক্ৰমত আন ইউনিটলৈ সংকেত দিয়ে। ALU এ কেবল অংক কৰে।"
+    }
+  },
+  {
+    "id": "computer-022",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is a high level language?",
+      "as": "তলৰ কোনটো উচ্চস্তৰীয় ভাষা"
+    },
+    "options": [
+      {
+        "en": "machine language",
+        "as": "যন্ত্ৰ ভাষা"
+      },
+      {
+        "en": "microcode",
+        "as": "মাইক্ৰ'ক'ড"
+      },
+      {
+        "en": "Python",
+        "as": "পাইথন"
+      },
+      {
+        "en": "assembly language",
+        "as": "এচেম্বলি ভাষা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Python reads close to English and needs a compiler or interpreter. Assembly and machine language are tied to the processor itself.",
+      "as": "পাইথন ইংৰাজীৰ ওচৰত আৰু কম্পাইলাৰ বা ইন্টাৰপ্ৰেটৰ লাগে। এচেম্বলি আৰু যন্ত্ৰ ভাষা প্ৰচেছৰৰ সৈতে বন্ধা।"
+    }
+  },
+  {
+    "id": "computer-023",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The main circuit board of a computer is called the",
+      "as": "কম্পিউটাৰৰ মূল বৰ্তনী পট্টিক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "heat sink",
+        "as": "হিট ছিংক"
+      },
+      {
+        "en": "motherboard",
+        "as": "মাদাৰব'ৰ্ড"
+      },
+      {
+        "en": "daughterboard",
+        "as": "ডটাৰব'ৰ্ড"
+      },
+      {
+        "en": "expansion card",
+        "as": "বিস্তাৰণ কাৰ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The motherboard carries the processor, memory slots and expansion connectors. A heat sink only cools the processor.",
+      "as": "মাদাৰব'ৰ্ডে প্ৰচেছৰ, স্মৃতি স্লট আৰু বিস্তাৰণ সংযোগক ধৰি ৰাখে। হিট ছিংকে কেবল প্ৰচেছৰ শীতল কৰে।"
+    }
+  },
+  {
+    "id": "computer-024",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is an example of an operating system?",
+      "as": "তলৰ কোনটো অপাৰেটিং চিষ্টেমৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "Linux",
+        "as": "লিনাক্স"
+      },
+      {
+        "en": "Oracle",
+        "as": "অৰাকল"
+      },
+      {
+        "en": "Photoshop",
+        "as": "ফট'শ্বপ"
+      },
+      {
+        "en": "Excel",
+        "as": "এক্সেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Linux is a full operating system. Oracle is a database, Photoshop an image editor and Excel a spreadsheet.",
+      "as": "লিনাক্স সম্পূৰ্ণ অপাৰেটিং চিষ্টেম। অৰাকল ডাটাবেছ, ফট'শ্বপ ছবি এডিটৰ আৰু এক্সেল স্প্ৰেডশ্বীট।"
+    }
+  },
+  {
+    "id": "computer-025",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "One megabyte is equal to",
+      "as": "এক মেগাবাইট কিৰ সমান"
+    },
+    "options": [
+      {
+        "en": "1024 bytes",
+        "as": "১০২৪ বাইট"
+      },
+      {
+        "en": "1000 kilobytes",
+        "as": "১০০০ কিল'বাইট"
+      },
+      {
+        "en": "1024 gigabytes",
+        "as": "১০২৪ গিগাবাইট"
+      },
+      {
+        "en": "1024 kilobytes",
+        "as": "১০২৪ কিল'বাইট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Each step in memory is a factor of 1024, so a megabyte is 1024 kilobytes. A gigabyte would be 1024 megabytes.",
+      "as": "স্মৃতিৰ প্ৰতিটো খোজ ১০২৪ গুণ, সেয়ে এক মেগাবাইট = ১০২৪ কিল'বাইট। এক গিগাবাইট ১০২৪ মেগাবাইট হ'ব।"
+    }
+  },
+  {
+    "id": "computer-026",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The first computer programmer is generally regarded as",
+      "as": "প্ৰথম কম্পিউটাৰ প্ৰগ্ৰামাৰ হিচাপে সাধাৰণতে কাক গণ্য কৰা হয়"
+    },
+    "options": [
+      {
+        "en": "Alan Turing",
+        "as": "এলান টিউৰিং"
+      },
+      {
+        "en": "John von Neumann",
+        "as": "জন ফন নিউমেন"
+      },
+      {
+        "en": "Ada Lovelace",
+        "as": "এডা লাভলেছ"
+      },
+      {
+        "en": "Charles Babbage",
+        "as": "চাৰ্লছ বেবেজ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ada Lovelace wrote the algorithm for Babbage's analytical engine, so she is called the first programmer. Babbage designed the machine itself.",
+      "as": "এডা লাভলেছে বেবেজৰ বিশ্লেষণী যন্ত্ৰৰ বাবে এলগৰিদম লিখিছিল, সেয়ে তেওঁক প্ৰথম প্ৰগ্ৰামাৰ বোলা হয়। বেবেজে যন্ত্ৰটো সাজিছিল।"
+    }
+  },
+  {
+    "id": "computer-027",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is a temporary storage area used to speed up data transfer?",
+      "as": "তথ্য সঞ্চাৰণ দ্ৰুত কৰিবলৈ ব্যৱহৃত অস্থায়ী সঞ্চয় স্থানটো"
+    },
+    "options": [
+      {
+        "en": "firmware",
+        "as": "ফাৰ্মৱেৰ"
+      },
+      {
+        "en": "buffer",
+        "as": "বাফাৰ"
+      },
+      {
+        "en": "register",
+        "as": "ৰেজিষ্টাৰ"
+      },
+      {
+        "en": "ROM",
+        "as": "ROM"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A buffer holds data briefly while a slow device catches up, as in printing. A register is inside the processor itself.",
+      "as": "বাফাৰে ধীৰ সজুলি আগবাঢ়োঁতে অলপ সময় তথ্য ৰাখে, যেনে প্ৰিণ্টত। ৰেজিষ্টাৰ প্ৰচেছৰৰ ভিতৰত থাকে।"
+    }
+  },
+  {
+    "id": "computer-028",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The abbreviation GUI stands for",
+      "as": "GUI ৰ সম্পূৰ্ণ ৰূপ"
+    },
+    "options": [
+      {
+        "en": "Graphical User Interface",
+        "as": "Graphical User Interface"
+      },
+      {
+        "en": "General User Input",
+        "as": "General User Input"
+      },
+      {
+        "en": "Graphic Unit Interface",
+        "as": "Graphic Unit Interface"
+      },
+      {
+        "en": "Guided User Interaction",
+        "as": "Guided User Interaction"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A graphical user interface lets you work with windows, icons and a pointer instead of typed commands.",
+      "as": "Graphical User Interface এ আদেশ টাইপ নকৰি উইণ্ড', আইকন আৰু পইণ্টাৰেৰে কাম কৰিব দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-029",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Which of the following is the smallest unit of data?",
+      "as": "তলৰ কোনটো তথ্যৰ আটাই সৰু একক"
+    },
+    "options": [
+      {
+        "en": "byte",
+        "as": "বাইট"
+      },
+      {
+        "en": "nibble",
+        "as": "নিবল"
+      },
+      {
+        "en": "word",
+        "as": "শব্দ"
+      },
+      {
+        "en": "bit",
+        "as": "বিট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A bit is a single binary digit, zero or one. A nibble is four bits and a byte is eight.",
+      "as": "বিট এটা অকলশৰীয়া দ্বিমিক অংক, শূন্য বা এক। নিবল চাৰি বিট আৰু বাইট আঠ।"
+    }
+  },
+  {
+    "id": "computer-030",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "The software that is permanently written into a hardware device is called",
+      "as": "হাৰ্ডৱেৰ সজুলিত স্থায়ীভাৱে লিখা ছফ্টৱেৰক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "freeware",
+        "as": "ফ্ৰীৱেৰ"
+      },
+      {
+        "en": "middleware",
+        "as": "মিডলৱেৰ"
+      },
+      {
+        "en": "firmware",
+        "as": "ফাৰ্মৱেৰ"
+      },
+      {
+        "en": "shareware",
+        "as": "শ্বেয়াৰৱেৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Firmware sits in ROM on the device and runs it, as in a printer or a router. Shareware and freeware describe licensing, not location.",
+      "as": "ফাৰ্মৱেৰ সজুলিৰ ROM ত থাকে আৰু তাক চলায়, যেনে প্ৰিণ্টাৰ বা ৰাউটাৰ। শ্বেয়াৰৱেৰ আৰু ফ্ৰীৱেৰে অনুজ্ঞাপত্ৰ বুজায়, অৱস্থান নহয়।"
+    }
+  },
+  {
+    "id": "computer-181",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A spreadsheet takes 90 seconds to recalculate a sheet that used to take 45. The engineer adds 8 GB of RAM but the time does not change, and the disk light stays on throughout. The component that is limiting performance is the",
+      "as": "এখন স্প্ৰেডশ্বীটে পূৰ্বে ৪৫ ছেকেণ্ডত কৰা গণনা এতিয়া ৯০ ছেকেণ্ডত কৰে। অভিযন্তাই ৮ জিবি RAM যোগ কৰিলেও সময় নসলনি, আৰু ডিস্কৰ পোহৰ গোটেই সময়ত জ্বলি থাকে। কাৰ্যদক্ষতা সীমিত কৰা অংশটো"
+    },
+    "options": [
+      {
+        "en": "RAM, because 8 GB is too little for any spreadsheet",
+        "as": "RAM, কাৰণ ৮ জিবি যিকোনো স্প্ৰেডশ্বীটৰ বাবে কম"
+      },
+      {
+        "en": "processor, because recalculation is pure arithmetic",
+        "as": "প্ৰচেছৰ, কাৰণ পুনৰ্গণনা পূৰ্ণ গাণিতিক কাম"
+      },
+      {
+        "en": "power supply, because it cannot feed the new RAM",
+        "as": "পাৱাৰ ছাপ্লাই, কাৰণ ই নতুন RAM চলাব নোৱাৰে"
+      },
+      {
+        "en": "hard disk, because paging to it is the bottleneck",
+        "as": "হাৰ্ড ডিস্ক, কাৰণ তালৈ পেজিংয়ে বাধা দিছে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A disk light that stays on while the work is slow is the signature of thrashing, where the system swaps pages to disk faster than RAM can serve them. Adding RAM did not help because the file itself is being read repeatedly from a slow device, and pure arithmetic would show no disk activity at all.",
+      "as": "কাম লেহেমীয়া হৈ থাকোতে ডিস্কৰ পোহৰ জ্বলি থকাটো থ্ৰেশিঙৰ চিন, য'ত ব্যৱস্থাই RAM-এ যোগান ধৰিব পৰাতকৈ দ্ৰুতভাৱে পৃষ্ঠা ডিস্কলৈ সলনি কৰে। RAM যোগ কৰিলেও সহায় নহ'ল কাৰণ ফাইলটোৱে লেহেমীয়া যন্ত্ৰৰপৰা বাৰে বাৰে পঢ়িছে, আৰু পূৰ্ণ গাণিতিক কামত ডিস্কৰ কোনো সক্ৰিয়তা নাথাকিলহেঁতেন।"
+    }
+  },
+  {
+    "id": "computer-182",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A file is 3,000,000 bytes in size. Expressed in decimal units this is approximately",
+      "as": "এটা ফাইলৰ আকাৰ ৩,০০০,০০০ বাইট। দশমিক এককত ই প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "30 MB",
+        "as": "৩০ MB"
+      },
+      {
+        "en": "3 GB",
+        "as": "৩ GB"
+      },
+      {
+        "en": "3 MB",
+        "as": "৩ MB"
+      },
+      {
+        "en": "3 MiB",
+        "as": "৩ MiB"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Decimal prefixes step by 1,000, so three million bytes is three megabytes. A mebibyte is 1,048,576 bytes, so the same file is about 2.86 MiB, and gigabytes would need a thousand times more.",
+      "as": "দশমিক উপসৰ্গই ১,০০০ কৈ বাঢ়ে, সেয়ে ত্ৰিশ লাখ বাইট তিনি মেগাবাইট। এটা মেবিবাইট ১,০৪৮,৫৭৬ বাইট, সেয়ে একেই ফাইল প্ৰায় ২.৮৬ MiB, আৰু গিগাবাইটৰ বাবে হাজাৰ গুণ বেছি লাগে।"
+    }
+  },
+  {
+    "id": "computer-183",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A program must run on several different processor families without being rewritten for each. The property of the source code that makes this possible is",
+      "as": "এখন প্ৰ'গ্ৰাম কেইবাটাও বেলেগ প্ৰচেছৰ পৰিয়ালত পুনৰ নলিখাকৈ চলিব লাগে। উৎস সংকেতক ই সম্ভৱ কৰা ধৰ্মটো"
+    },
+    "options": [
+      {
+        "en": "granularity",
+        "as": "গ্ৰেনুলেৰিটি"
+      },
+      {
+        "en": "portability",
+        "as": "প'ৰ্টেবিলিটি"
+      },
+      {
+        "en": "volatility",
+        "as": "ভলেটিলিটি"
+      },
+      {
+        "en": "redundancy",
+        "as": "ৰিডাণ্ডেন্সি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Portability is the ease with which software moves to another platform, and a high level language plus a compiler per platform is what delivers it. Volatility describes memory losing its contents, redundancy is duplication for safety, and granularity is the size of the units a system works in.",
+      "as": "প'ৰ্টেবিলিটিয়ে ছফ্টৱেৰ আন মঞ্চলৈ যোৱাৰ সহজতা, আৰু উচ্চ স্তৰৰ ভাষা লগতে প্ৰতিটো মঞ্চৰ কম্পাইলাৰেই তাক দিয়ে। ভলেটিলিটিয়ে স্মৃতিয়ে বস্তু হেৰুওৱা বুজায়, ৰিডাণ্ডেন্সি সুৰক্ষাৰ বাবে নকল আৰু গ্ৰেনুলেৰিটি ব্যৱস্থাই কাম কৰা এককৰ আকাৰ।"
+    }
+  },
+  {
+    "id": "computer-184",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "An operating system keeps a table of which blocks on disk belong to which file. The main purpose of this table is to",
+      "as": "অপাৰেটিং চিষ্টেমে ডিস্কৰ কোন খণ্ড কোন ফাইলৰ বুলি এখন তালিকা ৰাখে। এই তালিকাৰ মূল উদ্দেশ্য"
+    },
+    "options": [
+      {
+        "en": "locate the scattered blocks that make up one file",
+        "as": "এটা ফাইল গঠন কৰা ছটিয়াই থকা খণ্ডবোৰ বিচাৰি উলিওৱা"
+      },
+      {
+        "en": "measure the physical size of the disk",
+        "as": "ডিস্কৰ ভৌতিক আকাৰ জোখা"
+      },
+      {
+        "en": "encrypt the file contents",
+        "as": "ফাইলৰ বস্তু এনক্ৰিপ্ট কৰা"
+      },
+      {
+        "en": "increase the clock speed of the processor",
+        "as": "প্ৰচেছৰৰ ঘড়ীৰ গতি বঢ়োৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Files are stored in blocks that need not be adjacent, and the file allocation table is what lets the system find each block in order. Disk size comes from the drive geometry, encryption is a separate layer, and clock speed is a hardware setting.",
+      "as": "ফাইলবোৰ প্ৰয়োজনত ওচৰা-ওচৰিকৈ নাথকা খণ্ডত ৰখা হয়, আৰু ফাইল বিতৰণ তালিকাই ব্যৱস্থাক প্ৰতিটো খণ্ড ক্ৰমে বিচাৰিবলৈ দিয়ে। ডিস্কৰ আকাৰ ড্ৰাইভৰ জ্যামিতিৰপৰা আহে, এনক্ৰিপশ্যন পৃথক স্তৰ, আৰু ঘড়ীৰ গতি হাৰ্ডৱেৰৰ ছেটিং।"
+    }
+  },
+  {
+    "id": "computer-185",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A user complains that a laptop battery drains even when the machine is shut down. The component most likely to be responsible is the",
+      "as": "ব্যৱহাৰকাৰীয়ে অভিযোগ কৰে যে লেপটপ বন্ধ কৰি থ'লেও বেটাৰী শেষ হয়। আটাই সম্ভাব্য দায়ী অংশটো"
+    },
+    "options": [
+      {
+        "en": "hard disk spinning during shutdown",
+        "as": "বন্ধ কৰোতে ঘূৰি থকা হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "screen backlight left on",
+        "as": "জ্বলি থকা স্ক্ৰীণৰ পোহৰ"
+      },
+      {
+        "en": "processor running at full speed",
+        "as": "পূৰ্ণ গতিত চলা প্ৰচেছৰ"
+      },
+      {
+        "en": "standby rail that keeps the clock and wake circuits alive",
+        "as": "ঘড়ী আৰু জাগৰণ বৰ্তনী জীয়াই ৰখা ষ্টেণ্ডবাই ৰে'ল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A small standby supply keeps the real time clock and the power button wake circuit live, and a failing rail or a wake device can draw current all night. A powered down disk, a dark screen and an idle processor draw nothing, so none can explain the drain.",
+      "as": "সৰু ষ্টেণ্ডবাই যোগানে বাস্তৱ সময়ৰ ঘড়ী আৰু পাৱাৰ বুটামৰ জাগৰণ বৰ্তনী জীয়াই ৰাখে, আৰু বেয়া ৰে'ল বা জগোৱা যন্ত্ৰই গোটেই ৰাতি প্ৰবাহ টানিব পাৰে। বন্ধ ডিস্ক, এন্ধাৰ স্ক্ৰীণ আৰু অলস প্ৰচেছৰে একো নাটানে, সেয়ে কোনোটোৱেই ক্ষয় ব্যাখ্যা নকৰে।"
+    }
+  },
+  {
+    "id": "computer-186",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A scanned page is stored as an image rather than as text, so it cannot be searched. The process that would make it searchable is",
+      "as": "স্কেন কৰা পৃষ্ঠা পাঠ হিচাপে নহয় ছবি হিচাপে ৰখা হৈছে, সেয়ে ইয়াক সন্ধান কৰিব নোৱাৰি। তাক সন্ধানযোগ্য কৰা প্ৰক্ৰিয়া"
+    },
+    "options": [
+      {
+        "en": "image compression",
+        "as": "ইমেজ কম্প্ৰেছন"
+      },
+      {
+        "en": "rasterisation",
+        "as": "ৰাষ্টাৰাইজেশ্যন"
+      },
+      {
+        "en": "optical character recognition",
+        "as": "অপ্টিকেল কেৰেক্টাৰ ৰিকগনিশ্যন"
+      },
+      {
+        "en": "optical mark recognition",
+        "as": "অপ্টিকেল মাৰ্ক ৰিকগনিশ্যন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Optical character recognition converts the shapes in the image into machine readable characters, which is what makes search and copy possible. Mark recognition only detects filled boxes, compression shrinks the file without reading it, and rasterisation turns vectors into pixels.",
+      "as": "অপ্টিকেল কেৰেক্টাৰ ৰিকগনিশ্যনে ছবিৰ আকৃতি যন্ত্ৰই পঢ়িব পৰা আখৰলৈ সলনি কৰে, যিয়ে সন্ধান আৰু নকল সম্ভৱ কৰে। মাৰ্ক ৰিকগনিশ্যনে কেৱল ভৰোৱা বাকচ ধৰে, কম্প্ৰেছনে নপঢ়াকৈ ফাইল সৰু কৰে, আৰু ৰাষ্টাৰাইজেশ্যনে ভেক্টৰক পিক্সেললৈ সলায়।"
+    }
+  },
+  {
+    "id": "computer-187",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A computer has 4 GB of RAM and the operating system reports that about 1 GB is permanently in use before any program is opened. That memory is held by the",
+      "as": "কম্পিউটাৰত ৪ জিবি RAM আছে আৰু অপাৰেটিং চিষ্টেমে জনায় কোনো প্ৰ'গ্ৰাম নুখোলাকৈ প্ৰায় ১ জিবি স্থায়ীভাৱে ব্যৱহৃত। সেই স্মৃতি ধৰি ৰাখে"
+    },
+    "options": [
+      {
+        "en": "the graphics card memory",
+        "as": "গ্ৰাফিক্স কাৰ্ডৰ স্মৃতিয়ে"
+      },
+      {
+        "en": "kernel and background services",
+        "as": "কাৰ্ণেল আৰু পৃষ্ঠভূমিৰ সেৱাই"
+      },
+      {
+        "en": "the BIOS chip",
+        "as": "BIOS চিপে"
+      },
+      {
+        "en": "the hard disk cache",
+        "as": "হাৰ্ড ডিস্ক কেশে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The kernel, drivers and background services are loaded at boot and stay resident, which is the baseline memory use seen before any user program starts. The BIOS chip is non-volatile firmware rather than RAM, disk cache is used on demand and graphics memory is separate.",
+      "as": "কাৰ্ণেল, ড্ৰাইভাৰ আৰু পৃষ্ঠভূমিৰ সেৱা বুটত লোড হৈ ৰৈ যায়, যি কোনো ব্যৱহাৰকাৰী প্ৰ'গ্ৰাম আৰম্ভ হোৱাৰ আগতে দেখা মূল স্মৃতি ব্যৱহাৰ। BIOS চিপ RAM নহয় অস্থিৰ নোহোৱা ফাৰ্মৱেৰ, ডিস্ক কেশ প্ৰয়োজনত ব্যৱহৃত আৰু গ্ৰাফিক্স স্মৃতি পৃথক।"
+    }
+  },
+  {
+    "id": "computer-188",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "Two programs each need to update the same record in a database. The operating system mechanism that prevents them writing at the same instant is",
+      "as": "দুখন প্ৰ'গ্ৰামে এটা ডেটাবেছ ৰেকৰ্ড একেসময়ত সলনি কৰিব লাগে। একেই মুহূৰ্তত লিখা ৰোধ কৰা অপাৰেটিং চিষ্টেমৰ ব্যৱস্থা"
+    },
+    "options": [
+      {
+        "en": "file or record locking",
+        "as": "ফাইল বা ৰেকৰ্ড লকিং"
+      },
+      {
+        "en": "spooling",
+        "as": "স্পুলিং"
+      },
+      {
+        "en": "buffering",
+        "as": "বাফাৰিং"
+      },
+      {
+        "en": "paging",
+        "as": "পেজিং"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A lock grants one process exclusive access to the record until it releases it, which is what prevents a lost update. Spooling queues output for a slow device, buffering smooths data flow and paging moves memory pages to disk.",
+      "as": "লকে এটা প্ৰচেছক ৰেকৰ্ড এৰি নিদিয়ালৈকে একচেটীয়া প্ৰৱেশ দিয়ে, যিয়ে হেৰুওৱা নবীকৰণ ৰোধ কৰে। স্পুলিঙে লেহেমীয়া যন্ত্ৰৰ বাবে আউটপুট শাৰীত ৰাখে, বাফাৰিঙে তথ্যৰ প্ৰবাহ মসৃণ কৰে আৰু পেজিঙে স্মৃতিৰ পৃষ্ঠা ডিস্কলৈ নিয়ে।"
+    }
+  },
+  {
+    "id": "computer-189",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A user wants a machine that resumes in under two seconds and has no moving parts inside the storage device. The storage type that meets both requirements is",
+      "as": "ব্যৱহাৰকাৰীয়ে দুই ছেকেণ্ডতকৈ কম সময়ত পুনৰ আৰম্ভ হোৱা আৰু সংৰক্ষণ যন্ত্ৰৰ ভিতৰত চলন্ত অংগ নথকা যন্ত্ৰ বিচাৰে। দুয়োটা চৰ্ত পূৰ কৰা সংৰক্ষণ"
+    },
+    "options": [
+      {
+        "en": "magnetic hard disk",
+        "as": "চুম্বকীয় হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "optical disc",
+        "as": "অপ্টিকেল ডিস্ক"
+      },
+      {
+        "en": "magnetic tape",
+        "as": "চুম্বকীয় টে'প"
+      },
+      {
+        "en": "solid state drive",
+        "as": "ছলিড ষ্টেট ড্ৰাইভ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A solid state drive has no platters or heads, so it seeks in microseconds and resumes almost at once. A hard disk needs platter spin up and head movement, and optical discs and tape are far slower still.",
+      "as": "ছলিড ষ্টেট ড্ৰাইভত প্লেটাৰ বা হেড নাই, সেয়ে ই মাইক্ৰ'ছেকেণ্ডত বিচাৰি পায় আৰু প্ৰায় লগে লগে পুনৰ আৰম্ভ হয়। হাৰ্ড ডিস্কত প্লেটাৰ ঘূৰা আৰু হেড চলা লাগে, আৰু অপ্টিকেল ডিস্ক তথা টে'প বহু লেহেমীয়া।"
+    }
+  },
+  {
+    "id": "computer-190",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A user deletes a file and then empties the recycle bin, but the data can still be recovered with a specialist tool. The reason is that deletion",
+      "as": "ব্যৱহাৰকাৰীয়ে ফাইল মচি ৰিছাইকেল বিন খালী কৰে, কিন্তু বিশেষ সঁজুলিৰে তথ্য উদ্ধাৰ কৰিব পাৰি। কাৰণ মচিলে"
+    },
+    "options": [
+      {
+        "en": "moves the file to the cloud",
+        "as": "ফাইলটো ক্লাউডলৈ নিয়ে"
+      },
+      {
+        "en": "compresses the file in place",
+        "as": "ফাইলটো তাতে সংকুচিত কৰে"
+      },
+      {
+        "en": "removes the directory entry but leaves the blocks until overwritten",
+        "as": "ডাইৰেক্টৰিৰ প্ৰৱেশ আঁতৰায় কিন্তু খণ্ডবোৰ পুনৰ লিখাৰ আগলৈকে থাকে"
+      },
+      {
+        "en": "copies the file to a hidden folder",
+        "as": "ফাইলটো লুকুৱা ফ'ল্ডাৰলৈ নকল কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Deletion marks the blocks as free but does not erase them, so recovery tools can read the old contents until something else writes over them. Nothing is copied, moved or compressed, which is why overwriting or secure erasure is needed for sensitive data.",
+      "as": "মচিলে খণ্ডবোৰ মুকলি বুলি চিহ্নিত কৰে কিন্তু নুমুৱাই নিদিয়ে, সেয়ে উদ্ধাৰ সঁজুলিয়ে আন কিছুই তাত নিলিখালৈকে পুৰণি বস্তু পঢ়িব পাৰে। একোৱেই নকল, স্থানান্তৰ বা সংকোচন নহয়, সেয়ে সংবেদনশীল তথ্যৰ বাবে পুনৰ লিখা বা সুৰক্ষিত মচন লাগে।"
+    }
+  },
+  {
+    "id": "computer-191",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A printer prints the same page twice for every document sent. The layer of software most likely to be misconfigured is the",
+      "as": "প্ৰিন্টাৰে পঠিওৱা প্ৰতিখন নথিৰ বাবে একেই পৃষ্ঠা দুবাৰ ছপা কৰে। ভুল সংৰচিত হোৱাৰ আটাই সম্ভাব্য ছফ্টৱেৰ স্তৰ"
+    },
+    "options": [
+      {
+        "en": "file system journal",
+        "as": "ফাইল চিষ্টেম জাৰ্ণাল"
+      },
+      {
+        "en": "printer driver",
+        "as": "প্ৰিন্টাৰ ড্ৰাইভাৰ"
+      },
+      {
+        "en": "operating system scheduler",
+        "as": "অপাৰেটিং চিষ্টেমৰ শিডিউলাৰ"
+      },
+      {
+        "en": "web browser cache",
+        "as": "ৱেব ব্ৰাউজাৰ কেশ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The driver translates the document into the printer's command language, and a wrong driver or a duplicate copy setting is what produces two pages. The scheduler decides when processes run, the browser cache stores web content and the journal records file system changes.",
+      "as": "ড্ৰাইভাৰে নথিখন প্ৰিন্টাৰৰ আদেশ ভাষালৈ সলনি কৰে, আৰু ভুল ড্ৰাইভাৰ বা নকল কপি ছেটিংেই দুটা পৃষ্ঠা কৰে। শিডিউলাৰে প্ৰচেছ কেতিয়া চলিব নিৰ্ণয় কৰে, ব্ৰাউজাৰ কেশে ৱেব বস্তু ৰাখে আৰু জাৰ্ণালে ফাইল চিষ্টেমৰ পৰিৱৰ্তন লিখে।"
+    }
+  },
+  {
+    "id": "computer-192",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A machine shows the correct time after being switched off for a week. The component that keeps the time is the",
+      "as": "এসপ্তাহ বন্ধ থকাৰ পিছতো যন্ত্ৰই শুদ্ধ সময় দেখুৱায়। সময় ৰখা অংশটো"
+    },
+    "options": [
+      {
+        "en": "CMOS battery backing the real time clock",
+        "as": "বাস্তৱ সময়ৰ ঘড়ীক সহায় কৰা CMOS বেটাৰী"
+      },
+      {
+        "en": "main power supply",
+        "as": "মূল পাৱাৰ ছাপ্লাই"
+      },
+      {
+        "en": "processor cache",
+        "as": "প্ৰচেছৰ কেশ"
+      },
+      {
+        "en": "hard disk controller",
+        "as": "হাৰ্ড ডিস্ক নিয়ন্ত্ৰক"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A small battery keeps the real time clock chip running while mains power is off, which is why the date survives a week unplugged. The main supply is dead when unplugged, cache is volatile and the disk controller holds no clock.",
+      "as": "সৰু বেটাৰীয়ে মেইন পাৱাৰ বন্ধ থাকোতে বাস্তৱ সময়ৰ ঘড়ী চিপ চলাই ৰাখে, সেয়ে এসপ্তাহ প্লাগ খুলি থ'লেও তাৰিখ থাকে। মেইন যোগান প্লাগ খুলিলে মৃত, কেশ অস্থিৰ আৰু ডিস্ক নিয়ন্ত্ৰকত ঘড়ী নাই।"
+    }
+  },
+  {
+    "id": "computer-193",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A program crashes only on machines with a particular graphics card, and runs correctly everywhere else. This is best described as a problem of",
+      "as": "এখন প্ৰ'গ্ৰাম কেৱল এটা নিৰ্দিষ্ট গ্ৰাফিক্স কাৰ্ড থকা যন্ত্ৰত বন্ধ হয়, আৰু আন সকলো ঠাইত শুদ্ধভাৱে চলে। ইয়াক শ্ৰেষ্ঠভাৱে বৰ্ণনা কৰা হয়"
+    },
+    "options": [
+      {
+        "en": "insufficient disk space",
+        "as": "অপৰ্যাপ্ত ডিস্ক স্থান"
+      },
+      {
+        "en": "a slow internet connection",
+        "as": "লেহেমীয়া ইণ্টাৰনেট সংযোগ"
+      },
+      {
+        "en": "a weak password policy",
+        "as": "দুৰ্বল পাছৱৰ্ড নীতি"
+      },
+      {
+        "en": "compatibility between the software and the hardware",
+        "as": "ছফ্টৱেৰ আৰু হাৰ্ডৱেৰৰ মাজত সুসংগতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The failure follows one hardware model, so the cause is how the software interacts with that device, which is a compatibility problem. Disk space, network speed and password policy would not track a graphics card model.",
+      "as": "বিফলতা এটা হাৰ্ডৱেৰ মডেলৰ লগত যায়, সেয়ে কাৰণ ছফ্টৱেৰে সেই যন্ত্ৰৰ লগত কেনেকৈ ক্ৰিয়া কৰে, যি সুসংগতিৰ সমস্যা। ডিস্ক স্থান, নেটৱৰ্কৰ গতি আৰু পাছৱৰ্ড নীতিয়ে গ্ৰাফিক্স কাৰ্ডৰ মডেল অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "computer-194",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "An organisation wants each department's data isolated on one physical server without buying six servers. The technology that provides this is",
+      "as": "সংস্থাই ছয়খন চাৰ্ভাৰ নকিনাকৈ এটা ভৌতিক চাৰ্ভাৰত প্ৰতিটো বিভাগৰ তথ্য পৃথক ৰাখিব বিচাৰে। এই সুবিধা দিয়া প্ৰযুক্তি"
+    },
+    "options": [
+      {
+        "en": "compression",
+        "as": "কম্প্ৰেছন"
+      },
+      {
+        "en": "caching",
+        "as": "কেশিং"
+      },
+      {
+        "en": "virtualisation",
+        "as": "ভাৰ্চুৱেলাইজেশ্যন"
+      },
+      {
+        "en": "defragmentation",
+        "as": "ডিফ্ৰেগমেণ্টেশ্যন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A hypervisor runs several isolated virtual machines on one host, each with its own operating system and data. Defragmentation rearranges disk blocks, compression shrinks files and caching speeds repeat access, none of which separates departments.",
+      "as": "হাইপাৰভাইজাৰে এটা হ'ষ্টত কেইবাটাও পৃথক ভাৰ্চুৱেল মেচিন চলায়, প্ৰত্যেকৰ নিজা অপাৰেটিং চিষ্টেম আৰু তথ্যৰ সৈতে। ডিফ্ৰেগমেণ্টেশ্যনে ডিস্কৰ খণ্ড সজায়, কম্প্ৰেছনে ফাইল সৰু কৰে আৰু কেশিঙে পুনৰ প্ৰৱেশ দ্ৰুত কৰে, কোনোৱেই বিভাগ পৃথক নকৰে।"
+    }
+  },
+  {
+    "id": "computer-195",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A user asks why a 64 bit operating system can use more memory than a 32 bit one. The reason is that a 64 bit processor can address",
+      "as": "ব্যৱহাৰকাৰীয়ে সোধে ৬৪ বিট অপাৰেটিং চিষ্টেমে ৩২ বিটতকৈ বেছি স্মৃতি কিয় ব্যৱহাৰ কৰিব পাৰে। কাৰণ ৬৪ বিট প্ৰচেছৰে সম্বোধন কৰিব পাৰে"
+    },
+    "options": [
+      {
+        "en": "more USB ports",
+        "as": "বেছি USB প'ৰ্ট"
+      },
+      {
+        "en": "a far larger range of memory addresses",
+        "as": "অনেক বেছি স্মৃতি ঠিকনাৰ পৰিসৰ"
+      },
+      {
+        "en": "faster disk sectors",
+        "as": "দ্ৰুততৰ ডিস্ক ছেক্টৰ"
+      },
+      {
+        "en": "a bigger screen resolution only",
+        "as": "কেৱল ডাঙৰ স্ক্ৰীণ ৰিজ'লিউশ্যন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Address width sets how many distinct addresses the processor can name, and doubling the width squares the count, so 64 bit machines reach far beyond the 4 GB ceiling of 32 bit. Disk sector speed, screen resolution and port count are unrelated to addressing.",
+      "as": "ঠিকনাৰ প্ৰস্থই নিৰ্ণয় কৰে প্ৰচেছৰে কিমান বেলেগ ঠিকনা নাম দিব পাৰে, আৰু প্ৰস্থ দুগুণ হ'লে সংখ্যা বৰ্গিত হয়, সেয়ে ৬৪ বিট যন্ত্ৰই ৩২ বিটৰ ৪ জিবি সীমাৰ বহু ওপৰলৈ যায়। ডিস্ক ছেক্টৰৰ গতি, ৰিজ'লিউশ্যন আৰু প'ৰ্ট সংখ্যা সম্বোধনৰ সৈতে সম্পৰ্কহীন।"
+    }
+  },
+  {
+    "id": "computer-196",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A file of 1,024 bytes is copied and the copy is reported as exactly 1 KiB. This is correct because a kibibyte is",
+      "as": "১,০২৪ বাইটৰ ফাইল নকল কৰি নকলটো ঠিক ১ KiB বুলি জনোৱা হ'ল। ই শুদ্ধ কাৰণ এটা কিবিবাইট"
+    },
+    "options": [
+      {
+        "en": "1,024 bytes",
+        "as": "১,০২৪ বাইট"
+      },
+      {
+        "en": "1,000 bytes",
+        "as": "১,০০০ বাইট"
+      },
+      {
+        "en": "1,024 bits",
+        "as": "১,০২৪ বিট"
+      },
+      {
+        "en": "1,000 bits",
+        "as": "১,০০০ বিট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The binary prefixes kilo, mega and giga as kibi, mebi and gibi step by powers of 1,024, so one kibibyte is 1,024 bytes. A kilobyte in decimal is 1,000 bytes, and bits rather than bytes would be an eighth of the size.",
+      "as": "দ্বিমিক উপসৰ্গ কিল', মেগা আৰু গিগাৰ কিবি, মেবি আৰু গিবি ১,০২৪ ৰ ঘাতত বাঢ়ে, সেয়ে এক কিবিবাইট ১,০২৪ বাইট। দশমিক কিলোবাইট ১,০০০ বাইট, আৰু বিট হ'লে আকাৰৰ আঠ ভাগৰ এভাগ হ'লহেঁতেন।"
+    }
+  },
+  {
+    "id": "computer-197",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A technician replaces a failing power supply and the machine now restarts at random. The specification most likely to have been ignored is the",
+      "as": "কৰ্মীয়ে বেয়া পাৱাৰ ছাপ্লাই সলনি কৰাৰ পিছত যন্ত্ৰই যিকোনো সময়ত পুনৰ আৰম্ভ হয়। আটাই সম্ভাব্য অৱহেলা কৰা নিৰ্দিষ্টতা"
+    },
+    "options": [
+      {
+        "en": "colour of the casing",
+        "as": "কেচিঙৰ ৰং"
+      },
+      {
+        "en": "length of the warranty",
+        "as": "ৱাৰেণ্টিৰ সময়"
+      },
+      {
+        "en": "brand of the fan",
+        "as": "ফেনৰ ব্ৰেণ্ড"
+      },
+      {
+        "en": "wattage and rail current rating",
+        "as": "ৱাট আৰু ৰে'ল প্ৰবাহৰ ৰেটিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A supply that cannot deliver the required wattage on each rail sags under load and the machine resets, so the rating must match the components. Casing colour, warranty length and fan brand do not affect whether the machine stays on.",
+      "as": "প্ৰতিটো ৰে'লত প্ৰয়োজনীয় ৱাট দিব নোৱাৰা যোগানে ভাৰত দুৰ্বল হৈ যন্ত্ৰ পুনৰ আৰম্ভ কৰায়, সেয়ে ৰেটিং অংশবোৰৰ লগত মিলিব লাগে। কেচিঙৰ ৰং, ৱাৰেণ্টি আৰু ফেনৰ ব্ৰেণ্ডে যন্ত্ৰ চলি থকা নে নাই তাত প্ৰভাৱ নপেলায়।"
+    }
+  },
+  {
+    "id": "computer-198",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A user wants to run a second operating system on the same disk without losing the first. The correct approach is to",
+      "as": "ব্যৱহাৰকাৰীয়ে প্ৰথমটো নেহেৰুৱাকৈ একেই ডিস্কত দ্বিতীয় অপাৰেটিং চিষ্টেম চলাব বিচাৰে। শুদ্ধ উপায়"
+    },
+    "options": [
+      {
+        "en": "convert the disk to a single partition",
+        "as": "ডিস্ক এটা পাৰ্টিশ্যনলৈ সলনি কৰা"
+      },
+      {
+        "en": "install both into the same folder",
+        "as": "দুয়োটা একেই ফ'ল্ডাৰত লগোৱা"
+      },
+      {
+        "en": "create a separate partition and install a boot manager",
+        "as": "পৃথক পাৰ্টিশ্যন সাজি বুট পৰিচালক লগোৱা"
+      },
+      {
+        "en": "delete the first operating system",
+        "as": "প্ৰথম অপাৰেটিং চিষ্টেম মচি পেলোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Each system needs its own partition and a boot manager chooses between them at startup, which is what dual boot means. Deleting the first system or merging partitions destroys it, and two systems cannot share one folder.",
+      "as": "প্ৰতিটো ব্যৱস্থাৰ নিজা পাৰ্টিশ্যন লাগে আৰু বুট পৰিচালকে আৰম্ভণিতে বাছনি কৰে, যি ডুৱেল বুটৰ অৰ্থ। প্ৰথম ব্যৱস্থা মচা বা পাৰ্টিশ্যন মিলালে তাক নষ্ট কৰে, আৰু দুটা ব্যৱস্থাই এটা ফ'ল্ডাৰ ভাগ কৰিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-199",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "A laptop fan runs continuously at high speed although no program is open. The most likely cause is",
+      "as": "কোনো প্ৰ'গ্ৰাম নুখোলাকৈও লেপটপৰ ফেনে অহৰহ উচ্চ গতিত ঘূৰে। আটাই সম্ভাব্য কাৰণ"
+    },
+    "options": [
+      {
+        "en": "a large number of saved passwords",
+        "as": "সাঁচি ৰখা বহু পাছৱৰ্ড"
+      },
+      {
+        "en": "dust blocking the heatsink fins",
+        "as": "হিটচিংকৰ পাখি বন্ধ কৰা ধূলি"
+      },
+      {
+        "en": "a full recycle bin",
+        "as": "ভৰা ৰিছাইকেল বিন"
+      },
+      {
+        "en": "an empty desktop folder",
+        "as": "খালী ডেস্কটপ ফ'ল্ডাৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Dust between the fins stops heat leaving the heatsink, so the firmware raises fan speed to keep the processor within limits. A full recycle bin, an empty folder or stored passwords add no heat load.",
+      "as": "পাখিৰ মাজৰ ধূলিয়ে হিটচিংকৰপৰা তাপ ওলোৱা ৰোধ কৰে, সেয়ে ফাৰ্মৱেৰে প্ৰচেছৰ সীমাৰ ভিতৰত ৰাখিবলৈ ফেনৰ গতি বঢ়ায়। ভৰা ৰিছাইকেল বিন, খালী ফ'ল্ডাৰ বা সাঁচি ৰখা পাছৱৰ্ডে তাপৰ ভাৰ যোগ নকৰে।"
+    }
+  },
+  {
+    "id": "computer-200",
+    "leaf": "computer-fundamentals",
+    "q": {
+      "en": "An office wants a machine that can be used by a visitor without giving access to stored files. The setting that achieves this with least effort is",
+      "as": "অফিচে এনে যন্ত্ৰ বিচাৰে যি দৰ্শনাৰ্থীয়ে ব্যৱহাৰ কৰিব পাৰে কিন্তু সাঁচি ৰখা ফাইললৈ প্ৰৱেশ নাপায়। আটাই কম পৰিশ্ৰমেৰে তাক কৰা ছেটিং"
+    },
+    "options": [
+      {
+        "en": "a guest account with restricted permissions",
+        "as": "সীমিত অনুমতিসহ অতিথি একাউণ্ট"
+      },
+      {
+        "en": "an administrator account shared openly",
+        "as": "মুকলিকৈ ভগা প্ৰশাসক একাউণ্ট"
+      },
+      {
+        "en": "disabling the screen lock",
+        "as": "স্ক্ৰীণ লক বন্ধ কৰা"
+      },
+      {
+        "en": "turning off the firewall",
+        "as": "ফায়াৰৱাল বন্ধ কৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A guest account gives a usable desktop while denying access to other users' files and to system settings. A shared administrator account grants full control, and disabling the lock or the firewall removes protections rather than adding them.",
+      "as": "অতিথি একাউণ্টে ব্যৱহাৰযোগ্য ডেস্কটপ দিয়ে কিন্তু আন ব্যৱহাৰকাৰীৰ ফাইল আৰু ব্যৱস্থাৰ ছেটিংলৈ প্ৰৱেশ নাকচ কৰে। ভগা প্ৰশাসক একাউণ্টে সম্পূৰ্ণ নিয়ন্ত্ৰণ দিয়ে, আৰু লক বা ফায়াৰৱাল বন্ধ কৰিলে সুৰক্ষা আঁতৰে, যোগ নহয়।"
+    }
+  }
+]

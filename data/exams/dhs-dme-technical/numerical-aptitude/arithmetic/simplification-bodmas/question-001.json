@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "numerical-003",
+    "q": {
+      "en": "The value of 12 ÷ 3 × 2 + 8 - 4 × 3 is",
+      "as": "১২ ÷ ৩ × ২ + ৮ - ৪ × ৩ ৰ মান কিমান"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Division and multiplication run left to right: 12 ÷ 3 = 4, 4 × 2 = 8. Then 4 × 3 = 12. So 8 + 8 - 12 = 4.",
+      "as": "ভাগ আৰু পূৰণ বাওঁফালৰপৰা সোঁফাললৈ: ১২ ÷ ৩ = ৪, ৪ × ২ = ৮। তাৰ পিছত ৪ × ৩ = ১২। সেয়ে ৮ + ৮ - ১২ = ৪।"
+    }
+  },
+  {
+    "id": "numerical-004",
+    "q": {
+      "en": "Simplify: 5 + 3 × (8 - 6) ÷ 2 - 1",
+      "as": "সৰল কৰক: ৫ + ৩ × (৮ - ৬) ÷ ২ - ১"
+    },
+    "options": [
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "13",
+        "as": "১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bracket first: 8 - 6 = 2. Then 3 × 2 ÷ 2 = 3. So 5 + 3 - 1 = 7.",
+      "as": "প্ৰথমে বন্ধনী: ৮ - ৬ = ২। তাৰ পিছত ৩ × ২ ÷ ২ = ৩। সেয়ে ৫ + ৩ - ১ = ৭।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-001",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 48 ÷ 6 × 5 + 17 - 9",
+      "as": "সৰল কৰা: 48 ÷ 6 × 5 + 17 - 9"
+    },
+    "options": [
+      {
+        "en": "50",
+        "as": "৫০"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 48.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৪৮. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-002",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 125 - 25 × 4 + 96 ÷ 8",
+      "as": "সৰল কৰা: 125 - 25 × 4 + 96 ÷ 8"
+    },
+    "options": [
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "37",
+        "as": "৩৭"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 37.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৩৭. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-003",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 18 + 6 × (7 - 3) ÷ 4",
+      "as": "সৰল কৰা: 18 + 6 × (7 - 3) ÷ 4"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 24.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ২৪. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-004",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (56 ÷ 8) × (9 + 3) - 15",
+      "as": "সৰল কৰা: (56 ÷ 8) × (9 + 3) - 15"
+    },
+    "options": [
+      {
+        "en": "71",
+        "as": "৭১"
+      },
+      {
+        "en": "67",
+        "as": "৬৭"
+      },
+      {
+        "en": "69",
+        "as": "৬৯"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 69.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৬৯. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-005",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 144 ÷ 12 + 7 × 8 - 19",
+      "as": "সৰল কৰা: 144 ÷ 12 + 7 × 8 - 19"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 49.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৪৯. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-006",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 225 ÷ 15 × 3 + 84 ÷ 7",
+      "as": "সৰল কৰা: 225 ÷ 15 × 3 + 84 ÷ 7"
+    },
+    "options": [
+      {
+        "en": "57",
+        "as": "৫৭"
+      },
+      {
+        "en": "59",
+        "as": "৫৯"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 57.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৫৭. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-007",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 36 × 4 - 18 × 5 + 72 ÷ 9",
+      "as": "সৰল কৰা: 36 × 4 - 18 × 5 + 72 ÷ 9"
+    },
+    "options": [
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "62",
+        "as": "৬২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 62.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৬২. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-008",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1000 - 25 × 16 + 144 ÷ 12",
+      "as": "সৰল কৰা: 1000 - 25 × 16 + 144 ÷ 12"
+    },
+    "options": [
+      {
+        "en": "614",
+        "as": "৬১৪"
+      },
+      {
+        "en": "612",
+        "as": "৬১২"
+      },
+      {
+        "en": "610",
+        "as": "৬১০"
+      },
+      {
+        "en": "618",
+        "as": "৬১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 612.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৬১২. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-009",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 81 ÷ 9 × 7 - 6 × 8 + 45",
+      "as": "সৰল কৰা: 81 ÷ 9 × 7 - 6 × 8 + 45"
+    },
+    "options": [
+      {
+        "en": "62",
+        "as": "৬২"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "66",
+        "as": "৬৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 60.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৬০. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-010",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 64 ÷ 8 + 12 × 3 - 27 ÷ 9",
+      "as": "সৰল কৰা: 64 ÷ 8 + 12 × 3 - 27 ÷ 9"
+    },
+    "options": [
+      {
+        "en": "43",
+        "as": "৪৩"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "47",
+        "as": "৪৭"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 41.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৪১. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-011",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 7 × 9 - 48 ÷ 6 + 15 × 2",
+      "as": "সৰল কৰা: 7 × 9 - 48 ÷ 6 + 15 × 2"
+    },
+    "options": [
+      {
+        "en": "85",
+        "as": "৮৫"
+      },
+      {
+        "en": "87",
+        "as": "৮৭"
+      },
+      {
+        "en": "83",
+        "as": "৮৩"
+      },
+      {
+        "en": "91",
+        "as": "৯১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 85.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৮৫. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-012",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 120 ÷ 5 × 4 - 96 ÷ 8 + 33",
+      "as": "সৰল কৰা: 120 ÷ 5 × 4 - 96 ÷ 8 + 33"
+    },
+    "options": [
+      {
+        "en": "117",
+        "as": "১১৭"
+      },
+      {
+        "en": "119",
+        "as": "১১৯"
+      },
+      {
+        "en": "115",
+        "as": "১১৫"
+      },
+      {
+        "en": "123",
+        "as": "১২৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 117.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ১১৭. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-013",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 15 × 6 - 72 ÷ 9 × 3 + 28",
+      "as": "সৰল কৰা: 15 × 6 - 72 ÷ 9 × 3 + 28"
+    },
+    "options": [
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      },
+      {
+        "en": "92",
+        "as": "৯২"
+      },
+      {
+        "en": "100",
+        "as": "১০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 94.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৯৪. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-014",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 256 ÷ 16 + 27 × 3 - 81 ÷ 9",
+      "as": "সৰল কৰা: 256 ÷ 16 + 27 × 3 - 81 ÷ 9"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "86",
+        "as": "৮৬"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "94",
+        "as": "৯৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 88.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৮৮. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-015",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 9 × 8 + 63 ÷ 7 - 54 ÷ 6",
+      "as": "সৰল কৰা: 9 × 8 + 63 ÷ 7 - 54 ÷ 6"
+    },
+    "options": [
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 72.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৭২. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-016",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 144 ÷ (12 ÷ 3) + 25 × 4 - 60",
+      "as": "সৰল কৰা: 144 ÷ (12 ÷ 3) + 25 × 4 - 60"
+    },
+    "options": [
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "74",
+        "as": "৭৪"
+      },
+      {
+        "en": "76",
+        "as": "৭৬"
+      },
+      {
+        "en": "82",
+        "as": "৮২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 76.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৭৬. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-017",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 72 ÷ 8 × (15 - 7) + 96 ÷ 12",
+      "as": "সৰল কৰা: 72 ÷ 8 × (15 - 7) + 96 ÷ 12"
+    },
+    "options": [
+      {
+        "en": "82",
+        "as": "৮২"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      },
+      {
+        "en": "86",
+        "as": "৮৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Apply BODMAS: simplify the bracket first, then powers, then division and multiplication, and add or subtract last. The expression reduces to 80.",
+      "as": "BODMAS ৰ নিয়মেৰে কৰা: প্ৰথমে বন্ধনী, তাৰপিছত ঘাত, তাৰপিছত হৰণ আৰু পূৰণ, শেষত যোগ-বিয়োগ। প্ৰকাশটোৰ মান ৮০. হয়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-018",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (3/4) ÷ (9/16) + (5/8)",
+      "as": "সৰল কৰা: (3/4) ÷ (9/16) + (5/8)"
+    },
+    "options": [
+      {
+        "en": "47/24",
+        "as": "৪৭/২৪"
+      },
+      {
+        "en": "59/24",
+        "as": "৫৯/২৪"
+      },
+      {
+        "en": "35/24",
+        "as": "৩৫/২৪"
+      },
+      {
+        "en": "47/12",
+        "as": "৪৭/১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 47/24. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৪৭/২৪ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-019",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (5/6) ÷ (10/12) + (7/9)",
+      "as": "সৰল কৰা: (5/6) ÷ (10/12) + (7/9)"
+    },
+    "options": [
+      {
+        "en": "41/18",
+        "as": "৪১/১৮"
+      },
+      {
+        "en": "23/18",
+        "as": "২৩/১৮"
+      },
+      {
+        "en": "32/9",
+        "as": "৩২/৯"
+      },
+      {
+        "en": "16/9",
+        "as": "১৬/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 16/9. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৬/৯ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-020",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (7/8) ÷ (21/24) + (3/4)",
+      "as": "সৰল কৰা: (7/8) ÷ (21/24) + (3/4)"
+    },
+    "options": [
+      {
+        "en": "9/4",
+        "as": "৯/৪"
+      },
+      {
+        "en": "7/4",
+        "as": "৭/৪"
+      },
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      },
+      {
+        "en": "7/2",
+        "as": "৭/২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 7/4. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৭/৪ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-021",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (4/5) ÷ (8/15) + (11/20)",
+      "as": "সৰল কৰা: (4/5) ÷ (8/15) + (11/20)"
+    },
+    "options": [
+      {
+        "en": "51/20",
+        "as": "৫১/২০"
+      },
+      {
+        "en": "31/20",
+        "as": "৩১/২০"
+      },
+      {
+        "en": "41/20",
+        "as": "৪১/২০"
+      },
+      {
+        "en": "41/10",
+        "as": "৪১/১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 41/20. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৪১/২০ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-022",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (9/10) ÷ (27/40) + (2/5)",
+      "as": "সৰল কৰা: (9/10) ÷ (27/40) + (2/5)"
+    },
+    "options": [
+      {
+        "en": "67/30",
+        "as": "৬৭/৩০"
+      },
+      {
+        "en": "37/30",
+        "as": "৩৭/৩০"
+      },
+      {
+        "en": "52/15",
+        "as": "৫২/১৫"
+      },
+      {
+        "en": "26/15",
+        "as": "২৬/১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 26/15. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ২৬/১৫ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-023",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (2/3) ÷ (8/9) + (5/6)",
+      "as": "সৰল কৰা: (2/3) ÷ (8/9) + (5/6)"
+    },
+    "options": [
+      {
+        "en": "19/12",
+        "as": "১৯/১২"
+      },
+      {
+        "en": "25/12",
+        "as": "২৫/১২"
+      },
+      {
+        "en": "13/12",
+        "as": "১৩/১২"
+      },
+      {
+        "en": "19/6",
+        "as": "১৯/৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 19/12. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৯/১২ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-024",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (11/12) ÷ (22/36) + (7/18)",
+      "as": "সৰল কৰা: (11/12) ÷ (22/36) + (7/18)"
+    },
+    "options": [
+      {
+        "en": "17/9",
+        "as": "১৭/৯"
+      },
+      {
+        "en": "43/18",
+        "as": "৪৩/১৮"
+      },
+      {
+        "en": "25/18",
+        "as": "২৫/১৮"
+      },
+      {
+        "en": "34/9",
+        "as": "৩৪/৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 17/9. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৭/৯ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-025",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (13/15) ÷ (26/45) + (4/9)",
+      "as": "সৰল কৰা: (13/15) ÷ (26/45) + (4/9)"
+    },
+    "options": [
+      {
+        "en": "22/9",
+        "as": "২২/৯"
+      },
+      {
+        "en": "35/18",
+        "as": "৩৫/১৮"
+      },
+      {
+        "en": "13/9",
+        "as": "১৩/৯"
+      },
+      {
+        "en": "35/9",
+        "as": "৩৫/৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 35/18. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৩৫/১৮ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-026",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (5/7) ÷ (15/28) + (3/14)",
+      "as": "সৰল কৰা: (5/7) ÷ (15/28) + (3/14)"
+    },
+    "options": [
+      {
+        "en": "43/21",
+        "as": "৪৩/২১"
+      },
+      {
+        "en": "22/21",
+        "as": "২২/২১"
+      },
+      {
+        "en": "65/42",
+        "as": "৬৫/৪২"
+      },
+      {
+        "en": "65/21",
+        "as": "৬৫/২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 65/42. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৬৫/৪২ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-027",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (7/9) ÷ (14/27) + (5/18)",
+      "as": "সৰল কৰা: (7/9) ÷ (14/27) + (5/18)"
+    },
+    "options": [
+      {
+        "en": "41/18",
+        "as": "৪১/১৮"
+      },
+      {
+        "en": "23/18",
+        "as": "২৩/১৮"
+      },
+      {
+        "en": "32/9",
+        "as": "৩২/৯"
+      },
+      {
+        "en": "16/9",
+        "as": "১৬/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 16/9. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৬/৯ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-028",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 2 3/4 + 1 5/6",
+      "as": "সৰল কৰা: ২ ৩/৪ + ১ ৫/৬"
+    },
+    "options": [
+      {
+        "en": "59/12",
+        "as": "৫৯/১২"
+      },
+      {
+        "en": "13/3",
+        "as": "১৩/৩"
+      },
+      {
+        "en": "55/12",
+        "as": "৫৫/১২"
+      },
+      {
+        "en": "55/6",
+        "as": "৫৫/৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 55/12.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 55/12 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-029",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 3 1/2 + 2 2/3",
+      "as": "সৰল কৰা: ৩ ১/২ + ২ ২/৩"
+    },
+    "options": [
+      {
+        "en": "13/2",
+        "as": "১৩/২"
+      },
+      {
+        "en": "37/6",
+        "as": "৩৭/৬"
+      },
+      {
+        "en": "71/12",
+        "as": "৭১/১২"
+      },
+      {
+        "en": "37/3",
+        "as": "৩৭/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 37/6.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 37/6 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-030",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 4 3/5 + 1 7/10",
+      "as": "সৰল কৰা: ৪ ৩/৫ + ১ ৭/১০"
+    },
+    "options": [
+      {
+        "en": "63/10",
+        "as": "৬৩/১০"
+      },
+      {
+        "en": "199/30",
+        "as": "১৯৯/৩০"
+      },
+      {
+        "en": "121/20",
+        "as": "১২১/২০"
+      },
+      {
+        "en": "63/5",
+        "as": "৬৩/৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 63/10.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 63/10 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-031",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 5 2/3 + 2 5/9",
+      "as": "সৰল কৰা: ৫ ২/৩ + ২ ৫/৯"
+    },
+    "options": [
+      {
+        "en": "77/9",
+        "as": "৭৭/৯"
+      },
+      {
+        "en": "287/36",
+        "as": "২৮৭/৩৬"
+      },
+      {
+        "en": "148/9",
+        "as": "১৪৮/৯"
+      },
+      {
+        "en": "74/9",
+        "as": "৭৪/৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 74/9.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 74/9 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-032",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1 5/8 + 3 3/4",
+      "as": "সৰল কৰা: ১ ৫/৮ + ৩ ৩/৪"
+    },
+    "options": [
+      {
+        "en": "137/24",
+        "as": "১৩৭/২৪"
+      },
+      {
+        "en": "43/8",
+        "as": "৪৩/৮"
+      },
+      {
+        "en": "41/8",
+        "as": "৪১/৮"
+      },
+      {
+        "en": "43/4",
+        "as": "৪৩/৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 43/8.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 43/8 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-033",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 6 1/3 + 2 7/12",
+      "as": "সৰল কৰা: ৬ ১/৩ + ২ ৭/১২"
+    },
+    "options": [
+      {
+        "en": "37/4",
+        "as": "৩৭/৪"
+      },
+      {
+        "en": "26/3",
+        "as": "২৬/৩"
+      },
+      {
+        "en": "107/12",
+        "as": "১০৭/১২"
+      },
+      {
+        "en": "107/6",
+        "as": "১০৭/৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 107/12.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 107/12 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-034",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 2 7/9 + 1 5/6",
+      "as": "সৰল কৰা: ২ ৭/৯ + ১ ৫/৬"
+    },
+    "options": [
+      {
+        "en": "89/18",
+        "as": "৮৯/১৮"
+      },
+      {
+        "en": "157/36",
+        "as": "১৫৭/৩৬"
+      },
+      {
+        "en": "83/9",
+        "as": "৮৩/৯"
+      },
+      {
+        "en": "83/18",
+        "as": "৮৩/১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 83/18.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 83/18 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-035",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 3 5/7 + 2 3/14",
+      "as": "সৰল কৰা: ৩ ৫/৭ + ২ ৩/১৪"
+    },
+    "options": [
+      {
+        "en": "83/14",
+        "as": "৮৩/১৪"
+      },
+      {
+        "en": "263/42",
+        "as": "২৬৩/৪২"
+      },
+      {
+        "en": "159/28",
+        "as": "১৫৯/২৮"
+      },
+      {
+        "en": "83/7",
+        "as": "৮৩/৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Converting to improper fractions and adding gives 83/14.",
+      "as": "অশুদ্ধ ভগ্নাংশলৈ ৰূপান্তৰ কৰি যোগ কৰিলে 83/14 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-036",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √25 + √400 - √2025",
+      "as": "সৰল কৰা: √২৫ + √৪০০ - √২০২৫"
+    },
+    "options": [
+      {
+        "en": "-20",
+        "as": "-২০"
+      },
+      {
+        "en": "-15",
+        "as": "-১৫"
+      },
+      {
+        "en": "-40",
+        "as": "-৪০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The square roots are 5, 20 and 45, so the value is -20.",
+      "as": "বৰ্গমূলবোৰ ৫, ২০ আৰু ৪৫, সেয়ে মান -২০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-037",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √9 + √144 - √729",
+      "as": "সৰল কৰা: √৯ + √১৪৪ - √৭২৯"
+    },
+    "options": [
+      {
+        "en": "-9",
+        "as": "-৯"
+      },
+      {
+        "en": "-12",
+        "as": "-১২"
+      },
+      {
+        "en": "-24",
+        "as": "-২৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The square roots are 3, 12 and 27, so the value is -12.",
+      "as": "বৰ্গমূলবোৰ ৩, ১২ আৰু ২৭, সেয়ে মান -১২।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-038",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √49 + √784 - √3969",
+      "as": "সৰল কৰা: √৪৯ + √৭৮৪ - √৩৯৬৯"
+    },
+    "options": [
+      {
+        "en": "-21",
+        "as": "-২১"
+      },
+      {
+        "en": "-56",
+        "as": "-৫৬"
+      },
+      {
+        "en": "-28",
+        "as": "-২৮"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The square roots are 7, 28 and 63, so the value is -28.",
+      "as": "বৰ্গমূলবোৰ ৭, ২৮ আৰু ৬৩, সেয়ে মান -২৮।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-039",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √4 + √324 - √1024",
+      "as": "সৰল কৰা: √৪ + √৩২৪ - √১০২৪"
+    },
+    "options": [
+      {
+        "en": "-10",
+        "as": "-১০"
+      },
+      {
+        "en": "-30",
+        "as": "-৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "-12",
+        "as": "-১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The square roots are 2, 18 and 32, so the value is -12.",
+      "as": "বৰ্গমূলবোৰ ২, ১৮ আৰু ৩২, সেয়ে মান -১২।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-040",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √36 + √576 - √2916",
+      "as": "সৰল কৰা: √৩৬ + √৫৭৬ - √২৯১৬"
+    },
+    "options": [
+      {
+        "en": "-18",
+        "as": "-১৮"
+      },
+      {
+        "en": "-48",
+        "as": "-৪৮"
+      },
+      {
+        "en": "-24",
+        "as": "-২৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The square roots are 6, 24 and 54, so the value is -24.",
+      "as": "বৰ্গমূলবোৰ ৬, ২৪ আৰু ৫৪, সেয়ে মান -২৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-041",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √64 + √1024 - √5184",
+      "as": "সৰল কৰা: √৬৪ + √১০২৪ - √৫১৮৪"
+    },
+    "options": [
+      {
+        "en": "-24",
+        "as": "-২৪"
+      },
+      {
+        "en": "-32",
+        "as": "-৩২"
+      },
+      {
+        "en": "-64",
+        "as": "-৬৪"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The square roots are 8, 32 and 72, so the value is -32.",
+      "as": "বৰ্গমূলবোৰ ৮, ৩২ আৰু ৭২, সেয়ে মান -৩২।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-042",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √100 + √1600 - √8100",
+      "as": "সৰল কৰা: √১০০ + √১৬০০ - √৮১০০"
+    },
+    "options": [
+      {
+        "en": "-40",
+        "as": "-৪০"
+      },
+      {
+        "en": "-30",
+        "as": "-৩০"
+      },
+      {
+        "en": "-80",
+        "as": "-৮০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The square roots are 10, 40 and 90, so the value is -40.",
+      "as": "বৰ্গমূলবোৰ ১০, ৪০ আৰু ৯০, সেয়ে মান -৪০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-043",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: √121 + √1936 - √9801",
+      "as": "সৰল কৰা: √১২১ + √১৯৩৬ - √৯৮০১"
+    },
+    "options": [
+      {
+        "en": "-33",
+        "as": "-৩৩"
+      },
+      {
+        "en": "-88",
+        "as": "-৮৮"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      },
+      {
+        "en": "-44",
+        "as": "-৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The square roots are 11, 44 and 99, so the value is -44.",
+      "as": "বৰ্গমূলবোৰ ১১, ৪৪ আৰু ৯৯, সেয়ে মান -৪৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-044",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√9 + √25)²",
+      "as": "সৰল কৰা: (√৯ + √২৫)²"
+    },
+    "options": [
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "64",
+        "as": "৬৪"
+      },
+      {
+        "en": "79",
+        "as": "৭৯"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 64.",
+      "as": "(a+b)² = a² + 2ab + b² = ৬৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-045",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√16 + √49)²",
+      "as": "সৰল কৰা: (√১৬ + √৪৯)²"
+    },
+    "options": [
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "149",
+        "as": "১৪৯"
+      },
+      {
+        "en": "121",
+        "as": "১২১"
+      },
+      {
+        "en": "784",
+        "as": "৭৮৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 121.",
+      "as": "(a+b)² = a² + 2ab + b² = ১২১।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-046",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√25 + √81)²",
+      "as": "সৰল কৰা: (√২৫ + √৮১)²"
+    },
+    "options": [
+      {
+        "en": "106",
+        "as": "১০৬"
+      },
+      {
+        "en": "241",
+        "as": "২৪১"
+      },
+      {
+        "en": "2025",
+        "as": "২০২৫"
+      },
+      {
+        "en": "196",
+        "as": "১৯৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 196.",
+      "as": "(a+b)² = a² + 2ab + b² = ১৯৬।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-047",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√36 + √121)²",
+      "as": "সৰল কৰা: (√৩৬ + √১২১)²"
+    },
+    "options": [
+      {
+        "en": "289",
+        "as": "২৮৯"
+      },
+      {
+        "en": "157",
+        "as": "১৫৭"
+      },
+      {
+        "en": "355",
+        "as": "৩৫৫"
+      },
+      {
+        "en": "4356",
+        "as": "৪৩৫৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 289.",
+      "as": "(a+b)² = a² + 2ab + b² = ২৮৯।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-048",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√49 + √169)²",
+      "as": "সৰল কৰা: (√৪৯ + √১৬৯)²"
+    },
+    "options": [
+      {
+        "en": "400",
+        "as": "৪০০"
+      },
+      {
+        "en": "218",
+        "as": "২১৮"
+      },
+      {
+        "en": "491",
+        "as": "৪৯১"
+      },
+      {
+        "en": "8281",
+        "as": "৮২৮১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 400.",
+      "as": "(a+b)² = a² + 2ab + b² = ৪০০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-049",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (√64 + √225)²",
+      "as": "সৰল কৰা: (√৬৪ + √২২৫)²"
+    },
+    "options": [
+      {
+        "en": "289",
+        "as": "২৮৯"
+      },
+      {
+        "en": "529",
+        "as": "৫২৯"
+      },
+      {
+        "en": "649",
+        "as": "৬৪৯"
+      },
+      {
+        "en": "14400",
+        "as": "১৪৪০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² = a² + 2ab + b² = 529.",
+      "as": "(a+b)² = a² + 2ab + b² = ৫২৯।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-050",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (7 + 5)² - (7 - 5)²",
+      "as": "সৰল কৰা: (৭ + ৫)² - (৭ - ৫)²"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "280",
+        "as": "২৮০"
+      },
+      {
+        "en": "140",
+        "as": "১৪০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 7 × 5 = 140.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ৭ × ৫ = ১৪০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-051",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (9 + 4)² - (9 - 4)²",
+      "as": "সৰল কৰা: (৯ + ৪)² - (৯ - ৪)²"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "288",
+        "as": "২৮৮"
+      },
+      {
+        "en": "65",
+        "as": "৬৫"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 9 × 4 = 144.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ৯ × ৪ = ১৪৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-052",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (12 + 7)² - (12 - 7)²",
+      "as": "সৰল কৰা: (১২ + ৭)² - (১২ - ৭)²"
+    },
+    "options": [
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "672",
+        "as": "৬৭২"
+      },
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      },
+      {
+        "en": "95",
+        "as": "৯৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 12 × 7 = 336.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১২ × ৭ = ৩৩৬।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-053",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (15 + 8)² - (15 - 8)²",
+      "as": "সৰল কৰা: (১৫ + ৮)² - (১৫ - ৮)²"
+    },
+    "options": [
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      },
+      {
+        "en": "161",
+        "as": "১৬১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 15 × 8 = 480.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১৫ × ৮ = ৪৮০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-054",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (11 + 6)² - (11 - 6)²",
+      "as": "সৰল কৰা: (১১ + ৬)² - (১১ - ৬)²"
+    },
+    "options": [
+      {
+        "en": "264",
+        "as": "২৬৪"
+      },
+      {
+        "en": "132",
+        "as": "১৩২"
+      },
+      {
+        "en": "528",
+        "as": "৫২৮"
+      },
+      {
+        "en": "85",
+        "as": "৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 11 × 6 = 264.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১১ × ৬ = ২৬৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-055",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (13 + 9)² - (13 - 9)²",
+      "as": "সৰল কৰা: (১৩ + ৯)² - (১৩ - ৯)²"
+    },
+    "options": [
+      {
+        "en": "234",
+        "as": "২৩৪"
+      },
+      {
+        "en": "936",
+        "as": "৯৩৬"
+      },
+      {
+        "en": "88",
+        "as": "৮৮"
+      },
+      {
+        "en": "468",
+        "as": "৪৬৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 13 × 9 = 468.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১৩ × ৯ = ৪৬৮।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-056",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (16 + 5)² - (16 - 5)²",
+      "as": "সৰল কৰা: (১৬ + ৫)² - (১৬ - ৫)²"
+    },
+    "options": [
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "320",
+        "as": "৩২০"
+      },
+      {
+        "en": "640",
+        "as": "৬৪০"
+      },
+      {
+        "en": "231",
+        "as": "২৩১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 16 × 5 = 320.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১৬ × ৫ = ৩২০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-057",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (18 + 7)² - (18 - 7)²",
+      "as": "সৰল কৰা: (১৮ + ৭)² - (১৮ - ৭)²"
+    },
+    "options": [
+      {
+        "en": "252",
+        "as": "২৫২"
+      },
+      {
+        "en": "1008",
+        "as": "১০০৮"
+      },
+      {
+        "en": "504",
+        "as": "৫০৪"
+      },
+      {
+        "en": "275",
+        "as": "২৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "(a+b)² - (a-b)² = 4ab = 4 × 18 × 7 = 504.",
+      "as": "(a+b)² - (a-b)² = 4ab = 4 × ১৮ × ৭ = ৫০৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-058",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 6³ - 4³",
+      "as": "সৰল কৰা: ৬³ - ৪³"
+    },
+    "options": [
+      {
+        "en": "280",
+        "as": "২৮০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "224",
+        "as": "২২৪"
+      },
+      {
+        "en": "152",
+        "as": "১৫২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work out each cube: 6³ = 216 and 4³ = 64, so the difference is 152.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ৬³ = ২১৬ আৰু ৪³ = ৬৪, সেয়ে পাৰ্থক্য ১৫২।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-059",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 8³ - 3³",
+      "as": "সৰল কৰা: ৮³ - ৩³"
+    },
+    "options": [
+      {
+        "en": "485",
+        "as": "৪৮৫"
+      },
+      {
+        "en": "539",
+        "as": "৫৩৯"
+      },
+      {
+        "en": "125",
+        "as": "১২৫"
+      },
+      {
+        "en": "557",
+        "as": "৫৫৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work out each cube: 8³ = 512 and 3³ = 27, so the difference is 485.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ৮³ = ৫১২ আৰু ৩³ = ২৭, সেয়ে পাৰ্থক্য ৪৮৫।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-060",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 10³ - 7³",
+      "as": "সৰল কৰা: ১০³ - ৭³"
+    },
+    "options": [
+      {
+        "en": "657",
+        "as": "৬৫৭"
+      },
+      {
+        "en": "1343",
+        "as": "১৩৪৩"
+      },
+      {
+        "en": "27",
+        "as": "২৭"
+      },
+      {
+        "en": "867",
+        "as": "৮৬৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work out each cube: 10³ = 1,000 and 7³ = 343, so the difference is 657.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ১০³ = ১,০০০ আৰু ৭³ = ৩৪৩, সেয়ে পাৰ্থক্য ৬৫৭।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-061",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 12³ - 5³",
+      "as": "সৰল কৰা: ১২³ - ৫³"
+    },
+    "options": [
+      {
+        "en": "1853",
+        "as": "১৮৫৩"
+      },
+      {
+        "en": "1603",
+        "as": "১৬০৩"
+      },
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "1783",
+        "as": "১৭৮৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work out each cube: 12³ = 1,728 and 5³ = 125, so the difference is 1,603.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ১২³ = ১,৭২৮ আৰু ৫³ = ১২৫, সেয়ে পাৰ্থক্য ১,৬০৩।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-062",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 9³ - 2³",
+      "as": "সৰল কৰা: ৯³ - ২³"
+    },
+    "options": [
+      {
+        "en": "737",
+        "as": "৭৩৭"
+      },
+      {
+        "en": "343",
+        "as": "৩৪৩"
+      },
+      {
+        "en": "721",
+        "as": "৭২১"
+      },
+      {
+        "en": "775",
+        "as": "৭৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work out each cube: 9³ = 729 and 2³ = 8, so the difference is 721.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ৯³ = ৭২৯ আৰু ২³ = ৮, সেয়ে পাৰ্থক্য ৭২১।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-063",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 14³ - 6³",
+      "as": "সৰল কৰা: ১৪³ - ৬³"
+    },
+    "options": [
+      {
+        "en": "2960",
+        "as": "২৯৬০"
+      },
+      {
+        "en": "512",
+        "as": "৫১২"
+      },
+      {
+        "en": "2780",
+        "as": "২৭৮০"
+      },
+      {
+        "en": "2528",
+        "as": "২৫২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work out each cube: 14³ = 2,744 and 6³ = 216, so the difference is 2,528.",
+      "as": "প্ৰতিটো ঘন উলিওৱা: ১৪³ = ২,৭৪৪ আৰু ৬³ = ২১৬, সেয়ে পাৰ্থক্য ২,৫২৮।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-064",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1 + 1/(2 + 1/(3 + 1/4))",
+      "as": "সৰল কৰা: ১ + ১/(২ + ১/(৩ + ১/৪))"
+    },
+    "options": [
+      {
+        "en": "29/15",
+        "as": "২৯/১৫"
+      },
+      {
+        "en": "11/10",
+        "as": "১১/১০"
+      },
+      {
+        "en": "43/30",
+        "as": "৪৩/৩০"
+      },
+      {
+        "en": "30/43",
+        "as": "৩০/৪৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 43/30.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 43/30 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-065",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 2 + 1/(3 + 1/(4 + 1/5))",
+      "as": "সৰল কৰা: ২ + ১/(৩ + ১/(৪ + ১/৫))"
+    },
+    "options": [
+      {
+        "en": "191/68",
+        "as": "১৯১/৬৮"
+      },
+      {
+        "en": "157/68",
+        "as": "১৫৭/৬৮"
+      },
+      {
+        "en": "403/204",
+        "as": "৪০৩/২০৪"
+      },
+      {
+        "en": "68/157",
+        "as": "৬৮/১৫৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 157/68.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 157/68 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-066",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1 + 1/(3 + 1/(2 + 1/5))",
+      "as": "সৰল কৰা: ১ + ১/(৩ + ১/(২ + ১/৫))"
+    },
+    "options": [
+      {
+        "en": "49/38",
+        "as": "৪৯/৩৮"
+      },
+      {
+        "en": "34/19",
+        "as": "৩৪/১৯"
+      },
+      {
+        "en": "109/114",
+        "as": "১০৯/১১৪"
+      },
+      {
+        "en": "38/49",
+        "as": "৩৮/৪৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 49/38.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 49/38 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-067",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 3 + 1/(2 + 1/(1 + 1/4))",
+      "as": "সৰল কৰা: ৩ + ১/(২ + ১/(১ + ১/৪))"
+    },
+    "options": [
+      {
+        "en": "27/7",
+        "as": "২৭/৭"
+      },
+      {
+        "en": "127/42",
+        "as": "১২৭/৪২"
+      },
+      {
+        "en": "14/47",
+        "as": "১৪/৪৭"
+      },
+      {
+        "en": "47/14",
+        "as": "৪৭/১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 47/14.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 47/14 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-068",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 2 + 1/(1 + 1/(4 + 1/3))",
+      "as": "সৰল কৰা: ২ + ১/(১ + ১/(৪ + ১/৩))"
+    },
+    "options": [
+      {
+        "en": "53/16",
+        "as": "৫৩/১৬"
+      },
+      {
+        "en": "45/16",
+        "as": "৪৫/১৬"
+      },
+      {
+        "en": "119/48",
+        "as": "১১৯/৪৮"
+      },
+      {
+        "en": "16/45",
+        "as": "১৬/৪৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 45/16.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 45/16 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-069",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1 + 1/(4 + 1/(2 + 1/3))",
+      "as": "সৰল কৰা: ১ + ১/(৪ + ১/(২ + ১/৩))"
+    },
+    "options": [
+      {
+        "en": "107/62",
+        "as": "১০৭/৬২"
+      },
+      {
+        "en": "83/93",
+        "as": "৮৩/৯৩"
+      },
+      {
+        "en": "38/31",
+        "as": "৩৮/৩১"
+      },
+      {
+        "en": "31/38",
+        "as": "৩১/৩৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 38/31.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 38/31 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-070",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 3 + 1/(1 + 1/(2 + 1/2))",
+      "as": "সৰল কৰা: ৩ + ১/(১ + ১/(২ + ১/২))"
+    },
+    "options": [
+      {
+        "en": "59/14",
+        "as": "৫৯/১৪"
+      },
+      {
+        "en": "71/21",
+        "as": "৭১/২১"
+      },
+      {
+        "en": "7/26",
+        "as": "৭/২৬"
+      },
+      {
+        "en": "26/7",
+        "as": "২৬/৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 26/7.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 26/7 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-071",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 2 + 1/(2 + 1/(3 + 1/1))",
+      "as": "সৰল কৰা: ২ + ১/(২ + ১/(৩ + ১/১))"
+    },
+    "options": [
+      {
+        "en": "22/9",
+        "as": "২২/৯"
+      },
+      {
+        "en": "53/18",
+        "as": "৫৩/১৮"
+      },
+      {
+        "en": "19/9",
+        "as": "১৯/৯"
+      },
+      {
+        "en": "9/22",
+        "as": "৯/২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Working from the bottom up, the value is 22/9.",
+      "as": "তলৰ পৰা ওপৰলৈ সৰল কৰিলে 22/9 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-072",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √0.0009",
+      "as": "√0.0009 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "0.03",
+        "as": "০.০৩"
+      },
+      {
+        "en": "0.06",
+        "as": "০.০৬"
+      },
+      {
+        "en": "0.015",
+        "as": "০.০১৫"
+      },
+      {
+        "en": "0.13",
+        "as": "০.১৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Look for the number whose square is 0.0009: 0.03 × 0.03 = 0.0009, so the square root is 0.03.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ০.০০০৯ হয় তাক বিচৰা: ০.০৩ × ০.০৩ = ০.০০০৯, সেয়ে বৰ্গমূল ০.০৩।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-073",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √1.44",
+      "as": "√1.44 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      },
+      {
+        "en": "1.2",
+        "as": "১.২"
+      },
+      {
+        "en": "0.6",
+        "as": "০.৬"
+      },
+      {
+        "en": "1.3",
+        "as": "১.৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Look for the number whose square is 1.44: 1.2 × 1.2 = 1.44, so the square root is 1.2.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ১.৪৪ হয় তাক বিচৰা: ১.২ × ১.২ = ১.৪৪, সেয়ে বৰ্গমূল ১.২।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-074",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √0.0121",
+      "as": "√0.0121 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "0.22",
+        "as": "০.২২"
+      },
+      {
+        "en": "0.055",
+        "as": "০.০৫৫"
+      },
+      {
+        "en": "0.11",
+        "as": "০.১১"
+      },
+      {
+        "en": "0.21",
+        "as": "০.২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Look for the number whose square is 0.0121: 0.11 × 0.11 = 0.0121, so the square root is 0.11.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ০.০১২১ হয় তাক বিচৰা: ০.১১ × ০.১১ = ০.০১২১, সেয়ে বৰ্গমূল ০.১১।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-075",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √2.25",
+      "as": "√2.25 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "0.75",
+        "as": "০.৭৫"
+      },
+      {
+        "en": "1.6",
+        "as": "১.৬"
+      },
+      {
+        "en": "1.5",
+        "as": "১.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Look for the number whose square is 2.25: 1.5 × 1.5 = 2.25, so the square root is 1.5.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ২.২৫ হয় তাক বিচৰা: ১.৫ × ১.৫ = ২.২৫, সেয়ে বৰ্গমূল ১.৫।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-076",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √0.0049",
+      "as": "√0.0049 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "0.14",
+        "as": "০.১৪"
+      },
+      {
+        "en": "0.035",
+        "as": "০.০৩৫"
+      },
+      {
+        "en": "0.07",
+        "as": "০.০৭"
+      },
+      {
+        "en": "0.17",
+        "as": "০.১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Look for the number whose square is 0.0049: 0.07 × 0.07 = 0.0049, so the square root is 0.07.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ০.০০৪৯ হয় তাক বিচৰা: ০.০৭ × ০.০৭ = ০.০০৪৯, সেয়ে বৰ্গমূল ০.০৭।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-077",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √6.25",
+      "as": "√6.25 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "1.25",
+        "as": "১.২৫"
+      },
+      {
+        "en": "2.6",
+        "as": "২.৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Look for the number whose square is 6.25: 2.5 × 2.5 = 6.25, so the square root is 2.5.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ৬.২৫ হয় তাক বিচৰা: ২.৫ × ২.৫ = ৬.২৫, সেয়ে বৰ্গমূল ২.৫।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-078",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √0.0196",
+      "as": "√0.0196 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "0.14",
+        "as": "০.১৪"
+      },
+      {
+        "en": "0.28",
+        "as": "০.২৮"
+      },
+      {
+        "en": "0.07",
+        "as": "০.০৭"
+      },
+      {
+        "en": "0.24",
+        "as": "০.২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Look for the number whose square is 0.0196: 0.14 × 0.14 = 0.0196, so the square root is 0.14.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ০.০১৯৬ হয় তাক বিচৰা: ০.১৪ × ০.১৪ = ০.০১৯৬, সেয়ে বৰ্গমূল ০.১৪।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-079",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of √0.81",
+      "as": "√0.81 ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "1.8",
+        "as": "১.৮"
+      },
+      {
+        "en": "0.45",
+        "as": "০.৪৫"
+      },
+      {
+        "en": "1.0",
+        "as": "১.০"
+      },
+      {
+        "en": "0.9",
+        "as": "০.৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Look for the number whose square is 0.81: 0.9 × 0.9 = 0.81, so the square root is 0.9.",
+      "as": "যিটো সংখ্যাৰ বৰ্গ ০.৮১ হয় তাক বিচৰা: ০.৯ × ০.৯ = ০.৮১, সেয়ে বৰ্গমূল ০.৯।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-080",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/3 + 1/4 + 1/6",
+      "as": "সৰল কৰা: ১/৩ + ১/৪ + ১/৬"
+    },
+    "options": [
+      {
+        "en": "5/4",
+        "as": "৫/৪"
+      },
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "7/12",
+        "as": "৭/১২"
+      },
+      {
+        "en": "1385722962267845/18014398509481984",
+        "as": "১৩৮৫৭২২৯৬২২৬৭৮৪৫/১৮০১৪৩৯৮৫০৯৪৮১৯৮৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 3/4.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 3/4 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-081",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/2 + 1/5 + 1/10",
+      "as": "সৰল কৰা: ১/২ + ১/৫ + ১/১০"
+    },
+    "options": [
+      {
+        "en": "13/10",
+        "as": "১৩/১০"
+      },
+      {
+        "en": "19/30",
+        "as": "১৯/৩০"
+      },
+      {
+        "en": "4/5",
+        "as": "৪/৫"
+      },
+      {
+        "en": "4238682002231055/72057594037927936",
+        "as": "৪২৩৮৬৮২০০২২৩১০৫৫/৭২০৫৭৫৯৪০৩৭৯২৭৯৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 4/5.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 4/5 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-082",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/4 + 1/6 + 1/12",
+      "as": "সৰল কৰা: ১/৪ + ১/৬ + ১/১২"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "3275345183542179/72057594037927936",
+        "as": "৩২৭৫৩৪৫১৮৩৫৪২১৭৯/৭২০৫৭৫৯৪০৩৭৯২৭৯৩৬"
+      },
+      {
+        "en": "1/2",
+        "as": "১/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 1/2.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 1/2 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-083",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/5 + 1/10 + 1/15",
+      "as": "সৰল কৰা: ১/৫ + ১/১০ + ১/১৫"
+    },
+    "options": [
+      {
+        "en": "11/30",
+        "as": "১১/৩০"
+      },
+      {
+        "en": "13/15",
+        "as": "১৩/১৫"
+      },
+      {
+        "en": "1/5",
+        "as": "১/৫"
+      },
+      {
+        "en": "4803839602528529/144115188075855872",
+        "as": "৪৮০৩৮৩৯৬০২৫২৮৫২৯/১৪৪১১৫১৮৮০৭৫৮৫৫৮৭২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 11/30.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 11/30 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-084",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/6 + 1/8 + 1/24",
+      "as": "সৰল কৰা: ১/৬ + ১/৮ + ১/২৪"
+    },
+    "options": [
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      },
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "948126237341157/36028797018963968",
+        "as": "৯৪৮১২৬২৩৭৩৪১১৫৭/৩৬০২৮৭৯৭০১৮৯৬৩৯৬৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 1/3.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 1/3 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-085",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/7 + 1/14 + 1/21",
+      "as": "সৰল কৰা: ১/৭ + ১/১৪ + ১/২১"
+    },
+    "options": [
+      {
+        "en": "16/21",
+        "as": "১৬/২১"
+      },
+      {
+        "en": "11/42",
+        "as": "১১/৪২"
+      },
+      {
+        "en": "2/21",
+        "as": "২/২১"
+      },
+      {
+        "en": "857828500451523/36028797018963968",
+        "as": "৮৫৭৮২৮৫০০৪৫১৫২৩/৩৬০২৮৭৯৭০১৮৯৬৩৯৬৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 11/42.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 11/42 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-086",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/8 + 1/12 + 1/24",
+      "as": "সৰল কৰা: ১/৮ + ১/১২ + ১/২৪"
+    },
+    "options": [
+      {
+        "en": "3/4",
+        "as": "৩/৪"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/4",
+        "as": "১/৪"
+      },
+      {
+        "en": "3275345183542179/144115188075855872",
+        "as": "৩২৭৫৩৪৫১৮৩৫৪২১৭৯/১৪৪১১৫১৮৮০৭৫৮৫৫৮৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 1/4.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 1/4 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-087",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: 1/9 + 1/18 + 1/6",
+      "as": "সৰল কৰা: ১/৯ + ১/১৮ + ১/৬"
+    },
+    "options": [
+      {
+        "en": "5/6",
+        "as": "৫/৬"
+      },
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1091781727847393/36028797018963968",
+        "as": "১০৯১৭৮১৭২৭৮৪৭৩৯৩/৩৬০২৮৭৯৭০১৮৯৬৩৯৬৮"
+      },
+      {
+        "en": "1/3",
+        "as": "১/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Taking the LCM of the denominators gives 1/3.",
+      "as": "হৰবোৰৰ ল.সা.গু. লৈ যোগ কৰিলে 1/3 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-088",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 37.5% of 96",
+      "as": "৩৭.৫% of ৯৬ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Take the percentage as a fraction of the whole: 37.5% of 96 = 37.5/100 × 96 = 36.",
+      "as": "শতাংশক ভগ্নাংশলৈ লৈ গুণ কৰা: ৩৭.৫% × ৯৬ = ৩৬।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-089",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 12.5% of 64",
+      "as": "১২.৫% of ৬৪ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Take the percentage as a fraction of the whole: 12.5% of 64 = 12.5/100 × 64 = 8.",
+      "as": "শতাংশক ভগ্নাংশলৈ লৈ গুণ কৰা: ১২.৫% × ৬৪ = ৮।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-090",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 62.5% of 48",
+      "as": "৬২.৫% of ৪৮ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Take the percentage as a fraction of the whole: 62.5% of 48 = 62.5/100 × 48 = 30.",
+      "as": "শতাংশক ভগ্নাংশলৈ লৈ গুণ কৰা: ৬২.৫% × ৪৮ = ৩০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-091",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 87.5% of 32",
+      "as": "৮৭.৫% of ৩২ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Take the percentage as a fraction of the whole: 87.5% of 32 = 87.5/100 × 32 = 28.",
+      "as": "শতাংশক ভগ্নাংশলৈ লৈ গুণ কৰা: ৮৭.৫% × ৩২ = ২৮।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-092",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 16 2/3% of 60",
+      "as": "১৬ ২/৩% of ৬০ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "16 2/3% of 60 = 10.",
+      "as": "১৬ ২/৩% of ৬০ = ১০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-093",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 33 1/3% of 90",
+      "as": "৩৩ ১/৩% of ৯০ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "33 1/3% of 90 = 30.",
+      "as": "৩৩ ১/৩% of ৯০ = ৩০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-094",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 66 2/3% of 45",
+      "as": "৬৬ ২/৩% of ৪৫ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "66 2/3% of 45 = 30.",
+      "as": "৬৬ ২/৩% of ৪৫ = ৩০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-095",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Find the value of 14 2/7% of 70",
+      "as": "১৪ ২/৭% of ৭০ ৰ মান নিৰ্ণয় কৰা"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "14 2/7% of 70 = 10.",
+      "as": "১৪ ২/৭% of ৭০ = ১০।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-096",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (2/3 + 4/5) ÷ (7/10)",
+      "as": "সৰল কৰা: (2/3 + 4/5) ÷ (7/10)"
+    },
+    "options": [
+      {
+        "en": "44/21",
+        "as": "৪৪/২১"
+      },
+      {
+        "en": "65/21",
+        "as": "৬৫/২১"
+      },
+      {
+        "en": "67/42",
+        "as": "৬৭/৪২"
+      },
+      {
+        "en": "88/21",
+        "as": "৮৮/২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 44/21. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৪৪/২১ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-097",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (3/4 + 5/6) ÷ (11/12)",
+      "as": "সৰল কৰা: (3/4 + 5/6) ÷ (11/12)"
+    },
+    "options": [
+      {
+        "en": "30/11",
+        "as": "৩০/১১"
+      },
+      {
+        "en": "19/11",
+        "as": "১৯/১১"
+      },
+      {
+        "en": "27/22",
+        "as": "২৭/২২"
+      },
+      {
+        "en": "38/11",
+        "as": "৩৮/১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 19/11. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ১৯/১১ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-098",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (5/8 + 3/4) ÷ (13/16)",
+      "as": "সৰল কৰা: (5/8 + 3/4) ÷ (13/16)"
+    },
+    "options": [
+      {
+        "en": "35/13",
+        "as": "৩৫/১৩"
+      },
+      {
+        "en": "31/26",
+        "as": "৩১/২৬"
+      },
+      {
+        "en": "22/13",
+        "as": "২২/১৩"
+      },
+      {
+        "en": "44/13",
+        "as": "৪৪/১৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 22/13. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ২২/১৩ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-099",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (7/12 + 2/3) ÷ (5/6)",
+      "as": "সৰল কৰা: (7/12 + 2/3) ÷ (5/6)"
+    },
+    "options": [
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 3/2. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৩/২ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-100",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (4/9 + 2/3) ÷ (10/27)",
+      "as": "সৰল কৰা: (4/9 + 2/3) ÷ (10/27)"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5/2",
+        "as": "৫/২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 3. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ৩ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  },
+  {
+    "id": "num-simplification-bodmas-101",
+    "leaf": "simplification-bodmas",
+    "q": {
+      "en": "Simplify: (5/6 + 7/12) ÷ (17/24)",
+      "as": "সৰল কৰা: (5/6 + 7/12) ÷ (17/24)"
+    },
+    "options": [
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "3/2",
+        "as": "৩/২"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work through the expression in the order the operations demand and the value comes to 2. Only one option carries that value.",
+      "as": "প্ৰকাশটো ক্ৰিয়াৰ ক্ৰম অনুসৰি সমাধান কৰিলে মান ২ হয়। কেৱল এটা বিকল্পতেই সেই মান আছে।"
+    }
+  }
+]

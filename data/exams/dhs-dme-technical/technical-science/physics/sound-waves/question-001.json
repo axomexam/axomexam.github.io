@@ -1,0 +1,919 @@
+[
+  {
+    "id": "physics-007",
+    "q": {
+      "en": "Sound cannot travel through?",
+      "as": "শব্দ কিৰ মাজেৰে যাব নোৱাৰে?"
+    },
+    "options": [
+      {
+        "en": "Air",
+        "as": "বায়ু"
+      },
+      {
+        "en": "Water",
+        "as": "পানী"
+      },
+      {
+        "en": "Iron",
+        "as": "লো"
+      },
+      {
+        "en": "Vacuum",
+        "as": "শূন্যস্থান"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Sound is a mechanical wave and needs a material medium to propagate; therefore it cannot travel through a vacuum.",
+      "as": "শব্দ এটা যান্ত্ৰিক তৰংগ, প্ৰসাৰণৰ বাবে পদাৰ্থ মাধ্যম প্ৰয়োজন; সেয়ে শূন্যস্থানৰ মাজেৰে শব্দ যাব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "physics-017",
+    "q": {
+      "en": "Frequency of a sound wave is measured in?",
+      "as": "শব্দ তৰংগৰ কম্পাংক কি এককত জোখা হয়?"
+    },
+    "options": [
+      {
+        "en": "Decibel",
+        "as": "ডেচিবেল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Frequency is the number of vibrations per second, measured in hertz (Hz); 1 Hz = 1 cycle per second.",
+      "as": "কম্পাংক হৈছে প্ৰতি ছেকেণ্ডত হোৱা কম্পনৰ সংখ্যা, ইয়াৰ একক হাৰ্টজ (Hz); ১ Hz = প্ৰতি ছেকেণ্ডত ১ কম্পন।"
+    }
+  },
+  {
+    "id": "physics-052",
+    "q": {
+      "en": "The SI unit of frequency is?",
+      "as": "কম্পাংকৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Decibel",
+        "as": "ডেচিবেল"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Ohm",
+        "as": "ওম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Frequency is the number of oscillations per second, and its SI unit is the hertz (Hz). One hertz equals one cycle per second.",
+      "as": "কম্পাংক হ'ল প্ৰতি ছেকেণ্ডত হোৱা কম্পনৰ সংখ্যা, ইয়াৰ SI একক হাৰ্টজ (Hz)। এক হাৰ্টজ = প্ৰতি ছেকেণ্ডত এটা চক্ৰ।"
+    }
+  },
+  {
+    "id": "physics-053",
+    "q": {
+      "en": "Which colour of light has the longest wavelength?",
+      "as": "পোহৰৰ কোনটো ৰঙৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Violet",
+        "as": "বেঙুনীয়া"
+      },
+      {
+        "en": "Red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "Blue",
+        "as": "নীলা"
+      },
+      {
+        "en": "Green",
+        "as": "সেউজীয়া"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "In the visible spectrum, red light has the longest wavelength (about 700 nm) and the lowest frequency. Therefore red has the greatest wavelength.",
+      "as": "দৃশ্যমান স্পেক্ট্ৰামত ৰঙা পোহৰৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক (প্ৰায় ৭০০ nm) আৰু কম্পাংক সৰ্বনিম্ন। সেয়ে ৰঙা ৰঙৰ তৰংগদৈৰ্ঘ্য সৰ্বাধিক।"
+    }
+  },
+  {
+    "id": "physics-054",
+    "q": {
+      "en": "Which colour of visible light has the highest frequency?",
+      "as": "দৃশ্যমান পোহৰৰ কোনটো ৰঙৰ কম্পাংক সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Red",
+        "as": "ৰঙা"
+      },
+      {
+        "en": "Yellow",
+        "as": "হালধীয়া"
+      },
+      {
+        "en": "Violet",
+        "as": "বেঙুনীয়া"
+      },
+      {
+        "en": "Green",
+        "as": "সেউজীয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Violet light lies at the short-wavelength end of the visible spectrum (about 400 nm), giving it the highest frequency among visible colours.",
+      "as": "বেঙুনীয়া পোহৰ দৃশ্যমান স্পেক্ট্ৰামৰ চুটি তৰংগদৈৰ্ঘ্যৰ মূৰত থাকে (প্ৰায় ৪০০ nm), সেয়ে ইয়াৰ কম্পাংক দৃশ্যমান ৰঙসমূহৰ ভিতৰত সৰ্বাধিক।"
+    }
+  },
+  {
+    "id": "physics-081",
+    "q": {
+      "en": "The speed of sound is maximum in?",
+      "as": "শব্দৰ বেগ ক’ত সৰ্বাধিক?"
+    },
+    "options": [
+      {
+        "en": "Gases",
+        "as": "গেছ"
+      },
+      {
+        "en": "Solids",
+        "as": "কঠিন পদাৰ্থ"
+      },
+      {
+        "en": "Liquids",
+        "as": "তৰল"
+      },
+      {
+        "en": "Vacuum",
+        "as": "শূন্যস্থান"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The speed of sound depends on the elasticity and density of the medium. It is maximum in solids, less in liquids and least in gases; sound cannot travel in vacuum.",
+      "as": "শব্দৰ বেগ মাধ্যমৰ স্থিতিস্থাপকতা আৰু ঘনত্বৰ ওপৰত নিৰ্ভৰ কৰে। কঠিনত সৰ্বাধিক, তৰলত কম আৰু গেছত আটাইতকৈ কম; শূন্যস্থানত শব্দ চলিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "physics-082",
+    "q": {
+      "en": "Echo is due to?",
+      "as": "প্ৰতিধ্বনি কিৰ বাবে হয়?"
+    },
+    "options": [
+      {
+        "en": "Refraction of sound",
+        "as": "শব্দৰ প্ৰতিসৰণ"
+      },
+      {
+        "en": "Diffraction of sound",
+        "as": "শব্দৰ অপৱৰ্তন"
+      },
+      {
+        "en": "Reflection of sound",
+        "as": "শব্দৰ প্ৰতিফলন"
+      },
+      {
+        "en": "Interference of light",
+        "as": "পোহৰৰ ব্যতিচাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Echo is produced when sound waves are reflected back from a distant hard surface; the reflected sound is heard separately if the delay is at least about 0.1 s.",
+      "as": "দূৰৈৰ কঠিন পৃষ্ঠৰ পৰা শব্দ তৰংগ প্ৰতিফলিত হৈ ঘূৰি আহিলে প্ৰতিধ্বনি হয়; বিলম্ব প্ৰায় ০.১ ছেকেণ্ডতকৈ বেছি হ'লে প্ৰতিধ্বনি পৃথকে শুনা যায়।"
+    }
+  },
+  {
+    "id": "physics-083",
+    "q": {
+      "en": "The loudness of sound is measured in?",
+      "as": "শব্দৰ তীব্ৰতা কি এককত জোখা হয়?"
+    },
+    "options": [
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Decibel",
+        "as": "ডেচিবেল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Loudness (intensity level) of sound is measured in decibels (dB), while hertz measures frequency, newton force and watt power.",
+      "as": "শব্দৰ তীব্ৰতা ডেচিবেল (dB) এককত জোখা হয়; হাৰ্টজ কম্পাংক, নিউটন বল আৰু ৱাট ক্ষমতাৰ একক।"
+    }
+  },
+  {
+    "id": "physics-084",
+    "q": {
+      "en": "Ultrasound has frequency?",
+      "as": "আল্ট্ৰাচাউণ্ডৰ কম্পাংক কিমান?"
+    },
+    "options": [
+      {
+        "en": "More than 20,000 Hz",
+        "as": "২০,০০০ হাৰ্টজতকৈ বেছি"
+      },
+      {
+        "en": "Less than 20 Hz",
+        "as": "২০ হাৰ্টজতকৈ কম"
+      },
+      {
+        "en": "Exactly 20 Hz",
+        "as": "ঠিক ২০ হাৰ্টজ"
+      },
+      {
+        "en": "Between 20 Hz and 20 kHz only",
+        "as": "কেৱল ২০ হাৰ্টজৰ পৰা ২০ কিলোহাৰ্টজলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Ultrasound is sound of frequency greater than 20,000 Hz (20 kHz), which is above the upper limit of human hearing, used in sonography and SONAR.",
+      "as": "আল্ট্ৰাচাউণ্ড হ'ল ২০,০০০ হাৰ্টজতকৈ বেছি কম্পাংকৰ শব্দ, যি মানুহৰ শ্ৰৱণ সীমাৰ ওপৰত; ইয়াক চন'গ্ৰাফী আৰু ছ'নাৰত ব্যৱহাৰ কৰা হয়।"
+    }
+  },
+  {
+    "id": "physics-085",
+    "q": {
+      "en": "The human audible range is approximately?",
+      "as": "মানুহৰ শ্ৰৱণ ক্ষমতাৰ পৰিসৰ প্ৰায় কিমান?"
+    },
+    "options": [
+      {
+        "en": "2 Hz to 20 Hz",
+        "as": "২ৰ পৰা ২০ হাৰ্টজ"
+      },
+      {
+        "en": "20 Hz to 20,000 Hz",
+        "as": "২০ৰ পৰা ২০,০০০ হাৰ্টজ"
+      },
+      {
+        "en": "20 kHz to 2 MHz",
+        "as": "২০ কিলোহাৰ্টজৰ পৰা ২ মেগাহাৰ্টজ"
+      },
+      {
+        "en": "Only above 20 kHz",
+        "as": "কেৱল ২০ কিলোহাৰ্টজৰ ওপৰত"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The normal human audible range is approximately 20 Hz to 20,000 Hz (20 kHz); below this is infrasound and above is ultrasound.",
+      "as": "মানুহৰ শ্ৰৱণ পৰিসৰ প্ৰায় ২০ হাৰ্টজৰ পৰা ২০,০০০ হাৰ্টজলৈ; ইয়াৰ তলত ইনফ্ৰাচাউণ্ড আৰু ওপৰত আল্ট্ৰাচাউণ্ড।"
+    }
+  },
+  {
+    "id": "physics-101",
+    "q": {
+      "en": "The SI unit of wavelength is?",
+      "as": "তৰংগদৈৰ্ঘ্যৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Metre",
+        "as": "মিটাৰ"
+      },
+      {
+        "en": "Hertz",
+        "as": "হাৰ্টজ"
+      },
+      {
+        "en": "Second",
+        "as": "ছেকেণ্ড"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Wavelength is the distance between two consecutive crests or troughs of a wave, so its SI unit is the metre (m).",
+      "as": "তৰংগদৈৰ্ঘ্য হৈছে এটা তৰংগৰ দুটা ক্ৰমিক শিখৰ বা খাদৰ মাজৰ দূৰত্ব; সেয়ে ইয়াৰ SI একক মিটাৰ (m)।"
+    }
+  },
+  {
+    "id": "physics-102",
+    "q": {
+      "en": "Relation between wave speed v, frequency f and wavelength λ is?",
+      "as": "তৰংগ বেগ v, কম্পাংক f আৰু তৰংগদৈৰ্ঘ্য λ-ৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "v = f / λ",
+        "as": "v = f / λ"
+      },
+      {
+        "en": "v = f λ",
+        "as": "v = f λ"
+      },
+      {
+        "en": "v = λ / f",
+        "as": "v = λ / f"
+      },
+      {
+        "en": "v = f + λ",
+        "as": "v = f + λ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The speed of a wave equals its frequency multiplied by its wavelength: v = f λ.",
+      "as": "তৰংগৰ বেগ = কম্পাংক × তৰংগদৈৰ্ঘ্য, অৰ্থাৎ v = f λ।"
+    }
+  },
+  {
+    "id": "physics-129",
+    "q": {
+      "en": "AC used in Indian household supply has frequency?",
+      "as": "ভাৰতীয় ঘৰুৱা বিদ্যুৎ যোগানৰ AC-ৰ কম্পাংক কিমান?"
+    },
+    "options": [
+      {
+        "en": "50 Hz",
+        "as": "৫০ হাৰ্টজ"
+      },
+      {
+        "en": "60 Hz",
+        "as": "৬০ হাৰ্টজ"
+      },
+      {
+        "en": "100 Hz",
+        "as": "১০০ হাৰ্টজ"
+      },
+      {
+        "en": "220 Hz",
+        "as": "২২০ হাৰ্টজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The alternating current supplied for domestic use in India has a frequency of 50 Hz, i.e. it reverses direction 100 times per second. Hence '50 Hz' is correct.",
+      "as": "ভাৰতত ঘৰুৱা ব্যৱহাৰৰ পৰিবৰ্তী প্ৰবাহৰ কম্পাংক ৫০ হাৰ্টজ, অৰ্থাৎ ই ছেকেণ্ডত ১০০ বাৰ দিশ সলনি কৰে। সেয়ে '৫০ হাৰ্টজ' শুদ্ধ।"
+    }
+  },
+  {
+    "id": "physics-304",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "Sound waves in air are",
+      "as": "বায়ুত শব্দ তৰংগ হ'ল"
+    },
+    "options": [
+      {
+        "en": "longitudinal waves",
+        "as": "অনুদৈৰ্ঘ্য তৰংগ"
+      },
+      {
+        "en": "transverse waves",
+        "as": "অনুপ্ৰস্থ তৰংগ"
+      },
+      {
+        "en": "electromagnetic waves",
+        "as": "বিদ্যুৎ-চুম্বকীয় তৰংগ"
+      },
+      {
+        "en": "stationary waves only",
+        "as": "কেৱল স্থিৰ তৰংগ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Air particles vibrate back and forth along the direction the sound travels, which makes it longitudinal. Light is transverse.",
+      "as": "বায়ুৰ কণিকা শব্দ যোৱা দিশৰে আগুৱাই-পিছুৱাই কম্পিত হয়, সেয়ে ই অনুদৈৰ্ঘ্য। পোহৰ অনুপ্ৰস্থ।"
+    }
+  },
+  {
+    "id": "physics-305",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The speed of sound in air at room temperature is about",
+      "as": "কোঠাৰী তাপত বায়ুত শব্দৰ গতি প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "340 metres per second",
+        "as": "৩৪০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "3 times ten to the eight metres per second",
+        "as": "৩ গুণ দহৰ ঘাত আঠ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "1500 metres per second",
+        "as": "১৫০০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "34 metres per second",
+        "as": "৩৪ মিটাৰ প্ৰতি ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sound travels about three hundred and forty metres each second in air, which is why thunder follows lightning after a delay.",
+      "as": "বায়ুত শব্দই প্ৰতি ছেকেণ্ডত প্ৰায় তিনি শ চল্লিছ মিটাৰ যায়, সেয়ে বজ্ৰপাতৰ পিছত মেঘগৰ্জন পলমকৈ শুনা যায়।"
+    }
+  },
+  {
+    "id": "physics-306",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The pitch of a sound depends on its",
+      "as": "শব্দৰ তীক্ষ্ণতা কিৰ ওপৰত নিৰ্ভৰ কৰে"
+    },
+    "options": [
+      {
+        "en": "frequency",
+        "as": "কম্পনাংক"
+      },
+      {
+        "en": "amplitude",
+        "as": "বিস্তাৰ"
+      },
+      {
+        "en": "speed",
+        "as": "গতি"
+      },
+      {
+        "en": "quality only",
+        "as": "কেৱল গুণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A higher frequency gives a higher pitch, which is why a woman's voice sounds shriller than a man's. Amplitude controls loudness instead.",
+      "as": "বেছি কম্পনাংকই বেছি তীক্ষ্ণতা দিয়ে, সেয়ে মহিলাৰ মাত мужাৰতকৈ চৰ্চৰ শুনা যায়। বিস্তাৰে উচ্চতা নিয়ন্ত্ৰণ কৰে।"
+    }
+  },
+  {
+    "id": "physics-307",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The loudness of a sound depends on its",
+      "as": "শব্দৰ উচ্চতা কিৰ ওপৰত নিৰ্ভৰ কৰে"
+    },
+    "options": [
+      {
+        "en": "amplitude",
+        "as": "বিস্তাৰ"
+      },
+      {
+        "en": "frequency",
+        "as": "কম্পনাংক"
+      },
+      {
+        "en": "wavelength",
+        "as": "তৰংগ দৈৰ্ঘ্য"
+      },
+      {
+        "en": "speed",
+        "as": "গতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A larger amplitude carries more energy and sounds louder. Frequency changes the pitch, not the loudness.",
+      "as": "বেছি বিস্তাৰে বেছি শক্তি কঢ়িয়াই উচ্চ শব্দ দিয়ে। কম্পনাংকে তীক্ষ্ণতা সলায়, উচ্চতা নহয়।"
+    }
+  },
+  {
+    "id": "physics-308",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "An echo is heard because sound",
+      "as": "প্ৰতিধ্বনি শুনা যায় কাৰণ শব্দ"
+    },
+    "options": [
+      {
+        "en": "is reflected from a distant surface",
+        "as": "দূৰৰ পৃষ্ঠৰপৰা প্ৰতিফলিত হয়"
+      },
+      {
+        "en": "is absorbed by walls",
+        "as": "বেৰে শোষে"
+      },
+      {
+        "en": "travels faster than light",
+        "as": "পোহৰতকৈ দ্ৰুত যায়"
+      },
+      {
+        "en": "bends around corners",
+        "as": "চুকত বেঁকা হয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A hard surface reflects the sound back, and if it returns after at least a tenth of a second the ear hears it as a separate echo.",
+      "as": "কঠিন পৃষ্ঠই শব্দ ঘূৰাই পঠিয়ায়, আৰু অন্ততঃ এক দশমাংশ ছেকেণ্ডৰ পিছত ঘূৰি আহিলে কাণে সুকীয়া প্ৰতিধ্বনি শুনে।"
+    }
+  },
+  {
+    "id": "physics-309",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The minimum distance from a wall needed to hear a distinct echo is about",
+      "as": "স্পষ্ট প্ৰতিধ্বনি শুনিবলৈ বেৰৰপৰা ন্যূনতম দূৰত্ব প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "17 metres",
+        "as": "১৭ মিটাৰ"
+      },
+      {
+        "en": "1.7 metres",
+        "as": "১.৭ মিটাৰ"
+      },
+      {
+        "en": "170 metres",
+        "as": "১৭০ মিটাৰ"
+      },
+      {
+        "en": "34 metres",
+        "as": "৩৪ মিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sound must travel to the wall and back in a tenth of a second, which at three hundred and forty metres per second means about seventeen metres each way.",
+      "as": "শব্দই বেৰলৈ গৈ এক দশমাংশ ছেকেণ্ডত ঘূৰি আহিব লাগে, যি তিনি শ চল্লিছ মিটাৰ প্ৰতি ছেকেণ্ডত প্ৰায় সোতৰ মিটাৰ দূৰত্ব।"
+    }
+  },
+  {
+    "id": "physics-310",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "Ultrasonic waves are those with a frequency",
+      "as": "অতিশ্ৰৱ্য তৰংগ সেইবোৰ যাৰ কম্পনাংক"
+    },
+    "options": [
+      {
+        "en": "above 20,000 hertz",
+        "as": "২০,০০০ হাৰ্টজৰ ওপৰত"
+      },
+      {
+        "en": "below 20 hertz",
+        "as": "২০ হাৰ্টজৰ তলত"
+      },
+      {
+        "en": "between 20 and 20,000 hertz",
+        "as": "২০ আৰু ২০,০০০ হাৰ্টজৰ মাজত"
+      },
+      {
+        "en": "exactly 20,000 hertz",
+        "as": "ঠিক ২০,০০০ হাৰ্টজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The human ear stops at about twenty thousand hertz, so anything higher is ultrasonic and only bats and dolphins hear it.",
+      "as": "মানুহৰ কাণ প্ৰায় বিছ হাজাৰ হাৰ্টজত ৰয়, সেয়ে তাতকৈ ওপৰৰ সকলো অতিশ্ৰৱ্য আৰু কেবল বাদুলী আৰু ডলফিনে শুনে।"
+    }
+  },
+  {
+    "id": "physics-311",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The audible range of frequency for a normal human ear is",
+      "as": "সাধাৰণ মানুহৰ কাণৰ শ্ৰৱ্য কম্পনাংকৰ পৰিসৰ"
+    },
+    "options": [
+      {
+        "en": "20 Hz to 20,000 Hz",
+        "as": "২০ হাৰ্টজৰপৰা ২০,০০০ হাৰ্টজ"
+      },
+      {
+        "en": "2 Hz to 200 Hz",
+        "as": "২ হাৰ্টজৰপৰা ২০০ হাৰ্টজ"
+      },
+      {
+        "en": "200 Hz to 2000 Hz",
+        "as": "২০০ হাৰ্টজৰপৰা ২০০০ হাৰ্টজ"
+      },
+      {
+        "en": "20,000 Hz to 200,000 Hz",
+        "as": "২০,০০০ হাৰ্টজৰপৰা ২,০০,০০০ হাৰ্টজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Young ears hear from about twenty hertz to twenty thousand hertz, and the upper limit falls with age.",
+      "as": "ডেকা কাণে প্ৰায় বিছ হাৰ্টজৰপৰা বিছ হাজাৰ হাৰ্টজলৈ শুনে, আৰু বয়সৰ সৈতে ওপৰৰ সীমা কমে।"
+    }
+  },
+  {
+    "id": "physics-312",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "Sound travels fastest in",
+      "as": "শব্দ আটাই দ্ৰুতগতিত যায়"
+    },
+    "options": [
+      {
+        "en": "steel",
+        "as": "ইস্পাত"
+      },
+      {
+        "en": "water",
+        "as": "পানী"
+      },
+      {
+        "en": "air",
+        "as": "বায়ু"
+      },
+      {
+        "en": "vacuum",
+        "as": "শূন্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Solids have closely packed particles that pass vibrations on quickly, so sound is fastest in steel. In vacuum there is nothing to carry it.",
+      "as": "কঠিনত কণিকা ওচৰা-ওচৰি আৰু কম্পন দ্ৰুত সঞ্চাৰ কৰে, সেয়ে ইস্পাতত শব্দ আটাই দ্ৰুত। শূন্যত কঢ়িয়াবলৈ একো নাই।"
+    }
+  },
+  {
+    "id": "physics-313",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The relation between wave speed, frequency and wavelength is",
+      "as": "তৰংগৰ গতি, কম্পনাংক আৰু তৰংগ দৈৰ্ঘ্যৰ মাজৰ সম্পৰ্ক"
+    },
+    "options": [
+      {
+        "en": "speed equals frequency times wavelength",
+        "as": "গতি = কম্পনাংক গুণ তৰংগ দৈৰ্ঘ্য"
+      },
+      {
+        "en": "speed equals frequency divided by wavelength",
+        "as": "গতি = কম্পনাংক ভাগ তৰংগ দৈৰ্ঘ্য"
+      },
+      {
+        "en": "speed equals wavelength divided by frequency",
+        "as": "গতি = তৰংগ দৈৰ্ঘ্য ভাগ কম্পনাংক"
+      },
+      {
+        "en": "speed equals frequency plus wavelength",
+        "as": "গতি = কম্পনাংক যোগ তৰংগ দৈৰ্ঘ্য"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "In one second the wave advances by one wavelength for each cycle completed, so speed is frequency times wavelength.",
+      "as": "এক ছেকেণ্ডত প্ৰতিটো চক্ৰৰ বাবে তৰংগই এক তৰংগ দৈৰ্ঘ্য আগবাঢ়ে, সেয়ে গতি = কম্পনাংক গুণ তৰংগ দৈৰ্ঘ্য।"
+    }
+  },
+  {
+    "id": "physics-314",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "A sound wave of frequency 100 Hz has a wavelength of 3.4 m. Its speed is",
+      "as": "১০০ হাৰ্টজ কম্পনাংকৰ শব্দ তৰংগৰ তৰংগ দৈৰ্ঘ্য ৩.৪ মিটাৰ। তাৰ গতি"
+    },
+    "options": [
+      {
+        "en": "340 metres per second",
+        "as": "৩৪০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "34 metres per second",
+        "as": "৩৪ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "3400 metres per second",
+        "as": "৩৪০০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "29.4 metres per second",
+        "as": "২৯.৪ মিটাৰ প্ৰতি ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Speed is frequency times wavelength, so one hundred times three point four gives three hundred and forty metres per second.",
+      "as": "গতি = কম্পনাংক গুণ তৰংগ দৈৰ্ঘ্য, সেয়ে এশ গুণ ৩.৪ = তিনি শ চল্লিছ মিটাৰ প্ৰতি ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "physics-315",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The quality or timber of a musical note depends on its",
+      "as": "সুৰৰ গুণ বা টিম্বাৰ কিৰ ওপৰত নিৰ্ভৰ কৰে"
+    },
+    "options": [
+      {
+        "en": "overtones present",
+        "as": "থকা অভিস্বৰবোৰৰ"
+      },
+      {
+        "en": "frequency only",
+        "as": "কেৱল কম্পনাংকৰ"
+      },
+      {
+        "en": "amplitude only",
+        "as": "কেৱল বিস্তাৰৰ"
+      },
+      {
+        "en": "speed",
+        "as": "গতিৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Two notes of the same pitch and loudness still sound different on a violin and a flute because of the mixture of overtones they carry.",
+      "as": "একেই তীক্ষ্ণতা আৰু উচ্চতাৰ দুটা সুৰ বেহেলাত আৰু বাঁহীত বেলেগ শুনা যায় কাৰণ অভিস্বৰৰ মিশ্ৰণ বেলেগ।"
+    }
+  },
+  {
+    "id": "physics-316",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "A megaphone is used to",
+      "as": "মেগাফোন কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "send sound in a particular direction with greater loudness",
+        "as": "নিৰ্দিষ্ট দিশত বেছি উচ্চ শব্দ পঠিয়াবলৈ"
+      },
+      {
+        "en": "increase the frequency of sound",
+        "as": "শব্দৰ কম্পনাংক বঢ়াবলৈ"
+      },
+      {
+        "en": "reduce the speed of sound",
+        "as": "শব্দৰ গতি কমাবলৈ"
+      },
+      {
+        "en": "change sound into light",
+        "as": "শব্দ পোহৰলৈ সলনি কৰিবলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The conical shape stops the sound spreading in all directions, so more energy goes forward and it sounds louder.",
+      "as": "শংকু আকৃতিয়ে শব্দ সকলো দিশলৈ বিয়পাৰ পৰা ৰোধ কৰে, সেয়ে বেছি শক্তি আগলৈ যায় আৰু বেছি উচ্চ শুনা যায়।"
+    }
+  },
+  {
+    "id": "physics-317",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "Sound cannot be heard on the Moon because",
+      "as": "চন্দ্ৰত শব্দ শুনা নাযায় কাৰণ"
+    },
+    "options": [
+      {
+        "en": "there is no atmosphere to carry the vibrations",
+        "as": "কম্পন কঢ়িয়াবলৈ বায়ুমণ্ডল নাই"
+      },
+      {
+        "en": "the Moon is too far away",
+        "as": "চন্দ্ৰ বহু দূৰত"
+      },
+      {
+        "en": "gravity is too weak there",
+        "as": "তাত মহাকৰ্ষণ অতি দুৰ্বল"
+      },
+      {
+        "en": "the Moon is too cold",
+        "as": "চন্দ্ৰ অতি ঠাণ্ডা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Sound needs a material medium, and the Moon has essentially no air, so vibrations have nothing to pass through.",
+      "as": "শব্দলৈ পদাৰ্থ মাধ্যম লাগে, আৰু চন্দ্ৰত প্ৰায় বায়ু নাই, সেয়ে কম্পনেৰে যোৱাৰ একো নাই।"
+    }
+  },
+  {
+    "id": "physics-318",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The frequency of a wave whose time period is 0.02 second is",
+      "as": "সময় কাল ০.০২ ছেকেণ্ড থকা তৰংগৰ কম্পনাংক"
+    },
+    "options": [
+      {
+        "en": "50 Hz",
+        "as": "৫০ হাৰ্টজ"
+      },
+      {
+        "en": "20 Hz",
+        "as": "২০ হাৰ্টজ"
+      },
+      {
+        "en": "0.02 Hz",
+        "as": "০.০২ হাৰ্টজ"
+      },
+      {
+        "en": "200 Hz",
+        "as": "২০০ হাৰ্টজ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Frequency is the reciprocal of the time period, so one divided by zero point zero two gives fifty hertz.",
+      "as": "কম্পনাংক সময় কালৰ ব্যস্তানুপাত, সেয়ে এক ভাগ ০.০২ = পঞ্চাশ হাৰ্টজ।"
+    }
+  },
+  {
+    "id": "physics-319",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "The reflection of sound follows the same laws as the reflection of",
+      "as": "শব্দৰ প্ৰতিফলন কিৰ প্ৰতিফলনৰ দৰে একেই সূত্ৰ মানে"
+    },
+    "options": [
+      {
+        "en": "light",
+        "as": "পোহৰৰ"
+      },
+      {
+        "en": "heat",
+        "as": "তাপৰ"
+      },
+      {
+        "en": "electric current",
+        "as": "বৈদ্যুতিক প্ৰবাহৰ"
+      },
+      {
+        "en": "magnetism",
+        "as": "চুম্বকত্বৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The angle of incidence equals the angle of reflection for sound just as for light, which is why a curved shell can focus sound.",
+      "as": "শব্দৰ বাবেও আপতন কোণ প্ৰতিফলন কোণৰ সমান, যেনে পোহৰৰ, সেয়ে বেঁকা শাঁখে শব্দ কেন্দ্ৰীভূত কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "physics-320",
+    "leaf": "sound-waves",
+    "q": {
+      "en": "Sound waves with frequency below 20 Hz are called",
+      "as": "২০ হাৰ্টজৰ তলৰ কম্পনাংকৰ শব্দ তৰংগক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "infrasonic",
+        "as": "অতিশ্ৰৱ্যৰ তলৰ"
+      },
+      {
+        "en": "ultrasonic",
+        "as": "অতিশ্ৰৱ্য"
+      },
+      {
+        "en": "audible",
+        "as": "শ্ৰৱ্য"
+      },
+      {
+        "en": "supersonic",
+        "as": "শব্দোত্তৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Below twenty hertz the ear cannot follow the vibration, so the sound is infrasonic. Supersonic refers to speed, not frequency.",
+      "as": "বিছ হাৰ্টজৰ তলত কাণে কম্পন অনুসৰণ কৰিব নোৱাৰে, সেয়ে শব্দ অতিশ্ৰৱ্যৰ তলৰ। শব্দোত্তৰে গতি বুজায়, কম্পনাংক নহয়।"
+    }
+  }
+]

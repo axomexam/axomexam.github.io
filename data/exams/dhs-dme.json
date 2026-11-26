@@ -1,0 +1,213 @@
+{
+  "id": "dhs-dme",
+  "title": {
+    "en": "DHS & DME Non-Technical Grade III",
+    "as": "DHS আৰু DME অসামৰিক গ্ৰেড III"
+  },
+  "subtitle": {
+    "en": "Directorate of Health Services & Directorate of Medical Education — Grade III (Non-Technical)",
+    "as": "স্বাস্থ্য সেৱা সঞ্চালকালয় আৰু চিকিৎসা শিক্ষা সঞ্চালকালয় — গ্ৰেড III (অসামৰিক)"
+  },
+  "note": {
+    "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+    "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+  },
+  "cover": "/images/exams/dhs-dme-cover.webp",
+  "coverAlt": {
+    "en": "A Handbook of Recruitment Examination (DME, DHS, AYUSH & NHM) — book front cover",
+    "as": "নিযুক্তি পৰীক্ষাৰ হাতপুথি (DME, DHS, AYUSH আৰু NHM) — কিতাপৰ বেটুপাত"
+  },
+  "logo": "/images/exams/dhs-dme-logo.webp",
+  "logoAlt": {
+    "en": "DHS & DME official logo",
+    "as": "DHS আৰু DME চৰকাৰী ল'গ'"
+  },
+  "color": "#10b981",
+  "icon": "DHS",
+  "status": "available",
+  "sections": [
+    {
+      "id": "syllabus",
+      "type": "syllabus",
+      "color": "#6366f1",
+      "title": {
+        "en": "Syllabus",
+        "as": "পাঠ্যক্ৰম"
+      }
+    },
+    {
+      "id": "general-knowledge",
+      "type": "qa",
+      "color": "#0ea5e9",
+      "title": {
+        "en": "General Knowledge (Assam & India)",
+        "as": "সাধাৰণ জ্ঞান (অসম আৰু ভাৰত)"
+      },
+      "subcategories": [
+        {
+          "id": "assam-history",
+          "title": {
+            "en": "Assam History",
+            "as": "অসমৰ ইতিহাস"
+          }
+        },
+        {
+          "id": "geography",
+          "title": {
+            "en": "Geography",
+            "as": "ভূগোল"
+          }
+        },
+        {
+          "id": "art-culture",
+          "title": {
+            "en": "Assam Art & Culture",
+            "as": "অসমৰ কলা-সংস্কৃতি"
+          }
+        },
+        {
+          "id": "assam-literature",
+          "title": {
+            "en": "Assamese Literature",
+            "as": "অসমীয়া সাহিত্য"
+          }
+        },
+        {
+          "id": "indian-history",
+          "title": {
+            "en": "Indian History",
+            "as": "ভাৰতৰ ইতিহাস"
+          }
+        },
+        {
+          "id": "polity",
+          "title": {
+            "en": "Indian Polity & Constitution",
+            "as": "ভাৰতৰ ৰাজনীতি আৰু সংবিধান"
+          }
+        },
+        {
+          "id": "economics",
+          "title": {
+            "en": "Indian & Assam Economy",
+            "as": "ভাৰত আৰু অসমৰ অৰ্থনীতি"
+          }
+        }
+      ]
+    },
+    {
+      "id": "elementary-mathematics",
+      "type": "qa",
+      "color": "#f59e0b",
+      "title": {
+        "en": "Elementary Mathematics",
+        "as": "প্ৰাথমিক গণিত"
+      },
+      "subcategories": [
+        {
+          "id": "arithmetic",
+          "title": {
+            "en": "Arithmetic",
+            "as": "পাটিগণিত"
+          }
+        },
+        {
+          "id": "advanced-math",
+          "title": {
+            "en": "Advanced Mathematics",
+            "as": "উচ্চ গণিত"
+          }
+        },
+        {
+          "id": "statistics-and-data-interpretation",
+          "title": {
+            "en": "Statistics & Data Interpretation",
+            "as": "পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "logical-reasoning",
+      "type": "qa",
+      "color": "#8b5cf6",
+      "title": {
+        "en": "Reasoning & Mental Ability",
+        "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+      },
+      "subcategories": [
+        {
+          "id": "verbal-reasoning",
+          "title": {
+            "en": "Verbal Reasoning",
+            "as": "ভাষিক যুক্তিতৰ্ক"
+          }
+        },
+        {
+          "id": "non-verbal-reasoning",
+          "title": {
+            "en": "Non-Verbal Reasoning",
+            "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+          }
+        },
+        {
+          "id": "analytical-critical-reasoning",
+          "title": {
+            "en": "Analytical & Critical Reasoning",
+            "as": "বিশ্লেষণাত্মক যুক্তিতৰ্ক"
+          }
+        }
+      ]
+    },
+    {
+      "id": "general-english",
+      "type": "qa",
+      "color": "#0d9488",
+      "title": {
+        "en": "General English",
+        "as": "সাধাৰণ ইংৰাজী"
+      },
+      "subcategories": [
+        {
+          "id": "grammar",
+          "title": {
+            "en": "Grammar",
+            "as": "ব্যাকৰণ"
+          }
+        },
+        {
+          "id": "vocabulary",
+          "title": {
+            "en": "Vocabulary",
+            "as": "শব্দভাণ্ডাৰ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "computer-knowledge",
+      "type": "qa",
+      "color": "#2563eb",
+      "title": {
+        "en": "Computer Knowledge",
+        "as": "কম্পিউটাৰ জ্ঞান"
+      },
+      "subcategories": [
+        {
+          "id": "computer-fundamentals",
+          "title": {
+            "en": "Computer Fundamentals",
+            "as": "কম্পিউটাৰৰ মৌলিক জ্ঞান"
+          }
+        },
+        {
+          "id": "ms-office",
+          "title": {
+            "en": "MS Office",
+            "as": "এম এছ অফিচ"
+          }
+        }
+      ]
+    }
+  ]
+}

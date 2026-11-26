@@ -1,0 +1,687 @@
+{
+  "meta": {
+    "site": "axomexam",
+    "schema": 1
+  },
+  "categories": [
+    {
+      "id": "gk",
+      "contentLayout": "flat",
+      "name": { "en": "General Knowledge", "as": "সাধাৰণ জ্ঞান" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE, Assam Police, Gauhati High Court, Panchayat & Rural Development, DME, DHE, Forest Guard, and other departmental exams.\n\nOur portal offers complete, high-yield General Knowledge coverage broken down neatly across key subjects:\n\n• Assam Literature\n• Assam History\n• Indian History\n• Political Science\n• Geography\n• Economics\n• Art & Culture\n\nAll essential topics are systematically organized category-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE, অসম আৰক্ষী, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, বনবিভাগৰ আৰক্ষী (Forest Guard) আৰু অন্যান্য বিভাগীয় পৰীক্ষা — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ প'ৰ্টেলে মূল বিষয়সমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ সাধাৰণ জ্ঞান সামৰি লৈছে:\n\n• অসম সাহিত্য\n• অসমৰ ইতিহাস\n• ভাৰতৰ ইতিহাস\n• ৰাজনীতি বিজ্ঞান\n• ভূগোল\n• অৰ্থনীতি\n• কলা আৰু সংস্কৃতি\n\nসকলো গুৰুত্বপূৰ্ণ বিষয় বিভাগ-অনুযায়ী সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#0ea5e9",
+      "icon": "GK",
+      "subcategories": [
+        {
+          "id": "assam-literature",
+          "name": { "en": "Assam Literature", "as": "অসমীয়া সাহিত্য" },
+          "sections": [
+            {
+              "id": "ancient-pre-vaishnavite-sec",
+              "name": { "en": "Ancient & Pre-Vaishnavite Period", "as": "প্ৰাচীন আৰু প্ৰাক-বৈষ্ণৱ যুগ" },
+              "topics": [
+                { "id": "charyapada-folk-songs", "name": { "en": "Charyapada & Folk Songs", "as": "চৰ্যাপদ আৰু লোকগীতসমূহ" }, "popularity": 9 },
+                { "id": "early-poets-translations", "name": { "en": "Early Poets & Translations", "as": "প্ৰাৰম্ভিক কবি আৰু অনুবাদ সাহিত্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "vaishnavite-period-sec",
+              "name": { "en": "Vaishnavite Period", "as": "বৈষ্ণৱ যুগ" },
+              "topics": [
+                { "id": "sankardev-madhavdev-works", "name": { "en": "Sankardev & Madhavdev Works", "as": "শংকৰদেৱ আৰু মাধৱদেৱৰ সাহিত্যকৃতি" }, "popularity": 10 },
+                { "id": "charit-puthis-early-prose", "name": { "en": "Charit Puthis & Early Prose", "as": "চৰিত পুথি আৰু প্ৰাৰম্ভিক গদ্য" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "ahom-period-lit-sec",
+              "name": { "en": "Ahom Period", "as": "আহোম যুগৰ সাহিত্য" },
+              "topics": [
+                { "id": "buranjis-historical-chronicles", "name": { "en": "Buranjis (Historical Chronicles)", "as": "বুৰঞ্জী সাহিত্য (ঐতিহাসিক আখ্যান)" }, "popularity": 9 },
+                { "id": "court-scientific-literature", "name": { "en": "Court & Scientific Literature", "as": "ৰাজসভাৰ সাহিত্য আৰু ব্যৱহাৰিক শাস্ত্ৰ" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "modern-era-arunodoi-jonaki-sec",
+              "name": { "en": "Modern Era (Arunodoi to Jonaki)", "as": "আধুনিক যুগ (অৰুণোদইৰ পৰা জোনাকীলৈ)" },
+              "topics": [
+                { "id": "arunodoi-era-missionaries", "name": { "en": "Arunodoi Era & Missionaries", "as": "অৰুণোদই যুগ আৰু মিছনেৰীসকলৰ অৱদান" }, "popularity": 9 },
+                { "id": "jonaki-era-romantic-movement", "name": { "en": "Jonaki Era (Romantic Movement)", "as": "জোনাকী যুগ আৰু ৰোমাণ্টিক আন্দোলন" }, "popularity": 9 },
+                { "id": "early-modern-novels-poems-drama", "name": { "en": "Early Modern Novels, Poems & Drama", "as": "প্ৰাৰম্ভিক আধুনিক উপন্যাস, কবিতা আৰু নাটক" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "post-independence-contemporary-sec",
+              "name": { "en": "Post-Independence & Contemporary", "as": "স্বাধীনতা-উত্তৰ আৰু সাম্প্ৰতিক সাহিত্য" },
+              "topics": [
+                { "id": "modern-literature-major-writers", "name": { "en": "Modern Literature & Major Writers", "as": "আধুনিক সাহিত্য আৰু প্ৰধান সাহিত্যিকসকল" }, "popularity": 9 },
+                { "id": "literary-awards-jnanpith-sahitya-akademi", "name": { "en": "Literary Awards (Jnanpith, Sahitya Akademi)", "as": "সাহিত্য বঁটাসমূহ (জ্ঞানপীঠ, সাহিত্য অকাডেমি)" }, "popularity": 10 },
+                { "id": "asam-sahitya-sabha-journals", "name": { "en": "Asam Sahitya Sabha & Journals", "as": "অসম সাহিত্য সভা আৰু প্ৰধান আলোচনীসমূহ" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assam-history",
+          "name": { "en": "Assam History", "as": "অসমৰ ইতিহাস" },
+          "sections": [
+            {
+              "id": "ancient-assam-sec",
+              "name": { "en": "Ancient Assam History", "as": "প্ৰাচীন অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "ancient-sources", "name": { "en": "Sources of Ancient History", "as": "ইতিহাসৰ উৎসসমূহ" }, "popularity": 8 },
+                { "id": "pre-proto-history", "name": { "en": "Pre & Proto-History", "as": "প্ৰাক আৰু প্ৰাচীন ইতিহাস" }, "popularity": 7 },
+                { "id": "origin-names-assam", "name": { "en": "Origin of Names (Pragjyotisha & Kamarupa)", "as": "প্ৰাগজ্যোতিষ আৰু কামৰূপ নামৰ উৎপত্তি" }, "popularity": 8 },
+                { "id": "danava-dynasty", "name": { "en": "Danava Dynasty", "as": "দানৱ বংশ" }, "popularity": 8 },
+                { "id": "bhauma-asura-dynasty", "name": { "en": "Bhauma / Asura Dynasty (Narakasura)", "as": "ভৌমিক / অসুৰ বংশ (নৰকাসুৰ)" }, "popularity": 9 },
+                { "id": "mythological-rulers", "name": { "en": "Mythological Rulers (Bana & Bhismaka)", "as": "পৌৰাণিক শাসক (বাণ আৰু ভীষ্মক)" }, "popularity": 7 },
+                { "id": "varman-dynasty", "name": { "en": "Varman Dynasty & Bhaskarvarman", "as": "বৰ্মন বংশ আৰু ভাস্কৰবৰ্মন" }, "popularity": 9 },
+                { "id": "xuanzang-visit", "name": { "en": "Xuanzang's Visit to Kamarupa", "as": "হিউৱেন চাঙৰ কামৰূপ ভ্ৰমণ" }, "popularity": 9 },
+                { "id": "salastambha-dynasty", "name": { "en": "Salastambha (Mlechchha) Dynasty", "as": "শালস্তম্ভ (ম্লেছ) বংশ" }, "popularity": 8 },
+                { "id": "pala-dynasty", "name": { "en": "Pala Dynasty of Kamarupa", "as": "কামৰূপৰ পাল বংশ" }, "popularity": 8 },
+                { "id": "ancient-inscriptions", "name": { "en": "Ancient Inscriptions & Copper Plates", "as": "প্ৰাচীন শিলালিপি আৰু তাম্ৰশাসন" }, "popularity": 8 },
+                { "id": "ancient-society-admin", "name": { "en": "Administration, Society & Religion", "as": "প্ৰশাসন, সমাজ আৰু ধৰ্ম" }, "popularity": 7 },
+                { "id": "fall-of-kamarupa", "name": { "en": "Fall of Kamarupa Kingdom", "as": "কামৰূপ ৰাজ্যৰ পতন" }, "popularity": 8 },
+                { "id": "ancient-assam", "name": { "en": "Ancient Assam History (Kamarupa)", "as": "প্ৰাচীন অসমৰ ইতিহাস" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "medieval-assam-sec",
+              "name": { "en": "Medieval Assam History", "as": "মধ্যযুগীয় অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "early-invasions", "name": { "en": "Early Invasions (Bakhtiyar Khilji)", "as": "প্ৰাৰম্ভিক মুছলিম আক্ৰমণ (বখতিয়াৰ খিলজী)" }, "popularity": 8 },
+                { "id": "kamata-khen-kingdom", "name": { "en": "Kamata Kingdom & Khen Dynasty", "as": "কমতা ৰাজ্য আৰু খেন বংশ" }, "popularity": 8 },
+                { "id": "chutiya-kingdom", "name": { "en": "Chutiya Kingdom & Sati Sadhani", "as": "চুতীয়া ৰাজ্য আৰু সতী সাধনী" }, "popularity": 9 },
+                { "id": "kachari-kingdom", "name": { "en": "Kachari (Dimasa) Kingdom", "as": "কছাৰী (ডিমাছা) ৰাজ্য" }, "popularity": 8 },
+                { "id": "koch-kingdom", "name": { "en": "Koch Kingdom (Naranarayan & Chilarai)", "as": "কোচ ৰাজ্য (নৰনাৰায়ণ আৰু চিলাৰায়)" }, "popularity": 9 },
+                { "id": "ahom-foundation", "name": { "en": "Foundation of Ahom Kingdom (Sukapha)", "as": "আহোম ৰাজ্যৰ প্ৰতিষ্ঠা (চুকাফা)" }, "popularity": 9 },
+                { "id": "major-ahom-rulers", "name": { "en": "Major Ahom Rulers & Expansion", "as": "প্ৰধান আহোম ৰজা আৰু ৰাজ্য বিস্তাৰ" }, "popularity": 9 },
+                { "id": "ahom-administration", "name": { "en": "Ahom Administration (Paik, Khel, Posha)", "as": "আহোম প্ৰশাসন (পাইক, খেল, পৌছা)" }, "popularity": 9 },
+                { "id": "neo-vaishnavite-movement", "name": { "en": "Neo-Vaishnavite Movement (Sankardeva)", "as": "নৱ-বৈষ্ণৱ ধৰ্ম আন্দোলন (শংকৰদেৱ)" }, "popularity": 9 },
+                { "id": "ahom-mughal-conflicts", "name": { "en": "Ahom-Mughal Conflicts & Mir Jumla", "as": "আহোম-মোগল সংঘাত আৰু মীৰ জুমলা" }, "popularity": 9 },
+                { "id": "saraighat-itakhuli", "name": { "en": "Battle of Saraighat & Itakhuli", "as": "শৰাইঘাট আৰু ইটাখুলীৰ যুদ্ধ" }, "popularity": 10 },
+                { "id": "moamoria-rebellion", "name": { "en": "Moamoria Rebellion", "as": "মোৱামৰীয়া গণ-বিদ্ৰোহ" }, "popularity": 9 },
+                { "id": "burmese-invasions", "name": { "en": "Burmese Invasions (Maanor Akroman)", "as": "মানৰ আক্ৰমণ" }, "popularity": 9 },
+                { "id": "yandabo-ahom-fall", "name": { "en": "Treaty of Yandabo (1826) & Fall of Ahoms", "as": "ইয়াণ্ডাবু সন্ধি আৰু আহোমৰ পতন" }, "popularity": 9 },
+                { "id": "medieval-assam", "name": { "en": "Medieval Assam History (Ahom Period)", "as": "মধ্যযুগীয় অসমৰ ইতিহাস" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "modern-assam-sec",
+              "name": { "en": "Modern Assam History", "as": "আধুনিক অসমৰ ইতিহাস" },
+              "topics": [
+                { "id": "british-annexation", "name": { "en": "Treaty of Yandabo & British Rule", "as": "ইয়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসন" }, "popularity": 9 },
+                { "id": "early-anti-british-revolts", "name": { "en": "Early Revolts (Gomdhar & Piyoli)", "as": "প্ৰাৰম্ভিক বিদ্ৰোহ (গোমধৰ কোঁৱৰ, পিয়লী ফুকন)" }, "popularity": 8 },
+                { "id": "revolt-1857-assam", "name": { "en": "1857 Revolt in Assam (Maniram Dewan)", "as": "১৮৫৭ চনৰ বিদ্ৰোহ (মণিৰাম দেৱান)" }, "popularity": 9 },
+                { "id": "peasant-uprisings", "name": { "en": "Peasant Uprisings (Phulaguri & Patharughat)", "as": "কৃষক বিদ্ৰোহ (ফুলগুৰি ধেৱা, পথৰুঘাট)" }, "popularity": 9 },
+                { "id": "tea-oil-coal-growth", "name": { "en": "Growth of Tea, Oil & Coal Industry", "as": "চাহ, তেল আৰু কয়লা উদ্যোগৰ বিকাশ" }, "popularity": 8 },
+                { "id": "socio-cultural-awakening", "name": { "en": "Orunodoi, Jonaki & Sahitya Sabha", "as": "অৰুণোদই, জোনাকী যুগ আৰু সাহিত্য সভা" }, "popularity": 9 },
+                { "id": "political-associations", "name": { "en": "Assam Association & APCC Formation", "as": "অসম এছ'চিয়েচন আৰু কংগ্ৰেছ গঠন" }, "popularity": 8 },
+                { "id": "non-cooperation-assam", "name": { "en": "Non-Cooperation Movement in Assam", "as": "অসহযোগ আন্দোলনত অসমৰ ভূমিকা" }, "popularity": 9 },
+                { "id": "civil-disobedience-cunningham", "name": { "en": "Civil Disobedience & Cunningham Circular", "as": "আইন অমান্য আন্দোলন আৰু কানিংহাম চাৰ্কুলাৰ" }, "popularity": 8 },
+                { "id": "quit-india-martyrs", "name": { "en": "Quit India Movement & Martyrs", "as": "ভাৰত ত্যাগ আন্দোলন আৰু শ্বহীদসকল" }, "popularity": 9 },
+                { "id": "line-system-immigration", "name": { "en": "Line System & Immigration Issues", "as": "লাইন প্ৰথা আৰু অনুপ্ৰৱেশ সমস্যা" }, "popularity": 8 },
+                { "id": "grouping-scheme-bordoloi", "name": { "en": "Grouping Scheme & Gopinath Bordoloi", "as": "গ্ৰুপিং আঁচনি আৰু গোপীনাথ বৰদলৈ" }, "popularity": 9 },
+                { "id": "partition-sylhet-referendum", "name": { "en": "Partition & Sylhet Referendum (1947)", "as": "দেশ বিভাজন আৰু চিলেট গণভোট" }, "popularity": 8 },
+                { "id": "reorganization-assam-accord", "name": { "en": "State Reorganization & Assam Accord (1985)", "as": "ৰাজ্য পুনৰ্গঠন আৰু অসম চুক্তি" }, "popularity": 9 },
+                { "id": "modern-assam", "name": { "en": "Modern Assam History (British Period)", "as": "আধুনিক অসমৰ ইতিহাস" }, "popularity": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "indian-history",
+          "name": { "en": "Indian History", "as": "ভাৰতীয় ইতিহাস" },
+          "sections": [
+            {
+              "id": "ancient-indian-history-sec",
+              "name": { "en": "Ancient Indian History", "as": "প্ৰাচীন ভাৰতীয় ইতিহাস" },
+              "topics": [
+                { "id": "prehistoric-stone-age", "name": { "en": "Prehistoric Period & Stone Age", "as": "প্ৰাগঐতিহাসিক যুগ আৰু প্ৰস্তৰ যুগ" }, "popularity": 8 },
+                { "id": "indus-valley-civilization", "name": { "en": "Indus Valley Civilization", "as": "সিন্ধু সভ্যতা" }, "popularity": 9 },
+                { "id": "vedic-period", "name": { "en": "Vedic Period (Early & Later Vedic)", "as": "বৈদিক যুগ (প্ৰাৰম্ভিক আৰু পৰৱৰ্তী বৈদিক)" }, "popularity": 9 },
+                { "id": "jainism-buddhism", "name": { "en": "Rise of Jainism & Buddhism", "as": "জৈন আৰু বৌদ্ধ ধৰ্মৰ উত্থান" }, "popularity": 9 },
+                { "id": "mahajanapadas-magadha", "name": { "en": "Mahajanapadas & Magadha Empire", "as": "মহাজনপদ আৰু মগধ সাম্ৰাজ্য" }, "popularity": 8 },
+                { "id": "mauryan-empire", "name": { "en": "Mauryan Empire", "as": "মৌৰ্য সাম্ৰাজ্য" }, "popularity": 9 },
+                { "id": "post-mauryan-period", "name": { "en": "Post-Mauryan Period (Shungas, Kanvas, Indo-Greeks, Kushans, Satavahanas)", "as": "মৌৰ্যোত্তৰ যুগ (শুংগ, কান্ব, ইণ্ডো-গ্ৰীক, কুশান, সাতবাহন)" }, "popularity": 8 },
+                { "id": "gupta-empire", "name": { "en": "Gupta Empire", "as": "গুপ্ত সাম্ৰাজ্য" }, "popularity": 9 },
+                { "id": "post-gupta-period", "name": { "en": "Post-Gupta Period (Harshavardhana, Pallavas, Chalukyas, Rashtrakutas)", "as": "গুপ্তোত্তৰ যুগ (হৰ্ষবৰ্ধন, পল্লৱ, চালুক্য, ৰাষ্ট্ৰকূট)" }, "popularity": 8 },
+                { "id": "ancient-art-arch-lit", "name": { "en": "Ancient Indian Art, Architecture & Literature", "as": "প্ৰাচীন ভাৰতীয় কলা, স্থাপত্য আৰু সাহিত্য" }, "popularity": 8 },
+                { "id": "ancient-india", "name": { "en": "Ancient Indian History", "as": "প্ৰাচীন ভাৰতীয় ইতিহাস" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "medieval-indian-history-sec",
+              "name": { "en": "Medieval Indian History", "as": "মধ্যযুগীয় ভাৰতীয় ইতিহাস" },
+              "topics": [
+                { "id": "tripartite-struggle-dynasties", "name": { "en": "Tripartite Struggle & Early Medieval Dynasties", "as": "ত্ৰিপাক্ষিক সংঘাত আৰু প্ৰাৰম্ভিক মধ্যযুগীয় ৰাজবংশসমূহ" }, "popularity": 8 },
+                { "id": "chola-south-kingdoms", "name": { "en": "Chola Empire & South Indian Kingdoms", "as": "চোল সাম্ৰাজ্য আৰু দক্ষিণ ভাৰতৰ ৰাজ্যসমূহ" }, "popularity": 8 },
+                { "id": "turkish-invasions", "name": { "en": "Turkish Invasions (Mahmud of Ghazni & Muhammad Ghori)", "as": "তুৰ্কী আক্ৰমণ (মাহমুদ গজনী আৰু মহম্মদ ঘোৰী)" }, "popularity": 8 },
+                { "id": "delhi-sultanate", "name": { "en": "Delhi Sultanate (Slave, Khilji, Tughlaq, Sayyid, Lodi Dynasties)", "as": "দিল্লী চুলতানি (দাস, খিলজী, তুঘলক, চৈয়দ, লোডী বংশ)" }, "popularity": 9 },
+                { "id": "vijayanagar-bahmani", "name": { "en": "Vijayanagar & Bahmani Kingdoms", "as": "বিজয়নগৰ আৰু বাহমণি ৰাজ্য" }, "popularity": 8 },
+                { "id": "bhakti-sufi-movements", "name": { "en": "Bhakti & Sufi Movements", "as": "ভক্তি আৰু চুফী আন্দোলন" }, "popularity": 8 },
+                { "id": "mughal-empire-admin", "name": { "en": "Mughal Empire (Babur to Aurangzeb) & Administration", "as": "মোগল সাম্ৰাজ্য (বাবৰৰ পৰা ঔৰংজেৱলৈ) আৰু প্ৰশাসন" }, "popularity": 9 },
+                { "id": "maratha-empire-peshwas", "name": { "en": "Maratha Empire & Peshwas", "as": "মাৰাঠা সাম্ৰাজ্য আৰু পেশ্বৱাসকল" }, "popularity": 8 },
+                { "id": "later-mughals-regional-states", "name": { "en": "Later Mughals & Rise of Regional States", "as": "পৰৱৰ্তী মোগল আৰু আঞ্চলিক ৰাজ্যসমূহৰ উত্থান" }, "popularity": 7 },
+                { "id": "advent-of-europeans", "name": { "en": "Advent of European Trading Companies", "as": "ইউৰোপীয় বাণিজ্যিক কোম্পানীসমূহৰ আগমন" }, "popularity": 8 },
+                { "id": "medieval-india", "name": { "en": "Medieval Indian History", "as": "মধ্যযুগীয় ভাৰতীয় ইতিহাস" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "modern-indian-history-sec",
+              "name": { "en": "Modern Indian History", "as": "আধুনিক ভাৰতীয় ইতিহাস" },
+              "topics": [
+                { "id": "british-conquest-plassey-buxar", "name": { "en": "British Conquest & Consolidation (Plassey & Buxar)", "as": "ব্ৰিটিছ বিজয় আৰু বিস্তাৰ (পলাশী আৰু বক্সাৰ যুদ্ধ)" }, "popularity": 9 },
+                { "id": "british-economic-land-policies", "name": { "en": "British Economic & Land Revenue Policies", "as": "ব্ৰিটিছ অৰ্থনৈতিক আৰু ভূমি ৰাজহ নীতি" }, "popularity": 8 },
+                { "id": "socio-religious-reforms", "name": { "en": "Socio-Religious Reform Movements", "as": "সামাজিক-ধাৰ্মিক সংস্কাৰ আন্দোলন" }, "popularity": 8 },
+                { "id": "revolt-of-1857", "name": { "en": "Revolt of 1857", "as": "১৮৫৭ চনৰ মহাবিদ্ৰোহ" }, "popularity": 9 },
+                { "id": "nationalism-inc-formation", "name": { "en": "Rise of Indian Nationalism & Formation of INC", "as": "ভাৰতীয় জাতীয়তাবাদৰ উত্থান আৰু কংগ্ৰেছৰ গঠন" }, "popularity": 9 },
+                { "id": "partition-bengal-swadeshi", "name": { "en": "Partition of Bengal & Swadeshi Movement", "as": "বঙ্গভঙ্গ আৰু স্বদেশী আন্দোলন" }, "popularity": 8 },
+                { "id": "revolutionary-movements", "name": { "en": "Revolutionary Freedom Movements", "as": "বিপ্লৱী স্বাধীনতা সংগ্ৰাম" }, "popularity": 8 },
+                { "id": "gandhian-era-movements", "name": { "en": "Gandhian Era & Major Mass Movements (Non-Cooperation, Civil Disobedience, Quit India)", "as": "গান্ধীবাদী যুগ আৰু গণ আন্দোলন (অসহযোগ, আইন অমান্য, ভাৰত ত্যাগ)" }, "popularity": 10 },
+                { "id": "subhas-bose-ina", "name": { "en": "Subhas Chandra Bose & Azad Hind Fauj (INA)", "as": "সুভাষ চন্দ্ৰ বসু আৰু আজাদ হিন্দ ফৌজ" }, "popularity": 9 },
+                { "id": "constitutional-developments-acts", "name": { "en": "Constitutional Developments & Acts (1909, 1919, 1935)", "as": "সাংবিধানিক বিকাশ আৰু আইনসমূহ (১৯০৯, ১৯১৯, ১৯৩৫)" }, "popularity": 8 },
+                { "id": "mountbatten-partition-independence", "name": { "en": "Mountbatten Plan, Partition & Independence (1947)", "as": "মাউণ্টবেটেন পৰিকল্পনা, দেশ বিভাজন আৰু স্বাধীনতা (১৯৪৭)" }, "popularity": 9 },
+                { "id": "freedom-struggle", "name": { "en": "Indian Freedom Struggle", "as": "ভাৰতীয় স্বাধীনতা সংগ্ৰাম" }, "popularity": 7 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "polity",
+          "name": { "en": "Political Science", "as": "ৰাজনীতি বিজ্ঞান" },
+          "sections": [
+            {
+              "id": "constitution-rights-sec",
+              "name": { "en": "Constitution & Rights", "as": "সংবিধান আৰু অধিকাৰ" },
+              "topics": [
+                { "id": "historical-background-making-sources", "name": { "en": "Historical Background, Making & Sources", "as": "ঐতিহাসিক পটভূমি, গঠন আৰু উৎসসমূহ" }, "popularity": 9 },
+                { "id": "preamble-key-amendments", "name": { "en": "Preamble & Key Amendments", "as": "প্ৰস্তাৱনা আৰু প্ৰধান সংশোধনীসমূহ" }, "popularity": 9 },
+                { "id": "citizenship", "name": { "en": "Citizenship", "as": "নাগৰিকত্ব" }, "popularity": 8 },
+                { "id": "fundamental-rights", "name": { "en": "Fundamental Rights", "as": "মৌলিক অধিকাৰ" }, "popularity": 10 },
+                { "id": "directive-principles-fundamental-duties", "name": { "en": "Directive Principles & Fundamental Duties", "as": "নিৰ্দেশাত্মক নীতি আৰু মৌলিক কৰ্তব্য" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "union-state-governance-sec",
+              "name": { "en": "Union & State Governance", "as": "কেন্দ্ৰীয় আৰু ৰাজ্যিক প্ৰশাসন" },
+              "topics": [
+                { "id": "executive-president-governor-pm-cm", "name": { "en": "Executive: President, Governor, PM & CM", "as": "কাৰ্যপালিকা: ৰাষ্ট্ৰপতি, ৰাজ্যপাল, প্ৰধানমন্ত্ৰী আৰু মুখ্যমন্ত্ৰী" }, "popularity": 10 },
+                { "id": "legislature-parliament-state-legislature", "name": { "en": "Legislature: Parliament & State Legislature", "as": "বিধানমণ্ডল: সংসদ আৰু ৰাজ্যিক বিধানমণ্ডল" }, "popularity": 9 },
+                { "id": "judiciary-supreme-court-high-courts-subordinate", "name": { "en": "Judiciary: Supreme Court, High Courts & Subordinate Courts", "as": "ন্যায়পালিকা: উচ্চতম ন্যায়ালয়, উচ্চ ন্যায়ালয় আৰু অধস্তন আদালত" }, "popularity": 9 },
+                { "id": "legal-officers-attorney-general-advocate-general", "name": { "en": "Legal Officers: Attorney General & Advocate General", "as": "আইনী বিষয়া: এটৰ্নী জেনেৰেল আৰু এডভোকেট জেনেৰেল" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "assam-local-admin-sec",
+              "name": { "en": "Assam & Local Administration", "as": "অসম আৰু স্থানীয় প্ৰশাসন" },
+              "topics": [
+                { "id": "sixth-schedule-autonomous-councils", "name": { "en": "Sixth Schedule & Autonomous Councils", "as": "ষষ্ঠ অনুসূচী আৰু স্বায়ত্ত্বশাসিত পৰিষদসমূহ" }, "popularity": 10 },
+                { "id": "article-371b-assam-accord", "name": { "en": "Article 371B & Assam Accord", "as": "অনুচ্ছেদ ৩৭১(খ) আৰু অসম চুক্তি" }, "popularity": 9 },
+                { "id": "panchayati-raj-municipalities", "name": { "en": "Panchayati Raj & Municipalities", "as": "পঞ্চায়তী ৰাজ আৰু পৌৰসভা" }, "popularity": 9 },
+                { "id": "state-administrative-border-setup", "name": { "en": "State Administrative & Border Setup", "as": "ৰাজ্যিক প্ৰশাসন আৰু সীমা ব্যৱস্থাপনা" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "bodies-provisions-sec",
+              "name": { "en": "Bodies & Provisions", "as": "সংস্থাসমূহ আৰু বিশেষ ব্যৱস্থা" },
+              "topics": [
+                { "id": "eci-state-ec", "name": { "en": "ECI & State EC", "as": "ভাৰতৰ নিৰ্বাচন আয়োগ আৰু ৰাজ্যিক নিৰ্বাচন আয়োগ" }, "popularity": 9 },
+                { "id": "upsc-apsc", "name": { "en": "UPSC & APSC", "as": "UPSC আৰু APSC (লোকসেৱা আয়োগ)" }, "popularity": 9 },
+                { "id": "cag", "name": { "en": "Comptroller and Auditor General (CAG)", "as": "নিয়ন্ত্ৰক আৰু মহাগাণনিক (CAG)" }, "popularity": 8 },
+                { "id": "finance-commission-state-fc", "name": { "en": "Finance Commission & State FC", "as": "বিত্ত আয়োগ আৰু ৰাজ্যিক বিত্ত আয়োগ" }, "popularity": 8 },
+                { "id": "emergency-provisions", "name": { "en": "Emergency Provisions", "as": "জৰুৰীকালীন ব্যৱস্থাসমূহ" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "geography",
+          "name": { "en": "Geography", "as": "ভূগোল" },
+          "sections": [
+            {
+              "id": "assam-geography-sec",
+              "name": { "en": "Assam Geography", "as": "অসমৰ ভূগোল" },
+              "topics": [
+                { "id": "brahmaputra-barak-valley", "name": { "en": "Brahmaputra & Barak Valley", "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক উপত্যকা" }, "popularity": 9 },
+                { "id": "hills-karbi-dima-hasao", "name": { "en": "Hills: Karbi Anglong & Dima Hasao", "as": "পাহাৰীয়া অঞ্চল: কাৰ্বি আংলং আৰু ডিমা হাচাও" }, "popularity": 8 },
+                { "id": "tributaries-majuli-wetlands", "name": { "en": "Major Tributaries, Majuli & Wetlands", "as": "প্ৰধান উপনৈ, মাজুলী আৰু আৰ্দ্ৰভূমিসমূহ" }, "popularity": 10 },
+                { "id": "climate-monsoon-floods-assam", "name": { "en": "Climate, Monsoon & Floods", "as": "জলবায়ু, মৌচুমী বায়ু আৰু বানপানী" }, "popularity": 9 },
+                { "id": "national-parks-wls-assam", "name": { "en": "National Parks & Wildlife Sanctuaries", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্যসমূহ" }, "popularity": 10, "pdf": "national-parks-assam.pdf" },
+                { "id": "tiger-biosphere-reserves-assam", "name": { "en": "Tiger Reserves & Biosphere Reserve", "as": "ব্যাঘ্ৰ প্ৰকল্প আৰু জীৱমণ্ডল সংৰক্ষিত অঞ্চল" }, "popularity": 9 },
+                { "id": "ramsar-endemic-flora-fauna-assam", "name": { "en": "Ramsar Sites & Endemic Flora, Fauna", "as": "ৰামচাৰ ক্ষেত্ৰ আৰু স্থানীয় উদ্ভিদ-প্ৰাণীকুল" }, "popularity": 9 },
+                { "id": "forest-types-area-assam", "name": { "en": "Forest Types & Area", "as": "বননিৰ প্ৰকাৰ আৰু বনাঞ্চলৰ পৰিসীমা" }, "popularity": 8 },
+                { "id": "minerals-oil-gas-coal-limestone", "name": { "en": "Minerals: Oil, Gas, Coal & Limestone", "as": "খনিজ সম্পদ: খাৰুৱা তেল, প্ৰাকৃতিক গেছ, কয়লা আৰু চূণশিল" }, "popularity": 9 },
+                { "id": "agriculture-tea-rice-jute-silk", "name": { "en": "Agriculture: Tea, Rice, Jute & Silk", "as": "কৃষি: চাহ, ধান, মৰাপাট আৰু মুগা-পাট ৰেচম" }, "popularity": 9 },
+                { "id": "industries-refineries-tea-gardens", "name": { "en": "Industries: Refineries & Tea Gardens", "as": "উদ্যোগ: শোধনাগাৰ আৰু চাহ বাগান" }, "popularity": 8 },
+                { "id": "power-hydro-thermal-assam", "name": { "en": "Power: Hydro & Thermal Projects", "as": "শক্তি: জলবিদ্যুৎ আৰু তাপবিদ্যুৎ প্ৰকল্প" }, "popularity": 8 },
+                { "id": "demography-population-density-literacy-assam", "name": { "en": "Population, Density & Literacy", "as": "জনসংখ্যা, জনঘনত্ব আৰু সাক্ষৰতা" }, "popularity": 9 },
+                { "id": "tribes-distribution-assam", "name": { "en": "Major Tribes & Distribution", "as": "প্ৰধান জনজাতি আৰু বসতি বিন্যাস" }, "popularity": 9 },
+                { "id": "transport-nh-railways-waterways-assam", "name": { "en": "Transport: NH, Railways & Waterways", "as": "পৰিবহণ: ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'ল আৰু জলপথ" }, "popularity": 8 },
+                { "id": "borders-interstate-international-assam", "name": { "en": "Inter-State & International Borders", "as": "আন্তঃৰাজ্যিক আৰু আন্তঃৰাষ্ট্ৰীয় সীমান্ত" }, "popularity": 9 },
+                { "id": "national-parks", "name": { "en": "National Parks & Wildlife Sanctuaries of Assam", "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য" }, "popularity": 7 },
+                { "id": "brahmaputra-river", "name": { "en": "Brahmaputra River", "as": "ব্ৰহ্মপুত্ৰ নদী" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "indian-geography-sec",
+              "name": { "en": "Indian Geography", "as": "ভাৰতীয় ভূগোল" },
+              "topics": [
+                { "id": "physical-himalayas-plains-plateau-islands", "name": { "en": "Himalayas, Plains, Plateau, Islands & Coasts", "as": "হিমালয়, সমভূমি, মালভূমি, দ্বীপ আৰু উপকূল" }, "popularity": 10 },
+                { "id": "mountain-peaks-passes-india", "name": { "en": "Mountain Peaks & Passes", "as": "পৰ্বতশৃংগ আৰু গিৰিপথসমূহ" }, "popularity": 9 },
+                { "id": "rivers-indus-ganga-brahmaputra-peninsular", "name": { "en": "Rivers: Indus, Ganga, Brahmaputra & Peninsular", "as": "নদ-নদী: সিন্ধু, গংগা, ব্ৰহ্মপুত্ৰ আৰু উপদ্বীপীয় নদীসমূহ" }, "popularity": 10 },
+                { "id": "climate-monsoon-soils-india", "name": { "en": "Climate, Monsoon & Soil Types", "as": "জলবায়ু, মৌচুমী বতাহ আৰু মাটিৰ প্ৰকাৰ" }, "popularity": 9 },
+                { "id": "vegetation-forest-types-india", "name": { "en": "Natural Vegetation & Forest Types", "as": "প্ৰাকৃতিক উদ্ভিদ আৰু বননিৰ শ্ৰেণীবিভাজন" }, "popularity": 8 },
+                { "id": "national-parks-wls-biosphere-india", "name": { "en": "National Parks, WLS & Biosphere Reserves", "as": "ৰাষ্ট্ৰীয় উদ্যান, অভয়াৰণ্য আৰু জীৱমণ্ডল সংৰক্ষিত অঞ্চল" }, "popularity": 9 },
+                { "id": "tiger-reserves-ramsar-conservation-india", "name": { "en": "Tiger Reserves, Ramsar Sites & Conservation Projects", "as": "ব্যাঘ্ৰ সংৰক্ষিত বনাঞ্চল, ৰামচাৰ ক্ষেত্ৰ আৰু সংৰক্ষণ প্ৰকল্প" }, "popularity": 9 },
+                { "id": "crops-kharif-rabi-cash-india", "name": { "en": "Crops: Kharif, Rabi & Cash Crops", "as": "শস্য: খাৰিফ, ৰবি আৰু অৰ্থকৰী শস্য" }, "popularity": 8 },
+                { "id": "dams-river-projects-india", "name": { "en": "Dams & Multipurpose River Projects", "as": "বান্ধ আৰু বহুমুখী নদী উপত্যকা প্ৰকল্প" }, "popularity": 9 },
+                { "id": "minerals-iron-coal-petroleum-bauxite-india", "name": { "en": "Minerals: Iron, Coal, Petroleum & Bauxite", "as": "খনিজ: লো, কয়লা, পেট্ৰ'লিয়াম আৰু বক্সাইট" }, "popularity": 8 },
+                { "id": "energy-renewable-nonrenewable-india", "name": { "en": "Renewable & Non-Renewable Energy", "as": "নৱীকৰণযোগ্য আৰু অনৱীকৰণযোগ্য শক্তি" }, "popularity": 8 },
+                { "id": "demography-census-sexratio-literacy-india", "name": { "en": "Population, Density, Sex Ratio & Literacy", "as": "জনসংখ্যা, ঘনত্ব, লিংগ অনুপাত আৰু সাক্ষৰতা" }, "popularity": 9 },
+                { "id": "transport-highways-railways-ports-india", "name": { "en": "Highways, Railways, Ports & Waterways", "as": "ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'লৱে, বন্দৰ আৰু জলপথ" }, "popularity": 8 },
+                { "id": "industrial-belts-borders-frontiers-india", "name": { "en": "Major Industrial Belts, Borders & Frontiers", "as": "প্ৰধান ঔদ্যোগিক বলয় আৰু আন্তঃৰাষ্ট্ৰীয় সীমান্ত" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "astronomical-geography-sec",
+              "name": { "en": "Astronomical Geography", "as": "মহাজাগতিক / জ্যোতিৰ্বিজ্ঞানীয় ভূগোল" },
+              "topics": [
+                { "id": "universe-bigbang-galaxies", "name": { "en": "Big Bang Theory & Galaxies", "as": "মহাবিস্ফোৰণ তত্ত্ব (Big Bang) আৰু তাৰকাৰাজ্য" }, "popularity": 8 },
+                { "id": "stars-lifecycle-constellations-lightyear", "name": { "en": "Stars: Lifecycle, Constellations & Light Year", "as": "তৰা: জীৱনচক্ৰ, নক্ষত্ৰমণ্ডল আৰু পোহৰ বৰ্ষ" }, "popularity": 8 },
+                { "id": "nebulae-blackholes-supernovae", "name": { "en": "Nebulae, Black Holes & Supernovae", "as": "নীহাৰিকা, কৃষ্ণগহ্বৰ (Black Hole) আৰু চুপাৰন'ভা" }, "popularity": 8 },
+                { "id": "sun-structure-core-flares", "name": { "en": "Sun: Structure, Core & Solar Flares", "as": "সূৰ্য: আভ্যন্তৰীণ গাঁথনি, কেন্দ্ৰ আৰু সৌৰ শিখা" }, "popularity": 8 },
+                { "id": "solar-system-planets-order-sizes", "name": { "en": "Inner & Outer Planets: Order, Sizes & Facts", "as": "গ্ৰহসমূহ: ক্ৰম, আকাৰ আৰু বৈশিষ্ট্য" }, "popularity": 9 },
+                { "id": "dwarf-planets-asteroids-comets-meteors", "name": { "en": "Dwarf Planets, Asteroids, Comets & Meteors", "as": "বাওনা গ্ৰহ, গ্ৰহাণুপুঞ্জ, ধূমকেতু আৰু উল্কাপিণ্ড" }, "popularity": 8 },
+                { "id": "planetary-moons-titan-ganymede-europa", "name": { "en": "Planetary Moons: Titan, Ganymede & Europa", "as": "উপগ্ৰহসমূহ: টাইটান, গেনীমেড আৰু ইউৰোপা" }, "popularity": 8 },
+                { "id": "earth-rotation-revolution-seasons", "name": { "en": "Earth: Rotation, Revolution, Inclination & Seasons", "as": "পৃথিৱীৰ আৱৰ্তন, পৰিক্ৰমণ আৰু ঋতু পৰিৱৰ্তন" }, "popularity": 9 },
+                { "id": "latitudes-longitudes-equator-idl", "name": { "en": "Latitudes, Longitudes, Equator & International Date Line", "as": "অক্ষৰেখা, দ্ৰাঘিমাৰেখা, বিষুৱৰেখা আৰু আন্তঃৰাষ্ট্ৰীয় তাৰিখ ৰেখা" }, "popularity": 9 },
+                { "id": "timezones-standard-time-calculation", "name": { "en": "Time Zones & Standard Time Calculation", "as": "সময় মণ্ডল (Time Zone) আৰু মান সময় নিৰ্ণয়" }, "popularity": 8 },
+                { "id": "moon-phases-eclipses-tides", "name": { "en": "Moon Phases, Eclipses & Tides (Spring & Neap)", "as": "চন্দ্ৰৰ কলা, সূৰ্য্য-চন্দ্ৰ গ্ৰহণ আৰু জোৱাৰ-ভাটা" }, "popularity": 9 },
+                { "id": "space-agencies-missions-isro-nasa", "name": { "en": "Space Agencies & Indian Missions (ISRO, Chandrayaan, Aditya-L1)", "as": "মহাকাশ সংস্থা আৰু ভাৰতীয় অভিযান (ISRO, চন্দ্ৰযান, আদিত্য-L1)" }, "popularity": 10 },
+                { "id": "upcoming-missions-space-telescopes", "name": { "en": "Upcoming Missions & Space Telescopes (Gaganyaan, James Webb)", "as": "ভৱিষ্যতৰ অভিযান আৰু মহাকাশ দূৰবীক্ষণ যন্ত্ৰ (গগনযান, জেমছ ৱেব)" }, "popularity": 9 },
+                { "id": "solar-system", "name": { "en": "Solar System & Universe", "as": "সৌৰজগত আৰু মহাবিশ্ব" }, "popularity": 7 }
+              ]
+            },
+            {
+              "id": "world-geography-sec",
+              "name": { "en": "World Geography", "as": "বিশ্ব ভূগোল" },
+              "topics": [
+                { "id": "earth-layers-plates-volcanoes", "name": { "en": "Earth Layers, Plates & Volcanoes", "as": "পৃথিৱীৰ স্তৰ, ভূ-তাত্বিক ফলক (Plates) আৰু আগ্নেয়গিৰি" }, "popularity": 9 },
+                { "id": "mountains-deserts-islands-earthquakes", "name": { "en": "Mountains, Deserts, Islands & Earthquakes", "as": "পৰ্বতমালা, মৰুভূমি, দ্বীপ আৰু ভূমিকম্প" }, "popularity": 9 },
+                { "id": "oceans-currents-trenches-rivers-lakes", "name": { "en": "Oceans, Currents, Trenches & Rivers/Lakes", "as": "মহাসাগৰ, সাগৰীয় সোঁত, গভীৰ খাত আৰু নদ-হ্ৰদ" }, "popularity": 9 },
+                { "id": "straits-canals-seas-gulfs", "name": { "en": "Straits, Canals, Seas & Gulfs", "as": "প্ৰণালী, খাল, সাগৰ আৰু উপসাগৰ" }, "popularity": 8 },
+                { "id": "atmosphere-layers-winds-cyclones", "name": { "en": "Atmosphere Layers, Winds & Cyclones", "as": "বায়ুমণ্ডলৰ স্তৰসমূহ, বায়ু প্ৰবাহ আৰু ঘূৰ্ণীবতাহ" }, "popularity": 9 },
+                { "id": "grasslands-agricultural-belts-world", "name": { "en": "Grasslands & Agricultural Belts", "as": "তৃণভূমি আৰু বিশ্বৰ প্ৰধান কৃষি বলয়" }, "popularity": 8 },
+                { "id": "minerals-oil-belts-sea-routes-world", "name": { "en": "Minerals, Oil Belts & Major Sea Routes", "as": "খনিজ, তেল বলয় আৰু প্ৰধান সামুদ্ৰিক বাণিজ্যিক পথ" }, "popularity": 8 },
+                { "id": "international-border-lines-world", "name": { "en": "International Border Lines", "as": "প্ৰধান আন্তঃৰাষ্ট্ৰীয় সীমৰেখাসমূহ (Radcliffe, Durand আদি)" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": { "en": "Economics", "as": "অৰ্থনীতি" },
+          "sections": [
+            {
+              "id": "assam-economy-sec",
+              "name": { "en": "Assam Economy", "as": "অসমৰ অৰ্থনীতি" },
+              "topics": [
+                { "id": "assam-macro-profile-demographics", "name": { "en": "Growth Metrics & Demography", "as": "বিকাশৰ সূচক আৰু জনগাঁথনি" }, "popularity": 8 },
+                { "id": "assam-agriculture-horticulture", "name": { "en": "Agriculture & Horticulture", "as": "কৃষি আৰু উদ্যানশস্য" }, "popularity": 9 },
+                { "id": "assam-tea-sericulture", "name": { "en": "Tea Industry & Sericulture", "as": "চাহ উদ্যোগ আৰু ৰেচম শিল্প" }, "popularity": 10 },
+                { "id": "assam-allied-primary-activities", "name": { "en": "Allied Activities (Fisheries, Forestry & Livestock)", "as": "আনুষঙ্গিক খণ্ড (মীন, বননি আৰু পশুপালন)" }, "popularity": 8 },
+                { "id": "assam-minerals-oil-gas-coal", "name": { "en": "Minerals, Oil & Natural Gas", "as": "খনিজ সম্পদ, খাৰুৱা তেল আৰু প্ৰাকৃতিক গেছ" }, "popularity": 9 },
+                { "id": "assam-power-energy-sector", "name": { "en": "Power & Energy Sector", "as": "বিদ্যুৎ আৰু শক্তি খণ্ড" }, "popularity": 8 },
+                { "id": "assam-manufacturing-msme-handloom", "name": { "en": "Manufacturing, MSME & Handloom", "as": "উৎপাদনমুখী উদ্যোগ, MSME আৰু হস্ততাঁত" }, "popularity": 9 },
+                { "id": "assam-transport-logistics-nw2", "name": { "en": "Transport & Logistics (Roads, Rail, NW-2)", "as": "পৰিবহণ আৰু লজিষ্টিকছ (পথ, ৰে'ল আৰু দ্বিতীয় ৰাষ্ট্ৰীয় জলপথ)" }, "popularity": 8 },
+                { "id": "assam-act-east-border-trade", "name": { "en": "Act East Policy & Border Trade", "as": "এক্ট ইষ্ট পলিচি আৰু সীমান্ত বাণিজ্য" }, "popularity": 9 },
+                { "id": "assam-tourism-banking", "name": { "en": "Tourism & Banking", "as": "পৰ্যটন আৰু বেংক ব্যৱস্থা" }, "popularity": 8 },
+                { "id": "assam-budget-flagship-schemes", "name": { "en": "State Budget & Flagship Schemes", "as": "ৰাজ্যিক বাজেট আৰু ফ্লেগশ্বিপ আঁচনিসমূহ" }, "popularity": 9 },
+                { "id": "assam-floods-erosion-ecology", "name": { "en": "Floods, Erosion & Ecological Impact", "as": "বানপানী, গৰাখহনীয়া আৰু পৰিৱেশীয় প্ৰভাৱ" }, "popularity": 9 },
+                { "id": "assam-unemployment-industrial-lag", "name": { "en": "Unemployment & Industrial Lag", "as": "নিবনুৱা সমস্যা আৰু ঔদ্যোগিক অনগ্ৰসৰতা" }, "popularity": 8 }
+              ]
+            },
+            {
+              "id": "indian-economy-sec",
+              "name": { "en": "Indian Economy", "as": "ভাৰতীয় অৰ্থনীতি" },
+              "topics": [
+                { "id": "national-income-gdp-gnp-nnp", "name": { "en": "GDP, GNP, NNP & National Income", "as": "GDP, GNP, NNP আৰু জাতীয় আয়" }, "popularity": 10 },
+                { "id": "inflation-price-indices-cpi-wpi", "name": { "en": "Inflation & Price Indices (CPI, WPI)", "as": "মুদ্ৰাস্ফীতি আৰু মূল্য সূচক (CPI, WPI)" }, "popularity": 9 },
+                { "id": "demographics-hdi-census-india", "name": { "en": "Demographics & Human Development (Census, HDI)", "as": "জনগাঁথনি আৰু মানৱ উন্নয়ন সূচক (লোকপিয়ল, HDI)" }, "popularity": 9 },
+                { "id": "india-agriculture-cropping-patterns", "name": { "en": "Agriculture & Cropping Patterns", "as": "কৃষি আৰু শস্যৰ আৰ্হি" }, "popularity": 8 },
+                { "id": "green-revolution-msp-pds-subsidies", "name": { "en": "Green Revolution & Farm Subsidies (MSP, PDS)", "as": "সেউজ বিপ্লৱ আৰু কৃষি ৰাজসাহায্য (MSP, PDS)" }, "popularity": 9 },
+                { "id": "india-allied-sectors-dairy-fisheries", "name": { "en": "Allied Sectors (Animal Husbandry, Dairy, Fisheries)", "as": "কৃষি আনুষঙ্গিক খণ্ড (পশুপালন, দুগ্ধ, মীন)" }, "popularity": 8 },
+                { "id": "industrial-policies-1991-reforms", "name": { "en": "Industrial Policies & Reforms (1991 Policy)", "as": "ঔদ্যোগিক নীতি আৰু সংস্কাৰ (১৯৯১ৰ অৰ্থনৈতিক নীতি)" }, "popularity": 9 },
+                { "id": "core-industries-make-in-india", "name": { "en": "Core Industries & Manufacturing (Make in India)", "as": "মূল উদ্যোগ আৰু উৎপাদন খণ্ড (Make in India)" }, "popularity": 9 },
+                { "id": "msme-handloom-psus-india", "name": { "en": "MSME, Handloom & Public Sector Undertakings (PSUs)", "as": "MSME, হস্ততাঁত আৰু ৰাজহুৱা খণ্ডৰ প্ৰতিষ্ঠানসমূহ (PSUs)" }, "popularity": 8 },
+                { "id": "services-sector-it-telecom-tourism", "name": { "en": "Services Sector (IT, Telecom, Tourism)", "as": "সেৱা খণ্ড (তথ্যপ্ৰযুক্তি, টেলিকম, পৰ্যটন)" }, "popularity": 8 },
+                { "id": "physical-infrastructure-nh-rail-ports-aviation", "name": { "en": "Physical Infrastructure (Highways, Railways, Ports, Aviation)", "as": "আন্তঃগাঁথনি (ৰাষ্ট্ৰীয় ঘাইপথ, ৰে'লৱে, বন্দৰ, বিমান পৰিবহণ)" }, "popularity": 8 },
+                { "id": "digital-infrastructure-fintech-india", "name": { "en": "Digital Infrastructure & FinTech", "as": "ডিজিটেল আন্তঃগাঁথনি আৰু ফিনটেক (FinTech)" }, "popularity": 8 },
+                { "id": "rbi-monetary-policy", "name": { "en": "Reserve Bank of India (RBI) & Monetary Policy", "as": "ভাৰতীয় ৰিজাৰ্ভ বেংক (RBI) আৰু মুদ্ৰানীতি" }, "popularity": 10 },
+                { "id": "commercial-banking-npa-inclusion", "name": { "en": "Commercial Banking, NPAs & Financial Inclusion", "as": "বাণিজ্যিক বেংক, NPA আৰু বিত্তীয় অন্তৰ্ভুক্তি" }, "popularity": 9 },
+                { "id": "capital-money-markets-sebi", "name": { "en": "Capital & Money Markets (SEBI, Stock Exchanges)", "as": "মূলধন আৰু মুদ্ৰা বজাৰ (SEBI, ষ্টক এক্সচেঞ্জ)" }, "popularity": 8 },
+                { "id": "union-budget-gst-fiscal-policy", "name": { "en": "Union Budget, Taxation (GST) & Fiscal Policy", "as": "কেন্দ্ৰীয় বাজেট, কৰ ব্যৱস্থা (GST) আৰু ৰাজকোষীয় নীতি" }, "popularity": 10 },
+                { "id": "bop-forex-reserves-india", "name": { "en": "Balance of Payments (BoP) & Foreign Exchange (Forex)", "as": "লেনদেনৰ সমতা (BoP) আৰু বৈদেশিক মুদ্ৰাৰ ভঁৰাল" }, "popularity": 8 },
+                { "id": "foreign-trade-fdi-wto-imf-wb", "name": { "en": "Foreign Trade, FDI/FPI & International Bodies (WTO, IMF, World Bank)", "as": "বৈদেশিক বাণিজ্য, FDI আৰু আন্তঃৰাষ্ট্ৰীয় সংস্থাসমূহ" }, "popularity": 9 },
+                { "id": "planning-history-niti-aayog", "name": { "en": "Five-Year Plans History & NITI Aayog", "as": "পঞ্চবাৰ্ষিক পৰিকল্পনাৰ ইতিহাস আৰু নীতি আয়োগ (NITI Aayog)" }, "popularity": 9 },
+                { "id": "poverty-inequality-unemployment-india", "name": { "en": "Poverty, Inequality & Unemployment", "as": "দ্ৰিদ্ৰতা, অসমতা আৰু নিবনুৱা সমস্যা" }, "popularity": 9 },
+                { "id": "central-flagship-welfare-schemes", "name": { "en": "Central Flagship Welfare Schemes", "as": "কেন্দ্ৰীয় চৰকাৰৰ ফ্লেগশ্বিপ কল্যাণমূলক আঁচনিসমূহ" }, "popularity": 9 }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "art-culture",
+          "name": { "en": "Art & Culture", "as": "কলা আৰু সংস্কৃতি" },
+          "sections": [
+            {
+              "id": "india-art-culture-sec",
+              "name": { "en": "India Art and Culture", "as": "ভাৰতীয় কলা আৰু সংস্কৃতি" },
+              "topics": [
+                { "id": "classical-folk-dances-india", "name": { "en": "Classical & Folk Dances", "as": "শাস্ত্ৰীয় আৰু লোকনৃত্যসমূহ" }, "popularity": 10 },
+                { "id": "music-traditions-classical-folk-india", "name": { "en": "Classical & Folk Music Traditions", "as": "শাস্ত্ৰীয় আৰু লোকসংগীতৰ পৰম্পৰা" }, "popularity": 9 },
+                { "id": "theatre-puppetry-martial-arts-india", "name": { "en": "Traditional Theatre, Puppetry & Martial Arts", "as": "পৰম্পৰাগত নাট্যশিল্প, পুতলা নাচ আৰু সমৰ কলা" }, "popularity": 8 },
+                { "id": "paintings-murals-miniatures-india", "name": { "en": "Paintings (Murals & Miniatures)", "as": "চিত্ৰকলা (দেৱাল চিত্ৰ আৰু ক্ষুদ্ৰ চিত্ৰশিল্প)" }, "popularity": 9 },
+                { "id": "sculptures-pottery-india", "name": { "en": "Sculptures & Pottery", "as": "ভাস্কৰ্য আৰু মৃৎশিল্প" }, "popularity": 8 },
+                { "id": "handlooms-textiles-crafts-india", "name": { "en": "Handlooms, Textiles & Traditional Crafts", "as": "হস্ততাঁত, বস্ত্ৰশিল্প আৰু পৰম্পৰাগত শিল্পকলা" }, "popularity": 8 },
+                { "id": "ancient-cave-temple-architecture-india", "name": { "en": "Ancient, Cave & Temple Architecture", "as": "প্ৰাচীন, গুহা আৰু মন্দিৰ স্থাপত্য" }, "popularity": 10 },
+                { "id": "medieval-indo-islamic-structures", "name": { "en": "Medieval & Indo-Islamic Structures", "as": "মধ্যযুগীয় আৰু ইণ্ডো-ইছলামিক স্থাপত্য" }, "popularity": 9 },
+                { "id": "modern-architecture-unesco-sites-india", "name": { "en": "Modern Architecture & UNESCO World Heritage Sites", "as": "আধুনিক স্থাপত্য আৰু ইউনেস্কোৰ বিশ্ব ঐতিহ্য ক্ষেত্ৰসমূহ" }, "popularity": 10 },
+                { "id": "classical-languages-literature-india", "name": { "en": "Classical Languages & Literature", "as": "শাস্ত্ৰীয় ভাষা আৰু প্ৰাচীন সাহিত্য" }, "popularity": 9 },
+                { "id": "major-religions-philosophies-india", "name": { "en": "Major Religions & Philosophical Schools", "as": "প্ৰধান ধৰ্ম আৰু ভাৰতীয় দৰ্শনৰ ধাৰাসমূহ" }, "popularity": 9 },
+                { "id": "fairs-festivals-intangible-heritage-india", "name": { "en": "Fairs, Festivals & Intangible Heritage", "as": "মেলা, উৎসৱ আৰু অমূৰ্ত সাংস্কৃতিক ঐতিহ্য" }, "popularity": 9 }
+              ]
+            },
+            {
+              "id": "assam-art-culture-sec",
+              "name": { "en": "Assam Art and Culture", "as": "অসমৰ কলা আৰু সংস্কৃতি" },
+              "topics": [
+                { "id": "classical-folk-dances-assam", "name": { "en": "Classical & Folk Dances", "as": "সত্ৰীয়া শাস্ত্ৰীয় নৃত্য আৰু লোকনৃত্য" }, "popularity": 10 },
+                { "id": "music-folk-instruments-assam", "name": { "en": "Traditional Music, Folk Songs & Musical Instruments", "as": "পৰম্পৰাগত সংগীত, লোকগীত আৰু বাদ্যযন্ত্ৰ" }, "popularity": 9 },
+                { "id": "theatre-ankiya-naat-bhaona-assam", "name": { "en": "Traditional Theatre (Ankiya Naat & Bhaona)", "as": "পৰম্পৰাগত নাট্যশিল্প (অঙ্কীয়া নাট আৰু ভাওনা)" }, "popularity": 10 },
+                { "id": "crafts-bell-metal-brass-cane-bamboo-assam", "name": { "en": "Traditional Crafts & Metalwork (Bell Metal, Brass & Cane/Bamboo)", "as": "কাঁহ-পিতল, বাঁহ-বেতৰ শিল্প আৰু পৰম্পৰাগত হস্তশিল্প" }, "popularity": 9 },
+                { "id": "handlooms-silk-textiles-assam", "name": { "en": "Handlooms & Silk Textiles", "as": "হস্ততাঁত আৰু মুগা-পাট-এৰী ৰেচম শিল্প" }, "popularity": 10 },
+                { "id": "manuscript-paintings-mask-making-assam", "name": { "en": "Manuscript Paintings & Mask Making", "as": "সাঁচিপাতৰ চিত্ৰকলা আৰু মুখাশিল্প" }, "popularity": 9 },
+                { "id": "ahom-dynasty-architecture-assam", "name": { "en": "Ahom Dynasty Architecture", "as": "আহোম যুগৰ স্থাপত্য আৰু কীৰ্তিচিহ্নসমূহ" }, "popularity": 10 },
+                { "id": "historical-temple-architecture-assam", "name": { "en": "Historical Temple Architecture", "as": "ঐতিহাসিক দৌল-দেৱালয় আৰু মন্দিৰ স্থাপত্য" }, "popularity": 9 },
+                { "id": "sattras-charaideo-maidams-assam", "name": { "en": "Sattras & Charaideo Maidams", "as": "সত্ৰ সংস্কৃতি আৰু চৰাইদেউ মৈদাম (UNESCO ক্ষেত্ৰ)" }, "popularity": 10 },
+                { "id": "major-festivals-fairs-assam", "name": { "en": "Major Festivals & Fairs", "as": "বিহু, অম্বুবাচী আৰু অসমৰ প্ৰধান উৎসৱ-মেলাসমূহ" }, "popularity": 10 },
+                { "id": "assamese-literature-buranjis-culture", "name": { "en": "Assamese Literature & Historical Chronicles (Buranjis)", "as": "অসমীয়া সাহিত্য আৰু বুৰঞ্জী পৰম্পৰা" }, "popularity": 8 },
+                { "id": "indigenous-tribal-traditions-customs-assam", "name": { "en": "Indigenous Tribal Traditions & Customs", "as": "জনজাতীয় পৰম্পৰা, ৰীতি-নীতি আৰু সংস্কৃতি" }, "popularity": 9 },
+                { "id": "bihu-festival", "name": { "en": "Bihu Festival", "as": "বিহু উৎসৱ" }, "popularity": 7 }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "contentLayout": "flat",
+      "name": { "en": "Mathematics", "as": "গণিত" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, Forest Guard, SSC, and Railway exams.\n\nOur Mathematics section offers complete, high-yield coverage broken down neatly across key subjects:\n\n• Arithmetic\n• Advanced Math\n• Statistics & Data Interpretation\n\nMaster essential topics like Percentage, Profit & Loss, Ratio & Proportion, Time & Work, Speed, Distance & Time, Simple & Compound Interest, Algebra, Geometry, Mensuration, Trigonometry, and Data Interpretation — every question explained with step-by-step solutions.\n\nAll topics are systematically organized topic-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, বনবিভাগৰ আৰক্ষী, SSC আৰু ৰে'লৱে — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ গণিত বিভাগে মূল বিষয়সমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ পৰিসৰ সামৰি লৈছে:\n\n• পাটিগণিত (Arithmetic)\n• উচ্চ গণিত (Advanced Math)\n• পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ (Statistics & Data Interpretation)\n\nশতাংশ, লাভ-ক্ষতি, অনুপাত আৰু সমানুপাত, সময় আৰু কাম, দ্ৰুতি, দূৰত্ব আৰু সময়, সৰল আৰু চক্ৰবৃদ্ধি সুদ, বীজগণিত, জ্যামিতি, পৰিমিতি, ত্ৰিকোণমিতি আৰু তথ্য বিশ্লেষণ আদি গুৰুত্বপূৰ্ণ বিষয়সমূহ ধাপে ধাপে সমাধানসহ আয়ত্ত কৰক।\n\nসকলো বিষয় সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#f59e0b",
+      "icon": "∑",
+      "subcategories": [
+        {
+          "id": "arithmetic",
+          "name": { "en": "Arithmetic", "as": "পাটিগণিত" },
+          "topics": [
+            { "id": "number-system", "name": { "en": "Number System", "as": "সংখ্যা প্ৰণালী" }, "popularity": 10 },
+            { "id": "simplification", "name": { "en": "Simplification", "as": "সৰলীকৰণ" }, "popularity": 10 },
+            { "id": "lcm-and-hcf", "name": { "en": "LCM and HCF", "as": "ল.সা.গু. আৰু গ.সা.গু." }, "popularity": 9 },
+            { "id": "percentage", "name": { "en": "Percentage", "as": "শতাংশ" }, "popularity": 10 },
+            { "id": "ratio-and-proportion", "name": { "en": "Ratio and Proportion", "as": "অনুপাত আৰু সমানুপাত" }, "popularity": 9 },
+            { "id": "profit-and-loss", "name": { "en": "Profit and Loss", "as": "লাভ আৰু লোকচান" }, "popularity": 10 },
+            { "id": "simple-and-compound-interest", "name": { "en": "Simple and Compound Interest", "as": "সৰল আৰু চক্ৰবৃদ্ধি সূত" }, "popularity": 9 },
+            { "id": "average", "name": { "en": "Average", "as": "গড়" }, "popularity": 9 },
+            { "id": "time-and-work", "name": { "en": "Time and Work", "as": "সময় আৰু কাৰ্য্য" }, "popularity": 10 },
+            { "id": "pipes-and-cisterns", "name": { "en": "Pipes and Cisterns", "as": "নল আৰু চৌবাচ্চা" }, "popularity": 8 },
+            { "id": "time-speed-and-distance", "name": { "en": "Time, Speed and Distance", "as": "সময়, গতিবেগ আৰু দূৰত্ব" }, "popularity": 10 },
+            { "id": "boats-and-streams", "name": { "en": "Boats and Streams", "as": "নাও আৰু সোঁত" }, "popularity": 8 },
+            { "id": "problems-on-ages", "name": { "en": "Problems on Ages", "as": "বয়স সম্পৰ্কীয় অংক" }, "popularity": 9 },
+            { "id": "partnership", "name": { "en": "Partnership", "as": "অংশীদাৰিত্ব" }, "popularity": 8 },
+            { "id": "mixture-and-alligation", "name": { "en": "Mixture and Alligation", "as": "মিশ্ৰণ আৰু সংযোগ" }, "popularity": 8 }
+          ]
+        },
+        {
+          "id": "advanced-math",
+          "name": { "en": "Advanced Math", "as": "উচ্চ গণিত" },
+          "topics": [
+            { "id": "algebra", "name": { "en": "Algebra", "as": "বীজগণিত" }, "popularity": 9 },
+            { "id": "surds-and-indices", "name": { "en": "Surds and Indices", "as": "ঘাত আৰু সূচক" }, "popularity": 8 },
+            { "id": "geometry", "name": { "en": "Geometry", "as": "জ্যামিতি" }, "popularity": 9 },
+            { "id": "mensuration-2d", "name": { "en": "Mensuration 2D", "as": "পৰিমিতি (২-মাত্ৰিক / 2D)" }, "popularity": 9 },
+            { "id": "mensuration-3d", "name": { "en": "Mensuration 3D", "as": "পৰিমিতি (৩-মাত্ৰিক / 3D)" }, "popularity": 9 },
+            { "id": "trigonometry", "name": { "en": "Trigonometry", "as": "ত্ৰিকোণমিতি" }, "popularity": 9 }
+          ]
+        },
+        {
+          "id": "statistics-and-data-interpretation",
+          "name": { "en": "Statistics and Data Interpretation", "as": "পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ" },
+          "topics": [
+            { "id": "statistics", "name": { "en": "Statistics", "as": "পৰিসংখ্যা বিজ্ঞান" }, "popularity": 8 },
+            { "id": "data-interpretation", "name": { "en": "Data Interpretation", "as": "তথ্য বিশ্লেষণ (DI)" }, "popularity": 9 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "contentLayout": "flat",
+      "name": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, SSC, and Railway exams.\n\nOur General Science section offers complete, high-yield coverage broken down neatly across key subjects:\n\n• Physics\n• Chemistry\n• Biology\n\nMaster essential topics like Mechanics, Optics, Thermodynamics, Electricity & Magnetism, Modern Physics, Organic & Inorganic Chemistry, Botany, Zoology, Genetics, Human Physiology, and Ecology — every question explained with clear, exam-focused solutions.\n\nAll topics are systematically organized subject-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC আৰু ৰে'লৱে — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ সাধাৰণ বিজ্ঞান বিভাগে মূল বিষয়সমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ পৰিসৰ সামৰি লৈছে:\n\n• পদাৰ্থ বিজ্ঞান (Physics)\n• ৰসায়ন বিজ্ঞান (Chemistry)\n• জীৱ বিজ্ঞান (Biology)\n\nযন্ত্ৰবিজ্ঞান (Mechanics), পোহৰ বিজ্ঞান (Optics), তাপগতিবিজ্ঞান, বিদ্যুৎ আৰু চুম্বকত্ব, আধুনিক পদাৰ্থ বিজ্ঞান, জৈৱ আৰু অজৈৱ ৰসায়ন, উদ্ভিদ বিজ্ঞান, প্ৰাণীবিজ্ঞান, জিনেটিক্স, মানৱ শৰীৰতত্ত্ব আৰু বাস্তুতন্ত্ৰ আদি গুৰুত্বপূৰ্ণ বিষয়সমূহ পৰীক্ষা-কেন্দ্ৰিক সমাধানসহ আয়ত্ত কৰক।\n\nসকলো বিষয় সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#10b981",
+      "icon": "⚛",
+      "subcategories": [
+        {
+          "id": "physics",
+          "name": { "en": "Physics", "as": "পদাৰ্থ বিজ্ঞান" },
+          "topics": [
+            { "id": "mechanics", "name": { "en": "Mechanics", "as": "বলবিজ্ঞান" }, "popularity": 8 },
+            { "id": "optics", "name": { "en": "Optics", "as": "আলোক বিজ্ঞান" }, "popularity": 8 },
+            { "id": "thermodynamics", "name": { "en": "Thermodynamics", "as": "তাপগতিবিজ্ঞান" }, "popularity": 7 },
+            { "id": "acoustics", "name": { "en": "Acoustics", "as": "শব্দবিজ্ঞান" }, "popularity": 7 },
+            { "id": "electromagnetism", "name": { "en": "Electromagnetism", "as": "বিদ্যুত-চুম্বকত্ব" }, "popularity": 8 },
+            { "id": "modern-physics", "name": { "en": "Modern Physics", "as": "আধুনিক পদাৰ্থ বিজ্ঞান" }, "popularity": 8 },
+            { "id": "nuclear-physics", "name": { "en": "Nuclear Physics", "as": "নিউক্লীয় পদাৰ্থ বিজ্ঞান" }, "popularity": 7 },
+            { "id": "astrophysics", "name": { "en": "Astrophysics", "as": "জ্যোতিৰ্পদাৰ্থ বিজ্ঞান" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": { "en": "Chemistry", "as": "ৰসায়ন বিজ্ঞান" },
+          "topics": [
+            { "id": "organic-chemistry", "name": { "en": "Organic Chemistry", "as": "জৈৱ ৰসায়ন" }, "popularity": 8 },
+            { "id": "inorganic-chemistry", "name": { "en": "Inorganic Chemistry", "as": "অজৈৱ ৰসায়ন" }, "popularity": 8 },
+            { "id": "physical-chemistry", "name": { "en": "Physical Chemistry", "as": "ভৌতিক ৰসায়ন" }, "popularity": 7 },
+            { "id": "biochemistry", "name": { "en": "Biochemistry", "as": "জৈৱ ৰসায়ন বিজ্ঞান" }, "popularity": 7 },
+            { "id": "analytical-chemistry", "name": { "en": "Analytical Chemistry", "as": "বিশ্লেষণাত্মক ৰসায়ন" }, "popularity": 7 },
+            { "id": "environmental-chemistry", "name": { "en": "Environmental Chemistry", "as": "পৰিৱেশ ৰসায়ন" }, "popularity": 8 },
+            { "id": "industrial-chemistry", "name": { "en": "Industrial Chemistry", "as": "ঔদ্যোগিক ৰসায়ন" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "biology",
+          "name": { "en": "Biology", "as": "জীৱ বিজ্ঞান" },
+          "topics": [
+            { "id": "botany", "name": { "en": "Botany", "as": "উদ্ভিদ বিজ্ঞান" }, "popularity": 8 },
+            { "id": "zoology", "name": { "en": "Zoology", "as": "প্ৰাণী বিজ্ঞান" }, "popularity": 8 },
+            { "id": "microbiology", "name": { "en": "Microbiology", "as": "অণুজীৱ বিজ্ঞান" }, "popularity": 7 },
+            { "id": "cytology", "name": { "en": "Cytology (Cell Biology)", "as": "কোষবিজ্ঞান" }, "popularity": 8 },
+            { "id": "genetics", "name": { "en": "Genetics", "as": "বংশগতি বিজ্ঞান" }, "popularity": 8 },
+            { "id": "human-physiology", "name": { "en": "Human Physiology", "as": "মানৱ শৰীৰতত্ব" }, "popularity": 9 },
+            { "id": "anatomy", "name": { "en": "Anatomy", "as": "শৰীৰস্থান বিজ্ঞান" }, "popularity": 8 },
+            { "id": "ecology", "name": { "en": "Ecology", "as": "পৰিস্থিতি বিজ্ঞান" }, "popularity": 8 },
+                { "id": "human-body", "name": { "en": "Human Body", "as": "মানৱ শৰীৰ" }, "popularity": 7 }
+              ]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "contentLayout": "flat",
+      "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, SSC, and Railway exams.\n\nOur Reasoning Ability section offers complete, high-yield coverage broken down neatly across key areas:\n\n• Verbal Reasoning\n• Analytical & Critical Reasoning\n• Non-Verbal Reasoning\n\nMaster essential topics like Analogy, Classification, Number, Alphabet & Alpha-Numeric Series, Coding-Decoding, Blood Relations, Direction & Distance, Order & Ranking, Syllogism, Logical Venn Diagrams, Clock & Calendar, Puzzles, Seating Arrangement, Data Sufficiency, Mirror & Water Images, and Figure Series — every question explained with clear, exam-focused solutions.\n\nAll topics are systematically organized section-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (Grade III & IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC, আৰু ৰে'লৱে পৰীক্ষা — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ যুক্তি আৰু মানসিক ক্ষমতা শাখাই প্ৰধান ক্ষেত্ৰসমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ আৱৰণ আগবঢ়াইছে:\n\n• মৌখিক যুক্তি\n• বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি\n• অবাচ্য যুক্তি\n\nসাদৃশ্য, শ্ৰেণীবিভাজন, সংখ্যা, বৰ্ণমালা আৰু অক্ষৰ-সংখ্যা শৃংখলা, ক'ডিং-ডিক'ডিং, তেজ সম্পৰ্কীয় সম্বন্ধ, দিশ আৰু দূৰত্ব, ক্ৰম আৰু ৰেংকিং, চিলজিজম, যুক্তিসংগত ভেন ডায়াগ্ৰাম, ঘড়ী আৰু কেলেণ্ডাৰ, ধেমালি, আসন বিন্যাস, তথ্য পৰ্যাপ্ততা, দৰ্পণ আৰু জল-প্ৰতিবিম্ব, আৰু চিত্ৰ শৃংখলা আদি গুৰুত্বপূৰ্ণ বিষয় আয়ত্ত কৰক — প্ৰতিটো প্ৰশ্ন স্পষ্ট, পৰীক্ষা-কেন্দ্ৰিক সমাধানসহ ব্যাখ্যা কৰা হৈছে।\n\nসকলো বিষয় শাখাভিত্তিকভাৱে সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#8b5cf6",
+      "icon": "▶",
+      "subcategories": [
+        {
+          "id": "verbal-reasoning",
+          "name": { "en": "Verbal Reasoning", "as": "মৌখিক যুক্তি" },
+          "description": { "en": "Word and number based logical reasoning questions.", "as": "শব্দ আৰু সংখ্যা ভিত্তিক যুক্তিসংগত প্ৰশ্ন।" },
+          "topics": [
+            { "id": "analogy", "name": { "en": "Analogy", "as": "সাদৃশ্য" }, "popularity": 8 },
+            { "id": "classification-odd-one-out", "name": { "en": "Classification (Odd One Out)", "as": "শ্ৰেণীবিভাজন (Odd One Out)" }, "popularity": 7 },
+            { "id": "number-series", "name": { "en": "Number Series", "as": "সংখ্যা শৃংখলা" }, "popularity": 8 },
+            { "id": "alphabet-series", "name": { "en": "Alphabet Series", "as": "বৰ্ণমালা শৃংখলা" }, "popularity": 8 },
+            { "id": "alpha-numeric-series", "name": { "en": "Alpha-Numeric Series", "as": "অক্ষৰ-সংখ্যা শৃংখলা" }, "popularity": 7 },
+            { "id": "coding-decoding", "name": { "en": "Coding-Decoding", "as": "ক'ডিং-ডিক'ডিং" }, "popularity": 8 },
+            { "id": "blood-relations", "name": { "en": "Blood Relations", "as": "তেজ সম্পৰ্কীয় সম্বন্ধ" }, "popularity": 8 },
+            { "id": "direction-distance", "name": { "en": "Direction & Distance Test", "as": "দিশ আৰু দূৰত্ব পৰীক্ষা" }, "popularity": 8 },
+            { "id": "order-ranking", "name": { "en": "Order & Ranking", "as": "ক্ৰম আৰু ৰেংকিং" }, "popularity": 7 },
+            { "id": "alphabet-test-word-formation", "name": { "en": "Alphabet Test & Word Formation", "as": "বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন" }, "popularity": 7 },
+            { "id": "logical-venn-diagrams", "name": { "en": "Logical Venn Diagrams", "as": "যুক্তিসংগত ভেন ডায়াগ্ৰাম" }, "popularity": 7 },
+            { "id": "syllogism", "name": { "en": "Syllogism", "as": "চিলজিজম" }, "popularity": 8 },
+            { "id": "clock-calendar", "name": { "en": "Clock & Calendar", "as": "ঘড়ী আৰু কেলেণ্ডাৰ" }, "popularity": 8 },
+            { "id": "mathematical-operations", "name": { "en": "Mathematical Operations", "as": "গাণিতিক অপাৰেচন" }, "popularity": 7 },
+            { "id": "data-sufficiency", "name": { "en": "Data Sufficiency", "as": "তথ্য পৰ্যাপ্ততা" }, "popularity": 7 },
+            { "id": "input-output-machine", "name": { "en": "Input-Output (Machine Input)", "as": "ইনপুট-আউটপুট (মেশ্বিন ইনপুট)" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "analytical-critical-reasoning",
+          "name": { "en": "Analytical & Critical Reasoning", "as": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তি" },
+          "description": { "en": "Statements, arguments, puzzles and arrangement-based reasoning.", "as": "উক্তি, যুক্তি, পাজল আৰু বিন্যাস ভিত্তিক যুক্তি।" },
+          "topics": [
+            { "id": "seating-arrangement", "name": { "en": "Seating Arrangement (Linear, Circular, Square)", "as": "আসন বিন্যাস (লিনিয়াৰ, বৃত্তাকাৰ, বৰ্গাকাৰ)" }, "popularity": 8 },
+            { "id": "complex-puzzles", "name": { "en": "Complex Puzzles (Floor, Box, Scheduling)", "as": "জটিল পাজল (মজিয়া, বাকচ, সময়সূচী)" }, "popularity": 8 },
+            { "id": "inequality", "name": { "en": "Inequality (Coded & Direct)", "as": "অসমতা (ক'ডেড আৰু পোনপটীয়া)" }, "popularity": 7 },
+            { "id": "statement-assumptions", "name": { "en": "Statement & Assumptions", "as": "উক্তি আৰু অনুমান" }, "popularity": 7 },
+            { "id": "statement-conclusions", "name": { "en": "Statement & Conclusions", "as": "উক্তি আৰু সিদ্ধান্ত" }, "popularity": 7 },
+            { "id": "statement-arguments", "name": { "en": "Statement & Arguments", "as": "উক্তি আৰু যুক্তি" }, "popularity": 7 },
+            { "id": "statement-course-of-action", "name": { "en": "Statement & Course of Action", "as": "উক্তি আৰু কাৰ্য-পদক্ষেপ" }, "popularity": 7 },
+            { "id": "cause-effect", "name": { "en": "Cause & Effect", "as": "কাৰণ আৰু ফল" }, "popularity": 7 },
+            { "id": "assertion-reason", "name": { "en": "Assertion & Reason", "as": "দাবী আৰু কাৰণ" }, "popularity": 7 },
+            { "id": "decision-making", "name": { "en": "Decision Making", "as": "সিদ্ধান্ত গ্ৰহণ" }, "popularity": 7 },
+            { "id": "drawing-inferences", "name": { "en": "Drawing Inferences", "as": "অনুমান নিষ্কাশন" }, "popularity": 6 }
+          ]
+        },
+        {
+          "id": "non-verbal-reasoning",
+          "name": { "en": "Non-Verbal Reasoning", "as": "অবাচ্য যুক্তি" },
+          "description": { "en": "Visual and figure-based reasoning questions.", "as": "দৃশ্য আৰু চিত্ৰ ভিত্তিক যুক্তি প্ৰশ্ন।" },
+          "topics": [
+            { "id": "image-series", "name": { "en": "Image Series", "as": "চিত্ৰ শৃংখলা" }, "popularity": 8 },
+            { "id": "image-analogy", "name": { "en": "Image Analogy", "as": "চিত্ৰ সাদৃশ্য" }, "popularity": 7 },
+            { "id": "image-classification", "name": { "en": "Image Classification", "as": "চিত্ৰ শ্ৰেণীবিভাজন" }, "popularity": 7 },
+            { "id": "mirror-images", "name": { "en": "Mirror Images", "as": "দাপোণ প্ৰতিবিম্ব" }, "popularity": 8 },
+            { "id": "water-images", "name": { "en": "Water Images", "as": "পানী প্ৰতিবিম্ব" }, "popularity": 7 },
+            { "id": "paper-folding", "name": { "en": "Paper Folding", "as": "কাগজ ভাঁজ" }, "popularity": 7 },
+            { "id": "paper-cutting", "name": { "en": "Paper Cutting", "as": "কাগজ কাটনি" }, "popularity": 7 },
+            { "id": "embedded-figures", "name": { "en": "Embedded Figures", "as": "সমাহৃত চিত্ৰ" }, "popularity": 7 },
+            { "id": "completion-of-incomplete-pattern", "name": { "en": "Completion of Incomplete Pattern", "as": "অসম্পূৰ্ণ নক্সা সম্পূৰ্ণকৰণ" }, "popularity": 8 },
+            { "id": "figure-matrix", "name": { "en": "Figure Matrix", "as": "চিত্ৰ মেট্ৰিক্স" }, "popularity": 8 },
+            { "id": "counting-of-figures", "name": { "en": "Counting of Figures", "as": "চিত্ৰ গণনা" }, "popularity": 7 },
+            { "id": "cube-and-dice", "name": { "en": "Cube & Dice", "as": "ঘনক আৰু পাশা" }, "popularity": 8 },
+            { "id": "rule-detection", "name": { "en": "Rule Detection", "as": "নিয়ম নিৰ্ধাৰণ" }, "popularity": 6 },
+            { "id": "shape-construction-grouping", "name": { "en": "Shape Construction & Grouping of Identical Figures", "as": "আকৃতি নিৰ্মাণ আৰু একে আকৃতিৰ শ্ৰেণীবিভাজন" }, "popularity": 6 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "english",
+      "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, SSC, and Railway exams.\n\nOur General English section offers complete, high-yield coverage broken down neatly across key areas:\n\n• Parts of Speech\n• Grammar\n• Sentence Structure\n• Vocabulary\n\nMaster essential topics like Articles & Determiners, Tenses, Subject-Verb Agreement, Active & Passive Voice, Direct & Indirect Speech, Types of Sentences, Clauses, Punctuation, Synonyms & Antonyms, Idioms & Phrases, One Word Substitution, Error Spotting, and Sentence Rearrangement — every question explained with clear, exam-focused solutions.\n\nAll topics are systematically organized section-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC আৰু ৰে'লৱে — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ সাধাৰণ ইংৰাজী শাখাই মূল ক্ষেত্ৰসমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ আৱৰণ আগবঢ়াইছে:\n\n• পদ (Parts of Speech)\n• ব্যাকৰণ (Grammar)\n• বাক্য গঠন (Sentence Structure)\n• শব্দভাণ্ডাৰ (Vocabulary)\n\nআৰ্টিকেল আৰু নিৰ্ধাৰক, কাল, কৰ্তা-ক্ৰিয়া মিল, কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য, প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি, বাক্যৰ প্ৰকাৰ, খণ্ডবাক্য, যতিচিহ্ন, সমাৰ্থক আৰু বিপৰীতার্থক শব্দ, বাগধাৰা, এটা শব্দৰে প্ৰকাশ, ত্ৰুটি নিৰ্ণয় আৰু বাক্য পুনৰ্বিন্যাস আদি গুৰুত্বপূৰ্ণ বিষয়সমূহ স্পষ্ট আৰু পৰীক্ষা-কেন্দ্ৰিক সমাধানসহ আয়ত্ত কৰক।\n\nসকলো বিষয় শাখাভিত্তিকভাৱে সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#0d9488",
+      "icon": "En",
+      "subcategories": [
+        {
+          "id": "parts-of-speech",
+          "name": { "en": "Parts of Speech", "as": "পদ (Parts of Speech)" }
+        },
+        {
+          "id": "grammar",
+          "name": { "en": "Grammar", "as": "ব্যাকৰণ" },
+          "topics": [
+            { "id": "articles-and-determiners", "name": { "en": "Articles and Determiners", "as": "আৰ্টিকেল আৰু নিৰ্ধাৰক" }, "popularity": 8 },
+            { "id": "tenses", "name": { "en": "Tenses", "as": "কাল" }, "popularity": 9 },
+            { "id": "subject-verb-agreement", "name": { "en": "Subject Verb Agreement", "as": "কৰ্তা-ক্ৰিয়া মিল" }, "popularity": 9 },
+            { "id": "active-passive-voice", "name": { "en": "Active and Passive Voice", "as": "কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য" }, "popularity": 8 },
+            { "id": "direct-indirect-speech", "name": { "en": "Direct and Indirect Speech", "as": "প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি" }, "popularity": 8 }
+          ]
+        },
+        {
+          "id": "sentence-structure",
+          "name": { "en": "Sentence Structure", "as": "বাক্য গঠন" },
+          "topics": [
+            { "id": "types-of-sentences", "name": { "en": "Types of Sentences", "as": "বাক্যৰ প্ৰকাৰ" }, "popularity": 8 },
+            { "id": "clauses", "name": { "en": "Clauses", "as": "খণ্ডবাক্য" }, "popularity": 8 },
+            { "id": "punctuation", "name": { "en": "Punctuation", "as": "যতিচিহ্ন" }, "popularity": 7 }
+          ]
+        },
+        {
+          "id": "vocabulary",
+          "name": { "en": "Vocabulary", "as": "শব্দভাণ্ডাৰ" },
+          "topics": [
+            { "id": "synonyms-antonyms", "name": { "en": "Synonyms and Antonyms", "as": "সমাৰ্থক আৰু বিপৰীতার্থক শব্দ" }, "popularity": 9 },
+            { "id": "idioms-phrases", "name": { "en": "Idioms and Phrases", "as": "বাগধাৰা আৰু খণ্ডবাক্য" }, "popularity": 8 },
+            { "id": "one-word-substitution", "name": { "en": "One Word Substitution", "as": "এটা শব্দৰে প্ৰকাশ" }, "popularity": 8 },
+            { "id": "error-spotting", "name": { "en": "Error Spotting", "as": "ত্ৰুটি নিৰ্ণয়" }, "popularity": 9 },
+            { "id": "sentence-rearrangement", "name": { "en": "Sentence Rearrangement", "as": "বাক্য পুনৰ্বিন্যাস" }, "popularity": 8 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer",
+      "contentLayout": "flat",
+      "name": { "en": "Computer Awareness", "as": "কম্পিউটাৰ জ্ঞান" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams, including ADRE 2.0 (Grade III & IV), Assam Police, APSC, Gauhati High Court, Panchayat & Rural Development, DME, DHE, SSC, and Railway exams.\n\nOur Computer Awareness section offers complete, high-yield coverage broken down neatly across key areas:\n\n• Computer Fundamentals & Hardware\n• Software & Operating System\n• MS Office Suite\n• Networking & Internet\n• Cyber Security\n• DBMS, Number System & Shortcuts\n\nMaster essential topics like Input & Output Devices, Memory & Storage, Hardware, Operating Systems, MS Word, MS Excel, MS PowerPoint, Internet & E-mail, Networking Concepts, Network Security, DBMS & Database Concepts, Number Systems, and Computer Shortcuts — every question explained with clear, exam-focused solutions.\n\nAll topics are systematically organized topic-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC আৰু ৰে'লৱে — সমূহৰ বাবে সম্পূৰ্ণ প্ৰস্তুতি লওক।\n\nআমাৰ কম্পিউটাৰ জ্ঞান শাখাই মূল ক্ষেত্ৰসমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ আৱৰণ আগবঢ়াইছে:\n\n• কম্পিউটাৰ মৌলিক ধাৰণা আৰু হাৰ্ডৱেৰ\n• চফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম\n• MS Office ছুট\n• নেটৱৰ্কিং আৰু ইন্টাৰনেট\n• চাইবাৰ নিৰাপত্তা\n• DBMS, সংখ্যা পদ্ধতি আৰু চৰ্টকাট\n\nইনপুট/আউটপুট ডিভাইচ, মেম'ৰি আৰু ষ্ট'ৰেজ, হাৰ্ডৱেৰ, অপাৰেটিং ছিষ্টেম, MS Word, MS Excel, MS PowerPoint, ইন্টাৰনেট আৰু ইমেইল, নেটৱৰ্কিং ধাৰণা, নেটৱৰ্ক নিৰাপত্তা, DBMS আৰু ডাটাবেছ ধাৰণা, সংখ্যা পদ্ধতি আৰু কম্পিউটাৰ চৰ্টকাট আদি গুৰুত্বপূৰ্ণ বিষয়সমূহ স্পষ্ট আৰু পৰীক্ষা-কেন্দ্ৰিক সমাধানসহ আয়ত্ত কৰক।\n\nসকলো বিষয় সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#2563eb",
+      "icon": "PC",
+      "subcategories": [
+        {
+          "id": "fundamentals-hardware",
+          "name": { "en": "Computer Fundamentals & Hardware", "as": "কম্পিউটাৰ মৌলিক ধাৰণা আৰু হাৰ্ডৱেৰ" }
+        },
+        {
+          "id": "software-os",
+          "name": { "en": "Software & Operating System", "as": "চফ্টৱেৰ আৰু অপাৰেটিং ছিষ্টেম" }
+        },
+        {
+          "id": "ms-office-suite",
+          "name": { "en": "MS Office Suite", "as": "MS Office ছুট" }
+        },
+        {
+          "id": "networking-internet",
+          "name": { "en": "Networking & Internet", "as": "নেটৱৰ্কিং আৰু ইন্টাৰনেট" }
+        },
+        {
+          "id": "cyber-security",
+          "name": { "en": "Cyber Security", "as": "চাইবাৰ নিৰাপত্তা" }
+        },
+        {
+          "id": "dbms-number-shortcuts",
+          "name": { "en": "DBMS, Number System & Shortcuts", "as": "DBMS, সংখ্যা পদ্ধতি আৰু চৰ্টকাট" }
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "name": { "en": "Articles", "as": "প্ৰবন্ধসমূহ" },
+      "description": { "en": "Prepare comprehensively for all major Assam Government recruitment exams with our easy-reading study articles — detailed, reading-only explanations for every important subject, written in simple bilingual English and Assamese.\n\nOur Articles section offers complete, high-yield coverage broken down neatly across key areas:\n\n• General Knowledge\n• Mathematics\n• General Science\n• Reasoning Ability\n• General English\n• Computer Awareness\n\nEach article explains high-weightage exam topics in a clear, step-by-step, easy-to-understand manner — perfect for building deep conceptual clarity before you practise questions. Every article comes with detailed answers and explanations in both English and Assamese.\n\nAll topics are systematically organized subject-wise, ensuring full conceptual clarity to help you score higher. Best of all, every study resource is 100% free and accessible to everyone!", "as": "অসম চৰকাৰৰ সকলো প্ৰধান নিয়োগ পৰীক্ষা — ADRE 2.0 (গ্ৰেড III আৰু IV), অসম আৰক্ষী, APSC, গুৱাহাটী উচ্চ ন্যায়ালয়, পঞ্চায়ত আৰু গ্ৰামোন্নয়ন, DME, DHE, SSC আৰু ৰে'লৱে — সমূহৰ বাবে সহজ পঠনযোগ্য অধ্যয়ন প্ৰবন্ধৰ জৰিয়তে সম্পূৰ্ণ প্ৰস্তুতি লওক। এই প্ৰবন্ধসমূহ কেৱল পঢ়ি শিকিব পৰা বিস্তাৰিত ব্যাখ্যা, ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাতে সৰলভাৱে উপলব্ধ।\n\nআমাৰ প্ৰবন্ধ শাখাই প্ৰধান ক্ষেত্ৰসমূহত সাজি সম্পূৰ্ণ আৰু উচ্চমানৰ আৱৰণ আগবঢ়াইছে:\n\n• সাধাৰণ জ্ঞান\n• গণিত\n• সাধাৰণ বিজ্ঞান\n• যুক্তি আৰু মানসিক ক্ষমতা\n• সাধাৰণ ইংৰাজী\n• কম্পিউটাৰ জ্ঞান\n\nপ্ৰতিটো প্ৰবন্ধই উচ্চ নম্বৰৰ পৰীক্ষা বিষয়সমূহ স্পষ্ট, ধাপে ধাপে আৰু সহজ-বুজা শৈলীত ব্যাখ্যা কৰে — যাতে প্ৰশ্ন অনুশীলনৰ আগত আপুনি গভীৰ ধাৰণাগত স্পষ্টতা লাভ কৰিব পাৰে। প্ৰতিটো প্ৰবন্ধত ইংৰাজী আৰু অসমীয়া দুয়োটা ভাষাতে বিস্তাৰিত উত্তৰ আৰু ব্যাখ্যা আছে।\n\nসকলো বিষয় সুশৃংখলভাৱে সজোৱা হৈছে, যাৰ ফলত সম্পূৰ্ণ ধাৰণাগত স্পষ্টতা লাভ হৈ আপুনি অধিক নম্বৰ তুলিব পাৰিব। সৰ্বোত্তম কথাটো হ'ল, প্ৰতিটো অধ্যয়ন সামগ্ৰী ১০০% বিনামূলীয়া আৰু সৰ্বসাধাৰণে ব্যৱহাৰ কৰিব পাৰিব!" },
+      "color": "#e11d48",
+      "icon": "A",
+      "subcategories": [
+        { "id": "gk", "name": { "en": "General Knowledge", "as": "সাধাৰণ জ্ঞান" } },
+        { "id": "math", "name": { "en": "Mathematics", "as": "গণিত" } },
+        { "id": "science", "name": { "en": "General Science", "as": "সাধাৰণ বিজ্ঞান" } },
+        { "id": "reasoning", "name": { "en": "Reasoning Ability", "as": "যুক্তি আৰু মানসিক ক্ষমতা" } },
+        { "id": "english", "name": { "en": "General English", "as": "সাধাৰণ ইংৰাজী" } },
+        { "id": "computer", "name": { "en": "Computer Awareness", "as": "কম্পিউটাৰ জ্ঞান" } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "vr-statement-course-of-action-001",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students in the village school drop out before class 8. Courses of action: I. The government should provide free textbooks and mid-day meals. II. Teachers should visit homes to counsel the parents.",
+      "as": "বিবৃতি: গাঁৱৰ বিদ্যালয়ত বহু ছাত্ৰ অষ্টম শ্ৰেণীৰ আগতে পঢ়া এৰি দিয়ে। কাৰ্যপন্থা: I. চৰকাৰে বিনামূলীয়া পাঠ্যপুথি আৰু মধ্যাহ্ন ভোজনৰ ব্যৱস্থা কৰা উচিত। II. শিক্ষকে ঘৰে ঘৰে গৈ অভিভাৱকক পৰামৰ্শ দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-002",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students in the village school drop out before class 8. Courses of action: I. The government should provide free textbooks and mid-day meals. II. The school should be closed immediately.",
+      "as": "বিবৃতি: গাঁৱৰ বিদ্যালয়ত বহু ছাত্ৰ অষ্টম শ্ৰেণীৰ আগতে পঢ়া এৰি দিয়ে। কাৰ্যপন্থা: I. চৰকাৰে বিনামূলীয়া পাঠ্যপুথি আৰু মধ্যাহ্ন ভোজনৰ ব্যৱস্থা কৰা উচিত। II. বিদ্যালয়খন ততালিকে বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-003",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students in the village school drop out before class 8. Courses of action: I. The school should be closed immediately. II. Teachers should visit homes to counsel the parents.",
+      "as": "বিবৃতি: গাঁৱৰ বিদ্যালয়ত বহু ছাত্ৰ অষ্টম শ্ৰেণীৰ আগতে পঢ়া এৰি দিয়ে। কাৰ্যপন্থা: I. বিদ্যালয়খন ততালিকে বন্ধ কৰা উচিত। II. শিক্ষকে ঘৰে ঘৰে গৈ অভিভাৱকক পৰামৰ্শ দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-004",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students in the village school drop out before class 8. Courses of action: I. The school should be closed immediately. II. Students should be fined for staying absent.",
+      "as": "বিবৃতি: গাঁৱৰ বিদ্যালয়ত বহু ছাত্ৰ অষ্টম শ্ৰেণীৰ আগতে পঢ়া এৰি দিয়ে। কাৰ্যপন্থা: I. বিদ্যালয়খন ততালিকে বন্ধ কৰা উচিত। II. অনুপস্থিত থকাৰ বাবে ছাত্ৰক জৰিমনা কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-005",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Road accidents have increased in the city. Courses of action: I. Traffic police should be deployed at busy junctions. II. Speed limits should be enforced strictly.",
+      "as": "বিবৃতি: নগৰত পথ দুৰ্ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ব্যস্ত সংযোগস্থলত ট্ৰেফিক আৰক্ষী মোতায়েন কৰা উচিত। II. গতিৰ সীমা কঠোৰভাৱে বলবৎ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-006",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Road accidents have increased in the city. Courses of action: I. Traffic police should be deployed at busy junctions. II. All cars should be painted red.",
+      "as": "বিবৃতি: নগৰত পথ দুৰ্ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ব্যস্ত সংযোগস্থলত ট্ৰেফিক আৰক্ষী মোতায়েন কৰা উচিত। II. সকলো গাড়ী ৰঙা ৰঙত ৰঙোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-007",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Road accidents have increased in the city. Courses of action: I. All cars should be painted red. II. Speed limits should be enforced strictly.",
+      "as": "বিবৃতি: নগৰত পথ দুৰ্ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. সকলো গাড়ী ৰঙা ৰঙত ৰঙোৱা উচিত। II. গতিৰ সীমা কঠোৰভাৱে বলবৎ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-008",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Road accidents have increased in the city. Courses of action: I. All cars should be painted red. II. The roads should be closed permanently.",
+      "as": "বিবৃতি: নগৰত পথ দুৰ্ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. সকলো গাড়ী ৰঙা ৰঙত ৰঙোৱা উচিত। II. পথবোৰ স্থায়ীভাৱে বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-009",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The river near the town is heavily polluted. Courses of action: I. Industries should treat waste before discharging it. II. Regular cleaning drives should be organised.",
+      "as": "বিবৃতি: চহৰৰ ওচৰৰ নদী গভীৰভাৱে প্ৰদূষিত হৈছে। কাৰ্যপন্থা: I. উদ্যোগে আৱৰ্জনা শোধন কৰি তেহে নিষ্কাশন কৰা উচিত। II. নিয়মীয়াকৈ পৰিষ্কাৰ অভিযান চলোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-010",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The river near the town is heavily polluted. Courses of action: I. Industries should treat waste before discharging it. II. People should stop drinking water.",
+      "as": "বিবৃতি: চহৰৰ ওচৰৰ নদী গভীৰভাৱে প্ৰদূষিত হৈছে। কাৰ্যপন্থা: I. উদ্যোগে আৱৰ্জনা শোধন কৰি তেহে নিষ্কাশন কৰা উচিত। II. লোকে পানী খোৱা বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-011",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The river near the town is heavily polluted. Courses of action: I. People should stop drinking water. II. Regular cleaning drives should be organised.",
+      "as": "বিবৃতি: চহৰৰ ওচৰৰ নদী গভীৰভাৱে প্ৰদূষিত হৈছে। কাৰ্যপন্থা: I. লোকে পানী খোৱা বন্ধ কৰা উচিত। II. নিয়মীয়াকৈ পৰিষ্কাৰ অভিযান চলোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-012",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The river near the town is heavily polluted. Courses of action: I. People should stop drinking water. II. The river should be covered with concrete.",
+      "as": "বিবৃতি: চহৰৰ ওচৰৰ নদী গভীৰভাৱে প্ৰদূষিত হৈছে। কাৰ্যপন্থা: I. লোকে পানী খোৱা বন্ধ কৰা উচিত। II. নদীখন কংক্ৰিটেৰে ঢাকি দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-013",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many government hospitals face a shortage of doctors. Courses of action: I. More doctors should be recruited. II. Incentives for rural posting should be increased.",
+      "as": "বিবৃতি: বহু চৰকাৰী চিকিৎসালয়ত চিকিৎসকৰ অভাৱ হৈছে। কাৰ্যপন্থা: I. অধিক চিকিৎসক নিযুক্তি দিয়া উচিত। II. গ্ৰাম্য নিযুক্তিৰ প্ৰণোদনা বঢ়োৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-014",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many government hospitals face a shortage of doctors. Courses of action: I. More doctors should be recruited. II. All patients should be sent home.",
+      "as": "বিবৃতি: বহু চৰকাৰী চিকিৎসালয়ত চিকিৎসকৰ অভাৱ হৈছে। কাৰ্যপন্থা: I. অধিক চিকিৎসক নিযুক্তি দিয়া উচিত। II. সকলো ৰোগীক ঘৰলৈ পঠিয়াই দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-015",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many government hospitals face a shortage of doctors. Courses of action: I. All patients should be sent home. II. Incentives for rural posting should be increased.",
+      "as": "বিবৃতি: বহু চৰকাৰী চিকিৎসালয়ত চিকিৎসকৰ অভাৱ হৈছে। কাৰ্যপন্থা: I. সকলো ৰোগীক ঘৰলৈ পঠিয়াই দিয়া উচিত। II. গ্ৰাম্য নিযুক্তিৰ প্ৰণোদনা বঢ়োৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-016",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many government hospitals face a shortage of doctors. Courses of action: I. All patients should be sent home. II. The hospitals should be repainted.",
+      "as": "বিবৃতি: বহু চৰকাৰী চিকিৎসালয়ত চিকিৎসকৰ অভাৱ হৈছে। কাৰ্যপন্থা: I. সকলো ৰোগীক ঘৰলৈ পঠিয়াই দিয়া উচিত। II. চিকিৎসালয়বোৰ পুনৰ ৰঙোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-017",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Unemployment among the youth is rising. Courses of action: I. Skill development programmes should be expanded. II. Small industries should be encouraged with easy loans.",
+      "as": "বিবৃতি: যুৱক-যুৱতীৰ মাজত বেকাৰত্ব বাঢ়িছে। কাৰ্যপন্থা: I. দক্ষতা বিকাশ কাৰ্যসূচী সম্প্ৰসাৰিত কৰা উচিত। II. সহজ ঋণেৰে ক্ষুদ্ৰ উদ্যোগক উৎসাহিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-018",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Unemployment among the youth is rising. Courses of action: I. Skill development programmes should be expanded. II. The youth should leave the country.",
+      "as": "বিবৃতি: যুৱক-যুৱতীৰ মাজত বেকাৰত্ব বাঢ়িছে। কাৰ্যপন্থা: I. দক্ষতা বিকাশ কাৰ্যসূচী সম্প্ৰসাৰিত কৰা উচিত। II. যুৱকসকলে দেশ এৰি যোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-019",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Unemployment among the youth is rising. Courses of action: I. The youth should leave the country. II. Small industries should be encouraged with easy loans.",
+      "as": "বিবৃতি: যুৱক-যুৱতীৰ মাজত বেকাৰত্ব বাঢ়িছে। কাৰ্যপন্থা: I. যুৱকসকলে দেশ এৰি যোৱা উচিত। II. সহজ ঋণেৰে ক্ষুদ্ৰ উদ্যোগক উৎসাহিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-020",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Unemployment among the youth is rising. Courses of action: I. The youth should leave the country. II. All examinations should be abolished.",
+      "as": "বিবৃতি: যুৱক-যুৱতীৰ মাজত বেকাৰত্ব বাঢ়িছে। কাৰ্যপন্থা: I. যুৱকসকলে দেশ এৰি যোৱা উচিত। II. সকলো পৰীক্ষা বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-021",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Farmers are committing suicide because of mounting debt. Courses of action: I. Crop insurance should be expanded to cover crop failure. II. Interest rates on farm loans should be reduced.",
+      "as": "বিবৃতি: ঋণৰ বোজা বাঢ়ি যোৱাৰ বাবে কৃষকে আত্মহত্যা কৰিছে। কাৰ্যপন্থা: I. শস্য বিফলতাৰ বাবে শস্য বীমা সম্প্ৰসাৰিত কৰা উচিত। II. কৃষি ঋণৰ সুতৰ হাৰ কমোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-022",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Farmers are committing suicide because of mounting debt. Courses of action: I. Crop insurance should be expanded to cover crop failure. II. Farmers should stop farming altogether.",
+      "as": "বিবৃতি: ঋণৰ বোজা বাঢ়ি যোৱাৰ বাবে কৃষকে আত্মহত্যা কৰিছে। কাৰ্যপন্থা: I. শস্য বিফলতাৰ বাবে শস্য বীমা সম্প্ৰসাৰিত কৰা উচিত। II. কৃষকে খেতি কৰা সম্পূৰ্ণ বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-023",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Farmers are committing suicide because of mounting debt. Courses of action: I. Farmers should stop farming altogether. II. Interest rates on farm loans should be reduced.",
+      "as": "বিবৃতি: ঋণৰ বোজা বাঢ়ি যোৱাৰ বাবে কৃষকে আত্মহত্যা কৰিছে। কাৰ্যপন্থা: I. কৃষকে খেতি কৰা সম্পূৰ্ণ বন্ধ কৰা উচিত। II. কৃষি ঋণৰ সুতৰ হাৰ কমোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-024",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Farmers are committing suicide because of mounting debt. Courses of action: I. Farmers should stop farming altogether. II. All banks in the district should be closed.",
+      "as": "বিবৃতি: ঋণৰ বোজা বাঢ়ি যোৱাৰ বাবে কৃষকে আত্মহত্যা কৰিছে। কাৰ্যপন্থা: I. কৃষকে খেতি কৰা সম্পূৰ্ণ বন্ধ কৰা উচিত। II. জিলাখনৰ সকলো বেংক বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-025",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Air pollution in the capital has reached dangerous levels. Courses of action: I. Old and polluting vehicles should be phased out. II. Public transport should be strengthened.",
+      "as": "বিবৃতি: ৰাজধানীৰ বায়ু প্ৰদূষণ বিপজ্জনক পৰ্যায়ত উপনীত হৈছে। কাৰ্যপন্থা: I. পুৰণি আৰু প্ৰদূষণকাৰী বাহন ক্ৰমে আঁতৰোৱা উচিত। II. ৰাজহুৱা পৰিবহণ সবল কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-026",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Air pollution in the capital has reached dangerous levels. Courses of action: I. Old and polluting vehicles should be phased out. II. People should wear black clothes.",
+      "as": "বিবৃতি: ৰাজধানীৰ বায়ু প্ৰদূষণ বিপজ্জনক পৰ্যায়ত উপনীত হৈছে। কাৰ্যপন্থা: I. পুৰণি আৰু প্ৰদূষণকাৰী বাহন ক্ৰমে আঁতৰোৱা উচিত। II. লোকে ক'লা কাপোৰ পিন্ধা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-027",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Air pollution in the capital has reached dangerous levels. Courses of action: I. People should wear black clothes. II. Public transport should be strengthened.",
+      "as": "বিবৃতি: ৰাজধানীৰ বায়ু প্ৰদূষণ বিপজ্জনক পৰ্যায়ত উপনীত হৈছে। কাৰ্যপন্থা: I. লোকে ক'লা কাপোৰ পিন্ধা উচিত। II. ৰাজহুৱা পৰিবহণ সবল কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-028",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Air pollution in the capital has reached dangerous levels. Courses of action: I. People should wear black clothes. II. Factories should operate only at night.",
+      "as": "বিবৃতি: ৰাজধানীৰ বায়ু প্ৰদূষণ বিপজ্জনক পৰ্যায়ত উপনীত হৈছে। কাৰ্যপন্থা: I. লোকে ক'লা কাপোৰ পিন্ধা উচিত। II. কাৰখানাবোৰে কেৱল ৰাতিহে কাম কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-029",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many children in the district are malnourished. Courses of action: I. Nutrition supplements should be distributed to children. II. Anganwadi centres should be strengthened.",
+      "as": "বিবৃতি: জিলাখনত বহু শিশু পুষ্টিহীন। কাৰ্যপন্থা: I. শিশুক পুষ্টি সম্পূৰক বিতৰণ কৰা উচিত। II. অংগনৱাড়ী কেন্দ্ৰবোৰ সবল কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-030",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many children in the district are malnourished. Courses of action: I. Nutrition supplements should be distributed to children. II. Children should be given less food.",
+      "as": "বিবৃতি: জিলাখনত বহু শিশু পুষ্টিহীন। কাৰ্যপন্থা: I. শিশুক পুষ্টি সম্পূৰক বিতৰণ কৰা উচিত। II. শিশুক কম খাদ্য দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-031",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many children in the district are malnourished. Courses of action: I. Children should be given less food. II. Anganwadi centres should be strengthened.",
+      "as": "বিবৃতি: জিলাখনত বহু শিশু পুষ্টিহীন। কাৰ্যপন্থা: I. শিশুক কম খাদ্য দিয়া উচিত। II. অংগনৱাড়ী কেন্দ্ৰবোৰ সবল কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-032",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many children in the district are malnourished. Courses of action: I. Children should be given less food. II. Schools should serve only sweets.",
+      "as": "বিবৃতি: জিলাখনত বহু শিশু পুষ্টিহীন। কাৰ্যপন্থা: I. শিশুক কম খাদ্য দিয়া উচিত। II. বিদ্যালয়ে কেৱল মিঠাই পৰিবেশন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-033",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Cybercrime against women is increasing. Courses of action: I. A dedicated cyber helpdesk should be set up. II. Awareness campaigns on online safety should be run.",
+      "as": "বিবৃতি: মহিলাৰ বিৰুদ্ধে চাইবাৰ অপৰাধ বাঢ়িছে। কাৰ্যপন্থা: I. এক বিশেষ চাইবাৰ সহায়-কেন্দ্ৰ স্থাপন কৰা উচিত। II. অনলাইন সুৰক্ষাৰ সজাগতা অভিযান চলোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-034",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Cybercrime against women is increasing. Courses of action: I. A dedicated cyber helpdesk should be set up. II. Women should stop using mobile phones.",
+      "as": "বিবৃতি: মহিলাৰ বিৰুদ্ধে চাইবাৰ অপৰাধ বাঢ়িছে। কাৰ্যপন্থা: I. এক বিশেষ চাইবাৰ সহায়-কেন্দ্ৰ স্থাপন কৰা উচিত। II. মহিলাই ম'বাইল ফোন ব্যৱহাৰ বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-035",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Cybercrime against women is increasing. Courses of action: I. Women should stop using mobile phones. II. Awareness campaigns on online safety should be run.",
+      "as": "বিবৃতি: মহিলাৰ বিৰুদ্ধে চাইবাৰ অপৰাধ বাঢ়িছে। কাৰ্যপন্থা: I. মহিলাই ম'বাইল ফোন ব্যৱহাৰ বন্ধ কৰা উচিত। II. অনলাইন সুৰক্ষাৰ সজাগতা অভিযান চলোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-036",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Cybercrime against women is increasing. Courses of action: I. Women should stop using mobile phones. II. The internet should be banned for everyone.",
+      "as": "বিবৃতি: মহিলাৰ বিৰুদ্ধে চাইবাৰ অপৰাধ বাঢ়িছে। কাৰ্যপন্থা: I. মহিলাই ম'বাইল ফোন ব্যৱহাৰ বন্ধ কৰা উচিত। II. সকলোৰে বাবে ইণ্টাৰনেট নিষিদ্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-037",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Traffic jams are common during office hours. Courses of action: I. Metro services should be expanded. II. Staggered office timings should be introduced.",
+      "as": "বিবৃতি: কাৰ্যালয়ৰ সময়ত যাতায়তৰ জাম সাধাৰণ কথা। কাৰ্যপন্থা: I. মেট্ৰ' সেৱা সম্প্ৰসাৰিত কৰা উচিত। II. পৰ্যায়ক্ৰমে কাৰ্যালয়ৰ সময় নিৰ্ধাৰণ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-038",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Traffic jams are common during office hours. Courses of action: I. Metro services should be expanded. II. Cars should be banned on Sundays.",
+      "as": "বিবৃতি: কাৰ্যালয়ৰ সময়ত যাতায়তৰ জাম সাধাৰণ কথা। কাৰ্যপন্থা: I. মেট্ৰ' সেৱা সম্প্ৰসাৰিত কৰা উচিত। II. দেওবাৰে গাড়ী নিষিদ্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-039",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Traffic jams are common during office hours. Courses of action: I. Cars should be banned on Sundays. II. Staggered office timings should be introduced.",
+      "as": "বিবৃতি: কাৰ্যালয়ৰ সময়ত যাতায়তৰ জাম সাধাৰণ কথা। কাৰ্যপন্থা: I. দেওবাৰে গাড়ী নিষিদ্ধ কৰা উচিত। II. পৰ্যায়ক্ৰমে কাৰ্যালয়ৰ সময় নিৰ্ধাৰণ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-040",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Traffic jams are common during office hours. Courses of action: I. Cars should be banned on Sundays. II. People should walk to office every day.",
+      "as": "বিবৃতি: কাৰ্যালয়ৰ সময়ত যাতায়তৰ জাম সাধাৰণ কথা। কাৰ্যপন্থা: I. দেওবাৰে গাড়ী নিষিদ্ধ কৰা উচিত। II. লোকে প্ৰতিদিনে খোজ কাঢ়ি কাৰ্যালয়লৈ যোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-041",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The village has no proper drinking water supply. Courses of action: I. Tube wells should be installed. II. Water treatment units should be set up.",
+      "as": "বিবৃতি: গাঁওখনত উপযুক্ত খোৱা পানীৰ যোগান নাই। কাৰ্যপন্থা: I. নল-কুঁৱা স্থাপন কৰা উচিত। II. পানী শোধন কেন্দ্ৰ স্থাপন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-042",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The village has no proper drinking water supply. Courses of action: I. Tube wells should be installed. II. Villagers should buy bottled water only.",
+      "as": "বিবৃতি: গাঁওখনত উপযুক্ত খোৱা পানীৰ যোগান নাই। কাৰ্যপন্থা: I. নল-কুঁৱা স্থাপন কৰা উচিত। II. গাঁৱলীয়ে কেৱল বটলত ভৰোৱা পানী কিনা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-043",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The village has no proper drinking water supply. Courses of action: I. Villagers should buy bottled water only. II. Water treatment units should be set up.",
+      "as": "বিবৃতি: গাঁওখনত উপযুক্ত খোৱা পানীৰ যোগান নাই। কাৰ্যপন্থা: I. গাঁৱলীয়ে কেৱল বটলত ভৰোৱা পানী কিনা উচিত। II. পানী শোধন কেন্দ্ৰ স্থাপন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-044",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The village has no proper drinking water supply. Courses of action: I. Villagers should buy bottled water only. II. The village should be relocated.",
+      "as": "বিবৃতি: গাঁওখনত উপযুক্ত খোৱা পানীৰ যোগান নাই। কাৰ্যপন্থা: I. গাঁৱলীয়ে কেৱল বটলত ভৰোৱা পানী কিনা উচিত। II. গাঁওখন স্থানান্তৰ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-045",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many workers in the factory fell ill last month. Courses of action: I. The factory's safety standards should be inspected. II. Medical camps should be organised for the workers.",
+      "as": "বিবৃতি: যোৱা মাহত কাৰখানাৰ বহু শ্ৰমিক অসুস্থ হৈ পৰিছে। কাৰ্যপন্থা: I. কাৰখানাৰ সুৰক্ষা মান পৰীক্ষা কৰা উচিত। II. শ্ৰমিকৰ বাবে চিকিৎসা শিবিৰ আয়োজন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-046",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many workers in the factory fell ill last month. Courses of action: I. The factory's safety standards should be inspected. II. The factory should be decorated.",
+      "as": "বিবৃতি: যোৱা মাহত কাৰখানাৰ বহু শ্ৰমিক অসুস্থ হৈ পৰিছে। কাৰ্যপন্থা: I. কাৰখানাৰ সুৰক্ষা মান পৰীক্ষা কৰা উচিত। II. কাৰখানাখন সজোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-047",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many workers in the factory fell ill last month. Courses of action: I. The factory should be decorated. II. Medical camps should be organised for the workers.",
+      "as": "বিবৃতি: যোৱা মাহত কাৰখানাৰ বহু শ্ৰমিক অসুস্থ হৈ পৰিছে। কাৰ্যপন্থা: I. কাৰখানাখন সজোৱা উচিত। II. শ্ৰমিকৰ বাবে চিকিৎসা শিবিৰ আয়োজন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-048",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many workers in the factory fell ill last month. Courses of action: I. The factory should be decorated. II. Workers should work longer hours.",
+      "as": "বিবৃতি: যোৱা মাহত কাৰখানাৰ বহু শ্ৰমিক অসুস্থ হৈ পৰিছে। কাৰ্যপন্থা: I. কাৰখানাখন সজোৱা উচিত। II. শ্ৰমিকে অধিক সময় কাম কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-049",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Prices of essential commodities are rising. Courses of action: I. The government should release buffer stocks. II. Hoarding should be checked strictly.",
+      "as": "বিবৃতি: অত্যাৱশ্যকীয় সামগ্ৰীৰ দাম বাঢ়িছে। কাৰ্যপন্থা: I. চৰকাৰে বাফাৰ মজুত মুকলি কৰা উচিত। II. মজুতদাৰী কঠোৰভাৱে নিয়ন্ত্ৰণ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-050",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Prices of essential commodities are rising. Courses of action: I. The government should release buffer stocks. II. People should stop eating.",
+      "as": "বিবৃতি: অত্যাৱশ্যকীয় সামগ্ৰীৰ দাম বাঢ়িছে। কাৰ্যপন্থা: I. চৰকাৰে বাফাৰ মজুত মুকলি কৰা উচিত। II. লোকে খোৱা বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-051",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Prices of essential commodities are rising. Courses of action: I. People should stop eating. II. Hoarding should be checked strictly.",
+      "as": "বিবৃতি: অত্যাৱশ্যকীয় সামগ্ৰীৰ দাম বাঢ়িছে। কাৰ্যপন্থা: I. লোকে খোৱা বন্ধ কৰা উচিত। II. মজুতদাৰী কঠোৰভাৱে নিয়ন্ত্ৰণ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-052",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Prices of essential commodities are rising. Courses of action: I. People should stop eating. II. All shops should be closed.",
+      "as": "বিবৃতি: অত্যাৱশ্যকীয় সামগ্ৰীৰ দাম বাঢ়িছে। কাৰ্যপন্থা: I. লোকে খোৱা বন্ধ কৰা উচিত। II. সকলো দোকান বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-053",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Deforestation is increasing in the hills. Courses of action: I. Afforestation drives should be launched. II. Illegal logging should be punished.",
+      "as": "বিবৃতি: পাহাৰত বনাঞ্চল ধ্বংস বাঢ়িছে। কাৰ্যপন্থা: I. বৃক্ষৰোপণ অভিযান আৰম্ভ কৰা উচিত। II. অবৈধ গছ কটাৰ শাস্তি দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-054",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Deforestation is increasing in the hills. Courses of action: I. Afforestation drives should be launched. II. Trees should be cut faster.",
+      "as": "বিবৃতি: পাহাৰত বনাঞ্চল ধ্বংস বাঢ়িছে। কাৰ্যপন্থা: I. বৃক্ষৰোপণ অভিযান আৰম্ভ কৰা উচিত। II. গছ দ্ৰুতগতিত কটা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-055",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Deforestation is increasing in the hills. Courses of action: I. Trees should be cut faster. II. Illegal logging should be punished.",
+      "as": "বিবৃতি: পাহাৰত বনাঞ্চল ধ্বংস বাঢ়িছে। কাৰ্যপন্থা: I. গছ দ্ৰুতগতিত কটা উচিত। II. অবৈধ গছ কটাৰ শাস্তি দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-056",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Deforestation is increasing in the hills. Courses of action: I. Trees should be cut faster. II. The hills should be covered with plastic.",
+      "as": "বিবৃতি: পাহাৰত বনাঞ্চল ধ্বংস বাঢ়িছে। কাৰ্যপন্থা: I. গছ দ্ৰুতগতিত কটা উচিত। II. পাহাৰবোৰ প্লাষ্টিকেৰে ঢাকি দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-057",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students fail in mathematics. Courses of action: I. Remedial classes should be arranged. II. Teachers should be trained in better teaching methods.",
+      "as": "বিবৃতি: বহু ছাত্ৰ গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: I. পৰিপূৰক শ্ৰেণীৰ ব্যৱস্থা কৰা উচিত। II. শিক্ষকক উন্নত শিক্ষণ পদ্ধতিত প্ৰশিক্ষণ দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-058",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students fail in mathematics. Courses of action: I. Remedial classes should be arranged. II. Mathematics should be removed from the syllabus.",
+      "as": "বিবৃতি: বহু ছাত্ৰ গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: I. পৰিপূৰক শ্ৰেণীৰ ব্যৱস্থা কৰা উচিত। II. পাঠ্যক্ৰমৰ পৰা গণিত আঁতৰোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-059",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students fail in mathematics. Courses of action: I. Mathematics should be removed from the syllabus. II. Teachers should be trained in better teaching methods.",
+      "as": "বিবৃতি: বহু ছাত্ৰ গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: I. পাঠ্যক্ৰমৰ পৰা গণিত আঁতৰোৱা উচিত। II. শিক্ষকক উন্নত শিক্ষণ পদ্ধতিত প্ৰশিক্ষণ দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-060",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many students fail in mathematics. Courses of action: I. Mathematics should be removed from the syllabus. II. Students should be promoted without examinations.",
+      "as": "বিবৃতি: বহু ছাত্ৰ গণিতত অনুত্তীৰ্ণ হয়। কাৰ্যপন্থা: I. পাঠ্যক্ৰমৰ পৰা গণিত আঁতৰোৱা উচিত। II. পৰীক্ষা নোহোৱাকৈ ছাত্ৰক উত্তীৰ্ণ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-061",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The railway station is very dirty. Courses of action: I. Sanitation staff should be increased. II. Fines should be imposed on those who litter.",
+      "as": "বিবৃতি: ৰে'ল ষ্টেচনটো অতি লেতেৰা। কাৰ্যপন্থা: I. পৰিচ্ছন্নতা কৰ্মীৰ সংখ্যা বঢ়োৱা উচিত। II. আৱৰ্জনা পেলোৱাসকলক জৰিমনা কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-062",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The railway station is very dirty. Courses of action: I. Sanitation staff should be increased. II. Passengers should stay at home.",
+      "as": "বিবৃতি: ৰে'ল ষ্টেচনটো অতি লেতেৰা। কাৰ্যপন্থা: I. পৰিচ্ছন্নতা কৰ্মীৰ সংখ্যা বঢ়োৱা উচিত। II. যাত্ৰীয়ে ঘৰতে থাকা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-063",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The railway station is very dirty. Courses of action: I. Passengers should stay at home. II. Fines should be imposed on those who litter.",
+      "as": "বিবৃতি: ৰে'ল ষ্টেচনটো অতি লেতেৰা। কাৰ্যপন্থা: I. যাত্ৰীয়ে ঘৰতে থাকা উচিত। II. আৱৰ্জনা পেলোৱাসকলক জৰিমনা কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-064",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: The railway station is very dirty. Courses of action: I. Passengers should stay at home. II. Trains should not stop at this station.",
+      "as": "বিবৃতি: ৰে'ল ষ্টেচনটো অতি লেতেৰা। কাৰ্যপন্থা: I. যাত্ৰীয়ে ঘৰতে থাকা উচিত। II. ৰে'লে এই ষ্টেচনত ৰোৱা উচিত নহয়।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-065",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Power cuts are frequent in the town. Courses of action: I. Transmission lines should be upgraded. II. Alternative sources like solar should be promoted.",
+      "as": "বিবৃতি: চহৰত বিদ্যুৎ কটা সঘনে হয়। কাৰ্যপন্থা: I. সংযোগ লাইন উন্নত কৰা উচিত। II. সৌৰশক্তিৰ দৰে বিকল্প উৎস উৎসাহিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-066",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Power cuts are frequent in the town. Courses of action: I. Transmission lines should be upgraded. II. People should use candles only.",
+      "as": "বিবৃতি: চহৰত বিদ্যুৎ কটা সঘনে হয়। কাৰ্যপন্থা: I. সংযোগ লাইন উন্নত কৰা উচিত। II. লোকে কেৱল মমবাতি ব্যৱহাৰ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-067",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Power cuts are frequent in the town. Courses of action: I. People should use candles only. II. Alternative sources like solar should be promoted.",
+      "as": "বিবৃতি: চহৰত বিদ্যুৎ কটা সঘনে হয়। কাৰ্যপন্থা: I. লোকে কেৱল মমবাতি ব্যৱহাৰ কৰা উচিত। II. সৌৰশক্তিৰ দৰে বিকল্প উৎস উৎসাহিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-068",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Power cuts are frequent in the town. Courses of action: I. People should use candles only. II. Electricity should be made free for all.",
+      "as": "বিবৃতি: চহৰত বিদ্যুৎ কটা সঘনে হয়। কাৰ্যপন্থা: I. লোকে কেৱল মমবাতি ব্যৱহাৰ কৰা উচিত। II. সকলোৰে বাবে বিদ্যুৎ বিনামূলীয়া কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-069",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Domestic violence cases are rising. Courses of action: I. Helplines for victims should be strengthened. II. Legal awareness programmes should be held.",
+      "as": "বিবৃতি: পাৰিবাৰিক হিংসাৰ ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ভুক্তভোগীৰ বাবে সহায়-লাইন সবল কৰা উচিত। II. আইনী সজাগতা কাৰ্যসূচী অনুষ্ঠিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-070",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Domestic violence cases are rising. Courses of action: I. Helplines for victims should be strengthened. II. Victims should remain silent.",
+      "as": "বিবৃতি: পাৰিবাৰিক হিংসাৰ ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ভুক্তভোগীৰ বাবে সহায়-লাইন সবল কৰা উচিত। II. ভুক্তভোগীয়ে মনে মনে থাকা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-071",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Domestic violence cases are rising. Courses of action: I. Victims should remain silent. II. Legal awareness programmes should be held.",
+      "as": "বিবৃতি: পাৰিবাৰিক হিংসাৰ ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ভুক্তভোগীয়ে মনে মনে থাকা উচিত। II. আইনী সজাগতা কাৰ্যসূচী অনুষ্ঠিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-072",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Domestic violence cases are rising. Courses of action: I. Victims should remain silent. II. Police should ignore such cases.",
+      "as": "বিবৃতি: পাৰিবাৰিক হিংসাৰ ঘটনা বাঢ়িছে। কাৰ্যপন্থা: I. ভুক্তভোগীয়ে মনে মনে থাকা উচিত। II. আৰক্ষীয়ে এনে গোচৰ উপেক্ষা কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-073",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Plastic waste is choking the drains. Courses of action: I. Segregated waste collection should be started. II. Single-use plastic should be restricted.",
+      "as": "বিবৃতি: প্লাষ্টিক আৱৰ্জনাই নলা বন্ধ কৰিছে। কাৰ্যপন্থা: I. পৃথক আৱৰ্জনা সংগ্ৰহ আৰম্ভ কৰা উচিত। II. একবাৰ ব্যৱহাৰৰ প্লাষ্টিক সীমিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-074",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Plastic waste is choking the drains. Courses of action: I. Segregated waste collection should be started. II. The drains should be covered with slabs.",
+      "as": "বিবৃতি: প্লাষ্টিক আৱৰ্জনাই নলা বন্ধ কৰিছে। কাৰ্যপন্থা: I. পৃথক আৱৰ্জনা সংগ্ৰহ আৰম্ভ কৰা উচিত। II. নলাবোৰ শিলেৰে ঢাকি দিয়া উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-075",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Plastic waste is choking the drains. Courses of action: I. The drains should be covered with slabs. II. Single-use plastic should be restricted.",
+      "as": "বিবৃতি: প্লাষ্টিক আৱৰ্জনাই নলা বন্ধ কৰিছে। কাৰ্যপন্থা: I. নলাবোৰ শিলেৰে ঢাকি দিয়া উচিত। II. একবাৰ ব্যৱহাৰৰ প্লাষ্টিক সীমিত কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-076",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Plastic waste is choking the drains. Courses of action: I. The drains should be covered with slabs. II. Waste should be dumped into the rivers.",
+      "as": "বিবৃতি: প্লাষ্টিক আৱৰ্জনাই নলা বন্ধ কৰিছে। কাৰ্যপন্থা: I. নলাবোৰ শিলেৰে ঢাকি দিয়া উচিত। II. আৱৰ্জনা নদীত পেলোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-077",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many pensioners face delays in receiving their pension. Courses of action: I. Digital pension disbursal should be introduced. II. A grievance cell should be set up for pensioners.",
+      "as": "বিবৃতি: বহু পেন্সনাৰে পেন্সন পাবলৈ পলমৰ সন্মুখীন হয়। কাৰ্যপন্থা: I. ডিজিটেল পেন্সন বিতৰণ আৰম্ভ কৰা উচিত। II. পেন্সনাৰৰ বাবে অভিযোগ কোষ স্থাপন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I follows and action II follows. Hence: Both courses of action follow.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-078",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many pensioners face delays in receiving their pension. Courses of action: I. Digital pension disbursal should be introduced. II. Pension should be stopped.",
+      "as": "বিবৃতি: বহু পেন্সনাৰে পেন্সন পাবলৈ পলমৰ সন্মুখীন হয়। কাৰ্যপন্থা: I. ডিজিটেল পেন্সন বিতৰণ আৰম্ভ কৰা উচিত। II. পেন্সন বন্ধ কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Action I follows and action II does not follow. Hence: Only course of action I follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ কৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-079",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many pensioners face delays in receiving their pension. Courses of action: I. Pension should be stopped. II. A grievance cell should be set up for pensioners.",
+      "as": "বিবৃতি: বহু পেন্সনাৰে পেন্সন পাবলৈ পলমৰ সন্মুখীন হয়। কাৰ্যপন্থা: I. পেন্সন বন্ধ কৰা উচিত। II. পেন্সনাৰৰ বাবে অভিযোগ কোষ স্থাপন কৰা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Action I does not follow and action II follows. Hence: Only course of action II follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ কৰে। সেয়ে: কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-statement-course-of-action-080",
+    "leaf": "statement-course-of-action",
+    "q": {
+      "en": "Statement: Many pensioners face delays in receiving their pension. Courses of action: I. Pension should be stopped. II. Pensioners should visit the office daily.",
+      "as": "বিবৃতি: বহু পেন্সনাৰে পেন্সন পাবলৈ পলমৰ সন্মুখীন হয়। কাৰ্যপন্থা: I. পেন্সন বন্ধ কৰা উচিত। II. পেন্সনাৰে প্ৰতিদিনে কাৰ্যালয়লৈ যোৱা উচিত।"
+    },
+    "options": [
+      {
+        "en": "Only course of action I follows",
+        "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither course of action follows",
+        "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only course of action II follows",
+        "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both courses of action follow",
+        "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Action I does not follow and action II does not follow. Hence: Neither course of action follows.",
+      "as": "কাৰ্যপন্থা I অনুসৰণ নকৰে, কাৰ্যপন্থা II অনুসৰণ নকৰে। সেয়ে: কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে।"
+    }
+  }
+]

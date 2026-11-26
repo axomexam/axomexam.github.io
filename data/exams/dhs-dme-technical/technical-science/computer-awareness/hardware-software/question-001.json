@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "computer-031",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is a volatile component of a computer?",
+      "as": "তলৰ কোনটো কম্পিউটাৰৰ অস্থিৰ অংশ"
+    },
+    "options": [
+      {
+        "en": "BIOS chip",
+        "as": "BIOS চিপ"
+      },
+      {
+        "en": "RAM module",
+        "as": "RAM মডিউল"
+      },
+      {
+        "en": "hard disk",
+        "as": "হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "DVD",
+        "as": "ডিভিডি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A RAM module holds charge that leaks away without power, so it is volatile. Disks and the BIOS chip keep their data.",
+      "as": "RAM মডিউলৰ আধান বিদ্যুৎ নোহোৱাকৈ লাহে লাহে যায়, সেয়ে ই অস্থিৰ। ডিস্ক আৰু BIOS চিপে তথ্য ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-032",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The component that supplies power to all parts of a desktop computer is the",
+      "as": "ডেস্কটপ কম্পিউটাৰৰ সকলো অংশলৈ শক্তি যোগান ধৰা অংশটো"
+    },
+    "options": [
+      {
+        "en": "SMPS",
+        "as": "SMPS"
+      },
+      {
+        "en": "CPU",
+        "as": "CPU"
+      },
+      {
+        "en": "GPU",
+        "as": "GPU"
+      },
+      {
+        "en": "NIC",
+        "as": "NIC"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The switched mode power supply converts mains AC into the low DC voltages the board needs. The CPU only consumes that power.",
+      "as": "SMPS এ মেইন AC ক বৰ্তনীৰ প্ৰয়োজনীয় কম DC ভল্টেজলৈ সলায়। CPU এ কেবল সেই শক্তি খৰচ কৰে।"
+    }
+  },
+  {
+    "id": "computer-033",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is application software?",
+      "as": "তলৰ কোনটো এপ্লিকেশ্যন ছফ্টৱেৰ"
+    },
+    "options": [
+      {
+        "en": "device driver",
+        "as": "ডিভাইচ ড্ৰাইভাৰ"
+      },
+      {
+        "en": "linker",
+        "as": "লিংকাৰ"
+      },
+      {
+        "en": "firmware",
+        "as": "ফাৰ্মৱেৰ"
+      },
+      {
+        "en": "a payroll package",
+        "as": "এটা পেৰ'ল পেকেজ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A payroll package does a user's work, so it is application software. Drivers, linkers and firmware serve the machine itself.",
+      "as": "পেৰ'ল পেকেজে ব্যৱহাৰকাৰীৰ কাম কৰে, সেয়ে ই এপ্লিকেশ্যন ছফ্টৱেৰ। ড্ৰাইভাৰ, লিংকাৰ আৰু ফাৰ্মৱেৰে যন্ত্ৰটোক সহায় কৰে।"
+    }
+  },
+  {
+    "id": "computer-034",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A ROM chip that can be erased and rewritten using ultraviolet light is",
+      "as": "অতি-বেঙুনীয়া পোহৰেৰে মচি পুনৰ লিখিব পৰা ROM চিপ"
+    },
+    "options": [
+      {
+        "en": "DRAM",
+        "as": "DRAM"
+      },
+      {
+        "en": "SRAM",
+        "as": "SRAM"
+      },
+      {
+        "en": "EPROM",
+        "as": "EPROM"
+      },
+      {
+        "en": "PROM",
+        "as": "PROM"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Erasable programmable ROM clears under ultraviolet light. PROM can be written only once and cannot be erased.",
+      "as": "EPROM অতি-বেঙুনীয়া পোহৰত মচি যায়। PROM কেবল এবাৰ লিখা যায় আৰু মচিব নোৱাৰি।"
+    }
+  },
+  {
+    "id": "computer-035",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which port is commonly used to connect a monitor?",
+      "as": "মনিটৰ সংযোগ কৰিবলৈ সাধাৰণতে কোন প'ৰ্ট ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "PS/2",
+        "as": "PS/2"
+      },
+      {
+        "en": "HDMI",
+        "as": "HDMI"
+      },
+      {
+        "en": "RJ-45",
+        "as": "RJ-45"
+      },
+      {
+        "en": "USB-A",
+        "as": "USB-A"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HDMI carries digital video and audio to a display. RJ-45 is for network cable and PS/2 for old keyboards.",
+      "as": "HDMI এ ডিজিটেল ভিডিঅ' আৰু অডিঅ' ডিচপ্লেলৈ নিয়ে। RJ-45 নেটৱৰ্ক কেবলৰ আৰু PS/2 পুৰণি কীবৰ্ডৰ।"
+    }
+  },
+  {
+    "id": "computer-036",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The set of instructions that tells the hardware what to do is called",
+      "as": "হাৰ্ডৱেৰক কি কৰিব লাগে কোৱা নিৰ্দেশৰ সমষ্টিক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "software",
+        "as": "ছফ্টৱেৰ"
+      },
+      {
+        "en": "firmware only",
+        "as": "কেৱল ফাৰ্মৱেৰ"
+      },
+      {
+        "en": "hardware",
+        "as": "হাৰ্ডৱেৰ"
+      },
+      {
+        "en": "peripheral",
+        "as": "পেৰিফেৰেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Software is the general term for programs and the data they work on. Hardware is the physical equipment itself.",
+      "as": "ছফ্টৱেৰ প্ৰগ্ৰাম আৰু তাৰ তথ্যৰ সাধাৰণ নাম। হাৰ্ডৱেৰ শাৰীৰিক সজুলি।"
+    }
+  },
+  {
+    "id": "computer-037",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is a pointing device?",
+      "as": "তলৰ কোনটো নিৰ্দেশক সজুলি"
+    },
+    "options": [
+      {
+        "en": "plotter",
+        "as": "প্লটাৰ"
+      },
+      {
+        "en": "speaker",
+        "as": "স্পীকাৰ"
+      },
+      {
+        "en": "projector",
+        "as": "প্ৰজেক্টৰ"
+      },
+      {
+        "en": "trackball",
+        "as": "ট্ৰেকবল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A trackball moves a pointer on screen by rolling a ball, so it points. The rest produce output.",
+      "as": "ট্ৰেকবলে বল ঘূৰাই পৰ্দাত পইণ্টাৰ লৰায়, সেয়ে ই নিৰ্দেশ কৰে। বাকীবোৰে আউটপুট দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-038",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The firmware that starts a computer and tests the hardware is the",
+      "as": "কম্পিউটাৰ আৰম্ভ কৰি হাৰ্ডৱেৰ পৰীক্ষা কৰা ফাৰ্মৱেৰটো"
+    },
+    "options": [
+      {
+        "en": "kernel",
+        "as": "কাৰ্নেল"
+      },
+      {
+        "en": "shell",
+        "as": "শ্বেল"
+      },
+      {
+        "en": "BIOS",
+        "as": "BIOS"
+      },
+      {
+        "en": "driver",
+        "as": "ড্ৰাইভাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The basic input output system runs a power-on self test and then loads the boot loader. The kernel comes later, inside the operating system.",
+      "as": "BIOS এ আৰম্ভণিৰ স্ব-পৰীক্ষা চলাই তাৰ পিছত বুট লোডাৰ লোড কৰে। কাৰ্নেল পিছত, অপাৰেটিং চিষ্টেমৰ ভিতৰত আহে।"
+    }
+  },
+  {
+    "id": "computer-039",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is an example of a solid state storage device?",
+      "as": "তলৰ কোনটো কঠিন অৱস্থা সঞ্চয় সজুলিৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "floppy disk",
+        "as": "ফ্লপি ডিস্ক"
+      },
+      {
+        "en": "SSD",
+        "as": "SSD"
+      },
+      {
+        "en": "HDD",
+        "as": "HDD"
+      },
+      {
+        "en": "CD-ROM",
+        "as": "CD-ROM"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A solid state drive stores data in flash chips with no moving parts. A hard disk spins magnetic platters.",
+      "as": "SSD এ চলন্ত অংশ নথকা ফ্লেশ্ব চিপত তথ্য ৰাখে। হাৰ্ড ডিস্কে চুম্বকীয় প্লেটাৰ ঘূৰায়।"
+    }
+  },
+  {
+    "id": "computer-040",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A program that translates the whole source code at once before running is a",
+      "as": "চলোৱাৰ আগতে গোটেই উৎস ক'ড একেলগে অনুবাদ কৰা প্ৰগ্ৰামটো"
+    },
+    "options": [
+      {
+        "en": "compiler",
+        "as": "কম্পাইলাৰ"
+      },
+      {
+        "en": "interpreter",
+        "as": "ইন্টাৰপ্ৰেটৰ"
+      },
+      {
+        "en": "assembler",
+        "as": "এচেম্বলাৰ"
+      },
+      {
+        "en": "linker",
+        "as": "লিংকাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A compiler produces an executable file in one pass. An interpreter translates and runs line by line.",
+      "as": "কম্পাইলাৰে এবাৰতে চলনশীল ফাইল বনায়। ইন্টাৰপ্ৰেটৰে শাৰী শাৰী অনুবাদ কৰি চলে।"
+    }
+  },
+  {
+    "id": "computer-041",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is used to connect a computer to a local network by cable?",
+      "as": "কেবলেৰে কম্পিউটাৰ স্থানীয় নেটৱৰ্কত সংযোগ কৰিবলৈ কোনটো ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "sound card",
+        "as": "ছাউণ্ড কাৰ্ড"
+      },
+      {
+        "en": "graphics card",
+        "as": "গ্ৰাফিক্স কাৰ্ড"
+      },
+      {
+        "en": "TV tuner card",
+        "as": "TV টিউনাৰ কাৰ্ড"
+      },
+      {
+        "en": "Ethernet card",
+        "as": "ইথাৰনেট কাৰ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A network interface card provides the RJ-45 socket and handles packet traffic. Sound and graphics cards do entirely different jobs.",
+      "as": "নেটৱৰ্ক ইন্টাৰফেচ কাৰ্ডে RJ-45 ছকেট দিয়ে আৰু পেকেট চলায়। ছাউণ্ড আৰু গ্ৰাফিক্স কাৰ্ডে সম্পূৰ্ণ বেলেগ কাম কৰে।"
+    }
+  },
+  {
+    "id": "computer-042",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The difference between hardware and software is that hardware is",
+      "as": "হাৰ্ডৱেৰ আৰু ছফ্টৱেৰৰ পাৰ্থক্য হ'ল হাৰ্ডৱেৰ"
+    },
+    "options": [
+      {
+        "en": "stored only on disk",
+        "as": "কেৱল ডিস্কত ৰখা"
+      },
+      {
+        "en": "always free of cost",
+        "as": "সদায় বিনামূলীয়া"
+      },
+      {
+        "en": "physical and can be touched",
+        "as": "শাৰীৰিক আৰু স্পৰ্শ কৰিব পৰা"
+      },
+      {
+        "en": "written in a high level language",
+        "as": "উচ্চস্তৰীয় ভাষাত লিখা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Hardware is the tangible equipment, while software is the intangible set of instructions. Software has no physical form.",
+      "as": "হাৰ্ডৱেৰ স্পৰ্শযোগ্য সজুলি, ছফ্টৱেৰ অস্পৰ্শযোগ্য নিৰ্দেশৰ সমষ্টি। ছফ্টৱেৰৰ শাৰীৰিক ৰূপ নাই।"
+    }
+  },
+  {
+    "id": "computer-043",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following memories is read and written by the processor during execution?",
+      "as": "কাৰ্যকৰণৰ সময়ত প্ৰচেছৰে কোন স্মৃতি পঢ়ে আৰু লিখে"
+    },
+    "options": [
+      {
+        "en": "BIOS",
+        "as": "BIOS"
+      },
+      {
+        "en": "main memory",
+        "as": "মূল স্মৃতি"
+      },
+      {
+        "en": "ROM",
+        "as": "ROM"
+      },
+      {
+        "en": "cache only",
+        "as": "কেৱল কেশ্ব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Programs and working data sit in main memory while they run, so the processor reads and writes it constantly.",
+      "as": "চলি থকা অৱস্থাত প্ৰগ্ৰাম আৰু কামৰ তথ্য মূল স্মৃতিত থাকে, সেয়ে প্ৰচেছৰে ইয়াক নিৰন্তৰ পঢ়ে আৰু লিখে।"
+    }
+  },
+  {
+    "id": "computer-044",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A device driver is",
+      "as": "ডিভাইচ ড্ৰাইভাৰ হ'ল"
+    },
+    "options": [
+      {
+        "en": "software that lets the operating system use a device",
+        "as": "ছফ্টৱেৰ যি অপাৰেটিং চিষ্টেমক সজুলি ব্যৱহাৰ কৰিব দিয়ে"
+      },
+      {
+        "en": "a cable joining two computers",
+        "as": "দুটা কম্পিউটাৰ জোড়া কেবল"
+      },
+      {
+        "en": "a chip on the motherboard",
+        "as": "মাদাৰব'ৰ্ডৰ চিপ"
+      },
+      {
+        "en": "a type of printer",
+        "as": "এবিধ প্ৰিণ্টাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The driver translates the operating system's general requests into the specific commands a device understands.",
+      "as": "ড্ৰাইভাৰে অপাৰেটিং চিষ্টেমৰ সাধাৰণ অনুৰোধ সজুলিয়ে বুজা নিৰ্দিষ্ট আদেশলৈ সলায়।"
+    }
+  },
+  {
+    "id": "computer-045",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is a utility program?",
+      "as": "তলৰ কোনটো ইউটিলিটি প্ৰগ্ৰাম"
+    },
+    "options": [
+      {
+        "en": "word processor",
+        "as": "শব্দ প্ৰচেছৰ"
+      },
+      {
+        "en": "presentation tool",
+        "as": "প্ৰেজেণ্টেশ্যন সজুলি"
+      },
+      {
+        "en": "web browser",
+        "as": "ৱেব ব্ৰাউজাৰ"
+      },
+      {
+        "en": "antivirus scanner",
+        "as": "এণ্টিভাইৰাছ স্কেনাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Utility programs maintain the system, and an antivirus scanner protects files. Word processors and browsers do user work.",
+      "as": "ইউটিলিটি প্ৰগ্ৰামে চিষ্টেম ৰক্ষণাবেক্ষণ কৰে, আৰু এণ্টিভাইৰাছে ফাইল সুৰক্ষা দিয়ে। শব্দ প্ৰচেছৰ আৰু ব্ৰাউজাৰে ব্যৱহাৰকাৰীৰ কাম কৰে।"
+    }
+  },
+  {
+    "id": "computer-046",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The number of bits moved along the data bus at one time is called the bus",
+      "as": "তথ্য বাছে এসময়ত কঢ়িয়া যোৱা বিটৰ সংখ্যাক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "clock",
+        "as": "ঘড়ী"
+      },
+      {
+        "en": "cache",
+        "as": "কেশ্ব"
+      },
+      {
+        "en": "width",
+        "as": "প্ৰস্থ"
+      },
+      {
+        "en": "speed",
+        "as": "গতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Bus width counts the parallel lines, so a 64-bit bus carries 64 bits together. Speed is how often it does so.",
+      "as": "বাছ প্ৰস্থই সমান্তৰাল ৰেখাৰ সংখ্যা গণে, সেয়ে ৬৪-বিট বাছে একেলগে ৬৪ বিট নিয়ে। গতিয়ে কিমান সঘন কৰে সেয়া বুজায়।"
+    }
+  },
+  {
+    "id": "computer-047",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is an example of free and open source software?",
+      "as": "তলৰ কোনটো মুক্ত আৰু উন্মুক্ত উৎস ছফ্টৱেৰৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "Windows 11",
+        "as": "উইণ্ড'জ ১১"
+      },
+      {
+        "en": "LibreOffice",
+        "as": "লিব্ৰে অফিচ"
+      },
+      {
+        "en": "Microsoft Word",
+        "as": "মাইক্ৰ'ছফ্ট ৱৰ্ড"
+      },
+      {
+        "en": "Adobe Photoshop",
+        "as": "এড'বি ফট'শ্বপ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LibreOffice publishes its source code and may be used and modified freely. The others are proprietary.",
+      "as": "লিব্ৰে অফিচে নিজৰ উৎস ক'ড প্ৰকাশ কৰে আৰু মুক্তভাৱে ব্যৱহাৰ তথা সলনি কৰিব পাৰি। বাকীবোৰ মালিকানাধীন।"
+    }
+  },
+  {
+    "id": "computer-048",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The main function of an expansion slot is to",
+      "as": "বিস্তাৰণ স্লটৰ মূল কাম হ'ল"
+    },
+    "options": [
+      {
+        "en": "hold add-on cards such as graphics or network cards",
+        "as": "গ্ৰাফিক্স বা নেটৱৰ্ক কাৰ্ডৰ দৰে অতিৰিক্ত কাৰ্ড ধৰি ৰখা"
+      },
+      {
+        "en": "store the operating system",
+        "as": "অপাৰেটিং চিষ্টেম ৰখা"
+      },
+      {
+        "en": "cool the processor",
+        "as": "প্ৰচেছৰ শীতল কৰা"
+      },
+      {
+        "en": "supply mains power",
+        "as": "মেইন শক্তি যোগান ধৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Expansion slots let you add capability the board did not ship with. Storage and cooling are handled elsewhere.",
+      "as": "বিস্তাৰণ স্লটে বৰ্তনীত নথকা ক্ষমতা যোগ কৰিব দিয়ে। সঞ্চয় আৰু শীতল কৰা আন ঠাইত হয়।"
+    }
+  },
+  {
+    "id": "computer-049",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is a characteristic of a hard disk?",
+      "as": "তলৰ কোনটো হাৰ্ড ডিস্কৰ বৈশিষ্ট্য"
+    },
+    "options": [
+      {
+        "en": "it has no moving parts",
+        "as": "ইয়াৰ চলন্ত অংশ নাই"
+      },
+      {
+        "en": "it is volatile",
+        "as": "ই অস্থিৰ"
+      },
+      {
+        "en": "it holds only the operating system",
+        "as": "ই কেবল অপাৰেটিং চিষ্টেম ৰাখে"
+      },
+      {
+        "en": "it stores data magnetically on spinning platters",
+        "as": "ই ঘূৰ্ণনশীল প্লেটাৰত চুম্বকীয়ভাৱে তথ্য ৰাখে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A hard disk writes magnetically to platters that spin under a read-write head. Solid state drives are the ones with no moving parts.",
+      "as": "হাৰ্ড ডিস্কে পঢ়া-লিখা মূৰৰ তলত ঘূৰা প্লেটাৰত চুম্বকীয়ভাৱে লিখে। SSD হ'ল চলন্ত অংশ নথকা।"
+    }
+  },
+  {
+    "id": "computer-050",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An assembler converts",
+      "as": "এচেম্বলাৰে সলনি কৰে"
+    },
+    "options": [
+      {
+        "en": "high level code into assembly language",
+        "as": "উচ্চস্তৰীয় ক'ড এচেম্বলি ভাষালৈ"
+      },
+      {
+        "en": "source code into object code directly",
+        "as": "উৎস ক'ড পোনপটীয়াকৈ অবজেক্ট ক'ডলৈ"
+      },
+      {
+        "en": "assembly language into machine code",
+        "as": "এচেম্বলি ভাষা যন্ত্ৰ ক'ডলৈ"
+      },
+      {
+        "en": "machine code into assembly language",
+        "as": "যন্ত্ৰ ক'ড এচেম্বলি ভাষালৈ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An assembler translates mnemonics one for one into machine instructions. Compilers handle high level languages instead.",
+      "as": "এচেম্বলাৰে নেম'নিক একৰ বাবে এক যন্ত্ৰ নিৰ্দেশলৈ সলায়। কম্পাইলাৰে উচ্চস্তৰীয় ভাষা চম্ভালে।"
+    }
+  },
+  {
+    "id": "computer-051",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is used for permanent internal storage of programs and data?",
+      "as": "প্ৰগ্ৰাম আৰু তথ্যৰ স্থায়ী আভ্যন্তৰীণ সঞ্চয়লৈ তলৰ কোনটো ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "register",
+        "as": "ৰেজিষ্টাৰ"
+      },
+      {
+        "en": "hard disk drive",
+        "as": "হাৰ্ড ডিস্ক ড্ৰাইভ"
+      },
+      {
+        "en": "RAM",
+        "as": "RAM"
+      },
+      {
+        "en": "cache",
+        "as": "কেশ্ব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The hard disk keeps files when the machine is off. RAM, cache and registers all lose their contents on shutdown.",
+      "as": "যন্ত্ৰ বন্ধ থাকিলেও হাৰ্ড ডিস্কে ফাইল ৰাখে। RAM, কেশ্ব আৰু ৰেজিষ্টাৰে বন্ধ কৰিলে তথ্য হেৰুৱায়।"
+    }
+  },
+  {
+    "id": "computer-052",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The component that converts digital signals to analog for a telephone line is a",
+      "as": "টেলিফোন লাইনলৈ ডিজিটেল সংকেত এনালগলৈ সলনি কৰা অংশটো"
+    },
+    "options": [
+      {
+        "en": "modem",
+        "as": "মডেম"
+      },
+      {
+        "en": "router",
+        "as": "ৰাউটাৰ"
+      },
+      {
+        "en": "switch",
+        "as": "স্বিচ"
+      },
+      {
+        "en": "hub",
+        "as": "হাব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A modem modulates and demodulates, which is where its name comes from. Routers and switches stay digital.",
+      "as": "মডেমে মডুলেট আৰু ডিমডুলেট কৰে, সেয়ে এই নাম। ৰাউটাৰ আৰু স্বিচ ডিজিটেলেই থাকে।"
+    }
+  },
+  {
+    "id": "computer-053",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is not an operating system function?",
+      "as": "তলৰ কোনটো অপাৰেটিং চিষ্টেমৰ কাম নহয়"
+    },
+    "options": [
+      {
+        "en": "managing files",
+        "as": "ফাইল চলোৱা"
+      },
+      {
+        "en": "allocating memory",
+        "as": "স্মৃতি বিতৰণ কৰা"
+      },
+      {
+        "en": "scheduling processes",
+        "as": "প্ৰক্ৰিয়া সময়সূচী কৰা"
+      },
+      {
+        "en": "designing a poster",
+        "as": "প'ষ্টাৰ ডিজাইন কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The operating system manages resources, not content. Designing a poster needs application software such as a drawing package.",
+      "as": "অপাৰেটিং চিষ্টেমে সম্পদ চলায়, সমল নহয়। প'ষ্টাৰ ডিজাইন কৰিবলৈ এড্ৰয়িং পেকেজৰ দৰে এপ্লিকেশ্যন লাগে।"
+    }
+  },
+  {
+    "id": "computer-054",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The term peripheral refers to",
+      "as": "পেৰিফেৰেল শব্দই বুজায়"
+    },
+    "options": [
+      {
+        "en": "the operating system",
+        "as": "অপাৰেটিং চিষ্টেম"
+      },
+      {
+        "en": "the motherboard",
+        "as": "মাদাৰব'ৰ্ড"
+      },
+      {
+        "en": "any device attached to the computer for input, output or storage",
+        "as": "ইনপুট, আউটপুট বা সঞ্চয়ৰ বাবে কম্পিউটাৰত লগোৱা যিকোনো সজুলি"
+      },
+      {
+        "en": "the processor only",
+        "as": "কেৱল প্ৰচেছৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Peripherals sit outside the core processing unit and add capability. The processor and board are the core, not peripherals.",
+      "as": "পেৰিফেৰেল মূল প্ৰচেছিং ইউনিটৰ বাহিৰত থাকে আৰু ক্ষমতা যোগ কৰে। প্ৰচেছৰ আৰু বৰ্তনী মূল, পেৰিফেৰেল নহয়।"
+    }
+  },
+  {
+    "id": "computer-055",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following best describes cloud storage?",
+      "as": "তলৰ কোনটোৱে ক্লাউড সঞ্চয় ভালদৰে বৰ্ণনা কৰে"
+    },
+    "options": [
+      {
+        "en": "a printed backup",
+        "as": "ছপা বেকআপ"
+      },
+      {
+        "en": "files kept on remote servers and reached over the internet",
+        "as": "দূৰৰ ছাৰ্ভাৰত ৰখা ফাইল যি ইণ্টাৰনেটেৰে পোৱা যায়"
+      },
+      {
+        "en": "files kept only on a pen drive",
+        "as": "কেৱল পেন ড্ৰাইভত ৰখা ফাইল"
+      },
+      {
+        "en": "memory inside the processor",
+        "as": "প্ৰচেছৰৰ ভিতৰৰ স্মৃতি"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Cloud storage puts your data on someone else's servers, so you need a network to reach it. Local drives need no network.",
+      "as": "ক্লাউড সঞ্চয়ে আপোনাৰ তথ্য আনৰ ছাৰ্ভাৰত ৰাখে, সেয়ে নেটৱৰ্ক লাগে। স্থানীয় ড্ৰাইভলৈ নেটৱৰ্ক নালাগে।"
+    }
+  },
+  {
+    "id": "computer-056",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A bug in a program is",
+      "as": "প্ৰগ্ৰামত থকা বাগ হ'ল"
+    },
+    "options": [
+      {
+        "en": "an error that causes wrong or unexpected behaviour",
+        "as": "এটা ভুল যি অসত্য বা অপ্ৰত্যাশিত আচৰণ ঘটায়"
+      },
+      {
+        "en": "a virus that spreads between machines",
+        "as": "যন্ত্ৰৰ মাজত বিয়পা ভাইৰাছ"
+      },
+      {
+        "en": "a hardware connector",
+        "as": "হাৰ্ডৱেৰ সংযোগক"
+      },
+      {
+        "en": "a type of file format",
+        "as": "এবিধ ফাইল ফৰ্মেট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A bug is a defect in the code itself. A virus is separate malicious software that may exploit such defects.",
+      "as": "বাগ ক'ডৰ নিজৰ ত্ৰুটি। ভাইৰাছ বেলেগ ক্ষতিকাৰক ছফ্টৱেৰ যি এনে ত্ৰুটি ব্যৱহাৰ কৰিব পাৰে।"
+    }
+  },
+  {
+    "id": "computer-057",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is the correct order of the data size units from smallest to largest?",
+      "as": "তথ্যৰ একক সৰুৰপৰা ডাঙৰলৈ তলৰ কোনটো শুদ্ধ ক্ৰম"
+    },
+    "options": [
+      {
+        "en": "byte, bit, megabyte, kilobyte, gigabyte",
+        "as": "বাইট, বিট, মেগাবাইট, কিল'বাইট, গিগাবাইট"
+      },
+      {
+        "en": "bit, byte, megabyte, kilobyte, gigabyte",
+        "as": "বিট, বাইট, মেগাবাইট, কিল'বাইট, গিগাবাইট"
+      },
+      {
+        "en": "kilobyte, bit, byte, megabyte, gigabyte",
+        "as": "কিল'বাইট, বিট, বাইট, মেগাবাইট, গিগাবাইট"
+      },
+      {
+        "en": "bit, byte, kilobyte, megabyte, gigabyte",
+        "as": "বিট, বাইট, কিল'বাইট, মেগাবাইট, গিগাবাইট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Eight bits make a byte, then each step multiplies by 1024 through kilo, mega and giga. Any other order misplaces a unit.",
+      "as": "আঠ বিটত এক বাইট, তাৰ পিছত কিল', মেগা, গিগা প্ৰতিটো খোজত ১০২৪ গুণ। আন ক্ৰমত একক ঠাই সলনি হয়।"
+    }
+  },
+  {
+    "id": "computer-058",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "Which of the following is an example of a graphic output device?",
+      "as": "তলৰ কোনটো গ্ৰাফিক আউটপুট সজুলিৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "joystick",
+        "as": "জয়ষ্টিক"
+      },
+      {
+        "en": "microphone",
+        "as": "মাইক্ৰ'ফোন"
+      },
+      {
+        "en": "monitor",
+        "as": "মনিটৰ"
+      },
+      {
+        "en": "keyboard",
+        "as": "কীবৰ্ড"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A monitor displays images and text, so it outputs graphics. The others are all input devices.",
+      "as": "মনিটৰে ছবি আৰু লিখা দেখুৱায়, সেয়ে ই গ্ৰাফিক আউটপুট। বাকীবোৰ ইনপুট সজুলি।"
+    }
+  },
+  {
+    "id": "computer-059",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "The main advantage of solid state storage over a hard disk is",
+      "as": "হাৰ্ড ডিস্কতকৈ কঠিন অৱস্থা সঞ্চয়ৰ মূল সুবিধা"
+    },
+    "options": [
+      {
+        "en": "it needs no power",
+        "as": "ই বিদ্যুৎ নালাগে"
+      },
+      {
+        "en": "faster access with no moving parts",
+        "as": "চলন্ত অংশ নথকা বাবে দ্ৰুত প্ৰৱেশ"
+      },
+      {
+        "en": "much lower cost per gigabyte",
+        "as": "প্ৰতি গিগাবাইটত বহু কম দাম"
+      },
+      {
+        "en": "larger capacity always",
+        "as": "সদায় বেছি ধাৰণক্ষমতা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "With no platters to spin up, an SSD answers in microseconds. Hard disks still win on price per gigabyte.",
+      "as": "ঘূৰাবলগীয়া প্লেটাৰ নথকা বাবে SSD এ মাইক্ৰ'ছেকেণ্ডত উত্তৰ দিয়ে। দামত হাৰ্ড ডিস্ক এতিয়াও আগত।"
+    }
+  },
+  {
+    "id": "computer-060",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An operating system that allows more than one user to work at the same time is called",
+      "as": "এসময়ত এজনৰ অধিক ব্যৱহাৰকাৰীক কাম কৰিব দিয়া অপাৰেটিং চিষ্টেমক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "multi-user",
+        "as": "বহু-ব্যৱহাৰকাৰী"
+      },
+      {
+        "en": "single-user",
+        "as": "এক-ব্যৱহাৰকাৰী"
+      },
+      {
+        "en": "real-time",
+        "as": "ৰিয়েল-টাইম"
+      },
+      {
+        "en": "embedded",
+        "as": "এম্বেডেড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A multi-user system shares the processor among several logged-in users, as a server does. A single-user system serves one.",
+      "as": "বহু-ব্যৱহাৰকাৰী চিষ্টেমে কেইবাজন লগইন কৰা ব্যৱহাৰকাৰীৰ মাজত প্ৰচেছৰ ভাগ কৰে, ছাৰ্ভাৰে যেনে কৰে। এক-ব্যৱহাৰকাৰীয়ে এজনক দিয়ে।"
+    }
+  },
+  {
+    "id": "computer-201",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user installs a new printer and it appears in the device list but prints blank pages. The layer that most likely needs updating is the",
+      "as": "ব্যৱহাৰকাৰীয়ে নতুন প্ৰিন্টাৰ লগোৱাৰ পিছত ই যন্ত্ৰৰ তালিকাত ওলায় কিন্তু খালী পৃষ্ঠা ছপা কৰে। আটাই সম্ভাব্য নবীকৰণৰ প্ৰয়োজন থকা স্তৰ"
+    },
+    "options": [
+      {
+        "en": "power supply unit",
+        "as": "পাৱাৰ ছাপ্লাই ইউনিট"
+      },
+      {
+        "en": "hard disk firmware",
+        "as": "হাৰ্ড ডিস্ক ফাৰ্মৱেৰ"
+      },
+      {
+        "en": "monitor cable",
+        "as": "মণিটৰ কেবল"
+      },
+      {
+        "en": "device driver",
+        "as": "ডিভাইচ ড্ৰাইভাৰ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The driver converts the document into the printer's own command language, and a generic or outdated one produces blank or garbled output even though the device is detected. The power supply, disk firmware and monitor cable play no part in page content.",
+      "as": "ড্ৰাইভাৰে নথিখন প্ৰিন্টাৰৰ নিজা আদেশ ভাষালৈ সলায়, আৰু সাধাৰণ বা পুৰণি ড্ৰাইভাৰে যন্ত্ৰ চিনাক্ত হ'লেও খালী বা বিকৃত আউটপুট দিয়ে। পাৱাৰ ছাপ্লাই, ডিস্ক ফাৰ্মৱেৰ আৰু মণিটৰ কেবলৰ পৃষ্ঠাৰ বস্তুত কোনো ভূমিকা নাই।"
+    }
+  },
+  {
+    "id": "computer-202",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An EPROM chip is removed from a board, exposed to strong ultraviolet light through a quartz window and then reprogrammed. The property being exploited is that EPROM is",
+      "as": "এপ্ৰম চিপ ব'ৰ্ডৰপৰা খুলি কোৱাৰ্টজ খিৰিকীৰে প্ৰবল অতিৰক্ত ৰশ্মিত ৰাখি পুনৰ প্ৰ'গ্ৰাম কৰা হ'ল। ব্যৱহৃত ধৰ্মটো — এপ্ৰম"
+    },
+    "options": [
+      {
+        "en": "read only forever",
+        "as": "চিৰকাল কেৱল পঢ়াৰ"
+      },
+      {
+        "en": "magnetic",
+        "as": "চুম্বকীয়"
+      },
+      {
+        "en": "erasable and rewritable",
+        "as": "মচিব পৰা আৰু পুনৰ লিখিব পৰা"
+      },
+      {
+        "en": "volatile",
+        "as": "অস্থিৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Ultraviolet light clears the floating gates of an erasable programmable read only memory so it can be written again, which is exactly what the window exists for. A volatile chip would lose its contents on power loss, a truly read only chip could never be rewritten and EPROM is not magnetic.",
+      "as": "অতিৰক্ত ৰশ্মিয়ে মচিব পৰা প্ৰ'গ্ৰামেবল ৰিড অ'নলি মেমৰিৰ ওপঙা গেট পৰিষ্কাৰ কৰে যাতে পুনৰ লিখিব পাৰি, খিৰিকী তাৰ বাবেই থাকে। অস্থিৰ চিপে পাৱাৰ যোৱাত বস্তু হেৰুৱালেহেঁতেন, সঁচাকৈ কেৱল পঢ়া চিপ কেতিয়াও পুনৰ লিখা নহ'লহেঁতেন আৰু এপ্ৰম চুম্বকীয় নহয়।"
+    }
+  },
+  {
+    "id": "computer-203",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A compiler is used rather than an interpreter for a program that must run as fast as possible in production. The reason is that a compiler",
+      "as": "উৎপাদনত যিমান পাৰি দ্ৰুত চলিবলগীয়া প্ৰ'গ্ৰামৰ বাবে ইন্টাৰপ্ৰেটৰৰ সলনি কম্পাইলাৰ ব্যৱহাৰ কৰা হয়। কাৰণ কম্পাইলাৰে"
+    },
+    "options": [
+      {
+        "en": "works only on interpreted languages",
+        "as": "কেৱল ইন্টাৰপ্ৰেটেড ভাষাত কাম কৰে"
+      },
+      {
+        "en": "translates the whole program once into machine code",
+        "as": "গোটেই প্ৰ'গ্ৰাম এবাৰ যন্ত্ৰ সংকেতলৈ সলায়"
+      },
+      {
+        "en": "runs the source line by line each time",
+        "as": "প্ৰতিবাৰ উৎস শাৰী শাৰী চলায়"
+      },
+      {
+        "en": "needs no memory at all",
+        "as": "স্মৃতি একেবাৰে নালাগে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A compiler produces an executable once, and the processor then runs machine code directly, which is why compiled programs are faster. Line by line execution is what an interpreter does, and no program runs without memory.",
+      "as": "কম্পাইলাৰে এবাৰ চলনযোগ্য ফাইল বনায়, আৰু তাৰ পিছত প্ৰচেছৰে পোনপটীয়াকৈ যন্ত্ৰ সংকেত চলায়, সেয়ে কম্পাইল কৰা প্ৰ'গ্ৰাম দ্ৰুত। শাৰী শাৰী চলোৱা ইন্টাৰপ্ৰেটৰৰ কাম, আৰু কোনো প্ৰ'গ্ৰাম স্মৃতি নোহোৱাকৈ নচলে।"
+    }
+  },
+  {
+    "id": "computer-204",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A company wants to lower licence costs and still modify the software to suit its workflow. The licensing model that allows this is",
+      "as": "কোম্পানীয়ে অনুজ্ঞা খৰচ কমাই নিজৰ কামৰ ধাৰালৈ ছফ্টৱেৰ সলনি কৰিব বিচাৰে। তাক অনুমতি দিয়া অনুজ্ঞা আৰ্হি"
+    },
+    "options": [
+      {
+        "en": "free and open source",
+        "as": "বিনামূলীয়া আৰু মুকলি উৎস"
+      },
+      {
+        "en": "proprietary single seat",
+        "as": "মালিকানাধীন এক আসন"
+      },
+      {
+        "en": "subscription with no source",
+        "as": "উৎস নোহোৱা চাবস্ক্ৰিপশ্যন"
+      },
+      {
+        "en": "trial version",
+        "as": "পৰীক্ষামূলক সংস্কৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An open source licence grants the source code and the right to modify and redistribute it, which removes per seat fees. Proprietary, subscription without source and trial licences all withhold the source and usually forbid modification.",
+      "as": "মুকলি উৎস অনুজ্ঞাই উৎস সংকেত আৰু তাক সলনি তথা পুনৰ বিতৰণৰ অধিকাৰ দিয়ে, যিয়ে প্ৰতি আসনৰ মাচুল আঁতৰায়। মালিকানাধীন, উৎস নোহোৱা চাবস্ক্ৰিপশ্যন আৰু পৰীক্ষামূলক অনুজ্ঞাই উৎস লুকুৱায় আৰু সাধাৰণতে সলনি নিষিদ্ধ কৰে।"
+    }
+  },
+  {
+    "id": "computer-205",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A laptop will not power on and no lights appear when the charger is connected. The first check should be the",
+      "as": "লেপটপ অন নহয় আৰু চাৰ্জাৰ লগালেও কোনো পোহৰ নোলায়। প্ৰথম পৰীক্ষা হ'ব লাগে"
+    },
+    "options": [
+      {
+        "en": "operating system version",
+        "as": "অপাৰেটিং চিষ্টেমৰ সংস্কৰণ"
+      },
+      {
+        "en": "amount of free disk space",
+        "as": "মুক্ত ডিস্ক স্থান"
+      },
+      {
+        "en": "installed antivirus",
+        "as": "লগোৱা এণ্টিভাইৰাছ"
+      },
+      {
+        "en": "charger output and the power jack connection",
+        "as": "চাৰ্জাৰৰ আউটপুট আৰু পাৱাৰ জেকৰ সংযোগ"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "With no lights at all the fault is upstream of the logic board, so the adapter voltage and the jack are checked first. The operating system, disk space and antivirus only matter once the machine is receiving power.",
+      "as": "কোনো পোহৰ নোহোৱা অৱস্থাত ত্ৰুটিটো লজিক ব'ৰ্ডৰ আগতেই, সেয়ে প্ৰথমে এডাপ্টাৰৰ ভল্টেজ আৰু জেক পৰীক্ষা কৰা হয়। অপাৰেটিং চিষ্টেম, ডিস্ক স্থান আৰু এণ্টিভাইৰাছ যন্ত্ৰই পাৱাৰ পোৱাৰ পিছতহে গুৰুত্বপূৰ্ণ।"
+    }
+  },
+  {
+    "id": "computer-206",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user is asked to keep a copy of a project on an external drive and also in the cloud. The practice being applied is",
+      "as": "ব্যৱহাৰকাৰীক প্ৰকল্পৰ নকল এটা বাহ্যিক ড্ৰাইভত আৰু ক্লাউডতো ৰাখিবলৈ কোৱা হ'ল। প্ৰয়োগ কৰা অভ্যাসটো"
+    },
+    "options": [
+      {
+        "en": "overclocking",
+        "as": "অভাৰক্লকিং"
+      },
+      {
+        "en": "paging",
+        "as": "পেজিং"
+      },
+      {
+        "en": "the three two one backup rule",
+        "as": "তিনি দুই এক বেকআপ নিয়ম"
+      },
+      {
+        "en": "defragmentation",
+        "as": "ডিফ্ৰেগমেণ্টেশ্যন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The rule asks for three copies, on two different media, with one off site, and an external drive plus cloud satisfies it. Defragmentation tidies disk blocks, overclocking raises clock speed and paging moves memory to disk, none of which protects data.",
+      "as": "নিয়মে তিনি নকল, দুই বেলেগ মাধ্যমত, এটা বাহিৰত বিচাৰে, আৰু বাহ্যিক ড্ৰাইভ তথা ক্লাউডে তাক পূৰায়। ডিফ্ৰেগমেণ্টেশ্যনে ডিস্কৰ খণ্ড সজায়, অভাৰক্লকিঙে ঘড়ীৰ গতি বঢ়ায় আৰু পেজিঙে স্মৃতি ডিস্কলৈ নিয়ে, কোনোৱেই তথ্য সুৰক্ষা নকৰে।"
+    }
+  },
+  {
+    "id": "computer-207",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A desktop shuts down abruptly after a few minutes of heavy work and restarts. The component most likely to be failing is the",
+      "as": "ডেস্কটপে কেইমিনিট গধুৰ কামৰ পিছত হঠাতে বন্ধ হৈ পুনৰ আৰম্ভ হয়। আটাই সম্ভাব্য বেয়া হোৱা অংশ"
+    },
+    "options": [
+      {
+        "en": "web camera",
+        "as": "ৱেব কেমেৰা"
+      },
+      {
+        "en": "power supply unit",
+        "as": "পাৱাৰ ছাপ্লাই ইউনিট"
+      },
+      {
+        "en": "keyboard",
+        "as": "কীব'ৰ্ড"
+      },
+      {
+        "en": "sound card",
+        "as": "ছাউণ্ড কাৰ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A supply that cannot hold its rails under load cuts out and the machine restarts, which is why the fault appears only under heavy work. Keyboards, sound cards and web cameras draw little and would not cause a shutdown.",
+      "as": "ভাৰত ৰে'ল ধৰি ৰাখিব নোৱাৰা যোগানে কটা দি যন্ত্ৰ পুনৰ আৰম্ভ কৰায়, সেয়ে ত্ৰুটি কেৱল গধুৰ কামত ওলায়। কীব'ৰ্ড, ছাউণ্ড কাৰ্ড আৰু ৱেব কেমেৰাই কম টানে আৰু বন্ধ নকৰায়।"
+    }
+  },
+  {
+    "id": "computer-208",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A file is 4 GB and must be copied to a single storage device. The file system that cannot hold it is",
+      "as": "ফাইলটো ৪ জিবি আৰু এটা সংৰক্ষণ যন্ত্ৰলৈ নকল কৰিব লাগে। তাক ধৰি ৰাখিব নোৱাৰা ফাইল চিষ্টেম"
+    },
+    "options": [
+      {
+        "en": "FAT32",
+        "as": "FAT32"
+      },
+      {
+        "en": "NTFS",
+        "as": "NTFS"
+      },
+      {
+        "en": "exFAT",
+        "as": "exFAT"
+      },
+      {
+        "en": "ext4",
+        "as": "ext4"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "FAT32 caps a single file at just under 4 GB, so a 4 GB file fails to copy. NTFS, exFAT and ext4 all handle files far larger than that.",
+      "as": "FAT32 এ এটা ফাইলক ৪ জিবিৰ অলপ তলত সীমাবদ্ধ কৰে, সেয়ে ৪ জিবি ফাইল নকল নহয়। NTFS, exFAT আৰু ext4 এ তাৰ বহু ডাঙৰ ফাইল ধৰি ৰাখে।"
+    }
+  },
+  {
+    "id": "computer-209",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An office buys a machine for video editing and must choose between integrated and dedicated graphics. The dedicated card is preferred because it has",
+      "as": "অফিচে ভিডিঅ' সম্পাদনাৰ বাবে যন্ত্ৰ কিনি সংহত আৰু পৃথক গ্ৰাফিক্সৰ মাজত বাছনি কৰিব লাগে। পৃথক কাৰ্ড শ্ৰেষ্ঠ কাৰণ ইয়াত আছে"
+    },
+    "options": [
+      {
+        "en": "a larger hard disk",
+        "as": "ডাঙৰ হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "a faster network port",
+        "as": "দ্ৰুত নেটৱৰ্ক প'ৰ্ট"
+      },
+      {
+        "en": "a quieter fan",
+        "as": "নীৰৱ ফেন"
+      },
+      {
+        "en": "its own processor and memory",
+        "as": "নিজা প্ৰচেছৰ আৰু স্মৃতি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A dedicated card carries a graphics processor and its own video memory, so rendering does not compete with the main processor and RAM. Disk size, network port and fan noise do not determine rendering performance.",
+      "as": "পৃথক কাৰ্ডত গ্ৰাফিক্স প্ৰচেছৰ আৰু নিজা ভিডিঅ' স্মৃতি থাকে, সেয়ে ৰেণ্ডাৰিঙে মূল প্ৰচেছৰ আৰু RAM ৰ লগত প্ৰতিযোগিতা নকৰে। ডিস্কৰ আকাৰ, নেটৱৰ্ক প'ৰ্ট আৰু ফেনৰ শব্দই ৰেণ্ডাৰিঙৰ কাৰ্যদক্ষতা নিৰ্ণয় নকৰে।"
+    }
+  },
+  {
+    "id": "computer-210",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user reports that a program works on one machine but shows missing library errors on another. The concept that explains this is",
+      "as": "ব্যৱহাৰকাৰীয়ে জনায় যে প্ৰ'গ্ৰাম এখন যন্ত্ৰত চলে কিন্তু আন এখনত লাইব্ৰেৰী নোহোৱাৰ ত্ৰুটি দেখুৱায়। ইয়াক ব্যাখ্যা কৰা ধাৰণা"
+    },
+    "options": [
+      {
+        "en": "disk fragmentation",
+        "as": "ডিস্ক ফ্ৰেগমেণ্টেশ্যন"
+      },
+      {
+        "en": "screen resolution",
+        "as": "স্ক্ৰীণ ৰিজ'লিউশ্যন"
+      },
+      {
+        "en": "software dependency",
+        "as": "ছফ্টৱেৰ নিৰ্ভৰশীলতা"
+      },
+      {
+        "en": "hardware interrupt",
+        "as": "হাৰ্ডৱেৰ ইণ্টাৰাপ্ট"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The program relies on shared libraries being present, so a machine without them cannot load it, which is a dependency problem. Interrupts are hardware signals, fragmentation affects read speed and resolution affects display only.",
+      "as": "প্ৰ'গ্ৰামে ভগা লাইব্ৰেৰী থকাৰ ওপৰত নিৰ্ভৰ কৰে, সেয়ে নথকা যন্ত্ৰত লোড নহয়, যি নিৰ্ভৰশীলতাৰ সমস্যা। ইণ্টাৰাপ্ট হাৰ্ডৱেৰ সংকেত, ফ্ৰেগমেণ্টেশনে পঢ়াৰ গতিত প্ৰভাৱ পেলায় আৰু ৰিজ'লিউশ্যনে কেৱল প্ৰদৰ্শনত।"
+    }
+  },
+  {
+    "id": "computer-211",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A laptop battery reports 100 per cent but the machine switches off after twenty minutes. The most likely explanation is",
+      "as": "লেপটপ বেটাৰীয়ে ১০০ শতাংশ দেখুৱায় কিন্তু বিশ মিনিটৰ পিছত যন্ত্ৰ বন্ধ হয়। আটাই সম্ভাব্য ব্যাখ্যা"
+    },
+    "options": [
+      {
+        "en": "the web browser is open",
+        "as": "ৱেব ব্ৰাউজাৰ খোলা"
+      },
+      {
+        "en": "the battery has lost capacity and needs recalibration or replacement",
+        "as": "বেটাৰীৰ ধাৰণক্ষমতা কমি পুনৰ কেলিব্ৰেশ্যন বা সলনিৰ প্ৰয়োজন"
+      },
+      {
+        "en": "the screen is too bright",
+        "as": "স্ক্ৰীণ অতি উজ্জ্বল"
+      },
+      {
+        "en": "the keyboard is dirty",
+        "as": "কীব'ৰ্ড মলিয়ন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "An aged cell holds far less charge than its controller estimates, so the percentage is wrong and the machine dies early, which recalibration or replacement corrects. Brightness, a dirty keyboard or an open browser shorten run time slightly but cannot cause a sudden shutdown at a full reading.",
+      "as": "পুৰণি কোষে নিয়ন্ত্ৰকে অনুমান কৰাতকৈ বহু কম আধান ধৰে, সেয়ে শতাংশ ভুল হয় আৰু যন্ত্ৰ সোনকালে মৰে, যি কেলিব্ৰেশ্যন বা সলনিয়ে শুধৰায়। উজ্জ্বলতা, মলিয়ন কীব'ৰ্ড বা খোলা ব্ৰাউজাৰে চলাৰ সময় অলপ কমায় কিন্তু পূৰ্ণ পঢ়াত হঠাতে বন্ধ কৰিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-212",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An organisation must run the same application on 200 identical desktops with a single standard configuration. The technology used is",
+      "as": "সংস্থাই এটা মানক সংৰচনাসহ ২০০ এখন একেই ডেস্কটপত একেই এপ্লিকেশ্যন চলাব লাগে। ব্যৱহৃত প্ৰযুক্তি"
+    },
+    "options": [
+      {
+        "en": "disk imaging and deployment",
+        "as": "ডিস্ক ইমেজিং আৰু মোতায়েন"
+      },
+      {
+        "en": "manual installation on each machine",
+        "as": "প্ৰতিখন যন্ত্ৰত হাতেৰে ইনষ্টল"
+      },
+      {
+        "en": "overclocking",
+        "as": "অভাৰক্লকিং"
+      },
+      {
+        "en": "defragmentation",
+        "as": "ডিফ্ৰেগমেণ্টেশ্যন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An image captures the configured system once and is written to every machine, which gives an identical result without repeating the work. Manual installation invites drift, and overclocking or defragmentation do not deploy software.",
+      "as": "ইমেজে সংৰচিত ব্যৱস্থা এবাৰ ধৰি ৰাখি প্ৰতিখন যন্ত্ৰত লিখে, যিয়ে কাম পুনৰ নকৰাকৈ একেই ফল দিয়ে। হাতেৰে ইনষ্টল কৰিলে পাৰ্থক্য আহে, আৰু অভাৰক্লকিং বা ডিফ্ৰেগমেণ্টেশ্যনে ছফ্টৱেৰ মোতায়েন নকৰে।"
+    }
+  },
+  {
+    "id": "computer-213",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user asks whether a USB flash drive is an input or an output device. The correct answer is that it is",
+      "as": "ব্যৱহাৰকাৰীয়ে সোধে USB ফ্লেশ ড্ৰাইভ ইনপুট নে আউটপুট যন্ত্ৰ। শুদ্ধ উত্তৰ — ই"
+    },
+    "options": [
+      {
+        "en": "only an input device",
+        "as": "কেৱল ইনপুট যন্ত্ৰ"
+      },
+      {
+        "en": "only an output device",
+        "as": "কেৱল আউটপুট যন্ত্ৰ"
+      },
+      {
+        "en": "neither, because it is storage only",
+        "as": "কোনোটোৱেই নহয়, কাৰণ ই কেৱল সংৰক্ষণ"
+      },
+      {
+        "en": "both, because data can be read from it and written to it",
+        "as": "দুয়োটাই, কাৰণ ইয়াৰপৰা তথ্য পঢ়িব আৰু তালৈ লিখিব পাৰি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The same device is an input when the computer reads from it and an output when it writes to it, so it is both depending on the direction of transfer. Calling it only input, only output or neither misreads how storage devices are classified.",
+      "as": "একেই যন্ত্ৰ কম্পিউটাৰে পঢ়িলে ইনপুট আৰু লিখিলে আউটপুট, সেয়ে স্থানান্তৰৰ দিশ অনুসৰি দুয়োটাই। কেৱল ইনপুট, কেৱল আউটপুট বা কোনোটোৱেই নহয় বুলিলে সংৰক্ষণ যন্ত্ৰৰ শ্ৰেণীবিভাগ ভুল বুজা যায়।"
+    }
+  },
+  {
+    "id": "computer-214",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A program must keep working on a machine whose RAM is far smaller than the data it processes. The operating system feature that makes this possible is",
+      "as": "এখন প্ৰ'গ্ৰামে এনে যন্ত্ৰত কাম কৰি থাকিব লাগে যাৰ RAM ত ইয়াৰ তথ্যতকৈ বহু কম। তাক সম্ভৱ কৰা অপাৰেটিং চিষ্টেমৰ সুবিধা"
+    },
+    "options": [
+      {
+        "en": "a faster keyboard",
+        "as": "দ্ৰুত কীব'ৰ্ড"
+      },
+      {
+        "en": "a higher screen resolution",
+        "as": "বেছি স্ক্ৰীণ ৰিজ'লিউশ্যন"
+      },
+      {
+        "en": "virtual memory with paging",
+        "as": "পেজিংসহ ভাৰ্চুৱেল স্মৃতি"
+      },
+      {
+        "en": "a larger monitor",
+        "as": "ডাঙৰ মণিটৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Virtual memory presents disk space as an extension of RAM and paging moves the needed parts in and out, so a program larger than memory still runs. Monitor size, keyboard speed and resolution have no bearing on memory capacity.",
+      "as": "ভাৰ্চুৱেল স্মৃতিয়ে ডিস্ক স্থানক RAM ৰ সম্প্ৰসাৰণ হিচাপে দেখুৱায় আৰু পেজিঙে প্ৰয়োজনীয় অংশ সোমোৱাই-ওলিয়াই থাকে, সেয়ে স্মৃতিতকৈ ডাঙৰ প্ৰ'গ্ৰামো চলে। মণিটৰৰ আকাৰ, কীব'ৰ্ডৰ গতি আৰু ৰিজ'লিউশ্যনৰ স্মৃতি ধাৰণক্ষমতাৰ সৈতে সম্পৰ্ক নাই।"
+    }
+  },
+  {
+    "id": "computer-215",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A technician must decide whether a fault lies in hardware or software. The quickest discriminating test is to",
+      "as": "কৰ্মীয়ে নিৰ্ণয় কৰিব লাগে ত্ৰুটি হাৰ্ডৱেৰত নে ছফ্টৱেৰত। আটাই দ্ৰুত পাৰ্থক্য কৰা পৰীক্ষা"
+    },
+    "options": [
+      {
+        "en": "run a full antivirus scan",
+        "as": "সম্পূৰ্ণ এণ্টিভাইৰাছ স্কেন চলোৱা"
+      },
+      {
+        "en": "boot the machine from a live operating system on removable media",
+        "as": "অপসাৰণযোগ্য মাধ্যমত থকা জীৱন্ত অপাৰেটিং চিষ্টেমৰপৰা যন্ত্ৰ বুট কৰা"
+      },
+      {
+        "en": "reinstall the current operating system",
+        "as": "বৰ্তমান অপাৰেটিং চিষ্টেম পুনৰ ইনষ্টল কৰা"
+      },
+      {
+        "en": "replace the hard disk",
+        "as": "হাৰ্ড ডিস্ক সলনি কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Booting a known good system from removable media bypasses the installed software entirely, so a healthy session points to software and a failure points to hardware. Reinstalling or replacing parts destroys evidence and may cost hours, and an antivirus scan tests only for malware.",
+      "as": "অপসাৰণযোগ্য মাধ্যমৰপৰা জনা ভাল ব্যৱস্থা বুট কৰিলে ইনষ্টল কৰা ছফ্টৱেৰ সম্পূৰ্ণ এৰাই যায়, সেয়ে সুস্থ অধিবেশনে ছফ্টৱেৰ আৰু বিফলতাই হাৰ্ডৱেৰ দেখুৱায়। পুনৰ ইনষ্টল বা অংশ সলনিয়ে প্ৰমাণ নষ্ট কৰি কেইঘণ্টামান খৰচ কৰিব পাৰে, আৰু এণ্টিভাইৰাছ স্কেনে কেৱল মেলৱেৰ পৰীক্ষা কৰে।"
+    }
+  },
+  {
+    "id": "computer-216",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user is told that the machine's bus width is 64 bit. This means that",
+      "as": "ব্যৱহাৰকাৰীক কোৱা হ'ল যে যন্ত্ৰৰ বাছ প্ৰস্থ ৬৪ বিট। ইয়াৰ অৰ্থ"
+    },
+    "options": [
+      {
+        "en": "64 bits can move between components at one time",
+        "as": "একেসময়ত অংশবোৰৰ মাজত ৬৪ বিট যাব পাৰে"
+      },
+      {
+        "en": "the disk holds 64 bits",
+        "as": "ডিস্কত ৬৪ বিট থাকে"
+      },
+      {
+        "en": "the screen shows 64 colours",
+        "as": "স্ক্ৰীণে ৬৪ ৰং দেখুৱায়"
+      },
+      {
+        "en": "the machine has 64 ports",
+        "as": "যন্ত্ৰত ৬৪ প'ৰ্ট আছে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Bus width is the number of bits carried in parallel in one transfer, so a 64 bit bus moves more data per cycle than a 32 bit one. Disk capacity, colour depth and port count are separate specifications.",
+      "as": "বাছ প্ৰস্থ হ'ল এটা স্থানান্তৰত সমান্তৰালভাৱে কঢ়া বিটৰ সংখ্যা, সেয়ে ৬৪ বিট বাছে ৩২ বিটতকৈ প্ৰতি চক্ৰত বেছি তথ্য নিয়ে। ডিস্কৰ ধাৰণক্ষমতা, ৰঙৰ গভীৰতা আৰু প'ৰ্ট সংখ্যা পৃথক নিৰ্দিষ্টতা।"
+    }
+  },
+  {
+    "id": "computer-217",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "An office PC is used only for typing and email but has a 2 TB drive that is never more than a tenth full. The most useful upgrade for speed would be",
+      "as": "অফিচৰ পিচি কেৱল টাইপিং আৰু ইমেইলৰ বাবে ব্যৱহৃত কিন্তু ২ টেৰাবাইট ড্ৰাইভ কেতিয়াও দহ ভাগৰ এভাগৰ বেছি ভৰে নাই। গতিৰ বাবে আটাই উপযোগী উন্নয়ন"
+    },
+    "options": [
+      {
+        "en": "adding a second 2 TB hard disk",
+        "as": "দ্বিতীয় ২ টেৰাবাইট হাৰ্ড ডিস্ক যোগ কৰা"
+      },
+      {
+        "en": "buying a larger monitor",
+        "as": "ডাঙৰ মণিটৰ কিনা"
+      },
+      {
+        "en": "installing more fonts",
+        "as": "বেছি ফণ্ট ইনষ্টল কৰা"
+      },
+      {
+        "en": "replacing the hard disk with a solid state drive",
+        "as": "হাৰ্ড ডিস্কক ছলিড ষ্টেট ড্ৰাইভেৰে সলনি কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Typing and email feel slow because of random reads at startup and file open, and a solid state drive cuts those latencies sharply. More hard disk space adds capacity the user does not need, and a monitor or fonts do not change speed.",
+      "as": "আৰম্ভণি আৰু ফাইল খোলাৰ সময়ত যাদৃচ্ছিক পঢ়াৰ বাবে টাইপিং আৰু ইমেইল লেহেমীয়া লাগে, আৰু ছলিড ষ্টেট ড্ৰাইভে সেই বিলম্ব তীক্ষ্ণভাৱে কমায়। বেছি হাৰ্ড ডিস্ক স্থানে ব্যৱহাৰকাৰীৰ অপ্ৰয়োজনীয় ধাৰণক্ষমতা যোগ কৰে, আৰু মণিটৰ বা ফণ্টে গতি নসলায়।"
+    }
+  },
+  {
+    "id": "computer-218",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A company must prove that a document was not altered after it was signed. The technology used is",
+      "as": "কোম্পানীয়ে প্ৰমাণ কৰিব লাগে যে স্বাক্ষৰৰ পিছত নথিখন সলনি হোৱা নাই। ব্যৱহৃত প্ৰযুক্তি"
+    },
+    "options": [
+      {
+        "en": "disk defragmentation",
+        "as": "ডিস্ক ডিফ্ৰেগমেণ্টেশ্যন"
+      },
+      {
+        "en": "a larger hard disk",
+        "as": "ডাঙৰ হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "a cryptographic hash combined with a digital signature",
+        "as": "এনক্ৰিপ্টগ্ৰাফিক হেছ আৰু ডিজিটেল স্বাক্ষৰৰ সংযোগ"
+      },
+      {
+        "en": "file compression",
+        "as": "ফাইল কম্প্ৰেশন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A hash changes completely if even one byte of the document changes, and signing the hash ties it to the signer's key, so any later edit is detectable. Compression, defragmentation and disk size protect nothing about integrity or authorship.",
+      "as": "নথিৰ এটা বাইট সলনিও হ'লে হেছ সম্পূৰ্ণ সলনি হয়, আৰু হেছত স্বাক্ষৰ কৰিলে তাক স্বাক্ষৰকৰ্তাৰ চাবিৰ লগত বান্ধে, সেয়ে পিছৰ যিকোনো সম্পাদনা ধৰা পৰে। কম্প্ৰেশন, ডিফ্ৰেগমেণ্টেশ্যন আৰু ডিস্কৰ আকাৰে অখণ্ডতা বা লেখকত্ব সুৰক্ষা নকৰে।"
+    }
+  },
+  {
+    "id": "computer-219",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A user is warned that a program will not run because the machine lacks the required runtime. The runtime referred to is",
+      "as": "ব্যৱহাৰকাৰীক সতৰ্ক কৰা হ'ল যে যন্ত্ৰত প্ৰয়োজনীয় ৰানটাইম নথকা বাবে প্ৰ'গ্ৰাম নচলে। বুজোৱা ৰানটাইম"
+    },
+    "options": [
+      {
+        "en": "the printer driver",
+        "as": "প্ৰিন্টাৰ ড্ৰাইভাৰ"
+      },
+      {
+        "en": "the libraries and services the program needs while it executes",
+        "as": "প্ৰ'গ্ৰাম চলি থকাৰ সময়ত প্ৰয়োজনীয় লাইব্ৰেৰী আৰু সেৱা"
+      },
+      {
+        "en": "the compiler that built the program",
+        "as": "প্ৰ'গ্ৰাম বনোৱা কম্পাইলাৰ"
+      },
+      {
+        "en": "the text editor used to write the code",
+        "as": "সংকেত লিখিবলৈ ব্যৱহৃত পাঠ সম্পাদক"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "A runtime supplies the shared libraries and support services a program calls while it runs, so its absence stops execution. The compiler and editor are development tools used earlier, and the printer driver is unrelated.",
+      "as": "ৰানটাইমে প্ৰ'গ্ৰামে চলি থকাৰ সময়ত মতা ভগা লাইব্ৰেৰী আৰু সহায়ক সেৱা যোগায়, সেয়ে তাৰ অনুপস্থিতিত চলন বন্ধ হয়। কম্পাইলাৰ আৰু সম্পাদক আগতে ব্যৱহৃত উন্নয়ন সঁজুলি, আৰু প্ৰিন্টাৰ ড্ৰাইভাৰৰ সম্পৰ্ক নাই।"
+    }
+  },
+  {
+    "id": "computer-220",
+    "leaf": "hardware-software",
+    "q": {
+      "en": "A machine that is switched off but still plugged in continues to charge a phone through its USB port. This shows that the port",
+      "as": "বন্ধ কিন্তু প্লাগ কৰি থোৱা যন্ত্ৰই USB প'ৰ্টেৰে ফোন চাৰ্জ কৰি থাকে। ই দেখুৱায় যে প'ৰ্টটোৱে"
+    },
+    "options": [
+      {
+        "en": "receives standby power from the supply",
+        "as": "যোগানৰপৰা ষ্টেণ্ডবাই পাৱাৰ পায়"
+      },
+      {
+        "en": "is powered by the phone itself",
+        "as": "ফোনৰপৰাই পাৱাৰ পায়"
+      },
+      {
+        "en": "works only when the screen is on",
+        "as": "স্ক্ৰীণ জ্বলি থাকিলেহে কাম কৰে"
+      },
+      {
+        "en": "stores charge internally for later",
+        "as": "পিছৰ বাবে ভিতৰত আধান সাঁচি ৰাখে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Many boards keep the USB rail energised in standby so devices can charge or wake the machine, which is why current flows with the system off. The phone cannot power its own charging circuit, the screen is dark, and a port does not store charge.",
+      "as": "বহু ব'ৰ্ডে USB ৰে'ল ষ্টেণ্ডবাইতো সক্ৰিয় ৰাখে যাতে যন্ত্ৰই চাৰ্জ কৰিব বা জগাব পাৰে, সেয়ে ব্যৱস্থা বন্ধ থাকোতে প্ৰবাহ যায়। ফোনে নিজৰ চাৰ্জিং বৰ্তনী চলাব নোৱাৰে, স্ক্ৰীণ এন্ধাৰ, আৰু প'ৰ্টে আধান সাঁচি নৰাখে।"
+    }
+  }
+]

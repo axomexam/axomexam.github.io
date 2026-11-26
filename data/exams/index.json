@@ -1,0 +1,6037 @@
+{
+  "meta": {
+    "title": {
+      "en": "Your Exams",
+      "as": "আপোনাৰ পৰীক্ষা"
+    },
+    "note": "Add a new exam here and create data/exams/<exam-id>/<section-id>.json for each section."
+  },
+  "exams": [
+    {
+      "id": "assam-police",
+      "book": {
+        "code": "AXO-AP-CONST",
+        "authority": {
+          "en": "SLPRB Assam",
+          "as": "SLPRB অসম"
+        },
+        "authorityUrl": "https://slprbassam.in/",
+        "published": {
+          "en": "15 September 2026",
+          "as": "15 ছেপ্তেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "15 September 2026",
+          "as": "15 ছেপ্তেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "Assam Police",
+        "as": "অসম আৰক্ষী"
+      },
+      "subtitle": {
+        "en": "Constable AB & UB (SLPRB)",
+        "as": "কনিষ্টবল AB আৰু UB (SLPRB)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/assam-police-cover.webp",
+      "coverAlt": {
+        "en": "Assam Police Constable (UB & AB) Recruitment Exam 2026 — book front cover",
+        "as": "অসম আৰক্ষী কনিষ্টবল (UB আৰু AB) নিযুক্তি পৰীক্ষা ২০২৬ — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/assam-police-logo.webp",
+      "logoAlt": {
+        "en": "Assam Police official logo",
+        "as": "অসম আৰক্ষী চৰকাৰী ল'গ'"
+      },
+      "color": "#2563eb",
+      "icon": "AP",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Elementary Mathematics",
+            "as": "প্ৰাথমিক অংক"
+          },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": {
+                "en": "Number System",
+                "as": "সংখ্যা পদ্ধতি"
+              }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": {
+                "en": "LCM & HCF",
+                "as": "ল.সা.গু. আৰু গ.সা.গু."
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ"
+              }
+            },
+            {
+              "id": "profit-loss",
+              "title": {
+                "en": "Profit & Loss",
+                "as": "লাভ আৰু লোকচান"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio & Proportion",
+                "as": "অনুপাত আৰু সমানুপাত"
+              }
+            },
+            {
+              "id": "average",
+              "title": {
+                "en": "Average",
+                "as": "গড়"
+              }
+            },
+            {
+              "id": "simple-compound-interest",
+              "title": {
+                "en": "Simple & Compound Interest",
+                "as": "সৰল আৰু যৌগিক সূত"
+              }
+            },
+            {
+              "id": "time-work",
+              "title": {
+                "en": "Time & Work",
+                "as": "সময় আৰু কাম"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed & Distance",
+                "as": "সময়, দূৰত্ব আৰু গতিবেগ"
+              }
+            },
+            {
+              "id": "simplification-fractions",
+              "title": {
+                "en": "Simplification & Fractions",
+                "as": "সৰলীকৰণ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী"
+          },
+          "subcategories": [
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ"
+              },
+              "subcategories": [
+                {
+                  "id": "synonyms-antonyms",
+                  "title": {
+                    "en": "Synonyms & Antonyms",
+                    "as": "সমাৰ্থক আৰু বিপৰীত শব্দ"
+                  }
+                },
+                {
+                  "id": "gender",
+                  "title": {
+                    "en": "Gender (Masculine & Feminine)",
+                    "as": "লিংগ (পুংলিংগ আৰু স্ত্ৰীলিংগ)"
+                  }
+                },
+                {
+                  "id": "young-ones",
+                  "title": {
+                    "en": "Young Ones (Babies)",
+                    "as": "পোৱালিৰ নাম"
+                  }
+                },
+                {
+                  "id": "homes-habitats",
+                  "title": {
+                    "en": "Homes & Habitats",
+                    "as": "ঘৰ আৰু বাসস্থান"
+                  }
+                },
+                {
+                  "id": "sounds-calls",
+                  "title": {
+                    "en": "Sounds & Calls",
+                    "as": "শব্দ আৰু ধ্বনি"
+                  }
+                },
+                {
+                  "id": "collective-nouns",
+                  "title": {
+                    "en": "Collective Nouns (Groups/Fleets/Packs)",
+                    "as": "সমূহবাচক শব্দ (দল)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ"
+              },
+              "subcategories": [
+                {
+                  "id": "tenses-rules",
+                  "title": {
+                    "en": "Tenses & Rules",
+                    "as": "কাল আৰু নিয়ম"
+                  }
+                },
+                {
+                  "id": "prepositions",
+                  "title": {
+                    "en": "Prepositions",
+                    "as": "পূৰ্বসৰ্গ (Preposition)"
+                  }
+                },
+                {
+                  "id": "articles-determiners",
+                  "title": {
+                    "en": "Articles & Determiners",
+                    "as": "আৰ্টিকল আৰু নিৰ্ণায়ক"
+                  }
+                },
+                {
+                  "id": "parts-of-speech",
+                  "title": {
+                    "en": "Parts of Speech",
+                    "as": "শব্দৰ প্ৰকাৰ (Parts of Speech)"
+                  }
+                },
+                {
+                  "id": "subject-verb-agreement",
+                  "title": {
+                    "en": "Subject-Verb Agreement",
+                    "as": "কৰ্তা-ক্ৰিয়াৰ মিল"
+                  }
+                },
+                {
+                  "id": "voice-change",
+                  "title": {
+                    "en": "Voice Change",
+                    "as": "বাচ্য পৰিৱৰ্তন"
+                  }
+                },
+                {
+                  "id": "narration",
+                  "title": {
+                    "en": "Narration",
+                    "as": "উক্তি পৰিৱৰ্তন"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fill-in-the-blanks",
+              "title": {
+                "en": "Fill in the Blanks",
+                "as": "ৰিক্ত স্থান পূৰণ"
+              }
+            },
+            {
+              "id": "error-detection",
+              "title": {
+                "en": "Error Detection",
+                "as": "ব্যাকৰণগত ভুল নিৰ্ণয়"
+              }
+            },
+            {
+              "id": "idioms-phrases",
+              "title": {
+                "en": "Idioms & Phrases",
+                "as": "বাক্যৰীতি আৰু খণ্ডবাক্য"
+              }
+            },
+            {
+              "id": "sentence-rearrangement",
+              "title": {
+                "en": "Sentence Rearrangement",
+                "as": "বাক্য সজোৱা"
+              }
+            },
+            {
+              "id": "one-word-substitution",
+              "title": {
+                "en": "One Word Substitution",
+                "as": "এটা শব্দত প্ৰকাশ কৰা"
+              }
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Logical Reasoning & Mental Ability",
+            "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "number-alphabet-series",
+                  "title": {
+                    "en": "Number Series & Alphabet Series",
+                    "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (যেনে— Letter Coding, Number Coding)।"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": {
+                    "en": "Direction Sense Test",
+                    "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy",
+                    "as": "সাদৃশ্য নিৰ্ণয় — দুটা শব্দ বা সংখ্যাৰ মাজৰ পাৰস্পৰিক সম্বন্ধ (যেনে— Word, Letter বা Number Analogy)।"
+                  }
+                },
+                {
+                  "id": "odd-one-out",
+                  "title": {
+                    "en": "Classification / Odd One Out",
+                    "as": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "ranking-order",
+                  "title": {
+                    "en": "Ranking & Order Test",
+                    "as": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান (বাওঁ/সোঁ বা ওপৰ/তলৰ পৰা) নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "word-formation-dictionary",
+                  "title": {
+                    "en": "Word Formation & Dictionary Order",
+                    "as": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা।"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা।"
+                  }
+                },
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism / Statements & Conclusions",
+                    "as": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": {
+                    "en": "Mathematical Operations",
+                    "as": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় (+, -, ×, ÷ সলনি কৰা)।"
+                  }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": {
+                    "en": "Clock & Calendar",
+                    "as": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰাথমিক প্ৰশ্ন।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক / অ-ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "figure-series",
+                  "title": {
+                    "en": "Figure Series",
+                    "as": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা।"
+                  }
+                },
+                {
+                  "id": "figure-analogy",
+                  "title": {
+                    "en": "Figure Analogy",
+                    "as": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই তৃতীয় চিত্ৰৰ সঠিক জোৰা উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "figure-classification",
+                  "title": {
+                    "en": "Figure Classification (Odd One Out)",
+                    "as": "৫টা চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": {
+                    "en": "Mirror Image & Water Image",
+                    "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": {
+                    "en": "Pattern Completion",
+                    "as": "অসম্পূৰ্ণ চিত্ৰৰ খালী অংশ পূৰণ কৰা।"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded Figures",
+                    "as": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা নিৰ্দিষ্ট চিত্ৰটো বিচাৰি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "counting-figures",
+                  "title": {
+                    "en": "Counting of Figures",
+                    "as": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।"
+                  }
+                },
+                {
+                  "id": "paper-folding-cutting",
+                  "title": {
+                    "en": "Paper Folding & Paper Cutting",
+                    "as": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "cubes-dice",
+                  "title": {
+                    "en": "Cubes & Dice",
+                    "as": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assam-history-geography-culture",
+          "type": "qa",
+          "color": "#d97706",
+          "title": {
+            "en": "Assam's History, Geography & Culture",
+            "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam's History",
+                "as": "অসমৰ ইতিহাস"
+              }
+            },
+            {
+              "id": "assam-geography",
+              "title": {
+                "en": "Assam's Geography",
+                "as": "অসমৰ ভূগোল"
+              }
+            },
+            {
+              "id": "assam-culture",
+              "title": {
+                "en": "Assam's Culture",
+                "as": "অসমৰ সংস্কৃতি"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-knowledge-current-affairs",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge & Current Affairs",
+            "as": "সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী"
+          },
+          "subcategories": [
+            {
+              "id": "indian-history-polity-economy",
+              "title": {
+                "en": "Indian History, Polity & Economy",
+                "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু অৰ্থনীতি"
+              }
+            },
+            {
+              "id": "general-science",
+              "title": {
+                "en": "General Science",
+                "as": "সাধাৰণ বিজ্ঞান"
+              }
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs",
+                "as": "চলিত ঘটনাৱলী"
+              }
+            },
+            {
+              "id": "sports-awards",
+              "title": {
+                "en": "Sports & Awards",
+                "as": "ক্ৰীড়া, বঁটা আৰু সন্মান"
+              }
+            },
+            {
+              "id": "important-days-capitals-currencies",
+              "title": {
+                "en": "Important Days, Capitals & Currencies",
+                "as": "গুৰুত্বপূৰ্ণ দিৱস, ৰাজধানী আৰু মুদ্ৰা"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assam-police-combo",
+      "book": {
+        "code": "AXO-AP-COMBO",
+        "authority": {
+          "en": "SLPRB Assam & Home Department",
+          "as": "SLPRB অসম আৰু গৃহ বিভাগ"
+        },
+        "authorityUrl": "https://slprbassam.in/",
+        "published": {
+          "en": "26 November 2026",
+          "as": "২৬ নৱেম্বৰ ২০২৬"
+        },
+        "updated": {
+          "en": "26 November 2026",
+          "as": "২৬ নৱেম্বৰ ২০২৬"
+        }
+      },
+      "title": {
+        "en": "Assam Police Combo Exam Guide",
+        "as": "অসম আৰক্ষী কম্বো পৰীক্ষা গাইড"
+      },
+      "subtitle": {
+        "en": "Assam Police • Forest Department • Home Guard • APRO • Fire & Emergency Services • Prison Branch",
+        "as": "অসম আৰক্ষী • বন বিভাগ • হোম গাৰ্ড • APRO • অগ্নি আৰু জৰুৰীকালীন সেৱা • কাৰাগাৰ শাখা"
+      },
+      "cardTagline": {
+        "en": "Police • Forest Guard • APRO • Home Guard • Fire & Emergency • Prison",
+        "as": "আৰক্ষী • বন ৰক্ষী • APRO • হোম গাৰ্ড • অগ্নি আৰু জৰুৰীকালীন • কাৰাগাৰ"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to see the sample question for that topic.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত সেই বিষয়ৰ নমুনা প্ৰশ্ন চাবলৈ উপ-শ্ৰেণী এটা বাছনি কৰক।"
+      },
+      "cover": "/images/exams/assam-police-combo-cover.webp",
+      "coverAlt": {
+        "en": "Assam Police Combo Exam Guide — book front cover",
+        "as": "অসম আৰক্ষী কম্বো পৰীক্ষা গাইড — কিতাপৰ বেটুপাত"
+      },
+      "color": "#1e40af",
+      "icon": "APC",
+      "status": "coming-soon",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Elementary Mathematics",
+            "as": "প্ৰাথমিক গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "hcf-lcm",
+              "title": {
+                "en": "HCF & LCM",
+                "as": "গ.সা.গু. আৰু ল.সা.গু."
+              }
+            },
+            {
+              "id": "fractions-decimals",
+              "title": {
+                "en": "Fractions & Decimals",
+                "as": "ভগ্নাংশ আৰু দশমিক"
+              }
+            },
+            {
+              "id": "square-cube-roots",
+              "title": {
+                "en": "Square & Cube Roots",
+                "as": "বৰ্গমূল আৰু ঘনমূল"
+              }
+            },
+            {
+              "id": "surds-indices",
+              "title": {
+                "en": "Surds & Indices",
+                "as": "কৰণী আৰু সূচক"
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ"
+              }
+            },
+            {
+              "id": "profit-loss",
+              "title": {
+                "en": "Profit & Loss",
+                "as": "লাভ আৰু লোকচান"
+              }
+            },
+            {
+              "id": "discount",
+              "title": {
+                "en": "Discount",
+                "as": "ৰেহাই"
+              }
+            },
+            {
+              "id": "simple-compound-interest",
+              "title": {
+                "en": "Simple & Compound Interest",
+                "as": "সৰল আৰু চক্ৰবৃদ্ধি সুত"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio & Proportion",
+                "as": "অনুপাত আৰু সমানুপাত"
+              }
+            },
+            {
+              "id": "partnership",
+              "title": {
+                "en": "Partnership",
+                "as": "অংশীদাৰিত্ব"
+              }
+            },
+            {
+              "id": "mixture-alligation",
+              "title": {
+                "en": "Mixture & Alligation",
+                "as": "মিশ্ৰণ আৰু সংযোগ"
+              }
+            },
+            {
+              "id": "work-wages",
+              "title": {
+                "en": "Work & Wages",
+                "as": "কাম আৰু মজুৰি"
+              }
+            },
+            {
+              "id": "pipes-cisterns",
+              "title": {
+                "en": "Pipes & Cisterns",
+                "as": "নল আৰু চৌবাচ্চা"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed & Distance",
+                "as": "সময়, গতি আৰু দূৰত্ব"
+              }
+            },
+            {
+              "id": "boats-streams",
+              "title": {
+                "en": "Boats & Streams",
+                "as": "নাও আৰু সোঁত"
+              }
+            },
+            {
+              "id": "problems-on-ages",
+              "title": {
+                "en": "Problems on Ages",
+                "as": "বয়সৰ সমস্যা"
+              }
+            },
+            {
+              "id": "area-perimeter-2d",
+              "title": {
+                "en": "Area & Perimeter of 2D Shapes",
+                "as": "দ্বিমাত্ৰিক আকৃতিৰ কালি আৰু পৰিসীমা"
+              }
+            },
+            {
+              "id": "surface-area-volume-3d",
+              "title": {
+                "en": "Surface Area & Volume of 3D Shapes",
+                "as": "ত্ৰিমাত্ৰিক আকৃতিৰ পৃষ্ঠকালি আৰু আয়তন"
+              }
+            },
+            {
+              "id": "algebra-data-interpretation",
+              "title": {
+                "en": "Basic Algebra & Data Interpretation",
+                "as": "প্ৰাথমিক বীজগণিত আৰু তথ্য বিশ্লেষণ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ"
+              },
+              "subcategories": [
+                {
+                  "id": "parts-of-speech",
+                  "title": {
+                    "en": "Parts of Speech",
+                    "as": "শব্দৰ প্ৰকাৰ"
+                  }
+                },
+                {
+                  "id": "articles",
+                  "title": {
+                    "en": "Articles",
+                    "as": "আৰ্টিকল"
+                  }
+                },
+                {
+                  "id": "tenses",
+                  "title": {
+                    "en": "Tenses",
+                    "as": "কাল"
+                  }
+                },
+                {
+                  "id": "subject-verb-agreement",
+                  "title": {
+                    "en": "Subject-Verb Agreement",
+                    "as": "কৰ্তা-ক্ৰিয়াৰ মিল"
+                  }
+                },
+                {
+                  "id": "active-passive-voice",
+                  "title": {
+                    "en": "Active & Passive Voice",
+                    "as": "কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য"
+                  }
+                },
+                {
+                  "id": "direct-indirect-speech",
+                  "title": {
+                    "en": "Direct & Indirect Speech",
+                    "as": "প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ"
+              },
+              "subcategories": [
+                {
+                  "id": "synonyms-antonyms",
+                  "title": {
+                    "en": "Synonyms & Antonyms",
+                    "as": "সমাৰ্থক আৰু বিপৰীত শব্দ"
+                  }
+                },
+                {
+                  "id": "idioms-phrases",
+                  "title": {
+                    "en": "Idioms & Phrases",
+                    "as": "বাগধাৰা আৰু বাক্যাংশ"
+                  }
+                },
+                {
+                  "id": "one-word-substitution",
+                  "title": {
+                    "en": "One-Word Substitution",
+                    "as": "এক শব্দ প্ৰতিস্থাপন"
+                  }
+                },
+                {
+                  "id": "spelling-correction",
+                  "title": {
+                    "en": "Spelling Correction",
+                    "as": "বানান শুদ্ধি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "usage-comprehension",
+              "title": {
+                "en": "Usage & Comprehension",
+                "as": "প্ৰয়োগ আৰু অনুধাৱন"
+              },
+              "subcategories": [
+                {
+                  "id": "error-spotting",
+                  "title": {
+                    "en": "Error Spotting",
+                    "as": "ভুল চিনাক্তকৰণ"
+                  }
+                },
+                {
+                  "id": "sentence-improvement",
+                  "title": {
+                    "en": "Sentence Improvement",
+                    "as": "বাক্য উন্নয়ন"
+                  }
+                },
+                {
+                  "id": "fill-in-the-blanks",
+                  "title": {
+                    "en": "Fill in the Blanks",
+                    "as": "ৰিক্ত স্থান পূৰণ"
+                  }
+                },
+                {
+                  "id": "sentence-rearrangement",
+                  "title": {
+                    "en": "Sentence Rearrangement (Para Jumbles)",
+                    "as": "বাক্য সজোৱা"
+                  }
+                },
+                {
+                  "id": "reading-comprehension",
+                  "title": {
+                    "en": "Unseen Reading Comprehension",
+                    "as": "অপৰিচিত অনুধাৱন"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Logical Reasoning & Mental Ability",
+            "as": "যৌক্তিক বিচাৰ আৰু মানসিক ক্ষমতা"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "number-alphabet-series",
+                  "title": {
+                    "en": "Number & Alphabet Series",
+                    "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "সংকেতীকৰণ-অৱসংকেতীকৰণ"
+                  }
+                },
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy",
+                    "as": "সাদৃশ্য"
+                  }
+                },
+                {
+                  "id": "classification",
+                  "title": {
+                    "en": "Classification (Odd One Out)",
+                    "as": "শ্ৰেণীবিভাজন (অমিলটো)"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "ৰক্তসম্পৰ্ক"
+                  }
+                },
+                {
+                  "id": "direction-sense",
+                  "title": {
+                    "en": "Direction Sense Test",
+                    "as": "দিশ পৰীক্ষা"
+                  }
+                },
+                {
+                  "id": "ranking-ordering",
+                  "title": {
+                    "en": "Ranking & Ordering",
+                    "as": "ক্ৰম আৰু স্থান"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "analytical-reasoning",
+              "title": {
+                "en": "Analytical Reasoning",
+                "as": "বিশ্লেষণাত্মক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism",
+                    "as": "ন্যাস"
+                  }
+                },
+                {
+                  "id": "statement-conclusion",
+                  "title": {
+                    "en": "Statement & Conclusion",
+                    "as": "বিবৃতি আৰু সিদ্ধান্ত"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "ভেন চিত্ৰ"
+                  }
+                },
+                {
+                  "id": "seating-arrangement",
+                  "title": {
+                    "en": "Seating Arrangement",
+                    "as": "বহাৰ বিন্যাস"
+                  }
+                },
+                {
+                  "id": "puzzles",
+                  "title": {
+                    "en": "Puzzles",
+                    "as": "ধাঁধা"
+                  }
+                },
+                {
+                  "id": "arithmetic-reasoning",
+                  "title": {
+                    "en": "Arithmetic Reasoning",
+                    "as": "গাণিতিক যুক্তিতৰ্ক"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "mirror-water-images",
+                  "title": {
+                    "en": "Mirror & Water Images",
+                    "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব"
+                  }
+                },
+                {
+                  "id": "paper-folding-cutting",
+                  "title": {
+                    "en": "Paper Folding & Cutting",
+                    "as": "কাগজ ভাঁজ আৰু কটা"
+                  }
+                },
+                {
+                  "id": "figure-matrix",
+                  "title": {
+                    "en": "Figure Matrix",
+                    "as": "চিত্ৰ মেট্ৰিক্স"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded Figures",
+                    "as": "সংযোজিত চিত্ৰ"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "assam-history-geography-polity-economy",
+          "type": "qa",
+          "color": "#d97706",
+          "title": {
+            "en": "Assam's History, Geography, Polity & Economy",
+            "as": "অসমৰ ইতিহাস, ভূগোল, ৰাজনীতি আৰু অৰ্থনীতি"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস"
+              },
+              "subcategories": [
+                {
+                  "id": "ancient-kamarupa",
+                  "title": {
+                    "en": "Ancient Kamarupa (Varman, Salastambha, Pala)",
+                    "as": "প্ৰাচীন কামৰূপ (বৰ্মন, শালস্তম্ভ, পাল)"
+                  }
+                },
+                {
+                  "id": "ahom-kingdom",
+                  "title": {
+                    "en": "Ahom Kingdom",
+                    "as": "আহোম ৰাজ্য"
+                  }
+                },
+                {
+                  "id": "koch-kachari-kingdoms",
+                  "title": {
+                    "en": "Koch & Kachari Kingdoms",
+                    "as": "কোঁচ আৰু কছাৰী ৰাজ্য"
+                  }
+                },
+                {
+                  "id": "treaty-of-yandabo",
+                  "title": {
+                    "en": "Treaty of Yandabo (1826)",
+                    "as": "য়াণ্ডাবু সন্ধি (১৮২৬)"
+                  }
+                },
+                {
+                  "id": "peasant-uprisings",
+                  "title": {
+                    "en": "Peasant Uprisings",
+                    "as": "কৃষক বিদ্ৰোহ"
+                  }
+                },
+                {
+                  "id": "assam-freedom-movement",
+                  "title": {
+                    "en": "Role of Assam in India's Freedom Movement",
+                    "as": "ভাৰতৰ স্বাধীনতা আন্দোলনত অসমৰ ভূমিকা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "assam-geography",
+              "title": {
+                "en": "Assam Geography",
+                "as": "অসমৰ ভূগোল"
+              },
+              "subcategories": [
+                {
+                  "id": "physiography",
+                  "title": {
+                    "en": "Physiography",
+                    "as": "ভূ-প্ৰকৃতি"
+                  }
+                },
+                {
+                  "id": "brahmaputra-barak",
+                  "title": {
+                    "en": "Brahmaputra & Barak River Systems",
+                    "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক নদী ব্যৱস্থা"
+                  }
+                },
+                {
+                  "id": "climate-soil-vegetation",
+                  "title": {
+                    "en": "Climate, Soil & Natural Vegetation",
+                    "as": "জলবায়ু, মাটি আৰু প্ৰাকৃতিক বননি"
+                  }
+                },
+                {
+                  "id": "national-parks-sanctuaries",
+                  "title": {
+                    "en": "National Parks & Wildlife Sanctuaries",
+                    "as": "ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্য"
+                  }
+                },
+                {
+                  "id": "minerals-natural-resources",
+                  "title": {
+                    "en": "Minerals & Natural Resources",
+                    "as": "খনিজ আৰু প্ৰাকৃতিক সম্পদ"
+                  }
+                },
+                {
+                  "id": "transport-demography",
+                  "title": {
+                    "en": "Transport & Demography",
+                    "as": "পৰিবহন আৰু জনগাঁথনি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "assam-polity-economy",
+              "title": {
+                "en": "Assam Polity & Economy",
+                "as": "অসমৰ ৰাজনীতি আৰু অৰ্থনীতি"
+              },
+              "subcategories": [
+                {
+                  "id": "legislature-executive",
+                  "title": {
+                    "en": "State Legislature & Executive",
+                    "as": "ৰাজ্যিক বিধানমণ্ডল আৰু কাৰ্যবাহী"
+                  }
+                },
+                {
+                  "id": "panchayati-raj-autonomous-councils",
+                  "title": {
+                    "en": "Panchayati Raj & Autonomous Councils",
+                    "as": "পঞ্চায়তীৰাজ আৰু স্বায়ত্তশাসিত পৰিষদ"
+                  }
+                },
+                {
+                  "id": "tea-oil-silk",
+                  "title": {
+                    "en": "Tea, Oil & Silk Industries",
+                    "as": "চাহ, তেল আৰু পাট-শিল্প"
+                  }
+                },
+                {
+                  "id": "government-schemes-budget",
+                  "title": {
+                    "en": "Government Schemes & Budget Highlights",
+                    "as": "চৰকাৰী আঁচনি আৰু বাজেটৰ মূল কথা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "assam-art-culture",
+              "title": {
+                "en": "Assam Art & Culture",
+                "as": "অসমৰ কলা আৰু সংস্কৃতি"
+              },
+              "subcategories": [
+                {
+                  "id": "satriya-culture",
+                  "title": {
+                    "en": "Satriya Culture",
+                    "as": "সত্ৰীয়া সংস্কৃতি"
+                  }
+                },
+                {
+                  "id": "sankardeva-madhabdeva",
+                  "title": {
+                    "en": "Srimanta Sankardeva & Madhabdeva",
+                    "as": "শ্ৰীমন্ত শংকৰদেৱ আৰু মাধৱদেৱ"
+                  }
+                },
+                {
+                  "id": "bihu-ethnic-festivals",
+                  "title": {
+                    "en": "Bihu & Ethnic Festivals",
+                    "as": "বিহু আৰু জনজাতীয় উৎসৱ"
+                  }
+                },
+                {
+                  "id": "folk-dances",
+                  "title": {
+                    "en": "Folk Dances",
+                    "as": "লোকনৃত্য"
+                  }
+                },
+                {
+                  "id": "literature-awardees",
+                  "title": {
+                    "en": "Literature & Awardees",
+                    "as": "সাহিত্য আৰু বঁটা"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-awareness-gk-current-affairs",
+          "type": "qa",
+          "color": "#2563eb",
+          "title": {
+            "en": "General Awareness, General Knowledge & Current Affairs",
+            "as": "সাধাৰণ সজাগতা, সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী"
+          },
+          "subcategories": [
+            {
+              "id": "indian-history-polity",
+              "title": {
+                "en": "Indian History & Polity",
+                "as": "ভাৰতীয় ইতিহাস আৰু ৰাজনীতি"
+              },
+              "subcategories": [
+                {
+                  "id": "indus-valley-to-independence",
+                  "title": {
+                    "en": "Indus Valley to Independence",
+                    "as": "সিন্ধু সভ্যতাৰ পৰা স্বাধীনতা"
+                  }
+                },
+                {
+                  "id": "indian-constitution",
+                  "title": {
+                    "en": "Indian Constitution",
+                    "as": "ভাৰতীয় সংবিধান"
+                  }
+                },
+                {
+                  "id": "parliament-president-supreme-court",
+                  "title": {
+                    "en": "Parliament, President & Supreme Court",
+                    "as": "সংসদ, ৰাষ্ট্ৰপতি আৰু উচ্চতম ন্যায়ালয়"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "indian-geography-economy",
+              "title": {
+                "en": "Indian Geography & Economy",
+                "as": "ভাৰতীয় ভূগোল আৰু অৰ্থনীতি"
+              },
+              "subcategories": [
+                {
+                  "id": "rivers-mountains-crops",
+                  "title": {
+                    "en": "Major Rivers, Mountains & Crops",
+                    "as": "প্ৰধান নদী, পৰ্বত আৰু শস্য"
+                  }
+                },
+                {
+                  "id": "five-year-plans-niti-aayog",
+                  "title": {
+                    "en": "Five-Year Plans, NITI Aayog & Banking",
+                    "as": "পঞ্চবাৰ্ষিক পৰিকল্পনা, নীতি আয়োগ আৰু বেংকিং"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "general-science",
+              "title": {
+                "en": "General Science (Class X Level)",
+                "as": "সাধাৰণ বিজ্ঞান (দশম শ্ৰেণীৰ স্তৰ)"
+              },
+              "subcategories": [
+                {
+                  "id": "physics-light-sound-electricity",
+                  "title": {
+                    "en": "Physics: Light, Sound & Electricity",
+                    "as": "পদাৰ্থ বিজ্ঞান: পোহৰ, ধ্বনি আৰু বিদ্যুৎ"
+                  }
+                },
+                {
+                  "id": "chemistry-acids-bases-metals",
+                  "title": {
+                    "en": "Chemistry: Acids, Bases & Metals",
+                    "as": "ৰসায়ন বিজ্ঞান: অম্ল, ক্ষাৰক আৰু ধাতু"
+                  }
+                },
+                {
+                  "id": "biology-human-body-nutrition",
+                  "title": {
+                    "en": "Biology: Human Body, Diseases & Nutrition",
+                    "as": "জীৱ বিজ্ঞান: মানৱ শৰীৰ, ৰোগ আৰু পুষ্টি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "static-gk-current-affairs",
+              "title": {
+                "en": "Static GK & Current Affairs",
+                "as": "স্থিৰ সাধাৰণ জ্ঞান আৰু চলিত ঘটনাৱলী"
+              },
+              "subcategories": [
+                {
+                  "id": "books-authors",
+                  "title": {
+                    "en": "Books & Authors",
+                    "as": "কিতাপ আৰু লেখক"
+                  }
+                },
+                {
+                  "id": "sports",
+                  "title": {
+                    "en": "Sports",
+                    "as": "ক্ৰীড়া"
+                  }
+                },
+                {
+                  "id": "important-days",
+                  "title": {
+                    "en": "Important Days",
+                    "as": "গুৰুত্বপূৰ্ণ দিন"
+                  }
+                },
+                {
+                  "id": "awards-honours",
+                  "title": {
+                    "en": "Awards & Honours",
+                    "as": "বঁটা আৰু সন্মান"
+                  }
+                },
+                {
+                  "id": "national-international-current-affairs",
+                  "title": {
+                    "en": "National & International Current Affairs",
+                    "as": "ৰাষ্ট্ৰীয় আৰু আন্তৰ্জাতিক চলিত ঘটনাৱলী"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assam-police-si",
+      "book": {
+        "code": "AXO-AP-SI",
+        "authority": {
+          "en": "SLPRB Assam",
+          "as": "SLPRB অসম"
+        },
+        "authorityUrl": "https://slprbassam.in/",
+        "published": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "Assam Police Sub-Inspector (SI)",
+        "as": "অসম আৰক্ষী উপ-পৰিদৰ্শক (SI)"
+      },
+      "subtitle": {
+        "en": "Sub-Inspector of Police (UB & AB) — SLPRB Assam",
+        "as": "আৰক্ষী উপ-পৰিদৰ্শক (UB আৰু AB) — SLPRB অসম"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/assam-police-si-cover.webp",
+      "coverAlt": {
+        "en": "Assam Police Sub-Inspector (UB & AB) Recruitment Exam — book front cover",
+        "as": "অসম আৰক্ষী উপ-পৰিদৰ্শক (UB আৰু AB) নিযুক্তি পৰীক্ষা — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/assam-police-logo.webp",
+      "logoAlt": {
+        "en": "Assam Police official logo",
+        "as": "অসম আৰক্ষী চৰকাৰী ল'গ'"
+      },
+      "color": "#1d4ed8",
+      "icon": "SI",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Logical Reasoning & Mental Ability",
+            "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              }
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+              }
+            }
+          ]
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Aptitude & Basic Mathematics",
+            "as": "যোগ্যতা আৰু প্ৰাথমিক গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": {
+                "en": "Number System & Simplification",
+                "as": "সংখ্যা পদ্ধতি আৰু সৰলীকৰণ"
+              }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": {
+                "en": "LCM & HCF",
+                "as": "ল.সা.গু. আৰু গ.সা.গু."
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ"
+              }
+            },
+            {
+              "id": "profit-loss",
+              "title": {
+                "en": "Profit, Loss & Discount",
+                "as": "লাভ, লোকচান আৰু ৰেহাই"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio, Proportion & Partnership",
+                "as": "অনুপাত, সমানুপাত আৰু অংশীদাৰিত্ব"
+              }
+            },
+            {
+              "id": "average",
+              "title": {
+                "en": "Average, Mixture & Alligation",
+                "as": "গড়, মিশ্ৰণ আৰু মিশ্ৰণ-নিয়ম"
+              }
+            },
+            {
+              "id": "simple-compound-interest",
+              "title": {
+                "en": "Simple & Compound Interest",
+                "as": "সৰল আৰু চক্ৰবৃদ্ধি সুত"
+              }
+            },
+            {
+              "id": "time-work",
+              "title": {
+                "en": "Time, Work & Pipes",
+                "as": "সময়, কাৰ্য আৰু নল-চুঙা"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed, Distance, Trains & Boats",
+                "as": "সময়, গতি, দূৰত্ব, ৰে'ল আৰু নাও"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-knowledge-science-current-affairs",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge, Science & Current Affairs",
+            "as": "সাধাৰণ জ্ঞান, বিজ্ঞান আৰু সাম্প্ৰতিক ঘটনা"
+          },
+          "subcategories": [
+            {
+              "id": "indian-polity-constitution",
+              "title": {
+                "en": "Indian Polity & Constitution",
+                "as": "ভাৰতৰ ৰাজনীতি আৰু সংবিধান"
+              }
+            },
+            {
+              "id": "indian-history-national-movement",
+              "title": {
+                "en": "Indian History & National Movement",
+                "as": "ভাৰতৰ ইতিহাস আৰু জাতীয় আন্দোলন"
+              }
+            },
+            {
+              "id": "indian-world-geography",
+              "title": {
+                "en": "Indian & World Geography",
+                "as": "ভাৰত আৰু বিশ্বৰ ভূগোল"
+              }
+            },
+            {
+              "id": "general-science-technology",
+              "title": {
+                "en": "General Science & Technology",
+                "as": "সাধাৰণ বিজ্ঞান আৰু প্ৰযুক্তি"
+              }
+            },
+            {
+              "id": "indian-history-polity-economy",
+              "title": {
+                "en": "Indian History, Polity & Economy",
+                "as": "ভাৰতৰ ইতিহাস, ৰাজনীতি আৰু অৰ্থনীতি"
+              }
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs",
+                "as": "সাম্প্ৰতিক ঘটনা"
+              }
+            },
+            {
+              "id": "static-gk",
+              "title": {
+                "en": "Static GK — Days, Capitals & Currencies",
+                "as": "স্থিৰ সাধাৰণ জ্ঞান — দিৱস, ৰাজধানী আৰু মুদ্ৰা"
+              }
+            }
+          ]
+        },
+        {
+          "id": "assam-history-geography-culture",
+          "type": "qa",
+          "color": "#10b981",
+          "title": {
+            "en": "History, Geography & Culture of Assam",
+            "as": "অসমৰ ইতিহাস, ভূগোল আৰু সংস্কৃতি"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস"
+              }
+            },
+            {
+              "id": "assam-geography",
+              "title": {
+                "en": "Assam Geography & Environment",
+                "as": "অসমৰ ভূগোল আৰু পৰিৱেশ"
+              }
+            },
+            {
+              "id": "assam-culture",
+              "title": {
+                "en": "Assam Art, Literature & Culture",
+                "as": "অসমৰ কলা, সাহিত্য আৰু সংস্কৃতি"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adre-grade-3",
+      "book": {
+        "code": "AXO-ADRE-G3",
+        "authority": {
+          "en": "SLRC Assam",
+          "as": "SLRC অসম"
+        },
+        "authorityUrl": "https://slrcassam.in/",
+        "published": {
+          "en": "29 October 2026",
+          "as": "29 অক্টোবৰ 2026"
+        },
+        "updated": {
+          "en": "29 October 2026",
+          "as": "29 অক্টোবৰ 2026"
+        }
+      },
+      "title": {
+        "en": "ADRE 3.0 Grade III",
+        "as": "ADRE 3.0 গ্ৰেড III"
+      },
+      "subtitle": {
+        "en": "Assam Direct Recruitment Examination — Grade III (SLRC)",
+        "as": "অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা — গ্ৰেড III (SLRC)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/adre-grade-3-cover.webp",
+      "logo": "/images/exams/adre-grade-3-logo.webp",
+      "logoAlt": {
+        "en": "Government of Assam official logo",
+        "as": "অসম চৰকাৰৰ চৰকাৰী ল'গ'"
+      },
+      "coverAlt": {
+        "en": "ADRE 3.0 (Assam Direct Recruitment Examination) Grade III — book front cover",
+        "as": "ADRE 3.0 (অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা) গ্ৰেড III — কিতাপৰ বেটুপাত"
+      },
+      "color": "#0f766e",
+      "icon": "ADRE",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "General Mathematics",
+            "as": "সাধাৰণ গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": {
+                "en": "Number System",
+                "as": "সংখ্যা পদ্ধতি — বাস্তৱ সংখ্যা, ভগ্নাংশ (Fractions), দশমিক সংখ্যা (Decimals), বিভাজ্যতাৰ নিয়ম।"
+              }
+            },
+            {
+              "id": "simplification-fractions",
+              "title": {
+                "en": "Simplification",
+                "as": "সৰলীকৰণ — BODMAS নিয়ম।"
+              }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": {
+                "en": "LCM & HCF",
+                "as": "ল.সা.গু. আৰু গ.সা.উ. (LCM & HCF)।"
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ (Percentage)।"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio & Proportion",
+                "as": "অনুপাত আৰু সমানুপাত (Ratio & Proportion)।"
+              }
+            },
+            {
+              "id": "average",
+              "title": {
+                "en": "Average",
+                "as": "গড় (Average)।"
+              }
+            },
+            {
+              "id": "profit-loss",
+              "title": {
+                "en": "Profit & Loss",
+                "as": "লাভ আৰু ক্ষতি (Profit & Loss)।"
+              }
+            },
+            {
+              "id": "simple-compound-interest",
+              "title": {
+                "en": "Simple & Compound Interest",
+                "as": "সৰল সুত আৰু চক্ৰবৃদ্ধি সুত (Simple & Compound Interest)।"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed & Distance",
+                "as": "সময় আৰু দূৰত্ব (Time, Speed & Distance) — ৰে'লগাড়ী আৰু গতিবেগৰ অংক।"
+              }
+            },
+            {
+              "id": "time-work",
+              "title": {
+                "en": "Time & Work",
+                "as": "সময় আৰু কাৰ্য (Time & Work) — মানুহ আৰু কামৰ হিচাপ।"
+              }
+            },
+            {
+              "id": "problems-on-ages",
+              "title": {
+                "en": "Problems on Ages",
+                "as": "বয়স সম্বন্ধীয় সমস্যা (Problems on Ages)।"
+              }
+            },
+            {
+              "id": "basic-mensuration",
+              "title": {
+                "en": "Basic Mensuration & Geometry",
+                "as": "সাধাৰণ পৰিমিতি আৰু জ্যামিতি (Basic Mensuration) — ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত, আয়তক্ষেত্ৰ আৰু বৰ্গক্ষেত্ৰৰ পৰিসীমা আৰু কালি (Class 8 & 10 level)।"
+              }
+            },
+            {
+              "id": "partnership",
+              "title": {
+                "en": "Partnership",
+                "as": "অংশীদাৰিত্ব (Partnership) — মূলধন, সময় আৰু লাভ-ক্ষতিৰ ভাগ।"
+              }
+            },
+            {
+              "id": "pipes-and-cisterns",
+              "title": {
+                "en": "Pipes & Cisterns",
+                "as": "নল আৰু চৌবাচ্চা (Pipes & Cisterns) — অন্তৰ্গামী আৰু বহিৰ্গামী নল।"
+              }
+            },
+            {
+              "id": "boats-and-streams",
+              "title": {
+                "en": "Boats & Streams",
+                "as": "নাও আৰু সোঁত (Boats & Streams) — সোঁতৰ দিশ আৰু বিপৰীত দিশৰ গতি।"
+              }
+            },
+            {
+              "id": "mixture-and-alligation",
+              "title": {
+                "en": "Mixture & Alligation",
+                "as": "মিশ্ৰণ আৰু সংযোগ (Mixture & Alligation) — গড় দাম আৰু ঘনত্ব।"
+              }
+            },
+            {
+              "id": "algebra",
+              "title": {
+                "en": "Algebra",
+                "as": "বীজগণিত (Algebra) — সমীকৰণ, অভেদ আৰু ৰাশি।"
+              }
+            },
+            {
+              "id": "surds-and-indices",
+              "title": {
+                "en": "Surds & Indices",
+                "as": "কৰণী আৰু সূচক (Surds & Indices) — ঘাতৰ নিয়ম আৰু মূল।"
+              }
+            },
+            {
+              "id": "geometry",
+              "title": {
+                "en": "Geometry",
+                "as": "জ্যামিতি (Geometry) — কোণ, ত্ৰিভুজ, বহুভুজ আৰু বৃত্ত।"
+              }
+            },
+            {
+              "id": "mensuration-2d",
+              "title": {
+                "en": "Mensuration (2D)",
+                "as": "পৰিমিতি — ২-মাত্ৰিক (Mensuration 2D) — সমতল আকৃতিৰ কালি আৰু পৰিসীমা।"
+              }
+            },
+            {
+              "id": "mensuration-3d",
+              "title": {
+                "en": "Mensuration (3D)",
+                "as": "পৰিমিতি — ৩-মাত্ৰিক (Mensuration 3D) — ঘনক, চুঙা আৰু গোলকৰ আয়তন আৰু পৃষ্ঠকালি।"
+              }
+            },
+            {
+              "id": "trigonometry",
+              "title": {
+                "en": "Trigonometry",
+                "as": "ত্ৰিকোণমিতি (Trigonometry) — অনুপাত, প্ৰামাণ্য কোণ আৰু অভেদ।"
+              }
+            },
+            {
+              "id": "statistics",
+              "title": {
+                "en": "Statistics",
+                "as": "পৰিসংখ্যা বিজ্ঞান (Statistics) — মাধ্য, মধ্যক, বহুলক আৰু পৰিসৰ।"
+              }
+            },
+            {
+              "id": "data-interpretation",
+              "title": {
+                "en": "Data Interpretation",
+                "as": "তথ্য বিশ্লেষণ (Data Interpretation) — তালিকা আৰু লেখচিত্ৰ।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "history",
+          "type": "qa",
+          "color": "#b45309",
+          "title": {
+            "en": "History",
+            "as": "ইতিহাস (History)"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস (Assam History)"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-history-ancient",
+                  "title": {
+                    "en": "Ancient Assam",
+                    "as": "প্ৰাচীন অসম (Ancient Assam) — বৰ্মন, শালস্তম্ভ আৰু পাল বংশ।"
+                  }
+                },
+                {
+                  "id": "assam-history-medieval",
+                  "title": {
+                    "en": "Medieval Assam",
+                    "as": "মধ্যযুগীয় অসম (Medieval Assam) — আহোম যুগ, কোচ ৰাজ্য আৰু য়াণ্ডাবু সন্ধি।"
+                  }
+                },
+                {
+                  "id": "assam-history-modern",
+                  "title": {
+                    "en": "Modern Assam",
+                    "as": "আধুনিক অসম (Modern Assam) — ব্ৰিটিছ শাসন, স্বাধীনতা সংগ্ৰাম আৰু আধুনিক অসম।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "indian-history",
+              "title": {
+                "en": "Indian History",
+                "as": "ভাৰতৰ ইতিহাস (Indian History)"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-history-ancient",
+                  "title": {
+                    "en": "Ancient India",
+                    "as": "প্ৰাচীন ভাৰত (Ancient India) — সিন্ধু সভ্যতা, বৈদিক যুগ, মৌৰ্য আৰু গুপ্ত সাম্ৰাজ্য।"
+                  }
+                },
+                {
+                  "id": "indian-history-medieval",
+                  "title": {
+                    "en": "Medieval India",
+                    "as": "মধ্যযুগীয় ভাৰত (Medieval India) — দিল্লী সুলতানী, মোগল সাম্ৰাজ্য আৰু মাৰাঠা।"
+                  }
+                },
+                {
+                  "id": "indian-history-modern",
+                  "title": {
+                    "en": "Modern India",
+                    "as": "আধুনিক ভাৰত (Modern India) — ব্ৰিটিছ শাসন আৰু স্বাধীনতা আন্দোলন।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "world-history",
+              "title": {
+                "en": "World History",
+                "as": "বিশ্বৰ ইতিহাস (World History) — বিশ্বৰ প্ৰধান ঐতিহাসিক ঘটনাৱলী।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী (General English)"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ (Grammar)"
+              },
+              "subcategories": [
+                {
+                  "id": "parts-of-speech",
+                  "title": {
+                    "en": "Parts of Speech",
+                    "as": "Parts of Speech — Noun, Pronoun, Verb, Adjective, Adverb আদি।"
+                  }
+                },
+                {
+                  "id": "articles-determiners",
+                  "title": {
+                    "en": "Articles",
+                    "as": "Articles — A, An, The।"
+                  }
+                },
+                {
+                  "id": "prepositions",
+                  "title": {
+                    "en": "Prepositions",
+                    "as": "Prepositions — In, On, At, To, With আদি।"
+                  }
+                },
+                {
+                  "id": "tenses-rules",
+                  "title": {
+                    "en": "Tenses",
+                    "as": "Tenses — Present, Past, Future।"
+                  }
+                },
+                {
+                  "id": "subject-verb-agreement",
+                  "title": {
+                    "en": "Subject-Verb Agreement",
+                    "as": "কৰ্তা-ক্ৰিয়াৰ মিল (Subject-Verb Agreement)।"
+                  }
+                },
+                {
+                  "id": "voice-change",
+                  "title": {
+                    "en": "Voice Change",
+                    "as": "Voice Change — Active আৰু Passive Voice।"
+                  }
+                },
+                {
+                  "id": "narration",
+                  "title": {
+                    "en": "Narration",
+                    "as": "Narration — Direct আৰু Indirect Speech।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ (Vocabulary)"
+              },
+              "subcategories": [
+                {
+                  "id": "synonyms",
+                  "title": {
+                    "en": "Synonyms",
+                    "as": "সমাৰ্থক শব্দ (Synonyms)।"
+                  }
+                },
+                {
+                  "id": "antonyms",
+                  "title": {
+                    "en": "Antonyms",
+                    "as": "বিপৰীত শব্দ (Antonyms)।"
+                  }
+                },
+                {
+                  "id": "one-word-substitution",
+                  "title": {
+                    "en": "One Word Substitution",
+                    "as": "এটা শব্দত প্ৰকাশ (One Word Substitution)।"
+                  }
+                },
+                {
+                  "id": "idioms-phrases",
+                  "title": {
+                    "en": "Idioms & Phrases",
+                    "as": "Idioms and Phrases — বাক্যৰীতি আৰু খণ্ডবাক্য।"
+                  }
+                },
+                {
+                  "id": "error-detection",
+                  "title": {
+                    "en": "Spotting Errors",
+                    "as": "বাক্যৰ ভুল নিৰ্ণয় (Spotting Errors)।"
+                  }
+                },
+                {
+                  "id": "fill-in-the-blanks",
+                  "title": {
+                    "en": "Fill in the Blanks",
+                    "as": "ৰিক্ত স্থান পূৰণ (Fill in the Blanks)।"
+                  }
+                },
+                {
+                  "id": "sentence-rearrangement",
+                  "title": {
+                    "en": "Sentence Rearrangement",
+                    "as": "বাক্য সজোৱা (Sentence Rearrangement)।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-knowledge-assam-gk",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge & Assam GK",
+            "as": "সাধাৰণ জ্ঞান আৰু অসম সম্পৰ্কীয় তথ্য (General Knowledge & Assam GK)"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history-culture",
+              "title": {
+                "en": "Assam's Culture & Literature",
+                "as": "অসমৰ সংস্কৃতি আৰু সাহিত্য"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-folk-culture",
+                  "title": {
+                    "en": "Folk Culture, Bihu & Satriya",
+                    "as": "অসমৰ লোক-সংস্কৃতি, বিহু, উৎসৱ-পাৰ্বণ, সত্ৰীয়া সংস্কৃতি।"
+                  }
+                },
+                {
+                  "id": "assamese-literature",
+                  "title": {
+                    "en": "Assamese Literature",
+                    "as": "অসমীয়া সাহিত্যৰ উল্লেখযোগ্য লেখক আৰু গ্ৰন্থসমূহ।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "assam-geography",
+              "title": {
+                "en": "Assam's Geography",
+                "as": "অসমৰ ভূগোল"
+              },
+              "subcategories": [
+                {
+                  "id": "brahmaputra-barak",
+                  "title": {
+                    "en": "Brahmaputra & Barak Rivers",
+                    "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক নদী আৰু উপনৈসমূহ।"
+                  }
+                },
+                {
+                  "id": "assam-national-parks",
+                  "title": {
+                    "en": "National Parks & Sanctuaries",
+                    "as": "অসমৰ ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্যসমূহ।"
+                  }
+                },
+                {
+                  "id": "assam-natural-resources",
+                  "title": {
+                    "en": "Natural Resources",
+                    "as": "প্ৰাকৃতিক সম্পদ — চাহ, খনিজ তেল, কয়লা।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "india-general-knowledge",
+              "title": {
+                "en": "India General Knowledge",
+                "as": "ভাৰতৰ সাধাৰণ জ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "india-rivers-mountains-states",
+                  "title": {
+                    "en": "Rivers, Mountains & States",
+                    "as": "ভাৰতৰ প্ৰধান নদ-নদী, পৰ্বতমালা আৰু ৰাজ্যসমূহ।"
+                  }
+                },
+                {
+                  "id": "important-days-dates",
+                  "title": {
+                    "en": "Important Days & Dates",
+                    "as": "উল্লেখযোগ্য দিন আৰু দিৱস (Important Days & Dates)।"
+                  }
+                },
+                {
+                  "id": "awards-honours",
+                  "title": {
+                    "en": "Awards & Honours",
+                    "as": "বঁটা আৰু সন্মান (Awards & Honours)।"
+                  }
+                },
+                {
+                  "id": "sports",
+                  "title": {
+                    "en": "Sports",
+                    "as": "খেল-ধেমালি (Sports)।"
+                  }
+                },
+                {
+                  "id": "indian-geography",
+                  "title": {
+                    "en": "Indian Geography",
+                    "as": "ভাৰতৰ ভূগোল (Indian Geography)।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs",
+                "as": "সাম্প্ৰতিক ঘটনাৱলী (Current Affairs)"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-india-current-affairs",
+                  "title": {
+                    "en": "Assam & India Current Affairs",
+                    "as": "বিগত ৬-৮ মাহৰ অসম আৰু ভাৰতৰ গুৰুত্বপূৰ্ণ ঘটনাৱলী।"
+                  }
+                },
+                {
+                  "id": "government-schemes",
+                  "title": {
+                    "en": "Government Schemes",
+                    "as": "চৰকাৰী আঁচনিসমূহ — বিশেষকৈ অসম চৰকাৰৰ আঁচনি।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Reasoning & Mental Ability",
+            "as": "যুক্তি আৰু বৌদ্ধিক ক্ষমতা (Reasoning & Mental Ability)"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "number-alphabet-series",
+                  "title": {
+                    "en": "Number Series & Alphabet Series",
+                    "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।"
+                  }
+                },
+                {
+                  "id": "alpha-numeric-series",
+                  "title": {
+                    "en": "Alpha-Numeric Series",
+                    "as": "বৰ্ণ আৰু সংখ্যাৰ মিশ্ৰিত শৃংখলা (Alpha-Numeric Series)।"
+                  }
+                },
+                {
+                  "id": "alphabet-test-word-formation",
+                  "title": {
+                    "en": "Alphabet Test & Word Formation",
+                    "as": "বৰ্ণমালা পৰীক্ষা আৰু শব্দ গঠন — আখৰৰ স্থান, অভিধানৰ ক্ৰম আৰু শব্দ গঠন।"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (Letter Coding, Number Coding)।"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": {
+                    "en": "Direction Sense Test",
+                    "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy",
+                    "as": "সাদৃশ্য নিৰ্ণয় — দুটা শব্দ বা সংখ্যাৰ মাজৰ পাৰস্পৰিক সম্বন্ধ।"
+                  }
+                },
+                {
+                  "id": "odd-one-out",
+                  "title": {
+                    "en": "Classification / Odd One Out",
+                    "as": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "ranking-order",
+                  "title": {
+                    "en": "Ranking & Order Test",
+                    "as": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান (বাওঁ/সোঁ বা ওপৰ/তলৰ পৰা) নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "word-formation-dictionary",
+                  "title": {
+                    "en": "Word Formation & Dictionary Order",
+                    "as": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা।"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা।"
+                  }
+                },
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism / Statements & Conclusions",
+                    "as": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": {
+                    "en": "Mathematical Operations",
+                    "as": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": {
+                    "en": "Clock & Calendar",
+                    "as": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "data-sufficiency",
+                  "title": {
+                    "en": "Data Sufficiency",
+                    "as": "তথ্য পৰ্যাপ্ততা (Data Sufficiency) — কোনটো তথ্যই উত্তৰ দিবলৈ যথেষ্ট।"
+                  }
+                },
+                {
+                  "id": "input-output-machine",
+                  "title": {
+                    "en": "Input-Output & Machine",
+                    "as": "ইনপুট-আউটপুট আৰু যন্ত্ৰৰ ধাপ (Input-Output & Machine)।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "analytical-critical-reasoning",
+              "title": {
+                "en": "Analytical & Critical Reasoning",
+                "as": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "seating-arrangement",
+                  "title": {
+                    "en": "Seating Arrangement",
+                    "as": "বহাৰ বিন্যাস — শাৰী, বৃত্ত আৰু বৰ্গাকাৰত বহাৰ প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "complex-puzzles",
+                  "title": {
+                    "en": "Complex Puzzles",
+                    "as": "জটিল পাজল — মজিয়া, পেটিকা আৰু সময়সূচীৰ প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "inequality",
+                  "title": {
+                    "en": "Inequality",
+                    "as": "অসমতা (Inequality) — চিহ্নৰ অৰ্থ আৰু তুলনাৰ সম্পৰ্ক।"
+                  }
+                },
+                {
+                  "id": "statement-conclusions",
+                  "title": {
+                    "en": "Statement & Conclusions",
+                    "as": "বিবৃতি আৰু সিদ্ধান্ত — কোনটো সিদ্ধান্ত যুক্তিসংগতভাৱে ওলাই আহে।"
+                  }
+                },
+                {
+                  "id": "statement-assumptions",
+                  "title": {
+                    "en": "Statement & Assumptions",
+                    "as": "বিবৃতি আৰু অনুমান — বিবৃতিত লুকুৱা ধাৰণা নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "statement-arguments",
+                  "title": {
+                    "en": "Statement & Arguments",
+                    "as": "বিবৃতি আৰু যুক্তি — শক্তিশালী যুক্তি বাছনি কৰা।"
+                  }
+                },
+                {
+                  "id": "statement-course-of-action",
+                  "title": {
+                    "en": "Statement & Course of Action",
+                    "as": "বিবৃতি আৰু কাৰ্যপন্থা — সমস্যাৰ বাবে উপযুক্ত পদক্ষেপ নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "cause-effect",
+                  "title": {
+                    "en": "Cause & Effect",
+                    "as": "কাৰণ আৰু ফলাফল (Cause & Effect)।"
+                  }
+                },
+                {
+                  "id": "assertion-reason",
+                  "title": {
+                    "en": "Assertion & Reason",
+                    "as": "দাবী আৰু কাৰণ (Assertion & Reason)।"
+                  }
+                },
+                {
+                  "id": "decision-making",
+                  "title": {
+                    "en": "Decision Making",
+                    "as": "সিদ্ধান্ত লোৱা (Decision Making) — যোগ্যতাৰ চৰ্তৰ পৰা সিদ্ধান্ত।"
+                  }
+                },
+                {
+                  "id": "drawing-inferences",
+                  "title": {
+                    "en": "Drawing Inferences",
+                    "as": "সিদ্ধান্ত টনা (Drawing Inferences) — অনুচ্ছেদৰ পৰা সঠিক অনুমান।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক / অ-ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "figure-series",
+                  "title": {
+                    "en": "Figure Series",
+                    "as": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা।"
+                  }
+                },
+                {
+                  "id": "figure-analogy",
+                  "title": {
+                    "en": "Figure Analogy",
+                    "as": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই তৃতীয় চিত্ৰৰ সঠিক জোৰা উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "figure-classification",
+                  "title": {
+                    "en": "Figure Classification (Odd One Out)",
+                    "as": "চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": {
+                    "en": "Mirror Image & Water Image",
+                    "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": {
+                    "en": "Pattern Completion",
+                    "as": "অসম্পূৰ্ণ চিত্ৰৰ খালী অংশ পূৰণ কৰা।"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded Figures",
+                    "as": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা নিৰ্দিষ্ট চিত্ৰটো বিচাৰি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "counting-figures",
+                  "title": {
+                    "en": "Counting of Figures",
+                    "as": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।"
+                  }
+                },
+                {
+                  "id": "paper-folding-cutting",
+                  "title": {
+                    "en": "Paper Folding & Paper Cutting",
+                    "as": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "cubes-dice",
+                  "title": {
+                    "en": "Cubes & Dice",
+                    "as": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "figure-matrix",
+                  "title": {
+                    "en": "Figure Matrix",
+                    "as": "চিত্ৰ মেট্ৰিক্স — শাৰী আৰু স্তম্ভৰ সম্পৰ্কৰ পৰা নোহোৱা চিত্ৰটো পূৰণ কৰা।"
+                  }
+                },
+                {
+                  "id": "rule-detection",
+                  "title": {
+                    "en": "Rule Detection",
+                    "as": "নিয়ম নিৰ্ণয় (Rule Detection) — দিয়া নিয়ম মানি চলা বিকল্পটো বাছনি কৰা।"
+                  }
+                },
+                {
+                  "id": "shape-construction-grouping",
+                  "title": {
+                    "en": "Shape Construction & Grouping",
+                    "as": "আকৃতি গঠন আৰু শ্ৰেণীবদ্ধকৰণ — টুকুৰা জোৰা লগাই আকৃতি সজা।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "social-studies",
+          "type": "qa",
+          "color": "#d97706",
+          "title": {
+            "en": "Social Studies",
+            "as": "সামাজিক বিজ্ঞান (Social Studies)"
+          },
+          "subcategories": [
+            {
+              "id": "polity-constitution",
+              "title": {
+                "en": "Political Science & Constitution",
+                "as": "ৰাজনীতি বিজ্ঞান আৰু সংবিধান"
+              },
+              "subcategories": [
+                {
+                  "id": "constitution-preamble-rights",
+                  "title": {
+                    "en": "Constitution, Preamble, Rights & Duties",
+                    "as": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য।"
+                  }
+                },
+                {
+                  "id": "president-pm-governor-cm",
+                  "title": {
+                    "en": "President, PM, Governor & CM",
+                    "as": "ৰাষ্ট্ৰপতি, প্ৰধানমন্ত্ৰী, ৰাজ্যপাল আৰু মুখ্যমন্ত্ৰীৰ পদবী।"
+                  }
+                },
+                {
+                  "id": "panchayati-raj",
+                  "title": {
+                    "en": "Panchayati Raj System",
+                    "as": "পঞ্চায়তী ৰাজ ব্যৱস্থা।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "economy-environment",
+              "title": {
+                "en": "Economy & Environment",
+                "as": "অৰ্থনীতি আৰু পৰিৱেশ"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-assam-economy",
+                  "title": {
+                    "en": "Indian & Assam Economy",
+                    "as": "ভাৰত আৰু অসমৰ অৰ্থনীতি — কৃষি, উদ্যোগ আৰু বিত্তীয় মূল ধাৰণা।"
+                  }
+                },
+                {
+                  "id": "environment-pollution",
+                  "title": {
+                    "en": "Environment & Pollution",
+                    "as": "পৰিৱেশ সংৰক্ষণ আৰু প্ৰদূষণ সম্পৰ্কীয় সজাগতা।"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adre-grade-4",
+      "book": {
+        "code": "AXO-ADRE-G4",
+        "authority": {
+          "en": "SLRC Assam",
+          "as": "SLRC অসম"
+        },
+        "authorityUrl": "https://slrcassam.in/",
+        "published": {
+          "en": "27 September 2026",
+          "as": "27 ছেপ্তেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "27 September 2026",
+          "as": "27 ছেপ্তেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "ADRE 3.0 Grade IV",
+        "as": "ADRE 3.0 গ্ৰেড IV"
+      },
+      "subtitle": {
+        "en": "Assam Direct Recruitment Examination — Grade IV (SLRC)",
+        "as": "অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা — গ্ৰেড IV (SLRC)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/adre-cover.webp",
+      "logo": "/images/exams/adre-grade-4-logo.webp",
+      "logoAlt": {
+        "en": "Government of Assam official logo",
+        "as": "অসম চৰকাৰৰ চৰকাৰী ল'গ'"
+      },
+      "coverAlt": {
+        "en": "ADRE 3.0 (Assam Direct Recruitment Examination) Grade IV — book front cover",
+        "as": "ADRE 3.0 (অসম প্ৰত্যক্ষ নিযুক্তি পৰীক্ষা) গ্ৰেড IV — কিতাপৰ বেটুপাত"
+      },
+      "color": "#16a34a",
+      "icon": "ADRE",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "General Mathematics",
+            "as": "সাধাৰণ গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": {
+                "en": "Number System",
+                "as": "সংখ্যা পদ্ধতি — বাস্তৱ সংখ্যা, ভগ্নাংশ (Fractions), দশমিক সংখ্যা (Decimals), বিভাজ্যতাৰ নিয়ম।"
+              }
+            },
+            {
+              "id": "simplification-fractions",
+              "title": {
+                "en": "Simplification",
+                "as": "সৰলীকৰণ — BODMAS নিয়ম।"
+              }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": {
+                "en": "LCM & HCF",
+                "as": "ল.সা.গু. আৰু গ.সা.উ. (LCM & HCF)।"
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ (Percentage)।"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio & Proportion",
+                "as": "অনুপাত আৰু সমানুপাত (Ratio & Proportion)।"
+              }
+            },
+            {
+              "id": "average",
+              "title": {
+                "en": "Average",
+                "as": "গড় (Average)।"
+              }
+            },
+            {
+              "id": "profit-loss",
+              "title": {
+                "en": "Profit & Loss",
+                "as": "লাভ আৰু ক্ষতি (Profit & Loss)।"
+              }
+            },
+            {
+              "id": "simple-compound-interest",
+              "title": {
+                "en": "Simple & Compound Interest",
+                "as": "সৰল সুত আৰু চক্ৰবৃদ্ধি সুত (Simple & Compound Interest)।"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed & Distance",
+                "as": "সময় আৰু দূৰত্ব (Time, Speed & Distance) — ৰে'লগাড়ী আৰু গতিবেগৰ অংক।"
+              }
+            },
+            {
+              "id": "time-work",
+              "title": {
+                "en": "Time & Work",
+                "as": "সময় আৰু কাৰ্য (Time & Work) — মানুহ আৰু কামৰ হিচাপ।"
+              }
+            },
+            {
+              "id": "problems-on-ages",
+              "title": {
+                "en": "Problems on Ages",
+                "as": "বয়স সম্বন্ধীয় সমস্যা (Problems on Ages)।"
+              }
+            },
+            {
+              "id": "basic-mensuration",
+              "title": {
+                "en": "Basic Mensuration & Geometry",
+                "as": "সাধাৰণ পৰিমিতি আৰু জ্যামিতি (Basic Mensuration) — ত্ৰিভুজ, চতুৰ্ভুজ, বৃত্ত, আয়তক্ষেত্ৰ আৰু বৰ্গক্ষেত্ৰৰ পৰিসীমা আৰু কালি (Class 8 & 10 level)।"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী (General English)"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ (Grammar)"
+              },
+              "subcategories": [
+                {
+                  "id": "parts-of-speech",
+                  "title": {
+                    "en": "Parts of Speech",
+                    "as": "Parts of Speech — Noun, Pronoun, Verb, Adjective, Adverb আদি।"
+                  }
+                },
+                {
+                  "id": "articles-determiners",
+                  "title": {
+                    "en": "Articles",
+                    "as": "Articles — A, An, The।"
+                  }
+                },
+                {
+                  "id": "prepositions",
+                  "title": {
+                    "en": "Prepositions",
+                    "as": "Prepositions — In, On, At, To, With আদি।"
+                  }
+                },
+                {
+                  "id": "tenses-rules",
+                  "title": {
+                    "en": "Tenses",
+                    "as": "Tenses — Present, Past, Future।"
+                  }
+                },
+                {
+                  "id": "subject-verb-agreement",
+                  "title": {
+                    "en": "Subject-Verb Agreement",
+                    "as": "কৰ্তা-ক্ৰিয়াৰ মিল (Subject-Verb Agreement)।"
+                  }
+                },
+                {
+                  "id": "voice-change",
+                  "title": {
+                    "en": "Voice Change",
+                    "as": "Voice Change — Active আৰু Passive Voice।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ (Vocabulary)"
+              },
+              "subcategories": [
+                {
+                  "id": "synonyms-antonyms",
+                  "title": {
+                    "en": "Synonyms & Antonyms",
+                    "as": "সমৰ্থক আৰু বিপৰীত শব্দ (Synonyms & Antonyms)।"
+                  }
+                },
+                {
+                  "id": "one-word-substitution",
+                  "title": {
+                    "en": "One Word Substitution",
+                    "as": "এটা শব্দত প্ৰকাশ (One Word Substitution)।"
+                  }
+                },
+                {
+                  "id": "idioms-phrases",
+                  "title": {
+                    "en": "Idioms & Phrases",
+                    "as": "Idioms and Phrases।"
+                  }
+                },
+                {
+                  "id": "error-detection",
+                  "title": {
+                    "en": "Spelling Correction / Spotting Errors",
+                    "as": "ভুল বানান আৰু বাক্যৰ ভুল নিৰ্ণয় (Spelling Correction / Spotting Errors)।"
+                  }
+                },
+                {
+                  "id": "fill-in-the-blanks",
+                  "title": {
+                    "en": "Fill in the Blanks",
+                    "as": "ৰিক্ত স্থান পূৰণ (Fill in the Blanks)।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-knowledge-assam-gk",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge & Assam GK",
+            "as": "সাধাৰণ জ্ঞান আৰু অসম সম্পৰ্কীয় তথ্য (General Knowledge & Assam GK)"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history-culture",
+              "title": {
+                "en": "Assam's History & Culture",
+                "as": "অসমৰ বুৰঞ্জী আৰু সংস্কৃতি"
+              },
+              "subcategories": [
+                {
+                  "id": "ancient-assam",
+                  "title": {
+                    "en": "Ancient Assam",
+                    "as": "প্ৰাচীন অসম — বৰ্মন, শালস্তম্ভ আৰু পাল বংশ।"
+                  }
+                },
+                {
+                  "id": "ahom-koch-kingdoms",
+                  "title": {
+                    "en": "Ahom Era & Koch Kingdom",
+                    "as": "আহোম যুগ আৰু কোচ ৰাজ্য।"
+                  }
+                },
+                {
+                  "id": "yandabo-british-rule",
+                  "title": {
+                    "en": "Yandabo Treaty & British Rule",
+                    "as": "য়াণ্ডাবু সন্ধি আৰু ব্ৰিটিছ শাসনৰ আৰম্ভণি।"
+                  }
+                },
+                {
+                  "id": "assam-freedom-struggle",
+                  "title": {
+                    "en": "Assam in the Freedom Struggle",
+                    "as": "স্বাধীনতা সংগ্ৰামত অসমৰ ভূমিকা আৰু শ্বহীদসকল — মণিৰাম দেৱান, কনকলতা বৰুৱা, কুশল কোঁৱৰ আদি।"
+                  }
+                },
+                {
+                  "id": "assam-folk-culture",
+                  "title": {
+                    "en": "Folk Culture, Bihu & Satriya",
+                    "as": "অসমৰ লোক-সংস্কৃতি, বিহু, উৎসৱ-পাৰ্বণ, সত্ৰীয়া সংস্কৃতি।"
+                  }
+                },
+                {
+                  "id": "assamese-literature",
+                  "title": {
+                    "en": "Assamese Literature",
+                    "as": "অসমীয়া সাহিত্যৰ উল্লেখযোগ্য লেখক আৰু গ্ৰন্থসমূহ।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "assam-geography",
+              "title": {
+                "en": "Assam's Geography",
+                "as": "অসমৰ ভূগোল"
+              },
+              "subcategories": [
+                {
+                  "id": "brahmaputra-barak",
+                  "title": {
+                    "en": "Brahmaputra & Barak Rivers",
+                    "as": "ব্ৰহ্মপুত্ৰ আৰু বৰাক নদী আৰু উপনৈসমূহ।"
+                  }
+                },
+                {
+                  "id": "assam-national-parks",
+                  "title": {
+                    "en": "National Parks & Sanctuaries",
+                    "as": "অসমৰ ৰাষ্ট্ৰীয় উদ্যান আৰু অভয়াৰণ্যসমূহ।"
+                  }
+                },
+                {
+                  "id": "assam-natural-resources",
+                  "title": {
+                    "en": "Natural Resources",
+                    "as": "প্ৰাকৃতিক সম্পদ — চাহ, খনিজ তেল, কয়লা।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "india-general-knowledge",
+              "title": {
+                "en": "India General Knowledge",
+                "as": "ভাৰতৰ সাধাৰণ জ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "india-rivers-mountains-states",
+                  "title": {
+                    "en": "Rivers, Mountains & States",
+                    "as": "ভাৰতৰ প্ৰধান নদ-নদী, পৰ্বতমালা আৰু ৰাজ্যসমূহ।"
+                  }
+                },
+                {
+                  "id": "important-days-dates",
+                  "title": {
+                    "en": "Important Days & Dates",
+                    "as": "উল্লেখযোগ্য দিন আৰু দিৱস (Important Days & Dates)।"
+                  }
+                },
+                {
+                  "id": "awards-honours",
+                  "title": {
+                    "en": "Awards & Honours",
+                    "as": "বঁটা আৰু সন্মান (Awards & Honours)।"
+                  }
+                },
+                {
+                  "id": "sports",
+                  "title": {
+                    "en": "Sports",
+                    "as": "খেল-ধেমালি (Sports)।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs",
+                "as": "সাম্প্ৰতিক ঘটনাৱলী (Current Affairs)"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-india-current-affairs",
+                  "title": {
+                    "en": "Assam & India Current Affairs",
+                    "as": "বিগত ৬-৮ মাহৰ অসম আৰু ভাৰতৰ গুৰুত্বপূৰ্ণ ঘটনাৱলী।"
+                  }
+                },
+                {
+                  "id": "government-schemes",
+                  "title": {
+                    "en": "Government Schemes",
+                    "as": "চৰকাৰী আঁচনিসমূহ — বিশেষকৈ অসম চৰকাৰৰ আঁচনি।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Reasoning & Mental Ability",
+            "as": "যুক্তি আৰু বৌদ্ধিক ক্ষমতা (Reasoning & Mental Ability)"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "number-alphabet-series",
+                  "title": {
+                    "en": "Number Series & Alphabet Series",
+                    "as": "সংখ্যা আৰু বৰ্ণমালাৰ শৃংখলা চিনাক্তকৰণ।"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "আখৰ বা সংখ্যাৰ সংকেত নিৰ্ণয় (যেনে— Letter Coding, Number Coding)।"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "তেজৰ বা পৰিয়ালৰ সম্পৰ্ক সম্বন্ধীয় প্ৰশ্ন।"
+                  }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": {
+                    "en": "Direction Sense Test",
+                    "as": "দিশ আৰু দূৰত্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy",
+                    "as": "সাদৃশ্য নিৰ্ণয় — দুটা শব্দ বা সংখ্যাৰ মাজৰ পাৰস্পৰিক সম্বন্ধ (যেনে— Word, Letter বা Number Analogy)।"
+                  }
+                },
+                {
+                  "id": "odd-one-out",
+                  "title": {
+                    "en": "Classification / Odd One Out",
+                    "as": "চাৰিটা বিকল্পৰ মাজৰ পৰা অমিল শব্দ বা সংখ্যা বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "ranking-order",
+                  "title": {
+                    "en": "Ranking & Order Test",
+                    "as": "শাৰী এটাত কোনো ব্যক্তিৰ স্থান (বাওঁ/সোঁ বা ওপৰ/তলৰ পৰা) নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "word-formation-dictionary",
+                  "title": {
+                    "en": "Word Formation & Dictionary Order",
+                    "as": "শব্দ গঠন আৰু অভিধানৰ ক্ৰম অনুসৰি সজোৱা।"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "জ্যামিতিক চিত্ৰৰ জৰিয়তে শ্ৰেণী বা বস্তুৰ সম্বন্ধ বুজোৱা।"
+                  }
+                },
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism / Statements & Conclusions",
+                    "as": "বিবৃতি আৰু যুক্তিযুক্ত সিদ্ধান্ত নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": {
+                    "en": "Mathematical Operations",
+                    "as": "গাণিতিক চিহ্নৰ সাল-সলনি কৰি মান নিৰ্ণয় (+, -, ×, ÷ সলনি কৰা)।"
+                  }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": {
+                    "en": "Clock & Calendar",
+                    "as": "ঘড়ীৰ কাঁটাৰ কোণ আৰু দিন/তাৰিখ নিৰ্ণয় সম্বন্ধীয় প্ৰাথমিক প্ৰশ্ন।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক / অ-ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "figure-series",
+                  "title": {
+                    "en": "Figure Series",
+                    "as": "চিত্ৰৰ ধাৰাবাহিক ক্ৰম বা পৰৱৰ্তী চিত্ৰ চিনাক্ত কৰা।"
+                  }
+                },
+                {
+                  "id": "figure-analogy",
+                  "title": {
+                    "en": "Figure Analogy",
+                    "as": "প্ৰথম দুটা চিত্ৰৰ মাজৰ সম্পৰ্ক চাই তৃতীয় চিত্ৰৰ সঠিক জোৰা উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "figure-classification",
+                  "title": {
+                    "en": "Figure Classification (Odd One Out)",
+                    "as": "৫টা চিত্ৰৰ ভিতৰত অমিল চিত্ৰটো বাছি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": {
+                    "en": "Mirror Image & Water Image",
+                    "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": {
+                    "en": "Pattern Completion",
+                    "as": "অসম্পূৰ্ণ চিত্ৰৰ খালী অংশ পূৰণ কৰা।"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded Figures",
+                    "as": "এটা জটিল চিত্ৰৰ ভিতৰত লুকাই থকা নিৰ্দিষ্ট চিত্ৰটো বিচাৰি উলিওৱা।"
+                  }
+                },
+                {
+                  "id": "counting-figures",
+                  "title": {
+                    "en": "Counting of Figures",
+                    "as": "চিত্ৰত থকা ত্ৰিভুজ, বৰ্গক্ষেত্ৰ, আয়তক্ষেত্ৰ বা সৰলৰেখাৰ সংখ্যা গণনা কৰা।"
+                  }
+                },
+                {
+                  "id": "paper-folding-cutting",
+                  "title": {
+                    "en": "Paper Folding & Paper Cutting",
+                    "as": "কাগজ ভাঁজ কৰা আৰু কটাৰ পিছত কেনেকুৱা দেখাব তাৰ নিৰ্ণয়।"
+                  }
+                },
+                {
+                  "id": "cubes-dice",
+                  "title": {
+                    "en": "Cubes & Dice",
+                    "as": "পাশা (Dice)-ৰ বিপৰীত ফলকত থকা সংখ্যা বা বিন্দু নিৰ্ণয়।"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "social-studies",
+          "type": "qa",
+          "color": "#d97706",
+          "title": {
+            "en": "Social Studies",
+            "as": "সামাজিক বিজ্ঞান (Social Studies)"
+          },
+          "subcategories": [
+            {
+              "id": "indian-history",
+              "title": {
+                "en": "Indian History",
+                "as": "ভাৰতৰ ইতিহাস — প্ৰাচীন, মধ্যযুগ আৰু আধুনিক ভাৰতৰ স্বাধীনতা আন্দোলনৰ মূল পৰিঘটনা।"
+              }
+            },
+            {
+              "id": "polity-constitution",
+              "title": {
+                "en": "Political Science & Constitution",
+                "as": "ৰাজনীতি বিজ্ঞান আৰু সংবিধান"
+              },
+              "subcategories": [
+                {
+                  "id": "constitution-preamble-rights",
+                  "title": {
+                    "en": "Constitution, Preamble, Rights & Duties",
+                    "as": "ভাৰতীয় সংবিধানৰ প্ৰস্তাৱনা, মৌলিক অধিকাৰ আৰু কৰ্তব্য।"
+                  }
+                },
+                {
+                  "id": "president-pm-governor-cm",
+                  "title": {
+                    "en": "President, PM, Governor & CM",
+                    "as": "ৰাষ্ট্ৰপতি, প্ৰধানমন্ত্ৰী, ৰাজ্যপাল আৰু মুখ্যমন্ত্ৰীৰ পদবী।"
+                  }
+                },
+                {
+                  "id": "panchayati-raj",
+                  "title": {
+                    "en": "Panchayati Raj System",
+                    "as": "পঞ্চায়তী ৰাজ ব্যৱস্থা।"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "economy-environment",
+              "title": {
+                "en": "Economy & Environment",
+                "as": "অৰ্থনীতি আৰু পৰিৱেশ"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-assam-economy",
+                  "title": {
+                    "en": "Indian & Assam Economy",
+                    "as": "ভাৰত আৰু অসমৰ অৰ্থনীতিৰ মূল ভিত্তি — কৃষি, উদ্যোগ।"
+                  }
+                },
+                {
+                  "id": "environment-pollution",
+                  "title": {
+                    "en": "Environment & Pollution",
+                    "as": "পৰিৱেশ সংৰক্ষণ আৰু প্ৰদূষণ সম্পৰ্কীয় সজাগতা।"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhs-dme-grade-4",
+      "book": {
+        "code": "AXO-DHSDME-G4",
+        "authority": {
+          "en": "DHS & DME Assam",
+          "as": "DHS আৰু DME অসম"
+        },
+        "published": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "DHS & DME Grade IV",
+        "as": "DHS আৰু DME গ্ৰেড IV"
+      },
+      "subtitle": {
+        "en": "Directorate of Health Services & Directorate of Medical Education — Grade IV (Peon, Ward Boy, Chowkidar & similar)",
+        "as": "স্বাস্থ্য সেৱা সঞ্চালকালয় আৰু চিকিৎসা শিক্ষা সঞ্চালকালয় — গ্ৰেড IV (পিয়ন, ৱাৰ্ড বয়, চৌকিদাৰ আদি)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/dhs-dme-cover.webp",
+      "coverAlt": {
+        "en": "A Handbook of Recruitment Examination (DME, DHS, AYUSH & NHM) — book front cover",
+        "as": "নিযুক্তি পৰীক্ষাৰ হাতপুথি (DME, DHS, AYUSH আৰু NHM) — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/dhs-dme-logo.webp",
+      "logoAlt": {
+        "en": "DHS & DME official logo",
+        "as": "DHS আৰু DME চৰকাৰী ল'গ'"
+      },
+      "color": "#34d399",
+      "icon": "DHS",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "general-knowledge",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge",
+            "as": "সাধাৰণ জ্ঞান"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস"
+              }
+            },
+            {
+              "id": "geography",
+              "title": {
+                "en": "Geography",
+                "as": "ভূগোল"
+              }
+            },
+            {
+              "id": "art-culture",
+              "title": {
+                "en": "Art & Culture",
+                "as": "কলা-সংস্কৃতি"
+              }
+            },
+            {
+              "id": "indian-history",
+              "title": {
+                "en": "Indian History",
+                "as": "ভাৰতৰ ইতিহাস"
+              }
+            }
+          ]
+        },
+        {
+          "id": "basic-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Basic Mathematics",
+            "as": "সাধাৰণ গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "arithmetic",
+              "title": {
+                "en": "Arithmetic",
+                "as": "পাটিগণিত"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "Basic English",
+            "as": "সাধাৰণ ইংৰাজী"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ"
+              }
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dhs-dme-technical",
+      "book": {
+        "code": "AXO-DHSDME-TECH",
+        "authority": {
+          "en": "DHS & DME Assam",
+          "as": "DHS আৰু DME অসম"
+        },
+        "published": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "DHS & DME Technical Grade III",
+        "as": "DHS আৰু DME কাৰিকৰী গ্ৰেড III"
+      },
+      "subtitle": {
+        "en": "Directorate of Health Services & Directorate of Medical Education — Grade III (Technical)",
+        "as": "স্বাস্থ্য সেৱা সঞ্চালকালয় আৰু চিকিৎসা শিক্ষা সঞ্চালকালয় — গ্ৰেড III (কাৰিকৰী)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/dhs-dme-technical-cover.webp",
+      "coverAlt": {
+        "en": "DHS DME Technical Grade III Exam 2026-2027 — Complete Preparation Guide cover",
+        "as": "DHS DME টেকনিকেল গ্ৰেড III পৰীক্ষা ২০২৬-২০২৭ — সম্পূৰ্ণ প্ৰস্তুতি নিৰ্দেশিকা বেটুপাত"
+      },
+      "logo": "/images/exams/dhs-dme-logo.webp",
+      "logoAlt": {
+        "en": "DHS & DME official logo",
+        "as": "DHS আৰু DME চৰকাৰী ল'গ'"
+      },
+      "color": "#059669",
+      "icon": "DHS",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "technical-science",
+          "type": "qa",
+          "color": "#10b981",
+          "title": {
+            "en": "Technical / Science",
+            "as": "কাৰিকৰী / বিজ্ঞান"
+          },
+          "subcategories": [
+            {
+              "id": "biology",
+              "title": {
+                "en": "Biology & Human Body",
+                "as": "জীৱবিজ্ঞান আৰু মানৱ শৰীৰ"
+              },
+              "subcategories": [
+                {
+                  "id": "cell-biology",
+                  "title": {
+                    "en": "Cell Biology",
+                    "as": "কোষ বিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "genetics-evolution",
+                  "title": {
+                    "en": "Genetics & Evolution",
+                    "as": "বংশগতি আৰু বিৱৰ্তন"
+                  }
+                },
+                {
+                  "id": "human-anatomy",
+                  "title": {
+                    "en": "Human Anatomy",
+                    "as": "মানৱ শৰীৰস্থান"
+                  }
+                },
+                {
+                  "id": "human-physiology",
+                  "title": {
+                    "en": "Human Physiology",
+                    "as": "মানৱ শৰীৰবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "nutrition-vitamins",
+                  "title": {
+                    "en": "Nutrition & Vitamins",
+                    "as": "পুষ্টি আৰু ভিটামিন"
+                  }
+                },
+                {
+                  "id": "diseases-health",
+                  "title": {
+                    "en": "Diseases & Health",
+                    "as": "ৰোগ আৰু স্বাস্থ্য"
+                  }
+                },
+                {
+                  "id": "plant-botany",
+                  "title": {
+                    "en": "Plant Science (Botany)",
+                    "as": "উদ্ভিদ বিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "animal-zoology",
+                  "title": {
+                    "en": "Animal Science (Zoology)",
+                    "as": "প্ৰাণীবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "ecology-environment",
+                  "title": {
+                    "en": "Ecology & Environment",
+                    "as": "পৰিৱেশ বিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "microbiology-biotechnology",
+                  "title": {
+                    "en": "Microbiology & Biotechnology",
+                    "as": "অণুজীৱ আৰু জৈৱপ্ৰযুক্তি"
+                  }
+                },
+                {
+                  "id": "general-biology",
+                  "title": {
+                    "en": "General Biology (Mixed Practice)",
+                    "as": "সাধাৰণ জীৱবিজ্ঞান (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chemistry",
+              "title": {
+                "en": "Chemistry",
+                "as": "ৰসায়ন বিজ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "atomic-structure",
+                  "title": {
+                    "en": "Atomic Structure",
+                    "as": "পাৰমাণৱিক গঠন"
+                  }
+                },
+                {
+                  "id": "periodic-table",
+                  "title": {
+                    "en": "Periodic Table & Periodicity",
+                    "as": "পৰ্যায় সাৰণি আৰু পৰ্যায়বৃত্তি"
+                  }
+                },
+                {
+                  "id": "chemical-bonding",
+                  "title": {
+                    "en": "Chemical Bonding",
+                    "as": "ৰাসায়নিক বন্ধন"
+                  }
+                },
+                {
+                  "id": "acids-bases-salts",
+                  "title": {
+                    "en": "Acids, Bases & Salts",
+                    "as": "অম্ল, ক্ষাৰক আৰু লৱণ"
+                  }
+                },
+                {
+                  "id": "metals-nonmetals",
+                  "title": {
+                    "en": "Metals & Non-Metals",
+                    "as": "ধাতু আৰু অধাতু"
+                  }
+                },
+                {
+                  "id": "organic-chemistry",
+                  "title": {
+                    "en": "Organic Chemistry",
+                    "as": "জৈৱ ৰসায়ন"
+                  }
+                },
+                {
+                  "id": "polymers-materials",
+                  "title": {
+                    "en": "Polymers & Materials",
+                    "as": "বহুলক আৰু পদাৰ্থ"
+                  }
+                },
+                {
+                  "id": "fuels-combustion",
+                  "title": {
+                    "en": "Fuels & Combustion",
+                    "as": "ইন্ধন আৰু দহন"
+                  }
+                },
+                {
+                  "id": "water-solutions",
+                  "title": {
+                    "en": "Water & Solutions",
+                    "as": "পানী আৰু দ্ৰৱ"
+                  }
+                },
+                {
+                  "id": "chemical-reactions",
+                  "title": {
+                    "en": "Chemical Reactions",
+                    "as": "ৰাসায়নিক বিক্ৰিয়া"
+                  }
+                },
+                {
+                  "id": "everyday-chemistry",
+                  "title": {
+                    "en": "Chemistry in Everyday Life",
+                    "as": "দৈনন্দিন জীৱনত ৰসায়ন"
+                  }
+                },
+                {
+                  "id": "general-chemistry",
+                  "title": {
+                    "en": "General Chemistry (Mixed Practice)",
+                    "as": "সাধাৰণ ৰসায়ন (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "physics",
+              "title": {
+                "en": "Physics",
+                "as": "পদাৰ্থ বিজ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "units-measurement",
+                  "title": {
+                    "en": "Units & Measurement",
+                    "as": "একক আৰু জোখ-মাখ"
+                  }
+                },
+                {
+                  "id": "motion-force",
+                  "title": {
+                    "en": "Motion & Force",
+                    "as": "গতি আৰু বল"
+                  }
+                },
+                {
+                  "id": "work-energy-power",
+                  "title": {
+                    "en": "Work, Energy & Power",
+                    "as": "কাৰ্য, শক্তি আৰু ক্ষমতা"
+                  }
+                },
+                {
+                  "id": "gravitation",
+                  "title": {
+                    "en": "Gravitation",
+                    "as": "মহাকৰ্ষণ"
+                  }
+                },
+                {
+                  "id": "heat-thermodynamics",
+                  "title": {
+                    "en": "Heat & Thermodynamics",
+                    "as": "তাপ আৰু তাপগতিবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "sound-waves",
+                  "title": {
+                    "en": "Sound & Waves",
+                    "as": "শব্দ আৰু তৰংগ"
+                  }
+                },
+                {
+                  "id": "light-optics",
+                  "title": {
+                    "en": "Light & Optics",
+                    "as": "পোহৰ আৰু আলোকবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "electricity-magnetism",
+                  "title": {
+                    "en": "Electricity & Magnetism",
+                    "as": "বিদ্যুৎ আৰু চুম্বকত্ব"
+                  }
+                },
+                {
+                  "id": "modern-nuclear-physics",
+                  "title": {
+                    "en": "Modern & Nuclear Physics",
+                    "as": "আধুনিক আৰু কেন্দ্ৰীয় পদাৰ্থবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "pressure-fluids",
+                  "title": {
+                    "en": "Pressure & Fluids",
+                    "as": "চাপ আৰু তৰল"
+                  }
+                },
+                {
+                  "id": "simple-machines",
+                  "title": {
+                    "en": "Simple Machines & Instruments",
+                    "as": "সৰল যন্ত্ৰ আৰু যন্ত্ৰপাতি"
+                  }
+                },
+                {
+                  "id": "general-physics",
+                  "title": {
+                    "en": "General Physics (Mixed Practice)",
+                    "as": "সাধাৰণ পদাৰ্থবিজ্ঞান (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "nursing-paramedical",
+              "title": {
+                "en": "Nursing & Paramedical",
+                "as": "নাৰ্ছিং আৰু পেৰামেডিকেল"
+              },
+              "subcategories": [
+                {
+                  "id": "fundamentals-nursing",
+                  "title": {
+                    "en": "Fundamentals of Nursing",
+                    "as": "নাৰ্ছিংৰ মৌলিক কথা"
+                  }
+                },
+                {
+                  "id": "community-health-nursing",
+                  "title": {
+                    "en": "Community Health Nursing",
+                    "as": "সমাজ স্বাস্থ্য নাৰ্ছিং"
+                  }
+                },
+                {
+                  "id": "medical-surgical-nursing",
+                  "title": {
+                    "en": "Medical-Surgical Nursing",
+                    "as": "চিকিৎসা-শল্য নাৰ্ছিং"
+                  }
+                },
+                {
+                  "id": "maternal-child-health",
+                  "title": {
+                    "en": "Maternal & Child Health",
+                    "as": "মাতৃ আৰু শিশু স্বাস্থ্য"
+                  }
+                },
+                {
+                  "id": "pharmacology",
+                  "title": {
+                    "en": "Pharmacology & Drugs",
+                    "as": "ঔষধবিজ্ঞান আৰু ঔষধ"
+                  }
+                },
+                {
+                  "id": "lab-technology",
+                  "title": {
+                    "en": "Laboratory Technology",
+                    "as": "লেবৰেটৰী প্ৰযুক্তি"
+                  }
+                },
+                {
+                  "id": "radiography-imaging",
+                  "title": {
+                    "en": "Radiography & Imaging",
+                    "as": "ৰেডিঅ'গ্ৰাফী আৰু ইমেজিং"
+                  }
+                },
+                {
+                  "id": "physiotherapy-rehabilitation",
+                  "title": {
+                    "en": "Physiotherapy & Rehabilitation",
+                    "as": "ফিজিঅ'থেৰাপী আৰু পুনৰ্বাসন"
+                  }
+                },
+                {
+                  "id": "hospital-infection-control",
+                  "title": {
+                    "en": "Hospital Infection Control",
+                    "as": "চিকিৎসালয়ৰ সংক্ৰমণ নিয়ন্ত্ৰণ"
+                  }
+                },
+                {
+                  "id": "first-aid-emergency",
+                  "title": {
+                    "en": "First Aid & Emergency Care",
+                    "as": "প্ৰাথমিক চিকিৎসা আৰু জৰুৰীকালীন সেৱা"
+                  }
+                },
+                {
+                  "id": "medical-terminology",
+                  "title": {
+                    "en": "Medical Terminology",
+                    "as": "চিকিৎসা পৰিভাষা"
+                  }
+                },
+                {
+                  "id": "health-programmes-assam",
+                  "title": {
+                    "en": "Health Programmes & Assam Health System",
+                    "as": "স্বাস্থ্য আঁচনি আৰু অসমৰ স্বাস্থ্য ব্যৱস্থা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "computer-awareness",
+              "title": {
+                "en": "Computer Awareness",
+                "as": "কম্পিউটাৰ সজাগতা"
+              },
+              "subcategories": [
+                {
+                  "id": "computer-fundamentals",
+                  "title": {
+                    "en": "Computer Fundamentals",
+                    "as": "কম্পিউটাৰৰ মৌলিক কথা"
+                  }
+                },
+                {
+                  "id": "hardware-software",
+                  "title": {
+                    "en": "Hardware & Software",
+                    "as": "হাৰ্ডৱেৰ আৰু ছফ্টৱেৰ"
+                  }
+                },
+                {
+                  "id": "ms-office",
+                  "title": {
+                    "en": "MS Office Suite",
+                    "as": "MS Office ছুইট"
+                  }
+                },
+                {
+                  "id": "networking-internet",
+                  "title": {
+                    "en": "Networking & Internet",
+                    "as": "নেটৱৰ্কিং আৰু ইণ্টাৰনেট"
+                  }
+                },
+                {
+                  "id": "cyber-security",
+                  "title": {
+                    "en": "Cyber Security",
+                    "as": "চাইবাৰ সুৰক্ষা"
+                  }
+                },
+                {
+                  "id": "dbms-number-system",
+                  "title": {
+                    "en": "DBMS & Number System",
+                    "as": "DBMS আৰু সংখ্যা পদ্ধতি"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-knowledge",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge & Current Affairs",
+            "as": "সাধাৰণ জ্ঞান আৰু সাম্প্ৰতিক ঘটনাৱলী"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-history-ancient",
+                  "title": {
+                    "en": "Ancient Assam History",
+                    "as": "প্ৰাচীন অসমৰ ইতিহাস"
+                  }
+                },
+                {
+                  "id": "assam-history-medieval",
+                  "title": {
+                    "en": "Medieval Assam History",
+                    "as": "মধ্যযুগীয় অসমৰ ইতিহাস"
+                  }
+                },
+                {
+                  "id": "assam-history-modern",
+                  "title": {
+                    "en": "Modern Assam History",
+                    "as": "আধুনিক অসমৰ ইতিহাস"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "geography",
+              "title": {
+                "en": "Geography",
+                "as": "ভূগোল"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-geography",
+                  "title": {
+                    "en": "Assam Geography",
+                    "as": "অসমৰ ভূগোল"
+                  }
+                },
+                {
+                  "id": "india-geography",
+                  "title": {
+                    "en": "India Geography",
+                    "as": "ভাৰতৰ ভূগোল"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "polity",
+              "title": {
+                "en": "Indian Polity & Constitution",
+                "as": "ভাৰতৰ ৰাজনীতি আৰু সংবিধান"
+              }
+            },
+            {
+              "id": "assam-gk",
+              "title": {
+                "en": "Assam Specific",
+                "as": "অসম বিষয়ক"
+              },
+              "subcategories": [
+                {
+                  "id": "assam-culture-festivals",
+                  "title": {
+                    "en": "Assam Culture & Festivals",
+                    "as": "অসমৰ সংস্কৃতি আৰু উৎসৱ"
+                  }
+                },
+                {
+                  "id": "assam-economy",
+                  "title": {
+                    "en": "Assam Economy",
+                    "as": "অসমৰ অৰ্থনীতি"
+                  }
+                },
+                {
+                  "id": "assam-tribes-communities",
+                  "title": {
+                    "en": "Assam Tribes & Communities",
+                    "as": "অসমৰ জনজাতি আৰু সম্প্ৰদায়"
+                  }
+                },
+                {
+                  "id": "assam-wildlife-environment",
+                  "title": {
+                    "en": "Assam Wildlife & Environment",
+                    "as": "অসমৰ বন্যপ্ৰাণী আৰু পৰিৱেশ"
+                  }
+                },
+                {
+                  "id": "assam-current-affairs",
+                  "title": {
+                    "en": "Assam Current Affairs",
+                    "as": "অসমৰ সাম্প্ৰতিক ঘটনাৱলী"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "india-gk",
+              "title": {
+                "en": "India & National",
+                "as": "ভাৰত আৰু ৰাষ্ট্ৰীয়"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-history",
+                  "title": {
+                    "en": "Indian History",
+                    "as": "ভাৰতৰ ইতিহাস"
+                  }
+                },
+                {
+                  "id": "indian-economy",
+                  "title": {
+                    "en": "Indian Economy",
+                    "as": "ভাৰতৰ অৰ্থনীতি"
+                  }
+                },
+                {
+                  "id": "indian-art-culture",
+                  "title": {
+                    "en": "Indian Art & Culture",
+                    "as": "ভাৰতৰ কলা আৰু সংস্কৃতি"
+                  }
+                },
+                {
+                  "id": "indian-governance",
+                  "title": {
+                    "en": "Indian Governance & Institutions",
+                    "as": "ভাৰতৰ শাসন আৰু প্ৰতিষ্ঠান"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "world-gk",
+              "title": {
+                "en": "World & International",
+                "as": "বিশ্ব আৰু আন্তৰ্জাতিক"
+              },
+              "subcategories": [
+                {
+                  "id": "world-geography",
+                  "title": {
+                    "en": "World Geography",
+                    "as": "বিশ্বৰ ভূগোল"
+                  }
+                },
+                {
+                  "id": "world-history",
+                  "title": {
+                    "en": "World History",
+                    "as": "বিশ্বৰ ইতিহাস"
+                  }
+                },
+                {
+                  "id": "international-organizations",
+                  "title": {
+                    "en": "International Organizations",
+                    "as": "আন্তৰ্জাতিক সংগঠন"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "static-gk",
+              "title": {
+                "en": "Static GK",
+                "as": "স্থিৰ সাধাৰণ জ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "awards-honours",
+                  "title": {
+                    "en": "Awards & Honours",
+                    "as": "বঁটা আৰু সন্মান"
+                  }
+                },
+                {
+                  "id": "books-authors",
+                  "title": {
+                    "en": "Books & Authors",
+                    "as": "কিতাপ আৰু লেখক"
+                  }
+                },
+                {
+                  "id": "important-days",
+                  "title": {
+                    "en": "Important Days & Dates",
+                    "as": "গুৰুত্বপূৰ্ণ দিন আৰু তাৰিখ"
+                  }
+                },
+                {
+                  "id": "sports-games",
+                  "title": {
+                    "en": "Sports & Games",
+                    "as": "ক্ৰীড়া আৰু খেল"
+                  }
+                },
+                {
+                  "id": "inventions-discoveries",
+                  "title": {
+                    "en": "Inventions & Discoveries",
+                    "as": "আৱিষ্কাৰ আৰু উদ্ভাৱন"
+                  }
+                },
+                {
+                  "id": "organizations-institutions",
+                  "title": {
+                    "en": "Organizations & Institutions",
+                    "as": "সংগঠন আৰু প্ৰতিষ্ঠান"
+                  }
+                },
+                {
+                  "id": "space-defence",
+                  "title": {
+                    "en": "Space & Defence",
+                    "as": "মহাকাশ আৰু প্ৰতিৰক্ষা"
+                  }
+                },
+                {
+                  "id": "miscellaneous-static-gk",
+                  "title": {
+                    "en": "Miscellaneous Static GK",
+                    "as": "বিবিধ স্থিৰ সাধাৰণ জ্ঞান"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs",
+                "as": "সাম্প্ৰতিক ঘটনাৱলী"
+              },
+              "subcategories": [
+                {
+                  "id": "national-international-news",
+                  "title": {
+                    "en": "National & International News",
+                    "as": "ৰাষ্ট্ৰীয় আৰু আন্তৰ্জাতিক বাতৰি"
+                  }
+                },
+                {
+                  "id": "appointments-obituaries",
+                  "title": {
+                    "en": "Appointments & Obituaries",
+                    "as": "নিয়োগ আৰু মৃত্যু-বাতৰি"
+                  }
+                },
+                {
+                  "id": "government-schemes",
+                  "title": {
+                    "en": "Government Schemes & Initiatives",
+                    "as": "চৰকাৰী আঁচনি আৰু পদক্ষেপ"
+                  }
+                },
+                {
+                  "id": "science-tech-environment",
+                  "title": {
+                    "en": "Science, Tech & Environment",
+                    "as": "বিজ্ঞান, প্ৰযুক্তি আৰু পৰিৱেশ"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ"
+              },
+              "subcategories": [
+                {
+                  "id": "parts-of-speech",
+                  "title": {
+                    "en": "Parts of Speech",
+                    "as": "শব্দৰ ভাগ"
+                  }
+                },
+                {
+                  "id": "articles-determiners",
+                  "title": {
+                    "en": "Articles & Determiners",
+                    "as": "Articles আৰু Determiners"
+                  }
+                },
+                {
+                  "id": "prepositions",
+                  "title": {
+                    "en": "Prepositions",
+                    "as": "পদান্বয়ী অব্যয়"
+                  }
+                },
+                {
+                  "id": "tenses",
+                  "title": {
+                    "en": "Tenses",
+                    "as": "কাল"
+                  }
+                },
+                {
+                  "id": "subject-verb-agreement",
+                  "title": {
+                    "en": "Subject-Verb Agreement",
+                    "as": "কৰ্তা-ক্ৰিয়াৰ মিল"
+                  }
+                },
+                {
+                  "id": "voice",
+                  "title": {
+                    "en": "Active & Passive Voice",
+                    "as": "কৰ্তৃবাচ্য আৰু কৰ্মবাচ্য"
+                  }
+                },
+                {
+                  "id": "narration",
+                  "title": {
+                    "en": "Direct & Indirect Speech",
+                    "as": "প্ৰত্যক্ষ আৰু পৰোক্ষ উক্তি"
+                  }
+                },
+                {
+                  "id": "sentence-correction",
+                  "title": {
+                    "en": "Sentence Correction & Error Detection",
+                    "as": "বাক্য শুধৰণি আৰু ভুল ধৰা"
+                  }
+                },
+                {
+                  "id": "degrees-of-comparison",
+                  "title": {
+                    "en": "Degrees of Comparison",
+                    "as": "তুলনাৰ মাত্ৰা"
+                  }
+                },
+                {
+                  "id": "question-tags-modals",
+                  "title": {
+                    "en": "Question Tags & Modals",
+                    "as": "Question Tag আৰু Modal"
+                  }
+                },
+                {
+                  "id": "conjunctions",
+                  "title": {
+                    "en": "Conjunctions",
+                    "as": "সংযোজক অব্যয়"
+                  }
+                },
+                {
+                  "id": "non-finite-verbs",
+                  "title": {
+                    "en": "Non-Finite Verbs",
+                    "as": "অসমাপিকা ক্ৰিয়া"
+                  }
+                },
+                {
+                  "id": "general-grammar",
+                  "title": {
+                    "en": "General Grammar (Mixed Practice)",
+                    "as": "সাধাৰণ ব্যাকৰণ (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ"
+              },
+              "subcategories": [
+                {
+                  "id": "synonyms",
+                  "title": {
+                    "en": "Synonyms",
+                    "as": "সমাৰ্থক শব্দ"
+                  }
+                },
+                {
+                  "id": "antonyms",
+                  "title": {
+                    "en": "Antonyms",
+                    "as": "বিপৰীত শব্দ"
+                  }
+                },
+                {
+                  "id": "one-word-substitution",
+                  "title": {
+                    "en": "One Word Substitution",
+                    "as": "এক শব্দ প্ৰতিস্থাপন"
+                  }
+                },
+                {
+                  "id": "idioms-phrases",
+                  "title": {
+                    "en": "Idioms & Phrases",
+                    "as": "বাগধাৰা আৰু বাক্যাংশ"
+                  }
+                },
+                {
+                  "id": "phrasal-verbs",
+                  "title": {
+                    "en": "Phrasal Verbs",
+                    "as": "Phrasal Verb"
+                  }
+                },
+                {
+                  "id": "spelling",
+                  "title": {
+                    "en": "Spelling & Word Usage",
+                    "as": "বানান আৰু শব্দ প্ৰয়োগ"
+                  }
+                },
+                {
+                  "id": "word-formation-roots",
+                  "title": {
+                    "en": "Word Formation & Roots",
+                    "as": "শব্দ গঠন আৰু মূল"
+                  }
+                },
+                {
+                  "id": "homonyms-confusables",
+                  "title": {
+                    "en": "Homonyms & Confusables",
+                    "as": "সমোচ্চাৰিত শব্দ"
+                  }
+                },
+                {
+                  "id": "general-vocabulary",
+                  "title": {
+                    "en": "General Vocabulary (Mixed Practice)",
+                    "as": "সাধাৰণ শব্দভাণ্ডাৰ (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "comprehension-usage",
+              "title": {
+                "en": "Comprehension & Usage",
+                "as": "বোধশক্তি আৰু প্ৰয়োগ"
+              },
+              "subcategories": [
+                {
+                  "id": "reading-comprehension",
+                  "title": {
+                    "en": "Reading Comprehension",
+                    "as": "পঢ়ি বুজাৰ ক্ষমতা"
+                  }
+                },
+                {
+                  "id": "cloze-test",
+                  "title": {
+                    "en": "Cloze Test",
+                    "as": "Cloze Test"
+                  }
+                },
+                {
+                  "id": "sentence-completion",
+                  "title": {
+                    "en": "Sentence Completion",
+                    "as": "বাক্য সম্পূৰ্ণ কৰা"
+                  }
+                },
+                {
+                  "id": "paragraph-ordering",
+                  "title": {
+                    "en": "Paragraph Ordering",
+                    "as": "অনুচ্ছেদ সজোৱা"
+                  }
+                },
+                {
+                  "id": "precis-summary",
+                  "title": {
+                    "en": "Precis & Summary Writing",
+                    "as": "সাৰাংশ লিখা"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "numerical-aptitude",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Numerical Aptitude / General Mathematics",
+            "as": "সংখ্যাগত দক্ষতা / সাধাৰণ গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "arithmetic",
+              "title": {
+                "en": "Arithmetic",
+                "as": "পাটিগণিত"
+              },
+              "subcategories": [
+                {
+                  "id": "number-system",
+                  "title": {
+                    "en": "Number System",
+                    "as": "সংখ্যা পদ্ধতি"
+                  }
+                },
+                {
+                  "id": "simplification-bodmas",
+                  "title": {
+                    "en": "Simplification & BODMAS",
+                    "as": "সৰলীকৰণ আৰু BODMAS"
+                  }
+                },
+                {
+                  "id": "decimals-fractions",
+                  "title": {
+                    "en": "Decimals & Fractions",
+                    "as": "দশমিক আৰু ভগ্নাংশ"
+                  }
+                },
+                {
+                  "id": "lcm-hcf",
+                  "title": {
+                    "en": "LCM & HCF",
+                    "as": "ল.সা.গু. আৰু গ.সা.গু."
+                  }
+                },
+                {
+                  "id": "percentage",
+                  "title": {
+                    "en": "Percentage",
+                    "as": "শতাংশ"
+                  }
+                },
+                {
+                  "id": "ratio-proportion",
+                  "title": {
+                    "en": "Ratio & Proportion",
+                    "as": "অনুপাত আৰু সমানুপাত"
+                  }
+                },
+                {
+                  "id": "average",
+                  "title": {
+                    "en": "Average",
+                    "as": "গড়"
+                  }
+                },
+                {
+                  "id": "profit-loss-discount",
+                  "title": {
+                    "en": "Profit, Loss & Discount",
+                    "as": "লাভ, লোকচান আৰু ৰেহাই"
+                  }
+                },
+                {
+                  "id": "simple-interest",
+                  "title": {
+                    "en": "Simple Interest",
+                    "as": "সৰল সুত"
+                  }
+                },
+                {
+                  "id": "compound-interest",
+                  "title": {
+                    "en": "Compound Interest",
+                    "as": "চক্ৰবৃদ্ধি সুত"
+                  }
+                },
+                {
+                  "id": "partnership",
+                  "title": {
+                    "en": "Partnership",
+                    "as": "অংশীদাৰিত্ব"
+                  }
+                },
+                {
+                  "id": "mixture-alligation",
+                  "title": {
+                    "en": "Mixture & Alligation",
+                    "as": "মিশ্ৰণ আৰু সংযোগ"
+                  }
+                },
+                {
+                  "id": "time-work",
+                  "title": {
+                    "en": "Time & Work",
+                    "as": "সময় আৰু কাৰ্য"
+                  }
+                },
+                {
+                  "id": "pipes-cisterns",
+                  "title": {
+                    "en": "Pipes & Cisterns",
+                    "as": "নল আৰু চৌবাচ্চা"
+                  }
+                },
+                {
+                  "id": "time-speed-distance",
+                  "title": {
+                    "en": "Time, Speed & Distance",
+                    "as": "সময়, গতি আৰু দূৰত্ব"
+                  }
+                },
+                {
+                  "id": "problems-on-trains",
+                  "title": {
+                    "en": "Problems on Trains",
+                    "as": "ৰে'লগাড়ীৰ সমস্যা"
+                  }
+                },
+                {
+                  "id": "boats-streams",
+                  "title": {
+                    "en": "Boats & Streams",
+                    "as": "নাও আৰু সোঁত"
+                  }
+                },
+                {
+                  "id": "problems-on-ages",
+                  "title": {
+                    "en": "Problems on Ages",
+                    "as": "বয়সৰ সমস্যা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "algebra-geometry",
+              "title": {
+                "en": "Algebra, Geometry & Mensuration",
+                "as": "বীজগণিত, জ্যামিতি আৰু পৰিমিতি"
+              },
+              "subcategories": [
+                {
+                  "id": "elementary-algebra",
+                  "title": {
+                    "en": "Elementary Algebra",
+                    "as": "প্ৰাথমিক বীজগণিত"
+                  }
+                },
+                {
+                  "id": "quadratic-linear-equations",
+                  "title": {
+                    "en": "Quadratic & Linear Equations",
+                    "as": "দ্বিঘাত আৰু ৰৈখিক সমীকৰণ"
+                  }
+                },
+                {
+                  "id": "geometry",
+                  "title": {
+                    "en": "Geometry",
+                    "as": "জ্যামিতি"
+                  }
+                },
+                {
+                  "id": "mensuration-2d",
+                  "title": {
+                    "en": "Mensuration 2D",
+                    "as": "পৰিমিতি ২D"
+                  }
+                },
+                {
+                  "id": "mensuration-3d",
+                  "title": {
+                    "en": "Mensuration 3D",
+                    "as": "পৰিমিতি ৩D"
+                  }
+                },
+                {
+                  "id": "trigonometry",
+                  "title": {
+                    "en": "Trigonometry",
+                    "as": "ত্ৰিকোণমিতি"
+                  }
+                },
+                {
+                  "id": "height-distance",
+                  "title": {
+                    "en": "Height & Distance",
+                    "as": "উচ্চতা আৰু দূৰত্ব"
+                  }
+                },
+                {
+                  "id": "coordinate-geometry",
+                  "title": {
+                    "en": "Coordinate Geometry",
+                    "as": "স্থানাংক জ্যামিতি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "data-combinatorics",
+              "title": {
+                "en": "Data & Combinatorics",
+                "as": "তথ্য আৰু সমাবেশ"
+              },
+              "subcategories": [
+                {
+                  "id": "statistics",
+                  "title": {
+                    "en": "Statistics",
+                    "as": "পৰিসংখ্যা"
+                  }
+                },
+                {
+                  "id": "data-interpretation",
+                  "title": {
+                    "en": "Data Interpretation",
+                    "as": "তথ্য বিশ্লেষণ"
+                  }
+                },
+                {
+                  "id": "permutation-combination",
+                  "title": {
+                    "en": "Permutation & Combination",
+                    "as": "বিন্যাস আৰু সমাবেশ"
+                  }
+                },
+                {
+                  "id": "probability",
+                  "title": {
+                    "en": "Probability",
+                    "as": "সম্ভাৱনা"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Reasoning & Mental Ability",
+            "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy",
+                    "as": "সাদৃশ্য"
+                  }
+                },
+                {
+                  "id": "classification-odd-one-out",
+                  "title": {
+                    "en": "Classification / Odd One Out",
+                    "as": "শ্ৰেণীবিভাজন / আঁতৰ বস্তু"
+                  }
+                },
+                {
+                  "id": "number-series",
+                  "title": {
+                    "en": "Number Series",
+                    "as": "সংখ্যা শৃংখলা"
+                  }
+                },
+                {
+                  "id": "alphabet-series",
+                  "title": {
+                    "en": "Alphabet & Alphanumeric Series",
+                    "as": "আখৰ আৰু আখৰ-সংখ্যা শৃংখলা"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "সংকেতীকৰণ-অৱসংকেতীকৰণ"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "ৰক্তসম্পৰ্ক"
+                  }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": {
+                    "en": "Direction & Distance",
+                    "as": "দিশ আৰু দূৰত্ব"
+                  }
+                },
+                {
+                  "id": "order-ranking",
+                  "title": {
+                    "en": "Order & Ranking",
+                    "as": "ক্ৰম আৰু স্থান"
+                  }
+                },
+                {
+                  "id": "alphabet-test-word-formation",
+                  "title": {
+                    "en": "Alphabet Test & Word Formation",
+                    "as": "আখৰ পৰীক্ষা আৰু শব্দ গঠন"
+                  }
+                },
+                {
+                  "id": "logical-sequence-words",
+                  "title": {
+                    "en": "Logical Sequence of Words",
+                    "as": "শব্দৰ যুক্তিসঙ্গত ক্ৰম"
+                  }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": {
+                    "en": "Clock & Calendar",
+                    "as": "ঘড়ী আৰু পাঁজি"
+                  }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": {
+                    "en": "Mathematical Operations",
+                    "as": "গাণিতিক ক্ৰিয়া"
+                  }
+                },
+                {
+                  "id": "input-output",
+                  "title": {
+                    "en": "Input-Output",
+                    "as": "ইনপুট-আউটপুট"
+                  }
+                },
+                {
+                  "id": "general-verbal-reasoning",
+                  "title": {
+                    "en": "General Verbal Reasoning (Mixed Practice)",
+                    "as": "সাধাৰণ ভাষিক যুক্তিতৰ্ক (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "analytical-critical-reasoning",
+              "title": {
+                "en": "Analytical & Critical Reasoning",
+                "as": "বিশ্লেষণাত্মক আৰু সমালোচনাত্মক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism",
+                    "as": "ন্যায়বাক্য"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "ভেন চিত্ৰ"
+                  }
+                },
+                {
+                  "id": "statement-conclusions",
+                  "title": {
+                    "en": "Statement & Conclusions",
+                    "as": "বিবৃতি আৰু সিদ্ধান্ত"
+                  }
+                },
+                {
+                  "id": "statement-assumptions",
+                  "title": {
+                    "en": "Statement & Assumptions",
+                    "as": "বিবৃতি আৰু ধাৰণা"
+                  }
+                },
+                {
+                  "id": "statement-arguments",
+                  "title": {
+                    "en": "Statement & Arguments",
+                    "as": "বিবৃতি আৰু যুক্তি"
+                  }
+                },
+                {
+                  "id": "statement-course-of-action",
+                  "title": {
+                    "en": "Statement & Courses of Action",
+                    "as": "বিবৃতি আৰু কাৰ্যপন্থা"
+                  }
+                },
+                {
+                  "id": "cause-effect",
+                  "title": {
+                    "en": "Cause & Effect",
+                    "as": "কাৰণ আৰু ফল"
+                  }
+                },
+                {
+                  "id": "assertion-reason",
+                  "title": {
+                    "en": "Assertion & Reason",
+                    "as": "দাবী আৰু কাৰণ"
+                  }
+                },
+                {
+                  "id": "decision-making-data-sufficiency",
+                  "title": {
+                    "en": "Decision Making & Data Sufficiency",
+                    "as": "সিদ্ধান্ত গ্ৰহণ আৰু তথ্য পৰ্যাপ্ততা"
+                  }
+                },
+                {
+                  "id": "sitting-arrangement",
+                  "title": {
+                    "en": "Seating Arrangement",
+                    "as": "বহাৰ বিন্যাস"
+                  }
+                },
+                {
+                  "id": "puzzles",
+                  "title": {
+                    "en": "Puzzles",
+                    "as": "ধাঁধা"
+                  }
+                },
+                {
+                  "id": "inequality",
+                  "title": {
+                    "en": "Inequality",
+                    "as": "অসমতা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "figure-series",
+                  "title": {
+                    "en": "Figure Series",
+                    "as": "চিত্ৰ শৃংখলা"
+                  }
+                },
+                {
+                  "id": "figure-analogy-classification",
+                  "title": {
+                    "en": "Figure Analogy & Classification",
+                    "as": "চিত্ৰ সাদৃশ্য আৰু শ্ৰেণীবিভাজন"
+                  }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": {
+                    "en": "Mirror & Water Image",
+                    "as": "দাপোণ আৰু পানীৰ প্ৰতিবিম্ব"
+                  }
+                },
+                {
+                  "id": "paper-cutting-folding",
+                  "title": {
+                    "en": "Paper Cutting & Folding",
+                    "as": "কাগজ কটা আৰু ভাঁজ"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded / Hidden Figures",
+                    "as": "সংযোজিত / লুকাই থকা চিত্ৰ"
+                  }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": {
+                    "en": "Pattern Completion",
+                    "as": "আৰ্হি সম্পূৰ্ণ কৰা"
+                  }
+                },
+                {
+                  "id": "counting-figures",
+                  "title": {
+                    "en": "Counting of Figures",
+                    "as": "চিত্ৰ গণনা"
+                  }
+                },
+                {
+                  "id": "cube-dice",
+                  "title": {
+                    "en": "Cube & Dice",
+                    "as": "ঘনক আৰু লুডু"
+                  }
+                },
+                {
+                  "id": "visual-memory",
+                  "title": {
+                    "en": "Visual Memory & Rule Detection",
+                    "as": "দৃশ্যমান স্মৃতি আৰু নিয়ম চিনাক্তকৰণ"
+                  }
+                },
+                {
+                  "id": "general-non-verbal-reasoning",
+                  "title": {
+                    "en": "General Non-Verbal Reasoning (Mixed Practice)",
+                    "as": "সাধাৰণ চিত্ৰভিত্তিক যুক্তিতৰ্ক (মিশ্ৰ অনুশীলন)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "apsc",
+      "title": {
+        "en": "APSC",
+        "as": "APSC"
+      },
+      "subtitle": {
+        "en": "Assam Public Service Commission",
+        "as": "অসম লোক সেৱা আয়োগ"
+      },
+      "cover": "/images/exams/apsc-cover.webp",
+      "coverAlt": {
+        "en": "APSC Combined Competitive Exam (CCE) — book front cover",
+        "as": "APSC সংযুক্ত প্ৰতিযোগিতামূলক পৰীক্ষা (CCE) — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/apsc-logo.webp",
+      "logoAlt": {
+        "en": "APSC official logo",
+        "as": "APSC চৰকাৰী ল'গ'"
+      },
+      "color": "#d97706",
+      "icon": "APSC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "assam-tet",
+      "title": {
+        "en": "Assam TET",
+        "as": "অসম TET"
+      },
+      "subtitle": {
+        "en": "Teacher Eligibility Test",
+        "as": "শিক্ষক যোগ্যতা পৰীক্ষা"
+      },
+      "cover": "/images/exams/assam-tet-cover.webp",
+      "coverAlt": {
+        "en": "Assam TET (Teacher Eligibility Test) — book front cover",
+        "as": "অসম TET (শিক্ষক যোগ্যতা পৰীক্ষা) — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/assam-tet-logo.webp",
+      "logoAlt": {
+        "en": "Assam TET official logo",
+        "as": "অসম TET চৰকাৰী ল'গ'"
+      },
+      "color": "#0d9488",
+      "icon": "TET",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "dhs-dme",
+      "book": {
+        "code": "AXO-DHSDME-G3",
+        "authority": {
+          "en": "DHS & DME Assam",
+          "as": "DHS আৰু DME অসম"
+        },
+        "published": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "DHS & DME Non-Technical Grade III",
+        "as": "DHS আৰু DME অসামৰিক গ্ৰেড III"
+      },
+      "subtitle": {
+        "en": "Directorate of Health Services & Directorate of Medical Education — Grade III (Non-Technical)",
+        "as": "স্বাস্থ্য সেৱা সঞ্চালকালয় আৰু চিকিৎসা শিক্ষা সঞ্চালকালয় — গ্ৰেড III (অসামৰিক)"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/dhs-dme-cover.webp",
+      "coverAlt": {
+        "en": "A Handbook of Recruitment Examination (DME, DHS, AYUSH & NHM) — book front cover",
+        "as": "নিযুক্তি পৰীক্ষাৰ হাতপুথি (DME, DHS, AYUSH আৰু NHM) — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/dhs-dme-logo.webp",
+      "logoAlt": {
+        "en": "DHS & DME official logo",
+        "as": "DHS আৰু DME চৰকাৰী ল'গ'"
+      },
+      "color": "#10b981",
+      "icon": "DHS",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "general-knowledge",
+          "type": "qa",
+          "color": "#0ea5e9",
+          "title": {
+            "en": "General Knowledge (Assam & India)",
+            "as": "সাধাৰণ জ্ঞান (অসম আৰু ভাৰত)"
+          },
+          "subcategories": [
+            {
+              "id": "assam-history",
+              "title": {
+                "en": "Assam History",
+                "as": "অসমৰ ইতিহাস"
+              }
+            },
+            {
+              "id": "geography",
+              "title": {
+                "en": "Geography",
+                "as": "ভূগোল"
+              }
+            },
+            {
+              "id": "art-culture",
+              "title": {
+                "en": "Assam Art & Culture",
+                "as": "অসমৰ কলা-সংস্কৃতি"
+              }
+            },
+            {
+              "id": "assam-literature",
+              "title": {
+                "en": "Assamese Literature",
+                "as": "অসমীয়া সাহিত্য"
+              }
+            },
+            {
+              "id": "indian-history",
+              "title": {
+                "en": "Indian History",
+                "as": "ভাৰতৰ ইতিহাস"
+              }
+            },
+            {
+              "id": "polity",
+              "title": {
+                "en": "Indian Polity & Constitution",
+                "as": "ভাৰতৰ ৰাজনীতি আৰু সংবিধান"
+              }
+            },
+            {
+              "id": "economics",
+              "title": {
+                "en": "Indian & Assam Economy",
+                "as": "ভাৰত আৰু অসমৰ অৰ্থনীতি"
+              }
+            }
+          ]
+        },
+        {
+          "id": "elementary-mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Elementary Mathematics",
+            "as": "প্ৰাথমিক গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "arithmetic",
+              "title": {
+                "en": "Arithmetic",
+                "as": "পাটিগণিত"
+              }
+            },
+            {
+              "id": "advanced-math",
+              "title": {
+                "en": "Advanced Mathematics",
+                "as": "উচ্চ গণিত"
+              }
+            },
+            {
+              "id": "statistics-and-data-interpretation",
+              "title": {
+                "en": "Statistics & Data Interpretation",
+                "as": "পৰিসংখ্যা আৰু তথ্য বিশ্লেষণ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "logical-reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "Reasoning & Mental Ability",
+            "as": "তৰ্কশক্তি আৰু মানসিক দক্ষতা"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              }
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+              }
+            },
+            {
+              "id": "analytical-critical-reasoning",
+              "title": {
+                "en": "Analytical & Critical Reasoning",
+                "as": "বিশ্লেষণাত্মক যুক্তিতৰ্ক"
+              }
+            }
+          ]
+        },
+        {
+          "id": "general-english",
+          "type": "qa",
+          "color": "#0d9488",
+          "title": {
+            "en": "General English",
+            "as": "সাধাৰণ ইংৰাজী"
+          },
+          "subcategories": [
+            {
+              "id": "grammar",
+              "title": {
+                "en": "Grammar",
+                "as": "ব্যাকৰণ"
+              }
+            },
+            {
+              "id": "vocabulary",
+              "title": {
+                "en": "Vocabulary",
+                "as": "শব্দভাণ্ডাৰ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "computer-knowledge",
+          "type": "qa",
+          "color": "#2563eb",
+          "title": {
+            "en": "Computer Knowledge",
+            "as": "কম্পিউটাৰ জ্ঞান"
+          },
+          "subcategories": [
+            {
+              "id": "computer-fundamentals",
+              "title": {
+                "en": "Computer Fundamentals",
+                "as": "কম্পিউটাৰৰ মৌলিক জ্ঞান"
+              }
+            },
+            {
+              "id": "ms-office",
+              "title": {
+                "en": "MS Office",
+                "as": "এম এছ অফিচ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guwahati-hc",
+      "title": {
+        "en": "Guwahati High Court",
+        "as": "গুৱাহাটী উচ্চ ন্যায়ালয়"
+      },
+      "subtitle": {
+        "en": "Grade III, Grade IV & Junior Assistant",
+        "as": "গ্ৰেড III, গ্ৰেড IV আৰু জুনিয়ৰ সহকাৰী"
+      },
+      "cover": "/images/exams/guwahati-hc-cover.webp",
+      "coverAlt": {
+        "en": "Guwahati High Court Gr-III Assam Judicial Service Exam Recruitment — book front cover",
+        "as": "গুৱাহাটী উচ্চ ন্যায়ালয় গ্ৰেড-III অসম ন্যায়িক সেৱা পৰীক্ষা নিযুক্তি — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/guwahati-hc-logo.webp",
+      "logoAlt": {
+        "en": "Guwahati High Court official logo",
+        "as": "গুৱাহাটী উচ্চ ন্যায়ালয় চৰকাৰী ল'গ'"
+      },
+      "color": "#8b5cf6",
+      "icon": "HC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "ssc",
+      "title": {
+        "en": "SSC",
+        "as": "SSC"
+      },
+      "subtitle": {
+        "en": "CGL, CHSL, MTS & GD",
+        "as": "CGL, CHSL, MTS আৰু GD"
+      },
+      "cover": "/images/exams/ssc-cover.webp",
+      "coverAlt": {
+        "en": "SSC GD Constable Recruitment Handbook — book front cover",
+        "as": "SSC GD কনিষ্টবল নিযুক্তি হাতপুথি — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/ssc-logo.webp",
+      "logoAlt": {
+        "en": "SSC official logo",
+        "as": "SSC চৰকাৰী ল'গ'"
+      },
+      "color": "#ef4444",
+      "icon": "SSC",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "railway",
+      "title": {
+        "en": "Railway",
+        "as": "ৰে'লৱে"
+      },
+      "subtitle": {
+        "en": "Group D & ALP",
+        "as": "গ্ৰুপ D আৰু ALP"
+      },
+      "cover": "/images/exams/railway-cover.webp",
+      "coverAlt": {
+        "en": "Indian Railways Group D RRB Exam Recruitment Handbook — book front cover",
+        "as": "ভাৰতীয় ৰে'লৱে গ্ৰুপ D RRB পৰীক্ষা নিযুক্তি হাতপুথি — কিতাপৰ বেটুপাত"
+      },
+      "logo": "/images/exams/railway-logo.webp",
+      "logoAlt": {
+        "en": "Railway official logo",
+        "as": "ৰে'লৱে চৰকাৰী ল'গ'"
+      },
+      "color": "#0ea5e9",
+      "icon": "Rly",
+      "status": "coming-soon",
+      "sections": []
+    },
+    {
+      "id": "rrb-ntpc",
+      "book": {
+        "code": "AXO-RRB-NTPC",
+        "authority": {
+          "en": "Railway Recruitment Board",
+          "as": "ৰে'লৱে নিযুক্তি ব'ৰ্ড"
+        },
+        "published": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        },
+        "updated": {
+          "en": "8 November 2026",
+          "as": "8 নৱেম্বৰ 2026"
+        }
+      },
+      "title": {
+        "en": "RRB NTPC",
+        "as": "RRB NTPC"
+      },
+      "subtitle": {
+        "en": "Railway Non-Technical Popular Categories — CBT-1 & CBT-2",
+        "as": "ৰে'লৱে অ-কাৰিকৰী জনপ্ৰিয় শ্ৰেণী — CBT-1 আৰু CBT-2"
+      },
+      "note": {
+        "en": "Choose a subject, then a sub-category to practise question-wise MCQs.",
+        "as": "এখন বিষয় বাছনি কৰক, তাৰ পিছত উপ-শ্ৰেণী এটা বাছি প্ৰশ্নভিত্তিক MCQ অনুশীলন কৰক।"
+      },
+      "cover": "/images/exams/rrb-ntpc-cover.webp",
+      "logo": "/images/exams/rrb-ntpc-logo.webp",
+      "logoAlt": {
+        "en": "Indian Railways logo",
+        "as": "ভাৰতীয় ৰে'লৱে ল'গ'"
+      },
+      "coverAlt": {
+        "en": "Indian Railways RRB NTPC Recruitment Exam — book front cover",
+        "as": "ভাৰতীয় ৰে'লৱে RRB NTPC নিযুক্তি পৰীক্ষা — কিতাপৰ বেটুপাত"
+      },
+      "color": "#0ea5e9",
+      "icon": "NTPC",
+      "status": "available",
+      "sections": [
+        {
+          "id": "syllabus",
+          "type": "syllabus",
+          "color": "#6366f1",
+          "title": {
+            "en": "Syllabus",
+            "as": "পাঠ্যক্ৰম"
+          }
+        },
+        {
+          "id": "general-awareness",
+          "type": "qa",
+          "color": "#2563eb",
+          "title": {
+            "en": "General Awareness",
+            "as": "সাধাৰণ জ্ঞান"
+          },
+          "subcategories": [
+            {
+              "id": "general-science",
+              "title": {
+                "en": "General Science",
+                "as": "সাধাৰণ বিজ্ঞান"
+              },
+              "subcategories": [
+                {
+                  "id": "biology",
+                  "title": {
+                    "en": "Biology",
+                    "as": "জীৱবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "physics",
+                  "title": {
+                    "en": "Physics",
+                    "as": "পদাৰ্থবিজ্ঞান"
+                  }
+                },
+                {
+                  "id": "chemistry",
+                  "title": {
+                    "en": "Chemistry",
+                    "as": "ৰসায়নবিজ্ঞান"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "history",
+              "title": {
+                "en": "History (General Studies)",
+                "as": "ইতিহাস (সাধাৰণ অধ্যয়ন)"
+              },
+              "subcategories": [
+                {
+                  "id": "ancient-history",
+                  "title": {
+                    "en": "Ancient History",
+                    "as": "প্ৰাচীন ইতিহাস"
+                  }
+                },
+                {
+                  "id": "medieval-history",
+                  "title": {
+                    "en": "Medieval History",
+                    "as": "মধ্যযুগৰ ইতিহাস"
+                  }
+                },
+                {
+                  "id": "modern-history",
+                  "title": {
+                    "en": "Modern History",
+                    "as": "আধুনিক ইতিহাস"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "geography",
+              "title": {
+                "en": "Geography (General Studies)",
+                "as": "ভূগোল (সাধাৰণ অধ্যয়ন)"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-geography",
+                  "title": {
+                    "en": "Indian Geography",
+                    "as": "ভাৰতৰ ভূগোল"
+                  }
+                },
+                {
+                  "id": "world-geography",
+                  "title": {
+                    "en": "World Geography",
+                    "as": "বিশ্বৰ ভূগোল"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "polity",
+              "title": {
+                "en": "Polity (General Studies)",
+                "as": "ৰাজনীতি (সাধাৰণ অধ্যয়ন)"
+              },
+              "subcategories": [
+                {
+                  "id": "constitution",
+                  "title": {
+                    "en": "Constitution & Fundamental Rights",
+                    "as": "সংবিধান আৰু মৌলিক অধিকাৰ"
+                  }
+                },
+                {
+                  "id": "governance",
+                  "title": {
+                    "en": "Union & State Governance",
+                    "as": "কেন্দ্ৰ আৰু ৰাজ্য শাসন"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "economy",
+              "title": {
+                "en": "Economy (General Studies)",
+                "as": "অৰ্থনীতি (সাধাৰণ অধ্যয়ন)"
+              },
+              "subcategories": [
+                {
+                  "id": "indian-economy",
+                  "title": {
+                    "en": "Indian Economy",
+                    "as": "ভাৰতৰ অৰ্থনীতি"
+                  }
+                },
+                {
+                  "id": "assam-economy",
+                  "title": {
+                    "en": "Assam Economy",
+                    "as": "অসমৰ অৰ্থনীতি"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "static-gk-computers",
+              "title": {
+                "en": "Static GK & Basics of Computers",
+                "as": "স্থিৰ সাধাৰণ জ্ঞান আৰু কম্পিউটাৰৰ মৌলিক কথা"
+              },
+              "subcategories": [
+                {
+                  "id": "art-culture",
+                  "title": {
+                    "en": "Art & Culture",
+                    "as": "কলা আৰু সংস্কৃতি"
+                  }
+                },
+                {
+                  "id": "organizations-institutions",
+                  "title": {
+                    "en": "Organizations & Institutions",
+                    "as": "সংগঠন আৰু প্ৰতিষ্ঠান"
+                  }
+                },
+                {
+                  "id": "space-defence",
+                  "title": {
+                    "en": "Space & Defence",
+                    "as": "মহাকাশ আৰু প্ৰতিৰক্ষা"
+                  }
+                },
+                {
+                  "id": "miscellaneous-static-gk",
+                  "title": {
+                    "en": "Miscellaneous Static GK",
+                    "as": "বিবিধ স্থিৰ সাধাৰণ জ্ঞান"
+                  }
+                },
+                {
+                  "id": "basic-computers",
+                  "title": {
+                    "en": "Basics of Computers",
+                    "as": "কম্পিউটাৰৰ মৌলিক কথা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "current-affairs",
+              "title": {
+                "en": "Current Affairs (Last 10–12 Months)",
+                "as": "সাম্প্ৰতিক ঘটনা (শেষ ১০–১২ মাহ)"
+              },
+              "subcategories": [
+                {
+                  "id": "national-international-news",
+                  "title": {
+                    "en": "National & International News",
+                    "as": "ৰাষ্ট্ৰীয় আৰু আন্তৰ্জাতিক বাতৰি"
+                  }
+                },
+                {
+                  "id": "appointments-obituaries",
+                  "title": {
+                    "en": "Appointments & Obituaries",
+                    "as": "নিয়োগ আৰু মৃত্যু-বাতৰি"
+                  }
+                },
+                {
+                  "id": "government-schemes-initiatives",
+                  "title": {
+                    "en": "Government Schemes & Initiatives",
+                    "as": "চৰকাৰী আঁচনি আৰু পদক্ষেপ"
+                  }
+                },
+                {
+                  "id": "sports",
+                  "title": {
+                    "en": "Sports",
+                    "as": "ক্ৰীড়া"
+                  }
+                },
+                {
+                  "id": "awards-books-indexes",
+                  "title": {
+                    "en": "Awards, Books & Indexes",
+                    "as": "বঁটা, কিতাপ আৰু সূচক"
+                  }
+                },
+                {
+                  "id": "science-tech-environment",
+                  "title": {
+                    "en": "Science, Tech & Environment",
+                    "as": "বিজ্ঞান, প্ৰযুক্তি আৰু পৰিৱেশ"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mathematics",
+          "type": "qa",
+          "color": "#f59e0b",
+          "title": {
+            "en": "Mathematics",
+            "as": "গণিত"
+          },
+          "subcategories": [
+            {
+              "id": "number-system",
+              "title": {
+                "en": "Number System",
+                "as": "সংখ্যা পদ্ধতি"
+              }
+            },
+            {
+              "id": "simplification-bodmas",
+              "title": {
+                "en": "Simplification & BODMAS",
+                "as": "সৰলীকৰণ আৰু BODMAS"
+              }
+            },
+            {
+              "id": "decimals-fractions",
+              "title": {
+                "en": "Decimals & Fractions",
+                "as": "দশমিক আৰু ভগ্নাংশ"
+              }
+            },
+            {
+              "id": "surds-indices",
+              "title": {
+                "en": "Surds & Indices",
+                "as": "কৰণী আৰু সূচক"
+              }
+            },
+            {
+              "id": "square-cube-root",
+              "title": {
+                "en": "Square Root & Cube Root",
+                "as": "বৰ্গমূল আৰু ঘনমূল"
+              }
+            },
+            {
+              "id": "lcm-hcf",
+              "title": {
+                "en": "LCM & HCF",
+                "as": "ল.সা.গু. আৰু গ.সা.গু."
+              }
+            },
+            {
+              "id": "percentage",
+              "title": {
+                "en": "Percentage",
+                "as": "শতাংশ"
+              }
+            },
+            {
+              "id": "ratio-proportion",
+              "title": {
+                "en": "Ratio & Proportion",
+                "as": "অনুপাত আৰু সমানুপাত"
+              }
+            },
+            {
+              "id": "partnership",
+              "title": {
+                "en": "Partnership",
+                "as": "অংশীদাৰিত্ব"
+              }
+            },
+            {
+              "id": "average",
+              "title": {
+                "en": "Average",
+                "as": "গড়"
+              }
+            },
+            {
+              "id": "problems-on-ages",
+              "title": {
+                "en": "Problems on Ages",
+                "as": "বয়সৰ সমস্যা"
+              }
+            },
+            {
+              "id": "mixture-alligation",
+              "title": {
+                "en": "Mixture & Alligation",
+                "as": "মিশ্ৰণ আৰু সংযোগ"
+              }
+            },
+            {
+              "id": "profit-loss-discount",
+              "title": {
+                "en": "Profit, Loss & Discount",
+                "as": "লাভ, লোকচান আৰু ৰেহাই"
+              }
+            },
+            {
+              "id": "simple-interest",
+              "title": {
+                "en": "Simple Interest (SI)",
+                "as": "সৰল সুত (SI)"
+              }
+            },
+            {
+              "id": "compound-interest",
+              "title": {
+                "en": "Compound Interest (CI)",
+                "as": "চক্ৰবৃদ্ধি সুত (CI)"
+              }
+            },
+            {
+              "id": "time-work",
+              "title": {
+                "en": "Time & Work",
+                "as": "সময় আৰু কাৰ্য"
+              }
+            },
+            {
+              "id": "work-wages",
+              "title": {
+                "en": "Work & Wages",
+                "as": "কাৰ্য আৰু মজুৰি"
+              }
+            },
+            {
+              "id": "pipes-cisterns",
+              "title": {
+                "en": "Pipes & Cisterns",
+                "as": "নল আৰু চৌবাচ্চা"
+              }
+            },
+            {
+              "id": "time-speed-distance",
+              "title": {
+                "en": "Time, Speed & Distance",
+                "as": "সময়, গতি আৰু দূৰত্ব"
+              }
+            },
+            {
+              "id": "problems-on-trains",
+              "title": {
+                "en": "Problems on Trains",
+                "as": "ৰে'লগাড়ীৰ সমস্যা"
+              }
+            },
+            {
+              "id": "boats-streams",
+              "title": {
+                "en": "Boats & Streams",
+                "as": "নাও আৰু সোঁত"
+              }
+            },
+            {
+              "id": "race-circular-track",
+              "title": {
+                "en": "Race & Circular Track",
+                "as": "দৌৰ আৰু বৃত্তাকাৰ পথ"
+              }
+            },
+            {
+              "id": "elementary-algebra",
+              "title": {
+                "en": "Elementary Algebra",
+                "as": "প্ৰাথমিক বীজগণিত"
+              }
+            },
+            {
+              "id": "quadratic-linear-equations",
+              "title": {
+                "en": "Quadratic & Linear Equations",
+                "as": "দ্বিঘাত আৰু ৰৈখিক সমীকৰণ"
+              }
+            },
+            {
+              "id": "mensuration-2d",
+              "title": {
+                "en": "Mensuration 2D (Area & Perimeter)",
+                "as": "পৰিমিতি ২D (কালি আৰু পৰিসীমা)"
+              }
+            },
+            {
+              "id": "mensuration-3d",
+              "title": {
+                "en": "Mensuration 3D (Volume & Surface Area)",
+                "as": "পৰিমিতি ৩D (আয়তন আৰু পৃষ্ঠকালি)"
+              }
+            },
+            {
+              "id": "geometry",
+              "title": {
+                "en": "Geometry (Lines, Angles, Triangles, Circles)",
+                "as": "জ্যামিতি (ৰেখা, কোণ, ত্ৰিভুজ, বৃত্ত)"
+              }
+            },
+            {
+              "id": "coordinate-geometry",
+              "title": {
+                "en": "Coordinate Geometry (Basic)",
+                "as": "স্থানাংক জ্যামিতি (মৌলিক)"
+              }
+            },
+            {
+              "id": "trigonometry",
+              "title": {
+                "en": "Trigonometry",
+                "as": "ত্ৰিকোণমিতি"
+              }
+            },
+            {
+              "id": "height-distance",
+              "title": {
+                "en": "Height & Distance",
+                "as": "উচ্চতা আৰু দূৰত্ব"
+              }
+            },
+            {
+              "id": "statistics",
+              "title": {
+                "en": "Statistics (Mean, Median, Mode, SD)",
+                "as": "পৰিসংখ্যা (মাধ্য, মধ্যমা, বহুলক, SD)"
+              }
+            },
+            {
+              "id": "data-interpretation",
+              "title": {
+                "en": "Data Interpretation (Table, Bar, Pie, Line Graph)",
+                "as": "তথ্য বিশ্লেষণ (তালিকা, দণ্ড, পাই, ৰেখা লেখ)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "reasoning",
+          "type": "qa",
+          "color": "#8b5cf6",
+          "title": {
+            "en": "General Intelligence & Reasoning",
+            "as": "সাধাৰণ বুদ্ধি আৰু যুক্তিতৰ্ক"
+          },
+          "subcategories": [
+            {
+              "id": "verbal-reasoning",
+              "title": {
+                "en": "Verbal Reasoning",
+                "as": "ভাষিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "analogy",
+                  "title": {
+                    "en": "Analogy (Number, Letter & Word-based)",
+                    "as": "সাদৃশ্য (সংখ্যা, আখৰ আৰু শব্দভিত্তিক)"
+                  }
+                },
+                {
+                  "id": "classification-odd-one-out",
+                  "title": {
+                    "en": "Classification / Odd One Out",
+                    "as": "শ্ৰেণীবিভাজন / আঁতৰ বস্তু"
+                  }
+                },
+                {
+                  "id": "number-series",
+                  "title": {
+                    "en": "Number Series (Missing & Wrong Number)",
+                    "as": "সংখ্যা শৃংখলা (অনুপস্থিত আৰু ভুল সংখ্যা)"
+                  }
+                },
+                {
+                  "id": "alphabet-series",
+                  "title": {
+                    "en": "Alphabet Series & Alphanumeric Series",
+                    "as": "আখৰ শৃংখলা আৰু আখৰ-সংখ্যা শৃংখলা"
+                  }
+                },
+                {
+                  "id": "coding-decoding",
+                  "title": {
+                    "en": "Coding-Decoding",
+                    "as": "সংকেতীকৰণ-অৱসংকেতীকৰণ"
+                  }
+                },
+                {
+                  "id": "blood-relations",
+                  "title": {
+                    "en": "Blood Relations",
+                    "as": "ৰক্তসম্পৰ্ক"
+                  }
+                },
+                {
+                  "id": "direction-distance",
+                  "title": {
+                    "en": "Direction & Distance",
+                    "as": "দিশ আৰু দূৰত্ব"
+                  }
+                },
+                {
+                  "id": "order-ranking",
+                  "title": {
+                    "en": "Order & Ranking",
+                    "as": "ক্ৰম আৰু স্থান"
+                  }
+                },
+                {
+                  "id": "sitting-arrangement",
+                  "title": {
+                    "en": "Sitting Arrangement",
+                    "as": "বহাৰ বিন্যাস"
+                  }
+                },
+                {
+                  "id": "puzzles",
+                  "title": {
+                    "en": "Puzzles",
+                    "as": "ধাঁধা"
+                  }
+                },
+                {
+                  "id": "mathematical-operations",
+                  "title": {
+                    "en": "Mathematical Operations",
+                    "as": "গাণিতিক ক্ৰিয়া"
+                  }
+                },
+                {
+                  "id": "inequality",
+                  "title": {
+                    "en": "Inequality",
+                    "as": "অসমতা"
+                  }
+                },
+                {
+                  "id": "alphabet-test",
+                  "title": {
+                    "en": "Alphabet Test & Word Formation",
+                    "as": "আখৰ পৰীক্ষা আৰু শব্দ গঠন"
+                  }
+                },
+                {
+                  "id": "logical-sequence-words",
+                  "title": {
+                    "en": "Logical Sequence of Words & Dictionary Order",
+                    "as": "শব্দৰ যুক্তিসঙ্গত ক্ৰম আৰু অভিধান ক্ৰম"
+                  }
+                },
+                {
+                  "id": "clock-calendar",
+                  "title": {
+                    "en": "Clock & Calendar",
+                    "as": "ঘড়ী আৰু পাঁজি"
+                  }
+                },
+                {
+                  "id": "input-output",
+                  "title": {
+                    "en": "Input-Output (Machine Input)",
+                    "as": "ইনপুট-আউটপুট (মেচিন ইনপুট)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "analytical-logical-reasoning",
+              "title": {
+                "en": "Analytical & Logical Reasoning",
+                "as": "বিশ্লেষণাত্মক আৰু যুক্তিভিত্তিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "syllogism",
+                  "title": {
+                    "en": "Syllogism",
+                    "as": "ন্যাস"
+                  }
+                },
+                {
+                  "id": "venn-diagrams",
+                  "title": {
+                    "en": "Venn Diagrams",
+                    "as": "ভেন চিত্ৰ"
+                  }
+                },
+                {
+                  "id": "statement-conclusions",
+                  "title": {
+                    "en": "Statement & Conclusions",
+                    "as": "বিবৃতি আৰু সিদ্ধান্ত"
+                  }
+                },
+                {
+                  "id": "statement-assumptions",
+                  "title": {
+                    "en": "Statement & Assumptions",
+                    "as": "বিবৃতি আৰু ধাৰণা"
+                  }
+                },
+                {
+                  "id": "statement-arguments",
+                  "title": {
+                    "en": "Statement & Arguments",
+                    "as": "বিবৃতি আৰু যুক্তি"
+                  }
+                },
+                {
+                  "id": "statement-course-of-action",
+                  "title": {
+                    "en": "Statement & Courses of Action",
+                    "as": "বিবৃতি আৰু কাৰ্যপন্থা"
+                  }
+                },
+                {
+                  "id": "cause-effect",
+                  "title": {
+                    "en": "Cause & Effect",
+                    "as": "কাৰণ আৰু ফল"
+                  }
+                },
+                {
+                  "id": "assertion-reason",
+                  "title": {
+                    "en": "Assertion & Reason",
+                    "as": "দাবী আৰু কাৰণ"
+                  }
+                },
+                {
+                  "id": "decision-making-data-sufficiency",
+                  "title": {
+                    "en": "Decision Making & Data Sufficiency",
+                    "as": "সিদ্ধান্ত গ্ৰহণ আৰু তথ্য পৰ্যাপ্ততা"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "non-verbal-reasoning",
+              "title": {
+                "en": "Non-Verbal Reasoning",
+                "as": "চিত্ৰভিত্তিক যুক্তিতৰ্ক"
+              },
+              "subcategories": [
+                {
+                  "id": "counting-figures",
+                  "title": {
+                    "en": "Counting of Figures",
+                    "as": "চিত্ৰ গণনা"
+                  }
+                },
+                {
+                  "id": "mirror-water-image",
+                  "title": {
+                    "en": "Mirror Image & Water Image",
+                    "as": "দাপোণৰ প্ৰতিবিম্ব আৰু পানীৰ প্ৰতিবিম্ব"
+                  }
+                },
+                {
+                  "id": "paper-cutting-folding",
+                  "title": {
+                    "en": "Paper Cutting & Folding",
+                    "as": "কাগজ কটা আৰু ভাঁজ"
+                  }
+                },
+                {
+                  "id": "embedded-figures",
+                  "title": {
+                    "en": "Embedded / Hidden Figures",
+                    "as": "সংযোজিত / লুকাই থকা চিত্ৰ"
+                  }
+                },
+                {
+                  "id": "pattern-completion",
+                  "title": {
+                    "en": "Completion of Incomplete Pattern",
+                    "as": "অসম্পূৰ্ণ আৰ্হি সম্পূৰ্ণ কৰা"
+                  }
+                },
+                {
+                  "id": "figure-series",
+                  "title": {
+                    "en": "Figure Series & Analogy",
+                    "as": "চিত্ৰ শৃংখলা আৰু সাদৃশ্য"
+                  }
+                },
+                {
+                  "id": "cube-dice",
+                  "title": {
+                    "en": "Cube & Dice",
+                    "as": "ঘনক আৰু লুডু"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

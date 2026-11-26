@@ -1,0 +1,771 @@
+{
+ "id": "figure-series",
+ "title": {
+  "en": "Figure Series",
+  "as": "চিত্ৰ শৃংখলা"
+ },
+ "description": {
+  "en": "Study the sequence of figures and identify the pattern (shape, number of sides, dots, rotation or direction) to choose the figure that comes next.",
+  "as": "চিত্ৰৰ ক্ৰমটো মন কৰি প্যাটাৰ্ণটো (আকৃতি, বাহুৰ সংখ্যা, বিন্দু, ঘূৰ্ণন বা দিশ) চিনাক্ত কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক।"
+ },
+ "tags": [
+  "reasoning",
+  "non-verbal",
+  "figure-series",
+  "series-completion",
+  "visual-reasoning"
+ ],
+ "pdf": null,
+ "questions": [
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The figures keep alternating between an upward-pointing triangle and a square. The given sequence is an upward-pointing triangle, a square, an upward-pointing triangle, a square, so the next figure is an upward-pointing triangle.",
+    "as": "চিত্ৰবোৰ ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ আৰু এটা বৰ্গ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৰ্গ, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৰ্গ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The figures keep alternating between a square and an upward-pointing triangle. The given sequence is a square, an upward-pointing triangle, a square, an upward-pointing triangle, so the next figure is a square.",
+    "as": "চিত্ৰবোৰ এটা বৰ্গ আৰু ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৰ্গ, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৰ্গ, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৰ্গ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The figures keep alternating between a circle and an upward-pointing triangle. The given sequence is a circle, an upward-pointing triangle, a circle, an upward-pointing triangle, so the next figure is a circle.",
+    "as": "চিত্ৰবোৰ এটা বৃত্ত আৰু ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৃত্ত, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৃত্ত, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৃত্ত।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The figures keep alternating between an upward-pointing triangle and a circle. The given sequence is an upward-pointing triangle, a circle, an upward-pointing triangle, a circle, so the next figure is an upward-pointing triangle.",
+    "as": "চিত্ৰবোৰ ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ আৰু এটা বৃত্ত — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৃত্ত, ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ, এটা বৃত্ত, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব ওপৰলৈ মুখ কৰা এটা ত্ৰিভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The figures keep alternating between a square and a circle. The given sequence is a square, a circle, a square, a circle, so the next figure is a square.",
+    "as": "চিত্ৰবোৰ এটা বৰ্গ আৰু এটা বৃত্ত — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৰ্গ, এটা বৃত্ত, এটা বৰ্গ, এটা বৃত্ত, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৰ্গ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The figures keep alternating between a circle and a square. The given sequence is a circle, a square, a circle, a square, so the next figure is a circle.",
+    "as": "চিত্ৰবোৰ এটা বৃত্ত আৰু এটা বৰ্গ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৃত্ত, এটা বৰ্গ, এটা বৃত্ত, এটা বৰ্গ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৃত্ত।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.6,50.0 16.0,55.6 10.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 55.6,50.0 50.0,55.6 44.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.6,50.0 16.0,55.6 10.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 55.6,50.0 50.0,55.6 44.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.6,50.0 16.0,55.6 10.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 55.6,50.0 50.0,55.6 44.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.6,50.0 16.0,55.6 10.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 55.6,50.0 50.0,55.6 44.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The figures keep alternating between a diamond and a circle. The given sequence is a diamond, a circle, a diamond, a circle, so the next figure is a diamond.",
+    "as": "চিত্ৰবোৰ এটা ৰম্বাছ আৰু এটা বৃত্ত — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা ৰম্বাছ, এটা বৃত্ত, এটা ৰম্বাছ, এটা বৃত্ত, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা ৰম্বাছ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 38.6,50.0 33.0,55.6 27.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 72.6,50.0 67.0,55.6 61.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 38.6,50.0 33.0,55.6 27.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 72.6,50.0 67.0,55.6 61.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 38.6,50.0 33.0,55.6 27.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 72.6,50.0 67.0,55.6 61.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 38.6,50.0 33.0,55.6 27.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 72.6,50.0 67.0,55.6 61.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The figures keep alternating between a circle and a diamond. The given sequence is a circle, a diamond, a circle, a diamond, so the next figure is a circle.",
+    "as": "চিত্ৰবোৰ এটা বৃত্ত আৰু এটা ৰম্বাছ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৃত্ত, এটা ৰম্বাছ, এটা বৃত্ত, এটা ৰম্বাছ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৃত্ত।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,55.6 28.1,47.2 37.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,55.6 62.1,47.2 71.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,55.6 28.1,47.2 37.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,55.6 62.1,47.2 71.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,55.6 79.1,47.2 88.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,55.6 28.1,47.2 37.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,55.6 62.1,47.2 71.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,52.8 11.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,55.6 28.1,47.2 37.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 54.9,52.8 45.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,55.6 62.1,47.2 71.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The triangles point alternately up and down, so the next triangle points up.",
+    "as": "ত্ৰিভুজবোৰ সলনি সলনিকৈ ওপৰ আৰু তললৈ থাকে, সেয়ে পৰৱৰ্তী ত্ৰিভুজটো ওপৰলৈ থাকিব।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,55.6 11.1,47.2 20.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,55.6 45.1,47.2 54.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,55.6 11.1,47.2 20.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,55.6 45.1,47.2 54.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,55.6 79.1,47.2 88.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,55.6 11.1,47.2 20.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,55.6 45.1,47.2 54.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,55.6 11.1,47.2 20.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 37.9,52.8 28.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,55.6 45.1,47.2 54.9,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 71.9,52.8 62.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The triangles point alternately down and up, so the next triangle points down.",
+    "as": "ত্ৰিভুজবোৰ সলনি সলনিকৈ তল আৰু ওপৰলৈ থাকে, সেয়ে পৰৱৰ্তী ত্ৰিভুজটো তললৈ থাকিব।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"84.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The figures keep alternating between a horizontal oval and a square. The given sequence is a horizontal oval, a square, a horizontal oval, a square, so the next figure is a horizontal oval.",
+    "as": "চিত্ৰবোৰ এটা অনুভূমিক ডিম্বাকৃতি আৰু এটা বৰ্গ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা অনুভূমিক ডিম্বাকৃতি, এটা বৰ্গ, এটা অনুভূমিক ডিম্বাকৃতি, এটা বৰ্গ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা অনুভূমিক ডিম্বাকৃতি।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"84.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"6.45\" ry=\"4.04\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The figures keep alternating between a square and a horizontal oval. The given sequence is a square, a horizontal oval, a square, a horizontal oval, so the next figure is a square.",
+    "as": "চিত্ৰবোৰ এটা বৰ্গ আৰু এটা অনুভূমিক ডিম্বাকৃতি — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৰ্গ, এটা অনুভূমিক ডিম্বাকৃতি, এটা বৰ্গ, এটা অনুভূমিক ডিম্বাকৃতি, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৰ্গ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"84.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><ellipse cx=\"16.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"50.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The figures keep alternating between a vertical oval and a circle. The given sequence is a vertical oval, a circle, a vertical oval, a circle, so the next figure is a vertical oval.",
+    "as": "চিত্ৰবোৰ এটা উলম্ব ডিম্বাকৃতি আৰু এটা বৃত্ত — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা উলম্ব ডিম্বাকৃতি, এটা বৃত্ত, এটা উলম্ব ডিম্বাকৃতি, এটা বৃত্ত, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা উলম্ব ডিম্বাকৃতি।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"84.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"33.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><ellipse cx=\"67.0\" cy=\"50.0\" rx=\"4.04\" ry=\"6.45\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The figures keep alternating between a circle and a vertical oval. The given sequence is a circle, a vertical oval, a circle, a vertical oval, so the next figure is a circle.",
+    "as": "চিত্ৰবোৰ এটা বৃত্ত আৰু এটা উলম্ব ডিম্বাকৃতি — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৃত্ত, এটা উলম্ব ডিম্বাকৃতি, এটা বৃত্ত, এটা উলম্ব ডিম্বাকৃতি, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৃত্ত।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.3,48.3 19.3,54.5 12.7,54.5 10.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 55.3,48.3 53.3,54.5 46.7,54.5 44.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.3,48.3 19.3,54.5 12.7,54.5 10.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 55.3,48.3 53.3,54.5 46.7,54.5 44.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.3,48.3 19.3,54.5 12.7,54.5 10.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 55.3,48.3 53.3,54.5 46.7,54.5 44.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 21.3,48.3 19.3,54.5 12.7,54.5 10.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"37.0,46.0 37.0,54.0 29.0,54.0 29.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"50.0,44.4 55.3,48.3 53.3,54.5 46.7,54.5 44.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"71.0,46.0 71.0,54.0 63.0,54.0 63.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The figures keep alternating between a pentagon and a square. The given sequence is a pentagon, a square, a pentagon, a square, so the next figure is a pentagon.",
+    "as": "চিত্ৰবোৰ এটা পঞ্চভুজ আৰু এটা বৰ্গ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা পঞ্চভুজ, এটা বৰ্গ, এটা পঞ্চভুজ, এটা বৰ্গ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা পঞ্চভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 38.3,48.3 36.3,54.5 29.7,54.5 27.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 72.3,48.3 70.3,54.5 63.7,54.5 61.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 38.3,48.3 36.3,54.5 29.7,54.5 27.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 72.3,48.3 70.3,54.5 63.7,54.5 61.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 38.3,48.3 36.3,54.5 29.7,54.5 27.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 72.3,48.3 70.3,54.5 63.7,54.5 61.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"20.0,46.0 20.0,54.0 12.0,54.0 12.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"33.0,44.4 38.3,48.3 36.3,54.5 29.7,54.5 27.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"54.0,46.0 54.0,54.0 46.0,54.0 46.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"67.0,44.4 72.3,48.3 70.3,54.5 63.7,54.5 61.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The figures keep alternating between a square and a pentagon. The given sequence is a square, a pentagon, a square, a pentagon, so the next figure is a square.",
+    "as": "চিত্ৰবোৰ এটা বৰ্গ আৰু এটা পঞ্চভুজ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৰ্গ, এটা পঞ্চভুজ, এটা বৰ্গ, এটা পঞ্চভুজ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৰ্গ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,47.2 20.9,52.8 16.0,55.6 11.1,52.8 11.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,47.2 54.9,52.8 50.0,55.6 45.1,52.8 45.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,47.2 20.9,52.8 16.0,55.6 11.1,52.8 11.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,47.2 54.9,52.8 50.0,55.6 45.1,52.8 45.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,47.2 20.9,52.8 16.0,55.6 11.1,52.8 11.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,47.2 54.9,52.8 50.0,55.6 45.1,52.8 45.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"88.0,46.0 88.0,54.0 80.0,54.0 80.0,46.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,44.4 20.9,47.2 20.9,52.8 16.0,55.6 11.1,52.8 11.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"33.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"50.0,44.4 54.9,47.2 54.9,52.8 50.0,55.6 45.1,52.8 45.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"67.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"84.0,44.4 89.3,48.3 87.3,54.5 80.7,54.5 78.7,48.3\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The figures keep alternating between a hexagon and a circle. The given sequence is a hexagon, a circle, a hexagon, a circle, so the next figure is a hexagon.",
+    "as": "চিত্ৰবোৰ এটা ষড়ভুজ আৰু এটা বৃত্ত — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা ষড়ভুজ, এটা বৃত্ত, এটা ষড়ভুজ, এটা বৃত্ত, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা ষড়ভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,47.2 37.9,52.8 33.0,55.6 28.1,52.8 28.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,47.2 71.9,52.8 67.0,55.6 62.1,52.8 62.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,47.2 88.9,52.8 84.0,55.6 79.1,52.8 79.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,47.2 37.9,52.8 33.0,55.6 28.1,52.8 28.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,47.2 71.9,52.8 67.0,55.6 62.1,52.8 62.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,47.2 37.9,52.8 33.0,55.6 28.1,52.8 28.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,47.2 71.9,52.8 67.0,55.6 62.1,52.8 62.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 89.6,50.0 84.0,55.6 78.4,50.0\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"33.0,44.4 37.9,47.2 37.9,52.8 33.0,55.6 28.1,52.8 28.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"5.50\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\"/><polygon points=\"67.0,44.4 71.9,47.2 71.9,52.8 67.0,55.6 62.1,52.8 62.1,47.2\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,44.4 88.9,52.8 79.1,52.8\" stroke=\"#334155\" stroke-width=\"1.68\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The figures keep alternating between a circle and a hexagon. The given sequence is a circle, a hexagon, a circle, a hexagon, so the next figure is a circle.",
+    "as": "চিত্ৰবোৰ এটা বৃত্ত আৰু এটা ষড়ভুজ — এই দুটাৰ মাজত সলনি সলনিকৈ আবৃত্তি হয়। দিয়া ক্ৰমটো হ'ল এটা বৃত্ত, এটা ষড়ভুজ, এটা বৃত্ত, এটা ষড়ভুজ, সেয়ে পৰৱৰ্তী চিত্ৰটো হ'ব এটা বৃত্ত।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"89.3,44.7 89.3,55.3 78.7,55.3 78.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,46.3 90.5,53.7 84.0,57.5 77.5,53.7 77.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,53.7 9.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"44.0,44.7 44.0,55.3 33.4,55.3 33.4,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 68.4,47.7 65.7,56.1 56.9,56.1 54.2,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.5,50.0 84.0,57.5 76.5,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The number of sides increases by one in every step: 3, 4, 5 sides. So the next figure has 6 sides, which is a hexagon.",
+    "as": "প্ৰতিটো পদক্ষেপত বাহুৰ সংখ্যা এটাকৈ বাঢ়ে: ৩, ৪, ৫টা বাহু। সেয়ে পৰৱৰ্তী চিত্ৰটোৰ ৬টা বাহু থাকিব — এটা ষড়ভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,46.3 90.5,53.7 84.0,57.5 77.5,53.7 77.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.1,47.7 88.4,56.1 79.6,56.1 76.9,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 91.5,50.0 84.0,57.5 76.5,50.0\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"21.3,44.7 21.3,55.3 10.7,55.3 10.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"61.3,42.5 67.8,46.3 67.8,53.7 61.3,57.5 54.9,53.7 54.9,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 89.8,45.3 91.3,51.7 87.2,56.7 80.8,56.7 76.7,51.7 78.2,45.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The number of sides increases by one in every step: 4, 5, 6 sides. So the next figure has 7 sides, which is a heptagon.",
+    "as": "প্ৰতিটো পদক্ষেপত বাহুৰ সংখ্যা এটাকৈ বাঢ়ে: ৪, ৫, ৬টা বাহু। সেয়ে পৰৱৰ্তী চিত্ৰটোৰ ৭টা বাহু থাকিব — এটা সপ্তভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,46.3 22.5,53.7 16.0,57.5 9.5,53.7 9.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,53.7 77.5,53.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,46.3 22.5,53.7 16.0,57.5 9.5,53.7 9.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"89.3,44.7 89.3,55.3 78.7,55.3 78.7,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,46.3 22.5,53.7 16.0,57.5 9.5,53.7 9.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"84.0,42.5 90.5,46.3 90.5,53.7 84.0,57.5 77.5,53.7 77.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polygon points=\"16.0,42.5 22.5,46.3 22.5,53.7 16.0,57.5 9.5,53.7 9.5,46.3\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"38.7,42.5 45.8,47.7 43.1,56.1 34.3,56.1 31.6,47.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><polygon points=\"66.6,44.7 66.6,55.3 56.0,55.3 56.0,44.7\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"7.33\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The number of sides decreases by one in every step: 6, 5, 4 sides. So the next figure has 3 sides — a triangle.",
+    "as": "প্ৰতিটো পদক্ষেপত বাহুৰ সংখ্যা এটাকৈ কমে: ৬, ৫, ৪টা বাহু। সেয়ে পৰৱৰ্তী চিত্ৰটোৰ ৩টা বাহু থাকিব — এটা ত্ৰিভুজ।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"16.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"36.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"41.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"56.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"61.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"66.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"74.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"93.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "B",
+   "explanation": {
+    "en": "The number of dots increases by one in every step: 1, 2, 3 dots. So the next figure shows 4 dots.",
+    "as": "প্ৰতিটো পদক্ষেপত বিন্দুৰ সংখ্যা এটাকৈ বাঢ়ে: ১, ২, ৩টা বিন্দু। সেয়ে পৰৱৰ্তী চিত্ৰত ৪টা বিন্দু থাকিব।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"74.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"79.2\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"84.0\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"88.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"93.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"13.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"18.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"33.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"38.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"54.1\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"58.9\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"63.8\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"76.7\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"81.6\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"86.4\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/><circle cx=\"91.3\" cy=\"50.0\" r=\"2.02\" fill=\"#334155\"/></svg>"
+    }
+   ],
+   "a": "C",
+   "explanation": {
+    "en": "The number of dots increases by one in every step: 2, 3, 4 dots. So the next figure shows 5 dots.",
+    "as": "প্ৰতিটো পদক্ষেপত বিন্দুৰ সংখ্যা এটাকৈ বাঢ়ে: ২, ৩, ৪টা বিন্দু। সেয়ে পৰৱৰ্তী চিত্ৰত ৫টা বিন্দু থাকিব।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76.5,43.9 91.5,50.0 76.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,42.5 84.0,57.5 90.1,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"91.5,43.9 76.5,50.0 91.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,42.5 38.7,57.5 44.8,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,57.5 84.0,42.5 90.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "D",
+   "explanation": {
+    "en": "The chevron rotates by 90° clockwise in every step (right → down → left). So the next chevron points up.",
+    "as": "কৌণিক চিহ্নটো প্ৰতিটো পদক্ষেপত ঘড়ীৰ কাঁটাৰ দিশে ৯০° ঘূৰে (সোঁ → তল → বাওঁ)। সেয়ে পৰৱৰ্তী চিহ্নটো ওপৰলৈ মুখ কৰিব।"
+   }
+  },
+  {
+   "type": "figure_series",
+   "q": {
+    "en": "Study the sequence of figures and select the figure that comes next (correctly continues the series).",
+    "as": "চিত্ৰৰ ক্ৰমটো মন কৰি পৰৱৰ্তী চিত্ৰটো বাছি উলিয়াওক (যিটোৱে শৃংখলাটো শুদ্ধভাৱে আগবঢ়াই)।"
+   },
+   "options": [
+    {
+     "option": "A",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,57.5 38.7,42.5 44.8,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,42.5 84.0,57.5 90.1,42.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "B",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,57.5 38.7,42.5 44.8,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"76.5,43.9 91.5,50.0 76.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "C",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,57.5 38.7,42.5 44.8,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"77.9,57.5 84.0,42.5 90.1,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    },
+    {
+     "option": "D",
+     "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-hidden=\"true\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><polyline points=\"8.5,43.9 23.5,50.0 8.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"32.5,57.5 38.7,42.5 44.8,57.5\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"68.8,43.9 53.9,50.0 68.8,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"91.5,43.9 76.5,50.0 91.5,56.1\" stroke=\"#334155\" stroke-width=\"2.24\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg>"
+    }
+   ],
+   "a": "A",
+   "explanation": {
+    "en": "The chevron rotates by 90° anticlockwise in every step (right → up → left). So the next chevron points down.",
+    "as": "কৌণিক চিহ্নটো প্ৰতিটো পদক্ষেপত ঘড়ীৰ কাঁটাৰ বিপৰীত দিশে ৯০° ঘূৰে (সোঁ → ওপৰ → বাওঁ)। সেয়ে পৰৱৰ্তী চিহ্নটো তললৈ মুখ কৰিব।"
+   }
+  }
+ ]
+}

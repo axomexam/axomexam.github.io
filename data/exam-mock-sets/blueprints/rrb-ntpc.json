@@ -1,0 +1,36 @@
+{
+  "exam": "rrb-ntpc",
+  "sets": 10,
+  "totalQuestions": 100,
+  "durationMinutes": 90,
+  "totalMarks": 100,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0.33,
+  "difficultyMix": { "easy": 45, "moderate": 40, "difficult": 15 },
+  "sections": [
+    {
+      "id": "mathematics",
+      "questions": 30,
+      "label": {
+        "en": "Section A: Mathematics",
+        "as": "শাখা A: গণিত"
+      }
+    },
+    {
+      "id": "reasoning",
+      "questions": 30,
+      "label": {
+        "en": "Section B: General Intelligence & Reasoning",
+        "as": "শাখা B: সাধাৰণ বুদ্ধিমত্তা আৰু যুক্তি"
+      }
+    },
+    {
+      "id": "general-awareness",
+      "questions": 40,
+      "label": {
+        "en": "Section C: General Awareness",
+        "as": "শাখা C: সাধাৰণ জ্ঞান"
+      }
+    }
+  ]
+}

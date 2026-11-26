@@ -1,0 +1,2575 @@
+[
+  {
+    "id": "vr-inequality-001",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ U = Q = X. Conclusions: I. X ≤ Q II. Q > W",
+      "as": "বিবৃতি: W ≤ U = Q = X। সিদ্ধান্ত: I. X ≤ Q II. Q > W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-002",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T = V ≤ U ≤ Y. Conclusions: I. T > V II. V > U",
+      "as": "বিবৃতি: T = V ≤ U ≤ Y। সিদ্ধান্ত: I. T > V II. V > U"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-003",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W < V = X ≥ U > S. Conclusions: I. W < V II. U ≥ S",
+      "as": "বিবৃতি: W < V = X ≥ U > S। সিদ্ধান্ত: I. W < V II. U ≥ S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-004",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P ≥ Z ≥ Q < W > Y. Conclusions: I. Y = P II. P > Y",
+      "as": "বিবৃতি: P ≥ Z ≥ Q < W > Y। সিদ্ধান্ত: I. Y = P II. P > Y"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-005",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Q = R ≥ V ≤ Y < W. Conclusions: I. Y < R II. Q ≥ V",
+      "as": "বিবৃতি: Q = R ≥ V ≤ Y < W। সিদ্ধান্ত: I. Y < R II. Q ≥ V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-006",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P < V = Y < R = T. Conclusions: I. V < T II. P ≤ Y",
+      "as": "বিবৃতি: P < V = Y < R = T। সিদ্ধান্ত: I. V < T II. P ≤ Y"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-007",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ W < X < Q. Conclusions: I. S ≥ Q II. Q < W",
+      "as": "বিবৃতি: S ≥ W < X < Q। সিদ্ধান্ত: I. S ≥ Q II. Q < W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-008",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X > S > T ≤ W. Conclusions: I. T = X II. T > X",
+      "as": "বিবৃতি: X > S > T ≤ W। সিদ্ধান্ত: I. T = X II. T > X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-009",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≥ P ≥ Q > S = T. Conclusions: I. Z < S II. P > T",
+      "as": "বিবৃতি: Z ≥ P ≥ Q > S = T। সিদ্ধান্ত: I. Z < S II. P > T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-010",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≤ R > T = P. Conclusions: I. P ≥ T II. P ≥ R",
+      "as": "বিবৃতি: X ≤ R > T = P। সিদ্ধান্ত: I. P ≥ T II. P ≥ R"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-011",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T > V ≥ Q > Z < S. Conclusions: I. T ≤ Z II. T > Z",
+      "as": "বিবৃতি: T > V ≥ Q > Z < S। সিদ্ধান্ত: I. T ≤ Z II. T > Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-012",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Z ≥ Y ≥ Q > T. Conclusions: I. Z ≤ T II. T < Z",
+      "as": "বিবৃতি: V < Z ≥ Y ≥ Q > T। সিদ্ধান্ত: I. Z ≤ T II. T < Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-013",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X = W ≤ Y = S < Q. Conclusions: I. X > Q II. X < W",
+      "as": "বিবৃতি: X = W ≤ Y = S < Q। সিদ্ধান্ত: I. X > Q II. X < W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-014",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Z ≥ Y ≥ Q > T. Conclusions: I. Y > T II. Q < V",
+      "as": "বিবৃতি: V < Z ≥ Y ≥ Q > T। সিদ্ধান্ত: I. Y > T II. Q < V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-015",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Z ≥ Y ≥ Q > T. Conclusions: I. Q > T II. Q < T",
+      "as": "বিবৃতি: V < Z ≥ Y ≥ Q > T। সিদ্ধান্ত: I. Q > T II. Q < T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-016",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T > V ≥ Q > Z < S. Conclusions: I. Z < S II. Q ≤ T",
+      "as": "বিবৃতি: T > V ≥ Q > Z < S। সিদ্ধান্ত: I. Z < S II. Q ≤ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-017",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Y < R ≥ V < Z = U. Conclusions: I. U ≥ Z II. U > R",
+      "as": "বিবৃতি: Y < R ≥ V < Z = U। সিদ্ধান্ত: I. U ≥ Z II. U > R"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-018",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X = W ≤ Y = S < Q. Conclusions: I. X ≤ S II. Q = W",
+      "as": "বিবৃতি: X = W ≤ Y = S < Q। সিদ্ধান্ত: I. X ≤ S II. Q = W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-019",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Q < U < Z ≤ T. Conclusions: I. U ≥ Q II. U > Z",
+      "as": "বিবৃতি: V < Q < U < Z ≤ T। সিদ্ধান্ত: I. U ≥ Q II. U > Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-020",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T ≤ P ≥ U = Q ≤ Y. Conclusions: I. P ≤ Q II. Y < T",
+      "as": "বিবৃতি: T ≤ P ≥ U = Q ≤ Y। সিদ্ধান্ত: I. P ≤ Q II. Y < T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-021",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T < Y < Z ≤ P. Conclusions: I. T < P II. Y ≥ P",
+      "as": "বিবৃতি: T < Y < Z ≤ P। সিদ্ধান্ত: I. T < P II. Y ≥ P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-022",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ R ≤ Z ≥ P = S. Conclusions: I. P ≥ Z II. S ≤ Z",
+      "as": "বিবৃতি: W ≤ R ≤ Z ≥ P = S। সিদ্ধান্ত: I. P ≥ Z II. S ≤ Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-023",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Y < R ≥ V < Z = U. Conclusions: I. R < U II. U ≤ R",
+      "as": "বিবৃতি: Y < R ≥ V < Z = U। সিদ্ধান্ত: I. R < U II. U ≤ R"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-024",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P ≥ Z ≥ Q < W > Y. Conclusions: I. P = W II. Q < P",
+      "as": "বিবৃতি: P ≥ Z ≥ Q < W > Y। সিদ্ধান্ত: I. P = W II. Q < P"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-025",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≤ W ≥ Y < S ≤ R. Conclusions: I. W ≤ R II. W < Y",
+      "as": "বিবৃতি: Z ≤ W ≥ Y < S ≤ R। সিদ্ধান্ত: I. W ≤ R II. W < Y"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-026",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ W < X < Q. Conclusions: I. S < Q II. X = W",
+      "as": "বিবৃতি: S ≥ W < X < Q। সিদ্ধান্ত: I. S < Q II. X = W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-027",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ W < X < Q. Conclusions: I. W ≥ S II. W ≥ Q",
+      "as": "বিবৃতি: S ≥ W < X < Q। সিদ্ধান্ত: I. W ≥ S II. W ≥ Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-028",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≥ P = R = S = Z. Conclusions: I. S ≤ P II. S > P",
+      "as": "বিবৃতি: X ≥ P = R = S = Z। সিদ্ধান্ত: I. S ≤ P II. S > P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-029",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T = V ≤ U ≤ Y. Conclusions: I. U = T II. V < U",
+      "as": "বিবৃতি: T = V ≤ U ≤ Y। সিদ্ধান্ত: I. U = T II. V < U"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-030",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ R = U ≥ V > Z. Conclusions: I. U ≥ Z II. R > V",
+      "as": "বিবৃতি: W ≤ R = U ≥ V > Z। সিদ্ধান্ত: I. U ≥ Z II. R > V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-031",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P < V = Y < R = T. Conclusions: I. V < T II. Y ≥ V",
+      "as": "বিবৃতি: P < V = Y < R = T। সিদ্ধান্ত: I. V < T II. Y ≥ V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-032",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U = Q > P ≥ T = V. Conclusions: I. P = V II. U ≤ Q",
+      "as": "বিবৃতি: U = Q > P ≥ T = V। সিদ্ধান্ত: I. P = V II. U ≤ Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-033",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U > R = W > X ≤ T. Conclusions: I. W ≤ U II. U = X",
+      "as": "বিবৃতি: U > R = W > X ≤ T। সিদ্ধান্ত: I. W ≤ U II. U = X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-034",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T = W > V ≤ U < Y. Conclusions: I. Y > V II. W ≤ T",
+      "as": "বিবৃতি: T = W > V ≤ U < Y। সিদ্ধান্ত: I. Y > V II. W ≤ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-035",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U > R = W > X ≤ T. Conclusions: I. U > W II. U ≤ X",
+      "as": "বিবৃতি: U > R = W > X ≤ T। সিদ্ধান্ত: I. U > W II. U ≤ X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-036",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P ≥ Z ≥ Q < W > Y. Conclusions: I. P = W II. P ≤ W",
+      "as": "বিবৃতি: P ≥ Z ≥ Q < W > Y। সিদ্ধান্ত: I. P = W II. P ≤ W"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-037",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X > S > T ≤ W. Conclusions: I. X > T II. S > X",
+      "as": "বিবৃতি: X > S > T ≤ W। সিদ্ধান্ত: I. X > T II. S > X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-038",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T ≤ P ≥ U = Q ≤ Y. Conclusions: I. U > Q II. P ≤ T",
+      "as": "বিবৃতি: T ≤ P ≥ U = Q ≤ Y। সিদ্ধান্ত: I. U > Q II. P ≤ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-039",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T < Y < Z ≤ P. Conclusions: I. Z = Y II. P = T",
+      "as": "বিবৃতি: T < Y < Z ≤ P। সিদ্ধান্ত: I. Z = Y II. P = T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-040",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P ≥ Z ≥ Q < W > Y. Conclusions: I. Q > Y II. W ≤ P",
+      "as": "বিবৃতি: P ≥ Z ≥ Q < W > Y। সিদ্ধান্ত: I. Q > Y II. W ≤ P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-041",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V = Y > P < Q. Conclusions: I. P ≤ Y II. V ≤ Q",
+      "as": "বিবৃতি: V = Y > P < Q। সিদ্ধান্ত: I. P ≤ Y II. V ≤ Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-042",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T = V ≤ U ≤ Y. Conclusions: I. Y > U II. T = V",
+      "as": "বিবৃতি: T = V ≤ U ≤ Y। সিদ্ধান্ত: I. Y > U II. T = V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-043",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ V ≥ Q = U. Conclusions: I. U ≥ Q II. U > V",
+      "as": "বিবৃতি: S ≥ V ≥ Q = U। সিদ্ধান্ত: I. U ≥ Q II. U > V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-044",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ U = Q = X. Conclusions: I. Q ≥ X II. Q ≥ W",
+      "as": "বিবৃতি: W ≤ U = Q = X। সিদ্ধান্ত: I. Q ≥ X II. Q ≥ W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-045",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: P < V = Y < R = T. Conclusions: I. P ≤ R II. T < V",
+      "as": "বিবৃতি: P < V = Y < R = T। সিদ্ধান্ত: I. P ≤ R II. T < V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-046",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ R = U ≥ V > Z. Conclusions: I. W < Z II. R > Z",
+      "as": "বিবৃতি: W ≤ R = U ≥ V > Z। সিদ্ধান্ত: I. W < Z II. R > Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-047",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T < Y < Z ≤ P. Conclusions: I. T ≥ Z II. Z > Y",
+      "as": "বিবৃতি: T < Y < Z ≤ P। সিদ্ধান্ত: I. T ≥ Z II. Z > Y"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-048",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Y < R ≥ V < Z = U. Conclusions: I. Y < V II. Z ≤ V",
+      "as": "বিবৃতি: Y < R ≥ V < Z = U। সিদ্ধান্ত: I. Y < V II. Z ≤ V"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-049",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≤ S ≥ U < W. Conclusions: I. U ≤ S II. S > X",
+      "as": "বিবৃতি: X ≤ S ≥ U < W। সিদ্ধান্ত: I. U ≤ S II. S > X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-050",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X < Z > P < R < T. Conclusions: I. Z ≥ X II. P ≤ X",
+      "as": "বিবৃতি: X < Z > P < R < T। সিদ্ধান্ত: I. Z ≥ X II. P ≤ X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-051",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T = V ≤ U ≤ Y. Conclusions: I. Y ≤ U II. U ≥ T",
+      "as": "বিবৃতি: T = V ≤ U ≤ Y। সিদ্ধান্ত: I. Y ≤ U II. U ≥ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-052",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T > R = S ≥ W. Conclusions: I. S ≥ R II. R ≥ S",
+      "as": "বিবৃতি: T > R = S ≥ W। সিদ্ধান্ত: I. S ≥ R II. R ≥ S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-053",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W < T < Q > Y. Conclusions: I. T ≤ Q II. T < Y",
+      "as": "বিবৃতি: W < T < Q > Y। সিদ্ধান্ত: I. T ≤ Q II. T < Y"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-054",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≤ W ≥ Y < S ≤ R. Conclusions: I. W ≤ R II. Y > Z",
+      "as": "বিবৃতি: Z ≤ W ≥ Y < S ≤ R। সিদ্ধান্ত: I. W ≤ R II. Y > Z"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-055",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U = Q > P ≥ T = V. Conclusions: I. T > Q II. P < Q",
+      "as": "বিবৃতি: U = Q > P ≥ T = V। সিদ্ধান্ত: I. T > Q II. P < Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-056",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Q = R ≥ V ≤ Y < W. Conclusions: I. R ≤ Q II. W < Y",
+      "as": "বিবৃতি: Q = R ≥ V ≤ Y < W। সিদ্ধান্ত: I. R ≤ Q II. W < Y"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-057",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X < Z > P < R < T. Conclusions: I. R = X II. T > P",
+      "as": "বিবৃতি: X < Z > P < R < T। সিদ্ধান্ত: I. R = X II. T > P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-058",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X = W ≤ Y = S < Q. Conclusions: I. Q ≤ X II. Y = S",
+      "as": "বিবৃতি: X = W ≤ Y = S < Q। সিদ্ধান্ত: I. Q ≤ X II. Y = S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-059",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T > R = S ≥ W. Conclusions: I. R < T II. R > S",
+      "as": "বিবৃতি: T > R = S ≥ W। সিদ্ধান্ত: I. R < T II. R > S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-060",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ V ≥ Q = U. Conclusions: I. V ≤ S II. S = V",
+      "as": "বিবৃতি: S ≥ V ≥ Q = U। সিদ্ধান্ত: I. V ≤ S II. S = V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-061",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X = W ≤ Y = S < Q. Conclusions: I. X ≥ S II. W = X",
+      "as": "বিবৃতি: X = W ≤ Y = S < Q। সিদ্ধান্ত: I. X ≥ S II. W = X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-062",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ R ≤ Z ≥ P = S. Conclusions: I. Z ≥ S II. W < S",
+      "as": "বিবৃতি: W ≤ R ≤ Z ≥ P = S। সিদ্ধান্ত: I. Z ≥ S II. W < S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-063",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: S ≥ W < X < Q. Conclusions: I. W > X II. S ≥ W",
+      "as": "বিবৃতি: S ≥ W < X < Q। সিদ্ধান্ত: I. W > X II. S ≥ W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-064",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V > W = T > S. Conclusions: I. S < V II. V = S",
+      "as": "বিবৃতি: V > W = T > S। সিদ্ধান্ত: I. S < V II. V = S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-065",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U = Q > P ≥ T = V. Conclusions: I. Q ≤ V II. P > Q",
+      "as": "বিবৃতি: U = Q > P ≥ T = V। সিদ্ধান্ত: I. Q ≤ V II. P > Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-066",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≤ W ≥ Y < S ≤ R. Conclusions: I. Y > W II. S ≥ R",
+      "as": "বিবৃতি: Z ≤ W ≥ Y < S ≤ R। সিদ্ধান্ত: I. Y > W II. S ≥ R"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-067",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V > W = T > S. Conclusions: I. W ≥ V II. S ≤ V",
+      "as": "বিবৃতি: V > W = T > S। সিদ্ধান্ত: I. W ≥ V II. S ≤ V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-068",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Q < U < Z ≤ T. Conclusions: I. T < U II. T ≥ V",
+      "as": "বিবৃতি: V < Q < U < Z ≤ T। সিদ্ধান্ত: I. T < U II. T ≥ V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-069",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: U = Q > P ≥ T = V. Conclusions: I. U ≤ V II. U > P",
+      "as": "বিবৃতি: U = Q > P ≥ T = V। সিদ্ধান্ত: I. U ≤ V II. U > P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-070",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X > S > T ≤ W. Conclusions: I. T = S II. X ≥ T",
+      "as": "বিবৃতি: X > S > T ≤ W। সিদ্ধান্ত: I. T = S II. X ≥ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-071",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T ≤ P ≥ U = Q ≤ Y. Conclusions: I. Q = U II. P ≥ U",
+      "as": "বিবৃতি: T ≤ P ≥ U = Q ≤ Y। সিদ্ধান্ত: I. Q = U II. P ≥ U"
+    },
+    "options": [
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-072",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≤ W ≥ Y < S ≤ R. Conclusions: I. W ≤ S II. R ≥ S",
+      "as": "বিবৃতি: Z ≤ W ≥ Y < S ≤ R। সিদ্ধান্ত: I. W ≤ S II. R ≥ S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-073",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X > S > T ≤ W. Conclusions: I. X > S II. T > S",
+      "as": "বিবৃতি: X > S > T ≤ W। সিদ্ধান্ত: I. X > S II. T > S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-074",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T > R = S ≥ W. Conclusions: I. T ≥ W II. S > R",
+      "as": "বিবৃতি: T > R = S ≥ W। সিদ্ধান্ত: I. T ≥ W II. S > R"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-075",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: V < Z ≥ Y ≥ Q > T. Conclusions: I. Z > V II. V ≤ Q",
+      "as": "বিবৃতি: V < Z ≥ Y ≥ Q > T। সিদ্ধান্ত: I. Z > V II. V ≤ Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-076",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≥ P = R = S = Z. Conclusions: I. Z ≤ P II. P ≤ X",
+      "as": "বিবৃতি: X ≥ P = R = S = Z। সিদ্ধান্ত: I. Z ≤ P II. P ≤ X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II follows. Hence: Both conclusions follow.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-077",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: W ≤ R = U ≥ V > Z. Conclusions: I. V = W II. Z < U",
+      "as": "বিবৃতি: W ≤ R = U ≥ V > Z। সিদ্ধান্ত: I. V = W II. Z < U"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-078",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T ≤ P ≥ U = Q ≤ Y. Conclusions: I. T = P II. U ≤ P",
+      "as": "বিবৃতি: T ≤ P ≥ U = Q ≤ Y। সিদ্ধান্ত: I. T = P II. U ≤ P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-079",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Z ≥ P ≥ Q > S = T. Conclusions: I. Z ≤ P II. Z ≥ T",
+      "as": "বিবৃতি: Z ≥ P ≥ Q > S = T। সিদ্ধান্ত: I. Z ≤ P II. Z ≥ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II follows. Hence: Only conclusion II follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-080",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≥ P = R = S = Z. Conclusions: I. S ≤ R II. R > P",
+      "as": "বিবৃতি: X ≥ P = R = S = Z। সিদ্ধান্ত: I. S ≤ R II. R > P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-081",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: X ≥ P = R = S = Z. Conclusions: I. X < P II. S ≥ X",
+      "as": "বিবৃতি: X ≥ P = R = S = Z। সিদ্ধান্ত: I. X < P II. S ≥ X"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-082",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: T < Y < Z ≤ P. Conclusions: I. T < P II. Y = T",
+      "as": "বিবৃতি: T < Y < Z ≤ P। সিদ্ধান্ত: I. T < P II. Y = T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Conclusion I follows; conclusion II does not follow. Hence: Only conclusion I follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ কৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কেৱল সিদ্ধান্ত I অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "vr-inequality-083",
+    "leaf": "inequality",
+    "q": {
+      "en": "Statements: Y < R ≥ V < Z = U. Conclusions: I. Z ≤ Y II. Y > U",
+      "as": "বিবৃতি: Y < R ≥ V < Z = U। সিদ্ধান্ত: I. Z ≤ Y II. Y > U"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion follows",
+        "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions follow",
+        "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Conclusion I does not follow; conclusion II does not follow. Hence: Neither conclusion follows.",
+      "as": "সিদ্ধান্ত I অনুসৰণ নকৰে; সিদ্ধান্ত II অনুসৰণ নকৰে। সেয়ে: কোনো সিদ্ধান্তই অনুসৰণ নকৰে।"
+    }
+  }
+]

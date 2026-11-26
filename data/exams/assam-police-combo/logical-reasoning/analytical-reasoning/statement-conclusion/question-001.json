@@ -1,0 +1,32 @@
+[
+  {
+    "id": "statement-conclusion-001",
+    "q": {
+      "en": "Statement: All the students in the class passed the test. Conclusion: Some students in the class passed the test.",
+      "as": "বিবৃতি: শ্ৰেণীৰ সকলো ছাত্ৰই পৰীক্ষাত উত্তীৰ্ণ হৈছে। সিদ্ধান্ত: শ্ৰেণীৰ কিছু ছাত্ৰই পৰীক্ষাত উত্তীৰ্ণ হৈছে।"
+    },
+    "options": [
+      {
+        "en": "The conclusion definitely follows",
+        "as": "সিদ্ধান্ত নিশ্চিতভাৱে সত্য"
+      },
+      {
+        "en": "The conclusion does not follow",
+        "as": "সিদ্ধান্ত সত্য নহয়"
+      },
+      {
+        "en": "The conclusion is irrelevant",
+        "as": "সিদ্ধান্ত অসম্পৰ্কীয়"
+      },
+      {
+        "en": "Cannot be decided",
+        "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "If all students passed, then at least some passed, so the conclusion follows.",
+      "as": "যদি সকলো ছাত্ৰই উত্তীৰ্ণ, তেন্তে অতি কমেও কিছুজন উত্তীৰ্ণ, সেয়ে সিদ্ধান্ত সত্য।"
+    }
+  }
+]

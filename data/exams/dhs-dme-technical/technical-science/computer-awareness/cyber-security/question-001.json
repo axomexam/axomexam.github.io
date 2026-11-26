@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "computer-121",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The practice of deceiving people into revealing passwords by fake emails is called",
+      "as": "নকল ইমেইলেৰে মানুহক প্ৰতাৰণা কৰি পাছৱৰ্ড উলিওৱা কৌশলক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "pharming",
+        "as": "ফাৰ্মিং"
+      },
+      {
+        "en": "spamming",
+        "as": "স্পেমিং"
+      },
+      {
+        "en": "sniffing",
+        "as": "স্নিফিং"
+      },
+      {
+        "en": "phishing",
+        "as": "ফিছিং"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Phishing baits a victim with a message that looks official. Spamming is bulk unwanted mail and sniffing is eavesdropping on traffic.",
+      "as": "ফিছিঙে চৰকাৰী যেন লগা বাৰ্তাৰে ভুক্তভোগীক ভোলায়। স্পেমিং অপ্ৰয়োজনীয় বাহুল্য মেইল আৰু স্নিফিং তথ্য লুকাই শুনা।"
+    }
+  },
+  {
+    "id": "computer-122",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is the strongest password?",
+      "as": "তলৰ কোনটো আটাই শক্তিশালী পাছৱৰ্ড"
+    },
+    "options": [
+      {
+        "en": "axomexam",
+        "as": "axomexam"
+      },
+      {
+        "en": "12345678",
+        "as": "12345678"
+      },
+      {
+        "en": "A9#mQ2$vL7!p",
+        "as": "A9#mQ2$vL7!p"
+      },
+      {
+        "en": "password123",
+        "as": "password123"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Length mixed with upper and lower case, digits and symbols defeats guessing and dictionary attacks. A word or a sequence does not.",
+      "as": "দীঘল, ডাঙৰ-সৰু আখৰ, অংক আৰু চিন মিশ্ৰিত হ'লে অনুমান আৰু অভিধান আক্ৰমণ বিফল হয়। শব্দ বা ক্ৰমে নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-123",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Malicious software that encrypts files and demands payment is called",
+      "as": "ফাইল এনক্ৰিপ্ট কৰি টকা দাবী কৰা ক্ষতিকাৰক ছফ্টৱেৰক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "shareware",
+        "as": "শ্বেয়াৰৱেৰ"
+      },
+      {
+        "en": "ransomware",
+        "as": "ৰেনছমৱেৰ"
+      },
+      {
+        "en": "adware",
+        "as": "এডৱেৰ"
+      },
+      {
+        "en": "firmware",
+        "as": "ফাৰ্মৱেৰ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Ransomware locks the data and sells the key back. Adware only pushes advertisements.",
+      "as": "ৰেনছমৱেৰে তথ্য বন্ধ কৰি চাবি বিক্ৰী কৰে। এডৱেৰে কেবল বিজ্ঞাপন দেখুৱায়।"
+    }
+  },
+  {
+    "id": "computer-124",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Two factor authentication adds security by requiring",
+      "as": "দুই স্তৰ প্ৰমাণিকৰণে সুৰক্ষা বঢ়ায় কি দাবী কৰি"
+    },
+    "options": [
+      {
+        "en": "a second proof such as a one time code",
+        "as": "এককালীন ক'ডৰ দৰে দ্বিতীয় প্ৰমাণ"
+      },
+      {
+        "en": "a longer password only",
+        "as": "কেৱল দীঘল পাছৱৰ্ড"
+      },
+      {
+        "en": "a faster internet link",
+        "as": "দ্ৰুত ইণ্টাৰনেট সংযোগ"
+      },
+      {
+        "en": "a newer browser",
+        "as": "নতুন ব্ৰাউজাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Even if the password leaks, the attacker still lacks the code sent to your phone or token.",
+      "as": "পাছৱৰ্ড ফাদিলেও আক্ৰমণকাৰীৰ ওচৰত ফোন বা টকেনলৈ যোৱা ক'ড নাথাকে।"
+    }
+  },
+  {
+    "id": "computer-125",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A firewall protects a computer mainly by",
+      "as": "ফায়াৰৱালে কম্পিউটাৰ সুৰক্ষা দিয়ে মূলতঃ কিৰে"
+    },
+    "options": [
+      {
+        "en": "deleting old files",
+        "as": "পুৰণি ফাইল মচি"
+      },
+      {
+        "en": "speeding up the processor",
+        "as": "প্ৰচেছৰ দ্ৰুত কৰি"
+      },
+      {
+        "en": "compressing documents",
+        "as": "ডকুমেণ্ট সংকুচিত কৰি"
+      },
+      {
+        "en": "filtering incoming and outgoing network traffic",
+        "as": "অহা-যোৱা নেটৱৰ্ক তথ্য ছেকি"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Rules decide which connections are allowed, so unwanted traffic never reaches the services behind it.",
+      "as": "নিয়মে কোন সংযোগ অনুমোদিত নিৰ্ণয় কৰে, সেয়ে অবাঞ্ছিত তথ্য পিছৰ সেৱালৈ নাপায়।"
+    }
+  },
+  {
+    "id": "computer-126",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Sending unsolicited bulk email to many recipients is called",
+      "as": "বহু গ্ৰাহকলৈ অবাঞ্ছিত বাহুল্য ইমেইল পঠিওৱাক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "hacking",
+        "as": "হেকিং"
+      },
+      {
+        "en": "cracking",
+        "as": "ক্ৰেকিং"
+      },
+      {
+        "en": "spamming",
+        "as": "স্পেমিং"
+      },
+      {
+        "en": "phishing",
+        "as": "ফিছিং"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Spam is bulk advertising or nuisance mail. Phishing tries to steal credentials and hacking breaks into systems.",
+      "as": "স্পেম বাহুল্য বিজ্ঞাপন বা উপদ্ৰৱ মেইল। ফিছিঙে প্ৰমাণপত্ৰ চুৰি কৰে আৰু হেকিঙে চিষ্টেমত সোমায়।"
+    }
+  },
+  {
+    "id": "computer-127",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The process of converting readable data into an unreadable form is called",
+      "as": "পঢ়িব পৰা তথ্য অপঢ়নীয় ৰূপলৈ সলনি কৰা প্ৰক্ৰিয়াক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "formatting",
+        "as": "ফৰ্মেটিং"
+      },
+      {
+        "en": "encryption",
+        "as": "এনক্ৰিপশ্যন"
+      },
+      {
+        "en": "decryption",
+        "as": "ডিক্ৰিপশ্যন"
+      },
+      {
+        "en": "compression",
+        "as": "সংকোচন"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Encryption scrambles data with a key, and decryption reverses it with the same or a matching key.",
+      "as": "এনক্ৰিপশ্যনে চাবিৰে তথ্য ওলোটপালোট কৰে, আৰু ডিক্ৰিপশ্যনে একেই বা মিলা চাবিৰে ঘূৰায়।"
+    }
+  },
+  {
+    "id": "computer-128",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A program that secretly records every keystroke on a computer is a",
+      "as": "কম্পিউটাৰত গোপনে প্ৰতিটো কি-ষ্ট্ৰ'ক ৰখা প্ৰগ্ৰামটো"
+    },
+    "options": [
+      {
+        "en": "keylogger",
+        "as": "কীলগাৰ"
+      },
+      {
+        "en": "compiler",
+        "as": "কম্পাইলাৰ"
+      },
+      {
+        "en": "debugger",
+        "as": "ডিবাগাৰ"
+      },
+      {
+        "en": "scheduler",
+        "as": "শ্বিডিউলাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A keylogger captures typed text, including passwords, and sends it to an attacker. Debuggers are legitimate development tools.",
+      "as": "কীলগাৰে টাইপ কৰা লিখা, পাছৱৰ্ডসহ, ধৰি আক্ৰমণকাৰীলৈ পঠিয়ায়। ডিবাগাৰ বৈধ বিকাশ সজুলি।"
+    }
+  },
+  {
+    "id": "computer-129",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is the safest way to handle an unknown email attachment?",
+      "as": "অজ্ঞাত ইমেইল সংলগ্নক চম্ভালাৰ আটাই নিৰাপদ উপায়"
+    },
+    "options": [
+      {
+        "en": "open it to see what it is",
+        "as": "কি সেয়া চাবলৈ মেলা"
+      },
+      {
+        "en": "forward it to friends",
+        "as": "বন্ধুবৰ্গলৈ পঠিওৱা"
+      },
+      {
+        "en": "reply asking for details",
+        "as": "বিৱৰণ সোধি উত্তৰ দিয়া"
+      },
+      {
+        "en": "do not open it and delete the message",
+        "as": "নমেলাকৈ বাৰ্তাটো মচি পেলোৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Attachments carry malware and replying confirms your address is live. Deleting avoids both risks.",
+      "as": "সংলগ্নত মেলৱেৰ থাকে আৰু উত্তৰ দিলে আপোনাৰ ঠিকনা সক্ৰিয় বুলি জনা যায়। মচিলে দুয়োটা বিপদ এৰায়।"
+    }
+  },
+  {
+    "id": "computer-130",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The term hacking, in its criminal sense, means",
+      "as": "হেকিং শব্দই অপৰাধমূলক অৰ্থত বুজায়"
+    },
+    "options": [
+      {
+        "en": "writing a new program",
+        "as": "নতুন প্ৰগ্ৰাম লিখা"
+      },
+      {
+        "en": "installing an antivirus",
+        "as": "এণ্টিভাইৰাছ স্থাপন"
+      },
+      {
+        "en": "gaining unauthorised access to a computer system",
+        "as": "কম্পিউটাৰ চিষ্টেমত অননুমোদিত প্ৰৱেশ লাভ"
+      },
+      {
+        "en": "repairing a broken computer",
+        "as": "নষ্ট কম্পিউটাৰ মেৰামতি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Criminal hacking breaks access controls. Writing software or repairing hardware is ordinary technical work.",
+      "as": "অপৰাধমূলক হেকিঙে প্ৰৱেশ নিয়ন্ত্ৰণ ভাঙে। ছফ্টৱেৰ লিখা বা মেৰামতি সাধাৰণ কাম।"
+    }
+  },
+  {
+    "id": "computer-131",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A digital signature is used to",
+      "as": "ডিজিটেল স্বাক্ষৰ কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "hide the sender's name",
+        "as": "প্ৰেৰকৰ নাম লুকুৱাবলৈ"
+      },
+      {
+        "en": "verify the sender and confirm the message was not altered",
+        "as": "প্ৰেৰক সত্যাপন আৰু বাৰ্তা নসলনি নিশ্চিত কৰিবলৈ"
+      },
+      {
+        "en": "compress a file before sending",
+        "as": "পঠিওৱাৰ আগতে ফাইল সংকুচিত কৰিবলৈ"
+      },
+      {
+        "en": "speed up the download",
+        "as": "ডাউনলোড দ্ৰুত কৰিবলৈ"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The signature ties the message to a private key, so any later change breaks the check.",
+      "as": "স্বাক্ষৰে বাৰ্তাক ব্যক্তিগত চাবিৰ সৈতে বান্ধে, সেয়ে পিছত যিকোনো সলনি পৰীক্ষা ভাঙে।"
+    }
+  },
+  {
+    "id": "computer-132",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is a common sign of a phishing website?",
+      "as": "তলৰ কোনটো ফিছিং ৱেবচাইটৰ সাধাৰণ চিন"
+    },
+    "options": [
+      {
+        "en": "a misspelt domain name that imitates a bank",
+        "as": "বেংকৰ নকল কৰা ভুল বানানৰ ডমেইন নাম"
+      },
+      {
+        "en": "a padlock in the address bar",
+        "as": "ঠিকনা দণ্ডত তলা চিন"
+      },
+      {
+        "en": "a working contact page",
+        "as": "কাম কৰা যোগাযোগ পৃষ্ঠা"
+      },
+      {
+        "en": "an up to date privacy policy",
+        "as": "শেহতীয়া গোপনীয়তা নীতি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Lookalike spellings such as a doubled letter fool hurried users. A padlock only shows encryption, not honesty.",
+      "as": "আখৰ দুবাৰ দিয়াৰ দৰে একেই দেখা বানানে খৰধৰ ব্যৱহাৰকাৰীক ভোলায়। তলা চিনে কেবল এনক্ৰিপশ্যন দেখুৱায়, সততা নহয়।"
+    }
+  },
+  {
+    "id": "computer-133",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A computer worm differs from a virus because a worm",
+      "as": "কম্পিউটাৰ ৱৰ্ম ভাইৰাছতকৈ বেলেগ কাৰণ ৱৰ্মে"
+    },
+    "options": [
+      {
+        "en": "needs a host file to run",
+        "as": "চলিবলৈ গৃহ ফাইল লাগে"
+      },
+      {
+        "en": "only damages hardware",
+        "as": "কেৱল হাৰ্ডৱেৰ নষ্ট কৰে"
+      },
+      {
+        "en": "cannot be removed",
+        "as": "আঁতৰাব নোৱাৰি"
+      },
+      {
+        "en": "spreads by itself across networks",
+        "as": "নেটৱৰ্কত নিজেই বিয়পে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A worm is self-contained and copies itself over the network, while a virus must attach to a file to spread.",
+      "as": "ৱৰ্ম স্বয়ংসম্পূৰ্ণ আৰু নেটৱৰ্কত নিজকে নকল কৰে, আনহাতে ভাইৰাছে বিয়পিবলৈ ফাইলত লাগিব লাগে।"
+    }
+  },
+  {
+    "id": "computer-134",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The best protection against data loss from a hard disk failure is",
+      "as": "হাৰ্ড ডিস্ক নষ্ট হোৱাৰপৰা তথ্য ৰক্ষাৰ আটাই ভাল উপায়"
+    },
+    "options": [
+      {
+        "en": "installing a firewall",
+        "as": "ফায়াৰৱাল স্থাপন"
+      },
+      {
+        "en": "defragmenting weekly",
+        "as": "সাপ্তাহিক ডিফ্ৰেগমেণ্ট"
+      },
+      {
+        "en": "keeping regular backups on another medium",
+        "as": "আন মাধ্যমত নিয়মীয়া বেকআপ ৰখা"
+      },
+      {
+        "en": "using a longer password",
+        "as": "দীঘল পাছৱৰ্ড ব্যৱহাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only a copy elsewhere survives a dead disk. Passwords and firewalls protect against intrusion, not hardware failure.",
+      "as": "আন ঠাইত থকা নকলেহে নষ্ট ডিস্কৰপৰা ৰক্ষা কৰে। পাছৱৰ্ড আৰু ফায়াৰৱালে অনুপ্ৰৱেশ ৰোধ কৰে, হাৰ্ডৱেৰ নষ্ট নহয়।"
+    }
+  },
+  {
+    "id": "computer-135",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Cyber crime committed by impersonating a legitimate organisation to steal data is called",
+      "as": "তথ্য চুৰিৰ বাবে বৈধ সংস্থাৰ নকল কৰি কৰা চাইবাৰ অপৰাধক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "trolling",
+        "as": "ট্ৰলিং"
+      },
+      {
+        "en": "phishing",
+        "as": "ফিছিং"
+      },
+      {
+        "en": "phreaking",
+        "as": "ফ্ৰিকিং"
+      },
+      {
+        "en": "spoofing only",
+        "as": "কেৱল স্পুফিং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Phishing is the broad attack that imitates a bank or office to harvest credentials. Spoofing is one technique it uses.",
+      "as": "ফিছিং হ'ল বেংক বা কাৰ্যালয়ৰ নকল কৰি প্ৰমাণপত্ৰ সংগ্ৰহ কৰা বিস্তৃত আক্ৰমণ। স্পুফিং ইয়াৰ এটা কৌশল।"
+    }
+  },
+  {
+    "id": "computer-136",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A VPN is used mainly to",
+      "as": "VPN মূলতঃ কিৰ বাবে ব্যৱহৃত হয়"
+    },
+    "options": [
+      {
+        "en": "create an encrypted tunnel over a public network",
+        "as": "সাধাৰণ নেটৱৰ্কৰ ওপৰত এনক্ৰিপ্ট কৰিড'ৰ বনাবলৈ"
+      },
+      {
+        "en": "increase the disk space",
+        "as": "ডিস্কৰ ঠাই বঢ়াবলৈ"
+      },
+      {
+        "en": "speed up the processor",
+        "as": "প্ৰচেছৰ দ্ৰুত কৰিবলৈ"
+      },
+      {
+        "en": "remove viruses automatically",
+        "as": "ভাইৰাছ নিজে মচিবলৈ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A virtual private network hides traffic from the local network and carries it encrypted to a remote endpoint.",
+      "as": "VPN এ স্থানীয় নেটৱৰ্কৰপৰা তথ্য লুকাই দূৰৰ টাৰ্মিনেললৈ এনক্ৰিপ্ট কৰি নিয়ে।"
+    }
+  },
+  {
+    "id": "computer-137",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is the strongest form of authentication?",
+      "as": "তলৰ কোনটো আটাই শক্তিশালী প্ৰমাণিকৰণ"
+    },
+    "options": [
+      {
+        "en": "password alone",
+        "as": "কেৱল পাছৱৰ্ড"
+      },
+      {
+        "en": "a four digit PIN alone",
+        "as": "কেৱল চাৰি অংকৰ PIN"
+      },
+      {
+        "en": "a username alone",
+        "as": "কেৱল ব্যৱহাৰকাৰী নাম"
+      },
+      {
+        "en": "biometric plus password",
+        "as": "জৈৱমিতি আৰু পাছৱৰ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Combining something you are with something you know defeats both guessing and theft of a single factor.",
+      "as": "আপুনি যি সেয়া আৰু আপুনি যি জানে একত্ৰ কৰিলে অনুমান আৰু এটা উপাদান চুৰি দুয়োটা বিফল হয়।"
+    }
+  },
+  {
+    "id": "computer-138",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Software that displays unwanted advertisements and redirects searches is called",
+      "as": "অবাঞ্ছিত বিজ্ঞাপন দেখুৱাই সন্ধান ঘূৰাই দিয়া ছফ্টৱেৰক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "freeware",
+        "as": "ফ্ৰীৱেৰ"
+      },
+      {
+        "en": "middleware",
+        "as": "মিডলৱেৰ"
+      },
+      {
+        "en": "adware",
+        "as": "এডৱেৰ"
+      },
+      {
+        "en": "firmware",
+        "as": "ফাৰ্মৱেৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Adware exists to push advertising. Freeware and firmware are neutral terms about licensing and location.",
+      "as": "এডৱেৰ বিজ্ঞাপন দিয়েই থাকে। ফ্ৰীৱেৰ আৰু ফাৰ্মৱেৰ অনুজ্ঞাপত্ৰ আৰু অৱস্থানৰ নিৰপেক্ষ শব্দ।"
+    }
+  },
+  {
+    "id": "computer-139",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The main purpose of a captcha on a website is to",
+      "as": "ৱেবচাইটত কেপচাৰ মূল উদ্দেশ্য"
+    },
+    "options": [
+      {
+        "en": "store the user's password",
+        "as": "ব্যৱহাৰকাৰীৰ পাছৱৰ্ড ৰখা"
+      },
+      {
+        "en": "tell humans from automated programs",
+        "as": "মানুহক স্বয়ংক্ৰিয় প্ৰগ্ৰামৰপৰা পৃথক কৰা"
+      },
+      {
+        "en": "speed up page loading",
+        "as": "পৃষ্ঠা লোড দ্ৰুত কৰা"
+      },
+      {
+        "en": "encrypt the form data",
+        "as": "ফৰ্মৰ তথ্য এনক্ৰিপ্ট কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The puzzle is easy for a person and hard for a bot, so it blocks bulk automated signups and spam.",
+      "as": "ধাঁধাটো মানুহৰ বাবে সহজ আৰু বটৰ বাবে কঠিন, সেয়ে বাহুল্য স্বয়ংক্ৰিয় পঞ্জীয়ন আৰু স্পেম ৰোধ কৰে।"
+    }
+  },
+  {
+    "id": "computer-140",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A security patch released by a software vendor should be",
+      "as": "ছফ্টৱেৰ প্ৰস্তুতকাৰীয়ে দিয়া সুৰক্ষা পেটছ"
+    },
+    "options": [
+      {
+        "en": "installed promptly to close the known flaw",
+        "as": "জনা ত্ৰুটি বন্ধ কৰিবলৈ সোনকালে স্থাপন কৰা"
+      },
+      {
+        "en": "ignored unless the computer is slow",
+        "as": "কম্পিউটাৰ ধীৰ নহ'লে উপেক্ষা কৰা"
+      },
+      {
+        "en": "applied only after a year",
+        "as": "এক বছৰৰ পিছতহে লগোৱা"
+      },
+      {
+        "en": "replaced by a new password",
+        "as": "নতুন পাছৱৰ্ডেৰে সলনি কৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The patch exists because the flaw is public, so delay gives attackers a known way in.",
+      "as": "ত্ৰুটি ৰাজহুৱা হোৱা বাবে পেটছ ওলায়, সেয়ে পলম কৰিলে আক্ৰমণকাৰীয়ে জানা পথ পায়।"
+    }
+  },
+  {
+    "id": "computer-141",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following best describes a strong password policy?",
+      "as": "তলৰ কোনটোৱে শক্তিশালী পাছৱৰ্ড নীতি ভালদৰে বৰ্ণনা কৰে"
+    },
+    "options": [
+      {
+        "en": "short passwords changed every day",
+        "as": "প্ৰতিদিনে সলোৱা চুটি পাছৱৰ্ড"
+      },
+      {
+        "en": "the same password everywhere",
+        "as": "সকলো ঠাইত একেই পাছৱৰ্ড"
+      },
+      {
+        "en": "using the birth date",
+        "as": "জন্ম তাৰিখ ব্যৱহাৰ"
+      },
+      {
+        "en": "long passphrases changed when compromised",
+        "as": "দীঘল পাছফ্ৰেইজ যি ফাদিলে সলোৱা হয়"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Length matters most, and frequent forced changes push people towards weak patterns. Reuse turns one leak into many.",
+      "as": "দৈৰ্ঘ্যই আটাই বেছি গুৰুত্বপূৰ্ণ, আৰু সঘন বাধ্যতামূলক সলনিয়ে দুৰ্বল আৰ্হিলৈ ঠেলে। পুনৰ ব্যৱহাৰে এটা ফাদ এটাতকৈ বহুতো কৰে।"
+    }
+  },
+  {
+    "id": "computer-142",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Social engineering in cyber security means",
+      "as": "চাইবাৰ সুৰক্ষাত ছ'চিয়েল ইঞ্জিনিয়াৰিঙৰ অৰ্থ"
+    },
+    "options": [
+      {
+        "en": "engineering new hardware",
+        "as": "নতুন হাৰ্ডৱেৰ সজা"
+      },
+      {
+        "en": "encrypting social media posts",
+        "as": "ছ'চিয়েল মিডিয়া পোষ্ট এনক্ৰিপ্ট কৰা"
+      },
+      {
+        "en": "manipulating people into giving away confidential information",
+        "as": "মানুহক ফন্দি কৰি গোপন তথ্য উলিওৱা"
+      },
+      {
+        "en": "designing secure social networks",
+        "as": "সুৰক্ষিত ছ'চিয়েল নেটৱৰ্ক সজা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The attacker targets the person, not the machine, often by posing as a colleague or an authority.",
+      "as": "আক্ৰমণকাৰীয়ে যন্ত্ৰ নহয় মানুহক লক্ষ্য কৰে, প্ৰায়ে সহকৰ্মী বা কৰ্তৃপক্ষৰ ৰূপ লৈ।"
+    }
+  },
+  {
+    "id": "computer-143",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A Trojan horse is malicious software that",
+      "as": "ট্ৰ'জান হৰ্ছ হ'ল ক্ষতিকাৰক ছফ্টৱেৰ যি"
+    },
+    "options": [
+      {
+        "en": "increases memory",
+        "as": "স্মৃতি বঢ়ায়"
+      },
+      {
+        "en": "pretends to be useful but carries a hidden payload",
+        "as": "উপযোগী যেন দেখুৱাই লুকুৱা কাম কৰে"
+      },
+      {
+        "en": "only slows the internet",
+        "as": "কেৱল ইণ্টাৰনেট ধীৰ কৰে"
+      },
+      {
+        "en": "repairs damaged files",
+        "as": "নষ্ট ফাইল মেৰামতি কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The name comes from the Greek story: the program looks harmless, so the user installs it and the payload runs.",
+      "as": "নাম গ্ৰীক কাহিনীৰপৰা: প্ৰগ্ৰাম নিৰীহ যেন লাগে, সেয়ে ব্যৱহাৰকাৰীয়ে স্থাপন কৰে আৰু লুকুৱা কাম চলি যায়।"
+    }
+  },
+  {
+    "id": "computer-144",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The most reliable way to know a website is genuine before entering a password is to",
+      "as": "পাছৱৰ্ড দিয়াৰ আগতে ৱেবচাইট প্ৰকৃত হয় জানাৰ আটাই নিৰ্ভৰযোগ্য উপায়"
+    },
+    "options": [
+      {
+        "en": "type the known address yourself and check the domain",
+        "as": "জনা ঠিকনা নিজে টাইপ কৰি ডমেইন পৰীক্ষা কৰা"
+      },
+      {
+        "en": "trust any page with a padlock",
+        "as": "তলা চিন থকা যিকোনো পৃষ্ঠা বিশ্বাস কৰা"
+      },
+      {
+        "en": "click the link in the email",
+        "as": "ইমেইলৰ লিংকত ক্লিক কৰা"
+      },
+      {
+        "en": "check the page colours",
+        "as": "পৃষ্ঠাৰ ৰং পৰীক্ষা কৰা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Reaching the site by a link you did not type lets the attacker choose where you land. The padlock says nothing about identity.",
+      "as": "আপুনি নাটাইপ কৰা লিংকেৰে যোৱাটোৱে আক্ৰমণকাৰীক ঠাই বাছিব দিয়ে। তলা চিনে পৰিচয় নকয়।"
+    }
+  },
+  {
+    "id": "computer-145",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is a common cause of data breaches in offices?",
+      "as": "কাৰ্যালয়ত তথ্য ফাদৰ সাধাৰণ কাৰণ"
+    },
+    "options": [
+      {
+        "en": "using a licensed antivirus",
+        "as": "অনুজ্ঞাপত্ৰযুক্ত এণ্টিভাইৰাছ"
+      },
+      {
+        "en": "regular backups",
+        "as": "নিয়মীয়া বেকআপ"
+      },
+      {
+        "en": "automatic updates",
+        "as": "স্বয়ংক্ৰিয় আপডেট"
+      },
+      {
+        "en": "weak or shared passwords",
+        "as": "দুৰ্বল বা ভাগ কৰা পাছৱৰ্ড"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Shared credentials remove accountability and a weak one falls to guessing. The other three reduce risk.",
+      "as": "ভাগ কৰা প্ৰমাণপত্ৰই দায়বদ্ধতা আঁতৰায় আৰু দুৰ্বলটো অনুমানত পৰে। বাকী তিনিওটা বিপদ কমায়।"
+    }
+  },
+  {
+    "id": "computer-146",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The main risk of using public Wi-Fi for banking is",
+      "as": "বেংকিঙৰ বাবে ৰাজহুৱা ৱাই-ফাই ব্যৱহাৰৰ মূল বিপদ"
+    },
+    "options": [
+      {
+        "en": "the screen becomes dim",
+        "as": "পৰ্দা ম্লান হয়"
+      },
+      {
+        "en": "the keyboard stops working",
+        "as": "কীবৰ্ড নচলে"
+      },
+      {
+        "en": "traffic may be intercepted by others on the network",
+        "as": "নেটৱৰ্কৰ আন লোকে তথ্য মাজতে ধৰিব পাৰে"
+      },
+      {
+        "en": "the battery drains faster",
+        "as": "বেটেৰী সোনকালে শেষ হয়"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "An open network lets others watch unencrypted traffic, which is why a VPN or mobile data is safer for banking.",
+      "as": "মুকলি নেটৱৰ্কত আন লোকে এনক্ৰিপ্ট নোহোৱা তথ্য চাব পাৰে, সেয়ে বেংকিঙত VPN বা ম'বাইল ডেটা নিৰাপদ।"
+    }
+  },
+  {
+    "id": "computer-147",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is an example of two factor authentication?",
+      "as": "তলৰ কোনটো দুই স্তৰ প্ৰমাণিকৰণৰ উদাহৰণ"
+    },
+    "options": [
+      {
+        "en": "a username and a password",
+        "as": "ব্যৱহাৰকাৰী নাম আৰু পাছৱৰ্ড"
+      },
+      {
+        "en": "a password followed by an OTP on the phone",
+        "as": "পাছৱৰ্ডৰ পিছত ফোনত অহা OTP"
+      },
+      {
+        "en": "a password entered twice",
+        "as": "দুবাৰ দিয়া পাছৱৰ্ড"
+      },
+      {
+        "en": "a long password alone",
+        "as": "কেৱল দীঘল পাছৱৰ্ড"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Two factors must be of different kinds, so a password plus a code counts. Two passwords are still one kind.",
+      "as": "দুটা উপাদান বেলেগ ধৰণৰ হ'ব লাগে, সেয়ে পাছৱৰ্ড আৰু ক'ড গণা হয়। দুটা পাছৱৰ্ড এটেই ধৰণ।"
+    }
+  },
+  {
+    "id": "computer-148",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "The purpose of disk encryption on a laptop is to",
+      "as": "লেপটপত ডিস্ক এনক্ৰিপশ্যনৰ উদ্দেশ্য"
+    },
+    "options": [
+      {
+        "en": "make the data unreadable if the machine is stolen",
+        "as": "যন্ত্ৰ চুৰি হ'লে তথ্য অপঢ়নীয় কৰা"
+      },
+      {
+        "en": "make the laptop faster",
+        "as": "লেপটপ দ্ৰুত কৰা"
+      },
+      {
+        "en": "increase the storage capacity",
+        "as": "সঞ্চয় ক্ষমতা বঢ়োৱা"
+      },
+      {
+        "en": "reduce the battery use",
+        "as": "বেটেৰী খৰচ কমোৱা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Without the key the disk contents are noise, so a thief cannot read files even after removing the drive.",
+      "as": "চাবি নোহোৱাকৈ ডিস্কৰ ভিতৰ অৰ্থহীন, সেয়ে চোৰে ড্ৰাইভ খুলিয়েও ফাইল পঢ়িব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-149",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "Which of the following is the correct response to a suspected ransomware attack?",
+      "as": "সন্দেহজনক ৰেনছমৱেৰ আক্ৰমণত শুদ্ধ প্ৰতিক্ৰিয়া"
+    },
+    "options": [
+      {
+        "en": "pay the ransom immediately",
+        "as": "লগে লগে মুক্তিপণ দিয়া"
+      },
+      {
+        "en": "restart repeatedly until it clears",
+        "as": "মচি যোৱালৈকে বাৰে বাৰে ৰিষ্টাৰ্ট কৰা"
+      },
+      {
+        "en": "email the attackers for help",
+        "as": "সহায়ৰ বাবে আক্ৰমণকাৰীলৈ ইমেইল কৰা"
+      },
+      {
+        "en": "disconnect from the network and inform the administrator",
+        "as": "নেটৱৰ্কৰপৰা বিচ্ছিন্ন হৈ প্ৰশাসকক জনোৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Cutting the link stops the spread, and the administrator can restore from backup. Paying funds crime and may not unlock anything.",
+      "as": "সংযোগ কাটিলে বিয়পা ৰয়, আৰু প্ৰশাসকে বেকআপৰপৰা ঘূৰাই আনিব পাৰে। মুক্তিপণ দিলে অপৰাধ চলায়, চাবি নাপাবও পাৰে।"
+    }
+  },
+  {
+    "id": "computer-150",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A brute force attack tries to break a password by",
+      "as": "ব্ৰুট ফ'ৰ্ছ আক্ৰমণে পাছৱৰ্ড ভাঙিবলৈ চেষ্টা কৰে"
+    },
+    "options": [
+      {
+        "en": "reading the manual",
+        "as": "হাতপুথি পঢ়ি"
+      },
+      {
+        "en": "repairing the keyboard",
+        "as": "কীবৰ্ড মেৰামতি কৰি"
+      },
+      {
+        "en": "trying every possible combination until one works",
+        "as": "এটা কাম নকৰালৈকে সকলো সম্ভাৱ্য সংযোগ চেষ্টা কৰি"
+      },
+      {
+        "en": "asking the user politely",
+        "as": "ব্যৱহাৰকাৰীক নম্ৰভাৱে সোধি"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Automated guessing becomes practical against short or simple passwords, which is why length and lockouts matter.",
+      "as": "স্বয়ংক্ৰিয় অনুমান চুটি বা সাধাৰণ পাছৱৰ্ডত ফলদায়ক হয়, সেয়ে দৈৰ্ঘ্য আৰু বন্ধ কৰা গুৰুত্বপূৰ্ণ।"
+    }
+  },
+  {
+    "id": "computer-241",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An employee receives an email from the finance director asking for an urgent payment, but the reply address differs from the director's. The correct action is to",
+      "as": "কৰ্মচাৰীয়ে বিত্ত অধিকৰ্তাৰপৰা জৰুৰী পেমেণ্টৰ ইমেইল পায়, কিন্তু উত্তৰৰ ঠিকনা অধিকৰ্তাৰ পৰা বেলেগ। শুদ্ধ কাৰ্য"
+    },
+    "options": [
+      {
+        "en": "reply to the email asking for confirmation",
+        "as": "নিশ্চিতকৰণ বিচাৰি ইমেইলটোত উত্তৰ দিয়া"
+      },
+      {
+        "en": "pay quickly because the director is senior",
+        "as": "অধিকৰ্তা জ্যেষ্ঠ বাবে সোনকালে পেমেণ্ট কৰা"
+      },
+      {
+        "en": "forward it to all staff for their opinion",
+        "as": "মতামতৰ বাবে সকলো কৰ্মচাৰীলৈ পঠিওৱা"
+      },
+      {
+        "en": "verify by calling the director on a known number before paying",
+        "as": "পেমেণ্টৰ আগতে জনা নম্বৰত অধিকৰ্তাক ফোন কৰি নিশ্চিত কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A mismatched reply address is the classic sign of business email compromise, and only an independent channel such as a known phone number confirms the request. Replying reaches the attacker, paying loses the money, and forwarding spreads the lure.",
+      "as": "মিল নোহোৱা উত্তৰৰ ঠিকনা ব্যৱসায়িক ইমেইল ভাঙি কৰাৰ প্ৰচলিত চিন, আৰু জনা ফোন নম্বৰৰ দৰে স্বতন্ত্ৰ পথেহে অনুৰোধ নিশ্চিত কৰে। উত্তৰ দিলে আক্ৰমণকাৰীলৈ যায়, পেমেণ্ট কৰিলে ধন যায়, আৰু সকলোলৈ পঠিয়ালে ফান্দ বিয়পে।"
+    }
+  },
+  {
+    "id": "computer-242",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user's browser shows a warning that a site's certificate does not match its name. The correct action is to",
+      "as": "ব্যৱহাৰকাৰীৰ ব্ৰাউজাৰে সতৰ্ক কৰে যে চাইটৰ প্ৰমাণপত্ৰে নামৰ লগত মিল নাখায়। শুদ্ধ কাৰ্য"
+    },
+    "options": [
+      {
+        "en": "disable the browser's security warnings",
+        "as": "ব্ৰাউজাৰৰ সুৰক্ষা সতৰ্কবাণী বন্ধ কৰা"
+      },
+      {
+        "en": "enter the password twice to confirm it",
+        "as": "নিশ্চিত কৰিবলৈ পাছৱৰ্ড দুবাৰ দিয়া"
+      },
+      {
+        "en": "stop and do not enter credentials on that site",
+        "as": "বন্ধ কৰি সেই চাইটত প্ৰমাণপত্ৰ নিদিয়া"
+      },
+      {
+        "en": "click through because warnings are always false alarms",
+        "as": "সতৰ্কবাণী সদায় মিছা বাবে আগবাঢ়ি যোৱা"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "A name mismatch means the certificate was issued for a different host, which is how an interception or an impostor site appears. Clicking through, disabling warnings or retyping the password hands credentials to whoever holds the wrong certificate.",
+      "as": "নামৰ অমিল মানে প্ৰমাণপত্ৰ অন্য হ'ষ্টৰ বাবে জাৰি হৈছে, যি আটক বা নকল চাইট এনেদৰেই দেখা দিয়ে। আগবাঢ়ি যোৱা, সতৰ্কবাণী বন্ধ কৰা বা পাছৱৰ্ড পুনৰ লিখিলে ভুল প্ৰমাণপত্ৰ ধাৰীজনলৈ প্ৰমাণপত্ৰ যায়।"
+    }
+  },
+  {
+    "id": "computer-243",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A ransomware note demands payment in cryptocurrency within 48 hours. The organisation's best course is to",
+      "as": "ৰেনছমৱেৰৰ টোকাত ৪৮ ঘণ্টাৰ ভিতৰত ক্ৰিপ্ট'কাৰেন্সীত পেমেণ্ট দাবী কৰা হ'ল। সংস্থাৰ শ্ৰেষ্ঠ পথ"
+    },
+    "options": [
+      {
+        "en": "connect the backups to the network for speed",
+        "as": "গতিৰ বাবে বেকআপ নেটৱৰ্কত লগোৱা"
+      },
+      {
+        "en": "isolate affected systems, restore from offline backups and report",
+        "as": "আক্ৰান্ত ব্যৱস্থা পৃথক কৰি অফলাইন বেকআপৰপৰা ঘূৰাই আনি জনোৱা"
+      },
+      {
+        "en": "pay quickly to get the files back",
+        "as": "ফাইল ঘূৰাই পাবলৈ সোনকালে পেমেণ্ট কৰা"
+      },
+      {
+        "en": "restart every machine repeatedly",
+        "as": "প্ৰতিখন যন্ত্ৰ বাৰে বাৰে পুনৰ আৰম্ভ কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Isolation stops the spread, offline backups restore service without funding the attacker, and reporting brings in response help. Paying funds crime with no guarantee, restarts do not decrypt, and connecting backups lets the malware encrypt them too.",
+      "as": "পৃথক কৰিলে বিয়পা বন্ধ হয়, অফলাইন বেকআপে আক্ৰমণকাৰীক ধন নিদিয়াকৈ সেৱা ঘূৰায়, আৰু জনালে সঁহাৰিৰ সহায় আহে। পেমেণ্টে অপৰাধ পুঁজি যোগায় কিন্তু নিশ্চয়তা নাই, পুনৰ আৰম্ভণিয়ে ডিক্ৰিপ্ট নকৰে, আৰু বেকআপ লগালে মেলৱেৰেও তাক এনক্ৰিপ্ট কৰে।"
+    }
+  },
+  {
+    "id": "computer-244",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A staff member finds a USB drive in the office car park and plugs it into a work computer. The risk created is",
+      "as": "কৰ্মচাৰীয়ে কাৰ্যালয়ৰ পাৰ্কিঙত USB ড্ৰাইভ পাই কামৰ কম্পিউটাৰত লগায়। সৃষ্টি হোৱা বিপদ"
+    },
+    "options": [
+      {
+        "en": "malware execution through autorun or a disguised payload",
+        "as": "অট'ৰান বা ছদ্মৱেশী পেল'ডৰ জৰিয়তে মেলৱেৰ চলন"
+      },
+      {
+        "en": "physical damage to the USB port",
+        "as": "USB প'ৰ্টৰ ভৌতিক ক্ষতি"
+      },
+      {
+        "en": "loss of the monitor signal",
+        "as": "মণিটৰৰ সংকেত হেৰোৱা"
+      },
+      {
+        "en": "slower internet speed",
+        "as": "ইণ্টাৰনেটৰ গতি কমা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A planted drive is a classic delivery method, and plugging it in can run malware that infects the machine and the network. Port damage, a lost display signal and slower internet are not the security concern here.",
+      "as": "পতা ড্ৰাইভ প্ৰেৰণৰ প্ৰচলিত উপায়, আৰু লগালে যন্ত্ৰ তথা নেটৱৰ্ক সংক্ৰমিত কৰা মেলৱেৰ চলিব পাৰে। প'ৰ্টৰ ক্ষতি, প্ৰদৰ্শন সংকেত হেৰুওৱা আৰু লেহেমীয়া ইণ্টাৰনেট ইয়াত সুৰক্ষাৰ চিন্তা নহয়।"
+    }
+  },
+  {
+    "id": "computer-245",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user is asked over the phone by someone claiming to be from IT support to read out a one time password. The correct response is to",
+      "as": "কোনোবাই আইটি সহায়ৰ পৰা বুলি ফোনত এটা সময়ৰ পাছৱৰ্ড পঢ়ি শুনাবলৈ কয়। শুদ্ধ সঁহাৰি"
+    },
+    "options": [
+      {
+        "en": "read it out because IT staff are authorised",
+        "as": "আইটি কৰ্মচাৰী অনুমোদিত বাবে পঢ়ি শুনোৱা"
+      },
+      {
+        "en": "read only the first half of the password",
+        "as": "পাছৱৰ্ডৰ কেৱল প্ৰথম আধা পঢ়া"
+      },
+      {
+        "en": "send it by email instead of speaking it",
+        "as": "কোৱাৰ সলনি ইমেইলেৰে পঠিওৱা"
+      },
+      {
+        "en": "refuse and report the call to the real IT team",
+        "as": "নাকচ কৰি প্ৰকৃত আইটি দলক কলটো জনোৱা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "A genuine support team never needs a one time password, so the request itself identifies a social engineering attempt that must be refused and reported. Reading it out, partially or by another channel, hands over the second factor.",
+      "as": "প্ৰকৃত সহায় দলে কেতিয়াও সময়ৰ পাছৱৰ্ড নালাগে, সেয়ে অনুৰোধটোৱেই ছ'ছিয়েল ইঞ্জিনিয়াৰিঙৰ প্ৰচেষ্টা বুলি চিনাক্ত কৰি নাকচ কৰি জনাব লাগে। সম্পূৰ্ণ বা আধা পঢ়ি শুনোৱা বা আন পথেৰে দিলে দ্বিতীয় উপাদান হাতলৈ যায়।"
+    }
+  },
+  {
+    "id": "computer-246",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An organisation wants to limit the damage a stolen laptop can cause. The most effective control is",
+      "as": "সংস্থাই চুৰি হোৱা লেপটপে কৰিব পৰা ক্ষতি সীমিত কৰিব বিচাৰে। আটাই ফলপ্ৰসূ নিয়ন্ত্ৰণ"
+    },
+    "options": [
+      {
+        "en": "a longer warranty",
+        "as": "দীৰ্ঘতৰ ৱাৰেণ্টি"
+      },
+      {
+        "en": "a brighter screen",
+        "as": "বেছি উজ্জ্বল স্ক্ৰীণ"
+      },
+      {
+        "en": "full disk encryption with a strong login",
+        "as": "শক্তিশালী লগইনসহ সম্পূৰ্ণ ডিস্ক এনক্ৰিপশ্যন"
+      },
+      {
+        "en": "a sticker warning that the laptop is tracked",
+        "as": "লেপটপ ট্ৰেক কৰা হয় বুলি সতৰ্কবাণীৰ ষ্টিকাৰ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Encryption makes the disk contents unreadable without the credential, so a thief gains hardware but not data. A warning sticker, warranty or screen brightness do nothing to protect the information once the machine is gone.",
+      "as": "এনক্ৰিপশ্যনে প্ৰমাণপত্ৰ নোহোৱাকৈ ডিস্কৰ বস্তু অবোধ্য কৰে, সেয়ে চোৰে হাৰ্ডৱেৰ পায় কিন্তু তথ্য নাপায়। সতৰ্কবাণীৰ ষ্টিকাৰ, ৱাৰেণ্টি বা স্ক্ৰীণৰ উজ্জ্বলতাই যন্ত্ৰ যোৱাৰ পিছত তথ্য সুৰক্ষা নকৰে।"
+    }
+  },
+  {
+    "id": "computer-247",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A website asks for a password and the browser offers to save it. The safest practice for a shared computer is to",
+      "as": "ৱেবছাইটে পাছৱৰ্ড বিচাৰে আৰু ব্ৰাউজাৰে সাঁচিবলৈ আগবঢ়ায়। ভগা কম্পিউটাৰৰ বাবে আটাই সুৰক্ষিত অভ্যাস"
+    },
+    "options": [
+      {
+        "en": "write the password on the monitor",
+        "as": "পাছৱৰ্ড মণিটৰত লিখা"
+      },
+      {
+        "en": "decline and use a private session, then sign out",
+        "as": "নাকচ কৰি ব্যক্তিগত অধিবেশন ব্যৱহাৰ কৰি তাৰ পিছত ছাইন আউট কৰা"
+      },
+      {
+        "en": "accept so the password is not forgotten",
+        "as": "পাহৰি নযোৱাৰ বাবে গ্ৰহণ কৰা"
+      },
+      {
+        "en": "accept and share the login with colleagues",
+        "as": "গ্ৰহণ কৰি সহকৰ্মীৰ সৈতে লগইন ভাগ কৰা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Declining the save plus a private session leaves no credential or history behind, which protects the next user and the account. Saving on a shared machine, sharing the login or writing it in view all expose the account.",
+      "as": "সাঁচিবলৈ নাকচ কৰি ব্যক্তিগত অধিবেশন ল'লে কোনো প্ৰমাণপত্ৰ বা ইতিহাস ৰৈ নাযায়, যিয়ে পৰৱৰ্তী ব্যৱহাৰকাৰী আৰু একাউণ্ট ৰক্ষা কৰে। ভগা যন্ত্ৰত সাঁচা, লগইন ভগা বা দৃশ্যমান ঠাইত লিখিলে একাউণ্ট উন্মোচিত হয়।"
+    }
+  },
+  {
+    "id": "computer-248",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user notices a small unfamiliar device between the keyboard cable and the computer. The concern is that it may be a",
+      "as": "ব্যৱহাৰকাৰীয়ে কীব'ৰ্ডৰ কেবল আৰু কম্পিউটাৰৰ মাজত অচিনাকি সৰু যন্ত্ৰ দেখে। চিন্তা — ই হ'ব পাৰে"
+    },
+    "options": [
+      {
+        "en": "hardware keylogger that records keystrokes",
+        "as": "কীব'ৰ্ডৰ চাপ লিখি ৰখা হাৰ্ডৱেৰ কীলগাৰ"
+      },
+      {
+        "en": "a spare mouse receiver",
+        "as": "অতিৰিক্ত মাউচ গ্ৰাহক"
+      },
+      {
+        "en": "a monitor stand",
+        "as": "মণিটৰৰ ষ্টেণ্ড"
+      },
+      {
+        "en": "a power extension",
+        "as": "পাৱাৰ সম্প্ৰসাৰণ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "An inline device on the keyboard lead can capture every keystroke including passwords, and it is small and easy to hide. A mouse receiver, stand or extension would not sit in line with the keyboard cable.",
+      "as": "কীব'ৰ্ডৰ তাঁৰত শাৰীত লগোৱা যন্ত্ৰই পাছৱৰ্ডসহ প্ৰতিটো চাপ ধৰি ৰাখিব পাৰে, আৰু ই সৰু তথা লুকুৱাই ৰখাত সহজ। মাউচ গ্ৰাহক, ষ্টেণ্ড বা সম্প্ৰসাৰণে কীব'ৰ্ডৰ কেবলৰ শাৰীত নাথাকে।"
+    }
+  },
+  {
+    "id": "computer-249",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An office wants to stop staff installing unapproved software. The control that achieves this is",
+      "as": "অফিচে কৰ্মচাৰীয়ে অননুমোদিত ছফ্টৱেৰ ইনষ্টল কৰা বন্ধ কৰিব বিচাৰে। তাক কৰা নিয়ন্ত্ৰণ"
+    },
+    "options": [
+      {
+        "en": "a larger hard disk",
+        "as": "ডাঙৰ হাৰ্ড ডিস্ক"
+      },
+      {
+        "en": "a faster processor",
+        "as": "দ্ৰুত প্ৰচেছৰ"
+      },
+      {
+        "en": "a second monitor",
+        "as": "দ্বিতীয় মণিটৰ"
+      },
+      {
+        "en": "standard user accounts without install rights",
+        "as": "ইনষ্টলৰ অধিকাৰ নোহোৱা মানক ব্যৱহাৰকাৰী একাউণ্ট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Installation requires administrator rights, so removing those rights from everyday accounts is what blocks unapproved software. Disk size, processor speed and extra displays do not gate installation.",
+      "as": "ইনষ্টল কৰিবলৈ প্ৰশাসক অধিকাৰ লাগে, সেয়ে দৈনন্দিন একাউণ্টৰপৰা সেই অধিকাৰ আঁতৰালেই অননুমোদিত ছফ্টৱেৰ বন্ধ হয়। ডিস্কৰ আকাৰ, প্ৰচেছৰৰ গতি আৰু অতিৰিক্ত প্ৰদৰ্শনে ইনষ্টল ৰোধ নকৰে।"
+    }
+  },
+  {
+    "id": "computer-250",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user is told to enable two factor authentication. The second factor should be something",
+      "as": "ব্যৱহাৰকাৰীক দুই উপাদান প্ৰমাণীকৰণ চালু কৰিবলৈ কোৱা হ'ল। দ্বিতীয় উপাদান হ'ব লাগে এনে বস্তু যি"
+    },
+    "options": [
+      {
+        "en": "written on the same sticky note",
+        "as": "একেই ষ্টিকি নোটত লিখা"
+      },
+      {
+        "en": "shared with the whole team",
+        "as": "গোটেই দলৰ সৈতে ভগা"
+      },
+      {
+        "en": "the user has or is, not something they know",
+        "as": "ব্যৱহাৰকাৰীৰ ওচৰত আছে বা তেওঁ নিজেই, তেওঁ জনা বস্তু নহয়"
+      },
+      {
+        "en": "else they can remember easily",
+        "as": "আন এটা সহজে মনত ৰখা বস্তু"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Two factor authentication works only when the factors come from different categories, so a password plus a device or a fingerprint is effective. A second memorised secret is the same category, and a note or a shared secret defeats the purpose.",
+      "as": "দুই উপাদান প্ৰমাণীকৰণে কেৱল তেতিয়া কাম কৰে যেতিয়া উপাদানবোৰ বেলেগ শ্ৰেণীৰ, সেয়ে পাছৱৰ্ড লগতে যন্ত্ৰ বা আঙুলিৰ ছাপ ফলপ্ৰসূ। দ্বিতীয় মনত ৰখা গোপন বস্তু একেই শ্ৰেণী, আৰু নোট বা ভগা গোপন বস্তুৱে উদ্দেশ্য নষ্ট কৰে।"
+    }
+  },
+  {
+    "id": "computer-251",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A company laptop is lost and the user's session token may be compromised. The first action is to",
+      "as": "কোম্পানীৰ লেপটপ হেৰাল আৰু ব্যৱহাৰকাৰীৰ অধিবেশন ট'কেন ক্ষতিগ্ৰস্ত হ'ব পাৰে। প্ৰথম কাৰ্য"
+    },
+    "options": [
+      {
+        "en": "buy a replacement laptop first",
+        "as": "প্ৰথমে নতুন লেপটপ কিনা"
+      },
+      {
+        "en": "revoke the sessions and reset the credentials",
+        "as": "অধিবেশন বাতিল কৰি প্ৰমাণপত্ৰ ৰিছেট কৰা"
+      },
+      {
+        "en": "wait a week to see if anything happens",
+        "as": "একো নঘটালৈ এসপ্তাহ অপেক্ষা কৰা"
+      },
+      {
+        "en": "post about it on social media",
+        "as": "ছ'ছিয়েল মিডিয়াত তাক লিখা"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Revoking tokens and resetting credentials cuts off whoever holds the machine before they can use the session. Waiting gives an attacker time, and a social media post or a replacement machine does not restore security.",
+      "as": "ট'কেন বাতিল আৰু প্ৰমাণপত্ৰ ৰিছেট কৰিলে যন্ত্ৰ ধৰি ৰখাজনে অধিবেশন ব্যৱহাৰ কৰাৰ আগতেই তাক কটা যায়। অপেক্ষা কৰিলে আক্ৰমণকাৰীয়ে সময় পায়, আৰু ছ'ছিয়েল মিডিয়া বা নতুন যন্ত্ৰই সুৰক্ষা ঘূৰাই নানে।"
+    }
+  },
+  {
+    "id": "computer-252",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A phishing page looks identical to a bank login. The feature that most reliably distinguishes the real site is the",
+      "as": "ফিচিঙ পৃষ্ঠা বেংকৰ লগইনৰ দৰে একেই দেখা যায়। প্ৰকৃত চাইট আটাই নিৰ্ভৰযোগ্যভাৱে পাৰ্থক্য কৰা বৈশিষ্ট্য"
+    },
+    "options": [
+      {
+        "en": "exact domain name in the address bar",
+        "as": "ঠিকনা বাৰত থকা সঠিক ডমেইন নাম"
+      },
+      {
+        "en": "logo quality",
+        "as": "ল'গ'ৰ মান"
+      },
+      {
+        "en": "page background colour",
+        "as": "পৃষ্ঠাৰ পৃষ্ঠভূমিৰ ৰং"
+      },
+      {
+        "en": "number of images",
+        "as": "ছবিৰ সংখ্যা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The domain is what identifies the site, and an impostor must use a different one however carefully the page is copied. Logos, colours and images can be copied exactly, so they prove nothing.",
+      "as": "ডমেইনেই চাইট চিনাক্ত কৰে, আৰু পৃষ্ঠা যিমান নিখুঁতভাৱে নকল কৰা নহওক, নকলকাৰীয়ে বেলেগ এটা ব্যৱহাৰ কৰিবই লাগে। ল'গ', ৰং আৰু ছবি হুবহু নকল কৰিব পাৰি, সেয়ে একো প্ৰমাণ নকৰে।"
+    }
+  },
+  {
+    "id": "computer-253",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A staff member's account sends phishing emails to the whole contact list. The most likely explanation is that the",
+      "as": "কৰ্মচাৰী এজনৰ একাউণ্টে গোটেই সম্পৰ্ক তালিকালৈ ফিচিঙ ইমেইল পঠিয়ায়। আটাই সম্ভাব্য ব্যাখ্যা"
+    },
+    "options": [
+      {
+        "en": "email server is too fast",
+        "as": "ইমেইল চাৰ্ভাৰ অতি দ্ৰুত"
+      },
+      {
+        "en": "contact list is too long",
+        "as": "সম্পৰ্ক তালিকা অতি দীৰ্ঘ"
+      },
+      {
+        "en": "keyboard needs cleaning",
+        "as": "কীব'ৰ্ড পৰিষ্কাৰৰ প্ৰয়োজন"
+      },
+      {
+        "en": "account was compromised and is being used by an attacker",
+        "as": "একাউণ্ট ক্ষতিগ্ৰস্ত হৈ আক্ৰমণকাৰীয়ে ব্যৱহাৰ কৰিছে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Mail that appears to come from a real colleague is sent by whoever holds that account, so the account itself is the problem and must be secured. Server speed, list length and a dirty keyboard cannot send mail.",
+      "as": "প্ৰকৃত সহকৰ্মীৰপৰা অহা যেন দেখা মেইল সেই একাউণ্ট ধৰি ৰখাজনে পঠিয়ায়, সেয়ে একাউণ্ট নিজেই সমস্যা আৰু তাক সুৰক্ষিত কৰিব লাগে। চাৰ্ভাৰৰ গতি, তালিকাৰ দীঘ বা মলিয়ন কীব'ৰ্ডে মেইল পঠিয়াব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-254",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An organisation must keep working while a supplier's cloud service is unavailable. The preparation that helps most is",
+      "as": "যোগানকৰ্তাৰ ক্লাউড সেৱা অনুপলব্ধ হ'লেও সংস্থাই কাম কৰি থাকিব লাগে। আটাই সহায়ক প্ৰস্তুতি"
+    },
+    "options": [
+      {
+        "en": "a bigger monitor",
+        "as": "ডাঙৰ মণিটৰ"
+      },
+      {
+        "en": "more user licences",
+        "as": "বেছি ব্যৱহাৰকাৰী অনুজ্ঞা"
+      },
+      {
+        "en": "an offline copy of critical data and a manual procedure",
+        "as": "গুৰুত্বপূৰ্ণ তথ্যৰ অফলাইন নকল আৰু হাতেৰে কৰাৰ পদ্ধতি"
+      },
+      {
+        "en": "a faster internet connection",
+        "as": "দ্ৰুততৰ ইণ্টাৰনেট সংযোগ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "When the service is down the network is irrelevant, so local copies plus a documented manual process keep the work going. A faster link, a monitor or extra licences all depend on the service being up.",
+      "as": "সেৱা বন্ধ থাকিলে নেটৱৰ্ক অপ্ৰাসংগিক, সেয়ে স্থানীয় নকল লগতে লিখিত হাতেৰে কৰাৰ পদ্ধতিয়ে কাম চলাই ৰাখে। দ্ৰুত সংযোগ, মণিটৰ বা অতিৰিক্ত অনুজ্ঞা সকলোৱে সেৱা চলি থকাৰ ওপৰত নিৰ্ভৰ কৰে।"
+    }
+  },
+  {
+    "id": "computer-255",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user is asked to install a browser extension that promises free movies but requests access to all browsing data. The risk is that the extension can",
+      "as": "ব্যৱহাৰকাৰীক বিনামূলীয়া চিনেমাৰ প্ৰতিশ্ৰুতি দি সকলো ব্ৰাউজিং তথ্যলৈ প্ৰৱেশ বিচৰা এক্সটেনশ্যন ইনষ্টল কৰিবলৈ কোৱা হ'ল। বিপদ — এক্সটেনশ্যই পাৰে"
+    },
+    "options": [
+      {
+        "en": "repair the hard disk",
+        "as": "হাৰ্ড ডিস্ক মেৰামতি কৰিব"
+      },
+      {
+        "en": "read and alter every page including logins",
+        "as": "লগইনসহ প্ৰতিটো পৃষ্ঠা পঢ়ি সলনি কৰিব"
+      },
+      {
+        "en": "only change the browser theme",
+        "as": "কেৱল ব্ৰাউজাৰৰ থীম সলনি কৰিব"
+      },
+      {
+        "en": "speed up the internet",
+        "as": "ইণ্টাৰনেট দ্ৰুত কৰিব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Permission to read all browsing data lets an extension see and modify page content, which includes stealing credentials and injecting ads. A theme change needs no such permission, and an extension cannot speed the network or repair a disk.",
+      "as": "সকলো ব্ৰাউজিং তথ্য পঢ়াৰ অনুমতিয়ে এক্সটেনশ্যনক পৃষ্ঠাৰ বস্তু চাই সলনি কৰিবলৈ দিয়ে, যাৰ ভিতৰত প্ৰমাণপত্ৰ চুৰি আৰু বিজ্ঞাপন সোমোৱাও আছে। থীম সলনিৰ এনে অনুমতি নালাগে, আৰু এক্সটেনশ্যই নেটৱৰ্ক দ্ৰুত বা ডিস্ক মেৰামতি কৰিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "computer-256",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A company wants to detect an intruder who has already gained access to the network. The control that helps is",
+      "as": "কোম্পানীয়ে ইতিমধ্যে নেটৱৰ্কত প্ৰৱেশ কৰা অনুপ্ৰৱেশকাৰীক ধৰিব বিচাৰে। সহায়ক নিয়ন্ত্ৰণ"
+    },
+    "options": [
+      {
+        "en": "intrusion detection monitoring network traffic",
+        "as": "নেটৱৰ্ক ট্ৰেফিক নিৰীক্ষণ কৰা অনুপ্ৰৱেশ চিনাক্তকৰণ"
+      },
+      {
+        "en": "a stronger front door lock",
+        "as": "শক্তিশালী মূল দুৱাৰৰ তলা"
+      },
+      {
+        "en": "a larger server room",
+        "as": "ডাঙৰ চাৰ্ভাৰ কক্ষ"
+      },
+      {
+        "en": "a new office chair",
+        "as": "নতুন কাৰ্যালয়ৰ চকী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Detection watches behaviour inside the network for unusual patterns, which is what finds an intruder who is already in. A door lock prevents entry, and room size or furniture has no role in detection.",
+      "as": "চিনাক্তকৰণে নেটৱৰ্কৰ ভিতৰৰ আচৰণ অস্বাভাৱিক আৰ্হিৰ বাবে চায়, যিয়ে ইতিমধ্যে সোমোৱা অনুপ্ৰৱেশকাৰীক বিচাৰি পায়। দুৱাৰৰ তলাই প্ৰৱেশ ৰোধ কৰে, আৰু কক্ষৰ আকাৰ বা আচবাবৰ চিনাক্তকৰণত ভূমিকা নাই।"
+    }
+  },
+  {
+    "id": "computer-257",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A user must send a confidential file by email to an external party. The safest method is to",
+      "as": "ব্যৱহাৰকাৰীয়ে বাহিৰৰ পক্ষলৈ গোপনীয় ফাইল ইমেইলেৰে পঠিয়াব লাগে। আটাই সুৰক্ষিত উপায়"
+    },
+    "options": [
+      {
+        "en": "attach the file to a plain email",
+        "as": "সাধাৰণ ইমেইলত ফাইল সংলগ্ন কৰা"
+      },
+      {
+        "en": "paste the contents into the message body",
+        "as": "বস্তু বাৰ্তাৰ গাত ভৰোৱা"
+      },
+      {
+        "en": "rename the file so it looks harmless",
+        "as": "ফাইল নিৰীহ যেন দেখুৱাবলৈ নাম সলনি কৰা"
+      },
+      {
+        "en": "share an encrypted link with an expiry and a separate password channel",
+        "as": "ম্যাদ আৰু বেলেগ পথেৰে পাছৱৰ্ডসহ এনক্ৰিপ্ট লিংক ভাগ কৰা"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "An encrypted link with an expiry limits who can open it and for how long, and sending the password by another channel keeps both halves apart. A plain attachment, pasted contents or a renamed file all travel readable.",
+      "as": "ম্যাদযুক্ত এনক্ৰিপ্ট লিংকে কাৰ কিমান দিন খুলিব পাৰে সীমিত কৰে, আৰু পাছৱৰ্ড বেলেগ পথেৰে পঠিয়ালে দুয়ো অৰ্ধ পৃথক থাকে। সাধাৰণ সংলগ্ন, ভৰোৱা বস্তু বা নাম সলনি কৰা ফাইল সকলোৱে পঢ়িব পৰাকৈ যায়।"
+    }
+  },
+  {
+    "id": "computer-258",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An employee is asked to grant remote access to a caller claiming to fix a virus. The correct response is to",
+      "as": "কৰ্মচাৰীক ভাইৰাছ মেৰামতিৰ বাহানা কৰি এজন কলকৰ্তাক দূৰ প্ৰৱেশ দিবলৈ কোৱা হ'ল। শুদ্ধ সঁহাৰি"
+    },
+    "options": [
+      {
+        "en": "grant access but watch the screen",
+        "as": "প্ৰৱেশ দি স্ক্ৰীণ চাই থাকা"
+      },
+      {
+        "en": "give the password instead of access",
+        "as": "প্ৰৱেশৰ সলনি পাছৱৰ্ড দিয়া"
+      },
+      {
+        "en": "refuse and report it to the security team",
+        "as": "নাকচ কৰি সুৰক্ষা দলক জনোৱা"
+      },
+      {
+        "en": "grant access because the caller sounds official",
+        "as": "কলকৰ্তা চৰকাৰী যেন শুনা বাবে প্ৰৱেশ দিয়া"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Unsolicited remote access is the standard technique for installing malware and stealing data, so it is refused and reported. Sounding official proves nothing, watching does not stop the actions, and a password is worse than access.",
+      "as": "অননুৰোধিত দূৰ প্ৰৱেশ মেলৱেৰ ইনষ্টল আৰু তথ্য চুৰিৰ প্ৰচলিত পদ্ধতি, সেয়ে নাকচ কৰি জনায়। চৰকাৰী যেন শুনাটোৱে একো প্ৰমাণ নকৰে, চাই থকিলেও কাম ৰোধ নহয়, আৰু পাছৱৰ্ড দিয়া প্ৰৱেশতকৈ বেয়া।"
+    }
+  },
+  {
+    "id": "computer-259",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "A company's backups are stored on a drive that stays connected to the server. The weakness is that",
+      "as": "কোম্পানীৰ বেকআপ চাৰ্ভাৰৰ লগত সংযুক্ত ড্ৰাইভত ৰখা হয়। দুৰ্বলতা —"
+    },
+    "options": [
+      {
+        "en": "the backups take up no space",
+        "as": "বেকআপে স্থান নলয়"
+      },
+      {
+        "en": "ransomware can encrypt the backups too",
+        "as": "ৰেনছমৱেৰে বেকআপো এনক্ৰিপ্ট কৰিব পাৰে"
+      },
+      {
+        "en": "the drive uses too much electricity",
+        "as": "ড্ৰাইভে অতি বেছি বিদ্যুৎ খৰচ কৰে"
+      },
+      {
+        "en": "the server becomes too fast",
+        "as": "চাৰ্ভাৰ অতি দ্ৰুত হয়"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Malware that reaches the server reaches every attached volume, so an online backup is encrypted along with the data it should restore. Power use, speed and space are not the security concern.",
+      "as": "চাৰ্ভাৰলৈ যোৱা মেলৱেৰে সংযুক্ত প্ৰতিটো ভলিউমলৈ যায়, সেয়ে অনলাইন বেকআপ তাক ঘূৰাই অনা তথ্যৰ লগতে এনক্ৰিপ্ট হয়। বিদ্যুৎ খৰচ, গতি আৰু স্থান সুৰক্ষাৰ চিন্তা নহয়।"
+    }
+  },
+  {
+    "id": "computer-260",
+    "leaf": "cyber-security",
+    "q": {
+      "en": "An organisation must reduce the harm from a successful password guess. The control that limits the damage is",
+      "as": "সংস্থাই সফল পাছৱৰ্ড অনুমানৰপৰা হোৱা ক্ষতি কমাব লাগে। ক্ষতি সীমিত কৰা নিয়ন্ত্ৰণ"
+    },
+    "options": [
+      {
+        "en": "role based access so an account reaches only what it needs",
+        "as": "ভূমিকা-ভিত্তিক প্ৰৱেশ যাতে একাউণ্টে কেৱল প্ৰয়োজনীয়টোৱেই পায়"
+      },
+      {
+        "en": "a longer welcome message",
+        "as": "দীঘল স্বাগতম বাৰ্তা"
+      },
+      {
+        "en": "a faster login page",
+        "as": "দ্ৰুত লগইন পৃষ্ঠা"
+      },
+      {
+        "en": "a bigger logo",
+        "as": "ডাঙৰ ল'গ'"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Least privilege means a compromised account exposes only its own scope, which caps the damage whatever the password. Messages, page speed and logos have no effect on what an attacker can reach.",
+      "as": "ন্যূনতম অধিকাৰৰ অৰ্থ ক্ষতিগ্ৰস্ত একাউণ্টে কেৱল নিজৰ পৰিসৰ উন্মোচন কৰে, যিয়ে পাছৱৰ্ড যিয়েই নহওক ক্ষতি সীমাবদ্ধ কৰে। বাৰ্তা, পৃষ্ঠাৰ গতি আৰু ল'গ'ই আক্ৰমণকাৰীয়ে কি পাব পাৰে তাত প্ৰভাৱ নপেলায়।"
+    }
+  }
+]

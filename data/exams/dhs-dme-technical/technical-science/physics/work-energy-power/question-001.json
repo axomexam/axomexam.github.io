@@ -1,0 +1,922 @@
+[
+  {
+    "id": "physics-002",
+    "q": {
+      "en": "The SI unit of work is?",
+      "as": "কামৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      },
+      {
+        "en": "Volt",
+        "as": "ভল্ট"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Work is the product of force and displacement (W = F·d), and its SI unit is the joule (J), where 1 J = 1 N·m.",
+      "as": "কাম = বল × সৰণ (W = F·d), ইয়াৰ SI একক জুল (J); ১ জুল = ১ নিউটন·মিটাৰ।"
+    }
+  },
+  {
+    "id": "physics-015",
+    "q": {
+      "en": "The SI unit of power is?",
+      "as": "ক্ষমতাৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Power is the rate of doing work, P = W/t, and its SI unit is the watt (W); 1 W = 1 J/s.",
+      "as": "ক্ষমতা হৈছে কাম কৰাৰ হাৰ, P = W/t; ইয়াৰ SI একক ৱাট (W), ১ ৱাট = ১ জুল/ছে।"
+    }
+  },
+  {
+    "id": "physics-050",
+    "q": {
+      "en": "Kinetic energy of a body is given by?",
+      "as": "এটা বস্তুৰ গতিশক্তিৰ সূত্ৰ কি?"
+    },
+    "options": [
+      {
+        "en": "mgh",
+        "as": "mgh"
+      },
+      {
+        "en": "mv",
+        "as": "mv"
+      },
+      {
+        "en": "½ mv²",
+        "as": "½ mv²"
+      },
+      {
+        "en": "ma",
+        "as": "ma"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The kinetic energy of a moving body is given by KE = ½ mv², where m is mass and v is velocity. Thus ½ mv² is the correct formula.",
+      "as": "গতিশীল বস্তু এটাৰ গতিশক্তি KE = ½ mv², য'ত m হ'ল ভৰ আৰু v হ'ল বেগ। সেয়ে ½ mv² শুদ্ধ সূত্ৰ।"
+    }
+  },
+  {
+    "id": "physics-051",
+    "q": {
+      "en": "Potential energy of a body at height h is?",
+      "as": "h উচ্চতাত থকা বস্তুৰ স্থিতিশক্তি কি?"
+    },
+    "options": [
+      {
+        "en": "½ mv²",
+        "as": "½ mv²"
+      },
+      {
+        "en": "mv",
+        "as": "mv"
+      },
+      {
+        "en": "ma",
+        "as": "ma"
+      },
+      {
+        "en": "mgh",
+        "as": "mgh"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Gravitational potential energy of a body raised to height h is PE = mgh, where g is acceleration due to gravity. Hence mgh is correct.",
+      "as": "h উচ্চতালৈ তোলা বস্তু এটাৰ মহাকৰ্ষণীয় স্থিতিশক্তি PE = mgh, য'ত g হ'ল মহাকৰ্ষণজনিত ত্বৰণ। সেয়ে mgh শুদ্ধ।"
+    }
+  },
+  {
+    "id": "physics-063",
+    "q": {
+      "en": "Which law states that energy can neither be created nor destroyed?",
+      "as": "শক্তি সৃষ্টি বা ধ্বংস কৰিব নোৱাৰি বুলি কোন সূত্ৰই কয়?"
+    },
+    "options": [
+      {
+        "en": "Law of conservation of energy",
+        "as": "শক্তি সংৰক্ষণৰ সূত্ৰ"
+      },
+      {
+        "en": "Ohm's law",
+        "as": "ওমৰ সূত্ৰ"
+      },
+      {
+        "en": "Newton's third law",
+        "as": "নিউটনৰ তৃতীয় সূত্ৰ"
+      },
+      {
+        "en": "Boyle's law",
+        "as": "বয়েলৰ সূত্ৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The law of conservation of energy states that energy can neither be created nor destroyed, only converted from one form to another. Hence this is the correct law.",
+      "as": "শক্তি সংৰক্ষণৰ সূত্ৰ অনুসৰি শক্তি সৃষ্টি বা ধ্বংস কৰিব নোৱাৰি, কেৱল এটা ৰূপৰ পৰা আন ৰূপলৈ ৰূপান্তৰিত হয়। সেয়ে এইটোৱে শুদ্ধ সূত্ৰ।"
+    }
+  },
+  {
+    "id": "physics-072",
+    "q": {
+      "en": "The SI unit of energy is?",
+      "as": "শক্তিৰ SI একক কি?"
+    },
+    "options": [
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      },
+      {
+        "en": "Pascal",
+        "as": "পাস্কেল"
+      },
+      {
+        "en": "Ampere",
+        "as": "এম্পিয়াৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Energy is the capacity to do work and its SI unit is the joule (J), where 1 J = 1 N·m = 1 kg·m²/s². Newton is the unit of force, pascal of pressure and ampere of current.",
+      "as": "শক্তি হ'ল কাম কৰাৰ সামৰ্থ্য, ইয়াৰ SI একক জুল (J); ১ জুল = ১ নিউটন·মিটাৰ। নিউটন বলৰ, পাস্কেল চাপৰ আৰু এম্পিয়াৰ প্ৰৱাহৰ একক।"
+    }
+  },
+  {
+    "id": "physics-074",
+    "q": {
+      "en": "Power is defined as?",
+      "as": "ক্ষমতাৰ সংজ্ঞা কি?"
+    },
+    "options": [
+      {
+        "en": "Work × time",
+        "as": "কাম × সময়"
+      },
+      {
+        "en": "Force × distance",
+        "as": "বল × দূৰত্ব"
+      },
+      {
+        "en": "Rate of doing work",
+        "as": "কাম কৰাৰ হাৰ"
+      },
+      {
+        "en": "Mass × acceleration",
+        "as": "ভৰ × ত্বাৰণ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Power is the rate of doing work, P = W/t, and its SI unit is the watt (1 W = 1 J/s). Work × time and force × distance do not define power.",
+      "as": "ক্ষমতা হ'ল কাম কৰাৰ হাৰ, P = W/t; ইয়াৰ SI একক ৱাট (১ ৱাট = ১ জুল/ছে.)।"
+    }
+  },
+  {
+    "id": "physics-075",
+    "q": {
+      "en": "1 horsepower is equal to?",
+      "as": "১ হৰ্চপাৱাৰ কিমানৰ সমান?"
+    },
+    "options": [
+      {
+        "en": "746 kW",
+        "as": "৭৪৬ কিলোৱাট"
+      },
+      {
+        "en": "76 W",
+        "as": "৭৬ ৱাট"
+      },
+      {
+        "en": "1000 W",
+        "as": "১০০০ ৱাট"
+      },
+      {
+        "en": "746 W",
+        "as": "৭৪৬ ৱাট"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "One horsepower (1 hp) is equal to exactly 746 watts in the metric (SI) convention, a unit originally defined for comparing engines.",
+      "as": "এক হৰ্চপাৱাৰ (১ hp) = ৭৪৬ ৱাট। ইঞ্জিনৰ ক্ষমতা তুলনা কৰিবলৈ এই একক ব্যৱহাৰ হয়।"
+    }
+  },
+  {
+    "id": "physics-111",
+    "q": {
+      "en": "The energy of the Sun is produced mainly by?",
+      "as": "সূৰ্যৰ শক্তি মূলতঃ কিৰ দ্বাৰা উৎপন্ন হয়?"
+    },
+    "options": [
+      {
+        "en": "Chemical reaction",
+        "as": "ৰাসায়নিক বিক্ৰিয়া"
+      },
+      {
+        "en": "Nuclear fission",
+        "as": "নিউক্লীয় বিভাজন"
+      },
+      {
+        "en": "Nuclear fusion",
+        "as": "নিউক্লীয় সংযোজন"
+      },
+      {
+        "en": "Burning of coal",
+        "as": "কয়লা দহন"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The Sun's energy is produced mainly by nuclear fusion, in which hydrogen nuclei combine to form helium and release enormous energy.",
+      "as": "সূৰ্যৰ শক্তি মূলতঃ নিউক্লীয় সংযোজনৰ দ্বাৰা উৎপন্ন হয়, য'ত হাইড্ৰ'জেন নিউক্লিয়াছ মিলি হিলিয়াম গঠন কৰে আৰু বিপুল শক্তি মুক্ত কৰে।"
+    }
+  },
+  {
+    "id": "physics-140",
+    "q": {
+      "en": "Which of the following is not a unit of energy?",
+      "as": "তলৰ কোনটো শক্তিৰ একক নহয়?"
+    },
+    "options": [
+      {
+        "en": "Joule",
+        "as": "জুল"
+      },
+      {
+        "en": "Calorie",
+        "as": "কেলৰি"
+      },
+      {
+        "en": "Kilowatt-hour",
+        "as": "কিলোৱাট-ঘণ্টা"
+      },
+      {
+        "en": "Newton",
+        "as": "নিউটন"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Newton is the SI unit of force, not of energy; joule, calorie and kilowatt-hour are all units of energy. Hence 'Newton' is correct.",
+      "as": "নিউটন বলৰ SI একক, শক্তিৰ নহয়; জুল, কেলৰি আৰু কিলোৱাট-ঘণ্টা সকলো শক্তিৰ একক। সেয়ে 'নিউটন' শুদ্ধ উত্তৰ।"
+    }
+  },
+  {
+    "id": "physics-284",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "Work is said to be done when a force",
+      "as": "কাম কৰা বোলা হয় যেতিয়া বলে"
+    },
+    "options": [
+      {
+        "en": "produces a displacement in its own direction",
+        "as": "নিজৰ দিশত সৰণ ঘটায়"
+      },
+      {
+        "en": "acts on a stationary body",
+        "as": "স্থিৰ বস্তুৰ ওপৰত ক্ৰিয়া কৰে"
+      },
+      {
+        "en": "is balanced by another force",
+        "as": "আন এটা বলে ভাৰসাম্য কৰে"
+      },
+      {
+        "en": "acts perpendicular to the displacement",
+        "as": "সৰণৰ লম্বভাৱে ক্ৰিয়া কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work needs both a force and a displacement along that force, so pushing a wall that does not move does no work. A perpendicular force also does no work.",
+      "as": "কামলৈ বল আৰু সেই বলৰ দিশত সৰণ দুয়োটা লাগে, সেয়ে নলৰা বেৰ ঠেলিলে কাম নহয়। লম্ব বলেও কাম নকৰে।"
+    }
+  },
+  {
+    "id": "physics-285",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The work done when a force of 10 N moves a body through 5 m in the direction of the force is",
+      "as": "১০ নিউটন বলে বস্তু এটাক বলৰ দিশত ৫ মিটাৰ লৰালে কৰা কাম"
+    },
+    "options": [
+      {
+        "en": "50 joule",
+        "as": "৫০ জুল"
+      },
+      {
+        "en": "2 joule",
+        "as": "২ জুল"
+      },
+      {
+        "en": "15 joule",
+        "as": "১৫ জুল"
+      },
+      {
+        "en": "0.5 joule",
+        "as": "০.৫ জুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work is force times displacement when both are in the same direction, so ten times five gives fifty joule. Dividing would give the wrong two.",
+      "as": "বল আৰু সৰণ একেই দিশত হ'লে কাম = বল গুণ সৰণ, সেয়ে দহ গুণ পাঁচ = পঞ্চাশ জুল। ভাগ কৰিলে ভুলকৈ দুই হয়।"
+    }
+  },
+  {
+    "id": "physics-286",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "One joule of work is done when a force of one newton moves a body through",
+      "as": "এক নিউটন বলে বস্তু এটা কিমান দূৰ লৰালে এক জুল কাম হয়"
+    },
+    "options": [
+      {
+        "en": "one metre",
+        "as": "এক মিটাৰ"
+      },
+      {
+        "en": "one centimetre",
+        "as": "এক ছেন্টিমিটাৰ"
+      },
+      {
+        "en": "one kilometre",
+        "as": "এক কিলোমিটাৰ"
+      },
+      {
+        "en": "ten metres",
+        "as": "দহ মিটাৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The joule is defined as one newton acting over one metre, so the displacement must be exactly one metre in the direction of the force.",
+      "as": "জুলক এক নিউটনে এক মিটাৰত ক্ৰিয়া কৰা বুলি সংজ্ঞায়িত কৰা হয়, সেয়ে সৰণ বলৰ দিশত ঠিক এক মিটাৰ হ'ব লাগে।"
+    }
+  },
+  {
+    "id": "physics-287",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The kinetic energy of a body of mass 2 kg moving at 10 metres per second is",
+      "as": "১০ মিটাৰ প্ৰতি ছেকেণ্ডে চলা ২ কিলোগ্ৰাম ভৰৰ বস্তুৰ গতিশক্তি"
+    },
+    "options": [
+      {
+        "en": "100 joule",
+        "as": "১০০ জুল"
+      },
+      {
+        "en": "20 joule",
+        "as": "২০ জুল"
+      },
+      {
+        "en": "200 joule",
+        "as": "২০০ জুল"
+      },
+      {
+        "en": "50 joule",
+        "as": "৫০ জুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kinetic energy is half the mass times velocity squared, so half of two times one hundred gives one hundred joule.",
+      "as": "গতিশক্তি আধা গুণ ভৰ গুণ বেগৰ বৰ্গ, সেয়ে আধা গুণ দুই গুণ এশ = এশ জুল।"
+    }
+  },
+  {
+    "id": "physics-288",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The potential energy of a body of mass 5 kg raised to a height of 4 m is about",
+      "as": "৫ কিলোগ্ৰাম ভৰৰ বস্তু ৪ মিটাৰ উচ্চতালৈ তোলা হ'লে স্থিতিশক্তি প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "196 joule",
+        "as": "১৯৬ জুল"
+      },
+      {
+        "en": "20 joule",
+        "as": "২০ জুল"
+      },
+      {
+        "en": "9.8 joule",
+        "as": "৯.৮ জুল"
+      },
+      {
+        "en": "392 joule",
+        "as": "৩৯২ জুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Potential energy is mass times g times height, so five times nine point eight times four gives about one hundred and ninety-six joule.",
+      "as": "স্থিতিশক্তি ভৰ গুণ g গুণ উচ্চতা, সেয়ে পাঁচ গুণ ন দশমিক আঠ গুণ চাৰি = প্ৰায় এশ ছয়ানব্বৈ জুল।"
+    }
+  },
+  {
+    "id": "physics-289",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The power of a machine that does 600 joule of work in 3 seconds is",
+      "as": "৩ ছেকেণ্ডত ৬০০ জুল কাম কৰা যন্ত্ৰৰ ক্ষমতা"
+    },
+    "options": [
+      {
+        "en": "200 watt",
+        "as": "২০০ ৱাট"
+      },
+      {
+        "en": "1800 watt",
+        "as": "১৮০০ ৱাট"
+      },
+      {
+        "en": "5 watt",
+        "as": "৫ ৱাট"
+      },
+      {
+        "en": "600 watt",
+        "as": "৬০০ ৱাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Power is work divided by time, so six hundred divided by three gives two hundred watt. Multiplying gives the wrong eighteen hundred.",
+      "as": "ক্ষমতা কাম ভাগ সময়, সেয়ে ছশ ভাগ তিনি = দুই শ ৱাট। পূৰণ কৰিলে ভুলকৈ আঠাৰ শ হয়।"
+    }
+  },
+  {
+    "id": "physics-290",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "One horsepower is equal to about",
+      "as": "এক অশ্বশক্তি প্ৰায় কিৰ সমান"
+    },
+    "options": [
+      {
+        "en": "746 watt",
+        "as": "৭৪৬ ৱাট"
+      },
+      {
+        "en": "1000 watt",
+        "as": "১০০০ ৱাট"
+      },
+      {
+        "en": "74.6 watt",
+        "as": "৭৪.৬ ৱাট"
+      },
+      {
+        "en": "100 watt",
+        "as": "১০০ ৱাট"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One horsepower, a unit from early steam engine practice, is about seven hundred and forty-six watt.",
+      "as": "এক অশ্বশক্তি, প্ৰাৰম্ভিক ভাপ ইঞ্জিনৰ প্ৰচলিত একক, প্ৰায় সাত শ ছয়চল্লিছ ৱাট।"
+    }
+  },
+  {
+    "id": "physics-291",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "When the velocity of a body is doubled, its kinetic energy becomes",
+      "as": "বস্তু এটাৰ বেগ দুগুণ কৰিলে তাৰ গতিশক্তি হয়"
+    },
+    "options": [
+      {
+        "en": "four times",
+        "as": "চাৰিগুণ"
+      },
+      {
+        "en": "two times",
+        "as": "দুগুণ"
+      },
+      {
+        "en": "half",
+        "as": "আধা"
+      },
+      {
+        "en": "unchanged",
+        "as": "অপৰিৱৰ্তিত"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kinetic energy varies as the square of the velocity, so doubling the speed multiplies the energy by four. Momentum would only double.",
+      "as": "গতিশক্তি বেগৰ বৰ্গৰ সৈতে বাঢ়ে, সেয়ে বেগ দুগুণ কৰিলে শক্তি চাৰিগুণ হয়। ভৰবেগ কেবল দুগুণ হ'ব।"
+    }
+  },
+  {
+    "id": "physics-292",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The energy possessed by a body due to its position is called",
+      "as": "অৱস্থানৰ বাবে বস্তু এটাৰ থকা শক্তিক কি বোলা হয়"
+    },
+    "options": [
+      {
+        "en": "potential energy",
+        "as": "স্থিতিশক্তি"
+      },
+      {
+        "en": "kinetic energy",
+        "as": "গতিশক্তি"
+      },
+      {
+        "en": "heat energy",
+        "as": "তাপ শক্তি"
+      },
+      {
+        "en": "chemical energy",
+        "as": "ৰাসায়নিক শক্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A raised stone or a stretched spring stores potential energy because of where it is or how it is deformed. Motion gives kinetic energy.",
+      "as": "ওপৰত থকা শিল বা টনা স্প্ৰিঙে নিজৰ অৱস্থান বা বিকৃতিৰ বাবে স্থিতিশক্তি সাঁচি ৰাখে। গতিয়ে গতিশক্তি দিয়ে।"
+    }
+  },
+  {
+    "id": "physics-293",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "Which of the following is a non-renewable source of energy?",
+      "as": "তলৰ কোনটো নৱীকৰণযোগ্য নহয় শক্তিৰ উৎস"
+    },
+    "options": [
+      {
+        "en": "coal",
+        "as": "কয়লা"
+      },
+      {
+        "en": "solar energy",
+        "as": "সৌৰ শক্তি"
+      },
+      {
+        "en": "wind energy",
+        "as": "বায়ু শক্তি"
+      },
+      {
+        "en": "tidal energy",
+        "as": "জোৱাৰ শক্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Coal took millions of years to form and will not be replaced in human time, so it is non-renewable. Sun, wind and tides are continuously available.",
+      "as": "কয়লা গঠন হ'বলৈ কোটি বছৰ লাগিছিল আৰু মানুহৰ সময়ত পুনৰ নহ'ব, সেয়ে ই নৱীকৰণযোগ্য নহয়। সূৰ্য, বায়ু আৰু জোৱাৰ নিৰন্তৰ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "physics-294",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The work-energy theorem states that the work done on a body equals the change in its",
+      "as": "কাম-শক্তি উপপাদ্যই কয় যে বস্তু এটাৰ ওপৰত কৰা কাম তাৰ কিৰ পৰিৱৰ্তনৰ সমান"
+    },
+    "options": [
+      {
+        "en": "kinetic energy",
+        "as": "গতিশক্তি"
+      },
+      {
+        "en": "potential energy",
+        "as": "স্থিতিশক্তি"
+      },
+      {
+        "en": "momentum",
+        "as": "ভৰবেগ"
+      },
+      {
+        "en": "mass",
+        "as": "ভৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The net work done changes the kinetic energy by exactly that amount, which is why a braking car loses kinetic energy equal to the work friction does.",
+      "as": "মুঠ কামে ঠিক সিমানখিনি গতিশক্তি সলায়, সেয়ে ব্ৰেক লগা গাড়ীয়ে ঘৰ্ষণে কৰা কামৰ সমান গতিশক্তি হেৰুৱায়।"
+    }
+  },
+  {
+    "id": "physics-295",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "A body of mass 1 kg has a kinetic energy of 50 joule. Its speed is about",
+      "as": "১ কিলোগ্ৰাম ভৰৰ বস্তুৰ গতিশক্তি ৫০ জুল। তাৰ দ্ৰুতি প্ৰায়"
+    },
+    "options": [
+      {
+        "en": "10 metres per second",
+        "as": "১০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "50 metres per second",
+        "as": "৫০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "5 metres per second",
+        "as": "৫ মিটাৰ প্ৰতি ছেকেণ্ড"
+      },
+      {
+        "en": "100 metres per second",
+        "as": "১০০ মিটাৰ প্ৰতি ছেকেণ্ড"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kinetic energy is half m v squared, so v squared is twice the energy divided by the mass, giving one hundred and hence ten metres per second.",
+      "as": "গতিশক্তি আধা m v বৰ্গ, সেয়ে v বৰ্গ = দুই গুণ শক্তি ভাগ ভৰ = এশ, সেয়ে দহ মিটাৰ প্ৰতি ছেকেণ্ড।"
+    }
+  },
+  {
+    "id": "physics-296",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The energy stored in a stretched bow is",
+      "as": "টনা ধনুত সাঁচি থকা শক্তি"
+    },
+    "options": [
+      {
+        "en": "elastic potential energy",
+        "as": "স্থিতিস্থাপক স্থিতিশক্তি"
+      },
+      {
+        "en": "kinetic energy",
+        "as": "গতিশক্তি"
+      },
+      {
+        "en": "chemical energy",
+        "as": "ৰাসায়নিক শক্তি"
+      },
+      {
+        "en": "nuclear energy",
+        "as": "পাৰমাণৱিক শক্তি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work done in deforming the bow is stored as elastic potential energy and released as kinetic energy when the arrow flies.",
+      "as": "ধনু বিকৃত কৰাত কৰা কাম স্থিতিস্থাপক স্থিতিশক্তি হিচাপে সাঁচি থাকে আৰু কাঁড় উৰিলে গতিশক্তি হিচাপে ওলায়।"
+    }
+  },
+  {
+    "id": "physics-297",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The commercial unit of electrical energy is the",
+      "as": "বৈদ্যুতিক শক্তিৰ বাণিজ্যিক একক"
+    },
+    "options": [
+      {
+        "en": "kilowatt hour",
+        "as": "কিল'ৱাট ঘণ্টা"
+      },
+      {
+        "en": "watt",
+        "as": "ৱাট"
+      },
+      {
+        "en": "joule",
+        "as": "জুল"
+      },
+      {
+        "en": "ampere",
+        "as": "এম্পিয়াৰ"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "One kilowatt hour is the energy used by a one kilowatt appliance for one hour, which is why electricity bills are in units of this size.",
+      "as": "এক কিল'ৱাট ঘণ্টা মানে এক কিল'ৱাটৰ সজুলিয়ে এক ঘণ্টাত ব্যৱহাৰ কৰা শক্তি, সেয়ে বিদ্যুৎ বিল এই এককতে হয়।"
+    }
+  },
+  {
+    "id": "physics-298",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "A machine of power 500 W runs for 2 hours. The energy consumed is",
+      "as": "৫০০ ৱাট ক্ষমতাৰ সজুলি ২ ঘণ্টা চলিলে ব্যৱহৃত শক্তি"
+    },
+    "options": [
+      {
+        "en": "1 kilowatt hour",
+        "as": "১ কিল'ৱাট ঘণ্টা"
+      },
+      {
+        "en": "1000 kilowatt hour",
+        "as": "১০০০ কিল'ৱাট ঘণ্টা"
+      },
+      {
+        "en": "250 kilowatt hour",
+        "as": "২৫০ কিল'ৱাট ঘণ্টা"
+      },
+      {
+        "en": "0.25 kilowatt hour",
+        "as": "০.২৫ কিল'ৱাট ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Energy in kilowatt hour is power in kilowatt times time in hours, so zero point five times two gives one unit.",
+      "as": "কিল'ৱাট ঘণ্টাত শক্তি = কিল'ৱাটত ক্ষমতা গুণ ঘণ্টাত সময়, সেয়ে ০.৫ গুণ ২ = এক একক।"
+    }
+  },
+  {
+    "id": "physics-299",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "When a body falls freely, its total mechanical energy",
+      "as": "বস্তু এটা মুক্তভাৱে পৰিলে তাৰ মুঠ যান্ত্ৰিক শক্তি"
+    },
+    "options": [
+      {
+        "en": "remains constant",
+        "as": "স্থিৰ থাকে"
+      },
+      {
+        "en": "increases",
+        "as": "বাঢ়ে"
+      },
+      {
+        "en": "decreases",
+        "as": "কমে"
+      },
+      {
+        "en": "becomes zero at once",
+        "as": "লগে লগে শূন্য হয়"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Potential energy turns into kinetic energy as it falls, so the sum stays the same if air resistance is ignored. That is conservation of mechanical energy.",
+      "as": "পৰোতে স্থিতিশক্তি গতিশক্তিলৈ যায়, সেয়ে বায়ুৰ বাধা উপেক্ষা কৰিলে যোগফল একেই থাকে। সেয়া যান্ত্ৰিক শক্তি সংৰক্ষণ।"
+    }
+  },
+  {
+    "id": "physics-300",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The SI unit of work and the SI unit of energy are",
+      "as": "কামৰ SI একক আৰু শক্তিৰ SI একক"
+    },
+    "options": [
+      {
+        "en": "the same, the joule",
+        "as": "একেই, জুল"
+      },
+      {
+        "en": "different, joule and watt",
+        "as": "বেলেগ, জুল আৰু ৱাট"
+      },
+      {
+        "en": "different, newton and joule",
+        "as": "বেলেগ, নিউটন আৰু জুল"
+      },
+      {
+        "en": "the same, the newton",
+        "as": "একেই, নিউটন"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work is a transfer of energy, so both are measured in joule. The watt is power, which is energy per unit time.",
+      "as": "কাম শক্তিৰ হস্তান্তৰ, সেয়ে দুয়োটা জুলত জোখা হয়। ৱাট ক্ষমতা, অৰ্থাৎ প্ৰতি একক সময়ত শক্তি।"
+    }
+  },
+  {
+    "id": "physics-301",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The energy of a body of mass 2 kg moving at 5 metres per second is",
+      "as": "৫ মিটাৰ প্ৰতি ছেকেণ্ডে চলা ২ কিলোগ্ৰাম ভৰৰ বস্তুৰ শক্তি"
+    },
+    "options": [
+      {
+        "en": "25 joule",
+        "as": "২৫ জুল"
+      },
+      {
+        "en": "10 joule",
+        "as": "১০ জুল"
+      },
+      {
+        "en": "50 joule",
+        "as": "৫০ জুল"
+      },
+      {
+        "en": "5 joule",
+        "as": "৫ জুল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Kinetic energy is half the mass times velocity squared, so half of two times twenty-five gives twenty-five joule.",
+      "as": "গতিশক্তি আধা গুণ ভৰ গুণ বেগৰ বৰ্গ, সেয়ে আধা গুণ দুই গুণ পঁচিশ = পঁচিশ জুল।"
+    }
+  },
+  {
+    "id": "physics-302",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "A device that converts mechanical energy into electrical energy is a",
+      "as": "যান্ত্ৰিক শক্তিক বৈদ্যুতিক শক্তিলৈ সলনি কৰা যন্ত্ৰটো"
+    },
+    "options": [
+      {
+        "en": "generator",
+        "as": "জেনেৰেটৰ"
+      },
+      {
+        "en": "motor",
+        "as": "মটৰ"
+      },
+      {
+        "en": "transformer",
+        "as": "ট্ৰান্সফৰ্মাৰ"
+      },
+      {
+        "en": "battery",
+        "as": "বেটেৰী"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A generator turns a coil in a magnetic field and induces a current. A motor does the opposite and a battery stores chemical energy.",
+      "as": "জেনেৰেটৰে চুম্বক ক্ষেত্ৰত কুণ্ডলী ঘূৰাই প্ৰবাহ উৎপন্ন কৰে। মটৰে ওলোটা কৰে আৰু বেটেৰীয়ে ৰাসায়নিক শক্তি সাঁচে।"
+    }
+  },
+  {
+    "id": "physics-303",
+    "leaf": "work-energy-power",
+    "q": {
+      "en": "The work done in holding a heavy bag stationary for a long time is",
+      "as": "গধুৰ মোনা বহু সময় স্থিৰভাৱে ধৰি ৰখাত কৰা কাম"
+    },
+    "options": [
+      {
+        "en": "zero, because there is no displacement",
+        "as": "শূন্য, কাৰণ সৰণ নাই"
+      },
+      {
+        "en": "large, because the bag is heavy",
+        "as": "বেছি, কাৰণ মোনাটো গধুৰ"
+      },
+      {
+        "en": "equal to the weight of the bag",
+        "as": "মোনাৰ ওজনৰ সমান"
+      },
+      {
+        "en": "infinite",
+        "as": "অসীম"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Work needs displacement along the force, and the bag does not move, so no work is done on it although the muscles tire.",
+      "as": "কামলৈ বলৰ দিশত সৰণ লাগে, আৰু মোনাটো নলৰে, সেয়ে তাৰ ওপৰত কাম নহয় যদিও পেশী ভাগৰে।"
+    }
+  }
+]

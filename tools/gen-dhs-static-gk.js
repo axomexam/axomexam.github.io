@@ -1,0 +1,168 @@
+#!/usr/bin/env node
+"use strict";
+
+/* ============================================================
+   axomexam — tools/gen-dhs-static-gk.js
+
+   Builds tools/dhs-dme-technical.static-gk-extra.js from the row
+   files in tools/static-gk-src/. The row files are authored as plain
+   JSON arrays so the content is easy to write and easy to diff:
+
+     [ qEn, qAs, [o1En,o1As], [o2En,o2As], [o3En,o3As], [o4En,o4As],
+       correct, expEn, expAs ]
+
+   `correct` refers to the option order in the row file, which is the
+   natural reading order. The generator moves the correct option to a
+   slot taken from a deterministic balanced list, so the published key
+   is spread across A/B/C/D with no long run in one slot.
+
+   Assamese fields are folded to Assamese numerals, because the site's
+   bilingual rule is that no ASCII digit appears in an Assamese field.
+
+   Run:  node tools/gen-dhs-static-gk.js
+   ============================================================ */
+
+const fs = require("fs");
+const path = require("path");
+
+const ROOT = path.resolve(__dirname, "..");
+const SRC = path.join(__dirname, "static-gk-src");
+const OUT = path.join(__dirname, "dhs-dme-technical.static-gk-extra.js");
+
+const LEAVES = [
+  ["awards-honours", ["awards"]],
+  ["books-authors", ["books"]],
+  ["important-days", ["days"]],
+  ["sports-games", ["sports"]],
+  ["inventions-discoveries", ["inventions"]],
+  ["organizations-institutions", ["institutions"]],
+  ["space-defence", ["space"]],
+  ["miscellaneous-static-gk", ["misc"]],
+];
+
+const AS_DIGITS = "০১২৩৪৫৬৭৮৯";
+const foldAs = (s) => String(s).replace(/[0-9]/g, (d) => AS_DIGITS[Number(d)]);
+
+function readRows(prefix) {
+  const names = fs
+    .readdirSync(SRC)
+    .filter((n) => n.startsWith(prefix + "-part") && n.endsWith(".json"))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  const rows = [];
+  for (const name of names) {
+    const part = JSON.parse(fs.readFileSync(path.join(SRC, name), "utf8"));
+    if (!Array.isArray(part)) throw new Error(`${name}: expected a JSON array`);
+    rows.push(...part);
+  }
+  return rows;
+}
+
+function mulberry32(seed) {
+  let a = seed;
+  return function () {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+/* A deterministic multiset of slots with equal counts, shuffled, then repaired
+   so the same slot never appears four times in a row. */
+function slotsFor(n, seed) {
+  const slots = [];
+  for (let i = 0; i < n; i++) slots.push(i % 4);
+  const rnd = mulberry32(seed);
+  for (let i = slots.length - 1; i > 0; i--) {
+    const j = Math.floor(rnd() * (i + 1));
+    [slots[i], slots[j]] = [slots[j], slots[i]];
+  }
+  for (let i = 3; i < slots.length; i++) {
+    if (slots[i] === slots[i - 1] && slots[i] === slots[i - 2] && slots[i] === slots[i - 3]) {
+      for (let j = i + 1; j < slots.length; j++) {
+        if (slots[j] !== slots[i]) {
+          [slots[i], slots[j]] = [slots[j], slots[i]];
+          break;
+        }
+      }
+    }
+  }
+  return slots;
+}
+
+const questions = [];
+let seq = 0;
+
+for (const [leaf, prefixes] of LEAVES) {
+  const rows = prefixes.flatMap((prefix) => readRows(prefix));
+  if (!rows.length) throw new Error(`no source rows for ${leaf}`);
+
+  const slots = slotsFor(rows.length, 7919 + leaf.length);
+
+  rows.forEach((row, i) => {
+    if (row.length !== 9) {
+      throw new Error(`${leaf} row ${i + 1}: expected 9 fields, got ${row.length}`);
+    }
+    const [qEn, qAs, o1, o2, o3, o4, correct, exEn, exAs] = row;
+    const opts = [o1, o2, o3, o4];
+    for (const o of opts) {
+      if (!Array.isArray(o) || o.length !== 2 || !o[0] || !o[1]) {
+        throw new Error(`${leaf} row ${i + 1}: each option must be an [en, as] pair`);
+      }
+    }
+    if (new Set(opts.map((o) => o[0])).size !== 4) {
+      throw new Error(`${leaf} row ${i + 1}: English options are not unique`);
+    }
+    if (!(correct >= 0 && correct <= 3)) {
+      throw new Error(`${leaf} row ${i + 1}: correct must be 0..3`);
+    }
+
+    seq += 1;
+    const id = `static-gk-extra-${String(seq).padStart(3, "0")}`;
+    const slot = slots[i];
+
+    const answer = opts[correct];
+    const rest = opts.filter((_, k) => k !== correct);
+    const rotated = [];
+    let r = 0;
+    for (let k = 0; k < 4; k++) {
+      if (k === slot) rotated.push({ en: answer[0], as: foldAs(answer[1]) });
+      else {
+        const o = rest[r++];
+        rotated.push({ en: o[0], as: foldAs(o[1]) });
+      }
+    }
+
+    questions.push({
+      id,
+      leaf,
+      q: { en: qEn, as: foldAs(qAs) },
+      options: rotated,
+      correct: slot,
+      explanation: { en: exEn, as: foldAs(exAs) },
+    });
+  });
+}
+
+const body = JSON.stringify(questions, null, 2);
+fs.writeFileSync(
+  OUT,
+  "#!/usr/bin/env node\n" +
+    '"use strict";\n\n' +
+    "/* Generated by tools/gen-dhs-static-gk.js from tools/static-gk-src/*.json.\n" +
+    "   Do not edit by hand — edit the source rows and re-run the generator. */\n\n" +
+    "module.exports = { questions: " + body + " };\n"
+);
+
+const perLeaf = {};
+const perKey = {};
+for (const q of questions) {
+  perLeaf[q.leaf] = (perLeaf[q.leaf] || 0) + 1;
+  perKey[q.leaf] = perKey[q.leaf] || [0, 0, 0, 0];
+  perKey[q.leaf][q.correct] += 1;
+}
+console.log("gen-dhs-static-gk: " + questions.length + " items");
+for (const [leaf] of LEAVES) {
+  console.log("  " + leaf.padEnd(26) + String(perLeaf[leaf] || 0).padStart(4) + "  keys " + (perKey[leaf] || []).join("/"));
+}

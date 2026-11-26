@@ -1,0 +1,3131 @@
+[
+  {
+    "id": "numerical-033",
+    "q": {
+      "en": "A boat goes 24 km downstream and returns in 5 hours. If the speed of the stream is 2 km/h, the speed of the boat in still water is",
+      "as": "এখন নাওৱে ২৪ কিমি সোঁতৰ দিশত গৈ ৫ ঘণ্টাত ঘূৰি আহে। সোঁতৰ বেগ ২ কিমি/ঘণ্টা হ'লে স্থিৰ পানীত নাওখনৰ বেগ কিমান"
+    },
+    "options": [
+      {
+        "en": "10 km/h",
+        "as": "১০ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "8 km/h",
+        "as": "৮ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "6 km/h",
+        "as": "৬ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Let the still-water speed be b. Then 24/(b+2) + 24/(b-2) = 5, which simplifies to 5b² - 48b - 20 = 0. The positive root is b = 10 km/h.",
+      "as": "স্থিৰ পানীৰ বেগ b ধৰক। তেন্তে ২৪/(b+২) + ২৪/(b-২) = ৫, যি ৫b² - ৪৮b - ২০ = ০ লৈ সৰল হয়। ধনাত্মক মূল b = ১০ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "numerical-034",
+    "q": {
+      "en": "The speed of a boat downstream is 15 km/h and upstream 9 km/h. The speed of the stream is",
+      "as": "সোঁতৰ দিশত নাওৰ বেগ ১৫ কিমি/ঘণ্টা আৰু সোঁতৰ বিপৰীত দিশত ৯ কিমি/ঘণ্টা। সোঁতৰ বেগ কিমান"
+    },
+    "options": [
+      {
+        "en": "3 km/h",
+        "as": "৩ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "6 km/h",
+        "as": "৬ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "12 km/h",
+        "as": "১২ কিমি/ঘণ্টা"
+      },
+      {
+        "en": "4 km/h",
+        "as": "৪ কিমি/ঘণ্টা"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream) ÷ 2 = (15 - 9) ÷ 2 = 3 km/h.",
+      "as": "সোঁতৰ বেগ = (সোঁতৰ দিশ - বিপৰীত দিশ) ÷ ২ = (১৫ - ৯) ÷ ২ = ৩ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-001",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 3 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১২ km/h আৰু সোঁতৰ বেগ ৩ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 12 + 3 = 15 km/h.",
+      "as": "অনুকূল বেগ = ১২ + ৩ = ১৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-002",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 12 km/h and the speed of the stream is 3 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১২ km/h আৰু সোঁতৰ বেগ ৩ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 12 - 3 = 9 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১২ - ৩ = ৯ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-003",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 15 km/h and the speed of the stream is 5 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 15 + 5 = 20 km/h.",
+      "as": "অনুকূল বেগ = ১৫ + ৫ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-004",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 15 km/h and the speed of the stream is 5 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 15 - 5 = 10 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১৫ - ৫ = ১০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-005",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 18 km/h and the speed of the stream is 4 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৮ km/h আৰু সোঁতৰ বেগ ৪ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 18 + 4 = 22 km/h.",
+      "as": "অনুকূল বেগ = ১৮ + ৪ = ২২ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-006",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 18 km/h and the speed of the stream is 4 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৮ km/h আৰু সোঁতৰ বেগ ৪ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 18 - 4 = 14 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১৮ - ৪ = ১৪ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-007",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 20 km/h and the speed of the stream is 6 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২০ km/h আৰু সোঁতৰ বেগ ৬ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 20 + 6 = 26 km/h.",
+      "as": "অনুকূল বেগ = ২০ + ৬ = ২৬ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-008",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 20 km/h and the speed of the stream is 6 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২০ km/h আৰু সোঁতৰ বেগ ৬ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 20 - 6 = 14 km/h.",
+      "as": "প্ৰতিকূল বেগ = ২০ - ৬ = ১৪ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-009",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 25 km/h and the speed of the stream is 5 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 25 + 5 = 30 km/h.",
+      "as": "অনুকূল বেগ = ২৫ + ৫ = ৩০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-010",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 25 km/h and the speed of the stream is 5 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 25 - 5 = 20 km/h.",
+      "as": "প্ৰতিকূল বেগ = ২৫ - ৫ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-011",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 2 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৬ km/h আৰু সোঁতৰ বেগ ২ km/h। অনুকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream speed = boat speed + stream speed = 16 + 2 = 18 km/h.",
+      "as": "অনুকূল বেগ = ১৬ + ২ = ১৮ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-012",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 2 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৬ km/h আৰু সোঁতৰ বেগ ২ km/h। প্ৰতিকূল সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Upstream speed = boat speed - stream speed = 16 - 2 = 14 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১৬ - ২ = ১৪ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-013",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 18 km/h and its upstream speed is 12 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ১৮ km/h আৰু প্ৰতিকূল বেগ ১২ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (18 + 12)/2 = 15.0 km/h.",
+      "as": "নাওঁৰ বেগ = (১৮ + ১২)/২ = ১৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-014",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 20 km/h and its upstream speed is 14 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২০ km/h আৰু প্ৰতিকূল বেগ ১৪ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (20 + 14)/2 = 17.0 km/h.",
+      "as": "নাওঁৰ বেগ = (২০ + ১৪)/২ = ১৭.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-015",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 24 km/h and its upstream speed is 16 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৪ km/h আৰু প্ৰতিকূল বেগ ১৬ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (24 + 16)/2 = 20.0 km/h.",
+      "as": "নাওঁৰ বেগ = (২৪ + ১৬)/২ = ২০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-016",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 30 km/h and its upstream speed is 20 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩০ km/h আৰু প্ৰতিকূল বেগ ২০ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (30 + 20)/2 = 25.0 km/h.",
+      "as": "নাওঁৰ বেগ = (৩০ + ২০)/২ = ২৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-017",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 16 km/h and its upstream speed is 10 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ১৬ km/h আৰু প্ৰতিকূল বেগ ১০ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "13.0",
+        "as": "১৩.০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (16 + 10)/2 = 13.0 km/h.",
+      "as": "নাওঁৰ বেগ = (১৬ + ১০)/২ = ১৩.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-018",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 25 km/h and its upstream speed is 15 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৫ km/h আৰু প্ৰতিকূল বেগ ১৫ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Boat speed = (downstream + upstream)/2 = (25 + 15)/2 = 20.0 km/h.",
+      "as": "নাওঁৰ বেগ = (২৫ + ১৫)/২ = ২০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-019",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 18 km/h and its upstream speed is 12 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ১৮ km/h আৰু প্ৰতিকূল বেগ ১২ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (18 - 12)/2 = 3.0 km/h.",
+      "as": "সোঁতৰ বেগ = (১৮ - ১২)/২ = ৩.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-020",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 20 km/h and its upstream speed is 14 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২০ km/h আৰু প্ৰতিকূল বেগ ১৪ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "17.0",
+        "as": "১৭.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (20 - 14)/2 = 3.0 km/h.",
+      "as": "সোঁতৰ বেগ = (২০ - ১৪)/২ = ৩.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-021",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 24 km/h and its upstream speed is 16 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৪ km/h আৰু প্ৰতিকূল বেগ ১৬ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (24 - 16)/2 = 4.0 km/h.",
+      "as": "সোঁতৰ বেগ = (২৪ - ১৬)/২ = ৪.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-022",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 30 km/h and its upstream speed is 20 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩০ km/h আৰু প্ৰতিকূল বেগ ২০ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25.0",
+        "as": "২৫.০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (30 - 20)/2 = 5.0 km/h.",
+      "as": "সোঁতৰ বেগ = (৩০ - ২০)/২ = ৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-023",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 16 km/h and its upstream speed is 10 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ১৬ km/h আৰু প্ৰতিকূল বেগ ১০ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "13.0",
+        "as": "১৩.০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (16 - 10)/2 = 3.0 km/h.",
+      "as": "সোঁতৰ বেগ = (১৬ - ১০)/২ = ৩.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-024",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 25 km/h and its upstream speed is 15 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৫ km/h আৰু প্ৰতিকূল বেগ ১৫ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Stream speed = (downstream - upstream)/2 = (25 - 15)/2 = 5.0 km/h.",
+      "as": "সোঁতৰ বেগ = (২৫ - ১৫)/২ = ৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-025",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 12 km/h goes 36 km downstream in a stream of speed 3 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১২ km/h বেগৰ নাওঁে ৩ km/h বেগৰ সোঁতত ৩৬ কিমি অনুকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream speed = 12+3 = 15 km/h; time = 36/15 = 2.4 h.",
+      "as": "অনুকূল বেগ = ১৫ km/h; সময় = ২.৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-026",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 15 km/h goes 60 km downstream in a stream of speed 5 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৫ km/h বেগৰ নাওঁে ৫ km/h বেগৰ সোঁতত ৬০ কিমি অনুকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "1.5",
+        "as": "১.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Downstream speed = 15+5 = 20 km/h; time = 60/20 = 3.0 h.",
+      "as": "অনুকূল বেগ = ২০ km/h; সময় = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-027",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 18 km/h goes 80 km downstream in a stream of speed 2 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৮ km/h বেগৰ নাওঁে ২ km/h বেগৰ সোঁতত ৮০ কিমি অনুকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "4.44",
+        "as": "৪.৪৪"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream speed = 18+2 = 20 km/h; time = 80/20 = 4.0 h.",
+      "as": "অনুকূল বেগ = ২০ km/h; সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-028",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 20 km/h goes 100 km downstream in a stream of speed 5 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২০ km/h বেগৰ নাওঁে ৫ km/h বেগৰ সোঁতত ১০০ কিমি অনুকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Downstream speed = 20+5 = 25 km/h; time = 100/25 = 4.0 h.",
+      "as": "অনুকূল বেগ = ২৫ km/h; সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-029",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 12 km/h goes 30 km upstream in a stream of speed 3 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১২ km/h বেগৰ নাওঁে ৩ km/h বেগৰ সোঁতত ৩০ কিমি প্ৰতিকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "6.67",
+        "as": "৬.৬৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Upstream speed = 12-3 = 9 km/h; time = 30/9 = 3.33 h.",
+      "as": "প্ৰতিকূল বেগ = ৯ km/h; সময় = ৩.৩৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-030",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 15 km/h goes 50 km upstream in a stream of speed 5 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৫ km/h বেগৰ নাওঁে ৫ km/h বেগৰ সোঁতত ৫০ কিমি প্ৰতিকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Upstream speed = 15-5 = 10 km/h; time = 50/10 = 5.0 h.",
+      "as": "প্ৰতিকূল বেগ = ১০ km/h; সময় = ৫.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-031",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 18 km/h goes 60 km upstream in a stream of speed 2 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৮ km/h বেগৰ নাওঁে ২ km/h বেগৰ সোঁতত ৬০ কিমি প্ৰতিকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "3.75",
+        "as": "৩.৭৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Upstream speed = 18-2 = 16 km/h; time = 60/16 = 3.75 h.",
+      "as": "প্ৰতিকূল বেগ = ১৬ km/h; সময় = ৩.৭৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-032",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 20 km/h goes 80 km upstream in a stream of speed 5 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২০ km/h বেগৰ নাওঁে ৫ km/h বেগৰ সোঁতত ৮০ কিমি প্ৰতিকূল দিশত যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.2",
+        "as": "৩.২"
+      },
+      {
+        "en": "5.33",
+        "as": "৫.৩৩"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "10.67",
+        "as": "১০.৬৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Upstream speed = 20-5 = 15 km/h; time = 80/15 = 5.33 h.",
+      "as": "প্ৰতিকূল বেগ = ১৫ km/h; সময় = ৫.৩৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-033",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 24 km downstream and returns the same distance upstream. If its speed in still water is 10 km/h and the stream speed is 2 km/h, find the total time.",
+      "as": "এখন নাওঁে ২৪ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১০ km/h আৰু সোঁতৰ বেগ ২ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Downstream time = 24/12 = 2.0 h; upstream time = 24/8 = 3.0 h. Total = 5.0 h.",
+      "as": "মুঠ সময় = ৫.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-034",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 36 km downstream and returns the same distance upstream. If its speed in still water is 12 km/h and the stream speed is 3 km/h, find the total time.",
+      "as": "এখন নাওঁে ৩৬ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১২ km/h আৰু সোঁতৰ বেগ ৩ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.2",
+        "as": "৩.২"
+      },
+      {
+        "en": "12.8",
+        "as": "১২.৮"
+      },
+      {
+        "en": "6.4",
+        "as": "৬.৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream time = 36/15 = 2.4 h; upstream time = 36/9 = 4.0 h. Total = 6.4 h.",
+      "as": "মুঠ সময় = ৬.৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-035",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 48 km downstream and returns the same distance upstream. If its speed in still water is 15 km/h and the stream speed is 5 km/h, find the total time.",
+      "as": "এখন নাওঁে ৪৮ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "6.4",
+        "as": "৬.৪"
+      },
+      {
+        "en": "3.6",
+        "as": "৩.৬"
+      },
+      {
+        "en": "14.4",
+        "as": "১৪.৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream time = 48/20 = 2.4 h; upstream time = 48/10 = 4.8 h. Total = 7.2 h.",
+      "as": "মুঠ সময় = ৭.২ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-036",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 60 km downstream and returns the same distance upstream. If its speed in still water is 20 km/h and the stream speed is 4 km/h, find the total time.",
+      "as": "এখন নাওঁে ৬০ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ২০ km/h আৰু সোঁতৰ বেগ ৪ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.12",
+        "as": "৩.১২"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream time = 60/24 = 2.5 h; upstream time = 60/16 = 3.75 h. Total = 6.25 h.",
+      "as": "মুঠ সময় = ৬.২৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-037",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 10 hours to go a certain distance downstream and return. If its speed in still water is 10 km/h and the stream speed is 2 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১০ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১০ km/h আৰু সোঁতৰ বেগ ২ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60.0",
+        "as": "৬০.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "24.0",
+        "as": "২৪.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "T = 2Db/(b²-s²), so D = 10×(10²-2²)/(2×10) = 48.0 km.",
+      "as": "D = ৪৮.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-038",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 12 hours to go a certain distance downstream and return. If its speed in still water is 12 km/h and the stream speed is 3 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১২ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১২ km/h আৰু সোঁতৰ বেগ ৩ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "72.0",
+        "as": "৭২.০"
+      },
+      {
+        "en": "67.5",
+        "as": "৬৭.৫"
+      },
+      {
+        "en": "33.75",
+        "as": "৩৩.৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "T = 2Db/(b²-s²), so D = 12×(12²-3²)/(2×12) = 67.5 km.",
+      "as": "D = ৬৭.৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-039",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 15 hours to go a certain distance downstream and return. If its speed in still water is 15 km/h and the stream speed is 5 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১৫ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "150.0",
+        "as": "১৫০.০"
+      },
+      {
+        "en": "112.5",
+        "as": "১১২.৫"
+      },
+      {
+        "en": "50.0",
+        "as": "৫০.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "T = 2Db/(b²-s²), so D = 15×(15²-5²)/(2×15) = 100.0 km.",
+      "as": "D = ১০০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-040",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 8 hours to go a certain distance downstream and return. If its speed in still water is 20 km/h and the stream speed is 4 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ৮ ঘণ্টা লয়। স্থিৰ পানীত বেগ ২০ km/h আৰু সোঁতৰ বেগ ৪ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "76.8",
+        "as": "৭৬.৮"
+      },
+      {
+        "en": "38.4",
+        "as": "৩৮.৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "T = 2Db/(b²-s²), so D = 8×(20²-4²)/(2×20) = 76.8 km.",
+      "as": "D = ৭৬.৮ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-041",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 36 km downstream in 3 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৩৬ কিমি অনুকূল ৩ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream = 36/3 = 12.0 km/h; upstream = 36/6 = 6.0 km/h. Boat speed = (12.0+6.0)/2 = 9.0 km/h.",
+      "as": "নাওঁৰ বেগ = ৯.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-042",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 60 km downstream in 4 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৬০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream = 60/4 = 15.0 km/h; upstream = 60/6 = 10.0 km/h. Boat speed = (15.0+10.0)/2 = 12.5 km/h.",
+      "as": "নাওঁৰ বেগ = ১২.৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-043",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 48 km downstream in 3 hours and the same distance upstream in 4 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৪৮ কিমি অনুকূল ৩ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৪ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream = 48/3 = 16.0 km/h; upstream = 48/4 = 12.0 km/h. Boat speed = (16.0+12.0)/2 = 14.0 km/h.",
+      "as": "নাওঁৰ বেগ = ১৪.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-044",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 80 km downstream in 4 hours and the same distance upstream in 8 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৮০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৮ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream = 80/4 = 20.0 km/h; upstream = 80/8 = 10.0 km/h. Boat speed = (20.0+10.0)/2 = 15.0 km/h.",
+      "as": "নাওঁৰ বেগ = ১৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-045",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 12 km/h and the stream speed is 4 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১২ km/h আৰু সোঁতৰ বেগ ৪ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16:8",
+        "as": "১৬:৮"
+      },
+      {
+        "en": "12:4",
+        "as": "১২:৪"
+      },
+      {
+        "en": "8:16",
+        "as": "৮:১৬"
+      },
+      {
+        "en": "4:12",
+        "as": "৪:১২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time is inversely proportional to speed: ratio = 1/(b+s) : 1/(b-s) = 8:16.",
+      "as": "সময়ৰ অনুপাত = ৮:১৬।"
+    }
+  },
+  {
+    "id": "num-boats-streams-046",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 15 km/h and the stream speed is 5 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20:10",
+        "as": "২০:১০"
+      },
+      {
+        "en": "15:5",
+        "as": "১৫:৫"
+      },
+      {
+        "en": "5:15",
+        "as": "৫:১৫"
+      },
+      {
+        "en": "10:20",
+        "as": "১০:২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time is inversely proportional to speed: ratio = 1/(b+s) : 1/(b-s) = 10:20.",
+      "as": "সময়ৰ অনুপাত = ১০:২০।"
+    }
+  },
+  {
+    "id": "num-boats-streams-047",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 20 km/h and the stream speed is 5 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২০ km/h আৰু সোঁতৰ বেগ ৫ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15:25",
+        "as": "১৫:২৫"
+      },
+      {
+        "en": "25:15",
+        "as": "২৫:১৫"
+      },
+      {
+        "en": "20:5",
+        "as": "২০:৫"
+      },
+      {
+        "en": "5:20",
+        "as": "৫:২০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time is inversely proportional to speed: ratio = 1/(b+s) : 1/(b-s) = 15:25.",
+      "as": "সময়ৰ অনুপাত = ১৫:২৫।"
+    }
+  },
+  {
+    "id": "num-boats-streams-048",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 18 km/h and the stream speed is 6 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৮ km/h আৰু সোঁতৰ বেগ ৬ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12:24",
+        "as": "১২:২৪"
+      },
+      {
+        "en": "24:12",
+        "as": "২৪:১২"
+      },
+      {
+        "en": "18:6",
+        "as": "১৮:৬"
+      },
+      {
+        "en": "6:18",
+        "as": "৬:১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time is inversely proportional to speed: ratio = 1/(b+s) : 1/(b-s) = 12:24.",
+      "as": "সময়ৰ অনুপাত = ১২:২৪।"
+    }
+  },
+  {
+    "id": "num-boats-streams-049",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 25 km/h and the stream speed is 5 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৫ km/h আৰু সোঁতৰ বেগ ৫ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30:20",
+        "as": "৩০:২০"
+      },
+      {
+        "en": "20:30",
+        "as": "২০:৩০"
+      },
+      {
+        "en": "25:5",
+        "as": "২৫:৫"
+      },
+      {
+        "en": "5:25",
+        "as": "৫:২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time is inversely proportional to speed: ratio = 1/(b+s) : 1/(b-s) = 20:30.",
+      "as": "সময়ৰ অনুপাত = ২০:৩০।"
+    }
+  },
+  {
+    "id": "num-boats-streams-050",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 36 km downstream in 3 hours and the same distance upstream in 6 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৩৬ কিমি অনুকূল ৩ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9.0",
+        "as": "৯.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (12 − 6)/2 = 6/2 = 3 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১২ − ৬)/2 = ৩ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-051",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 60 km downstream in 4 hours and the same distance upstream in 6 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৬০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (15 − 10)/2 = 5/2 = 2.5 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১৫ − ১০)/2 = ২.৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-052",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 48 km downstream in 3 hours and the same distance upstream in 4 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৪৮ কিমি অনুকূল ৩ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৪ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "16.0",
+        "as": "১৬.০"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (16 − 12)/2 = 4/2 = 2 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১৬ − ১২)/2 = ২ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-053",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 80 km downstream in 4 hours and the same distance upstream in 8 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৮০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৮ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (20 − 10)/2 = 10/2 = 5 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (২০ − ১০)/2 = ৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-054",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 14 km/h and the speed of the stream is 4 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৪ km/h আৰু সোঁতৰ বেগ ৪ km/h। অনুকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream = 14 + 4 = 18 km/h.",
+      "as": "অনুকূল বেগ = ১৮ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-055",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 14 km/h and the speed of the stream is 4 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৪ km/h আৰু সোঁতৰ বেগ ৪ km/h। প্ৰতিকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Upstream = 14 - 4 = 10 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-056",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 6 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৬ km/h আৰু সোঁতৰ বেগ ৬ km/h। অনুকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Downstream = 16 + 6 = 22 km/h.",
+      "as": "অনুকূল বেগ = ২২ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-057",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 16 km/h and the speed of the stream is 6 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৬ km/h আৰু সোঁতৰ বেগ ৬ km/h। প্ৰতিকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Upstream = 16 - 6 = 10 km/h.",
+      "as": "প্ৰতিকূল বেগ = ১০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-058",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 22 km/h and the speed of the stream is 2 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২২ km/h আৰু সোঁতৰ বেগ ২ km/h। অনুকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Downstream = 22 + 2 = 24 km/h.",
+      "as": "অনুকূল বেগ = ২৪ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-059",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 22 km/h and the speed of the stream is 2 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২২ km/h আৰু সোঁতৰ বেগ ২ km/h। প্ৰতিকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20",
+        "as": "২০"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Upstream = 22 - 2 = 20 km/h.",
+      "as": "প্ৰতিকূল বেগ = ২০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-060",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 28 km/h and the speed of the stream is 7 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৮ km/h আৰু সোঁতৰ বেগ ৭ km/h। অনুকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Downstream = 28 + 7 = 35 km/h.",
+      "as": "অনুকূল বেগ = ৩৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-061",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 28 km/h and the speed of the stream is 7 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৮ km/h আৰু সোঁতৰ বেগ ৭ km/h। প্ৰতিকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Upstream = 28 - 7 = 21 km/h.",
+      "as": "প্ৰতিকূল বেগ = ২১ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-062",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 30 km/h and the speed of the stream is 5 km/h. Find the downstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ৩০ km/h আৰু সোঁতৰ বেগ ৫ km/h। অনুকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Downstream = 30 + 5 = 35 km/h.",
+      "as": "অনুকূল বেগ = ৩৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-063",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 30 km/h and the speed of the stream is 5 km/h. Find the upstream speed.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ৩০ km/h আৰু সোঁতৰ বেগ ৫ km/h। প্ৰতিকূল বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Upstream = 30 - 5 = 25 km/h.",
+      "as": "প্ৰতিকূল বেগ = ২৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-064",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 22 km/h and its upstream speed is 14 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২২ km/h আৰু প্ৰতিকূল বেগ ১৪ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Boat speed = (22+14)/2 = 18.0 km/h.",
+      "as": "নাওঁৰ বেগ = ১৮.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-065",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 26 km/h and its upstream speed is 18 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৬ km/h আৰু প্ৰতিকূল বেগ ১৮ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boat speed = (26+18)/2 = 22.0 km/h.",
+      "as": "নাওঁৰ বেগ = ২২.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-066",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 32 km/h and its upstream speed is 22 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩২ km/h আৰু প্ৰতিকূল বেগ ২২ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Boat speed = (32+22)/2 = 27.0 km/h.",
+      "as": "নাওঁৰ বেগ = ২৭.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-067",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 28 km/h and its upstream speed is 12 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৮ km/h আৰু প্ৰতিকূল বেগ ১২ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Boat speed = (28+12)/2 = 20.0 km/h.",
+      "as": "নাওঁৰ বেগ = ২০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-068",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 35 km/h and its upstream speed is 25 km/h. Find the speed of the boat in still water.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩৫ km/h আৰু প্ৰতিকূল বেগ ২৫ km/h। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boat speed = (35+25)/2 = 30.0 km/h.",
+      "as": "নাওঁৰ বেগ = ৩০.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-069",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 22 km/h and its upstream speed is 14 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২২ km/h আৰু প্ৰতিকূল বেগ ১৪ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (22 − 14)/2 = 8/2 = 4 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (২২ − ১৪)/2 = ৪ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-070",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 26 km/h and its upstream speed is 18 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৬ km/h আৰু প্ৰতিকূল বেগ ১৮ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22.0",
+        "as": "২২.০"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (26 − 18)/2 = 8/2 = 4 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (২৬ − ১৮)/2 = ৪ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-071",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 32 km/h and its upstream speed is 22 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩২ km/h আৰু প্ৰতিকূল বেগ ২২ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "27.0",
+        "as": "২৭.০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (32 − 22)/2 = 10/2 = 5 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (৩২ − ২২)/2 = ৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-072",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 28 km/h and its upstream speed is 12 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ২৮ km/h আৰু প্ৰতিকূল বেগ ১২ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "20.0",
+        "as": "২০.০"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (28 − 12)/2 = 16/2 = 8 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (২৮ − ১২)/2 = ৮ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-073",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The downstream speed of a boat is 35 km/h and its upstream speed is 25 km/h. Find the speed of the stream.",
+      "as": "নাওঁৰ অনুকূল বেগ ৩৫ km/h আৰু প্ৰতিকূল বেগ ২৫ km/h। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30.0",
+        "as": "৩০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (35 − 25)/2 = 10/2 = 5 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (৩৫ − ২৫)/2 = ৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-074",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 14 km/h goes 42 km downstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৪ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৪২ কিমি অনুকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.2",
+        "as": "৪.২"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "2.33",
+        "as": "২.৩৩"
+      },
+      {
+        "en": "4.67",
+        "as": "৪.৬৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 42/18 = 2.33 h.",
+      "as": "সময় = ২.৩৩ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-075",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 16 km/h goes 72 km downstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৬ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৭২ কিমি অনুকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "3.6",
+        "as": "৩.৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 72/20 = 3.6 h.",
+      "as": "সময় = ৩.৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-076",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 22 km/h goes 90 km downstream in a stream of speed 2 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২২ km/h বেগৰ নাওঁে ২ km/h বেগৰ সোঁতত ৯০ কিমি অনুকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.5",
+        "as": "৪.৫"
+      },
+      {
+        "en": "4.09",
+        "as": "৪.০৯"
+      },
+      {
+        "en": "3.75",
+        "as": "৩.৭৫"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 90/24 = 3.75 h.",
+      "as": "সময় = ৩.৭৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-077",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 28 km/h goes 96 km downstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২৮ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৯৬ কিমি অনুকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "3.43",
+        "as": "৩.৪৩"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = 96/32 = 3.0 h.",
+      "as": "সময় = ৩.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-078",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 14 km/h goes 36 km upstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৪ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৩৬ কিমি প্ৰতিকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.6",
+        "as": "৩.৬"
+      },
+      {
+        "en": "2.0",
+        "as": "২.০"
+      },
+      {
+        "en": "2.57",
+        "as": "২.৫৭"
+      },
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time = 36/10 = 3.6 h.",
+      "as": "সময় = ৩.৬ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-079",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 16 km/h goes 60 km upstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ১৬ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৬০ কিমি প্ৰতিকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "3.75",
+        "as": "৩.৭৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time = 60/12 = 5.0 h.",
+      "as": "সময় = ৫.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-080",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 22 km/h goes 80 km upstream in a stream of speed 2 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২২ km/h বেগৰ নাওঁে ২ km/h বেগৰ সোঁতত ৮০ কিমি প্ৰতিকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.33",
+        "as": "৩.৩৩"
+      },
+      {
+        "en": "4.0",
+        "as": "৪.০"
+      },
+      {
+        "en": "3.64",
+        "as": "৩.৬৪"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time = 80/20 = 4.0 h.",
+      "as": "সময় = ৪.০ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-081",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat whose speed in still water is 28 km/h goes 90 km upstream in a stream of speed 4 km/h. Find the time taken.",
+      "as": "স্থিৰ পানীত ২৮ km/h বেগৰ নাওঁে ৪ km/h বেগৰ সোঁতত ৯০ কিমি প্ৰতিকূল যায়। সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.81",
+        "as": "২.৮১"
+      },
+      {
+        "en": "3.21",
+        "as": "৩.২১"
+      },
+      {
+        "en": "3.75",
+        "as": "৩.৭৫"
+      },
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time = 90/24 = 3.75 h.",
+      "as": "সময় = ৩.৭৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-082",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 30 km downstream and returns the same distance upstream. If its speed in still water is 12 km/h and the stream speed is 2 km/h, find the total time.",
+      "as": "এখন নাওঁে ৩০ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১২ km/h আৰু সোঁতৰ বেগ ২ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.57",
+        "as": "২.৫৭"
+      },
+      {
+        "en": "10.29",
+        "as": "১০.২৯"
+      },
+      {
+        "en": "5.14",
+        "as": "৫.১৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Total = 30/14 + 30/10 = 5.14 h.",
+      "as": "মুঠ সময় = ৫.১৪ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-083",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 45 km downstream and returns the same distance upstream. If its speed in still water is 15 km/h and the stream speed is 3 km/h, find the total time.",
+      "as": "এখন নাওঁে ৪৫ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৩ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.25",
+        "as": "৬.২৫"
+      },
+      {
+        "en": "6.0",
+        "as": "৬.০"
+      },
+      {
+        "en": "3.12",
+        "as": "৩.১২"
+      },
+      {
+        "en": "12.5",
+        "as": "১২.৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 45/18 + 45/12 = 6.25 h.",
+      "as": "মুঠ সময় = ৬.২৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-084",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 56 km downstream and returns the same distance upstream. If its speed in still water is 18 km/h and the stream speed is 4 km/h, find the total time.",
+      "as": "এখন নাওঁে ৫৬ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ১৮ km/h আৰু সোঁতৰ বেগ ৪ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6.55",
+        "as": "৬.৫৫"
+      },
+      {
+        "en": "6.22",
+        "as": "৬.২২"
+      },
+      {
+        "en": "3.27",
+        "as": "৩.২৭"
+      },
+      {
+        "en": "13.09",
+        "as": "১৩.০৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Total = 56/22 + 56/14 = 6.55 h.",
+      "as": "মুঠ সময় = ৬.৫৫ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-085",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat travels 70 km downstream and returns the same distance upstream. If its speed in still water is 20 km/h and the stream speed is 5 km/h, find the total time.",
+      "as": "এখন নাওঁে ৭০ কিমি অনুকূল আৰু সমান দূৰত্ব প্ৰতিকূল যায়। স্থিৰ পানীত বেগ ২০ km/h আৰু সোঁতৰ বেগ ৫ km/h হ'লে মুঠ সময় নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.0",
+        "as": "৭.০"
+      },
+      {
+        "en": "7.47",
+        "as": "৭.৪৭"
+      },
+      {
+        "en": "3.73",
+        "as": "৩.৭৩"
+      },
+      {
+        "en": "14.93",
+        "as": "১৪.৯৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Total = 70/25 + 70/15 = 7.47 h.",
+      "as": "মুঠ সময় = ৭.৪৭ ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-086",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 9 hours to go a certain distance downstream and return. If its speed in still water is 10 km/h and the stream speed is 2 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ৯ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১০ km/h আৰু সোঁতৰ বেগ ২ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "54.0",
+        "as": "৫৪.০"
+      },
+      {
+        "en": "45.0",
+        "as": "৪৫.০"
+      },
+      {
+        "en": "43.2",
+        "as": "৪৩.২"
+      },
+      {
+        "en": "21.6",
+        "as": "২১.৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = 9×(10²-2²)/(2×10) = 43.2 km.",
+      "as": "D = ৪৩.২ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-087",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 14 hours to go a certain distance downstream and return. If its speed in still water is 12 km/h and the stream speed is 3 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১৪ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১২ km/h আৰু সোঁতৰ বেগ ৩ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105.0",
+        "as": "১০৫.০"
+      },
+      {
+        "en": "84.0",
+        "as": "৮৪.০"
+      },
+      {
+        "en": "39.38",
+        "as": "৩৯.৩৮"
+      },
+      {
+        "en": "78.75",
+        "as": "৭৮.৭৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "D = 14×(12²-3²)/(2×12) = 78.75 km.",
+      "as": "D = ৭৮.৭৫ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-088",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 12 hours to go a certain distance downstream and return. If its speed in still water is 15 km/h and the stream speed is 5 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১২ ঘণ্টা লয়। স্থিৰ পানীত বেগ ১৫ km/h আৰু সোঁতৰ বেগ ৫ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "90.0",
+        "as": "৯০.০"
+      },
+      {
+        "en": "80.0",
+        "as": "৮০.০"
+      },
+      {
+        "en": "40.0",
+        "as": "৪০.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "D = 12×(15²-5²)/(2×15) = 80.0 km.",
+      "as": "D = ৮০.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-089",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat takes 10 hours to go a certain distance downstream and return. If its speed in still water is 20 km/h and the stream speed is 4 km/h, find the one-way distance.",
+      "as": "এখন নাওঁে এটা নিৰ্দিষ্ট দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ ১০ ঘণ্টা লয়। স্থিৰ পানীত বেগ ২০ km/h আৰু সোঁতৰ বেগ ৪ km/h হ'লে একমুখী দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120.0",
+        "as": "১২০.০"
+      },
+      {
+        "en": "96.0",
+        "as": "৯৬.০"
+      },
+      {
+        "en": "100.0",
+        "as": "১০০.০"
+      },
+      {
+        "en": "48.0",
+        "as": "৪৮.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "D = 10×(20²-4²)/(2×20) = 96.0 km.",
+      "as": "D = ৯৬.০ কিমি।"
+    }
+  },
+  {
+    "id": "num-boats-streams-090",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 40 km downstream in 4 hours and the same distance upstream in 8 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৪০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৮ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Boat speed = (10.0+5.0)/2 = 7.5 km/h.",
+      "as": "নাওঁৰ বেগ = ৭.৫ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-091",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 40 km downstream in 4 hours and the same distance upstream in 8 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৪০ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৮ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5",
+        "as": "৭.৫"
+      },
+      {
+        "en": "10.0",
+        "as": "১০.০"
+      },
+      {
+        "en": "5.0",
+        "as": "৫.০"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (10 − 5)/2 = 5/2 = 2.5 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১০ − ৫)/2 = ২.৫ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-092",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 72 km downstream in 4 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৭২ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Boat speed = (18.0+12.0)/2 = 15.0 km/h.",
+      "as": "নাওঁৰ বেগ = ১৫.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-093",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 72 km downstream in 4 hours and the same distance upstream in 6 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৭২ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৬ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15.0",
+        "as": "১৫.০"
+      },
+      {
+        "en": "18.0",
+        "as": "১৮.০"
+      },
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "12.0",
+        "as": "১২.০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (18 − 12)/2 = 6/2 = 3 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১৮ − ১২)/2 = ৩ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-094",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 56 km downstream in 4 hours and the same distance upstream in 7 hours. Find the speed of the boat in still water.",
+      "as": "এখন নাওঁে ৫৬ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৭ ঘণ্টাত যায়। স্থিৰ পানীত নাওঁৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Boat speed = (14.0+8.0)/2 = 11.0 km/h.",
+      "as": "নাওঁৰ বেগ = ১১.০ km/h।"
+    }
+  },
+  {
+    "id": "num-boats-streams-095",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "A boat covers 56 km downstream in 4 hours and the same distance upstream in 7 hours. Find the speed of the stream.",
+      "as": "এখন নাওঁে ৫৬ কিমি অনুকূল ৪ ঘণ্টাত আৰু সমান দূৰত্ব প্ৰতিকূল ৭ ঘণ্টাত যায়। সোঁতৰ বেগ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "3.0",
+        "as": "৩.০"
+      },
+      {
+        "en": "11.0",
+        "as": "১১.০"
+      },
+      {
+        "en": "14.0",
+        "as": "১৪.০"
+      },
+      {
+        "en": "8.0",
+        "as": "৮.০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The stream slows the boat downstream-to-upstream by twice its own speed, so stream speed = (14 − 8)/2 = 6/2 = 3 km/h.",
+      "as": "সোঁতে নাৱৰ গতিৰ পাৰ্থক্য নিজৰ গতিৰ দুগুণ কৰে, সেয়ে সোঁতৰ গতি = (১৪ − ৮)/2 = ৩ কিমি/ঘণ্টা।"
+    }
+  },
+  {
+    "id": "num-boats-streams-096",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 14 km/h and the stream speed is 6 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৪ km/h আৰু সোঁতৰ বেগ ৬ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8:20",
+        "as": "৮:২০"
+      },
+      {
+        "en": "20:8",
+        "as": "২০:৮"
+      },
+      {
+        "en": "14:6",
+        "as": "১৪:৬"
+      },
+      {
+        "en": "6:14",
+        "as": "৬:১৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Time ratio = 8:20.",
+      "as": "সময়ৰ অনুপাত = ৮:২০।"
+    }
+  },
+  {
+    "id": "num-boats-streams-097",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 18 km/h and the stream speed is 9 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ১৮ km/h আৰু সোঁতৰ বেগ ৯ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27:9",
+        "as": "২৭:৯"
+      },
+      {
+        "en": "9:27",
+        "as": "৯:২৭"
+      },
+      {
+        "en": "18:9",
+        "as": "১৮:৯"
+      },
+      {
+        "en": "9:18",
+        "as": "৯:১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Time ratio = 9:27.",
+      "as": "সময়ৰ অনুপাত = ৯:২৭।"
+    }
+  },
+  {
+    "id": "num-boats-streams-098",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 24 km/h and the stream speed is 8 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ২৪ km/h আৰু সোঁতৰ বেগ ৮ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32:16",
+        "as": "৩২:১৬"
+      },
+      {
+        "en": "24:8",
+        "as": "২৪:৮"
+      },
+      {
+        "en": "16:32",
+        "as": "১৬:৩২"
+      },
+      {
+        "en": "8:24",
+        "as": "৮:২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Time ratio = 16:32.",
+      "as": "সময়ৰ অনুপাত = ১৬:৩২।"
+    }
+  },
+  {
+    "id": "num-boats-streams-099",
+    "leaf": "boats-streams",
+    "q": {
+      "en": "The speed of a boat in still water is 30 km/h and the stream speed is 10 km/h. Find the ratio of the time taken to go downstream to that taken to go upstream for the same distance.",
+      "as": "স্থিৰ পানীত নাওঁৰ বেগ ৩০ km/h আৰু সোঁতৰ বেগ ১০ km/h। একে দূৰত্ব অনুকূল আৰু প্ৰতিকূল যাবলৈ সময়ৰ অনুপাত নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40:20",
+        "as": "৪০:২০"
+      },
+      {
+        "en": "30:10",
+        "as": "৩০:১০"
+      },
+      {
+        "en": "10:30",
+        "as": "১০:৩০"
+      },
+      {
+        "en": "20:40",
+        "as": "২০:৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Time ratio = 20:40.",
+      "as": "সময়ৰ অনুপাত = ২০:৪০।"
+    }
+  }
+]

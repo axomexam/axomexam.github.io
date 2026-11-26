@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "input-output-001",
+    "q": {
+      "en": "A machine gives the output 9, 16, 25 for the input 3, 4, 5. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ৩, ৪, ৫ ৰ বাবে আউটপুট ৯, ১৬, ২৫ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Double the sum of the digits",
+        "as": "Double the sum of the digits"
+      },
+      {
+        "en": "Square the number",
+        "as": "Square the number"
+      },
+      {
+        "en": "Multiply by 2 and add 1",
+        "as": "Multiply by ২ and add ১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Checking each input: 3 → 9 and 4 → 16, so the rule is to square the number.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ৩ → ৯ আৰু ৪ → ১৬, গতিকে নিয়মটো square the number।"
+    }
+  },
+  {
+    "id": "input-output-002",
+    "q": {
+      "en": "A machine gives the output 8, 27, 64 for the input 2, 3, 4. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ২, ৩, ৪ ৰ বাবে আউটপুট ৮, ২৭, ৬৪ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Add the squares of the digits",
+        "as": "Add the squares of the digits"
+      },
+      {
+        "en": "Reverse the digits",
+        "as": "Reverse the digits"
+      },
+      {
+        "en": "Cube the number",
+        "as": "Cube the number"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Checking each input: 2 → 8 and 3 → 27, so the rule is to cube the number.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ২ → ৮ আৰু ৩ → ২৭, গতিকে নিয়মটো cube the number।"
+    }
+  },
+  {
+    "id": "input-output-003",
+    "q": {
+      "en": "A machine gives the output 7, 9, 11 for the input 3, 4, 5. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ৩, ৪, ৫ ৰ বাবে আউটপুট ৭, ৯, ১১ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Multiply by 3 and subtract 2",
+        "as": "Multiply by ৩ and subtract ২"
+      },
+      {
+        "en": "Multiply by 2 and add 1",
+        "as": "Multiply by ২ and add ১"
+      },
+      {
+        "en": "Double the sum of the digits",
+        "as": "Double the sum of the digits"
+      },
+      {
+        "en": "Add 10",
+        "as": "Add ১০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Checking each input: 3 → 7 and 4 → 9, so the rule is to multiply by 2 and add 1.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ৩ → ৭ আৰু ৪ → ৯, গতিকে নিয়মটো multiply by ২ and add ১।"
+    }
+  },
+  {
+    "id": "input-output-004",
+    "q": {
+      "en": "A machine gives the output 10, 13, 16 for the input 4, 5, 6. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ৪, ৫, ৬ ৰ বাবে আউটপুট ১০, ১৩, ১৬ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Multiply by 3 and subtract 2",
+        "as": "Multiply by ৩ and subtract ২"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Square the number",
+        "as": "Square the number"
+      },
+      {
+        "en": "Double the sum of the digits",
+        "as": "Double the sum of the digits"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Checking each input: 4 → 10 and 5 → 13, so the rule is to multiply by 3 and subtract 2.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ৪ → ১০ আৰু ৫ → ১৩, গতিকে নিয়মটো multiply by ৩ and subtract ২।"
+    }
+  },
+  {
+    "id": "input-output-005",
+    "q": {
+      "en": "A machine gives the output 11, 12, 13 for the input 1, 2, 3. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ১, ২, ৩ ৰ বাবে আউটপুট ১১, ১২, ১৩ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Add 10",
+        "as": "Add ১০"
+      },
+      {
+        "en": "Add the squares of the digits",
+        "as": "Add the squares of the digits"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Multiply by 3 and subtract 2",
+        "as": "Multiply by ৩ and subtract ২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Checking each input: 1 → 11 and 2 → 12, so the rule is to add 10.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ১ → ১১ আৰু ২ → ১২, গতিকে নিয়মটো add ১০।"
+    }
+  },
+  {
+    "id": "input-output-006",
+    "q": {
+      "en": "A machine gives the output 5, 10, 17 for the input 2, 3, 4. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ২, ৩, ৪ ৰ বাবে আউটপুট ৫, ১০, ১৭ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Square the number",
+        "as": "Square the number"
+      },
+      {
+        "en": "Add 10",
+        "as": "Add ১০"
+      },
+      {
+        "en": "Multiply by 3 and subtract 2",
+        "as": "Multiply by ৩ and subtract ২"
+      },
+      {
+        "en": "Square the number and add 1",
+        "as": "Square the number and add ১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Checking each input: 2 → 5 and 3 → 10, so the rule is to square the number and add 1.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ২ → ৫ আৰু ৩ → ১০, গতিকে নিয়মটো square the number and add ১।"
+    }
+  },
+  {
+    "id": "input-output-007",
+    "q": {
+      "en": "A machine gives the output 21, 31, 41 for the input 12, 13, 14. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ১২, ১৩, ১৪ ৰ বাবে আউটপুট ২১, ৩১, ৪১ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Cube the number",
+        "as": "Cube the number"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Add the squares of the digits",
+        "as": "Add the squares of the digits"
+      },
+      {
+        "en": "Reverse the digits",
+        "as": "Reverse the digits"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Checking each input: 12 → 21 and 13 → 31, so the rule is to reverse the digits.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ১২ → ২১ আৰু ১৩ → ৩১, গতিকে নিয়মটো reverse the digits।"
+    }
+  },
+  {
+    "id": "input-output-008",
+    "q": {
+      "en": "A machine gives the output 2, 5, 10 for the input 11, 12, 13. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ১১, ১২, ১৩ ৰ বাবে আউটপুট ২, ৫, ১০ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Add the squares of the digits",
+        "as": "Add the squares of the digits"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Reverse the digits",
+        "as": "Reverse the digits"
+      },
+      {
+        "en": "Cube the number",
+        "as": "Cube the number"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Checking each input: 11 → 2 and 12 → 5, so the rule is to add the squares of the digits.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ১১ → ২ আৰু ১২ → ৫, গতিকে নিয়মটো add the squares of the digits।"
+    }
+  },
+  {
+    "id": "input-output-009",
+    "q": {
+      "en": "A machine gives the output 6, 8, 10 for the input 3, 4, 5. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ৩, ৪, ৫ ৰ বাবে আউটপুট ৬, ৮, ১০ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Add 10",
+        "as": "Add ১০"
+      },
+      {
+        "en": "Double the sum of the digits",
+        "as": "Double the sum of the digits"
+      },
+      {
+        "en": "Multiply by 2 and add 1",
+        "as": "Multiply by ২ and add ১"
+      },
+      {
+        "en": "Square the number and add 1",
+        "as": "Square the number and add ১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Checking each input: 3 → 6 and 4 → 8, so the rule is to double the sum of the digits.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ৩ → ৬ আৰু ৪ → ৮, গতিকে নিয়মটো double the sum of the digits।"
+    }
+  },
+  {
+    "id": "input-output-010",
+    "q": {
+      "en": "A machine gives the output 10, 20, 30 for the input 2, 4, 6. What is the rule?",
+      "as": "এটা মেচিনে ইনপুট ২, ৪, ৬ ৰ বাবে আউটপুট ১০, ২০, ৩০ দিয়ে। নিয়মটো কি?"
+    },
+    "options": [
+      {
+        "en": "Reverse the digits",
+        "as": "Reverse the digits"
+      },
+      {
+        "en": "Multiply by 5",
+        "as": "Multiply by ৫"
+      },
+      {
+        "en": "Add 10",
+        "as": "Add ১০"
+      },
+      {
+        "en": "Square the number",
+        "as": "Square the number"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Checking each input: 2 → 10 and 4 → 20, so the rule is to multiply by 5.",
+      "as": "প্ৰতিটো ইনপুট পৰীক্ষা কৰি: ২ → ১০ আৰু ৪ → ২০, গতিকে নিয়মটো multiply by ৫।"
+    }
+  },
+  {
+    "id": "input-output-011",
+    "q": {
+      "en": "A machine follows the rule 'Square the input and add 3'. If the input is 7, what is the output?",
+      "as": "এটা মেচিনে 'Square the input and add ৩' নিয়ম অনুসৰণ কৰে। ইনপুট ৭ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "51",
+        "as": "৫১"
+      },
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "53",
+        "as": "৫৩"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule n² + 3 to 7 gives 52.",
+      "as": "৭ ত n² + ৩ নিয়ম প্ৰয়োগ কৰিলে ৫২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-012",
+    "q": {
+      "en": "A machine follows the rule 'Multiply the input by 4 and subtract 1'. If the input is 5, what is the output?",
+      "as": "এটা মেচিনে 'Multiply the input by ৪ and subtract ১' নিয়ম অনুসৰণ কৰে। ইনপুট ৫ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule 4n − 1 to 5 gives 19.",
+      "as": "৫ ত ৪n − ১ নিয়ম প্ৰয়োগ কৰিলে ১৯ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-013",
+    "q": {
+      "en": "A machine follows the rule 'Cube the input and subtract 1'. If the input is 5, what is the output?",
+      "as": "এটা মেচিনে 'Cube the input and subtract ১' নিয়ম অনুসৰণ কৰে। ইনপুট ৫ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "127",
+        "as": "১২৭"
+      },
+      {
+        "en": "124",
+        "as": "১২৪"
+      },
+      {
+        "en": "122",
+        "as": "১২২"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule n³ − 1 to 5 gives 124.",
+      "as": "৫ ত n³ − ১ নিয়ম প্ৰয়োগ কৰিলে ১২৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-014",
+    "q": {
+      "en": "A machine follows the rule 'Add 7, then double the result'. If the input is 6, what is the output?",
+      "as": "এটা মেচিনে 'Add ৭, then double the result' নিয়ম অনুসৰণ কৰে। ইনপুট ৬ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "26",
+        "as": "২৬"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Applying the rule 2(n + 7) to 6 gives 26.",
+      "as": "৬ ত ২(n + ৭) নিয়ম প্ৰয়োগ কৰিলে ২৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-015",
+    "q": {
+      "en": "A machine follows the rule 'Reverse the digits, then add 5'. If the input is 35, what is the output?",
+      "as": "এটা মেচিনে 'Reverse the digits, then add ৫' নিয়ম অনুসৰণ কৰে। ইনপুট ৩৫ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "56",
+        "as": "৫৬"
+      },
+      {
+        "en": "61",
+        "as": "৬১"
+      },
+      {
+        "en": "58",
+        "as": "৫৮"
+      },
+      {
+        "en": "57",
+        "as": "৫৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Applying the rule reverse then +5 to 35 gives 58.",
+      "as": "৩৫ ত reverse then +৫ নিয়ম প্ৰয়োগ কৰিলে ৫৮ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-016",
+    "q": {
+      "en": "A machine follows the rule 'Multiply the input by 3 and add 2'. If the input is 8, what is the output?",
+      "as": "এটা মেচিনে 'Multiply the input by ৩ and add ২' নিয়ম অনুসৰণ কৰে। ইনপুট ৮ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "23",
+        "as": "২৩"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Applying the rule 3n + 2 to 8 gives 26.",
+      "as": "৮ ত ৩n + ২ নিয়ম প্ৰয়োগ কৰিলে ২৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-017",
+    "q": {
+      "en": "A machine follows the rule 'Subtract 4 from the input, then square'. If the input is 8, what is the output?",
+      "as": "এটা মেচিনে 'Subtract ৪ from the input, then square' নিয়ম অনুসৰণ কৰে। ইনপুট ৮ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Applying the rule (n − 4)² to 8 gives 16.",
+      "as": "৮ ত (n − ৪)² নিয়ম প্ৰয়োগ কৰিলে ১৬ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-018",
+    "q": {
+      "en": "A machine follows the rule 'Multiply the input by itself, then subtract 10'. If the input is 7, what is the output?",
+      "as": "এটা মেচিনে 'Multiply the input by itself, then subtract ১০' নিয়ম অনুসৰণ কৰে। ইনপুট ৭ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "39",
+        "as": "৩৯"
+      },
+      {
+        "en": "38",
+        "as": "৩৮"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule n² − 10 to 7 gives 39.",
+      "as": "৭ ত n² − ১০ নিয়ম প্ৰয়োগ কৰিলে ৩৯ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-019",
+    "q": {
+      "en": "A machine follows the rule 'Multiply the input by 6 and add 1'. If the input is 5, what is the output?",
+      "as": "এটা মেচিনে 'Multiply the input by ৬ and add ১' নিয়ম অনুসৰণ কৰে। ইনপুট ৫ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "33",
+        "as": "৩৩"
+      },
+      {
+        "en": "31",
+        "as": "৩১"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule 6n + 1 to 5 gives 31.",
+      "as": "৫ ত ৬n + ১ নিয়ম প্ৰয়োগ কৰিলে ৩১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-020",
+    "q": {
+      "en": "A machine follows the rule 'Add the digits of the input, then multiply by 3'. If the input is 34, what is the output?",
+      "as": "এটা মেচিনে 'Add the digits of the input, then multiply by ৩' নিয়ম অনুসৰণ কৰে। ইনপুট ৩৪ হ'লে আউটপুট কিমান?"
+    },
+    "options": [
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "20",
+        "as": "২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Applying the rule 3 × digit sum to 34 gives 21.",
+      "as": "৩৪ ত ৩ × digit sum নিয়ম প্ৰয়োগ কৰিলে ২১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-021",
+    "q": {
+      "en": "Study the machine: Input: 62  43  17  35. Step I: 17  62  43  35. Step II: 17  35  62  43. Step III: 17  35  43  62. What is the output of Step 3?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৬২  ৪৩  ১৭  ৩৫। পদক্ষেপ I: ১৭  ৬২  ৪৩  ৩৫। পদক্ষেপ II: ১৭  ৩৫  ৬২  ৪৩। পদক্ষেপ III: ১৭  ৩৫  ৪৩  ৬২। পদক্ষেপ ৩ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "17  62  43  35",
+        "as": "১৭  ৬২  ৪৩  ৩৫"
+      },
+      {
+        "en": "17  35  62  43",
+        "as": "১৭  ৩৫  ৬২  ৪৩"
+      },
+      {
+        "en": "17  35  43  62",
+        "as": "১৭  ৩৫  ৪৩  ৬২"
+      },
+      {
+        "en": "62  43  35  17",
+        "as": "৬২  ৪৩  ৩৫  ১৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 3 is 17  35  43  62.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ৩ হ'ল ১৭  ৩৫  ৪৩  ৬২।"
+    }
+  },
+  {
+    "id": "input-output-022",
+    "q": {
+      "en": "Study the machine: Input: 54  28  13  47. Step I: 13  54  28  47. Step II: 13  28  54  47. Step III: 13  28  47  54. What is the output of Step 3?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৫৪  ২৮  ১৩  ৪৭। পদক্ষেপ I: ১৩  ৫৪  ২৮  ৪৭। পদক্ষেপ II: ১৩  ২৮  ৫৪  ৪৭। পদক্ষেপ III: ১৩  ২৮  ৪৭  ৫৪। পদক্ষেপ ৩ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "13  54  28  47",
+        "as": "১৩  ৫৪  ২৮  ৪৭"
+      },
+      {
+        "en": "13  28  54  47",
+        "as": "১৩  ২৮  ৫৪  ৪৭"
+      },
+      {
+        "en": "54  47  28  13",
+        "as": "৫৪  ৪৭  ২৮  ১৩"
+      },
+      {
+        "en": "13  28  47  54",
+        "as": "১৩  ২৮  ৪৭  ৫৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 3 is 13  28  47  54.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ৩ হ'ল ১৩  ২৮  ৪৭  ৫৪।"
+    }
+  },
+  {
+    "id": "input-output-023",
+    "q": {
+      "en": "Study the machine: Input: 61  25  38  19. Step I: 19  61  25  38. Step II: 19  25  61  38. Step III: 19  25  38  61. What is the output of Step 2?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৬১  ২৫  ৩৮  ১৯। পদক্ষেপ I: ১৯  ৬১  ২৫  ৩৮। পদক্ষেপ II: ১৯  ২৫  ৬১  ৩৮। পদক্ষেপ III: ১৯  ২৫  ৩৮  ৬১। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "19  25  61  38",
+        "as": "১৯  ২৫  ৬১  ৩৮"
+      },
+      {
+        "en": "19  61  25  38",
+        "as": "১৯  ৬১  ২৫  ৩৮"
+      },
+      {
+        "en": "19  25  38  61",
+        "as": "১৯  ২৫  ৩৮  ৬১"
+      },
+      {
+        "en": "61  38  25  19",
+        "as": "৬১  ৩৮  ২৫  ১৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 2 is 19  25  61  38.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ২ হ'ল ১৯  ২৫  ৬১  ৩৮।"
+    }
+  },
+  {
+    "id": "input-output-024",
+    "q": {
+      "en": "Study the machine: Input: 76  52  34  23. Step I: 23  76  52  34. Step II: 23  34  76  52. Step III: 23  34  52  76. What is the output of Step 3?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৭৬  ৫২  ৩৪  ২৩। পদক্ষেপ I: ২৩  ৭৬  ৫২  ৩৪। পদক্ষেপ II: ২৩  ৩৪  ৭৬  ৫২। পদক্ষেপ III: ২৩  ৩৪  ৫২  ৭৬। পদক্ষেপ ৩ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "23  76  52  34",
+        "as": "২৩  ৭৬  ৫২  ৩৪"
+      },
+      {
+        "en": "23  34  52  76",
+        "as": "২৩  ৩৪  ৫২  ৭৬"
+      },
+      {
+        "en": "23  34  76  52",
+        "as": "২৩  ৩৪  ৭৬  ৫২"
+      },
+      {
+        "en": "76  52  34  23",
+        "as": "৭৬  ৫২  ৩৪  ২৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 3 is 23  34  52  76.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ৩ হ'ল ২৩  ৩৪  ৫২  ৭৬।"
+    }
+  },
+  {
+    "id": "input-output-025",
+    "q": {
+      "en": "Study the machine: Input: 83  45  62  19. Step I: 19  83  45  62. Step II: 19  45  83  62. Step III: 19  45  62  83. What is the output of Step 2?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৮৩  ৪৫  ৬২  ১৯। পদক্ষেপ I: ১৯  ৮৩  ৪৫  ৬২। পদক্ষেপ II: ১৯  ৪৫  ৮৩  ৬২। পদক্ষেপ III: ১৯  ৪৫  ৬২  ৮৩। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "19  83  45  62",
+        "as": "১৯  ৮৩  ৪৫  ৬২"
+      },
+      {
+        "en": "19  45  83  62",
+        "as": "১৯  ৪৫  ৮৩  ৬২"
+      },
+      {
+        "en": "19  45  62  83",
+        "as": "১৯  ৪৫  ৬২  ৮৩"
+      },
+      {
+        "en": "83  62  45  19",
+        "as": "৮৩  ৬২  ৪৫  ১৯"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 2 is 19  45  83  62.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ২ হ'ল ১৯  ৪৫  ৮৩  ৬২।"
+    }
+  },
+  {
+    "id": "input-output-026",
+    "q": {
+      "en": "Study the machine: Input: 71  39  24  56. Step I: 24  71  39  56. Step II: 24  39  71  56. Step III: 24  39  56  71. What is the output of Step 2?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৭১  ৩৯  ২৪  ৫৬। পদক্ষেপ I: ২৪  ৭১  ৩৯  ৫৬। পদক্ষেপ II: ২৪  ৩৯  ৭১  ৫৬। পদক্ষেপ III: ২৪  ৩৯  ৫৬  ৭১। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "24  39  71  56",
+        "as": "২৪  ৩৯  ৭১  ৫৬"
+      },
+      {
+        "en": "24  71  39  56",
+        "as": "২৪  ৭১  ৩৯  ৫৬"
+      },
+      {
+        "en": "24  39  56  71",
+        "as": "২৪  ৩৯  ৫৬  ৭১"
+      },
+      {
+        "en": "71  56  39  24",
+        "as": "৭১  ৫৬  ৩৯  ২৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 2 is 24  39  71  56.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ২ হ'ল ২৪  ৩৯  ৭১  ৫৬।"
+    }
+  },
+  {
+    "id": "input-output-027",
+    "q": {
+      "en": "Study the machine: Input: 84  27  53  36. Step I: 27  84  53  36. Step II: 27  36  84  53. Step III: 27  36  53  84. What is the output of Step 2?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৮৪  ২৭  ৫৩  ৩৬। পদক্ষেপ I: ২৭  ৮৪  ৫৩  ৩৬। পদক্ষেপ II: ২৭  ৩৬  ৮৪  ৫৩। পদক্ষেপ III: ২৭  ৩৬  ৫৩  ৮৪। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "27  84  53  36",
+        "as": "২৭  ৮৪  ৫৩  ৩৬"
+      },
+      {
+        "en": "27  36  53  84",
+        "as": "২৭  ৩৬  ৫৩  ৮৪"
+      },
+      {
+        "en": "84  53  36  27",
+        "as": "৮৪  ৫৩  ৩৬  ২৭"
+      },
+      {
+        "en": "27  36  84  53",
+        "as": "২৭  ৩৬  ৮৪  ৫৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 2 is 27  36  84  53.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ২ হ'ল ২৭  ৩৬  ৮৪  ৫৩।"
+    }
+  },
+  {
+    "id": "input-output-028",
+    "q": {
+      "en": "Study the machine: Input: 72  16  49  35. Step I: 16  72  49  35. Step II: 16  35  72  49. Step III: 16  35  49  72. What is the output of Step 2?",
+      "as": "মেচিনটো অধ্যয়ন কৰক: ইনপুট: ৭২  ১৬  ৪৯  ৩৫। পদক্ষেপ I: ১৬  ৭২  ৪৯  ৩৫। পদক্ষেপ II: ১৬  ৩৫  ৭২  ৪৯। পদক্ষেপ III: ১৬  ৩৫  ৪৯  ৭২। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "16  35  72  49",
+        "as": "১৬  ৩৫  ৭২  ৪৯"
+      },
+      {
+        "en": "16  72  49  35",
+        "as": "১৬  ৭২  ৪৯  ৩৫"
+      },
+      {
+        "en": "16  35  49  72",
+        "as": "১৬  ৩৫  ৪৯  ৭২"
+      },
+      {
+        "en": "72  49  35  16",
+        "as": "৭২  ৪৯  ৩৫  ১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The machine places the smallest remaining number at the front in each step, so Step 2 is 16  35  72  49.",
+      "as": "মেচিনে প্ৰতিটো পদক্ষেপত বাকী থকা আটাইতকৈ সৰু সংখ্যাটো আগত ৰাখে, গতিকে পদক্ষেপ ২ হ'ল ১৬  ৩৫  ৭২  ৪৯।"
+    }
+  },
+  {
+    "id": "input-output-029",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: dog  cat  apple  ball. Step I: apple  dog  cat  ball. Step II: apple  ball  dog  cat. Step III: apple  ball  cat  dog. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: dog  cat  apple  ball। পদক্ষেপ I: apple  dog  cat  ball। পদক্ষেপ II: apple  ball  dog  cat। পদক্ষেপ III: apple  ball  cat  dog। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "apple  dog  cat  ball",
+        "as": "apple  dog  cat  ball"
+      },
+      {
+        "en": "apple  ball  dog  cat",
+        "as": "apple  ball  dog  cat"
+      },
+      {
+        "en": "apple  ball  cat  dog",
+        "as": "apple  ball  cat  dog"
+      },
+      {
+        "en": "dog  cat  ball  apple",
+        "as": "dog  cat  ball  apple"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is apple  ball  dog  cat.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল apple  ball  dog  cat।"
+    }
+  },
+  {
+    "id": "input-output-030",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: tulip  rose  lily  daisy. Step I: daisy  tulip  rose  lily. Step II: daisy  lily  tulip  rose. Step III: daisy  lily  rose  tulip. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: tulip  rose  lily  daisy। পদক্ষেপ I: daisy  tulip  rose  lily। পদক্ষেপ II: daisy  lily  tulip  rose। পদক্ষেপ III: daisy  lily  rose  tulip। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "daisy  tulip  rose  lily",
+        "as": "daisy  tulip  rose  lily"
+      },
+      {
+        "en": "daisy  lily  tulip  rose",
+        "as": "daisy  lily  tulip  rose"
+      },
+      {
+        "en": "daisy  lily  rose  tulip",
+        "as": "daisy  lily  rose  tulip"
+      },
+      {
+        "en": "tulip  rose  lily  daisy",
+        "as": "tulip  rose  lily  daisy"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is daisy  lily  tulip  rose.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল daisy  lily  tulip  rose।"
+    }
+  },
+  {
+    "id": "input-output-031",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: red  blue  green  pink. Step I: blue  red  green  pink. Step II: blue  green  red  pink. Step III: blue  green  pink  red. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: red  blue  green  pink। পদক্ষেপ I: blue  red  green  pink। পদক্ষেপ II: blue  green  red  pink। পদক্ষেপ III: blue  green  pink  red। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "blue  red  green  pink",
+        "as": "blue  red  green  pink"
+      },
+      {
+        "en": "blue  green  red  pink",
+        "as": "blue  green  red  pink"
+      },
+      {
+        "en": "blue  green  pink  red",
+        "as": "blue  green  pink  red"
+      },
+      {
+        "en": "red  pink  green  blue",
+        "as": "red  pink  green  blue"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is blue  green  red  pink.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল blue  green  red  pink।"
+    }
+  },
+  {
+    "id": "input-output-032",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: pen  book  ink  page. Step I: book  pen  ink  page. Step II: book  ink  pen  page. Step III: book  ink  page  pen. What is the output of Step 3?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: pen  book  ink  page। পদক্ষেপ I: book  pen  ink  page। পদক্ষেপ II: book  ink  pen  page। পদক্ষেপ III: book  ink  page  pen। পদক্ষেপ ৩ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "book  pen  ink  page",
+        "as": "book  pen  ink  page"
+      },
+      {
+        "en": "book  ink  pen  page",
+        "as": "book  ink  pen  page"
+      },
+      {
+        "en": "pen  page  ink  book",
+        "as": "pen  page  ink  book"
+      },
+      {
+        "en": "book  ink  page  pen",
+        "as": "book  ink  page  pen"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 3 is book  ink  page  pen.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ৩ হ'ল book  ink  page  pen।"
+    }
+  },
+  {
+    "id": "input-output-033",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: sun  moon  star  sky. Step I: moon  sun  star  sky. Step II: moon  sky  sun  star. Step III: moon  sky  star  sun. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: sun  moon  star  sky। পদক্ষেপ I: moon  sun  star  sky। পদক্ষেপ II: moon  sky  sun  star। পদক্ষেপ III: moon  sky  star  sun। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "moon  sun  star  sky",
+        "as": "moon  sun  star  sky"
+      },
+      {
+        "en": "moon  sky  star  sun",
+        "as": "moon  sky  star  sun"
+      },
+      {
+        "en": "moon  sky  sun  star",
+        "as": "moon  sky  sun  star"
+      },
+      {
+        "en": "sun  star  sky  moon",
+        "as": "sun  star  sky  moon"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is moon  sky  sun  star.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল moon  sky  sun  star।"
+    }
+  },
+  {
+    "id": "input-output-034",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: zinc  gold  iron  lead. Step I: gold  zinc  iron  lead. Step II: gold  iron  zinc  lead. Step III: gold  iron  lead  zinc. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: zinc  gold  iron  lead। পদক্ষেপ I: gold  zinc  iron  lead। পদক্ষেপ II: gold  iron  zinc  lead। পদক্ষেপ III: gold  iron  lead  zinc। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "gold  iron  zinc  lead",
+        "as": "gold  iron  zinc  lead"
+      },
+      {
+        "en": "gold  zinc  iron  lead",
+        "as": "gold  zinc  iron  lead"
+      },
+      {
+        "en": "gold  iron  lead  zinc",
+        "as": "gold  iron  lead  zinc"
+      },
+      {
+        "en": "zinc  lead  iron  gold",
+        "as": "zinc  lead  iron  gold"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is gold  iron  zinc  lead.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল gold  iron  zinc  lead।"
+    }
+  },
+  {
+    "id": "input-output-035",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: owl  ant  bee  cow. Step I: ant  owl  bee  cow. Step II: ant  bee  owl  cow. Step III: ant  bee  cow  owl. What is the output of Step 3?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: owl  ant  bee  cow। পদক্ষেপ I: ant  owl  bee  cow। পদক্ষেপ II: ant  bee  owl  cow। পদক্ষেপ III: ant  bee  cow  owl। পদক্ষেপ ৩ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "ant  owl  bee  cow",
+        "as": "ant  owl  bee  cow"
+      },
+      {
+        "en": "ant  bee  owl  cow",
+        "as": "ant  bee  owl  cow"
+      },
+      {
+        "en": "owl  cow  bee  ant",
+        "as": "owl  cow  bee  ant"
+      },
+      {
+        "en": "ant  bee  cow  owl",
+        "as": "ant  bee  cow  owl"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 3 is ant  bee  cow  owl.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ৩ হ'ল ant  bee  cow  owl।"
+    }
+  },
+  {
+    "id": "input-output-036",
+    "q": {
+      "en": "A word machine arranges its input alphabetically, one word per step. Input: west  north  south  east. Step I: east  west  north  south. Step II: east  north  west  south. Step III: east  north  south  west. What is the output of Step 2?",
+      "as": "এটা শব্দ মেচিনে ইনপুটটো বৰ্ণানুক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা শব্দ। ইনপুট: west  north  south  east। পদক্ষেপ I: east  west  north  south। পদক্ষেপ II: east  north  west  south। পদক্ষেপ III: east  north  south  west। পদক্ষেপ ২ ৰ আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "east  north  west  south",
+        "as": "east  north  west  south"
+      },
+      {
+        "en": "east  west  north  south",
+        "as": "east  west  north  south"
+      },
+      {
+        "en": "east  north  south  west",
+        "as": "east  north  south  west"
+      },
+      {
+        "en": "west  south  north  east",
+        "as": "west  south  north  east"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Alphabetical order places the next word of the sorted list at the front step by step, so Step 2 is east  north  west  south.",
+      "as": "বৰ্ণানুক্ৰমে সজোৱা তালিকাৰ পৰৱৰ্তী শব্দটোৱে পদক্ষেপে পদক্ষেপে আগত যায়, গতিকে পদক্ষেপ ২ হ'ল east  north  west  south।"
+    }
+  },
+  {
+    "id": "input-output-037",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 62  43  17  35  28. Which step gives the output 17  28  35  62  43?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৬২  ৪৩  ১৭  ৩৫  ২৮। কোনটো পদক্ষেপে আউটপুট ১৭  ২৮  ৩৫  ৬২  ৪৩ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 17  28  35  62  43 appears at Step 3.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ১৭  ২৮  ৩৫  ৬২  ৪৩ পদক্ষেপ ৩ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-038",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 13  54  47  26  61. Which step gives the output 61  54  47  13  26?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ১৩  ৫৪  ৪৭  ২৬  ৬১। কোনটো পদক্ষেপে আউটপুট ৬১  ৫৪  ৪৭  ১৩  ২৬ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 61  54  47  13  26 appears at Step 3.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ৬১  ৫৪  ৪৭  ১৩  ২৬ পদক্ষেপ ৩ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-039",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 61  25  38  19  52. Which step gives the output 19  25  61  38  52?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৬১  ২৫  ৩৮  ১৯  ৫২। কোনটো পদক্ষেপে আউটপুট ১৯  ২৫  ৬১  ৩৮  ৫২ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 19  25  61  38  52 appears at Step 2.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ১৯  ২৫  ৬১  ৩৮  ৫২ পদক্ষেপ ২ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-040",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 23  34  76  58  45. Which step gives the output 76  58  45  34  23?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ২৩  ৩৪  ৭৬  ৫৮  ৪৫। কোনটো পদক্ষেপে আউটপুট ৭৬  ৫৮  ৪৫  ৩৪  ২৩ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      },
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 76  58  45  34  23 appears at Step 4.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ৭৬  ৫৮  ৪৫  ৩৪  ২৩ পদক্ষেপ ৪ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-041",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 83  62  19  45  71. Which step gives the output 19  45  62  71  83?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৮৩  ৬২  ১৯  ৪৫  ৭১। কোনটো পদক্ষেপে আউটপুট ১৯  ৪৫  ৬২  ৭১  ৮৩ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 19  45  62  71  83 appears at Step 4.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ১৯  ৪৫  ৬২  ৭১  ৮৩ পদক্ষেপ ৪ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-042",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 24  39  71  56  88. Which step gives the output 88  71  24  39  56?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ২৪  ৩৯  ৭১  ৫৬  ৮৮। কোনটো পদক্ষেপে আউটপুট ৮৮  ৭১  ২৪  ৩৯  ৫৬ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 88  71  24  39  56 appears at Step 2.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ৮৮  ৭১  ২৪  ৩৯  ৫৬ পদক্ষেপ ২ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-043",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 84  27  53  36  62. Which step gives the output 27  36  84  53  62?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৮৪  ২৭  ৫৩  ৩৬  ৬২। কোনটো পদক্ষেপে আউটপুট ২৭  ৩৬  ৮৪  ৫৩  ৬২ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 27  36  84  53  62 appears at Step 2.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ২৭  ৩৬  ৮৪  ৫৩  ৬২ পদক্ষেপ ২ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-044",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 16  49  72  35  58. Which step gives the output 72  58  49  35  16?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ১৬  ৪৯  ৭২  ৩৫  ৫৮। কোনটো পদক্ষেপে আউটপুট ৭২  ৫৮  ৪৯  ৩৫  ১৬ দিয়ে?"
+    },
+    "options": [
+      {
+        "en": "Step 1",
+        "as": "Step ১"
+      },
+      {
+        "en": "Step 2",
+        "as": "Step ২"
+      },
+      {
+        "en": "Step 3",
+        "as": "Step ৩"
+      },
+      {
+        "en": "Step 4",
+        "as": "Step ৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Counting the rearrangements from the input, 72  58  49  35  16 appears at Step 4.",
+      "as": "ইনপুটৰ পৰা পুনৰ্বিন্যাস গণনা কৰি, ৭২  ৫৮  ৪৯  ৩৫  ১৬ পদক্ষেপ ৪ ত দেখা যায়।"
+    }
+  },
+  {
+    "id": "input-output-045",
+    "q": {
+      "en": "A machine takes a mixed input and gives a mixed output. Input: go  12  up  35 → Output: go  up  12  35. What does the machine do?",
+      "as": "এটা মেচিনে মিশ্ৰ ইনপুট লৈ মিশ্ৰ আউটপুট দিয়ে। ইনপুট: go  ১২  up  ৩৫ → আউটপুট: go  up  ১২  ৩৫। মেচিনটোৱে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Places all numbers first in ascending order, then all words in alphabetical order",
+        "as": "Places all numbers first in ascending order, then all words in alphabetical order"
+      },
+      {
+        "en": "Places all words first in alphabetical order, then all numbers in ascending order",
+        "as": "Places all words first in alphabetical order, then all numbers in ascending order"
+      },
+      {
+        "en": "Reverses the order of the whole input",
+        "as": "Reverses the order of the whole input"
+      },
+      {
+        "en": "Places words in reverse alphabetical order, then numbers in descending order",
+        "as": "Places words in reverse alphabetical order, then numbers in descending order"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The words appear first, in alphabetical order, followed by the numbers in ascending order.",
+      "as": "শব্দবোৰ প্ৰথমে বৰ্ণানুক্ৰমে, তাৰ পিছত সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমে আহে।"
+    }
+  },
+  {
+    "id": "input-output-046",
+    "q": {
+      "en": "A machine takes a mixed input and gives a mixed output. Input: run  27  sit  14 → Output: run  sit  14  27. What does the machine do?",
+      "as": "এটা মেচিনে মিশ্ৰ ইনপুট লৈ মিশ্ৰ আউটপুট দিয়ে। ইনপুট: run  ২৭  sit  ১৪ → আউটপুট: run  sit  ১৪  ২৭। মেচিনটোৱে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Places all numbers first in ascending order, then all words in alphabetical order",
+        "as": "Places all numbers first in ascending order, then all words in alphabetical order"
+      },
+      {
+        "en": "Reverses the order of the whole input",
+        "as": "Reverses the order of the whole input"
+      },
+      {
+        "en": "Places words in reverse alphabetical order, then numbers in descending order",
+        "as": "Places words in reverse alphabetical order, then numbers in descending order"
+      },
+      {
+        "en": "Places all words first in alphabetical order, then all numbers in ascending order",
+        "as": "Places all words first in alphabetical order, then all numbers in ascending order"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The words appear first, in alphabetical order, followed by the numbers in ascending order.",
+      "as": "শব্দবোৰ প্ৰথমে বৰ্ণানুক্ৰমে, তাৰ পিছত সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমে আহে।"
+    }
+  },
+  {
+    "id": "input-output-047",
+    "q": {
+      "en": "A machine takes a mixed input and gives a mixed output. Input: ant  45  bee  22 → Output: ant  bee  22  45. What does the machine do?",
+      "as": "এটা মেচিনে মিশ্ৰ ইনপুট লৈ মিশ্ৰ আউটপুট দিয়ে। ইনপুট: ant  ৪৫  bee  ২২ → আউটপুট: ant  bee  ২২  ৪৫। মেচিনটোৱে কি কৰে?"
+    },
+    "options": [
+      {
+        "en": "Places all numbers first in ascending order, then all words in alphabetical order",
+        "as": "Places all numbers first in ascending order, then all words in alphabetical order"
+      },
+      {
+        "en": "Reverses the order of the whole input",
+        "as": "Reverses the order of the whole input"
+      },
+      {
+        "en": "Places words in reverse alphabetical order, then numbers in descending order",
+        "as": "Places words in reverse alphabetical order, then numbers in descending order"
+      },
+      {
+        "en": "Places all words first in alphabetical order, then all numbers in ascending order",
+        "as": "Places all words first in alphabetical order, then all numbers in ascending order"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The words appear first, in alphabetical order, followed by the numbers in ascending order.",
+      "as": "শব্দবোৰ প্ৰথমে বৰ্ণানুক্ৰমে, তাৰ পিছত সংখ্যাবোৰ ঊৰ্ধ্বক্ৰমে আহে।"
+    }
+  },
+  {
+    "id": "input-output-048",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. The final output (Step 4) is 23  41  57  68. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ২৩  ৪১  ৫৭  ৬৮। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "24  41  57  68",
+        "as": "২৪  ৪১  ৫৭  ৬৮"
+      },
+      {
+        "en": "23  42  57  68",
+        "as": "২৩  ৪২  ৫৭  ৬৮"
+      },
+      {
+        "en": "23  68  57  41",
+        "as": "২৩  ৬৮  ৫৭  ৪১"
+      },
+      {
+        "en": "23  41  58  68",
+        "as": "২৩  ৪১  ৫৮  ৬৮"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 23  41  57  68; sorting 23  68  57  41 gives 23  41  57  68, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ২৩  ৪১  ৫৭  ৬৮ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ২৩  ৬৮  ৫৭  ৪১ সজালে ২৩  ৪১  ৫৭  ৬৮ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-049",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. The final output (Step 4) is 75  61  43  29. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ৭৫  ৬১  ৪৩  ২৯। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "75  43  61  29",
+        "as": "৭৫  ৪৩  ৬১  ২৯"
+      },
+      {
+        "en": "76  61  43  29",
+        "as": "৭৬  ৬১  ৪৩  ২৯"
+      },
+      {
+        "en": "75  62  43  29",
+        "as": "৭৫  ৬২  ৪৩  ২৯"
+      },
+      {
+        "en": "75  61  44  29",
+        "as": "৭৫  ৬১  ৪৪  ২৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 75  61  43  29; sorting 75  43  61  29 gives 75  61  43  29, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ৭৫  ৬১  ৪৩  ২৯ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ৭৫  ৪৩  ৬১  ২৯ সজালে ৭৫  ৬১  ৪৩  ২৯ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-050",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. The final output (Step 4) is 18  34  52  67. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ১৮  ৩৪  ৫২  ৬৭। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "19  34  52  67",
+        "as": "১৯  ৩৪  ৫২  ৬৭"
+      },
+      {
+        "en": "18  35  52  67",
+        "as": "১৮  ৩৫  ৫২  ৬৭"
+      },
+      {
+        "en": "52  67  18  34",
+        "as": "৫২  ৬৭  ১৮  ৩৪"
+      },
+      {
+        "en": "18  34  53  67",
+        "as": "১৮  ৩৪  ৫৩  ৬৭"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 18  34  52  67; sorting 52  67  18  34 gives 18  34  52  67, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ১৮  ৩৪  ৫২  ৬৭ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ৫২  ৬৭  ১৮  ৩৪ সজালে ১৮  ৩৪  ৫২  ৬৭ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-051",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. The final output (Step 4) is 79  66  48  31. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ৭৯  ৬৬  ৪৮  ৩১। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "80  66  48  31",
+        "as": "৮০  ৬৬  ৪৮  ৩১"
+      },
+      {
+        "en": "79  67  48  31",
+        "as": "৭৯  ৬৭  ৪৮  ৩১"
+      },
+      {
+        "en": "66  31  79  48",
+        "as": "৬৬  ৩১  ৭৯  ৪৮"
+      },
+      {
+        "en": "79  66  49  31",
+        "as": "৭৯  ৬৬  ৪৯  ৩১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 79  66  48  31; sorting 66  31  79  48 gives 79  66  48  31, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ৭৯  ৬৬  ৪৮  ৩১ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ৬৬  ৩১  ৭৯  ৪৮ সজালে ৭৯  ৬৬  ৪৮  ৩১ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-052",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. The final output (Step 4) is 26  45  58  71. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ২৬  ৪৫  ৫৮  ৭১। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "27  45  58  71",
+        "as": "২৭  ৪৫  ৫৮  ৭১"
+      },
+      {
+        "en": "26  46  58  71",
+        "as": "২৬  ৪৬  ৫৮  ৭১"
+      },
+      {
+        "en": "45  58  71  26",
+        "as": "৪৫  ৫৮  ৭১  ২৬"
+      },
+      {
+        "en": "26  45  59  71",
+        "as": "২৬  ৪৫  ৫৯  ৭১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 26  45  58  71; sorting 45  58  71  26 gives 26  45  58  71, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ২৬  ৪৫  ৫৮  ৭১ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ৪৫  ৫৮  ৭১  ২৬ সজালে ২৬  ৪৫  ৫৮  ৭১ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-053",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. The final output (Step 4) is 73  55  39  24. Which of the following could be the input?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। চূড়ান্ত আউটপুট (পদক্ষেপ ৪) হ'ল ৭৩  ৫৫  ৩৯  ২৪। তলৰ কোনটো ইনপুট হ'ব পাৰে?"
+    },
+    "options": [
+      {
+        "en": "74  55  39  24",
+        "as": "৭৪  ৫৫  ৩৯  ২৪"
+      },
+      {
+        "en": "73  56  39  24",
+        "as": "৭৩  ৫৬  ৩৯  ২৪"
+      },
+      {
+        "en": "73  39  55  24",
+        "as": "৭৩  ৩৯  ৫৫  ২৪"
+      },
+      {
+        "en": "73  55  40  24",
+        "as": "৭৩  ৫৫  ৪০  ২৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The input must be a rearrangement of exactly 73  55  39  24; sorting 73  39  55  24 gives 73  55  39  24, while the other lists contain a number that is not in the output.",
+      "as": "ইনপুটটো ঠিক ৭৩  ৫৫  ৩৯  ২৪ ৰ এটা পুনৰ্বিন্যাস হ'ব লাগে; ৭৩  ৩৯  ৫৫  ২৪ সজালে ৭৩  ৫৫  ৩৯  ২৪ পোৱা যায়, আনহাতে বাকী তালিকাবোৰত আউটপুটত নথকা এটা সংখ্যা আছে।"
+    }
+  },
+  {
+    "id": "input-output-054",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 47  13  82  25  60. What is the output after Step 2?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৪৭  ১৩  ৮২  ২৫  ৬০। পদক্ষেপ ২ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "13  47  82  25  60",
+        "as": "১৩  ৪৭  ৮২  ২৫  ৬০"
+      },
+      {
+        "en": "13  25  47  60  82",
+        "as": "১৩  ২৫  ৪৭  ৬০  ৮২"
+      },
+      {
+        "en": "82  60  47  25  13",
+        "as": "৮২  ৬০  ৪৭  ২৫  ১৩"
+      },
+      {
+        "en": "13  25  47  82  60",
+        "as": "১৩  ২৫  ৪৭  ৮২  ৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After Step 2 the machine has placed 2 number(s) in their final places, giving 13  25  47  82  60.",
+      "as": "পদক্ষেপ ২ ৰ পিছত মেচিনে ২ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ১৩  ২৫  ৪৭  ৮২  ৬০ হয়।"
+    }
+  },
+  {
+    "id": "input-output-055",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 52  19  74  38  66. What is the output after Step 2?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৫২  ১৯  ৭৪  ৩৮  ৬৬। পদক্ষেপ ২ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "74  52  19  38  66",
+        "as": "৭৪  ৫২  ১৯  ৩৮  ৬৬"
+      },
+      {
+        "en": "74  66  52  38  19",
+        "as": "৭৪  ৬৬  ৫২  ৩৮  ১৯"
+      },
+      {
+        "en": "19  38  52  66  74",
+        "as": "১৯  ৩৮  ৫২  ৬৬  ৭৪"
+      },
+      {
+        "en": "74  66  52  19  38",
+        "as": "৭৪  ৬৬  ৫২  ১৯  ৩৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After Step 2 the machine has placed 2 number(s) in their final places, giving 74  66  52  19  38.",
+      "as": "পদক্ষেপ ২ ৰ পিছত মেচিনে ২ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ৭৪  ৬৬  ৫২  ১৯  ৩৮ হয়।"
+    }
+  },
+  {
+    "id": "input-output-056",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 35  88  12  56  43. What is the output after Step 1?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৩৫  ৮৮  ১২  ৫৬  ৪৩। পদক্ষেপ ১ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "12  35  43  88  56",
+        "as": "১২  ৩৫  ৪৩  ৮৮  ৫৬"
+      },
+      {
+        "en": "12  35  43  56  88",
+        "as": "১২  ৩৫  ৪৩  ৫৬  ৮৮"
+      },
+      {
+        "en": "88  56  43  35  12",
+        "as": "৮৮  ৫৬  ৪৩  ৩৫  ১২"
+      },
+      {
+        "en": "12  35  88  56  43",
+        "as": "১২  ৩৫  ৮৮  ৫৬  ৪৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After Step 1 the machine has placed 1 number(s) in their final places, giving 12  35  88  56  43.",
+      "as": "পদক্ষেপ ১ ৰ পিছত মেচিনে ১ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ১২  ৩৫  ৮৮  ৫৬  ৪৩ হয়।"
+    }
+  },
+  {
+    "id": "input-output-057",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 27  63  45  91  18. What is the output after Step 2?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ২৭  ৬৩  ৪৫  ৯১  ১৮। পদক্ষেপ ২ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "91  27  63  45  18",
+        "as": "৯১  ২৭  ৬৩  ৪৫  ১৮"
+      },
+      {
+        "en": "91  63  45  27  18",
+        "as": "৯১  ৬৩  ৪৫  ২৭  ১৮"
+      },
+      {
+        "en": "18  27  45  63  91",
+        "as": "১৮  ২৭  ৪৫  ৬৩  ৯১"
+      },
+      {
+        "en": "91  63  27  45  18",
+        "as": "৯১  ৬৩  ২৭  ৪৫  ১৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "After Step 2 the machine has placed 2 number(s) in their final places, giving 91  63  27  45  18.",
+      "as": "পদক্ষেপ ২ ৰ পিছত মেচিনে ২ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ৯১  ৬৩  ২৭  ৪৫  ১৮ হয়।"
+    }
+  },
+  {
+    "id": "input-output-058",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 64  29  51  17  76. What is the output after Step 1?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৬৪  ২৯  ৫১  ১৭  ৭৬। পদক্ষেপ ১ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "17  29  64  51  76",
+        "as": "১৭  ২৯  ৬৪  ৫১  ৭৬"
+      },
+      {
+        "en": "17  64  29  51  76",
+        "as": "১৭  ৬৪  ২৯  ৫১  ৭৬"
+      },
+      {
+        "en": "17  29  51  64  76",
+        "as": "১৭  ২৯  ৫১  ৬৪  ৭৬"
+      },
+      {
+        "en": "76  64  51  29  17",
+        "as": "৭৬  ৬৪  ৫১  ২৯  ১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After Step 1 the machine has placed 1 number(s) in their final places, giving 17  64  29  51  76.",
+      "as": "পদক্ষেপ ১ ৰ পিছত মেচিনে ১ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ১৭  ৬৪  ২৯  ৫১  ৭৬ হয়।"
+    }
+  },
+  {
+    "id": "input-output-059",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 41  57  23  85  34. What is the output after Step 1?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৪১  ৫৭  ২৩  ৮৫  ৩৪। পদক্ষেপ ১ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "85  41  57  23  34",
+        "as": "৮৫  ৪১  ৫৭  ২৩  ৩৪"
+      },
+      {
+        "en": "85  57  41  23  34",
+        "as": "৮৫  ৫৭  ৪১  ২৩  ৩৪"
+      },
+      {
+        "en": "85  57  41  34  23",
+        "as": "৮৫  ৫৭  ৪১  ৩৪  ২৩"
+      },
+      {
+        "en": "23  34  41  57  85",
+        "as": "২৩  ৩৪  ৪১  ৫৭  ৮৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "After Step 1 the machine has placed 1 number(s) in their final places, giving 85  41  57  23  34.",
+      "as": "পদক্ষেপ ১ ৰ পিছত মেচিনে ১ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ৮৫  ৪১  ৫৭  ২৩  ৩৪ হয়।"
+    }
+  },
+  {
+    "id": "input-output-060",
+    "q": {
+      "en": "A number machine arranges its input in ascending order, one number per step. Input: 58  34  79  21  46. What is the output after Step 1?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো ঊৰ্ধ্বক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৫৮  ৩৪  ৭৯  ২১  ৪৬। পদক্ষেপ ১ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "21  34  58  79  46",
+        "as": "২১  ৩৪  ৫৮  ৭৯  ৪৬"
+      },
+      {
+        "en": "21  34  46  58  79",
+        "as": "২১  ৩৪  ৪৬  ৫৮  ৭৯"
+      },
+      {
+        "en": "21  58  34  79  46",
+        "as": "২১  ৫৮  ৩৪  ৭৯  ৪৬"
+      },
+      {
+        "en": "79  58  46  34  21",
+        "as": "৭৯  ৫৮  ৪৬  ৩৪  ২১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "After Step 1 the machine has placed 1 number(s) in their final places, giving 21  58  34  79  46.",
+      "as": "পদক্ষেপ ১ ৰ পিছত মেচিনে ১ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ২১  ৫৮  ৩৪  ৭৯  ৪৬ হয়।"
+    }
+  },
+  {
+    "id": "input-output-061",
+    "q": {
+      "en": "A number machine arranges its input in descending order, one number per step. Input: 33  68  15  52  77. What is the output after Step 2?",
+      "as": "এটা সংখ্যা মেচিনে ইনপুটটো অধঃক্ৰমে সজায়, প্ৰতি পদক্ষেপত এটা সংখ্যা। ইনপুট: ৩৩  ৬৮  ১৫  ৫২  ৭৭। পদক্ষেপ ২ ৰ পিছত আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "77  33  68  15  52",
+        "as": "৭৭  ৩৩  ৬৮  ১৫  ৫২"
+      },
+      {
+        "en": "77  68  33  15  52",
+        "as": "৭৭  ৬৮  ৩৩  ১৫  ৫২"
+      },
+      {
+        "en": "77  68  52  33  15",
+        "as": "৭৭  ৬৮  ৫২  ৩৩  ১৫"
+      },
+      {
+        "en": "15  33  52  68  77",
+        "as": "১৫  ৩৩  ৫২  ৬৮  ৭৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "After Step 2 the machine has placed 2 number(s) in their final places, giving 77  68  33  15  52.",
+      "as": "পদক্ষেপ ২ ৰ পিছত মেচিনে ২ টা সংখ্যা তেওঁলোকৰ চূড়ান্ত স্থানত ৰাখিছে, যাৰ ফলত ৭৭  ৬৮  ৩৩  ১৫  ৫২ হয়।"
+    }
+  },
+  {
+    "id": "input-output-062",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the even numbers, and arranges them in ascending order. For the input 3  8  5  12  7  10, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল যুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ৩  ৮  ৫  ১২  ৭  ১০ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "3  5  7",
+        "as": "৩  ৫  ৭"
+      },
+      {
+        "en": "3  5  7  8  10  12",
+        "as": "৩  ৫  ৭  ৮  ১০  ১২"
+      },
+      {
+        "en": "8  10  12",
+        "as": "৮  ১০  ১২"
+      },
+      {
+        "en": "12  10  8  7  5  3",
+        "as": "১২  ১০  ৮  ৭  ৫  ৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The even numbers are 8, 10, 12, which in ascending order give 8  10  12.",
+      "as": "যুগ্ম সংখ্যাবোৰ ৮, ১০, ১২, ঊৰ্ধ্বক্ৰমে সজালে ৮  ১০  ১২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-063",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the odd numbers, and arranges them in ascending order. For the input 14  9  6  21  4  15, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল অযুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ১৪  ৯  ৬  ২১  ৪  ১৫ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "9  15  21",
+        "as": "৯  ১৫  ২১"
+      },
+      {
+        "en": "4  6  14",
+        "as": "৪  ৬  ১৪"
+      },
+      {
+        "en": "4  6  9  14  15  21",
+        "as": "৪  ৬  ৯  ১৪  ১৫  ২১"
+      },
+      {
+        "en": "21  15  14  9  6  4",
+        "as": "২১  ১৫  ১৪  ৯  ৬  ৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The odd numbers are 9, 15, 21, which in ascending order give 9  15  21.",
+      "as": "অযুগ্ম সংখ্যাবোৰ ৯, ১৫, ২১, ঊৰ্ধ্বক্ৰমে সজালে ৯  ১৫  ২১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-064",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the even numbers, and arranges them in ascending order. For the input 22  13  8  17  6  11, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল যুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ২২  ১৩  ৮  ১৭  ৬  ১১ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "6  8  22",
+        "as": "৬  ৮  ২২"
+      },
+      {
+        "en": "11  13  17",
+        "as": "১১  ১৩  ১৭"
+      },
+      {
+        "en": "6  8  11  13  17  22",
+        "as": "৬  ৮  ১১  ১৩  ১৭  ২২"
+      },
+      {
+        "en": "22  17  13  11  8  6",
+        "as": "২২  ১৭  ১৩  ১১  ৮  ৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The even numbers are 6, 8, 22, which in ascending order give 6  8  22.",
+      "as": "যুগ্ম সংখ্যাবোৰ ৬, ৮, ২২, ঊৰ্ধ্বক্ৰমে সজালে ৬  ৮  ২২ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-065",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the odd numbers, and arranges them in ascending order. For the input 25  16  9  20  7  14, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল অযুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ২৫  ১৬  ৯  ২০  ৭  ১৪ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "7  9  25",
+        "as": "৭  ৯  ২৫"
+      },
+      {
+        "en": "14  16  20",
+        "as": "১৪  ১৬  ২০"
+      },
+      {
+        "en": "7  9  14  16  20  25",
+        "as": "৭  ৯  ১৪  ১৬  ২০  ২৫"
+      },
+      {
+        "en": "25  20  16  14  9  7",
+        "as": "২৫  ২০  ১৬  ১৪  ৯  ৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The odd numbers are 7, 9, 25, which in ascending order give 7  9  25.",
+      "as": "অযুগ্ম সংখ্যাবোৰ ৭, ৯, ২৫, ঊৰ্ধ্বক্ৰমে সজালে ৭  ৯  ২৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-066",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the even numbers, and arranges them in ascending order. For the input 11  24  7  18  5  12, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল যুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ১১  ২৪  ৭  ১৮  ৫  ১২ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "5  7  11",
+        "as": "৫  ৭  ১১"
+      },
+      {
+        "en": "5  7  11  12  18  24",
+        "as": "৫  ৭  ১১  ১২  ১৮  ২৪"
+      },
+      {
+        "en": "24  18  12  11  7  5",
+        "as": "২৪  ১৮  ১২  ১১  ৭  ৫"
+      },
+      {
+        "en": "12  18  24",
+        "as": "১২  ১৮  ২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The even numbers are 12, 18, 24, which in ascending order give 12  18  24.",
+      "as": "যুগ্ম সংখ্যাবোৰ ১২, ১৮, ২৪, ঊৰ্ধ্বক্ৰমে সজালে ১২  ১৮  ২৪ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-067",
+    "q": {
+      "en": "A machine takes a list of numbers, picks out only the odd numbers, and arranges them in ascending order. For the input 31  18  9  26  13  22, what is the output?",
+      "as": "এটা মেচিনে সংখ্যাৰ তালিকা লৈ কেৱল অযুগ্ম সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ৩১  ১৮  ৯  ২৬  ১৩  ২২ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "9  13  31",
+        "as": "৯  ১৩  ৩১"
+      },
+      {
+        "en": "18  22  26",
+        "as": "১৮  ২২  ২৬"
+      },
+      {
+        "en": "9  13  18  22  26  31",
+        "as": "৯  ১৩  ১৮  ২২  ২৬  ৩১"
+      },
+      {
+        "en": "31  26  22  18  13  9",
+        "as": "৩১  ২৬  ২২  ১৮  ১৩  ৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The odd numbers are 9, 13, 31, which in ascending order give 9  13  31.",
+      "as": "অযুগ্ম সংখ্যাবোৰ ৯, ১৩, ৩১, ঊৰ্ধ্বক্ৰমে সজালে ৯  ১৩  ৩১ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-068",
+    "q": {
+      "en": "A machine picks out only the prime numbers from its input and arranges them in ascending order. For the input 4  7  9  11  15  13, what is the output?",
+      "as": "এটা মেচিনে ইনপুটৰ পৰা কেৱল মৌলিক সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ৪  ৭  ৯  ১১  ১৫  ১৩ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "7  11  13",
+        "as": "৭  ১১  ১৩"
+      },
+      {
+        "en": "4  9  15",
+        "as": "৪  ৯  ১৫"
+      },
+      {
+        "en": "4  7  9  11  13  15",
+        "as": "৪  ৭  ৯  ১১  ১৩  ১৫"
+      },
+      {
+        "en": "15  13  11  9  7  4",
+        "as": "১৫  ১৩  ১১  ৯  ৭  ৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The prime numbers in the input are 7, 11, 13, which in ascending order give 7  11  13.",
+      "as": "ইনপুটৰ মৌলিক সংখ্যাবোৰ ৭, ১১, ১৩, ঊৰ্ধ্বক্ৰমে সজালে ৭  ১১  ১৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-069",
+    "q": {
+      "en": "A machine picks out only the prime numbers from its input and arranges them in ascending order. For the input 6  17  21  19  8  23, what is the output?",
+      "as": "এটা মেচিনে ইনপুটৰ পৰা কেৱল মৌলিক সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ৬  ১৭  ২১  ১৯  ৮  ২৩ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "17  19  23",
+        "as": "১৭  ১৯  ২৩"
+      },
+      {
+        "en": "6  8  21",
+        "as": "৬  ৮  ২১"
+      },
+      {
+        "en": "6  8  17  19  21  23",
+        "as": "৬  ৮  ১৭  ১৯  ২১  ২৩"
+      },
+      {
+        "en": "23  21  19  17  8  6",
+        "as": "২৩  ২১  ১৯  ১৭  ৮  ৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The prime numbers in the input are 17, 19, 23, which in ascending order give 17  19  23.",
+      "as": "ইনপুটৰ মৌলিক সংখ্যাবোৰ ১৭, ১৯, ২৩, ঊৰ্ধ্বক্ৰমে সজালে ১৭  ১৯  ২৩ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-070",
+    "q": {
+      "en": "A machine picks out only the prime numbers from its input and arranges them in ascending order. For the input 10  29  14  31  12  37, what is the output?",
+      "as": "এটা মেচিনে ইনপুটৰ পৰা কেৱল মৌলিক সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ১০  ২৯  ১৪  ৩১  ১২  ৩৭ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "10  12  14",
+        "as": "১০  ১২  ১৪"
+      },
+      {
+        "en": "10  12  14  29  31  37",
+        "as": "১০  ১২  ১৪  ২৯  ৩১  ৩৭"
+      },
+      {
+        "en": "29  31  37",
+        "as": "২৯  ৩১  ৩৭"
+      },
+      {
+        "en": "37  31  29  14  12  10",
+        "as": "৩৭  ৩১  ২৯  ১৪  ১২  ১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The prime numbers in the input are 29, 31, 37, which in ascending order give 29  31  37.",
+      "as": "ইনপুটৰ মৌলিক সংখ্যাবোৰ ২৯, ৩১, ৩৭, ঊৰ্ধ্বক্ৰমে সজালে ২৯  ৩১  ৩৭ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-071",
+    "q": {
+      "en": "A machine picks out only the prime numbers from its input and arranges them in ascending order. For the input 9  5  8  3  6  2, what is the output?",
+      "as": "এটা মেচিনে ইনপুটৰ পৰা কেৱল মৌলিক সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ৯  ৫  ৮  ৩  ৬  ২ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "6  8  9",
+        "as": "৬  ৮  ৯"
+      },
+      {
+        "en": "2  3  5  6  8  9",
+        "as": "২  ৩  ৫  ৬  ৮  ৯"
+      },
+      {
+        "en": "2  3  5",
+        "as": "২  ৩  ৫"
+      },
+      {
+        "en": "9  8  6  5  3  2",
+        "as": "৯  ৮  ৬  ৫  ৩  ২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The prime numbers in the input are 2, 3, 5, which in ascending order give 2  3  5.",
+      "as": "ইনপুটৰ মৌলিক সংখ্যাবোৰ ২, ৩, ৫, ঊৰ্ধ্বক্ৰমে সজালে ২  ৩  ৫ পোৱা যায়।"
+    }
+  },
+  {
+    "id": "input-output-072",
+    "q": {
+      "en": "A machine picks out only the prime numbers from its input and arranges them in ascending order. For the input 15  41  16  43  18  47, what is the output?",
+      "as": "এটা মেচিনে ইনপুটৰ পৰা কেৱল মৌলিক সংখ্যাবোৰ বাছি ঊৰ্ধ্বক্ৰমে সজায়। ইনপুট ১৫  ৪১  ১৬  ৪৩  ১৮  ৪৭ ৰ বাবে আউটপুট কি?"
+    },
+    "options": [
+      {
+        "en": "15  16  18",
+        "as": "১৫  ১৬  ১৮"
+      },
+      {
+        "en": "15  16  18  41  43  47",
+        "as": "১৫  ১৬  ১৮  ৪১  ৪৩  ৪৭"
+      },
+      {
+        "en": "47  43  41  18  16  15",
+        "as": "৪৭  ৪৩  ৪১  ১৮  ১৬  ১৫"
+      },
+      {
+        "en": "41  43  47",
+        "as": "৪১  ৪৩  ৪৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The prime numbers in the input are 41, 43, 47, which in ascending order give 41  43  47.",
+      "as": "ইনপুটৰ মৌলিক সংখ্যাবোৰ ৪১, ৪৩, ৪৭, ঊৰ্ধ্বক্ৰমে সজালে ৪১  ৪৩  ৪৭ পোৱা যায়।"
+    }
+  }
+]

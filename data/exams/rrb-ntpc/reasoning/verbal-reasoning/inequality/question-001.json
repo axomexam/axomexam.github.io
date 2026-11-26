@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "inequality-001",
+    "q": {
+      "en": "Statements: P > Q > R.\nConclusions:\nI. P > R\nII. Q > P",
+      "as": "বিবৃতি: P > Q > R।\nসিদ্ধান্ত:\nI. P > R\nII. Q > P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From P > Q > R: conclusion I (P > R) follows and conclusion II (Q > P) does not follow.",
+      "as": "P > Q > R ৰ পৰা: সিদ্ধান্ত I (P > R) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (Q > P) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-002",
+    "q": {
+      "en": "Statements: A ≥ B > C = D.\nConclusions:\nI. A > B\nII. A > C",
+      "as": "বিবৃতি: A ≥ B > C = D।\nসিদ্ধান্ত:\nI. A > B\nII. A > C"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From A ≥ B > C = D: conclusion I (A > B) does not follow and conclusion II (A > C) follows.",
+      "as": "A ≥ B > C = D ৰ পৰা: সিদ্ধান্ত I (A > B) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (A > C) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-003",
+    "q": {
+      "en": "Statements: M > N = O < P.\nConclusions:\nI. M > O\nII. P > O",
+      "as": "বিবৃতি: M > N = O < P।\nসিদ্ধান্ত:\nI. M > O\nII. P > O"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From M > N = O < P: conclusion I (M > O) follows and conclusion II (P > O) follows.",
+      "as": "M > N = O < P ৰ পৰা: সিদ্ধান্ত I (M > O) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (P > O) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-004",
+    "q": {
+      "en": "Statements: X < Y < Z.\nConclusions:\nI. Y > Z\nII. X > Z",
+      "as": "বিবৃতি: X < Y < Z।\nসিদ্ধান্ত:\nI. Y > Z\nII. X > Z"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From X < Y < Z: conclusion I (Y > Z) does not follow and conclusion II (X > Z) does not follow.",
+      "as": "X < Y < Z ৰ পৰা: সিদ্ধান্ত I (Y > Z) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (X > Z) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-005",
+    "q": {
+      "en": "Statements: K > L ≥ M > N.\nConclusions:\nI. M > N\nII. L > M",
+      "as": "বিবৃতি: K > L ≥ M > N।\nসিদ্ধান্ত:\nI. M > N\nII. L > M"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From K > L ≥ M > N: conclusion I (M > N) follows and conclusion II (L > M) does not follow.",
+      "as": "K > L ≥ M > N ৰ পৰা: সিদ্ধান্ত I (M > N) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (L > M) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-006",
+    "q": {
+      "en": "Statements: T ≤ U = V > W.\nConclusions:\nI. W > V\nII. U > W",
+      "as": "বিবৃতি: T ≤ U = V > W।\nসিদ্ধান্ত:\nI. W > V\nII. U > W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From T ≤ U = V > W: conclusion I (W > V) does not follow and conclusion II (U > W) follows.",
+      "as": "T ≤ U = V > W ৰ পৰা: সিদ্ধান্ত I (W > V) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (U > W) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-007",
+    "q": {
+      "en": "Statements: E ≥ F ≥ G.\nConclusions:\nI. E ≥ G\nII. E ≥ F",
+      "as": "বিবৃতি: E ≥ F ≥ G।\nসিদ্ধান্ত:\nI. E ≥ G\nII. E ≥ F"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From E ≥ F ≥ G: conclusion I (E ≥ G) follows and conclusion II (E ≥ F) follows.",
+      "as": "E ≥ F ≥ G ৰ পৰা: সিদ্ধান্ত I (E ≥ G) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (E ≥ F) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-008",
+    "q": {
+      "en": "Statements: R > S < T > U.\nConclusions:\nI. T > S\nII. T > R",
+      "as": "বিবৃতি: R > S < T > U।\nসিদ্ধান্ত:\nI. T > S\nII. T > R"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From R > S < T > U: conclusion I (T > S) follows and conclusion II (T > R) does not follow.",
+      "as": "R > S < T > U ৰ পৰা: সিদ্ধান্ত I (T > S) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (T > R) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-009",
+    "q": {
+      "en": "Statements: C < D > E > F.\nConclusions:\nI. F > E\nII. E > F",
+      "as": "বিবৃতি: C < D > E > F।\nসিদ্ধান্ত:\nI. F > E\nII. E > F"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From C < D > E > F: conclusion I (F > E) does not follow and conclusion II (E > F) follows.",
+      "as": "C < D > E > F ৰ পৰা: সিদ্ধান্ত I (F > E) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (E > F) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-010",
+    "q": {
+      "en": "Statements: G > H < I.\nConclusions:\nI. G > H\nII. I > H",
+      "as": "বিবৃতি: G > H < I।\nসিদ্ধান্ত:\nI. G > H\nII. I > H"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From G > H < I: conclusion I (G > H) follows and conclusion II (I > H) follows.",
+      "as": "G > H < I ৰ পৰা: সিদ্ধান্ত I (G > H) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (I > H) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-011",
+    "q": {
+      "en": "Statements: J ≥ K ≥ L ≥ M.\nConclusions:\nI. L > J\nII. L > K",
+      "as": "বিবৃতি: J ≥ K ≥ L ≥ M।\nসিদ্ধান্ত:\nI. L > J\nII. L > K"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From J ≥ K ≥ L ≥ M: conclusion I (L > J) does not follow and conclusion II (L > K) does not follow.",
+      "as": "J ≥ K ≥ L ≥ M ৰ পৰা: সিদ্ধান্ত I (L > J) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (L > K) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-012",
+    "q": {
+      "en": "Statements: N = O > P < Q.\nConclusions:\nI. N > P\nII. N > O",
+      "as": "বিবৃতি: N = O > P < Q।\nসিদ্ধান্ত:\nI. N > P\nII. N > O"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From N = O > P < Q: conclusion I (N > P) follows and conclusion II (N > O) does not follow.",
+      "as": "N = O > P < Q ৰ পৰা: সিদ্ধান্ত I (N > P) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (N > O) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-013",
+    "q": {
+      "en": "Statements: S < T = U > V.\nConclusions:\nI. V > S\nII. T > S",
+      "as": "বিবৃতি: S < T = U > V।\nসিদ্ধান্ত:\nI. V > S\nII. T > S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From S < T = U > V: conclusion I (V > S) does not follow and conclusion II (T > S) follows.",
+      "as": "S < T = U > V ৰ পৰা: সিদ্ধান্ত I (V > S) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (T > S) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-014",
+    "q": {
+      "en": "Statements: W > X > Y > Z.\nConclusions:\nI. Y > Z\nII. X > Z",
+      "as": "বিবৃতি: W > X > Y > Z।\nসিদ্ধান্ত:\nI. Y > Z\nII. X > Z"
+    },
+    "options": [
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From W > X > Y > Z: conclusion I (Y > Z) follows and conclusion II (X > Z) follows.",
+      "as": "W > X > Y > Z ৰ পৰা: সিদ্ধান্ত I (Y > Z) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (X > Z) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-015",
+    "q": {
+      "en": "Statements: A > B < C < D.\nConclusions:\nI. C > B\nII. C > A",
+      "as": "বিবৃতি: A > B < C < D।\nসিদ্ধান্ত:\nI. C > B\nII. C > A"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From A > B < C < D: conclusion I (C > B) follows and conclusion II (C > A) does not follow.",
+      "as": "A > B < C < D ৰ পৰা: সিদ্ধান্ত I (C > B) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (C > A) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-016",
+    "q": {
+      "en": "Statements: A ≥ B.\nConclusions:\nI. A = B\nII. A > B",
+      "as": "বিবৃতি: A ≥ B।\nসিদ্ধান্ত:\nI. A = B\nII. A > B"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Either conclusion I or II follows",
+        "as": "সিদ্ধান্ত I বা II এটা অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From A ≥ B, one of A = B and A > B must hold, so either I or II follows (the two are complementary).",
+      "as": "A ≥ B ৰ পৰা A = B আৰু A > B ৰ এটা নিশ্চিতভাৱে খাটে, গতিকে I বা II এটা অনুসৰণ কৰে (দুয়ো পৰিপূৰক)।"
+    }
+  },
+  {
+    "id": "inequality-017",
+    "q": {
+      "en": "Statements: P ≤ Q.\nConclusions:\nI. P = Q\nII. P < Q",
+      "as": "বিবৃতি: P ≤ Q।\nসিদ্ধান্ত:\nI. P = Q\nII. P < Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Either conclusion I or II follows",
+        "as": "সিদ্ধান্ত I বা II এটা অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From P ≤ Q, one of P = Q and P < Q must hold, so either I or II follows (the two are complementary).",
+      "as": "P ≤ Q ৰ পৰা P = Q আৰু P < Q ৰ এটা নিশ্চিতভাৱে খাটে, গতিকে I বা II এটা অনুসৰণ কৰে (দুয়ো পৰিপূৰক)।"
+    }
+  },
+  {
+    "id": "inequality-018",
+    "q": {
+      "en": "Statements: M ≥ N.\nConclusions:\nI. M < N\nII. M > N",
+      "as": "বিবৃতি: M ≥ N।\nসিদ্ধান্ত:\nI. M < N\nII. M > N"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Either conclusion I or II follows",
+        "as": "সিদ্ধান্ত I বা II এটা অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From M ≥ N: conclusion I (M < N) does not follow and conclusion II (M > N) does not follow.",
+      "as": "M ≥ N ৰ পৰা: সিদ্ধান্ত I (M < N) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (M > N) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-019",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: A % B @ C $ D.\nConclusions:\nI. A > C\nII. D < A",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: A % B @ C $ D।\nসিদ্ধান্ত:\nI. A > C\nII. D < A"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives A ≥ B > C = D. Conclusion I (follows); conclusion II (follows).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে A ≥ B > C = D পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ কৰে)।"
+    }
+  },
+  {
+    "id": "inequality-020",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: P @ Q $ R # S.\nConclusions:\nI. P > R\nII. P < S",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: P @ Q $ R # S।\nসিদ্ধান্ত:\nI. P > R\nII. P < S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives P > Q = R < S. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে P > Q = R < S পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-021",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: M % N % O.\nConclusions:\nI. M ≥ O\nII. M ≤ O",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: M % N % O।\nসিদ্ধান্ত:\nI. M ≥ O\nII. M ≤ O"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Decoding the symbols gives M ≥ N ≥ O. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে M ≥ N ≥ O পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-022",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: K @ L % M @ N.\nConclusions:\nI. K > M\nII. N > K",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: K @ L % M @ N।\nসিদ্ধান্ত:\nI. K > M\nII. N > K"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Decoding the symbols gives K > L ≥ M > N. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে K > L ≥ M > N পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-023",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: X * Y $ Z @ W.\nConclusions:\nI. Y > W\nII. X < Z",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: X * Y $ Z @ W।\nসিদ্ধান্ত:\nI. Y > W\nII. X < Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Decoding the symbols gives X ≤ Y = Z > W. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে X ≤ Y = Z > W পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-024",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: E @ F # G.\nConclusions:\nI. E > G\nII. E < G",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: E @ F # G।\nসিদ্ধান্ত:\nI. E > G\nII. E < G"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives E > F < G. Conclusion I (does not follow); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে E > F < G পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ নকৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-025",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: R % S % T.\nConclusions:\nI. R ≥ T\nII. R ≤ T",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: R % S % T।\nসিদ্ধান্ত:\nI. R ≥ T\nII. R ≤ T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives R ≥ S ≥ T. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে R ≥ S ≥ T পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-026",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: C # D @ E @ F.\nConclusions:\nI. D > F\nII. C < E",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: C # D @ E @ F।\nসিদ্ধান্ত:\nI. D > F\nII. C < E"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Decoding the symbols gives C < D > E > F. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে C < D > E > F পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-027",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: T * U $ V @ W.\nConclusions:\nI. U > W\nII. T < V",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: T * U $ V @ W।\nসিদ্ধান্ত:\nI. U > W\nII. T < V"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Decoding the symbols gives T ≤ U = V > W. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে T ≤ U = V > W পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-028",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: N $ O @ P # Q.\nConclusions:\nI. N > P\nII. N < Q",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: N $ O @ P # Q।\nসিদ্ধান্ত:\nI. N > P\nII. N < Q"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Decoding the symbols gives N = O > P < Q. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে N = O > P < Q পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-029",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: J % K % L % M.\nConclusions:\nI. J ≥ M\nII. J ≤ M",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: J % K % L % M।\nসিদ্ধান্ত:\nI. J ≥ M\nII. J ≤ M"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives J ≥ K ≥ L ≥ M. Conclusion I (follows); conclusion II (does not follow).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে J ≥ K ≥ L ≥ M পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ নকৰে)।"
+    }
+  },
+  {
+    "id": "inequality-030",
+    "q": {
+      "en": "Here '@' means '>', '#' means '<', '$' means '=', '%' means '≥' and '*' means '≤'.\nStatements: S # T $ U @ V.\nConclusions:\nI. T > V\nII. S < U",
+      "as": "ইয়াত '@' মানে '>', '#' মানে '<', '$' মানে '=', '%' মানে '≥' আৰু '*' মানে '≤'।\nবিবৃতি: S # T $ U @ V।\nসিদ্ধান্ত:\nI. T > V\nII. S < U"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Decoding the symbols gives S < T = U > V. Conclusion I (follows); conclusion II (follows).",
+      "as": "চিহ্নবোৰ অৱসংকেতীকৰণ কৰিলে S < T = U > V পোৱা যায়। সিদ্ধান্ত I (অনুসৰণ কৰে); সিদ্ধান্ত II (অনুসৰণ কৰে)।"
+    }
+  },
+  {
+    "id": "inequality-031",
+    "q": {
+      "en": "Statements: A > B ≥ C = D.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: A > B ≥ C = D।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "B < C",
+        "as": "B < C"
+      },
+      {
+        "en": "D = C",
+        "as": "D = C"
+      },
+      {
+        "en": "B ≥ A",
+        "as": "B ≥ A"
+      },
+      {
+        "en": "B < D",
+        "as": "B < D"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From A > B ≥ C = D we get D = C; the other options do not necessarily hold.",
+      "as": "A > B ≥ C = D ৰ পৰা D = C পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-032",
+    "q": {
+      "en": "Statements: P > Q > R.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: P > Q > R।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "P = Q",
+        "as": "P = Q"
+      },
+      {
+        "en": "P = R",
+        "as": "P = R"
+      },
+      {
+        "en": "P ≤ Q",
+        "as": "P ≤ Q"
+      },
+      {
+        "en": "P > R",
+        "as": "P > R"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From P > Q > R we get P > R; the other options do not necessarily hold.",
+      "as": "P > Q > R ৰ পৰা P > R পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-033",
+    "q": {
+      "en": "Statements: M ≥ N > O < P.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: M ≥ N > O < P।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "N > M",
+        "as": "N > M"
+      },
+      {
+        "en": "N = M",
+        "as": "N = M"
+      },
+      {
+        "en": "N > O",
+        "as": "N > O"
+      },
+      {
+        "en": "N ≤ P",
+        "as": "N ≤ P"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From M ≥ N > O < P we get N > O; the other options do not necessarily hold.",
+      "as": "M ≥ N > O < P ৰ পৰা N > O পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-034",
+    "q": {
+      "en": "Statements: X < Y ≤ Z.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: X < Y ≤ Z।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "Y > X",
+        "as": "Y > X"
+      },
+      {
+        "en": "Y < X",
+        "as": "Y < X"
+      },
+      {
+        "en": "X > Z",
+        "as": "X > Z"
+      },
+      {
+        "en": "Z ≤ X",
+        "as": "Z ≤ X"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From X < Y ≤ Z we get Y > X; the other options do not necessarily hold.",
+      "as": "X < Y ≤ Z ৰ পৰা Y > X পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-035",
+    "q": {
+      "en": "Statements: K > L ≥ M > N.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: K > L ≥ M > N।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "N ≥ L",
+        "as": "N ≥ L"
+      },
+      {
+        "en": "K ≤ M",
+        "as": "K ≤ M"
+      },
+      {
+        "en": "N ≥ M",
+        "as": "N ≥ M"
+      },
+      {
+        "en": "K > M",
+        "as": "K > M"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From K > L ≥ M > N we get K > M; the other options do not necessarily hold.",
+      "as": "K > L ≥ M > N ৰ পৰা K > M পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-036",
+    "q": {
+      "en": "Statements: T ≤ U = V > W.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: T ≤ U = V > W।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "W ≤ U",
+        "as": "W ≤ U"
+      },
+      {
+        "en": "T ≥ V",
+        "as": "T ≥ V"
+      },
+      {
+        "en": "U = T",
+        "as": "U = T"
+      },
+      {
+        "en": "U < T",
+        "as": "U < T"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From T ≤ U = V > W we get W ≤ U; the other options do not necessarily hold.",
+      "as": "T ≤ U = V > W ৰ পৰা W ≤ U পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-037",
+    "q": {
+      "en": "Statements: E > F < G.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: E > F < G।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "F ≥ E",
+        "as": "F ≥ E"
+      },
+      {
+        "en": "F = E",
+        "as": "F = E"
+      },
+      {
+        "en": "E > F",
+        "as": "E > F"
+      },
+      {
+        "en": "F > E",
+        "as": "F > E"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From E > F < G we get E > F; the other options do not necessarily hold.",
+      "as": "E > F < G ৰ পৰা E > F পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-038",
+    "q": {
+      "en": "Statements: R > S < T > U.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: R > S < T > U।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "S ≤ U",
+        "as": "S ≤ U"
+      },
+      {
+        "en": "U ≥ S",
+        "as": "U ≥ S"
+      },
+      {
+        "en": "R > S",
+        "as": "R > S"
+      },
+      {
+        "en": "R ≤ U",
+        "as": "R ≤ U"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From R > S < T > U we get R > S; the other options do not necessarily hold.",
+      "as": "R > S < T > U ৰ পৰা R > S পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-039",
+    "q": {
+      "en": "Statements: C < D > E > F.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: C < D > E > F।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "C > E",
+        "as": "C > E"
+      },
+      {
+        "en": "E > D",
+        "as": "E > D"
+      },
+      {
+        "en": "F ≥ C",
+        "as": "F ≥ C"
+      },
+      {
+        "en": "E > F",
+        "as": "E > F"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From C < D > E > F we get E > F; the other options do not necessarily hold.",
+      "as": "C < D > E > F ৰ পৰা E > F পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-040",
+    "q": {
+      "en": "Statements: J ≥ K ≥ L ≥ M.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: J ≥ K ≥ L ≥ M।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "J ≥ L",
+        "as": "J ≥ L"
+      },
+      {
+        "en": "J < M",
+        "as": "J < M"
+      },
+      {
+        "en": "M = L",
+        "as": "M = L"
+      },
+      {
+        "en": "L < J",
+        "as": "L < J"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From J ≥ K ≥ L ≥ M we get J ≥ L; the other options do not necessarily hold.",
+      "as": "J ≥ K ≥ L ≥ M ৰ পৰা J ≥ L পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-041",
+    "q": {
+      "en": "Statements: N = O > P < Q.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: N = O > P < Q।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "N ≤ Q",
+        "as": "N ≤ Q"
+      },
+      {
+        "en": "N > P",
+        "as": "N > P"
+      },
+      {
+        "en": "N < Q",
+        "as": "N < Q"
+      },
+      {
+        "en": "N < P",
+        "as": "N < P"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From N = O > P < Q we get N > P; the other options do not necessarily hold.",
+      "as": "N = O > P < Q ৰ পৰা N > P পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-042",
+    "q": {
+      "en": "Statements: S < T = U > V.\nWhich of the following is definitely true?",
+      "as": "বিবৃতি: S < T = U > V।\nতলৰ কোনটো নিশ্চিতভাৱে সত্য?"
+    },
+    "options": [
+      {
+        "en": "S > V",
+        "as": "S > V"
+      },
+      {
+        "en": "V ≥ T",
+        "as": "V ≥ T"
+      },
+      {
+        "en": "V ≤ U",
+        "as": "V ≤ U"
+      },
+      {
+        "en": "V = U",
+        "as": "V = U"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From S < T = U > V we get V ≤ U; the other options do not necessarily hold.",
+      "as": "S < T = U > V ৰ পৰা V ≤ U পোৱা যায়; বাকী বিকল্পবোৰ নিশ্চিতভাৱে নাখাটে।"
+    }
+  },
+  {
+    "id": "inequality-043",
+    "q": {
+      "en": "In the relation chain 'A > B ? C', which symbol in place of '?' makes 'B < C' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'A > B ? C' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'B < C' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Filling '?' with '<' makes the chain consistent with B < C.",
+      "as": "'?' ৰ ঠাইত '<' দিলে শৃংখলাটো B < C ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-044",
+    "q": {
+      "en": "In the relation chain 'P ≥ Q ? R', which symbol in place of '?' makes 'Q ≤ R' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'P ≥ Q ? R' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'Q ≤ R' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": "≤",
+        "as": "≤"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Filling '?' with '≤' makes the chain consistent with Q ≤ R.",
+      "as": "'?' ৰ ঠাইত '≤' দিলে শৃংখলাটো Q ≤ R ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-045",
+    "q": {
+      "en": "In the relation chain 'M < N ? O', which symbol in place of '?' makes 'N > O' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'M < N ? O' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'N > O' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Filling '?' with '>' makes the chain consistent with N > O.",
+      "as": "'?' ৰ ঠাইত '>' দিলে শৃংখলাটো N > O ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-046",
+    "q": {
+      "en": "In the relation chain 'X = Y ? Z', which symbol in place of '?' makes 'Y > Z' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'X = Y ? Z' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'Y > Z' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      },
+      {
+        "en": ">",
+        "as": ">"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Filling '?' with '>' makes the chain consistent with Y > Z.",
+      "as": "'?' ৰ ঠাইত '>' দিলে শৃংখলাটো Y > Z ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-047",
+    "q": {
+      "en": "In the relation chain 'K > L ? M', which symbol in place of '?' makes 'L < M' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'K > L ? M' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'L < M' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      },
+      {
+        "en": "<",
+        "as": "<"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Filling '?' with '<' makes the chain consistent with L < M.",
+      "as": "'?' ৰ ঠাইত '<' দিলে শৃংখলাটো L < M ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-048",
+    "q": {
+      "en": "In the relation chain 'T ≤ U ? V', which symbol in place of '?' makes 'U > V' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'T ≤ U ? V' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'U > V' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Filling '?' with '>' makes the chain consistent with U > V.",
+      "as": "'?' ৰ ঠাইত '>' দিলে শৃংখলাটো U > V ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-049",
+    "q": {
+      "en": "In the relation chain 'E > F ? G', which symbol in place of '?' makes 'F = G' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'E > F ? G' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'F = G' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": "=",
+        "as": "="
+      },
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "≥",
+        "as": "≥"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Filling '?' with '=' makes the chain consistent with F = G.",
+      "as": "'?' ৰ ঠাইত '=' দিলে শৃংখলাটো F = G ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-050",
+    "q": {
+      "en": "In the relation chain 'R > S ? T', which symbol in place of '?' makes 'S ≤ T' true?",
+      "as": "সম্পৰ্ক শৃংখলা 'R > S ? T' ত, '?' ৰ ঠাইত কোন চিহ্ন দিলে 'S ≤ T' সত্য হয়?"
+    },
+    "options": [
+      {
+        "en": ">",
+        "as": ">"
+      },
+      {
+        "en": "<",
+        "as": "<"
+      },
+      {
+        "en": "≤",
+        "as": "≤"
+      },
+      {
+        "en": "=",
+        "as": "="
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Filling '?' with '≤' makes the chain consistent with S ≤ T.",
+      "as": "'?' ৰ ঠাইত '≤' দিলে শৃংখলাটো S ≤ T ৰ সৈতে সংগত হয়।"
+    }
+  },
+  {
+    "id": "inequality-051",
+    "q": {
+      "en": "Statements: A > B > C > D > E.\nConclusion: E < A. Does the conclusion follow?",
+      "as": "বিবৃতি: A > B > C > D > E।\nসিদ্ধান্ত: E < A। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Every assignment consistent with A > B > C > D > E makes E < A true.",
+      "as": "A > B > C > D > E ৰ সৈতে সংগত প্ৰতিটো মান E < A সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-052",
+    "q": {
+      "en": "Statements: P < Q < R < S < T.\nConclusion: T > P. Does the conclusion follow?",
+      "as": "বিবৃতি: P < Q < R < S < T।\nসিদ্ধান্ত: T > P। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Every assignment consistent with P < Q < R < S < T makes T > P true.",
+      "as": "P < Q < R < S < T ৰ সৈতে সংগত প্ৰতিটো মান T > P সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-053",
+    "q": {
+      "en": "Statements: M ≥ N > O = P < Q.\nConclusion: M > P. Does the conclusion follow?",
+      "as": "বিবৃতি: M ≥ N > O = P < Q।\nসিদ্ধান্ত: M > P। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Every assignment consistent with M ≥ N > O = P < Q makes M > P true.",
+      "as": "M ≥ N > O = P < Q ৰ সৈতে সংগত প্ৰতিটো মান M > P সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-054",
+    "q": {
+      "en": "Statements: K < L = M > N > O.\nConclusion: L > O. Does the conclusion follow?",
+      "as": "বিবৃতি: K < L = M > N > O।\nসিদ্ধান্ত: L > O। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every assignment consistent with K < L = M > N > O makes L > O true.",
+      "as": "K < L = M > N > O ৰ সৈতে সংগত প্ৰতিটো মান L > O সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-055",
+    "q": {
+      "en": "Statements: X ≤ Y = Z > W > V.\nConclusion: Y > V. Does the conclusion follow?",
+      "as": "বিবৃতি: X ≤ Y = Z > W > V।\nসিদ্ধান্ত: Y > V। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every assignment consistent with X ≤ Y = Z > W > V makes Y > V true.",
+      "as": "X ≤ Y = Z > W > V ৰ সৈতে সংগত প্ৰতিটো মান Y > V সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-056",
+    "q": {
+      "en": "Statements: E > F > G > H < I.\nConclusion: E > H. Does the conclusion follow?",
+      "as": "বিবৃতি: E > F > G > H < I।\nসিদ্ধান্ত: E > H। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every assignment consistent with E > F > G > H < I makes E > H true.",
+      "as": "E > F > G > H < I ৰ সৈতে সংগত প্ৰতিটো মান E > H সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-057",
+    "q": {
+      "en": "Statements: R < S < T > U > V.\nConclusion: T > V. Does the conclusion follow?",
+      "as": "বিবৃতি: R < S < T > U > V।\nসিদ্ধান্ত: T > V। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Every assignment consistent with R < S < T > U > V makes T > V true.",
+      "as": "R < S < T > U > V ৰ সৈতে সংগত প্ৰতিটো মান T > V সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-058",
+    "q": {
+      "en": "Statements: C = D > E > F < G.\nConclusion: C > F. Does the conclusion follow?",
+      "as": "বিবৃতি: C = D > E > F < G।\nসিদ্ধান্ত: C > F। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Every assignment consistent with C = D > E > F < G makes C > F true.",
+      "as": "C = D > E > F < G ৰ সৈতে সংগত প্ৰতিটো মান C > F সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-059",
+    "q": {
+      "en": "Statements: J ≥ K ≥ L ≥ M ≥ N.\nConclusion: J ≥ N. Does the conclusion follow?",
+      "as": "বিবৃতি: J ≥ K ≥ L ≥ M ≥ N।\nসিদ্ধান্ত: J ≥ N। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "Only if the letters are equal",
+        "as": "Only if the letters are equal"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Every assignment consistent with J ≥ K ≥ L ≥ M ≥ N makes J ≥ N true.",
+      "as": "J ≥ K ≥ L ≥ M ≥ N ৰ সৈতে সংগত প্ৰতিটো মান J ≥ N সত্য কৰে।"
+    }
+  },
+  {
+    "id": "inequality-060",
+    "q": {
+      "en": "Statements: N > O < P < Q < R.\nConclusion: N > P. Does the conclusion follow?",
+      "as": "বিবৃতি: N > O < P < Q < R।\nসিদ্ধান্ত: N > P। সিদ্ধান্তটো অনুসৰণ কৰে নেকি?"
+    },
+    "options": [
+      {
+        "en": "Yes, it follows",
+        "as": "Yes, it follows"
+      },
+      {
+        "en": "Cannot be determined",
+        "as": "Cannot be determined"
+      },
+      {
+        "en": "No, it does not follow",
+        "as": "No, it does not follow"
+      },
+      {
+        "en": "It follows only for equal values",
+        "as": "It follows only for equal values"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "There is a consistent assignment of N > O < P < Q < R in which N > P is false.",
+      "as": "N > O < P < Q < R ৰ এটা সংগত মানত N > P অসত্য।"
+    }
+  },
+  {
+    "id": "inequality-061",
+    "q": {
+      "en": "Statements: A > B > C > D.\nConclusions:\nI. D > C\nII. D > A",
+      "as": "বিবৃতি: A > B > C > D।\nসিদ্ধান্ত:\nI. D > C\nII. D > A"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "From A > B > C > D: conclusion I (D > C) does not follow and conclusion II (D > A) does not follow.",
+      "as": "A > B > C > D ৰ পৰা: সিদ্ধান্ত I (D > C) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (D > A) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-062",
+    "q": {
+      "en": "Statements: P < Q < R < S.\nConclusions:\nI. S > P\nII. P > S",
+      "as": "বিবৃতি: P < Q < R < S।\nসিদ্ধান্ত:\nI. S > P\nII. P > S"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From P < Q < R < S: conclusion I (S > P) follows and conclusion II (P > S) does not follow.",
+      "as": "P < Q < R < S ৰ পৰা: সিদ্ধান্ত I (S > P) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (P > S) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-063",
+    "q": {
+      "en": "Statements: M ≥ N = O ≥ P.\nConclusions:\nI. M > P\nII. N ≥ P",
+      "as": "বিবৃতি: M ≥ N = O ≥ P।\nসিদ্ধান্ত:\nI. M > P\nII. N ≥ P"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From M ≥ N = O ≥ P: conclusion I (M > P) does not follow and conclusion II (N ≥ P) follows.",
+      "as": "M ≥ N = O ≥ P ৰ পৰা: সিদ্ধান্ত I (M > P) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (N ≥ P) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-064",
+    "q": {
+      "en": "Statements: K > L < M = N.\nConclusions:\nI. K > L\nII. N > L",
+      "as": "বিবৃতি: K > L < M = N।\nসিদ্ধান্ত:\nI. K > L\nII. N > L"
+    },
+    "options": [
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From K > L < M = N: conclusion I (K > L) follows and conclusion II (N > L) follows.",
+      "as": "K > L < M = N ৰ পৰা: সিদ্ধান্ত I (K > L) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (N > L) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-065",
+    "q": {
+      "en": "Statements: X ≤ Y = Z > W.\nConclusions:\nI. Y > W\nII. X > Z",
+      "as": "বিবৃতি: X ≤ Y = Z > W।\nসিদ্ধান্ত:\nI. Y > W\nII. X > Z"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From X ≤ Y = Z > W: conclusion I (Y > W) follows and conclusion II (X > Z) does not follow.",
+      "as": "X ≤ Y = Z > W ৰ পৰা: সিদ্ধান্ত I (Y > W) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (X > Z) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-066",
+    "q": {
+      "en": "Statements: E > F > G < H.\nConclusions:\nI. F > E\nII. E > G",
+      "as": "বিবৃতি: E > F > G < H।\nসিদ্ধান্ত:\nI. F > E\nII. E > G"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From E > F > G < H: conclusion I (F > E) does not follow and conclusion II (E > G) follows.",
+      "as": "E > F > G < H ৰ পৰা: সিদ্ধান্ত I (F > E) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (E > G) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-067",
+    "q": {
+      "en": "Statements: R < S = T > U.\nConclusions:\nI. T > R\nII. T > U",
+      "as": "বিবৃতি: R < S = T > U।\nসিদ্ধান্ত:\nI. T > R\nII. T > U"
+    },
+    "options": [
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From R < S = T > U: conclusion I (T > R) follows and conclusion II (T > U) follows.",
+      "as": "R < S = T > U ৰ পৰা: সিদ্ধান্ত I (T > R) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (T > U) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-068",
+    "q": {
+      "en": "Statements: C = D > E < F.\nConclusions:\nI. E > D\nII. D > F",
+      "as": "বিবৃতি: C = D > E < F।\nসিদ্ধান্ত:\nI. E > D\nII. D > F"
+    },
+    "options": [
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From C = D > E < F: conclusion I (E > D) does not follow and conclusion II (D > F) does not follow.",
+      "as": "C = D > E < F ৰ পৰা: সিদ্ধান্ত I (E > D) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (D > F) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-069",
+    "q": {
+      "en": "Statements: J ≥ K ≥ L ≥ M.\nConclusions:\nI. J ≥ M\nII. M > K",
+      "as": "বিবৃতি: J ≥ K ≥ L ≥ M।\nসিদ্ধান্ত:\nI. J ≥ M\nII. M > K"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "From J ≥ K ≥ L ≥ M: conclusion I (J ≥ M) follows and conclusion II (M > K) does not follow.",
+      "as": "J ≥ K ≥ L ≥ M ৰ পৰা: সিদ্ধান্ত I (J ≥ M) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (M > K) অনুসৰণ নকৰে।"
+    }
+  },
+  {
+    "id": "inequality-070",
+    "q": {
+      "en": "Statements: N > O < P < Q.\nConclusions:\nI. N > Q\nII. N > O",
+      "as": "বিবৃতি: N > O < P < Q।\nসিদ্ধান্ত:\nI. N > Q\nII. N > O"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From N > O < P < Q: conclusion I (N > Q) does not follow and conclusion II (N > O) follows.",
+      "as": "N > O < P < Q ৰ পৰা: সিদ্ধান্ত I (N > Q) অনুসৰণ নকৰে আৰু সিদ্ধান্ত II (N > O) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-071",
+    "q": {
+      "en": "Statements: S < T < U > V.\nConclusions:\nI. U > S\nII. U > T",
+      "as": "বিবৃতি: S < T < U > V।\nসিদ্ধান্ত:\nI. U > S\nII. U > T"
+    },
+    "options": [
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      },
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "From S < T < U > V: conclusion I (U > S) follows and conclusion II (U > T) follows.",
+      "as": "S < T < U > V ৰ পৰা: সিদ্ধান্ত I (U > S) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (U > T) অনুসৰণ কৰে।"
+    }
+  },
+  {
+    "id": "inequality-072",
+    "q": {
+      "en": "Statements: W > X > Y > Z.\nConclusions:\nI. X > Z\nII. Y > W",
+      "as": "বিবৃতি: W > X > Y > Z।\nসিদ্ধান্ত:\nI. X > Z\nII. Y > W"
+    },
+    "options": [
+      {
+        "en": "Only conclusion II follows",
+        "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+      },
+      {
+        "en": "Both conclusions I and II follow",
+        "as": "সিদ্ধান্ত I আৰু II দুয়ো অনুসৰণ কৰে"
+      },
+      {
+        "en": "Neither conclusion I nor II follows",
+        "as": "সিদ্ধান্ত I বা II কোনোৱেই অনুসৰণ নকৰে"
+      },
+      {
+        "en": "Only conclusion I follows",
+        "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "From W > X > Y > Z: conclusion I (X > Z) follows and conclusion II (Y > W) does not follow.",
+      "as": "W > X > Y > Z ৰ পৰা: সিদ্ধান্ত I (X > Z) অনুসৰণ কৰে আৰু সিদ্ধান্ত II (Y > W) অনুসৰণ নকৰে।"
+    }
+  }
+]

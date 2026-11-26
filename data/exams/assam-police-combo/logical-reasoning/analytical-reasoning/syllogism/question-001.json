@@ -1,0 +1,32 @@
+[
+  {
+    "id": "syllogism-001",
+    "q": {
+      "en": "All roses are flowers. All flowers are plants. Which conclusion follows?",
+      "as": "সকলো গোলাপ ফুল। সকলো ফুল উদ্ভিদ। কোনটো সিদ্ধান্ত সত্য?"
+    },
+    "options": [
+      {
+        "en": "All plants are roses.",
+        "as": "সকলো উদ্ভিদ গোলাপ।"
+      },
+      {
+        "en": "All roses are plants.",
+        "as": "সকলো গোলাপ উদ্ভিদ।"
+      },
+      {
+        "en": "Some plants are not flowers.",
+        "as": "কিছু উদ্ভিদ ফুল নহয়।"
+      },
+      {
+        "en": "No rose is a plant.",
+        "as": "কোনো গোলাপ উদ্ভিদ নহয়।"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "If all roses are flowers and all flowers are plants, then all roses must be plants.",
+      "as": "যদি সকলো গোলাপ ফুল আৰু সকলো ফুল উদ্ভিদ, তেন্তে সকলো গোলাপ উদ্ভিদ হ'বই।"
+    }
+  }
+]

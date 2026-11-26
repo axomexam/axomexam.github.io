@@ -1,0 +1,3162 @@
+[
+  {
+    "id": "numerical-007",
+    "q": {
+      "en": "The HCF of two numbers is 12 and their LCM is 336. If one number is 48, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ১২ আৰু ল.সা.গু. ৩৩৬। এটা সংখ্যা ৪৮ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "For two numbers, HCF × LCM = product of the numbers. So the other number is (12 × 336) ÷ 48 = 4032 ÷ 48 = 84.",
+      "as": "দুটা সংখ্যাৰ ক্ষেত্ৰত গ.সা.গু. × ল.সা.গু. = সংখ্যা দুটাৰ গুণফল। সেয়ে আনটো সংখ্যা = (১২ × ৩৩৬) ÷ ৪৮ = ৪০৩২ ÷ ৪৮ = ৮৪।"
+    }
+  },
+  {
+    "id": "numerical-008",
+    "q": {
+      "en": "The least number which when divided by 12, 15 and 18 leaves a remainder of 5 in each case is",
+      "as": "১২, ১৫ আৰু ১৮ ৰে ভাগ কৰিলে প্ৰতিটো ক্ষেত্ৰতে ভাগশেষ ৫ ৰখা আটাইতকৈ সৰু সংখ্যাটো কি"
+    },
+    "options": [
+      {
+        "en": "185",
+        "as": "১৮৫"
+      },
+      {
+        "en": "175",
+        "as": "১৭৫"
+      },
+      {
+        "en": "365",
+        "as": "৩৬৫"
+      },
+      {
+        "en": "545",
+        "as": "৫৪৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of 12, 15, 18 is 180. The required number is 180 + 5 = 185.",
+      "as": "১২, ১৫, ১৮ ৰ ল.সা.গু. ১৮০। প্ৰয়োজনীয় সংখ্যা ১৮০ + ৫ = ১৮৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-001",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 24, 36 and 54.",
+      "as": "২৪, ৩৬ আৰু ৫৪ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "432",
+        "as": "৪৩২"
+      },
+      {
+        "en": "7776",
+        "as": "৭৭৭৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 24 = 2^3 × 3, 36 = 2^2 × 3^2, 54 = 2 × 3^3. Take the highest power of every prime, which gives LCM = 2^3 × 3^3 = 216.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৪ = 2^3 × 3, ৩৬ = 2^2 × 3^2, ৫৪ = 2 × 3^3। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ২১৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-002",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 24, 36 and 54.",
+      "as": "২৪, ৩৬ আৰু ৫৪ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 24 = 2^3 × 3, 36 = 2^2 × 3^2, 54 = 2 × 3^3. The factors common to all of them are 2 × 3, so HCF = 6.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৪ = 2^3 × 3, ৩৬ = 2^2 × 3^2, ৫৪ = 2 × 3^3। সকলোতেই থকা সাধাৰণ উৎপাদক 2 × 3, সেয়ে গ.সা.গু. = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-003",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 18, 30 and 42.",
+      "as": "১৮, ৩০ আৰু ৪২ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "315",
+        "as": "৩১৫"
+      },
+      {
+        "en": "1260",
+        "as": "১২৬০"
+      },
+      {
+        "en": "3780",
+        "as": "৩৭৮০"
+      },
+      {
+        "en": "630",
+        "as": "৬৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 18 = 2 × 3^2, 30 = 2 × 3 × 5, 42 = 2 × 3 × 7. Take the highest power of every prime, which gives LCM = 2 × 3^2 × 5 × 7 = 630.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৮ = 2 × 3^2, ৩০ = 2 × 3 × 5, ৪২ = 2 × 3 × 7। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৬৩০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-004",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 18, 30 and 42.",
+      "as": "১৮, ৩০ আৰু ৪২ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 18 = 2 × 3^2, 30 = 2 × 3 × 5, 42 = 2 × 3 × 7. The factors common to all of them are 2 × 3, so HCF = 6.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৮ = 2 × 3^2, ৩০ = 2 × 3 × 5, ৪২ = 2 × 3 × 7। সকলোতেই থকা সাধাৰণ উৎপাদক 2 × 3, সেয়ে গ.সা.গু. = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-005",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 16, 24 and 40.",
+      "as": "১৬, ২৪ আৰু ৪০ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "1920",
+        "as": "১৯২০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 16 = 2^4, 24 = 2^3 × 3, 40 = 2^3 × 5. Take the highest power of every prime, which gives LCM = 2^4 × 3 × 5 = 240.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৬ = 2^4, ২৪ = 2^3 × 3, ৪০ = 2^3 × 5। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ২৪০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-006",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 16, 24 and 40.",
+      "as": "১৬, ২৪ আৰু ৪০ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 16 = 2^4, 24 = 2^3 × 3, 40 = 2^3 × 5. The factors common to all of them are 2^3, so HCF = 8.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৬ = 2^4, ২৪ = 2^3 × 3, ৪০ = 2^3 × 5। সকলোতেই থকা সাধাৰণ উৎপাদক 2^3, সেয়ে গ.সা.গু. = ৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-007",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 27, 45 and 72.",
+      "as": "২৭, ৪৫ আৰু ৭২ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "2160",
+        "as": "২১৬০"
+      },
+      {
+        "en": "9720",
+        "as": "৯৭২০"
+      },
+      {
+        "en": "1080",
+        "as": "১০৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 27 = 3^3, 45 = 3^2 × 5, 72 = 2^3 × 3^2. Take the highest power of every prime, which gives LCM = 2^3 × 3^3 × 5 = 1,080.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৭ = 3^3, ৪৫ = 3^2 × 5, ৭২ = 2^3 × 3^2। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ১,০৮০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-008",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 27, 45 and 72.",
+      "as": "২৭, ৪৫ আৰু ৭২ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 27 = 3^3, 45 = 3^2 × 5, 72 = 2^3 × 3^2. The factors common to all of them are 3^2, so HCF = 9.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৭ = 3^3, ৪৫ = 3^2 × 5, ৭২ = 2^3 × 3^2। সকলোতেই থকা সাধাৰণ উৎপাদক 3^2, সেয়ে গ.সা.গু. = ৯।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-009",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 14, 21 and 35.",
+      "as": "১৪, ২১ আৰু ৩৫ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "1470",
+        "as": "১৪৭০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 14 = 2 × 7, 21 = 3 × 7, 35 = 5 × 7. Take the highest power of every prime, which gives LCM = 2 × 3 × 5 × 7 = 210.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৪ = 2 × 7, ২১ = 3 × 7, ৩৫ = 5 × 7। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ২১০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-010",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 14, 21 and 35.",
+      "as": "১৪, ২১ আৰু ৩৫ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 14 = 2 × 7, 21 = 3 × 7, 35 = 5 × 7. The factors common to all of them are 7, so HCF = 7.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ১৪ = 2 × 7, ২১ = 3 × 7, ৩৫ = 5 × 7। সকলোতেই থকা সাধাৰণ উৎপাদক 7, সেয়ে গ.সা.গু. = ৭।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-011",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 32, 48 and 80.",
+      "as": "৩২, ৪৮ আৰু ৮০ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "960",
+        "as": "৯৬০"
+      },
+      {
+        "en": "7680",
+        "as": "৭৬৮০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 32 = 2^5, 48 = 2^4 × 3, 80 = 2^4 × 5. Take the highest power of every prime, which gives LCM = 2^5 × 3 × 5 = 480.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৩২ = 2^5, ৪৮ = 2^4 × 3, ৮০ = 2^4 × 5। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৪৮০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-012",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 32, 48 and 80.",
+      "as": "৩২, ৪৮ আৰু ৮০ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 32 = 2^5, 48 = 2^4 × 3, 80 = 2^4 × 5. The factors common to all of them are 2^4, so HCF = 16.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৩২ = 2^5, ৪৮ = 2^4 × 3, ৮০ = 2^4 × 5। সকলোতেই থকা সাধাৰণ উৎপাদক 2^4, সেয়ে গ.সা.গু. = ১৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-013",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 25, 40 and 60.",
+      "as": "২৫, ৪০ আৰু ৬০ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "600",
+        "as": "৬০০"
+      },
+      {
+        "en": "1200",
+        "as": "১২০০"
+      },
+      {
+        "en": "12000",
+        "as": "১২০০০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 25 = 5^2, 40 = 2^3 × 5, 60 = 2^2 × 3 × 5. Take the highest power of every prime, which gives LCM = 2^3 × 3 × 5^2 = 600.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৫ = 5^2, ৪০ = 2^3 × 5, ৬০ = 2^2 × 3 × 5। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৬০০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-014",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 25, 40 and 60.",
+      "as": "২৫, ৪০ আৰু ৬০ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10",
+        "as": "১০"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 25 = 5^2, 40 = 2^3 × 5, 60 = 2^2 × 3 × 5. The factors common to all of them are 5, so HCF = 5.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৫ = 5^2, ৪০ = 2^3 × 5, ৬০ = 2^2 × 3 × 5। সকলোতেই থকা সাধাৰণ উৎপাদক 5, সেয়ে গ.সা.গু. = ৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-015",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 36, 54 and 90.",
+      "as": "৩৬, ৫৪ আৰু ৯০ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "270",
+        "as": "২৭০"
+      },
+      {
+        "en": "1080",
+        "as": "১০৮০"
+      },
+      {
+        "en": "9720",
+        "as": "৯৭২০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 36 = 2^2 × 3^2, 54 = 2 × 3^3, 90 = 2 × 3^2 × 5. Take the highest power of every prime, which gives LCM = 2^2 × 3^3 × 5 = 540.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৩৬ = 2^2 × 3^2, ৫৪ = 2 × 3^3, ৯০ = 2 × 3^2 × 5। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৫৪০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-016",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 36, 54 and 90.",
+      "as": "৩৬, ৫৪ আৰু ৯০ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 36 = 2^2 × 3^2, 54 = 2 × 3^3, 90 = 2 × 3^2 × 5. The factors common to all of them are 2 × 3^2, so HCF = 18.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৩৬ = 2^2 × 3^2, ৫৪ = 2 × 3^3, ৯০ = 2 × 3^2 × 5। সকলোতেই থকা সাধাৰণ উৎপাদক 2 × 3^2, সেয়ে গ.সা.গু. = ১৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-017",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 22, 33 and 55.",
+      "as": "২২, ৩৩ আৰু ৫৫ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "165",
+        "as": "১৬৫"
+      },
+      {
+        "en": "330",
+        "as": "৩৩০"
+      },
+      {
+        "en": "660",
+        "as": "৬৬০"
+      },
+      {
+        "en": "3630",
+        "as": "৩৬৩০"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 22 = 2 × 11, 33 = 3 × 11, 55 = 5 × 11. Take the highest power of every prime, which gives LCM = 2 × 3 × 5 × 11 = 330.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২২ = 2 × 11, ৩৩ = 3 × 11, ৫৫ = 5 × 11। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৩৩০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-018",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 22, 33 and 55.",
+      "as": "২২, ৩৩ আৰু ৫৫ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "11",
+        "as": "১১"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 22 = 2 × 11, 33 = 3 × 11, 55 = 5 × 11. The factors common to all of them are 11, so HCF = 11.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২২ = 2 × 11, ৩৩ = 3 × 11, ৫৫ = 5 × 11। সকলোতেই থকা সাধাৰণ উৎপাদক 11, সেয়ে গ.সা.গু. = ১১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-019",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 28, 42 and 70.",
+      "as": "২৮, ৪২ আৰু ৭০ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "840",
+        "as": "৮৪০"
+      },
+      {
+        "en": "5880",
+        "as": "৫৮৮০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 28 = 2^2 × 7, 42 = 2 × 3 × 7, 70 = 2 × 5 × 7. Take the highest power of every prime, which gives LCM = 2^2 × 3 × 5 × 7 = 420.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৮ = 2^2 × 7, ৪২ = 2 × 3 × 7, ৭০ = 2 × 5 × 7। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৪২০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-020",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 28, 42 and 70.",
+      "as": "২৮, ৪২ আৰু ৭০ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "28",
+        "as": "২৮"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Factorise each number: 28 = 2^2 × 7, 42 = 2 × 3 × 7, 70 = 2 × 5 × 7. The factors common to all of them are 2 × 7, so HCF = 14.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ২৮ = 2^2 × 7, ৪২ = 2 × 3 × 7, ৭০ = 2 × 5 × 7। সকলোতেই থকা সাধাৰণ উৎপাদক 2 × 7, সেয়ে গ.সা.গু. = ১৪।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-021",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 45, 60 and 75.",
+      "as": "৪৫, ৬০ আৰু ৭৫ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      },
+      {
+        "en": "900",
+        "as": "৯০০"
+      },
+      {
+        "en": "13500",
+        "as": "১৩৫০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Factorise each number: 45 = 3^2 × 5, 60 = 2^2 × 3 × 5, 75 = 3 × 5^2. Take the highest power of every prime, which gives LCM = 2^2 × 3^2 × 5^2 = 900.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৪৫ = 3^2 × 5, ৬০ = 2^2 × 3 × 5, ৭৫ = 3 × 5^2। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ৯০০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-022",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 45, 60 and 75.",
+      "as": "৪৫, ৬০ আৰু ৭৫ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Factorise each number: 45 = 3^2 × 5, 60 = 2^2 × 3 × 5, 75 = 3 × 5^2. The factors common to all of them are 3 × 5, so HCF = 15.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৪৫ = 3^2 × 5, ৬০ = 2^2 × 3 × 5, ৭৫ = 3 × 5^2। সকলোতেই থকা সাধাৰণ উৎপাদক 3 × 5, সেয়ে গ.সা.গু. = ১৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-023",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 48, 64 and 96.",
+      "as": "৪৮, ৬৪ আৰু ৯৬ ৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "192",
+        "as": "১৯২"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "384",
+        "as": "৩৮৪"
+      },
+      {
+        "en": "18432",
+        "as": "১৮৪৩২"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 48 = 2^4 × 3, 64 = 2^6, 96 = 2^5 × 3. Take the highest power of every prime, which gives LCM = 2^6 × 3 = 192.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৪৮ = 2^4 × 3, ৬৪ = 2^6, ৯৬ = 2^5 × 3। প্ৰতিটো মৌলিকৰ সৰ্বোচ্চ ঘাত লোৱা — ল.সা.গু. = ১৯২।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-024",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 48, 64 and 96.",
+      "as": "৪৮, ৬৪ আৰু ৯৬ ৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16",
+        "as": "১৬"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "17",
+        "as": "১৭"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Factorise each number: 48 = 2^4 × 3, 64 = 2^6, 96 = 2^5 × 3. The factors common to all of them are 2^4, so HCF = 16.",
+      "as": "প্ৰতিটো সংখ্যা উৎপাদকত ভাগ কৰা: ৪৮ = 2^4 × 3, ৬৪ = 2^6, ৯৬ = 2^5 × 3। সকলোতেই থকা সাধাৰণ উৎপাদক 2^4, সেয়ে গ.সা.গু. = ১৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-025",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 2/3, 3/4 and 5/6.",
+      "as": "2/3, 3/4 আৰু 5/6 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "60/1",
+        "as": "৬০/১"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15/1",
+        "as": "১৫/১"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 30.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 30।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-026",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 2/3, 3/4 and 5/6.",
+      "as": "2/3, 3/4 আৰু 5/6 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/6",
+        "as": "১/৬"
+      },
+      {
+        "en": "1/24",
+        "as": "১/২৪"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "30/1",
+        "as": "৩০/১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/12.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/12।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-027",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 3/5, 4/7 and 2/3.",
+      "as": "3/5, 4/7 আৰু 2/3 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24/1",
+        "as": "২৪/১"
+      },
+      {
+        "en": "6/1",
+        "as": "৬/১"
+      },
+      {
+        "en": "1/105",
+        "as": "১/১০৫"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 12.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 12।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-028",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 3/5, 4/7 and 2/3.",
+      "as": "3/5, 4/7 আৰু 2/3 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2/105",
+        "as": "২/১০৫"
+      },
+      {
+        "en": "1/210",
+        "as": "১/২১০"
+      },
+      {
+        "en": "1/105",
+        "as": "১/১০৫"
+      },
+      {
+        "en": "12/1",
+        "as": "১২/১"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/105.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/105।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-029",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 5/8, 7/12 and 3/4.",
+      "as": "5/8, 7/12 আৰু 3/4 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "105/2",
+        "as": "১০৫/২"
+      },
+      {
+        "en": "105/4",
+        "as": "১০৫/৪"
+      },
+      {
+        "en": "105/8",
+        "as": "১০৫/৮"
+      },
+      {
+        "en": "1/24",
+        "as": "১/২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 105/4.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 105/4।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-030",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 5/8, 7/12 and 3/4.",
+      "as": "5/8, 7/12 আৰু 3/4 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/24",
+        "as": "১/২৪"
+      },
+      {
+        "en": "1/12",
+        "as": "১/১২"
+      },
+      {
+        "en": "1/48",
+        "as": "১/৪৮"
+      },
+      {
+        "en": "105/4",
+        "as": "১০৫/৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/24.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/24।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-031",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 4/9, 5/6 and 7/12.",
+      "as": "4/9, 5/6 আৰু 7/12 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "280/3",
+        "as": "২৮০/৩"
+      },
+      {
+        "en": "70/3",
+        "as": "৭০/৩"
+      },
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "140/3",
+        "as": "১৪০/৩"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 140/3.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 140/3।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-032",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 4/9, 5/6 and 7/12.",
+      "as": "4/9, 5/6 আৰু 7/12 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/18",
+        "as": "১/১৮"
+      },
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "1/72",
+        "as": "১/৭২"
+      },
+      {
+        "en": "140/3",
+        "as": "১৪০/৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/36.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/36।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-033",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 7/10, 3/5 and 4/15.",
+      "as": "7/10, 3/5 আৰু 4/15 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "168/5",
+        "as": "১৬৮/৫"
+      },
+      {
+        "en": "42/5",
+        "as": "৪২/৫"
+      },
+      {
+        "en": "84/5",
+        "as": "৮৪/৫"
+      },
+      {
+        "en": "1/30",
+        "as": "১/৩০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 84/5.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 84/5।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-034",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 7/10, 3/5 and 4/15.",
+      "as": "7/10, 3/5 আৰু 4/15 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/15",
+        "as": "১/১৫"
+      },
+      {
+        "en": "1/60",
+        "as": "১/৬০"
+      },
+      {
+        "en": "84/5",
+        "as": "৮৪/৫"
+      },
+      {
+        "en": "1/30",
+        "as": "১/৩০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/30.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/30।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-035",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of the fractions 5/6, 7/9 and 11/18.",
+      "as": "5/6, 7/9 আৰু 11/18 ভগ্নাংশৰ ল.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "385/3",
+        "as": "৩৮৫/৩"
+      },
+      {
+        "en": "770/3",
+        "as": "৭৭০/৩"
+      },
+      {
+        "en": "385/6",
+        "as": "৩৮৫/৬"
+      },
+      {
+        "en": "1/18",
+        "as": "১/১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "LCM of fractions = LCM(numerators)/HCF(denominators) = 385/3.",
+      "as": "ভগ্নাংশৰ ল.সা.গু. = হৰসমূহৰ গ.সা.গু. / লবসমূহৰ ল.সা.গু. = 385/3।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-036",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of the fractions 5/6, 7/9 and 11/18.",
+      "as": "5/6, 7/9 আৰু 11/18 ভগ্নাংশৰ গ.সা.গু. নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1/18",
+        "as": "১/১৮"
+      },
+      {
+        "en": "1/9",
+        "as": "১/৯"
+      },
+      {
+        "en": "1/36",
+        "as": "১/৩৬"
+      },
+      {
+        "en": "385/3",
+        "as": "৩৮৫/৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "HCF of fractions = HCF(numerators)/LCM(denominators) = 1/18.",
+      "as": "ভগ্নাংশৰ গ.সা.গু. = লবসমূহৰ গ.সা.গু. / হৰসমূহৰ ল.সা.গু. = 1/18।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-037",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 12 and their LCM is 360. If one number is 24, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ১২ আৰু ল.সা.গু. ৩৬০। এটা সংখ্যা ২৪ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "4320",
+        "as": "৪৩২০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "192",
+        "as": "১৯২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 12 × 360 ÷ 24 = 180.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ১২ × ৩৬০ ÷ ২৪ = ১৮০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-038",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 15 and their LCM is 180. If one number is 45, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ১৫ আৰু ল.সা.গু. ১৮০। এটা সংখ্যা ৪৫ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "2700",
+        "as": "২৭০০"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "75",
+        "as": "৭৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 15 × 180 ÷ 45 = 60.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ১৫ × ১৮০ ÷ ৪৫ = ৬০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-039",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 18 and their LCM is 720. If one number is 36, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ১৮ আৰু ল.সা.গু. ৭২০। এটা সংখ্যা ৩৬ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "12960",
+        "as": "১২৯৬০"
+      },
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "378",
+        "as": "৩৭৮"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 18 × 720 ÷ 36 = 360.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ১৮ × ৭২০ ÷ ৩৬ = ৩৬০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-040",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 20 and their LCM is 840. If one number is 60, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ২০ আৰু ল.সা.গু. ৮৪০। এটা সংখ্যা ৬০ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "16800",
+        "as": "১৬৮০০"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "280",
+        "as": "২৮০"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 20 × 840 ÷ 60 = 280.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ২০ × ৮৪০ ÷ ৬০ = ২৮০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-041",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 16 and their LCM is 480. If one number is 32, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ১৬ আৰু ল.সা.গু. ৪৮০। এটা সংখ্যা ৩২ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "7680",
+        "as": "৭৬৮০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "256",
+        "as": "২৫৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 16 × 480 ÷ 32 = 240.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ১৬ × ৪৮০ ÷ ৩২ = ২৪০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-042",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 21 and their LCM is 1260. If one number is 84, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ২১ আৰু ল.সা.গু. ১২৬০। এটা সংখ্যা ৮৪ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "315",
+        "as": "৩১৫"
+      },
+      {
+        "en": "26460",
+        "as": "২৬৪৬০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 21 × 1260 ÷ 84 = 315.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ২১ × ১২৬০ ÷ ৮৪ = ৩১৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-043",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 25 and their LCM is 900. If one number is 100, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ২৫ আৰু ল.সা.গু. ৯০০। এটা সংখ্যা ১০০ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "22500",
+        "as": "২২৫০০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "250",
+        "as": "২৫০"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 25 × 900 ÷ 100 = 225.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ২৫ × ৯০০ ÷ ১০০ = ২২৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-044",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The HCF of two numbers is 28 and their LCM is 1680. If one number is 112, the other is",
+      "as": "দুটা সংখ্যাৰ গ.সা.গু. ২৮ আৰু ল.সা.গু. ১৬৮০। এটা সংখ্যা ১১২ হ'লে আনটো কিমান"
+    },
+    "options": [
+      {
+        "en": "47040",
+        "as": "৪৭০৪০"
+      },
+      {
+        "en": "420",
+        "as": "৪২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "448",
+        "as": "৪৪৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Product of numbers = HCF × LCM, so the other number = 28 × 1680 ÷ 112 = 420.",
+      "as": "সংখ্যা দুটাৰ গুণফল = গ.সা.গু. × ল.সা.গু., সেয়ে আনটো = ২৮ × ১৬৮০ ÷ ১১২ = ৪২০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-045",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 5, 7 and 9 leaves the same remainder 3 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৫, ৭ আৰু ৯ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৩ থাকে"
+    },
+    "options": [
+      {
+        "en": "312",
+        "as": "৩১২"
+      },
+      {
+        "en": "315",
+        "as": "৩১৫"
+      },
+      {
+        "en": "318",
+        "as": "৩১৮"
+      },
+      {
+        "en": "319",
+        "as": "৩১৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Required number = LCM(5,7,9) + 3 = 315 + 3 = 318.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৩ = ৩১৫ + ৩ = ৩১৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-046",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 6, 8 and 12 leaves the same remainder 5 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৬, ৮ আৰু ১২ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৫ থাকে"
+    },
+    "options": [
+      {
+        "en": "19",
+        "as": "১৯"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "29",
+        "as": "২৯"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required number = LCM(6,8,12) + 5 = 24 + 5 = 29.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৫ = ২৪ + ৫ = ২৯।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-047",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 8, 10 and 15 leaves the same remainder 7 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৮, ১০ আৰু ১৫ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৭ থাকে"
+    },
+    "options": [
+      {
+        "en": "127",
+        "as": "১২৭"
+      },
+      {
+        "en": "113",
+        "as": "১১৩"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "128",
+        "as": "১২৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Required number = LCM(8,10,15) + 7 = 120 + 7 = 127.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৭ = ১২০ + ৭ = ১২৭।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-048",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 9, 12 and 18 leaves the same remainder 4 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৯, ১২ আৰু ১৮ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৪ থাকে"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "32",
+        "as": "৩২"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "41",
+        "as": "৪১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Required number = LCM(9,12,18) + 4 = 36 + 4 = 40.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৪ = ৩৬ + ৪ = ৪০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-049",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 10, 14 and 21 leaves the same remainder 6 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১০, ১৪ আৰু ২১ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৬ থাকে"
+    },
+    "options": [
+      {
+        "en": "204",
+        "as": "২০৪"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "210",
+        "as": "২১০"
+      },
+      {
+        "en": "217",
+        "as": "২১৭"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Required number = LCM(10,14,21) + 6 = 210 + 6 = 216.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৬ = ২১০ + ৬ = ২১৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-050",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 12, 15 and 20 leaves the same remainder 8 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১২, ১৫ আৰু ২০ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৮ থাকে"
+    },
+    "options": [
+      {
+        "en": "52",
+        "as": "৫২"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "68",
+        "as": "৬৮"
+      },
+      {
+        "en": "69",
+        "as": "৬৯"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Required number = LCM(12,15,20) + 8 = 60 + 8 = 68.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৮ = ৬০ + ৮ = ৬৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-051",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 7, 11 and 13 leaves the same remainder 5 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৭, ১১ আৰু ১৩ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৫ থাকে"
+    },
+    "options": [
+      {
+        "en": "996",
+        "as": "৯৯৬"
+      },
+      {
+        "en": "1001",
+        "as": "১০০১"
+      },
+      {
+        "en": "1007",
+        "as": "১০০৭"
+      },
+      {
+        "en": "1006",
+        "as": "১০০৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Required number = LCM(7,11,13) + 5 = 1001 + 5 = 1006.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৫ = ১০০১ + ৫ = ১০০৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-052",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The least number which when divided by 15, 20 and 25 leaves the same remainder 9 in each case is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১৫, ২০ আৰু ২৫ ৰে ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৯ থাকে"
+    },
+    "options": [
+      {
+        "en": "291",
+        "as": "২৯১"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "309",
+        "as": "৩০৯"
+      },
+      {
+        "en": "310",
+        "as": "৩১০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Required number = LCM(15,20,25) + 9 = 300 + 9 = 309.",
+      "as": "প্ৰয়োজনীয় সংখ্যা = ল.সা.গু. + ৯ = ৩০০ + ৯ = ৩০৯।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-053",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 24, 36 and 48 leaving the same remainder 5 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ২৪, ৩৬ আৰু ৪৮ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৫ থাকে"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-054",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 30, 45 and 60 leaving the same remainder 7 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৩০, ৪৫ আৰু ৬০ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৭ থাকে"
+    },
+    "options": [
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "7",
+        "as": "৭"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-055",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 18, 27 and 36 leaving the same remainder 4 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১৮, ২৭ আৰু ৩৬ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৪ থাকে"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-056",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 40, 50 and 60 leaving the same remainder 11 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৪০, ৫০ আৰু ৬০ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ১১ থাকে"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "11",
+        "as": "১১"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-057",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 21, 28 and 35 leaving the same remainder 6 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ২১, ২৮ আৰু ৩৫ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৬ থাকে"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-058",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 32, 40 and 56 leaving the same remainder 9 in each case is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৩২, ৪০ আৰু ৫৬ ক ভাগ কৰিলে প্ৰতিটোতে একে ভাগশেষ ৯ থাকে"
+    },
+    "options": [
+      {
+        "en": "2",
+        "as": "২"
+      },
+      {
+        "en": "0",
+        "as": "০"
+      },
+      {
+        "en": "9",
+        "as": "৯"
+      },
+      {
+        "en": "1",
+        "as": "১"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 1.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ১।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-059",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 12, 18 and 24 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১২, ১৮ আৰু ২৪ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "5184",
+        "as": "৫১৮৪"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest such number is LCM(12,18,24) = 72.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(১২,১৮,২৪) = ৭২।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-060",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 15, 20 and 30 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১৫, ২০ আৰু ৩০ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "9000",
+        "as": "৯০০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest such number is LCM(15,20,30) = 60.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(১৫,২০,৩০) = ৬০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-061",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 8, 14 and 21 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৮, ১৪ আৰু ২১ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "336",
+        "as": "৩৩৬"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "2352",
+        "as": "২৩৫২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The smallest such number is LCM(8,14,21) = 168.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(৮,১৪,২১) = ১৬৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-062",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 16, 20 and 24 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১৬, ২০ আৰু ২৪ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "480",
+        "as": "৪৮০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "7680",
+        "as": "৭৬৮০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The smallest such number is LCM(16,20,24) = 240.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(১৬,২০,২৪) = ২৪০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-063",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 9, 15 and 25 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৯, ১৫ আৰু ২৫ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "450",
+        "as": "৪৫০"
+      },
+      {
+        "en": "112",
+        "as": "১১২"
+      },
+      {
+        "en": "3375",
+        "as": "৩৩৭৫"
+      },
+      {
+        "en": "225",
+        "as": "২২৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The smallest such number is LCM(9,15,25) = 225.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(৯,১৫,২৫) = ২২৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-064",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 10, 12 and 18 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১০, ১২ আৰু ১৮ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "2160",
+        "as": "২১৬০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The smallest such number is LCM(10,12,18) = 180.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(১০,১২,১৮) = ১৮০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-065",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 14, 21 and 28 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ১৪, ২১ আৰু ২৮ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "8232",
+        "as": "৮২৩২"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The smallest such number is LCM(14,21,28) = 84.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(১৪,২১,২৮) = ৮৪।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-066",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The smallest number that is exactly divisible by 6, 15 and 20 is",
+      "as": "আটাইতকৈ সৰু সংখ্যা যিটো ৬, ১৫ আৰু ২০ ৰে সম্পূৰ্ণ বিভাজ্য"
+    },
+    "options": [
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "1800",
+        "as": "১৮০০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The smallest such number is LCM(6,15,20) = 60.",
+      "as": "আটাইতকৈ সৰু সংখ্যা = ল.সা.গু.(৬,১৫,২০) = ৬০।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-067",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 72, 96 and 120 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৭২, ৯৬ আৰু ১২০ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      },
+      {
+        "en": "25",
+        "as": "২৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 24.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ২৪।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-068",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 84, 126 and 210 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৮৪, ১২৬ আৰু ২১০ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "126",
+        "as": "১২৬"
+      },
+      {
+        "en": "43",
+        "as": "৪৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 42.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ৪২।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-069",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 105, 140 and 175 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১০৫, ১৪০ আৰু ১৭৫ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "70",
+        "as": "৭০"
+      },
+      {
+        "en": "105",
+        "as": "১০৫"
+      },
+      {
+        "en": "35",
+        "as": "৩৫"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 35.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ৩৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-070",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 90, 135 and 180 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৯০, ১৩৫ আৰু ১৮০ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "135",
+        "as": "১৩৫"
+      },
+      {
+        "en": "46",
+        "as": "৪৬"
+      },
+      {
+        "en": "45",
+        "as": "৪৫"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 45.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ৪৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-071",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 96, 144 and 240 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ৯৬, ১৪৪ আৰু ২৪০ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "96",
+        "as": "৯৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "49",
+        "as": "৪৯"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 48.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ৪৮।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-072",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The greatest number that divides 108, 162 and 270 exactly is",
+      "as": "আটাইতকৈ ডাঙৰ সংখ্যা যিটো ১০৮, ১৬২ আৰু ২৭০ ক সম্পূৰ্ণৰূপে ভাগ কৰে"
+    },
+    "options": [
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "108",
+        "as": "১০৮"
+      },
+      {
+        "en": "162",
+        "as": "১৬২"
+      },
+      {
+        "en": "55",
+        "as": "৫৫"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The greatest number that divides every given value exactly is their HCF, which works out to 54.",
+      "as": "দিয়া প্ৰতিটো মানক নিৰ্ভুলভাৱে হৰণ কৰা আটাইতকৈ ডাঙৰ সংখ্যাটোৱেই গ.সা.গু., যাৰ মান ৫৪।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-073",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 6, 8 and 12 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ৬, ৮ আৰু ১২ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      },
+      {
+        "en": "48",
+        "as": "৪৮"
+      },
+      {
+        "en": "26",
+        "as": "২৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They ring together after LCM(6,8,12) = 24 minutes.",
+      "as": "তেওঁলোক ২৪ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ২৪)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-074",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 10, 15 and 25 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ১০, ১৫ আৰু ২৫ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "75",
+        "as": "৭৫"
+      },
+      {
+        "en": "300",
+        "as": "৩০০"
+      },
+      {
+        "en": "150",
+        "as": "১৫০"
+      },
+      {
+        "en": "50",
+        "as": "৫০"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "They ring together after LCM(10,15,25) = 150 minutes.",
+      "as": "তেওঁলোক ১৫০ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ১৫০)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-075",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 12, 18 and 24 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ১২, ১৮ আৰু ২৪ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "36",
+        "as": "৩৬"
+      },
+      {
+        "en": "144",
+        "as": "১৪৪"
+      },
+      {
+        "en": "54",
+        "as": "৫৪"
+      },
+      {
+        "en": "72",
+        "as": "৭২"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "They ring together after LCM(12,18,24) = 72 minutes.",
+      "as": "তেওঁলোক ৭২ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ৭২)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-076",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 9, 12 and 15 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ৯, ১২ আৰু ১৫ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "360",
+        "as": "৩৬০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "They ring together after LCM(9,12,15) = 180 minutes.",
+      "as": "তেওঁলোক ১৮০ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ১৮০)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-077",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 14, 21 and 28 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ১৪, ২১ আৰু ২৮ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "42",
+        "as": "৪২"
+      },
+      {
+        "en": "84",
+        "as": "৮৪"
+      },
+      {
+        "en": "168",
+        "as": "১৬৮"
+      },
+      {
+        "en": "63",
+        "as": "৬৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They ring together after LCM(14,21,28) = 84 minutes.",
+      "as": "তেওঁলোক ৮৪ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ৮৪)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-078",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 20, 30 and 40 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ২০, ৩০ আৰু ৪০ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "120",
+        "as": "১২০"
+      },
+      {
+        "en": "60",
+        "as": "৬০"
+      },
+      {
+        "en": "240",
+        "as": "২৪০"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "They ring together after LCM(20,30,40) = 120 minutes.",
+      "as": "তেওঁলোক ১২০ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ১২০)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-079",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 8, 10 and 16 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ৮, ১০ আৰু ১৬ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "40",
+        "as": "৪০"
+      },
+      {
+        "en": "160",
+        "as": "১৬০"
+      },
+      {
+        "en": "34",
+        "as": "৩৪"
+      },
+      {
+        "en": "80",
+        "as": "৮০"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "They ring together after LCM(8,10,16) = 80 minutes.",
+      "as": "তেওঁলোক ৮০ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ৮০)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-080",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Three bells ring at intervals of 15, 18 and 45 minutes. If they ring together now, after how many minutes will they next ring together?",
+      "as": "তিনিটা ঘণ্টাই ১৫, ১৮ আৰু ৪৫ মিনিটৰ বিৰতিৰে বাজে। এতিয়া একেলগে বাজিলে কিমান মিনিটৰ পিছত পুনৰ একেলগে বাজিব?"
+    },
+    "options": [
+      {
+        "en": "45",
+        "as": "৪৫"
+      },
+      {
+        "en": "90",
+        "as": "৯০"
+      },
+      {
+        "en": "180",
+        "as": "১৮০"
+      },
+      {
+        "en": "78",
+        "as": "৭৮"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "They ring together after LCM(15,18,45) = 90 minutes.",
+      "as": "তেওঁলোক ৯০ মিনিটৰ পিছত একেলগে বাজিব (ল.সা.গু. = ৯০)।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-081",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 18 m long and 12 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ১৮ মিটাৰ দীঘ আৰু ১২ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "216",
+        "as": "২১৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "36",
+        "as": "৩৬"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tile side = HCF(18,12) = 6 m; number of tiles = (18/6) × (12/6) = 6.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(১৮,১২) = ৬ মিটাৰ; টাইলৰ সংখ্যা = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-082",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 24 m long and 16 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ২৪ মিটাৰ দীঘ আৰু ১৬ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "384",
+        "as": "৩৮৪"
+      },
+      {
+        "en": "14",
+        "as": "১৪"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Tile side = HCF(24,16) = 8 m; number of tiles = (24/8) × (16/8) = 6.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(২৪,১৬) = ৮ মিটাৰ; টাইলৰ সংখ্যা = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-083",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 30 m long and 18 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ৩০ মিটাৰ দীঘ আৰু ১৮ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "540",
+        "as": "৫৪০"
+      },
+      {
+        "en": "21",
+        "as": "২১"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tile side = HCF(30,18) = 6 m; number of tiles = (30/6) × (18/6) = 15.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(৩০,১৮) = ৬ মিটাৰ; টাইলৰ সংখ্যা = ১৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-084",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 36 m long and 24 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ৩৬ মিটাৰ দীঘ আৰু ২৪ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "864",
+        "as": "৮৬৪"
+      },
+      {
+        "en": "18",
+        "as": "১৮"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Tile side = HCF(36,24) = 12 m; number of tiles = (36/12) × (24/12) = 6.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(৩৬,২৪) = ১২ মিটাৰ; টাইলৰ সংখ্যা = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-085",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 45 m long and 27 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ৪৫ মিটাৰ দীঘ আৰু ২৭ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "30",
+        "as": "৩০"
+      },
+      {
+        "en": "15",
+        "as": "১৫"
+      },
+      {
+        "en": "1215",
+        "as": "১২১৫"
+      },
+      {
+        "en": "24",
+        "as": "২৪"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Tile side = HCF(45,27) = 9 m; number of tiles = (45/9) × (27/9) = 15.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(৪৫,২৭) = ৯ মিটাৰ; টাইলৰ সংখ্যা = ১৫।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-086",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "A room is 48 m long and 32 m wide. The least number of square tiles of equal size needed to cover the floor is",
+      "as": "এটা কোঠা ৪৮ মিটাৰ দীঘ আৰু ৩২ মিটাৰ বহল। সমান আকাৰৰ বৰ্গাকৃতি টাইলচেৰে মজিয়া ঢাকিবলৈ আটাইতকৈ কম কিমান টাইল লাগিব"
+    },
+    "options": [
+      {
+        "en": "12",
+        "as": "১২"
+      },
+      {
+        "en": "1536",
+        "as": "১৫৩৬"
+      },
+      {
+        "en": "6",
+        "as": "৬"
+      },
+      {
+        "en": "22",
+        "as": "২২"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Tile side = HCF(48,32) = 16 m; number of tiles = (48/16) × (32/16) = 6.",
+      "as": "টাইলৰ বাহু = গ.সা.গু.(৪৮,৩২) = ১৬ মিটাৰ; টাইলৰ সংখ্যা = ৬।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-087",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 0.6, 0.9, 1.2.",
+      "as": "0.6, 0.9, 1.2 ৰ LCM নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.2",
+        "as": "৭.২"
+      },
+      {
+        "en": "1.8",
+        "as": "১.৮"
+      },
+      {
+        "en": "3.7",
+        "as": "৩.৭"
+      },
+      {
+        "en": "3.6",
+        "as": "৩.৬"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives LCM = 3.6.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে LCM = 3.6 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-088",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 0.4, 0.6, 0.8.",
+      "as": "0.4, 0.6, 0.8 ৰ LCM নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      },
+      {
+        "en": "1.2",
+        "as": "১.২"
+      },
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      },
+      {
+        "en": "2.5",
+        "as": "২.৫"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives LCM = 2.4.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে LCM = 2.4 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-089",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 1.5, 2.5, 3.5.",
+      "as": "1.5, 2.5, 3.5 ৰ HCF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1.0",
+        "as": "১.০"
+      },
+      {
+        "en": "0.5",
+        "as": "০.৫"
+      },
+      {
+        "en": "0.25",
+        "as": "০.২৫"
+      },
+      {
+        "en": "0.6",
+        "as": "০.৬"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives HCF = 0.5.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে HCF = 0.5 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-090",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 0.12, 0.18, 0.24.",
+      "as": "0.12, 0.18, 0.24 ৰ HCF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "0.06",
+        "as": "০.০৬"
+      },
+      {
+        "en": "0.12",
+        "as": "০.১২"
+      },
+      {
+        "en": "0.03",
+        "as": "০.০৩"
+      },
+      {
+        "en": "0.16",
+        "as": "০.১৬"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives HCF = 0.06.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে HCF = 0.06 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-091",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the LCM of 0.8, 1.2, 1.6.",
+      "as": "0.8, 1.2, 1.6 ৰ LCM নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9.6",
+        "as": "৯.৬"
+      },
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      },
+      {
+        "en": "4.9",
+        "as": "৪.৯"
+      },
+      {
+        "en": "4.8",
+        "as": "৪.৮"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives LCM = 4.8.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে LCM = 4.8 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-092",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "Find the HCF of 2.4, 3.6, 4.8.",
+      "as": "2.4, 3.6, 4.8 ৰ HCF নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2.4",
+        "as": "২.৪"
+      },
+      {
+        "en": "1.2",
+        "as": "১.২"
+      },
+      {
+        "en": "0.6",
+        "as": "০.৬"
+      },
+      {
+        "en": "1.3",
+        "as": "১.৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Converting to integers and rescaling gives HCF = 1.2.",
+      "as": "পূৰ্ণসংখ্যালৈ ৰূপান্তৰ কৰি পুনৰ মাপ দিলে HCF = 1.2 পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-093",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 6 and LCM is 180 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ৬ আৰু ল.সা.গু. ১৮০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-094",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 8 and LCM is 240 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ৮ আৰু ল.সা.গু. ২৪০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-095",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 10 and LCM is 300 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ১০ আৰু ল.সা.গু. ৩০০"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-096",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 12 and LCM is 360 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ১২ আৰু ল.সা.গু. ৩৬০"
+    },
+    "options": [
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-097",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 15 and LCM is 450 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ১৫ আৰু ল.সা.গু. ৪৫০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-098",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 18 and LCM is 540 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ১৮ আৰু ল.সা.গু. ৫৪০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-099",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 20 and LCM is 600 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ২০ আৰু ল.সা.গু. ৬০০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  },
+  {
+    "id": "num-lcm-hcf-100",
+    "leaf": "lcm-hcf",
+    "q": {
+      "en": "The number of pairs of positive integers whose HCF is 24 and LCM is 720 is",
+      "as": "যুগ্ম ধনাত্মক পূৰ্ণসংখ্যাৰ সংখ্যা যাৰ গ.সা.গু. ২৪ আৰু ল.সা.গু. ৭২০"
+    },
+    "options": [
+      {
+        "en": "8",
+        "as": "৮"
+      },
+      {
+        "en": "5",
+        "as": "৫"
+      },
+      {
+        "en": "4",
+        "as": "৪"
+      },
+      {
+        "en": "3",
+        "as": "৩"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "L/H = 30 has 4 unordered factor pairs, giving 4 pairs.",
+      "as": "L/H = ৩০ ৰ ৪ যোৰ সংখ্যা পোৱা যায়।"
+    }
+  }
+]

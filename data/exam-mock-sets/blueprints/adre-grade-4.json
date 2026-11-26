@@ -1,0 +1,52 @@
+{
+  "exam": "adre-grade-4",
+  "totalQuestions": 135,
+  "durationMinutes": 150,
+  "totalMarks": 135,
+  "marksPerQuestion": 1,
+  "negativeMarking": 0.25,
+  "difficultyMix": { "easy": 50, "moderate": 35, "difficult": 15 },
+  "sets": 10,
+  "sections": [
+    {
+      "id": "general-knowledge-assam-gk",
+      "questions": 45,
+      "label": {
+        "en": "Assam & India's General Knowledge, History & Geography",
+        "as": "অসম আৰু ভাৰতৰ সাধাৰণ জ্ঞান, বুৰঞ্জী আৰু ভূগোল"
+      }
+    },
+    {
+      "id": "social-studies",
+      "questions": 25,
+      "label": {
+        "en": "Social Science — History, Polity, Constitution & Economy",
+        "as": "সমাজ বিজ্ঞান — বুৰঞ্জী, ৰাজনীতি, সংবিধান আৰু অৰ্থনীতি"
+      }
+    },
+    {
+      "id": "elementary-mathematics",
+      "questions": 25,
+      "label": {
+        "en": "General Mathematics",
+        "as": "সাধাৰণ গণিত"
+      }
+    },
+    {
+      "id": "general-english",
+      "questions": 20,
+      "label": {
+        "en": "General English",
+        "as": "সাধাৰণ ইংৰাজী"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "questions": 20,
+      "label": {
+        "en": "Mental Ability & Reasoning",
+        "as": "মানসিক দক্ষতা আৰু তৰ্কশক্তি"
+      }
+    }
+  ]
+}

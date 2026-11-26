@@ -1,0 +1,2914 @@
+[
+  {
+    "id": "numerical-049",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 20 m away on level ground is 45°. The height of the tower is",
+      "as": "সমতল মাটিত ২০ মি. দূৰৰ এটা বিন্দুৰপৰা এটা টাৱাৰৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। টাৱাৰটোৰ উচ্চতা কিমান"
+    },
+    "options": [
+      {
+        "en": "20 m",
+        "as": "২০ মি."
+      },
+      {
+        "en": "10 m",
+        "as": "১০ মি."
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ মি."
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 45° = height / base = h / 20, and tan 45° = 1, so h = 20 m.",
+      "as": "tan ৪৫° = উচ্চতা / ভূমি = h / ২০, আৰু tan ৪৫° = ১, সেয়ে h = ২০ মি।"
+    }
+  },
+  {
+    "id": "numerical-050",
+    "q": {
+      "en": "From a point 60 m from the foot of a tower, the angle of elevation of its top is 30°. The height of the tower is",
+      "as": "টাৱাৰৰ পাদদেশৰপৰা ৬০ মি. দূৰৰ এটা বিন্দুৰপৰা শীৰ্ষৰ উন্নতি কোণ ৩০°। টাৱাৰটোৰ উচ্চতা কিমান"
+    },
+    "options": [
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ মি."
+      },
+      {
+        "en": "60√3 m",
+        "as": "৬০√৩ মি."
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ মি."
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ মি."
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 30° = h / 60 = 1/√3, so h = 60/√3 = 20√3 ≈ 34.6 m.",
+      "as": "tan ৩০° = h / ৬০ = ১/√৩, সেয়ে h = ৬০/√৩ = ২০√৩ ≈ ৩৪.৬ মি।"
+    }
+  },
+  {
+    "id": "num-height-distance-001",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 30 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৩০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan 45° = height/distance, so height = 30 × tan 45° = 30 m.",
+      "as": "tan ৪৫° = উচ্চতা/দূৰত্ব, সেয়ে উচ্চতা = 30 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-002",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 20 m away from its foot is 60°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ২০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৬০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan 60° = height/distance, so height = 20 × tan 60° = 20√3 m.",
+      "as": "tan ৬০° = উচ্চতা/দূৰত্ব, সেয়ে উচ্চতা = 20√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-003",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 45 m away from its foot is 30°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৪৫ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৩০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan 30° = height/distance, so height = 45 × tan 30° = 15√3 m.",
+      "as": "tan ৩০° = উচ্চতা/দূৰত্ব, সেয়ে উচ্চতা = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-004",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 60 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৬০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "tan 45° = height/distance, so height = 60 × tan 45° = 60 m.",
+      "as": "tan ৪৫° = উচ্চতা/দূৰত্ব, সেয়ে উচ্চতা = 60 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-005",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 15 m away from its foot is 60°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ১৫ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৬০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan 60° = height/distance, so height = 15 × tan 60° = 15√3 m.",
+      "as": "tan ৬০° = উচ্চতা/দূৰত্ব, সেয়ে উচ্চতা = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-006",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 40 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৪০ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The angle of depression equals the angle of elevation from the boat. Height = 40 × tan 45° = 40 m.",
+      "as": "অৱনতি কোণ = উন্নতি কোণ, সেয়ে উচ্চতা = 40 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-007",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 25 m away from the base is 60°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ২৫ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৬০°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The angle of depression equals the angle of elevation from the boat. Height = 25 × tan 60° = 25√3 m.",
+      "as": "অৱনতি কোণ = উন্নতি কোণ, সেয়ে উচ্চতা = 25√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-008",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 60 m away from the base is 30°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৬০ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৩০°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The angle of depression equals the angle of elevation from the boat. Height = 60 × tan 30° = 20√3 m.",
+      "as": "অৱনতি কোণ = উন্নতি কোণ, সেয়ে উচ্চতা = 20√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-009",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 50 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৫০ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The angle of depression equals the angle of elevation from the boat. Height = 50 × tan 45° = 50 m.",
+      "as": "অৱনতি কোণ = উন্নতি কোণ, সেয়ে উচ্চতা = 50 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-010",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 20 m high casts a shadow when the angle of elevation of the sun is 45°. Find the length of the shadow.",
+      "as": "২০ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৪৫° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5√3 m",
+        "as": "৫√৩ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "tan 45° = height/shadow, so shadow = 20/tan 45° = 20 m.",
+      "as": "ছাঁ = 20/tan ৪৫° = 20 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-011",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 15 m high casts a shadow when the angle of elevation of the sun is 60°. Find the length of the shadow.",
+      "as": "১৫ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৬০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "5√3 m",
+        "as": "৫√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 60° = height/shadow, so shadow = 15/tan 60° = 5√3 m.",
+      "as": "ছাঁ = 15/tan ৬০° = 5√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-012",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 30 m high casts a shadow when the angle of elevation of the sun is 30°. Find the length of the shadow.",
+      "as": "৩০ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৩০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "5√3 m",
+        "as": "৫√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "tan 30° = height/shadow, so shadow = 30/tan 30° = 30√3 m.",
+      "as": "ছাঁ = 30/tan ৩০° = 30√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-013",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 12 m high casts a shadow when the angle of elevation of the sun is 60°. Find the length of the shadow.",
+      "as": "১২ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৬০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      },
+      {
+        "en": "5√3 m",
+        "as": "৫√৩ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "tan 60° = height/shadow, so shadow = 12/tan 60° = 4√3 m.",
+      "as": "ছাঁ = 12/tan ৬০° = 4√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-014",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 10 m long makes an angle of 30° with the ground. How high does it reach on the wall?",
+      "as": "১০ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৩০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "10√2 m",
+        "as": "১০√২ m"
+      },
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      },
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = L sin 30° = 10 × sin 30° = 5 m.",
+      "as": "উচ্চতা = L sin ৩০° = 5 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-015",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 20 m long makes an angle of 45° with the ground. How high does it reach on the wall?",
+      "as": "২০ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৪৫° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "10√2 m",
+        "as": "১০√২ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = L sin 45° = 20 × sin 45° = 10√2 m.",
+      "as": "উচ্চতা = L sin ৪৫° = 10√2 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-016",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 16 m long makes an angle of 60° with the ground. How high does it reach on the wall?",
+      "as": "১৬ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৬০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "10√2 m",
+        "as": "১০√২ m"
+      },
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = L sin 60° = 16 × sin 60° = 8√3 m.",
+      "as": "উচ্চতা = L sin ৬০° = 8√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-017",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 12 m long makes an angle of 30° with the ground. How high does it reach on the wall?",
+      "as": "১২ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৩০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "10√2 m",
+        "as": "১০√২ m"
+      },
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = L sin 30° = 12 × sin 30° = 6 m.",
+      "as": "উচ্চতা = L sin ৩০° = 6 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-018",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 20 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। ২০ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "15(√3+1) m",
+        "as": "১৫(√৩+১) m"
+      },
+      {
+        "en": "5(√3+1) m",
+        "as": "৫(√৩+১) m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "h = D/(cot 30° - cot 60°) = 20/(cot 30° - cot 60°) = 10√3 m.",
+      "as": "h = D/(cot ৩০° - cot ৬০°) = 10√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-019",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 45°. On moving 30 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। ৩০ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "5(√3+1) m",
+        "as": "৫(√৩+১) m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "15(√3+1) m",
+        "as": "১৫(√৩+১) m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "h = D/(cot 45° - cot 60°) = 30/(cot 45° - cot 60°) = 15(√3+1) m.",
+      "as": "h = D/(cot ৪৫° - cot ৬০°) = 15(√3+1) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-020",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 10 m towards the tower, it becomes 45°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। ১০ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৪৫° হয়। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "5(√3+1) m",
+        "as": "৫(√৩+১) m"
+      },
+      {
+        "en": "15(√3+1) m",
+        "as": "১৫(√৩+১) m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "h = D/(cot 30° - cot 45°) = 10/(cot 30° - cot 45°) = 5(√3+1) m.",
+      "as": "h = D/(cot ৩০° - cot ৪৫°) = 5(√3+1) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-021",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 50 m high, the angle of depression of the top of another tower 20 m high is 45°. Find the distance between the towers.",
+      "as": "৫০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ২০ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৪৫°। স্তম্ভ দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vertical difference = 50 - 20 = 30 m. Distance = (50-20)/tan 45° = 30 m.",
+      "as": "উচ্চতাৰ পাৰ্থক্য = ৩০ মিটাৰ; দূৰত্ব = 30 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-022",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 60 m high, the angle of depression of the top of another tower 30 m high is 30°. Find the distance between the towers.",
+      "as": "৬০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ৩০ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৩০°। স্তম্ভ দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Vertical difference = 60 - 30 = 30 m. Distance = (60-30)/tan 30° = 30√3 m.",
+      "as": "উচ্চতাৰ পাৰ্থক্য = ৩০ মিটাৰ; দূৰত্ব = 30√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-023",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 40 m high, the angle of depression of the top of another tower 10 m high is 60°. Find the distance between the towers.",
+      "as": "৪০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ১০ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৬০°। স্তম্ভ দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Vertical difference = 40 - 10 = 30 m. Distance = (40-10)/tan 60° = 10√3 m.",
+      "as": "উচ্চতাৰ পাৰ্থক্য = ৩০ মিটাৰ; দূৰত্ব = 10√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-024",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tree 20 m tall breaks and its top touches the ground at a distance of 5 m from the foot, making an angle of 60° with the ground. Find the height of the standing part.",
+      "as": "২০ মিটাৰ উচ্চতাৰ গছ ভাঙি ওপৰৰ অংশই মাটিৰ পৰা 5 m দূৰত মাটি স্পৰ্শ কৰে আৰু মাটিৰ সৈতে ৬০° কোণ কৰে। থিয় অংশৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "15 m",
+        "as": "১৫ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Broken part length = d/cos 60° = 5 m/cos 60°; standing part = 20 - broken part = 10 m.",
+      "as": "ভঙা অংশ = 5 m/cos ৬০°; থিয় অংশ = 10 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-025",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tree 18 m tall breaks and its top touches the ground at a distance of 6√3 m from the foot, making an angle of 30° with the ground. Find the height of the standing part.",
+      "as": "১৮ মিটাৰ উচ্চতাৰ গছ ভাঙি ওপৰৰ অংশই মাটিৰ পৰা 6√3 m দূৰত মাটি স্পৰ্শ কৰে আৰু মাটিৰ সৈতে ৩০° কোণ কৰে। থিয় অংশৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "15 m",
+        "as": "১৫ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Broken part length = d/cos 30° = 6√3 m/cos 30°; standing part = 18 - broken part = 6 m.",
+      "as": "ভঙা অংশ = 6√3 m/cos ৩০°; থিয় অংশ = 6 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-026",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tree 25 m tall breaks and its top touches the ground at a distance of 10 m from the foot, making an angle of 60° with the ground. Find the height of the standing part.",
+      "as": "২৫ মিটাৰ উচ্চতাৰ গছ ভাঙি ওপৰৰ অংশই মাটিৰ পৰা 10 m দূৰত মাটি স্পৰ্শ কৰে আৰু মাটিৰ সৈতে ৬০° কোণ কৰে। থিয় অংশৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "5 m",
+        "as": "৫ m"
+      },
+      {
+        "en": "15 m",
+        "as": "১৫ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Broken part length = d/cos 60° = 10 m/cos 60°; standing part = 25 - broken part = 5 m.",
+      "as": "ভঙা অংশ = 10 m/cos ৬০°; থিয় অংশ = 5 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-027",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 30 m high from a point on the ground is 45°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৩০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। বিন্দুটোৰ পৰা পাদদেশলৈ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = height/tan 45° = 30/tan 45° = 30 m.",
+      "as": "দূৰত্ব = 30/tan ৪৫° = 30 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-028",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 20 m high from a point on the ground is 30°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ২০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। বিন্দুটোৰ পৰা পাদদেশলৈ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = height/tan 30° = 20/tan 30° = 20√3 m.",
+      "as": "দূৰত্ব = 20/tan ৩০° = 20√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-029",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 45 m high from a point on the ground is 60°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৪৫ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৬০°। বিন্দুটোৰ পৰা পাদদেশলৈ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = height/tan 60° = 45/tan 60° = 15√3 m.",
+      "as": "দূৰত্ব = 45/tan ৬০° = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-030",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 12 m high from a point on the ground is 60°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ১২ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৬০°। বিন্দুটোৰ পৰা পাদদেশলৈ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = height/tan 60° = 12/tan 60° = 4√3 m.",
+      "as": "দূৰত্ব = 12/tan ৬০° = 4√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-031",
+    "leaf": "height-distance",
+    "q": {
+      "en": "An aeroplane is flying at a height of 3000 m. The angle of elevation from a point on the ground is 60°. Find the horizontal distance of the aeroplane from the point.",
+      "as": "এখন বিমান ৩০০০ মিটাৰ উচ্চতাত উৰি আছে। মাটিত এটা বিন্দুৰ পৰা উন্নতি কোণ ৬০°। বিন্দুটোৰ পৰা বিমানৰ অনুভূমিক দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2000 m",
+        "as": "২০০০ m"
+      },
+      {
+        "en": "1500√3 m",
+        "as": "১৫০০√৩ m"
+      },
+      {
+        "en": "3000 m",
+        "as": "৩০০০ m"
+      },
+      {
+        "en": "1000√3 m",
+        "as": "১০০০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Horizontal distance = height/tan 60° = 3000/tan 60° = 1000√3 m.",
+      "as": "অনুভূমিক দূৰত্ব = 3000/tan ৬০° = 1000√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-032",
+    "leaf": "height-distance",
+    "q": {
+      "en": "An aeroplane is flying at a height of 2000 m. The angle of elevation from a point on the ground is 45°. Find the horizontal distance of the aeroplane from the point.",
+      "as": "এখন বিমান ২০০০ মিটাৰ উচ্চতাত উৰি আছে। মাটিত এটা বিন্দুৰ পৰা উন্নতি কোণ ৪৫°। বিন্দুটোৰ পৰা বিমানৰ অনুভূমিক দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000√3 m",
+        "as": "১০০০√৩ m"
+      },
+      {
+        "en": "2000 m",
+        "as": "২০০০ m"
+      },
+      {
+        "en": "1500√3 m",
+        "as": "১৫০০√৩ m"
+      },
+      {
+        "en": "3000 m",
+        "as": "৩০০০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Horizontal distance = height/tan 45° = 2000/tan 45° = 2000 m.",
+      "as": "অনুভূমিক দূৰত্ব = 2000/tan ৪৫° = 2000 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-033",
+    "leaf": "height-distance",
+    "q": {
+      "en": "An aeroplane is flying at a height of 1500 m. The angle of elevation from a point on the ground is 30°. Find the horizontal distance of the aeroplane from the point.",
+      "as": "এখন বিমান ১৫০০ মিটাৰ উচ্চতাত উৰি আছে। মাটিত এটা বিন্দুৰ পৰা উন্নতি কোণ ৩০°। বিন্দুটোৰ পৰা বিমানৰ অনুভূমিক দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "1000√3 m",
+        "as": "১০০০√৩ m"
+      },
+      {
+        "en": "2000 m",
+        "as": "২০০০ m"
+      },
+      {
+        "en": "1500√3 m",
+        "as": "১৫০০√৩ m"
+      },
+      {
+        "en": "3000 m",
+        "as": "৩০০০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Horizontal distance = height/tan 30° = 1500/tan 30° = 1500√3 m.",
+      "as": "অনুভূমিক দূৰত্ব = 1500/tan ৩০° = 1500√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-034",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 30 m high, the angles of depression of two objects on opposite sides are 30° and 60°. Find the distance between the objects.",
+      "as": "৩০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা বিপৰীত ফালে থকা দুটা বস্তুলৈ অৱনতি কোণ ৩০° আৰু ৬০°। বস্তু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20(1+√3) m",
+        "as": "২০(১+√৩) m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      },
+      {
+        "en": "40√3 m",
+        "as": "৪০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = h(cot 30° + cot 60°) = 30(cot 30° + cot 60°) = 40√3 m.",
+      "as": "দূৰত্ব = h(cot ৩০° + cot ৬০°) = 40√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-035",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 20 m high, the angles of depression of two objects on opposite sides are 45° and 30°. Find the distance between the objects.",
+      "as": "২০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা বিপৰীত ফালে থকা দুটা বস্তুলৈ অৱনতি কোণ ৪৫° আৰু ৩০°। বস্তু দুটাৰ মাজৰ দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "20(1+√3) m",
+        "as": "২০(১+√৩) m"
+      },
+      {
+        "en": "40√3 m",
+        "as": "৪০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = h(cot 45° + cot 30°) = 20(cot 45° + cot 30°) = 20(1+√3) m.",
+      "as": "দূৰত্ব = h(cot ৪৫° + cot ৩০°) = 20(1+√3) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-036",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 40 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৪০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height = 40 tan 45° = 40 m.",
+      "as": "উচ্চতা = 40 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-037",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 10 m away from its foot is 60°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ১০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৬০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 10 tan 60° = 10√3 m.",
+      "as": "উচ্চতা = 10√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-038",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 30 m away from its foot is 30°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৩০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৩০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 30 tan 30° = 10√3 m.",
+      "as": "উচ্চতা = 10√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-039",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 30 m away from the base is 60°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৩০ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৬০°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 30 tan 60° = 30√3 m.",
+      "as": "উচ্চতা = 30√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-040",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 45 m away from the base is 30°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৪৫ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৩০°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 45 tan 30° = 15√3 m.",
+      "as": "উচ্চতা = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-041",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 20 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ২০ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 20 tan 45° = 20 m.",
+      "as": "উচ্চতা = 20 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-042",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 24 m high casts a shadow when the angle of elevation of the sun is 45°. Find the length of the shadow.",
+      "as": "২৪ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৪৫° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      },
+      {
+        "en": "18√3 m",
+        "as": "১৮√৩ m"
+      },
+      {
+        "en": "3√3 m",
+        "as": "৩√৩ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Shadow = 24/tan 45° = 24 m.",
+      "as": "ছাঁ = 24 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-043",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 18 m high casts a shadow when the angle of elevation of the sun is 30°. Find the length of the shadow.",
+      "as": "১৮ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৩০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      },
+      {
+        "en": "3√3 m",
+        "as": "৩√৩ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      },
+      {
+        "en": "18√3 m",
+        "as": "১৮√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Shadow = 18/tan 30° = 18√3 m.",
+      "as": "ছাঁ = 18√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-044",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 9 m high casts a shadow when the angle of elevation of the sun is 60°. Find the length of the shadow.",
+      "as": "৯ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৬০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      },
+      {
+        "en": "3√3 m",
+        "as": "৩√৩ m"
+      },
+      {
+        "en": "18√3 m",
+        "as": "১৮√৩ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shadow = 9/tan 60° = 3√3 m.",
+      "as": "ছাঁ = 3√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-045",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 14 m long makes an angle of 30° with the ground. How high does it reach on the wall?",
+      "as": "১৪ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৩০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      },
+      {
+        "en": "4√2 m",
+        "as": "৪√২ m"
+      },
+      {
+        "en": "7 m",
+        "as": "৭ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 14 sin 30° = 7 m.",
+      "as": "উচ্চতা = 7 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-046",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 24 m long makes an angle of 60° with the ground. How high does it reach on the wall?",
+      "as": "২৪ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৬০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "7 m",
+        "as": "৭ m"
+      },
+      {
+        "en": "4√2 m",
+        "as": "৪√২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 24 sin 60° = 12√3 m.",
+      "as": "উচ্চতা = 12√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-047",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 8 m long makes an angle of 45° with the ground. How high does it reach on the wall?",
+      "as": "৮ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৪৫° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "4√2 m",
+        "as": "৪√২ m"
+      },
+      {
+        "en": "7 m",
+        "as": "৭ m"
+      },
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height = 8 sin 45° = 4√2 m.",
+      "as": "উচ্চতা = 4√2 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-048",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 15 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। ১৫ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5√3 m",
+        "as": "৭.৫√৩ m"
+      },
+      {
+        "en": "20(√3+1) m",
+        "as": "২০(√৩+১) m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "h = 15/(cot 30° - cot 60°) = 7.5√3 m.",
+      "as": "h = 7.5√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-049",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 45°. On moving 40 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। ৪০ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7.5√3 m",
+        "as": "৭.৫√৩ m"
+      },
+      {
+        "en": "20(√3+1) m",
+        "as": "২০(√৩+১) m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "h = 40/(cot 45° - cot 60°) = 20(√3+1) m.",
+      "as": "h = 20(√3+1) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-050",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 70 m high, the angle of depression of the top of another tower 40 m high is 45°. Find the distance between the towers.",
+      "as": "৭০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ৪০ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৪৫°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vertical difference = 70 − 40 = 30 m. Distance = 30 ÷ tan 45° = 30 ÷ 1.0 = 30 m.",
+      "as": "উলম্ব পাৰ্থক্য = ৭০ − ৪০ = ৩০ মিটাৰ। দূৰত্ব = ৩০ ÷ tan ৪৫° = ৩০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-height-distance-051",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 45 m high, the angle of depression of the top of another tower 15 m high is 30°. Find the distance between the towers.",
+      "as": "৪৫ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ১৫ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৩০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = (45-15)/tan 30° = 30√3 m.",
+      "as": "দূৰত্ব = 30√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-052",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 36 m high from a point on the ground is 45°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৩৬ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "24√3 m",
+        "as": "২৪√৩ m"
+      },
+      {
+        "en": "6√3 m",
+        "as": "৬√৩ m"
+      },
+      {
+        "en": "36 m",
+        "as": "৩৬ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = 36/tan 45° = 36 m.",
+      "as": "দূৰত্ব = 36 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-053",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 24 m high from a point on the ground is 30°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ২৪ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "36 m",
+        "as": "৩৬ m"
+      },
+      {
+        "en": "24√3 m",
+        "as": "২৪√৩ m"
+      },
+      {
+        "en": "6√3 m",
+        "as": "৬√৩ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 24/tan 30° = 24√3 m.",
+      "as": "দূৰত্ব = 24√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-054",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 18 m high from a point on the ground is 60°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ১৮ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৬০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6√3 m",
+        "as": "৬√৩ m"
+      },
+      {
+        "en": "36 m",
+        "as": "৩৬ m"
+      },
+      {
+        "en": "24√3 m",
+        "as": "২৪√৩ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 18/tan 60° = 6√3 m.",
+      "as": "দূৰত্ব = 6√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-055",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 50 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৫০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "18 m",
+        "as": "১৮ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 50 tan 45° = 50 m.",
+      "as": "উচ্চতা = 50 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-056",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 25 m away from its foot is 60°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ২৫ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৬০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "18 m",
+        "as": "১৮ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 25 tan 60° = 25√3 m.",
+      "as": "উচ্চতা = 25√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-057",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 60 m away from its foot is 30°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৬০ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৩০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "18 m",
+        "as": "১৮ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 60 tan 30° = 20√3 m.",
+      "as": "উচ্চতা = 20√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-058",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 18 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ১৮ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      },
+      {
+        "en": "18 m",
+        "as": "১৮ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 18 tan 45° = 18 m.",
+      "as": "উচ্চতা = 18 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-059",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 12 m away from its foot is 30°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ১২ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৩০°। স্তম্ভৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "4√3 m",
+        "as": "৪√৩ m"
+      },
+      {
+        "en": "50 m",
+        "as": "৫০ m"
+      },
+      {
+        "en": "25√3 m",
+        "as": "২৫√৩ m"
+      },
+      {
+        "en": "20√3 m",
+        "as": "২০√৩ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height = 12 tan 30° = 4√3 m.",
+      "as": "উচ্চতা = 4√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-060",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 35 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৩৫ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35 m",
+        "as": "৩৫ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "28 m",
+        "as": "২৮ m"
+      },
+      {
+        "en": "45 m",
+        "as": "৪৫ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Height = 35 tan 45° = 35 m.",
+      "as": "উচ্চতা = 35 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-061",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 15 m away from the base is 60°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ১৫ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৬০°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35 m",
+        "as": "৩৫ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "28 m",
+        "as": "২৮ m"
+      },
+      {
+        "en": "45 m",
+        "as": "৪৫ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 15 tan 60° = 15√3 m.",
+      "as": "উচ্চতা = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-062",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 28 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ২৮ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। শিলৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "35 m",
+        "as": "৩৫ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "28 m",
+        "as": "২৮ m"
+      },
+      {
+        "en": "45 m",
+        "as": "৪৫ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 28 tan 45° = 28 m.",
+      "as": "উচ্চতা = 28 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-063",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 16 m high casts a shadow when the angle of elevation of the sun is 45°. Find the length of the shadow.",
+      "as": "১৬ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৪৫° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "36√3 m",
+        "as": "৩৬√৩ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Shadow = 16/tan 45° = 16 m.",
+      "as": "ছাঁ = 16 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-064",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 21 m high casts a shadow when the angle of elevation of the sun is 60°. Find the length of the shadow.",
+      "as": "২১ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৬০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "36√3 m",
+        "as": "৩৬√৩ m"
+      },
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Shadow = 21/tan 60° = 7√3 m.",
+      "as": "ছাঁ = 7√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-065",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 36 m high casts a shadow when the angle of elevation of the sun is 30°. Find the length of the shadow.",
+      "as": "৩৬ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৩০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "36√3 m",
+        "as": "৩৬√৩ m"
+      },
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shadow = 36/tan 30° = 36√3 m.",
+      "as": "ছাঁ = 36√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-066",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 15 m high casts a shadow when the angle of elevation of the sun is 30°. Find the length of the shadow.",
+      "as": "১৫ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৩০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "36√3 m",
+        "as": "৩৬√৩ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Shadow = 15/tan 30° = 15√3 m.",
+      "as": "ছাঁ = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-067",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 18 m long makes an angle of 30° with the ground. How high does it reach on the wall?",
+      "as": "১৮ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৩০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "5√2 m",
+        "as": "৫√২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "9 m",
+        "as": "৯ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 18 sin 30° = 9 m.",
+      "as": "উচ্চতা = 9 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-068",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 30 m long makes an angle of 60° with the ground. How high does it reach on the wall?",
+      "as": "৩০ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৬০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "9 m",
+        "as": "৯ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "5√2 m",
+        "as": "৫√২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 30 sin 60° = 15√3 m.",
+      "as": "উচ্চতা = 15√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-069",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 10 m long makes an angle of 45° with the ground. How high does it reach on the wall?",
+      "as": "১০ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৪৫° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "9 m",
+        "as": "৯ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "5√2 m",
+        "as": "৫√২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 10 sin 45° = 5√2 m.",
+      "as": "উচ্চতা = 5√2 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-070",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A ladder 20 m long makes an angle of 30° with the ground. How high does it reach on the wall?",
+      "as": "২০ মিটাৰ দীঘৰ জখলা মাটিৰ সৈতে ৩০° কোণ কৰে। বেৰত কিমান ওপৰলৈ পাব?"
+    },
+    "options": [
+      {
+        "en": "9 m",
+        "as": "৯ m"
+      },
+      {
+        "en": "15√3 m",
+        "as": "১৫√৩ m"
+      },
+      {
+        "en": "5√2 m",
+        "as": "৫√২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 20 sin 30° = 10 m.",
+      "as": "উচ্চতা = 10 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-071",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 24 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। ২৪ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      },
+      {
+        "en": "6(√3+1) m",
+        "as": "৬(√৩+১) m"
+      },
+      {
+        "en": "9(√3+1) m",
+        "as": "৯(√৩+১) m"
+      },
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "h = 24/(cot 30° - cot 60°) = 12√3 m.",
+      "as": "h = 12√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-072",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 45°. On moving 12 m towards the tower, it becomes 60°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। ১২ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৬০° হয়। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "6(√3+1) m",
+        "as": "৬(√৩+১) m"
+      },
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      },
+      {
+        "en": "9(√3+1) m",
+        "as": "৯(√৩+১) m"
+      },
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "h = 12/(cot 45° - cot 60°) = 6(√3+1) m.",
+      "as": "h = 6(√3+1) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-073",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From a point on the ground, the angle of elevation of the top of a tower is 30°. On moving 18 m towards the tower, it becomes 45°. Find the height of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। ১৮ মিটাৰ স্তম্ভৰ ফালে আগবাঢ়িলে ৪৫° হয়। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12√3 m",
+        "as": "১২√৩ m"
+      },
+      {
+        "en": "9(√3+1) m",
+        "as": "৯(√৩+১) m"
+      },
+      {
+        "en": "6(√3+1) m",
+        "as": "৬(√৩+১) m"
+      },
+      {
+        "en": "24 m",
+        "as": "২৪ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "h = 18/(cot 30° - cot 45°) = 9(√3+1) m.",
+      "as": "h = 9(√3+1) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-074",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 55 m high, the angle of depression of the top of another tower 25 m high is 45°. Find the distance between the towers.",
+      "as": "৫৫ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ২৫ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৪৫°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Vertical difference = 55 − 25 = 30 m. Distance = 30 ÷ tan 45° = 30 ÷ 1.0 = 30 m.",
+      "as": "উলম্ব পাৰ্থক্য = ৫৫ − ২৫ = ৩০ মিটাৰ। দূৰত্ব = ৩০ ÷ tan ৪৫° = ৩০ মিটাৰ।"
+    }
+  },
+  {
+    "id": "num-height-distance-075",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 80 m high, the angle of depression of the top of another tower 50 m high is 30°. Find the distance between the towers.",
+      "as": "৮০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা ৫০ মিটাৰ উচ্চতাৰ আন এটা স্তম্ভৰ শীৰ্ষলৈ অৱনতি কোণ ৩০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "30√3 m",
+        "as": "৩০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = (80-50)/tan 30° = 30√3 m.",
+      "as": "দূৰত্ব = 30√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-076",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 40 m high from a point on the ground is 45°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৪০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "27√3 m",
+        "as": "২৭√৩ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Distance = 40/tan 45° = 40 m.",
+      "as": "দূৰত্ব = 40 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-077",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 30 m high from a point on the ground is 60°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৩০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৬০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "27√3 m",
+        "as": "২৭√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 30/tan 60° = 10√3 m.",
+      "as": "দূৰত্ব = 10√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-078",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 27 m high from a point on the ground is 30°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ২৭ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৩০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "27√3 m",
+        "as": "২৭√৩ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "10√3 m",
+        "as": "১০√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 27/tan 30° = 27√3 m.",
+      "as": "দূৰত্ব = 27√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-079",
+    "leaf": "height-distance",
+    "q": {
+      "en": "An aeroplane is flying at a height of 1200 m. The angle of elevation from a point on the ground is 60°. Find the horizontal distance of the aeroplane from the point.",
+      "as": "এখন বিমান ১২০০ মিটাৰ উচ্চতাত উৰি আছে। মাটিত এটা বিন্দুৰ পৰা উন্নতি কোণ ৬০°। অনুভূমিক দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "2400 m",
+        "as": "২৪০০ m"
+      },
+      {
+        "en": "1200 m",
+        "as": "১২০০ m"
+      },
+      {
+        "en": "800 m",
+        "as": "৮০০ m"
+      },
+      {
+        "en": "400√3 m",
+        "as": "৪০০√৩ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Horizontal distance = 1200/tan 60° = 400√3 m.",
+      "as": "অনুভূমিক দূৰত্ব = 400√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-080",
+    "leaf": "height-distance",
+    "q": {
+      "en": "An aeroplane is flying at a height of 2400 m. The angle of elevation from a point on the ground is 45°. Find the horizontal distance of the aeroplane from the point.",
+      "as": "এখন বিমান ২৪০০ মিটাৰ উচ্চতাত উৰি আছে। মাটিত এটা বিন্দুৰ পৰা উন্নতি কোণ ৪৫°। অনুভূমিক দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "400√3 m",
+        "as": "৪০০√৩ m"
+      },
+      {
+        "en": "2400 m",
+        "as": "২৪০০ m"
+      },
+      {
+        "en": "1200 m",
+        "as": "১২০০ m"
+      },
+      {
+        "en": "800 m",
+        "as": "৮০০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Horizontal distance = 2400/tan 45° = 2400 m.",
+      "as": "অনুভূমিক দূৰত্ব = 2400 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-081",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tree 36 m tall breaks and its top touches the ground at a distance of 12√3 m from the foot, making an angle of 30° with the ground. Find the height of the standing part.",
+      "as": "৩৬ মিটাৰ উচ্চতাৰ গছ ভাঙি ওপৰৰ অংশই মাটিৰ পৰা 12√3 m দূৰত মাটি স্পৰ্শ কৰে আৰু মাটিৰ সৈতে ৩০° কোণ কৰে। থিয় অংশৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8 m",
+        "as": "৮ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Standing part = 36 - broken part = 12 m.",
+      "as": "থিয় অংশ = 12 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-082",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tree 24 m tall breaks and its top touches the ground at a distance of 8√3 m from the foot, making an angle of 30° with the ground. Find the height of the standing part.",
+      "as": "২৪ মিটাৰ উচ্চতাৰ গছ ভাঙি ওপৰৰ অংশই মাটিৰ পৰা 8√3 m দূৰত মাটি স্পৰ্শ কৰে আৰু মাটিৰ সৈতে ৩০° কোণ কৰে। থিয় অংশৰ উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "12 m",
+        "as": "১২ m"
+      },
+      {
+        "en": "10 m",
+        "as": "১০ m"
+      },
+      {
+        "en": "6 m",
+        "as": "৬ m"
+      },
+      {
+        "en": "8 m",
+        "as": "৮ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Standing part = 24 - broken part = 8 m.",
+      "as": "থিয় অংশ = 8 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-083",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 40 m high, the angles of depression of two objects on opposite sides are 30° and 60°. Find the distance between the objects.",
+      "as": "৪০ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা বিপৰীত ফালে থকা দুটা বস্তুলৈ অৱনতি কোণ ৩০° আৰু ৬০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "40√3 m",
+        "as": "৪০√৩ m"
+      },
+      {
+        "en": "25(1+√3) m",
+        "as": "২৫(১+√৩) m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 40(cot 30° + cot 60°) = 40√3 m.",
+      "as": "দূৰত্ব = 40√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-084",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a tower 25 m high, the angles of depression of two objects on opposite sides are 45° and 30°. Find the distance between the objects.",
+      "as": "২৫ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ পৰা বিপৰীত ফালে থকা দুটা বস্তুলৈ অৱনতি কোণ ৪৫° আৰু ৩০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "25(1+√3) m",
+        "as": "২৫(১+√৩) m"
+      },
+      {
+        "en": "40√3 m",
+        "as": "৪০√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      },
+      {
+        "en": "60 m",
+        "as": "৬০ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Distance = 25(cot 45° + cot 30°) = 25(1+√3) m.",
+      "as": "দূৰত্ব = 25(1+√3) m।"
+    }
+  },
+  {
+    "id": "num-height-distance-085",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 22 m away from its foot is 45°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ২২ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৪৫°। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      },
+      {
+        "en": "22 m",
+        "as": "২২ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Height = 22 tan 45° = 22 m.",
+      "as": "উচ্চতা = 22 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-086",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower from a point 8 m away from its foot is 60°. Find the height of the tower.",
+      "as": "এটা স্তম্ভৰ পাদদেশৰ পৰা ৮ মিটাৰ দূৰত এটা বিন্দুৰ পৰা শীৰ্ষৰ উন্নতি কোণ ৬০°। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "22 m",
+        "as": "২২ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "8√3 m",
+        "as": "৮√৩ m"
+      },
+      {
+        "en": "30 m",
+        "as": "৩০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 8 tan 60° = 8√3 m.",
+      "as": "উচ্চতা = 8√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-087",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 32 m away from the base is 45°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ৩২ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৪৫°। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "18√3 m",
+        "as": "১৮√৩ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      },
+      {
+        "en": "32 m",
+        "as": "৩২ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Height = 32 tan 45° = 32 m.",
+      "as": "উচ্চতা = 32 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-088",
+    "leaf": "height-distance",
+    "q": {
+      "en": "From the top of a cliff, the angle of depression of a boat 18 m away from the base is 60°. Find the height of the cliff.",
+      "as": "এটা শিলৰ শীৰ্ষৰ পৰা পাদদেশৰ পৰা ১৮ মিটাৰ দূৰত থকা এখন নাওঁলৈ অৱনতি কোণ ৬০°। উচ্চতা নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32 m",
+        "as": "৩২ m"
+      },
+      {
+        "en": "20 m",
+        "as": "২০ m"
+      },
+      {
+        "en": "18√3 m",
+        "as": "১৮√৩ m"
+      },
+      {
+        "en": "40 m",
+        "as": "৪০ m"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Height = 18 tan 60° = 18√3 m.",
+      "as": "উচ্চতা = 18√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-089",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 14 m high casts a shadow when the angle of elevation of the sun is 45°. Find the length of the shadow.",
+      "as": "১৪ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৪৫° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9√3 m",
+        "as": "৯√৩ m"
+      },
+      {
+        "en": "14 m",
+        "as": "১৪ m"
+      },
+      {
+        "en": "7 m",
+        "as": "৭ m"
+      },
+      {
+        "en": "21 m",
+        "as": "২১ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Shadow = 14/tan 45° = 14 m.",
+      "as": "ছাঁ = 14 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-090",
+    "leaf": "height-distance",
+    "q": {
+      "en": "A tower 27 m high casts a shadow when the angle of elevation of the sun is 60°. Find the length of the shadow.",
+      "as": "২৭ মিটাৰ উচ্চতাৰ স্তম্ভই সূৰ্যৰ উন্নতি কোণ ৬০° হ'লে ছাঁ পেলায়। ছাঁৰ দীঘ নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "9√3 m",
+        "as": "৯√৩ m"
+      },
+      {
+        "en": "14 m",
+        "as": "১৪ m"
+      },
+      {
+        "en": "7 m",
+        "as": "৭ m"
+      },
+      {
+        "en": "21 m",
+        "as": "২১ m"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Shadow = 27/tan 60° = 9√3 m.",
+      "as": "ছাঁ = 9√3 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-091",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 32 m high from a point on the ground is 45°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ৩২ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৪৫°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "28 m",
+        "as": "২৮ m"
+      },
+      {
+        "en": "32 m",
+        "as": "৩২ m"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Distance = 32/tan 45° = 32 m.",
+      "as": "দূৰত্ব = 32 m।"
+    }
+  },
+  {
+    "id": "num-height-distance-092",
+    "leaf": "height-distance",
+    "q": {
+      "en": "The angle of elevation of the top of a tower 21 m high from a point on the ground is 60°. Find the distance of the point from the foot of the tower.",
+      "as": "মাটিত এটা বিন্দুৰ পৰা ২১ মিটাৰ উচ্চতাৰ স্তম্ভৰ শীৰ্ষৰ উন্নতি কোণ ৬০°। দূৰত্ব নিৰ্ণয় কৰা।"
+    },
+    "options": [
+      {
+        "en": "32 m",
+        "as": "৩২ m"
+      },
+      {
+        "en": "7√3 m",
+        "as": "৭√৩ m"
+      },
+      {
+        "en": "16 m",
+        "as": "১৬ m"
+      },
+      {
+        "en": "28 m",
+        "as": "২৮ m"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Distance = 21/tan 60° = 7√3 m.",
+      "as": "দূৰত্ব = 7√3 m।"
+    }
+  }
+]

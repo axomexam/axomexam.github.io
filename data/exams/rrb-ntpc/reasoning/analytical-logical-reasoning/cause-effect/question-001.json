@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "cause-effect-001",
+    "q": {
+      "en": "Event I: the rivers rose above the danger mark. Event II: low-lying roads were flooded. What is the relationship between the two events?",
+      "as": "ঘটনা I: নদীবোৰ বিপদসীমাৰ ওপৰত উঠিল। ঘটনা II: নিচু পথবোৰ পানীত বুৰ গ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the heavy monsoon rains.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ ভৰা বৰ্ষাৰ বৰষুণ।"
+    }
+  },
+  {
+    "id": "cause-effect-002",
+    "q": {
+      "en": "Event I: most shops stayed shut. Event II: public buses stopped running. What is the relationship between the two events?",
+      "as": "ঘটনা I: বেছিভাগ দোকান বন্ধ হৈ থাকিল। ঘটনা II: ৰাজহুৱা বাছ চলাচল বন্ধ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the nationwide strike.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ দেশজুৰি ধৰ্মঘট।"
+    }
+  },
+  {
+    "id": "cause-effect-003",
+    "q": {
+      "en": "Event I: Passenger numbers doubled. Event II: The airline cut fares by half. What is the relationship between the two events?",
+      "as": "ঘটনা I: যাত্ৰীৰ সংখ্যা দুগুণ হ'ল। ঘটনা II: এয়াৰলাইনে ভাড়া আধালৈ কমাই দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-004",
+    "q": {
+      "en": "Event I: The town's streets were waterlogged. Event II: Local trains stopped running. How are the two events related?",
+      "as": "ঘটনা I: চহৰখনৰ পথবোৰ পানীত বুৰ গ'ল। ঘটনা II: স্থানীয় ৰে'ল চলাচল বন্ধ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ, কোনো কাৰণ-সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The two events do not cause each other; both stem from one shared cause, the torrential rain.",
+      "as": "দুয়োটা ঘটনা এটাই আনটোক সৃষ্টি নকৰে; দুয়োটাৰে মূল কাৰণ এটাই, অতি বৰষুণ।"
+    }
+  },
+  {
+    "id": "cause-effect-005",
+    "q": {
+      "en": "Effect: Crops in the district withered within a fortnight. Which of the following is the most likely cause?",
+      "as": "ফল: জিলাখনৰ শস্য দুসপ্তাহৰ ভিতৰত শুকাই গ'ল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "A long dry spell with no rainfall",
+        "as": "বৰষুণ নোহোৱা দীঘলীয়া শুকান সময়"
+      },
+      {
+        "en": "A new irrigation subsidy",
+        "as": "নতুন জলসিঞ্চন ৰাজসাহায্য"
+      },
+      {
+        "en": "An increase in the number of farmers",
+        "as": "খেতিয়কৰ সংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "A rise in fertiliser prices",
+        "as": "সাৰৰ দাম বৃদ্ধি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “A long dry spell with no rainfall” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “বৰষুণ নোহোৱা দীঘলীয়া শুকান সময়” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-006",
+    "q": {
+      "en": "Event I: The morning train was running late. Event II: A new novel was published last week. What is the relationship between the two events?",
+      "as": "ঘটনা I: ৰাতিপুৱাৰ ৰে'ল পলমকৈ চলিছিল। ঘটনা II: যোৱা সপ্তাহত এখন নতুন উপন্যাস প্ৰকাশ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-007",
+    "q": {
+      "en": "Effect: Students in the class performed poorly in mathematics. Which of the following is the most likely cause?",
+      "as": "ফল: শ্ৰেণীৰ ছাত্ৰসকলে গণিতত দুৰ্বল প্ৰদৰ্শন কৰিলে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "The school bought new benches",
+        "as": "বিদ্যালয়খনে নতুন বেঞ্চ কিনিছিল"
+      },
+      {
+        "en": "The examination was easy",
+        "as": "পৰীক্ষাটো সহজ আছিল"
+      },
+      {
+        "en": "The classroom was newly painted",
+        "as": "শ্ৰেণীকোঠা নতুনকৈ ৰঙ কৰা হৈছিল"
+      },
+      {
+        "en": "The subject teacher was absent for most of the term",
+        "as": "তিনিটা মাহৰ বেছিভাগ সময় বিষয়-শিক্ষক অনুপস্থিত আছিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “The subject teacher was absent for most of the term” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “তিনিটা মাহৰ বেছিভাগ সময় বিষয়-শিক্ষক অনুপস্থিত আছিল” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-008",
+    "q": {
+      "en": "Effect: Fish died in large numbers in the village pond. Which of the following is the most likely cause?",
+      "as": "ফল: গাঁৱৰ পুখুৰীত ডাঙৰ সংখ্যাত মাছ মৰিল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "A rise in the pond's water level",
+        "as": "পুখুৰীৰ পানীপৃষ্ঠ বৃদ্ধি"
+      },
+      {
+        "en": "The arrival of the monsoon",
+        "as": "বৰ্ষাৰ আগমন"
+      },
+      {
+        "en": "The planting of trees on the bank",
+        "as": "পাৰত গছ ৰোপণ"
+      },
+      {
+        "en": "Sewage from the village drained into the pond",
+        "as": "গাঁৱৰ লেতেৰা পানী পুখুৰীলৈ বৈ গৈছিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “Sewage from the village drained into the pond” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “গাঁৱৰ লেতেৰা পানী পুখুৰীলৈ বৈ গৈছিল” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-009",
+    "q": {
+      "en": "Effect: The number of road accidents rose sharply at a junction. Which of the following is the most likely cause?",
+      "as": "ফল: এটা জংচনত পথ-দুৰ্ঘটনাৰ সংখ্যা তীব্ৰভাৱে বাঢ়িল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "A new hospital opened nearby",
+        "as": "ওচৰত নতুন চিকিৎসালয় মুকলি"
+      },
+      {
+        "en": "The road was widened",
+        "as": "পথটো বহল কৰা হৈছিল"
+      },
+      {
+        "en": "A speed limit was lowered",
+        "as": "গতিৰ সীমা কমাই দিয়া হৈছিল"
+      },
+      {
+        "en": "The traffic signal there had stopped working",
+        "as": "তাত থকা ট্ৰেফিক চিগনেলটো অচল হৈ পৰিছিল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “The traffic signal there had stopped working” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “তাত থকা ট্ৰেফিক চিগনেলটো অচল হৈ পৰিছিল” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-010",
+    "q": {
+      "en": "Event I: A fire broke out in the godown at night. Event II: Goods worth lakhs were destroyed. What is the relationship between the two events?",
+      "as": "ঘটনা I: নিশা গুদামত জুই লাগিল। ঘটনা II: লাখ লাখ টকাৰ সামগ্ৰী নষ্ট হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-011",
+    "q": {
+      "en": "Event I: The company announced a twenty per cent salary hike. Event II: Employee morale improved sharply. What is the relationship between the two events?",
+      "as": "ঘটনা I: কোম্পানীয়ে বিশ শতাংশ দৰমহা বৃদ্ধি ঘোষণা কৰিলে। ঘটনা II: কৰ্মচাৰীৰ মনোবল তীব্ৰভাৱে উন্নত হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-012",
+    "q": {
+      "en": "Effect: Many shops in the market closed down within a year. Which of the following is the most likely cause?",
+      "as": "ফল: বজাৰখনৰ বহু দোকান এবছৰৰ ভিতৰত বন্ধ হ'ল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "A new bus stand far away",
+        "as": "দূৰৈত এটা নতুন বাছ ষ্টেণ্ড"
+      },
+      {
+        "en": "An increase in the number of customers",
+        "as": "গ্ৰাহকৰ সংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "A sharp rise in shop rents and falling footfall",
+        "as": "দোকানৰ ভাড়া তীব্ৰ বৃদ্ধি আৰু খোজ-চালনাৰ পতন"
+      },
+      {
+        "en": "A festival held in the town",
+        "as": "চহৰখনত এটা উৎসৱ"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Only “A sharp rise in shop rents and falling footfall” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “দোকানৰ ভাড়া তীব্ৰ বৃদ্ধি আৰু খোজ-চালনাৰ পতন” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-013",
+    "q": {
+      "en": "Cause: A severe cyclone is expected to hit the coast tonight. Which of the following is the most likely effect?",
+      "as": "কাৰণ: আজি নিশা উপকূলত এটা তীব্ৰ ঘূৰ্ণীবতাহ আঘাত হানিব বুলি আশা কৰা হৈছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "The number of tourists will rise",
+        "as": "পৰ্যটকৰ সংখ্যা বাঢ়িব"
+      },
+      {
+        "en": "The price of gold will fall",
+        "as": "সোণৰ দাম কমিব"
+      },
+      {
+        "en": "A new school will open",
+        "as": "এখন নতুন বিদ্যালয় খুলিব"
+      },
+      {
+        "en": "Fishing and coastal travel will be suspended",
+        "as": "মাছমৰা আৰু উপকূলীয় যাত্ৰা বন্ধ ৰখা হ'ব"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“Fishing and coastal travel will be suspended” follows directly from the stated cause; the other options do not.",
+      "as": "“মাছমৰা আৰু উপকূলীয় যাত্ৰা বন্ধ ৰখা হ'ব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-014",
+    "q": {
+      "en": "Event I: A new minister took charge of the department. Event II: The town library added five hundred new books. What is the relationship between the two events?",
+      "as": "ঘটনা I: এজন নতুন মন্ত্ৰীয়ে বিভাগৰ দায়িত্ব ল'লে। ঘটনা II: চহৰৰ পুথিভঁৰালে পাঁচশ নতুন কিতাপ যোগ কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-015",
+    "q": {
+      "en": "Event I: The metro was unusually crowded this morning. Event II: A new bakery opened in the next town. How are the two events related?",
+      "as": "ঘটনা I: আজি ৰাতিপুৱা মেট্ৰোত অস্বাভাৱিক ভিৰ আছিল। ঘটনা II: কাষৰ চহৰত এটা নতুন বেকাৰী খুলিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "The two events are unrelated",
+        "as": "দুয়োটা ঘটনাৰ মাজত কোনো সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Nothing links the two events; they merely happened around the same time, so they are independent.",
+      "as": "দুয়োটা ঘটনাৰ মাজত কোনো সংযোগ নাই; ইহঁত কেৱল একে সময়ত ঘটা বুলি জনা গ'ল, গতিকে স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-016",
+    "q": {
+      "en": "Event I: Attendance in the schools fell sharply. Event II: Several offices reported a shortage of staff. How are the two events related?",
+      "as": "ঘটনা I: বিদ্যালয়বোৰত উপস্থিতি তীব্ৰভাৱে কমি গ'ল। ঘটনা II: কেইবাটাও কাৰ্যালয়ে কৰ্মীৰ নাটনিৰ কথা জনালে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ, কোনো কাৰণ-সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event causes the other; both are traced to one common cause, a widespread viral fever.",
+      "as": "কোনোটোৱে আনটোক সৃষ্টি নকৰে; দুয়োটাৰে কাৰণ এটাই, বিয়পি পৰা ভাইৰাছজনিত জ্বৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-017",
+    "q": {
+      "en": "Cause: A prolonged heatwave is sweeping across the region. Which of the following is the most likely effect?",
+      "as": "কাৰণ: অঞ্চলটোত এটা দীঘলীয়া তাপপ্রবাহ চলি আছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Demand for electricity will rise sharply",
+        "as": "বিদ্যুৎৰ চাহিদা তীব্ৰভাৱে বাঢ়িব"
+      },
+      {
+        "en": "Rainfall will increase",
+        "as": "বৰষুণ বাঢ়িব"
+      },
+      {
+        "en": "Schools will close for the winter",
+        "as": "শীতৰ বাবে বিদ্যালয় বন্ধ হ'ব"
+      },
+      {
+        "en": "Prices of warm clothes will fall",
+        "as": "গৰম কাপোৰৰ দাম কমিব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "A heatwave drives up the use of fans and air-conditioners, so electricity demand rises; the other options are not plausible effects.",
+      "as": "তাপপ্রবাহত ফেন আৰু এয়াৰ কণ্ডিচনাৰৰ ব্যৱহাৰ বাঢ়ে, গতিকে বিদ্যুৎৰ চাহিদা বাঢ়ে; আন বিকল্পবোৰ সম্ভাব্য ফল নহয়।"
+    }
+  },
+  {
+    "id": "cause-effect-018",
+    "q": {
+      "en": "Event I: The team posted a huge total. Event II: The opening batsman was dropped twice. What is the relationship between the two events?",
+      "as": "ঘটনা I: দলটোৱে বিশাল স্ক'ৰ গঢ়িলে। ঘটনা II: প্ৰাৰম্ভিক বেটছমেনজন দুবাৰ জীৱনদান পালে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-019",
+    "q": {
+      "en": "Event I: The school held its annual day function. Event II: The price of petrol changed at midnight. What is the relationship between the two events?",
+      "as": "ঘটনা I: বিদ্যালয়খনৰ বাৰ্ষিক উৎসৱ অনুষ্ঠিত হ'ল। ঘটনা II: মাজনিশা পেট্ৰ'লৰ দাম সলনি হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-020",
+    "q": {
+      "en": "Event I: Vaccination was completed across the village. Event II: Cases of the disease fell sharply. What is the relationship between the two events?",
+      "as": "ঘটনা I: গাঁওখনত টীকাকৰণ সম্পূৰ্ণ হ'ল। ঘটনা II: ৰোগটোৰ ঘটনা তীব্ৰভাৱে কমি গ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-021",
+    "q": {
+      "en": "Event I: fishing boats stayed ashore. Event II: coastal schools were shut. What is the relationship between the two events?",
+      "as": "ঘটনা I: মাছমৰীয়া নাৱবোৰ পাৰতে থাকিল। ঘটনা II: উপকূলীয় বিদ্যালয়বোৰ বন্ধ কৰা হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the cyclone warning issued by the weather office.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ বতৰ বিভাগে জাৰি কৰা ধুমুহাৰ সতৰ্কবাণী।"
+    }
+  },
+  {
+    "id": "cause-effect-022",
+    "q": {
+      "en": "Event I: The airline cut fares by half. Event II: Passenger numbers doubled. What is the relationship between the two events?",
+      "as": "ঘটনা I: এয়াৰলাইনে ভাড়া আধালৈ কমাই দিলে। ঘটনা II: যাত্ৰীৰ সংখ্যা দুগুণ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-023",
+    "q": {
+      "en": "Event I: roads near the stadium were jammed. Event II: hotels in the city were fully booked. What is the relationship between the two events?",
+      "as": "ঘটনা I: ষ্টেডিয়ামৰ ওচৰৰ পথবোৰ জঁট লগা হ'ল। ঘটনা II: চহৰখনৰ হোটেলবোৰ সম্পূৰ্ণ বুকিং হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the cricket final played in the city.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ চহৰখনত খেলা ক্ৰিকেট ফাইনেল।"
+    }
+  },
+  {
+    "id": "cause-effect-024",
+    "q": {
+      "en": "Event I: It rained heavily in the coastal town. Event II: A student from the town won a national debate prize. What is the relationship between the two events?",
+      "as": "ঘটনা I: উপকূলীয় চহৰখনত প্ৰবল বৰষুণ হ'ল। ঘটনা II: চহৰখনৰ এজন ছাত্ৰই ৰাষ্ট্ৰীয় বিতৰ্ক প্ৰতিযোগিতাত বঁটা জিকিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-025",
+    "q": {
+      "en": "Event I: schools were closed for a week. Event II: attendance at offices fell. What is the relationship between the two events?",
+      "as": "ঘটনা I: বিদ্যালয়বোৰ এসপ্তাহ বন্ধ থাকিল। ঘটনা II: কাৰ্যালয়ত উপস্থিতি কমি গ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the viral fever outbreak.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ ভাইৰাছ জ্বৰৰ প্ৰাদুৰ্ভাৱ।"
+    }
+  },
+  {
+    "id": "cause-effect-026",
+    "q": {
+      "en": "Cause: A university has made attendance compulsory for exams. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এখন বিশ্ববিদ্যালয়ে পৰীক্ষাৰ বাবে উপস্থিতি বাধ্যতামূলক কৰিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Exams will be cancelled",
+        "as": "পৰীক্ষা বাতিল হ'ব"
+      },
+      {
+        "en": "Fees will be refunded",
+        "as": "মাচুল ঘূৰাই দিয়া হ'ব"
+      },
+      {
+        "en": "Class attendance will rise in the coming term",
+        "as": "আগন্তুক সান্দহত শ্ৰেণীত উপস্থিতি বাঢ়িব"
+      },
+      {
+        "en": "Attendance will fall",
+        "as": "উপস্থিতি কমিব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Class attendance will rise in the coming term” follows directly from the stated cause; the other options do not.",
+      "as": "“আগন্তুক সান্দহত শ্ৰেণীত উপস্থিতি বাঢ়িব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-027",
+    "q": {
+      "en": "Event I: The price of onions doubled within a week. Event II: Households reduced their onion purchases. What is the relationship between the two events?",
+      "as": "ঘটনা I: এসপ্তাহৰ ভিতৰত পিঁয়াজৰ দাম দুগুণ হ'ল। ঘটনা II: পৰিয়ালবোৰে পিঁয়াজ কিনা কমাই দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-028",
+    "q": {
+      "en": "Cause: A city has introduced a congestion tax on private cars. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এখন চহৰে ব্যক্তিগত গাড়ীৰ ওপৰত ভিৰ-কৰ আৰম্ভ কৰিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "All cars will be banned",
+        "as": "সকলো গাড়ী নিষিদ্ধ হ'ব"
+      },
+      {
+        "en": "The tax will be refunded",
+        "as": "কৰ ঘূৰাই দিয়া হ'ব"
+      },
+      {
+        "en": "Fewer private cars will enter the taxed zone",
+        "as": "কৰযুক্ত অঞ্চলত কম ব্যক্তিগত গাড়ী সোমাব"
+      },
+      {
+        "en": "Traffic will increase sharply",
+        "as": "যান-জঁট তীব্ৰভাৱে বাঢ়িব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Fewer private cars will enter the taxed zone” follows directly from the stated cause; the other options do not.",
+      "as": "“কৰযুক্ত অঞ্চলত কম ব্যক্তিগত গাড়ী সোমাব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-029",
+    "q": {
+      "en": "Event I: The college raised its admission cut-off. Event II: Fewer students qualified for admission. What is the relationship between the two events?",
+      "as": "ঘটনা I: মহাবিদ্যালয়ে নামভৰ্তিৰ কৰ্তন-নম্বৰ বঢ়ালে। ঘটনা II: কম সংখ্যক ছাত্ৰই নামভৰ্তিৰ যোগ্যতা অৰ্জন কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-030",
+    "q": {
+      "en": "Event I: Employee morale improved sharply. Event II: The company announced a twenty per cent salary hike. What is the relationship between the two events?",
+      "as": "ঘটনা I: কৰ্মচাৰীৰ মনোবল তীব্ৰভাৱে উন্নত হ'ল। ঘটনা II: কোম্পানীয়ে বিশ শতাংশ দৰমহা বৃদ্ধি ঘোষণা কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-031",
+    "q": {
+      "en": "Event I: factories cut their output. Event II: unemployment rose across the state. What is the relationship between the two events?",
+      "as": "ঘটনা I: কাৰখানাবোৰে উৎপাদন কমাই দিলে। ঘটনা II: ৰাজ্যজুৰি বেকাৰী বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the economic slowdown.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ অৰ্থনৈতিক মন্থৰতা।"
+    }
+  },
+  {
+    "id": "cause-effect-032",
+    "q": {
+      "en": "Event I: The mobile network was upgraded to the new generation. Event II: Download speeds improved noticeably. What is the relationship between the two events?",
+      "as": "ঘটনা I: ম'বাইল নেটৱৰ্ক নতুন প্ৰজন্মলৈ উন্নীত হ'ল। ঘটনা II: ডাউনলোডৰ গতি লক্ষণীয়ভাৱে উন্নত হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-033",
+    "q": {
+      "en": "Event I: The teacher explained the concept with diagrams. Event II: Students answered the test better. What is the relationship between the two events?",
+      "as": "ঘটনা I: শিক্ষকে চিত্ৰৰ সহায়ত ধাৰণাটো বুজাই দিলে। ঘটনা II: ছাত্ৰসকলে পৰীক্ষাত ভাল উত্তৰ দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-034",
+    "q": {
+      "en": "Event I: The team lost its captain to injury. Event II: Its performance in the league declined. What is the relationship between the two events?",
+      "as": "ঘটনা I: দলটোৱে অধিনায়কক আঘাতত হেৰুৱালে। ঘটনা II: লীগত দলটোৰ প্ৰদৰ্শন অৱনতি হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-035",
+    "q": {
+      "en": "Event I: The government banned single-use plastic bags. Event II: Shops switched to cloth bags. What is the relationship between the two events?",
+      "as": "ঘটনা I: চৰকাৰে এবাৰ-ব্যৱহাৰৰ প্লাষ্টিকৰ মোনা নিষিদ্ধ কৰিলে। ঘটনা II: দোকানবোৰে কাপোৰৰ মোনালৈ সলনি কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-036",
+    "q": {
+      "en": "Cause: A new expressway has cut travel time between two cities by half. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এটা নতুন দ্ৰুতগামী পথে দুখন চহৰৰ মাজৰ যাত্ৰা-সময় আধালৈ কমাই দিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Goods will become costlier",
+        "as": "সামগ্ৰী ব্যয়বহুল হ'ব"
+      },
+      {
+        "en": "Both cities will lose population",
+        "as": "দুয়োখন চহৰৰ জনসংখ্যা কমিব"
+      },
+      {
+        "en": "Trade and daily commuting between them will increase",
+        "as": "ইহঁতৰ মাজত বাণিজ্য আৰু দৈনিক যাতায়াত বাঢ়িব"
+      },
+      {
+        "en": "Travel between them will stop",
+        "as": "ইহঁতৰ মাজত যাতায়াত বন্ধ হ'ব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Trade and daily commuting between them will increase” follows directly from the stated cause; the other options do not.",
+      "as": "“ইহঁতৰ মাজত বাণিজ্য আৰু দৈনিক যাতায়াত বাঢ়িব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-037",
+    "q": {
+      "en": "Event I: The factory hired two hundred more workers. Event II: A rare flower bloomed in the botanical garden. What is the relationship between the two events?",
+      "as": "ঘটনা I: কাৰখানাই আৰু দুশ কৰ্মী নিয়োগ কৰিলে। ঘটনা II: বোটানিকেল গাৰ্ডেনত এপাহ বিৰল ফুল ফুলিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-038",
+    "q": {
+      "en": "Event I: The metro line was extended to the suburb. Event II: Property prices there rose. What is the relationship between the two events?",
+      "as": "ঘটনা I: মেট্ৰ' লাইন উপনগৰলৈ সম্প্ৰসাৰিত হ'ল। ঘটনা II: তাত সম্পত্তিৰ দাম বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-039",
+    "q": {
+      "en": "Cause: A state has banned the sale of loose cigarettes. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এখন ৰাজ্যই খুলা চিগাৰেট বিক্ৰী নিষিদ্ধ কৰিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Smoking will rise sharply",
+        "as": "ধূমপান তীব্ৰভাৱে বাঢ়িব"
+      },
+      {
+        "en": "Smoking may decline as packs become the only option",
+        "as": "পেকেটেই একমাত্ৰ বিকল্প হোৱাত ধূমপান কমিব পাৰে"
+      },
+      {
+        "en": "Tobacco farming will stop",
+        "as": "তামাক খেতি বন্ধ হ'ব"
+      },
+      {
+        "en": "Cigarettes will become free",
+        "as": "চিগাৰেট বিনামূলীয়া হ'ব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“Smoking may decline as packs become the only option” follows directly from the stated cause; the other options do not.",
+      "as": "“পেকেটেই একমাত্ৰ বিকল্প হোৱাত ধূমপান কমিব পাৰে” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-040",
+    "q": {
+      "en": "Event I: The price of gold rose in the market. Event II: A new cricket stadium was inaugurated in the city. What is the relationship between the two events?",
+      "as": "ঘটনা I: বজাৰত সোণৰ দাম বাঢ়িল। ঘটনা II: চহৰখনত এটা নতুন ক্ৰিকেট ষ্টেডিয়াম উদ্বোধন হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-041",
+    "q": {
+      "en": "Event I: Electricity bills rose sharply this summer. Event II: A local team won the district football final. What is the relationship between the two events?",
+      "as": "ঘটনা I: এই গ্ৰীষ্মত বিদ্যুৎ বিল তীব্ৰভাৱে বাঢ়িল। ঘটনা II: এখন স্থানীয় দলে জিলা ফুটবল ফাইনেল জিকিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-042",
+    "q": {
+      "en": "Effect: Several passengers on the bus fell ill on the same day. Which of the following is the most likely cause?",
+      "as": "ফল: একে দিনাই বাছখনৰ বহু যাত্ৰী অসুস্থ হৈ পৰিল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "The driver was experienced",
+        "as": "চালকজন অভিজ্ঞ আছিল"
+      },
+      {
+        "en": "Food served at a common halt was stale",
+        "as": "এটা সাধাৰণ বিশ্ৰামস্থলত দিয়া খাদ্য বেয়া আছিল"
+      },
+      {
+        "en": "The route was newly tarred",
+        "as": "পথটো নতুনকৈ আলকেটৰ কৰা হৈছিল"
+      },
+      {
+        "en": "The bus tyres were new",
+        "as": "বাছখনৰ টায়াৰ নতুন আছিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Food served at a common halt was stale” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “এটা সাধাৰণ বিশ্ৰামস্থলত দিয়া খাদ্য বেয়া আছিল” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-043",
+    "q": {
+      "en": "Cause: A vaccine has been made free for all children. Which of the following is the most likely effect?",
+      "as": "কাৰণ: সকলো শিশুৰ বাবে এটা টীকা বিনামূলীয়া কৰা হৈছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Diseases will increase",
+        "as": "ৰোগ বাঢ়িব"
+      },
+      {
+        "en": "Vaccination will stop",
+        "as": "টীকাকৰণ বন্ধ হ'ব"
+      },
+      {
+        "en": "Childhood diseases will decline over time",
+        "as": "সময়ৰ লগে লগে শিশুৰোগ কমিব"
+      },
+      {
+        "en": "Hospitals will close",
+        "as": "চিকিৎসালয়বোৰ বন্ধ হ'ব"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "“Childhood diseases will decline over time” follows directly from the stated cause; the other options do not.",
+      "as": "“সময়ৰ লগে লগে শিশুৰোগ কমিব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-044",
+    "q": {
+      "en": "Event I: markets became crowded. Event II: prices of most goods rose. What is the relationship between the two events?",
+      "as": "ঘটনা I: বজাৰবোৰ ভিৰ হৈ পৰিল। ঘটনা II: বেছিভাগ সামগ্ৰীৰ দাম বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the festival season.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ উৎসৱৰ সময়।"
+    }
+  },
+  {
+    "id": "cause-effect-045",
+    "q": {
+      "en": "Event I: A new flyover opened on the highway. Event II: Traffic congestion in the area eased. What is the relationship between the two events?",
+      "as": "ঘটনা I: মহাসড়কত এটা নতুন উৰণপথ মুকলি হ'ল। ঘটনা II: অঞ্চলটোত যান-জঁট কমি গ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-046",
+    "q": {
+      "en": "Event I: imported goods became costlier. Event II: exports became more competitive. What is the relationship between the two events?",
+      "as": "ঘটনা I: আমদানী সামগ্ৰী ব্যয়বহুল হ'ল। ঘটনা II: ৰপ্তানি অধিক প্ৰতিযোগিতামূলক হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the sharp fall in the value of the rupee.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ টকাৰ মূল্যৰ তীব্ৰ পতন।"
+    }
+  },
+  {
+    "id": "cause-effect-047",
+    "q": {
+      "en": "Event I: demand for electricity rose sharply. Event II: people stayed indoors during the day. What is the relationship between the two events?",
+      "as": "ঘটনা I: বিদ্যুৎৰ চাহিদা তীব্ৰভাৱে বাঢ়িল। ঘটনা II: মানুহে দিনত ঘৰতে থাকিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the severe heat wave.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ তীব্ৰ গৰমৰ লহৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-048",
+    "q": {
+      "en": "Effect: The village school recorded very low attendance in winter. Which of the following is the most likely cause?",
+      "as": "ফল: শীতত গাঁৱৰ বিদ্যালয়খনত উপস্থিতি অত্যন্ত কম হ'ল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "A rise in the price of textbooks",
+        "as": "পাঠ্যপুথিৰ দাম বৃদ্ধি"
+      },
+      {
+        "en": "A new playground built nearby",
+        "as": "ওচৰত নতুন খেলপথাৰ নিৰ্মাণ"
+      },
+      {
+        "en": "An extra holiday declared",
+        "as": "অতিৰিক্ত বন্ধ ঘোষণা"
+      },
+      {
+        "en": "A dense fog that made morning travel unsafe",
+        "as": "ৰাতিপুৱা যাত্ৰা অনিৰাপদ কৰা ঘন কুঁৱলী"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Only “A dense fog that made morning travel unsafe” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “ৰাতিপুৱা যাত্ৰা অনিৰাপদ কৰা ঘন কুঁৱলী” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-049",
+    "q": {
+      "en": "Effect: The river near the town turned dark and foul-smelling. Which of the following is the most likely cause?",
+      "as": "ফল: চহৰখনৰ ওচৰৰ নদীখন ক'লা আৰু গোন্ধযুক্ত হৈ পৰিল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "Heavy rainfall upstream",
+        "as": "উজনি অঞ্চলত প্ৰবল বৰষুণ"
+      },
+      {
+        "en": "Untreated effluents discharged by nearby factories",
+        "as": "ওচৰৰ কাৰখানাই নিষ্কাশন কৰা অপ্ৰক্ৰিয় ঠাই-বাহিৰ প্ৰবাহ"
+      },
+      {
+        "en": "A rise in the fish population",
+        "as": "মাছৰ সংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "A new bridge over the river",
+        "as": "নদীখনৰ ওপৰত নতুন দলং"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Untreated effluents discharged by nearby factories” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “ওচৰৰ কাৰখানাই নিষ্কাশন কৰা অপ্ৰক্ৰিয় ঠাই-বাহিৰ প্ৰবাহ” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-050",
+    "q": {
+      "en": "Event I: The village stayed cut off for a week. Event II: The bridge collapsed in the flood. What is the relationship between the two events?",
+      "as": "ঘটনা I: গাঁওখন এসপ্তাহ বিচ্ছিন্ন হৈ থাকিল। ঘটনা II: বানপানীত দলংখন ভাঙি পৰিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-051",
+    "q": {
+      "en": "Effect: A bridge in the district developed a long crack within a year of being opened. Which of the following is the most likely cause?",
+      "as": "ফল: জিলাখনৰ এখন দলং উদ্বোধনৰ এবছৰৰ ভিতৰতে দীঘল ফাট মেলিলে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "Substandard construction material",
+        "as": "নিম্নমানৰ নিৰ্মাণ সামগ্ৰী"
+      },
+      {
+        "en": "A rise in the toll charges",
+        "as": "টোল মাচুল বৃদ্ধি"
+      },
+      {
+        "en": "An increase in the number of vehicles bought",
+        "as": "কিনা যান-বাহনৰ সংখ্যা বৃদ্ধি"
+      },
+      {
+        "en": "A change of the district collector",
+        "as": "জিলা উপায়ুক্তৰ সলনি"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Poor-quality material explains the early cracking directly; the other options cannot produce such damage.",
+      "as": "নিম্নমানৰ সামগ্ৰীয়ে সোনকালে ফাট মেলা পোনপটীয়াকৈ ব্যাখ্যা কৰে; আন বিকল্পই এনে ক্ষতি কৰিব নোৱাৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-052",
+    "q": {
+      "en": "Event I: Traffic congestion in the area eased. Event II: A new flyover opened on the highway. What is the relationship between the two events?",
+      "as": "ঘটনা I: অঞ্চলটোত যান-জঁট কমি গ'ল। ঘটনা II: মহাসড়কত এটা নতুন উৰণপথ মুকলি হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-053",
+    "q": {
+      "en": "Event I: Rice prices rose in the market. Event II: A drought reduced the paddy harvest. What is the relationship between the two events?",
+      "as": "ঘটনা I: বজাৰত চাউলৰ দাম বাঢ়িল। ঘটনা II: খৰাংএ ধানৰ ফলন কমাই দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-054",
+    "q": {
+      "en": "Event I: A new flyover was opened to traffic. Event II: The price of mangoes rose in the market. How are the two events related?",
+      "as": "ঘটনা I: এটা নতুন উৰণসেতু যান-বাহনৰ বাবে মুকলি কৰা হ'ল। ঘটনা II: বজাৰত আমৰ দাম বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ, কোনো কাৰণ-সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The flyover and the mango price have no causal connection; they are independent events.",
+      "as": "উৰণসেতু আৰু আমৰ দামৰ মাজত কোনো কাৰণ-সম্পৰ্ক নাই; ইহঁত স্বতন্ত্ৰ ঘটনা।"
+    }
+  },
+  {
+    "id": "cause-effect-055",
+    "q": {
+      "en": "Event I: Cases of the disease fell sharply. Event II: Vaccination was completed across the village. What is the relationship between the two events?",
+      "as": "ঘটনা I: ৰোগটোৰ ঘটনা তীব্ৰভাৱে কমি গ'ল। ঘটনা II: গাঁওখনত টীকাকৰণ সম্পূৰ্ণ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-056",
+    "q": {
+      "en": "Event I: Production at the factory stopped. Event II: The power supply failed for six hours. What is the relationship between the two events?",
+      "as": "ঘটনা I: কাৰখানাৰ উৎপাদন বন্ধ হ'ল। ঘটনা II: ছয় ঘণ্টা বিদ্যুৎ যোগান বন্ধ থাকিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-057",
+    "q": {
+      "en": "Event I: A famous singer gave a concert in the city. Event II: The local bus fare was increased. How are the two events related?",
+      "as": "ঘটনা I: এজন বিখ্যাত গায়কে চহৰখনত এখন সংগীতানুষ্ঠান কৰিলে। ঘটনা II: স্থানীয় বাছৰ ভাড়া বঢ়োৱা হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ, কোনো কাৰণ-সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event produces the other; they are simply unrelated happenings.",
+      "as": "কোনোটোৱে আনটোক সৃষ্টি নকৰে; ইহঁত কেৱল অবান্তৰ ঘটনা।"
+    }
+  },
+  {
+    "id": "cause-effect-058",
+    "q": {
+      "en": "Event I: Households reduced their onion purchases. Event II: The price of onions doubled within a week. What is the relationship between the two events?",
+      "as": "ঘটনা I: পৰিয়ালবোৰে পিঁয়াজ কিনা কমাই দিলে। ঘটনা II: এসপ্তাহৰ ভিতৰত পিঁয়াজৰ দাম দুগুণ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-059",
+    "q": {
+      "en": "Event I: A popular mobile application was updated. Event II: A nearby pond dried up in the heat. What is the relationship between the two events?",
+      "as": "ঘটনা I: এটা জনপ্ৰিয় ম'বাইল এপ্লিকেশ্যন আপডেট হ'ল। ঘটনা II: ওচৰৰ পুখুৰীটো ৰ'দত শুকাই গ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-060",
+    "q": {
+      "en": "Cause: The government has doubled the import duty on a good. Which of the following is the most likely effect?",
+      "as": "কাৰণ: চৰকাৰে এটা সামগ্ৰীৰ আমদানি শুল্ক দুগুণ কৰিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "That imported good will become costlier",
+        "as": "সেই আমদানী সামগ্ৰী ব্যয়বহুল হ'ব"
+      },
+      {
+        "en": "The good will become free of cost",
+        "as": "সামগ্ৰীটো বিনামূলীয়া হ'ব"
+      },
+      {
+        "en": "Its quality will improve",
+        "as": "ইয়াৰ গুণাগুণ উন্নত হ'ব"
+      },
+      {
+        "en": "Its production will stop entirely",
+        "as": "ইয়াৰ উৎপাদন সম্পূৰ্ণে বন্ধ হ'ব"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "“That imported good will become costlier” follows directly from the stated cause; the other options do not.",
+      "as": "“সেই আমদানী সামগ্ৰী ব্যয়বহুল হ'ব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-061",
+    "q": {
+      "en": "Event I: The opening batsman was dropped twice. Event II: The team posted a huge total. What is the relationship between the two events?",
+      "as": "ঘটনা I: প্ৰাৰম্ভিক বেটছমেনজন দুবাৰ জীৱনদান পালে। ঘটনা II: দলটোৱে বিশাল স্ক'ৰ গঢ়িলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-062",
+    "q": {
+      "en": "Effect: The cricket team lost five matches in a row. Which of the following is the most likely cause?",
+      "as": "ফল: ক্ৰিকেট দলটোৱে ক্ৰমাগত পাঁচখন মেচ হেৰুৱালে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "The pitch was well prepared",
+        "as": "পিট্ছ ভালদৰে প্ৰস্তুত আছিল"
+      },
+      {
+        "en": "Its three main players were injured and out of form",
+        "as": "ইয়াৰ তিনিজন মূল খেলুৱৈ আঘাতপ্ৰাপ্ত আৰু ফৰ্মৰ বাহিৰত আছিল"
+      },
+      {
+        "en": "The weather was pleasant",
+        "as": "বতৰ আনন্দদায়ক আছিল"
+      },
+      {
+        "en": "The spectators were supportive",
+        "as": "দৰ্শকসকলে সমৰ্থন কৰিছিল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "Only “Its three main players were injured and out of form” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “ইয়াৰ তিনিজন মূল খেলুৱৈ আঘাতপ্ৰাপ্ত আৰু ফৰ্মৰ বাহিৰত আছিল” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-063",
+    "q": {
+      "en": "Event I: The bank cut its home-loan interest rate. Event II: Home-loan applications increased. What is the relationship between the two events?",
+      "as": "ঘটনা I: বেংকটোৱে গৃহঋণৰ সুতৰ হাৰ কমাই দিলে। ঘটনা II: গৃহঋণৰ আবেদন বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-064",
+    "q": {
+      "en": "Event I: road traffic in the corridor fell. Event II: shops near the stations gained customers. What is the relationship between the two events?",
+      "as": "ঘটনা I: কৰিডৰত পথ-যান-জঁট কমি গ'ল। ঘটনা II: ষ্টেচনৰ ওচৰৰ দোকানবোৰে গ্ৰাহক বঢ়ালে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither event causes the other; both are produced by the same underlying cause, namely the opening of the new metro line.",
+      "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ নতুন মেট্ৰ' লাইনৰ মুকলি।"
+    }
+  },
+  {
+    "id": "cause-effect-065",
+    "q": {
+      "en": "Event I: A drought reduced the paddy harvest. Event II: Rice prices rose in the market. What is the relationship between the two events?",
+      "as": "ঘটনা I: খৰাংএ ধানৰ ফলন কমাই দিলে। ঘটনা II: বজাৰত চাউলৰ দাম বাঢ়িল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-066",
+    "q": {
+      "en": "Event I: The bridge collapsed in the flood. Event II: The village stayed cut off for a week. What is the relationship between the two events?",
+      "as": "ঘটনা I: বানপানীত দলংখন ভাঙি পৰিল। ঘটনা II: গাঁওখন এসপ্তাহ বিচ্ছিন্ন হৈ থাকিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-067",
+    "q": {
+      "en": "Effect: The small shop's sales doubled within three months. Which of the following is the most likely cause?",
+      "as": "ফল: সৰু দোকানখনৰ বিক্ৰী তিনি মাহৰ ভিতৰত দুগুণ হ'ল। তলৰ কোনটো আটাইতকৈ সম্ভাব্য কাৰণ?"
+    },
+    "options": [
+      {
+        "en": "The shop began home delivery and online orders",
+        "as": "দোকানখনে ঘৰলৈ যোগান আৰু অনলাইন অৰ্ডাৰ আৰম্ভ কৰিলে"
+      },
+      {
+        "en": "The closure of a nearby school",
+        "as": "ওচৰৰ বিদ্যালয় বন্ধ হোৱা"
+      },
+      {
+        "en": "A rise in the shop's rent",
+        "as": "দোকানৰ ভাড়া বৃদ্ধি"
+      },
+      {
+        "en": "A fall in the town's population",
+        "as": "চহৰখনৰ জনসংখ্যা হ্ৰাস"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Only “The shop began home delivery and online orders” explains the reported effect directly; the other options do not lead to it.",
+      "as": "কেৱল “দোকানখনে ঘৰলৈ যোগান আৰু অনলাইন অৰ্ডাৰ আৰম্ভ কৰিলে” এ বৰ্ণিত ফলটো পোনপটীয়াকৈ ব্যাখ্যা কৰে; বাকী বিকল্পই ইয়ালৈ নিনিয়ে।"
+    }
+  },
+  {
+    "id": "cause-effect-068",
+    "q": {
+      "en": "Cause: A bank has sharply reduced its interest rate on savings. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এখন বেংকে সঞ্চয়ৰ সুতৰ হাৰ তীব্ৰভাৱে কমাই দিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Savings will double at once",
+        "as": "সঞ্চয় তৎক্ষণাত দুগুণ হ'ব"
+      },
+      {
+        "en": "People may shift savings to higher-return options",
+        "as": "মানুহে সঞ্চয় উচ্চ-প্ৰতিদানৰ বিকল্পলৈ স্থানান্তৰ কৰিব পাৰে"
+      },
+      {
+        "en": "The bank will close",
+        "as": "বেংকটো বন্ধ হ'ব"
+      },
+      {
+        "en": "Everyone will stop saving",
+        "as": "সকলোৱে সঞ্চয় বন্ধ কৰিব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“People may shift savings to higher-return options” follows directly from the stated cause; the other options do not.",
+      "as": "“মানুহে সঞ্চয় উচ্চ-প্ৰতিদানৰ বিকল্পলৈ স্থানান্তৰ কৰিব পাৰে” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-069",
+    "q": {
+      "en": "Event I: The market was unusually crowded on Sunday. Event II: A much-awaited film released on Friday. What is the relationship between the two events?",
+      "as": "ঘটনা I: দেওবাৰে বজাৰ অস্বাভাৱিকভাৱে ভিৰ হৈছিল। ঘটনা II: বহু প্ৰত্যাশিত এখন ছবি শুকুৰবাৰে মুক্তি পাইছিল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-070",
+    "q": {
+      "en": "Event I: The power supply failed for six hours. Event II: Production at the factory stopped. What is the relationship between the two events?",
+      "as": "ঘটনা I: ছয় ঘণ্টা বিদ্যুৎ যোগান বন্ধ থাকিল। ঘটনা II: কাৰখানাৰ উৎপাদন বন্ধ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-071",
+    "q": {
+      "en": "Event I: Its performance in the league declined. Event II: The team lost its captain to injury. What is the relationship between the two events?",
+      "as": "ঘটনা I: লীগত দলটোৰ প্ৰদৰ্শন অৱনতি হ'ল। ঘটনা II: দলটোৱে অধিনায়কক আঘাতত হেৰুৱালে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-072",
+    "q": {
+      "en": "Cause: A reputed company has recalled one of its products. Which of the following is the most likely effect?",
+      "as": "কাৰণ: এখন প্ৰতিষ্ঠিত কোম্পানীয়ে নিজৰ এটা সামগ্ৰী ঘূৰাই লৈছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Customers will ignore the recall",
+        "as": "গ্ৰাহকে ঘূৰাই লোৱাটো আওকাণ কৰিব"
+      },
+      {
+        "en": "Its sales will double overnight",
+        "as": "ইয়াৰ বিক্ৰী ৰাতিটোৱেই দুগুণ হ'ব"
+      },
+      {
+        "en": "The company will close down",
+        "as": "কোম্পানীটো বন্ধ হ'ব"
+      },
+      {
+        "en": "Its short-term sales will fall and trust may be hurt",
+        "as": "ইয়াৰ স্বল্পকালীন বিক্ৰী কমিব আৰু বিশ্বাসত আঘাত লাগিব পাৰে"
+      }
+    ],
+    "correct": 3,
+    "explanation": {
+      "en": "“Its short-term sales will fall and trust may be hurt” follows directly from the stated cause; the other options do not.",
+      "as": "“ইয়াৰ স্বল্পকালীন বিক্ৰী কমিব আৰু বিশ্বাসত আঘাত লাগিব পাৰে” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-073",
+    "q": {
+      "en": "Cause: A long spell of drought has hit the farming district. Which of the following is the most likely effect?",
+      "as": "কাৰণ: খেতি জিলাখনত দীঘলীয়া খৰাংত পৰিছে। তলৰ কোনটো আটাইতকৈ সম্ভাব্য ফল?"
+    },
+    "options": [
+      {
+        "en": "Farm incomes will rise sharply",
+        "as": "খেতিৰ আয় তীব্ৰভাৱে বাঢ়িব"
+      },
+      {
+        "en": "Crop output will fall and food prices will rise",
+        "as": "শস্যৰ উৎপাদন কমিব আৰু খাদ্যৰ দাম বাঢ়িব"
+      },
+      {
+        "en": "Rainfall will increase at once",
+        "as": "বৰষুণ তৎক্ষণাত বাঢ়িব"
+      },
+      {
+        "en": "Food prices will fall",
+        "as": "খাদ্যৰ দাম কমিব"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "“Crop output will fall and food prices will rise” follows directly from the stated cause; the other options do not.",
+      "as": "“শস্যৰ উৎপাদন কমিব আৰু খাদ্যৰ দাম বাঢ়িব” দিয়া কাৰণৰ পৰা পোনপটীয়াকৈ অনুসৰণ কৰে; বাকী বিকল্প নকৰে।"
+    }
+  },
+  {
+    "id": "cause-effect-074",
+    "q": {
+      "en": "Event I: The river overflowed its banks. Event II: Heavy rain fell continuously for three days. What is the relationship between the two events?",
+      "as": "ঘটনা I: নদীয়ে পাৰ উপচাই পেলালে। ঘটনা II: তিনিদিন ধৰি অৱিৰাম প্ৰবল বৰষুণ হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 1,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-075",
+    "q": {
+      "en": "Event I: Heavy rain fell continuously for three days. Event II: The river overflowed its banks. What is the relationship between the two events?",
+      "as": "ঘটনা I: তিনিদিন ধৰি অৱিৰাম প্ৰবল বৰষুণ হ'ল। ঘটনা II: নদীয়ে পাৰ উপচাই পেলালে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
+      "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-076",
+    "q": {
+      "en": "Event I: A district won a national award for cleanliness. Event II: A new cricket coach was appointed for the state team. How are the two events related?",
+      "as": "ঘটনা I: এখন জিলাই পৰিষ্কাৰতাৰ ৰাষ্ট্ৰীয় বঁটা জিকিলে। ঘটনা II: ৰাজ্যিক দলৰ বাবে এজন নতুন ক্ৰিকেট প্ৰশিক্ষক নিযুক্ত হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়োটা এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ, কোনো কাৰণ-সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The award and the coaching appointment are unconnected; one does not lead to the other.",
+      "as": "বঁটা আৰু প্ৰশিক্ষক নিয়োগৰ মাজত কোনো সম্পৰ্ক নাই; এটাই আনটোলৈ নিয়ে নাই।"
+    }
+  },
+  {
+    "id": "cause-effect-077",
+    "q": {
+      "en": "Event I: Property prices there rose. Event II: The metro line was extended to the suburb. What is the relationship between the two events?",
+      "as": "ঘটনা I: তাত সম্পত্তিৰ দাম বাঢ়িল। ঘটনা II: মেট্ৰ' লাইন উপনগৰলৈ সম্প্ৰসাৰিত হ'ল। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-078",
+    "q": {
+      "en": "Event I: Students answered the test better. Event II: The teacher explained the concept with diagrams. What is the relationship between the two events?",
+      "as": "ঘটনা I: ছাত্ৰসকলে পৰীক্ষাত ভাল উত্তৰ দিলে। ঘটনা II: শিক্ষকে চিত্ৰৰ সহায়ত ধাৰণাটো বুজাই দিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  },
+  {
+    "id": "cause-effect-079",
+    "q": {
+      "en": "Event I: The main road was repaired and widened. Event II: A new song became popular among the youth. What is the relationship between the two events?",
+      "as": "ঘটনা I: মুখ্য পথটো মেৰামতি কৰি বহল কৰা হ'ল। ঘটনা II: এটা নতুন গানে যুৱকসকলৰ মাজত জনপ্ৰিয়তা লাভ কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 0,
+    "explanation": {
+      "en": "Neither event brings about the other; they happen to be reported together, so they are independent.",
+      "as": "কোনো ঘটনাই আনটো ঘটায় নাই; দুয়োটা একেলগে বৰ্ণনা কৰা হৈছে, গতিকে দুয়ো স্বতন্ত্ৰ।"
+    }
+  },
+  {
+    "id": "cause-effect-080",
+    "q": {
+      "en": "Event I: Shops switched to cloth bags. Event II: The government banned single-use plastic bags. What is the relationship between the two events?",
+      "as": "ঘটনা I: দোকানবোৰে কাপোৰৰ মোনালৈ সলনি কৰিলে। ঘটনা II: চৰকাৰে এবাৰ-ব্যৱহাৰৰ প্লাষ্টিকৰ মোনা নিষিদ্ধ কৰিলে। দুয়োটা ঘটনাৰ মাজৰ সম্পৰ্ক কি?"
+    },
+    "options": [
+      {
+        "en": "Both are independent and have no causal link",
+        "as": "দুয়ো স্বতন্ত্ৰ আৰু ইহঁতৰ মাজত কাৰণ-ফল সম্পৰ্ক নাই"
+      },
+      {
+        "en": "I is the cause and II is its effect",
+        "as": "I কাৰণ আৰু II ইয়াৰ ফল"
+      },
+      {
+        "en": "II is the cause and I is its effect",
+        "as": "II কাৰণ আৰু I ইয়াৰ ফল"
+      },
+      {
+        "en": "Both are effects of a common cause",
+        "as": "দুয়ো এটা সাধাৰণ কাৰণৰ ফল"
+      }
+    ],
+    "correct": 2,
+    "explanation": {
+      "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
+      "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+    }
+  }
+]
