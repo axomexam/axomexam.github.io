@@ -362,6 +362,198 @@ def net_fold(fig):
     return (grid, opp) if len(opp) == 6 else None
 
 
+BOX_FRACTIONS = [(0.2, "a fifth of the way across"), (0.25, "a quarter of the way across"),
+                 (0.3333, "a third of the way across"), (0.4, "two-fifths of the way across"),
+                 (0.5, "down the middle"), (0.6, "three-fifths of the way across"),
+                 (0.6667, "two-thirds of the way across"), (0.75, "three-quarters of the way across"),
+                 (0.8, "four-fifths of the way across")]
+
+
+def paper_boxes(fig):
+    out = []
+    for m in re.finditer(r'<polygon points="([^"]+)"[^>]*fill="#f8fafc"', fig or ""):
+        pts = [tuple(map(float, p.split(","))) for p in m.group(1).split()]
+        out.append((min(p[0] for p in pts), min(p[1] for p in pts),
+                    max(p[0] for p in pts), max(p[1] for p in pts)))
+    for m in re.finditer(r'<rect(?![^>]*\brx=)[^>]*>', fig or ""):
+        attrs = dict(re.findall(r'(?<![\w-])(x|y|width|height)="([\d.]+)"', m.group(0)))
+        if len(attrs) != 4:
+            continue
+        x, y, w, h = (float(attrs[k]) for k in ("x", "y", "width", "height"))
+        if w > 20 and h > 20:
+            out.append((x, y, x + w, y + h))
+    return out
+
+
+def paper_creases(fig):
+    out = []
+    for m in re.finditer(r"<line\b[^>]*>", fig or ""):
+        tag = m.group(0)
+        if "stroke-dasharray" not in tag and "#e0e7ff" not in tag:
+            continue
+        g = dict(re.findall(r'(x1|y1|x2|y2)="([\d.]+)"', tag))
+        if len(g) == 4:
+            out.append(tuple(float(g[k]) for k in ("x1", "y1", "x2", "y2")))
+    return out
+
+
+def paper_punches(fig):
+    out = []
+    for m in re.finditer(r"<circle\b[^>]*>", fig or ""):
+        tag = m.group(0)
+        g = dict(re.findall(r'(cx|cy)="([\d.]+)"', tag))
+        if len(g) != 2:
+            continue
+        if ("#dc2626" in tag or ("#ffffff" in tag and "#334155" in tag)
+                or ("#0f172a" in tag and 'r="4.4"' in tag)):
+            out.append((float(g["cx"]), float(g["cy"])))
+    return out
+
+
+def paper_hits_inside(box, p):
+    return box[0] - 1 <= p[0] <= box[2] + 1 and box[1] - 1 <= p[1] <= box[3] + 1
+
+
+def paper_pick_box(boxes, p):
+    cand = [b for b in boxes if paper_hits_inside(b, p)]
+    if not cand:
+        return None
+    return max(cand, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]))
+
+
+def paper_rel(box, p):
+    return ((p[0] - box[0]) / (box[2] - box[0]), (p[1] - box[1]) / (box[3] - box[1]))
+
+
+def paper_reflect(p, line, box):
+    a = paper_rel(box, (line[0], line[1]))
+    b = paper_rel(box, (line[2], line[3]))
+    dx, dy = b[0] - a[0], b[1] - a[1]
+    l2 = dx * dx + dy * dy
+    if l2 == 0:
+        return p
+    t = ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / l2
+    return (round(2 * (a[0] + t * dx) - p[0], 4), round(2 * (a[1] + t * dy) - p[1], 4))
+
+
+def paper_holes(fig):
+    boxes = paper_boxes(fig)
+    creases = paper_creases(fig)
+    punches = paper_punches(fig)
+    if not boxes or not creases or not punches:
+        return None
+    box = paper_pick_box(boxes, punches[0])
+    if not box:
+        return None
+    steps = []
+    for c in creases:
+        mid = ((c[0] + c[2]) / 2, (c[1] + c[3]) / 2)
+        steps.append((c, paper_pick_box(boxes, mid) or box))
+    holes = {tuple(round(v, 4) for v in paper_rel(box, p)) for p in punches}
+    for c, cb in reversed(steps):
+        holes |= {paper_reflect(h, c, cb) for h in list(holes)}
+    if any(not (-0.05 <= x <= 1.05 and -0.05 <= y <= 1.05) for x, y in holes):
+        return None
+    return holes, creases, punches, box
+
+
+def paper_option_holes(fig):
+    boxes = paper_boxes(fig)
+    pts = []
+    for m in re.finditer(r"<circle\b[^>]*>", fig or ""):
+        tag = m.group(0)
+        g = dict(re.findall(r'(cx|cy)="([\d.]+)"', tag))
+        if len(g) == 2 and ("#334155" in tag or "#0f172a" in tag):
+            pts.append((float(g["cx"]), float(g["cy"])))
+    if not pts or not boxes:
+        return set()
+    box = max(boxes, key=lambda b: (b[2] - b[0]) * (b[3] - b[1]))
+    return {tuple(round(v, 3) for v in paper_rel(box, p)) for p in pts}
+
+
+def paper_same(a, b, tol=0.06):
+    if len(a) != len(b):
+        return False
+    left = list(b)
+    for p in a:
+        hit = [t for t in left if abs(t[0] - p[0]) <= tol and abs(t[1] - p[1]) <= tol]
+        if not hit:
+            return False
+        left.remove(hit[0])
+    return True
+
+
+def paper_place(v, axis):
+    for frac, words in BOX_FRACTIONS:
+        if abs(v - frac) <= 0.04:
+            return words.replace("of the way across", "of the way down") if axis == "h" else words
+    return None
+
+
+def paper_side(rel, axis):
+    if axis == "v":
+        return "right" if rel[0] > 0.5 else "left"
+    return "below" if rel[1] > 0.5 else "above"
+
+
+def paper_fold(q):
+    """Read the creases and the punch off the drawing, and speak only if the answer matches."""
+    found = paper_holes(q.get("fig") or "")
+    if not found:
+        return None
+    holes, creases, punches, box = found
+    hits = [i for i, o in enumerate(q["options"])
+            if paper_same(holes, paper_option_holes(o.get("fig")))]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    letter = (q["options"][q["correct"]].get("option") or chr(65 + q["correct"])).strip(")")
+    axes = []
+    for c in creases:
+        if abs(c[0] - c[2]) < 1:
+            axes.append(("vertical", paper_rel(box, (c[0], c[1]))[0]))
+        elif abs(c[1] - c[3]) < 1:
+            axes.append(("horizontal", paper_rel(box, (c[0], c[1]))[1]))
+        else:
+            axes.append(("slanting", None))
+    parts = []
+    for kind, pos in axes:
+        where = paper_place(pos, "h" if kind == "horizontal" else "v") if pos is not None else None
+        parts.append(f"a {kind} crease {where}" if where else f"a {kind} crease")
+    if len(parts) == 1:
+        folds = "folded once, along " + parts[0]
+    elif len(parts) == 2:
+        folds = "folded twice, along " + parts[0] + " and " + parts[1]
+    else:
+        folds = (f"folded {len(parts)} times, along " + ", ".join(parts[:-1])
+                 + " and " + parts[-1])
+    p = paper_rel(box, punches[0])
+    quadrant = ("lower" if p[1] > 0.5 else "upper") + " " + ("right" if p[0] > 0.5 else "left")
+    xs = {round(x, 1) for x, _ in holes}
+    ys = {round(y, 1) for _, y in holes}
+    n = len(holes)
+    if n == 1:
+        shape = "a single hole, because the punch sits right on the crease"
+    elif n == 2 and len(ys) == 1:
+        shape = "two holes at the same height, one on each side of the crease"
+    elif n == 2 and len(xs) == 1:
+        shape = "two holes one above the other, equally far from the crease"
+    elif n == 2:
+        shape = "two holes, each the mirror image of the other"
+    elif len(xs) == 2 and len(ys) == 2:
+        shape = f"{n} holes, one in each quarter, mirrored in pairs across the creases"
+    elif len(xs) * len(ys) == n and n > 2:
+        shape = f"{n} holes in {len(ys)} rows of {len(xs)}"
+    else:
+        shape = f"{n} holes, every one a mirror copy of the punch"
+    en = (f"The sheet is {folds}, and the punch sits in the {quadrant} part of the folded paper. "
+          f"Unfolding mirrors the hole across every crease, so the sheet carries {shape} - "
+          f"option {letter}.")
+    as_digits = str(n).translate(str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯"))
+    as_ = (f"ভাঁজ মেলি দিলে কাগজত {as_digits} টা ফুটা দেখা যায় — বিকল্প {letter}।"
+           if n > 1 else f"ভাঁজ মেলি দিলে কাগজত এটা ফুটা দেখা যায় — বিকল্প {letter}।")
+    return en, as_
+
+
 def option_number(q):
     o = q["options"][q["correct"]]
     m = re.search(r'>\s*([1-6])\s*</text>', o.get("fig") or "")
@@ -732,6 +924,8 @@ def main():
                 continue
             old = (q.get("explanation") or {}).get("en") or ""
             fn = builder_for(old)
+            if not fn and re.search(r"unfold", q["q"]["en"], re.I):
+                fn = paper_fold
             if not fn:
                 continue
             try:
