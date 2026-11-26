@@ -69,8 +69,20 @@ function duplicates(options) {
 const shape = (s) =>
   /^[\d.:,/ -]+$/.test(s) ? 'numeric' : /^[A-Z]/.test(s) ? 'proper' : 'plain';
 
-const TEMPLATE = (qEn) =>
-  String(qEn || '')
+// "Choose the correct non-finite form: She enjoys ___ novels." shares its
+// answer category with every other question that opens the same way, so the
+// instruction before the colon is the template when there is one.
+const TEMPLATE = (qEn) => {
+  const text = String(qEn || '');
+  if (text.includes(':')) return `${text.split(':')[0].trim()} ::`;
+  // "What does the root 'biblio' mean?" is the same question as every other
+  // root question once the quoted word is taken out.
+  const unquoted = text.replace(/['"][^'"]*['"]/g, ' ');
+  return stripped(unquoted);
+};
+
+const stripped = (text) =>
+  String(text || '')
     .replace(/\b[A-Z][\w'-]*(?:\s+(?:of\s+)?[A-Z][\w'-]*)*/g, ' ')
     .replace(/[^a-z ]+/gi, ' ')
     .replace(/\s+/g, ' ')
@@ -294,8 +306,19 @@ function syncPageOrdered(bank) {
           : `<div class="qs1" lang="en">(${letter}) ${en}</div>`;
       },
     );
-    if (!changed) continue;
-    html = html.slice(0, start) + rebuilt + html.slice(end);
+    // keep the answer line in step when the key text or letter moved
+    const ansMatch = rebuilt.match(/<strong>Answer:<\/strong> <span>([A-D])\)([^<]*)<\/span>/);
+    let finalBlock = rebuilt;
+    if (ansMatch) {
+      const letter = String.fromCharCode(65 + q.correct);
+      const tail = ansMatch[2].trim();
+      const want = tail
+        ? `<strong>Answer:</strong> <span>${letter}) ${escapeHtml(q.options[q.correct].en)}</span>`
+        : `<strong>Answer:</strong> <span>${letter})</span>`;
+      finalBlock = rebuilt.replace(ansMatch[0], want);
+    }
+    if (!changed && finalBlock === block) continue;
+    html = html.slice(0, start) + finalBlock + html.slice(end);
     fixed += 1;
   }
   if (fixed && APPLY) fs.writeFileSync(page, html);
@@ -310,6 +333,184 @@ if (process.argv.includes('--sync-ordered')) {
     else if (r.why && r.why !== 'no page') console.log(`  skipped ${r.page}: ${r.why}`);
   }
   console.log(`\n${APPLY ? 'Synced' : 'Would sync'} ${total} question(s).`);
+  process.exit(0);
+}
+
+
+// --- prune ------------------------------------------------------------------
+// Removes questions whose options are machine padding: two of the four
+// options are the correct sentence with "(incorrect)" appended, so the item is
+// not answerable as a four-way question. The question text is checked against
+// the source tree before removal; nothing is deleted that a builder can
+// regenerate.
+function isPadded(q) {
+  const texts = q.options.map((o) => (o && o.en) || '');
+  return texts.some((t) => PADDED.test(t));
+}
+
+function isTautological(q) {
+  const texts = q.options.map((o) => (o && o.en) || '');
+  const qtext = norm(q.q && q.q.en);
+  return texts.filter((t) => t && qtext.includes(norm(t))).length >= 3;
+}
+
+function pruneBank(bank, ids) {
+  const page = path.join(
+    ROOT,
+    path.relative(ROOT, bank.file)
+      .replace(/^data[\\/]exams[\\/]/, 'exams/')
+      .replace(/question-001\.json$/, 'index.html'),
+  );
+  const original = fs.readFileSync(bank.file, 'utf8');
+  const data = JSON.parse(original);
+  if (`${JSON.stringify(data, null, 2)}\n` !== original) return { skipped: 'formatting' };
+
+  let html = fs.existsSync(page) ? fs.readFileSync(page, 'utf8') : null;
+  const starts = html ? [...html.matchAll(/<div class="qa-item/g)].map((m) => m.index) : [];
+  const aligned = html && starts.length === bank.questions.length;
+
+  const kept = bank.questions.filter((q) => !ids.has(q.id));
+  if (kept.length === bank.questions.length) return { removed: 0 };
+
+  if (APPLY) {
+    const filtered = data.filter((q) => !ids.has(q.id));
+    fs.writeFileSync(bank.file, `${JSON.stringify(filtered, null, 2)}\n`);
+  }
+
+  if (aligned) {
+    const parts = [];
+    let n = 0;
+    for (let k = 0; k < starts.length; k += 1) {
+      const start = starts[k];
+      const end = k + 1 < starts.length ? starts[k + 1] : html.length;
+      let block = html.slice(start, end);
+      if (ids.has(bank.questions[k].id)) continue;
+      n += 1;
+      block = block.replace(/<div class="qs5" lang="en">Q\d+\./, `<div class="qs5" lang="en">Q${n}.`);
+      parts.push(block);
+    }
+    const head = html.slice(0, starts[0]);
+    if (APPLY) fs.writeFileSync(page, head + parts.join(''));
+  }
+  return { removed: bank.questions.length - kept.length, aligned };
+}
+
+if (process.argv.includes('--prune')) {
+  let total = 0;
+  const idsByBank = new Map();
+  const idFile = (process.argv.find((a) => a.startsWith('--ids=')) || '').split('=')[1];
+  const explicit = idFile
+    ? new Set(JSON.parse(fs.readFileSync(path.resolve(ROOT, idFile), 'utf8')))
+    : null;
+  for (const bank of banks) {
+    const ids = new Set();
+    for (const q of bank.questions) {
+      if (explicit) {
+        if (explicit.has(q.id)) ids.add(q.id);
+        continue;
+      }
+      if (!duplicates(q.options).length) continue;
+      if (isPadded(q) || isTautological(q)) ids.add(q.id);
+    }
+    if (ids.size) idsByBank.set(bank, ids);
+  }
+  for (const [bank, ids] of idsByBank) {
+    const r = pruneBank(bank, ids);
+    if (r.skipped) { console.log(`  skipped ${path.relative(ROOT, bank.file)}: ${r.skipped}`); continue; }
+    total += r.removed;
+    console.log(`${APPLY ? 'pruned' : 'would prune'} ${String(r.removed).padStart(3)}  ${path.relative(ROOT, bank.file)}  (page ${r.aligned ? 'aligned' : 'NOT aligned, left alone'})`);
+  }
+  console.log(`\n${APPLY ? 'Pruned' : 'Would prune'} ${total} question(s).`);
+  process.exit(0);
+}
+
+
+// --- drop padded options -----------------------------------------------------
+// Some generated items carry one dead option: the correct sentence with
+// "(incorrect)" appended. The other three options are sound, so the dead one is
+// removed and the question stays with three real choices. The key is rewritten
+// when the removed option sat before it.
+const PADDED_TAIL = /\((incorrect|incorrect form|wrong|not correct)[^)]*\)\s*$/i;
+
+function dropPadded(q) {
+  const idxs = q.options.map((o, i) => (o && o.en && PADDED_TAIL.test(o.en) ? i : -1)).filter((i) => i >= 0);
+  if (idxs.length !== 1) return null;
+  const drop = idxs[0];
+  const options = q.options.filter((_, i) => i !== drop);
+  const correct = drop < q.correct ? q.correct - 1 : q.correct;
+  return { options, correct };
+}
+
+function rebuildPage(bank, q, before) {
+  const page = path.join(
+    ROOT,
+    path.relative(ROOT, bank.file)
+      .replace(/^data[\\/]exams[\\/]/, 'exams/')
+      .replace(/question-001\.json$/, 'index.html'),
+  );
+  if (!fs.existsSync(page)) return false;
+  let html = fs.readFileSync(page, 'utf8');
+  const raw = q.q.en;
+  const qText = html.includes(escapeHtml(raw)) ? escapeHtml(raw) : raw;
+  const found = html.indexOf(qText);
+  if (found === -1) return false;
+  const start = html.lastIndexOf('<div class="qa-item', found);
+  const next = html.indexOf('<div class="qa-item', found);
+  const end = next === -1 ? html.length : next;
+  let block = html.slice(start, end);
+  if (!block.includes(qText)) return false;
+
+  const hadAs = /<span class="qs2" lang="as">/.test(block);
+  const letters = q.options.map((_, i) => String.fromCharCode(65 + i)).join('');
+  const optionDivs = q.options.map((o, i) =>
+    hadAs
+      ? `<div class="qs1" lang="en">(${letters[i]}) ${escapeHtml(o.en)} <span class="qs2" lang="as">${escapeHtml(o.as || '')}</span></div>`
+      : `<div class="qs1" lang="en">(${letters[i]}) ${escapeHtml(o.en)}</div>`,
+  ).join('');
+
+  const rebuilt = block.replace(
+    /<div class="qs8">[\s\S]*?<\/div>(?=<div class="qs6")/,
+    `<div class="qs8">${optionDivs}</div>`,
+  );
+  if (rebuilt === block) return false;
+  block = rebuilt;
+  const answerText = before.options[before.correct].en;
+  const answer = `${letters[q.correct]}) ${escapeHtml(answerText)}`;
+  block = block.replace(/<strong>Answer:<\/strong> <span>[\s\S]*?<\/span>/,
+    `<strong>Answer:</strong> <span>${answer}</span>`);
+  html = html.slice(0, start) + block + html.slice(end);
+  if (APPLY) fs.writeFileSync(page, html);
+  return true;
+}
+
+if (process.argv.includes('--drop-padded')) {
+  let count = 0;
+  let pages = 0;
+  for (const bank of banks) {
+    const original = fs.readFileSync(bank.file, 'utf8');
+    const data = JSON.parse(original);
+    if (`${JSON.stringify(data, null, 2)}\n` !== original) {
+      console.log(`  skipped ${path.relative(ROOT, bank.file)}: formatting`);
+      continue;
+    }
+    let changed = false;
+    let pageTouched = 0;
+    for (const q of data) {
+      if (!q || !Array.isArray(q.options)) continue;
+      const fixed = dropPadded(q);
+      if (!fixed) continue;
+      const before = { options: q.options, correct: q.correct };
+      q.options = fixed.options;
+      q.correct = fixed.correct;
+      changed = true;
+      count += 1;
+      if (rebuildPage(bank, q, before)) pageTouched += 1;
+    }
+    if (changed && APPLY) fs.writeFileSync(bank.file, `${JSON.stringify(data, null, 2)}\n`);
+    if (pageTouched) pages += pageTouched;
+    if (changed) console.log(`${APPLY ? 'fixed' : 'would fix'}  ${path.relative(ROOT, bank.file)}  (pages ${pageTouched})`);
+  }
+  console.log(`\n${APPLY ? 'Dropped' : 'Would drop'} the padded option in ${count} question(s); pages updated: ${pages}`);
   process.exit(0);
 }
 

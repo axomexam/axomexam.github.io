@@ -4598,3 +4598,26 @@ the repository is a gigabyte, with the same 611 MB of content.
   in every clone, forever.
 - **Close PRs by merging, not abandoning.** An abandoned branch keeps its
   commits alive for as long as the branch exists.
+
+### Answer options: four distinct, or none
+
+Every question needs four **different** options. If you generate questions,
+never pad a list by repeating the correct answer with a label such as
+`(incorrect)`: a reader who picks that letter is not wrong and still loses the
+mark, and it is the kind of filler that gets an AdSense review rejected.
+
+`tools/fix-duplicate-options.js` keeps banks honest:
+
+- `node tools/fix-duplicate-options.js` — dry run: lists every question whose
+  options repeat, and proposes a replacement from a question with the same
+  template, so a river question gets a river.
+- `--apply` — writes the bank, the matching page and any source module.
+- `--prune` — removes questions that cannot be repaired (fully padded options,
+  or options that just echo the question).
+- `--drop-padded` — removes a single dead option, leaving a valid three-choice
+  question.
+- `--sync-ordered` — rebuilds option text and the answer line in the page from
+  the bank, for pages that drifted.
+
+After any content change, run the whole tool in dry-run and confirm it reports
+zero.
