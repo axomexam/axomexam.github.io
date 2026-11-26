@@ -1648,14 +1648,40 @@ def embed_segments(fig):
         a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
         if a.get("stroke") in ("#334155", "#0f172a"):
             out.append(((float(a["x1"]), float(a["y1"])), (float(a["x2"]), float(a["y2"]))))
+    for m in re.finditer(r"<rect ([^>]*)>", fig or ""):
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+        if a.get("stroke") not in ("#334155", "#0f172a"):
+            continue
+        x, y = float(a["x"]), float(a["y"])
+        w, h = float(a["width"]), float(a["height"])
+        c = [(x, y), (x + w, y), (x + w, y + h), (x, y + h)]
+        for i in range(4):
+            out.append((c[i], c[(i + 1) % 4]))
     return out
 
 
-def embed_options_poly(fig):
+def embed_options_shape(fig):
+    """The option's own outline: a polygon, a rectangle, or a circle."""
     for m in re.finditer(r'<polygon points="([^"]*)"([^>]*)>', fig or ""):
         if "#334155" in m.group(2) or "#0f172a" in m.group(2):
-            return [tuple(map(float, t.split(","))) for t in m.group(1).split()]
+            return ("poly", [tuple(map(float, t.split(","))) for t in m.group(1).split()])
+    for m in re.finditer(r'<rect ([^>]*)>', fig or ""):
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+        if a.get("stroke") not in ("#334155", "#0f172a"):
+            continue
+        x, y = float(a["x"]), float(a["y"])
+        w, h = float(a["width"]), float(a["height"])
+        return ("poly", [(x, y), (x + w, y), (x + w, y + h), (x, y + h)])
+    for m in re.finditer(r'<circle ([^>]*)>', fig or ""):
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+        if a.get("stroke") in ("#334155", "#0f172a"):
+            return ("circle", None)
     return None
+
+
+def embed_options_poly(fig):
+    shape = embed_options_shape(fig)
+    return shape[1] if shape and shape[0] == "poly" else None
 
 
 def embed_point_on(p, a, b, tol=1.5):
@@ -1764,19 +1790,112 @@ def embed_dedupe(segments):
     return out
 
 
+def embed_element_types(fig):
+    """Shapes the drawing contains as drawn outlines, plus circles."""
+    types = set()
+    for m in re.finditer(r'<polygon points="([^"]*)"([^>]*)>', fig or ""):
+        if "#334155" in m.group(2) or "#0f172a" in m.group(2):
+            types.add(("poly", len(m.group(1).split())))
+    for m in re.finditer(r"<rect ([^>]*)>", fig or ""):
+        a = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(1)))
+        if a.get("stroke") in ("#334155", "#0f172a"):
+            types.add(("poly", 4))
+    if re.search(r'<circle [^>]*stroke="#(?:334155|0f172a)"', fig or ""):
+        types.add(("circle", 0))
+    return types
+
+
+def embed_option_type(fig):
+    shape = embed_options_shape(fig)
+    if not shape:
+        return None
+    return ("circle", 0) if shape[0] == "circle" else ("poly", len(shape[1]))
+
+
+def poly_name(n):
+    return {3: "triangle", 4: "four-sided shape", 5: "pentagon", 6: "hexagon",
+            7: "heptagon", 8: "octagon", 9: "nonagon", 10: "decagon"}.get(n, f"{n}-sided shape")
+
+
+def poly_name_as(n):
+    return {3: "ত্ৰিভুজ", 4: "চতুৰ্ভুজ", 5: "পঞ্চভুজ", 6: "ষড়ভুজ", 7: "সপ্তভুজ",
+            8: "অষ্টভুজ", 9: "নৱভুজ", 10: "দশভুজ"}.get(n, f"{n} বাহুৰ চিত্ৰ")
+
+
+def embed_by_type(q):
+    """The drawing carries an outline of one shape family, and only one option is of that family."""
+    types = embed_element_types(q.get("fig") or "")
+    if not types:
+        return None
+    kinds = [embed_option_type(o.get("fig") or "") for o in q["options"]]
+    if any(k is None for k in kinds):
+        return None
+    hits = [i for i, k in enumerate(kinds) if k in types]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    kind = kinds[hits[0]]
+    letter = chr(65 + hits[0])
+    if kind[0] == "circle":
+        en = ("The drawing carries a circle among its own lines, and the circle in option "
+              f"{letter} is the only option of that kind - the other three are straight-sided shapes "
+              f"that are not drawn anywhere in the figure. So {letter} is the shape hidden in it.")
+        as_ = (f"চিত্ৰত এটা বৃত্ত আছে, আৰু বিকল্পসমূহৰ ভিতৰত কেৱল {letter} টোৱেই বৃত্ত — "
+               f"বাকী তিনিটা সোজা বাহুৰ, যিবোৰ চিত্ৰত অঁকা নাই। গতিকে {letter} শুদ্ধ।")
+        return en, as_
+    n = kind[1]
+    name, name_as = poly_name(n), poly_name_as(n)
+    inner = len(re.findall(r"<line [^>]*stroke=\"#(?:334155|0f172a)\"", q.get("fig") or ""))
+    if inner == 0:
+        drawn, drawn_as = "nothing else is drawn inside it", "ভিতৰত আৰু একো অঁকা নাই"
+    elif inner == 1:
+        drawn, drawn_as = "a single line inside only divides it", "ভিতৰৰ এডাল ৰেখাই কেৱল ভাগ কৰিছে"
+    else:
+        drawn = f"{inner} lines inside only divide it"
+        drawn_as = f"ভিতৰৰ {inner} ডাল ৰেখাই কেৱল ভাগ কৰিছে"
+    en = (f"The drawing is built on a {name}: its outline has {n} sides and {drawn}. "
+          f"Of the four options, only {letter} is a {name} as well, "
+          f"so {letter} is the shape that sits inside the figure.")
+    as_ = (f"চিত্ৰৰ নিজৰ পৰিসীমা {n} টা বাহুৰ {name}, {drawn_as}। "
+           f"বিকল্পৰ ভিতৰত কেৱল {letter} টোৱেই {name_as}, গতিকে {letter} শুদ্ধ।")
+    return en, as_
+
+
 def paper_embedded(q):
     """Embedded figures: the option whose sides all lie on lines already drawn."""
+    out = embed_by_fit(q)
+    return out if out else embed_by_type(q)
+
+
+def embed_by_fit(q):
     segments = embed_segments(q.get("fig") or "")
     if not segments:
         return None
+    has_circle = bool(re.search(r'<circle [^>]*stroke="#(?:334155|0f172a)"', q.get("fig") or ""))
     found = []
+    circles = []
     for i, o in enumerate(q["options"]):
-        poly = embed_options_poly(o.get("fig") or "")
-        if not poly:
+        shape = embed_options_shape(o.get("fig") or "")
+        if not shape:
             return None
-        fit = embed_fit(poly, segments)
+        if shape[0] == "circle":
+            circles.append(i)
+            continue
+        fit = embed_fit(shape[1], segments)
         if fit:
             found.append((i, fit[0], fit[1]))
+    if has_circle and len(circles) == 1:
+        idx = circles[0]
+        if idx != q["correct"] or found:
+            return None
+        letter = chr(65 + idx)
+        en = (f"The drawing carries a circle among its lines, and only the circle in option {letter} "
+              f"matches it - the other options ask for straight sides that are not closed anywhere "
+              f"in the figure. So {letter} is the shape hidden in it.")
+        as_ = (f"চিত্ৰত এটা বৃত্ত আছে, গতিকে কেৱল বিকল্প {letter} ৰ বৃত্তটোৱেই তাত সুপ্ত হৈ আছে — "
+               f"আন বিকল্পবোৰৰ বাহুবোৰ চিত্ৰত বন্ধ নহয়।")
+        return en, as_
+    if circles:
+        return None
     if len(found) != 1 or found[0][0] != q["correct"]:
         return None
     idx, mapped, hits = found[0]
@@ -2099,11 +2218,26 @@ CLUSTERS = [
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
     ("the outline of the figure in the correct option", paper_embedded),
     ("the outline of the ", paper_embedded),
+    ("the drawing is made of ", paper_embedded),
+    ("the drawing is built on a ", paper_embedded),
+    ("the drawing carries a circle among its lines", paper_embedded),
+    ("a triangle is formed inside the figure", paper_embedded),
+    ("a square is formed inside the figure", paper_embedded),
+    ("a circle is present inside the figure", paper_embedded),
+    ("a rhombus (diamond) is formed inside the figure", paper_embedded),
+    ("a star is formed inside the figure", paper_embedded),
+    ("a pentagon is formed inside the figure", paper_embedded),
+    ("a hexagon is formed inside the figure", paper_embedded),
+    ("the outline gains ", paper_series_next),
+    ("the dots grow by ", paper_series_next),
+    ("the lines grow by ", paper_series_next),
     ("the number of sides increases by the same amount at each step", paper_series_next),
     ("the number of dots increases by one at each step", paper_series_next),
     ("the number of parallel lines increases by one at each step", paper_series_next),
     ("each column shows the same figure", paper_pattern_cell),
     ("each row shows the same figure", paper_pattern_cell),
+    ("the figure is the letter", paper_reversed),
+    ("the drawing holds the ", paper_reversed),
     ("a mirror image reverses the figure left to right", paper_reversed),
     ("a water image flips the figure top to bottom", paper_reversed),
     ("a mirror image is a left-right reversal of the figure", paper_reversed),

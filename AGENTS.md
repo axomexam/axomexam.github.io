@@ -4680,6 +4680,12 @@ The explanation names the lettering and what each of the other three cards did.
 Letters that are symmetric on the asked axis (A under a mirror; C, E, K, H, I, O,
 X under water) are skipped, because there the key is arbitrary.
 
+Some embedded-figure banks (adre) draw the options as regular shapes, so the fit is
+impossible by construction. There the drawing's own outline decides instead: its side
+count (or a drawn circle) is matched against the options, one option must be of that
+family, and it must be the key. Figures whose answer only appears where lines cross
+are left with the old sentence, since the readable outline does not prove them.
+
 Embedded figures are checked by trying to lay the option's outline on the drawing: a
 scale-and-shift is searched from pairs of drawn endpoints, every side must then fall
 along a drawn line, and only one option (the key) is allowed to fit. The explanation
