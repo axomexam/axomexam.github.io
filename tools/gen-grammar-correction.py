@@ -223,8 +223,9 @@ for wrong, correct, key in PAIRS:
         if len(cands) >= 4:
             break
     cands = [c for c in cands if c != correct]
-    while len(cands) < 3:
-        cands.append(correct + " (incorrect)")
+    if len(cands) < 3:
+        # never pad with the correct sentence: three wrong options or no question
+        continue
     en, as_ = REASON[key]
     rows.append({
         "stem": f"Improve the sentence: '{wrong}'",

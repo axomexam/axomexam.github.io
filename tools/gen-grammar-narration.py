@@ -197,13 +197,18 @@ def pick_dists(correct, kind):
             out.append(c)
         if len(out) == 3:
             break
-    while len(out) < 3:
-        out.append(correct + " (incorrect form)")
-    return out
+    # never pad with the correct sentence: three wrong options or no question
+    return out if len(out) == 3 else None
 
 
+kept = []
 for r in rows:
-    r["dists"] = [(d, d) for d in pick_dists(r["correct"][0], r["_kind"])]
+    dists = pick_dists(r["correct"][0], r["_kind"])
     del r["_kind"]
+    if dists is None:
+        continue
+    r["dists"] = [(d, d) for d in dists]
+    kept.append(r)
+rows = kept
 
 append(LEAF, rows)
