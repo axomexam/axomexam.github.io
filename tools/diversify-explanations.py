@@ -261,6 +261,33 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def b_assumption(q):
+    stem = q["q"]["en"]
+    st = re.search(r"Statement:\s*(.+?)\s*Assumptions:", stem, re.S)
+    au = re.search(r"Assumptions:\s*I\.\s*(.+?)\s*II\.\s*(.+?)(?:\s*Which of the following|$)", stem, re.S)
+    if not st or not au:
+        return None
+    statement = st.group(1).strip().rstrip(".")
+    one, two = au.group(1).strip().rstrip("."), au.group(2).strip().rstrip(".")
+    ans = answer(q).lower()
+    if "both" in ans:
+        i_imp = ii_imp = True
+    elif "only assumption i" in ans:
+        i_imp, ii_imp = True, False
+    elif "only assumption ii" in ans:
+        i_imp, ii_imp = False, True
+    elif "neither" in ans:
+        i_imp = ii_imp = False
+    else:
+        return None
+    return (
+        f'For the statement "{statement}", assumption I ("{one}") '
+        f'{"is taken for granted" if i_imp else "is not needed"} and assumption II ("{two}") '
+        f'{"is also taken for granted" if ii_imp else "is not needed"}; '
+        f'hence the answer is: {answer(q)}.'
+    )
+
+
 def b_order(q):
     stem = q["q"]["en"]
     ans = answer(q).strip()
@@ -375,6 +402,10 @@ CLUSTERS = [
     ("a collective noun acting as one unit", b_collective),
     ("this statement is taken directly from the passage", b_passage_line),
     ("the correct order is", b_order),
+    ("assumption i is implicit and assumption ii is implicit", b_assumption),
+    ("assumption i is implicit and assumption ii is not implicit", b_assumption),
+    ("assumption i is not implicit and assumption ii is implicit", b_assumption),
+    ("assumption i is not implicit and assumption ii is not implicit", b_assumption),
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
