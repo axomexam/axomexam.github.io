@@ -4686,6 +4686,12 @@ count (or a drawn circle) is matched against the options, one option must be of 
 family, and it must be the key. Figures whose answer only appears where lines cross
 are left with the old sentence, since the readable outline does not prove them.
 
+Cause-effect items name both events and the relation the key gives between them. Tense
+and preposition blanks are written out with the key filled in, the form named from the
+key itself ("the «is running» form - present continuous"), and an in-sentence clue
+quoted when one exists ("now", "every"). A blank that takes a linking word gets the
+plain "only this word carries the sense" line instead.
+
 Grammar banks where the answer is a rewritten sentence (sentence correction, narration)
 are explained from the difference itself: the faulty or direct line and the key are
 tokenised and diffed, and the explanation names each change ("«plays» becomes «play»",

@@ -2177,6 +2177,149 @@ def paper_assertion_reason(q):
     return en, as_
 
 
+CAUSE_SAY = {
+    "cause_first": ("Event I ({a}) comes before Event II ({b}) and brings it about, so I is the cause "
+                    "and II the effect"),
+    "cause_second": ("Event II ({b}) comes before Event I ({a}) and brings it about, so II is the cause "
+                     "and I the effect"),
+    "common": ("Neither event brings the other about: {a} and {b} are two effects of one cause "
+               "working on both"),
+    "independent": ("{a} and {b} do not touch one another - they simply happened side by side"),
+}
+
+
+def paper_cause_effect(q):
+    """Cause and effect: quote the two events and say how the key links them."""
+    text = (q.get("q") or {}).get("en", "")
+    a = re.search(r"Event\s*(?:I|1)\s*:\s*(.+?)\s*Event\s*(?:II|2)\s*:\s*(.+?)\s*What", text)
+    option = q["options"][q["correct"]]
+    if not a or not isinstance(option, dict) or not option.get("en"):
+        return None
+    verdict = option["en"].lower()
+    if "common cause" in verdict:
+        kind = "common"
+    elif "independent" in verdict:
+        kind = "independent"
+    elif verdict.startswith("ii "):
+        kind = "cause_second"
+    elif verdict.startswith("i "):
+        kind = "cause_first"
+    else:
+        return None
+    first, second = a.group(1).strip().rstrip("."), a.group(2).strip().rstrip(".")
+    letter = chr(65 + q["correct"])
+    en = f"{CAUSE_SAY[kind].format(a=f'«{first}»', b=f'«{second}»')} - option {letter}."
+    as_ = (f"ঘটনা I «{first}» আৰু ঘটনা II «{second}» — ইয়াৰ সম্পৰ্কটোৱে বিকল্প {letter} বুজায়।")
+    return en, as_
+
+
+def paper_conclusions(q):
+    """Statement and conclusions: quote the statement and both conclusions, then the verdict."""
+    text = (q.get("q") or {}).get("en", "")
+    st = re.search(r"Statement:\s*(.+?)\s*Conclusions?:", text)
+    cons = re.findall(r"(?:I{1,2})\s*[.:]\s*([^IV]+?)(?=(?:\s+II\s*[.:])|$)", text.split("Conclusions:")[-1]) if "Conclusions:" in text else []
+    option = q["options"][q["correct"]]
+    if not st or len(cons) != 2 or not isinstance(option, dict) or not option.get("en"):
+        return None
+    letter = chr(65 + q["correct"])
+    verdict = option["en"].strip().rstrip(".")
+    en = (f"The statement gives «{st.group(1).strip().rstrip('.')}». Conclusion I reads "
+          f"«{cons[0].strip().rstrip('.')}» and conclusion II reads «{cons[1].strip().rstrip('.')}». "
+          f"Checked against that statement, the pair settles as «{verdict}», option {letter}.")
+    as_ = (f"উক্তি «{st.group(1).strip().rstrip('.')}»। সিদ্ধান্ত I «{cons[0].strip().rstrip('.')}» আৰু "
+           f"সিদ্ধান্ত II «{cons[1].strip().rstrip('.')}»। উক্তিটোৰ সৈতে মিলাই চালে «{verdict}», "
+           f"বিকল্প {letter}।")
+    return en, as_
+
+
+TENSE_FORMS = [
+    (r"^(will|shall) have been \w+ing$", "future perfect continuous"),
+    (r"^(will|shall) have \w+(ed|en|t)$", "future perfect"),
+    (r"^(will|shall) be \w+ing$", "future continuous"),
+    (r"^(will|shall) \w+$", "simple future"),
+    (r"^(is|am|are) being \w+", "present continuous"),
+    (r"^(is|am|are) \w+ing$", "present continuous"),
+    (r"^(has|have) been \w+ing$", "present perfect continuous"),
+    (r"^(has|have) been \w+", "present perfect"),
+    (r"^(has|have) \w+(ed|en|t|e)$", "present perfect"),
+    (r"^(was|were) \w+ing$", "past continuous"),
+    (r"^had been \w+ing$", "past perfect continuous"),
+    (r"^had \w+", "past perfect"),
+    (r"^(was|were) \w+", "simple past"),
+    (r"^(is|am|are) \w+", "simple present"),
+    (r"^(went|saw|came|took|made|got|gave|wrote|spoke|ran|ate|began|broke|bought|brought|caught|"
+     r"chose|did|drove|fell|felt|found|flew|forgot|knew|left|lost|met|paid|read|said|sold|sent|"
+     r"sang|sat|slept|stood|swam|taught|thought|told|understood|wore|won|kept|held|built)$",
+     "simple past"),
+    (r"^\w+s$", "simple present"),
+]
+
+TIME_CLUE = [
+    ("simple present", ["every", "usually", "often", "always", "never", "daily", "generally"]),
+    ("present continuous", ["now", "at the moment", "at present", "currently", "these days"]),
+    ("simple past", ["yesterday", "last ", "ago", "in 19", "in 20"]),
+    ("future perfect", ["by ", "by the time"]),
+    ("simple future", ["tomorrow", "next "]),
+    ("past continuous", ["while", "at that time"]),
+    ("present perfect", ["already", "just", "so far", "yet", "recently"]),
+]
+
+
+def tense_name(form):
+    for pattern, name in TENSE_FORMS:
+        if re.match(pattern, (form or "").strip(), re.I):
+            return name
+    return None
+
+
+def paper_tense(q):
+    """Tense items: write the sentence out with the key filled in and name the form it takes."""
+    text = (q.get("q") or {}).get("en", "")
+    option = q["options"][q["correct"]]
+    if "__" not in text or not isinstance(option, dict) or not option.get("en"):
+        return None
+    key = option["en"].strip()
+    filled = re.sub(r"_{2,}", key, text, count=1).strip()
+    stem = re.sub(r"^Choose the correct verb form:\s*", "", filled)
+    letter = chr(65 + q["correct"])
+    if key.lower() not in ("since", "for") and not re.search(r"\s", key):
+        if key.lower() in ("unless", "if", "until", "because", "though", "although", "whether",
+                           "from", "at", "by", "on", "in", "of", "to", "with", "and", "but", "so",
+                           "which", "who", "whom", "whose", "that", "what"):
+            en = (f"Filled in, the line reads «{stem}». Of the words offered only «{key}» carries the "
+                  f"sense the line needs, so it is option {letter}.")
+            as_ = f"«{stem}» — ইয়াত «{key}» উপযুক্ত, অৰ্থাৎ বিকল্প {letter}।"
+            return en, as_
+    name = tense_name(key)
+    if name:
+        clue = next((w for tense, words in TIME_CLUE if tense == name
+                     for w in words if w in stem.lower()), None)
+        if clue:
+            en = (f"Filled in, the line reads «{stem}». The clue «{clue}» pins the action, so the "
+                  f"«{key}» form - {name} - is the one that fits, option {letter}.")
+        else:
+            en = (f"Filled in, the line reads «{stem}». The verb «{key}» is the {name} form, and it is "
+                  f"the only option that agrees with the rest of the sentence, option {letter}.")
+        as_ = (f"«{stem}» — ইয়াত «{key}» ৰূপটো ({name}) খাপ খায়, অৰ্থাৎ বিকল্প {letter}।")
+        return en, as_
+    if key.lower() in ("since", "for"):
+        tail = re.split(r"_{2,}", text)[-1].strip().strip(" .")
+        if not tail:
+            return None
+        if key.lower() == "since" and not re.search(r"(\d{4}|January|February|March|April|May|June|July|August|September|October|November|December|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|morning|noon|childhood|then)", tail, re.I):
+            return None
+        if key.lower() == "for" and not re.search(
+                r"(\d+|one|two|three|four|five|six|seven|eight|nine|ten|few|several|many)\s*"
+                r"(second|minute|hour|day|week|month|year)", tail, re.I):
+            return None
+        meaning = "marks the point where the action started" if key.lower() == "since" else "marks how long the action has lasted"
+        en = (f"Filled in, the line reads «{stem}». The word «{key}» {meaning}, and «{tail}» is exactly "
+              f"that, so «{key}» is the fit - option {letter}.")
+        as_ = (f"«{stem}» — «{key}» ইয়াত উপযুক্ত, অৰ্থাৎ বিকল্প {letter}।")
+        return en, as_
+    return None
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2514,6 +2657,20 @@ CLUSTERS = [
     ("only one conjunction is needed for a single", paper_sentence_fix),
     ("the verb must agree with its subject in number", paper_sentence_fix),
     ("two negatives in one clause cancel each other", paper_sentence_fix),
+    ("event i happens first and brings about event ii", paper_cause_effect),
+    ("the underlying cause is stated as event ii", paper_cause_effect),
+    ("neither event causes the other; both are produced by", paper_cause_effect),
+    ("neither event brings about the other; they happen to", paper_cause_effect),
+    ("conclusion i follows and conclusion ii follows", paper_conclusions),
+    ("present continuous is used for an action happening", paper_tense),
+    ("present perfect is used for a past action that is still", paper_tense),
+    ("present perfect continuous is used for an action continuing", paper_tense),
+    ("future continuous is used for an action in progress", paper_tense),
+    ("future perfect is used for an action completed", paper_tense),
+    ("simple present is used for habits and repeated actions", paper_tense),
+    ("past continuous is used for an action in progress", paper_tense),
+    ("past perfect is used for the earlier of two past", paper_tense),
+    ("simple future is used for an action that will", paper_tense),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),
