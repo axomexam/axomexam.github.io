@@ -2320,6 +2320,56 @@ def paper_tense(q):
     return None
 
 
+PAIR_RULES = [
+    (r"\bneither\b", "nor", "«Neither» goes with «nor», so the pair is filled by «nor»"),
+    (r"\beither\b", "or", "«Either» goes with «or», so the blank takes «or»"),
+    (r"\bnot only\b", "but also", "«Not only» goes with «but also»"),
+    (r"\bboth\b", "and", "«Both» goes with «and»"),
+]
+
+
+def paper_blank_word(q):
+    """A blank that takes one word: write the line out with the key in it, then say why it fits."""
+    text = (q.get("q") or {}).get("en", "")
+    option = q["options"][q["correct"]]
+    if "__" not in text or not isinstance(option, dict) or not option.get("en"):
+        return None
+    key = option["en"].strip()
+    if not key or len(key.split()) > 2:
+        return None
+    filled = re.sub(r"_{2,}", key, text, count=1).strip()
+    stem = re.sub(r"^Choose the \w+ form:\s*", "", filled)
+    stem = re.sub(r"^Fill in the blank with the correct \w+:\s*", "", stem)
+    stem = re.sub(r"^Choose the correct (?:option|verb|form|word|preposition|conjunction)s?:\s*", "", stem)
+    letter = chr(65 + q["correct"])
+    note = None
+    low = stem.lower()
+    for pattern, word, say in PAIR_RULES:
+        if re.search(pattern, low) and key.lower() == word:
+            note = say
+            break
+    if note is None and key.lower() == "between" and re.search(r"\btwo\b", low):
+        note = "«between» is the word for two things"
+    if note is None and key.lower() == "among" and re.search(
+            r"(three|four|five|six|several|many|all|crowd|students|boys|girls)", low):
+        note = "«among» is the word for more than two"
+    before = re.split(r"_{2,}", text)[0].strip().rstrip(" .:,").split()
+    after = re.split(r"_{2,}", text)[-1].strip().strip(" .,")
+    pair = None
+    if before:
+        pair = f"«{before[-1]} {key}»"
+    if note:
+        en = f"Filled in, the line reads «{stem}». {note}, so the sentence takes it - option {letter}."
+    elif pair and key.lower() == (key.lower()) and re.search(r"preposition", text, re.I):
+        en = (f"The line reads «{stem}», and the pairing it uses is {pair} - that is the word "
+              f"«{before[-1]}» goes with, so it is option {letter}.")
+    else:
+        en = (f"Filled in, the line reads «{stem}». Of the words offered, «{key}» is the one the "
+              f"sentence needs at that point, so it is option {letter}.")
+    as_ = f"«{stem}» — ইয়াত «{key}» উপযুক্ত, অৰ্থাৎ বিকল্প {letter}।"
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2671,6 +2721,11 @@ CLUSTERS = [
     ("past continuous is used for an action in progress", paper_tense),
     ("past perfect is used for the earlier of two past", paper_tense),
     ("simple future is used for an action that will", paper_tense),
+    ("'one of' is followed by a plural noun", paper_blank_word),
+    ("in 'there is/are'", paper_blank_word),
+    ("news, subjects like mathematics", paper_blank_word),
+    ("is the preposition that goes with this word or phrase", paper_blank_word),
+    ("filled in, the line reads «choose the correct", paper_blank_word),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),
@@ -2780,6 +2835,8 @@ def builder_for(text):
     for prefix, fn in CLUSTERS:
         if t.startswith(prefix):
             return fn
+    if " is the preposition that goes with this word or phrase" in t:
+        return paper_blank_word
     return None
 
 
