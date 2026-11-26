@@ -4514,3 +4514,87 @@ Firebase keys must never be committed, pasted into a page, or written into
 minutes — that is why push failures usually mean "get a fresh token", not
 "fix the remote URL". Use the secret manager, and read `GITHUB_TOKEN` from the
 environment.
+
+## Repo hygiene — the repository must not collect garbage
+
+The repository reached 1.45 GB once and was reset on 26 Nov 2026. This section
+is what keeps it from happening again. The rule the owner gave: **as commits
+land, the size may grow with the content, but junk must never accumulate.**
+
+### Budget
+
+| measure | stay under | checked by |
+|---|---|---|
+| pack size (what GitHub stores) | 150 MB | `node tools/repo-health.js` |
+| single tracked file | 10 MB | pre-commit hook |
+| files touched by one commit | 1,000 | `node tools/repo-health.js` |
+
+### Where the 1.45 GB came from
+
+Not from content. From 442 commits that each snapshotted roughly 380 MB of
+HTML, because several passes rewrote the whole tree at once: the inline-style
+to class migration, the Assamese translation, the schema cleanup, and the
+asset restamp that touches 3,211 pages every time `css/` or `js/` changes.
+
+That last one is the sneaky one. Changing one rule in `css/style.css` changes
+its hash, the hash lives in a `?v=` query string on every page, so the commit
+rewrites 3,211 files and writes 40-60 MB of new blobs. Do that twenty times and
+the repository is a gigabyte, with the same 611 MB of content.
+
+### The four layers
+
+1. **Repository settings** (already on): squash-only merges, and the head
+   branch is deleted automatically on merge. One PR therefore adds exactly one
+   commit and leaves no branch behind. A branch left open after a squash merge
+   is pure garbage, because it pins its own copy of every commit.
+
+2. **Pre-commit gate**: `.githooks/pre-commit`. Blocks generated artifacts
+   (`*.csv`, `*.bundle`, `*.zip`, `*.log`), build output (`node_modules/`,
+   `_preview/`, `dist/`), any staged file over 10 MB, and any staged HTML, CSS,
+   JS, JSON or Markdown file that still has conflict markers. Enable it once
+   per clone:
+
+   ```bash
+   git config core.hooksPath .githooks
+   ```
+
+   Bypass only deliberately, with `git commit --no-verify`, and say why.
+
+3. **Health report**: `node tools/repo-health.js`. Prints pack size, commit
+   count, the largest tracked files and the largest objects in history, and
+   exits 1 when a budget is broken. Run it before a push and after any
+   site-wide pass.
+
+4. **Reset when the budget breaks** (was needed once, may be needed again in
+   a year). The procedure that worked, in order:
+
+   ```bash
+   git bundle create ../history-backup.bundle --all     # never skip this
+   git checkout --orphan clean-history
+   git add -A && git commit -m "Site as of <date>"
+   git push --force origin clean-history:main
+   # delete every other branch, then:
+   node tools/repo-health.js                             # packs back to ~80 MB
+   ```
+
+   Two things to know before doing it:
+   - `main` is force-pushed, so announce it. Old SHAs stop existing.
+   - The old objects are **not** freed automatically, because closed pull
+     requests pin them through the read-only `refs/pull/*/head` references.
+     The size only drops after GitHub runs housekeeping (support ticket), or
+     after the repository is recreated from the clean tree. That is exactly
+     why the repository was recreated on 26 Nov 2026.
+
+### Rules that keep it small without a reset
+
+- **Batch site-wide passes.** One commit that restyles 3,211 pages costs the
+  same as one that restyles 5, but doing it in five commits costs five times.
+- **Never commit generated output.** Audit CSV, keyword maps, bundles, backup
+  archives, screenshots of your own pages: they are in `.gitignore` for a
+  reason.
+- **No duplicate banks.** `tools/legacy-banks/` is the old copy; edit the live
+  bank under `data/`, not both.
+- **Images stay small.** Compress before adding; a 2 MB hero image costs 2 MB
+  in every clone, forever.
+- **Close PRs by merging, not abandoning.** An abandoned branch keeps its
+  commits alive for as long as the branch exists.

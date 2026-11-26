@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Repo hygiene gate. Blocks the things that made this repository 1.4 GB once.
+# Enable once per clone:  git config core.hooksPath .githooks
+# Bypass only when you know why:  git commit --no-verify
+# Documented in AGENTS.md -> "Repo hygiene".
+
+fail=0
+LIMIT=$((10 * 1024 * 1024))
+WARN=$((5 * 1024 * 1024))
+
+note() { printf 'BLOCKED: %s\n' "$1"; fail=1; }
+
+while IFS= read -r -d '' f; do
+  [ -f "$f" ] || continue
+
+  case "$f" in
+    *.csv|*.bundle|*.zip|*.tar|*.tar.gz|*.tgz|*.log)
+      note "$f - generated artifact, keep it out of the public repo"; continue ;;
+    node_modules/*|_preview/*|dist/*|__pycache__/*|*.pyc)
+      note "$f - build output"; continue ;;
+  esac
+
+  sz=$(stat -c%s "$f" 2>/dev/null || echo 0)
+  if [ "$sz" -gt "$LIMIT" ]; then
+    note "$f is $((sz / 1048576)) MB, limit is 10 MB. Split it, or keep it outside the repo"
+  fi
+
+  case "$f" in
+    *.html|*.css|*.js|*.json|*.md|*.xml|*.txt)
+      if git show ":$f" 2>/dev/null | grep -qE '^(<<<<<<< |>>>>>>> )'; then
+        note "$f still has conflict markers"
+      fi ;;
+  esac
+done < <(git diff --cached --name-only --diff-filter=ACM -z)
+
+exit "$fail"

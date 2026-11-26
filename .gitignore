@@ -29,3 +29,10 @@ GROWTH-ROADMAP.md
 SEO-AUDIT.md
 SEO-ACTION-PLAN.md
 internal/
+
+# Repo hygiene: never let generated or backup files in (see AGENTS.md)
+*.bundle
+*.zip
+*.tar.gz
+*.log
+/*.csv
