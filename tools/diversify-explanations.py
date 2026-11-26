@@ -201,6 +201,25 @@ def b_article(q):
     return f'In "{filled}" the blank comes before "{word}": {reason}.'
 
 
+def b_article_fix(q):
+    stem = q["q"]["en"]
+    m = re.search(r"Improve the sentence\s*:\s*(.+)$", stem, re.S | re.I)
+    if not m:
+        return None
+    wrong = m.group(1).strip().strip("'\"\u2018\u2019\u201c\u201d")
+    right = answer(q).strip()
+    wt, rt = wrong.split(), right.split()
+    for i, (a_, b_) in enumerate(zip(wt, rt)):
+        if a_.lower() != b_.lower():
+            if a_.lower() in ("a", "an") and b_.lower() in ("a", "an"):
+                following = rt[i + 1] if i + 1 < len(rt) else ""
+                sound = "vowel" if b_.lower() == "an" else "consonant"
+                return (f'"{wrong}" needs "{right}": "{following}" begins with a {sound} sound, '
+                        f'so the article is "{b_}" and not "{a_}".')
+            return None
+    return None
+
+
 def b_cloze(q):
     s = cloze_sentence(q)
     if not s:
@@ -489,6 +508,7 @@ CLUSTERS = [
     ("assumption i is not implicit and assumption ii is not implicit", b_assumption),
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
+    ("the article must match the sound of the following word", b_article_fix),
     ("each statement alone is not enough", b_data_sufficiency),
     ("the word after the blank begins with a vowel sound", b_article),
     ("the triangle is already drawn inside the figure", b_embedded_text),
