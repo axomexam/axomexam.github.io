@@ -611,11 +611,164 @@ def paper_fold_grid(q):
     return en, as_
 
 
+def paper_panels(fig):
+    """The step panels of a folded-sheet figure: the sheet, then the folded stack."""
+    out = []
+    for m in re.finditer(r'<polygon points="([^"]+)"[^>]*fill="#f8fafc"', fig or ""):
+        P = [tuple(map(float, t.split(","))) for t in m.group(1).split()]
+        out.append((min(x for x, _ in P), min(y for _, y in P),
+                    max(x for x, _ in P), max(y for _, y in P)))
+    return sorted(out)
+
+
+def paper_panel_folds(fig):
+    """Read every fold of a step figure: axis, how far along, and which side stays."""
+    panels = paper_panels(fig)
+    dotted = [(float(a), float(b), float(c), float(d)) for a, b, c, d in re.findall(
+        r'<line x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"[^>]*#94a3b8', fig or "")]
+    arrows = [tuple(map(float, m.groups())) for m in re.finditer(
+        r'<line x1="([\d.]+)" y1="([\d.]+)" x2="([\d.]+)" y2="([\d.]+)"[^>]*#f97316', fig or "")]
+    if len(panels) < 2 or len(dotted) != len(panels) - 1 or not arrows:
+        return None, None
+    folds, slant = [], None
+    for i in range(len(panels) - 1):
+        box, line = panels[i], dotted[i]
+        arrow = arrows[i] if len(arrows) == len(panels) - 1 else arrows[0]
+        vertical = abs(line[0] - line[2]) < 1
+        horizontal = abs(line[1] - line[3]) < 1
+        if not vertical and not horizontal:
+            if len(panels) != 2 or abs(arrow[0] - arrow[2]) > 1 and abs(arrow[1] - arrow[3]) > 1:
+                return None, None
+            slant = ((line[0] - box[0]) / (box[2] - box[0]), (line[1] - box[1]) / (box[3] - box[1]),
+                     (line[2] - box[0]) / (box[2] - box[0]), (line[3] - box[1]) / (box[3] - box[1]))
+            continue
+        axis = 0 if vertical else 1
+        start, size = (box[0], box[2] - box[0]) if vertical else (box[1], box[3] - box[1])
+        c = ((line[0] if vertical else line[1]) - start) / size
+        if not 0.05 < c < 0.95:
+            return None, None
+        span = abs(arrow[2] - arrow[0]) if vertical else abs(arrow[3] - arrow[1])
+        drift = abs(arrow[3] - arrow[1]) if vertical else abs(arrow[2] - arrow[0])
+        if span < drift:
+            return None, None
+        keep_low = (arrow[2] < arrow[0]) if vertical else (arrow[3] < arrow[1])
+        folds.append((axis, c, keep_low))
+    return folds, slant
+
+
+def paper_panel_punches(fig):
+    panels = paper_panels(fig)
+    if not panels:
+        return []
+    box = panels[-1]
+    return [((float(m.group(1)) - box[0]) / (box[2] - box[0]),
+             (float(m.group(2)) - box[1]) / (box[3] - box[1]))
+            for m in re.finditer(r'<circle cx="([\d.]+)" cy="([\d.]+)"[^>]*#dc2626', fig or "")]
+
+
+def paper_panel_option(fig):
+    boxes = [b for b in paper_boxes(fig) if b[0] > 6] or paper_boxes(fig)
+    if not boxes:
+        return set()
+    box = boxes[-1]
+    return {(round((float(m.group(1)) - box[0]) / (box[2] - box[0]), 3),
+             round((float(m.group(2)) - box[1]) / (box[3] - box[1]), 3))
+            for m in re.finditer(r'<circle cx="([\d.]+)" cy="([\d.]+)"[^>]*#334155', fig or "")}
+
+
+def paper_panel_preimages(v, c, keep_low):
+    a = v * c if keep_low else c + v * (1 - c)
+    return (a, 2 * c - a)
+
+
+def paper_panel_holes(q):
+    folds, slant = paper_panel_folds(q.get("fig") or "")
+    punches = paper_panel_punches(q.get("fig") or "")
+    if not punches or (not folds and not slant):
+        return None
+    holes = set()
+    for punch in punches:
+        pts = {punch}
+        if slant:
+            pts |= {paper_reflect_n(punch, slant)}
+        for axis, c, keep_low in reversed(folds or []):
+            nxt = set()
+            for p in pts:
+                for v in paper_panel_preimages(p[axis], c, keep_low):
+                    if -0.01 <= v <= 1.01:
+                        moved = list(p)
+                        moved[axis] = round(v, 4)
+                        nxt.add(tuple(moved))
+            pts = nxt
+        holes |= pts
+    return holes
+
+
+def paper_pc(v):
+    return f"{round(v * 100):d}%"
+
+
+def paper_fold_panels(q):
+    """Step figures: the sheet is folded as drawn, the punch is red, and the answer is folded out."""
+    fig = q.get("fig") or ""
+    if not paper_panels(fig):
+        return None
+    holes = paper_panel_holes(q)
+    if not holes:
+        return None
+    hits = [i for i, o in enumerate(q["options"])
+            if paper_same(holes, paper_panel_option(o.get("fig")), tol=0.05)]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    folds, slant = paper_panel_folds(fig)
+    punches = paper_panel_punches(fig)
+    letter = chr(65 + q["correct"])
+    def as_num(txt):
+        return txt.translate(str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯"))
+
+    if slant:
+        fold_text = "folded once along the slanting crease drawn from corner to corner"
+        as_fold = "কোণাৰ পৰা কোণালৈ টনা চিকন ৰেখাৰে এবাৰ ভাঁজ কৰা হৈছে"
+    else:
+        en_steps, as_steps = [], []
+        for axis, c, keep_low in folds:
+            word = "vertical" if axis == 0 else "horizontal"
+            span = "across" if axis == 0 else "down"
+            side = ("left" if keep_low else "right") if axis == 0 else ("top" if keep_low else "bottom")
+            other = ("right" if keep_low else "left") if axis == 0 else ("bottom" if keep_low else "top")
+            en_steps.append(f"a {word} crease {paper_pc(c)} of the way {span}, "
+                            f"folding the {other} part onto the {side}")
+            as_side = ("বাওঁ" if keep_low else "সোঁ") if axis == 0 else ("ওপৰ" if keep_low else "তল")
+            as_other = ("সোঁ" if keep_low else "বাওঁ") if axis == 0 else ("তল" if keep_low else "ওপৰ")
+            as_steps.append(f"{'উলম্ব' if axis == 0 else 'অনুভূমিক'} চিকন ৰেখাৰে "
+                            f"{as_num(paper_pc(c))} ঠাইত, {as_other} অংশ {as_side}ফালে")
+        if len(en_steps) == 1:
+            fold_text = "folded once along " + en_steps[0]
+            as_fold = "এবাৰ ভাঁজ কৰা হৈছে (" + as_steps[0] + ")"
+        else:
+            fold_text = ("folded twice: first along " + en_steps[0] +
+                         ", and then along " + en_steps[1])
+            as_fold = "দুবাৰ ভাঁজ কৰা হৈছে (" + " আৰু ".join(as_steps) + ")"
+    punch_text = " and ".join(f"{paper_pc(x)} across and {paper_pc(y)} down" for x, y in punches)
+    hole_text = "; ".join(f"{paper_pc(x)} across, {paper_pc(y)} down" for x, y in sorted(holes))
+    en = (f"The sheet is {fold_text}. "
+          f"The punch{('es are' if len(punches) > 1 else ' is')} at {punch_text} of the folded stack. "
+          f"Opening the sheet reflects every hole across the crease, so the paper carries "
+          f"{len(holes)} hole{'s' if len(holes) > 1 else ''}, at {hole_text} - option {letter}.")
+    as_digits = as_num(str(len(holes)))
+    as_ = (f"কাগজখন {as_fold}। ভাঁজ কৰা কাগজত ফুটা কৰা ঠাইৰ পৰা চিকন ৰেখাৰ সিপাৰে প্ৰতিফলন হৈ "
+           f"মেলি দিলে {as_digits} টা ফুটা দেখা যায় — বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
     if grid:
         return grid
+    panels = paper_fold_panels(q)
+    if panels:
+        return panels
     found = paper_holes(q.get("fig") or "")
     if not found:
         return None

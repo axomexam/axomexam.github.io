@@ -4665,6 +4665,13 @@ centre line, and the drawing is folded only across that. Matching the options by
 the order of their hole positions rather than their exact coordinates covers the
 questions whose option figures use a finer lattice than the question figure.
 
+The assam-police paper bank draws the same idea as steps: one panel per fold,
+with the crease dotted and an orange arrow showing which part is laid over
+which, then a last panel with the punch as a red dot. Each fold is read as a
+crease position plus a kept side, and the punch is carried back through the
+folds in reverse, so the holes come out where the opening sheet would put them.
+A slanting crease is handled as one reflection across that line.
+
 Three repairs run beside them, all in the dhs-dme paper bank:
 `tools/fix-option-figures.py` replaces option figures that held a Python tuple
 (`('1', '১', '')`) with the numeral itself, and `tools/add-paper-figures.py`
