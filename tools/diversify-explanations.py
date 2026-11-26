@@ -261,6 +261,23 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def b_order(q):
+    stem = q["q"]["en"]
+    ans = answer(q).strip()
+    items = dict(re.findall(r"\(([A-D])\)\s*(.+?)(?=\s*\([A-D]\)|$)", stem, re.S))
+    if len(items) >= 2:
+        order = [x.strip() for x in ans.split(",")]
+        if len(order) != len(items) or not all(o in items for o in order):
+            return None
+        parts = [f'({o}) "{items[o].strip().rstrip(".")}"' for o in order]
+        return ("Read in this order the paragraph runs: " + ", then ".join(parts)
+                + f" - that is option {letter(q)}.")
+    parts = [p.strip() for p in re.split(r",\s*", ans) if p.strip()]
+    if len(parts) >= 3:
+        return f'The order runs {", then ".join(parts)} - that is option {letter(q)}.'
+    return None
+
+
 def b_passage_line(q):
     m = re.search(r"Read the passage:\s*(.+?)\s*Question:", q["q"]["en"], re.S)
     if not m:
@@ -357,6 +374,7 @@ CLUSTERS = [
     ("a singular subject takes a singular verb", b_subject_verb),
     ("a collective noun acting as one unit", b_collective),
     ("this statement is taken directly from the passage", b_passage_line),
+    ("the correct order is", b_order),
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
