@@ -261,6 +261,46 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def passive_builder(tense):
+    def build(q):
+        stem = q["q"]["en"]
+        m = (re.search(r"passive form of\s*[\"'\u2018\u2019](.+?)[\"'\u2018\u2019]\s*is", stem, re.S | re.I)
+             or re.search(r"change (?:in)?to passive(?: voice)?\s*:\s*(.+)$", stem, re.S | re.I)
+             or re.search(r"change the voice\s*:\s*(.+)$", stem, re.S | re.I))
+        if not m:
+            return None
+        active = m.group(1).strip().rstrip(".").strip()
+        active = active.strip("'\"\u2018\u2019\u201c\u201d")
+        return (f'The active sentence "{active}" becomes "{answer(q)}" in the passive: '
+                f'the object moves to the subject position and the verb takes the {tense} form.')
+    build.__name__ = "b_passive_" + tense.replace(" ", "_")
+    return build
+
+
+def b_assertion_reason(q):
+    stem = q["q"]["en"]
+    a = re.search(r"Assertion\s*\(A\)\s*:\s*(.+?)\s*Reason\s*\(R\)\s*:", stem, re.S)
+    r = re.search(r"Reason\s*\(R\)\s*:\s*(.+?)(?:\s*Choose the correct option|$)", stem, re.S)
+    if not a or not r:
+        return None
+    assertion, reason = a.group(1).strip().rstrip("."), r.group(1).strip().rstrip(".")
+    ans = answer(q).lower()
+    if "both a and r are true, and r is" in ans:
+        verdict = "Both are true, and the reason is what makes the assertion hold"
+    elif "both a and r are true" in ans:
+        verdict = "Both are true, but the reason does not explain the assertion"
+    elif "a is true but r is false" in ans:
+        verdict = "The assertion is true and the reason is false"
+    elif "a is false but r is true" in ans:
+        verdict = "The assertion is false while the reason is true"
+    elif "both a and r are false" in ans:
+        verdict = "Both the assertion and the reason are false"
+    else:
+        return None
+    return (f'Assertion (A): "{assertion}". Reason (R): "{reason}". {verdict}, '
+            f'so the answer is: {answer(q)}.')
+
+
 def b_sufficiency_alone(q):
     stem = q["q"]["en"]
     qu = re.search(r"Question:\s*(.+?)\s*Statement I:", stem, re.S)
@@ -427,6 +467,20 @@ CLUSTERS = [
     ("a collective noun acting as one unit", b_collective),
     ("this statement is taken directly from the passage", b_passage_line),
     ("the correct order is", b_order),
+    ("the object becomes the subject and the verb takes the simple present passive form", passive_builder("simple present")),
+    ("the object becomes the subject and the verb takes the present continuous passive form", passive_builder("present continuous")),
+    ("the object becomes the subject and the verb takes the present perfect passive form", passive_builder("present perfect")),
+    ("the object becomes the subject and the verb takes the simple past passive form", passive_builder("simple past")),
+    ("the object becomes the subject and the verb takes the past continuous passive form", passive_builder("past continuous")),
+    ("the object becomes the subject and the verb takes the past perfect passive form", passive_builder("past perfect")),
+    ("the object becomes the subject and the verb takes the simple future passive form", passive_builder("simple future")),
+    ("the object becomes the subject and the verb takes the future perfect passive form", passive_builder("future perfect")),
+    ("a is true, but r is false", b_assertion_reason),
+    ("a is false, but r is true", b_assertion_reason),
+    ("the assertion is correct, but the reason is factually wrong", b_assertion_reason),
+    ("the assertion is factually wrong, but the reason is true", b_assertion_reason),
+    ("both statements are true, but the reason is an unrelated fact", b_assertion_reason),
+    ("both statements are true, and the reason states exactly why", b_assertion_reason),
     ("statement i alone fixes the answer", b_sufficiency_alone),
     ("statement ii alone fixes the answer", b_sufficiency_alone),
     ("assumption i is implicit and assumption ii is implicit", b_assumption),
