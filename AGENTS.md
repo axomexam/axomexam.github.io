@@ -4634,3 +4634,12 @@ notes. `assam-police-combo` is the current example: 105 pages holding 85
 questions between them, so the section is `noindex, follow` and out of the
 sitemap until it has content worth reading. `node tools/sync-sitemap-alts.js`
 reads the `noindex` flag and keeps the map honest.
+
+### Repeated explanations
+
+`python3 tools/diversify-explanations.py` rewrites the one-line explanations
+that a whole bank shares word for word, keeping the rule and adding the detail
+that belongs to the question: the statement, the conclusions, the sentence, the
+tag. It only writes when the added detail is copied out of the item, so a
+question it cannot ground is left alone. Run it after any rebuild that
+regenerates explanations.
