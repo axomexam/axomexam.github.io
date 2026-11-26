@@ -261,6 +261,31 @@ def b_subject_verb(q):
     return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
 
 
+def b_sufficiency_alone(q):
+    stem = q["q"]["en"]
+    qu = re.search(r"Question:\s*(.+?)\s*Statement I:", stem, re.S)
+    st = re.search(r"Statement I:\s*(.+?)\s*Statement II:\s*(.+?)(?:\s*Which of the following|$)", stem, re.S)
+    if not qu or not st:
+        return None
+    question = qu.group(1).strip().rstrip("?").strip()
+    one, two = st.group(1).strip().rstrip("."), st.group(2).strip().rstrip(".")
+    ans = answer(q).lower()
+    if "statement i alone is sufficient" in ans and "statement ii" in ans and "not sufficient" in ans:
+        verdict = "statement I settles it while statement II does not"
+    elif "statement ii alone is sufficient" in ans:
+        verdict = "statement II settles it while statement I does not"
+    elif "each statement alone is sufficient" in ans:
+        verdict = "either statement settles it on its own"
+    elif "even both statements" in ans:
+        verdict = "not even the two together settle it"
+    else:
+        return None
+    return (
+        f'The question is "{question}". Statement I says "{one}" and statement II says "{two}"; '
+        f'{verdict}, so the answer is: {answer(q)}.'
+    )
+
+
 def b_assumption(q):
     stem = q["q"]["en"]
     st = re.search(r"Statement:\s*(.+?)\s*Assumptions:", stem, re.S)
@@ -402,6 +427,8 @@ CLUSTERS = [
     ("a collective noun acting as one unit", b_collective),
     ("this statement is taken directly from the passage", b_passage_line),
     ("the correct order is", b_order),
+    ("statement i alone fixes the answer", b_sufficiency_alone),
+    ("statement ii alone fixes the answer", b_sufficiency_alone),
     ("assumption i is implicit and assumption ii is implicit", b_assumption),
     ("assumption i is implicit and assumption ii is not implicit", b_assumption),
     ("assumption i is not implicit and assumption ii is implicit", b_assumption),
