@@ -4686,6 +4686,13 @@ count (or a drawn circle) is matched against the options, one option must be of 
 family, and it must be the key. Figures whose answer only appears where lines cross
 are left with the old sentence, since the readable outline does not prove them.
 
+Grammar banks where the answer is a rewritten sentence (sentence correction, narration)
+are explained from the difference itself: the faulty or direct line and the key are
+tokenised and diffed, and the explanation names each change ("«plays» becomes «play»",
+"«I am» is reworded to «that he was»"). Nothing about grammar is asserted beyond what
+the diff shows. Assertion-reason items put A and R back in front of the reader and then
+give the paper's verdict.
+
 Two-class Venn items name the pair in the question ("Roses and Flowers") or ask which
 pair fits a named arrangement. Both are answered by saying how the two groups stand -
 one is a part of the other, they share members, or they have none in common - so the

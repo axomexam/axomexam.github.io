@@ -25,6 +25,7 @@ import difflib
 import glob
 import html
 import json
+from difflib import SequenceMatcher
 import math
 import os
 import re
@@ -2065,6 +2066,117 @@ def paper_venn(q):
     return None
 
 
+def word_diff(a, b):
+    """What actually changed between two phrasings, word by word."""
+    ta = re.findall(r"[A-Za-z0-9][A-Za-z0-9'\u2019]*", a or "")
+    tb = re.findall(r"[A-Za-z0-9][A-Za-z0-9'\u2019]*", b or "")
+    out = []
+    for tag, i1, i2, j1, j2 in SequenceMatcher(None, ta, tb).get_opcodes():
+        old, new = " ".join(ta[i1:i2]), " ".join(tb[j1:j2])
+        if tag == "replace":
+            oa, nb = old.split(), new.split()
+            if len(oa) == len(nb) > 1:
+                out.extend(zip(oa, nb))
+            else:
+                out.append((old, new))
+        elif tag == "delete":
+            out.append((old, ""))
+        elif tag == "insert":
+            out.append(("", new))
+    return out
+
+
+def say_diff(pairs, as_=False):
+    bits = []
+    for old, new in pairs:
+        if old and new:
+            if len(old.split()) != len(new.split()):
+                bits.append(f"«{old}» is reworded to «{new}»" if not as_ else f"«{old}» → «{new}»")
+            else:
+                bits.append(f"«{old}» becomes «{new}»" if not as_ else f"«{old}» → «{new}»")
+        elif old:
+            bits.append(f"«{old}» is dropped" if not as_ else f"«{old}» বাদ যায়")
+        else:
+            bits.append(f"«{new}» is added" if not as_ else f"«{new}» যোগ হয়")
+    return "; ".join(bits)
+
+
+def key_sentence(q):
+    option = q["options"][q["correct"]]
+    return option.get("en", "").strip() if isinstance(option, dict) else ""
+
+
+def paper_sentence_fix(q):
+    """Sentence correction: quote the faulty version and the exact change the key makes."""
+    fixed = key_sentence(q)
+    text = (q.get("q") or {}).get("en", "")
+    if not fixed or "." not in fixed:
+        return None
+    if not re.search(r"(The correct (?:form|sentence) is|Improve the sentence)", text):
+        return None
+    m = re.search(r"'([^']{8,})'\s*$", text.strip())
+    if m:
+        wrong = m.group(1).strip().rstrip(".")
+    else:
+        wrong, best = None, 99
+        for o in q["options"]:
+            cand = (o.get("en") or "").strip() if isinstance(o, dict) else ""
+            if not cand or cand == fixed:
+                continue
+            d = word_diff(cand.rstrip("."), fixed.rstrip("."))
+            if 0 < len(d) < best:
+                wrong, best = cand.rstrip("."), len(d)
+        if not wrong:
+            return None
+    pairs = word_diff(wrong.rstrip("."), fixed.rstrip("."))
+    if not pairs or len(pairs) > 3:
+        return None
+    letter = chr(65 + q["correct"])
+    en = (f"Set «{wrong}» beside the accepted line and the change is narrow: {say_diff(pairs)}. "
+          f"That leaves «{fixed}», which is option {letter}.")
+    as_ = (f"«{wrong}» আৰু শুদ্ধ ৰূপ তুলনা কৰিলে মাথোঁ সৰু পৰিৱৰ্তন: {say_diff(pairs, True)}। "
+           f"শুদ্ধ ৰূপ «{fixed}», অৰ্থাৎ বিকল্প {letter}।")
+    return en, as_
+
+
+def paper_narration(q):
+    """Reported speech: quote the direct line and name every change the key makes."""
+    fixed = key_sentence(q)
+    text = (q.get("q") or {}).get("en", "").strip()
+    if not fixed:
+        return None
+    m = re.search(r"indirect speech:\s*(.+)$", text)
+    if not m:
+        return None
+    direct = m.group(1).strip().strip("'\"").rstrip(".")
+    pairs = word_diff(direct, fixed)
+    if not pairs or len(pairs) > 3:
+        return None
+    letter = chr(65 + q["correct"])
+    en = (f"Lay the reported line «{fixed}» over the direct one «{direct}» and the work is visible: "
+          f"{say_diff(pairs)}. That gives option {letter}.")
+    as_ = (f"«{direct}» ৰ ওপৰত «{fixed}» ৰাখি চালে পাৰ্থক্য স্পষ্ট: {say_diff(pairs, True)}। "
+           f"গতিকে বিকল্প {letter} শুদ্ধ।")
+    return en, as_
+
+
+def paper_assertion_reason(q):
+    """Assertion and reason: put both statements back in front of the reader, then the verdict."""
+    text = (q.get("q") or {}).get("en", "")
+    a = re.search(r"Assertion\s*\(A\)\s*:\s*(.+?)\s*Reason", text)
+    r = re.search(r"Reason\s*\(R\)\s*:\s*(.+)$", text)
+    verdict = key_sentence(q)
+    if not (a and r and verdict):
+        return None
+    letter = chr(65 + q["correct"])
+    assertion, reason = a.group(1).strip().rstrip("."), r.group(1).strip().rstrip(".")
+    en = (f"A says «{assertion}» and R says «{reason}». The question is whether R carries A, and the "
+          f"paper settles it as «{verdict.rstrip('.')}», which is option {letter}.")
+    as_ = (f"A কয় «{assertion}», R কয় «{reason}»। প্ৰশ্নটো এই যে R এ A ক সামৰি লয় নে — "
+           f"উত্তৰ «{verdict.rstrip('.')}», অৰ্থাৎ বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2390,6 +2502,18 @@ CLUSTERS = [
     ("the two classes share no member", paper_venn),
     ("they share no member, so the circles are separate", paper_venn),
     ("the correct arrangement is: two disjoint circles", paper_venn),
+    ("r correctly explains a", paper_assertion_reason),
+    ("r is true but does not explain a", paper_assertion_reason),
+    ("yes/no questions take 'if/whether'", paper_narration),
+    ("exclamations become statements with 'exclaimed that'", paper_narration),
+    ("imperatives become 'to + verb'", paper_narration),
+    ("universal truths keep their present tense", paper_narration),
+    ("optative sentences take 'wished/prayed that'", paper_narration),
+    ("each word takes a fixed preposition", paper_sentence_fix),
+    ("only one comparative or superlative marker is used", paper_sentence_fix),
+    ("only one conjunction is needed for a single", paper_sentence_fix),
+    ("the verb must agree with its subject in number", paper_sentence_fix),
+    ("two negatives in one clause cancel each other", paper_sentence_fix),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),
