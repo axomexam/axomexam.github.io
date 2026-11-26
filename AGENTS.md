@@ -4672,6 +4672,14 @@ crease position plus a kept side, and the punch is carried back through the
 folds in reverse, so the holes come out where the opening sheet would put them.
 A slanting crease is handled as one reflection across that line.
 
+Letter-based mirror items are read from the transforms instead: every option wraps
+the same letter or word in a group, and the linear part of the combined transform
+tells the copy apart - scale(-1,1) is the mirror, scale(1,-1) the water image,
+scale(-1,-1) or rotate(180) the turned-round copy, a plain scale the untouched one.
+The explanation names the lettering and what each of the other three cards did.
+Letters that are symmetric on the asked axis (A under a mirror; C, E, K, H, I, O,
+X under water) are skipped, because there the key is arbitrary.
+
 Mirror and water images are drawn as plain shapes, so the answer is checked by
 reflecting the figure geometrically: the parts are read as polygons, lines and
 dots in a normalised box, flipped left-right or top-bottom, and matched against

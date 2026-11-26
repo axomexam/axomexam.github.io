@@ -25,6 +25,7 @@ import difflib
 import glob
 import html
 import json
+import math
 import os
 import re
 import sys
@@ -1398,6 +1399,122 @@ def paper_reflection(q):
     return en, as_
 
 
+SYM_X = set("AHIMOTUVWXY08")
+SYM_Y = set("BCDEHIKOX08")
+
+
+def letter_text(fig):
+    m = re.search(r"<text[^>]*>([^<]+)</text>", fig or "")
+    return m.group(1).strip() if m else None
+
+
+def tf_mul(A, B):
+    a1, b1, c1, d1 = A
+    a2, b2, c2, d2 = B
+    return (a1 * a2 + c1 * b2, b1 * a2 + d1 * b2, a1 * c2 + c1 * d2, b1 * c2 + d1 * d2)
+
+
+def tf_linear(text):
+    """Linear part of every transform in the drawing, outer groups first; translations are dropped."""
+    M = (1.0, 0.0, 0.0, 1.0)
+    for name, args in re.findall(r"(\w+)\(([^)]*)\)", text or ""):
+        nums = [float(x) for x in re.split(r"[,\s]+", args.strip()) if x]
+        if not nums:
+            continue
+        if name == "scale":
+            sx = nums[0]
+            sy = nums[1] if len(nums) > 1 else nums[0]
+            M = tf_mul(M, (sx, 0.0, 0.0, sy))
+        elif name == "rotate":
+            th = math.radians(nums[0])
+            M = tf_mul(M, (math.cos(th), -math.sin(th), math.sin(th), math.cos(th)))
+        elif name == "matrix" and len(nums) >= 4:
+            M = tf_mul(M, tuple(nums[:4]))
+    return M
+
+
+def tf_kind(M):
+    a, b, c, d = M
+    scale = max(abs(a), abs(d), 1e-9)
+    a, b, c, d = a / scale, b / scale, c / scale, d / scale
+    if abs(b) < 1e-6 and abs(c) < 1e-6:
+        if a > 0 and d > 0:
+            return "none"
+        if a < 0 and d > 0:
+            return "mirror"
+        if a > 0 and d < 0:
+            return "water"
+        return "turn180"
+    deg = round(math.degrees(math.atan2(b, a))) % 360
+    return "turn180" if abs(deg - 180) < 2 else "rotate" + str(deg)
+
+
+def letter_kind(fig):
+    return tf_kind(tf_linear(fig))
+
+
+def letter_symmetric(text, axis):
+    allowed = SYM_X if axis == "x" else SYM_Y
+    return all(ch in allowed for ch in text) and text == text[::-1]
+
+
+def paper_letter_reflection(q):
+    """Mirror and water images of letters and words: the option carries the transform."""
+    stem = (q.get("q") or {}).get("en", "").lower()
+    if "mirror image" in stem:
+        axis, side = "x", "left to right"
+    elif "water image" in stem:
+        axis, side = "y", "top to bottom"
+    else:
+        return None
+    text = letter_text(q.get("fig") or "")
+    if not text or letter_symmetric(text, axis):
+        return None
+    kinds = []
+    for o in q["options"]:
+        if letter_text(o.get("fig") or "") != text:
+            return None
+        kinds.append(letter_kind(o.get("fig") or ""))
+    if len(set(kinds)) != 4 or kinds.count(axis and "mirror" if axis == "x" else "water") != 1:
+        return None
+    want = "mirror" if axis == "x" else "water"
+    hits = [i for i, k in enumerate(kinds) if k == want]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    said = {"mirror": "the same drawing flipped left to right",
+            "water": "the same drawing flipped top to bottom",
+            "turn180": "the drawing turned right round",
+            "none": "the drawing left as it stands"}
+    said = {"mirror": "reversed left to right",
+            "water": "reversed top to bottom",
+            "turn180": "turned right round",
+            "none": "left exactly as it stands"}
+    others = []
+    for i, k in enumerate(kinds):
+        if i == q["correct"]:
+            continue
+        others.append(f"{chr(65 + i)} has it {said.get(k, 'tilted by ' + k[6:] + ' degrees')}")
+    letter = chr(65 + q["correct"])
+    what = "mirror image" if axis == "x" else "water image"
+    thing = f"the word {text}" if len(text) > 1 else f"the letter {text}"
+    en = (f"The figure is {thing}, written upright. A {what} reverses it {side} and does not turn it round: "
+          f"every stroke keeps its height and only swaps sides. Of the four cards, {join_words(others)}, "
+          f"while {letter} is the copy reversed {side} - so {letter} is the answer.")
+    as_ = (f"চিত্ৰত {text} সিজা অৱস্থাত আছে। {'দাপোণৰ প্ৰতিবিম্ব' if axis == 'x' else 'পানীৰ প্ৰতিবিম্ব'}ত "
+           f"ইয়াক {('বাওঁ-সোঁ' if axis == 'x' else 'ওপৰ-তল')} ওলোটা কৰা হয়, ঘূৰোৱা নহয় — "
+           f"আন তিনিটা বিকল্পত আখৰটো ওলোটা দিশত ঘূৰোৱা বা সিজা অৱস্থাত ৰখা হৈছে। "
+           f"গতিকে কেৱল বিকল্প {letter} শুদ্ধ।")
+    return en, as_
+
+
+def paper_reversed(q):
+    for fn in (paper_letter_reflection, paper_reflection):
+        out = fn(q)
+        if out:
+            return out
+    return None
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -1702,10 +1819,16 @@ CLUSTERS = [
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
     ("each column shows the same figure", paper_pattern_cell),
     ("each row shows the same figure", paper_pattern_cell),
-    ("a mirror image reverses the figure left to right", paper_reflection),
-    ("a water image reverses the figure top to bottom", paper_reflection),
-    ("a mirror image is a left-right reversal of the figure", paper_reflection),
-    ("a water image is a top-bottom reversal of the figure", paper_reflection),
+    ("a mirror image reverses the figure left to right", paper_reversed),
+    ("a water image flips the figure top to bottom", paper_reversed),
+    ("a mirror image is a left-right reversal of the figure", paper_reversed),
+    ("a water image is a top-bottom reversal of the figure", paper_reversed),
+    ("a mirror placed on the side reverses the figure from left", paper_reversed),
+    ("a water image reverses the figure from top to bottom", paper_reversed),
+    ("the mirror image is obtained by reversing the figure left", paper_reversed),
+    ("the water image is obtained by reversing the figure top", paper_reversed),
+    ("in a mirror image the figure is reversed left to right", paper_reversed),
+    ("in a water image the figure is reversed top to bottom", paper_reversed),
     ("the figures alternate like a checkerboard", paper_pattern_cell),
     ("the figures repeat along the diagonals", paper_pattern_cell),
     ("shaded and plain tiles alternate like a chessboard", paper_pattern_cell),
