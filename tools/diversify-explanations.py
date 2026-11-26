@@ -404,8 +404,9 @@ def paper_punches(fig):
         g = dict(re.findall(r'(cx|cy)="([\d.]+)"', tag))
         if len(g) != 2:
             continue
+        r = re.search(r'r="([\d.]+)"', tag)
         if ("#dc2626" in tag or ("#ffffff" in tag and "#334155" in tag)
-                or ("#0f172a" in tag and 'r="4.4"' in tag)):
+                or ("#0f172a" in tag and r and 3 <= float(r.group(1)) <= 12)):
             out.append((float(g["cx"]), float(g["cy"])))
     return out
 

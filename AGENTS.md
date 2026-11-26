@@ -4657,3 +4657,9 @@ does it rather than paraphrase the rule:
 
 Both leave the figure, the options and the key untouched unless the fold itself
 disagrees with them; those items are reported instead of edited.
+
+Two repairs run beside them, both in the dhs-dme paper bank:
+`tools/fix-option-figures.py` replaces option figures that held a Python tuple
+(`('1', '১', '')`) with the numeral itself, and `tools/add-paper-figures.py`
+draws the folded sheet for the counting questions that never had one, writing
+only when folding the drawing gives the count the key states.
