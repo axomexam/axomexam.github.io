@@ -928,6 +928,243 @@ def paper_fold_cut(q):
     return en, as_
 
 
+def grid_cells(fig):
+    return [tuple(map(float, m.groups())) for m in re.finditer(
+        r'<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)" rx="8"[^>]*stroke="#e2e8f0"',
+        fig or "")]
+
+
+def grid_prims(fig):
+    out = []
+    for m in re.finditer(r'<(polygon|circle|line|path|text)\b([^>]*?)(?:/>|>([^<]*)</text>)', fig or ""):
+        tag = m.group(1)
+        attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(2)))
+        txt = (m.group(3) or "").strip()
+        if attrs.get("stroke") == "#334155" or attrs.get("fill") == "#334155" or (tag == "text" and txt == "?"):
+            out.append((tag, attrs, txt))
+    return out
+
+
+GRID_WORDS = {("ring",): "circle inside a circle", ("lines", 2): "pair of crossing lines",
+              ("lines", 3): "three lines", ("disc",): "solid dot", ("line",): "line",
+              ("path",): "shaded half-disc", ("missing",): "question mark"}
+
+
+def grid_word(sig):
+    out = []
+    for s in sig:
+        if s[0] == "poly":
+            out.append(s[2])
+        elif s[0] == "circle":
+            out.append("circle")
+        elif s[0] == "ring":
+            out.append("circle inside a circle")
+        elif s[0] == "path":
+            out.append("shaded half-disc")
+        else:
+            out.append(GRID_WORDS.get(tuple(s), s[0]))
+    return " and ".join(out)
+
+
+GRID_WORDS_AS = {"square": "বৰ্গ", "triangle": "ত্ৰিভুজ", "pentagon": "পঞ্চভুজ", "hexagon": "ষড়ভুজ",
+                 "octagon": "অষ্টভুজ", "circle": "বৃত্ত", "circle inside a circle": "বৃত্তৰ ভিতৰত বৃত্ত",
+                 "pair of crossing lines": "কটাকটি ৰেখা", "three lines": "তিনিডাল ৰেখা",
+                 "solid dot": "ঘন বিন্দু", "line": "ৰেখা", "shaded half-disc": "ছাঁ দিয়া অৰ্ধবৃত্ত"}
+
+
+def grid_word_as(sig):
+    words = grid_word(sig)
+    if words.startswith("shaded "):
+        base = words[len("shaded "):]
+        return "ছাঁ দিয়া " + GRID_WORDS_AS.get(base, base)
+    return GRID_WORDS_AS.get(words, words)
+
+
+def grid_centre(tag, a, txt):
+    if tag == "circle":
+        return float(a["cx"]), float(a["cy"])
+    if tag == "text":
+        return float(a["x"]), float(a["y"]) - 12
+    if tag == "line":
+        return (float(a["x1"]) + float(a["x2"])) / 2, (float(a["y1"]) + float(a["y2"])) / 2
+    if tag == "path":
+        nums = [float(x) for x in re.findall(r"-?[\d.]+", a.get("d", ""))]
+        if len(nums) < 4:
+            return 0.0, 0.0
+        return (nums[0] + nums[-2]) / 2, (nums[1] + nums[-1]) / 2
+    P = [tuple(map(float, t.split(","))) for t in a["points"].split()]
+    return sum(p[0] for p in P) / len(P), sum(p[1] for p in P) / len(P)
+
+
+def grid_sig(box, prims):
+    x0, y0, w, h = box
+    inside = []
+    for tag, a, txt in prims:
+        cx, cy = grid_centre(tag, a, txt)
+        if not (x0 <= cx <= x0 + w and y0 <= cy <= y0 + h):
+            continue
+        if tag == "polygon":
+            n = len(a["points"].split())
+            name = {3: "triangle", 4: "square", 5: "pentagon", 6: "hexagon", 8: "octagon"}.get(n, f"{n}-sided outline")
+            inside.append(("poly", n, "shaded " + name if a.get("fill") == "#334155" else name))
+        elif tag == "circle":
+            inside.append(("disc",) if a.get("fill") == "#334155" else ("circle", round(float(a["r"]))))
+        elif tag == "line":
+            inside.append(("line",))
+        elif tag == "path":
+            inside.append(("path",))
+        else:
+            inside.append(("missing",))
+    circles = [i for i, s in enumerate(inside) if s[0] == "circle"]
+    if len(circles) == 2:
+        inside = [s for j, s in enumerate(inside) if j not in circles] + [("ring",)]
+    lines = [i for i, s in enumerate(inside) if s[0] == "line"]
+    if len(lines) >= 2:
+        inside = [s for j, s in enumerate(inside) if j not in lines] + [("lines", len(lines))]
+    return tuple(sorted(inside))
+
+
+def grid_of(fig):
+    boxes = grid_cells(fig)
+    prims = grid_prims(fig)
+    if not boxes:
+        return None
+    xs = sorted({round(b[0], 1) for b in boxes})
+    ys = sorted({round(b[1], 1) for b in boxes})
+    cells = {(ys.index(round(b[1], 1)), xs.index(round(b[0], 1))): grid_sig(b, prims) for b in boxes}
+    return [[cells.get((r, c)) for c in range(len(xs))] for r in range(len(ys))]
+
+
+def grid_option(fig):
+    boxes = grid_cells(fig)
+    if len(boxes) != 1:
+        return None
+    return grid_sig(boxes[0], grid_prims(fig))
+
+
+def grid_known(v):
+    return v is not None and v != (("missing",),)
+
+
+def grid_row_period(g, R, C, p):
+    for r in range(R):
+        for c1 in range(C):
+            for c2 in range(c1 + 1, C):
+                if c1 % p == c2 % p and grid_known(g[r][c1]) and grid_known(g[r][c2]) and g[r][c1] != g[r][c2]:
+                    return False
+    return True
+
+
+def grid_col_period(g, R, C, p):
+    for c in range(C):
+        for r1 in range(R):
+            for r2 in range(r1 + 1, R):
+                if r1 % p == r2 % p and grid_known(g[r1][c]) and grid_known(g[r2][c]) and g[r1][c] != g[r2][c]:
+                    return False
+    return True
+
+
+def grid_period_answer(g, mr, mc):
+    R, C = len(g), len(g[0])
+    got = []
+    for p in range(1, C + 1):
+        if grid_row_period(g, R, C, p) and grid_known(g[mr][mc % p]):
+            got.append(("row", p, (mr, mc % p), g[mr][mc % p]))
+            break
+    for p in range(1, R + 1):
+        if grid_col_period(g, R, C, p) and grid_known(g[mr % p][mc]):
+            got.append(("col", p, (mr % p, mc), g[mr % p][mc]))
+            break
+    if not got or len({x[3] for x in got}) != 1:
+        return None
+    return got[0]
+
+
+def grid_symmetry_answer(g, mr, mc):
+    """Copies one cell to another: the sheet repeats by whole steps across and down."""
+    R, C = len(g), len(g[0])
+    for dr in range(0, R):
+        for dc in range(0, C):
+            if dr == 0 and dc == 0:
+                continue
+            steps = []
+            if dr:
+                steps += [(-dr, -dc), (dr, dc)] if dc else [(-dr, 0), (dr, 0)]
+            elif dc:
+                steps += [(0, -dc), (0, dc)]
+            for sr, sc in steps:
+                r0, c0 = mr + sr, mc + sc
+                if not (0 <= r0 < R and 0 <= c0 < C) or not grid_known(g[r0][c0]):
+                    continue
+                ok, src = True, None
+                for r in range(R):
+                    for c in range(C):
+                        r2, c2 = r + dr, c + dc
+                        if not (0 <= r2 < R and 0 <= c2 < C):
+                            continue
+                        if grid_known(g[r][c]) and grid_known(g[r2][c2]) and g[r][c] != g[r2][c2]:
+                            ok = False
+                            break
+                    if not ok:
+                        break
+                if not ok:
+                    continue
+                return ("shift", (dr, dc), (r0, c0), g[r0][c0])
+    return None
+
+
+def paper_pattern_cell(q):
+    """Grid completion: the missing cell repeats a cell that is already drawn."""
+    g = grid_of(q.get("fig") or "")
+    if not g or not g[0]:
+        return None
+    R, C = len(g), len(g[0])
+    missing = [(r, c) for r in range(R) for c in range(C) if g[r][c] == (("missing",),)]
+    if len(missing) != 1:
+        return None
+    mr, mc = missing[0]
+    found = grid_period_answer(g, mr, mc) or grid_symmetry_answer(g, mr, mc)
+    if not found:
+        return None
+    opts = [grid_option(o.get("fig") or "") for o in q["options"]]
+    if any(o is None for o in opts):
+        return None
+    want = found[3]
+    hits = [i for i, o in enumerate(opts) if o == want]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    letter = chr(65 + q["correct"])
+    shape = grid_word(want)
+    src_r, src_c = found[2]
+    where = f"row {src_r + 1}, column {src_c + 1}"
+    if found[0] == "row":
+        p = found[1]
+        rule = ("every row repeats the same figures in the same order" if p == 1 else
+                f"along every row the figures repeat every {p} cells")
+        as_rule = ("প্ৰতিটো শাৰীত একে আৰ্হিয়েই পুনৰাবৃত্তি হয়" if p == 1 else
+                   f"প্ৰতিটো শাৰীত প্ৰতি {p} ঘৰকৈ আৰ্হি পুনৰাবৃত্তি হয়")
+    elif found[0] == "col":
+        p = found[1]
+        rule = ("every column repeats the same figures in the same order" if p == 1 else
+                f"down every column the figures repeat every {p} cells")
+        as_rule = ("প্ৰতিটো স্তম্ভত একে আৰ্হিয়েই পুনৰাবৃত্তি হয়" if p == 1 else
+                   f"প্ৰতিটো স্তম্ভত প্ৰতি {p} ঘৰকৈ আৰ্হি পুনৰাবৃত্তি হয়")
+    else:
+        dr, dc = found[1]
+        if abs(dc) == 1 and abs(dr) == 1:
+            rule = "each figure repeats one step down and one across, so the pattern runs along the diagonal"
+            as_rule = "আৰ্হি এঘৰ তললৈ আৰু এঘৰ কাষলৈ পুনৰাবৃত্তি হয়"
+        else:
+            rule = f"a figure reappears {dr} row(s) down and {dc} column(s) across"
+            as_rule = f"আৰ্হি {dr} শাৰী তলত আৰু {dc} ঘৰ কাষত পুনৰ দেখা যায়"
+    en = (f"In the grid {rule}. The empty cell is row {mr + 1}, column {mc + 1}, "
+          f"and the same figure already sits at {where}, so that cell takes the {shape} - option {letter}.")
+    as_ = (f"গ্ৰিডত {as_rule}। খালী ঘৰটো {mr + 1} নং শাৰীৰ {mc + 1} নং স্তম্ভত আছে, "
+           f"আৰু {src_r + 1} নং শাৰীৰ {src_c + 1} নং স্তম্ভত সেই আৰ্হিয়েই আছে — "
+           f"গতিকে ঘৰটোত {grid_word_as(want)} হ'ব — বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -1228,6 +1465,11 @@ def b_course_of_action(q):
 
 # normalized prefix of the repeated sentence -> builder
 CLUSTERS = [
+    ("the missing cell follows the same repeating rule", paper_pattern_cell),
+    ("the three figures repeat in the same order in every row", paper_pattern_cell),
+    ("each column shows the same figure", paper_pattern_cell),
+    ("the figures repeat along the diagonals", paper_pattern_cell),
+    ("shaded and plain tiles alternate like a chessboard", paper_pattern_cell),
     ("a positive statement takes a negative tag", b_question_tag),
     ("in indirect speech 'that' is added", b_narration),
     ("conclusion i does not follow; conclusion ii follows", b_syllogism),
