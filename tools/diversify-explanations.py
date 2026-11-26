@@ -21,6 +21,7 @@ Usage:
   python3 tools/diversify-explanations.py --top 15   # samples per cluster
 """
 
+import difflib
 import glob
 import html
 import json
@@ -199,6 +200,42 @@ def b_article(q):
         else f'"{word}" begins with a consonant sound, so "a" is used'
     )
     return f'In "{filled}" the blank comes before "{word}": {reason}.'
+
+
+def b_sentence_fix(q):
+    m = re.search(r"Improve the sentence\s*:\s*(.+)$", q["q"]["en"], re.S | re.I)
+    if not m:
+        return None
+    wrong = m.group(1).strip().strip("'\"\u2018\u2019\u201c\u201d")
+    right = answer(q).strip()
+    if not wrong or not right or wrong.lower() == right.lower():
+        return None
+    a_, b_ = wrong.split(), right.split()
+    ops = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(a=a_, b=b_).get_opcodes():
+        if tag == "equal":
+            continue
+        old = " ".join(a_[i1:i2])
+        new = " ".join(b_[j1:j2])
+        if tag == "replace":
+            ops.append(f'"{old}" becomes "{new}"')
+        elif tag == "insert":
+            ops.append(f'"{new}" is added')
+        else:
+            ops.append(f'"{old}" is dropped')
+    if not ops:
+        return None
+    return f'"{wrong}" is written correctly as "{right}": {" and ".join(ops[:3])}.'
+
+
+def b_fill(q):
+    filled = filled_sentence(q)
+    ans = answer(q).strip()
+    if not filled or not ans:
+        return None
+    others = [o for o in opts(q) if o.strip() and o.strip().lower() != ans.lower()][:3]
+    tail = ", ".join('"%s"' % o.strip() for o in others)
+    return f'In "{filled}", the word that completes the blank is "{ans}", not {tail}.'
 
 
 def b_article_fix(q):
@@ -509,6 +546,9 @@ CLUSTERS = [
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
     ("the article must match the sound of the following word", b_article_fix),
+    ("the auxiliary and the past participle must form the correct tense", b_sentence_fix),
+    ("the pronoun must match the person, number and case required", b_sentence_fix),
+    ("the adverb must be placed in its correct position", b_sentence_fix),
     ("each statement alone is not enough", b_data_sufficiency),
     ("the word after the blank begins with a vowel sound", b_article),
     ("the triangle is already drawn inside the figure", b_embedded_text),
