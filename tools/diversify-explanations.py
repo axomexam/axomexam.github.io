@@ -2370,6 +2370,53 @@ def paper_blank_word(q):
     return en, as_
 
 
+SILENT_H = ("honest", "hour", "honour", "honor", "heir", "herb", "honourable", "honorable")
+
+
+def vowel_sound(word):
+    raw = (word or "").strip("\"'(.")
+    w = raw.lower()
+    if not w:
+        return False
+    if w[0] in "aeiou":
+        return True
+    if raw.isupper() and len(raw) > 1:
+        return raw[0] in "AEFHILMNORSX"
+    return w.startswith(SILENT_H)
+
+
+def paper_article(q):
+    """a / an / the: the word after the blank decides it, and that is checkable."""
+    text = (q.get("q") or {}).get("en", "")
+    option = q["options"][q["correct"]]
+    if "__" not in text or not isinstance(option, dict) or not option.get("en"):
+        return None
+    key = option["en"].strip().lower()
+    if key not in ("a", "an", "the"):
+        return None
+    tail = re.split(r"_{2,}", text)[-1].strip()
+    words = re.sub(r"^[\s\"'(]+", "", tail).split()
+    if not words:
+        return None
+    nxt = words[0]
+    sound = vowel_sound(nxt)
+    if (key == "an" and not sound) or (key == "a" and sound):
+        return None
+    letter = chr(65 + q["correct"])
+    filled = re.sub(r"_{2,}", key, text, count=1).strip()
+    if key == "the":
+        note = f"«{nxt}» is the particular thing meant, so the definite «the» is the word"
+    elif sound:
+        note = (f"«{nxt}» opens with a vowel sound" +
+                (" even though it starts with 'h'" if nxt.lower().startswith("h") else "") +
+                ", so it takes «an»")
+    else:
+        note = f"«{nxt}» opens with a consonant sound, so it takes «a»"
+    en = f"The line reads «{filled}». {note} - option {letter}."
+    as_ = f"«{filled}» — ইয়াত «{key}» উপযুক্ত, অৰ্থাৎ বিকল্প {letter}।"
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2726,6 +2773,9 @@ CLUSTERS = [
     ("news, subjects like mathematics", paper_blank_word),
     ("is the preposition that goes with this word or phrase", paper_blank_word),
     ("filled in, the line reads «choose the correct", paper_blank_word),
+    ("the word after the blank begins with a vowel sound", paper_article),
+    ("the word after the blank begins with a consonant", paper_article),
+    ("the article must agree with the noun", paper_article),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),
