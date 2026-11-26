@@ -1914,6 +1914,101 @@ def embed_by_fit(q):
     return en, as_
 
 
+def split_statement_args(text):
+    """Pull the statement and its two arguments out of either wording style."""
+    t = (text or "").replace("\n", " ")
+    m = re.search(r"Statements?:\s*(.*?)(?:\s*Arguments?:|\s*Argument\s*I\b)", t)
+    if not m:
+        return None, []
+    stmt = m.group(1).strip()
+    rest = re.sub(r"^\s*Arguments?:\s*", "", t[m.end():])
+    rest = re.split(r"Which of the arguments", rest)[0]
+    parts = re.split(r"Argument\s*I{1,2}\s*[.:]\s*|(?<![\w.])I{1,2}\s*[.:]\s*", rest)
+    args = [p.strip(" .:;-") for p in parts if p.strip(" .:;-")]
+    return stmt, args
+
+
+def paper_arguments(q):
+    """Statement and arguments: quote what each side actually says, then the test and the verdict."""
+    stmt, args = split_statement_args((q.get("q") or {}).get("en", ""))
+    if not stmt or len(args) != 2:
+        return None
+    option = q["options"][q["correct"]]
+    if not isinstance(option, dict) or not option.get("en"):
+        return None
+    verdict = option["en"].strip().rstrip(".")
+    letter = chr(65 + q["correct"])
+    stmt = stmt.strip().rstrip("?") + "?"
+    en = (f"The statement asks \u00ab{stmt}\u00bb. Argument I answers \u00ab{args[0]}\u00bb and "
+          f"argument II answers \u00ab{args[1]}\u00bb. A strong argument has to be a general, factual "
+          f"reason that bears on the decision itself, so weigh those two answers against each other: "
+          f"the pair comes out as \u00ab{verdict}\u00bb, which is option {letter}.")
+    as_ = (f"তলৰ প্ৰশ্নটো \u00ab{stmt}\u00bb। যুক্তি I \u00ab{args[0]}\u00bb আৰু যুক্তি II "
+           f"\u00ab{args[1]}\u00bb কয়। সবল যুক্তি সাধাৰণ আৰু তথ্যভিত্তিক হ'ব লাগে, সিদ্ধান্তৰ সৈতে "
+           f"পোনপটীয়াকৈ জড়িত হ'ব লাগে — এই মাপকাঠিত \u00ab{verdict}\u00bb হয়, অৰ্থাৎ বিকল্প {letter}।")
+    return en, as_
+
+
+def split_statement_single(text):
+    t = (text or "").replace("\n", " ")
+    m = re.search(r"Statements?:\s*(.*?)\s*Argument:\s*(.*?)\s*The argument is:?\s*$", t)
+    if not m:
+        return None, None
+    return m.group(1).strip(), m.group(2).strip(" .")
+
+
+def paper_one_argument(q):
+    """A single argument: quote it, then the test, then the verdict."""
+    stmt, arg = split_statement_single((q.get("q") or {}).get("en", ""))
+    if not stmt or not arg:
+        return None
+    option = q["options"][q["correct"]]
+    if not isinstance(option, dict) or not option.get("en"):
+        return None
+    verdict = option["en"].strip().rstrip(".")
+    letter = chr(65 + q["correct"])
+    stmt = stmt.rstrip("?") + "?"
+    en = (f"The statement asks \u00ab{stmt}\u00bb and the one argument offered is \u00ab{arg}\u00bb. "
+          f"A strong argument has to be a general, factual reason about the decision itself, not a "
+          f"personal view or a side remark: measured that way the argument is \u00ab{verdict}\u00bb, "
+          f"option {letter}.")
+    as_ = (f"প্রশ্নটো \u00ab{stmt}\u00bb, আৰু দিয়া যুক্তিটো \u00ab{arg}\u00bb। সবল যুক্তি সাধাৰণ, "
+           f"তথ্যভিত্তিক আৰু সিদ্ধান্তৰ সৈতে জড়িত হ\'ব লাগে — সেই মাপকাঠিত \u00ab{verdict}\u00bb, "
+           f"বিকল্প {letter}।")
+    return en, as_
+
+
+def split_problem_actions(text):
+    t = (text or "").replace("\n", " ")
+    m = re.search(r"(?:Statement|Problem):\s*(.*?)\s*Courses? of action:\s*(.*)$", t)
+    if not m:
+        return None, []
+    rest = re.split(r"Which of the (?:courses|course of action)", m.group(2))[0]
+    parts = re.split(r"(?<![\w.])I{1,2}\s*[.:]\s*", rest)
+    acts = [p.strip(" .:;-") for p in parts if p.strip(" .:;-")]
+    return m.group(1).strip(), acts
+
+
+def paper_actions(q):
+    """Courses of action: quote the problem and both courses, then the test and the verdict."""
+    problem, acts = split_problem_actions((q.get("q") or {}).get("en", ""))
+    if not problem or len(acts) != 2:
+        return None
+    option = q["options"][q["correct"]]
+    if not isinstance(option, dict) or not option.get("en"):
+        return None
+    verdict = option["en"].strip().rstrip(".")
+    letter = chr(65 + q["correct"])
+    en = (f"The problem is \u00ab{problem.rstrip('.')}\u00bb. Course I is \u00ab{acts[0]}\u00bb and "
+          f"course II is \u00ab{acts[1]}\u00bb. A course of action has to meet the problem directly "
+          f"and be something that can actually be done, so weigh the two that way: the pair comes out "
+          f"as \u00ab{verdict}\u00bb, option {letter}.")
+    as_ = (f"সমস্যাটো \u00ab{problem.rstrip('.')}\u00bb। কাৰ্যপন্থা I \u00ab{acts[0]}\u00bb আৰু "
+           f"কাৰ্যপন্থা II \u00ab{acts[1]}\u00bb। কাৰ্যপন্থা সমস্যাটোৰ সৈতে পোনপটীয়াকৈ জড়িত আৰু "
+           f"কৰ্মক্ষম হ\'ব লাগে — এই মাপকাঠিত \u00ab{verdict}\u00bb, বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
     """Read the fold and the punch off the drawing, and speak only if the answer matches."""
     grid = paper_fold_grid(q)
@@ -2217,6 +2312,23 @@ CLUSTERS = [
     ("the missing cell follows the same repeating rule", paper_pattern_cell),
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
     ("the outline of the figure in the correct option", paper_embedded),
+    ("the argument is ", paper_one_argument),
+    ("the course is ", paper_actions),
+    ("both courses of action are practical", paper_actions),
+    ("the course helps but does not", paper_actions),
+    ("argument i is weak and argument ii is weak", paper_arguments),
+    ("only course of action i follows", paper_actions),
+    ("only course of action ii follows", paper_actions),
+    ("both courses of action i and ii follow", paper_actions),
+    ("neither course of action follows", paper_actions),
+    ("action i follows and action ii follows", paper_actions),
+    ("action i follows and action ii does not follow", paper_actions),
+    ("action i does not follow and action ii follows", paper_actions),
+    ("action i does not follow and action ii does not follow", paper_actions),
+    ("argument i is strong and argument ii is strong", paper_arguments),
+    ("argument i is strong and argument ii is weak", paper_arguments),
+    ("argument i is weak and argument ii is strong", paper_arguments),
+    ("neither argument is strong", paper_arguments),
     ("the outline of the ", paper_embedded),
     ("the drawing is made of ", paper_embedded),
     ("the drawing is built on a ", paper_embedded),

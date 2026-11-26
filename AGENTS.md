@@ -4686,6 +4686,14 @@ count (or a drawn circle) is matched against the options, one option must be of 
 family, and it must be the key. Figures whose answer only appears where lines cross
 are left with the old sentence, since the readable outline does not prove them.
 
+Statement/argument and course-of-action banks repeat one verdict sentence, sometimes as a
+tautology ("Argument I is strong and argument II is weak. Hence: ..."). Those
+explanations now quote the statement and both sides from the question text, restate the
+test the paper applies, and name the option. The statement and the two sides are parsed
+from either wording ("Argument I:" style or "Arguments: I. ... II. ..." style); items
+where only one side is given in the stem, or where the courses live in the options, are
+left alone.
+
 Embedded figures are checked by trying to lay the option's outline on the drawing: a
 scale-and-shift is searched from pairs of drawn endpoints, every side must then fall
 along a drawn line, and only one option (the key) is allowed to fit. The explanation
