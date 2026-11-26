@@ -4658,8 +4658,18 @@ does it rather than paraphrase the rule:
 Both leave the figure, the options and the key untouched unless the fold itself
 disagrees with them; those items are reported instead of edited.
 
-Two repairs run beside them, both in the dhs-dme paper bank:
+Some of those questions draw the sheet as a cell grid and state the fold in the
+stem ("vertical centre line", "from left to right", "folded twice in half").
+There the drawn grid lines are cell borders, not creases: the fold is the named
+centre line, and the drawing is folded only across that. Matching the options by
+the order of their hole positions rather than their exact coordinates covers the
+questions whose option figures use a finer lattice than the question figure.
+
+Three repairs run beside them, all in the dhs-dme paper bank:
 `tools/fix-option-figures.py` replaces option figures that held a Python tuple
 (`('1', '১', '')`) with the numeral itself, and `tools/add-paper-figures.py`
 draws the folded sheet for the counting questions that never had one, writing
-only when folding the drawing gives the count the key states.
+only when folding the drawing gives the count the key states;
+`tools/fix-paper-grid-figures.py` moves a punch that the drawing placed on the
+fold line, or split across two halves, into the quarter the answer itself shows,
+and keeps the redrawn sheet only when folding it reproduces that answer.

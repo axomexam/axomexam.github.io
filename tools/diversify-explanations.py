@@ -497,8 +497,125 @@ def paper_side(rel, axis):
     return "below" if rel[1] > 0.5 else "above"
 
 
+def paper_grid_folds(stem):
+    s = (stem or "").lower()
+    v = any(k in s for k in ("vertical centre line", "left to right", "left half on the right",
+                             "left half laid on the right"))
+    h = any(k in s for k in ("horizontal centre line", "top to bottom", "top half on the bottom",
+                             "top half laid on the bottom"))
+    if not v and not h and "folded twice" in s:
+        v = h = True
+    lines = []
+    if v:
+        lines.append(((0.5, 0.0), (0.5, 1.0)))
+    if h:
+        lines.append(((0.0, 0.5), (1.0, 0.5)))
+    return lines, v, h
+
+
+def paper_grid_size(fig):
+    xs = {round(c[0], 1) for c in paper_creases(fig) if abs(c[0] - c[2]) < 1}
+    ys = {round(c[1], 1) for c in paper_creases(fig) if abs(c[1] - c[3]) < 1}
+    return (len(xs) + 1, len(ys) + 1) if xs and ys else (0, 0)
+
+
+def paper_ranks(pts):
+    """Same arrangement, whatever the scale: the order of the x and the y positions."""
+    if not pts:
+        return set()
+    xs = sorted({round(p[0], 3) for p in pts})
+    ys = sorted({round(p[1], 3) for p in pts})
+    return {(xs.index(round(p[0], 3)), ys.index(round(p[1], 3))) for p in pts}
+
+
+def paper_reflect_n(p, line):
+    x1, y1, x2, y2 = line
+    dx, dy = x2 - x1, y2 - y1
+    l2 = dx * dx + dy * dy
+    if l2 == 0:
+        return p
+    t = ((p[0] - x1) * dx + (p[1] - y1) * dy) / l2
+    return (round(2 * (x1 + t * dx) - p[0], 4), round(2 * (y1 + t * dy) - p[1], 4))
+
+
+def paper_cell(p, grid):
+    cols, rows = grid
+    if not cols or not rows:
+        return None
+    return (min(rows, int(p[1] * rows) + 1), min(cols, int(p[0] * cols) + 1))
+
+
+def paper_cell_list(cells):
+    parts = [f"row {r} column {c}" for r, c in cells]
+    return parts[0] if len(parts) == 1 else ", ".join(parts[:-1]) + " and " + parts[-1]
+
+
+def paper_fold_grid(q):
+    """Sheet drawn as a cell grid whose fold the stem names; the grid lines are not creases."""
+    stem = q["q"]["en"]
+    lines, v, h = paper_grid_folds(stem)
+    if not lines:
+        return None
+    fig = q.get("fig") or ""
+    punches = paper_punches(fig)
+    boxes = paper_boxes(fig)
+    if not punches or not boxes:
+        return None
+    box = paper_pick_box(boxes, punches[0])
+    if not box:
+        return None
+    holes = {tuple(round(x, 4) for x in paper_rel(box, p)) for p in punches}
+    for a, b in lines:
+        holes |= {paper_reflect_n(x, (a[0], a[1], b[0], b[1])) for x in list(holes)}
+    if any(not (-0.02 <= x <= 1.02 and -0.02 <= y <= 1.02) for x, y in holes):
+        return None
+    hits = [i for i, o in enumerate(q["options"])
+            if paper_same(holes, paper_option_holes(o.get("fig")), tol=0.04)]
+    if not hits:
+        hits = [i for i, o in enumerate(q["options"])
+                if paper_ranks(holes) == paper_ranks(paper_option_holes(o.get("fig")))]
+    if len(hits) != 1 or hits[0] != q["correct"]:
+        return None
+    letter = (q["options"][q["correct"]].get("option") or chr(65 + q["correct"])).strip(")")
+    grid = paper_grid_size(fig)
+    fold_bits = []
+    if v:
+        fold_bits.append("once along the vertical centre line, left half on the right half")
+    if h:
+        fold_bits.append("once along the horizontal centre line, top half on the bottom half")
+    fold_text = ("folded " + " and then ".join(fold_bits)) if len(fold_bits) > 1 else ("folded " + fold_bits[0])
+    punch_cells = [paper_cell(paper_rel(box, p), grid) for p in punches]
+    punch_cells = [c for c in punch_cells if c]
+    hole_cells = sorted({c for c in (paper_cell(x, grid) for x in holes) if c})
+    layered = len(hole_cells) != len(holes) or len(set(punch_cells)) != len(punch_cells)
+    size = f"{grid[0]} by {grid[1]}" if grid[0] and grid[1] else ""
+    if layered:
+        layers = 2 ** len(lines)
+        en = (f"The sheet is {fold_text}, so {layers} layers lie on top of one another. "
+              f"The punch{'es sit' if len(punch_cells) > 1 else ' sits'} in one quarter of the folded sheet; "
+              f"unfolding repeats {'them' if len(punch_cells) > 1 else 'it'} in every quarter, "
+              f"giving {len(holes)} holes - option {letter}.")
+    else:
+        en = (f"The sheet{(' is a ' + size + ' grid and') if size else ''} is {fold_text}. "
+              f"The punch{('es are' if len(punch_cells) > 1 else ' is')} in {paper_cell_list(punch_cells)}. "
+              f"Unfolding mirrors every hole across the crease, so the opened sheet carries {len(holes)} holes at "
+              f"{paper_cell_list(hole_cells)} - option {letter}.")
+    as_fold = ("উলম্ব আৰু অনুভূমিক কেন্দ্ৰ ৰেখাৰে" if (v and h)
+               else "উলম্ব কেন্দ্ৰ ৰেখাৰে" if v else "অনুভূমিক কেন্দ্ৰ ৰেখাৰে")
+    as_digits = str(len(holes)).translate(str.maketrans("0123456789", "০১২৩৪৫৬৭৮৯"))
+    if layered:
+        as_ = (f"কাগজখন {as_fold} দুবাৰ ভাঁজ কৰা হৈছে, সেয়ে চাৰিটা স্তৰ ওপৰা-উপৰি হয়; এটা চতুৰ্থাংশত কৰা ফুটা "
+               f"মেলিলে চাৰিও চতুৰ্থাংশতে পোৱা যায় — মুঠ {as_digits} টা ফুটা — বিকল্প {letter}।")
+    else:
+        as_ = (f"কাগজখন {as_fold} ভাঁজ কৰা হৈছে; মেলি দিলে {as_digits} টা ফুটা দেখা যায় — বিকল্প {letter}।")
+    return en, as_
+
+
 def paper_fold(q):
-    """Read the creases and the punch off the drawing, and speak only if the answer matches."""
+    """Read the fold and the punch off the drawing, and speak only if the answer matches."""
+    grid = paper_fold_grid(q)
+    if grid:
+        return grid
     found = paper_holes(q.get("fig") or "")
     if not found:
         return None
