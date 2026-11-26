@@ -231,13 +231,42 @@ PLURAL = {"are", "were", "have", "do", "go", "need", "seem", "work", "take", "ma
           "study", "try", "fly", "aren't", "weren't", "haven't", "don't"}
 
 
+def verb_number(q):
+    """Singular or plural, decided from the forms the options actually offer."""
+    ans = answer(q).strip().lower()
+    o = [x.strip().lower() for x in opts(q)]
+    if ans in ("are", "were", "have", "do", "need", "seem"):
+        return "plural"
+    if ans in ("is", "was", "has", "does"):
+        return "singular"
+    forms = {ans + "s", ans + "es", ans + "ies"}
+    if ans.endswith("y"):
+        forms.add(ans[:-1] + "ies")
+    if ans.endswith(("s", "x", "ch", "sh", "o")):
+        forms.add(ans + "es")
+    if any(f in o for f in forms):
+        return "plural"
+    bases = [ans[:-1], ans[:-2] if ans.endswith("es") else None,
+             ans[:-3] + "y" if ans.endswith("ies") else None]
+    if any(b and b in o for b in bases):
+        return "singular"
+    return None
+
+
 def b_subject_verb(q):
     filled = filled_sentence(q)
-    ans = answer(q).strip().lower()
-    if not filled or ans not in SINGULAR | PLURAL:
+    kind = verb_number(q)
+    if not filled or not kind:
         return None
-    kind = "singular" if ans in SINGULAR else "plural"
-    return f'In "{filled}", the verb that agrees with this subject is "{ans}", a {kind} form.'
+    return f'In "{filled}", the verb that agrees with this subject is "{answer(q).strip()}", a {kind} form.'
+
+
+def b_collective(q):
+    filled = filled_sentence(q)
+    ans = answer(q).strip().lower()
+    if not filled or verb_number(q) != "singular":
+        return None
+    return f'In "{filled}", the collective noun counts as one unit, which is why it takes the singular verb "{ans}".'
 
 
 def b_preposition(q):
@@ -305,6 +334,9 @@ CLUSTERS = [
     ("statement i is a direct cause of statement ii", b_cause_effect),
     ("statement ii is the cause and statement i is its effect", b_cause_effect),
     ("indefinite pronouns such as everyone", b_subject_verb),
+    ("a plural subject takes a plural verb", b_subject_verb),
+    ("a singular subject takes a singular verb", b_subject_verb),
+    ("a collective noun acting as one unit", b_collective),
     ("'to' is the preposition that goes with this word", b_preposition),
     ("the correct word is", b_preposition),
     ("each statement alone is not enough", b_data_sufficiency),
