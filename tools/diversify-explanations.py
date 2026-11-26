@@ -930,18 +930,62 @@ def paper_fold_cut(q):
 
 def grid_cells(fig):
     return [tuple(map(float, m.groups())) for m in re.finditer(
-        r'<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)" rx="8"[^>]*stroke="#e2e8f0"',
+        r'<rect x="([\d.]+)" y="([\d.]+)" width="([\d.]+)" height="([\d.]+)" rx="(?:6|8)"[^>]*stroke="#e2e8f0"',
         fig or "")]
+
+
+def grid_shift(attrs, dx, dy, tag):
+    if not dx and not dy:
+        return attrs
+    a = dict(attrs)
+    if tag == "circle":
+        a["cx"] = str(float(a["cx"]) + dx)
+        a["cy"] = str(float(a["cy"]) + dy)
+    elif tag == "line":
+        for k, d in (("x1", dx), ("x2", dx), ("y1", dy), ("y2", dy)):
+            a[k] = str(float(a[k]) + d)
+    elif tag == "rect":
+        a["x"] = str(float(a["x"]) + dx)
+        a["y"] = str(float(a["y"]) + dy)
+    elif tag == "text":
+        a["x"] = str(float(a["x"]) + dx)
+        a["y"] = str(float(a["y"]) + dy)
+    elif tag == "polygon":
+        pts = []
+        for t in a["points"].split():
+            x, y = map(float, t.split(","))
+            pts.append(f"{x + dx},{y + dy}")
+        a["points"] = " ".join(pts)
+    elif tag == "path":
+        nums = re.findall(r"-?[\d.]+", a.get("d", ""))
+        if len(nums) >= 4:
+            nums[0] = str(float(nums[0]) + dx)
+            nums[1] = str(float(nums[1]) + dy)
+            nums[-2] = str(float(nums[-2]) + dx)
+            nums[-1] = str(float(nums[-1]) + dy)
+            a["d"] = " ".join(nums)
+    return a
+
+
+def grid_parse(fig, dx=0.0, dy=0.0):
+    out = []
+    for m in re.finditer(r'<(polygon|circle|line|path|text|rect)\b([^>]*?)(?:/>|>([^<]*)</text>)', fig or ""):
+        tag = m.group(1)
+        attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(2)))
+        txt = (m.group(3) or "").strip()
+        shape_rect = tag == "rect" and attrs.get("stroke") != "#e2e8f0"
+        if (attrs.get("stroke") == "#334155" or attrs.get("fill") == "#334155"
+                or shape_rect or (tag == "text" and txt == "?")):
+            out.append((tag, grid_shift(attrs, dx, dy, tag), txt))
+    return out
 
 
 def grid_prims(fig):
     out = []
-    for m in re.finditer(r'<(polygon|circle|line|path|text)\b([^>]*?)(?:/>|>([^<]*)</text>)', fig or ""):
-        tag = m.group(1)
-        attrs = dict(re.findall(r'([\w-]+)="([^"]*)"', m.group(2)))
-        txt = (m.group(3) or "").strip()
-        if attrs.get("stroke") == "#334155" or attrs.get("fill") == "#334155" or (tag == "text" and txt == "?"):
-            out.append((tag, attrs, txt))
+    for m in re.finditer(r'<g transform="translate\(([-\d.]+),([-\d.]+)\)">([\s\S]*?)</g>', fig or ""):
+        out += grid_parse(m.group(3), float(m.group(1)), float(m.group(2)))
+    outside = re.sub(r'<g transform="translate\([-\d.]+,[-\d.]+?\)">[\s\S]*?</g>', "", fig or "")
+    out += grid_parse(outside)
     return out
 
 
@@ -953,7 +997,9 @@ GRID_WORDS = {("ring",): "circle inside a circle", ("lines", 2): "pair of crossi
 def grid_word(sig):
     out = []
     for s in sig:
-        if s[0] == "poly":
+        if s[0] == "box":
+            out.append(s[1])
+        elif s[0] == "poly":
             out.append(s[2])
         elif s[0] == "circle":
             out.append("circle")
@@ -966,7 +1012,8 @@ def grid_word(sig):
     return " and ".join(out)
 
 
-GRID_WORDS_AS = {"square": "বৰ্গ", "triangle": "ত্ৰিভুজ", "pentagon": "পঞ্চভুজ", "hexagon": "ষড়ভুজ",
+GRID_WORDS_AS = {"shaded square": "ছাঁ দিয়া বৰ্গ", "shaded rectangle": "ছাঁ দিয়া আয়ত",
+                 "square": "বৰ্গ", "triangle": "ত্ৰিভুজ", "pentagon": "পঞ্চভুজ", "hexagon": "ষড়ভুজ",
                  "octagon": "অষ্টভুজ", "circle": "বৃত্ত", "circle inside a circle": "বৃত্তৰ ভিতৰত বৃত্ত",
                  "pair of crossing lines": "কটাকটি ৰেখা", "three lines": "তিনিডাল ৰেখা",
                  "solid dot": "ঘন বিন্দু", "line": "ৰেখা", "shaded half-disc": "ছাঁ দিয়া অৰ্ধবৃত্ত"}
@@ -992,6 +1039,8 @@ def grid_centre(tag, a, txt):
         if len(nums) < 4:
             return 0.0, 0.0
         return (nums[0] + nums[-2]) / 2, (nums[1] + nums[-1]) / 2
+    if tag == "rect":
+        return (float(a["x"]) + float(a["width"]) / 2, float(a["y"]) + float(a["height"]) / 2)
     P = [tuple(map(float, t.split(","))) for t in a["points"].split()]
     return sum(p[0] for p in P) / len(P), sum(p[1] for p in P) / len(P)
 
@@ -1013,6 +1062,10 @@ def grid_sig(box, prims):
             inside.append(("line",))
         elif tag == "path":
             inside.append(("path",))
+        elif tag == "rect":
+            w = float(a.get("width", 0))
+            name = "shaded square" if abs(w - float(a.get("height", w))) < 2 else "shaded rectangle"
+            inside.append(("box", name))
         else:
             inside.append(("missing",))
     circles = [i for i, s in enumerate(inside) if s[0] == "circle"]
@@ -1037,8 +1090,13 @@ def grid_of(fig):
 
 def grid_option(fig):
     boxes = grid_cells(fig)
-    if len(boxes) != 1:
+    if len(boxes) > 1:
         return None
+    if not boxes:
+        m = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', fig or "")
+        if not m:
+            return None
+        boxes = [(0.0, 0.0, float(m.group(1)), float(m.group(2)))]
     return grid_sig(boxes[0], grid_prims(fig))
 
 
@@ -1468,6 +1526,8 @@ CLUSTERS = [
     ("the missing cell follows the same repeating rule", paper_pattern_cell),
     ("the three figures repeat in the same order in every row", paper_pattern_cell),
     ("each column shows the same figure", paper_pattern_cell),
+    ("each row shows the same figure", paper_pattern_cell),
+    ("the figures alternate like a checkerboard", paper_pattern_cell),
     ("the figures repeat along the diagonals", paper_pattern_cell),
     ("shaded and plain tiles alternate like a chessboard", paper_pattern_cell),
     ("a positive statement takes a negative tag", b_question_tag),

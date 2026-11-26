@@ -4672,6 +4672,14 @@ crease position plus a kept side, and the punch is carried back through the
 folds in reverse, so the holes come out where the opening sheet would put them.
 A slanting crease is handled as one reflection across that line.
 
+Grid-completion figures come in three drawing styles: cells drawn as rounded rects
+with the shape inside (rrb), cells whose shape sits in a translated group and whose
+option is a bare shape (assam-police), and shaded tile grids. The cell figure is
+described from what is drawn - square, ringed circle, crossing lines, solid dot,
+shaded tile - and the missing cell is predicted from the repeat along its row or
+column, or from the whole step that carries one cell onto another. The explanation
+names both cells, and is written only when exactly one option matches.
+
 The adre banks draw one sheet with a dashed crease and either a white cut piece or a
 white punched ring, and the options show the sheet open. The crease may be
 vertical, horizontal or slanting, so every crease is kept as a line and the cut
