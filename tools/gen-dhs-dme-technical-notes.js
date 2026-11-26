@@ -186,10 +186,11 @@ function worked(blocks, bank, lang, count, used) {
     const q = bank[j];
     const sig = clean((q.q && (q.q.en || "")) || "") + "|" + clean(q.ans || "");
     if (used.has(sig)) continue;
-    const opts = (q.options || []).map((o, k) => `(${"ABCD"[k] || k + 1}) ${(o && (o[lang] || o.en)) || ""}`).join(" ");
-    if (!opts) continue;
+    const texts = (q.options || []).map((o) => ((o && (o[lang] || o.en)) || "").trim());
+    if (!texts.length || !texts.some(Boolean)) continue;
+    const opts = (q.options || []).map((o, k) => `(${"ABCD"[k] || k + 1}) ${texts[k]}`).join(" ");
     const exp = (q.explanation && (q.explanation[lang] || q.explanation.en)) || "";
-    const ans = q.options[q.correct] ? (q.options[q.correct][lang] || q.options[q.correct].en) : "";
+    const ans = texts[q.correct] || `(${"ABCD"[q.correct] || q.correct + 1})`;
     blocks.push(["p", lang === "as"
       ? `প্ৰ. ${clean((q.q && (q.q[lang] || q.q.en)) || "")} ${clean(opts)} শুদ্ধ উত্তৰ ${clean(ans)}। ${clean(exp)}`
       : `Q. ${clean((q.q && (q.q[lang] || q.q.en)) || "")} ${clean(opts)} The correct choice is ${clean(ans)}. ${clean(exp)}`]);
