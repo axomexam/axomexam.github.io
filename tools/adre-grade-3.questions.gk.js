@@ -10659,13 +10659,13 @@ module.exports = {
   {
    "id": "assamese-literature-084",
    "q": {
-    "en": "Which novel by Mamoni Raisom Goswami deals with the life of widows in Vrindavan?",
-    "as": "মামণি ৰয়ছম গোস্বামীৰ কোন উপন্যাস বৃত্তাবনৰ বিধৱাসকলৰ জীৱনৰ সৈতে জড়িত?"
+    "en": "Which novel by Mamoni Raisom Goswami deals with the lives of widows in Vrindavan?",
+    "as": "মামণি ৰয়ছম গোস্বামীৰ কোনখন উপন্যাস ব্ৰজধামৰ বিধৱাসকলৰ জীৱনৰ ওপৰত আধাৰিত?"
    },
    "options": [
     {
      "en": "Mamore Dhora Tarowal",
-     "as": "মামৰে ধৰা তৰোৱাল"
+     "as": "মমৰে ধৰা তৰোৱাল"
     },
     {
      "en": "Mrityunjay",
@@ -10676,14 +10676,14 @@ module.exports = {
      "as": "পিতা পুত্ৰ"
     },
     {
-     "en": "Aghari Atmar Kahini",
-     "as": "আঘৰি আত্মাৰ কাহিনী"
+     "en": "Neelkanthi Braja",
+     "as": "নীলকণ্ঠী ব্ৰজ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Aghari Atmar Kahini deals with the lives of widows in Vrindavan.",
-    "as": "আঘৰি আত্মাৰ কাহিনী বৃত্তাবনৰ বিধৱাসকলৰ জীৱনৰ সৈতে জড়িত।"
+    "en": "Neelkanthi Braja (1976) describes the plight of the Radhaswami widows of Vrindavan.",
+    "as": "নীলকণ্ঠী ব্ৰজ (১৯৭৬) ব্ৰজধামৰ ৰাধাস্বামী বিধৱাসকলৰ দুৰ্দশা বৰ্ণনা কৰে।"
    }
   },
   {
@@ -10779,31 +10779,31 @@ module.exports = {
   {
    "id": "assamese-literature-088",
    "q": {
-    "en": "Who wrote 'Kathanibari Ghat', a noted Assamese novel?",
-    "as": "এটা উল্লেখযোগ্য অসমীয়া উপন্যাস 'কথানিবাৰী ঘাট' কোনে লিখিছিল?"
+    "en": "Who wrote 'Kathanibari Ghat', a noted Assamese short-story collection?",
+    "as": "অসমীয়া গল্প সংকলন 'কথনিবাৰী ঘাট' কোনে লিখিছিল?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
+     "en": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
-    "en": "Homen Borgohain wrote Kathanibari Ghat.",
-    "as": "হোমেন বৰগোহাঞিয়ে কথানিবাৰী ঘাট লিখিছিল।"
+    "en": "Mahim Bora's short-story collection Kathanibari Ghat appeared in 1961.",
+    "as": "মহিম বৰাৰ গল্প সংকলন কথনিবাৰী ঘাট ১৯৬১ চনত প্ৰকাশ পায়।"
    }
   },
   {
@@ -11650,60 +11650,60 @@ module.exports = {
    "id": "assamese-literature-117",
    "q": {
     "en": "Who wrote 'Adha Lekha Dastabej', an autobiographical work?",
-    "as": "আত্মজীৱনীমূলক কৰ্ম 'আধা লেখা দস্তাবেজ' কোনে লিখিছিল?"
+    "as": "আত্মজীৱনীমূলক গ্ৰন্থ 'আধা লেখা দস্তাবেজ' কোনে লিখিছিল?"
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Nabakanta Barua",
+     "en": "নৱকান্ত বৰুৱা",
      "as": "নৱকান্ত বৰুৱা"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "Syed Abdul Malik wrote Adha Lekha Dastabej.",
-    "as": "চৈয়দ আব্দুল মালিকে আধা লেখা দস্তাবেজ লিখিছিল।"
+    "en": "Adha Lekha Dastabej is the autobiography of Mamoni Raisom Goswami.",
+    "as": "আধা লেখা দস্তাবেজ মামণি ৰয়ছম গোস্বামীৰ আত্মজীৱনী।"
    }
   },
   {
    "id": "assamese-literature-118",
    "q": {
     "en": "Who wrote 'Edhani Mahir Hanhi', a noted Assamese novel?",
-    "as": "এটা উল্লেখযোগ্য অসমীয়া উপন্যাস 'এধানি মাহীৰ হাঁহি' কোনে লিখিছিল?"
+    "as": "অসমীয়া উপন্যাস 'এধানি মাহীৰ হাঁহি' কোনে লিখিছিল?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Homen Borgohain wrote Edhani Mahir Hanhi.",
-    "as": "হোমেন বৰগোহাঞিয়ে এধানি মাহীৰ হাঁহি লিখিছিল।"
+    "en": "Edhani Mahir Hanhi is a novel by Mahim Bora.",
+    "as": "এধানি মাহীৰ হাঁহি মহিম বৰাৰ এখন উপন্যাস।"
    }
   },
   {
@@ -11859,31 +11859,31 @@ module.exports = {
   {
    "id": "assamese-literature-124",
    "q": {
-    "en": "Who wrote 'Gadadhar', a noted Assamese novel?",
-    "as": "এটা উল্লেখযোগ্য অসমীয়া উপন্যাস 'গদাধৰ' কোনে লিখিছিল?"
+    "en": "Who wrote 'Gadadhar', a noted Assamese play?",
+    "as": "অসমীয়া নাটক 'গদাধৰ' কোনে লিখিছিল?"
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
+     "en": "পদ্মনাথ গোহাঞি বৰুৱা",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Lakshminath Bezbaroa",
+     "en": "লক্ষ্মীনাথ বেজবৰুৱা",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Rajanikanta Bordoloi",
+     "en": "ৰজনীকান্ত বৰদলৈ",
      "as": "ৰজনীকান্ত বৰদলৈ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "Rajanikanta Bordoloi wrote Gadadhar.",
-    "as": "ৰজনীকান্ত বৰদলৈয়ে গদাধৰ লিখিছিল।"
+    "en": "Gadadhar is a historical play by Padmanath Gohain Baruah.",
+    "as": "গদাধৰ পদ্মনাথ গোহাঞি বৰুৱাৰ এখন ঐতিহাসিক নাটক।"
    }
   },
   {
@@ -12009,31 +12009,31 @@ module.exports = {
   {
    "id": "assamese-literature-129",
    "q": {
-    "en": "Which Assamese writer is known for the novel 'Rahdoi'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'ৰহদৈ'ৰ বাবে জনাজাত?"
+    "en": "Which Assamese writer is known for the novel 'Rahdoi Ligiri'?",
+    "as": "কোন অসমীয়া লেখকে 'ৰহদৈ লিগিৰী' উপন্যাসৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "ৰজনীকান্ত বৰদলৈ",
+     "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Mamoni Raisom Goswami wrote the novel Rahdoi.",
-    "as": "মামণি ৰয়ছম গোস্বামীয়ে ৰহদৈ উপন্যাস লিখিছিল।"
+    "en": "Rahdoi Ligiri (1930) is a novel by Rajanikanta Bordoloi.",
+    "as": "ৰহদৈ লিগিৰী (১৯৩০) ৰজনীকান্ত বৰদলৈৰ এখন উপন্যাস।"
    }
   },
   {
@@ -13120,16 +13120,16 @@ module.exports = {
    "id": "assamese-literature-166",
    "q": {
     "en": "What was the name of the Sattra founded by Srimanta Sankardeva at Bordowa?",
-    "as": "বৰদোৱাত শ্ৰীমন্ত শংকৰদেৱে প্ৰতিষ্ঠা কৰা সত্ৰৰ নাম কি আছিল?"
+    "as": "শ্ৰীমন্ত শংকৰদেৱে বৰদোৱাত প্ৰতিষ্ঠা কৰা সত্ৰখনৰ নাম কি আছিল?"
    },
    "options": [
     {
      "en": "Kamalabari Sattra",
-     "as": "কমলাবৰী সত্ৰ"
+     "as": "কমলাবাৰী সত্ৰ"
     },
     {
-     "en": "Dhuwahat Sattra",
-     "as": "ধুৱাহাট সত্ৰ"
+     "en": "Bordowa Than",
+     "as": "বৰদোৱা থান"
     },
     {
      "en": "Auniati Sattra",
@@ -13142,8 +13142,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Sankardeva founded the Dhuwahat Sattra.",
-    "as": "শংকৰদেৱে ধুৱাহাট সত্ৰ প্ৰতিষ্ঠা কৰিছিল।"
+    "en": "Sankardeva established the Bordowa (Batadrava) Than in 1468, the first Than and Namghar.",
+    "as": "শংকৰদেৱে ১৪৬৮ চনত বৰদোৱা (বটদ্ৰৱা) থান প্ৰতিষ্ঠা কৰিছিল — এইখনেই প্ৰথম থান আৰু নামঘৰ।"
    }
   },
   {
@@ -15009,31 +15009,31 @@ module.exports = {
   {
    "id": "assamese-literature-229",
    "q": {
-    "en": "Which Assamese writer won the Jnanpith Award for the novel 'Aghari Atmar Kahini'?",
-    "as": "কোন অসমীয়া লেখকে 'আঘৰি আত্মাৰ কাহিনী' উপন্যাসৰ বাবে জ্ঞানপীঠ বঁটা লাভ কৰিছিল?"
+    "en": "Which novel by Mamoni Raisom Goswami won the Sahitya Akademi Award?",
+    "as": "মামণি ৰয়ছম গোস্বামীৰ কোনখন উপন্যাসে সাহিত্য অকাডেমি বঁটা লাভ কৰিছিল?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
-     "as": "মামণি ৰয়ছম গোস্বামী"
+     "en": "Mamore Dhora Tarowal",
+     "as": "মমৰে ধৰা তৰোৱাল"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
-     "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
+     "en": "Pita Putra",
+     "as": "পিতা পুত্ৰ"
     },
     {
-     "en": "Nilmani Phookan",
-     "as": "নীলমণি ফুকন"
+     "en": "Mrityunjay",
+     "as": "মৃত্যুঞ্জয়"
     },
     {
-     "en": "Homen Borgohain",
-     "as": "হোমেন বৰগোহাঞি"
+     "en": "Matsyagandha",
+     "as": "মৎস্যগন্ধা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Mamoni Raisom Goswami won the Jnanpith for Aghari Atmar Kahini.",
-    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনীৰ বাবে জ্ঞানপীঠ লাভ কৰিছিল।"
+    "en": "Mamore Dhora Tarowal won the Sahitya Akademi Award in 1982.",
+    "as": "মমৰে ধৰা তৰোৱালে ১৯৮২ চনত সাহিত্য অকাডেমি বঁটা লাভ কৰিছিল।"
    }
   },
   {
@@ -15189,31 +15189,31 @@ module.exports = {
   {
    "id": "assamese-literature-235",
    "q": {
-    "en": "Which Assamese writer is known for the novel 'Kathanibari Ghat'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'কথানিবাৰী ঘাট'ৰ বাবে জনাজাত?"
+    "en": "Which Assamese writer is known for the short-story collection 'Kathanibari Ghat'?",
+    "as": "কোন অসমীয়া লেখক 'কথনিবাৰী ঘাট' গল্প সংকলনৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     }
    ],
-   "correct": 2,
+   "correct": 3,
    "explanation": {
-    "en": "Homen Borgohain wrote Kathanibari Ghat.",
-    "as": "হোমেন বৰগোহাঞিয়ে কথানিবাৰী ঘাট লিখিছিল।"
+    "en": "Kathanibari Ghat is a short-story collection by Mahim Bora.",
+    "as": "কথনিবাৰী ঘাট মহিম বৰাৰ গল্প সংকলন।"
    }
   },
   {
@@ -15340,60 +15340,60 @@ module.exports = {
    "id": "assamese-literature-240",
    "q": {
     "en": "Which Assamese writer is known for the autobiography 'Adha Lekha Dastabej'?",
-    "as": "কোন অসমীয়া লেখক আত্মজীৱনী 'আধা লেখা দস্তাবেজ'ৰ বাবে জনাজাত?"
+    "as": "কোন অসমীয়া লেখক 'আধা লেখা দস্তাবেজ' আত্মজীৱনীৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "Syed Abdul Malik wrote Adha Lekha Dastabej.",
-    "as": "চৈয়দ আব্দুল মালিকে আধা লেখা দস্তাবেজ লিখিছিল।"
+    "en": "Adha Lekha Dastabej is the autobiography of Mamoni Raisom Goswami.",
+    "as": "আধা লেখা দস্তাবেজ মামণি ৰয়ছম গোস্বামীৰ আত্মজীৱনী।"
    }
   },
   {
    "id": "assamese-literature-241",
    "q": {
     "en": "Which Assamese writer is known for the novel 'Edhani Mahir Hanhi'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'এধানি মাহীৰ হাঁহি'ৰ বাবে জনাজাত?"
+    "as": "কোন অসমীয়া লেখক 'এধানি মাহীৰ হাঁহি' উপন্যাসৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Mahim Bora",
+     "en": "মহিম বৰা",
      "as": "মহিম বৰা"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Homen Borgohain wrote Edhani Mahir Hanhi.",
-    "as": "হোমেন বৰগোহাঞিয়ে এধানি মাহীৰ হাঁহি লিখিছিল।"
+    "en": "Edhani Mahir Hanhi is a novel by Mahim Bora.",
+    "as": "এধানি মাহীৰ হাঁহি মহিম বৰাৰ উপন্যাস।"
    }
   },
   {
@@ -15490,30 +15490,30 @@ module.exports = {
    "id": "assamese-literature-245",
    "q": {
     "en": "Which Assamese writer received the Sahitya Akademi Award for the novel 'Aghari Atmar Kahini'?",
-    "as": "কোন অসমীয়া লেখকে 'আঘৰি আত্মাৰ কাহিনী' উপন্যাসৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল?"
+    "as": "'অঘৰী আত্মাৰ কাহিনী' উপন্যাসৰ বাবে কোন অসমীয়া লেখকে সাহিত্য অকাডেমি বঁটা লাভ কৰিছিল?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
+     "en": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "Mamoni Raisom Goswami won the Sahitya Akademi Award for Aghari Atmar Kahini.",
-    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনীৰ বাবে সাহিত্য একাডেমী বঁটা লাভ কৰিছিল।"
+    "en": "Syed Abdul Malik won the Sahitya Akademi Award in 1972 for Aghari Atmar Kahini.",
+    "as": "চৈয়দ আব্দুল মালিকে ১৯৭২ চনত অঘৰী আত্মাৰ কাহিনীৰ বাবে সাহিত্য অকাডেমি বঁটা লাভ কৰিছিল।"
    }
   },
   {
@@ -15789,31 +15789,31 @@ module.exports = {
   {
    "id": "assamese-literature-255",
    "q": {
-    "en": "Which Assamese writer is known for the novel 'Gadadhar'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'গদাধৰ'ৰ বাবে জনাজাত?"
+    "en": "Which Assamese writer is known for the play 'Gadadhar'?",
+    "as": "কোন অসমীয়া লেখক 'গদাধৰ' নাটকৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Padmanath Gohain Baruah",
+     "en": "পদ্মনাথ গোহাঞি বৰুৱা",
      "as": "পদ্মনাথ গোহাঞি বৰুৱা"
     },
     {
-     "en": "Lakshminath Bezbaroa",
+     "en": "লক্ষ্মীনাথ বেজবৰুৱা",
      "as": "লক্ষ্মীনাথ বেজবৰুৱা"
     },
     {
-     "en": "Rajanikanta Bordoloi",
+     "en": "ৰজনীকান্ত বৰদলৈ",
      "as": "ৰজনীকান্ত বৰদলৈ"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "Rajanikanta Bordoloi wrote Gadadhar.",
-    "as": "ৰজনীকান্ত বৰদলৈয়ে গদাধৰ লিখিছিল।"
+    "en": "Gadadhar is a historical play by Padmanath Gohain Baruah.",
+    "as": "গদাধৰ পদ্মনাথ গোহাঞি বৰুৱাৰ ঐতিহাসিক নাটক।"
    }
   },
   {
@@ -16210,30 +16210,30 @@ module.exports = {
    "id": "assamese-literature-269",
    "q": {
     "en": "Which Assamese writer is known for the novel 'Aghari Atmar Kahini'?",
-    "as": "কোন অসমীয়া লেখক উপন্যাস 'আঘৰি আত্মাৰ কাহিনী'ৰ বাবে জনাজাত?"
+    "as": "কোন অসমীয়া লেখক 'অঘৰী আত্মাৰ কাহিনী' উপন্যাসৰ বাবে জনাজাত?"
    },
    "options": [
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
+     "en": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     },
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "Mamoni Raisom Goswami wrote Aghari Atmar Kahini.",
-    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনী লিখিছিল।"
+    "en": "Aghari Atmar Kahini is a novel by Syed Abdul Malik.",
+    "as": "অঘৰী আত্মাৰ কাহিনী চৈয়দ আব্দুল মালিকৰ উপন্যাস।"
    }
   },
   {
@@ -16389,31 +16389,31 @@ module.exports = {
   {
    "id": "assamese-literature-275",
    "q": {
-    "en": "Which Assamese writer is known for the novel 'Aghari Atmar Kahini' and 'Dontal Hatir Une Khowa Howdah'?",
-    "as": "কোন অসমীয়া লেখক 'আঘৰি আত্মাৰ কাহিনী' আৰু 'দন্তাল হাতীৰ উনে খোৱা হাওদা' উপন্যাসৰ বাবে জনাজাত?"
+    "en": "Which Assamese writer is known for the novels 'Mamore Dhora Tarowal' and 'Dontal Hatir Une Khowa Howdah'?",
+    "as": "'মমৰে ধৰা তৰোৱাল' আৰু 'দন্তাল হাতীৰ উঁয়ে খোৱা হাওদা' উপন্যাসৰ বাবে কোন অসমীয়া লেখক জনাজাত?"
    },
    "options": [
     {
-     "en": "Syed Abdul Malik",
+     "en": "চৈয়দ আব্দুল মালিক",
      "as": "চৈয়দ আব্দুল মালিক"
     },
     {
-     "en": "Birendra Kumar Bhattacharyya",
+     "en": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য",
      "as": "বীৰেন্দ্ৰ কুমাৰ ভট্টাচাৰ্য"
     },
     {
-     "en": "Mamoni Raisom Goswami",
+     "en": "মামণি ৰয়ছম গোস্বামী",
      "as": "মামণি ৰয়ছম গোস্বামী"
     },
     {
-     "en": "Homen Borgohain",
+     "en": "হোমেন বৰগোহাঞি",
      "as": "হোমেন বৰগোহাঞি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Mamoni Raisom Goswami wrote Aghari Atmar Kahini and Dontal Hatir Une Khowa Howdah.",
-    "as": "মামণি ৰয়ছম গোস্বামীয়ে আঘৰি আত্মাৰ কাহিনী আৰু দন্তাল হাতীৰ উনে খোৱা হাওদা লিখিছিল।"
+    "en": "Both novels are by Mamoni Raisom Goswami.",
+    "as": "দুয়োখন উপন্যাস মামণি ৰয়ছম গোস্বামীৰ।"
    }
   },
   {
