@@ -1177,8 +1177,8 @@ module.exports = {
   {
    "id": "indian-assam-economy-040",
    "q": {
-    "en": "The largest denomination of currency note currently issued in India is —",
-    "as": "ভাৰতত বৰ্তমান জাৰি কৰা সৰ্বোচ্চ মূল্যৰ মুদ্ৰানোট কোনটো?"
+    "en": "Before the 2000-rupee note was withdrawn from circulation in 2023, the largest denomination of currency note issued in India was —",
+    "as": "২০২৩ চনত ২০০০ টকাৰ নোট প্ৰচলনৰ পৰা প্ৰত্যাহাৰ কৰাৰ আগতে ভাৰতত প্ৰচলিত সৰ্বোচ্চ মূল্যৰ নোট আছিল —"
    },
    "options": [
     {
@@ -1200,8 +1200,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "The 2000-rupee note is the largest denomination in circulation.",
-    "as": "২০০০ টকীয়া নোট প্ৰচলনত থকা সৰ্বোচ্চ মূল্যৰ নোট।"
+    "en": "The RBI withdrew the 2000-rupee note from circulation in May 2023; the highest denomination now in circulation is 500 rupees.",
+    "as": "আৰবিআইয়ে ২০২৩ চনৰ মে'ত ২০০০ টকাৰ নোট প্ৰচলনৰ পৰা প্ৰত্যাহাৰ কৰে; এতিয়া প্ৰচলিত সৰ্বোচ্চ মূল্যৰ নোট ৫০০ টকা।"
    }
   },
   {
@@ -8077,31 +8077,31 @@ module.exports = {
   {
    "id": "indian-assam-economy-270",
    "q": {
-    "en": "Which was a famous export of ancient Assam?",
-    "as": "প্ৰাচীন অসমৰ এটা বিখ্যাত ৰপ্তানি কি আছিল?"
+    "en": "Which product was a famous export of ancient Assam?",
+    "as": "প্ৰাচীন অসমৰ এটা বিখ্যাত ৰপ্তানি সামগ্ৰী কোনটো আছিল?"
    },
    "options": [
     {
-     "en": "Gold",
-     "as": "সোণ"
+     "en": "Tea",
+     "as": "চাহ"
     },
     {
-     "en": "Silk and tea",
-     "as": "পাট আৰু চাহ"
+     "en": "Silk",
+     "as": "পাট"
     },
     {
-     "en": "Diamonds",
-     "as": "হীৰা"
+     "en": "Rubber",
+     "as": "ৰবৰ"
     },
     {
-     "en": "Iron",
-     "as": "লোহা"
+     "en": "Coffee",
+     "as": "কফি"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "Silk and tea were famous exports.",
-    "as": "পাট আৰু চাহ বিখ্যাত ৰপ্তানি আছিল।"
+    "en": "The silks of Assam, especially muga, were prized from ancient times; tea and rubber came only in the colonial period.",
+    "as": "অসমৰ পাট, বিশেষকৈ মুগা, প্ৰাচীন কালৰ পৰাই মূল্যবান আছিল; চাহ আৰু ৰবৰ ঔপনিৱেশিক কালতহে আহিছিল।"
    }
   },
   {
@@ -8797,8 +8797,8 @@ module.exports = {
   {
    "id": "indian-assam-economy-294",
    "q": {
-    "en": "Which is the largest contributor to India's tax revenue?",
-    "as": "ভাৰতৰ কৰ ৰাজহত আটাইতকৈ বেছি অৱদান কাৰ?"
+    "en": "Which indirect tax contributes the largest share of India's indirect tax revenue?",
+    "as": "ভাৰতৰ পৰোক্ষ কৰ ৰাজহৰ সৰ্বাধিক অংশ কোনটো পৰোক্ষ কৰে যোগান ধৰে?"
    },
    "options": [
     {
@@ -8820,8 +8820,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "GST is the largest contributor to India's tax revenue.",
-    "as": "জিএছটি ভাৰতৰ কৰ ৰাজহত আটাইতকৈ বেছি অৱদান আগবঢ়ায়।"
+    "en": "GST is the largest single indirect tax; direct taxes as a group (income and corporation tax) still exceed it.",
+    "as": "জিএছটি সৰ্বাধিক পৰিমাণৰ একক পৰোক্ষ কৰ; কিন্তু সামগ্ৰিকভাৱে প্ৰত্যক্ষ কৰ (আয়কৰ আৰু নিগম কৰ) ইয়াতকৈ বেছি।"
    }
   },
   {
@@ -15789,8 +15789,8 @@ module.exports = {
   {
    "id": "environment-pollution-193",
    "q": {
-    "en": "Which is a renewable, clean fuel used in vehicles?",
-    "as": "বাহনত ব্যৱহৃত এটা নবীকৰণযোগ্য, পৰিষ্কাৰ ইন্ধন কি?"
+    "en": "Which cleaner fuel is used in vehicles in place of coal, petrol and diesel?",
+    "as": "কয়লা, পেট্ৰ'ল আৰু ডিজেলৰ সলনি বাহনত কোনটো অধিক পৰিষ্কাৰ ইন্ধন ব্যৱহাৰ কৰা হয়?"
    },
    "options": [
     {
@@ -15812,8 +15812,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "CNG is a cleaner fuel used in vehicles.",
-    "as": "চিএনজি বাহনত ব্যৱহৃত এটা পৰিষ্কাৰ ইন্ধন।"
+    "en": "CNG (compressed natural gas) burns cleaner than petrol and diesel; it is a fossil fuel, not a renewable source.",
+    "as": "চিএনজি (সংকুচিত প্ৰাকৃতিক গেছ) পেট্ৰ'ল আৰু ডিজেলতকৈ পৰিষ্কাৰভাৱে জ্বলে; ই জীৱাশ্ম ইন্ধন, নৱীকৰণযোগ্য নহয়।"
    }
   },
   {
