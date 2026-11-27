@@ -89478,8 +89478,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "As of 2025 India has 58 tiger reserves.",
-    "as": "২০২৫ চনলৈ ভাৰতত ৫৮ টা ব্যাঘ্ৰ প্ৰকল্প আছে।"
+    "en": "As of 2025 India has fifty-eight tiger reserves.",
+    "as": "২০২৫ চনলৈ ভাৰতত অঠাৱন্নটা ব্যাঘ্ৰ প্ৰকল্প আছে।"
    }
   },
   {
