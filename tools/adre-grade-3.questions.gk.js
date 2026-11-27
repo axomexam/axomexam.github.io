@@ -39825,8 +39825,8 @@ module.exports = {
   {
    "id": "assam-natural-resources-218",
    "q": {
-    "en": "Which crop is the main source of cash income for many farmers of Assam?",
-    "as": "অসমৰ বহু কৃষকৰ বাবে নগদ আয়ৰ প্ৰধান উৎস কোন শস্য?"
+    "en": "Which crop is Assam's principal commercial crop and the backbone of its plantation economy?",
+    "as": "অসমৰ মুখ্য বাণিজ্যিক শস্য আৰু বাগিচা অৰ্থনীতিৰ মূল ভেটি কোনটো?"
    },
    "options": [
     {
