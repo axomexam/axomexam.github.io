@@ -67159,8 +67159,8 @@ module.exports = {
   {
    "id": "world-history-139",
    "q": {
-    "en": "Who invented the telescope for astronomical use?",
-    "as": "জ্যোতিৰ্বিজ্ঞানৰ বাবে দূৰবীক্ষণ যন্ত্ৰ কোনে আৱিষ্কাৰ কৰিছিল?"
+    "en": "Who first used the telescope to study the heavens?",
+    "as": "আকাশ অধ্যয়নৰ বাবে দূৰবীক্ষণ যন্ত্ৰ প্ৰথমে কোনে ব্যৱহাৰ কৰিছিল?"
    },
    "options": [
     {
@@ -67309,8 +67309,8 @@ module.exports = {
   {
    "id": "world-history-144",
    "q": {
-    "en": "Who invented the steam engine?",
-    "as": "ভাপ ইঞ্জিন কোনে আৱিষ্কাৰ কৰিছিল?"
+    "en": "Whose improvements made the steam engine practical for industry?",
+    "as": "কাৰ উন্নয়নে বাষ্প ইঞ্জিনক উদ্যোগৰ বাবে ব্যৱহাৰযোগ্য কৰি তুলিছিল?"
    },
    "options": [
     {
