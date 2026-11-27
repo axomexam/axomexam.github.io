@@ -1542,10 +1542,6 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Article 32",
-     "as": "অনুচ্ছেদ ৩২"
-    },
-    {
      "en": "Article 14",
      "as": "অনুচ্ছেদ ১৪"
     },
@@ -1554,14 +1550,18 @@ module.exports = {
      "as": "অনুচ্ছেদ ১৩"
     },
     {
+     "en": "Article 32",
+     "as": "অনুচ্ছেদ ৩২"
+    },
+    {
      "en": "Article 21",
      "as": "অনুচ্ছেদ ২১"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Article 13 makes laws inconsistent with Fundamental Rights void.",
-    "as": "অনুচ্ছেদ ১৩ মৌলিক অধিকাৰৰ সৈতে অসঙ্গত আইন বাতিল কৰে।"
+    "en": "Article 32(4) provides that the right to constitutional remedies shall not be suspended except as otherwise provided for by the Constitution.",
+    "as": "অনুচ্ছেদ ৩২(৪) ৰ ব্যৱস্থা অনুসৰি সংবিধানে অন্য ধৰণে ব্যৱস্থা নকৰালৈকে সাংবিধানিক প্ৰতিকাৰৰ অধিকাৰ বৰখাস্ত নহয়।"
    }
   },
   {
@@ -2917,31 +2917,31 @@ module.exports = {
   {
    "id": "constitution-preamble-rights-098",
    "q": {
-    "en": "Who was the only member of the Constituent Assembly to sign the Constitution in Assamese?",
-    "as": "গণপৰিষদৰ একমাত্ৰ কোন সদস্যই অসমীয়াত সংবিধানত স্বাক্ষৰ কৰিছিল?"
+    "en": "Who chaired the Constituent Assembly sub-committee on the North-East Frontier Tribal Areas and the Assam Excluded and Partially Excluded Areas?",
+    "as": "সংবিধান সভাৰ উত্তৰ-পূৰ্ব সীমান্ত জনজাতীয় অঞ্চল তথা অসমৰ বাদ দিয়া আৰু আংশিকভাৱে বাদ দিয়া অঞ্চল উপসমিতিৰ অধ্যক্ষ কোন আছিল?"
    },
    "options": [
     {
-     "en": "Satyendranath Sarma",
-     "as": "সত্যেন্দ্ৰনাথ শৰ্মা"
-    },
-    {
-     "en": "Gopinath Bardoloi",
+     "en": "Gopinath Bordoloi",
      "as": "গোপীনাথ বৰদলৈ"
     },
     {
-     "en": "Bishnuram Medhi",
-     "as": "বিষ্ণুৰাম মেধি"
+     "en": "J. B. Kripalani",
+     "as": "জে. বি. কৃপালানী"
     },
     {
-     "en": "Fakaruddin Ali Ahmed",
-     "as": "ফখৰুদ্দিন আলী আহমেদ"
+     "en": "Harendra Coomar Mookerjee",
+     "as": "হৰেন্দ্ৰ কুমাৰ মুখাৰ্জী"
+    },
+    {
+     "en": "Thakkar Bapa",
+     "as": "ঠাক্কৰ বাপা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Satyendranath Sarma, an Assamese member, signed the Constitution.",
-    "as": "সত্যেন্দ্ৰনাথ শৰ্মা, এজন অসমীয়া সদস্যই, সংবিধানত স্বাক্ষৰ কৰিছিল।"
+    "en": "Gopinath Bordoloi chaired the North-East Frontier Tribal Areas and Assam Excluded and Partially Excluded Areas Sub-Committee.",
+    "as": "গোপীনাথ বৰদলৈয়ে উত্তৰ-পূৰ্ব সীমান্ত জনজাতীয় অঞ্চল তথা অসমৰ বাদ দিয়া আৰু আংশিকভাৱে বাদ দিয়া অঞ্চল উপসমিতিৰ অধ্যক্ষতা কৰিছিল।"
    }
   },
   {
@@ -7989,8 +7989,8 @@ module.exports = {
   {
    "id": "president-pm-governor-cm-060",
    "q": {
-    "en": "The President can nominate how many members to the Lok Sabha?",
-    "as": "ৰাষ্ট্ৰপতিয়ে লোকসভালৈ কিমানজন সদস্য মনোনীত কৰিব পাৰে?"
+    "en": "Before the 104th Amendment (2020), the President could nominate how many members of the Anglo-Indian community to the Lok Sabha?",
+    "as": "১০৪ সংখ্যক সংশোধনী (২০২০)ৰ আগলৈকে ৰাষ্ট্ৰপতিয়ে এংগ্লো-ইণ্ডিয়ান সম্প্ৰদায়ৰ কিমানজন সদস্য লোকসভালৈ মনোনীত কৰিব পাৰিছিল?"
    },
    "options": [
     {
@@ -8349,8 +8349,8 @@ module.exports = {
   {
    "id": "president-pm-governor-cm-072",
    "q": {
-    "en": "The Governor can nominate how many members to the State Legislative Assembly?",
-    "as": "ৰাজ্যপালে ৰাজ্য বিধানসভালৈ কিমানজন সদস্য মনোনীত কৰিব পাৰে?"
+    "en": "Before the 104th Amendment (2020), the Governor could nominate how many members of the Anglo-Indian community to the State Legislative Assembly?",
+    "as": "১০৪ সংখ্যক সংশোধনী (২০২০)ৰ আগলৈকে ৰাজ্যপালে এংগ্লো-ইণ্ডিয়ান সম্প্ৰদায়ৰ কিমানজন সদস্য ৰাজ্য বিধানসভালৈ মনোনীত কৰিব পাৰিছিল?"
    },
    "options": [
     {
@@ -16186,20 +16186,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Defence",
-     "as": "প্ৰতিৰক্ষা"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Rural housing",
-     "as": "গ্ৰামীণ আবাসন"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     },
     {
-     "en": "Railways",
-     "as": "ৰে'লপথ"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Currency",
-     "as": "মুদ্ৰা"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     }
    ],
    "correct": 1,
@@ -16216,20 +16216,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Drinking water",
-     "as": "খোৱাপানী"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     },
     {
-     "en": "Atomic energy",
-     "as": "পাৰমাণৱিক শক্তি"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Posts and telegraphs",
-     "as": "ডাক আৰু তাৰ"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Currency",
-     "as": "মুদ্ৰা"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     }
    ],
    "correct": 0,
@@ -16246,20 +16246,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Defence",
-     "as": "প্ৰতিৰক্ষা"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Poverty alleviation",
-     "as": "দৰিদ্ৰতা নিৰ্মূল"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     },
     {
-     "en": "Banking",
-     "as": "বেংকিং"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Insurance",
-     "as": "বীমা"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     }
    ],
    "correct": 1,
@@ -16276,20 +16276,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Defence",
-     "as": "প্ৰতিৰক্ষা"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Currency",
-     "as": "মুদ্ৰা"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Atomic energy",
-     "as": "পাৰমাণৱিক শক্তি"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     },
     {
-     "en": "Primary education",
-     "as": "প্ৰাথমিক শিক্ষা"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     }
    ],
    "correct": 3,
@@ -16306,20 +16306,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Railways",
-     "as": "ৰে'লপথ"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Currency",
-     "as": "মুদ্ৰা"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Public health",
-     "as": "ৰাজহুৱা স্বাস্থ্য"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     },
     {
-     "en": "Defence",
-     "as": "প্ৰতিৰক্ষা"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     }
    ],
    "correct": 2,
@@ -16336,20 +16336,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Defence",
-     "as": "প্ৰতিৰক্ষা"
+     "en": "Sixth Schedule",
+     "as": "ষষ্ঠ অনুসূচী"
     },
     {
-     "en": "Currency",
-     "as": "মুদ্ৰা"
+     "en": "Seventh Schedule",
+     "as": "সপ্তম অনুসূচী"
     },
     {
-     "en": "Insurance",
-     "as": "বীমা"
+     "en": "Twelfth Schedule",
+     "as": "দ্বাদশ অনুসূচী"
     },
     {
-     "en": "Minor irrigation",
-     "as": "লঘু জলসিঞ্চন"
+     "en": "Eleventh Schedule",
+     "as": "একাদশ অনুসূচী"
     }
    ],
    "correct": 3,
@@ -16816,26 +16816,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "different in every State only",
-     "as": "কেৱল প্ৰতিখন ৰাজ্যত বেলেগ"
+     "en": "applicable only to Assam",
+     "as": "কেৱল অসমত প্ৰযোজ্য"
     },
     {
-     "en": "absent in some States",
-     "as": "কিছুমান ৰাজ্যত অনুপস্থিত"
+     "en": "applicable only if a State Legislature adopts it",
+     "as": "ৰাজ্যৰ বিধানমণ্ডলে গ্ৰহণ কৰিলেহে প্ৰযোজ্য"
     },
     {
-     "en": "uniform throughout the country",
-     "as": "সমগ্ৰ দেশত একে ধৰণৰ"
+     "en": "applicable to all States except Nagaland, Meghalaya, Mizoram and certain Scheduled and tribal areas",
+     "as": "নাগালেণ্ড, মেঘালয়, মিজোৰাম আৰু কিছুমান অনুসূচিত আৰু জনজাতীয় অঞ্চলৰ বাহিৰে সকলো ৰাজ্যতে প্ৰযোজ্য"
     },
     {
-     "en": "only in urban areas",
-     "as": "কেৱল চহৰীয়া অঞ্চলত"
+     "en": "not applicable to any State",
+     "as": "কোনো ৰাজ্যতে প্ৰযোজ্য নহয়"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "It is broadly uniform, with variations allowed for certain areas.",
-    "as": "ই বহুলাংশে একে ধৰণৰ, কিছুমান অঞ্চলৰ বাবে ভিন্নতাৰ অনুমতিৰ সৈতে।"
+    "en": "Article 243M exempts Nagaland, Meghalaya, Mizoram and the Scheduled and tribal areas from the Panchayat provisions.",
+    "as": "অনুচ্ছেদ ২৪৩M-এ নাগালেণ্ড, মেঘালয়, মিজোৰাম আৰু অনুসূচিত তথা জনজাতীয় অঞ্চলক পঞ্চায়ত বিধানৰ পৰা ৰেহাই দিছে।"
    }
   },
   {
