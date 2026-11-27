@@ -35593,8 +35593,8 @@ module.exports = {
   {
    "id": "indian-history-ancient-137",
    "q": {
-    "en": "Which Mahajanapada in the east lay in present-day Bengal?",
-    "as": "পূবৰ কোন মহাজনপদ বৰ্তমান বংগত অৱস্থিত আছিল?"
+    "en": "Which ancient region of the east lay in present-day Bengal?",
+    "as": "পূৱৰ কোন প্ৰাচীন অঞ্চল আজিৰ বংগত আছিল?"
    },
    "options": [
     {
@@ -35616,8 +35616,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Vanga was a Mahajanapada in the east.",
-    "as": "বংগ পূবত এটা মহাজনপদ আছিল।"
+    "en": "Vanga was the ancient name of the Bengal delta region; it is not counted among the sixteen Mahajanapadas.",
+    "as": "বংগ অঞ্চলৰ প্ৰাচীন নাম আছিল ভঙ্গ; ই ষোল্ল মহাজনপদৰ ভিতৰত গণ্য নহয়।"
    }
   },
   {
@@ -37333,8 +37333,8 @@ module.exports = {
   {
    "id": "indian-history-ancient-195",
    "q": {
-    "en": "Which Mauryan emperor is associated with the first Buddhist Council's patronage?",
-    "as": "প্ৰথম বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতাৰ লগত কোন মৌৰ্য সম্ৰাট জড়িত?"
+    "en": "Which Mauryan emperor patronised the third Buddhist Council?",
+    "as": "কোন মৌৰ্য সম্ৰাটে তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল?"
    },
    "options": [
     {
@@ -37350,14 +37350,14 @@ module.exports = {
      "as": "বৃহদ্ৰথ"
     },
     {
-     "en": "Ashoka (third council)",
-     "as": "অশোক (তৃতীয় সংগীতি)"
+     "en": "Ashoka",
+     "as": "অশোক"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Ashoka patronised the third Buddhist Council.",
-    "as": "অশোকে তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল।"
+    "en": "Ashoka patronised the third Buddhist Council at Pataliputra; the first council was held under Ajatashatru.",
+    "as": "অশোকে পাটলিপুত্ৰত অনুষ্ঠিত তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল; প্ৰথম সংগীতি অজাতশত্ৰুৰ সময়ত হৈছিল।"
    }
   },
   {
@@ -38653,8 +38653,8 @@ module.exports = {
   {
    "id": "indian-history-ancient-239",
    "q": {
-    "en": "Which Gupta-era cave is famous for its sculptures?",
-    "as": "ইয়াৰ ভাস্কৰ্যৰ বাবে কোন গুপ্ত-কালৰ গুহা বিখ্যাত?"
+    "en": "Which cave site is famous for its sculptures, including the Kailasa temple?",
+    "as": "কাইলাস মন্দিৰকে ধৰি ভাস্কৰ্যৰ বাবে কোন গুহা ক্ষেত্ৰ বিখ্যাত?"
    },
    "options": [
     {
@@ -38676,8 +38676,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "The Ellora caves are famous for their sculptures, including Gupta-era work.",
-    "as": "এলোৰা গুহা ইয়াৰ ভাস্কৰ্যৰ বাবে বিখ্যাত, গুপ্ত-কালৰ কামকে ধৰি।"
+    "en": "The Ellora caves, carved between the sixth and tenth centuries, are famous for sculpture, above all the Kailasa temple.",
+    "as": "ষষ্ঠৰ পৰা দশম শতিকাৰ ভিতৰত খোদিত এলোৰা গুহাসমূহ ভাস্কৰ্যৰ বাবে বিখ্যাত, বিশেষকৈ কাইলাস মন্দিৰ।"
    }
   },
   {
@@ -38713,8 +38713,8 @@ module.exports = {
   {
    "id": "indian-history-ancient-241",
    "q": {
-    "en": "Who is credited with the concept of zero in ancient India?",
-    "as": "প্ৰাচীন ভাৰতত শূন্যৰ ধাৰণাৰ কৃতিত্ব কোনক দিয়া হয়?"
+    "en": "Which ancient Indian astronomer wrote the Aryabhatiya and used a place-value system?",
+    "as": "কোন প্ৰাচীন ভাৰতীয় জ্যোতিৰ্বিজ্ঞানীয়ে আৰ্যভটীয় ৰচনা কৰিছিল আৰু স্থান-মূল্য পদ্ধতি ব্যৱহাৰ কৰিছিল?"
    },
    "options": [
     {
@@ -38736,8 +38736,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Aryabhata is credited with early work on the concept of zero and mathematics.",
-    "as": "আৰ্যভট্টক শূন্যৰ ধাৰণা আৰু গণিতৰ প্ৰাৰম্ভিক কামৰ কৃতিত্ব দিয়া হয়।"
+    "en": "Aryabhata (5th century CE) wrote the Aryabhatiya; explicit rules for zero are associated with Brahmagupta.",
+    "as": "আৰ্যভট্টে (পঞ্চম শতিকা) আৰ্যভটীয় ৰচনা কৰিছিল; শূন্যৰ স্পষ্ট নিয়ম ব্ৰহ্মগুপ্তৰ সৈতে জড়িত।"
    }
   },
   {

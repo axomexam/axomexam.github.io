@@ -1175,8 +1175,8 @@ module.exports = [
   "পাঞ্চাল উত্তৰত এটা মহাজনপদ আছিল।"
  ],
  [
-  "Which Mahajanapada in the east lay in present-day Bengal?",
-  "পূবৰ কোন মহাজনপদ বৰ্তমান বংগত অৱস্থিত আছিল?",
+  "Which ancient region of the east lay in present-day Bengal?",
+  "পূৱৰ কোন প্ৰাচীন অঞ্চল আজিৰ বংগত আছিল?",
   [
    "Vanga",
    "বংগ",
@@ -1188,8 +1188,8 @@ module.exports = [
    "কুৰু"
   ],
   0,
-  "Vanga was a Mahajanapada in the east.",
-  "বংগ পূবত এটা মহাজনপদ আছিল।"
+  "Vanga was the ancient name of the Bengal delta region; it is not counted among the sixteen Mahajanapadas.",
+  "বংগ অঞ্চলৰ প্ৰাচীন নাম আছিল ভঙ্গ; ই ষোল্ল মহাজনপদৰ ভিতৰত গণ্য নহয়।"
  ],
  [
   "Which Mahajanapada in the east had its capital at Varanasi?",

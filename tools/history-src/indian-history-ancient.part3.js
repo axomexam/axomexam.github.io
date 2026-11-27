@@ -257,11 +257,11 @@ module.exports = [
   "অশোক চক্ৰ অশোকৰ শিলালিপিৰ এটা চক্ৰ প্ৰতীক, ভাৰতীয় পতাকাত থকা।"
  ],
  [
-  "Which Mauryan emperor is associated with the first Buddhist Council's patronage?",
-  "প্ৰথম বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতাৰ লগত কোন মৌৰ্য সম্ৰাট জড়িত?",
+  "Which Mauryan emperor patronised the third Buddhist Council?",
+  "কোন মৌৰ্য সম্ৰাটে তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল?",
   [
-   "Ashoka (third council)",
-   "অশোক (তৃতীয় সংগীতি)",
+   "Ashoka",
+   "অশোক",
    "Chandragupta Maurya",
    "চন্দ্ৰগুপ্ত মৌৰ্য",
    "Bindusara",
@@ -270,8 +270,8 @@ module.exports = [
    "বৃহদ্ৰথ"
   ],
   0,
-  "Ashoka patronised the third Buddhist Council.",
-  "অশোকে তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল।"
+  "Ashoka patronised the third Buddhist Council at Pataliputra; the first council was held under Ajatashatru.",
+  "অশোকে পাটলিপুত্ৰত অনুষ্ঠিত তৃতীয় বৌদ্ধ সংগীতিৰ পৃষ্ঠপোষকতা কৰিছিল; প্ৰথম সংগীতি অজাতশত্ৰুৰ সময়ত হৈছিল।"
  ],
  [
   "Where was the third Buddhist Council held?",
@@ -1005,8 +1005,8 @@ module.exports = [
   "অজন্তা গুহা ইয়াৰ গুপ্ত-কালৰ চিত্ৰকলাৰ বাবে বিখ্যাত।"
  ],
  [
-  "Which Gupta-era cave is famous for its sculptures?",
-  "ইয়াৰ ভাস্কৰ্যৰ বাবে কোন গুপ্ত-কালৰ গুহা বিখ্যাত?",
+  "Which cave site is famous for its sculptures, including the Kailasa temple?",
+  "কাইলাস মন্দিৰকে ধৰি ভাস্কৰ্যৰ বাবে কোন গুহা ক্ষেত্ৰ বিখ্যাত?",
   [
    "The Ellora caves",
    "এলোৰা গুহা",
@@ -1018,8 +1018,8 @@ module.exports = [
    "এলিফেণ্টা গুহা"
   ],
   0,
-  "The Ellora caves are famous for their sculptures, including Gupta-era work.",
-  "এলোৰা গুহা ইয়াৰ ভাস্কৰ্যৰ বাবে বিখ্যাত, গুপ্ত-কালৰ কামকে ধৰি।"
+  "The Ellora caves, carved between the sixth and tenth centuries, are famous for sculpture, above all the Kailasa temple.",
+  "ষষ্ঠৰ পৰা দশম শতিকাৰ ভিতৰত খোদিত এলোৰা গুহাসমূহ ভাস্কৰ্যৰ বাবে বিখ্যাত, বিশেষকৈ কাইলাস মন্দিৰ।"
  ],
  [
   "Which of the following was a Gupta-era scientific achievement?",
@@ -1039,8 +1039,8 @@ module.exports = [
   "শূন্যৰ ধাৰণা আৰু দশমিক ব্যৱস্থা গুপ্ত-কালৰ কৃতিত্ব আছিল।"
  ],
  [
-  "Who is credited with the concept of zero in ancient India?",
-  "প্ৰাচীন ভাৰতত শূন্যৰ ধাৰণাৰ কৃতিত্ব কোনক দিয়া হয়?",
+  "Which ancient Indian astronomer wrote the Aryabhatiya and used a place-value system?",
+  "কোন প্ৰাচীন ভাৰতীয় জ্যোতিৰ্বিজ্ঞানীয়ে আৰ্যভটীয় ৰচনা কৰিছিল আৰু স্থান-মূল্য পদ্ধতি ব্যৱহাৰ কৰিছিল?",
   [
    "Aryabhata",
    "আৰ্যভট্ট",
@@ -1052,8 +1052,8 @@ module.exports = [
    "ব্ৰহ্মগুপ্ত"
   ],
   0,
-  "Aryabhata is credited with early work on the concept of zero and mathematics.",
-  "আৰ্যভট্টক শূন্যৰ ধাৰণা আৰু গণিতৰ প্ৰাৰম্ভিক কামৰ কৃতিত্ব দিয়া হয়।"
+  "Aryabhata (5th century CE) wrote the Aryabhatiya; explicit rules for zero are associated with Brahmagupta.",
+  "আৰ্যভট্টে (পঞ্চম শতিকা) আৰ্যভটীয় ৰচনা কৰিছিল; শূন্যৰ স্পষ্ট নিয়ম ব্ৰহ্মগুপ্তৰ সৈতে জড়িত।"
  ],
  [
   "Who wrote the 'Aryabhatiya'?",
