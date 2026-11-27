@@ -957,8 +957,8 @@ module.exports = [
   "Which Maratha leader established a kingdom at Indore?",
   "ইন্দোৰত ৰাজ্য প্ৰতিষ্ঠা কৰা মাৰাঠা নেতা কোন আছিল?",
   [
-   "Ahilyabai Holkar",
-   "অহিল্যাবাই হোলকাৰ",
+   "Malhar Rao Holkar",
+   "মলহাৰ ৰাও হোলকাৰ",
    "Baji Rao I",
    "বাজী ৰাও প্ৰথম",
    "Shivaji",
@@ -967,8 +967,8 @@ module.exports = [
    "সম্ভাজী"
   ],
   0,
-  "Ahilyabai Holkar ruled the Maratha kingdom at Indore.",
-  "অহিল্যাবাই হোলকাৰে ইন্দোৰত মাৰাঠা ৰাজ্য শাসন কৰিছিল।"
+  "Malhar Rao Holkar was the founding ruler of the Holkar state at Indore in 1732; Ahilyabai ruled later from Maheshwar.",
+  "মলহাৰ ৰাও হোলকাৰে ১৭৩২ চনত ইন্দোৰত হোলকাৰ ৰাজ্যৰ প্ৰতিষ্ঠা কৰিছিল; অহল্যাবাই পিছত মহেশ্বৰৰ পৰা শাসন কৰিছিল।"
  ],
  [
   "Who founded the Bhakti movement in North India?",
@@ -1617,8 +1617,8 @@ module.exports = [
   "ৰাম আৰু কৃষ্ণ উপাসনা উত্তৰ ভাৰতত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য আছিল।"
  ],
  [
-  "Which deities were mainly worshipped in the North Indian Bhakti movement?",
-  "উত্তৰ ভাৰতীয় ভক্তি আন্দোলনত মূলত কোন দেৱতাৰ উপাসনা কৰা হৈছিল?",
+  "Which literary development is associated with the Bhakti movement?",
+  "ভক্তি আন্দোলনে পুৰোহিতসকলৰ ভূমিকাক কেনেদৰে দেখিছিল?",
   [
    "The belief in a personal god",
    "এক ব্যক্তিগত দেৱতাত বিশ্বাস",
@@ -1652,7 +1652,7 @@ module.exports = [
  ],
  [
   "How did the Bhakti movement view the role of priests?",
-  "ভক্তি আন্দোলনে পুৰোহিতৰ ভূমিকাক কেনেদৰে চাইছিল?",
+  "ভক্তি আন্দোলনে ৰীতি-নীতিতকৈ বেছি মূল্য কাহানিক দিছিল?",
   [
    "The emphasis on devotion over ritual",
    "আচাৰ-অনুষ্ঠানতকৈ ভক্তিৰ ওপৰত জোৰ",
@@ -1669,7 +1669,7 @@ module.exports = [
  ],
  [
   "What did the Bhakti movement value more than ritual?",
-  "ভক্তি আন্দোলনে আচাৰ-অনুষ্ঠানতকৈ কাক বেছি মূল্য দিছিল?",
+  "ভক্তি আন্দোলনে বিভিন্ন পৃষ্ঠভূমিৰ ভক্তসকলৰ বিষয়ে কি শিক্ষা দিছিল?",
   [
    "The emphasis on equality of all devotees",
    "সকলো ভক্তৰ সমতাৰ ওপৰত জোৰ",
@@ -1686,7 +1686,7 @@ module.exports = [
  ],
  [
   "What did the Bhakti movement teach about devotees of different backgrounds?",
-  "ভক্তি আন্দোলনে বিভিন্ন পৃষ্ঠভূমিৰ ভক্তসকলৰ বিষয়ে কি শিকাইছিল?",
+  "ভক্তি আন্দোলনে কেনেধৰণৰ ধৰ্মীয় অভিজ্ঞতাৰ ওপৰত গুৰুত্ব দিছিল?",
   [
    "The emphasis on personal experience of god",
    "ঈশ্বৰৰ ব্যক্তিগত অভিজ্ঞতাৰ ওপৰত জোৰ",
@@ -1703,7 +1703,7 @@ module.exports = [
  ],
  [
   "What kind of religious experience did the Bhakti movement stress?",
-  "ভক্তি আন্দোলনে কি ধৰণৰ ধৰ্মীয় অভিজ্ঞতাৰ ওপৰত জোৰ দিছিল?",
+  "ভক্তিৰ স্তৱকসমূহ কোনবোৰ ভাষাত ৰচনা কৰা হৈছিল?",
   [
    "The composition of hymns in regional languages",
    "আঞ্চলিক ভাষাত স্তৱ ৰচনা",
@@ -1720,7 +1720,7 @@ module.exports = [
  ],
  [
   "In which languages were Bhakti hymns composed?",
-  "কোন ভাষাত ভক্তিৰ স্তৱ ৰচিত হৈছিল?",
+  "কোনবোৰ সামাজিক শ্ৰেণীত ভক্তি আন্দোলন বিয়পি পৰিছিল?",
   [
    "The spread of devotion among all classes",
    "সকলো শ্ৰেণীৰ মাজত ভক্তিৰ প্ৰসাৰ",
@@ -1737,7 +1737,7 @@ module.exports = [
  ],
  [
   "Among which social groups did the Bhakti movement spread?",
-  "কোন সামাজিক শ্ৰেণীৰ মাজত ভক্তি আন্দোলন বিয়পিছিল?",
+  "ভক্তি আন্দোলনত সংগীত আৰু নৃত্যৰ ভূমিকা কি আছিল?",
   [
    "The use of music and dance in worship",
    "উপাসনাত সংগীত আৰু নৃত্যৰ ব্যৱহাৰ",
@@ -1754,7 +1754,7 @@ module.exports = [
  ],
  [
   "What role did music and dance play in the Bhakti movement?",
-  "ভক্তি আন্দোলনত সংগীত আৰু নৃত্যৰ কি ভূমিকা আছিল?",
+  "ভক্তি আন্দোলনৰ সৈতে কোনটো সাহিত্যিক বিকাশ জড়িত?",
   [
    "The growth of vernacular literature",
    "দেশজ ভাষাৰ সাহিত্যৰ বিকাশ",
