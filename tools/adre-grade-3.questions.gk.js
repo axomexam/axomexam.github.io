@@ -105419,241 +105419,241 @@ module.exports = {
   {
    "id": "government-schemes-187",
    "q": {
-    "en": "Viksit Gram Swaraj Yojana is a scheme related to which field?",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+    "en": "Pradhan Mantri Matsya Sampada Yojana is a scheme related to which field?",
+    "as": "প্ৰধানমন্ত্ৰী মত্স্য সম্পদ যোজনা কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
    },
    "options": [
     {
-     "en": "rural development and governance",
-     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+     "en": "rural roads",
+     "as": "গ্ৰাম্য পথ"
     },
     {
-     "en": "farm tools and equipment to farmers",
-     "as": "কৃষকক কৃষি সা-সঁজুলি"
+     "en": "fisheries sector development",
+     "as": "মীনপালন খণ্ডৰ বিকাশ"
     },
     {
-     "en": "health insurance",
-     "as": "স্বাস্থ্য বীমা"
+     "en": "urban housing",
+     "as": "চহৰীয়া আৱাস"
     },
     {
-     "en": "support to traditional artisans and craftspeople",
-     "as": "পৰম্পৰাগত শিল্পী আৰু কাৰিকৰক সহায়"
+     "en": "railway modernisation",
+     "as": "ৰে’লৱে আধুনিকীকৰণ"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Viksit Gram Swaraj Yojana is a scheme related to rural development and governance.",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত এটা আঁচনি।"
+    "en": "PMMSY works for the development of the fisheries sector and the income of fishers.",
+    "as": "PMMSY মীনপালন খণ্ডৰ বিকাশ আৰু মাছমৰীয়াৰ আয় বৃদ্ধিৰ বাবে কাম কৰে।"
    }
   },
   {
    "id": "government-schemes-188",
    "q": {
-    "en": "Who are the main beneficiaries of Viksit Gram Swaraj Yojana?",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনাৰ প্ৰধান উপকাৰী কোন?"
+    "en": "Who are the main beneficiaries of Pradhan Mantri Matsya Sampada Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী মত্স্য সম্পদ যোজনাৰ মূল উপকৃতকৰ্তা কোন?"
    },
    "options": [
     {
-     "en": "artisans and craftspeople",
-     "as": "শিল্পী আৰু কাৰিকৰ"
+     "en": "street vendors",
+     "as": "পথ বেপাৰী"
     },
     {
-     "en": "small business owners",
-     "as": "সৰু ব্যৱসায়ী"
+     "en": "fishers and fish farmers",
+     "as": "মাছমৰীয়া আৰু মীন পালনকৰ্তা"
     },
     {
-     "en": "rural population",
-     "as": "গ্ৰাম্য জনগণ"
+     "en": "college students",
+     "as": "মহাবিদ্যালয়ৰ শিক্ষাৰ্থী"
     },
     {
-     "en": "investors",
-     "as": "বিনিয়োগকাৰী"
+     "en": "senior citizens",
+     "as": "জ্যেষ্ঠ নাগৰিক"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "The main beneficiaries of Viksit Gram Swaraj Yojana are rural population.",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনাৰ প্ৰধান উপকাৰী গ্ৰাম্য জনগণ।"
+    "en": "Fishers, fish farmers and fisheries workers are the main beneficiaries.",
+    "as": "মাছমৰীয়া, মীন পালনকৰ্তা আৰু মীনপালন শ্ৰমিকেই মূল উপকৃতকৰ্তা।"
    }
   },
   {
    "id": "government-schemes-189",
    "q": {
-    "en": "In which year was Viksit Gram Swaraj Yojana launched?",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা কিমান চনত আৰম্ভ কৰা হৈছিল?"
+    "en": "Which ministry implements the Pradhan Mantri Matsya Sampada Yojana?",
+    "as": "প্ৰধানমন্ত্ৰী মত্স্য সম্পদ যোজনা কোন মন্ত্ৰালয়ে ৰূপায়ণ কৰে?"
    },
    "options": [
     {
-     "en": "2026",
-     "as": "২০২৬"
+     "en": "Ministry of Fisheries, Animal Husbandry and Dairying",
+     "as": "মীনপালন, পশুধন আৰু দুগ্ধ বিভাগ মন্ত্ৰালয়"
     },
     {
-     "en": "2018",
-     "as": "২০১৮"
+     "en": "Ministry of Railways",
+     "as": "ৰে’লৱে মন্ত্ৰালয়"
     },
     {
-     "en": "2005",
-     "as": "২০০৫"
+     "en": "Ministry of Defence",
+     "as": "প্ৰতিৰক্ষা মন্ত্ৰালয়"
     },
     {
-     "en": "2021",
-     "as": "২০২১"
+     "en": "Ministry of Textiles",
+     "as": "বস্ত্ৰ মন্ত্ৰালয়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Viksit Gram Swaraj Yojana was launched in 2026.",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা 2026 চনত আৰম্ভ কৰা হৈছিল।"
+    "en": "It is implemented by the Ministry of Fisheries, Animal Husbandry and Dairying.",
+    "as": "ইয়াক মীনপালন, পশুধন আৰু দুগ্ধ বিভাগ মন্ত্ৰালয়ে ৰূপায়ণ কৰে।"
    }
   },
   {
    "id": "government-schemes-190",
    "q": {
-    "en": "Which scheme is related to rural development and governance?",
-    "as": "কোন আঁচনি গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত?"
+    "en": "Which scheme is related to the development of the fisheries sector?",
+    "as": "কোন আঁচনিখন মীনপালন খণ্ডৰ বিকাশৰ সৈতে জড়িত?"
    },
    "options": [
     {
-     "en": "Jal Jeevan Mission",
-     "as": "জল জীৱন মিছন"
+     "en": "Soil Health Card Scheme",
+     "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনি"
     },
     {
-     "en": "Atal Pension Yojana",
-     "as": "অটল পেঞ্চন যোজনা"
+     "en": "PM Poshan",
+     "as": "পিএম পোষণ"
     },
     {
-     "en": "Viksit Gram Swaraj Yojana",
-     "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা"
+     "en": "Pradhan Mantri Matsya Sampada Yojana",
+     "as": "প্ৰধানমন্ত্ৰী মত্স্য সম্পদ যোজনা"
     },
     {
-     "en": "Pradhan Mantri Garib Kalyan Anna Yojana",
-     "as": "প্ৰধানমন্ত্ৰী গৰীব কল্যাণ অন্ন যোজনা"
+     "en": "Saubhagya",
+     "as": "সৌভাগ্য"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Viksit Gram Swaraj Yojana is related to rural development and governance.",
-    "as": "বিকসিত গ্ৰাম স্বৰাজ যোজনা গ্ৰাম্য উন্নয়ন আৰু শাসনৰ সৈতে জড়িত।"
+    "en": "The Pradhan Mantri Matsya Sampada Yojana is related to fisheries development.",
+    "as": "প্ৰধানমন্ত্ৰী মত্স্য সম্পদ যোজনা মীনপালন বিকাশৰ সৈতে জড়িত।"
    }
   },
   {
    "id": "government-schemes-191",
    "q": {
-    "en": "Khelo India Sports Goods Manufacturing Scheme is a scheme related to which field?",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত আঁচনি?"
+    "en": "Soil Health Card Scheme is a scheme related to which field?",
+    "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনি কোন ক্ষেত্ৰৰ সৈতে জড়িত?"
    },
    "options": [
     {
-     "en": "land records and revenue services",
-     "as": "ভূমি পঞ্জী আৰু ৰাজহ সেৱা"
+     "en": "soil testing and fertiliser advice",
+     "as": "মৃত্তিকা পৰীক্ষা আৰু সাৰ পৰামৰ্শ"
     },
     {
-     "en": "guaranteed rural wage employment",
-     "as": "গ্ৰাম্য মজুৰি নিয়োগৰ নিশ্চয়তা"
+     "en": "airport construction",
+     "as": "বিমানবন্দৰ নিৰ্মাণ"
     },
     {
-     "en": "rural development and governance",
-     "as": "গ্ৰাম্য উন্নয়ন আৰু শাসন"
+     "en": "digital payments",
+     "as": "ডিজিটেল পেমেণ্ট"
     },
     {
-     "en": "manufacturing of sports goods",
-     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদন"
+     "en": "sports coaching",
+     "as": "ক্ৰীড়া প্ৰশিক্ষণ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "Khelo India Sports Goods Manufacturing Scheme is a scheme related to manufacturing of sports goods.",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত এটা আঁচনি।"
+    "en": "The scheme gives farmers crop-wise nutrient and fertiliser advice based on soil tests.",
+    "as": "আঁচনিখনে মৃত্তিকা পৰীক্ষাৰ আধাৰত শস্য অনুসৰি পুষ্টি আৰু সাৰৰ পৰামৰ্শ কৃষকক দিয়ে।"
    }
   },
   {
    "id": "government-schemes-192",
    "q": {
-    "en": "Who are the main beneficiaries of Khelo India Sports Goods Manufacturing Scheme?",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনিৰ প্ৰধান উপকাৰী কোন?"
+    "en": "Who are the main beneficiaries of the Soil Health Card Scheme?",
+    "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনিৰ মূল উপকৃতকৰ্তা কোন?"
    },
    "options": [
     {
-     "en": "sports goods manufacturers",
-     "as": "ক্ৰীড়া সামগ্ৰী উৎপাদক"
+     "en": "farmers",
+     "as": "কৃষক"
     },
     {
-     "en": "young entrepreneurs",
-     "as": "যুৱ উদ্যোগী"
+     "en": "teachers",
+     "as": "শিক্ষক"
     },
     {
-     "en": "rural households",
-     "as": "গ্ৰাম্য পৰিয়াল"
+     "en": "shopkeepers",
+     "as": "দোকানী"
     },
     {
-     "en": "women investors",
-     "as": "মহিলা বিনিয়োগকাৰী"
+     "en": "doctors",
+     "as": "চিকিৎসক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The main beneficiaries of Khelo India Sports Goods Manufacturing Scheme are sports goods manufacturers.",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনিৰ প্ৰধান উপকাৰী ক্ৰীড়া সামগ্ৰী উৎপাদক।"
+    "en": "Farmers are the main beneficiaries of the scheme.",
+    "as": "কৃষকেই এই আঁচনিৰ মূল উপকৃতকৰ্তা।"
    }
   },
   {
    "id": "government-schemes-193",
    "q": {
-    "en": "In which year was Khelo India Sports Goods Manufacturing Scheme launched?",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি কিমান চনত আৰম্ভ কৰা হৈছিল?"
+    "en": "In which year was the Soil Health Card Scheme launched?",
+    "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনি কোন বছৰত আৰম্ভ কৰা হৈছিল?"
    },
    "options": [
     {
-     "en": "2017",
-     "as": "২০১৭"
+     "en": "2015",
+     "as": "২০১৫"
     },
     {
-     "en": "2026",
-     "as": "২০২৬"
+     "en": "2010",
+     "as": "২০১০"
     },
     {
-     "en": "2004",
-     "as": "২০০৪"
+     "en": "2019",
+     "as": "২০১৯"
     },
     {
-     "en": "2021",
-     "as": "২০২১"
+     "en": "2022",
+     "as": "২০২২"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "Khelo India Sports Goods Manufacturing Scheme was launched in 2026.",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি 2026 চনত আৰম্ভ কৰা হৈছিল।"
+    "en": "It was launched on 19 February 2015.",
+    "as": "ইয়াক ২০১৫ চনৰ ১৯ ফেব্ৰুৱাৰীত আৰম্ভ কৰা হৈছিল।"
    }
   },
   {
    "id": "government-schemes-194",
    "q": {
-    "en": "Which scheme is related to manufacturing of sports goods?",
-    "as": "কোন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত?"
+    "en": "Which scheme is related to soil testing and fertiliser advice for farmers?",
+    "as": "কোন আঁচনিখন কৃষকৰ বাবে মৃত্তিকা পৰীক্ষা আৰু সাৰ পৰামৰ্শৰ সৈতে জড়িত?"
    },
    "options": [
     {
-     "en": "Assam Micro Finance Incentive and Relief Scheme",
-     "as": "অসম মাইক্ৰ' ফাইনেন্স প্ৰণোদনা আৰু ৰেহাই আঁচনি"
+     "en": "Ayushman Bharat",
+     "as": "আয়ুষ্মান ভাৰত"
+    },
+    {
+     "en": "Soil Health Card Scheme",
+     "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনি"
     },
     {
      "en": "Ujjwala Yojana",
      "as": "উজ্জ্বলা যোজনা"
     },
     {
-     "en": "iDEX",
-     "as": "আইডেক্স"
-    },
-    {
-     "en": "Khelo India Sports Goods Manufacturing Scheme",
-     "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি"
+     "en": "PM Gati Shakti",
+     "as": "পিএম গতিশক্তি"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "Khelo India Sports Goods Manufacturing Scheme is related to manufacturing of sports goods.",
-    "as": "খেলো ইণ্ডিয়া ক্ৰীড়া সামগ্ৰী উৎপাদন আঁচনি ক্ৰীড়া সামগ্ৰী উৎপাদনৰ সৈতে জড়িত।"
+    "en": "The Soil Health Card Scheme provides fertiliser advice based on soil tests.",
+    "as": "মৃত্তিকা স্বাস্থ্য কাৰ্ড আঁচনিয়ে মৃত্তিকা পৰীক্ষাৰ আধাৰত সাৰ পৰামৰ্শ দিয়ে।"
    }
   },
   {
