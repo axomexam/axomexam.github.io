@@ -1476,8 +1476,8 @@ module.exports = [
    "Sukapha",
    "চুকাফা"
   ],
-  0,
-  "Maniram Dewan was the first Assamese to be hanged by the British.",
-  "মণিৰাম দেৱান ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া আছিল।"
+  1,
+  "Piyoli Phukan was hanged at Jorhat in 1830 for revolting against British rule; Maniram Dewan was hanged only in 1858.",
+  "পিয়লী ফুকনে ১৮৩০ চনত যোৰহাটত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে বিদ্ৰোহৰ বাবে ফাঁচী লাভ কৰিছিল; মণিৰাম দেৱানক ১৮৫৮ চনতহে ফাঁচী দিয়া হৈছিল।"
  ]
 ];

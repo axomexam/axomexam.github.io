@@ -59362,12 +59362,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Piyoli Phukan",
-     "as": "পিয়লী ফুকন"
-    },
-    {
      "en": "Maniram Dewan",
      "as": "মণিৰাম দেৱান"
+    },
+    {
+     "en": "Piyoli Phukan",
+     "as": "পিয়লী ফুকন"
     },
     {
      "en": "Lachit Borphukan",
@@ -59380,8 +59380,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Maniram Dewan was the first Assamese to be hanged by the British.",
-    "as": "মণিৰাম দেৱান ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া আছিল।"
+    "en": "Piyoli Phukan was hanged at Jorhat in 1830 for revolting against British rule; Maniram Dewan was hanged only in 1858.",
+    "as": "পিয়লী ফুকনে ১৮৩০ চনত যোৰহাটত ব্ৰিটিছ শাসনৰ বিৰুদ্ধে বিদ্ৰোহৰ বাবে ফাঁচী লাভ কৰিছিল; মণিৰাম দেৱানক ১৮৫৮ চনতহে ফাঁচী দিয়া হৈছিল।"
    }
   },
   {
@@ -62842,20 +62842,20 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Annie Besant",
-     "as": "এনি বেছাণ্ট"
-    },
-    {
      "en": "Amina Tyabji",
      "as": "আমিনা তায়বজী"
     },
     {
-     "en": "Sarojini Naidu",
-     "as": "সৰোজিনী নাইডু"
-    },
-    {
      "en": "Begum Rokeya",
      "as": "বেগম ৰ'কেয়া"
+    },
+    {
+     "en": "Annie Besant",
+     "as": "এনি বেছাণ্ট"
+    },
+    {
+     "en": "Sarojini Naidu",
+     "as": "সৰোজিনী নাইডু"
     }
    ],
    "correct": 1,

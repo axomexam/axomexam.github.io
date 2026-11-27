@@ -779,7 +779,7 @@ module.exports = [
    "Begum Rokeya",
    "বেগম ৰ'কেয়া"
   ],
-  0,
+  3,
   "Amina Tyabji was the first Muslim woman to become a teacher in India.",
   "আমিনা তায়বজী ভাৰতত শিক্ষক হোৱা প্ৰথম মুছলমান মহিলা আছিল।"
  ],
