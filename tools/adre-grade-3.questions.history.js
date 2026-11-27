@@ -14572,18 +14572,18 @@ module.exports = {
      "as": "কছাৰী ৰাজ্য"
     },
     {
-     "en": "The Ahom kingdom",
-     "as": "আহোম ৰাজ্য"
-    },
-    {
      "en": "The Chutiya kingdom",
      "as": "চুতীয়া ৰাজ্য"
+    },
+    {
+     "en": "The Ahom kingdom",
+     "as": "আহোম ৰাজ্য"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The Ahom kingdom, founded in 1228, was the earliest of the major medieval kingdoms.",
-    "as": "১২২৮ চনত প্ৰতিষ্ঠিত আহোম ৰাজ্য প্ৰধান মধ্যযুগীয় ৰাজ্যসমূহৰ ভিতৰত আটাইতকৈ প্ৰাচীন।"
+    "en": "The Chutiya state around Sadiya existed before the Ahoms entered Assam in 1228; the Ahom kingdom was founded in 1228 and the Koch kingdom in 1515.",
+    "as": "চুতীয়া ৰাজ্য চাদিয়াৰ আশে-পাশে ১২২৮ চনত অহোমসকল অসমত প্ৰৱেশ কৰাৰ আগতেই আছিল; অহোম ৰাজ্য ১২২৮ চনত আৰু কোচ ৰাজ্য ১৫১৫ চনত প্ৰতিষ্ঠা হয়।"
    }
   },
   {
