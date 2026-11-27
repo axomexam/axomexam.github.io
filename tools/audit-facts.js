@@ -108,7 +108,9 @@ for (const file of files) {
     // figure options carry an svg in `fig` and legitimately have no text
     const opts = q.options.map((o) => (isFig(o) ? "FIG:" + String(o.fig || o.svg || o.img) : norm(o && o.en)));
     if (opts.some((o) => !o)) broken.push({ file, id, why: "blank option" });
-    if (new Set(opts).size !== opts.length) broken.push({ file, id, why: "duplicate options" });
+    // "odd one out" items are supposed to show three identical figures
+    const oddOneOut = /odd one out|different from the other|does not belong|not belong|belongs? to the same group/i.test(q.q.en);
+    if (!oddOneOut && new Set(opts).size !== opts.length) broken.push({ file, id, why: "duplicate options" });
 
     total++;
     const figKey = q.fig ? crypto.createHash("md5").update(String(q.fig)).digest("hex") : "";
