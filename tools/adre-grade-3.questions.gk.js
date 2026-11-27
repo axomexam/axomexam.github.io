@@ -3770,18 +3770,18 @@ module.exports = {
      "as": "দৰং"
     },
     {
-     "en": "Kamrup",
-     "as": "কামৰূপ"
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
     },
     {
      "en": "Jorhat",
      "as": "যোৰহাট"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "The Negheriting Shiva Temple is located in Darrang district.",
-    "as": "নগেৰিটিং শিৱ মন্দিৰ দৰং জিলাত অৱস্থিত।"
+    "en": "The Negheriting Shiva Doul stands at Dergaon in Golaghat district of Assam.",
+    "as": "নগেৰিটিং শিৱ দৌল অসমৰ গোলাঘাট জিলাৰ দেৰগাঁৱত অৱস্থিত।"
    }
   },
   {
@@ -18388,14 +18388,14 @@ module.exports = {
      "as": "পশ্চিম"
     },
     {
-     "en": "central",
-     "as": "মধ্য"
+     "en": "south",
+     "as": "দক্ষিণ"
     }
    ],
-   "correct": 0,
+   "correct": 3,
    "explanation": {
-    "en": "Dibru-Saikhowa National Park is on the north bank of the Brahmaputra.",
-    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+    "en": "Dibru-Saikhowa National Park lies on the south bank of the Brahmaputra; the park is bounded by the Brahmaputra and Lohit rivers in the north.",
+    "as": "ডিব্ৰু-ছৈখোৱা ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে অৱস্থিত; উদ্যানখনৰ উত্তৰ সীমাত ব্ৰহ্মপুত্ৰ আৰু লোহিত নদী আছে।"
    }
   },
   {
@@ -18740,8 +18740,8 @@ module.exports = {
      "as": "উত্তৰ"
     },
     {
-     "en": "central",
-     "as": "মধ্য"
+     "en": "south",
+     "as": "দক্ষিণ"
     },
     {
      "en": "west",
@@ -18752,10 +18752,10 @@ module.exports = {
      "as": "পূব"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Dehing Patkai National Park is on the north bank of the Brahmaputra.",
-    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+    "en": "Dehing Patkai National Park is on the south bank of the Brahmaputra, in the Dibrugarh and Tinsukia districts.",
+    "as": "দিহিং পাটকাই ৰাষ্ট্ৰীয় উদ্যান ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে, ডিব্ৰুগড় আৰু তিনিচুকীয়া জিলাত অৱস্থিত।"
    }
   },
   {
@@ -21744,18 +21744,18 @@ module.exports = {
      "as": "দৰং আৰু শোণিতপুৰ"
     },
     {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
     },
     {
      "en": "Golaghat",
      "as": "গোলাঘাট"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "Nambor Wildlife Sanctuary is located in Golaghat and Karbi Anglong.",
-    "as": "নামবৰ অভয়াৰণ্য গোলাঘাট আৰু কাৰ্বি আংলং জিলাত অৱস্থিত।"
+    "en": "Nambor Wildlife Sanctuary is located in Karbi Anglong district of Assam.",
+    "as": "নামবৰ অভয়াৰণ্য অসমৰ কাৰ্বি আংলং জিলাত অৱস্থিত।"
    }
   },
   {
@@ -21778,14 +21778,14 @@ module.exports = {
      "as": "দৰং আৰু শোণিতপুৰ"
     },
     {
-     "en": "Sivasagar",
-     "as": "শিৱসাগৰ"
+     "en": "Karbi Anglong",
+     "as": "কাৰ্বি আংলং"
     }
    ],
-   "correct": 1,
+   "correct": 3,
    "explanation": {
-    "en": "Nambor Wildlife Sanctuary spans Golaghat and Karbi Anglong.",
-    "as": "নামবৰ অভয়াৰণ্য গোলাঘাট আৰু কাৰ্বি আংলং জিলাত বিস্তৃত।"
+    "en": "Nambor Wildlife Sanctuary lies in Karbi Anglong district.",
+    "as": "নামবৰ অভয়াৰণ্য কাৰ্বি আংলং জিলাত অৱস্থিত।"
    }
   },
   {
@@ -21860,8 +21860,8 @@ module.exports = {
      "as": "1998"
     },
     {
-     "en": "1980",
-     "as": "1980"
+     "en": "2000",
+     "as": "2000"
     },
     {
      "en": "2003",
@@ -21872,10 +21872,10 @@ module.exports = {
      "as": "1972"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "Nambor Wildlife Sanctuary was established in 1998.",
-    "as": "নামবৰ অভয়াৰণ্য 1998 চনত প্ৰতিষ্ঠা হৈছিল।"
+    "en": "Nambor Wildlife Sanctuary was declared a sanctuary on 27 July 2000.",
+    "as": "নামবৰ অভয়াৰণ্য 2000 চনৰ 27 জুলাইত অভয়াৰণ্য হিচাপে ঘোষণা কৰা হৈছিল।"
    }
   },
   {
@@ -21894,18 +21894,18 @@ module.exports = {
      "as": "1998"
     },
     {
-     "en": "1980",
-     "as": "1980"
+     "en": "2000",
+     "as": "2000"
     },
     {
      "en": "2003",
      "as": "2003"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "Nambor Wildlife Sanctuary was notified in 1998.",
-    "as": "নামবৰ অভয়াৰণ্য 1998 চনত ঘোষণা কৰা হৈছিল।"
+    "en": "Nambor Wildlife Sanctuary was declared a sanctuary on 27 July 2000.",
+    "as": "নামবৰ অভয়াৰণ্য 2000 চনৰ 27 জুলাইত অভয়াৰণ্য হিচাপে ঘোষণা কৰা হৈছিল।"
    }
   },
   {
@@ -24230,8 +24230,8 @@ module.exports = {
      "as": "পশ্চিম"
     },
     {
-     "en": "central",
-     "as": "মধ্য"
+     "en": "south",
+     "as": "দক্ষিণ"
     },
     {
      "en": "east",
@@ -24242,10 +24242,10 @@ module.exports = {
      "as": "উত্তৰ"
     }
    ],
-   "correct": 3,
+   "correct": 1,
    "explanation": {
-    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is on the north bank of the Brahmaputra.",
-    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰে অৱস্থিত।"
+    "en": "Bherjan-Borajan-Padumoni Wildlife Sanctuary is on the south bank of the Brahmaputra, in Tinsukia district.",
+    "as": "ভেৰজন-বৰজন-পদুমণি অভয়াৰণ্য ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰে, তিনিচুকীয়া জিলাত অৱস্থিত।"
    }
   },
   {
@@ -28573,31 +28573,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-124",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Sonai river join it?",
-    "as": "চোনাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Sonai river is a tributary of which river?",
+    "as": "চোনাই নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "The Sonai joins the Brahmaputra on its south bank.",
-    "as": "চোনাই ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Sonai river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "চোনাই নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -28723,31 +28723,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-129",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Katakhal river join it?",
-    "as": "কটাখাল নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Katakhal river is a tributary of which river?",
+    "as": "কটাখাল নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Katakhal joins the Brahmaputra on its south bank.",
-    "as": "কটাখাল ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Katakhal river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "কটাখাল নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -28873,31 +28873,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-134",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Rukni river join it?",
-    "as": "ৰুক্মিণী নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Rukni river is a tributary of which river?",
+    "as": "ৰুক্মিণী নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "The Rukni joins the Brahmaputra on its south bank.",
-    "as": "ৰুক্মিণী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Rukni river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "ৰুক্মিণী নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -28993,31 +28993,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-138",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Jiri river join it?",
-    "as": "জিৰি নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Jiri river is a tributary of which river?",
+    "as": "জিৰি নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "The Jiri joins the Brahmaputra on its south bank.",
-    "as": "জিৰি ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Jiri river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "জিৰি নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -29143,31 +29143,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-143",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Longai river join it?",
-    "as": "লংগাই নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Longai river joins which river in Karimganj district?",
+    "as": "লংগাই নদী কৰিমগঞ্জ জিলাত কোন নদীত মিলিত হয়?"
    },
    "options": [
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Surma",
+     "as": "সুৰমা"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "The Longai joins the Brahmaputra on its south bank.",
-    "as": "লংগাই ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Longai river joins the Barak river in Karimganj district.",
+    "as": "লংগাই নদী কৰিমগঞ্জ জিলাত বৰাক নদীত মিলিত হয়।"
    }
   },
   {
@@ -29293,31 +29293,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-148",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Madhura river join it?",
-    "as": "মধুৰা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Madhura river is a tributary of which river?",
+    "as": "মধুৰা নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "The Madhura joins the Brahmaputra on its south bank.",
-    "as": "মধুৰা ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Madhura river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "মধুৰা নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -29413,31 +29413,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-152",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Singla river join it?",
-    "as": "ছিংলা নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Singla river is a tributary of which river?",
+    "as": "ছিংলা নদী কোন নদীৰ উপনৈ?"
    },
    "options": [
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Dhansiri",
+     "as": "ধনশিৰি"
     },
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Kopili",
+     "as": "কপিলী"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "The Singla joins the Brahmaputra on its south bank.",
-    "as": "ছিংলা ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Singla river is a tributary of the Barak river in the Barak valley of Assam.",
+    "as": "ছিংলা নদী অসমৰ বৰাক উপত্যকাৰ বৰাক নদীৰ উপনৈ।"
    }
   },
   {
@@ -29563,31 +29563,31 @@ module.exports = {
   {
    "id": "brahmaputra-barak-157",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Dhansiri (Barak) river join it?",
-    "as": "ধনশিৰি (বৰাক) নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "The Dhansiri (Barak) river joins which river in Cachar district?",
+    "as": "ধনশিৰি (বৰাক) নদী কাছাৰ জিলাত কোন নদীত মিলিত হয়?"
    },
    "options": [
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Barak",
+     "as": "বৰাক"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Brahmaputra",
+     "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Kopili",
+     "as": "কপিলী"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Dhansiri (Barak) joins the Brahmaputra on its south bank.",
-    "as": "ধনশিৰি (বৰাক) ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
+    "en": "The Dhansiri (Barak) river joins the Barak river in Cachar district.",
+    "as": "ধনশিৰি (বৰাক) নদী কাছাৰ জিলাত বৰাক নদীত মিলিত হয়।"
    }
   },
   {
@@ -30322,22 +30322,22 @@ module.exports = {
      "as": "ব্ৰহ্মপুত্ৰ"
     },
     {
-     "en": "ব্ৰহ্মপুত্ৰ",
-     "as": "Brahmaputra"
-    },
-    {
      "en": "Subansiri",
      "as": "সোৱণশিৰি"
     },
     {
      "en": "Ganga",
      "as": "গংগা"
+    },
+    {
+     "en": "Barak",
+     "as": "বৰাক"
     }
    ],
-   "correct": 1,
+   "correct": 0,
    "explanation": {
-    "en": "The Dudhkumar is a tributary of the ব্ৰহ্মপুত্ৰ.",
-    "as": "দুধকুমাৰ Brahmaputra নদীৰ উপনৈ।"
+    "en": "The Dudhkumar river is a tributary of the Brahmaputra.",
+    "as": "দুধকুমাৰ নদী ব্ৰহ্মপুত্ৰৰ উপনৈ।"
    }
   },
   {
@@ -31744,10 +31744,10 @@ module.exports = {
      "as": "পূব"
     }
    ],
-   "correct": 0,
+   "correct": 1,
    "explanation": {
-    "en": "The Noa Dihing joins the Brahmaputra on its north bank.",
-    "as": "নয়া দিহিং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+    "en": "The Noa Dihing river joins the Brahmaputra on its south bank.",
+    "as": "নয়া দিহিং নদী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
    }
   },
   {
@@ -31924,10 +31924,10 @@ module.exports = {
      "as": "পশ্চিম"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "The Namdang joins the Brahmaputra on its north bank.",
-    "as": "নামদাং ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+    "en": "The Namdang river joins the Brahmaputra on its south bank.",
+    "as": "নামদাং নদী ব্ৰহ্মপুত্ৰৰ দক্ষিণ পাৰত মিলিত হয়।"
    }
   },
   {
@@ -32028,12 +32028,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Subansiri",
-     "as": "সোৱণশিৰি"
+     "en": "Burhi Dihing",
+     "as": "বুঢ়ী দিহিং"
     },
     {
-     "en": "Barak",
-     "as": "বৰাক"
+     "en": "Subansiri",
+     "as": "সোৱণশিৰি"
     },
     {
      "en": "Brahmaputra",
@@ -32044,40 +32044,40 @@ module.exports = {
      "as": "গংগা"
     }
    ],
-   "correct": 2,
+   "correct": 0,
    "explanation": {
-    "en": "The Tirap is a tributary of the Brahmaputra.",
-    "as": "তিৰাপ ব্ৰহ্মপুত্ৰ নদীৰ উপনৈ।"
+    "en": "The Tirap river is a tributary of the Burhi Dihing and joins it near Ledo in Assam.",
+    "as": "তিৰাপ নদী বুঢ়ী দিহিং নদীৰ উপনৈ আৰু অসমৰ লেডোৰ ওচৰত মিলিত হয়।"
    }
   },
   {
    "id": "brahmaputra-barak-240",
    "q": {
-    "en": "On which bank of the Brahmaputra does the Tirap river join it?",
-    "as": "তিৰাপ নদী ব্ৰহ্মপুত্ৰৰ কোন পাৰত মিলিত হয়?"
+    "en": "In which district of Assam does the Tirap river join the Burhi Dihing?",
+    "as": "তিৰাপ নদী অসমৰ কোন জিলাত বুঢ়ী দিহিঙত মিলিত হয়?"
    },
    "options": [
     {
-     "en": "south",
-     "as": "দক্ষিণ"
+     "en": "Tinsukia",
+     "as": "তিনিচুকীয়া"
     },
     {
-     "en": "east",
-     "as": "পূব"
+     "en": "Dibrugarh",
+     "as": "ডিব্ৰুগড়"
     },
     {
-     "en": "west",
-     "as": "পশ্চিম"
+     "en": "Sivasagar",
+     "as": "শিৱসাগৰ"
     },
     {
-     "en": "north",
-     "as": "উত্তৰ"
+     "en": "Golaghat",
+     "as": "গোলাঘাট"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "The Tirap joins the Brahmaputra on its north bank.",
-    "as": "তিৰাপ ব্ৰহ্মপুত্ৰৰ উত্তৰ পাৰত মিলিত হয়।"
+    "en": "The Tirap river joins the Burhi Dihing near Ledo in Tinsukia district.",
+    "as": "তিৰাপ নদী তিনিচুকীয়া জিলাৰ লেডোৰ ওচৰত বুঢ়ী দিহিঙত মিলিত হয়।"
    }
   },
   {
@@ -33163,8 +33163,8 @@ module.exports = {
   {
    "id": "brahmaputra-barak-277",
    "q": {
-    "en": "Which river forms the boundary between Assam and Meghalaya in part?",
-    "as": "কোন নদীয়ে অসম আৰু মেঘালয়ৰ মাজৰ সীমাৰ অংশ গঠন কৰে?"
+    "en": "Which river forms part of the boundary between Assam and Nagaland?",
+    "as": "কোন নদীয়ে অসম আৰু নাগালেণ্ডৰ মাজৰ সীমাৰ অংশ গঠন কৰে?"
    },
    "options": [
     {
@@ -33184,10 +33184,10 @@ module.exports = {
      "as": "মানস"
     }
    ],
-   "correct": 0,
+   "correct": 2,
    "explanation": {
-    "en": "The Bhogdoi forms part of the Assam-Meghalaya boundary.",
-    "as": "ভোগদৈয়ে অসম-মেঘালয় সীমাৰ অংশ গঠন কৰে।"
+    "en": "The Dhansiri river forms part of the boundary between Assam and Nagaland.",
+    "as": "ধনশিৰি নদীয়ে অসম আৰু নাগালেণ্ডৰ মাজৰ সীমাৰ অংশ গঠন কৰে।"
    }
   },
   {
