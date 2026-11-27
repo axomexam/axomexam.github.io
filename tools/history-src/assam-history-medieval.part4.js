@@ -19,38 +19,38 @@ module.exports = [
   "চুতানফা তেওঁৰ হিন্দু নাম সৰ্বানন্দ সিংহৰ দ্বাৰা জনা যায়।"
  ],
  [
-  "Which Ahom king is known as 'Brajanath Singha'?",
-  "কোন আহোম ৰজাক 'ব্ৰজনাথ সিংহ' বুলি জনা যায়?",
+  "Who was the father of Ahom king Purandar Singha?",
+  "অহোম ৰজা পুৰন্দৰ সিংহৰ পিতৃ কোন আছিল?",
+  [
+   "Brajanath Gohain, the Charing Raja",
+   "চাৰিং ৰজা ব্ৰজনাথ গোহাঞি",
+   "Chandrakanta Singha",
+   "চন্দ্ৰকান্ত সিংহ",
+   "Kameswar Singha",
+   "কমেশ্বৰ সিংহ",
+   "Rajeswar Singha",
+   "ৰাজেশ্বৰ সিংহ"
+  ],
+  0,
+  "Purandar Singha was the son of Brajanath Gohain, the Charing Raja, a great-grandson of Rajeswar Singha.",
+  "পুৰন্দৰ সিংহ আছিল চাৰিং ৰজা ব্ৰজনাথ গোহাঞিৰ পুত্ৰ, যি ৰাজেশ্বৰ সিংহৰ প্ৰপৌত্ৰ আছিল।"
+ ],
+ [
+  "Which Ahom prince, born in 1840 to Kameswar Singha, later became a claimant to the throne?",
+  "১৮৪০ চনত কমেশ্বৰ সিংহৰ পুত্ৰ হিচাপে জন্ম লোৱা কোন অহোম ৰাজপুত্ৰই পিছত সিংহাসনৰ দাবীদাৰ হৈছিল?",
   [
    "Kandarpeswar Singha",
    "কন্দৰ্পেশ্বৰ সিংহ",
-   "Sudingphaa",
-   "চুডিংফা",
-   "Suklingphaa",
-   "চুক্লিংফা",
-   "Sunyeophaa",
-   "চুন্যেৱফা"
+   "Purandar Singha",
+   "পুৰন্দৰ সিংহ",
+   "Jogeswar Singha",
+   "যোগেশ্বৰ সিংহ",
+   "Brajanath Gohain",
+   "ব্ৰজনাথ গোহাঞি"
   ],
   0,
-  "Kandarpeswar Singha is known by his Hindu name Brajanath Singha.",
-  "কন্দৰ্পেশ্বৰ সিংহ তেওঁৰ হিন্দু নাম ব্ৰজনাথ সিংহৰ দ্বাৰা জনা যায়।"
- ],
- [
-  "Which Ahom king is known as 'Purnananda'?",
-  "কোন আহোম ৰজাক 'পূৰ্ণানন্দ' বুলি জনা যায়?",
-  [
-   "Sudingphaa",
-   "চুডিংফা",
-   "Sutanphaa",
-   "চুতানফা",
-   "Sunyeophaa",
-   "চুন্যেৱফা",
-   "Suklingphaa",
-   "চুক্লিংফা"
-  ],
-  0,
-  "Sudingphaa (the second) is known by his Hindu name Purnananda.",
-  "চুডিংফা (দ্বিতীয়) তেওঁৰ হিন্দু নাম পূৰ্ণানন্দৰ দ্বাৰা জনা যায়।"
+  "Kandarpeswar Singha, son of Kameswar Singha, was born in 1840 and became a claimant after the annexation.",
+  "কমেশ্বৰ সিংহৰ পুত্ৰ কন্দৰ্পেশ্বৰ সিংহ ১৮৪০ চনত জন্মগ্ৰহণ কৰিছিল আৰু সংযুক্তিৰ পিছত সিংহাসনৰ দাবীদাৰ হৈছিল।"
  ],
  [
   "Who was the Ahom king during the first Burmese invasion of Assam?",

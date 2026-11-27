@@ -11204,8 +11204,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Suhitpangphaa",
-     "as": "চুহিতপাংফা"
+     "en": "Suremphaa",
+     "as": "চুৰেমফা"
     },
     {
      "en": "Sukhrungphaa",
@@ -11222,8 +11222,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Suhitpangphaa is known by his Hindu name Rajeshwar Singha.",
-    "as": "চুহিতপাংফা তেওঁৰ হিন্দু নাম ৰাজেশ্বৰ সিংহৰ দ্বাৰা জনা যায়।"
+    "en": "Suremphaa (r. 1751-1769) is known by his Hindu name Rajeswar Singha; he shifted the capital to Rangpur.",
+    "as": "চুৰেমফা (১৭৫১-১৭৬৯) হিন্দু নাম ৰাজেশ্বৰ সিংহ নামেৰে জনাজাত; তেওঁ ৰাজধানী ৰংপুৰলৈ স্থানান্তৰ কৰিছিল।"
    }
   },
   {
@@ -11709,8 +11709,8 @@ module.exports = {
   {
    "id": "assam-history-medieval-041",
    "q": {
-    "en": "Which Mughal governor of Bengal sent Raja Ram Singh to invade Assam?",
-    "as": "বংগৰ কোন মোগল ৰাজ্যপালে ৰাজা ৰাম সিংহক অসম আক্ৰমণলৈ পঠাইছিল?"
+    "en": "Which Mughal emperor ordered Raja Ram Singh to invade Assam?",
+    "as": "কোন মোগল সম্ৰাটে ৰাজা ৰাম সিংহক অসম আক্ৰমণ কৰিবলৈ নিৰ্দেশ দিছিল?"
    },
    "options": [
     {
@@ -11732,8 +11732,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Emperor Aurangzeb sent Raja Ram Singh with a large army to invade Assam in 1667.",
-    "as": "সম্ৰাট আওৰাংজেবে ১৬৬৭ চনত অসম আক্ৰমণলৈ ৰাজা ৰাম সিংহক বিশাল সেনাৰ সৈতে পঠাইছিল।"
+    "en": "Emperor Aurangzeb ordered the campaign; Raja Ram Singh was deputed by the Bengal governor Shayista Khan.",
+    "as": "সম্ৰাট আওৰাংজেবে এই অভিযানৰ নিৰ্দেশ দিছিল; বংগৰ গৱৰ্ণৰ শায়েস্তা খানে ৰাজা ৰাম সিংহক পঠিয়াইছিল।"
    }
   },
   {
@@ -11962,8 +11962,8 @@ module.exports = {
      "as": "শিৱ সিংহ"
     },
     {
-     "en": "Gaurinath Singha",
-     "as": "গৌৰীনাথ সিংহ"
+     "en": "Lakshmi Singha",
+     "as": "লক্ষ্মী সিংহ"
     },
     {
      "en": "Pramatta Singha",
@@ -11972,8 +11972,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "The Moamoria rebellion began during the reign of Gaurinath Singha in the late eighteenth century.",
-    "as": "মোৱামৰীয়া বিদ্ৰোহ অষ্টাদশ শতিকাৰ শেষৰ ফালে গৌৰীনাথ সিংহৰ ৰাজত্বকালত আৰম্ভ হৈছিল।"
+    "en": "The first Moamoria rebellion broke out in 1769, during the reign of Lakshmi Singha (Sunyeophaa).",
+    "as": "প্ৰথম মোৱামৰীয়া বিদ্ৰোহ ১৭৬৯ চনত লক্ষ্মী সিংহ (চুন্যেৱফা)ৰ ৰাজত্বকালত আৰম্ভ হয়।"
    }
   },
   {
@@ -12009,8 +12009,8 @@ module.exports = {
   {
    "id": "assam-history-medieval-051",
    "q": {
-    "en": "Which Ahom king suppressed the first phase of the Moamoria rebellion temporarily?",
-    "as": "কোন আহোম ৰজাই মোৱামৰীয়া বিদ্ৰোহৰ প্ৰথম পৰ্যায় সাময়িকভাৱে দমন কৰিছিল?"
+    "en": "Which Ahom king suppressed the later phase of the Moamoria rebellion with British help?",
+    "as": "কোন অসম ৰজাই ব্ৰিটিছৰ সহায়ত মোৱামৰীয়া বিদ্ৰোহৰ পৰৱৰ্তী পৰ্যায় দমন কৰিছিল?"
    },
    "options": [
     {
@@ -12032,8 +12032,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Kamaleswar Singha suppressed the first phase of the Moamoria rebellion with British help.",
-    "as": "কমলেশ্বৰ সিংহই ব্ৰিটিছৰ সহায়ত মোৱামৰীয়া বিদ্ৰোহৰ প্ৰথম পৰ্যায় দমন কৰিছিল।"
+    "en": "Kamaleswar Singha put down the later Moamoria rising with the help of British troops in 1794-1805.",
+    "as": "কমলেশ্বৰ সিংহই ১৭৯৪-১৮০৫ চনত ব্ৰিটিছ সৈন্যৰ সহায়ত মোৱামৰীয়াৰ পৰৱৰ্তী বিদ্ৰোহ দমন কৰিছিল।"
    }
   },
   {
@@ -18228,8 +18228,8 @@ module.exports = {
      "as": "২০১৯"
     },
     {
-     "en": "2023",
-     "as": "২০২৩"
+     "en": "2024",
+     "as": "২০২৪"
     },
     {
      "en": "2015",
@@ -18242,8 +18242,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "The Moidams of the Ahoms were inscribed as a UNESCO World Heritage Site in 2023.",
-    "as": "আহোমসকলৰ মৈদাম ২০২৩ চনত ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ হিচাপে তালিকাভুক্ত কৰা হৈছিল।"
+    "en": "The Moidams of the Ahom dynasty at Charaideo were inscribed as a UNESCO World Heritage Site in 2024.",
+    "as": "চৰাইদেউৰ অহোম বংশৰ মৈদামসমূহ ২০২৪ চনত ইউনেস্কো বিশ্ব ঐতিহ্য ক্ষেত্ৰ হিচাপে তালিকাভুক্ত হয়।"
    }
   },
   {
@@ -18639,61 +18639,61 @@ module.exports = {
   {
    "id": "assam-history-medieval-272",
    "q": {
-    "en": "Which Ahom king is known as 'Brajanath Singha'?",
-    "as": "কোন আহোম ৰজাক 'ব্ৰজনাথ সিংহ' বুলি জনা যায়?"
+    "en": "Who was the father of Ahom king Purandar Singha?",
+    "as": "অহোম ৰজা পুৰন্দৰ সিংহৰ পিতৃ কোন আছিল?"
    },
    "options": [
     {
-     "en": "Sudingphaa",
-     "as": "চুডিংফা"
+     "en": "Chandrakanta Singha",
+     "as": "চন্দ্ৰকান্ত সিংহ"
     },
     {
-     "en": "Suklingphaa",
-     "as": "চুক্লিংফা"
+     "en": "Kameswar Singha",
+     "as": "কমেশ্বৰ সিংহ"
+    },
+    {
+     "en": "Brajanath Gohain, the Charing Raja",
+     "as": "চাৰিং ৰজা ব্ৰজনাথ গোহাঞি"
+    },
+    {
+     "en": "Rajeswar Singha",
+     "as": "ৰাজেশ্বৰ সিংহ"
+    }
+   ],
+   "correct": 2,
+   "explanation": {
+    "en": "Purandar Singha was the son of Brajanath Gohain, the Charing Raja, a great-grandson of Rajeswar Singha.",
+    "as": "পুৰন্দৰ সিংহ আছিল চাৰিং ৰজা ব্ৰজনাথ গোহাঞিৰ পুত্ৰ, যি ৰাজেশ্বৰ সিংহৰ প্ৰপৌত্ৰ আছিল।"
+   }
+  },
+  {
+   "id": "assam-history-medieval-273",
+   "q": {
+    "en": "Which Ahom prince, born in 1840 to Kameswar Singha, later became a claimant to the throne?",
+    "as": "১৮৪০ চনত কমেশ্বৰ সিংহৰ পুত্ৰ হিচাপে জন্ম লোৱা কোন অহোম ৰাজপুত্ৰই পিছত সিংহাসনৰ দাবীদাৰ হৈছিল?"
+   },
+   "options": [
+    {
+     "en": "Purandar Singha",
+     "as": "পুৰন্দৰ সিংহ"
+    },
+    {
+     "en": "Jogeswar Singha",
+     "as": "যোগেশ্বৰ সিংহ"
     },
     {
      "en": "Kandarpeswar Singha",
      "as": "কন্দৰ্পেশ্বৰ সিংহ"
     },
     {
-     "en": "Sunyeophaa",
-     "as": "চুন্যেৱফা"
+     "en": "Brajanath Gohain",
+     "as": "ব্ৰজনাথ গোহাঞি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "Kandarpeswar Singha is known by his Hindu name Brajanath Singha.",
-    "as": "কন্দৰ্পেশ্বৰ সিংহ তেওঁৰ হিন্দু নাম ব্ৰজনাথ সিংহৰ দ্বাৰা জনা যায়।"
-   }
-  },
-  {
-   "id": "assam-history-medieval-273",
-   "q": {
-    "en": "Which Ahom king is known as 'Purnananda'?",
-    "as": "কোন আহোম ৰজাক 'পূৰ্ণানন্দ' বুলি জনা যায়?"
-   },
-   "options": [
-    {
-     "en": "Sutanphaa",
-     "as": "চুতানফা"
-    },
-    {
-     "en": "Sunyeophaa",
-     "as": "চুন্যেৱফা"
-    },
-    {
-     "en": "Sudingphaa",
-     "as": "চুডিংফা"
-    },
-    {
-     "en": "Suklingphaa",
-     "as": "চুক্লিংফা"
-    }
-   ],
-   "correct": 2,
-   "explanation": {
-    "en": "Sudingphaa (the second) is known by his Hindu name Purnananda.",
-    "as": "চুডিংফা (দ্বিতীয়) তেওঁৰ হিন্দু নাম পূৰ্ণানন্দৰ দ্বাৰা জনা যায়।"
+    "en": "Kandarpeswar Singha, son of Kameswar Singha, was born in 1840 and became a claimant after the annexation.",
+    "as": "কমেশ্বৰ সিংহৰ পুত্ৰ কন্দৰ্পেশ্বৰ সিংহ ১৮৪০ চনত জন্মগ্ৰহণ কৰিছিল আৰু সংযুক্তিৰ পিছত সিংহাসনৰ দাবীদাৰ হৈছিল।"
    }
   },
   {
