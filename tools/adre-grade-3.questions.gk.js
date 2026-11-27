@@ -100715,25 +100715,25 @@ module.exports = {
    "options": [
     {
      "en": "loans to SC, ST and women entrepreneurs",
-     "as": "এছচি, এছটি আৰু মহিলা উদ্যোগীক ঋণ"
+     "as": "অনুসূচিত জাতি, জনজাতি আৰু মহিলা উদ্যোগীক ঋণ"
     },
     {
      "en": "rural broadband connectivity",
      "as": "গ্ৰাম্য ব্ৰডবেণ্ড সংযোগ"
     },
     {
-     "en": "skill development and employment for youth",
-     "as": "যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগ"
+     "en": "holistic rural development",
+     "as": "সামগ্ৰিক গ্ৰাম্য উন্নয়ন"
     },
     {
      "en": "working capital to street vendors",
-     "as": "পথ বিক্ৰেতাক কাৰ্যবাহী মূলধন"
+     "as": "পথ বেপাৰীৰ কাৰ্যকৰী পুঁজি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "CMSGUY is a scheme related to skill development and employment for youth.",
-    "as": "চিএমএছজিইউৱাই যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত এটা আঁচনি।"
+    "en": "CMSGUY, the Chief Minister Samagra Gramya Unnayan Yojana, works for holistic rural development.",
+    "as": "CMSGUY অৰ্থাৎ মুখ্যমন্ত্ৰী সমগ্ৰ গ্ৰাম্য উন্নয়ন যোজনা সামগ্ৰিক গ্ৰাম্য উন্নয়নৰ বাবে কাম কৰে।"
    }
   },
   {
@@ -100753,77 +100753,77 @@ module.exports = {
     },
     {
      "en": "students who excel in examinations",
-     "as": "পৰীক্ষাত কৃতিত্ব দেখুওৱা শিক্ষাৰ্থী"
+     "as": "পৰীক্ষাত উত্তীৰ্ণ শিক্ষাৰ্থী"
     },
     {
-     "en": "unemployed educated youth",
-     "as": "নিবনুৱা শিক্ষিত যুৱক-যুৱতী"
+     "en": "rural population",
+     "as": "গ্ৰাম্য জনসাধাৰণ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The main beneficiaries of CMSGUY are unemployed educated youth.",
-    "as": "চিএমএছজিইউৱাইৰ প্ৰধান উপকাৰী নিবনুৱা শিক্ষিত যুৱক-যুৱতী।"
+    "en": "The main beneficiaries of CMSGUY are the rural population of Assam.",
+    "as": "CMSGUY ৰ মূল উপকৃতকৰ্তা অসমৰ গ্ৰাম্য জনসাধাৰণ।"
    }
   },
   {
    "id": "government-schemes-032",
    "q": {
-    "en": "In which year was CMSGUY launched?",
-    "as": "চিএমএছজিইউৱাই কিমান চনত আৰম্ভ কৰা হৈছিল?"
+    "en": "What is the full form of CMSGUY?",
+    "as": "CMSGUY ৰ সম্পূৰ্ণ ৰূপ কি?"
    },
    "options": [
     {
-     "en": "2020",
-     "as": "২০২০"
+     "en": "Central Mission for Gram Unnayan Yojana",
+     "as": "কেন্দ্ৰীয় গ্ৰাম উন্নয়ন মিছন যোজনা"
     },
     {
-     "en": "2018",
-     "as": "২০১৮"
+     "en": "Chief Minister Social Growth Urban Yojana",
+     "as": "মুখ্যমন্ত্ৰী ছছিয়েল গ্ৰোথ আর্বান যোজনা"
     },
     {
-     "en": "2016",
-     "as": "২০১৬"
+     "en": "Chief Minister Samagra Gramya Unnayan Yojana",
+     "as": "মুখ্যমন্ত্ৰী সমগ্ৰ গ্ৰাম্য উন্নয়ন যোজনা"
     },
     {
-     "en": "2014",
-     "as": "২০১৪"
+     "en": "Chief Minister's Gram Udyog Yojana",
+     "as": "মুখ্যমন্ত্ৰী গ্ৰাম উদ্যোগ যোজনা"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "CMSGUY was launched in 2018.",
-    "as": "চিএমএছজিইউৱাই 2018 চনত আৰম্ভ কৰা হৈছিল।"
+    "en": "CMSGUY stands for Chief Minister Samagra Gramya Unnayan Yojana.",
+    "as": "CMSGUY ৰ সম্পূৰ্ণ ৰূপ — মুখ্যমন্ত্ৰী সমগ্ৰ গ্ৰাম্য উন্নয়ন যোজনা।"
    }
   },
   {
    "id": "government-schemes-033",
    "q": {
-    "en": "Which scheme is related to skill development and employment for youth?",
-    "as": "কোন আঁচনি যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত?"
+    "en": "Which scheme is related to holistic rural development?",
+    "as": "কোন আঁচনিখন সামগ্ৰিক গ্ৰাম্য উন্নয়নৰ সৈতে জড়িত?"
    },
    "options": [
     {
      "en": "Mission Basundhara",
-     "as": "মিচন বসুন্ধৰা"
+     "as": "মিছন বসুন্ধৰা"
     },
     {
      "en": "Sovereign Gold Bond Scheme",
-     "as": "সাৰ্বভৌম স্বৰ্ণ বণ্ড আঁচনি"
+     "as": "সাৰ্বভৌম সোণৰ বণ্ড আঁচনি"
     },
     {
      "en": "CMSGUY",
-     "as": "চিএমএছজিইউৱাই"
+     "as": "CMSGUY"
     },
     {
      "en": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana",
-     "as": "দীন দয়াল উপাধ্যায় গ্ৰাম্য কৌশল্য যোজনা"
+     "as": "দীন দয়াল উপাধ্যায় গ্ৰামীণ কৌশল্য যোজনা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "CMSGUY is related to skill development and employment for youth.",
-    "as": "চিএমএছজিইউৱাই যুৱকৰ দক্ষতা উন্নয়ন আৰু নিয়োগৰ সৈতে জড়িত।"
+    "en": "CMSGUY is related to holistic rural development.",
+    "as": "CMSGUY সামগ্ৰিক গ্ৰাম্য উন্নয়নৰ সৈতে জড়িত।"
    }
   },
   {
