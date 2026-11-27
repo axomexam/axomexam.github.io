@@ -123,6 +123,29 @@ def sources(resp):
     return urls
 
 
+BLIND_INSTRUCTIONS = """You are solving multiple-choice questions for an Assam (India) exam site.
+Solve each question yourself from your own knowledge. Do NOT assume any option is
+pre-selected; nothing is marked. Reply with JSON only.
+
+Rules:
+- answer with the single best option letter.
+- verdict is "correct" when exactly one option is right, "ambiguous" when two or
+  more options are defensible or the question is factually broken.
+- quote: one short reason, max 25 words.
+- If you truly do not know, use verdict "uncertain" and answer "-".
+"""
+
+
+def blind_prompt(batch):
+    lines = [BLIND_INSTRUCTIONS, "\nQuestions:"]
+    for i, q in enumerate(batch, 1):
+        opts = " | ".join("%s) %s" % ("ABCD"[k], o["en"]) for k, o in enumerate(q["options"]))
+        lines.append("%d. %s\n   %s" % (i, q["q"]["en"], opts))
+    lines.append('\nReply: {"results":[{"n":1,"verdict":"correct|ambiguous|uncertain",'
+                 '"answer":"A|B|C|D|-","source":"","quote":"reason","confidence":"high|medium|low"}]}')
+    return "\n".join(lines)
+
+
 def prompt_for(batch):
     lines = [INSTRUCTIONS, "\nQuestions:"]
     for i, q in enumerate(batch, 1):
@@ -143,6 +166,7 @@ def main():
     ap.add_argument("--batch", type=int, default=20)
     ap.add_argument("--ids", default="")
     ap.add_argument("--log", default="")
+    ap.add_argument("--blind", action="store_true")
     a = ap.parse_args()
 
     key = os.environ.get("GEMINI_API_KEY", "").strip()
@@ -170,7 +194,7 @@ def main():
 
     def handle(batch, depth=0):
         """Check a batch; on failure split it in half so one timeout loses little."""
-        resp = call(key, prompt_for(batch), grounded=GROUNDED)
+        resp = call(key, blind_prompt(batch) if a.blind else prompt_for(batch), grounded=GROUNDED)
         got = parse(resp) if resp else {"results": []}
         if not got.get("results"):
             if len(batch) > 4 and depth < 3:
@@ -194,7 +218,13 @@ def main():
                 "our_text": q["options"][q["correct"]]["en"],
                 "stem": q["q"]["en"],
             }
-            mark = {"correct": "  ok  ", "incorrect": " WRONG", "uncertain": "  ?   "}.get(log[q["id"]]["verdict"], "  ?   ")
+            if a.blind:
+                mine = "ABCD"[q["correct"]]
+                theirs = r.get("answer", "-")
+                log[q["id"]]["verdict"] = ("disagree" if theirs in "ABCD" and theirs != mine
+                                           else "agree" if theirs == mine else "no-answer")
+            mark = {"correct": "  ok  ", "incorrect": " WRONG", "uncertain": "  ?   ",
+                    "agree": " agree", "disagree": "DIFFER", "no-answer": "   -  "}.get(log[q["id"]]["verdict"], "  ?   ")
             print("%s %-26s %-52s ours=%s model=%s %s"
                   % (mark, q["id"], q["q"]["en"][:52], "ABCD"[q["correct"]], r.get("answer", ""),
                      (r.get("source") or "")[:50]))
@@ -207,6 +237,14 @@ def main():
         print("  batch %d/%d done, logged %d" % (n, len(chunks), len(log)))
         time.sleep(1)
 
+    if a.blind:
+        import collections
+        c = collections.Counter(v["verdict"] for v in log.values())
+        print("\nblind result:", dict(c))
+        for k, v in log.items():
+            if v["verdict"] == "disagree":
+                print("  %-26s ours=%s %-30s model=%s" % (k, v["ours"], v["our_text"][:30], v["answer"]))
+        raise SystemExit(0)
     wrong = [k for k, v in log.items() if v["verdict"] == "incorrect" and v["source"]]
     print("\nwrong with source: %d | uncertain: %d | correct: %d"
           % (len(wrong),
