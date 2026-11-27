@@ -61,7 +61,7 @@
       ],
       "correct": 2,
       "explanation": {
-        "en": "The assertion is correct, but the reason is factually wrong.",
+        "en": "Assertion (A): \"The Sun rises in the east\". Reason (R): \"the Sun revolves round the Earth from east to west\". The assertion is true and the reason is false, so the answer is: A is true but R is false.",
         "as": "দাবীটো শুদ্ধ, কিন্তু কাৰণটো তথ্যগতভাৱে ভুল।"
       }
     },
@@ -426,7 +426,7 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Each statement alone is not enough, but together they fix the answer.",
+        "en": "The question asks: \"How many members are there in the family\". Statement I leaves it open, statement II leaves it open, and only the two read together pin the answer down, so both are needed.",
         "as": "প্ৰতিটো বিবৃতি অকলেই পৰ্যাপ্ত নহয়, কিন্তু একেলগে উত্তৰ নিৰ্ণয় কৰে।"
       }
     },
@@ -791,8 +791,8 @@
       "correct": 3,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"300\" height=\"225\"><rect x=\"2\" y=\"2\" width=\"396\" height=\"296\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"50.0,21.2 78.8,50.0 50.0,78.8 21.2,50.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"102\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"150.0,21.2 178.8,50.0 150.0,78.8 121.2,50.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"202\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"250.0,21.2 278.8,50.0 250.0,78.8 221.2,50.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"302\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"350.0,21.2 378.8,50.0 350.0,78.8 321.2,50.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"2\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"50.0,120.6 78.0,140.9 67.3,173.8 32.7,173.8 22.0,140.9\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"102\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"150.0,120.6 178.0,140.9 167.3,173.8 132.7,173.8 122.0,140.9\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"202\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"250\" y=\"166\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"302\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"350.0,120.6 378.0,140.9 367.3,173.8 332.7,173.8 322.0,140.9\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"2\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"28.24\" y1=\"228.24\" x2=\"71.76\" y2=\"271.76\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"28.24\" y1=\"271.76\" x2=\"71.76\" y2=\"228.24\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><rect x=\"102\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"128.24\" y1=\"228.24\" x2=\"171.76\" y2=\"271.76\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"128.24\" y1=\"271.76\" x2=\"171.76\" y2=\"228.24\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><rect x=\"202\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"228.24\" y1=\"228.24\" x2=\"271.76\" y2=\"271.76\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"228.24\" y1=\"271.76\" x2=\"271.76\" y2=\"228.24\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><rect x=\"302\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"328.24\" y1=\"228.24\" x2=\"371.76\" y2=\"271.76\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><line x1=\"328.24\" y1=\"271.76\" x2=\"371.76\" y2=\"228.24\" stroke=\"#334155\" stroke-width=\"3.4\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The missing cell follows the same repeating rule as the rest of the grid, so the option that continues that rule is the answer.",
-        "as": "অনুপস্থিত ঘৰটোৱে জালিকাৰ বাকী অংশৰ দৰেই একেই পুনৰাবৃত্তি নিয়ম অনুসৰণ কৰে, সেয়ে সেই নিয়ম অব্যাহত ৰখা বিকল্পটোৱেই উত্তৰ।"
+        "en": "In the grid every row repeats the same figures in the same order. The empty cell is row 2, column 3, and the same figure already sits at row 2, column 1, so that cell takes the pentagon - option D.",
+        "as": "গ্ৰিডত প্ৰতিটো শাৰীত একে আৰ্হিয়েই পুনৰাবৃত্তি হয়। খালী ঘৰটো 2 নং শাৰীৰ 3 নং স্তম্ভত আছে, আৰু 2 নং শাৰীৰ 1 নং স্তম্ভত সেই আৰ্হিয়েই আছে — গতিকে ঘৰটোত পঞ্চভুজ হ'ব — বিকল্প D।"
       }
     },
     {
@@ -946,8 +946,8 @@
       "correct": 3,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 196\" width=\"300\" height=\"392\"><rect x=\"2\" y=\"2\" width=\"146\" height=\"192\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"52\" y=\"6\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"38\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"52\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"6\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"52\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><rect x=\"98\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"6\" y=\"144\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"176\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>",
       "explanation": {
-        "en": "Folding the net shows which cells become opposite faces, so the opposite of the marked face is fixed by the net.",
-        "as": "নেটখন ভাঁজ কৰিলে কোনবোৰ ঘৰ বিপৰীত পৃষ্ঠ হয় তাক দেখুৱায়, সেয়ে চিহ্নিত পৃষ্ঠটোৰ বিপৰীতটো নেটৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "In this net the horizontal strip reading left to right runs 2, 4, 3; two faces apart in one straight strip fold onto opposite sides, so 3 is opposite 2 - option D.",
+        "as": "নেটখন ভাঁজ কৰিলে 2 ৰ বিপৰীত পৃষ্ঠা হয় 3 — বিকল্প D।"
       }
     },
     {
@@ -1336,8 +1336,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "en": "The argument is best judged as “It is a strong argument” because it is directly relevant to the statement and rests on a verifiable fact.",
-        "as": "যুক্তিটোক “ই এটা সবল যুক্তি” হিচাপে বিচাৰ কৰা হয় কাৰণ ই বিবৃতিৰ সৈতে পোনপটীয়াকৈ প্ৰাসংগিক আৰু এটা প্ৰমাণযোগ্য তথ্যৰ ওপৰত আধাৰিত।"
+        "en": "The statement asks «Should physical education be made compulsory in every school?» and the one argument offered is «Yes. Regular exercise improves fitness and concentration». A strong argument has to be a general, factual reason about the decision itself, not a personal view or a side remark: measured that way the argument is «It is a strong argument», option C.",
+        "as": "প্রশ্নটো «Should physical education be made compulsory in every school?», আৰু দিয়া যুক্তিটো «Yes. Regular exercise improves fitness and concentration»। সবল যুক্তি সাধাৰণ, তথ্যভিত্তিক আৰু সিদ্ধান্তৰ সৈতে জড়িত হ'ব লাগে — সেই মাপকাঠিত «It is a strong argument», বিকল্প C।"
       }
     },
     {
@@ -1731,8 +1731,8 @@
       "correct": 2,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"10.0,10.0 92.0,10.0 92.0,80.0 10.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"51\" y1=\"10\" x2=\"51\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"45\" x2=\"92\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"10\" x2=\"92\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
-        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+        "en": "The drawing is made of 7 straight lines. The square in option C is already there: the top edge, the right edge, the bottom edge and the left edge run along its sides, corner to corner. No other option closes on lines that are drawn, so C is the embedded figure.",
+        "as": "চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প C ৰ square টোৰ প্ৰতিটো বাহু পৰে — মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে C শুদ্ধ।"
       }
     },
     {
@@ -2091,8 +2091,8 @@
       ],
       "correct": 1,
       "explanation": {
-        "en": "Argument I is weak and argument II is weak; a strong argument is directly relevant and based on fact, a weak one is trivial, emotional or unrelated.",
-        "as": "যুক্তি I দুৰ্বল আৰু যুক্তি II দুৰ্বল; সবল যুক্তি প্ৰাসংগিক আৰু তথ্যভিত্তিক, দুৰ্বল যুক্তি তুচ্ছ, আৱেগিক বা অসম্পৰ্কিত।"
+        "en": "The statement asks «Should CCTV cameras be installed in all public buses?». Argument I answers «No. Buses have wheels» and argument II answers «Yes. Cameras look modern». A strong argument has to be a general, factual reason that bears on the decision itself, so weigh those two answers against each other: the pair comes out as «Neither argument I nor II is strong», which is option B.",
+        "as": "তলৰ প্ৰশ্নটো «Should CCTV cameras be installed in all public buses?»। যুক্তি I «No. Buses have wheels» আৰু যুক্তি II «Yes. Cameras look modern» কয়। সবল যুক্তি সাধাৰণ আৰু তথ্যভিত্তিক হ'ব লাগে, সিদ্ধান্তৰ সৈতে পোনপটীয়াকৈ জড়িত হ'ব লাগে — এই মাপকাঠিত «Neither argument I nor II is strong» হয়, অৰ্থাৎ বিকল্প B।"
       }
     },
     {
@@ -2751,7 +2751,7 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Course I directly addresses the problem; course II does not follow.",
+        "en": "For the statement \"A serious fire broke out in a market complex and the fire brigade arrived late\", course I (\"A fire station should be set up closer to the market area\") is the response that follows and course II (\"The market complex should be demolished immediately\") does not follow; hence the answer is: Only course of action I follows.",
         "as": "কাৰ্যপন্থা I য়ে সমস্যাটোৰ পোনপটীয়া সমাধান দিয়ে; কাৰ্যপন্থা II গ্ৰহণযোগ্য নহয়।"
       }
     },
@@ -2786,8 +2786,8 @@
       "correct": 2,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 196\" width=\"300\" height=\"392\"><rect x=\"2\" y=\"2\" width=\"146\" height=\"192\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"52\" y=\"6\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"38\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"6\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"52\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"52\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"98\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><rect x=\"52\" y=\"144\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"176\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text></svg>",
       "explanation": {
-        "en": "Folding the net shows which cells become opposite faces, so the opposite of the marked face is fixed by the net.",
-        "as": "নেটখন ভাঁজ কৰিলে কোনবোৰ ঘৰ বিপৰীত পৃষ্ঠ হয় তাক দেখুৱায়, সেয়ে চিহ্নিত পৃষ্ঠটোৰ বিপৰীতটো নেটৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "In this net the vertical strip reading top to bottom runs 6, 2, 3, 5; two faces apart in one straight strip fold onto opposite sides, so 5 is opposite 2 - option C.",
+        "as": "নেটখন ভাঁজ কৰিলে 2 ৰ বিপৰীত পৃষ্ঠা হয় 5 — বিকল্প C।"
       }
     },
     {

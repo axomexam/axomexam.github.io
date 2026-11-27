@@ -44,1083 +44,1773 @@
   },
   "questions": [
     {
-      "id": "assam-history-067",
+      "id": "assam-history-extra-159",
       "q": {
-        "en": "After the decline of the Pala dynasty, which kingdom emerged in western Kamarupa?",
-        "as": "পাল বংশৰ অৱনতিৰ পিছত পশ্চিম কামৰূপত কোন ৰাজ্যৰ উত্থান ঘটিছিল?"
+        "en": "The ancient Kamarupa kings' grants were witnessed by officials because the charter was",
+        "as": "প্ৰাচীন কামৰূপ ৰজাসকলৰ শাসনপত্ৰ বিষয়াসকলে সাক্ষী দিছিল কাৰণ পত্ৰখন"
       },
       "options": [
         {
-          "en": "Kamata kingdom",
-          "as": "কামতা ৰাজ্য"
+          "en": "a religious hymn",
+          "as": "ধৰ্মীয় স্তোত্ৰ আছিল"
         },
         {
-          "en": "Chutiya kingdom",
-          "as": "চুতীয়া ৰাজ্য"
+          "en": "a trade invoice",
+          "as": "বাণিজ্য বিল আছিল"
         },
         {
-          "en": "Ahom kingdom",
-          "as": "আহোম ৰাজ্য"
+          "en": "a public legal document",
+          "as": "ৰাজহুৱা আইনী দস্তাবেজ আছিল"
         },
         {
-          "en": "Kachari kingdom",
-          "as": "কছাৰী ৰাজ্য"
+          "en": "a private letter",
+          "as": "ব্যক্তিগত চিঠি আছিল"
         }
       ],
-      "correct": 0,
+      "correct": 2,
       "explanation": {
-        "en": "The Kamata kingdom emerged in western Kamarupa after the Palas.",
-        "as": "পালসকলৰ পিছত পশ্চিম কামৰূপত কামতা ৰাজ্যৰ উত্থান ঘটিছিল।"
+        "en": "Witnesses make it a public act, which is why it is legally read. Private letters, hymns and invoices are different.",
+        "as": "সাক্ষীয়ে ইয়াক ৰাজহুৱা কাৰ্য কৰে, সেয়ে ইয়াক আইনীভাৱে পঢ়া হয়। ব্যক্তিগত চিঠি, স্তোত্ৰ আৰু বিল বেলেগ।"
       }
     },
     {
-      "id": "grammar-049",
+      "id": "voc-homonyms-confusables-051",
       "q": {
-        "en": "The opposite of 'arrival' is:",
-        "as": "'arrival' ৰ বিপৰীত শব্দ কি?"
+        "en": "Which word means 'double'?",
+        "as": "কোন শব্দটোৰ অৰ্থ 'double'?"
       },
       "options": [
         {
-          "en": "coming",
-          "as": "coming"
+          "en": "pour",
+          "as": "pour"
         },
         {
-          "en": "departure",
-          "as": "departure"
+          "en": "quite",
+          "as": "quite"
         },
         {
-          "en": "reach",
-          "as": "reach"
+          "en": "root",
+          "as": "root"
         },
         {
-          "en": "entry",
-          "as": "entry"
+          "en": "dual",
+          "as": "dual"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "\"dual\" is the word that fits here. The others are different words: \"quite\" is an adverb meaning fairly; pour, root are different words.",
+        "as": "\"dual\" হে ইয়াত খাপ খায়। বাকীবোৰ বেলেগ শব্দ: \"quite\" — বৰ বেছি নহয়, যথেষ্ট; pour, root বেলেগ শব্দ।"
+      }
+    },
+    {
+      "id": "computer-187",
+      "q": {
+        "en": "A computer has 4 GB of RAM and the operating system reports that about 1 GB is permanently in use before any program is opened. That memory is held by the",
+        "as": "কম্পিউটাৰত ৪ জিবি RAM আছে আৰু অপাৰেটিং চিষ্টেমে জনায় কোনো প্ৰ'গ্ৰাম নুখোলাকৈ প্ৰায় ১ জিবি স্থায়ীভাৱে ব্যৱহৃত। সেই স্মৃতি ধৰি ৰাখে"
+      },
+      "options": [
+        {
+          "en": "the graphics card memory",
+          "as": "গ্ৰাফিক্স কাৰ্ডৰ স্মৃতিয়ে"
+        },
+        {
+          "en": "kernel and background services",
+          "as": "কাৰ্ণেল আৰু পৃষ্ঠভূমিৰ সেৱাই"
+        },
+        {
+          "en": "the BIOS chip",
+          "as": "BIOS চিপে"
+        },
+        {
+          "en": "the hard disk cache",
+          "as": "হাৰ্ড ডিস্ক কেশে"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "'Departure' is the opposite of 'arrival'.",
-        "as": "'departure' হৈছে 'arrival' ৰ বিপৰীত শব্দ।"
+        "en": "The kernel, drivers and background services are loaded at boot and stay resident, which is the baseline memory use seen before any user program starts. The BIOS chip is non-volatile firmware rather than RAM, disk cache is used on demand and graphics memory is separate.",
+        "as": "কাৰ্ণেল, ড্ৰাইভাৰ আৰু পৃষ্ঠভূমিৰ সেৱা বুটত লোড হৈ ৰৈ যায়, যি কোনো ব্যৱহাৰকাৰী প্ৰ'গ্ৰাম আৰম্ভ হোৱাৰ আগতে দেখা মূল স্মৃতি ব্যৱহাৰ। BIOS চিপ RAM নহয় অস্থিৰ নোহোৱা ফাৰ্মৱেৰ, ডিস্ক কেশ প্ৰয়োজনত ব্যৱহৃত আৰু গ্ৰাফিক্স স্মৃতি পৃথক।"
       }
     },
     {
-      "id": "biology-109",
+      "id": "nursing-073",
       "q": {
-        "en": "Food pipe is also called?",
-        "as": "খাদ্যনলীক আন কি নামেৰে জনা যায়?"
+        "en": "Which of the following is the earliest sign of pressure sore formation?",
+        "as": "চাপৰ ঘা হোৱাৰ আটাই আগতীয়া চিন"
       },
       "options": [
         {
+          "en": "deep ulcer with bone visible",
+          "as": "হাড় দেখা পোৱা গভীৰ ঘা"
+        },
+        {
+          "en": "black dead tissue",
+          "as": "ক'লা মৃত কলা"
+        },
+        {
+          "en": "pus discharge",
+          "as": "পুঁ‌জ ওলোৱা"
+        },
+        {
+          "en": "non-blanching redness over a bony point",
+          "as": "হাড়ৰ ওপৰত নুমুৱা নোহোৱা ৰঙা ছাল"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Redness that does not fade on pressure means blood flow is already impaired. Ulcer and black tissue are much later stages.",
+        "as": "চাপত নুমুৱা নোহোৱা ৰঙা মানে ৰক্তস্ৰোত ইতিমধ্যে বেয়া। ঘা আৰু ক'লা কলা বহু পিছৰ পৰ্যায়।"
+      }
+    },
+    {
+      "id": "physics-335",
+      "q": {
+        "en": "The focal length of a concave mirror is 10 cm. Its radius of curvature is",
+        "as": "অৱতল দাপোণৰ ফ'কাছ দৈৰ্ঘ্য ১০ ছেন্টিমিটাৰ। তাৰ বক্ৰতা ব্যাসাৰ্ধ"
+      },
+      "options": [
+        {
+          "en": "20 cm",
+          "as": "২০ ছেন্টিমিটাৰ"
+        },
+        {
+          "en": "10 cm",
+          "as": "১০ ছেন্টিমিটাৰ"
+        },
+        {
+          "en": "5 cm",
+          "as": "৫ ছেন্টিমিটাৰ"
+        },
+        {
+          "en": "40 cm",
+          "as": "৪০ ছেন্টিমিটাৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The radius of curvature is twice the focal length for a spherical mirror, so ten gives twenty centimetre. Five would be the half, not double.",
+        "as": "গোলাকাৰ দাপোণৰ বক্ৰতা ব্যাসাৰ্ধ ফ'কাছ দৈৰ্ঘ্যৰ দুগুণ, সেয়ে দহৰপৰা বিছ ছেন্টিমিটাৰ। পাঁচ আধা হ'ল হেতেন, দুগুণ নহয়।"
+      }
+    },
+    {
+      "id": "biology-030",
+      "q": {
+        "en": "Organisms that depend on other organisms for food are called?",
+        "as": "খাদ্যৰ বাবে আন জীৱৰ ওপৰত নিৰ্ভৰ কৰা জীৱবোৰক কি বোলা হয়?"
+      },
+      "options": [
+        {
+          "en": "Predators",
+          "as": "শিকাৰী"
+        },
+        {
+          "en": "Producers",
+          "as": "উৎপাদক"
+        },
+        {
+          "en": "Decomposers",
+          "as": "বিয়োজক"
+        },
+        {
+          "en": "Consumers",
+          "as": "উপভোক্তা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Organisms that depend on other organisms for food are called consumers.",
+        "as": "খাদ্যৰ বাবে আন জীৱৰ ওপৰত নিৰ্ভৰ কৰা জীৱবোৰক উপভোক্তা বোলা হয়।"
+      }
+    },
+    {
+      "id": "chemistry-320",
+      "q": {
+        "en": "A catalyst is a substance that",
+        "as": "অনুঘটক এনে পদাৰ্থ যি"
+      },
+      "options": [
+        {
+          "en": "changes the rate of reaction without being consumed",
+          "as": "নিজে খৰচ নোহোৱাকৈ বিক্ৰিয়াৰ হাৰ সলায়"
+        },
+        {
+          "en": "increases the yield permanently",
+          "as": "উৎপাদ স্থায়ীভাৱে বঢ়ায়"
+        },
+        {
+          "en": "is always a solid",
+          "as": "সদায় কঠিন"
+        },
+        {
+          "en": "provides energy to the reaction",
+          "as": "বিক্ৰিয়ালৈ শক্তি যোগায়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "A catalyst lowers the activation energy so the reaction goes faster, and it is recovered unchanged. It does not change the final yield at equilibrium.",
+        "as": "অনুঘটকে সক্ৰিয়ণ শক্তি কমাই বিক্ৰিয়া দ্ৰুত কৰে, আৰু অপৰিৱৰ্তিতভাৱে ঘূৰি পোৱা যায়। ই সাম্যাৱস্থাৰ চূড়ান্ত উৎপাদ নসলায়।"
+      }
+    },
+    {
+      "id": "chemistry-183",
+      "q": {
+        "en": "The bond present in sodium chloride is",
+        "as": "ছডিয়াম ক্লৰাইডত থকা বন্ধনটো"
+      },
+      "options": [
+        {
+          "en": "ionic",
+          "as": "আয়নিক"
+        },
+        {
+          "en": "covalent",
+          "as": "সমযোজী"
+        },
+        {
+          "en": "metallic",
+          "as": "ধাতৱীয়"
+        },
+        {
+          "en": "coordinate",
+          "as": "সমন্বয়"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Sodium loses its single outer electron to chlorine, giving ions held by electrostatic attraction. The two differ greatly in electronegativity, so they do not share.",
+        "as": "ছডিয়ামে তাৰ এক বহিঃস্ত ইলেক্ট্ৰন ক্লৰিনলৈ এৰি দিয়ে, আয়ন স্থিৰ-বৈদ্যুতিক আকৰ্ষণে ধৰি ৰাখে। দুয়োৰ ইলেক্ট্ৰন ঋণাত্মকতাত বহু পাৰ্থক্য, সেয়ে ভাগ নকৰে।"
+      }
+    },
+    {
+      "id": "vr-statement-conclusions-050",
+      "q": {
+        "en": "Statement: In a village with 450 members, 270 are farmers. Conclusions: I. All of them are farmers. II. At least some of them are farmers.",
+        "as": "বিবৃতি: গাঁও ত ৪৫০ জন সদস্যৰ ভিতৰত ২৭০ জন কৃষক। সিদ্ধান্ত: I. তেওঁলোক সকলোৱেই কৃষক। II. তেওঁলোকৰ অন্ততঃ কিছু কৃষক।"
+      },
+      "options": [
+        {
+          "en": "Only conclusion I follows",
+          "as": "কেৱল সিদ্ধান্ত I অনুসৰণ কৰে"
+        },
+        {
+          "en": "Both conclusions follow",
+          "as": "দুয়োটা সিদ্ধান্ত অনুসৰণ কৰে"
+        },
+        {
+          "en": "Only conclusion II follows",
+          "as": "কেৱল সিদ্ধান্ত II অনুসৰণ কৰে"
+        },
+        {
+          "en": "Neither conclusion follows",
+          "as": "কোনো সিদ্ধান্তই অনুসৰণ নকৰে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "With the statements \"In a village with 450 members, 270 are farmers\", conclusion I (All of them are farmers.) does not follow and conclusion II (At least some of them are farmers.) follows; hence the answer is: Only conclusion II follows.",
+        "as": "সিদ্ধান্ত I অনুসৰণ নকৰে, সিদ্ধান্ত II অনুসৰণ কৰে। সেয়ে: কেৱল সিদ্ধান্ত II অনুসৰণ কৰে।"
+      }
+    },
+    {
+      "id": "cmp-paragraph-ordering-034",
+      "q": {
+        "en": "Which sentence comes immediately after this sentence? 'Reading is a habit that improves both knowledge and language.'",
+        "as": "এই বাক্যৰ ঠিক পিছত কোন বাক্য আহে? 'Reading is a habit that improves both knowledge and language.'"
+      },
+      "options": [
+        {
+          "en": "Even a few minutes of reading each day can make a difference.",
+          "as": "Even a few minutes of reading each day can make a difference."
+        },
+        {
+          "en": "Regular exercise keeps the body and mind healthy.",
+          "as": "Regular exercise keeps the body and mind healthy."
+        },
+        {
+          "en": "It strengthens the heart, controls weight and reduces stress.",
+          "as": "It strengthens the heart, controls weight and reduces stress."
+        },
+        {
+          "en": "People who read regularly develop a wider vocabulary and better concentration.",
+          "as": "People who read regularly develop a wider vocabulary and better concentration."
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "'People who read regularly develop a wider vocabulary and better concentration.' follows 'Reading is a habit that improves both knowledge and language.'.",
+        "as": "'Reading is a habit that improves both knowledge and language.' ৰ পিছত 'People who read regularly develop a wider vocabulary and better concentration.' আহে।"
+      }
+    },
+    {
+      "id": "computer-038",
+      "q": {
+        "en": "The firmware that starts a computer and tests the hardware is the",
+        "as": "কম্পিউটাৰ আৰম্ভ কৰি হাৰ্ডৱেৰ পৰীক্ষা কৰা ফাৰ্মৱেৰটো"
+      },
+      "options": [
+        {
+          "en": "kernel",
+          "as": "কাৰ্নেল"
+        },
+        {
+          "en": "shell",
+          "as": "শ্বেল"
+        },
+        {
+          "en": "BIOS",
+          "as": "BIOS"
+        },
+        {
+          "en": "driver",
+          "as": "ড্ৰাইভাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The basic input output system runs a power-on self test and then loads the boot loader. The kernel comes later, inside the operating system.",
+        "as": "BIOS এ আৰম্ভণিৰ স্ব-পৰীক্ষা চলাই তাৰ পিছত বুট লোডাৰ লোড কৰে। কাৰ্নেল পিছত, অপাৰেটিং চিষ্টেমৰ ভিতৰত আহে।"
+      }
+    },
+    {
+      "id": "chemistry-041",
+      "q": {
+        "en": "Polythene is a polymer of which monomer?",
+        "as": "পলিথিন কোনটো monomerৰ পলিমাৰ?"
+      },
+      "options": [
+        {
+          "en": "Methane",
+          "as": "মিথেন"
+        },
+        {
+          "en": "Acetylene",
+          "as": "এচিটিলিন"
+        },
+        {
+          "en": "Ethene",
+          "as": "ইথিন"
+        },
+        {
+          "en": "Benzene",
+          "as": "বেঞ্জিন"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Polythene is formed by the polymerisation of ethene.",
+        "as": "ইথিনৰ পলিমাৰীকৰণৰ দ্বাৰা পলিথিন গঠিত হয়।"
+      }
+    },
+    {
+      "id": "nursing-103",
+      "q": {
+        "en": "A newborn weighing less than 2500 grams at birth is termed",
+        "as": "জন্মত ২৫০০ গ্ৰামতকৈ কম ওজনৰ নৱজাতকক কি বোলা হয়"
+      },
+      "options": [
+        {
+          "en": "post term",
+          "as": "অতিপূৰ্ণকালীন"
+        },
+        {
+          "en": "low birth weight",
+          "as": "নিম্ন জন্ম ওজন"
+        },
+        {
+          "en": "normal weight",
+          "as": "স্বাভাৱিক ওজন"
+        },
+        {
+          "en": "macrosomic",
+          "as": "অতি ওজন"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Under two and a half kilograms is low birth weight, which raises the risk of infection and death. Macrosomia is the opposite, over four kilograms.",
+        "as": "আঢ়ৈ কিলোগ্ৰামতকৈ কম নিম্ন জন্ম ওজন, যিয়ে সংক্ৰমণ আৰু মৃত্যুৰ আশংকা বঢ়ায়। মেক্ৰ'ছ'মিয়া ওলোটা, চাৰি কিলোগ্ৰামৰ ওপৰত।"
+      }
+    },
+    {
+      "id": "geography-extra-193",
+      "q": {
+        "en": "The Naranarayan bridge is important because it",
+        "as": "নাৰাণাৰায়ণ দলং গুৰুত্বপূৰ্ণ কাৰণ ই"
+      },
+      "options": [
+        {
+          "en": "crosses the Brahmaputra connecting Goalpara and Dhubri areas",
+          "as": "গোৱালপাৰা আৰু ধুবুৰী অঞ্চল জুৰি ব্ৰহ্মপুত্ৰ পাৰ হয়"
+        },
+        {
+          "en": "crosses the Barak",
+          "as": "বৰাক পাৰ হয়"
+        },
+        {
+          "en": "is a railway tunnel",
+          "as": "এটা ৰেল সুৰংগ"
+        },
+        {
+          "en": "is a dam",
+          "as": "এটা বান্ধ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The bridge links the two banks in the west, which is why it shortened the route to Bangladesh. It does not cross the Barak and is not a tunnel or dam.",
+        "as": "দলংখনে পশ্চিমত দুয়ো পাৰ জুৰে, সেয়ে বাংলাদেশলৈ পথ চুটি কৰিছিল। ই বৰাক পাৰ নহয় আৰু সুৰংগ বা বান্ধ নহয়।"
+      }
+    },
+    {
+      "id": "gram-non-finite-verbs-052",
+      "q": {
+        "en": "Choose the correct non-finite form: He cannot afford ___ a car.",
+        "as": "শুদ্ধ অ-সমাপিকা ক্ৰিয়া ৰূপ বাছনি কৰা: He cannot afford ___ a car."
+      },
+      "options": [
+        {
+          "en": "buying",
+          "as": "buying"
+        },
+        {
+          "en": "buy",
+          "as": "buy"
+        },
+        {
+          "en": "to buy",
+          "as": "to buy"
+        },
+        {
+          "en": "bought",
+          "as": "bought"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The sentence requires this non-finite form: to buy.",
+        "as": "বাক্যটোত এই অ-সমাপিকা ৰূপ 'to buy' প্ৰয়োজন।"
+      }
+    },
+    {
+      "id": "nursing-243",
+      "q": {
+        "en": "Sterilisation by autoclave uses",
+        "as": "অ'ট'ক্লেভ জীৱাণুমুক্তকৰণে ব্যৱহাৰ কৰে"
+      },
+      "options": [
+        {
+          "en": "ultraviolet light only",
+          "as": "কেৱল অতি-বেঙুনীয়া পোহৰ"
+        },
+        {
+          "en": "steam under pressure",
+          "as": "চাপত ভাপ"
+        },
+        {
+          "en": "dry heat only",
+          "as": "কেৱল শুকান তাপ"
+        },
+        {
+          "en": "chemical dye",
+          "as": "ৰাসায়নিক ৰং"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Saturated steam at raised pressure reaches the temperature that kills spores. Dry heat needs much longer and is used for glassware.",
+        "as": "চাপত সম্পৃক্ত ভাপে বীজাণু মৰা উষ্ণতাত পায়। শুকান তাপে বহু বেছি সময় লাগে আৰু কাচৰ সজুলিত ব্যৱহৃত।"
+      }
+    },
+    {
+      "id": "nursing-297",
+      "q": {
+        "en": "The correct management of a blister after a burn is to",
+        "as": "পোৰণিৰ পিছত ফোঁ‌হাৰ শুদ্ধ ব্যৱস্থাপনা"
+      },
+      "options": [
+        {
+          "en": "prick it with a needle",
+          "as": "ছুইৰে ফুটাই দিয়া"
+        },
+        {
+          "en": "rub it with oil",
+          "as": "তেলেৰে ঘঁ‌হা"
+        },
+        {
+          "en": "apply mud",
+          "as": "বোকা লগোৱা"
+        },
+        {
+          "en": "leave it intact and cover loosely",
+          "as": "অক্ষত ৰাখি ঢিলাকৈ ঢাকা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The blister roof is a sterile barrier against infection, so it stays unless a clinician decides otherwise.",
+        "as": "ফোঁ‌হাৰ ওপৰৰ ছাল সংক্ৰমণৰ বিৰুদ্ধে জীৱাণুমুক্ত বেৰ, সেয়ে চিকিৎসকে নক'লে তাক ৰখা হয়।"
+      }
+    },
+    {
+      "id": "chemistry-360",
+      "q": {
+        "en": "The gas that is most abundant in the earth's atmosphere is",
+        "as": "পৃথিৱীৰ বায়ুমণ্ডলত আটাই বেছি থকা গেছটো"
+      },
+      "options": [
+        {
+          "en": "nitrogen",
+          "as": "নাইট্ৰজেন"
+        },
+        {
+          "en": "oxygen",
+          "as": "অক্সিজেন"
+        },
+        {
+          "en": "carbon dioxide",
+          "as": "কাৰ্বন ডাইঅক্সাইড"
+        },
+        {
+          "en": "argon",
+          "as": "আৰ্গন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Nitrogen makes up about seventy-eight percent of dry air and oxygen about twenty-one. Carbon dioxide is only a trace.",
+        "as": "নাইট্ৰজেনে শুকান বায়ুৰ প্ৰায় আঠাতৰ সত্তৰ শতাংশ আৰু অক্সিজেন প্ৰায় একৈছ। কাৰ্বন ডাইঅক্সাইড কেবল অতি কম।"
+      }
+    },
+    {
+      "id": "nursing-152",
+      "q": {
+        "en": "Blood for a routine haematology test is best collected in a tube containing",
+        "as": "সাধাৰণ ৰক্তবিজ্ঞান পৰীক্ষাৰ বাবে ৰক্ত সংগ্ৰহ কৰা নলীত থাকিব লাগে"
+      },
+      "options": [
+        {
+          "en": "EDTA",
+          "as": "EDTA"
+        },
+        {
+          "en": "plain glass only",
+          "as": "কেৱল সাধাৰণ কাচ"
+        },
+        {
+          "en": "citrate only",
+          "as": "কেৱল ছাইট্ৰেট"
+        },
+        {
+          "en": "heparin only",
+          "as": "কেৱল হেপেৰিন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "EDTA chelates calcium and stops clotting without altering cell shape, which cell counters need. Plain tubes clot and cannot be counted.",
+        "as": "EDTA এ কেলছিয়াম বান্ধি ৰক্ত জমা ৰোধ কৰে আৰু কোষৰ আকাৰ নসলে, যি কাউণ্টাৰলৈ লাগে। সাধাৰণ নলীত ৰক্ত জমে, গণিব নোৱাৰি।"
+      }
+    },
+    {
+      "id": "nursing-283",
+      "q": {
+        "en": "The correct first aid for a chemical splash in the eye is to",
+        "as": "চকুত ৰাসায়নিক ছিটিকিলে শুদ্ধ প্ৰাথমিক চিকিৎসা"
+      },
+      "options": [
+        {
+          "en": "cover the eye and wait",
+          "as": "চকু ঢাকি অপেক্ষা কৰা"
+        },
+        {
+          "en": "irrigate with clean running water for at least fifteen minutes",
+          "as": "অন্ততঃ পোন্ধৰ মিনিট পৰিষ্কাৰ বোৱা পানীৰে ধোৱা"
+        },
+        {
+          "en": "rub the eye hard",
+          "as": "চকু জোৰে ঘঁ‌হা"
+        },
+        {
+          "en": "apply eye ointment at once",
+          "as": "লগে লগে চকুৰ মলম লগোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Dilution and washing out limit the burn, while rubbing spreads the chemical and ointment traps it.",
+        "as": "পাতল কৰি ধুই পেলালে পোৰণি সীমিত হয়, আনহাতে ঘঁ‌হিলে ৰাসায়নিক বিয়পে আৰু মলমে তাক ধৰি ৰাখে।"
+      }
+    },
+    {
+      "id": "computer-075",
+      "q": {
+        "en": "The MS Excel function that returns the average of a range is",
+        "as": "পৰিসৰৰ গড় দিয়া MS এক্সেল ফলনটো"
+      },
+      "options": [
+        {
+          "en": "MODE",
+          "as": "MODE"
+        },
+        {
+          "en": "AVERAGE",
+          "as": "AVERAGE"
+        },
+        {
+          "en": "SUM",
+          "as": "SUM"
+        },
+        {
+          "en": "MEDIAN",
+          "as": "MEDIAN"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "AVERAGE adds the values and divides by the count. MEDIAN gives the middle value and MODE the most frequent.",
+        "as": "AVERAGE এ যোগফলক সংখ্যাৰে ভাগ কৰে। MEDIAN এ মাজৰ মান আৰু MODE এ আটাই সঘন মান দিয়ে।"
+      }
+    },
+    {
+      "id": "nursing-344",
+      "q": {
+        "en": "The Janani Shishu Suraksha Karyakram provides",
+        "as": "জননী শিশু সুৰক্ষা কাৰ্যসূচীয়ে যোগান ধৰে"
+      },
+      "options": [
+        {
+          "en": "free delivery and newborn care in public facilities",
+          "as": "চৰকাৰী সুবিধাত বিনামূলীয়া প্ৰসৱ আৰু নৱজাতক সেৱা"
+        },
+        {
+          "en": "free bicycles",
+          "as": "বিনামূলীয়া চাইকেল"
+        },
+        {
+          "en": "free laptops",
+          "as": "বিনামূলীয়া লেপটপ"
+        },
+        {
+          "en": "free seeds",
+          "as": "বিনামূলীয়া বীজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The scheme removes charges for delivery, drugs, diagnostics, diet and transport, so cost never stops a mother reaching care.",
+        "as": "আঁচনিয়ে প্ৰসৱ, ঔষধ, পৰীক্ষা, আহাৰ আৰু পৰিবহনৰ মাচুল আঁতৰায়, সেয়ে খৰচে মাকক চিকিৎসালৈ যোৱাৰপৰা ৰোধ নকৰে।"
+      }
+    },
+    {
+      "id": "num-logical-sequence-words-060",
+      "q": {
+        "en": "Complete the sequence: DW, EV, FU, GT, ?",
+        "as": "শৃংখলা সম্পূৰ্ণ কৰা: DW, EV, FU, GT, ?"
+      },
+      "options": [
+        {
+          "en": "HS",
+          "as": "HS"
+        },
+        {
+          "en": "IR",
+          "as": "IR"
+        },
+        {
+          "en": "HT",
+          "as": "HT"
+        },
+        {
+          "en": "GS",
+          "as": "GS"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The pairs are opposite letters moving inward; the next pair is HS.",
+        "as": "যোৰবোৰ বিপৰীত আখৰ; পৰৱৰ্তী HS।"
+      }
+    },
+    {
+      "id": "nursing-454",
+      "q": {
+        "en": "A patient with a colostomy says the pouch leaks and the skin around the stoma is red and broken. The nurse should",
+        "as": "ক'ল'ষ্টমি থকা ৰোগীয়ে পাউচ লিক হোৱা আৰু ষ্ট'মাৰ চাৰিওফালৰ ছাল ৰঙা আৰু ফটা বুলি কয়। নাৰ্ছে"
+      },
+      "options": [
+        {
+          "en": "wash the area with spirit and leave it open",
+          "as": "স্পিৰিটেৰে ধুই খোলা এৰি দিয়া"
+        },
+        {
+          "en": "change the pouch only when it is completely full",
+          "as": "পাউচ সম্পূৰ্ণ ভৰিলেহে সলনি কৰা"
+        },
+        {
+          "en": "measure the stoma and fit a correctly sized pouch with a skin barrier",
+          "as": "ষ্ট'মা জুখি ছাল সুৰক্ষাৰ সৈতে শুদ্ধ আকাৰৰ পাউচ লগোৱা"
+        },
+        {
+          "en": "apply a tight belt over the pouch",
+          "as": "পাউচৰ ওপৰত টান বেল্ট লগোৱা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Leakage comes from an ill-fitting pouch, and the effluent digests skin, so measuring the stoma and using a barrier with the right size is the fix. A tight belt or infrequent changes increase leakage, and spirit dries and damages the skin further.",
+        "as": "লিক ভুল আকাৰৰ পাউচৰপৰা হয়, আৰু নিঃসৰণে ছাল হজম কৰে, সেয়ে ষ্ট'মা জুখি শুদ্ধ আকাৰৰ সুৰক্ষাসহ পাউচ লগোৱাই সমাধান। টান বেল্ট বা কমকৈ সলনিয়ে লিক বঢ়ায়, আৰু স্পিৰিটে ছাল শুকাই আৰু নষ্ট কৰে।"
+      }
+    },
+    {
+      "id": "biology-270",
+      "q": {
+        "en": "The retina of the eye contains which two types of light-sensitive cells?",
+        "as": "চকুৰ ৰেটিনাত কেনে দুপ্ৰকাৰৰ পোহৰ-সংবেদী কোষ থাকে"
+      },
+      "options": [
+        {
+          "en": "rods and rods only",
+          "as": "কেৱল ৰড"
+        },
+        {
+          "en": "neurons and nephrons",
+          "as": "নিউৰন আৰু নেফ্ৰন"
+        },
+        {
+          "en": "rods and cones",
+          "as": "ৰড আৰু ক'ন"
+        },
+        {
+          "en": "cilia and flagella",
+          "as": "চিলিয়া আৰু ফ্লেজেলা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Rods work in dim light and give black-and-white vision, while cones need bright light and give colour. Both are photoreceptors present together in the retina.",
+        "as": "ৰডে ম্লান পোহৰত কাম কৰি ক'লা-বগা দৃষ্টি দিয়ে, আৰু ক'নে উজ্জ্বল পোহৰ লাগি ৰং দিয়ে। দুয়োটা ৰেটিনাত একেলগে থকা পোহৰ-গ্ৰাহী।"
+      }
+    },
+    {
+      "id": "physics-003",
+      "q": {
+        "en": "Speed of light in vacuum is approximately?",
+        "as": "শূন্যত পোহৰৰ বেগ প্ৰায় কিমান?"
+      },
+      "options": [
+        {
+          "en": "3 × 10^6 m/s",
+          "as": "৩ × ১০^৬ মি/ছে"
+        },
+        {
+          "en": "3 × 10^5 m/s",
+          "as": "৩ × ১০^৫ মি/ছে"
+        },
+        {
+          "en": "3 × 10^8 m/s",
+          "as": "৩ × ১০^৮ মি/ছে"
+        },
+        {
+          "en": "3 × 10^3 m/s",
+          "as": "৩ × ১০^৩ মি/ছে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Light travels in vacuum at approximately 3 × 10^8 m/s, a fundamental constant denoted by c.",
+        "as": "শূন্যত পোহৰৰ বেগ প্ৰায় ৩ × ১০^৮ মি/ছে.; ইয়াক c ৰে সূচোৱা হয়।"
+      }
+    },
+    {
+      "id": "chemistry-291",
+      "q": {
+        "en": "The flame of a candle is luminous in the middle zone because that zone has",
+        "as": "মমবাতিৰ শিখা মাজৰ অঞ্চলত দীপ্তিমান কাৰণ সেই অঞ্চলত থাকে"
+      },
+      "options": [
+        {
+          "en": "unburnt carbon particles glowing",
+          "as": "অদগ্ধ কাৰ্বন কণিকা জ্বলি থকা"
+        },
+        {
+          "en": "complete combustion",
+          "as": "সম্পূৰ্ণ দহন"
+        },
+        {
+          "en": "only oxygen",
+          "as": "কেৱল অক্সিজেন"
+        },
+        {
+          "en": "no heat at all",
+          "as": "একেবাৰে তাপ নাই"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "In the middle zone there is not enough oxygen, so carbon particles form and glow yellow. The outer zone burns completely and is almost non-luminous.",
+        "as": "মাজৰ অঞ্চলত পৰ্যাপ্ত অক্সিজেন নাই, সেয়ে কাৰ্বন কণিকা গঠিত হৈ হালধীয়াকৈ জ্বলে। বাহিৰৰ অঞ্চল সম্পূৰ্ণ জ্বলে আৰু প্ৰায় দীপ্তিহীন।"
+      }
+    },
+    {
+      "id": "current-affairs-extra-057",
+      "q": {
+        "en": "Central Excise Day is observed every year on",
+        "as": "কেন্দ্ৰীয় উৎপাদন শুল্ক দিৱস প্ৰতি বছৰে কেতিয়া পালন কৰা হয়"
+      },
+      "options": [
+        {
+          "en": "24 January",
+          "as": "২৪ জানুৱাৰী"
+        },
+        {
+          "en": "24 March",
+          "as": "২৪ মাৰ্চ"
+        },
+        {
+          "en": "24 February",
+          "as": "২৪ ফেব্ৰুৱাৰী"
+        },
+        {
+          "en": "24 April",
+          "as": "২৪ এপ্ৰিল"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Central Excise Day marks the enactment of the Central Excise and Salt Act, 1944.",
+        "as": "কেন্দ্ৰীয় উৎপাদন শুল্ক দিৱসে ১৯৪৪ চনৰ কেন্দ্ৰীয় উৎপাদন শুল্ক আৰু লোণ আইনৰ প্ৰণয়ন স্মৰণ কৰে।"
+      }
+    },
+    {
+      "id": "biology-089",
+      "q": {
+        "en": "The exchange of gases in human lungs occurs in?",
+        "as": "মানুহৰ হাওঁফাওঁত গেছ বিনিময় ক’ত হয়?"
+      },
+      "options": [
+        {
+          "en": "Alveoli",
+          "as": "এলভিঅলাই"
+        },
+        {
+          "en": "Bronchi",
+          "as": "ব্ৰংকাই"
+        },
+        {
           "en": "Trachea",
           "as": "ট্ৰেকিয়া"
+        },
+        {
+          "en": "Diaphragm",
+          "as": "ডায়েফ্ৰাম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Exchange of gases in human lungs takes place in the alveoli.",
+        "as": "মানুহৰ হাওঁফাওঁত গেছ বিনিময় এলভিঅলাইত হয়।"
+      }
+    },
+    {
+      "id": "voc-spelling-141",
+      "q": {
+        "en": "Choose the correctly spelt word for the meaning 'amount'.",
+        "as": "'amount' অৰ্থৰ শুদ্ধ বানান বাছনি কৰা।"
+      },
+      "options": [
+        {
+          "en": "quentity",
+          "as": "quentity"
+        },
+        {
+          "en": "quantety",
+          "as": "quantety"
+        },
+        {
+          "en": "quantity",
+          "as": "quantity"
+        },
+        {
+          "en": "quantiti",
+          "as": "quantiti"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "\"quantity\" is the only correct spelling here: \"quentity\" writes \"e\" where the correct form has \"a\"; \"quantety\" writes \"e\" where the correct form has \"i\"; \"quantiti\" writes \"i\" where the correct form has \"y\".",
+        "as": "\"quantity\" হে ইয়াত শুদ্ধ বানান: \"quentity\" ত \"a\" ৰ ঠাইত \"e\" আছে, \"quantety\" ত \"i\" ৰ ঠাইত \"e\" আছে, \"quantiti\" ত \"y\" ৰ ঠাইত \"i\" আছে।"
+      }
+    },
+    {
+      "id": "nursing-564",
+      "q": {
+        "en": "The combining form hepat- refers to the",
+        "as": "হেপাট- সংযোগী ৰূপে বুজায়"
+      },
+      "options": [
+        {
+          "en": "liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "kidney",
+          "as": "বৃক্ক"
+        },
+        {
+          "en": "stomach",
+          "as": "পেট"
+        },
+        {
+          "en": "lung",
+          "as": "ফুসফুস"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Hepat- is the liver, as in hepatitis and hepatomegaly. The kidney is ren- or nephro-, the stomach is gastr- and the lung is pulmon- or pneumo-.",
+        "as": "হেপাট- মানে যকৃত, যেনে হেপাটাইটিছ আৰু হেপাট'মেগালি। বৃক্ক ৰেন- বা নেফ্ৰ'- , পেট গেষ্ট্ৰ- আৰু ফুসফুস পুলম'- বা নিউম'-।"
+      }
+    },
+    {
+      "id": "chemistry-038",
+      "q": {
+        "en": "The calorific value of a fuel is usually expressed in?",
+        "as": "ইন্ধনৰ কেল’ৰিফিক মান সাধাৰণতে কি এককত প্ৰকাশ কৰা হয়?"
+      },
+      "options": [
+        {
+          "en": "kJ/kg",
+          "as": "কিল’জুল/কিলোগ্ৰাম"
+        },
+        {
+          "en": "kg/kJ",
+          "as": "কিলোগ্ৰাম/কিল’জুল"
+        },
+        {
+          "en": "J/kg",
+          "as": "জুল/কিলোগ্ৰাম"
+        },
+        {
+          "en": "kJ/g",
+          "as": "কিল’জুল/গ্ৰাম"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The calorific value of a fuel is expressed in kilojoules per kilogram (kJ/kg).",
+        "as": "ইন্ধনৰ কেল’ৰিফিক মান কিল’জুল প্ৰতি কিলোগ্ৰামত (kJ/kg) প্ৰকাশ কৰা হয়।"
+      }
+    },
+    {
+      "id": "physics-321",
+      "q": {
+        "en": "The angle of incidence is always equal to the angle of reflection. This is the law of",
+        "as": "আপতন কোণ সদায় প্ৰতিফলন কোণৰ সমান। এইয়া কি সূত্ৰ"
+      },
+      "options": [
+        {
+          "en": "reflection",
+          "as": "প্ৰতিফলনৰ"
+        },
+        {
+          "en": "refraction",
+          "as": "প্ৰতিসৰণৰ"
+        },
+        {
+          "en": "dispersion",
+          "as": "বিচ্ছুৰণৰ"
+        },
+        {
+          "en": "diffraction",
+          "as": "অপসৰণৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The law of reflection fixes both angles measured from the normal. Refraction deals with bending as light enters a new medium.",
+        "as": "প্ৰতিফলন সূত্ৰই অভিলম্বৰপৰা জোখা দুয়ো কোণ নিৰ্ণয় কৰে। প্ৰতিসৰণে নতুন মাধ্যমত সোমাওঁতে বেঁকা হোৱা চম্ভালে।"
+      }
+    },
+    {
+      "id": "chemistry-237",
+      "q": {
+        "en": "Which of the following is a natural indicator?",
+        "as": "তলৰ কোনটো প্ৰাকৃতিক সূচক"
+      },
+      "options": [
+        {
+          "en": "red cabbage extract",
+          "as": "ৰঙা বন্ধাকবিৰ ৰস"
+        },
+        {
+          "en": "methyl orange",
+          "as": "মিথাইল অৰেঞ্জ"
+        },
+        {
+          "en": "phenolphthalein",
+          "as": "ফেনলফ্থেলিন"
+        },
+        {
+          "en": "litmus paper",
+          "as": "লিটমাছ কাগজ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Red cabbage extract is a plant pigment that shifts colour with pH. Methyl orange and phenolphthalein are synthetic.",
+        "as": "ৰঙা বন্ধাকবিৰ ৰস উদ্ভিদ ৰঞ্জক যি pH সৈতে ৰং সলায়। মিথাইল অৰেঞ্জ আৰু ফেনলফ্থেলিন কৃত্ৰিম।"
+      }
+    },
+    {
+      "id": "num-input-output-003",
+      "q": {
+        "en": "A number-arrangement machine rearranges the input in ascending order, one number per step. Input: 34 78 12 56 90. What is Step 2?",
+        "as": "সংখ্যা সজোৱা যন্ত্ৰই ইনপুটটো একোটা সংখ্যা কৰি ঊৰ্ধ্বক্ৰমত সজায়। ইনপুট: 34 78 12 56 90। ধাপ ২ কি?"
+      },
+      "options": [
+        {
+          "en": "12 34 56 78 90",
+          "as": "১২ ৩৪ ৫৬ ৭৮ ৯০"
+        },
+        {
+          "en": "12 78 34 56 90",
+          "as": "১২ ৭৮ ৩৪ ৫৬ ৯০"
+        },
+        {
+          "en": "34 78 12 56 90",
+          "as": "৩৪ ৭৮ ১২ ৫৬ ৯০"
+        },
+        {
+          "en": "12 34 78 56 90",
+          "as": "১২ ৩৪ ৭৮ ৫৬ ৯০"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Step 2 has the 2 smallest numbers fixed at the left: 12 34 78 56 90.",
+        "as": "ধাপ ২ ত সৰু ২ টা সংখ্যা বাওঁফালে স্থিৰ হয়: 12 34 78 56 90।"
+      }
+    },
+    {
+      "id": "computer-065",
+      "q": {
+        "en": "In MS PowerPoint, the view used to show slides to an audience is",
+        "as": "MS পাৱাৰপইণ্টত দৰ্শকক শ্লাইড দেখুৱাবলৈ ব্যৱহৃত ভিউ"
+      },
+      "options": [
+        {
+          "en": "Normal",
+          "as": "নৰ্মেল"
+        },
+        {
+          "en": "Slide Sorter",
+          "as": "শ্লাইড ছৰ্টাৰ"
+        },
+        {
+          "en": "Notes Page",
+          "as": "নোটছ পেজ"
+        },
+        {
+          "en": "Slide Show",
+          "as": "শ্লাইড শ্ব'"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Slide Show fills the screen and runs the presentation. Slide Sorter only rearranges thumbnails.",
+        "as": "শ্লাইড শ্ব'ই পৰ্দা ভৰাই প্ৰেজেণ্টেশ্যন চলায়। শ্লাইড ছৰ্টাৰে কেবল থাম্বনেইল সজায়।"
+      }
+    },
+    {
+      "id": "nursing-270",
+      "q": {
+        "en": "Which of the following is the main reason for not wearing the same gloves for two patients?",
+        "as": "দুজন ৰোগীৰ বাবে একেই দস্তানা নিপিন্ধাৰ মূল কাৰণ"
+      },
+      "options": [
+        {
+          "en": "gloves change colour",
+          "as": "দস্তানাৰ ৰং সলনি হয়"
+        },
+        {
+          "en": "gloves are expensive",
+          "as": "দস্তানা দামী"
+        },
+        {
+          "en": "gloves carry organisms between patients",
+          "as": "দস্তানাই ৰোগীৰ মাজত জীৱাণু নিয়ে"
+        },
+        {
+          "en": "gloves become too tight",
+          "as": "দস্তানা টান হৈ যায়"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Gloves protect the wearer but become contaminated, so they are changed and hands cleaned between patients.",
+        "as": "দস্তানাই পিন্ধোতাক ৰক্ষা কৰে কিন্তু দূষিত হয়, সেয়ে ৰোগীৰ মাজত সলাই হাত পৰিষ্কাৰ কৰা হয়।"
+      }
+    },
+    {
+      "id": "chemistry-039",
+      "q": {
+        "en": "Which of the following is a natural polymer?",
+        "as": "তলৰ কোনটো প্ৰাকৃতিক পলিমাৰ?"
+      },
+      "options": [
+        {
+          "en": "Nylon",
+          "as": "নাইলন"
+        },
+        {
+          "en": "Cellulose",
+          "as": "চেলুল’জ"
+        },
+        {
+          "en": "Polythene",
+          "as": "পলিথিন"
+        },
+        {
+          "en": "PVC",
+          "as": "পিভিচি"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Cellulose is a natural polymer found in plants.",
+        "as": "চেলুল’জ উদ্ভিদত পোৱা এটা প্ৰাকৃতিক পলিমাৰ।"
+      }
+    },
+    {
+      "id": "vr-statement-course-of-action-052",
+      "q": {
+        "en": "Statement: Prices of essential commodities are rising. Courses of action: I. People should stop eating. II. All shops should be closed.",
+        "as": "বিবৃতি: অত্যাৱশ্যকীয় সামগ্ৰীৰ দাম বাঢ়িছে। কাৰ্যপন্থা: I. লোকে খোৱা বন্ধ কৰা উচিত। II. সকলো দোকান বন্ধ কৰা উচিত।"
+      },
+      "options": [
+        {
+          "en": "Only course of action I follows",
+          "as": "কেৱল কাৰ্যপন্থা I অনুসৰণ কৰে"
+        },
+        {
+          "en": "Only course of action II follows",
+          "as": "কেৱল কাৰ্যপন্থা II অনুসৰণ কৰে"
+        },
+        {
+          "en": "Neither course of action follows",
+          "as": "কোনো কাৰ্যপন্থাই অনুসৰণ নকৰে"
+        },
+        {
+          "en": "Both courses of action follow",
+          "as": "দুয়োটা কাৰ্যপন্থাই অনুসৰণ কৰে"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The problem is «Prices of essential commodities are rising». Course I is «People should stop eating» and course II is «All shops should be closed». A course of action has to meet the problem directly and be something that can actually be done, so weigh the two that way: the pair comes out as «Neither course of action follows», option C.",
+        "as": "সমস্যাটো «Prices of essential commodities are rising»। কাৰ্যপন্থা I «People should stop eating» আৰু কাৰ্যপন্থা II «All shops should be closed»। কাৰ্যপন্থা সমস্যাটোৰ সৈতে পোনপটীয়াকৈ জড়িত আৰু কৰ্মক্ষম হ'ব লাগে — এই মাপকাঠিত «Neither course of action follows», বিকল্প C।"
+      }
+    },
+    {
+      "id": "india-gk-extra-1094",
+      "q": {
+        "en": "The Zila Parishad operates at the",
+        "as": "জিলা পৰিষদে কাৰ স্তৰত কাম কৰে"
+      },
+      "options": [
+        {
+          "en": "district level",
+          "as": "জিলা স্তৰত"
+        },
+        {
+          "en": "block level",
+          "as": "খণ্ড স্তৰত"
+        },
+        {
+          "en": "village level",
+          "as": "গাঁও স্তৰত"
+        },
+        {
+          "en": "state level",
+          "as": "ৰাজ্য স্তৰত"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The top tier is the district, which is why it is named. Block and village are the lower tiers.",
+        "as": "ওপৰৰ স্তৰ জিলা, সেয়ে ইয়াৰ নাম। খণ্ড আৰু গাঁও তলৰ স্তৰ।"
+      }
+    },
+    {
+      "id": "biology-034",
+      "q": {
+        "en": "Which of the following is a primary consumer?",
+        "as": "তলৰ কোনটো প্ৰাথমিক উপভোক্তা?"
+      },
+      "options": [
+        {
+          "en": "Grass",
+          "as": "ঘাঁহ"
+        },
+        {
+          "en": "Deer",
+          "as": "হৰিণ"
+        },
+        {
+          "en": "Eagle",
+          "as": "ঈগল"
+        },
+        {
+          "en": "Tiger",
+          "as": "বাঘ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A deer, which eats plants, is a primary consumer.",
+        "as": "উদ্ভিদ খোৱা হৰিণ এক প্ৰাথমিক উপভোক্তা।"
+      }
+    },
+    {
+      "id": "nursing-049",
+      "q": {
+        "en": "A village health register is maintained mainly to",
+        "as": "গাঁৱৰ স্বাস্থ্য পঞ্জী ৰখা হয় মূলতঃ কিৰ বাবে"
+      },
+      "options": [
+        {
+          "en": "record rainfall",
+          "as": "বৰষুণ লিখিবলৈ"
+        },
+        {
+          "en": "list shopkeepers",
+          "as": "দোকানীৰ তালিকা কৰিবলৈ"
+        },
+        {
+          "en": "count cattle",
+          "as": "গৰু গণিবলৈ"
+        },
+        {
+          "en": "track families, births, deaths and immunisations",
+          "as": "পৰিয়াল, জন্ম, মৃত্যু আৰু টিকাকৰণ অনুসৰণ কৰিবলৈ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The register turns scattered visits into a continuous picture, which is what makes follow-up and coverage checks possible.",
+        "as": "পঞ্জীয়ে ছিন্ন পৰিদৰ্শনক একেৰাহে চিত্ৰলৈ ৰূপান্তৰ কৰে, সেয়ে অনুসৰণ আৰু সামৰিক পৰীক্ষা সম্ভৱ হয়।"
+      }
+    },
+    {
+      "id": "chemistry-368",
+      "q": {
+        "en": "The branch of chemistry that deals with the study of carbon compounds is",
+        "as": "কাৰ্বন যৌগৰ অধ্যয়ন কৰা ৰসায়ন বিজ্ঞানৰ শাখাটো"
+      },
+      "options": [
+        {
+          "en": "organic chemistry",
+          "as": "জৈৱ ৰসায়ন"
+        },
+        {
+          "en": "inorganic chemistry",
+          "as": "অজৈৱ ৰসায়ন"
+        },
+        {
+          "en": "physical chemistry",
+          "as": "ভৌতিক ৰসায়ন"
+        },
+        {
+          "en": "analytical chemistry",
+          "as": "বিশ্লেষণী ৰসায়ন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Organic chemistry covers carbon compounds, chiefly those with hydrogen. Inorganic chemistry handles the rest of the elements.",
+        "as": "জৈৱ ৰসায়নে কাৰ্বন যৌগ, মূলতঃ হাইড্ৰজেনযুক্ত, সামৰি লয়। অজৈৱ ৰসায়নে বাকী মৌলিকবোৰ চম্ভালে।"
+      }
+    },
+    {
+      "id": "nursing-284",
+      "q": {
+        "en": "A patient with suspected spinal injury should be moved only",
+        "as": "মেৰুদণ্ডৰ আঘাত সন্দেহ থকা ৰোগীক লৰচৰ কৰা উচিত কেৱল"
+      },
+      "options": [
+        {
+          "en": "if there is immediate danger such as fire",
+          "as": "আগুনৰ দৰে লগে লগে বিপদ থাকিলে"
+        },
+        {
+          "en": "to make the bed",
+          "as": "বিছনা সজাবলৈ"
+        },
+        {
+          "en": "to take a photograph",
+          "as": "ফটো তুলিবলৈ"
+        },
+        {
+          "en": "for a routine check",
+          "as": "নিয়মীয়া পৰীক্ষাৰ বাবে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Unnecessary movement can sever the cord, so the patient stays still unless staying would be fatal.",
+        "as": "অপ্ৰয়োজনীয় লৰচৰে ৰজ্জু ছিঁড়িব পাৰে, সেয়ে থাকিলে মৃত্যু হ'ব বুলি নিশ্চিত নহ'লে ৰোগী স্থিৰ থাকে।"
+      }
+    },
+    {
+      "id": "computer-078",
+      "q": {
+        "en": "Which key combination selects all the content in a Word document?",
+        "as": "ৱৰ্ড ডকুমেণ্টৰ সকলো সমল বাছনি কৰা কি চাবিৰ সংযোগ"
+      },
+      "options": [
+        {
+          "en": "Ctrl + D",
+          "as": "Ctrl + D"
+        },
+        {
+          "en": "Ctrl + F",
+          "as": "Ctrl + F"
+        },
+        {
+          "en": "Ctrl + A",
+          "as": "Ctrl + A"
+        },
+        {
+          "en": "Ctrl + E",
+          "as": "Ctrl + E"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + A selects all. Ctrl + F opens find and Ctrl + E centres the paragraph.",
+        "as": "Ctrl + A এ সকলো বাছনি কৰে। Ctrl + F এ বিচাৰ খোলে আৰু Ctrl + E এ অনুচ্ছেদ কেন্দ্ৰত ৰাখে।"
+      }
+    },
+    {
+      "id": "biology-213",
+      "q": {
+        "en": "A group of organisms that can interbreed and produce fertile offspring is called a",
+        "as": "প্ৰজনন কৰি উৰ্বৰ সন্তান উৎপন্ন কৰিব পৰা জীৱৰ গোটক কি বোলা হয়"
+      },
+      "options": [
+        {
+          "en": "genus",
+          "as": "গণ"
+        },
+        {
+          "en": "population",
+          "as": "জনসংখ্যা"
+        },
+        {
+          "en": "community",
+          "as": "সম্প্ৰদায়"
+        },
+        {
+          "en": "species",
+          "as": "প্ৰজাতি"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "A species is the interbreeding unit that produces fertile offspring. A genus groups related species, a population is one species in one area, and a community is all species in an area.",
+        "as": "প্ৰজাতি হ'ল উৰ্বৰ সন্তান উৎপন্ন কৰা প্ৰজননৰ একক। গণে সম্পৰ্কীয় প্ৰজাতি একত্ৰিত কৰে, জনসংখ্যা এটা অঞ্চলৰ এটা প্ৰজাতি, আৰু সম্প্ৰদায় এটা অঞ্চলৰ সকলো প্ৰজাতি।"
+      }
+    },
+    {
+      "id": "nursing-235",
+      "q": {
+        "en": "A below elbow amputation patient is trained to use a prosthesis for",
+        "as": "কিলাকুটিৰ তলত অংগচ্ছেদ হোৱা ৰোগীক কৃত্ৰিম অংগ কিৰ বাবে প্ৰশিক্ষণ দিয়া হয়"
+      },
+      "options": [
+        {
+          "en": "hearing",
+          "as": "শুনা"
+        },
+        {
+          "en": "grasping and daily tasks",
+          "as": "ধৰা আৰু দৈনন্দিন কাম"
+        },
+        {
+          "en": "walking",
+          "as": "খোজ কঢ়া"
+        },
+        {
+          "en": "seeing",
+          "as": "দেখা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "An upper limb prosthesis restores grip for eating, dressing and work. Walking aids relate to lower limb loss.",
+        "as": "ওপৰৰ অংগৰ কৃত্ৰিম অংগই খোৱা, সাজ-পাৰ আৰু কামৰ বাবে ধৰাৰ ক্ষমতা ঘূৰায়। খোজ কঢ়াৰ সহায় তলৰ অংগৰ সৈতে।"
+      }
+    },
+    {
+      "id": "current-affairs-extra-254",
+      "q": {
+        "en": "The Andhra Pradesh Cabinet approved the Dagadarthi greenfield airport project in which district",
+        "as": "অন্ধ্ৰ প্ৰদেশ মন্ত্ৰীসভাই কোন জিলাত দগদৰ্থী গ্ৰীণফিল্ড বিমানবন্দৰ প্ৰকল্প অনুমোদন কৰে"
+      },
+      "options": [
+        {
+          "en": "Guntur",
+          "as": "গুণ্টুৰ"
+        },
+        {
+          "en": "Kurnool",
+          "as": "কুৰ্নুল"
+        },
+        {
+          "en": "Nellore",
+          "as": "নেল্লোৰ"
+        },
+        {
+          "en": "Tirupati",
+          "as": "তিৰুপতি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Dagadarthi greenfield airport project was approved in Nellore district.",
+        "as": "দগদৰ্থী গ্ৰীণফিল্ড বিমানবন্দৰ প্ৰকল্প নেল্লোৰ জিলাত অনুমোদিত হয়।"
+      }
+    },
+    {
+      "id": "computer-082",
+      "q": {
+        "en": "The shortcut to print a document is",
+        "as": "ডকুমেণ্ট প্ৰিণ্ট কৰাৰ চৰ্টকাট"
+      },
+      "options": [
+        {
+          "en": "Ctrl + N",
+          "as": "Ctrl + N"
+        },
+        {
+          "en": "Ctrl + O",
+          "as": "Ctrl + O"
+        },
+        {
+          "en": "Ctrl + P",
+          "as": "Ctrl + P"
+        },
+        {
+          "en": "Ctrl + S",
+          "as": "Ctrl + S"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Ctrl + P opens the print dialogue. Ctrl + N makes a new file and Ctrl + O opens an existing one.",
+        "as": "Ctrl + P এ প্ৰিণ্ট সংলাপ খোলে। Ctrl + N এ নতুন ফাইল আৰু Ctrl + O এ থকা ফাইল খোলে।"
+      }
+    },
+    {
+      "id": "nursing-269",
+      "q": {
+        "en": "A spill of used sharps in the ward should be handled by",
+        "as": "ৱাৰ্ডত ব্যৱহৃত ছুই পৰি থাকিলে কেনেকৈ চম্ভালিব লাগে"
+      },
+      "options": [
+        {
+          "en": "picking them by hand",
+          "as": "হাতেৰে তুলি"
+        },
+        {
+          "en": "pushing them under the bed",
+          "as": "বিছনাৰ তললৈ ঠেলি"
+        },
+        {
+          "en": "leaving them for housekeeping",
+          "as": "ঘৰুৱা কৰ্মীলৈ এৰি"
+        },
+        {
+          "en": "using a scoop and forceps, never bare hands",
+          "as": "কোৰ আৰু চিমটা ব্যৱহাৰ কৰি, কেতিয়াও খালী হাতেৰে নহয়"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Bare hands risk a needlestick, so a scoop is used and the sharps go straight into a rigid container.",
+        "as": "খালী হাতে ছুই আঘাতৰ বিপদ, সেয়ে কোৰেৰে তুলি ছুই পোনপটীয়াকৈ টান পাত্রত পেলোৱা হয়।"
+      }
+    },
+    {
+      "id": "nursing-070",
+      "q": {
+        "en": "Which of the following is a sign of an approaching hypoglycaemic episode?",
+        "as": "তলৰ কোনটো নিম্ন ৰক্ত শৰ্কৰা আহি থকাৰ চিন"
+      },
+      "options": [
+        {
+          "en": "slow breathing with no sweating",
+          "as": "ঘাম নোহোৱাকৈ ধীৰ উশাহ"
+        },
+        {
+          "en": "increased urine with thirst",
+          "as": "পিয়াহৰ সৈতে মূত্ৰ বঢ়া"
+        },
+        {
+          "en": "sweating, tremor and confusion",
+          "as": "ঘাম, কম্পন আৰু বিভ্ৰান্তি"
+        },
+        {
+          "en": "deep sleep",
+          "as": "গভীৰ টোপনি"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Low glucose triggers adrenaline, giving sweat and tremor, and starves the brain, giving confusion. Thirst with heavy urine is the opposite, high glucose.",
+        "as": "কম গ্লুক'জে এড্ৰিনেলিন ওলাই ঘাম আৰু কম্পন দিয়ে, আৰু মগজুক অভাৱত ৰাখি বিভ্ৰান্তি আনে। পিয়াহ আৰু বেছি মূত্ৰ ওলোটা, উচ্চ গ্লুক'জ।"
+      }
+    },
+    {
+      "id": "biology-008",
+      "q": {
+        "en": "The largest organ of the human body is?",
+        "as": "মানৱ দেহৰ আটাইতকৈ ডাঙৰ অংগ কি?"
+      },
+      "options": [
+        {
+          "en": "Skin",
+          "as": "ছাল"
+        },
+        {
+          "en": "Liver",
+          "as": "যকৃত"
+        },
+        {
+          "en": "Heart",
+          "as": "হৃদযন্ত্ৰ"
+        },
+        {
+          "en": "Brain",
+          "as": "মস্তিষ্ক"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The skin is the largest organ of the human body.",
+        "as": "ছাল মানৱ দেহৰ আটাইতকৈ ডাঙৰ অংগ।"
+      }
+    },
+    {
+      "id": "nursing-275",
+      "q": {
+        "en": "The correct first aid for a superficial burn is to",
+        "as": "পাতল পোৰণিত শুদ্ধ প্ৰাথমিক চিকিৎসা"
+      },
+      "options": [
+        {
+          "en": "burst any blisters",
+          "as": "ফোঁ‌হা ফুটাই দিয়া"
+        },
+        {
+          "en": "cool with running water for twenty minutes",
+          "as": "বিশ মিনিট বোৱা পানীৰে শীতল কৰা"
+        },
+        {
+          "en": "apply ice directly",
+          "as": "পোনপটীয়াকৈ বৰফ লগোৱা"
+        },
+        {
+          "en": "apply toothpaste",
+          "as": "দাঁতৰ মাজন লগোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Cooling water limits the depth of damage and eases pain. Ice and toothpaste injure tissue further, and blisters protect the wound.",
+        "as": "শীতল পানীয়ে ক্ষতিৰ গভীৰতা সীমিত কৰি বিষ কমায়। বৰফ আৰু মাজনে কলা আৰু নষ্ট কৰে, আৰু ফোঁ‌হাই ঘা ৰক্ষা কৰে।"
+      }
+    },
+    {
+      "id": "physics-170",
+      "q": {
+        "en": "The mechanical advantage of a machine is less than its velocity ratio because",
+        "as": "যন্ত্ৰৰ যান্ত্ৰিক লাভ বেগ অনুপাততকৈ কম কাৰণ"
+      },
+      "options": [
+        {
+          "en": "some effort is used to overcome friction",
+          "as": "কিছু প্ৰচেষ্টা ঘৰ্ষণ নিবাৰণত ব্যৱহৃত হয়"
+        },
+        {
+          "en": "the load is too light",
+          "as": "ভাৰ অতি পাতল"
+        },
+        {
+          "en": "gravity acts upwards",
+          "as": "মহাকৰ্ষণ ওপৰলৈ কাম কৰে"
+        },
+        {
+          "en": "the machine is ideal",
+          "as": "যন্ত্ৰ আদৰ্শ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Friction at the moving parts absorbs part of the effort, so the useful load lifted is smaller than the velocity ratio predicts.",
+        "as": "চলন্ত অংশৰ ঘৰ্ষণে প্ৰচেষ্টাৰ অংশ শোষে, সেয়ে উঠোৱা উপযোগী ভাৰ বেগ অনুপাতে কোৱাতকৈ কম।"
+      }
+    },
+    {
+      "id": "biology-108",
+      "q": {
+        "en": "The windpipe is also called?",
+        "as": "শ্বাসনলীক আন কি নামেৰে জনা যায়?"
+      },
+      "options": [
+        {
+          "en": "Oesophagus",
+          "as": "ইছ’ফেগাছ"
         },
         {
           "en": "Larynx",
           "as": "লেৰিংক্স"
         },
         {
-          "en": "Bronchus",
-          "as": "ব্ৰংকাছ"
-        },
-        {
-          "en": "Oesophagus",
-          "as": "ইছ’ফেগাছ"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "The food pipe is also called the oesophagus.",
-        "as": "খাদ্যনলীক ইছ’ফেগাছ বুলিও জনা যায়।"
-      }
-    },
-    {
-      "id": "biology-086",
-      "q": {
-        "en": "The respiratory organ of fish is?",
-        "as": "মাছৰ শ্বসন অংগ কি?"
-      },
-      "options": [
-        {
-          "en": "Gills",
-          "as": "কানকোষ"
-        },
-        {
-          "en": "Lungs",
-          "as": "হাওঁফাওঁ"
-        },
-        {
-          "en": "Skin only",
-          "as": "কেৱল ছাল"
-        },
-        {
           "en": "Trachea",
           "as": "ট্ৰেকিয়া"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Fish breathe through gills, their respiratory organ.",
-        "as": "মাছে কানকোষ (গিলছ)ৰ সহায়ত উশাহ লয়।"
-      }
-    },
-    {
-      "id": "physics-097",
-      "q": {
-        "en": "The gravitational force between two bodies is given by?",
-        "as": "দুটা বস্তুৰ মাজৰ মহাকৰ্ষণ বলৰ সূত্ৰ কি?"
-      },
-      "options": [
-        {
-          "en": "F = G m1 m2 / r²",
-          "as": "F = G m1 m2 / r²"
         },
         {
-          "en": "F = m a",
-          "as": "F = m a"
-        },
-        {
-          "en": "F = k q1 q2 / r² only for gravity",
-          "as": "কেৱল মহাকৰ্ষণৰ বাবে F = k q1 q2 / r²"
-        },
-        {
-          "en": "F = mv",
-          "as": "F = mv"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Newton's universal law of gravitation states that every particle attracts every other particle with a force F = G m1 m2 / r², where G is the gravitational constant and r is the distance between the two masses.",
-        "as": "নিউটনৰ সাৰ্বজনীন মহাকৰ্ষণ সূত্ৰ অনুসৰি দুটা বস্তুৰ মাজৰ আকৰ্ষণ বল F = G m1 m2 / r², য'ত G মহাকৰ্ষণ ধ্ৰুৱক আৰু r হৈছে দুয়োটা ভৰৰ মাজৰ দূৰত্ব।"
-      }
-    },
-    {
-      "id": "physics-087",
-      "q": {
-        "en": "Myopia (short-sightedness) is corrected by using?",
-        "as": "মায়োপিয়া (চমু দৃষ্টি) শুধৰাবলৈ কি ব্যৱহাৰ কৰা হয়?"
-      },
-      "options": [
-        {
-          "en": "Convex lens",
-          "as": "উত্তল লেন্স"
-        },
-        {
-          "en": "Cylindrical lens only",
-          "as": "কেৱল চিলিণ্ড্ৰীয় লেন্স"
-        },
-        {
-          "en": "Plane glass",
-          "as": "সমতল কাচ"
-        },
-        {
-          "en": "Concave lens",
-          "as": "অৱতল লেন্স"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "In myopia (short-sightedness) the image forms in front of the retina, so the eye cannot see distant objects clearly; it is corrected using a concave (diverging) lens.",
-        "as": "মায়োপিয়াত প্ৰতিবিম্ব ৰেটিনাৰ আগত গঠিত হয়, সেয়ে দূৰৰ বস্তু স্পষ্ট দেখা নাযায়; অৱতল (অপসাৰক) লেন্সেৰে ইয়াক শুধৰোৱা হয়।"
-      }
-    },
-    {
-      "id": "biology-067",
-      "q": {
-        "en": "The number of chromosomes in a human cell is?",
-        "as": "মানৱ কোষত ক্ৰ’ম’জ’মৰ সংখ্যা কিমান?"
-      },
-      "options": [
-        {
-          "en": "23",
-          "as": "২৩"
-        },
-        {
-          "en": "44",
-          "as": "৪৪"
-        },
-        {
-          "en": "46",
-          "as": "৪৬"
-        },
-        {
-          "en": "48",
-          "as": "৪৮"
+          "en": "Pharynx",
+          "as": "ফেৰিংক্স"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "A normal human cell has 46 chromosomes (23 pairs).",
-        "as": "সাধাৰণ মানৱ কোষত ৪৬ টা ক্ৰ’ম’জ’ম (২৩ যোৰ) থাকে।"
+        "en": "The windpipe is also called the trachea.",
+        "as": "শ্বাসনলীক ট্ৰেকিয়া বুলিও জনা যায়।"
       }
     },
     {
-      "id": "biology-020",
+      "id": "computer-236",
       "q": {
-        "en": "Vitamin D deficiency causes?",
-        "as": "ভিটামিন ডিৰ অভাৱত কি হয়?"
+        "en": "A user asks why a video call keeps freezing on a slow link while a file download still works. The reason is that a video call needs",
+        "as": "ব্যৱহাৰকাৰীয়ে সোধে লেহেমীয়া সংযোগত ভিডিঅ' কল বাৰে বাৰে জমি যায় কিন্তু ফাইল ডাউনলোড কাম কৰে। কাৰণ ভিডিঅ' কলৰ প্ৰয়োজন"
       },
       "options": [
         {
-          "en": "Scurvy",
-          "as": "স্কাৰ্ভি"
+          "en": "steady low latency rather than total bandwidth",
+          "as": "মুঠ বেণ্ডউইথতকৈ স্থিৰ কম বিলম্ব"
         },
         {
-          "en": "Beriberi",
-          "as": "বেৰিবেৰি"
+          "en": "a larger hard disk",
+          "as": "ডাঙৰ হাৰ্ড ডিস্ক"
         },
         {
-          "en": "Night blindness",
-          "as": "ৰাতি অন্ধত্ব"
+          "en": "a higher screen resolution",
+          "as": "বেছি স্ক্ৰীণ ৰিজ'লিউশ্যন"
         },
         {
-          "en": "Rickets",
-          "as": "ৰিকেটছ"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Deficiency of vitamin D causes rickets in children.",
-        "as": "ভিটামিন ডিৰ অভাৱত শিশুৰ ৰিকেটছ ৰোগ হয়।"
-      }
-    },
-    {
-      "id": "non-verbal-reasoning-001",
-      "q": {
-        "en": "If two cubes are joined face to face, the new solid has how many faces visible as outer faces?",
-        "as": "দুটা ঘনক মুখামুখি যোৰা কৰিলে বাহিৰৰ পিঠি কিমান?"
-      },
-      "options": [
-        {
-          "en": "12",
-          "as": "১২"
-        },
-        {
-          "en": "10",
-          "as": "১০"
-        },
-        {
-          "en": "11",
-          "as": "১১"
-        },
-        {
-          "en": "8",
-          "as": "৮"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Each cube has 6 faces; joining two cubes face to face hides 2 faces, so the number of outer faces is 12 − 2 = 10.",
-        "as": "প্ৰতিটো ঘনকৰ ৬ টা পিঠি থাকে; দুটা ঘনক মুখামুখি যোৰা কৰিলে ২ টা পিঠি লুকাই যায়, সেয়ে বাহিৰৰ পিঠি = ১২ − ২ = ১০।"
-      }
-    },
-    {
-      "id": "grammar-010",
-      "q": {
-        "en": "The word 'and' is a:",
-        "as": "'and' শব্দটো কি?"
-      },
-      "options": [
-        {
-          "en": "Preposition",
-          "as": "অব্যয় (preposition)"
-        },
-        {
-          "en": "Conjunction",
-          "as": "সংযোজক"
-        },
-        {
-          "en": "Interjection",
-          "as": "বিস্ময়সূচক অব্যয়"
-        },
-        {
-          "en": "Adverb",
-          "as": "ক্ৰিয়া বিশেষণ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "'And' joins words or clauses, so it is a conjunction.",
-        "as": "'and' য়ে শব্দ বা উপবাক্য সংযোগ কৰে, সেয়ে ই conjunction।"
-      }
-    },
-    {
-      "id": "physics-043",
-      "q": {
-        "en": "The unit of magnetic flux is the?",
-        "as": "চুম্বকীয় ফ্লাক্সৰ একক কি?"
-      },
-      "options": [
-        {
-          "en": "Weber",
-          "as": "ৱেবাৰ"
-        },
-        {
-          "en": "Henry",
-          "as": "হেনৰি"
-        },
-        {
-          "en": "Gauss",
-          "as": "গাউছ"
-        },
-        {
-          "en": "Tesla",
-          "as": "টেছলা"
+          "en": "a wired keyboard",
+          "as": "তাৰযুক্ত কীব'ৰ্ড"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "The SI unit of magnetic flux is the weber.",
-        "as": "চুম্বকীয় ফ্লাক্সৰ SI একক ৱেবাৰ।"
+        "en": "A download tolerates delay because it just waits, but a call must deliver each moment on time, so latency and jitter break it while bandwidth alone would not. Disk size, screen resolution and the keyboard have no effect on call quality.",
+        "as": "ডাউনলোডে বিলম্ব সহ্য কৰে কাৰণ ই কেৱল অপেক্ষা কৰে, কিন্তু কলেই প্ৰতিটো মুহূৰ্ত সময়মতে দিব লাগে, সেয়ে বিলম্ব আৰু জিটাৰে তাক ভাঙে যদিও কেৱল বেণ্ডউইথে নাভাঙিলেহেঁতেন। ডিস্কৰ আকাৰ, ৰিজ'লিউশ্যন আৰু কীব'ৰ্ডৰ কলৰ মানত প্ৰভাৱ নাই।"
       }
     },
     {
-      "id": "chemistry-102",
+      "id": "computer-027",
       "q": {
-        "en": "Lactic acid is present in?",
-        "as": "লেক্টিক এচিড ক’ত পোৱা যায়?"
+        "en": "Which of the following is a temporary storage area used to speed up data transfer?",
+        "as": "তথ্য সঞ্চাৰণ দ্ৰুত কৰিবলৈ ব্যৱহৃত অস্থায়ী সঞ্চয় স্থানটো"
       },
       "options": [
         {
-          "en": "Lemon",
-          "as": "নেমু"
+          "en": "firmware",
+          "as": "ফাৰ্মৱেৰ"
         },
         {
-          "en": "Vinegar",
-          "as": "ভিনেগাৰ"
+          "en": "buffer",
+          "as": "বাফাৰ"
         },
         {
-          "en": "Tamarind",
-          "as": "তেতেলী"
+          "en": "register",
+          "as": "ৰেজিষ্টাৰ"
         },
         {
-          "en": "Sour milk / curd",
-          "as": "টেঙা গাখীৰ / দৈ"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Lactic acid is present in sour milk and curd.",
-        "as": "লেক্টিক এচিড টেঙা গাখীৰ আৰু দৈত পোৱা যায়।"
-      }
-    },
-    {
-      "id": "physics-038",
-      "q": {
-        "en": "The value of one ampere is equal to?",
-        "as": "এক এম্পিয়াৰ সমান কিমান?"
-      },
-      "options": [
-        {
-          "en": "One coulomb",
-          "as": "এক কুলম"
-        },
-        {
-          "en": "One joule per second",
-          "as": "প্ৰতি ছেকেণ্ডত এক জুল"
-        },
-        {
-          "en": "One volt per second",
-          "as": "প্ৰতি ছেকেণ্ডত এক ভল্ট"
-        },
-        {
-          "en": "One coulomb per second",
-          "as": "প্ৰতি ছেকেণ্ডত এক কুলম"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "One ampere is a flow of one coulomb of charge per second.",
-        "as": "এক এম্পিয়াৰ হৈছে প্ৰতি ছেকেণ্ডত এক কুলম আধানৰ প্ৰৱাহ।"
-      }
-    },
-    {
-      "id": "polity-073",
-      "q": {
-        "en": "The High Courts in India are established under which Article?",
-        "as": "ভাৰতত উচ্চ ন্যায়ালয়সমূহ কোনটো অনুচ্ছেদৰ অধীনত স্থাপিত?"
-      },
-      "options": [
-        {
-          "en": "Article 124",
-          "as": "অনুচ্ছেদ ১২৪"
-        },
-        {
-          "en": "Article 214",
-          "as": "অনুচ্ছেদ ২১৪"
-        },
-        {
-          "en": "Article 226",
-          "as": "অনুচ্ছেদ ২২৬"
-        },
-        {
-          "en": "Article 356",
-          "as": "অনুচ্ছেদ ৩৫৬"
+          "en": "ROM",
+          "as": "ROM"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "Article 214 provides that there shall be a High Court for each State.",
-        "as": "অনুচ্ছেদ ২১৪এ প্ৰতিখন ৰাজ্যৰ বাবে এখন উচ্চ ন্যায়ালয় থকাৰ ব্যৱস্থা কৰিছে।"
+        "en": "A buffer holds data briefly while a slow device catches up, as in printing. A register is inside the processor itself.",
+        "as": "বাফাৰে ধীৰ সজুলি আগবাঢ়োঁতে অলপ সময় তথ্য ৰাখে, যেনে প্ৰিণ্টত। ৰেজিষ্টাৰ প্ৰচেছৰৰ ভিতৰত থাকে।"
       }
     },
     {
-      "id": "grammar-035",
+      "id": "num-mathematical-operations-071",
       "q": {
-        "en": "The correct question tag: 'He is a teacher, ___?'",
-        "as": "শুদ্ধ প্ৰশ্ন টেগ: 'He is a teacher, ___?'"
+        "en": "If a # b = (a + b) × 2, find the value of 6 # 2.",
+        "as": "যদি a # b = (a + b) × 2, তেন্তে ৬ # ২ ৰ মান নিৰ্ণয় কৰা।"
       },
       "options": [
         {
-          "en": "is he",
-          "as": "is he"
+          "en": "16",
+          "as": "১৬"
         },
         {
-          "en": "isn't he",
-          "as": "isn't he"
+          "en": "18",
+          "as": "১৮"
         },
         {
-          "en": "doesn't he",
-          "as": "doesn't he"
+          "en": "14",
+          "as": "১৪"
         },
         {
-          "en": "wasn't he",
-          "as": "wasn't he"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "A positive statement takes a negative question tag, so 'isn't he?'.",
-        "as": "ধনাত্মক বাক্যৰ বাবে ঋণাত্মক question tag 'isn't he?' হয়।"
-      }
-    },
-    {
-      "id": "chemistry-025",
-      "q": {
-        "en": "The branch of chemistry that deals with carbon compounds is called?",
-        "as": "কাৰ্বনৰ যৌগসমূহৰ বিষয়ে আলোচনা কৰা ৰসায়নৰ শাখাক কি বোলা হয়?"
-      },
-      "options": [
-        {
-          "en": "Inorganic chemistry",
-          "as": "অজৈৱ ৰসায়ন"
-        },
-        {
-          "en": "Organic chemistry",
-          "as": "জৈৱ ৰসায়ন"
-        },
-        {
-          "en": "Physical chemistry",
-          "as": "ভৌতিক ৰসায়ন"
-        },
-        {
-          "en": "Analytical chemistry",
-          "as": "বিশ্লেষণী ৰসায়ন"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Organic chemistry is the branch of chemistry that deals with carbon compounds.",
-        "as": "জৈৱ ৰসায়ন হ'ল ৰসায়নৰ সেই শাখা যি কাৰ্বনৰ যৌগসমূহৰ বিষয়ে আলোচনা কৰে।"
-      }
-    },
-    {
-      "id": "physics-060",
-      "q": {
-        "en": "The process by which a liquid changes into vapour at any temperature is?",
-        "as": "যিকোনো উষ্ণতাত তৰল বাষ্পলৈ পৰিণত হোৱা প্ৰক্ৰিয়া কি?"
-      },
-      "options": [
-        {
-          "en": "Condensation",
-          "as": "ঘনীভৱন"
-        },
-        {
-          "en": "Evaporation",
-          "as": "বাষ্পীভৱন"
-        },
-        {
-          "en": "Freezing",
-          "as": "হিমাংকন"
-        },
-        {
-          "en": "Melting",
-          "as": "গলন"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Evaporation is the change of a liquid into vapour at any temperature from its surface, without reaching the boiling point. Hence the correct process is evaporation.",
-        "as": "বাষ্পীভৱন হ'ল যিকোনো উষ্ণতাত তৰলৰ পৃষ্ঠৰ পৰা বাষ্পলৈ পৰিণতি, উতলাংকত নাপায়ো। সেয়ে শুদ্ধ প্ৰক্ৰিয়া বাষ্পীভৱন।"
-      }
-    },
-    {
-      "id": "chemistry-132",
-      "q": {
-        "en": "The most reactive metal among the following is?",
-        "as": "তলৰ ভিতৰত আটাইতকৈ সক্ৰিয় ধাতু কোনটো?"
-      },
-      "options": [
-        {
-          "en": "Potassium",
-          "as": "পটেছিয়াম"
-        },
-        {
-          "en": "Gold",
-          "as": "সোণ"
-        },
-        {
-          "en": "Copper",
-          "as": "তাম"
-        },
-        {
-          "en": "Silver",
-          "as": "ৰূপ"
+          "en": "21",
+          "as": "২১"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Potassium is the most reactive metal among the given options.",
-        "as": "দিয়া বিকল্পসমূহৰ ভিতৰত পটেছিয়াম আটাইতকৈ সক্ৰিয় ধাতু।"
+        "en": "6 # 2 = (6+2)×2 = 16.",
+        "as": "৬ # ২ = (৬+২)×২ = ১৬।"
       }
     },
     {
-      "id": "biology-017",
+      "id": "geography-extra-538",
       "q": {
-        "en": "DNA stands for?",
-        "as": "DNA-ৰ সম্পূৰ্ণ অৰ্থ কি?"
+        "en": "The Narmada basin is important because the river",
+        "as": "নৰ্মদা অববাহিকা গুৰুত্বপূৰ্ণ কাৰণ নদী"
       },
       "options": [
         {
-          "en": "Deoxyribonucleic acid",
-          "as": "ডিঅক্সিৰাইব’নিউক্লিক এচিড"
+          "en": "is the longest river in India",
+          "as": "ভাৰতৰ আটাইতকৈ দীঘল নদী"
         },
         {
-          "en": "Deoxyribonuclear acid",
-          "as": "ডিঅক্সিৰাইব’নিউক্লিয়াৰ এচিড"
+          "en": "has no tributaries",
+          "as": "কোনো উপনদী নাই"
         },
         {
-          "en": "Diribonucleic acid",
-          "as": "ডিৰাইব’নিউক্লিক এচিড"
+          "en": "flows through a rift valley between the Vindhya and Satpura",
+          "as": "বিন্ধ্য আৰু সৎপুৰাৰ মাজৰ ফাঁট উপত্যকাৰে বৈ যায়"
         },
         {
-          "en": "Deoxyribose nucleic alkali",
-          "as": "ডিঅক্সিৰাইব’জ নিউক্লিক ক্ষাৰ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "DNA stands for deoxyribonucleic acid.",
-        "as": "DNA-ৰ সম্পূৰ্ণ ৰূপ ডিঅক্সিৰাইব’নিউক্লিক এচিড।"
-      }
-    },
-    {
-      "id": "physics-065",
-      "q": {
-        "en": "The weight of a body is maximum at?",
-        "as": "এটা বস্তুৰ ওজন ক’ত সৰ্বাধিক?"
-      },
-      "options": [
-        {
-          "en": "The equator",
-          "as": "বিষুৱৰেখা"
-        },
-        {
-          "en": "The poles",
-          "as": "মেৰু"
-        },
-        {
-          "en": "The centre of Earth",
-          "as": "পৃথিৱীৰ কেন্দ্ৰ"
-        },
-        {
-          "en": "On the Moon",
-          "as": "চন্দ্ৰত"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Weight W = mg, and g is maximum at the poles because Earth is flattened at the poles and the polar radius is least. Thus weight is maximum at the poles.",
-        "as": "ওজন W = mg, আৰু মেৰুত g সৰ্বাধিক কাৰণ পৃথিৱী মেৰুত চেপেটা আৰু মেৰুৰ ব্যাসাৰ্ধ সৰ্বনিম্ন। সেয়ে ওজন মেৰুত সৰ্বাধিক হয়।"
-      }
-    },
-    {
-      "id": "physics-131",
-      "q": {
-        "en": "Which of the following is a semiconductor?",
-        "as": "তলৰ কোনটো অৰ্ধপৰিবাহী?"
-      },
-      "options": [
-        {
-          "en": "Copper",
-          "as": "তাম"
-        },
-        {
-          "en": "Silver",
-          "as": "ৰূপ"
-        },
-        {
-          "en": "Germanium",
-          "as": "জাৰ্মেনিয়াম"
-        },
-        {
-          "en": "Gold",
-          "as": "সোণ"
+          "en": "flows east into the Bay of Bengal",
+          "as": "পূবলৈ বংগোপসাগৰত পৰে"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "Germanium (like silicon) is a semiconductor whose resistivity lies between that of conductors and insulators, whereas copper, silver and gold are conductors. Hence 'Germanium' is correct.",
-        "as": "জাৰ্মেনিয়াম (ছিলিকনৰ দৰে) অৰ্ধপৰিবাহী, ইয়াৰ ৰোধাঙ্ক পৰিবাহী আৰু অৱৰোধকৰ মাজত থাকে; তাম, ৰূপ আৰু সোণ পৰিবাহী। সেয়ে 'জাৰ্মেনিয়াম' শুদ্ধ।"
-      }
-    },
-    {
-      "id": "biology-098",
-      "q": {
-        "en": "RNA stands for?",
-        "as": "RNA-ৰ সম্পূৰ্ণ অৰ্থ কি?"
-      },
-      "options": [
-        {
-          "en": "Ribonucleic acid",
-          "as": "ৰাইব’নিউক্লিক এচিড"
-        },
-        {
-          "en": "Ribonuclear acid",
-          "as": "ৰাইব’নিউক্লিয়াৰ এচিড"
-        },
-        {
-          "en": "Deoxyribonucleic acid",
-          "as": "ডিঅক্সিৰাইব’নিউক্লিক এচিড"
-        },
-        {
-          "en": "Ribose nitrate acid",
-          "as": "ৰাইব’জ নাইট্ৰেট এচিড"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "RNA stands for ribonucleic acid.",
-        "as": "RNA-ৰ সম্পূৰ্ণ ৰূপ ৰাইব’নিউক্লিক এচিড।"
-      }
-    },
-    {
-      "id": "non-verbal-reasoning-013",
-      "q": {
-        "en": "Maximum number of intersection points of 2 distinct circles is?",
-        "as": "দুটা পৃথক বৃত্তৰ সৰ্বাধিক ছেদবিন্দু কিমান?"
-      },
-      "options": [
-        {
-          "en": "1",
-          "as": "১"
-        },
-        {
-          "en": "3",
-          "as": "৩"
-        },
-        {
-          "en": "4",
-          "as": "৪"
-        },
-        {
-          "en": "2",
-          "as": "২"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Two distinct circles can intersect at most at 2 points, since two circles cannot meet at more than two points.",
-        "as": "দুটা পৃথক বৃত্তই সৰ্বাধিক ২ টা বিন্দুত ছেদ কৰিব পাৰে, কাৰণ দুটা বৃত্তই দুটাৰ অধিক বিন্দুত মিলিব নোৱাৰে।"
-      }
-    },
-    {
-      "id": "biology-099",
-      "q": {
-        "en": "The double helix structure of DNA was proposed by?",
-        "as": "DNA-ৰ দ্বৈত সর্পিল গঠন কোনে প্ৰস্তাৱ কৰিছিল?"
-      },
-      "options": [
-        {
-          "en": "Mendel",
-          "as": "মেণ্ডেল"
-        },
-        {
-          "en": "Watson and Crick",
-          "as": "ৱাটছন আৰু ক্ৰিক"
-        },
-        {
-          "en": "Darwin",
-          "as": "ডাৰউইন"
-        },
-        {
-          "en": "Pasteur",
-          "as": "পাষ্টেউৰ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "James Watson and Francis Crick proposed the double helix structure of DNA.",
-        "as": "জেমছ ৱাটছন আৰু ফ্ৰান্সিছ ক্ৰিকে DNA-ৰ দ্বৈত সর্পিল গঠন প্ৰস্তাৱ কৰিছিল।"
-      }
-    },
-    {
-      "id": "chemistry-002",
-      "q": {
-        "en": "The chemical formula of water is?",
-        "as": "পানীৰ ৰাসায়নিক সংকেত কি?"
-      },
-      "options": [
-        {
-          "en": "HO",
-          "as": "HO"
-        },
-        {
-          "en": "H2O",
-          "as": "H2O"
-        },
-        {
-          "en": "H2O2",
-          "as": "H2O2"
-        },
-        {
-          "en": "OH",
-          "as": "OH"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "The chemical formula of water is H2O.",
-        "as": "পানীৰ ৰাসায়নিক সংকেত H2O।"
-      }
-    },
-    {
-      "id": "physics-018",
-      "q": {
-        "en": "The nucleus of an atom contains?",
-        "as": "পৰমাণুৰ নিউক্লিয়াছত কি থাকে?"
-      },
-      "options": [
-        {
-          "en": "Protons and neutrons",
-          "as": "প্ৰটন আৰু নিউট্ৰন"
-        },
-        {
-          "en": "Only electrons",
-          "as": "কেৱল ইলেক্ট্ৰন"
-        },
-        {
-          "en": "Only photons",
-          "as": "কেৱল ফটন"
-        },
-        {
-          "en": "Only neutrinos",
-          "as": "কেৱল নিউট্ৰিনো"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The nucleus of an atom contains protons and neutrons (together called nucleons), while electrons revolve around it.",
-        "as": "পৰমাণুৰ নিউক্লিয়াছত প্ৰটন আৰু নিউট্ৰন থাকে; ইলেক্ট্ৰনসমূহ নিউক্লিয়াছৰ চাৰিওফালে ঘূৰি থাকে।"
-      }
-    },
-    {
-      "id": "physics-121",
-      "q": {
-        "en": "The SI unit of potential difference is?",
-        "as": "বিভৱান্তৰৰ SI একক কি?"
-      },
-      "options": [
-        {
-          "en": "Volt",
-          "as": "ভল্ট"
-        },
-        {
-          "en": "Ampere",
-          "as": "এম্পিয়াৰ"
-        },
-        {
-          "en": "Ohm",
-          "as": "ওম"
-        },
-        {
-          "en": "Coulomb",
-          "as": "কুলম"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Potential difference is the work done per unit charge in moving a charge between two points, and its SI unit is the volt (1 V = 1 J/C). Hence 'Volt' is correct.",
-        "as": "বিভৱান্তৰ হৈছে একক আধান এটা দুই বিন্দুৰ মাজত স্থানান্তৰ কৰিবলৈ কৰা কাৰ্য, আৰু ইয়াৰ SI একক ভল্ট (১ V = ১ জুল/কুলম)। সেয়ে 'ভল্ট' শুদ্ধ উত্তৰ।"
-      }
-    },
-    {
-      "id": "polity-023",
-      "q": {
-        "en": "In which Part of the Constitution are the Directive Principles of State Policy given?",
-        "as": "সংবিধানৰ কোনটো ভাগত ৰাষ্ট্ৰীয় নীতি নিৰ্দেশক মূলতত্বসমূহ আছে?"
-      },
-      "options": [
-        {
-          "en": "Part II",
-          "as": "দ্বিতীয় ভাগ"
-        },
-        {
-          "en": "Part III",
-          "as": "তৃতীয় ভাগ"
-        },
-        {
-          "en": "Part IV",
-          "as": "চতুৰ্থ ভাগ"
-        },
-        {
-          "en": "Part VI",
-          "as": "ষষ্ঠ ভাগ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Directive Principles of State Policy are given in Part IV of the Constitution.",
-        "as": "ৰাজ্যৰ নীতি নির্দেশাত্মক নীতিসমূহ সংবিধানৰ চতুৰ্থ অংশত দিয়া আছে।"
-      }
-    },
-    {
-      "id": "chemistry-033",
-      "q": {
-        "en": "The functional group present in alcohols is?",
-        "as": "এলকহলত থকা ক্ৰিয়ামূলক গোটটো কি?"
-      },
-      "options": [
-        {
-          "en": "-OH",
-          "as": "-OH"
-        },
-        {
-          "en": "-COOH",
-          "as": "-COOH"
-        },
-        {
-          "en": "-CHO",
-          "as": "-CHO"
-        },
-        {
-          "en": "-CO-",
-          "as": "-CO-"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Alcohols contain the hydroxyl functional group -OH.",
-        "as": "এলকহলত হাইড্ৰক্সিল ক্ৰিয়ামূলক গোট -OH থাকে।"
-      }
-    },
-    {
-      "id": "vocabulary-044",
-      "q": {
-        "en": "A person who travels to holy places is a:",
-        "as": "পবিত্ৰ স্থানলৈ যোৱা ব্যক্তিক কি বোলে?"
-      },
-      "options": [
-        {
-          "en": "Tourist",
-          "as": "পৰ্যটক"
-        },
-        {
-          "en": "Pilgrim",
-          "as": "তীৰ্থযাত্ৰী"
-        },
-        {
-          "en": "Nomad",
-          "as": "যাযাবৰ"
-        },
-        {
-          "en": "Exile",
-          "as": "নিৰ্বাসিত"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "A person who travels to holy places is a pilgrim.",
-        "as": "পবিত্ৰ স্থানলৈ যাত্ৰা কৰা ব্যক্তিক pilgrim বোলা হয়।"
-      }
-    },
-    {
-      "id": "physics-082",
-      "q": {
-        "en": "Echo is due to?",
-        "as": "প্ৰতিধ্বনি কিৰ বাবে হয়?"
-      },
-      "options": [
-        {
-          "en": "Refraction of sound",
-          "as": "শব্দৰ প্ৰতিসৰণ"
-        },
-        {
-          "en": "Diffraction of sound",
-          "as": "শব্দৰ অপৱৰ্তন"
-        },
-        {
-          "en": "Reflection of sound",
-          "as": "শব্দৰ প্ৰতিফলন"
-        },
-        {
-          "en": "Interference of light",
-          "as": "পোহৰৰ ব্যতিচাৰ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Echo is produced when sound waves are reflected back from a distant hard surface; the reflected sound is heard separately if the delay is at least about 0.1 s.",
-        "as": "দূৰৈৰ কঠিন পৃষ্ঠৰ পৰা শব্দ তৰংগ প্ৰতিফলিত হৈ ঘূৰি আহিলে প্ৰতিধ্বনি হয়; বিলম্ব প্ৰায় ০.১ ছেকেণ্ডতকৈ বেছি হ'লে প্ৰতিধ্বনি পৃথকে শুনা যায়।"
-      }
-    },
-    {
-      "id": "physics-001",
-      "q": {
-        "en": "What is the SI unit of force?",
-        "as": "বলৰ SI একক কি?"
-      },
-      "options": [
-        {
-          "en": "Newton",
-          "as": "নিউটন"
-        },
-        {
-          "en": "Joule",
-          "as": "জুল"
-        },
-        {
-          "en": "Watt",
-          "as": "ৱাট"
-        },
-        {
-          "en": "Pascal",
-          "as": "পাস্কেল"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The SI unit of force is the newton (N). From Newton's second law, F = ma, so 1 N = 1 kg·m/s².",
-        "as": "বলৰ SI একক নিউটন (N)। নিউটনৰ দ্বিতীয় সূত্ৰ F = ma অনুসৰি ১ নিউটন = ১ কি.গ্ৰা.·মি./ছে.²।"
-      }
-    },
-    {
-      "id": "chemistry-080",
-      "q": {
-        "en": "The valency of oxygen is?",
-        "as": "অক্সিজেনৰ যোজ্যতা কিমান?"
-      },
-      "options": [
-        {
-          "en": "1",
-          "as": "১"
-        },
-        {
-          "en": "3",
-          "as": "৩"
-        },
-        {
-          "en": "2",
-          "as": "২"
-        },
-        {
-          "en": "4",
-          "as": "৪"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The valency of oxygen is 2.",
-        "as": "অক্সিজেনৰ যোজ্যতা ২।"
-      }
-    },
-    {
-      "id": "biology-063",
-      "q": {
-        "en": "Adrenaline is secreted by?",
-        "as": "এড্ৰিনেলিন কোন গ্ৰন্থিয়ে নিঃসৰণ কৰে?"
-      },
-      "options": [
-        {
-          "en": "Thyroid",
-          "as": "থাইৰইড"
-        },
-        {
-          "en": "Pituitary",
-          "as": "পিটুইটাৰী"
-        },
-        {
-          "en": "Pancreas",
-          "as": "অগ্ন্যাশয়"
-        },
-        {
-          "en": "Adrenal gland",
-          "as": "এড্ৰিনেল গ্ৰন্থি"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Adrenaline is secreted by the adrenal gland.",
-        "as": "এড্ৰিনেল গ্ৰন্থিয়ে এড্ৰিনেলিন নিঃসৰণ কৰে।"
-      }
-    },
-    {
-      "id": "verbal-reasoning-010",
-      "q": {
-        "en": "Hour is to Minute as Minute is to?",
-        "as": "ঘণ্টাৰ লগত মিনিট যেনে, মিনিটৰ লগত কি?"
-      },
-      "options": [
-        {
-          "en": "Day",
-          "as": "দিন"
-        },
-        {
-          "en": "Week",
-          "as": "সপ্তাহ"
-        },
-        {
-          "en": "Second",
-          "as": "ছেকেণ্ড"
-        },
-        {
-          "en": "Year",
-          "as": "বছৰ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "An hour is a larger unit of time made of 60 minutes, and a minute is the next smaller unit made of 60 seconds. Hence Second.",
-        "as": "এক ঘণ্টা ৬০ মিনিটৰ ডাঙৰ একক, আৰু এক মিনিট ৬০ ছেকেণ্ডৰ সৰু একক। সেয়ে উত্তৰ ছেকেণ্ড।"
-      }
-    },
-    {
-      "id": "chemistry-096",
-      "q": {
-        "en": "The chemical name of baking powder's acidic component often used is?",
-        "as": "বেকিং পাউদাৰত প্ৰায়ে ব্যৱহৃত এচিডীয় উপাদানৰ ৰাসায়নিক নাম কি?"
-      },
-      "options": [
-        {
-          "en": "NaCl",
-          "as": "NaCl"
-        },
-        {
-          "en": "NaOH",
-          "as": "NaOH"
-        },
-        {
-          "en": "Tartaric acid",
-          "as": "টাৰ্টাৰিক এচিড"
-        },
-        {
-          "en": "H2SO4",
-          "as": "H2SO4"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Tartaric acid is often the acidic component used in baking powder.",
-        "as": "টাৰ্টাৰিক এচিড বেকিং পাউদাৰত প্ৰায়ে ব্যৱহৃত এচিডীয় উপাদান।"
+        "en": "The rift explains its straight course, which is why it is studied. Eastward flow, longest river and no tributaries are wrong.",
+        "as": "ফাঁটে ইয়াৰ পোন গতিপথ ব্যাখ্যা কৰে, সেয়ে ই অধ্যয়ন কৰা হয়। পূবমুৱা গতি, আটাইতকৈ দীঘল নদী আৰু উপনদীহীনতা ভুল।"
       }
     },
     {
@@ -1131,206 +1821,686 @@
       },
       "options": [
         {
-          "en": "Culex mosquito",
-          "as": "কিউলেক্স মহ"
-        },
-        {
-          "en": "Aedes mosquito",
-          "as": "এডিছ মহ"
-        },
-        {
           "en": "Female Anopheles mosquito",
           "as": "মাইকী এনফিলিছ মহ"
         },
         {
           "en": "Housefly",
           "as": "ঘৰ মাখি"
+        },
+        {
+          "en": "Culex mosquito",
+          "as": "কিউলেক্স মহ"
+        },
+        {
+          "en": "Aedes mosquito",
+          "as": "এডিছ মহ"
         }
       ],
-      "correct": 2,
+      "correct": 0,
       "explanation": {
         "en": "Malaria is transmitted by the bite of the female Anopheles mosquito.",
         "as": "মাইকী এনফিলিছ মাহে কামোৰাৰ দ্বাৰা মেলেৰিয়া বিয়পে।"
       }
     },
     {
-      "id": "chemistry-015",
+      "id": "assam-gk-extra-362",
       "q": {
-        "en": "Vinegar contains?",
-        "as": "ভিনেগাৰত কি থাকে?"
+        "en": "Raimona National Park was declared in",
+        "as": "ৰাইমোনা ৰাষ্ট্ৰীয় উদ্যান ঘোষণা কৰা হৈছিল"
       },
       "options": [
         {
-          "en": "Citric acid",
-          "as": "চাইট্ৰিক এচিড"
+          "en": "2005",
+          "as": "২০০৫"
         },
         {
-          "en": "Formic acid",
-          "as": "ফৰ্মিক এচিড"
+          "en": "2021",
+          "as": "২০২১"
         },
         {
-          "en": "Oxalic acid",
-          "as": "অক্সালিক এচিড"
+          "en": "2010",
+          "as": "২০১০"
         },
         {
-          "en": "Acetic acid",
-          "as": "এচিটিক এচিড"
+          "en": "1995",
+          "as": "১৯৯৫"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The park was notified recently, which is why 2021 is the year. The other years predate it.",
+        "as": "উদ্যান শেহতীয়াকৈ অধিসূচিত, সেয়ে ২০২১ চন। বাকী বছৰ ইয়াৰ আগৰ।"
+      }
+    },
+    {
+      "id": "computer-213",
+      "q": {
+        "en": "A user asks whether a USB flash drive is an input or an output device. The correct answer is that it is",
+        "as": "ব্যৱহাৰকাৰীয়ে সোধে USB ফ্লেশ ড্ৰাইভ ইনপুট নে আউটপুট যন্ত্ৰ। শুদ্ধ উত্তৰ — ই"
+      },
+      "options": [
+        {
+          "en": "only an input device",
+          "as": "কেৱল ইনপুট যন্ত্ৰ"
+        },
+        {
+          "en": "only an output device",
+          "as": "কেৱল আউটপুট যন্ত্ৰ"
+        },
+        {
+          "en": "neither, because it is storage only",
+          "as": "কোনোটোৱেই নহয়, কাৰণ ই কেৱল সংৰক্ষণ"
+        },
+        {
+          "en": "both, because data can be read from it and written to it",
+          "as": "দুয়োটাই, কাৰণ ইয়াৰপৰা তথ্য পঢ়িব আৰু তালৈ লিখিব পাৰি"
         }
       ],
       "correct": 3,
       "explanation": {
-        "en": "Vinegar contains acetic acid.",
-        "as": "ভিনেগাৰত এচিটিক এচিড থাকে।"
+        "en": "The same device is an input when the computer reads from it and an output when it writes to it, so it is both depending on the direction of transfer. Calling it only input, only output or neither misreads how storage devices are classified.",
+        "as": "একেই যন্ত্ৰ কম্পিউটাৰে পঢ়িলে ইনপুট আৰু লিখিলে আউটপুট, সেয়ে স্থানান্তৰৰ দিশ অনুসৰি দুয়োটাই। কেৱল ইনপুট, কেৱল আউটপুট বা কোনোটোৱেই নহয় বুলিলে সংৰক্ষণ যন্ত্ৰৰ শ্ৰেণীবিভাগ ভুল বুজা যায়।"
       }
     },
     {
-      "id": "non-verbal-reasoning-022",
+      "id": "nursing-023",
       "q": {
-        "en": "If 1, 2, 3 faces of a dice meet at a corner, the opposite of 1 cannot be?",
-        "as": "পাশাৰ ১, ২, ৩ একে কোণত মিলিলে ১-ৰ বিপৰীতে কি নহ’ব?"
+        "en": "Which of the following is a sign of dehydration?",
+        "as": "তলৰ কোনটো পানীশূন্যতাৰ চিন"
       },
       "options": [
         {
-          "en": "2 or 3",
-          "as": "২ বা ৩"
+          "en": "moist skin",
+          "as": "তিতা ছাল"
         },
         {
-          "en": "6 only always unknown",
-          "as": "কেৱল ৬"
+          "en": "dry mucous membranes and reduced urine output",
+          "as": "শুকান শ্লেষ্মা আৰু কম মূত্ৰ"
         },
         {
-          "en": "4",
-          "as": "৪"
+          "en": "swollen ankles",
+          "as": "ভৰিৰ গাঁ‌ঠি ওফন্দি উঠা"
         },
         {
-          "en": "5",
-          "as": "৫"
+          "en": "increased urine output",
+          "as": "মূত্ৰ বঢ়া"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Less fluid means less urine and dry membranes. Swollen ankles point to fluid overload, the opposite problem.",
+        "as": "কম তৰলে কম মূত্ৰ আৰু শুকান শ্লেষ্মা দিয়ে। ভৰিৰ গাঁ‌ঠি ওফন্দি উঠা অতি তৰলৰ চিন, ওলোটা সমস্যা।"
+      }
+    },
+    {
+      "id": "biology-374",
+      "q": {
+        "en": "In genetic engineering the plasmid is used as a vector because it",
+        "as": "জিনীয় অভিযান্ত্ৰণত প্লাজমিডক ভেক্টৰ হিচাপে ব্যৱহাৰ কৰা হয় কাৰণ ই"
+      },
+      "options": [
+        {
+          "en": "replicates independently inside the bacterial host and can carry an inserted gene",
+          "as": "বেক্টেৰিয়াৰ ভিতৰত স্বতন্ত্ৰভাৱে নকল হয় আৰু সোমোৱা জিন বহন কৰিব পাৰে"
+        },
+        {
+          "en": "digests foreign DNA",
+          "as": "বাহিৰা DNA হজম কৰে"
+        },
+        {
+          "en": "provides the restriction enzyme",
+          "as": "ৰেস্ত্ৰিকচন এনজাইম যোগায়"
+        },
+        {
+          "en": "prevents the host from dividing",
+          "as": "আতিথেয়ক বিভাজনৰপৰা ৰোধে"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Faces meeting at one corner are mutually adjacent, and adjacent faces can never be opposite. Since 1, 2 and 3 meet together, both 2 and 3 are adjacent to 1, so the opposite of 1 cannot be 2 or 3.",
-        "as": "একে কোণত মিলা পিঠিবোৰ পৰস্পৰ সংলগ্ন, আৰু সংলগ্ন পিঠি কেতিয়াও বিপৰীত নহয়। ১, ২, ৩ একে কোণত থকা বাবে ২ আৰু ৩ দুয়ো ১-ৰ সংলগ্ন, সেয়ে ১-ৰ বিপৰীত ২ বা ৩ হ'ব নোৱাৰে।"
+        "en": "A plasmid carries its own origin of replication, so the inserted gene is copied along with it every time the bacterium divides. The cutting enzyme is supplied separately.",
+        "as": "প্লাজমিডত নিজৰ অনুলিপন আৰম্ভণি থাকে, সেয়ে বেক্টেৰিয়া বিভাজনৰ প্ৰতিবাৰে সোমোৱা জিনো নকল হয়। কটা এনজাইম বেলেগকৈ যোগ কৰা হয়।"
       }
     },
     {
-      "id": "assam-history-058",
+      "id": "voc-synonyms-123",
       "q": {
-        "en": "Which legendary dynasty is regarded as the earliest ruling line of ancient Pragjyotisha?",
-        "as": "প্ৰাচীন প্ৰাগজ্যোতিষৰ আটাইতকৈ প্ৰাচীন শাসক বংশ বুলি কোন কিংবদন্তিমূলক বংশক গণ্য কৰা হয়?"
+        "en": "Choose the word closest in meaning to 'peace'.",
+        "as": "'peace' শব্দৰ সমাৰ্থক শব্দ বাছনি কৰা।"
       },
       "options": [
         {
-          "en": "Mlechchha dynasty",
-          "as": "ম্লেছ বংশ"
+          "en": "little",
+          "as": "little"
         },
         {
-          "en": "Pala dynasty",
-          "as": "পাল বংশ"
+          "en": "even",
+          "as": "even"
         },
         {
-          "en": "Danava dynasty",
-          "as": "দানৱ বংশ"
+          "en": "gentle",
+          "as": "gentle"
         },
         {
-          "en": "Varman dynasty",
-          "as": "বৰ্মান বংশ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The Danava dynasty is regarded as the earliest legendary ruling line of Pragjyotisha.",
-        "as": "দানৱ বংশক প্ৰাগজ্যোতিষৰ আটাইতকৈ প্ৰাচীন কিংবদন্তিমূলক শাসক বংশ বুলি গণ্য কৰা হয়।"
-      }
-    },
-    {
-      "id": "chemistry-067",
-      "q": {
-        "en": "The chemical used as a refrigerant in older refrigerators is?",
-        "as": "পুৰণি ফ্ৰিজত ৰেফ্ৰিজাৰেণ্ট হিচাপে ব্যৱহাৰ হোৱা ৰাসায়নিক পদাৰ্থ কি?"
-      },
-      "options": [
-        {
-          "en": "Oxygen",
-          "as": "অক্সিজেন"
-        },
-        {
-          "en": "Nitrogen",
-          "as": "নাইট্ৰজেন"
-        },
-        {
-          "en": "Freon (CFC)",
-          "as": "ফ্ৰিয়ন (CFC)"
-        },
-        {
-          "en": "Helium",
-          "as": "হিলিয়াম"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Freon (CFC) was used as a refrigerant in older refrigerators.",
-        "as": "পুৰণি ফ্ৰিজত ফ্ৰিয়ন (CFC) ৰেফ্ৰিজাৰেণ্ট হিচাপে ব্যৱহাৰ হৈছিল।"
-      }
-    },
-    {
-      "id": "biology-042",
-      "q": {
-        "en": "The state tree of Assam is?",
-        "as": "অসমৰ ৰাজ্যিক বৃক্ষ কি?"
-      },
-      "options": [
-        {
-          "en": "Banyan",
-          "as": "বট"
-        },
-        {
-          "en": "Peepal",
-          "as": "পিপুল"
-        },
-        {
-          "en": "Mango",
-          "as": "আম"
-        },
-        {
-          "en": "Hollong",
-          "as": "হ'লং"
+          "en": "calm",
+          "as": "calm"
         }
       ],
       "correct": 3,
       "explanation": {
-        "en": "Hollong is the state tree of Assam.",
-        "as": "হ'লং অসমৰ ৰাজ্যিক বৃক্ষ।"
+        "en": "\"calm\" carries the same sense as \"peace\". The other options — little, even, gentle — mean something different, so none of them can replace it here.",
+        "as": "\"calm\" ৰ অৰ্থ \"peace\" ৰ সৈতে একেই। বাকী বিকল্পবোৰ — little, even, gentle — বেলেগ অৰ্থ দিয়ে, সেয়ে ইয়াত খাপ নাখায়।"
       }
     },
     {
-      "id": "chemistry-029",
+      "id": "nursing-582",
       "q": {
-        "en": "Which of the following is an unsaturated hydrocarbon?",
-        "as": "তলৰ কোনটো অসম্পৃক্ত হাইড্ৰকাৰ্বন?"
+        "en": "The main purpose of the Nikshay portal in India is to",
+        "as": "ভাৰতত নিক্ষয় প'ৰ্টেলৰ মূল উদ্দেশ্য"
       },
       "options": [
         {
-          "en": "Ethene",
+          "en": "book train tickets for patients",
+          "as": "ৰোগীৰ বাবে ৰে'ল টিকট বুকিং কৰা"
+        },
+        {
+          "en": "store vaccine stock only",
+          "as": "কেৱল টিকাৰ ভাণ্ডাৰ ৰখা"
+        },
+        {
+          "en": "track every tuberculosis patient and their treatment outcome",
+          "as": "প্ৰতিজন যক্ষ্মা ৰোগী আৰু চিকিৎসাৰ ফল অনুসৰণ কৰা"
+        },
+        {
+          "en": "register births and deaths",
+          "as": "জন্ম আৰু মৃত্যু পঞ্জীয়ন কৰা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Nikshay is the case based electronic registry for tuberculosis, and it is what allows notification, treatment adherence and outcome reporting. Births and deaths are registered elsewhere and it is not a booking system.",
+        "as": "নিক্ষয় যক্ষ্মাৰ ৰোগী-ভিত্তিক ইলেক্ট্ৰনিক পঞ্জী, আৰু ইয়াৰ দ্বাৰাই জাননী, চিকিৎসাৰ অনুগততা আৰু ফল প্ৰতিবেদন সম্ভৱ হয়। জন্ম-মৃত্যু অন্য ঠাইত পঞ্জীয়ন হয় আৰু ই বুকিং ব্যৱস্থা নহয়।"
+      }
+    },
+    {
+      "id": "nursing-453",
+      "q": {
+        "en": "A patient on warfarin has a nosebleed that will not stop and bruising on both arms. The nurse should",
+        "as": "ৱাৰফেৰিন লোৱা ৰোগীৰ নাকৰ ৰক্তস্ৰাৱ নবন্ধা আৰু দুয়ো হাতত দাগ। নাৰ্ছে"
+      },
+      "options": [
+        {
+          "en": "give the next warfarin dose early",
+          "as": "পৰৱৰ্তী ৱাৰফেৰিন মাত্ৰা আগতে দিয়া"
+        },
+        {
+          "en": "give vitamin K without reporting",
+          "as": "নজনোৱাকৈ ভিটামিন K দিয়া"
+        },
+        {
+          "en": "apply a hot compress to the nose",
+          "as": "নাকত গৰম পোচ দিয়া"
+        },
+        {
+          "en": "hold pressure and report for an urgent clotting test",
+          "as": "চাপ দি ধৰি জৰুৰী ৰক্ত জমা পৰীক্ষাৰ বাবে জনোৱা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Spontaneous bleeding with bruising suggests over-anticoagulation, and the international normalised ratio decides the reversal dose. An early warfarin dose worsens it, and vitamin K without a measured ratio can overcorrect and cause clotting.",
+        "as": "আপোনা আপুনি ৰক্তস্ৰাৱ আৰু দাগে অতি ৰক্ত পাতলতা বুজায়, আৰু আইএনআৰ-এই বিপৰীতকৰণৰ মাত্ৰা নিৰ্ণয় কৰে। আগতে ৱাৰফেৰিন দিলে বেয়া হয়, আৰু নজুখাকৈ ভিটামিন K দিলে অতিপৰিমাণে শুধৰণি হৈ ৰক্তগোটৰ বিপদ।"
+      }
+    },
+    {
+      "id": "nursing-259",
+      "q": {
+        "en": "The correct way to clean a used bedpan is to",
+        "as": "ব্যৱহৃত মল-চৰু পৰিষ্কাৰ কৰাৰ শুদ্ধ উপায়"
+      },
+      "options": [
+        {
+          "en": "store wet in a corner",
+          "as": "তিতা অৱস্থাত চুকত ৰখা"
+        },
+        {
+          "en": "empty, wash and disinfect before reuse",
+          "as": "খালী কৰি ধুই জীৱাণুমুক্ত কৰি পুনৰ ব্যৱহাৰ"
+        },
+        {
+          "en": "rinse with water only",
+          "as": "কেৱল পানীৰে ধোৱা"
+        },
+        {
+          "en": "reuse without cleaning",
+          "as": "পৰিষ্কাৰ নকৰাকৈ পুনৰ ব্যৱহাৰ"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Faecal matter carries pathogens, so mechanical cleaning followed by a disinfectant is needed between patients.",
+        "as": "মলত ৰোগসৃষ্টিকাৰী জীৱাণু থাকে, সেয়ে ৰোগীৰ মাজত পৰিষ্কাৰৰ পিছত কীটাণুনাশক লাগে।"
+      }
+    },
+    {
+      "id": "biology-340",
+      "q": {
+        "en": "The principal nitrogenous waste excreted in human urine is",
+        "as": "মানুহৰ প্ৰস্ৰাৱত বৰ্জিত মূল নাইট্ৰজেনযুক্ত বৰ্জন কি"
+      },
+      "options": [
+        {
+          "en": "creatinine only",
+          "as": "কেৱল ক্ৰিয়েটিনিন"
+        },
+        {
+          "en": "urea",
+          "as": "ইউৰিয়া"
+        },
+        {
+          "en": "ammonia",
+          "as": "এম'নিয়া"
+        },
+        {
+          "en": "uric acid",
+          "as": "ইউৰিক অ্যাসিড"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "The human liver converts ammonia to the less toxic urea, which the kidney excretes. Ammonia is the waste of fish and uric acid that of birds and reptiles.",
+        "as": "মানুহৰ যকৃয়ে এম'নিয়াক কম বিষাক্ত ইউৰিয়ালৈ ৰূপান্তৰ কৰে, যি বৃক্কই বৰ্জন কৰে। এম'নিয়া মাছৰ আৰু ইউৰিক অ্যাসিড চৰাই তথা সৰীসৃপৰ বৰ্জন।"
+      }
+    },
+    {
+      "id": "chemistry-071",
+      "q": {
+        "en": "Contact process is used to manufacture?",
+        "as": "কণ্টেক্ট প্ৰক্ৰিয়া কি তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়?"
+      },
+      "options": [
+        {
+          "en": "Ammonia",
+          "as": "এমোনিয়া"
+        },
+        {
+          "en": "Nitric acid",
+          "as": "নাইট্ৰিক এচিড"
+        },
+        {
+          "en": "Sulphuric acid",
+          "as": "ছালফিউৰিক এচিড"
+        },
+        {
+          "en": "Hydrochloric acid",
+          "as": "হাইড্ৰক্লৰিক এচিড"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "The Contact process is used to manufacture sulphuric acid.",
+        "as": "কণ্টেক্ট প্ৰক্ৰিয়া ছালফিউৰিক এচিড তৈয়াৰ কৰিবলৈ ব্যৱহাৰ হয়।"
+      }
+    },
+    {
+      "id": "current-affairs-extra-327",
+      "q": {
+        "en": "Gujarat became India's largest contributor to renewable energy capacity with how much installed capacity as of 31 December 2025",
+        "as": "২০২৫ চনৰ ৩১ ডিচেম্বৰলৈ গুজৰাট কিমান স্থাপিত ক্ষমতাৰে ভাৰতৰ সৰ্বাধিক নৱীকৰণযোগ্য শক্তি অৱদানকাৰী ৰাজ্য হয়"
+      },
+      "options": [
+        {
+          "en": "35.250 GW",
+          "as": "৩৫.২৫০ গিগাৱাট"
+        },
+        {
+          "en": "50.100 GW",
+          "as": "৫০.১০০ গিগাৱাট"
+        },
+        {
+          "en": "28.750 GW",
+          "as": "২৮.৭৫০ গিগাৱাট"
+        },
+        {
+          "en": "42.583 GW",
+          "as": "৪২.৫৮৩ গিগাৱাট"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Gujarat had 42.583 GW of renewable capacity, 16.50% of India's total.",
+        "as": "গুজৰাটত ৪২.৫৮৩ গিগাৱাট নৱীকৰণযোগ্য ক্ষমতা আছিল, ভাৰতৰ মুঠৰ ১৬.৫০ শতাংশ।"
+      }
+    },
+    {
+      "id": "assam-history-extra-229",
+      "q": {
+        "en": "The ancient Kamarupa region's epigraphs help date events because they",
+        "as": "প্ৰাচীন কামৰূপ অঞ্চলৰ শিলালিপিয়ে ঘটনাৰ তাৰিখ নিৰ্ধাৰণত সহায় কৰে কাৰণ সেয়া"
+      },
+      "options": [
+        {
+          "en": "carry regnal years and era references",
+          "as": "ৰাজত্বৰ বছৰ আৰু যুগৰ উল্লেখ বহন কৰে"
+        },
+        {
+          "en": "mention modern dates",
+          "as": "আধুনিক তাৰিখ উল্লেখ কৰে"
+        },
+        {
+          "en": "were printed",
+          "as": "ছপা হৈছিল"
+        },
+        {
+          "en": "were written in English",
+          "as": "ইংৰাজীত লিখা হৈছিল"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Regnal and era references fix dates, which is why the chronology is possible. Modern dates, printing and English are wrong.",
+        "as": "ৰাজত্ব আৰু যুগৰ উল্লেখে তাৰিখ স্থিৰ কৰে, সেয়ে কালানুক্ৰম সম্ভৱ। আধুনিক তাৰিখ, ছপা আৰু ইংৰাজী ভুল।"
+      }
+    },
+    {
+      "id": "assam-history-extra-372",
+      "q": {
+        "en": "The Ahom kingdom's 'Hazarika' title indicated command over",
+        "as": "আহোম ৰাজ্যৰ 'হাজাৰিকা' উপাধিয়ে কাৰ ওপৰত নেতৃত্ব সূচায়"
+      },
+      "options": [
+        {
+          "en": "a hundred boats",
+          "as": "এশ নাও"
+        },
+        {
+          "en": "ten temples",
+          "as": "দহ মন্দিৰ"
+        },
+        {
+          "en": "one village",
+          "as": "এখন গাঁও"
+        },
+        {
+          "en": "a thousand paiks",
+          "as": "এহেজাৰ পাইক"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "The title literally means a thousand, which is why it is a troop command. Boats, temples and villages are not what the number denotes.",
+        "as": "উপাধিৰ আক্ষৰিক অৰ্থ এহেজাৰ, সেয়ে ই সৈন্য নেতৃত্ব। নাও, মন্দিৰ আৰু গাঁও সংখ্যাটোৱে নুবুজায়।"
+      }
+    },
+    {
+      "id": "physics-202",
+      "q": {
+        "en": "The pressure at a point inside a liquid depends on",
+        "as": "জুলীয়াৰ ভিতৰৰ বিন্দু এটাত চাপ কিৰ ওপৰত নিৰ্ভৰ কৰে"
+      },
+      "options": [
+        {
+          "en": "the depth below the surface",
+          "as": "পৃষ্ঠৰ তলৰ গভীৰতা"
+        },
+        {
+          "en": "the shape of the vessel",
+          "as": "পাত্ৰৰ আকৃতি"
+        },
+        {
+          "en": "the area of the surface",
+          "as": "পৃষ্ঠৰ কালি"
+        },
+        {
+          "en": "the volume of the liquid only",
+          "as": "কেৱল জুলীয়াৰ আয়তন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Pressure depends only on depth, density and gravity, not on the shape or size of the container. This is the hydrostatic paradox.",
+        "as": "চাপ কেবল গভীৰতা, ঘনত্ব আৰু মহাকৰ্ষণৰ ওপৰত নিৰ্ভৰ, পাত্ৰৰ আকৃতি বা আকাৰৰ ওপৰত নহয়। এইয়া জলস্থিতিক আপাতবিৰোধ।"
+      }
+    },
+    {
+      "id": "nursing-571",
+      "q": {
+        "en": "The prefix 'hypo-' in hypothyroidism indicates that the thyroid is",
+        "as": "হাইপ'থাইৰয়ডিজিমত 'হাইপ'- উপসৰ্গই বুজায় থাইৰয়ড"
+      },
+      "options": [
+        {
+          "en": "absent",
+          "as": "অনুপস্থিত"
+        },
+        {
+          "en": "underactive",
+          "as": "কম সক্ৰিয়"
+        },
+        {
+          "en": "overactive",
+          "as": "অতি সক্ৰিয়"
+        },
+        {
+          "en": "enlarged",
+          "as": "ডাঙৰ হোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Hypo- means under or below, so hypothyroidism is reduced thyroid activity, with weight gain and cold intolerance. Overactivity is hyperthyroidism, enlargement is goitre and absence is agenesis.",
+        "as": "হাইপ'- মানে কম বা তলত, সেয়ে হাইপ'থাইৰয়ডিজিম কম থাইৰয়ড সক্ৰিয়তা, ওজন বৃদ্ধি আৰু শীত অসহনীয়তাৰ সৈতে। অতিসক্ৰিয়তা হাইপাৰথাইৰয়ডিজিম, ডাঙৰ হোৱা গলগণ্ড আৰু অনুপস্থিতি এজেনেছিছ।"
+      }
+    },
+    {
+      "id": "chemistry-253",
+      "q": {
+        "en": "The compound formed when ethanol is oxidised by acidified potassium dichromate is",
+        "as": "অ্যাসিডযুক্ত পটাছিয়াম ডাইক্ৰমেটেৰে ইথানল জাৰিত হ'লে গঠিত যৌগটো"
+      },
+      "options": [
+        {
+          "en": "ethanoic acid",
+          "as": "ইথানইক এচিড"
+        },
+        {
+          "en": "ethene",
           "as": "ইথিন"
         },
         {
-          "en": "Methane",
+          "en": "methane",
           "as": "মিথেন"
         },
         {
-          "en": "Ethane",
-          "as": "ইথেন"
-        },
-        {
-          "en": "Propane",
-          "as": "প্ৰ’পেন"
+          "en": "ethyl ethanoate",
+          "as": "ইথাইল ইথানয়েট"
         }
       ],
       "correct": 0,
       "explanation": {
-        "en": "Ethene is an unsaturated hydrocarbon because it contains a double bond.",
-        "as": "ইথিন এটা অসম্পৃক্ত হাইড্ৰকাৰ্বন কাৰণ ইয়াত এটা দ্বৈত বান্ধোন থাকে।"
+        "en": "Strong oxidation carries ethanol past ethanal to ethanoic acid. A mild oxidising agent stops at the aldehyde stage.",
+        "as": "প্ৰবল জাৰণে ইথানলক ইথানেলৰ পাৰ হৈ ইথানইক এচিডলৈ লৈ যায়। দুৰ্বল জাৰকে এলডিহাইড স্তৰত ৰখায়।"
+      }
+    },
+    {
+      "id": "chemistry-350",
+      "q": {
+        "en": "Which of the following is used as a disinfectant in water treatment?",
+        "as": "তলৰ কোনটো পানী শোধনত জীৱাণুনাশক হিচাপে ব্যৱহৃত হয়"
+      },
+      "options": [
+        {
+          "en": "bleaching powder",
+          "as": "ব্লিচিং পাউডাৰ"
+        },
+        {
+          "en": "baking soda",
+          "as": "বেকিং ছডা"
+        },
+        {
+          "en": "washing soda",
+          "as": "ধোৱা ছডা"
+        },
+        {
+          "en": "common salt",
+          "as": "সাধাৰণ লৱণ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Bleaching powder releases chlorine, which kills pathogens in water. Baking and washing soda do not disinfect.",
+        "as": "ব্লিচিং পাউডাৰে ক্লৰিন এৰে, যি পানীৰ ৰোগজীৱ মাৰে। বেকিং আৰু ধোৱা ছডাই জীৱাণুনাশ নকৰে।"
+      }
+    },
+    {
+      "id": "nursing-338",
+      "q": {
+        "en": "The Ayushman Bharat scheme provides",
+        "as": "আয়ুষ্মান ভাৰত আঁচনিয়ে যোগান ধৰে"
+      },
+      "options": [
+        {
+          "en": "crop insurance",
+          "as": "শস্য বীমা"
+        },
+        {
+          "en": "old age pension",
+          "as": "বৃদ্ধ বয়স পেঞ্চন"
+        },
+        {
+          "en": "health insurance cover for poor families",
+          "as": "দৰিদ্ৰ পৰিয়ালৰ বাবে স্বাস্থ্য বীমা সুৰক্ষা"
+        },
+        {
+          "en": "free education",
+          "as": "বিনামূলীয়া শিক্ষা"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "Eligible households get cashless secondary and tertiary care up to a fixed sum each year at empanelled hospitals.",
+        "as": "যোগ্য পৰিয়ালে তালিকাভুক্ত চিকিৎসালয়ত বছৰি নিৰ্দিষ্ট পৰিমাণলৈ নগদবিহীন দ্বিতীয় আৰু তৃতীয় স্তৰৰ চিকিৎসা পায়।"
+      }
+    },
+    {
+      "id": "biology-399",
+      "q": {
+        "en": "In a root nodule of a legume the bacterium Rhizobium fixes nitrogen because the plant supplies it with",
+        "as": "শিম্বজাতীয় উদ্ভিদৰ মূলৰ গাঁ‌‌ঠিত ৰাইজ'বিয়ামে নাইট্ৰজেন স্থিৰ কৰে কাৰণ উদ্ভিদে ইয়াক যোগান ধৰে"
+      },
+      "options": [
+        {
+          "en": "nitrate to start the process",
+          "as": "আৰম্ভ কৰিবলৈ নাইট্ৰেট"
+        },
+        {
+          "en": "carbohydrate for energy and a low oxygen environment",
+          "as": "শক্তিৰ বাবে শৰ্কৰা আৰু কম অক্সিজেনৰ পৰিৱেশ"
+        },
+        {
+          "en": "nitrogen gas from the soil air",
+          "as": "মাটিৰ বতাহৰপৰা নাইট্ৰজেন গেছ"
+        },
+        {
+          "en": "chlorophyll for the bacteria",
+          "as": "বেক্টেৰিয়াৰ বাবে ক্ল'ৰ'ফিল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "Nitrogenase needs ATP and is destroyed by oxygen, so the plant supplies sugar and leghaemoglobin keeps the nodule micro-aerobic. Nitrate is the product, not the starting material.",
+        "as": "নাইট্ৰ'জিনেজলৈ ATP লাগে আৰু অক্সিজেনে তাক নষ্ট কৰে, সেয়ে উদ্ভিদে চেনি যোগায় আৰু লেগহিম'গ্লবিনে গাঁ‌‌ঠিক অল্প-বায়ুযুক্ত ৰাখে। নাইট্ৰেট উৎপাদন, আৰম্ভণিৰ পদাৰ্থ নহয়।"
+      }
+    },
+    {
+      "id": "biology-369",
+      "q": {
+        "en": "The Hardy-Weinberg principle states that allele frequencies in a population stay constant only when",
+        "as": "হাৰ্ডি-ৱেইনবাৰ্গ নীতিয়ে কয় যে জনগোষ্ঠীত এলিলৰ কম্পনাংক স্থিৰ থাকে কেৱল যেতিয়া"
+      },
+      "options": [
+        {
+          "en": "there is no selection, mutation, migration or genetic drift and mating is random",
+          "as": "নিৰ্বাচন, পৰিৱৰ্তন, স্থানান্তৰ বা জিনীয় প্ৰবাহ নাই আৰু মিলন অনিয়মীয়া"
+        },
+        {
+          "en": "selection is strong",
+          "as": "নিৰ্বাচন প্ৰবল"
+        },
+        {
+          "en": "mutation rate is high",
+          "as": "পৰিৱৰ্তনৰ হাৰ উচ্চ"
+        },
+        {
+          "en": "the population is very small",
+          "as": "জনগোষ্ঠী অতি সৰু"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The equilibrium holds only under the ideal conditions of no evolutionary force and random mating. Small populations drift, and strong selection or high mutation shifts frequencies by definition.",
+        "as": "ভাৰসাম্য কেৱল আদৰ্শ অৱস্থাত, য'ত কোনো বিবৰ্তনী বল নাই আৰু মিলন অনিয়মীয়া। সৰু জনগোষ্ঠীত প্ৰবাহ হয়, আৰু প্ৰবল নিৰ্বাচন বা উচ্চ পৰিৱৰ্তনে সংজ্ঞা অনুসৰি কম্পনাংক সলায়।"
+      }
+    },
+    {
+      "id": "chemistry-347",
+      "q": {
+        "en": "Which of the following is used in the manufacture of soap?",
+        "as": "তলৰ কোনটো চাবোন উৎপাদনত ব্যৱহৃত হয়"
+      },
+      "options": [
+        {
+          "en": "sodium hydroxide",
+          "as": "ছডিয়াম হাইড্ৰক্সাইড"
+        },
+        {
+          "en": "sulphuric acid",
+          "as": "ছালফিউৰিক এচিড"
+        },
+        {
+          "en": "silver nitrate",
+          "as": "ছিলভাৰ নাইট্ৰেট"
+        },
+        {
+          "en": "ammonium chloride",
+          "as": "এম'নিয়াম ক্লৰাইড"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Boiling fat or oil with sodium hydroxide saponifies it into soap and glycerol. Sulphuric acid would not do this.",
+        "as": "চৰ্বি বা তেল ছডিয়াম হাইড্ৰক্সাইডৰ সৈতে উতলালে সাবানীকৰণ হৈ চাবোন আৰু গ্লিচেৰল দিয়ে। ছালফিউৰিক এচিডে এইদৰে নকৰে।"
+      }
+    },
+    {
+      "id": "nursing-367",
+      "q": {
+        "en": "A patient refuses a prescribed injection and says he does not understand why it is needed. The correct nursing action is to",
+        "as": "ৰোগীয়ে নিৰ্ধাৰিত ইনজেকচন নিবিচাৰি কয় যে তেওঁ কিয় লাগে নুবুজে। শুদ্ধ নাৰ্ছিং কাৰ্য"
+      },
+      "options": [
+        {
+          "en": "ask another nurse to give it without discussion",
+          "as": "আলোচনা নকৰাকৈ আন নাৰ্ছক দিবলৈ কোৱা"
+        },
+        {
+          "en": "explain the purpose and inform the doctor of the refusal",
+          "as": "উদ্দেশ্য বুজাই ডাক্তৰক অমান্তিৰ কথা জনোৱা"
+        },
+        {
+          "en": "give the injection anyway because it was prescribed",
+          "as": "নিৰ্ধাৰিত বাবে যিকোনো প্ৰকাৰে ইনজেকচন দিয়া"
+        },
+        {
+          "en": "record the refusal and take no further action",
+          "as": "অমান্তি লিখি আৰু একো নকৰা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A competent adult may refuse treatment, and the nurse's duty is to make sure the refusal is informed before documenting it and telling the prescriber. Giving it anyway is battery, and silent documentation leaves the patient without the treatment they may have accepted.",
+        "as": "সক্ষম প্ৰাপ্তবয়স্কই চিকিৎসা নিবিচাৰিব পাৰে, আৰু নাৰ্ছৰ কৰ্তব্য হ'ল অমান্তি জাননীসহ অৱগত বুলি নিশ্চিত কৰি লিখা আৰু প্ৰেছক্ৰাইবাৰক জনোৱা। জোৰকৈ দিয়া আইনবিৰুদ্ধ, আৰু মনে মনে লিখি থ'লে ৰোগীয়ে গ্ৰহণ কৰিব পৰা চিকিৎসাৰপৰা বঞ্চিত হয়।"
       }
     },
     {
@@ -1364,230 +2534,132 @@
       }
     },
     {
-      "id": "biology-080",
+      "id": "nursing-306",
       "q": {
-        "en": "Stomata are present mainly on?",
-        "as": "ষ্ট’মেটা মূলতঃ ক’ত থাকে?"
+        "en": "The prefix brady- indicates",
+        "as": "brady- উপসৰ্গই সূচায়"
       },
       "options": [
         {
-          "en": "Roots",
-          "as": "শিপা"
+          "en": "before",
+          "as": "আগত"
         },
         {
-          "en": "Stem wood",
-          "as": "কাণ্ডৰ কাঠ"
+          "en": "after",
+          "as": "পিছত"
         },
         {
-          "en": "Flowers only",
-          "as": "কেৱল ফুল"
+          "en": "slow",
+          "as": "ধীৰ"
         },
         {
-          "en": "Leaves",
-          "as": "পাত"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Stomata are tiny pores present mainly on the leaves.",
-        "as": "ষ্ট’মেটা মূলতঃ পাতত থকা সূক্ষ্ম ৰন্ধ্ৰ।"
-      }
-    },
-    {
-      "id": "biology-075",
-      "q": {
-        "en": "The study of fungi is called?",
-        "as": "ভঁইকুৰৰ অধ্যয়নক কি বোলে?"
-      },
-      "options": [
-        {
-          "en": "Phycology",
-          "as": "শৈবাল বিজ্ঞান"
-        },
-        {
-          "en": "Virology",
-          "as": "ভাইৰাছ বিজ্ঞান"
-        },
-        {
-          "en": "Mycology",
-          "as": "ভঁইকুৰ বিজ্ঞান"
-        },
-        {
-          "en": "Bacteriology",
-          "as": "বেক্টেৰিয়া বিজ্ঞান"
+          "en": "fast",
+          "as": "দ্ৰুত"
         }
       ],
       "correct": 2,
       "explanation": {
-        "en": "The study of fungi is called mycology.",
-        "as": "ভঁইকুৰৰ অধ্যয়নক ভঁইকুৰ বিজ্ঞান (মাইক’লজি) বোলে।"
+        "en": "Bradycardia is a slow pulse below sixty. Tachy- is the fast counterpart.",
+        "as": "ব্ৰেডিকাৰ্ডিয়া ষাঠিৰ তলৰ ধীৰ নাড়ী। Tachy- দ্ৰুতৰ সমতুল্য।"
       }
     },
     {
-      "id": "physics-102",
+      "id": "nursing-396",
       "q": {
-        "en": "Relation between wave speed v, frequency f and wavelength λ is?",
-        "as": "তৰংগ বেগ v, কম্পাংক f আৰু তৰংগদৈৰ্ঘ্য λ-ৰ সম্পৰ্ক কি?"
+        "en": "The nurse is asked to explain the difference between incidence and prevalence. The correct explanation is that incidence measures",
+        "as": "নাৰ্ছক সংঘটন আৰু প্ৰচলনৰ পাৰ্থক্য বুজাবলৈ কোৱা হৈছে। শুদ্ধ ব্যাখ্যা — সংঘটনে জোখে"
       },
       "options": [
         {
-          "en": "v = f / λ",
-          "as": "v = f / λ"
+          "en": "new cases arising in a period, while prevalence counts all existing cases",
+          "as": "এক সময়ত নতুন কেছ, প্ৰচলনে সকলো বিদ্যমান কেছ গণনা কৰে"
         },
         {
-          "en": "v = f λ",
-          "as": "v = f λ"
+          "en": "all existing cases, while prevalence counts new ones",
+          "as": "সকলো বিদ্যমান কেছ, প্ৰচলনে নতুন কেছ গণনা কৰে"
         },
         {
-          "en": "v = λ / f",
-          "as": "v = λ / f"
+          "en": "deaths, while prevalence counts births",
+          "as": "মৃত্যু, প্ৰচলনে জন্ম গণনা কৰে"
         },
         {
-          "en": "v = f + λ",
-          "as": "v = f + λ"
+          "en": "hospital cases only, while prevalence counts village cases",
+          "as": "কেৱল চিকিৎসালয়ৰ কেছ, প্ৰচলনে গাঁৱৰ কেছ গণনা কৰে"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Incidence is the rate at which new cases appear in a defined period, so it measures risk of acquiring disease; prevalence is the total burden at one point in time. The two differ exactly because cure and death remove cases from prevalence.",
+        "as": "সংঘটন হ'ল নিৰ্দিষ্ট সময়ত নতুন কেছ ওলোৱাৰ হাৰ, সেয়ে ই ৰোগ হোৱাৰ বিপদ জোখে; প্ৰচলন এটা সময়ত মুঠ ভাৰ। দুয়োৰা বেলেগ কাৰণ নিৰাময় আৰু মৃত্যুৱে প্ৰচলনৰপৰা কেছ আঁতৰায়।"
+      }
+    },
+    {
+      "id": "computer-239",
+      "q": {
+        "en": "A user cannot print from a laptop on the office Wi-Fi although the same laptop prints at home. The most likely cause is",
+        "as": "ব্যৱহাৰকাৰীয়ে অফিচৰ ৱাই-ফাইত লেপটপৰপৰা ছপা কৰিব নোৱাৰে যদিও ঘৰত সেই লেপটপে ছপা কৰে। আটাই সম্ভাব্য কাৰণ"
+      },
+      "options": [
+        {
+          "en": "the keyboard layout is wrong",
+          "as": "কীব'ৰ্ডৰ বিন্যাস ভুল"
+        },
+        {
+          "en": "the office network blocks printer discovery or the print port",
+          "as": "অফিচ নেটৱৰ্কে প্ৰিন্টাৰ আৱিষ্কাৰ বা প্ৰিন্ট প'ৰ্ট অৱৰোধ কৰে"
+        },
+        {
+          "en": "the laptop battery is low",
+          "as": "লেপটপৰ বেটাৰী কম"
+        },
+        {
+          "en": "the screen brightness is low",
+          "as": "স্ক্ৰীণৰ উজ্জ্বলতা কম"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "The speed of a wave equals its frequency multiplied by its wavelength: v = f λ.",
-        "as": "তৰংগৰ বেগ = কম্পাংক × তৰংগদৈৰ্ঘ্য, অৰ্থাৎ v = f λ।"
+        "en": "Working at home but not in the office isolates the difference to the network, which is blocking the discovery protocol or the print port. Battery, brightness and keyboard layout would fail in both places.",
+        "as": "ঘৰত কাম কৰি অফিচত নকৰাটোৱে পাৰ্থক্য নেটৱৰ্কলৈ সীমাবদ্ধ কৰে, যিয়ে আৱিষ্কাৰ প্ৰ'ট'কল বা প্ৰিন্ট প'ৰ্ট অৱৰোধ কৰিছে। বেটাৰী, উজ্জ্বলতা আৰু কীব'ৰ্ডৰ বিন্যাসে দুয়ো ঠাইতে বিফল হ'লহেঁতেন।"
       }
     },
     {
-      "id": "polity-059",
+      "id": "physics-173",
       "q": {
-        "en": "Fundamental Rights are contained in which Part of the Constitution?",
-        "as": "মৌলিক অধিকাৰসমূহ সংবিধানৰ কোনটো অংশত আছে?"
+        "en": "The SI unit of pressure is",
+        "as": "চাপৰ SI একক"
       },
       "options": [
         {
-          "en": "Part II",
-          "as": "দ্বিতীয় অংশ"
-        },
-        {
-          "en": "Part III",
-          "as": "তৃতীয় অংশ"
-        },
-        {
-          "en": "Part IV",
-          "as": "চতুৰ্থ অংশ"
-        },
-        {
-          "en": "Part V",
-          "as": "পঞ্চম অংশ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Fundamental Rights are contained in Part III (Articles 12-35).",
-        "as": "মৌলিক অধিকাৰসমূহ তৃতীয় অংশত (অনুচ্ছেদ ১২-৩৫) আছে।"
-      }
-    },
-    {
-      "id": "chemistry-008",
-      "q": {
-        "en": "The most abundant gas in the atmosphere is?",
-        "as": "বায়ুমণ্ডলত আটাইতকৈ বেছি পৰিমাণে থকা গেছ কি?"
-      },
-      "options": [
-        {
-          "en": "Oxygen",
-          "as": "অক্সিজেন"
-        },
-        {
-          "en": "Carbon dioxide",
-          "as": "কাৰ্বন ডাইঅক্সাইড"
-        },
-        {
-          "en": "Hydrogen",
-          "as": "হাইড্ৰজেন"
-        },
-        {
-          "en": "Nitrogen",
-          "as": "নাইট্ৰজেন"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Nitrogen is the most abundant gas in the atmosphere, about 78 percent.",
-        "as": "বায়ুমণ্ডলত আটাইতকৈ বেছি থকা গেছ নাইট্ৰজেন, প্ৰায় ৭৮ শতাংশ।"
-      }
-    },
-    {
-      "id": "biology-061",
-      "q": {
-        "en": "The master gland of the human body is?",
-        "as": "মানৱ দেহৰ মুখ্য গ্ৰন্থি কি?"
-      },
-      "options": [
-        {
-          "en": "Thyroid",
-          "as": "থাইৰইড"
-        },
-        {
-          "en": "Pituitary",
-          "as": "পিটুইটাৰী"
-        },
-        {
-          "en": "Adrenal",
-          "as": "এড্ৰিনেল"
-        },
-        {
-          "en": "Pancreas",
-          "as": "অগ্ন্যাশয়"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "The pituitary gland is called the master gland of the human body.",
-        "as": "পিটুইটাৰী গ্ৰন্থিক মানৱ দেহৰ মুখ্য গ্ৰন্থি বোলে।"
-      }
-    },
-    {
-      "id": "physics-014",
-      "q": {
-        "en": "The boiling point of water at standard pressure is?",
-        "as": "মানক চাপত পানীৰ উতলাংক কিমান?"
-      },
-      "options": [
-        {
-          "en": "0°C",
-          "as": "০°C"
-        },
-        {
-          "en": "32°C",
-          "as": "৩২°C"
-        },
-        {
-          "en": "273°C",
-          "as": "২৭৩°C"
-        },
-        {
-          "en": "100°C",
-          "as": "১০০°C"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "At standard atmospheric pressure (1 atm), pure water boils at 100°C.",
-        "as": "মানক বায়ুমণ্ডলীয় চাপত (১ atm) বিশুদ্ধ পানী ১০০°C ত উতলে।"
-      }
-    },
-    {
-      "id": "physics-022",
-      "q": {
-        "en": "The SI unit of pressure is?",
-        "as": "চাপৰ SI একক কি?"
-      },
-      "options": [
-        {
-          "en": "Pascal",
+          "en": "pascal",
           "as": "পাস্কেল"
         },
         {
-          "en": "Newton",
+          "en": "newton",
           "as": "নিউটন"
         },
+        {
+          "en": "joule",
+          "as": "জুল"
+        },
+        {
+          "en": "watt",
+          "as": "ৱাট"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "One pascal is one newton of force acting on one square metre. Newton alone measures force, not force per unit area.",
+        "as": "এক পাস্কেল মানে এক বৰ্গমিটাৰত এক নিউটন বল। অকলৈ নিউটনে বল জোখে, একক কালিত বল নহয়।"
+      }
+    },
+    {
+      "id": "physics-124",
+      "q": {
+        "en": "The commercial unit of electrical energy is?",
+        "as": "বিদ্যুৎ শক্তিৰ ব্যৱসায়িক একক কি?"
+      },
+      "options": [
         {
           "en": "Joule",
           "as": "জুল"
@@ -1595,1452 +2667,380 @@
         {
           "en": "Watt",
           "as": "ৱাট"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Pressure is force per unit area (P = F/A), and its SI unit is the pascal (Pa); 1 Pa = 1 N/m².",
-        "as": "চাপ = বল/কালি (P = F/A), ইয়াৰ SI একক পাস্কেল (Pa); ১ পাস্কেল = ১ নিউটন/বৰ্গমিটাৰ।"
-      }
-    },
-    {
-      "id": "physics-042",
-      "q": {
-        "en": "A lightning conductor is made of?",
-        "as": "বিজুলী পৰিবাহী কিৰ পৰা তৈয়াৰ কৰা হয়?"
-      },
-      "options": [
-        {
-          "en": "Rubber",
-          "as": "ৰবৰ"
-        },
-        {
-          "en": "Plastic",
-          "as": "প্লাস্টিক"
-        },
-        {
-          "en": "Wood",
-          "as": "কাঠ"
-        },
-        {
-          "en": "Copper",
-          "as": "তাম"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "A lightning conductor is made of copper because it is a good conductor.",
-        "as": "বিজুলী পৰিবাহী তামৰ পৰা তৈয়াৰ কৰা হয় কাৰণ ই ভাল পৰিবাহী।"
-      }
-    },
-    {
-      "id": "biology-009",
-      "q": {
-        "en": "The largest gland in the human body is?",
-        "as": "মানৱ দেহৰ আটাইতকৈ ডাঙৰ গ্ৰন্থি কি?"
-      },
-      "options": [
-        {
-          "en": "Pancreas",
-          "as": "অগ্ন্যাশয়"
-        },
-        {
-          "en": "Liver",
-          "as": "যকৃত"
-        },
-        {
-          "en": "Thyroid",
-          "as": "থাইৰইড"
-        },
-        {
-          "en": "Pituitary",
-          "as": "পিটুইটাৰী"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "The liver is the largest gland in the human body.",
-        "as": "যকৃত মানৱ দেহৰ আটাইতকৈ ডাঙৰ গ্ৰন্থি।"
-      }
-    },
-    {
-      "id": "biology-113",
-      "q": {
-        "en": "Which of the following is a water-soluble vitamin?",
-        "as": "তলৰ কোনটো পানীত দ্ৰৱীভূত ভিটামিন?"
-      },
-      "options": [
-        {
-          "en": "Vitamin A",
-          "as": "ভিটামিন এ"
-        },
-        {
-          "en": "Vitamin D",
-          "as": "ভিটামিন ডি"
-        },
-        {
-          "en": "Vitamin E",
-          "as": "ভিটামিন ই"
-        },
-        {
-          "en": "Vitamin C",
-          "as": "ভিটামিন চি"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Vitamin C is a water-soluble vitamin.",
-        "as": "ভিটামিন চি পানীত দ্ৰৱীভূত হোৱা ভিটামিন।"
-      }
-    },
-    {
-      "id": "chemistry-031",
-      "q": {
-        "en": "The general formula of alkenes is?",
-        "as": "এলকিনৰ সাধাৰণ সংকেত কি?"
-      },
-      "options": [
-        {
-          "en": "CnH2n+2",
-          "as": "CnH2n+2"
-        },
-        {
-          "en": "CnH2n",
-          "as": "CnH2n"
-        },
-        {
-          "en": "CnH2n-2",
-          "as": "CnH2n-2"
-        },
-        {
-          "en": "CnHn",
-          "as": "CnHn"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Alkenes have the general formula CnH2n.",
-        "as": "এলকিনৰ সাধাৰণ সংকেত CnH2n।"
-      }
-    },
-    {
-      "id": "chemistry-113",
-      "q": {
-        "en": "The chemical used in matchsticks for the striking surface often includes?",
-        "as": "মাচৰ ঘঁহা পৃষ্ঠত প্ৰায়ে ব্যৱহাৰ হোৱা ৰাসায়নিক পদাৰ্থ কি?"
-      },
-      "options": [
-        {
-          "en": "Sodium chloride",
-          "as": "ছডিয়াম ক্লৰাইড"
-        },
-        {
-          "en": "Calcium carbonate",
-          "as": "কেলচিয়াম কাৰ্বনেট"
-        },
-        {
-          "en": "Red phosphorus",
-          "as": "ৰঙা ফছফৰাছ"
-        },
-        {
-          "en": "Sugar",
-          "as": "চেনি"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Red phosphorus is used on the striking surface of matchsticks.",
-        "as": "মাচৰ ঘঁহা পৃষ্ঠত ৰঙা ফছফৰাছ ব্যৱহাৰ হয়।"
-      }
-    },
-    {
-      "id": "verbal-reasoning-058",
-      "q": {
-        "en": "All mangoes are fruits. All fruits grow on trees. Therefore all mangoes?",
-        "as": "সকলো আম ফল। সকলো ফল গছত হয়। সেয়ে সকলো আম?"
-      },
-      "options": [
-        {
-          "en": "Are vegetables",
-          "as": "পাচলি"
-        },
-        {
-          "en": "Grow on ground",
-          "as": "মাটিত হয়"
-        },
-        {
-          "en": "Grow on trees",
-          "as": "গছত হয়"
-        },
-        {
-          "en": "Are not fruits",
-          "as": "ফল নহয়"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "All mangoes are fruits and all fruits grow on trees, so by syllogism all mangoes grow on trees.",
-        "as": "সকলো আম ফল আৰু সকলো ফল গছত হয়; সেয়ে যুক্তি অনুসৰি সকলো আম গছত হয়।"
-      }
-    },
-    {
-      "id": "polity-001",
-      "q": {
-        "en": "Which writ is issued to enquire into the claim of a person to a public office?",
-        "as": "সৰ্বসাধাৰণ কাৰ্যালয়ৰ দাবী সন্দৰ্ভত কোনটো ৰিট জাৰি কৰা হয়?"
-      },
-      "options": [
-        {
-          "en": "Quo Warranto",
-          "as": "কো ৱাৰেণ্টো"
-        },
-        {
-          "en": "Prohibition",
-          "as": "প্ৰ'হিবিচন"
-        },
-        {
-          "en": "Habeas Corpus",
-          "as": "হেবিয়াছ ক'ৰ্পাছ"
-        },
-        {
-          "en": "Mandamus",
-          "as": "মেণ্ডামাছ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The writ of quo warranto is issued to enquire into the claim of a person to a public office.",
-        "as": "কো ৱাৰেণ্ট' ৰিট কোনো ব্যক্তিৰ ৰাজহুৱা পদৰ দাবী সোধবিচাৰৰ বাবে জাৰি কৰা হয়।"
-      }
-    },
-    {
-      "id": "chemistry-072",
-      "q": {
-        "en": "The chemical formula of ammonia is?",
-        "as": "এমোনিয়াৰ ৰাসায়নিক সংকেত কি?"
-      },
-      "options": [
-        {
-          "en": "NO2",
-          "as": "NO2"
-        },
-        {
-          "en": "N2O",
-          "as": "N2O"
-        },
-        {
-          "en": "NH4",
-          "as": "NH4"
-        },
-        {
-          "en": "NH3",
-          "as": "NH3"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "The chemical formula of ammonia is NH3.",
-        "as": "এমোনিয়াৰ ৰাসায়নিক সংকেত NH3।"
-      }
-    },
-    {
-      "id": "polity-017",
-      "q": {
-        "en": "Right to Property was deleted from the Fundamental Rights by which Amendment?",
-        "as": "সম্পত্তিৰ অধিকাৰ মৌলিক অধিকাৰৰ পৰা কোনটো সংশোধনীৰ দ্বাৰা আঁতৰোৱা হৈছিল?"
-      },
-      "options": [
-        {
-          "en": "73rd Amendment 1992",
-          "as": "৭৩ সংখ্যক সংশোধনী ১৯৯২"
-        },
-        {
-          "en": "42nd Amendment 1976",
-          "as": "৪২ সংখ্যক সংশোধনী ১৯৭৬"
-        },
-        {
-          "en": "44th Amendment 1978",
-          "as": "৪৪ সংখ্যক সংশোধনী ১৯৭৮"
-        },
-        {
-          "en": "52nd Amendment 1985",
-          "as": "৫২ সংখ্যক সংশোধনী ১৯৮৫"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The 44th Amendment (1978) removed the Right to Property from Fundamental Rights and made it a legal right under Article 300A.",
-        "as": "৪৪ সংখ্যক সংশোধনীয়ে (১৯৭৮) সম্পত্তিৰ অধিকাৰ মৌলিক অধিকাৰৰপৰা আঁতৰাই অনুচ্ছেদ ৩০০এৰ অধীনত আইনী অধিকাৰ কৰিছিল।"
-      }
-    },
-    {
-      "id": "biology-027",
-      "q": {
-        "en": "Which of the following is a biotic component of an ecosystem?",
-        "as": "তলৰ কোনটো পৰিৱেশ তন্ত্ৰৰ জৈৱ উপাদান?"
-      },
-      "options": [
-        {
-          "en": "Plants",
-          "as": "উদ্ভিদ"
-        },
-        {
-          "en": "Water",
-          "as": "পানী"
-        },
-        {
-          "en": "Soil",
-          "as": "মাটি"
-        },
-        {
-          "en": "Air",
-          "as": "বায়ু"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Plants are a biotic component of an ecosystem.",
-        "as": "উদ্ভিদ পৰিৱেশ তন্ত্ৰৰ এক জৈৱ উপাদান।"
-      }
-    },
-    {
-      "id": "physics-031",
-      "q": {
-        "en": "The device that converts chemical energy into electrical energy is a?",
-        "as": "ৰাসায়নিক শক্তিক বিদ্যুৎ শক্তিলৈ ৰূপান্তৰ কৰা যন্ত্ৰ কি?"
-      },
-      "options": [
-        {
-          "en": "Electric cell",
-          "as": "বিদ্যুৎ কোষ"
-        },
-        {
-          "en": "Electric heater",
-          "as": "বিদ্যুৎ হিটাৰ"
-        },
-        {
-          "en": "Transformer",
-          "as": "ট্ৰান্সফৰ্মাৰ"
-        },
-        {
-          "en": "Electric motor",
-          "as": "বিদ্যুৎ মটৰ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "An electric cell converts chemical energy into electrical energy.",
-        "as": "বিদ্যুৎ কোষে ৰাসায়নিক শক্তিক বিদ্যুৎ শক্তিলৈ ৰূপান্তৰ কৰে।"
-      }
-    },
-    {
-      "id": "chemistry-060",
-      "q": {
-        "en": "Bleaching powder is chemically?",
-        "as": "ব্লিচিং পাউদাৰ ৰাসায়নিকভাৱে কি?"
-      },
-      "options": [
-        {
-          "en": "CaO",
-          "as": "CaO"
-        },
-        {
-          "en": "Ca(OH)2",
-          "as": "Ca(OH)2"
-        },
-        {
-          "en": "CaCO3",
-          "as": "CaCO3"
-        },
-        {
-          "en": "CaOCl2",
-          "as": "CaOCl2"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Bleaching powder is calcium oxychloride.",
-        "as": "ব্লিচিং পাউদাৰ হৈছে কেলচিয়াম অক্সিক্লৰাইড।"
-      }
-    },
-    {
-      "id": "grammar-019",
-      "q": {
-        "en": "The correct form is:",
-        "as": "শুদ্ধ ৰূপ কি?"
-      },
-      "options": [
-        {
-          "en": "He is senior than me.",
-          "as": "He is senior than me."
-        },
-        {
-          "en": "He is senior to me.",
-          "as": "He is senior to me."
-        },
-        {
-          "en": "He is more senior than me.",
-          "as": "He is more senior than me."
-        },
-        {
-          "en": "He is senior from me.",
-          "as": "He is senior from me."
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "'Senior to' is the correct form.",
-        "as": "'senior to' হৈছে শুদ্ধ ৰূপ।"
-      }
-    },
-    {
-      "id": "biology-044",
-      "q": {
-        "en": "Which is the only ape found in India, also found in Assam?",
-        "as": "ভাৰতত পোৱা একমাত্ৰ নৰবান্দৰ কোনটো, যি অসমতো পোৱা যায়?"
-      },
-      "options": [
-        {
-          "en": "Hoolock gibbon",
-          "as": "হলৌ বান্দৰ"
-        },
-        {
-          "en": "Langur",
-          "as": "লঙুৰ"
-        },
-        {
-          "en": "Rhesus monkey",
-          "as": "ৰিছাছ মাকড়ি"
-        },
-        {
-          "en": "Gorilla",
-          "as": "গৰিলা"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The hoolock gibbon is the only ape found in India and is found in Assam.",
-        "as": "হলৌ বান্দৰ ভাৰতত পোৱা একমাত্ৰ নৰবান্দৰ আৰু ই অসমত পোৱা যায়।"
-      }
-    },
-    {
-      "id": "physics-118",
-      "q": {
-        "en": "The slope of a distance-time graph gives?",
-        "as": "দূৰত্ব-সময় গ্ৰাফৰ ঢালে কি দিয়ে?"
-      },
-      "options": [
-        {
-          "en": "Acceleration",
-          "as": "ত্বাৰণ"
-        },
-        {
-          "en": "Force",
-          "as": "বল"
-        },
-        {
-          "en": "Speed",
-          "as": "দ্ৰুতি"
-        },
-        {
-          "en": "Momentum",
-          "as": "ভৰবেগ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The slope of a distance-time graph gives speed, because slope = distance / time.",
-        "as": "দূৰত্ব-সময় গ্ৰাফৰ ঢালে দ্ৰুতি দিয়ে, কাৰণ ঢাল = দূৰত্ব / সময়।"
-      }
-    },
-    {
-      "id": "biology-085",
-      "q": {
-        "en": "Stethoscope is used to?",
-        "as": "ষ্টেথ’স্কোপ কি কাৰণে ব্যৱহাৰ হয়?"
-      },
-      "options": [
-        {
-          "en": "Measure temperature",
-          "as": "উষ্ণতা জোখা"
-        },
-        {
-          "en": "Measure blood pressure only",
-          "as": "কেৱল ৰক্তচাপ জোখা"
-        },
-        {
-          "en": "Measure humidity",
-          "as": "আৰ্দ্ৰতা জোখা"
-        },
-        {
-          "en": "Listen to heart and lung sounds",
-          "as": "হৃদযন্ত্ৰ আৰু হাওঁফাওঁৰ শব্দ শুনা"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "A stethoscope is used to listen to heart and lung sounds.",
-        "as": "ষ্টেথ’স্কোপ হৃদযন্ত্ৰ আৰু হাওঁফাওঁৰ শব্দ শুনিবলৈ ব্যৱহাৰ হয়।"
-      }
-    },
-    {
-      "id": "chemistry-112",
-      "q": {
-        "en": "Which of the following is used to purify water?",
-        "as": "পানী বিশুদ্ধ কৰিবলৈ তলৰ কোনটো ব্যৱহাৰ হয়?"
-      },
-      "options": [
-        {
-          "en": "NaCl",
-          "as": "NaCl"
-        },
-        {
-          "en": "Chlorine",
-          "as": "ক্লৰিন"
-        },
-        {
-          "en": "CO2",
-          "as": "CO2"
-        },
-        {
-          "en": "N2",
-          "as": "N2"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Chlorine is used to purify water.",
-        "as": "পানী বিশুদ্ধ কৰিবলৈ ক্লৰিন ব্যৱহাৰ হয়।"
-      }
-    },
-    {
-      "id": "physics-129",
-      "q": {
-        "en": "AC used in Indian household supply has frequency?",
-        "as": "ভাৰতীয় ঘৰুৱা বিদ্যুৎ যোগানৰ AC-ৰ কম্পাংক কিমান?"
-      },
-      "options": [
-        {
-          "en": "50 Hz",
-          "as": "৫০ হাৰ্টজ"
-        },
-        {
-          "en": "60 Hz",
-          "as": "৬০ হাৰ্টজ"
-        },
-        {
-          "en": "100 Hz",
-          "as": "১০০ হাৰ্টজ"
-        },
-        {
-          "en": "220 Hz",
-          "as": "২২০ হাৰ্টজ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The alternating current supplied for domestic use in India has a frequency of 50 Hz, i.e. it reverses direction 100 times per second. Hence '50 Hz' is correct.",
-        "as": "ভাৰতত ঘৰুৱা ব্যৱহাৰৰ পৰিবৰ্তী প্ৰবাহৰ কম্পাংক ৫০ হাৰ্টজ, অৰ্থাৎ ই ছেকেণ্ডত ১০০ বাৰ দিশ সলনি কৰে। সেয়ে '৫০ হাৰ্টজ' শুদ্ধ।"
-      }
-    },
-    {
-      "id": "geography-035",
-      "q": {
-        "en": "Kharif crops are sown in which season?",
-        "as": "খৰিফ শস্য কোন ঋতুত সিঁচা হয়?"
-      },
-      "options": [
-        {
-          "en": "Winter season (October-November)",
-          "as": "শীত ঋতুত (অক্টোবৰ-নৱেম্বৰ)"
-        },
-        {
-          "en": "Spring season",
-          "as": "বসন্ত ঋতুত"
-        },
-        {
-          "en": "With the onset of monsoon (June-July)",
-          "as": "মৌচুমী বৰষুণ আৰম্ভ হোৱা সময়ত (জুন-জুলাই)"
-        },
-        {
-          "en": "Throughout the year",
-          "as": "গোটেই বছৰ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Kharif crops are sown with the onset of the monsoon in June-July.",
-        "as": "খৰিফ শস্য মৌচুমী আৰম্ভ হোৱাৰ লগে লগে জুন-জুলাই মাহত সিঁচা হয়।"
-      }
-    },
-    {
-      "id": "polity-034",
-      "q": {
-        "en": "According to Article 1, India is a -",
-        "as": "অনুচ্ছেদ ১ অনুসৰি ভাৰত হৈছে -"
-      },
-      "options": [
-        {
-          "en": "Confederation of States",
-          "as": "ৰাজ্যসমূহৰ সংঘবদ্ধ ৰাষ্ট্ৰ"
-        },
-        {
-          "en": "Commonwealth of States",
-          "as": "ৰাজ্যসমূহৰ কমনৱেলথ"
-        },
-        {
-          "en": "Federation of States",
-          "as": "ৰাজ্যসমূহৰ যুক্তৰাষ্ট্ৰ"
-        },
-        {
-          "en": "Union of States",
-          "as": "ৰাজ্যসমূহৰ সংঘ"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "According to Article 1, India is a 'Union of States'.",
-        "as": "অনুচ্ছেদ ১ অনুসৰি ভাৰত ৰাজ্যসমূহৰ সংঘ।"
-      }
-    },
-    {
-      "id": "geography-060",
-      "q": {
-        "en": "Which river is known as 'Dakshin Ganga' (Ganga of the South)?",
-        "as": "কোন নদীক 'দক্ষিণ গংগা' বুলি জনা যায়?"
-      },
-      "options": [
-        {
-          "en": "Godavari",
-          "as": "গোদাবৰী"
-        },
-        {
-          "en": "Krishna",
-          "as": "কৃষ্ণা"
-        },
-        {
-          "en": "Kaveri",
-          "as": "কাবেৰী"
-        },
-        {
-          "en": "Tungabhadra",
-          "as": "তুংগভদ্ৰা"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The Godavari is known as the Dakshin Ganga.",
-        "as": "গোদাবৰীক দক্ষিণ গংগা বুলি জনা যায়।"
-      }
-    },
-    {
-      "id": "physics-059",
-      "q": {
-        "en": "A fuse wire is used in an electric circuit to?",
-        "as": "বিদ্যুৎ বৰ্তনীত ফিউজ তাঁৰ কি কাৰণে ব্যৱহাৰ কৰা হয়?"
-      },
-      "options": [
-        {
-          "en": "Increase voltage",
-          "as": "ভল্টেজ বৃদ্ধি কৰা"
-        },
-        {
-          "en": "Increase current",
-          "as": "প্ৰবাহ বৃদ্ধি কৰা"
-        },
-        {
-          "en": "Decorate the circuit",
-          "as": "বৰ্তনী সজোৱা"
-        },
-        {
-          "en": "Protect from excess current",
-          "as": "অতিৰিক্ত প্ৰবাহৰ পৰা ৰক্ষা কৰা"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "A fuse wire has low melting point and high resistance; it melts and breaks the circuit when current exceeds a safe limit, protecting appliances from excess current.",
-        "as": "ফিউজ তাঁৰৰ গলনাংক কম আৰু প্ৰতিৰোধ বেছি; প্ৰবাহ নিৰাপদ সীমা অতিক্ৰম কৰিলে ই গলি বৰ্তনী বিচ্ছিন্ন কৰে, যাৰ দ্বাৰা অতিৰিক্ত প্ৰবাহৰ পৰা সুৰক্ষা মিলে।"
-      }
-    },
-    {
-      "id": "physics-093",
-      "q": {
-        "en": "A dynamo (generator) converts?",
-        "as": "ডাইনামো (জেনেৰেটৰ) কি ৰূপান্তৰ কৰে?"
-      },
-      "options": [
-        {
-          "en": "Heat into light",
-          "as": "তাপক পোহৰলৈ"
-        },
-        {
-          "en": "Mechanical energy into electrical energy",
-          "as": "যান্ত্ৰিক শক্তিক বিদ্যুৎ শক্তিলৈ"
-        },
-        {
-          "en": "Sound into heat",
-          "as": "শব্দক তাপলৈ"
-        },
-        {
-          "en": "Chemical energy into heat only",
-          "as": "কেৱল ৰাসায়নিক শক্তিক তাপলৈ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "A dynamo (generator) works on electromagnetic induction and converts mechanical energy into electrical energy; a motor does the reverse.",
-        "as": "ডাইনামো (জেনেৰেটৰ) বিদ্যুৎ চুম্বকীয় আৱেশৰ নীতিত কাম কৰে আৰু যান্ত্ৰিক শক্তিক বিদ্যুৎ শক্তিলৈ ৰূপান্তৰ কৰে; মটৰে ইয়াৰ ওলোটা কাম কৰে।"
-      }
-    },
-    {
-      "id": "physics-016",
-      "q": {
-        "en": "A freely falling body has which acceleration?",
-        "as": "মুক্ত পতনশীল বস্তুৰ ত্বাৰণ কি?"
-      },
-      "options": [
-        {
-          "en": "Zero",
-          "as": "শূন্য"
-        },
-        {
-          "en": "g (acceleration due to gravity)",
-          "as": "g (অভিকৰ্ষজ ত্বাৰণ)"
-        },
-        {
-          "en": "Increasing mass",
-          "as": "বৃদ্ধি পোৱা ভৰ"
-        },
-        {
-          "en": "Constant velocity always",
-          "as": "সদায় স্থিৰ বেগ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Ignoring air resistance, a freely falling body is acted upon only by gravity, so its acceleration is g, the acceleration due to gravity.",
-        "as": "বায়ুৰ ৰোধ উপেক্ষা কৰিলে মুক্ত পতনশীল বস্তুৰ ওপৰত কেৱল মাধ্যাকৰ্ষণ বল ক্ৰিয়া কৰে, সেয়ে ইয়াৰ ত্বৰণ g (অভিকৰ্ষজ ত্বৰণ)।"
-      }
-    },
-    {
-      "id": "biology-132",
-      "q": {
-        "en": "The nitrogen cycle is important because plants need nitrogen for?",
-        "as": "নাইট্ৰজেন চক্ৰ গুৰুত্বপূৰ্ণ কাৰণ উদ্ভিদক নাইট্ৰজেন কিৰ বাবে লাগে?"
-      },
-      "options": [
-        {
-          "en": "Making fats only",
-          "as": "কেৱল চৰ্বি তৈয়াৰ"
-        },
-        {
-          "en": "Making proteins",
-          "as": "প্ৰ’টিন তৈয়াৰ"
-        },
-        {
-          "en": "Making starch only",
-          "as": "কেৱল ষ্টাৰ্চ তৈয়াৰ"
-        },
-        {
-          "en": "Making cellulose only",
-          "as": "কেৱল চেলুলোজ তৈয়াৰ"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Plants need nitrogen to make proteins.",
-        "as": "উদ্ভিদক প্ৰ’টিন তৈয়াৰ কৰিবলৈ নাইট্ৰজেন লাগে।"
-      }
-    },
-    {
-      "id": "physics-137",
-      "q": {
-        "en": "Friction can be reduced by?",
-        "as": "ঘৰ্ষণ কিৰে কমাব পাৰি?"
-      },
-      "options": [
-        {
-          "en": "Using lubricants",
-          "as": "লুব্ৰিকেণ্ট ব্যৱহাৰ কৰি"
-        },
-        {
-          "en": "Making surfaces more rough",
-          "as": "পৃষ্ঠ অধিক খহটা কৰি"
-        },
-        {
-          "en": "Increasing load always",
-          "as": "সদায় ভাৰ বৃদ্ধি কৰি"
-        },
-        {
-          "en": "Removing wheels",
-          "as": "চকা আঁতৰাই"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Lubricants form a thin layer between surfaces, reducing interlocking of irregularities and hence friction. Hence 'Using lubricants' is correct.",
-        "as": "লুব্ৰিকেণ্টে পৃষ্ঠৰ মাজত পাতল আৱৰণ সৃষ্টি কৰি অসমতাৰ অংগুৰি মিলন কমায় আৰু ঘৰ্ষণ হ্ৰাস কৰে। সেয়ে 'লুব্ৰিকেণ্ট ব্যৱহাৰ কৰি' শুদ্ধ।"
-      }
-    },
-    {
-      "id": "biology-136",
-      "q": {
-        "en": "Kaziranga is famous for which animal?",
-        "as": "কাজিৰঙা কোন প্ৰাণীৰ বাবে প্ৰসিদ্ধ?"
-      },
-      "options": [
-        {
-          "en": "Asiatic lion",
-          "as": "এছিয়াৰ সিংহ"
-        },
-        {
-          "en": "One-horned rhinoceros",
-          "as": "এশিংৰীয়া গঁড়"
-        },
-        {
-          "en": "Penguin",
-          "as": "পেংগুইন"
-        },
-        {
-          "en": "Polar bear",
-          "as": "মেৰু ভালুক"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Kaziranga is famous for the one-horned rhinoceros.",
-        "as": "কাজিৰঙা এশিংৰীয়া গঁড়ৰ বাবে প্ৰসিদ্ধ।"
-      }
-    },
-    {
-      "id": "biology-071",
-      "q": {
-        "en": "Meiosis occurs in?",
-        "as": "মিয়’ছিছ ক’ত হয়?"
-      },
-      "options": [
-        {
-          "en": "Somatic cells",
-          "as": "দেহ কোষ"
-        },
-        {
-          "en": "All plant cells",
-          "as": "সকলো উদ্ভিদ কোষ"
-        },
-        {
-          "en": "Reproductive cells",
-          "as": "প্ৰজনন কোষ"
-        },
-        {
-          "en": "RBC only",
-          "as": "কেৱল ৰক্ত কণিকা"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Meiosis occurs in reproductive cells to form gametes.",
-        "as": "মিয়’ছিছ প্ৰজনন কোষত হয় আৰু গেমেট সৃষ্টি কৰে।"
-      }
-    },
-    {
-      "id": "biology-094",
-      "q": {
-        "en": "The largest ocean animal is?",
-        "as": "সাগৰৰ আটাইতকৈ ডাঙৰ প্ৰাণী কি?"
-      },
-      "options": [
-        {
-          "en": "Blue whale",
-          "as": "নীল তিমি"
-        },
-        {
-          "en": "Shark",
-          "as": "হাংগৰ"
-        },
-        {
-          "en": "Dolphin",
-          "as": "ডলফিন"
-        },
-        {
-          "en": "Octopus",
-          "as": "অক্ট’পাছ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The blue whale is the largest animal in the ocean and on Earth.",
-        "as": "নীল তিমি সাগৰৰ আৰু পৃথিৱীৰ আটাইতকৈ ডাঙৰ প্ৰাণী।"
-      }
-    },
-    {
-      "id": "biology-088",
-      "q": {
-        "en": "Insects breathe through?",
-        "as": "পোক-পতংগে কিৰে উশাহ লয়?"
-      },
-      "options": [
-        {
-          "en": "Lungs",
-          "as": "হাওঁফাওঁ"
-        },
-        {
-          "en": "Gills",
-          "as": "কানকোষ"
-        },
-        {
-          "en": "Tracheae / spiracles",
-          "as": "ট্ৰেকিয়া / স্পাইৰেকল"
-        },
-        {
-          "en": "Skin only",
-          "as": "কেৱল ছাল"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Insects breathe through a network of tracheae that open at spiracles.",
-        "as": "পোক-পতংগে স্পাইৰেকলৰ পৰা মুকলি ট্ৰেকিয়া জালৰ সহায়ত উশাহ লয়।"
-      }
-    },
-    {
-      "id": "physics-079",
-      "q": {
-        "en": "The instrument used to measure relative density of a liquid is?",
-        "as": "তৰলৰ আপেক্ষিক ঘনত্ব জুখিবলৈ ব্যৱহাৰ কৰা যন্ত্ৰ কি?"
-      },
-      "options": [
-        {
-          "en": "Barometer",
-          "as": "বেৰোমিটাৰ"
-        },
-        {
-          "en": "Manometer",
-          "as": "মেনোমিতাৰ"
-        },
-        {
-          "en": "Ammeter",
-          "as": "এমিটাৰ"
-        },
-        {
-          "en": "Hydrometer",
-          "as": "হাইড্ৰোমিটাৰ"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "A hydrometer works on Archimedes' principle and is used to measure the relative density (specific gravity) of a liquid by its depth of floatation.",
-        "as": "হাইড্ৰোমিটাৰ আৰ্কিমিডিছৰ নীতিত কাম কৰে আৰু ডুব যোৱা গভীৰতাৰ দ্বাৰা তৰলৰ আপেক্ষিক ঘনত্ব জোখে।"
-      }
-    },
-    {
-      "id": "biology-072",
-      "q": {
-        "en": "Who proposed the theory of natural selection?",
-        "as": "প্ৰাকৃতিক নিৰ্বাচন তত্ত্ব কোনে আগবঢ়াইছিল?"
-      },
-      "options": [
-        {
-          "en": "Mendel",
-          "as": "মেণ্ডেল"
-        },
-        {
-          "en": "Lamarck",
-          "as": "লেমাৰ্ক"
-        },
-        {
-          "en": "Pasteur",
-          "as": "পাষ্টেউৰ"
-        },
-        {
-          "en": "Charles Darwin",
-          "as": "চাৰ্লছ ডাৰউইন"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Charles Darwin proposed the theory of natural selection.",
-        "as": "চাৰ্লছ ডাৰউইনে প্ৰাকৃতিক নিৰ্বাচন তত্ত্ব আগবঢ়াইছিল।"
-      }
-    },
-    {
-      "id": "biology-045",
-      "q": {
-        "en": "The largest land animal is?",
-        "as": "স্থলৰ আটাইতকৈ ডাঙৰ প্ৰাণী কোনটো?"
-      },
-      "options": [
-        {
-          "en": "Tiger",
-          "as": "বাঘ"
-        },
-        {
-          "en": "Rhinoceros",
-          "as": "গঁড়"
-        },
-        {
-          "en": "Elephant",
-          "as": "হাতী"
-        },
-        {
-          "en": "Giraffe",
-          "as": "জিৰাফ"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The elephant is the largest land animal.",
-        "as": "হাতী স্থলৰ আটাইতকৈ ডাঙৰ প্ৰাণী।"
-      }
-    },
-    {
-      "id": "chemistry-064",
-      "q": {
-        "en": "Soap is prepared by the reaction of fat with?",
-        "as": "চৰ্বিৰ সৈতে কিৰ বিক্ৰিয়াৰে চাবোন তৈয়াৰ হয়?"
-      },
-      "options": [
-        {
-          "en": "HCl",
-          "as": "HCl"
-        },
-        {
-          "en": "H2SO4",
-          "as": "H2SO4"
-        },
-        {
-          "en": "NaCl",
-          "as": "NaCl"
-        },
-        {
-          "en": "NaOH",
-          "as": "NaOH"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Soap is prepared by the reaction of fat with sodium hydroxide (NaOH).",
-        "as": "চৰ্বিৰ সৈতে ছডিয়াম হাইড্ৰক্সাইড (NaOH)ৰ বিক্ৰিয়াৰে চাবোন তৈয়াৰ হয়।"
-      }
-    },
-    {
-      "id": "chemistry-040",
-      "q": {
-        "en": "Which of the following is a synthetic polymer?",
-        "as": "তলৰ কোনটো কৃত্ৰিম পলিমাৰ?"
-      },
-      "options": [
-        {
-          "en": "Cellulose",
-          "as": "চেলুল’জ"
-        },
-        {
-          "en": "Starch",
-          "as": "ষ্টাৰ্চ"
-        },
-        {
-          "en": "Protein",
-          "as": "প্ৰ’টিন"
-        },
-        {
-          "en": "Nylon",
-          "as": "নাইলন"
-        }
-      ],
-      "correct": 3,
-      "explanation": {
-        "en": "Nylon is a synthetic polymer made in industries.",
-        "as": "নাইলন উদ্যোগত তৈয়াৰ কৰা এটা কৃত্ৰিম পলিমাৰ।"
-      }
-    },
-    {
-      "id": "physics-081",
-      "q": {
-        "en": "The speed of sound is maximum in?",
-        "as": "শব্দৰ বেগ ক’ত সৰ্বাধিক?"
-      },
-      "options": [
-        {
-          "en": "Gases",
-          "as": "গেছ"
-        },
-        {
-          "en": "Solids",
-          "as": "কঠিন পদাৰ্থ"
-        },
-        {
-          "en": "Liquids",
-          "as": "তৰল"
-        },
-        {
-          "en": "Vacuum",
-          "as": "শূন্যস্থান"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "The speed of sound depends on the elasticity and density of the medium. It is maximum in solids, less in liquids and least in gases; sound cannot travel in vacuum.",
-        "as": "শব্দৰ বেগ মাধ্যমৰ স্থিতিস্থাপকতা আৰু ঘনত্বৰ ওপৰত নিৰ্ভৰ কৰে। কঠিনত সৰ্বাধিক, তৰলত কম আৰু গেছত আটাইতকৈ কম; শূন্যস্থানত শব্দ চলিব নোৱাৰে।"
-      }
-    },
-    {
-      "id": "polity-038",
-      "q": {
-        "en": "The Speaker of the Lok Sabha is elected by -",
-        "as": "লোকসভাৰ অধ্যক্ষক কোনে নিৰ্বাচন কৰে?"
-      },
-      "options": [
-        {
-          "en": "President of India",
-          "as": "ভাৰতৰ ৰাষ্ট্ৰপতি"
-        },
-        {
-          "en": "Members of Lok Sabha",
-          "as": "লোকসভাৰ সদস্যসকলে"
-        },
-        {
-          "en": "Members of Rajya Sabha",
-          "as": "ৰাজ্যসভাৰ সদস্যসকলে"
-        },
-        {
-          "en": "Prime Minister",
-          "as": "প্ৰধানমন্ত্ৰীয়ে"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "The Speaker of the Lok Sabha is elected by the members of the Lok Sabha from among themselves.",
-        "as": "লোকসভাৰ অধ্যক্ষক লোকসভাৰ সদস্যসকলে নিজৰ মাজৰপৰা নিৰ্বাচন কৰে।"
-      }
-    },
-    {
-      "id": "physics-133",
-      "q": {
-        "en": "The first Indian satellite was?",
-        "as": "প্ৰথম ভাৰতীয় উপগ্ৰহ কোনটো আছিল?"
-      },
-      "options": [
-        {
-          "en": "Aryabhata",
-          "as": "আৰ্যভট্ট"
-        },
-        {
-          "en": "INSAT-1A",
-          "as": "ইনচেট-১এ"
-        },
-        {
-          "en": "Rohini",
-          "as": "ৰোহিনী"
-        },
-        {
-          "en": "Chandrayaan-1",
-          "as": "চন্দ্ৰযান-১"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Aryabhata, launched on 19 April 1975, was India's first satellite. Hence 'Aryabhata' is correct.",
-        "as": "১৯ এপ্ৰিল ১৯৭৫ চনত উৎক্ষেপিত আৰ্যভট্ট ভাৰতৰ প্ৰথম উপগ্ৰহ আছিল। সেয়ে 'আৰ্যভট্ট' শুদ্ধ।"
-      }
-    },
-    {
-      "id": "biology-026",
-      "q": {
-        "en": "The functional role of an organism in an ecosystem is called its?",
-        "as": "পৰিৱেশ তন্ত্ৰত জীৱ এটাই পালন কৰা কাৰ্যকৰী ভূমিকাক কি বোলা হয়?"
-      },
-      "options": [
-        {
-          "en": "Habitat",
-          "as": "বাসস্থান"
-        },
-        {
-          "en": "Biome",
-          "as": "বায়'ম"
-        },
-        {
-          "en": "Niche",
-          "as": "নিক"
-        },
-        {
-          "en": "Population",
-          "as": "জনসংখ্যা"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The functional role of an organism in an ecosystem is called its niche.",
-        "as": "পৰিৱেশ তন্ত্ৰত জীৱ এটাই পালন কৰা কাৰ্যকৰী ভূমিকাক নিক বোলা হয়।"
-      }
-    },
-    {
-      "id": "chemistry-003",
-      "q": {
-        "en": "The atomic number of carbon is?",
-        "as": "কাৰ্বনৰ পাৰমাণৱিক সংখ্যা কিমান?"
-      },
-      "options": [
-        {
-          "en": "4",
-          "as": "৪"
-        },
-        {
-          "en": "8",
-          "as": "৮"
-        },
-        {
-          "en": "6",
-          "as": "৬"
-        },
-        {
-          "en": "12",
-          "as": "১২"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "The atomic number of carbon is 6.",
-        "as": "কাৰ্বনৰ পাৰমাণৱিক সংখ্যা ৬।"
-      }
-    },
-    {
-      "id": "physics-061",
-      "q": {
-        "en": "Absolute zero temperature is?",
-        "as": "পৰম শূন্য উষ্ণতা কিমান?"
-      },
-      "options": [
-        {
-          "en": "0°C",
-          "as": "০°C"
-        },
-        {
-          "en": "100°C",
-          "as": "১০০°C"
-        },
-        {
-          "en": "–273.15°C",
-          "as": "–২৭৩.১৫°C"
-        },
-        {
-          "en": "273°C",
-          "as": "২৭৩°C"
-        }
-      ],
-      "correct": 2,
-      "explanation": {
-        "en": "Absolute zero is the lowest possible temperature, 0 K = –273.15°C, at which molecular motion is minimum. Therefore the correct value is –273.15°C.",
-        "as": "পৰম শূন্য হ'ল সম্ভৱপৰ সৰ্বনিম্ন উষ্ণতা, 0 K = –২৭৩.১৫°C, য'ত অণুৰ গতি ন্যূনতম। সেয়ে শুদ্ধ মান –২৭৩.১৫°C।"
-      }
-    },
-    {
-      "id": "biology-021",
-      "q": {
-        "en": "Night blindness is caused by deficiency of?",
-        "as": "ৰাতি অন্ধত্ব কোন ভিটামিনৰ অভাৱত হয়?"
-      },
-      "options": [
-        {
-          "en": "Vitamin A",
-          "as": "ভিটামিন এ"
-        },
-        {
-          "en": "Vitamin B",
-          "as": "ভিটামিন বি"
-        },
-        {
-          "en": "Vitamin C",
-          "as": "ভিটামিন চি"
-        },
-        {
-          "en": "Vitamin D",
-          "as": "ভিটামিন ডি"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Night blindness is caused by deficiency of vitamin A.",
-        "as": "ভিটামিন এৰ অভাৱত ৰাতি অন্ধত্ব হয়।"
-      }
-    },
-    {
-      "id": "physics-072",
-      "q": {
-        "en": "The SI unit of energy is?",
-        "as": "শক্তিৰ SI একক কি?"
-      },
-      "options": [
-        {
-          "en": "Joule",
-          "as": "জুল"
         },
         {
           "en": "Newton",
           "as": "নিউটন"
         },
         {
-          "en": "Pascal",
-          "as": "পাস্কেল"
-        },
-        {
-          "en": "Ampere",
-          "as": "এম্পিয়াৰ"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "Energy is the capacity to do work and its SI unit is the joule (J), where 1 J = 1 N·m = 1 kg·m²/s². Newton is the unit of force, pascal of pressure and ampere of current.",
-        "as": "শক্তি হ'ল কাম কৰাৰ সামৰ্থ্য, ইয়াৰ SI একক জুল (J); ১ জুল = ১ নিউটন·মিটাৰ। নিউটন বলৰ, পাস্কেল চাপৰ আৰু এম্পিয়াৰ প্ৰৱাহৰ একক।"
-      }
-    },
-    {
-      "id": "chemistry-108",
-      "q": {
-        "en": "Limestone is mainly?",
-        "as": "চুণশিল মূলতঃ কি?"
-      },
-      "options": [
-        {
-          "en": "CaO",
-          "as": "CaO"
-        },
-        {
-          "en": "CaCO3",
-          "as": "CaCO3"
-        },
-        {
-          "en": "Ca(OH)2",
-          "as": "Ca(OH)2"
-        },
-        {
-          "en": "CaCl2",
-          "as": "CaCl2"
-        }
-      ],
-      "correct": 1,
-      "explanation": {
-        "en": "Limestone is mainly calcium carbonate (CaCO3).",
-        "as": "চুণশিল মূলতঃ কেলচিয়াম কাৰ্বনেট (CaCO3)।"
-      }
-    },
-    {
-      "id": "assam-history-013",
-      "q": {
-        "en": "The Ahom priestly class who preserved Ahom religion and chronicles were known as what?",
-        "as": "আহোম ধৰ্ম আৰু বুৰঞ্জী ৰক্ষা কৰা পুৰোহিত শ্ৰেণীক কি নামেৰে জনা যায়?"
-      },
-      "options": [
-        {
-          "en": "Satradhikars",
-          "as": "সত্ৰাধিকাৰ"
-        },
-        {
-          "en": "Paiks",
-          "as": "পাইক"
-        },
-        {
-          "en": "Borphukans",
-          "as": "বৰফুকন"
-        },
-        {
-          "en": "Deodhai, Bailung and Mohan",
-          "as": "দেওধাই, বৈলুং আৰু মোহন"
+          "en": "Kilowatt-hour",
+          "as": "কিলোৱাট-ঘণ্টা"
         }
       ],
       "correct": 3,
       "explanation": {
-        "en": "Deodhai, Bailung and Mohan were the three priestly groups of Ahom society who preserved Ahom religious rites, genealogies and the royal chronicles (Buranjis).",
-        "as": "দেওধাই, বাইলুং আৰু মোহন আহোম সমাজৰ তিনি পুৰোহিত শ্ৰেণী আছিল, যিসকলে আহোম ধৰ্মীয় ৰীতি, বংশাৱলী আৰু ৰাজকীয় বুৰঞ্জী সংৰক্ষণ কৰিছিল।"
+        "en": "Electrical energy is sold commercially in kilowatt-hour (kWh), the energy consumed by a 1 kW appliance in 1 hour. Hence 'Kilowatt-hour' is correct.",
+        "as": "বিদ্যুৎ শক্তি ব্যৱসায়িকভাৱে কিলোৱাট-ঘণ্টা (kWh) এককত বিক্ৰী কৰা হয়, যি ১ কি.ৱা. সৰঞ্জামে ১ ঘণ্টাত খৰচ কৰা শক্তি। সেয়ে 'কিলোৱাট-ঘণ্টা' শুদ্ধ।"
       }
     },
     {
-      "id": "chemistry-140",
+      "id": "assam-history-extra-548",
       "q": {
-        "en": "The substance present in larger amount in a solution is?",
-        "as": "দ্ৰৱত বেছি পৰিমাণে থকা পদাৰ্থক কি বোলে?"
+        "en": "The colonial government's educational policy in Assam produced",
+        "as": "অসমত ঔপনিবেশিক চৰকাৰৰ শিক্ষা নীতিয়ে সৃষ্টি কৰিছিল"
       },
       "options": [
         {
-          "en": "Solvent",
-          "as": "দ্ৰাৱক"
+          "en": "universal literacy at once",
+          "as": "তৎক্ষণাৎ সৰ্বজনীন সাক্ষৰতা"
         },
         {
-          "en": "Solute",
-          "as": "দ্ৰাৱ্য"
+          "en": "no schools at all",
+          "as": "কোনো বিদ্যালয় নাই"
         },
         {
-          "en": "Precipitate",
-          "as": "অৱক্ষেপ"
+          "en": "only Sanskrit schools",
+          "as": "কেৱল সংস্কৃত বিদ্যালয়"
         },
         {
-          "en": "Catalyst",
-          "as": "অনুঘটক"
-        }
-      ],
-      "correct": 0,
-      "explanation": {
-        "en": "The substance present in the larger amount in a solution is the solvent.",
-        "as": "দ্ৰৱত বেছি পৰিমাণে থকা পদাৰ্থটোক দ্ৰাৱক বোলে।"
-      }
-    },
-    {
-      "id": "biology-126",
-      "q": {
-        "en": "Lysosomes are known as?",
-        "as": "লাইছ’জমক কি বুলি জনা যায়?"
-      },
-      "options": [
-        {
-          "en": "Powerhouse of cell",
-          "as": "কোষৰ শক্তিগৃহ"
-        },
-        {
-          "en": "Kitchen of cell",
-          "as": "কোষৰ ৰন্ধনশালা"
-        },
-        {
-          "en": "Control centre",
-          "as": "নিয়ন্ত্ৰণ কেন্দ্ৰ"
-        },
-        {
-          "en": "Suicide bags of the cell",
-          "as": "কোষৰ আত্মহত্যাৰ থলি"
+          "en": "a small English educated elite and limited mass schooling",
+          "as": "সৰু ইংৰাজী শিক্ষিত অভিজাত শ্ৰেণী আৰু সীমিত গণশিক্ষা"
         }
       ],
       "correct": 3,
       "explanation": {
-        "en": "Lysosomes are known as the suicide bags of the cell.",
-        "as": "লাইছ’জমক কোষৰ আত্মহত্যাৰ থলি বুলি জনা যায়।"
+        "en": "Limited schooling created a thin elite, which is why the period is described as uneven. Instant universal literacy, no schools and only Sanskrit schools are wrong.",
+        "as": "সীমিত শিক্ষাই পাতল অভিজাত শ্ৰেণী সৃষ্টি কৰিছিল, সেয়ে যুগটোক অসম বোলা হয়। তৎক্ষণাৎ সৰ্বজনীন সাক্ষৰতা, বিদ্যালয়হীনতা আৰু কেৱল সংস্কৃত বিদ্যালয় ভুল।"
       }
     },
     {
-      "id": "chemistry-043",
+      "id": "biology-154",
       "q": {
-        "en": "Which of the following is a thermoplastic?",
-        "as": "তলৰ কোনটো থাৰ্ম’প্লাষ্টিক?"
+        "en": "Sleeping sickness is a disease spread from person to person by the tsetse fly. Which protozoan pathogen causes it?",
+        "as": "চেৎসে মাখিৰ জৰিয়তে এজনৰ পৰা আনজনলৈ যোৱা কোনটো প্ৰ'ট'জ'ৱাই টোপনি ৰোগ সৃষ্টি কৰে?"
       },
       "options": [
         {
-          "en": "Bakelite",
-          "as": "বেকেলাইট"
+          "en": "Plasmodium vivax",
+          "as": "প্লাজম'ডিয়াম ভাইভেক্স"
         },
         {
-          "en": "Polythene",
-          "as": "পলিথিন"
+          "en": "Trypanosoma brucei",
+          "as": "ট্ৰিপেন'ছ'মা ব্ৰুচাই"
         },
         {
-          "en": "Melamine",
-          "as": "মেলামাইন"
+          "en": "Entamoeba histolytica",
+          "as": "এণ্টামিবা হিষ্ট'লাইটিকা"
         },
         {
-          "en": "Vulcanised rubber",
-          "as": "ভালকানাইজড ৰবৰ"
+          "en": "Leishmania donovani",
+          "as": "লেইশমেনিয়া ডন'ভানি"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "Polythene is a thermoplastic that softens on heating and can be moulded again.",
-        "as": "পলিথিন এটা থাৰ্ম’প্লাষ্টিক যি উত্তপ্ত কৰিলে নৰম হয় আৰু পুনৰ ঢালাই কৰিব পাৰি।"
+        "en": "Trypanosoma brucei multiplies in the blood and later enters the brain, which is why the illness ends in disturbed sleep, tremors and coma.",
+        "as": "ট্ৰিপেন'ছ'মা ব্ৰুচাই তেজত বংশবৃদ্ধি কৰি পিছত মগজুলৈ সোমায়, সেয়ে ৰোগ শেষত টোপনিৰ বিকাৰ, কম্পন আৰু অচেতনতাত পৰিণত হয়।"
+      }
+    },
+    {
+      "id": "physics-010",
+      "q": {
+        "en": "The device used to measure electric current is?",
+        "as": "বিদ্যুৎ প্ৰবাহ জুখিবলৈ ব্যৱহাৰ কৰা যন্ত্ৰ কি?"
+      },
+      "options": [
+        {
+          "en": "Voltmeter",
+          "as": "ভল্টমিটাৰ"
+        },
+        {
+          "en": "Galvanometer only for voltage",
+          "as": "কেৱল ভল্টেজৰ গেলভেনোমিটাৰ"
+        },
+        {
+          "en": "Ammeter",
+          "as": "এমিটাৰ"
+        },
+        {
+          "en": "Barometer",
+          "as": "বেৰোমিটাৰ"
+        }
+      ],
+      "correct": 2,
+      "explanation": {
+        "en": "An ammeter measures electric current and is connected in series in a circuit.",
+        "as": "এমিটাৰে বিদ্যুৎ প্ৰবাহ জোখে আৰু ইয়াক বৰ্তনীত শ্ৰেণীত সংযোগ কৰা হয়।"
+      }
+    },
+    {
+      "id": "biology-287",
+      "q": {
+        "en": "Which mosquito genus transmits malaria in humans?",
+        "as": "কোনটো মশাৰ গণে মানুহত মেলেৰিয়া বিয়পায়"
+      },
+      "options": [
+        {
+          "en": "Anopheles",
+          "as": "এন'ফিলিছ"
+        },
+        {
+          "en": "Aedes",
+          "as": "এডিছ"
+        },
+        {
+          "en": "Culex",
+          "as": "কিউলেক্স"
+        },
+        {
+          "en": "Mansonia",
+          "as": "মেনছ'নিয়া"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Only the female Anopheles mosquito transmits the Plasmodium parasite of malaria. Aedes carries dengue and yellow fever, and Culex carries filariasis.",
+        "as": "কেৱল মাদী এন'ফিলিছ মশাই মেলেৰিয়াৰ প্লাজম'ডিয়াম পৰজীৱী বিয়পায়। এডিছে ডেঙ্গু আৰু পীত জ্বৰ আৰু কিউলেক্সে ফাইলেৰিয়া বিয়পায়।"
+      }
+    },
+    {
+      "id": "physics-117",
+      "q": {
+        "en": "Distance and displacement are equal when motion is?",
+        "as": "দূৰত্ব আৰু সরণ কেতিয়া সমান হয়?"
+      },
+      "options": [
+        {
+          "en": "Circular",
+          "as": "বৃত্তাকাৰ"
+        },
+        {
+          "en": "Along a straight line in one direction",
+          "as": "একে দিশত সৰলৰেখাত"
+        },
+        {
+          "en": "Random",
+          "as": "যদৃচ্ছ"
+        },
+        {
+          "en": "Oscillatory",
+          "as": "দোলনশীল"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "For motion along a straight line in one direction, distance and displacement have the same magnitude, so they are equal.",
+        "as": "একে দিশত সৰলৰেখাত গতি কৰিলে দূৰত্ব আৰু সৰণৰ মান একে হয়, সেয়ে দুয়োটা সমান।"
+      }
+    },
+    {
+      "id": "chemistry-243",
+      "q": {
+        "en": "Which of the following non-metals is stored under water?",
+        "as": "তলৰ কোনটো অধাতু পানীত সাঁচি ৰখা হয়"
+      },
+      "options": [
+        {
+          "en": "phosphorus",
+          "as": "ফছফৰাছ"
+        },
+        {
+          "en": "sulphur",
+          "as": "ছালফাৰ"
+        },
+        {
+          "en": "carbon",
+          "as": "কাৰ্বন"
+        },
+        {
+          "en": "iodine",
+          "as": "আয়ডিন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "White phosphorus catches fire in air at about thirty degrees, so it is kept under water to exclude oxygen.",
+        "as": "শ্বেত ফছফৰাছে প্ৰায় ত্ৰিছ ডিগ্ৰীত বায়ুত জ্বলি উঠে, সেয়ে অক্সিজেন আঁতৰাবলৈ পানীত ৰখা হয়।"
+      }
+    },
+    {
+      "id": "nursing-423",
+      "q": {
+        "en": "A mother who delivered two hours ago is bleeding heavily and the uterus feels soft and boggy above the umbilicus. The nurse should first",
+        "as": "দুই ঘণ্টা আগতে প্ৰসৱ কৰা মাকৰ অত্যধিক ৰক্তস্ৰাৱ, জৰায়ু নাভিৰ ওপৰত কোমল আৰু ফুলা। নাৰ্ছে প্ৰথমে"
+      },
+      "options": [
+        {
+          "en": "catheterise the bladder only",
+          "as": "কেৱল মূত্ৰাশয়ত কেথেটৰ লগোৱা"
+        },
+        {
+          "en": "massage the uterus and give a uterotonic as ordered",
+          "as": "জৰায়ুত মালিচ কৰি নিৰ্দেশ অনুসৰি জৰায়ু সংকোচক দিয়া"
+        },
+        {
+          "en": "give a hot drink and wait for the doctor",
+          "as": "গৰম পানীয় দি ডাক্তৰলৈ অপেক্ষা কৰা"
+        },
+        {
+          "en": "apply a tight binder around the abdomen",
+          "as": "পেটৰ চাৰিওফালে টান বান্ধোন লগোৱা"
+        }
+      ],
+      "correct": 1,
+      "explanation": {
+        "en": "A soft boggy uterus means atony, which is the commonest cause of postpartum haemorrhage, and massage plus a uterotonic makes it contract and closes the bleeding vessels. Waiting, binding or catheterising alone does not stop the loss.",
+        "as": "কোমল ফুলা জৰায়ুৰ অৰ্থ এটনি, যি প্ৰসৱোত্তৰ ৰক্তস্ৰাৱৰ আটাই সাধাৰণ কাৰণ, আৰু মালিচ তথা জৰায়ু সংকোচকে তাক সংকুচিত কৰি ৰক্তনলী বন্ধ কৰে। অপেক্ষা, বান্ধোন বা কেৱল কেথেটৰে ৰক্তস্ৰাৱ বন্ধ নকৰে।"
+      }
+    },
+    {
+      "id": "nursing-353",
+      "q": {
+        "en": "The Rashtriya Bal Swasthya Karyakram is aimed at",
+        "as": "ৰাষ্ট্ৰীয় বাল স্বাস্থ্য কাৰ্যসূচীৰ লক্ষ্য"
+      },
+      "options": [
+        {
+          "en": "adult cardiac surgery",
+          "as": "প্ৰাপ্তবয়স্ক হৃদয় অস্ত্ৰোপচাৰ"
+        },
+        {
+          "en": "cattle health",
+          "as": "গৰুৰ স্বাস্থ্য"
+        },
+        {
+          "en": "road repair",
+          "as": "পথ মেৰামতি"
+        },
+        {
+          "en": "screening and treatment of children for defects and deficiencies",
+          "as": "শিশুৰ ত্ৰুটি আৰু অভাৱৰ স্ক্ৰীণিং আৰু চিকিৎসা"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "Children are screened for the four Ds — defects at birth, deficiencies, diseases and developmental delay — and referred for care.",
+        "as": "শিশুক চাৰিটা D — জন্মগত ত্ৰুটি, অভাৱ, ৰোগ আৰু বিকাশ বিলম্ব — ৰ বাবে স্ক্ৰীণ কৰি চিকিৎসালৈ প্ৰেৰণ কৰা হয়।"
+      }
+    },
+    {
+      "id": "static-gk-extra-367",
+      "q": {
+        "en": "According to static general knowledge, world Wetlands Day is observed on",
+        "as": "বিশ্ব জলাশয় দিৱস পালন কৰা হয়"
+      },
+      "options": [
+        {
+          "en": "4 February",
+          "as": "৪ ফেব্ৰুৱাৰী"
+        },
+        {
+          "en": "21 February",
+          "as": "২১ ফেব্ৰুৱাৰী"
+        },
+        {
+          "en": "28 February",
+          "as": "২৮ ফেব্ৰুৱাৰী"
+        },
+        {
+          "en": "2 February",
+          "as": "২ ফেব্ৰুৱাৰী"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "It marks the Ramsar convention, which is why the date is named. The others are other days.",
+        "as": "ই ৰামছাৰ সন্মিলন স্মৰণ কৰে, সেয়ে তাৰিখৰ নাম। বাকীবোৰ আন দিৱস।"
+      }
+    },
+    {
+      "id": "computer-173",
+      "q": {
+        "en": "An index in a database is created mainly to",
+        "as": "ডাটাবেছত সূচী সজা হয় মূলতঃ কিৰ বাবে"
+      },
+      "options": [
+        {
+          "en": "save disk space",
+          "as": "ডিস্কৰ ঠাই ৰাখিবলৈ"
+        },
+        {
+          "en": "encrypt the column",
+          "as": "স্তম্ভ এনক্ৰিপ্ট কৰিবলৈ"
+        },
+        {
+          "en": "delete duplicate rows",
+          "as": "নকল শাৰী মচিবলৈ"
+        },
+        {
+          "en": "speed up searches on that column",
+          "as": "সেই স্তম্ভত সন্ধান দ্ৰুত কৰিবলৈ"
+        }
+      ],
+      "correct": 3,
+      "explanation": {
+        "en": "An index is a lookup structure that shortens the search, at the cost of extra space and slower writes.",
+        "as": "সূচী এটা সন্ধান গঠন যি খোজ কমায়, কিন্তু অতিৰিক্ত ঠাই লাগে আৰু লিখা ধীৰ হয়।"
+      }
+    },
+    {
+      "id": "chemistry-065",
+      "q": {
+        "en": "The main constituent of natural gas is?",
+        "as": "প্ৰাকৃতিক গেছৰ মুখ্য উপাদান কি?"
+      },
+      "options": [
+        {
+          "en": "Methane",
+          "as": "মিথেন"
+        },
+        {
+          "en": "Ethane",
+          "as": "ইথেন"
+        },
+        {
+          "en": "Propane",
+          "as": "প্ৰপেন"
+        },
+        {
+          "en": "Butane",
+          "as": "বিউটেন"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "The main constituent of natural gas is methane.",
+        "as": "প্ৰাকৃতিক গেছৰ মুখ্য উপাদান মিথেন।"
+      }
+    },
+    {
+      "id": "nursing-336",
+      "q": {
+        "en": "The National Programme for Control of Blindness mainly provides",
+        "as": "দৃষ্টিহীনতা নিয়ন্ত্ৰণ ৰাষ্ট্ৰীয় কাৰ্যসূচীয়ে মূলতঃ যোগান ধৰে"
+      },
+      "options": [
+        {
+          "en": "cataract surgery and eye care",
+          "as": "ছানি অস্ত্ৰোপচাৰ আৰু চকুৰ যতন"
+        },
+        {
+          "en": "dental treatment",
+          "as": "দাঁতৰ চিকিৎসা"
+        },
+        {
+          "en": "hearing aids",
+          "as": "শ্ৰৱণ যন্ত্ৰ"
+        },
+        {
+          "en": "wheelchairs",
+          "as": "ৱিলচেয়াৰ"
+        }
+      ],
+      "correct": 0,
+      "explanation": {
+        "en": "Cataract accounts for most avoidable blindness, so surgery camps and free operations form the core of the programme.",
+        "as": "ছানিয়ে বেছিভাগ প্ৰতিৰোধযোগ্য অন্ধত্বৰ কাৰণ, সেয়ে শল্য শিবিৰ আৰু বিনামূলীয়া অপাৰেচন কাৰ্যসূচীৰ মূল।"
       }
     }
   ]

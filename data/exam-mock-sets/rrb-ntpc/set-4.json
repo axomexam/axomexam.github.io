@@ -181,7 +181,7 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Both statements are true, and the reason states exactly why the assertion holds.",
+        "en": "Assertion (A): \"It is easier to float in sea water than in river water\". Reason (R): \"sea water is denser than river water and so gives a greater upthrust\". Both are true, and the reason is what makes the assertion hold, so the answer is: Both A and R are true, and R is the correct explanation of A.",
         "as": "দুয়োটা বিবৃতি সত্য, আৰু কাৰণে দাবীটো কিয় খাটে তাকেই কয়।"
       }
     },
@@ -481,8 +481,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Neither event causes the other; both are produced by the same underlying cause, namely the severe heat wave.",
-        "as": "কোনো ঘটনাই আনটো নঘটায়; দুয়োটা একেই মূল কাৰণৰ ফল, অৰ্থাৎ তীব্ৰ গৰমৰ লহৰ।"
+        "en": "Neither event brings the other about: «demand for electricity rose sharply» and «people stayed indoors during the day» are two effects of one cause working on both - option A.",
+        "as": "ঘটনা I «demand for electricity rose sharply» আৰু ঘটনা II «people stayed indoors during the day» — ইয়াৰ সম্পৰ্কটোৱে বিকল্প A বুজায়।"
       }
     },
     {
@@ -571,7 +571,7 @@
       ],
       "correct": 1,
       "explanation": {
-        "en": "Assumption I is not implicit and assumption II is implicit for the statement, which gives the answer.",
+        "en": "For the statement \"The school will distribute free textbooks to all its pupils\", assumption I (\"The pupils cannot read at all\") is taken for granted and assumption II (\"The school can afford to give them free\") is not needed; hence the answer is: Only assumption II is implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত নহয় আৰু ধাৰণা II অন্তৰ্নিহিত, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -601,7 +601,7 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Assumption I is implicit and assumption II is not implicit for the statement, which gives the answer.",
+        "en": "For the statement \"Read the instructions carefully before operating the machine\", assumption I (\"Operating the machine without instructions may cause harm\") is taken for granted and assumption II (\"The instructions are printed in English\") is not needed; hence the answer is: Only assumption I is implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত আৰু ধাৰণা II অন্তৰ্নিহিত নহয়, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -661,7 +661,7 @@
       ],
       "correct": 2,
       "explanation": {
-        "en": "Statement I alone fixes the answer; statement II alone does not.",
+        "en": "The question is \"What is the total surface area of the cube\". Statement I says \"The edge of the cube is 5 cm\" and statement II says \"The volume of the cube is 125 cubic cm\"; statement I settles it while statement II does not, so the answer is: Statement I alone is sufficient, but statement II alone is not sufficient.",
         "as": "কেৱল বিবৃতি I য়ে উত্তৰ নিৰ্ণয় কৰে; কেৱল বিবৃতি II য়ে নকৰে।"
       }
     },
@@ -871,7 +871,7 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Each statement alone is not enough, but together they fix the answer.",
+        "en": "The question asks: \"How many sons does the man have\". Statement I leaves it open, statement II leaves it open, and only the two read together pin the answer down, so both are needed.",
         "as": "প্ৰতিটো বিবৃতি অকলেই পৰ্যাপ্ত নহয়, কিন্তু একেলগে উত্তৰ নিৰ্ণয় কৰে।"
       }
     },
@@ -934,7 +934,7 @@
         }
       ],
       "correct": 3,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"18\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"23\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><circle cx=\"50\" cy=\"50\" r=\"33\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(3,3) scale(0.94)\"><circle cx=\"50\" cy=\"50\" r=\"18\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></g><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(103,3) scale(0.94)\"><circle cx=\"50\" cy=\"50\" r=\"23\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></g><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(203,3) scale(0.94)\"><circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></g><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(303,3) scale(0.94)\"><circle cx=\"50\" cy=\"50\" r=\"33\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\"/></g><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
       "explanation": {
         "en": "The circle grows by the same amount at each step, so the next figure is the next larger circle.",
         "as": "বৃত্তটো প্ৰতিটো পদক্ষেপত একেই পৰিমাণে ডাঙৰ হয়, সেয়ে পৰৱৰ্তী চিত্ৰটো তাৰ পিছৰ ডাঙৰ বৃত্ত।"
@@ -1121,8 +1121,8 @@
       "correct": 0,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"150\" height=\"150\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"14,14 86,14 86,86 14,86\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"14\" y1=\"50\" x2=\"86\" y2=\"50\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><circle cx=\"52.88\" cy=\"64.40\" r=\"4.2\" fill=\"#dc2626\"/></svg>",
       "explanation": {
-        "en": "Unfolding reflects the punched hole across each crease, so the number and position of the holes follow from the fold.",
-        "as": "মেলিলে প্ৰতিটো ভাঁজৰ ৰেখাৰ ওপৰেৰে বিন্ধাটো প্ৰতিফলিত হয়, সেয়ে বিন্ধাৰ সংখ্যা আৰু অৱস্থান ভাঁজৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "The sheet is folded once, along a horizontal crease down the middle, and the punch sits in the lower right part of the folded paper. Unfolding mirrors the hole across every crease, so the sheet carries two holes one above the other, equally far from the crease - option A.",
+        "as": "ভাঁজ মেলি দিলে কাগজত ২ টা ফুটা দেখা যায় — বিকল্প A।"
       }
     },
     {
@@ -1516,8 +1516,8 @@
       "correct": 0,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"10.0,10.0 92.0,10.0 92.0,80.0 10.0,80.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"51\" y1=\"10\" x2=\"51\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"45\" x2=\"92\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"10\" x2=\"92\" y2=\"80\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"45\" x2=\"92\" y2=\"45\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
-        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+        "en": "The drawing is made of 7 straight lines. The square in option A is already there: the top edge, the right edge, the bottom edge and the left edge run along its sides, corner to corner. No other option closes on lines that are drawn, so A is the embedded figure.",
+        "as": "চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প A ৰ square টোৰ প্ৰতিটো বাহু পৰে — মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে A শুদ্ধ।"
       }
     },
     {
@@ -1761,8 +1761,8 @@
       "correct": 1,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"10.0,10.0 92.0,10.0 92.0,86.0 10.0,86.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"51\" y1=\"10\" x2=\"51\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"48\" x2=\"92\" y2=\"48\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"10\" x2=\"92\" y2=\"86\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"67\" x2=\"92\" y2=\"67\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"48\" x2=\"92\" y2=\"48\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
-        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+        "en": "The drawing is made of 8 straight lines. The square in option B is already there: the top edge, the right edge, the bottom edge and the left edge run along its sides, corner to corner. No other option closes on lines that are drawn, so B is the embedded figure.",
+        "as": "চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প B ৰ square টোৰ প্ৰতিটো বাহু পৰে — মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে B শুদ্ধ।"
       }
     },
     {
@@ -2721,7 +2721,7 @@
       ],
       "correct": 1,
       "explanation": {
-        "en": "Assumption I is implicit and assumption II is implicit for the statement, which gives the answer.",
+        "en": "For the statement \"The government will build a new hospital in the district\", assumption I (\"Land can be arranged for the hospital\") is taken for granted and assumption II (\"The district needs a hospital\") is also taken for granted; hence the answer is: Both assumptions are implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত আৰু ধাৰণা II অন্তৰ্নিহিত, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -2846,8 +2846,8 @@
       "correct": 1,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 140\" width=\"240\" height=\"168\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"30.7,38.7 71.3,38.7 71.3,79.3 30.7,79.3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"30.7\" y1=\"38.7\" x2=\"71.3\" y2=\"79.3\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"61.9\" cy=\"69.9\" r=\"6\" fill=\"#334155\"/><line x1=\"14\" y1=\"118\" x2=\"150\" y2=\"118\" stroke=\"#93c5fd\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/></svg>",
       "explanation": {
-        "en": "A water image reverses the figure top to bottom, so the reflection across the horizontal line is the answer.",
-        "as": "জল প্ৰতিবিম্বই চিত্ৰখন ওপৰৰ পৰা তললৈ ওলোটা কৰে, সেয়ে আনুভূমিক ৰেখাৰ প্ৰতিফলনটোৱেই উত্তৰ।"
+        "en": "The drawing holds the square outline, a sloping line running from the upper-left corner to the lower-right corner and a dot in the lower-right corner. A water image keeps every part at the same distance from the centre but swaps top for bottom, so the square outline stays where it is, a sloping line now runs from the lower-left corner to the upper-right corner and a dot moves to the upper-right corner. Only option B is drawn that way.",
+        "as": "চিত্ৰত 3 টা অংশ আছে। প্ৰতিবিম্বত অংশবোৰৰ কেন্দ্ৰৰ পৰা দুৰত্ব একেই থাকে, কিন্তু ওপৰ-তল সলনি হয় — ওপৰৰ বৰ্ণনাৰ সৈতে মিলাই চালে কেৱল বিকল্প B হয়।"
       }
     },
     {

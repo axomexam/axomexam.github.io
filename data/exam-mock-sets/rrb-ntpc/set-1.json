@@ -216,8 +216,8 @@
       "correct": 1,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" width=\"300\" height=\"225\"><rect x=\"2\" y=\"2\" width=\"396\" height=\"296\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"27.0,27.0 73.0,27.0 73.0,73.0 27.0,73.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"102\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"150.0,21.2 178.8,75.6 121.2,75.6\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"202\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"250.0,21.2 278.8,50.0 250.0,78.8 221.2,50.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"302\" y=\"2\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"327.0,27.0 373.0,27.0 373.0,73.0 327.0,73.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"2\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"50.0,121.2 78.8,150.0 50.0,178.8 21.2,150.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"102\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"127.0,127.0 173.0,127.0 173.0,173.0 127.0,173.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"202\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"250.0,121.2 278.8,175.6 221.2,175.6\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"302\" y=\"102\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"350.0,121.2 378.8,150.0 350.0,178.8 321.2,150.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"2\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"50.0,221.2 78.8,275.6 21.2,275.6\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"102\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"150.0,221.2 178.8,250.0 150.0,278.8 121.2,250.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"202\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"227.0,227.0 273.0,227.0 273.0,273.0 227.0,273.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"302\" y=\"202\" width=\"96\" height=\"96\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"350\" y=\"266\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
       "explanation": {
-        "en": "The missing cell follows the same repeating rule as the rest of the grid, so the option that continues that rule is the answer.",
-        "as": "অনুপস্থিত ঘৰটোৱে জালিকাৰ বাকী অংশৰ দৰেই একেই পুনৰাবৃত্তি নিয়ম অনুসৰণ কৰে, সেয়ে সেই নিয়ম অব্যাহত ৰখা বিকল্পটোৱেই উত্তৰ।"
+        "en": "In the grid along every row the figures repeat every 3 cells. The empty cell is row 3, column 4, and the same figure already sits at row 3, column 1, so that cell takes the triangle - option B.",
+        "as": "গ্ৰিডত প্ৰতিটো শাৰীত প্ৰতি 3 ঘৰকৈ আৰ্হি পুনৰাবৃত্তি হয়। খালী ঘৰটো 3 নং শাৰীৰ 4 নং স্তম্ভত আছে, আৰু 3 নং শাৰীৰ 1 নং স্তম্ভত সেই আৰ্হিয়েই আছে — গতিকে ঘৰটোত ত্ৰিভুজ হ'ব — বিকল্প B।"
       }
     },
     {
@@ -281,8 +281,8 @@
       "correct": 0,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 196\" width=\"300\" height=\"392\"><rect x=\"2\" y=\"2\" width=\"146\" height=\"192\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"52\" y=\"6\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"38\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"6\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"52\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"52\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text><rect x=\"52\" y=\"144\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"176\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"98\" y=\"144\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"176\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text></svg>",
       "explanation": {
-        "en": "Folding the net shows which cells become opposite faces, so the opposite of the marked face is fixed by the net.",
-        "as": "নেটখন ভাঁজ কৰিলে কোনবোৰ ঘৰ বিপৰীত পৃষ্ঠ হয় তাক দেখুৱায়, সেয়ে চিহ্নিত পৃষ্ঠটোৰ বিপৰীতটো নেটৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "In this net the vertical strip reading top to bottom runs 5, 2, 4, 6; two faces apart in one straight strip fold onto opposite sides, so 4 is opposite 5 - option A.",
+        "as": "নেটখন ভাঁজ কৰিলে 5 ৰ বিপৰীত পৃষ্ঠা হয় 4 — বিকল্প A।"
       }
     },
     {
@@ -466,7 +466,7 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Assumption I is implicit and assumption II is not implicit for the statement, which gives the answer.",
+        "en": "For the statement \"The university will hold its annual convocation next month\", assumption I (\"The university has graduating students\") is taken for granted and assumption II (\"The university will close permanently\") is not needed; hence the answer is: Only assumption I is implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত আৰু ধাৰণা II অন্তৰ্নিহিত নহয়, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -891,7 +891,7 @@
       ],
       "correct": 2,
       "explanation": {
-        "en": "Assumption I is not implicit and assumption II is not implicit for the statement, which gives the answer.",
+        "en": "For the statement \"Reduce the use of plastic to protect the environment\", assumption I (\"Plastic is the cheapest material\") is not needed and assumption II (\"The environment needs no protection\") is not needed; hence the answer is: Neither assumption is implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত নহয় আৰু ধাৰণা II অন্তৰ্নিহিত নহয়, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -1466,8 +1466,8 @@
       "correct": 0,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"10.0,10.0 92.0,10.0 92.0,83.0 10.0,83.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"51\" y1=\"10\" x2=\"51\" y2=\"83\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"47\" x2=\"92\" y2=\"47\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"10\" y1=\"10\" x2=\"92\" y2=\"83\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
-        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+        "en": "The drawing is made of 7 straight lines. The square in option A is already there: the top edge, the right edge, the bottom edge and the left edge run along its sides, corner to corner. No other option closes on lines that are drawn, so A is the embedded figure.",
+        "as": "চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প A ৰ square টোৰ প্ৰতিটো বাহু পৰে — মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে A শুদ্ধ।"
       }
     },
     {
@@ -1586,8 +1586,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Event I happens first and brings about Event II, so I is the cause and II its effect.",
-        "as": "ঘটনা I প্ৰথমে ঘটে আৰু ঘটনা II ঘটায়, গতিকে I কাৰণ আৰু II ইয়াৰ ফল।"
+        "en": "Event I («The opening batsman was dropped twice») comes before Event II («The team posted a huge total») and brings it about, so I is the cause and II the effect - option A.",
+        "as": "ঘটনা I «The opening batsman was dropped twice» আৰু ঘটনা II «The team posted a huge total» — ইয়াৰ সম্পৰ্কটোৱে বিকল্প A বুজায়।"
       }
     },
     {
@@ -2311,8 +2311,8 @@
       "correct": 3,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 196 150\" width=\"300\" height=\"229.59183673469389\"><rect x=\"2\" y=\"2\" width=\"192\" height=\"146\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"6\" y=\"6\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"38\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"6\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"52\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"98\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"144\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"167\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"98\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>",
       "explanation": {
-        "en": "Folding the net shows which cells become opposite faces, so the opposite of the marked face is fixed by the net.",
-        "as": "নেটখন ভাঁজ কৰিলে কোনবোৰ ঘৰ বিপৰীত পৃষ্ঠ হয় তাক দেখুৱায়, সেয়ে চিহ্নিত পৃষ্ঠটোৰ বিপৰীতটো নেটৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "In this net the horizontal strip reading left to right runs 2, 1, 5, 6; two faces apart in one straight strip fold onto opposite sides, so 2 is opposite 5 - option D.",
+        "as": "নেটখন ভাঁজ কৰিলে 5 ৰ বিপৰীত পৃষ্ঠা হয় 2 — বিকল্প D।"
       }
     },
     {
@@ -2341,7 +2341,7 @@
       ],
       "correct": 1,
       "explanation": {
-        "en": "Statement I alone fixes the answer; statement II alone does not.",
+        "en": "The question is \"Is the year a leap year\". Statement I says \"The year is divisible by 4 but not by 100\" and statement II says \"The year is 1900\"; statement I settles it while statement II does not, so the answer is: Statement I alone is sufficient, but statement II alone is not sufficient.",
         "as": "কেৱল বিবৃতি I য়ে উত্তৰ নিৰ্ণয় কৰে; কেৱল বিবৃতি II য়ে নকৰে।"
       }
     },

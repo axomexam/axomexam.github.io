@@ -61,7 +61,7 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Assumption I is implicit and assumption II is implicit for the statement, which gives the answer.",
+        "en": "For the statement \"The railway will run special trains during the festival season\", assumption I (\"The railway has spare coaches\") is taken for granted and assumption II (\"The railway wants to handle the festival rush\") is also taken for granted; hence the answer is: Both assumptions are implicit.",
         "as": "বিবৃতিৰ বাবে ধাৰণা I অন্তৰ্নিহিত আৰু ধাৰণা II অন্তৰ্নিহিত, যাৰ পৰা উত্তৰ পোৱা যায়।"
       }
     },
@@ -121,8 +121,8 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "The underlying cause is stated as Event II, which produces Event I, so II is the cause and I its effect.",
-        "as": "আচল কাৰণটো ঘটনা II হিচাপে দিয়া আছে, যিয়ে ঘটনা I ঘটায়, গতিকে II কাৰণ আৰু I ইয়াৰ ফল।"
+        "en": "Event II («The teacher explained the concept with diagrams») comes before Event I («Students answered the test better») and brings it about, so II is the cause and I the effect - option A.",
+        "as": "ঘটনা I «Students answered the test better» আৰু ঘটনা II «The teacher explained the concept with diagrams» — ইয়াৰ সম্পৰ্কটোৱে বিকল্প A বুজায়।"
       }
     },
     {
@@ -304,7 +304,7 @@
         }
       ],
       "correct": 1,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"67\" y1=\"50\" x2=\"16\" y2=\"50.00000000000001\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16.0,50.0 27.0,42.0 27.0,58.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"50\" y1=\"67\" x2=\"49.99999999999999\" y2=\"16\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,16.0 58.0,27.0 42.0,27.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"33\" y1=\"50.00000000000001\" x2=\"84\" y2=\"49.99999999999999\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"84.0,50.0 73.0,58.0 73.0,42.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"49.99999999999999\" y1=\"33\" x2=\"50.00000000000001\" y2=\"84\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,84.0 42.0,73.0 58.0,73.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 100\" width=\"300\" height=\"60\"><rect x=\"2\" y=\"2\" width=\"496\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"3\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(3,3) scale(0.94)\"><line x1=\"67\" y1=\"50\" x2=\"16\" y2=\"50.00000000000001\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"16.0,50.0 27.0,42.0 27.0,58.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/></g><rect x=\"103\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(103,3) scale(0.94)\"><line x1=\"50\" y1=\"67\" x2=\"49.99999999999999\" y2=\"16\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,16.0 58.0,27.0 42.0,27.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/></g><rect x=\"203\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(203,3) scale(0.94)\"><line x1=\"33\" y1=\"50.00000000000001\" x2=\"84\" y2=\"49.99999999999999\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"84.0,50.0 73.0,58.0 73.0,42.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/></g><rect x=\"303\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(303,3) scale(0.94)\"><line x1=\"49.99999999999999\" y1=\"33\" x2=\"50.00000000000001\" y2=\"84\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"50.0,84.0 42.0,73.0 58.0,73.0\" fill=\"#334155\" stroke=\"#334155\" stroke-width=\"1\" stroke-linejoin=\"round\"/></g><rect x=\"403\" y=\"3\" width=\"94\" height=\"94\" rx=\"8\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"450\" y=\"66\" font-size=\"46\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text></svg>",
       "explanation": {
         "en": "The arrow turns by the same angle at each step, so the next figure is turned by that angle again.",
         "as": "কাঁড়টো প্ৰতিটো পদক্ষেপত একেই কোণে ঘূৰে, সেয়ে পৰৱৰ্তী চিত্ৰটো আকৌ সেই কোণে ঘূৰি থাকে।"
@@ -611,8 +611,8 @@
       "correct": 2,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 140\" width=\"240\" height=\"168\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"136\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"32.3\" y1=\"40.3\" x2=\"69.7\" y2=\"40.3\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"51.0\" y1=\"40.3\" x2=\"51.0\" y2=\"80.8\" stroke=\"#334155\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"57.2\" cy=\"46.5\" r=\"5\" fill=\"#334155\"/><line x1=\"112\" y1=\"14\" x2=\"112\" y2=\"126\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/></svg>",
       "explanation": {
-        "en": "A mirror image reverses the figure left to right, so the reflection across the vertical line is the answer.",
-        "as": "দাপোণ প্ৰতিবিম্বই চিত্ৰখন বাওঁৰ পৰা সোঁলৈ ওলোটা কৰে, সেয়ে উলম্ব ৰেখাৰ প্ৰতিফলনটোৱেই উত্তৰ।"
+        "en": "The drawing holds a horizontal line running from the upper-left corner to the upper-right corner, a vertical line running from the upper middle to the lower middle and a dot in the upper-right corner. A mirror image keeps every part at the same distance from the centre but swaps left for right, so a horizontal line now runs from the upper-left corner to the upper-right corner, a vertical line now runs from the upper middle to the lower middle and a dot moves to the upper-left corner. Only option C is drawn that way.",
+        "as": "চিত্ৰত 3 টা অংশ আছে। প্ৰতিবিম্বত অংশবোৰৰ কেন্দ্ৰৰ পৰা দুৰত্ব একেই থাকে, কিন্তু বাওঁ-সোঁ সলনি হয় — ওপৰৰ বৰ্ণনাৰ সৈতে মিলাই চালে কেৱল বিকল্প C হয়।"
       }
     },
     {
@@ -641,8 +641,8 @@
       ],
       "correct": 2,
       "explanation": {
-        "en": "Argument I is strong and argument II is strong; a strong argument is directly relevant and based on fact, a weak one is trivial, emotional or unrelated.",
-        "as": "যুক্তি I সবল আৰু যুক্তি II সবল; সবল যুক্তি প্ৰাসংগিক আৰু তথ্যভিত্তিক, দুৰ্বল যুক্তি তুচ্ছ, আৱেগিক বা অসম্পৰ্কিত।"
+        "en": "The statement asks «Should social media be banned for children below sixteen?». Argument I answers «Yes. Early social media use is linked to anxiety and poor sleep» and argument II answers «No. It is hard to enforce and may push children to use it secretly». A strong argument has to be a general, factual reason that bears on the decision itself, so weigh those two answers against each other: the pair comes out as «Both arguments I and II are strong», which is option C.",
+        "as": "তলৰ প্ৰশ্নটো «Should social media be banned for children below sixteen?»। যুক্তি I «Yes. Early social media use is linked to anxiety and poor sleep» আৰু যুক্তি II «No. It is hard to enforce and may push children to use it secretly» কয়। সবল যুক্তি সাধাৰণ আৰু তথ্যভিত্তিক হ'ব লাগে, সিদ্ধান্তৰ সৈতে পোনপটীয়াকৈ জড়িত হ'ব লাগে — এই মাপকাঠিত «Both arguments I and II are strong» হয়, অৰ্থাৎ বিকল্প C।"
       }
     },
     {
@@ -1156,8 +1156,8 @@
       "correct": 3,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"240\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"12.0,12.0 92.0,12.0 92.0,92.0 12.0,92.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><line x1=\"52\" y1=\"12\" x2=\"52\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"52\" x2=\"92\" y2=\"52\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"12\" x2=\"92\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"32\" x2=\"92\" y2=\"32\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"52\" x2=\"92\" y2=\"52\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "The outline of the figure in the correct option can be traced exactly inside the given figure, so it is the embedded one.",
-        "as": "শুদ্ধ বিকল্পৰ চিত্ৰখনৰ ৰূপ দিয়া চিত্ৰখনৰ ভিতৰত সঠিকভাৱে আঁকিব পাৰি, সেয়ে সেয়াই সংযোজিত চিত্ৰ।"
+        "en": "The drawing is made of 8 straight lines. The triangle in option D is already there: the top edge, the right edge and the sloping line from the upper-left corner to the lower-right corner run along its sides, corner to corner. No other option closes on lines that are drawn, so D is the embedded figure.",
+        "as": "চিত্ৰত থকা ৰেখাবোৰৰ ওপৰতে বিকল্প D ৰ triangle টোৰ প্ৰতিটো বাহু পৰে — মূৰে-মূৰে মিলি যায়। আন কোনো বিকল্পই এইদৰে বন্ধ নহয়, গতিকে D শুদ্ধ।"
       }
     },
     {
@@ -1281,8 +1281,8 @@
       "correct": 3,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"150\" height=\"150\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"14,14 86,14 86,86 14,86\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50\" y1=\"14\" x2=\"50\" y2=\"86\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"14\" y1=\"50\" x2=\"86\" y2=\"50\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><circle cx=\"57.20\" cy=\"73.04\" r=\"4.2\" fill=\"#dc2626\"/></svg>",
       "explanation": {
-        "en": "Unfolding reflects the punched hole across each crease, so the number and position of the holes follow from the fold.",
-        "as": "মেলিলে প্ৰতিটো ভাঁজৰ ৰেখাৰ ওপৰেৰে বিন্ধাটো প্ৰতিফলিত হয়, সেয়ে বিন্ধাৰ সংখ্যা আৰু অৱস্থান ভাঁজৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "The sheet is folded twice, along a vertical crease down the middle and a horizontal crease down the middle, and the punch sits in the lower right part of the folded paper. Unfolding mirrors the hole across every crease, so the sheet carries 4 holes, one in each quarter, mirrored in pairs across the creases - option D.",
+        "as": "ভাঁজ মেলি দিলে কাগজত ৪ টা ফুটা দেখা যায় — বিকল্প D।"
       }
     },
     {
@@ -1346,8 +1346,8 @@
       "correct": 2,
       "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 196 150\" width=\"300\" height=\"229.59183673469389\"><rect x=\"2\" y=\"2\" width=\"192\" height=\"146\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"52\" y=\"6\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"38\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">2</text><rect x=\"6\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"29\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">5</text><rect x=\"52\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">6</text><rect x=\"98\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"121\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">3</text><rect x=\"144\" y=\"52\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"167\" y=\"84\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">1</text><rect x=\"52\" y=\"98\" width=\"46\" height=\"46\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"75\" y=\"130\" font-size=\"24\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">4</text></svg>",
       "explanation": {
-        "en": "Folding the net shows which cells become opposite faces, so the opposite of the marked face is fixed by the net.",
-        "as": "নেটখন ভাঁজ কৰিলে কোনবোৰ ঘৰ বিপৰীত পৃষ্ঠ হয় তাক দেখুৱায়, সেয়ে চিহ্নিত পৃষ্ঠটোৰ বিপৰীতটো নেটৰ পৰাই নিৰ্ধাৰিত হয়।"
+        "en": "In this net the horizontal strip reading left to right runs 5, 6, 3, 1; two faces apart in one straight strip fold onto opposite sides, so 5 is opposite 3 - option C.",
+        "as": "নেটখন ভাঁজ কৰিলে 3 ৰ বিপৰীত পৃষ্ঠা হয় 5 — বিকল্প C।"
       }
     },
     {
@@ -2096,7 +2096,7 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Course I directly addresses the problem; course II does not follow.",
+        "en": "For the statement \"The water of a river passing through a city has turned dark and foul-smelling\", course I (\"Sewage treatment plants should be built and drains should not empty into the river\") is the response that follows and course II (\"The city should be shifted to another place\") does not follow; hence the answer is: Only course of action I follows.",
         "as": "কাৰ্যপন্থা I য়ে সমস্যাটোৰ পোনপটীয়া সমাধান দিয়ে; কাৰ্যপন্থা II গ্ৰহণযোগ্য নহয়।"
       }
     },
@@ -2456,7 +2456,7 @@
       ],
       "correct": 0,
       "explanation": {
-        "en": "Both statements are true, and the reason states exactly why the assertion holds.",
+        "en": "Assertion (A): \"A person standing in a moving train is in motion with respect to the ground\". Reason (R): \"motion is relative, and his position with respect to the ground keeps changing\". Both are true, and the reason is what makes the assertion hold, so the answer is: Both A and R are true, and R is the correct explanation of A.",
         "as": "দুয়োটা বিবৃতি সত্য, আৰু কাৰণে দাবীটো কিয় খাটে তাকেই কয়।"
       }
     },
@@ -2911,8 +2911,8 @@
       ],
       "correct": 3,
       "explanation": {
-        "en": "Some members belong to both classes, so the circles overlap.",
-        "as": "কিছু সদস্য দুয়ো শ্ৰেণীৰ, গতিকে বৃত্তবোৰ ওপৰত পৰে।"
+        "en": "The «Players» group shares members with the «Students» group, so the two circles must overlap - option D.",
+        "as": "«Players» আৰু «Students» ৰ ভিতৰত এটা গোটে আনটোৰ সদস্য ভাগ কৰে, গতিকে বৃত্ত দুটা কটাকটি কৰে — বিকল্প D।"
       }
     },
     {

@@ -142,33 +142,38 @@
       }
     },
     {
-      "id": "word-formation-dictionary-038",
+      "id": "figure-series-021",
       "q": {
-        "en": "Which of the following words comes first in an English dictionary?",
-        "as": "তলৰ কোনটো শব্দ ইংৰাজী অভিধানত প্ৰথমে আহে?"
+        "en": "Study the direction of the figures / shapes. Which figure comes next in the series?",
+        "as": "চিত্ৰবোৰৰ দিশ আৰু সজ্জা মন কৰক। শৃংখলাটোত পৰৱৰ্তী চিত্ৰটো কি?"
       },
       "options": [
         {
-          "en": "Noble",
-          "as": "Noble"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"28.0\" y=\"28.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "Nine",
-          "as": "Nine"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "Night",
-          "as": "Night"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"50\" cy=\"50\" r=\"28\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
         },
         {
-          "en": "Noise",
-          "as": "Noise"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"28.0\" y=\"28.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
         }
       ],
-      "correct": 2,
+      "correct": 3,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 100\" width=\"330\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"326\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"112\" y1=\"16\" x2=\"112\" y2=\"84\" stroke=\"#e2e8f0\"/><line x1=\"222\" y1=\"16\" x2=\"222\" y2=\"84\" stroke=\"#e2e8f0\"/><rect x=\"35.0\" y=\"28.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/><rect x=\"145.0\" y=\"28.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/><rect x=\"255.0\" y=\"28.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>",
       "explanation": {
-        "en": "In dictionary order the words are: Night, Nine, Noble, Noise; so 'Night' comes first.",
-        "as": "অভিধানৰ ক্ৰমত শব্দবোৰ: Night, Nine, Noble, Noise; গতিকে 'Night' প্ৰথমে আহে।"
+        "en": "The square alternates between filled and empty: filled, empty, filled, so the next one is empty.",
+        "as": "বৰ্গটো পাল-পালকৈ ভৰা আৰু ৰিক্ত হয়: ভৰা, ৰিক্ত, ভৰা, গতিকে পৰৱৰ্তীটো ৰিক্ত।"
       }
     },
     {
@@ -202,33 +207,33 @@
       }
     },
     {
-      "id": "syllogism-005",
+      "id": "odd-one-out-024",
       "q": {
-        "en": "Statements: All squares are rectangles. All rectangles are quadrilaterals. Conclusion: All squares are quadrilaterals. Is the conclusion valid?",
-        "as": "বিবৃতি: সকলো বৰ্গ আয়ত। সকলো আয়ত চতুৰ্ভুজ। সিদ্ধান্ত: সকলো বৰ্গ চতুৰ্ভুজ। সিদ্ধান্তটো শুদ্ধ নেকি?"
+        "en": "Choose the odd one out: O, A, M, T",
+        "as": "অসদৃশটো বাছনি কৰক: O, A, M, T"
       },
       "options": [
         {
-          "en": "Only some squares are quadrilaterals",
-          "as": "কেৱল কিছুমান বৰ্গ চতুৰ্ভুজ"
+          "en": "A",
+          "as": "A"
         },
         {
-          "en": "No, it does not follow",
-          "as": "নহয়, ই সিদ্ধ নহয়"
+          "en": "O",
+          "as": "O"
         },
         {
-          "en": "Cannot be determined",
-          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
+          "en": "M",
+          "as": "M"
         },
         {
-          "en": "Yes, it logically follows",
-          "as": "হয়, ই যুক্তিসঙ্গতভাৱে সিদ্ধ হয়"
+          "en": "T",
+          "as": "T"
         }
       ],
-      "correct": 3,
+      "correct": 1,
       "explanation": {
-        "en": "Quadrilaterals include all rectangles, so all squares are quadrilaterals.",
-        "as": "চতুৰ্ভুজত সকলো আয়ত অন্তৰ্ভুক্ত, গতিকে সকলো বৰ্গ চতুৰ্ভুজ।"
+        "en": "A, M and T are made of straight lines only, but O is curved.",
+        "as": "A, M আৰু T কেৱল পোন ৰেখাৰে গঠিত, কিন্তু O বক্ৰ।"
       }
     },
     {
@@ -412,38 +417,33 @@
       }
     },
     {
-      "id": "cubes-dice-098",
+      "id": "syllogism-053",
       "q": {
-        "en": "A net of a cube is shown. When the net is folded into a cube, which colour will be opposite to Purple?",
-        "as": "এটা ঘনকৰ নেট দেখুওৱা হৈছে। নেটটো ভাঁজ কৰি ঘনক বনালে Purple ৰ বিপৰীত ফালে কোনটো ৰং থাকিব?"
+        "en": "Statements: Some students play cricket. All who play cricket are fit. Conclusion: Some students are fit. Is the conclusion valid?",
+        "as": "বিবৃতি: কিছুমান ছাত্ৰে ক্ৰিকেট খেলে। সকলো ক্ৰিকেট খেলা ব্যক্তি সুস্থ। সিদ্ধান্ত: কিছুমান ছাত্ৰ সুস্থ। সিদ্ধান্তটো শুদ্ধ নেকি?"
       },
       "options": [
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#dc2626\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Red</text></svg>"
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#2563eb\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Blue</text></svg>"
+          "en": "No, it does not follow",
+          "as": "নহয়, ই সিদ্ধ নহয়"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#7c3aed\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Purple</text></svg>"
+          "en": "Yes, it logically follows",
+          "as": "হয়, ই যুক্তিসঙ্গতভাৱে সিদ্ধ হয়"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"16\" y=\"20\" width=\"68\" height=\"48\" rx=\"8\" fill=\"#facc15\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"86\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">Yellow</text></svg>"
+          "en": "All fit persons play cricket",
+          "as": "সকলো সুস্থ ব্যক্তি ক্ৰিকেট খেলে"
         }
       ],
-      "correct": 1,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 162 208\" width=\"243\" height=\"312\"><rect x=\"2\" y=\"2\" width=\"158\" height=\"204\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"46\" height=\"46\" fill=\"#2563eb\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"35.0\" y=\"39.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#ffffff\" font-family=\"Arial, Helvetica, sans-serif\">BLUE</text><rect x=\"58\" y=\"12\" width=\"46\" height=\"46\" fill=\"#16a34a\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"39.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#ffffff\" font-family=\"Arial, Helvetica, sans-serif\">GREEN</text><rect x=\"104\" y=\"12\" width=\"46\" height=\"46\" fill=\"#7c3aed\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"127.0\" y=\"39.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#ffffff\" font-family=\"Arial, Helvetica, sans-serif\">PURPLE</text><rect x=\"58\" y=\"58\" width=\"46\" height=\"46\" fill=\"#dc2626\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"85.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#ffffff\" font-family=\"Arial, Helvetica, sans-serif\">RED</text><rect x=\"58\" y=\"104\" width=\"46\" height=\"46\" fill=\"#f97316\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"131.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#111827\" font-family=\"Arial, Helvetica, sans-serif\">ORANGE</text><rect x=\"58\" y=\"150\" width=\"46\" height=\"46\" fill=\"#facc15\" stroke=\"#475569\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"177.0\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#111827\" font-family=\"Arial, Helvetica, sans-serif\">YELLOW</text></svg>",
+      "correct": 2,
       "explanation": {
-        "en": "On folding the net, the square Purple and the square Blue come to lie on opposite faces of the cube, so Blue is opposite to Purple.",
-        "as": "নেটটো ভাঁজ কৰিলে Purple বৰ্গ আৰু Blue বৰ্গ ঘনকৰ বিপৰীত পৃষ্ঠত পৰে, গতিকে Purple ৰ বিপৰীত ফালে Blue থাকে।"
+        "en": "The cricket-playing students are fit, so some students are fit.",
+        "as": "ক্ৰিকেট খেলা ছাত্ৰবোৰ সুস্থ, গতিকে কিছুমান ছাত্ৰ সুস্থ।"
       }
     },
     {
@@ -507,38 +507,38 @@
       }
     },
     {
-      "id": "paper-folding-002",
+      "id": "pattern-completion-006",
       "q": {
-        "en": "A square paper is folded along the dotted line(s) as shown and a hole is punched at the red dot. Which option shows the paper when it is unfolded?",
-        "as": "দেখুওৱাৰ দৰে বৰ্গ কাগজখন চিকন ৰেখাৰে ভাঁজ কৰি ৰঙা বিন্দুৰ স্থানত এটা ফুটা কৰা হ'ল। কাগজখন মেলি দিলে কোনটো বিকল্পই সঠিকভাৱে দেখুৱায়?"
+        "en": "Study the pattern and choose the figure that completes the missing cell.",
+        "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
       },
       "options": [
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"35.60\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"64.40\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"30.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"30.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"44.0\" r=\"6\" fill=\"#334155\"/></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"35.60\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"42.80\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"35.60\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"57.20\" r=\"4.2\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></svg>"
         }
       ],
-      "correct": 3,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 224 132\" width=\"336\" height=\"198\"><rect x=\"2\" y=\"2\" width=\"220\" height=\"128\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"21.0,16.0 103.0,16.0 103.0,98.0 21.0,98.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"62.0\" y1=\"16.0\" x2=\"62.0\" y2=\"98.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"43.5\" y1=\"57.0\" x2=\"75.4\" y2=\"57.0\" stroke=\"#f97316\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"80.4,57.0 75.4,60.0 75.4,54.0\" fill=\"#f97316\"/><text x=\"62\" y=\"126\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,16.0 211.0,16.0 211.0,98.0 170.0,98.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"186.4\" cy=\"65.2\" r=\"4.2\" fill=\"#dc2626\"/><text x=\"170\" y=\"126\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text></svg>",
+      "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"49.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"30.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"44.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"23.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"37.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/><circle cx=\"51.0\" cy=\"37.0\" r=\"6\" fill=\"#334155\"/></g></svg>",
       "explanation": {
-        "en": "Unfolding reflects the punched hole across the crease, giving two holes placed symmetrically about the fold line.",
-        "as": "মেলি দিলে ফুটাটো ভাঁজ ৰেখাৰ সাপেক্ষে প্ৰতিফলিত হয়, ফলত ভাঁজ ৰেখাৰ দুয়োকাষে সমমিতভাৱে দুটা ফুটা হয়।"
+        "en": "In the grid every column repeats the same figures in the same order. The empty cell is row 2, column 1, and the same figure already sits at row 1, column 1, so that cell takes the solid dot - option A.",
+        "as": "গ্ৰিডত প্ৰতিটো স্তম্ভত একে আৰ্হিয়েই পুনৰাবৃত্তি হয়। খালী ঘৰটো 2 নং শাৰীৰ 1 নং স্তম্ভত আছে, আৰু 1 নং শাৰীৰ 1 নং স্তম্ভত সেই আৰ্হিয়েই আছে — গতিকে ঘৰটোত ঘন বিন্দু হ'ব — বিকল্প A।"
       }
     },
     {
@@ -722,33 +722,33 @@
       }
     },
     {
-      "id": "blood-relations-007",
+      "id": "odd-one-out-033",
       "q": {
-        "en": "A is the mother of B, and B is the sister of C. How is A related to C?",
-        "as": "A হৈছে B ৰ মাক আৰু B হৈছে C ৰ ভগ্নী। A, C ৰ কি সম্পৰ্কীয়?"
+        "en": "Choose the odd one out: Brinjal, Grape, Orange, Papaya",
+        "as": "অসদৃশটো বাছনি কৰক: বেঙেনা, আঙুৰ, কমলা, অমিতা"
       },
       "options": [
         {
-          "en": "Sister",
-          "as": "ভগ্নী"
+          "en": "Brinjal",
+          "as": "বেঙেনা"
         },
         {
-          "en": "Aunt",
-          "as": "খুড়ী"
+          "en": "Grape",
+          "as": "আঙুৰ"
         },
         {
-          "en": "Grandmother",
-          "as": "আইতা"
+          "en": "Orange",
+          "as": "কমলা"
         },
         {
-          "en": "Mother",
-          "as": "মাক"
+          "en": "Papaya",
+          "as": "অমিতা"
         }
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": {
-        "en": "B and C have the same mother A, so A is C's mother.",
-        "as": "B আৰু C ৰ মাক একেই A, গতিকে A হৈছে C ৰ মাক।"
+        "en": "Grape, Orange and Papaya are fruits, but Brinjal is a vegetable.",
+        "as": "আঙুৰ, কমলা আৰু অমিতা ফল, কিন্তু বেঙেনা পাচলি।"
       }
     },
     {
@@ -812,38 +812,33 @@
       }
     },
     {
-      "id": "pattern-completion-037",
+      "id": "syllogism-041",
       "q": {
-        "en": "Study the pattern and choose the figure that completes the missing cell.",
-        "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+        "en": "Statements: All metals conduct electricity. Copper is a metal. Conclusion: Copper conducts electricity. Is the conclusion valid?",
+        "as": "বিবৃতি: সকলো ধাতুৱে বিদ্যুৎ পৰিবাহ কৰে। তাম এটা ধাতু। সিদ্ধান্ত: তামে বিদ্যুৎ পৰিবাহ কৰে। সিদ্ধান্তটো শুদ্ধ নেকি?"
       },
       "options": [
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></svg>"
+          "en": "Yes, it logically follows",
+          "as": "হয়, ই যুক্তিসঙ্গতভাৱে সিদ্ধ হয়"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></svg>"
+          "en": "No, it does not follow",
+          "as": "নহয়, ই সিদ্ধ নহয়"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></svg>"
+          "en": "Cannot be determined",
+          "as": "নিৰ্ণয় কৰিব নোৱাৰি"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></svg>"
+          "en": "Only some metals conduct electricity",
+          "as": "কেৱল কিছুমান ধাতুৱে বিদ্যুৎ পৰিবাহ কৰে"
         }
       ],
-      "correct": 2,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,91.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\" stroke-linejoin=\"round\"/></g><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"207.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><polygon points=\"37.0,10.0 60.4,50.5 13.6,50.5\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><polygon points=\"37.0,10.0 64.0,37.0 37.0,64.0 10.0,37.0\" fill=\"#334155\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><polygon points=\"37.0,10.0 62.7,28.7 52.9,58.8 21.1,58.8 11.3,28.7\" fill=\"#334155\"/></g></svg>",
+      "correct": 0,
       "explanation": {
-        "en": "Each column shows the same figure; the missing cell must match its column.",
-        "as": "প্ৰতিটো স্তম্ভত একেই চিত্ৰ থাকে; অনুপস্থিত খালী ঠাইৰ চিত্ৰ নিজৰ স্তম্ভৰ সৈতে মিলিব লাগিব।"
+        "en": "Copper is a metal and all metals conduct electricity, so copper conducts electricity.",
+        "as": "তাম ধাতু আৰু সকলো ধাতুৱে বিদ্যুৎ পৰিবাহ কৰে, গতিকে তামে বিদ্যুৎ পৰিবাহ কৰে।"
       }
     },
     {
@@ -1027,33 +1022,38 @@
       }
     },
     {
-      "id": "ranking-order-020",
+      "id": "cubes-dice-003",
       "q": {
-        "en": "In a row of 24 persons, A is 9th from the left and B is 9th from the right. How many persons are between them?",
-        "as": "২৪ জনৰ শাৰীত A বাওঁফালৰ পৰা ৯ম, B সোঁফালৰ পৰা ৯ম। তেওঁলোকৰ মাজত কিমানজন আছে?"
+        "en": "Three different positions of the same dice are shown. Which number is opposite to 3?",
+        "as": "একে পাশাৰ তিনিটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 3 ৰ বিপৰীত দিশত কোনটো সংখ্যা থাকে?"
       },
       "options": [
         {
-          "en": "6",
-          "as": "৬"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">6</text></svg>"
         },
         {
-          "en": "7",
-          "as": "৭"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">4</text></svg>"
         },
         {
-          "en": "5",
-          "as": "৫"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">2</text></svg>"
         },
         {
-          "en": "8",
-          "as": "৮"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">1</text></svg>"
         }
       ],
-      "correct": 0,
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 118\" width=\"475\" height=\"165\"><rect x=\"2\" y=\"2\" width=\"336\" height=\"114\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"60.0,50.0 92.9,31.0 60.0,12.0 27.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 27.1,31.0 27.1,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 92.9,31.0 92.9,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"75.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"44.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"51.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"35.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"60\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,50.0 202.9,31.0 170.0,12.0 137.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 137.1,31.0 137.1,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 202.9,31.0 202.9,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"170.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"185.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"154.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"170.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"153.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"186.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"170\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text><polygon points=\"280.0,50.0 312.9,31.0 280.0,12.0 247.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"280.0,50.0 247.1,31.0 247.1,69.0 280.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"280.0,50.0 312.9,31.0 312.9,69.0 280.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"280.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"280.0\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"280.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"263.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"288.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"288.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"288.6\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"304.4\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"304.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"304.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"280\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">3</text></svg>",
       "explanation": {
-        "en": "Between = 24 − 9 − 9 = 6.",
-        "as": "মাজত = ২৪ − ৯ − ৯ = ৬।"
+        "en": "In the positions shown, 3 appears together with 1, 4, 5, 6. The only number never seen with 3 is 2, so 2 is opposite to 3.",
+        "as": "দেখুওৱা অৱস্থানবোৰত 3 ৰ সৈতে 1, 4, 5, 6 দেখা যায়। 3 ৰ সৈতে কেতিয়াও নেদেখা একমাত্ৰ সংখ্যাটো 2, গতিকে 3 ৰ বিপৰীত ফালে 2 থাকে।"
       }
     },
     {
@@ -1747,33 +1747,33 @@
       }
     },
     {
-      "id": "clock-calendar-054",
+      "id": "direction-distance-050",
       "q": {
-        "en": "A clock gains 2 minutes every hour. If it is set correctly at 12 noon, what will it show at 6 p.m.?",
-        "as": "এখন ঘড়ীয়ে প্ৰতি ঘণ্টাত ২ মিনিট আগবাঢ়ে। দুপৰীয়া ১২ বজাত শুদ্ধ কৰি ৰাখিলে সন্ধিয়া ৬ বজাত ঘড়ীত কিমান দেখুৱাব?"
+        "en": "A man walks 15 km north and then 8 km east. How far is he from the starting point?",
+        "as": "এজন মানুহে ১৫ কিমি উত্তৰ আৰু তাৰ পিছত ৮ কিমি পূব দিশে খোজ কাঢ়ে। তেওঁ আৰম্ভণি স্থানৰ পৰা কিমান দূৰত?"
       },
       "options": [
         {
-          "en": "5:48 p.m.",
-          "as": "৫:৪৮"
+          "en": "7 km",
+          "as": "৭ কিমি"
         },
         {
-          "en": "6:12 p.m.",
-          "as": "৬:১২"
+          "en": "17 km",
+          "as": "১৭ কিমি"
         },
         {
-          "en": "6:24 p.m.",
-          "as": "৬:২৪"
+          "en": "23 km",
+          "as": "২৩ কিমি"
         },
         {
-          "en": "6:10 p.m.",
-          "as": "৬:১০"
+          "en": "120 km",
+          "as": "১২০ কিমি"
         }
       ],
       "correct": 1,
       "explanation": {
-        "en": "In 6 hours the clock gains 6 × 2 = 12 minutes, so it shows 6:12 p.m.",
-        "as": "৬ ঘণ্টাত ঘড়ীয়ে ৬ × ২ = ১২ মিনিট আগবাঢ়ে, গতিকে ৬:১২ দেখুৱায়।"
+        "en": "Distance = √(15² + 8²) = √289 = 17 km.",
+        "as": "দূৰত্ব = √(১৫² + ৮²) = √২৮৯ = ১৭ কিমি।"
       }
     },
     {
@@ -2137,73 +2137,68 @@
       }
     },
     {
-      "id": "counting-figure-030",
+      "id": "venn-diagrams-007",
       "q": {
-        "en": "How many squares are there in the figure?",
-        "as": "চিত্ৰটোত কিমান বৰ্গ আছে?"
+        "en": "Among 120 people, 70 like apples, 60 like bananas and 40 like both. How many like neither fruit?",
+        "as": "১২০ জনৰ ভিতৰত ৭০ জনে আপেল, ৬০ জনে কল আৰু ৪০ জনে দুয়োটা ভাল পায়। কিমানজনে কোনো ফলেই ভাল নাপায়?"
       },
       "options": [
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">25</text></svg>"
+          "en": "20",
+          "as": "২০"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">27</text></svg>"
+          "en": "40",
+          "as": "৪০"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">26</text></svg>"
+          "en": "30",
+          "as": "৩০"
         },
         {
-          "en": "",
-          "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><text x=\"50\" y=\"70\" font-size=\"56\" font-family=\"Arial, Helvetica, sans-serif\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\">28</text></svg>"
+          "en": "50",
+          "as": "৫০"
         }
       ],
       "correct": 2,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 160\" width=\"300\" height=\"240\"><rect x=\"2\" y=\"2\" width=\"196\" height=\"156\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"30.00\" y1=\"25.00\" x2=\"30.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"76.67\" y1=\"25.00\" x2=\"76.67\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"123.33\" y1=\"25.00\" x2=\"123.33\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"170.00\" y1=\"25.00\" x2=\"170.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"25.00\" x2=\"170.00\" y2=\"25.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"47.00\" x2=\"170.00\" y2=\"47.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"69.00\" x2=\"170.00\" y2=\"69.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"91.00\" x2=\"170.00\" y2=\"91.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"113.00\" x2=\"170.00\" y2=\"113.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"30.00\" y1=\"135.00\" x2=\"170.00\" y2=\"135.00\" stroke=\"#334155\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg>",
       "explanation": {
-        "en": "There are 26 squares in the figure.",
-        "as": "চিত্ৰটোত 26 টা বৰ্গ আছে।"
+        "en": "n(A ∪ B) = 70 + 60 − 40 = 90; neither = 120 − 90 = 30.",
+        "as": "n(A ∪ B) = ৭০ + ৬০ − ৪০ = ৯০; কোনো নাপায় = ১২০ − ৯০ = ৩০।"
       }
     },
     {
-      "id": "pattern-completion-023",
+      "id": "cubes-dice-057",
       "q": {
-        "en": "Study the pattern and choose the figure that completes the missing cell.",
-        "as": "পেটাৰ্ণটো অধ্যয়ন কৰি অনুপস্থিত খালী ঠাই পূৰণ কৰা চিত্ৰটো বাছনি কৰক।"
+        "en": "A cube is painted on all its faces and then cut into 7 × 7 × 7 small cubes. How many small cubes have exactly 3 faces painted?",
+        "as": "এটা ঘনকৰ আটাইবোৰ পৃষ্ঠত ৰং লগাই তাৰ পিছত 7 × 7 × 7 টা সৰু ঘনকত কটা হ'ল। কিমানটা সৰু ঘনকৰ ঠিক 3টা পৃষ্ঠত ৰং লগা আছে?"
       },
       "options": [
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">72</text></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><rect x=\"15.0\" y=\"15.0\" width=\"44\" height=\"44\" rx=\"3\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">8</text></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">84</text></svg>"
         },
         {
           "en": "",
           "as": "",
-          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 74 74\" width=\"74\" height=\"74\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></svg>"
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">68</text></svg>"
         }
       ],
-      "correct": 3,
-      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 250 250\" width=\"250\" height=\"250\"><rect x=\"2\" y=\"2\" width=\"246\" height=\"246\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"12\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"12\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,12.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"12\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"91\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"128.0\" y=\"140.0\" font-size=\"34\" font-family=\"Arial\" text-anchor=\"middle\" fill=\"#94a3b8\">?</text><rect x=\"170\" y=\"91\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,91.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"12\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(12.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g><rect x=\"91\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(91.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"none\" stroke=\"#334155\" stroke-width=\"4\"/></g><rect x=\"170\" y=\"170\" width=\"74\" height=\"74\" rx=\"6\" fill=\"none\" stroke=\"#e2e8f0\"/><g transform=\"translate(170.0,170.0)\"><circle cx=\"37\" cy=\"37\" r=\"27\" fill=\"#334155\"/></g></svg>",
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"297\" height=\"270\"><rect x=\"2\" y=\"2\" width=\"216\" height=\"196\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"110.0,100.0 162.0,70.0 110.0,40.0 58.0,70.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 58.0,70.0 58.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 162.0,70.0 162.0,130.0 110.0,160.0\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"117.4\" y1=\"95.7\" x2=\"65.5\" y2=\"65.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"102.6\" y1=\"95.7\" x2=\"154.5\" y2=\"65.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"124.8\" y1=\"91.4\" x2=\"72.9\" y2=\"61.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"95.2\" y1=\"91.4\" x2=\"147.1\" y2=\"61.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"132.3\" y1=\"87.1\" x2=\"80.3\" y2=\"57.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"87.7\" y1=\"87.1\" x2=\"139.7\" y2=\"57.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"139.7\" y1=\"82.9\" x2=\"87.7\" y2=\"52.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"80.3\" y1=\"82.9\" x2=\"132.3\" y2=\"52.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"147.1\" y1=\"78.6\" x2=\"95.2\" y2=\"48.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"72.9\" y1=\"78.6\" x2=\"124.8\" y2=\"48.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"154.5\" y1=\"74.3\" x2=\"102.6\" y2=\"44.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"65.5\" y1=\"74.3\" x2=\"117.4\" y2=\"44.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"102.6\" y1=\"95.7\" x2=\"102.6\" y2=\"155.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"108.6\" x2=\"58.0\" y2=\"78.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"95.2\" y1=\"91.4\" x2=\"95.2\" y2=\"151.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"117.1\" x2=\"58.0\" y2=\"87.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"87.7\" y1=\"87.1\" x2=\"87.7\" y2=\"147.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"125.7\" x2=\"58.0\" y2=\"95.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"80.3\" y1=\"82.9\" x2=\"80.3\" y2=\"142.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"134.3\" x2=\"58.0\" y2=\"104.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"72.9\" y1=\"78.6\" x2=\"72.9\" y2=\"138.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"142.9\" x2=\"58.0\" y2=\"112.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"65.5\" y1=\"74.3\" x2=\"65.5\" y2=\"134.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"151.4\" x2=\"58.0\" y2=\"121.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"117.4\" y1=\"95.7\" x2=\"117.4\" y2=\"155.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"108.6\" x2=\"162.0\" y2=\"78.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"124.8\" y1=\"91.4\" x2=\"124.8\" y2=\"151.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"117.1\" x2=\"162.0\" y2=\"87.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"132.3\" y1=\"87.1\" x2=\"132.3\" y2=\"147.1\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"125.7\" x2=\"162.0\" y2=\"95.7\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"139.7\" y1=\"82.9\" x2=\"139.7\" y2=\"142.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"134.3\" x2=\"162.0\" y2=\"104.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"147.1\" y1=\"78.6\" x2=\"147.1\" y2=\"138.6\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"142.9\" x2=\"162.0\" y2=\"112.9\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"154.5\" y1=\"74.3\" x2=\"154.5\" y2=\"134.3\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/><line x1=\"110.0\" y1=\"151.4\" x2=\"162.0\" y2=\"121.4\" stroke=\"#b91c1c\" stroke-width=\"0.9\" opacity=\"0.8\"/></svg>",
       "explanation": {
-        "en": "The figures alternate like a checkerboard; the missing cell follows the same alternating pattern.",
-        "as": "চিত্ৰবোৰ দবা-বোৰ্ডৰ দৰে পাল-পালকৈ সলনি হয়; অনুপস্থিত খালী ঠাইও একে নিয়ম অনুসৰণ কৰে।"
+        "en": "The 8 corner cubes have 3 painted faces, the edge cubes have 2 [12 × (7 − 2) = 60], the face-centre cubes have 1 [6 × (7 − 2)² = 150] and the inner cubes have none [(7 − 2)³ = 125]. Here exactly 3 painted face(s) gives 8 cubes.",
+        "as": "৮টা চুকৰ ঘনকত ৩টা পৃষ্ঠত ৰং থাকে, ধাৰৰ ঘনকত ২টা, পৃষ্ঠৰ মাজৰ ঘনকত ১টা আৰু ভিতৰৰ ঘনকত এটাও নাথাকে। ইয়াত ঠিক 3টা পৃষ্ঠত ৰং থকা ঘনকৰ সংখ্যা 8।"
       }
     },
     {
@@ -2297,33 +2292,33 @@
       }
     },
     {
-      "id": "coding-decoding-061",
+      "id": "clock-calendar-033",
       "q": {
-        "en": "If COMPUTER is written as PMOCRETU, how is TELEVISION written in the same code?",
-        "as": "যদি COMPUTER ক PMOCRETU হিচাপে লিখা হয়, তেন্তে একেই ক'ডত TELEVISION কেনেকৈ লিখা হ'ব?"
+        "en": "What is the angle between the hour hand and the minute hand of a clock at 11:30?",
+        "as": "১১:৩০ বজাত ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
       },
       "options": [
         {
-          "en": "VELETIONSI",
-          "as": "VELETIONSI"
+          "en": "165°",
+          "as": "১৬৫°"
         },
         {
-          "en": "VELETNOISL",
-          "as": "VELETNOISL"
+          "en": "195°",
+          "as": "১৯৫°"
         },
         {
-          "en": "EVLETNOISI",
-          "as": "EVLETNOISI"
+          "en": "135°",
+          "as": "১৩৫°"
         },
         {
-          "en": "VELETNOISI",
-          "as": "VELETNOISI"
+          "en": "180°",
+          "as": "১৮০°"
         }
       ],
-      "correct": 3,
+      "correct": 0,
       "explanation": {
-        "en": "The word is split into two equal halves and each half is reversed: TELEV→VELET, ISION→NOISI.",
-        "as": "শব্দটো দুটা সমান অংশত ভাগ কৰি প্ৰতিটো অংশ ওলোটা কৰা হয়: TELEV→VELET, ISION→NOISI।"
+        "en": "At 11:30, the hour hand is at 345° and the minute hand at 180°; the angle is 165°.",
+        "as": "১১:৩০ বজাত ঘণ্টাৰ কাঁটা ৩৪৫° আৰু মিনিটৰ কাঁটা ১৮০° ত থাকে; কোণ = ১৬৫°।"
       }
     },
     {
@@ -2447,33 +2442,38 @@
       }
     },
     {
-      "id": "analogy-022",
+      "id": "cubes-dice-020",
       "q": {
-        "en": "Cat : Kitten :: Sheep : ?",
-        "as": "Cat : Kitten :: Sheep : ?"
+        "en": "Two different positions of the same dice are shown. Which number is opposite to 4?",
+        "as": "একে পাশাৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 4 ৰ বিপৰীত দিশত কোনটো সংখ্যা থাকে?"
       },
       "options": [
         {
-          "en": "Calf",
-          "as": "গো-পোৱালি"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">6</text></svg>"
         },
         {
-          "en": "Puppy",
-          "as": "কুকুৰ পোৱালি"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">1</text></svg>"
         },
         {
-          "en": "Lamb",
-          "as": "ভেৰা পোৱালি"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">3</text></svg>"
         },
         {
-          "en": "Kid",
-          "as": "ছাগলী পোৱালি"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">2</text></svg>"
         }
       ],
-      "correct": 2,
+      "correct": 1,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 118\" width=\"322\" height=\"165\"><rect x=\"2\" y=\"2\" width=\"226\" height=\"114\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"60.0,50.0 92.9,31.0 60.0,12.0 27.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 27.1,31.0 27.1,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 92.9,31.0 92.9,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"52.1\" cy=\"35.6\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"44.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"75.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"67.9\" cy=\"26.4\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"51.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"35.6\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"51.4\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"35.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"60\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,50.0 202.9,31.0 170.0,12.0 137.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 137.1,31.0 137.1,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 202.9,31.0 202.9,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"170.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"185.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"154.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"170.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"161.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"145.6\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"153.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"161.4\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"145.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"186.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"170\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text></svg>",
       "explanation": {
-        "en": "The young one of a cat is a kitten; the young one of a sheep is a lamb.",
-        "as": "মেকুৰীৰ পোৱালি মেকুৰী পোৱালি; ভেৰাৰ পোৱালি ভেৰা পোৱালি।"
+        "en": "In the positions shown, 4 appears together with 2, 3, 5, 6. The only number never seen with 4 is 1, so 1 is opposite to 4.",
+        "as": "দেখুওৱা অৱস্থানবোৰত 4 ৰ সৈতে 2, 3, 5, 6 দেখা যায়। 4 ৰ সৈতে কেতিয়াও নেদেখা একমাত্ৰ সংখ্যাটো 1, গতিকে 4 ৰ বিপৰীত ফালে 1 থাকে।"
       }
     },
     {
@@ -2537,63 +2537,73 @@
       }
     },
     {
-      "id": "coding-decoding-058",
+      "id": "figure-series-031",
       "q": {
-        "en": "If A=1, B=2, ..., Z=26, then the difference between the alphabet positions of the first and the last letter of KING is —",
-        "as": "যদি A=১, B=২, ..., Z=২৬ হয়, তেন্তে KING ৰ প্ৰথম আৰু অন্তিম আখৰৰ বৰ্ণমালা স্থানৰ পাৰ্থক্য —"
+        "en": "Study the direction of the figures / shapes. Which figure comes next in the series?",
+        "as": "চিত্ৰবোৰৰ দিশ আৰু সজ্জা মন কৰক। শৃংখলাটোত পৰৱৰ্তী চিত্ৰটো কি?"
       },
       "options": [
         {
-          "en": "4",
-          "as": "৪"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"28.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"28.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "5",
-          "as": "৫"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"17.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"39.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"61.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"83.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"17.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"39.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"61.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"83.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "3",
-          "as": "৩"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"17.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"39.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"61.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"83.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"28.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "6",
-          "as": "৬"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><circle cx=\"28.0\" cy=\"28.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"28.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"28.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"28.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"28.0\" cy=\"72.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"50.0\" cy=\"72.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"72.0\" cy=\"72.0\" r=\"8\" fill=\"#334155\"/></svg>"
         }
       ],
-      "correct": 0,
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 100\" width=\"330\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"326\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><line x1=\"112\" y1=\"16\" x2=\"112\" y2=\"84\" stroke=\"#e2e8f0\"/><line x1=\"222\" y1=\"16\" x2=\"222\" y2=\"84\" stroke=\"#e2e8f0\"/><circle cx=\"57.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"145.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"167.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"189.0\" cy=\"50.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"255.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"277.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"299.0\" cy=\"39.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"266.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/><circle cx=\"288.0\" cy=\"61.0\" r=\"8\" fill=\"#334155\"/></svg>",
       "explanation": {
-        "en": "First letter K = 11, last letter G = 7; difference = 4.",
-        "as": "প্ৰথম আখৰ K = ১১, অন্তিম আখৰ G = ৭; পাৰ্থক্য = ৪।"
+        "en": "The number of dots increases by two each step (odd numbers): 1, 3, 5, so the next one has 7 dots.",
+        "as": "বিন্দুৰ সংখ্যা প্ৰতিটো পদত দুটা কৰি বৃদ্ধি পায় (অযুগ্ম): ১, ৩, ৫, গতিকে পৰৱৰ্তীটোত ৭ টা বিন্দু থাকিব।"
       }
     },
     {
-      "id": "clock-calendar-035",
+      "id": "cubes-dice-002",
       "q": {
-        "en": "What is the angle between the hour hand and the minute hand of a clock at 12:20?",
-        "as": "১২:২০ বজাত ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+        "en": "Two different positions of the same dice are shown. Which number is opposite to 5?",
+        "as": "একে পাশাৰ দুটা ভিন্ন অৱস্থান দেখুওৱা হৈছে। 5 ৰ বিপৰীত দিশত কোনটো সংখ্যা থাকে?"
       },
       "options": [
         {
-          "en": "110°",
-          "as": "১১০°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">3</text></svg>"
         },
         {
-          "en": "80°",
-          "as": "৮০°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">2</text></svg>"
         },
         {
-          "en": "125°",
-          "as": "১২৫°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">1</text></svg>"
         },
         {
-          "en": "140°",
-          "as": "১৪০°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><text x=\"50.0\" y=\"62.24\" font-size=\"36\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#334155\" font-family=\"Arial, Helvetica, sans-serif\">4</text></svg>"
         }
       ],
       "correct": 0,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 230 118\" width=\"322\" height=\"165\"><rect x=\"2\" y=\"2\" width=\"226\" height=\"114\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"60.0,50.0 92.9,31.0 60.0,12.0 27.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 27.1,31.0 27.1,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"60.0,50.0 92.9,31.0 92.9,69.0 60.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"60.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"52.1\" cy=\"35.6\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"44.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"75.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"67.9\" cy=\"26.4\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"60.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"43.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"76.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"68.6\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"84.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"60\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"170.0,50.0 202.9,31.0 170.0,12.0 137.1,31.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 137.1,31.0 137.1,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"170.0,50.0 202.9,31.0 202.9,69.0 170.0,88.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><circle cx=\"170.0\" cy=\"40.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"185.8\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"154.2\" cy=\"31.0\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"170.0\" cy=\"21.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"161.4\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"145.6\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"54.9\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"45.8\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"186.5\" cy=\"59.5\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"178.6\" cy=\"73.2\" r=\"2.4\" fill=\"#334155\"/><circle cx=\"194.4\" cy=\"64.1\" r=\"2.4\" fill=\"#334155\"/><text x=\"170\" y=\"112\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text></svg>",
       "explanation": {
-        "en": "At 12:20, the hour hand is at 370° and the minute hand at 120°; the angle is 110°.",
-        "as": "১২:২০ বজাত ঘণ্টাৰ কাঁটা ৩৭০° আৰু মিনিটৰ কাঁটা ১২০° ত থাকে; কোণ = ১১০°।"
+        "en": "In the positions shown, 5 appears together with 1, 2, 4, 6. The only number never seen with 5 is 3, so 3 is opposite to 5.",
+        "as": "দেখুওৱা অৱস্থানবোৰত 5 ৰ সৈতে 1, 2, 4, 6 দেখা যায়। 5 ৰ সৈতে কেতিয়াও নেদেখা একমাত্ৰ সংখ্যাটো 3, গতিকে 5 ৰ বিপৰীত ফালে 3 থাকে।"
       }
     },
     {
@@ -2777,33 +2787,38 @@
       }
     },
     {
-      "id": "clock-calendar-020",
+      "id": "paper-folding-043",
       "q": {
-        "en": "What is the angle between the hour hand and the minute hand of a clock at 9:45?",
-        "as": "৯:৪৫ বজাত ঘড়ীৰ ঘণ্টাৰ কাঁটা আৰু মিনিটৰ কাঁটাৰ মাজৰ কোণ কিমান?"
+        "en": "A square paper is folded as shown and holes are punched at the red dots. Which option shows the paper when it is unfolded?",
+        "as": "দেখুওৱাৰ দৰে বৰ্গ কাগজখন ভাঁজ কৰি ৰঙা বিন্দুবোৰত ফুটা কৰা হ'ল। কাগজখন মেলি দিলে কোনটো বিকল্পই সঠিকভাৱে দেখুৱায়?"
       },
       "options": [
         {
-          "en": "22.5°",
-          "as": "২২.৫°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"26.96\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"26.96\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "37.5°",
-          "as": "৩৭.৫°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"26.96\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"26.96\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "52.5°",
-          "as": "৫২.৫°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"26.96\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"26.96\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/></svg>"
         },
         {
-          "en": "67.5°",
-          "as": "৬৭.৫°"
+          "en": "",
+          "as": "",
+          "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"2\" y=\"2\" width=\"96\" height=\"96\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><rect x=\"14\" y=\"14\" width=\"72\" height=\"72\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1.6\"/><circle cx=\"26.96\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"26.96\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"35.60\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"35.60\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"64.40\" cy=\"64.40\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"44.24\" r=\"4.2\" fill=\"#334155\"/><circle cx=\"73.04\" cy=\"55.76\" r=\"4.2\" fill=\"#334155\"/></svg>"
         }
       ],
-      "correct": 0,
+      "correct": 2,
+      "fig": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 332 132\" width=\"498\" height=\"198\"><rect x=\"2\" y=\"2\" width=\"328\" height=\"128\" rx=\"10\" fill=\"none\" stroke=\"#e2e8f0\"/><polygon points=\"21.0,16.0 103.0,16.0 103.0,98.0 21.0,98.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"62.0\" y1=\"16.0\" x2=\"62.0\" y2=\"98.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"80.4\" y1=\"57.0\" x2=\"48.5\" y2=\"57.0\" stroke=\"#f97316\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"43.5,57.0 48.5,54.0 48.5,60.0\" fill=\"#f97316\"/><text x=\"62\" y=\"126\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">1</text><polygon points=\"129.0,16.0 170.0,16.0 170.0,98.0 129.0,98.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"129.0\" y1=\"57.0\" x2=\"211.0\" y2=\"57.0\" stroke=\"#94a3b8\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"149.5\" y1=\"75.4\" x2=\"149.5\" y2=\"43.5\" stroke=\"#f97316\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"149.5,38.5 152.5,43.5 146.5,43.5\" fill=\"#f97316\"/><text x=\"170\" y=\"126\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">2</text><polygon points=\"237.0,16.0 278.0,16.0 278.0,57.0 237.0,57.0\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"261.6\" cy=\"40.6\" r=\"4.2\" fill=\"#dc2626\"/><circle cx=\"251.8\" cy=\"50.4\" r=\"4.2\" fill=\"#dc2626\"/><text x=\"278\" y=\"126\" font-size=\"10\" fill=\"#94a3b8\" text-anchor=\"middle\" font-family=\"sans-serif\">3</text></svg>",
       "explanation": {
-        "en": "At 9:45, the hour hand is at 292.5° and the minute hand at 270°; the angle is 22.5°.",
-        "as": "৯:৪৫ বজাত ঘণ্টাৰ কাঁটা ২৯২.৫° আৰু মিনিটৰ কাঁটা ২৭০° ত থাকে; কোণ = ২২.৫°।"
+        "en": "The sheet is folded twice: first along a vertical crease 50% of the way across, folding the right part onto the left, and then along a horizontal crease 50% of the way down, folding the bottom part onto the top. The punches are at 60% across and 60% down and 36% across and 84% down of the folded stack. Opening the sheet reflects every hole across the crease, so the paper carries 8 holes, at 18% across, 42% down; 18% across, 58% down; 30% across, 30% down; 30% across, 70% down; 70% across, 30% down; 70% across, 70% down; 82% across, 42% down; 82% across, 58% down - option C.",
+        "as": "কাগজখন দুবাৰ ভাঁজ কৰা হৈছে (উলম্ব চিকন ৰেখাৰে ৫০% ঠাইত, সোঁ অংশ বাওঁফালে আৰু অনুভূমিক চিকন ৰেখাৰে ৫০% ঠাইত, তল অংশ ওপৰফালে)। ভাঁজ কৰা কাগজত ফুটা কৰা ঠাইৰ পৰা চিকন ৰেখাৰ সিপাৰে প্ৰতিফলন হৈ মেলি দিলে ৮ টা ফুটা দেখা যায় — বিকল্প C।"
       }
     },
     {
