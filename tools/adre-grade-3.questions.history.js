@@ -54257,8 +54257,8 @@ module.exports = {
   {
    "id": "indian-history-modern-059",
    "q": {
-    "en": "Who founded the Theosophical Society in India?",
-    "as": "ভাৰতত থিঅ'চফিকেল ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+    "en": "Who, with Henry Steel Olcott, led the Theosophical Society in India from Adyar?",
+    "as": "হেনৰী ষ্টীল অলকটৰ সৈতে আদিয়াৰ পৰা ভাৰতত থিঅ'ছফিকেল ছ'চাইটিৰ নেতৃত্ব কোনে দিছিল?"
    },
    "options": [
     {
@@ -57047,8 +57047,8 @@ module.exports = {
   {
    "id": "indian-history-modern-152",
    "q": {
-    "en": "Who founded the Deccan Education Society?",
-    "as": "ডেকান এডুকেশ্যন ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?"
+    "en": "Which of these was a founder of the Deccan Education Society along with Tilak and Chiplunkar?",
+    "as": "তিলক আৰু চিপলুংকৰৰ সৈতে ডেক্কান এডুকেচন ছ'চাইটিৰ প্ৰতিষ্ঠাপকসকলৰ এজন কোন?"
    },
    "options": [
     {
@@ -57167,13 +57167,13 @@ module.exports = {
   {
    "id": "indian-history-modern-156",
    "q": {
-    "en": "Who founded the Radhaswami Satsang?",
-    "as": "ৰাধাস্বামী সৎসংগ কোনে প্ৰতিষ্ঠা কৰিছিল?"
+    "en": "Who founded the Radhasoami movement at Agra in 1861?",
+    "as": "১৮৬১ চনত আগ্রাত ৰাধাস্বামী আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?"
    },
    "options": [
     {
-     "en": "Tulsi Ram",
-     "as": "তুলসী ৰাম"
+     "en": "Shiv Dayal Singh",
+     "as": "শিৱ দয়াল সিং"
     },
     {
      "en": "Dayanand Saraswati",
@@ -59358,7 +59358,7 @@ module.exports = {
    "id": "indian-history-modern-229",
    "q": {
     "en": "Who was the first Assamese to be hanged by the British?",
-    "as": "ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া কোন আছিল?"
+    "as": "ব্ৰিটিছে ফাঁচী দিয়া প্ৰথম অসমীয়া কোন আছিল?"
    },
    "options": [
     {
@@ -59597,8 +59597,8 @@ module.exports = {
   {
    "id": "indian-history-modern-237",
    "q": {
-    "en": "Who was the adopted son of Nana Saheb?",
-    "as": "নানা চাহেবৰ পোষ্য পুত্ৰ কোন আছিল?"
+    "en": "Who was the able general of Nana Saheb during the Revolt of 1857?",
+    "as": "১৮৫৭ চনৰ বিদ্ৰোহত নানা চাহেবৰ দক্ষ সেনাপতি কোন আছিল?"
    },
    "options": [
     {
@@ -60497,8 +60497,8 @@ module.exports = {
   {
    "id": "indian-history-modern-267",
    "q": {
-    "en": "Which Viceroy announced the Communal Award?",
-    "as": "সাম্প্ৰদায়িক পুৰস্কাৰ কোন ভাইচৰয়ে ঘোষণা কৰিছিল?"
+    "en": "Who announced the Communal Award in August 1932?",
+    "as": "১৯৩২ চনৰ আগষ্টত সাম্প্ৰদায়িক বঁটা কোনে ঘোষণা কৰিছিল?"
    },
    "options": [
     {
@@ -60510,8 +60510,8 @@ module.exports = {
      "as": "লৰ্ড ৰিডিং"
     },
     {
-     "en": "Lord Wellington (Ramsay MacDonald)",
-     "as": "লৰ্ড ৱেলিংটন (ৰেমচে মেকডনাল্ড)"
+     "en": "Ramsay MacDonald, the British Prime Minister",
+     "as": "ৰামছে মেকডনাল্ড, ব্ৰিটিছ প্ৰধানমন্ত্ৰী"
     },
     {
      "en": "Lord Linlithgow",
@@ -62117,8 +62117,8 @@ module.exports = {
   {
    "id": "indian-history-modern-321",
    "q": {
-    "en": "Who defeated Subhas Chandra Bose in the 1939 Congress presidential election?",
-    "as": "১৯৩৯ চনৰ কংগ্ৰেছ সভাপতি নিৰ্বাচনত সুভাষ চন্দ্ৰ বসুক কোনে পৰাস্ত কৰিছিল?"
+    "en": "Who was Gandhi's candidate whom Bose defeated in the 1939 Tripuri session?",
+    "as": "১৯৩৯ চনৰ ত্ৰিপুৰী অধিৱেশনত বোসে পৰাস্ত কৰা গান্ধীৰ প্ৰাৰ্থী কোন আছিল?"
    },
    "options": [
     {
@@ -62134,8 +62134,8 @@ module.exports = {
      "as": "ৰাজেন্দ্ৰ প্ৰসাদ"
     },
     {
-     "en": "S. Srinivasa Iyengar (with Gandhi's support)",
-     "as": "এছ. শ্ৰীনিৱাস আয়ংগাৰ (গান্ধীৰ সমৰ্থনত)"
+     "en": "Pattabhi Sitaramayya",
+     "as": "পট্টাভি সীতাৰামাইয়া"
     }
    ],
    "correct": 3,
@@ -62837,8 +62837,8 @@ module.exports = {
   {
    "id": "indian-history-modern-345",
    "q": {
-    "en": "Who was the first Muslim woman to become a teacher in India?",
-    "as": "ভাৰতত শিক্ষক হোৱা প্ৰথম মুছলমান মহিলা কোন আছিল?"
+    "en": "Who founded a school for Muslim girls at Calcutta in 1911?",
+    "as": "১৯১১ চনত কলিকতাত মুছলমান ছোৱালীৰ বাবে স্কুল কোনে প্ৰতিষ্ঠা কৰিছিল?"
    },
    "options": [
     {

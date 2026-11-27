@@ -121,8 +121,8 @@ module.exports = [
   "ৰাণী লক্ষ্মীবাইয়ে ঝাঁসীত ১৮৫৭ চনৰ বিদ্ৰোহৰ নেতৃত্ব দিছিল।"
  ],
  [
-  "Who was the adopted son of Nana Saheb?",
-  "নানা চাহেবৰ পোষ্য পুত্ৰ কোন আছিল?",
+  "Who was the able general of Nana Saheb during the Revolt of 1857?",
+  "১৮৫৭ চনৰ বিদ্ৰোহত নানা চাহেবৰ দক্ষ সেনাপতি কোন আছিল?",
   [
    "Tantia Tope (a general)",
    "তান্তিয়া টোপে (এজন সেনাপতি)",
@@ -631,11 +631,11 @@ module.exports = [
   "ভগত সিঙে ছ'ণ্ডাৰ্ছক হত্যা কৰি লালা লাজপত ৰায়ৰ মৃত্যুৰ প্ৰতিশোধ লৈছিল।"
  ],
  [
-  "Which Viceroy announced the Communal Award?",
-  "সাম্প্ৰদায়িক পুৰস্কাৰ কোন ভাইচৰয়ে ঘোষণা কৰিছিল?",
+  "Who announced the Communal Award in August 1932?",
+  "১৯৩২ চনৰ আগষ্টত সাম্প্ৰদায়িক বঁটা কোনে ঘোষণা কৰিছিল?",
   [
-   "Lord Wellington (Ramsay MacDonald)",
-   "লৰ্ড ৱেলিংটন (ৰেমচে মেকডনাল্ড)",
+   "Ramsay MacDonald, the British Prime Minister",
+   "ৰামছে মেকডনাল্ড, ব্ৰিটিছ প্ৰধানমন্ত্ৰী",
    "Lord Irwin",
    "লৰ্ড আৰউইন",
    "Lord Reading",

@@ -359,11 +359,11 @@ module.exports = [
   "সুভাষ চন্দ্ৰ বসু প্ৰথমে ১৯৩৮ চনত কংগ্ৰেছ সভাপতি নিৰ্বাচিত হৈছিল।"
  ],
  [
-  "Who defeated Subhas Chandra Bose in the 1939 Congress presidential election?",
-  "১৯৩৯ চনৰ কংগ্ৰেছ সভাপতি নিৰ্বাচনত সুভাষ চন্দ্ৰ বসুক কোনে পৰাস্ত কৰিছিল?",
+  "Who was Gandhi's candidate whom Bose defeated in the 1939 Tripuri session?",
+  "১৯৩৯ চনৰ ত্ৰিপুৰী অধিৱেশনত বোসে পৰাস্ত কৰা গান্ধীৰ প্ৰাৰ্থী কোন আছিল?",
   [
-   "S. Srinivasa Iyengar (with Gandhi's support)",
-   "এছ. শ্ৰীনিৱাস আয়ংগাৰ (গান্ধীৰ সমৰ্থনত)",
+   "Pattabhi Sitaramayya",
+   "পট্টাভি সীতাৰামাইয়া",
    "Jawaharlal Nehru",
    "জৱাহৰলাল নেহৰু",
    "Sardar Patel",
@@ -767,8 +767,8 @@ module.exports = [
   "সৰলা দেৱী চৌধুৰাণীয়ে ভাৰত স্ত্ৰী মহামণ্ডল প্ৰতিষ্ঠা কৰিছিল।"
  ],
  [
-  "Who was the first Muslim woman to become a teacher in India?",
-  "ভাৰতত শিক্ষক হোৱা প্ৰথম মুছলমান মহিলা কোন আছিল?",
+  "Who founded a school for Muslim girls at Calcutta in 1911?",
+  "১৯১১ চনত কলিকতাত মুছলমান ছোৱালীৰ বাবে স্কুল কোনে প্ৰতিষ্ঠা কৰিছিল?",
   [
    "Amina Tyabji",
    "আমিনা তায়বজী",

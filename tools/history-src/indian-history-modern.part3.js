@@ -155,8 +155,8 @@ module.exports = [
   "স্বামী বিবেকানন্দে চিকাগোত ধৰ্ম মহাসভাত ভাষণ দিছিল।"
  ],
  [
-  "Who founded the Deccan Education Society?",
-  "ডেকান এডুকেশ্যন ছ'চাইটি কোনে প্ৰতিষ্ঠা কৰিছিল?",
+  "Which of these was a founder of the Deccan Education Society along with Tilak and Chiplunkar?",
+  "তিলক আৰু চিপলুংকৰৰ সৈতে ডেক্কান এডুকেচন ছ'চাইটিৰ প্ৰতিষ্ঠাপকসকলৰ এজন কোন?",
   [
    "Gopal Ganesh Agarkar",
    "গোপাল গণেশ আগৰকৰ",
@@ -223,11 +223,11 @@ module.exports = [
   "শিৱ নাৰায়ণ অগ্নিহোত্ৰীয়ে দেৱ সমাজ প্ৰতিষ্ঠা কৰিছিল।"
  ],
  [
-  "Who founded the Radhaswami Satsang?",
-  "ৰাধাস্বামী সৎসংগ কোনে প্ৰতিষ্ঠা কৰিছিল?",
+  "Who founded the Radhasoami movement at Agra in 1861?",
+  "১৮৬১ চনত আগ্রাত ৰাধাস্বামী আন্দোলন কোনে প্ৰতিষ্ঠা কৰিছিল?",
   [
-   "Tulsi Ram",
-   "তুলসী ৰাম",
+   "Shiv Dayal Singh",
+   "শিৱ দয়াল সিং",
    "Dayanand Saraswati",
    "দয়ানন্দ সৰস্বতী",
    "Raja Ram Mohan Roy",
@@ -1465,7 +1465,7 @@ module.exports = [
  ],
  [
   "Who was the first Assamese to be hanged by the British?",
-  "ব্ৰিটিছে ফাঁচি দিয়া প্ৰথম অসমীয়া কোন আছিল?",
+  "ব্ৰিটিছে ফাঁচী দিয়া প্ৰথম অসমীয়া কোন আছিল?",
   [
    "Maniram Dewan",
    "মণিৰাম দেৱান",
