@@ -3427,10 +3427,14 @@ module.exports = {
   {
    "id": "assam-history-ancient-115",
    "q": {
-    "en": "Which Varman king is associated with the earliest reference to the worship of the Devi at Kamakhya?",
-    "as": "কামাখ্যাত দেৱী উপাসনাৰ আটাইতকৈ প্ৰাচীন উল্লেখ কোন বৰ্মন ৰজাৰ লগত জড়িত?"
+    "en": "Which Varman king's Nidhanpur grant renewed a land grant first made by Bhutivarman?",
+    "as": "কোন বৰ্মন ৰজাৰ নিধনপুৰ তাম্ৰপত্ৰই ভূতিবৰ্মনে প্ৰথমে দিয়া ভূমি দান নবীকৰণ কৰিছিল?"
    },
    "options": [
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
+    },
     {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
@@ -3440,18 +3444,14 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Balavarman",
      "as": "বলভৰ্মন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Varman period, especially under Bhaskaravarman, is linked with early references to the Kamakhya Devi cult.",
-    "as": "বৰ্মন কাল, বিশেষকৈ ভাস্কৰবৰ্মনৰ অধীনত, কামাখ্যা দেৱী উপাসনাৰ প্ৰাচীন উল্লেখৰ লগত জড়িত।"
+    "en": "The Nidhanpur copperplates of Bhaskaravarman renew a grant to Brahmins in the Chandrapuri vishaya originally made by his great-great-grandfather Bhutivarman.",
+    "as": "ভাস্কৰবৰ্মনৰ নিধনপুৰ তাম্ৰপত্ৰই চন্দ্ৰপুৰী বিষয়ত ব্ৰাহ্মণসকলক তেওঁৰ পূৰ্বপুৰুষ ভূতিবৰ্মনে দিয়া ভূমি দান নবীকৰণ কৰে।"
    }
   },
   {
@@ -4657,13 +4657,13 @@ module.exports = {
   {
    "id": "assam-history-ancient-156",
    "q": {
-    "en": "Which ancient Kamarupa king is said to have built the 'Kamakhya' temple in its earliest form?",
-    "as": "কামাখ্যা মন্দিৰ প্ৰথম ৰূপত নিৰ্মাণ কৰাৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+    "en": "Which Mlechchha king overthrew Bhaskaravarman's successor and proclaimed himself king?",
+    "as": "কোন ম্লেচ্ছ ৰজাই ভাস্কৰবৰ্মনৰ উত্তৰাধিকাৰীক ক্ষমতাচ্যুত কৰি নিজকে ৰজা ঘোষণা কৰিছিল?"
    },
    "options": [
     {
-     "en": "Tyagasimha",
-     "as": "ত্যাগসিংহ"
+     "en": "Salastambha",
+     "as": "শালস্তম্ভ"
     },
     {
      "en": "Bhaskaravarman",
@@ -4680,8 +4680,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Tyagasimha of the Mlechchha line is associated with the earliest construction at Kamakhya.",
-    "as": "ম্লেচ্ছ বংশৰ ত্যাগসিংহক কামাখ্যাত আটাইতকৈ প্ৰাচীন নিৰ্মাণৰ লগত জড়িত কৰা হয়।"
+    "en": "Salastambha, governor of the Mech country, overthrew Bhaskaravarman's successor and founded the Mlechchha line around 655 CE.",
+    "as": "মেচ দেশৰ শাসনকৰ্তা শালস্তম্ভই ভাস্কৰবৰ্মনৰ উত্তৰাধিকাৰীক ক্ষমতাচ্যুত কৰি প্ৰায় ৬৫৫ খ্ৰীষ্টাব্দত ম্লেচ্ছ বংশৰ প্ৰতিষ্ঠা কৰিছিল।"
    }
   },
   {
@@ -4717,8 +4717,8 @@ module.exports = {
   {
    "id": "assam-history-ancient-158",
    "q": {
-    "en": "Which ancient Kamarupa king is credited with the earliest land survey and revenue administration?",
-    "as": "আটাইতকৈ প্ৰাচীন ভূমি জৰীপ আৰু ৰাজহ প্ৰশাসনৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+    "en": "The Pala dynasty of Kamarupa is also known as the Bhauma-Naraka dynasty of which king?",
+    "as": "কামৰূপৰ পাল বংশক কোন ৰজাৰ ভৌম-নাৰক বংশ বুলিও জনা যায়?"
    },
    "options": [
     {
@@ -4726,12 +4726,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Brahmapala",
      "as": "ব্ৰহ্মপাল"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Sandhya",
@@ -4740,8 +4740,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Bhaskaravarman's grants show a developed system of land measurement and revenue.",
-    "as": "ভাস্কৰবৰ্মনৰ শাসনে ভূমি জোখ আৰু ৰাজহৰ এক বিকশিত ব্যৱস্থা দেখুৱায়।"
+    "en": "Historians call the Kamarupa Pala line the Bhauma-Naraka or Pala dynasty of Brahmapala.",
+    "as": "ঐতিহাসিকসকলে কামৰূপৰ পাল বংশক ব্ৰহ্মপালৰ ভৌম-নাৰক বা পাল বংশ বুলি কয়।"
    }
   },
   {
@@ -4777,8 +4777,8 @@ module.exports = {
   {
    "id": "assam-history-ancient-160",
    "q": {
-    "en": "Which ancient Kamarupa ruler is associated with the earliest reference to the 'Kamarupa' script?",
-    "as": "'কামৰূপ' লিপিৰ আটাইতকৈ প্ৰাচীন উল্লেখ কোন প্ৰাচীন কামৰূপ শাসকৰ লগত জড়িত?"
+    "en": "Which Varman king's grant mentions the Chandrapuri vishaya in the Sylhet region?",
+    "as": "কোন বৰ্মন ৰজাৰ দানপত্ৰত চিলেট অঞ্চলৰ চন্দ্ৰপুৰী বিষয়ৰ উল্লেখ আছে?"
    },
    "options": [
     {
@@ -4800,8 +4800,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Nidhanpur grant of Bhaskaravarman provides early evidence of the region's script.",
-    "as": "ভাস্কৰবৰ্মনৰ নিধানপুৰ শাসনে অঞ্চলটোৰ লিপিৰ প্ৰাচীন প্ৰমাণ প্ৰদান কৰে।"
+    "en": "The Nidhanpur plates of Bhaskaravarman locate the granted land in the Chandrapuri vishaya, in present-day Sylhet district of Bangladesh.",
+    "as": "ভাস্কৰবৰ্মনৰ নিধনপুৰ তাম্ৰপত্ৰত দান কৰা ভূমি বৰ্তমান বাংলাদেশৰ চিলেট জিলাৰ চন্দ্ৰপুৰী বিষয়ত বুলি উল্লেখ আছে।"
    }
   },
   {
@@ -5107,8 +5107,8 @@ module.exports = {
   {
    "id": "assam-history-ancient-171",
    "q": {
-    "en": "Which ancient Kamarupa king is credited with the earliest known Sanskrit inscription of the region?",
-    "as": "অঞ্চলটোৰ আটাইতকৈ প্ৰাচীন জনা সংস্কৃত শিলালিপিৰ কৃতিত্ব কোন প্ৰাচীন কামৰূপ ৰজাৰ?"
+    "en": "Which Kamarupa king's Nidhanpur grant is the earliest extensive Sanskrit inscription of the region?",
+    "as": "কোন কামৰূপ ৰজাৰ নিধনপুৰ তাম্ৰপত্ৰ অঞ্চলটোৰ আটাইতকৈ প্ৰাচীন বিস্তৃত সংস্কৃত শিলালিপি?"
    },
    "options": [
     {
@@ -5130,8 +5130,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Nidhanpur grant of Bhaskaravarman is the earliest extensive Sanskrit inscription of Kamarupa.",
-    "as": "ভাস্কৰবৰ্মনৰ নিধানপুৰ শাসন কামৰূপৰ আটাইতকৈ প্ৰাচীন বিস্তৃত সংস্কৃত শিলালিপি।"
+    "en": "The Nidhanpur copperplates of Bhaskaravarman are the earliest extensive Sanskrit inscription of Kamarupa; earlier records such as the Nagajari-Khanikargaon rock inscription are fragmentary.",
+    "as": "ভাস্কৰবৰ্মনৰ নিধনপুৰ তাম্ৰপত্ৰ কামৰূপৰ আটাইতকৈ প্ৰাচীন বিস্তৃত সংস্কৃত শিলালিপি; নগাজৰী-খনিকৰগাঁও শিলালিপিৰ দৰে পূৰ্বৰ অভিলেখ খণ্ডিত।"
    }
   },
   {
