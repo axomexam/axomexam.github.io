@@ -3127,8 +3127,8 @@ module.exports = {
   {
    "id": "indian-assam-economy-105",
    "q": {
-    "en": "The largest source of revenue for the Union Government is —",
-    "as": "সংঘ চৰকাৰৰ আয়ৰ সৰ্ববৃহৎ উৎস কি?"
+    "en": "Which of these contributes the largest share of the Union Government's indirect tax revenue?",
+    "as": "ইয়াৰ ভিতৰত কোনটোৱে সংঘ চৰকাৰৰ পৰোক্ষ কৰ ৰাজহৰ সৰ্বাধিক অংশ যোগান ধৰে?"
    },
    "options": [
     {
@@ -3150,8 +3150,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "Indirect taxes, especially GST, are the largest revenue source.",
-    "as": "পৰোক্ষ কৰ, বিশেষকৈ GST, আটাইতকৈ বৃহৎ আয়ৰ উৎস।"
+    "en": "GST is the largest single indirect tax; direct taxes as a group (income and corporation tax) are still larger than all indirect taxes together.",
+    "as": "জিএছটি সৰ্বাধিক একক পৰোক্ষ কৰ; কিন্তু সামগ্ৰিকভাৱে প্ৰত্যক্ষ কৰ (আয়কৰ আৰু নিগম কৰ) সকলো পৰোক্ষ কৰতকৈ বেছি।"
    }
   },
   {
