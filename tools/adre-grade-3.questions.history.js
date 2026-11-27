@@ -24431,8 +24431,8 @@ module.exports = {
   {
    "id": "assam-history-modern-115",
    "q": {
-    "en": "Which Assamese leader was the Chief Minister of Assam for the longest period?",
-    "as": "আটাইতকৈ দীঘলীয়া সময় অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+    "en": "Which Assamese leader served as Chief Minister in two separate terms, in 1983-85 and 1991-96?",
+    "as": "কোন অসমীয়া নেতাই ১৯৮৩-৮৫ আৰু ১৯৯১-৯৬ চনত দুটা সুকীয়া কাৰ্যকালত মুখ্যমন্ত্ৰী আছিল?"
    },
    "options": [
     {
@@ -24454,8 +24454,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Hiteswar Saikia served as Chief Minister of Assam for the longest cumulative period.",
-    "as": "হিতেশ্বৰ শইকীয়াই আটাইতকৈ দীঘলীয়া সঞ্চিত সময় অসমৰ মুখ্যমন্ত্ৰী হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+    "en": "Hiteswar Saikia held the office in 1983-85 and again in 1991-96; the longest-serving Chief Minister is Tarun Gogoi (2001-2016).",
+    "as": "হিতেশ্বৰ শইকীয়াই ১৯৮৩-৮৫ আৰু পুনৰ ১৯৯১-৯৬ চনত মুখ্যমন্ত্ৰী আছিল; সৰ্বাধিক দিন মুখ্যমন্ত্ৰী আছিল তৰুণ গগৈ (২০০১-২০১৬)।"
    }
   },
   {
@@ -25121,8 +25121,8 @@ module.exports = {
   {
    "id": "assam-history-modern-138",
    "q": {
-    "en": "Which Assamese leader was the Chief Minister during the creation of Meghalaya?",
-    "as": "মেঘালয় সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+    "en": "Which Assamese leader was Chief Minister of Assam from 1957 to 1970?",
+    "as": "কোন অসমীয়া নেতা ১৯৫৭ চনৰ পৰা ১৯৭০ চনলৈ অসমৰ মুখ্যমন্ত্ৰী আছিল?"
    },
    "options": [
     {
@@ -25144,8 +25144,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Bimala Prasad Chaliha was the Chief Minister of Assam when Meghalaya was created.",
-    "as": "মেঘালয় সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+    "en": "Bimala Prasad Chaliha was Chief Minister from December 1957 to November 1970.",
+    "as": "বিমলা প্ৰসাদ চলিহা ১৯৫৭ চনৰ ডিচেম্বৰৰ পৰা ১৯৭০ চনৰ নৱেম্বৰলৈ মুখ্যমন্ত্ৰী আছিল।"
    }
   },
   {
@@ -25361,8 +25361,8 @@ module.exports = {
   {
    "id": "assam-history-modern-146",
    "q": {
-    "en": "Which Assamese leader was the Governor of Assam?",
-    "as": "অসমৰ ৰাজ্যপাল হোৱা অসমীয়া নেতা কোন আছিল?"
+    "en": "Which Assamese leader, after serving as Chief Minister, became the Governor of Madras?",
+    "as": "কোন অসমীয়া নেতাই মুখ্যমন্ত্ৰী হোৱাৰ পিছত মাদ্ৰাজৰ ৰাজ্যপাল হৈছিল?"
    },
    "options": [
     {
@@ -25384,8 +25384,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "Bishnuram Medhi later served as the Governor of Madras, having been Chief Minister of Assam.",
-    "as": "বিষ্ণুৰাম মেধি অসমৰ মুখ্যমন্ত্ৰী হোৱাৰ পিছত মাদ্ৰাজৰ ৰাজ্যপাল হিচাপে কাৰ্যনিৰ্বাহ কৰিছিল।"
+    "en": "Bishnuram Medhi, Chief Minister of Assam in 1951-57, was Governor of Madras from 1958 to 1964.",
+    "as": "অসমৰ ১৯৫১-৫৭ চনৰ মুখ্যমন্ত্ৰী বিষ্ণুৰাম মেধি ১৯৫৮-১৯৬৪ চনলৈ মাদ্ৰাজৰ ৰাজ্যপাল আছিল।"
    }
   },
   {
@@ -25486,8 +25486,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Sarat Chandra Sinha",
-     "as": "সৰৎ চন্দ্ৰ সিংহ"
+     "en": "Mahendra Mohan Choudhury",
+     "as": "মহেন্দ্ৰ মোহন চৌধুৰী"
     },
     {
      "en": "Gopinath Bordoloi",
@@ -25504,8 +25504,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Sarat Chandra Sinha was the Chief Minister of Assam during the 1971 Bangladesh Liberation War.",
-    "as": "১৯৭১ চনৰ বাংলাদেশ মুক্তি যুদ্ধৰ সময়ত সৰৎ চন্দ্ৰ সিংহ অসমৰ মুখ্যমন্ত্ৰী আছিল।"
+    "en": "Mahendra Mohan Choudhury was Chief Minister from November 1970 to January 1972, covering the 1971 war.",
+    "as": "মহেন্দ্ৰ মোহন চৌধুৰী ১৯৭০ চনৰ নৱেম্বৰৰ পৰা ১৯৭২ চনৰ জানুৱাৰীলৈ মুখ্যমন্ত্ৰী আছিল, ১৯৭১ যুদ্ধৰ সময়ত।"
    }
   },
   {
@@ -25636,6 +25636,10 @@ module.exports = {
    },
    "options": [
     {
+     "en": "Sarat Chandra Sinha",
+     "as": "সৰৎ চন্দ্ৰ সিংহ"
+    },
+    {
      "en": "Bimala Prasad Chaliha",
      "as": "বিমলা প্ৰসাদ চলিহা"
     },
@@ -25646,16 +25650,12 @@ module.exports = {
     {
      "en": "Bishnuram Medhi",
      "as": "বিষ্ণুৰাম মেধি"
-    },
-    {
-     "en": "Sarat Chandra Sinha",
-     "as": "সৰৎ চন্দ্ৰ সিংহ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "Assam's capital later shifted from Shillong to Dispur, a process during the 1960s-70s.",
-    "as": "অসমৰ ৰাজধানী পিছত শ্বিলঙৰ পৰা দিছপুৰলৈ স্থানান্তৰিত হৈছিল, ১৯৬০-৭০ৰ দশকৰ প্ৰক্ৰিয়া।"
+    "en": "Dispur became the capital in 1973, when Sarat Chandra Sinha was Chief Minister.",
+    "as": "১৯৭৩ চনত দিছপুৰ ৰাজধানী হয়, সেই সময়ত সৰৎ চন্দ্ৰ সিংহ মুখ্যমন্ত্ৰী আছিল।"
    }
   },
   {
@@ -26206,8 +26206,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Jorhat",
-     "as": "যোৰহাট"
+     "en": "Sualkuchi",
+     "as": "শুৱালকুছি"
     },
     {
      "en": "Guwahati",
@@ -26224,8 +26224,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Jorhat is sometimes known as the Manchester of Assam for its industries and institutions.",
-    "as": "উদ্যোগ আৰু প্ৰতিষ্ঠানৰ বাবে যোৰহাট কেতিয়াবা অসমৰ মাঞ্চেষ্টাৰ হিচাপে জনা যায়।"
+    "en": "Sualkuchi, the silk-weaving town on the Brahmaputra, is called the Manchester of Assam.",
+    "as": "ব্ৰহ্মপুত্ৰৰ পাৰৰ পাটবোৱা নগৰ শুৱালকুছিক অসমৰ মাঞ্চেষ্টাৰ বোলা হয়।"
    }
   },
   {
@@ -29081,8 +29081,8 @@ module.exports = {
   {
    "id": "assam-history-modern-270",
    "q": {
-    "en": "Which Assamese leader was Chief Minister during the creation of Meghalaya and Mizoram?",
-    "as": "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?"
+    "en": "Which Assamese leader held the office of Chief Minister of Assam from 1957 to 1970?",
+    "as": "কোন অসমীয়া নেতাই ১৯৫৭ চনৰ পৰা ১৯৭০ চনলৈ অসমৰ মুখ্যমন্ত্ৰী পদত আছিল?"
    },
    "options": [
     {
@@ -29104,8 +29104,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Bimala Prasad Chaliha was Chief Minister during the creation of Meghalaya and Mizoram.",
-    "as": "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা মুখ্যমন্ত্ৰী আছিল।"
+    "en": "Bimala Prasad Chaliha was Chief Minister from 1957 to 1970; Meghalaya and Mizoram were made Union Territories in 1972, under Mahendra Mohan Choudhury.",
+    "as": "বিমলা প্ৰসাদ চলিহা ১৯৫৭-১৯৭০ চনলৈ মুখ্যমন্ত্ৰী আছিল; ১৯৭২ চনত মেঘালয় আৰু মিজোৰামক কেন্দ্ৰীয় শাসিত অঞ্চল কৰা হয়, মহেন্দ্ৰ মোহন চৌধুৰীৰ সময়ত।"
    }
   },
   {
@@ -29501,31 +29501,31 @@ module.exports = {
   {
    "id": "assam-history-modern-284",
    "q": {
-    "en": "Which Assamese athlete won an Olympic medal?",
-    "as": "কোন অসমীয়া ক্ৰীড়াবিদে অলিম্পিক পদক জিকিছিল?"
+    "en": "Which Assamese boxer won a bronze medal at the Tokyo 2020 Olympic Games?",
+    "as": "কোন অসমীয়া মুষ্টিযোদ্ধাই টকিঅ' ২০২০ অলিম্পিকত ব্ৰঞ্জৰ পদক জিকিছিল?"
    },
    "options": [
     {
-     "en": "Several",
-     "as": "কেইবাজনো"
+     "en": "Hima Das",
+     "as": "হিমা দাস"
     },
     {
-     "en": "Many",
-     "as": "বহুজনে"
+     "en": "Shiva Thapa",
+     "as": "শিৱ থাপা"
     },
     {
-     "en": "All",
-     "as": "সকলোৱে"
+     "en": "Jamuna Boro",
+     "as": "যমুনা বৰো"
     },
     {
-     "en": "No Assamese athlete has won an individual Olympic medal",
-     "as": "কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই"
+     "en": "Lovlina Borgohain",
+     "as": "লাভলীনা বৰগোঁহাই"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "No Assamese athlete has yet won an individual Olympic medal.",
-    "as": "এতিয়ালৈকে কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই।"
+    "en": "Lovlina Borgohain of Golaghat won bronze in the women's welterweight category at Tokyo 2020.",
+    "as": "গোলাঘাটৰ লাভলীনা বৰগোঁহাইয়ে টকিঅ' ২০২০ ত মহিলাৰ ৱেলটাৰৱেইট শাখাত ব্ৰঞ্জৰ পদক জিকিছিল।"
    }
   },
   {
@@ -29711,8 +29711,8 @@ module.exports = {
   {
    "id": "assam-history-modern-291",
    "q": {
-    "en": "Which Assamese boxer is known as 'Magnificent Mary'?",
-    "as": "কোন অসমীয়া বক্সাৰক 'মেগনিফিচেণ্ট মেৰী' বুলি জনা যায়?"
+    "en": "Which boxer from the North East is known as Magnificent Mary?",
+    "as": "উত্তৰ-পূব ভাৰতৰ কোন মুষ্টিযোদ্ধাক মেগনিফিচেণ্ট মেৰী বুলি জনা যায়?"
    },
    "options": [
     {
@@ -29734,8 +29734,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Mary Kom, a boxer from Manipur who trained in Assam, is known as 'Magnificent Mary'.",
-    "as": "মেৰী কম, মণিপুৰৰ এগৰাকী বক্সাৰ যিয়ে অসমত প্ৰশিক্ষণ লৈছিল, 'মেগনিফিচেণ্ট মেৰী' নামেৰে জনা যায়।"
+    "en": "M. C. Mary Kom of Manipur is known as Magnificent Mary; she is not from Assam.",
+    "as": "মণিপুৰৰ এম. চি. মেৰী কমক মেগনিফিচেণ্ট মেৰী বুলি জনা যায়; তেওঁ অসমৰ নহয়।"
    }
   },
   {

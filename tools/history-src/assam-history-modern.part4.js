@@ -70,8 +70,8 @@ module.exports = [
   "বিমলা প্ৰসাদ চলিহা ১৯৫০ আৰু ১৯৬০ৰ দশকত অসমৰ এজন বিশিষ্ট কংগ্ৰেছ মুখ্যমন্ত্ৰী আছিল।"
  ],
  [
-  "Which Assamese leader was Chief Minister during the creation of Meghalaya and Mizoram?",
-  "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত অসমৰ মুখ্যমন্ত্ৰী কোন আছিল?",
+  "Which Assamese leader held the office of Chief Minister of Assam from 1957 to 1970?",
+  "কোন অসমীয়া নেতাই ১৯৫৭ চনৰ পৰা ১৯৭০ চনলৈ অসমৰ মুখ্যমন্ত্ৰী পদত আছিল?",
   [
    "Bimala Prasad Chaliha",
    "বিমলা প্ৰসাদ চলিহা",
@@ -83,8 +83,8 @@ module.exports = [
    "হিতেশ্বৰ শইকীয়া"
   ],
   0,
-  "Bimala Prasad Chaliha was Chief Minister during the creation of Meghalaya and Mizoram.",
-  "মেঘালয় আৰু মিজোৰাম সৃষ্টিৰ সময়ত বিমলা প্ৰসাদ চলিহা মুখ্যমন্ত্ৰী আছিল।"
+  "Bimala Prasad Chaliha was Chief Minister from 1957 to 1970; Meghalaya and Mizoram were made Union Territories in 1972, under Mahendra Mohan Choudhury.",
+  "বিমলা প্ৰসাদ চলিহা ১৯৫৭-১৯৭০ চনলৈ মুখ্যমন্ত্ৰী আছিল; ১৯৭২ চনত মেঘালয় আৰু মিজোৰামক কেন্দ্ৰীয় শাসিত অঞ্চল কৰা হয়, মহেন্দ্ৰ মোহন চৌধুৰীৰ সময়ত।"
  ],
  [
   "Which Assamese leader was Chief Minister during the 1960 language movement?",
@@ -308,21 +308,21 @@ module.exports = [
   "সৰুসজাই ক্ৰীড়া কমপ্লেক্স অসমৰ গুৱাহাটীত অৱস্থিত।"
  ],
  [
-  "Which Assamese athlete won an Olympic medal?",
-  "কোন অসমীয়া ক্ৰীড়াবিদে অলিম্পিক পদক জিকিছিল?",
+  "Which Assamese boxer won a bronze medal at the Tokyo 2020 Olympic Games?",
+  "কোন অসমীয়া মুষ্টিযোদ্ধাই টকিঅ' ২০২০ অলিম্পিকত ব্ৰঞ্জৰ পদক জিকিছিল?",
   [
-   "No Assamese athlete has won an individual Olympic medal",
-   "কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই",
-   "Several",
-   "কেইবাজনো",
-   "Many",
-   "বহুজনে",
-   "All",
-   "সকলোৱে"
+   "Lovlina Borgohain",
+   "লাভলীনা বৰগোঁহাই",
+   "Hima Das",
+   "হিমা দাস",
+   "Shiva Thapa",
+   "শিৱ থাপা",
+   "Jamuna Boro",
+   "যমুনা বৰো"
   ],
   0,
-  "No Assamese athlete has yet won an individual Olympic medal.",
-  "এতিয়ালৈকে কোনো অসমীয়া ক্ৰীড়াবিদে ব্যক্তিগত অলিম্পিক পদক জিকা নাই।"
+  "Lovlina Borgohain of Golaghat won bronze in the women's welterweight category at Tokyo 2020.",
+  "গোলাঘাটৰ লাভলীনা বৰগোঁহাইয়ে টকিঅ' ২০২০ ত মহিলাৰ ৱেলটাৰৱেইট শাখাত ব্ৰঞ্জৰ পদক জিকিছিল।"
  ],
  [
   "Which Assamese boxer won a medal at the world level?",
@@ -427,8 +427,8 @@ module.exports = [
   "হিমা দাস অসমৰ নগাঁও জিলাৰ ঢিঙত জন্মগ্ৰহণ কৰিছিল।"
  ],
  [
-  "Which Assamese boxer is known as 'Magnificent Mary'?",
-  "কোন অসমীয়া বক্সাৰক 'মেগনিফিচেণ্ট মেৰী' বুলি জনা যায়?",
+  "Which boxer from the North East is known as Magnificent Mary?",
+  "উত্তৰ-পূব ভাৰতৰ কোন মুষ্টিযোদ্ধাক মেগনিফিচেণ্ট মেৰী বুলি জনা যায়?",
   [
    "Mary Kom",
    "মেৰী কম",
@@ -440,8 +440,8 @@ module.exports = [
    "সুশীল কুমাৰ"
   ],
   0,
-  "Mary Kom, a boxer from Manipur who trained in Assam, is known as 'Magnificent Mary'.",
-  "মেৰী কম, মণিপুৰৰ এগৰাকী বক্সাৰ যিয়ে অসমত প্ৰশিক্ষণ লৈছিল, 'মেগনিফিচেণ্ট মেৰী' নামেৰে জনা যায়।"
+  "M. C. Mary Kom of Manipur is known as Magnificent Mary; she is not from Assam.",
+  "মণিপুৰৰ এম. চি. মেৰী কমক মেগনিফিচেণ্ট মেৰী বুলি জনা যায়; তেওঁ অসমৰ নহয়।"
  ],
  [
   "Which Assamese institution is the premier research institute for tea?",
