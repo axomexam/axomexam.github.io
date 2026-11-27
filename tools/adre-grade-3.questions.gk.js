@@ -40247,31 +40247,31 @@ module.exports = {
   {
    "id": "india-rivers-mountains-states-004",
    "q": {
-    "en": "Which river is a tributary of the Yamuna?",
-    "as": "কোন নদী Yamunaৰ উপনৈ?"
+    "en": "Which river joins the Ganga at Prayagraj?",
+    "as": "প্ৰয়াগৰাজত কোন নদীয়ে গংগাত লগ লাগে?"
    },
    "options": [
     {
-     "en": "Bhima",
-     "as": "ভীমা"
+     "en": "Yamuna",
+     "as": "যমুনা"
     },
     {
-     "en": "Sabarmati",
-     "as": "সাবৰমতী"
+     "en": "Ganga",
+     "as": "গংগা"
     },
     {
      "en": "Indus",
      "as": "সিন্ধু"
     },
     {
-     "en": "Ganga",
-     "as": "গংগা"
+     "en": "Narmada",
+     "as": "নৰ্মদা"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
-    "en": "The Ganga is a tributary of the Yamuna.",
-    "as": "গংগা Yamunaৰ উপনৈ।"
+    "en": "The Yamuna river joins the Ganga at Prayagraj.",
+    "as": "যমুনা নদীয়ে প্ৰয়াগৰাজত গংগাত লগ লাগে।"
    }
   },
   {
@@ -40607,8 +40607,8 @@ module.exports = {
   {
    "id": "india-rivers-mountains-states-016",
    "q": {
-    "en": "Which river is a tributary of the Arabian Sea?",
-    "as": "কোন নদী Arabian Seaৰ উপনৈ?"
+    "en": "Which of these rivers flows through Ladakh and drains into the Arabian Sea?",
+    "as": "এই নদীসমূহৰ কোনখনে লাডাখৰ মাজেৰে বৈ আৰব সাগৰত পৰে?"
    },
    "options": [
     {
@@ -40630,8 +40630,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The Indus is a tributary of the Arabian Sea.",
-    "as": "সিন্ধু Arabian Seaৰ উপনৈ।"
+    "en": "The Indus flows through Ladakh and drains into the Arabian Sea.",
+    "as": "সিন্ধু নদী লাডাখৰ মাজেৰে বৈ আৰব সাগৰত পৰে।"
    }
   },
   {
@@ -40757,8 +40757,8 @@ module.exports = {
   {
    "id": "india-rivers-mountains-states-021",
    "q": {
-    "en": "Which river is a tributary of the Bay of Bengal?",
-    "as": "কোন নদী Bay of Bengalৰ উপনৈ?"
+    "en": "Which of these rivers is the longest river of peninsular India?",
+    "as": "এই নদীসমূহৰ কোনখন উপদ্বীপীয় ভাৰতৰ আটাইতকৈ দীঘল নদী?"
    },
    "options": [
     {
@@ -40780,8 +40780,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "The Godavari is a tributary of the Bay of Bengal.",
-    "as": "গোদাবৰী Bay of Bengalৰ উপনৈ।"
+    "en": "The Godavari is the longest river of peninsular India.",
+    "as": "গোদাবৰী উপদ্বীপীয় ভাৰতৰ আটাইতকৈ দীঘল নদী।"
    }
   },
   {
@@ -44327,8 +44327,8 @@ module.exports = {
   {
    "id": "india-rivers-mountains-states-140",
    "q": {
-    "en": "Which is the highest peak of the Shivalik Hills?",
-    "as": "শিৱালিক পাহাৰৰ সৰ্বোচ্চ শৃংগ কোন?"
+    "en": "Which of these peaks lies in the Shivalik Hills?",
+    "as": "এই শৃংগসমূহৰ কোনটো শিৱালিক পাহাৰত অৱস্থিত?"
    },
    "options": [
     {
@@ -44350,8 +44350,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Kasauli is the highest peak of the Shivalik Hills.",
-    "as": "কাছাউলী শিৱালিক পাহাৰৰ সৰ্বোচ্চ শৃংগ।"
+    "en": "Kasauli lies in the Shivalik Hills of Himachal Pradesh.",
+    "as": "কাছাউলী হিমাচল প্ৰদেশৰ শিৱালিক পাহাৰত অৱস্থিত।"
    }
   },
   {
@@ -44387,8 +44387,8 @@ module.exports = {
   {
    "id": "india-rivers-mountains-states-142",
    "q": {
-    "en": "Which mountain range has Kasauli as its highest peak?",
-    "as": "কোন পৰ্বতমালাৰ সৰ্বোচ্চ শৃংগ কাছাউলী?"
+    "en": "Which range forms the outermost foothills of the Himalayas in the south?",
+    "as": "দক্ষিণে হিমালয়ৰ আটাইতকৈ বাহিৰৰ পাদদেশ কোন পৰ্বতমালাই গঠন কৰে?"
    },
    "options": [
     {
@@ -44410,8 +44410,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "Kasauli is the highest peak of the Shivalik Hills.",
-    "as": "কাছাউলী শিৱালিক পাহাৰৰ সৰ্বোচ্চ শৃংগ।"
+    "en": "The Shivalik Hills form the outermost foothills of the Himalayas.",
+    "as": "শিৱালিক পাহাৰে হিমালয়ৰ আটাইতকৈ বাহিৰৰ পাদদেশ গঠন কৰে।"
    }
   },
   {
@@ -47528,10 +47528,10 @@ module.exports = {
      "as": "কে-২"
     }
    ],
-   "correct": 1,
+   "correct": 2,
    "explanation": {
-    "en": "Kangchenjunga is the highest peak entirely within India.",
-    "as": "কাঞ্চনজঙ্ঘা সম্পূৰ্ণৰূপে ভাৰতত অৱস্থিত সৰ্বোচ্চ শৃংগ।"
+    "en": "Nanda Devi is the highest peak located entirely within India, as Kangchenjunga lies on the India-Nepal border.",
+    "as": "নন্দা দেৱী সম্পূৰ্ণৰূপে ভাৰতত অৱস্থিত সৰ্বোচ্চ শৃংগ; কাঞ্চনজঙ্ঘা ভাৰত-নেপাল সীমাত অৱস্থিত।"
    }
   },
   {
