@@ -15,6 +15,7 @@
 "use strict";
 
 const fs = require("fs");
+const crypto = require("crypto");
 const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
@@ -30,10 +31,19 @@ const BOOK = opt("--book");
 const ALL = flag("--all");
 const AS_JSON = flag("--json");
 
+// Keep maths symbols: "+" vs "-" and "<" vs ">" carry the meaning of the option.
 const norm = (s) =>
   String(s || "")
     .toLowerCase()
-    .replace(/[^a-z0-9\u0980-\u09ff]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/[.?!]+$/, "");
+
+// Only for work/person titles, where punctuation is noise.
+const normTitle = (s) =>
+  norm(s)
+    .replace(/[^a-z0-9\u0980-\u09ff ]+/g, " ")
+    .replace(/\s+/g, " ")
     .trim();
 
 function walk(dir, out) {
@@ -86,17 +96,23 @@ for (const file of files) {
       return;
     }
     if (!q.q.en || !q.q.as) broken.push({ file, id, why: "question not bilingual" });
+    const isFig = (o) => o && (o.fig || o.svg || o.img);
     if (!q.explanation.en || !q.explanation.as) broken.push({ file, id, why: "explanation not bilingual" });
+    q.options.forEach((o, k) => {
+      if (!isFig(o) && (!o || !o.en || !o.as)) broken.push({ file, id, why: "option " + "ABCD"[k] + " not bilingual" });
+    });
     if (typeof q.correct !== "number" || q.correct < 0 || q.correct >= q.options.length) {
       broken.push({ file, id, why: "correct index out of range: " + q.correct });
       return;
     }
-    const opts = q.options.map((o) => norm(o && o.en));
+    // figure options carry an svg in `fig` and legitimately have no text
+    const opts = q.options.map((o) => (isFig(o) ? "FIG:" + String(o.fig || o.svg || o.img) : norm(o && o.en)));
     if (opts.some((o) => !o)) broken.push({ file, id, why: "blank option" });
     if (new Set(opts).size !== opts.length) broken.push({ file, id, why: "duplicate options" });
 
     total++;
-    const stem = norm(q.q.en);
+    const figKey = q.fig ? crypto.createHash("md5").update(String(q.fig)).digest("hex") : "";
+    const stem = norm(q.q.en) + (figKey ? " ||FIG:" + figKey : "");
     const answer = norm(q.options[q.correct].en);
 
     if (!byStem.has(stem)) byStem.set(stem, new Map());
@@ -114,7 +130,7 @@ for (const file of files) {
     if (WORK_Q.test(q.q.en)) {
       const m = q.q.en.match(/['"'\u2018\u2019]([^'"'\u2018\u2019]{3,60})['"'\u2019\u2018]/);
       if (m) {
-        const w = norm(m[1]);
+        const w = norm(q.q.en) + " || " + normTitle(m[1]);
         if (!byWork.has(w)) byWork.set(w, new Map());
         const wm = byWork.get(w);
         if (!wm.has(answer)) wm.set(answer, []);
