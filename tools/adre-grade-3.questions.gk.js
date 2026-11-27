@@ -69540,8 +69540,8 @@ module.exports = {
      "as": "১৯৫২"
     },
     {
-     "en": "1986",
-     "as": "১৯৮৬"
+     "en": "1960",
+     "as": "১৯৬০"
     },
     {
      "en": "1950",
@@ -69552,10 +69552,10 @@ module.exports = {
      "as": "১৯৫৪"
     }
    ],
-   "correct": 2,
+   "correct": 1,
    "explanation": {
-    "en": "Nau Sena Medal was instituted in 1950.",
-    "as": "নৌ সেনা মেডেল 1950 চনত প্ৰৱৰ্তন কৰা হৈছিল।"
+    "en": "The Nau Sena Medal was instituted on 26 January 1960.",
+    "as": "নৌ সেনা মেডেল ১৯৬০ চনৰ ২৬ জানুৱাৰীত প্ৰৱৰ্তন কৰা হৈছিল।"
    }
   },
   {
@@ -92097,8 +92097,8 @@ module.exports = {
   {
    "id": "assam-india-current-affairs-017",
    "q": {
-    "en": "Which boxer from Assam won a medal at the Paris Olympics 2024?",
-    "as": "পেৰিছ অলিম্পিক ২০২৪ ত অসমৰ কোন বক্সাৰে পদক লাভ কৰিছিল?"
+    "en": "Which boxer from Assam won a bronze medal at the Tokyo Olympics 2020?",
+    "as": "টকিঅ' অলিম্পিক ২০২০ ত অসমৰ কোন বক্সাৰে ব্ৰঞ্জৰ পদক লাভ কৰিছিল?"
    },
    "options": [
     {
@@ -92120,8 +92120,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "Lovlina Borgohain won a medal at the Paris Olympics 2024.",
-    "as": "লাভলীনা বৰগোহাঁই পেৰিছ অলিম্পিক ২০২৪ ত পদক লাভ কৰিছিল।"
+    "en": "Lovlina Borgohain won a bronze medal in the women's welterweight boxing event at the Tokyo Olympics 2020.",
+    "as": "লাভলীনা বৰগোহাঁই টকিঅ' অলিম্পিক ২০২০ ত মহিলাৰ ৱেলটাৰৱেইট বক্সিঙত ব্ৰঞ্জৰ পদক লাভ কৰিছিল।"
    }
   },
   {
@@ -94527,8 +94527,8 @@ module.exports = {
   {
    "id": "assam-india-current-affairs-098",
    "q": {
-    "en": "Which country will host the 2026 Commonwealth Games?",
-    "as": "২০২৬ চনৰ কমনৱেলথ গেমছ কোন দেশে আয়োজন কৰিব?"
+    "en": "Which country hosted the 2026 Commonwealth Games?",
+    "as": "২০২৬ চনৰ কমনৱেলথ গেমছ কোন দেশে আয়োজন কৰিছিল?"
    },
    "options": [
     {
@@ -94540,18 +94540,18 @@ module.exports = {
      "as": "কানাডা"
     },
     {
-     "en": "England",
-     "as": "ইংলেণ্ড"
+     "en": "Scotland",
+     "as": "স্কটলেণ্ড"
     },
     {
      "en": "Australia",
      "as": "অষ্ট্ৰেলিয়া"
     }
    ],
-   "correct": 3,
+   "correct": 2,
    "explanation": {
-    "en": "Australia will host the 2026 Commonwealth Games in Glasgow (Scotland).",
-    "as": "অষ্ট্ৰেলিয়া স্কটলেণ্ডৰ গ্লাছগোত ২০২৬ কমনৱেলথ গেমছ আয়োজন কৰিব।"
+    "en": "The 2026 Commonwealth Games were held in Glasgow, Scotland.",
+    "as": "২০২৬ চনৰ কমনৱেলথ গেমছ স্কটলেণ্ডৰ গ্লাছগোত অনুষ্ঠিত হৈছিল।"
    }
   },
   {
