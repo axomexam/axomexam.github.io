@@ -12494,16 +12494,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Kaziranga",
-     "as": "কাজিৰঙা"
+     "en": "Manas",
+     "as": "মানস"
     },
     {
      "en": "Nameri",
      "as": "নামেৰি"
     },
     {
-     "en": "Manas",
-     "as": "মানস"
+     "en": "Kaziranga",
+     "as": "কাজিৰঙা"
     },
     {
      "en": "Orang",

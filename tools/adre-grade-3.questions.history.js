@@ -1966,12 +1966,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
@@ -1996,16 +1996,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Salastambha",
+     "as": "শালস্তম্ভ"
     },
     {
      "en": "Brahmapala",
      "as": "ব্ৰহ্মপাল"
     },
     {
-     "en": "Salastambha",
-     "as": "শালস্তম্ভ"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2206,16 +2206,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2292,16 +2292,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -2356,12 +2356,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
@@ -2416,12 +2416,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -2446,16 +2446,16 @@ module.exports = {
      "as": "কেৱল বৰাক উপত্যকা"
     },
     {
-     "en": "The Brahmaputra valley and adjoining Bengal frontier",
-     "as": "ব্ৰহ্মপুত্ৰ উপত্যকা আৰু ওচৰৰ বংগ সীমান্ত"
+     "en": "The whole of eastern India",
+     "as": "সমগ্ৰ পূব ভাৰত"
     },
     {
      "en": "Only the hill tracts",
      "as": "কেৱল পাহাৰীয়া অঞ্চল"
     },
     {
-     "en": "The whole of eastern India",
-     "as": "সমগ্ৰ পূব ভাৰত"
+     "en": "The Brahmaputra valley and adjoining Bengal frontier",
+     "as": "ব্ৰহ্মপুত্ৰ উপত্যকা আৰু ওচৰৰ বংগ সীমান্ত"
     }
    ],
    "correct": 3,
@@ -2476,16 +2476,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Samudravarman",
+     "as": "সমুদ্ৰভৰ্মন"
     },
     {
      "en": "Balavarman",
      "as": "বলভৰ্মন"
     },
     {
-     "en": "Samudravarman",
-     "as": "সমুদ্ৰভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2536,12 +2536,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -2716,16 +2716,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2746,16 +2746,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
      "as": "স্থিতভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2806,12 +2806,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Balavarman",
@@ -2836,12 +2836,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Balavarman",
      "as": "বলভৰ্মন"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -2926,16 +2926,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -2986,12 +2986,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -3016,16 +3016,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Salastambha",
+     "as": "শালস্তম্ভ"
     },
     {
      "en": "Brahmapala",
      "as": "ব্ৰহ্মপাল"
     },
     {
-     "en": "Salastambha",
-     "as": "শালস্তম্ভ"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -3046,16 +3046,16 @@ module.exports = {
      "as": "কেৱল জনজাতীয়"
     },
     {
-     "en": "Centralised monarchy with feudal land grants",
-     "as": "ভূমি দানৰ সৈতে কেন্দ্ৰীভূত ৰাজতন্ত্ৰ"
+     "en": "Republican councils",
+     "as": "গণতন্ত্ৰীয় পৰিষদ"
     },
     {
      "en": "Theocratic rule only",
      "as": "কেৱল ধৰ্মতন্ত্ৰ"
     },
     {
-     "en": "Republican councils",
-     "as": "গণতন্ত্ৰীয় পৰিষদ"
+     "en": "Centralised monarchy with feudal land grants",
+     "as": "ভূমি দানৰ সৈতে কেন্দ্ৰীভূত ৰাজতন্ত্ৰ"
     }
    ],
    "correct": 3,
@@ -3076,12 +3076,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Balavarman",
      "as": "বলভৰ্মন"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Samudravarman",
@@ -3136,16 +3136,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
      "as": "স্থিতভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -3166,12 +3166,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Balavarman",
@@ -3192,16 +3192,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -3252,16 +3252,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
@@ -3282,16 +3282,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Salastambha",
-     "as": "শালস্তম্ভ"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Salastambha",
+     "as": "শালস্তম্ভ"
     },
     {
      "en": "Brahmapala",
@@ -3346,12 +3346,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -3406,12 +3406,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -3496,12 +3496,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -3522,16 +3522,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Sthitavarman",
@@ -4876,12 +4876,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -4936,12 +4936,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Brahmapala",
      "as": "ব্ৰহ্মপাল"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Sandhya",
@@ -5056,12 +5056,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -5146,12 +5146,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -5266,12 +5266,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
-    },
-    {
      "en": "Brahmapala",
      "as": "ব্ৰহ্মপাল"
+    },
+    {
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Sandhya",
@@ -5296,12 +5296,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -5356,12 +5356,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -5416,16 +5416,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
      "as": "সন্ধ্যা"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -5476,16 +5476,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
      "as": "সন্ধ্যা"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -5836,16 +5836,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Balavarman",
+     "as": "বলভৰ্মন"
     },
     {
      "en": "Samudravarman",
      "as": "সমুদ্ৰভৰ্মন"
     },
     {
-     "en": "Balavarman",
-     "as": "বলভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -7902,16 +7902,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Samudravarman",
-     "as": "সমুদ্ৰভৰ্মন"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     },
     {
      "en": "Pushyavarman",
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Samudravarman",
+     "as": "সমুদ্ৰভৰ্মন"
     },
     {
      "en": "Balavarman",
@@ -7936,12 +7936,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -9556,16 +9556,16 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Bhaskaravarman",
-     "as": "ভাস্কৰবৰ্মন"
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
      "as": "সন্ধ্যা"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
+     "en": "Bhaskaravarman",
+     "as": "ভাস্কৰবৰ্মন"
     }
    ],
    "correct": 3,
@@ -9586,12 +9586,12 @@ module.exports = {
      "as": "পুষ্যভৰ্মন"
     },
     {
-     "en": "Brahmapala",
-     "as": "ব্ৰহ্মপাল"
-    },
-    {
      "en": "Bhaskaravarman",
      "as": "ভাস্কৰবৰ্মন"
+    },
+    {
+     "en": "Brahmapala",
+     "as": "ব্ৰহ্মপাল"
     },
     {
      "en": "Sandhya",
@@ -10694,8 +10694,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "Suhungmung",
-     "as": "চুহুংমুং"
+     "en": "Sukapha",
+     "as": "চুকাফা"
     },
     {
      "en": "Suklenmung",
@@ -10706,8 +10706,8 @@ module.exports = {
      "as": "চুচেংফা"
     },
     {
-     "en": "Sukapha",
-     "as": "চুকাফা"
+     "en": "Suhungmung",
+     "as": "চুহুংমুং"
     }
    ],
    "correct": 3,
@@ -21851,7 +21851,7 @@ module.exports = {
   {
    "id": "assam-history-modern-029",
    "q": {
-    "en": "Who is regarded as the 'Father of Assamese prose'?",
+    "en": "Who is regarded as the 'Father of modern Assamese prose'?",
     "as": "'অসমীয়া গদ্যৰ পিতৃ' কোন বুলি গণ্য কৰা হয়?"
    },
    "options": [

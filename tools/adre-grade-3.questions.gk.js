@@ -40026,7 +40026,7 @@ module.exports = {
      "as": "শোণিতপুৰ"
     }
    ],
-   "correct": 3,
+   "correct": 0,
    "explanation": {
     "en": "Sonitpur is one of the largest tea producing districts of Assam.",
     "as": "শোণিতপুৰ অসমৰ আটাইতকৈ ডাঙৰ চাহ উৎপাদক জিলাসমূহৰ এটা।"

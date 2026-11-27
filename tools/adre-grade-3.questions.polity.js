@@ -11379,7 +11379,7 @@ module.exports = {
   {
    "id": "president-pm-governor-cm-173",
    "q": {
-    "en": "The President can nominate two members to the Lok Sabha to represent the —",
+    "en": "Before 2020, the President could nominate two members to the Lok Sabha to represent the —",
     "as": "ৰাষ্ট্ৰপতিয়ে লোকসভালৈ দুজন সদস্য মনোনীত কৰি কাক প্ৰতিনিধিত্ব কৰিব পাৰে?"
    },
    "options": [

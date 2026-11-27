@@ -12,26 +12,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "sterile",
-     "as": "উৰ্বৰাহীন"
-    },
-    {
      "en": "desert",
-     "as": "মৰুভূমি"
+     "as": "এৰি দিয়া"
     },
     {
-     "en": "steady",
-     "as": "স্থিৰ"
+     "en": "leave",
+     "as": "এৰি যোৱা"
+    },
+    {
+     "en": "forsake",
+     "as": "পৰিত্যাগ কৰা"
     },
     {
      "en": "retain",
-     "as": "ৰাখি থোৱা"
+     "as": "ধৰি ৰখা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'retain' is an antonym of 'abandon'; it has the opposite meaning.",
-    "as": "'retain' (ৰাখি থোৱা) হৈছে 'abandon' (পৰিত্যাগ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Abandon' means to leave something behind for good — to abandon a plan. Its opposite is 'retain'. 'Desert', 'leave' and 'forsake' all move in the same direction as abandon.",
+    "as": "'Abandon' মানে এৰি দিয়া — পৰিকল্পনা এৰি দিয়া। ওলোটা 'retain'। 'Desert', 'leave' আৰু 'forsake' একেই দিশে যায়।"
    }
   },
   {
@@ -43,25 +43,25 @@ module.exports = {
    "options": [
     {
      "en": "abrogate",
-     "as": "ৰদ কৰা"
+     "as": "বিলোপ কৰা"
     },
     {
      "en": "establish",
      "as": "প্ৰতিষ্ঠা কৰা"
     },
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "repeal",
+     "as": "ৰদ কৰা"
     },
     {
-     "en": "recent",
-     "as": "শেহতীয়া"
+     "en": "scrap",
+     "as": "বাতিল কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'establish' is an antonym of 'abolish'; it has the opposite meaning.",
-    "as": "'establish' (প্ৰতিষ্ঠা কৰা) হৈছে 'abolish' (বিলুপ্ত কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Abolish' means to put an end to a law or system — to abolish a tax. Its opposite is 'establish'. 'Abrogate', 'repeal' and 'scrap' all move with abolish.",
+    "as": "'Abolish' মানে বিলোপ কৰা — কৰ বিলোপ। ওলোটা 'establish'। 'Abrogate', 'repeal' আৰু 'scrap' একেই দিশে যায়।"
    }
   },
   {
@@ -102,26 +102,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
+     "en": "ridiculous",
      "as": "হাস্যকৰ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "silly",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
      "en": "sensible",
-     "as": "বিচক্ষণ"
+     "as": "বিচাৰবুদ্ধিসম্পন্ন"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'sensible' is an antonym of 'absurd'; it has the opposite meaning.",
-    "as": "'sensible' (বিচক্ষণ) হৈছে 'absurd' (অযৌক্তিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Absurd' means wildly unreasonable — an absurd claim. Its opposite is 'sensible', meaning showing good judgement. 'Ridiculous' and 'silly' mean the same as absurd, and 'ordinary' means unremarkable.",
+    "as": "'Absurd' মানে অযৌক্তিক — absurd claim। ইয়াৰ ওলোটা 'sensible', অৰ্থাৎ বিচাৰবুদ্ধিসম্পন্ন। 'Ridiculous' আৰু 'silly' absurd ৰ সমাৰ্থক, 'ordinary' সাধাৰণ।"
    }
   },
   {
@@ -162,26 +162,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "bring in",
-     "as": "আনিব"
+     "en": "receive",
+     "as": "পোৱা"
     },
     {
      "en": "reject",
-     "as": "প্ৰত্যাখ্যান কৰা"
+     "as": "নাকচ কৰা"
     },
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "take",
+     "as": "লোৱা"
     },
     {
-     "en": "import",
-     "as": "আমদানি কৰা"
+     "en": "approve",
+     "as": "অনুমোদন কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'reject' is an antonym of 'accept'; it has the opposite meaning.",
-    "as": "'reject' (প্ৰত্যাখ্যান কৰা) হৈছে 'accept' (স্বীকাৰ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Accept' means to agree to take something — to accept an offer. Its opposite is 'reject', meaning to refuse it. 'Receive', 'take' and 'approve' all move in the same direction as accept.",
+    "as": "'Accept' মানে গ্ৰহণ কৰা — প্ৰস্তাৱ গ্ৰহণ। ইয়াৰ ওলোটা 'reject', নাকচ কৰা। 'Receive', 'take' আৰু 'approve' accept ৰ দিশতেই যায়।"
    }
   },
   {
@@ -192,26 +192,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "correct",
+     "as": "শুদ্ধ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "exact",
+     "as": "নিখুঁত"
     },
     {
      "en": "inaccurate",
-     "as": "অসঠিক"
+     "as": "অশুদ্ধ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "precise",
+     "as": "সূক্ষ্ম"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'inaccurate' is an antonym of 'accurate'; it has the opposite meaning.",
-    "as": "'inaccurate' (অসঠিক) হৈছে 'accurate' (সঠিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Accurate' means correct in every detail — an accurate figure. Its opposite is 'inaccurate'. 'Correct', 'exact' and 'precise' all mean the same as accurate, so none of them is the opposite.",
+    "as": "'Accurate' মানে নিখুঁত — accurate figure। ইয়াৰ ওলোটা 'inaccurate'। 'Correct', 'exact' আৰু 'precise' accurate ৰ সমাৰ্থক, ওলোটা নহয়।"
    }
   },
   {
@@ -222,26 +222,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "certain",
-     "as": "নিশ্চিত"
+     "en": "clear",
+     "as": "নিৰ্দোষ কৰা"
     },
     {
      "en": "convict",
      "as": "দোষী সাব্যস্ত কৰা"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "free",
+     "as": "মুক্ত কৰা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "exonerate",
+     "as": "দোষমুক্ত কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'convict' is an antonym of 'acquit'; it has the opposite meaning.",
-    "as": "'convict' (দোষী সাব্যস্ত কৰা) হৈছে 'acquit' (দোষমুক্ত কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Acquit' means to declare someone not guilty — the court acquitted him. Its opposite is 'convict', meaning to find guilty. 'Clear', 'free' and 'exonerate' all move in the same direction as acquit.",
+    "as": "'Acquit' মানে নিৰ্দোষ ঘোষণা কৰা — আদালতে তেওঁক নিৰ্দোষ কৰিলে। ওলোটা 'convict'। 'Clear', 'free' আৰু 'exonerate' একেই দিশে যায়।"
    }
   },
   {
@@ -256,22 +256,22 @@ module.exports = {
      "as": "নমনীয়"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "firm",
+     "as": "দৃঢ়"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "stubborn",
+     "as": "জেদী"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "unyielding",
+     "as": "অনমনীয়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'flexible' is an antonym of 'adamant'; it has the opposite meaning.",
-    "as": "'flexible' (নমনীয়) হৈছে 'adamant' (অটল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Adamant' means refusing to be persuaded — adamant about the date. Its opposite is 'flexible', meaning willing to change. 'Firm', 'stubborn' and 'unyielding' all describe the same refusal.",
+    "as": "'Adamant' মানে নেৰানেপেৰা — তাৰিখৰ বিষয়ে অটল। ওলোটা 'flexible', সলনি কৰিবলৈ সাজু। 'Firm', 'stubborn' আৰু 'unyielding' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -582,26 +582,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "evident",
+     "as": "প্ৰকট"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "visible",
+     "as": "দৃশ্যমান"
     },
     {
      "en": "obscure",
-     "as": "অস্পষ্ট"
+     "as": "দুৰ্বোধ্য"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'obscure' is an antonym of 'apparent'; it has the opposite meaning.",
-    "as": "'obscure' (অস্পষ্ট) হৈছে 'apparent' (স্পষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Apparent' means easily seen or understood — an apparent reason. Its opposite is 'obscure', meaning hard to understand. 'Obvious', 'evident' and 'visible' all mean the same as apparent.",
+    "as": "'Apparent' মানে স্পষ্ট — apparent reason। ওলোটা 'obscure', বুজা টান। 'Obvious', 'evident' আৰু 'visible' apparent ৰ সমাৰ্থক।"
    }
   },
   {
@@ -736,22 +736,22 @@ module.exports = {
      "as": "নকল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "real",
+     "as": "আচল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "original",
+     "as": "মৌলিক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'fake' is an antonym of 'authentic'; it has the opposite meaning.",
-    "as": "'fake' (নকল) হৈছে 'authentic' (প্ৰকৃত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Authentic' means real and verified — an authentic document. Its opposite is 'fake', meaning made to deceive. 'Genuine', 'real' and 'original' all mean the same as authentic.",
+    "as": "'Authentic' মানে প্ৰকৃত — authentic document। ওলোটা 'fake', ঠগিবলৈ সজা। 'Genuine', 'real' আৰু 'original' সমাৰ্থক।"
    }
   },
   {
@@ -762,16 +762,16 @@ module.exports = {
    },
    "options": [
     {
+     "en": "greed",
+     "as": "লোভ"
+    },
+    {
      "en": "gluttony",
-     "as": "অতিভোজন"
+     "as": "ভোজনলোভ"
     },
     {
-     "en": "elegant",
-     "as": "সুন্দৰ"
-    },
-    {
-     "en": "elephant",
-     "as": "হাতী"
+     "en": "selfishness",
+     "as": "স্বাৰ্থপৰতা"
     },
     {
      "en": "generosity",
@@ -780,8 +780,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'generosity' is an antonym of 'avarice'; it has the opposite meaning.",
-    "as": "'generosity' (উদাৰতা) হৈছে 'avarice' (লোভ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Avarice' means extreme greed for money — driven by avarice. Its opposite is 'generosity'. 'Greed', 'gluttony' and 'selfishness' all describe the same appetite for more.",
+    "as": "'Avarice' মানে ধনলোভ — avarice ৰ দ্বাৰা চালিত। ওলোটা 'generosity'। 'Greed', 'gluttony' আৰু 'selfishness' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -882,26 +882,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "lovely",
+     "as": "ধুনীয়া"
     },
     {
      "en": "ugly",
      "as": "কুৎসিত"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "pretty",
+     "as": "সুন্দৰ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "attractive",
+     "as": "আকৰ্ষণীয়"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'ugly' is an antonym of 'beautiful'; it has the opposite meaning.",
-    "as": "'ugly' (কুৎসিত) হৈছে 'beautiful' (ধুনীয়া) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Beautiful' means giving great pleasure to the eye — a beautiful garden. Its opposite is 'ugly'. 'Lovely', 'pretty' and 'attractive' all describe the same pleasing look.",
+    "as": "'Beautiful' মানে ধুনীয়া — beautiful garden। ওলোটা 'ugly'। 'Lovely', 'pretty' আৰু 'attractive' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -972,16 +972,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "open",
+     "as": "মুকলি"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "shameless",
+     "as": "নিৰ্লজ্জ"
     },
     {
      "en": "subtle",
@@ -990,8 +990,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'subtle' is an antonym of 'blatant'; it has the opposite meaning.",
-    "as": "'subtle' (সূক্ষ্ম) হৈছে 'blatant' (স্পষ্টভাৱে বেয়া) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Blatant' means done openly without shame — a blatant lie. Its opposite is 'subtle', meaning not obvious. 'Obvious', 'open' and 'shameless' all point the same way as blatant.",
+    "as": "'Blatant' মানে মুকলিকৈ, লাজ নোহোৱাকৈ — blatant lie। ওলোটা 'subtle', অস্পষ্ট। 'Obvious', 'open' আৰু 'shameless' একেই অৰ্থ।"
    }
   },
   {
@@ -1002,16 +1002,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dull",
+     "as": "ভোটা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "direct",
+     "as": "পোনপটীয়া"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "abrupt",
+     "as": "আকস্মিক"
     },
     {
      "en": "sharp",
@@ -1020,8 +1020,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'sharp' is an antonym of 'blunt'; it has the opposite meaning.",
-    "as": "'sharp' (তীক্ষ্ণ) হৈছে 'blunt' (ভোটা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Blunt' means having a dull edge — a blunt knife — or speaking without softening. Its opposite is 'sharp'. 'Dull', 'direct' and 'abrupt' all move with blunt, not against it.",
+    "as": "'Blunt' মানে ভোটা — blunt knife। ওলোটা 'sharp'। 'Dull', 'direct' আৰু 'abrupt' blunt ৰ সৈতে যায়।"
    }
   },
   {
@@ -1152,26 +1152,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "shining",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "brilliant",
+     "as": "দীপ্তিমান"
     },
     {
      "en": "dull",
      "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "vivid",
+     "as": "স্পষ্ট"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'dull' is an antonym of 'bright'; it has the opposite meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'bright' (উজ্জ্বল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Bright' means giving out much light — a bright lamp. Its opposite is 'dull', meaning not bright or not interesting. 'Shining', 'brilliant' and 'vivid' all mean much the same as bright.",
+    "as": "'Bright' মানে উজ্জ্বল — bright lamp। ওলোটা 'dull'। 'Shining', 'brilliant' আৰু 'vivid' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -1272,26 +1272,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "frank",
+     "as": "মুকলিমূৰীয়া"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "open",
+     "as": "মুকলি"
     },
     {
      "en": "evasive",
      "as": "এৰাই চলা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "honest",
+     "as": "সৎ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'evasive' is an antonym of 'candid'; it has the opposite meaning.",
-    "as": "'evasive' (এৰাই চলা) হৈছে 'candid' (সৰল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Candid' means saying exactly what you think — a candid answer. Its opposite is 'evasive', meaning avoiding a direct answer. 'Frank', 'open' and 'honest' all describe the same directness.",
+    "as": "'Candid' মানে মুকলিমূৰীয়া — candid answer। ওলোটা 'evasive', এৰাই চলা। 'Frank', 'open' আৰু 'honest' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -1482,26 +1482,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "flower",
-     "as": "ফুল"
+     "en": "treasure",
+     "as": "মূল্য দিয়া"
     },
     {
      "en": "despise",
-     "as": "ঘিণ কৰা"
+     "as": "ঘৃণা কৰা"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "value",
+     "as": "গুৰুত্ব দিয়া"
     },
     {
-     "en": "fluent",
-     "as": "সাৱলীল"
+     "en": "adore",
+     "as": "শ্ৰদ্ধা কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'despise' is an antonym of 'cherish'; it has the opposite meaning.",
-    "as": "'despise' (ঘিণ কৰা) হৈছে 'cherish' (আদৰ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Cherish' means to care for something deeply — to cherish a memory. Its opposite is 'despise', meaning to feel contempt for it. 'Treasure', 'value' and 'adore' all mean much the same as cherish.",
+    "as": "'Cherish' মানে গভীৰভাৱে যত্ন লোৱা — cherish a memory। ওলোটা 'despise'। 'Treasure', 'value' আৰু 'adore' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -1572,26 +1572,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "intelligent",
+     "as": "বুদ্ধিমান"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "smart",
+     "as": "চোকা"
     },
     {
      "en": "stupid",
-     "as": "মূৰ্খ"
+     "as": "বুদ্ধিহীন"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'stupid' is an antonym of 'clever'; it has the opposite meaning.",
-    "as": "'stupid' (মূৰ্খ) হৈছে 'clever' (চতুৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Clever' means quick to learn and understand — a clever answer. Its opposite is 'stupid'. 'Intelligent', 'smart' and 'bright' all mean much the same as clever.",
+    "as": "'Clever' মানে চতুৰ — clever answer। ওলোটা 'stupid'। 'Intelligent', 'smart' আৰু 'bright' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -1602,26 +1602,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "rough",
+     "as": "খহটা"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "crude",
+     "as": "অপৰিশীলিত"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "harsh",
+     "as": "কঠোৰ"
     },
     {
      "en": "fine",
-     "as": "উত্তম"
+     "as": "মিহি"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'fine' is an antonym of 'coarse'; it has the opposite meaning.",
-    "as": "'fine' (উত্তম) হৈছে 'coarse' (খহটা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Coarse' means made of large particles or rude in manner — coarse cloth. Its opposite is 'fine', meaning smooth or delicate. 'Rough', 'crude' and 'harsh' all point the same way.",
+    "as": "'Coarse' মানে খহটা — coarse cloth। ওলোটা 'fine', মিহি। 'Rough', 'crude' আৰু 'harsh' একেই দিশে যায়।"
    }
   },
   {
@@ -1812,16 +1812,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "admit",
+     "as": "স্বীকাৰ কৰা"
     },
     {
-     "en": "import",
-     "as": "আমদানি কৰা"
+     "en": "acknowledge",
+     "as": "মানি লোৱা"
     },
     {
-     "en": "bring in",
-     "as": "আনিব"
+     "en": "reveal",
+     "as": "প্ৰকাশ কৰা"
     },
     {
      "en": "deny",
@@ -1830,8 +1830,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'deny' is an antonym of 'confess'; it has the opposite meaning.",
-    "as": "'deny' (অস্বীকাৰ কৰা) হৈছে 'confess' (স্বীকাৰ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Confess' means to admit something you would rather hide — to confess a fault. Its opposite is 'deny'. 'Admit', 'acknowledge' and 'reveal' all move in the same direction as confess.",
+    "as": "'Confess' মানে স্বীকাৰ কৰা — দোষ স্বীকাৰ। ওলোটা 'deny'। 'Admit', 'acknowledge' আৰু 'reveal' একেই দিশে যায়।"
    }
   },
   {
@@ -1842,26 +1842,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "riches",
-     "as": "ধন-সম্পত্তি"
+     "en": "defeat",
+     "as": "পৰাস্ত কৰা"
     },
     {
-     "en": "beat",
-     "as": "পৰাজিত কৰা"
+     "en": "overcome",
+     "as": "জয় কৰা"
     },
     {
-     "en": "prosper",
-     "as": "সমৃদ্ধ হোৱা"
+     "en": "win",
+     "as": "জিকা"
     },
     {
      "en": "surrender",
-     "as": "আত্মসমৰ্পণ কৰা"
+     "as": "হাৰ মানা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'surrender' is an antonym of 'conquer'; it has the opposite meaning.",
-    "as": "'surrender' (আত্মসমৰ্পণ কৰা) হৈছে 'conquer' (জয় কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Conquer' means to take control by force — to conquer a city. Its opposite is 'surrender', meaning to give in. 'Defeat', 'overcome' and 'win' all describe beating the other side.",
+    "as": "'Conquer' মানে জয় কৰা — conquer a city। ওলোটা 'surrender', হাৰ মানা। 'Defeat', 'overcome' আৰু 'win' আনক পৰাস্ত কৰা বুজায়।"
    }
   },
   {
@@ -1872,26 +1872,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "steady",
+     "as": "স্থিৰ"
     },
     {
      "en": "variable",
-     "as": "পৰিৱৰ্তনশীল"
+     "as": "সলনিশীল"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "fixed",
+     "as": "নিৰ্দিষ্ট"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "unchanging",
+     "as": "অপৰিৱৰ্তনশীল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'variable' is an antonym of 'constant'; it has the opposite meaning.",
-    "as": "'variable' (পৰিৱৰ্তনশীল) হৈছে 'constant' (স্থিৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Constant' means staying the same over time — a constant speed. Its opposite is 'variable', meaning likely to change. 'Steady', 'fixed' and 'unchanging' all mean the same as constant.",
+    "as": "'Constant' মানে স্থিৰ — constant speed। ওলোটা 'variable', সলনিশীল। 'Steady', 'fixed' আৰু 'unchanging' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -2142,16 +2142,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "dim",
+     "as": "ম্লান"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "gloomy",
+     "as": "অন্ধকাৰময়"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "black",
+     "as": "ক'লা"
     },
     {
      "en": "bright",
@@ -2160,8 +2160,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'bright' is an antonym of 'dark'; it has the opposite meaning.",
-    "as": "'bright' (উজ্জ্বল) হৈছে 'dark' (অন্ধকাৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Dark' means with little or no light — a dark room. Its opposite is 'bright'. 'Dim', 'gloomy' and 'black' all describe the same lack of light as dark does.",
+    "as": "'Dark' মানে আন্ধাৰ — dark room। ওলোটা 'bright'। 'Dim', 'gloomy' আৰু 'black' একেই অন্ধকাৰ বুজায়।"
    }
   },
   {
@@ -2322,26 +2322,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "prosper",
-     "as": "সমৃদ্ধ হোৱা"
+     "en": "loss",
+     "as": "ক্ষতি"
     },
     {
-     "en": "riches",
-     "as": "ধন-সম্পত্তি"
+     "en": "failure",
+     "as": "বিফলতা"
     },
     {
      "en": "victory",
      "as": "বিজয়"
     },
     {
-     "en": "beat",
-     "as": "পৰাজিত কৰা"
+     "en": "beating",
+     "as": "পৰাজয়"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'victory' is an antonym of 'defeat'; it has the opposite meaning.",
-    "as": "'victory' (বিজয়) হৈছে 'defeat' (পৰাজয়) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Defeat' means losing to an opponent — a heavy defeat. Its opposite is 'victory'. 'Loss', 'failure' and 'beating' all describe the same losing side of the result.",
+    "as": "'Defeat' মানে পৰাজয় — heavy defeat। ওলোটা 'victory'। 'Loss', 'failure' আৰু 'beating' একেই পৰাজয় বুজায়।"
    }
   },
   {
@@ -2382,26 +2382,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "lacking",
+     "as": "অভাবযুক্ত"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "short",
+     "as": "কম"
     },
     {
      "en": "sufficient",
      "as": "পৰ্যাপ্ত"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "inadequate",
+     "as": "অপৰ্যাপ্ত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'sufficient' is an antonym of 'deficient'; it has the opposite meaning.",
-    "as": "'sufficient' (পৰ্যাপ্ত) হৈছে 'deficient' (অভাৱ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Deficient' means not having enough of something — deficient in iron. Its opposite is 'sufficient', meaning as much as is needed. 'Lacking', 'short' and 'inadequate' all say too little.",
+    "as": "'Deficient' মানে অভাৱ থকা — deficient in iron। ওলোটা 'sufficient', পৰ্যাপ্ত। 'Lacking', 'short' আৰু 'inadequate' কম বুজায়।"
    }
   },
   {
@@ -2412,26 +2412,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "certain",
+     "as": "নিশ্চিত"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
      "en": "vague",
      "as": "অস্পষ্ট"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "specific",
+     "as": "নিৰ্দিষ্ট"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'vague' is an antonym of 'definite'; it has the opposite meaning.",
-    "as": "'vague' (অস্পষ্ট) হৈছে 'definite' (নিৰ্দিষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Definite' means clear and not open to doubt — a definite answer. Its opposite is 'vague'. 'Certain', 'clear' and 'specific' all mean the same as definite.",
+    "as": "'Definite' মানে নিশ্চিত — definite answer। ওলোটা 'vague'। 'Certain', 'clear' আৰু 'specific' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -2562,26 +2562,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "thick",
+     "as": "ঘন"
     },
     {
      "en": "sparse",
      "as": "বিৰল"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "crowded",
+     "as": "ভিৰভাটি"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "packed",
+     "as": "ঠেহ খোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'sparse' is an antonym of 'dense'; it has the opposite meaning.",
-    "as": "'sparse' (বিৰল) হৈছে 'dense' (ঘন) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Dense' means packed closely together — a dense forest. Its opposite is 'sparse', meaning thinly spread. 'Thick', 'crowded' and 'packed' all describe the same closeness.",
+    "as": "'Dense' মানে ঘন — dense forest। ওলোটা 'sparse', বিৰল। 'Thick', 'crowded' আৰু 'packed' একেই ঘনত্ব বুজায়।"
    }
   },
   {
@@ -2622,26 +2622,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fall",
+     "as": "পৰা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "drop",
+     "as": "পেলোৱা"
     },
     {
      "en": "ascend",
      "as": "উঠা"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "sink",
+     "as": "ডুব যোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'ascend' is an antonym of 'descend'; it has the opposite meaning.",
-    "as": "'ascend' (উঠা) হৈছে 'descend' (তললৈ যোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Descend' means to go down — to descend the stairs. Its opposite is 'ascend', meaning to go up. 'Fall', 'drop' and 'sink' all describe downward movement, the same direction as descend.",
+    "as": "'Descend' মানে নামা — খটখটীৰে নামা। ওলোটা 'ascend', উঠা। 'Fall', 'drop' আৰু 'sink' তললৈ যোৱা বুজায়।"
    }
   },
   {
@@ -2683,25 +2683,25 @@ module.exports = {
    "options": [
     {
      "en": "admire",
-     "as": "প্ৰশংসা কৰা"
-    },
-    {
-     "en": "candid",
-     "as": "সৰল"
-    },
-    {
-     "en": "captivate",
-     "as": "মোহিত কৰা"
+     "as": "শ্ৰদ্ধা কৰা"
     },
     {
      "en": "detest",
      "as": "ঘৃণা কৰা"
+    },
+    {
+     "en": "hate",
+     "as": "বিদ্বেষ কৰা"
+    },
+    {
+     "en": "scorn",
+     "as": "তুচ্ছ জ্ঞান কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'admire' is an antonym of 'despise'; it has the opposite meaning.",
-    "as": "'admire' (প্ৰশংসা কৰা) হৈছে 'despise' (ঘিণ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Despise' means to feel strong contempt for someone — to despise cruelty. Its opposite is 'admire'. 'Detest', 'hate' and 'scorn' all describe the same contempt as despise.",
+    "as": "'Despise' মানে ঘৃণা কৰা — despise cruelty। ওলোটা 'admire'। 'Detest', 'hate' আৰু 'scorn' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -2832,26 +2832,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "import",
-     "as": "আমদানি কৰা"
+     "en": "reveal",
+     "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "bring in",
-     "as": "আনিব"
+     "en": "expose",
+     "as": "উন্মোচন কৰা"
     },
     {
      "en": "conceal",
      "as": "লুকুওৱা"
     },
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "announce",
+     "as": "ঘোষণা কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'conceal' is an antonym of 'disclose'; it has the opposite meaning.",
-    "as": "'conceal' (লুকুওৱা) হৈছে 'disclose' (প্ৰকাশ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Disclose' means to make known something private — to disclose a report. Its opposite is 'conceal', meaning to keep it hidden. 'Reveal', 'expose' and 'announce' all move with disclose.",
+    "as": "'Disclose' মানে প্ৰকাশ কৰা — disclose a report। ওলোটা 'conceal', লুকুওৱা। 'Reveal', 'expose' আৰু 'announce' একেই দিশে যায়।"
    }
   },
   {
@@ -2892,26 +2892,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dreary",
+     "as": "শুকান-নিৰস"
     },
     {
      "en": "cheerful",
-     "as": "হাঁহিমুখীয়া"
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "depressing",
+     "as": "হতাশাজনক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'cheerful' is an antonym of 'dismal'; it has the opposite meaning.",
-    "as": "'cheerful' (হাঁহিমুখীয়া) হৈছে 'dismal' (বিষণ্ণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Dismal' means depressing and cheerless — a dismal day. Its opposite is 'cheerful'. 'Gloomy', 'dreary' and 'depressing' all describe the same low mood as dismal.",
+    "as": "'Dismal' মানে নিৰানন্দ — dismal day। ওলোটা 'cheerful'। 'Gloomy', 'dreary' আৰু 'depressing' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -2956,22 +2956,22 @@ module.exports = {
      "as": "ওচৰ"
     },
     {
-     "en": "buy",
-     "as": "কিনা"
+     "en": "far",
+     "as": "দূৰৈ"
     },
     {
-     "en": "build",
-     "as": "নিৰ্মাণ কৰা"
+     "en": "remote",
+     "as": "দূৰৱৰ্তী"
     },
     {
-     "en": "busy",
-     "as": "ব্যস্ত"
+     "en": "removed",
+     "as": "আঁতৰত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'near' is an antonym of 'distant'; it has the opposite meaning.",
-    "as": "'near' (ওচৰ) হৈছে 'distant' (দূৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Distant' means far away — a distant village, a distant cousin. Its opposite is 'near'. 'Far', 'remote' and 'removed' all describe the same distance as distant.",
+    "as": "'Distant' মানে বহু দূৰৈ — a distant village, a distant cousin। ইয়াৰ ওলোটা 'near'। 'Far', 'remote' আৰু 'removed' একেই দূৰত্ব বুজায়।"
    }
   },
   {
@@ -3012,26 +3012,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "reveal",
+     "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "bring in",
-     "as": "আনিব"
+     "en": "disclose",
+     "as": "প্ৰকাশ কৰা"
     },
     {
      "en": "conceal",
      "as": "লুকুওৱা"
     },
     {
-     "en": "import",
-     "as": "আমদানি কৰা"
+     "en": "leak",
+     "as": "ফাদিল কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'conceal' is an antonym of 'divulge'; it has the opposite meaning.",
-    "as": "'conceal' (লুকুওৱা) হৈছে 'divulge' (প্ৰকাশ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Divulge' means to let a secret out — to divulge a plan. Its opposite is 'conceal'. 'Reveal', 'disclose' and 'leak' all mean telling what should be kept quiet.",
+    "as": "'Divulge' মানে গুপ্ত কথা ফাদিল কৰা — divulge a plan। ওলোটা 'conceal'। 'Reveal', 'disclose' আৰু 'leak' গোপন কথা কৈ দিয়া বুজায়।"
    }
   },
   {
@@ -3102,26 +3102,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "blunt",
+     "as": "ভোটা"
     },
     {
      "en": "sharp",
      "as": "তীক্ষ্ণ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "boring",
+     "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dim",
+     "as": "ম্লান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'sharp' is an antonym of 'dull'; it has the opposite meaning.",
-    "as": "'sharp' (তীক্ষ্ণ) হৈছে 'dull' (নিষ্প্ৰভ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Dull' means not sharp — a dull blade — or not interesting. Its opposite is 'sharp' for the blade and the mind. 'Blunt' and 'dim' match the first sense, and 'boring' the second.",
+    "as": "'Dull' মানে ভোটা — dull blade; বিৰক্তিকৰো বুজায়। ওলোটা 'sharp'। 'Blunt' আৰু 'dim' প্ৰথম অৰ্থত, 'boring' দ্বিতীয়ত মিলে।"
    }
   },
   {
@@ -3162,16 +3162,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "intentional",
-     "as": "ইচ্ছাকৃত"
+     "en": "keen",
+     "as": "আগ্ৰহী"
     },
     {
-     "en": "voluntary",
-     "as": "স্বেচ্ছামূলক"
+     "en": "enthusiastic",
+     "as": "উৎসাহী"
     },
     {
-     "en": "deliberate",
-     "as": "ইচ্ছাকৃত"
+     "en": "anxious",
+     "as": "উদ্বিগ্ন"
     },
     {
      "en": "indifferent",
@@ -3180,8 +3180,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'indifferent' is an antonym of 'eager'; it has the opposite meaning.",
-    "as": "'indifferent' (উদাসীন) হৈছে 'eager' (উৎসুক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Eager' means wanting to do something very much — eager to start. Its opposite is 'indifferent', meaning not caring. 'Keen', 'enthusiastic' and 'anxious' all describe the same strong interest.",
+    "as": "'Eager' মানে বৰ আগ্ৰহী — eager to start। ওলোটা 'indifferent', উদাসীন। 'Keen', 'enthusiastic' আৰু 'anxious' একেই আগ্ৰহ বুজায়।"
    }
   },
   {
@@ -3222,26 +3222,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "serious",
+     "as": "গম্ভীৰ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "sincere",
+     "as": "আন্তৰিক"
     },
     {
      "en": "frivolous",
-     "as": "অগুৰুত্বপূৰ্ণ"
+     "as": "ধেমেলীয়া"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "solemn",
+     "as": "গম্ভীৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'frivolous' is an antonym of 'earnest'; it has the opposite meaning.",
-    "as": "'frivolous' (অগুৰুত্বপূৰ্ণ) হৈছে 'earnest' (আন্তৰিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Earnest' means sincere and serious in intention — an earnest plea. Its opposite is 'frivolous', meaning not serious at all. 'Serious', 'sincere' and 'solemn' all mean much the same.",
+    "as": "'Earnest' মানে আন্তৰিক আৰু গম্ভীৰ — earnest plea। ওলোটা 'frivolous', ধেমেলীয়া। 'Serious', 'sincere' আৰু 'solemn' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -3252,26 +3252,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "simple",
+     "as": "সৰল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "effortless",
+     "as": "পৰিশ্ৰমহীন"
     },
     {
      "en": "difficult",
      "as": "কঠিন"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "light",
+     "as": "পাতল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'difficult' is an antonym of 'easy'; it has the opposite meaning.",
-    "as": "'difficult' (কঠিন) হৈছে 'easy' (সহজ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Easy' means needing little effort — an easy question. Its opposite is 'difficult'. 'Simple', 'effortless' and 'light' all describe the same small effort as easy does.",
+    "as": "'Easy' মানে সহজ — easy question। ওলোটা 'difficult'। 'Simple', 'effortless' আৰু 'light' কম পৰিশ্ৰম বুজায়।"
    }
   },
   {
@@ -3312,26 +3312,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "foe",
-     "as": "শত্ৰু"
+     "en": "happy",
+     "as": "সুখী"
     },
     {
-     "en": "follow",
-     "as": "অনুসৰণ কৰা"
+     "en": "joyful",
+     "as": "আনন্দময়"
     },
     {
      "en": "dejected",
-     "as": "হতাশ"
+     "as": "মন ভাঙি পৰা"
     },
     {
-     "en": "overjoyed",
-     "as": "অতি আনন্দিত"
+     "en": "thrilled",
+     "as": "উত্তেজিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'dejected' is an antonym of 'elated'; it has the opposite meaning.",
-    "as": "'dejected' (হতাশ) হৈছে 'elated' (আনন্দিত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Elated' means extremely happy — elated at the news. Its opposite is 'dejected', meaning low in spirits. 'Happy', 'joyful' and 'thrilled' all describe the same high spirits.",
+    "as": "'Elated' মানে অতিশয় আনন্দিত — elated at the news। ইয়াৰ ওলোটা 'dejected', মন ভাঙি পৰা। 'Happy', 'joyful' আৰু 'thrilled' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -3342,26 +3342,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "graceful",
+     "as": "সুললিত"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "stylish",
+     "as": "আধুনিক ধৰণৰ"
     },
     {
      "en": "crude",
-     "as": "অপৰিষ্কৃত"
+     "as": "অপৰিশীলিত"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "refined",
+     "as": "পৰিশীলিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'crude' is an antonym of 'elegant'; it has the opposite meaning.",
-    "as": "'crude' (অপৰিষ্কৃত) হৈছে 'elegant' (সুন্দৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Elegant' means graceful and stylish — an elegant design. Its opposite is 'crude', meaning rough and unrefined. 'Graceful', 'stylish' and 'refined' all mean much the same as elegant.",
+    "as": "'Elegant' মানে সুললিত আৰু পৰিশীলিত — elegant design। ওলোটা 'crude', অপৰিশীলিত। 'Graceful', 'stylish' আৰু 'refined' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -3402,26 +3402,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "village",
-     "as": "গাঁও"
+     "en": "fluent",
+     "as": "সাবলীল"
     },
     {
      "en": "articulate",
-     "as": "স্পষ্টভাৱে ক'ব পৰা"
+     "as": "স্পষ্টভাৱে প্ৰকাশ কৰা"
     },
     {
      "en": "inarticulate",
-     "as": "স্পষ্টভাৱে ক'ব নোৱৰা"
+     "as": "অস্পষ্টভাৱে কোৱা"
     },
     {
-     "en": "fluent",
-     "as": "সাৱলীল"
+     "en": "expressive",
+     "as": "ভাৱপ্ৰকাশক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'inarticulate' is an antonym of 'eloquent'; it has the opposite meaning.",
-    "as": "'inarticulate' (স্পষ্টভাৱে ক'ব নোৱৰা) হৈছে 'eloquent' (বাগ্মী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Eloquent' means speaking fluently and persuasively — an eloquent speech. Its opposite is 'inarticulate'. 'Fluent', 'articulate' and 'expressive' all mean much the same as eloquent.",
+    "as": "'Eloquent' মানে প্ৰবল ভাষণ দিয়া — eloquent speech। ওলোটা 'inarticulate'। 'Fluent', 'articulate' আৰু 'expressive' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -3762,26 +3762,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "precise",
+     "as": "নিখুঁত"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "accurate",
+     "as": "সঠিক"
     },
     {
      "en": "approximate",
-     "as": "প্ৰায়"
+     "as": "আন্দাজী"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "correct",
+     "as": "শুদ্ধ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'approximate' is an antonym of 'exact'; it has the opposite meaning.",
-    "as": "'approximate' (প্ৰায়) হৈছে 'exact' (সঠিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Exact' means correct in every detail — the exact figure. Its opposite is 'approximate', meaning close but not exact. 'Precise', 'accurate' and 'correct' all mean the same as exact.",
+    "as": "'Exact' মানে নিখুঁত — exact figure। ওলোটা 'approximate', আন্দাজী। 'Precise', 'accurate' আৰু 'correct' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -3792,26 +3792,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "superb",
+     "as": "অতি উত্তম"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "outstanding",
+     "as": "অসাধাৰণ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "first-rate",
+     "as": "উৎকৃষ্ট"
     },
     {
      "en": "poor",
-     "as": "দৰিদ্ৰ"
+     "as": "নিম্নমান"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'poor' is an antonym of 'excellent'; it has the opposite meaning.",
-    "as": "'poor' (দৰিদ্ৰ) হৈছে 'excellent' (উৎকৃষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Excellent' means extremely good — an excellent result. Its opposite is 'poor', meaning bad in quality. 'Superb', 'outstanding' and 'first-rate' all describe the same high quality.",
+    "as": "'Excellent' মানে উত্তম — excellent result। ওলোটা 'poor', নিম্নমান। 'Superb', 'outstanding' আৰু 'first-rate' একেই উচ্চ মান বুজায়।"
    }
   },
   {
@@ -4002,26 +4002,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dim",
+     "as": "ম্লান"
     },
     {
      "en": "brighten",
-     "as": "উজ্জ্বল কৰা"
+     "as": "উজ্জ্বল হোৱা"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "pale",
+     "as": "শেঁতা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'brighten' is an antonym of 'fade'; it has the opposite meaning.",
-    "as": "'brighten' (উজ্জ্বল কৰা) হৈছে 'fade' (ম্লান হোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Fade' means to lose brightness gradually — the colours faded. Its opposite is 'brighten', meaning to become stronger. 'Dim', 'dull' and 'pale' all describe the same loss of colour.",
+    "as": "'Fade' মানে ম্লান হোৱা — ৰং ম্লান হ'ল। ওলোটা 'brighten'। 'Dim', 'dull' আৰু 'pale' একেই ম্লানতা বুজায়।"
    }
   },
   {
@@ -4062,16 +4062,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "dim",
+     "as": "ম্লান"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "slight",
+     "as": "সামান্য"
     },
     {
      "en": "clear",
@@ -4080,8 +4080,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'clear' is an antonym of 'faint'; it has the opposite meaning.",
-    "as": "'clear' (স্পষ্ট) হৈছে 'faint' (ম্লান) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Faint' means weak and hard to notice — a faint sound. Its opposite is 'clear', meaning easy to hear or see. 'Weak', 'dim' and 'slight' all describe the same low strength.",
+    "as": "'Faint' মানে দুৰ্বল — faint sound। ওলোটা 'clear'। 'Weak', 'dim' আৰু 'slight' কম শক্তি বুজায়।"
    }
   },
   {
@@ -4272,26 +4272,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "frail",
+     "as": "দুৰ্বল-কৃশ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "faint",
+     "as": "ক্ষীণ"
     },
     {
      "en": "strong",
-     "as": "বলৱান"
+     "as": "শক্তিশালী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'strong' is an antonym of 'feeble'; it has the opposite meaning.",
-    "as": "'strong' (বলৱান) হৈছে 'feeble' (দুৰ্বল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Feeble' means very weak — a feeble voice, a feeble excuse. Its opposite is 'strong'. 'Weak', 'frail' and 'faint' all mean much the same as feeble in strength.",
+    "as": "'Feeble' মানে অতি দুৰ্বল — feeble voice, feeble excuse। ওলোটা 'strong'। 'Weak', 'frail' আৰু 'faint' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -4392,26 +4392,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "delicate",
+     "as": "কোমল"
     },
     {
      "en": "coarse",
      "as": "খহটা"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "thin",
+     "as": "পাতল"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "smooth",
+     "as": "মসৃণ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'coarse' is an antonym of 'fine'; it has the opposite meaning.",
-    "as": "'coarse' (খহটা) হৈছে 'fine' (উত্তম) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Fine' means made of very small particles or thin threads — fine cloth. Its opposite is 'coarse', meaning rough and thick. 'Delicate', 'thin' and 'smooth' all point the same way as fine.",
+    "as": "'Fine' মানে মিহি — fine cloth। ওলোটা 'coarse', খহটা। 'Delicate', 'thin' আৰু 'smooth' একেই দিশে যায়।"
    }
   },
   {
@@ -4426,22 +4426,22 @@ module.exports = {
      "as": "কোমল"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "hard",
+     "as": "কঠিন"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "solid",
+     "as": "কঠিন"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "steady",
+     "as": "স্থিৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'soft' is an antonym of 'firm'; it has the opposite meaning.",
-    "as": "'soft' (কোমল) হৈছে 'firm' (দৃঢ়) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Firm' means solid and not yielding — a firm mattress. Its opposite is 'soft', meaning yielding when pressed. 'Hard', 'solid' and 'steady' all describe the same resistance.",
+    "as": "'Firm' মানে দৃঢ় — firm mattress। ওলোটা 'soft'। 'Hard', 'solid' আৰু 'steady' একেই দৃঢ়তা বুজায়।"
    }
   },
   {
@@ -4452,16 +4452,16 @@ module.exports = {
    },
    "options": [
     {
+     "en": "praise",
+     "as": "প্ৰশংসা কৰা"
+    },
+    {
      "en": "applaud",
      "as": "প্ৰশংসা কৰা"
     },
     {
-     "en": "build",
-     "as": "নিৰ্মাণ কৰা"
-    },
-    {
-     "en": "buy",
-     "as": "কিনা"
+     "en": "compliment",
+     "as": "শলাগ লোৱা"
     },
     {
      "en": "criticize",
@@ -4470,8 +4470,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'criticize' is an antonym of 'flatter'; it has the opposite meaning.",
-    "as": "'criticize' (সমালোচনা কৰা) হৈছে 'flatter' (চাটু কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Flatter' means to praise more than is deserved — he flattered the judge. Its opposite is 'criticize'. 'Praise', 'applaud' and 'compliment' all move in the same direction as flatter.",
+    "as": "'Flatter' মানে অতিশয় প্ৰশংসা কৰা — তেওঁ বিচাৰকক তোষামোদ কৰিলে। ইয়াৰ ওলোটা 'criticize'। 'Praise', 'applaud' আৰু 'compliment' একেই দিশে যায়।"
    }
   },
   {
@@ -4602,26 +4602,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "silly",
+     "as": "মূৰ্খ"
     },
     {
      "en": "wise",
      "as": "জ্ঞানী"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "stupid",
+     "as": "বুদ্ধিহীন"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "unwise",
+     "as": "অবিবেচক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'wise' is an antonym of 'foolish'; it has the opposite meaning.",
-    "as": "'wise' (জ্ঞানী) হৈছে 'foolish' (মূৰ্খ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Foolish' means showing poor judgement — a foolish step. Its opposite is 'wise'. 'Silly', 'stupid' and 'unwise' all mean much the same as foolish, so none of them is the opposite.",
+    "as": "'Foolish' মানে মূৰ্খ — foolish step। ওলোটা 'wise'। 'Silly', 'stupid' আৰু 'unwise' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -4632,26 +4632,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "village",
-     "as": "গাঁও"
+     "en": "alien",
+     "as": "বিদেশী"
     },
     {
-     "en": "violent",
-     "as": "হিংস্ৰ"
+     "en": "external",
+     "as": "বাহিৰৰ"
     },
     {
      "en": "native",
      "as": "স্থানীয়"
     },
     {
-     "en": "vigorous",
-     "as": "সবল"
+     "en": "imported",
+     "as": "আমদানী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'native' is an antonym of 'foreign'; it has the opposite meaning.",
-    "as": "'native' (স্থানীয়) হৈছে 'foreign' (বিদেশী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Foreign' means belonging to another country — a foreign passport, a foreign language. Its opposite is 'native'. 'Alien', 'external' and 'imported' all describe the same outside origin.",
+    "as": "'Foreign' মানে বিদেশী — a foreign passport। ইয়াৰ ওলোটা 'native'। 'Alien', 'external' আৰু 'imported' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -4692,16 +4692,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "pardon",
+     "as": "ক্ষমা কৰা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "excuse",
+     "as": "ক্ষমা কৰা"
     },
     {
      "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "as": "নিৰ্দোষ কৰা"
     },
     {
      "en": "blame",
@@ -4710,8 +4710,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'blame' is an antonym of 'forgive'; it has the opposite meaning.",
-    "as": "'blame' (দোষ দিয়া) হৈছে 'forgive' (ক্ষমা কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Forgive' means to stop blaming someone — to forgive a mistake. Its opposite is 'blame', meaning to hold someone responsible. 'Pardon', 'excuse' and 'absolve' all move with forgive.",
+    "as": "'Forgive' মানে ক্ষমা কৰা — ভুল ক্ষমা। ওলোটা 'blame', দোষ দিয়া। 'Pardon', 'excuse' আৰু 'absolve' একেই দিশে যায়।"
    }
   },
   {
@@ -4723,25 +4723,25 @@ module.exports = {
    "options": [
     {
      "en": "unfortunate",
-     "as": "দুৰ্ভাগ্যৱান"
+     "as": "দুৰ্ভাগ্যবান"
     },
     {
-     "en": "build",
-     "as": "নিৰ্মাণ কৰা"
+     "en": "lucky",
+     "as": "ভাগ্যৱান"
     },
     {
-     "en": "broad",
-     "as": "প্ৰশস্ত"
+     "en": "blessed",
+     "as": "সৌভাগ্যশালী"
     },
     {
-     "en": "brutal",
-     "as": "নিষ্ঠুৰ"
+     "en": "favoured",
+     "as": "অনুকূল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'unfortunate' is an antonym of 'fortunate'; it has the opposite meaning.",
-    "as": "'unfortunate' (দুৰ্ভাগ্যৱান) হৈছে 'fortunate' (ভাগ্যৱান) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Fortunate' means having good luck — a fortunate escape. Its opposite is 'unfortunate'. 'Lucky', 'blessed' and 'favoured' all describe the same good luck as fortunate in life.",
+    "as": "'Fortunate' মানে ভাগ্যৱান — a fortunate escape। ইয়াৰ ওলোটা 'unfortunate'। 'Lucky', 'blessed' আৰু 'favoured' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -4782,26 +4782,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "honest",
+     "as": "সৎ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "direct",
+     "as": "পোনপটীয়া"
     },
     {
      "en": "evasive",
      "as": "এৰাই চলা"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "open",
+     "as": "মুকলি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'evasive' is an antonym of 'frank'; it has the opposite meaning.",
-    "as": "'evasive' (এৰাই চলা) হৈছে 'frank' (সৰল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Frank' means saying openly what you think — a frank reply. Its opposite is 'evasive', meaning avoiding a straight answer. 'Honest', 'direct' and 'open' all mean much the same as frank.",
+    "as": "'Frank' মানে মুকলিমূৰীয়া — frank reply। ওলোটা 'evasive'। 'Honest', 'direct' আৰু 'open' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5022,16 +5022,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "certain",
-     "as": "নিশ্চিত"
+     "en": "amusing",
+     "as": "আমোদজনক"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "comical",
+     "as": "হাস্যকৰ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "humorous",
+     "as": "ৰসিক"
     },
     {
      "en": "serious",
@@ -5040,8 +5040,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'serious' is an antonym of 'funny'; it has the opposite meaning.",
-    "as": "'serious' (গম্ভীৰ) হৈছে 'funny' (হাস্যকৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Funny' means causing laughter — a funny story, a funny remark. Its opposite is 'serious'. 'Amusing', 'comical' and 'humorous' all mean much the same as funny.",
+    "as": "'Funny' মানে হাস্যকৰ — funny story, funny remark। ওলোটা 'serious'। 'Amusing', 'comical' আৰু 'humorous' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5057,21 +5057,21 @@ module.exports = {
     },
     {
      "en": "lose",
-     "as": "হাৰি যোৱা"
+     "as": "হেৰুওৱা"
     },
     {
-     "en": "loyal",
-     "as": "বিশ্বাসী"
+     "en": "obtain",
+     "as": "পোৱা"
     },
     {
-     "en": "lovely",
-     "as": "ধুনীয়া"
+     "en": "win",
+     "as": "জিকা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'lose' is an antonym of 'gain'; it has the opposite meaning.",
-    "as": "'lose' (হাৰি যোৱা) হৈছে 'gain' (লাভ কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Gain' means to obtain something useful — to gain experience. Its opposite is 'lose'. 'Acquire', 'obtain' and 'win' all move in the same direction as gain.",
+    "as": "'Gain' মানে লাভ কৰা — অভিজ্ঞতা লাভ। ওলোটা 'lose'। 'Acquire', 'obtain' আৰু 'win' একেই দিশে যায়।"
    }
   },
   {
@@ -5142,16 +5142,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "authentic",
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "real",
+     "as": "আচল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "true",
+     "as": "সঁচা"
     },
     {
      "en": "fake",
@@ -5160,8 +5160,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'fake' is an antonym of 'genuine'; it has the opposite meaning.",
-    "as": "'fake' (নকল) হৈছে 'genuine' (আচল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Genuine' means real and not copied — a genuine coin. Its opposite is 'fake'. 'Authentic', 'real' and 'true' all mean the same as genuine, so none of them is the opposite.",
+    "as": "'Genuine' মানে প্ৰকৃত — genuine coin। ওলোটা 'fake'। 'Authentic', 'real' আৰু 'true' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5232,26 +5232,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "overjoyed",
-     "as": "অতি আনন্দিত"
+     "en": "happy",
+     "as": "সুখী"
     },
     {
      "en": "sad",
-     "as": "দুঃখী"
+     "as": "দুখী"
     },
     {
-     "en": "camera",
-     "as": "কেমেৰা"
+     "en": "pleased",
+     "as": "সন্তুষ্ট"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "delighted",
+     "as": "আনন্দিত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'sad' is an antonym of 'glad'; it has the opposite meaning.",
-    "as": "'sad' (দুঃখী) হৈছে 'glad' (আনন্দিত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Glad' means pleased about something — glad to hear the news. Its opposite is 'sad'. 'Happy', 'pleased' and 'delighted' all describe the same good feeling as glad.",
+    "as": "'Glad' মানে আনন্দিত — glad to hear the news। ওলোটা 'sad'। 'Happy', 'pleased' আৰু 'delighted' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5262,26 +5262,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "dark",
+     "as": "আন্ধাৰ"
     },
     {
      "en": "bright",
      "as": "উজ্জ্বল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "dismal",
+     "as": "নিৰানন্দ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dreary",
+     "as": "শুকান-নিৰস"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'bright' is an antonym of 'gloomy'; it has the opposite meaning.",
-    "as": "'bright' (উজ্জ্বল) হৈছে 'gloomy' (বিষণ্ণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Gloomy' means dark and depressing — a gloomy room, a gloomy mood. Its opposite is 'bright'. 'Dark', 'dismal' and 'dreary' all describe the same cheerless feeling.",
+    "as": "'Gloomy' মানে আন্ধাৰ আৰু নিৰানন্দ — gloomy room। ওলোটা 'bright'। 'Dark', 'dismal' আৰু 'dreary' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5352,26 +5352,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "elegant",
+     "as": "সুললিত"
     },
     {
      "en": "clumsy",
      "as": "অদক্ষ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "smooth",
+     "as": "মসৃণ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "flowing",
+     "as": "সাবলীল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'clumsy' is an antonym of 'graceful'; it has the opposite meaning.",
-    "as": "'clumsy' (অদক্ষ) হৈছে 'graceful' (সুন্দৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Graceful' means moving smoothly and beautifully — a graceful dancer. Its opposite is 'clumsy'. 'Elegant', 'smooth' and 'flowing' all describe the same easy movement and style.",
+    "as": "'Graceful' মানে সুললিত — graceful dancer। ওলোটা 'clumsy'। 'Elegant', 'smooth' আৰু 'flowing' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5536,22 +5536,22 @@ module.exports = {
      "as": "নিৰ্দোষী"
     },
     {
-     "en": "state",
-     "as": "কোৱা"
+     "en": "culpable",
+     "as": "দোষাৰ্হ"
     },
     {
-     "en": "start",
-     "as": "আৰম্ভ কৰা"
+     "en": "blameworthy",
+     "as": "দোষণীয়"
     },
     {
-     "en": "steady",
-     "as": "স্থিৰ"
+     "en": "responsible",
+     "as": "দায়ী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'innocent' is an antonym of 'guilty'; it has the opposite meaning.",
-    "as": "'innocent' (নিৰ্দোষী) হৈছে 'guilty' (দোষী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Guilty' means having done something wrong — guilty of theft. Its opposite is 'innocent'. 'Culpable', 'blameworthy' and 'responsible' all describe the same blame as guilty.",
+    "as": "'Guilty' মানে দোষী — চুৰিৰ দোষী। ওলোটা 'innocent'। 'Culpable', 'blameworthy' আৰু 'responsible' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5652,26 +5652,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "attractive",
+     "as": "আকৰ্ষণীয়"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "good-looking",
+     "as": "ৰূপৱান"
     },
     {
      "en": "ugly",
      "as": "কুৎসিত"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "fine",
+     "as": "সুন্দৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'ugly' is an antonym of 'handsome'; it has the opposite meaning.",
-    "as": "'ugly' (কুৎসিত) হৈছে 'handsome' (সুন্দৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Handsome' means good-looking, used of men — a handsome face. Its opposite is 'ugly'. 'Attractive', 'good-looking' and 'fine' all describe the same pleasing appearance and bearing.",
+    "as": "'Handsome' মানে সুদৰ্শন — handsome face। ওলোটা 'ugly'। 'Attractive', 'good-looking' আৰু 'fine' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -5712,26 +5712,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "difficult",
+     "as": "কঠিন"
     },
     {
      "en": "easy",
      "as": "সহজ"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "tough",
+     "as": "কঠিন"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "solid",
+     "as": "কঠিন"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'easy' is an antonym of 'hard'; it has the opposite meaning.",
-    "as": "'easy' (সহজ) হৈছে 'hard' (কঠিন) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Hard' means needing great effort — a hard task — or firm to the touch. Its opposite is 'easy'. 'Difficult' and 'tough' match the effort sense, and 'solid' the firm sense.",
+    "as": "'Hard' মানে কঠিন — hard task; টান বস্তুও বুজায়। ওলোটা 'easy'। 'Difficult' আৰু 'tough' প্ৰথম অৰ্থত, 'solid' দ্বিতীয়ত মিলে।"
    }
   },
   {
@@ -5806,22 +5806,22 @@ module.exports = {
      "as": "কোমল"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "severe",
+     "as": "তীব্ৰ"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "rough",
+     "as": "কৰ্কশ"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "cruel",
+     "as": "নিষ্ঠুৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'gentle' is an antonym of 'harsh'; it has the opposite meaning.",
-    "as": "'gentle' (কোমল) হৈছে 'harsh' (কঠোৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Harsh' means unpleasantly severe — a harsh punishment, a harsh voice. Its opposite is 'gentle'. 'Severe', 'rough' and 'cruel' all describe the same unkind severity.",
+    "as": "'Harsh' মানে কঠোৰ — harsh punishment। ওলোটা 'gentle'। 'Severe', 'rough' আৰু 'cruel' একেই কঠোৰতা বুজায়।"
    }
   },
   {
@@ -5840,18 +5840,18 @@ module.exports = {
      "as": "গতি"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "hurry",
+     "as": "খৰধৰ"
     },
     {
-     "en": "hurry",
-     "as": "খৰধৰ কৰা"
+     "en": "rush",
+     "as": "ধাৱমান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'delay' is an antonym of 'haste'; it has the opposite meaning.",
-    "as": "'delay' (পলম) হৈছে 'haste' (খৰধৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Haste' means acting too quickly — in his haste he forgot the keys. Its opposite is 'delay', meaning a wait. 'Speed', 'hurry' and 'rush' all describe the same quickness.",
+    "as": "'Haste' মানে খৰধৰ — খৰধৰত তেওঁ চাবি পাহৰিলে। ওলোটা 'delay'। 'Speed', 'hurry' আৰু 'rush' একেই খৰধৰ বুজায়।"
    }
   },
   {
@@ -5922,26 +5922,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "fit",
+     "as": "সুস্থ"
     },
     {
-     "en": "steady",
-     "as": "স্থিৰ"
+     "en": "well",
+     "as": "ভাল"
     },
     {
      "en": "sick",
      "as": "অসুস্থ"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "sound",
+     "as": "নীৰোগ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'sick' is an antonym of 'healthy'; it has the opposite meaning.",
-    "as": "'sick' (অসুস্থ) হৈছে 'healthy' (সুস্থ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Healthy' means free from illness — a healthy child. Its opposite is 'sick'. 'Fit', 'well' and 'sound' all describe the same good health as healthy does.",
+    "as": "'Healthy' মানে সুস্থ — healthy child। ওলোটা 'sick'। 'Fit', 'well' আৰু 'sound' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6132,26 +6132,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "truthful",
+     "as": "সত্যপৰায়ণ"
     },
     {
      "en": "dishonest",
      "as": "অসৎ"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "sincere",
+     "as": "আন্তৰিক"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "upright",
+     "as": "সচ্চৰিত্ৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dishonest' is an antonym of 'honest'; it has the opposite meaning.",
-    "as": "'dishonest' (অসৎ) হৈছে 'honest' (সৎ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Honest' means telling the truth and not cheating — an honest answer. Its opposite is 'dishonest'. 'Truthful', 'sincere' and 'upright' all mean the same as honest.",
+    "as": "'Honest' মানে সৎ — honest answer। ওলোটা 'dishonest'। 'Truthful', 'sincere' আৰু 'upright' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6252,26 +6252,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
+     "en": "modest",
+     "as": "বিনয়ী"
+    },
+    {
+     "en": "unassuming",
+     "as": "নম্ৰ"
+    },
+    {
+     "en": "simple",
      "as": "সৰল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
-    },
-    {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
-    },
-    {
      "en": "arrogant",
-     "as": "অহংকাৰী"
+     "as": "দৰ্পী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'arrogant' is an antonym of 'humble'; it has the opposite meaning.",
-    "as": "'arrogant' (অহংকাৰী) হৈছে 'humble' (বিনম্ৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Humble' means not thinking too highly of yourself — a humble reply. Its opposite is 'arrogant'. 'Modest', 'unassuming' and 'simple' all describe the same low self-regard.",
+    "as": "'Humble' মানে নম্ৰ — humble reply। ওলোটা 'arrogant'। 'Modest', 'unassuming' আৰু 'simple' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6342,16 +6342,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "neglect",
+     "as": "অৱহেলা কৰা"
     },
     {
-     "en": "forget",
-     "as": "পাহৰা"
+     "en": "disregard",
+     "as": "উপেক্ষা কৰা"
     },
     {
-     "en": "accept",
-     "as": "স্বীকাৰ কৰা"
+     "en": "overlook",
+     "as": "চকু এৰি যোৱা"
     },
     {
      "en": "notice",
@@ -6360,8 +6360,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'notice' is an antonym of 'ignore'; it has the opposite meaning.",
-    "as": "'notice' (লক্ষ্য কৰা) হৈছে 'ignore' (অৱহেলা কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Ignore' means to pay no attention to something — to ignore a warning. Its opposite is 'notice'. 'Neglect', 'disregard' and 'overlook' all mean much the same as ignore.",
+    "as": "'Ignore' মানে অৱহেলা কৰা — সতৰ্কবাণী অৱহেলা। ওলোটা 'notice'। 'Neglect', 'disregard' আৰু 'overlook' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6556,22 +6556,22 @@ module.exports = {
      "as": "তুচ্ছ"
     },
     {
-     "en": "start",
-     "as": "আৰম্ভ কৰা"
-    },
-    {
-     "en": "steady",
-     "as": "স্থিৰ"
-    },
-    {
      "en": "weighty",
-     "as": "ভাৰী"
+     "as": "গুৰুত্বপূৰ্ণ"
+    },
+    {
+     "en": "significant",
+     "as": "উল্লেখনীয়"
+    },
+    {
+     "en": "major",
+     "as": "প্ৰধান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'trivial' is an antonym of 'important'; it has the opposite meaning.",
-    "as": "'trivial' (তুচ্ছ) হৈছে 'important' (গুৰুত্বপূৰ্ণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Important' means having great value or effect — an important decision. Its opposite is 'trivial'. 'Weighty', 'significant' and 'major' all describe the same importance as important.",
+    "as": "'Important' মানে গুৰুত্বপূৰ্ণ — important decision। ওলোটা 'trivial'। 'Weighty', 'significant' আৰু 'major' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6613,25 +6613,25 @@ module.exports = {
    "options": [
     {
      "en": "worsen",
-     "as": "বেয়া হোৱা"
+     "as": "বেয়া কৰা"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "better",
+     "as": "উন্নত কৰা"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "enhance",
+     "as": "বঢ়োৱা"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "upgrade",
+     "as": "উন্নীত কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'worsen' is an antonym of 'improve'; it has the opposite meaning.",
-    "as": "'worsen' (বেয়া হোৱা) হৈছে 'improve' (উন্নতি কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Improve' means to make or become better — the results improved. Its opposite is 'worsen'. 'Better', 'enhance' and 'upgrade' all move in the same direction as improve.",
+    "as": "'Improve' মানে উন্নত কৰা — ফলাফল উন্নত হ'ল। ওলোটা 'worsen'। 'Better', 'enhance' আৰু 'upgrade' একেই দিশে যায়।"
    }
   },
   {
@@ -6642,26 +6642,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "rash",
+     "as": "হঠধৰমীয়া"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
      "en": "prudent",
      "as": "বিচক্ষণ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "unwise",
+     "as": "অবিবেচক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'prudent' is an antonym of 'imprudent'; it has the opposite meaning.",
-    "as": "'prudent' (বিচক্ষণ) হৈছে 'imprudent' (অবিবেচক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Imprudent' means acting without thought for the future — an imprudent loan. Its opposite is 'prudent'. 'Rash', 'careless' and 'unwise' all describe the same lack of care.",
+    "as": "'Imprudent' মানে নাভাবি কৰা — imprudent loan। ওলোটা 'prudent'। 'Rash', 'careless' আৰু 'unwise' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6856,22 +6856,22 @@ module.exports = {
      "as": "চিন্তিত"
     },
     {
-     "en": "camera",
-     "as": "কেমেৰা"
+     "en": "unconcerned",
+     "as": "উদাসীন"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "aloof",
+     "as": "নিলগত"
     },
     {
-     "en": "captivate",
-     "as": "মোহিত কৰা"
+     "en": "uncaring",
+     "as": "যত্নহীন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'concerned' is an antonym of 'indifferent'; it has the opposite meaning.",
-    "as": "'concerned' (চিন্তিত) হৈছে 'indifferent' (উদাসীন) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Indifferent' means not caring either way — indifferent to the result. Its opposite is 'concerned'. 'Unconcerned', 'aloof' and 'uncaring' all describe the same lack of interest.",
+    "as": "'Indifferent' মানে উদাসীন — ফলাফললৈ উদাসীন। ওলোটা 'concerned'। 'Unconcerned', 'aloof' আৰু 'uncaring' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -6883,25 +6883,25 @@ module.exports = {
    "options": [
     {
      "en": "lazy",
-     "as": "অলস"
+     "as": "এলেহুৱা"
     },
     {
-     "en": "fluent",
-     "as": "সাৱলীল"
+     "en": "diligent",
+     "as": "পৰিশ্ৰমী"
     },
     {
-     "en": "flower",
-     "as": "ফুল"
+     "en": "hardworking",
+     "as": "শ্ৰমশীল"
     },
     {
-     "en": "foe",
-     "as": "শত্ৰু"
+     "en": "busy",
+     "as": "ব্যস্ত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'lazy' is an antonym of 'industrious'; it has the opposite meaning.",
-    "as": "'lazy' (অলস) হৈছে 'industrious' (পৰিশ্ৰমী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Industrious' means working hard and steadily — an industrious farmer. Its opposite is 'lazy'. 'Diligent', 'hardworking' and 'busy' all describe the same effort as industrious.",
+    "as": "'Industrious' মানে পৰিশ্ৰমী — industrious farmer। ওলোটা 'lazy'। 'Diligent', 'hardworking' আৰু 'busy' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7032,26 +7032,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "clever",
+     "as": "চতুৰ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "smart",
+     "as": "চোকা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
      "en": "stupid",
-     "as": "মূৰ্খ"
+     "as": "বুদ্ধিহীন"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'stupid' is an antonym of 'intelligent'; it has the opposite meaning.",
-    "as": "'stupid' (মূৰ্খ) হৈছে 'intelligent' (বুদ্ধিমান) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Intelligent' means able to learn and reason well — an intelligent reply. Its opposite is 'stupid'. 'Clever', 'smart' and 'bright' all mean much the same as intelligent.",
+    "as": "'Intelligent' মানে বুদ্ধিমান — intelligent reply। ওলোটা 'stupid'। 'Clever', 'smart' আৰু 'bright' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7092,26 +7092,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "engaging",
+     "as": "মনোৰম"
     },
     {
-     "en": "lovely",
-     "as": "ধুনীয়া"
+     "en": "absorbing",
+     "as": "মন মুহা"
     },
     {
      "en": "boring",
      "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "fascinating",
+     "as": "আকৰ্ষণীয়"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'boring' is an antonym of 'interesting'; it has the opposite meaning.",
-    "as": "'boring' (বিৰক্তিকৰ) হৈছে 'interesting' (আকৰ্ষণীয়) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Interesting' means holding your attention — an interesting lecture, an interesting book. Its opposite is 'boring'. 'Engaging', 'absorbing' and 'fascinating' all mean much the same as interesting.",
+    "as": "'Interesting' মানে মন টানি ধৰা — interesting lecture। ওলোটা 'boring'। 'Engaging', 'absorbing' আৰু 'fascinating' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7366,22 +7366,22 @@ module.exports = {
      "as": "সৰু"
     },
     {
-     "en": "recent",
-     "as": "শেহতীয়া"
+     "en": "big",
+     "as": "ডাঙৰ"
     },
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "huge",
+     "as": "বিশাল"
     },
     {
-     "en": "reckless",
-     "as": "বেপৰোৱা"
+     "en": "vast",
+     "as": "বিশাল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'small' is an antonym of 'large'; it has the opposite meaning.",
-    "as": "'small' (সৰু) হৈছে 'large' (ডাঙৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Large' means greater than average in size — a large hall. Its opposite is 'small'. 'Big', 'huge' and 'vast' all describe the same size as large.",
+    "as": "'Large' মানে ডাঙৰ — a large hall। ইয়াৰ ওলোটা 'small'। 'Big', 'huge' আৰু 'vast' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7392,26 +7392,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "recurrent",
-     "as": "সঘনাই হোৱা"
+     "en": "dormant",
+     "as": "সুপ্ত"
     },
     {
-     "en": "receive",
-     "as": "গ্ৰহণ কৰা"
+     "en": "hidden",
+     "as": "লুকুৱা"
     },
     {
      "en": "active",
      "as": "সক্ৰিয়"
     },
     {
-     "en": "recede",
-     "as": "পিছুৱাই যোৱা"
+     "en": "potential",
+     "as": "সম্ভাব্য"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'active' is an antonym of 'latent'; it has the opposite meaning.",
-    "as": "'active' (সক্ৰিয়) হৈছে 'latent' (সুপ্ত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Latent' means present but not yet active — latent talent. Its opposite is 'active'. 'Dormant', 'hidden' and 'potential' all describe the same quiet, unshown state.",
+    "as": "'Latent' মানে সুপ্ত — latent talent। ইয়াৰ ওলোটা 'active'। 'Dormant', 'hidden' আৰু 'potential' একেই অৱস্থা বুজায়।"
    }
   },
   {
@@ -7516,22 +7516,22 @@ module.exports = {
      "as": "কঠোৰ"
     },
     {
-     "en": "dutiful",
-     "as": "কৰ্তব্যনিষ্ঠ"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "vice",
-     "as": "দুৰ্গুণ"
-    },
-    {
-     "en": "delicate",
+     "en": "gentle",
      "as": "কোমল"
+    },
+    {
+     "en": "forgiving",
+     "as": "ক্ষমাশীল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'strict' is an antonym of 'lenient'; it has the opposite meaning.",
-    "as": "'strict' (কঠোৰ) হৈছে 'lenient' (নৰম) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Lenient' means not strict in punishing — a lenient judge. Its opposite is 'strict'. 'Mild', 'gentle' and 'forgiving' all describe the same softness as lenient towards an offender.",
+    "as": "'Lenient' মানে কোমল — a lenient judge। ইয়াৰ ওলোটা 'strict'। 'Mild', 'gentle' আৰু 'forgiving' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7602,26 +7602,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
      "en": "dark",
-     "as": "অন্ধকাৰ"
+     "as": "আন্ধাৰ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "pale",
+     "as": "শেঁতা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "fair",
+     "as": "উজ্জ্বল-বৰণীয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dark' is an antonym of 'light'; it has the opposite meaning.",
-    "as": "'dark' (অন্ধকাৰ) হৈছে 'light' (পোহৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Light' means not dark — a light room — and also not heavy. Its opposite is 'dark' for the first sense. 'Bright', 'pale' and 'fair' all describe the same brightness.",
+    "as": "'Light' মানে আন্ধাৰ নহয় — light room। ওলোটা 'dark'। 'Bright', 'pale' আৰু 'fair' একেই উজ্জ্বলতা বুজায়।"
    }
   },
   {
@@ -7722,26 +7722,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "village",
-     "as": "গাঁও"
+     "en": "noisy",
+     "as": "শব্দময়"
     },
     {
-     "en": "vice",
-     "as": "দুৰ্গুণ"
+     "en": "boisterous",
+     "as": "হুলস্থূলীয়া"
     },
     {
      "en": "quiet",
-     "as": "শান্ত"
+     "as": "নীৰৱ"
     },
     {
-     "en": "vast",
-     "as": "বিশাল"
+     "en": "deafening",
+     "as": "কাণ ফাটা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'quiet' is an antonym of 'loud'; it has the opposite meaning.",
-    "as": "'quiet' (শান্ত) হৈছে 'loud' (চিঞৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Loud' means producing much sound — a loud speaker, a loud voice. Its opposite is 'quiet'. 'Noisy', 'boisterous' and 'deafening' all describe the same volume as loud.",
+    "as": "'Loud' মানে বেছি শব্দ কৰা — a loud speaker। ইয়াৰ ওলোটা 'quiet'। 'Noisy', 'boisterous' আৰু 'deafening' একেই শব্দ বুজায়।"
    }
   },
   {
@@ -7782,26 +7782,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
-    },
-    {
-     "en": "candid",
+     "en": "plain",
      "as": "সৰল"
     },
     {
+     "en": "coherent",
+     "as": "সংলগ্ন"
+    },
+    {
      "en": "confusing",
-     "as": "দ্ব্যৰ্থক"
+     "as": "দিগ্ভ্ৰান্তকৰ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'confusing' is an antonym of 'lucid'; it has the opposite meaning.",
-    "as": "'confusing' (দ্ব্যৰ্থক) হৈছে 'lucid' (স্পষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Lucid' means expressed clearly — a lucid account, a lucid explanation. Its opposite is 'confusing'. 'Clear', 'plain' and 'coherent' all mean the same as lucid writing does.",
+    "as": "'Lucid' মানে স্পষ্ট — lucid account। ওলোটা 'confusing'। 'Clear', 'plain' আৰু 'coherent' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7843,25 +7843,25 @@ module.exports = {
    "options": [
     {
      "en": "humble",
-     "as": "বিনম্ৰ"
+     "as": "সাধাৰণ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "grand",
+     "as": "ভৱ্য"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "splendid",
+     "as": "শোভন"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "imposing",
+     "as": "প্ৰভাৱশালী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'humble' is an antonym of 'magnificent'; it has the opposite meaning.",
-    "as": "'humble' (বিনম্ৰ) হৈছে 'magnificent' (ভৱ্য) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Magnificent' means impressively grand — a magnificent palace. Its opposite is 'humble', meaning plain and modest. 'Grand', 'splendid' and 'imposing' all mean the same as magnificent.",
+    "as": "'Magnificent' মানে ভৱ্য — magnificent palace। ওলোটা 'humble', সাধাৰণ। 'Grand', 'splendid' আৰু 'imposing' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7872,26 +7872,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "scanty",
+     "as": "অপৰ্যাপ্ত"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "small",
+     "as": "সৰু"
     },
     {
      "en": "ample",
-     "as": "পৰ্যাপ্ত"
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "thin",
+     "as": "পাতল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'ample' is an antonym of 'meagre'; it has the opposite meaning.",
-    "as": "'ample' (পৰ্যাপ্ত) হৈছে 'meagre' (নগণ্য) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Meagre' means small and not enough — a meagre meal. Its opposite is 'ample', meaning more than enough. 'Scanty', 'small' and 'thin' all describe the same shortage.",
+    "as": "'Meagre' মানে নগণ্য — meagre meal। ওলোটা 'ample'। 'Scanty', 'small' আৰু 'thin' একেই অভাৱ বুজায়।"
    }
   },
   {
@@ -7932,26 +7932,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "sterile",
-     "as": "উৰ্বৰাহীন"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "overjoyed",
-     "as": "অতি আনন্দিত"
+     "en": "joyful",
+     "as": "আনন্দময়"
     },
     {
      "en": "sad",
-     "as": "দুঃখী"
+     "as": "দুখী"
     },
     {
-     "en": "steady",
-     "as": "স্থিৰ"
+     "en": "jolly",
+     "as": "হাসিখুশি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'sad' is an antonym of 'merry'; it has the opposite meaning.",
-    "as": "'sad' (দুঃখী) হৈছে 'merry' (আনন্দিত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Merry' means happy and full of fun — a merry crowd. Its opposite is 'sad'. 'Cheerful', 'joyful' and 'jolly' all describe the same high spirits as merry.",
+    "as": "'Merry' মানে আনন্দময় — merry crowd। ওলোটা 'sad'। 'Cheerful', 'joyful' আৰু 'jolly' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7966,22 +7966,22 @@ module.exports = {
      "as": "দুৰ্বল"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "powerful",
+     "as": "প্ৰবল"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "forceful",
+     "as": "বলৱান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'weak' is an antonym of 'mighty'; it has the opposite meaning.",
-    "as": "'weak' (দুৰ্বল) হৈছে 'mighty' (শক্তিশালী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Mighty' means having great power — a mighty army. Its opposite is 'weak'. 'Powerful', 'strong' and 'forceful' all mean the same as mighty does in battle.",
+    "as": "'Mighty' মানে প্ৰবল — mighty army। ওলোটা 'weak'। 'Powerful', 'strong' আৰু 'forceful' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -7992,26 +7992,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "wretched",
+     "as": "দুৰ্দশাগ্ৰস্ত"
     },
     {
      "en": "happy",
      "as": "সুখী"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "unhappy",
+     "as": "অসুখী"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'happy' is an antonym of 'miserable'; it has the opposite meaning.",
-    "as": "'happy' (সুখী) হৈছে 'miserable' (দুৰ্দশাগ্ৰস্ত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Miserable' means very unhappy or uncomfortable — a miserable evening. Its opposite is 'happy'. 'Wretched', 'unhappy' and 'gloomy' all describe the same low mood and hardship.",
+    "as": "'Miserable' মানে অসুখী — miserable evening। ওলোটা 'happy'। 'Wretched', 'unhappy' আৰু 'gloomy' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -8083,25 +8083,25 @@ module.exports = {
    "options": [
     {
      "en": "arrogant",
-     "as": "অহংকাৰী"
+     "as": "দৰ্পী"
     },
     {
-     "en": "candid",
+     "en": "humble",
+     "as": "নম্ৰ"
+    },
+    {
+     "en": "simple",
      "as": "সৰল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
-    },
-    {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "shy",
+     "as": "লাজুকী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'arrogant' is an antonym of 'modest'; it has the opposite meaning.",
-    "as": "'arrogant' (অহংকাৰী) হৈছে 'modest' (বিনম্ৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Modest' means not boasting about yourself — a modest answer. Its opposite is 'arrogant'. 'Humble', 'simple' and 'shy' all describe the same lack of show.",
+    "as": "'Modest' মানে নম্ৰ — modest answer। ওলোটা 'arrogant'। 'Humble', 'simple' আৰু 'shy' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8172,26 +8172,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "tedious",
+     "as": "ক্লান্তিকৰ"
     },
     {
      "en": "varied",
-     "as": "বিভিন্ন"
+     "as": "বিবিধ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "repetitive",
+     "as": "পুনৰাবৃত্তিমূলক"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'varied' is an antonym of 'monotonous'; it has the opposite meaning.",
-    "as": "'varied' (বিভিন্ন) হৈছে 'monotonous' (একসুৰীয়া) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Monotonous' means never changing — a monotonous voice, a monotonous task. Its opposite is 'varied'. 'Tedious', 'repetitive' and 'dull' all describe the same unvarying dullness.",
+    "as": "'Monotonous' মানে সলনি নোহোৱা — monotonous voice। ওলোটা 'varied'। 'Tedious', 'repetitive' আৰু 'dull' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8322,16 +8322,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrogate",
-     "as": "ৰদ কৰা"
+     "en": "local",
+     "as": "স্থানীয়"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "indigenous",
+     "as": "দেশজ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "domestic",
+     "as": "ঘৰুৱা"
     },
     {
      "en": "foreign",
@@ -8340,8 +8340,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'foreign' is an antonym of 'native'; it has the opposite meaning.",
-    "as": "'foreign' (বিদেশী) হৈছে 'native' (স্থানীয়) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Native' means belonging to a place by birth — a native speaker. Its opposite is 'foreign'. 'Local', 'indigenous' and 'domestic' all describe the same belonging as native.",
+    "as": "'Native' মানে স্থানীয় — native speaker। ওলোটা 'foreign'। 'Local', 'indigenous' আৰু 'domestic' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8382,26 +8382,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
      "en": "careful",
      "as": "সাৱধান"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "slack",
+     "as": "ঢিলা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "thoughtless",
+     "as": "অবিবেচক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'careful' is an antonym of 'negligent'; it has the opposite meaning.",
-    "as": "'careful' (সাৱধান) হৈছে 'negligent' (অৱহেলাকাৰী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Negligent' means failing to take proper care — a negligent driver. Its opposite is 'careful'. 'Careless', 'slack' and 'thoughtless' all describe the same neglect of duty.",
+    "as": "'Negligent' মানে যত্নহীন — negligent driver। ওলোটা 'careful'। 'Careless', 'slack' আৰু 'thoughtless' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8562,16 +8562,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "stubborn",
+     "as": "জেদী"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "rigid",
+     "as": "কঠোৰ"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "headstrong",
+     "as": "একগুঁৱে"
     },
     {
      "en": "flexible",
@@ -8580,8 +8580,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'flexible' is an antonym of 'obstinate'; it has the opposite meaning.",
-    "as": "'flexible' (নমনীয়) হৈছে 'obstinate' (একগুঁয়ে) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Obstinate' means refusing to change your mind — an obstinate refusal, an obstinate child. Its opposite is 'flexible'. 'Stubborn', 'rigid' and 'headstrong' all describe the same refusal.",
+    "as": "'Obstinate' মানে জেদী — obstinate refusal। ওলোটা 'flexible'। 'Stubborn', 'rigid' আৰু 'headstrong' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8592,26 +8592,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "enigmatic",
-     "as": "ৰহস্যময়"
-    },
-    {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "get",
+     "as": "পোৱা"
     },
     {
      "en": "acquire",
      "as": "অৰ্জন কৰা"
     },
     {
+     "en": "secure",
+     "as": "নিশ্চিত কৰা"
+    },
+    {
      "en": "lose",
-     "as": "হাৰি যোৱা"
+     "as": "হেৰুওৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'lose' is an antonym of 'obtain'; it has the opposite meaning.",
-    "as": "'lose' (হাৰি যোৱা) হৈছে 'obtain' (পোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Obtain' means to get something you wanted — to obtain permission. Its opposite is 'lose'. 'Get', 'acquire' and 'secure' all move in the same direction as obtain.",
+    "as": "'Obtain' মানে পোৱা — অনুমতি পোৱা। ওলোটা 'lose'। 'Get', 'acquire' আৰু 'secure' একেই দিশে যায়।"
    }
   },
   {
@@ -8623,25 +8623,25 @@ module.exports = {
    "options": [
     {
      "en": "obscure",
-     "as": "অস্পষ্ট"
+     "as": "দুৰ্বোধ্য"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "candid",
+     "en": "evident",
+     "as": "প্ৰকট"
+    },
+    {
+     "en": "plain",
      "as": "সৰল"
-    },
-    {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'obscure' is an antonym of 'obvious'; it has the opposite meaning.",
-    "as": "'obscure' (অস্পষ্ট) হৈছে 'obvious' (স্পষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Obvious' means easy to see or understand — an obvious fact. Its opposite is 'obscure'. 'Clear', 'evident' and 'plain' all mean the same as obvious.",
+    "as": "'Obvious' মানে স্পষ্ট — obvious fact। ওলোটা 'obscure'। 'Clear', 'evident' আৰু 'plain' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -8652,26 +8652,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "infrequent",
+     "as": "কম ঘটা"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
      "en": "frequent",
-     "as": "সঘন"
+     "as": "ঘনাই"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "sporadic",
+     "as": "অনিয়মিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'frequent' is an antonym of 'occasional'; it has the opposite meaning.",
-    "as": "'frequent' (সঘন) হৈছে 'occasional' (মাজে মাজে) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Occasional' means happening now and then — occasional visits. Its opposite is 'frequent'. 'Infrequent', 'rare' and 'sporadic' all describe the same low rate of occurrence.",
+    "as": "'Occasional' মানে মাজে মাজে — occasional visits। ওলোটা 'frequent'। 'Infrequent', 'rare' আৰু 'sporadic' কম ঘটা বুজায়।"
    }
   },
   {
@@ -8742,16 +8742,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "unlocked",
+     "as": "তলা-খোলা"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "ajar",
+     "as": "আধা-খোলা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "accessible",
+     "as": "প্ৰৱেশযোগ্য"
     },
     {
      "en": "closed",
@@ -8760,8 +8760,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'closed' is an antonym of 'open'; it has the opposite meaning.",
-    "as": "'closed' (বন্ধ) হৈছে 'open' (খোলা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Open' means not shut — an open door, an open window. Its opposite is 'closed'. 'Unlocked', 'ajar' and 'accessible' all describe the same state of being open.",
+    "as": "'Open' মানে খোলা — open door, open window। ওলোটা 'closed'। 'Unlocked', 'ajar' আৰু 'accessible' একেই অৱস্থা বুজায়।"
    }
   },
   {
@@ -8776,22 +8776,22 @@ module.exports = {
      "as": "নৈৰাশ্যবাদী"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "hopeful",
+     "as": "আশাবাদী"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "positive",
+     "as": "আশাব্যঞ্জক"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "idealist",
+     "as": "আদৰ্শবাদী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'pessimist' is an antonym of 'optimist'; it has the opposite meaning.",
-    "as": "'pessimist' (নৈৰাশ্যবাদী) হৈছে 'optimist' (আশাবাদী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Optimist' means a person who expects good things — a lifelong optimist. Its opposite is 'pessimist'. 'Hopeful', 'positive' and 'idealist' all describe the same outlook of hope.",
+    "as": "'Optimist' মানে আশাবাদী — lifelong optimist। ওলোটা 'pessimist'। 'Hopeful', 'positive' আৰু 'idealist' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -8832,26 +8832,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "first",
+     "as": "প্ৰথম"
     },
     {
      "en": "copied",
      "as": "নকল কৰা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "authentic",
+     "as": "প্ৰামাণিক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'copied' is an antonym of 'original'; it has the opposite meaning.",
-    "as": "'copied' (নকল কৰা) হৈছে 'original' (মৌলিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Original' means first and not copied — an original painting. Its opposite is 'copied'. 'Genuine', 'first' and 'authentic' all describe something that is not a copy.",
+    "as": "'Original' মানে মৌলিক — original painting। ওলোটা 'copied'। 'Genuine', 'first' আৰু 'authentic' নকল নোহোৱা বুজায়।"
    }
   },
   {
@@ -8862,26 +8862,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "excellent",
+     "as": "উত্তম"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "exceptional",
+     "as": "অসাধাৰণ"
     },
     {
      "en": "ordinary",
      "as": "সাধাৰণ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "remarkable",
+     "as": "উল্লেখনীয়"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'ordinary' is an antonym of 'outstanding'; it has the opposite meaning.",
-    "as": "'ordinary' (সাধাৰণ) হৈছে 'outstanding' (অসাধাৰণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Outstanding' means far better than others — an outstanding result. Its opposite is 'ordinary'. 'Excellent', 'exceptional' and 'remarkable' all describe the same high quality of work.",
+    "as": "'Outstanding' মানে অসাধাৰণ — outstanding result। ওলোটা 'ordinary'। 'Excellent', 'exceptional' আৰু 'remarkable' একেই উচ্চ মান বুজায়।"
    }
   },
   {
@@ -8986,22 +8986,22 @@ module.exports = {
      "as": "সাধাৰণ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "specific",
+     "as": "নিৰ্দিষ্ট"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "exact",
+     "as": "নিখুঁত"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "individual",
+     "as": "ব্যক্তিগত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'general' is an antonym of 'particular'; it has the opposite meaning.",
-    "as": "'general' (সাধাৰণ) হৈছে 'particular' (নিৰ্দিষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Particular' means one exact thing rather than any — a particular reason. Its opposite is 'general'. 'Specific', 'exact' and 'individual' all point the same narrow way.",
+    "as": "'Particular' মানে নিৰ্দিষ্ট — particular reason। ওলোটা 'general'। 'Specific', 'exact' আৰু 'individual' একেই সংকীৰ্ণ অৰ্থ বুজায়।"
    }
   },
   {
@@ -9132,26 +9132,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "cynic",
+     "as": "সংশয়বাদী"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "doubter",
+     "as": "সন্দেহবাদী"
     },
     {
      "en": "optimist",
      "as": "আশাবাদী"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'optimist' is an antonym of 'pessimist'; it has the opposite meaning.",
-    "as": "'optimist' (আশাবাদী) হৈছে 'pessimist' (নৈৰাশ্যবাদী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Pessimist' means a person who expects bad things — a confirmed pessimist. Its opposite is 'optimist'. 'Cynic', 'doubter' and 'gloomy' all describe the same dark outlook.",
+    "as": "'Pessimist' মানে নৈৰাশ্যবাদী — confirmed pessimist। ওলোটা 'optimist'। 'Cynic', 'doubter' আৰু 'gloomy' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -9166,22 +9166,22 @@ module.exports = {
      "as": "অলংকৃত"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "simple",
+     "as": "সৰল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "unadorned",
+     "as": "অলংকাৰহীন"
     },
     {
-     "en": "certain",
-     "as": "নিশ্চিত"
+     "en": "bare",
+     "as": "নগ্ন-সাদা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'ornate' is an antonym of 'plain'; it has the opposite meaning.",
-    "as": "'ornate' (অলংকৃত) হৈছে 'plain' (সৰল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Plain' means without decoration — plain cloth, a plain wall. Its opposite is 'ornate', meaning heavily decorated. 'Simple', 'unadorned' and 'bare' all mean much the same as plain.",
+    "as": "'Plain' মানে অলংকাৰহীন — plain cloth, plain wall। ওলোটা 'ornate', অলংকৃত। 'Simple', 'unadorned' আৰু 'bare' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -9226,22 +9226,22 @@ module.exports = {
      "as": "দুৰ্লভ"
     },
     {
-     "en": "village",
-     "as": "গাঁও"
+     "en": "abundant",
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "vice",
-     "as": "দুৰ্গুণ"
+     "en": "ample",
+     "as": "যথেষ্ট"
     },
     {
-     "en": "vast",
-     "as": "বিশাল"
+     "en": "copious",
+     "as": "বহুল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'scarce' is an antonym of 'plentiful'; it has the opposite meaning.",
-    "as": "'scarce' (দুৰ্লভ) হৈছে 'plentiful' (প্ৰচুৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Plentiful' means existing in large amounts — a plentiful harvest. Its opposite is 'scarce'. 'Abundant', 'ample' and 'copious' all describe the same plenty as plentiful.",
+    "as": "'Plentiful' মানে প্ৰচুৰ — a plentiful harvest। ইয়াৰ ওলোটা 'scarce'। 'Abundant', 'ample' আৰু 'copious' একেই প্ৰচুৰতা বুজায়।"
    }
   },
   {
@@ -9282,26 +9282,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "hopeful",
+     "as": "আশাবাদী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "certain",
+     "as": "নিশ্চিত"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "sure",
+     "as": "নিশ্চিত"
     },
     {
      "en": "negative",
-     "as": "ঋণাত্মক"
+     "as": "নেতিবাচক"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'negative' is an antonym of 'positive'; it has the opposite meaning.",
-    "as": "'negative' (ঋণাত্মক) হৈছে 'positive' (ধনাত্মক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Positive' means hopeful or certain — a positive attitude, a positive reply to the news. Its opposite is 'negative'. 'Hopeful', 'certain' and 'sure' all describe the same confident outlook.",
+    "as": "'Positive' মানে আশাব্যঞ্জক — positive attitude, positive reply। ওলোটা 'negative'। 'Hopeful', 'certain' আৰু 'sure' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -9372,26 +9372,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "exact",
+     "as": "নিখুঁত"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "accurate",
+     "as": "সঠিক"
     },
     {
      "en": "vague",
      "as": "অস্পষ্ট"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "definite",
+     "as": "নিৰ্দিষ্ট"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'vague' is an antonym of 'precise'; it has the opposite meaning.",
-    "as": "'vague' (অস্পষ্ট) হৈছে 'precise' (সঠিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Precise' means correct in every detail — a precise measurement. Its opposite is 'vague'. 'Exact', 'accurate' and 'definite' all mean the same as precise does for a measurement.",
+    "as": "'Precise' মানে নিখুঁত — precise measurement। ওলোটা 'vague'। 'Exact', 'accurate' আৰু 'definite' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -9492,26 +9492,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "beat",
-     "as": "পৰাজিত কৰা"
+     "en": "wealth",
+     "as": "সম্পদ"
     },
     {
-     "en": "riches",
-     "as": "ধন-সম্পত্তি"
+     "en": "success",
+     "as": "সফলতা"
     },
     {
      "en": "poverty",
-     "as": "দৰিদ্ৰতা"
+     "as": "দাৰিদ্ৰ্য"
     },
     {
-     "en": "prosper",
-     "as": "সমৃদ্ধ হোৱা"
+     "en": "riches",
+     "as": "ঐশ্বৰ্য"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'poverty' is an antonym of 'prosperity'; it has the opposite meaning.",
-    "as": "'poverty' (দৰিদ্ৰতা) হৈছে 'prosperity' (সমৃদ্ধি) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Prosperity' means the state of doing well — years of prosperity. Its opposite is 'poverty'. 'Wealth', 'success' and 'riches' all describe the same good fortune in life.",
+    "as": "'Prosperity' মানে সচ্ছলতা — সমৃদ্ধিৰ বছৰ। ওলোটা 'poverty'। 'Wealth', 'success' আৰু 'riches' একেই সৌভাগ্য বুজায়।"
    }
   },
   {
@@ -9676,22 +9676,22 @@ module.exports = {
      "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "shining",
+     "as": "দীপ্তিমান"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "glowing",
+     "as": "দীপ্ত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'dull' is an antonym of 'radiant'; it has the opposite meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'radiant' (উজ্জ্বল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Radiant' means sending out light or joy — a radiant smile. Its opposite is 'dull'. 'Bright', 'shining' and 'glowing' all describe the same brightness as radiant.",
+    "as": "'Radiant' মানে উজ্জ্বল — radiant smile। ওলোটা 'dull'। 'Bright', 'shining' আৰু 'glowing' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -9732,26 +9732,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "scarce",
+     "as": "দুৰ্লভ"
     },
     {
      "en": "common",
-     "as": "সাধাৰণ"
+     "as": "সচৰাচৰ"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "uncommon",
+     "as": "অসাধাৰণ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "infrequent",
+     "as": "কম ঘটা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'common' is an antonym of 'rare'; it has the opposite meaning.",
-    "as": "'common' (সাধাৰণ) হৈছে 'rare' (বিৰল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Rare' means not found or seen often — a rare bird, a rare event. Its opposite is 'common'. 'Scarce', 'uncommon' and 'infrequent' all describe the same shortage.",
+    "as": "'Rare' মানে বিৰল — rare bird, rare event। ওলোটা 'common'। 'Scarce', 'uncommon' আৰু 'infrequent' একেই দুৰ্লভতা বুজায়।"
    }
   },
   {
@@ -9766,22 +9766,22 @@ module.exports = {
      "as": "সতৰ্ক"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "reckless",
+     "as": "বেপৰোৱা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "hasty",
+     "as": "খৰধৰ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'cautious' is an antonym of 'rash'; it has the opposite meaning.",
-    "as": "'cautious' (সতৰ্ক) হৈছে 'rash' (অবিবেচক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Rash' means acting too quickly without thought — a rash promise. Its opposite is 'cautious'. 'Reckless', 'hasty' and 'careless' all describe the same lack of care.",
+    "as": "'Rash' মানে হঠধৰমীয়া — rash promise। ওলোটা 'cautious'। 'Reckless', 'hasty' আৰু 'careless' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -9792,26 +9792,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
      "en": "fake",
      "as": "নকল"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "actual",
+     "as": "বাস্তৱিক"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "true",
+     "as": "সঁচা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'fake' is an antonym of 'real'; it has the opposite meaning.",
-    "as": "'fake' (নকল) হৈছে 'real' (প্ৰকৃত) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Real' means actually existing and not imagined — real gold, a real event. Its opposite is 'fake'. 'Genuine', 'actual' and 'true' all mean the same as real in everyday use.",
+    "as": "'Real' মানে প্ৰকৃত — real gold, real event। ওলোটা 'fake'। 'Genuine', 'actual' আৰু 'true' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -9853,25 +9853,25 @@ module.exports = {
    "options": [
     {
      "en": "advance",
-     "as": "আগবাঢ়া"
+     "as": "আগবাঢ়ি যোৱা"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "retreat",
+     "as": "পিছুৱাই যোৱা"
     },
     {
-     "en": "elephant",
-     "as": "হাতী"
+     "en": "withdraw",
+     "as": "আঁতৰি যোৱা"
     },
     {
-     "en": "elegant",
-     "as": "সুন্দৰ"
+     "en": "ebb",
+     "as": "নামি যোৱা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'advance' is an antonym of 'recede'; it has the opposite meaning.",
-    "as": "'advance' (আগবাঢ়া) হৈছে 'recede' (পিছুৱাই যোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Recede' means to move back — the flood waters receded, the tide receded. Its opposite is 'advance'. 'Retreat', 'withdraw' and 'ebb' all describe the same backward movement.",
+    "as": "'Recede' মানে পিছুৱাই যোৱা — বানপানী নামি গ'ল। ওলোটা 'advance'। 'Retreat', 'withdraw' আৰু 'ebb' একেই পিছুৱাই যোৱা বুজায়।"
    }
   },
   {
@@ -9883,25 +9883,25 @@ module.exports = {
    "options": [
     {
      "en": "accept",
-     "as": "স্বীকাৰ কৰা"
+     "as": "গ্ৰহণ কৰা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "refuse",
+     "as": "নাকচ কৰা"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "decline",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "spurn",
+     "as": "ঘৃণেৰে নাকচ কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'accept' is an antonym of 'reject'; it has the opposite meaning.",
-    "as": "'accept' (স্বীকাৰ কৰা) হৈছে 'reject' (প্ৰত্যাখ্যান কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Reject' means to say no to something offered — to reject a plan. Its opposite is 'accept'. 'Refuse', 'decline' and 'spurn' all move in the same direction as reject.",
+    "as": "'Reject' মানে নাকচ কৰা — পৰিকল্পনা নাকচ। ওলোটা 'accept'। 'Refuse', 'decline' আৰু 'spurn' একেই দিশে যায়।"
    }
   },
   {
@@ -10152,26 +10152,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "stiff",
+     "as": "অনমনীয়"
     },
     {
      "en": "flexible",
      "as": "নমনীয়"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "hard",
+     "as": "কঠিন"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "fixed",
+     "as": "স্থিৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'flexible' is an antonym of 'rigid'; it has the opposite meaning.",
-    "as": "'flexible' (নমনীয়) হৈছে 'rigid' (কঠোৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Rigid' means not able to bend — a rigid frame. Its opposite is 'flexible'. 'Stiff', 'hard' and 'fixed' all describe the same resistance to bending or change.",
+    "as": "'Rigid' মানে কঠোৰ — rigid frame। ওলোটা 'flexible'। 'Stiff', 'hard' আৰু 'fixed' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10182,26 +10182,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "coarse",
+     "as": "খহটা"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "uneven",
+     "as": "অসমতল"
     },
     {
      "en": "smooth",
      "as": "মসৃণ"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "harsh",
+     "as": "কৰ্কশ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'smooth' is an antonym of 'rough'; it has the opposite meaning.",
-    "as": "'smooth' (মসৃণ) হৈছে 'rough' (খহটা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Rough' means uneven to touch — rough skin, a rough road. Its opposite is 'smooth'. 'Coarse', 'uneven' and 'harsh' all describe the same uneven surface.",
+    "as": "'Rough' মানে খহটা — rough skin, rough road। ওলোটা 'smooth'। 'Coarse', 'uneven' আৰু 'harsh' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10302,26 +10302,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "unhappy",
+     "as": "অসুখী"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "sorrowful",
+     "as": "শোকাকুল"
     },
     {
      "en": "happy",
      "as": "সুখী"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'happy' is an antonym of 'sad'; it has the opposite meaning.",
-    "as": "'happy' (সুখী) হৈছে 'sad' (দুঃখী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Sad' means feeling sorrow — a sad song, a sad farewell. Its opposite is 'happy'. 'Unhappy', 'sorrowful' and 'gloomy' all describe the same low mood.",
+    "as": "'Sad' মানে দুখী — sad song, sad farewell। ওলোটা 'happy'। 'Unhappy', 'sorrowful' আৰু 'gloomy' একেই মনোভাৱ বুজায়।"
    }
   },
   {
@@ -10362,26 +10362,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "scanty",
+     "as": "অপৰ্যাপ্ত"
     },
     {
      "en": "abundant",
      "as": "প্ৰচুৰ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "insufficient",
+     "as": "অপৰ্যাপ্ত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'abundant' is an antonym of 'scarce'; it has the opposite meaning.",
-    "as": "'abundant' (প্ৰচুৰ) হৈছে 'scarce' (দুৰ্লভ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Scarce' means there is not enough of something — water was scarce. Its opposite is 'abundant', meaning plenty. 'Rare', 'scanty' and 'insufficient' all describe the same shortage.",
+    "as": "'Scarce' মানে দুৰ্লভ — পানী দুৰ্লভ আছিল। ওলোটা 'abundant'। 'Rare', 'scanty' আৰু 'insufficient' একেই অভাৱ বুজায়।"
    }
   },
   {
@@ -10452,26 +10452,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lovely",
-     "as": "ধুনীয়া"
+     "en": "elder",
+     "as": "জ্যেষ্ঠ"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "older",
+     "as": "বয়সত ডাঙৰ"
     },
     {
      "en": "junior",
      "as": "কনিষ্ঠ"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "superior",
+     "as": "উচ্চপদস্থ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'junior' is an antonym of 'senior'; it has the opposite meaning.",
-    "as": "'junior' (কনিষ্ঠ) হৈছে 'senior' (জ্যেষ্ঠ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Senior' means older or higher in rank — a senior officer. Its opposite is 'junior'. 'Elder', 'older' and 'superior' all describe the same higher position as senior.",
+    "as": "'Senior' মানে জ্যেষ্ঠ — senior officer। ওলোটা 'junior'। 'Elder', 'older' আৰু 'superior' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10512,26 +10512,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "grave",
+     "as": "গুৰুতৰ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "solemn",
+     "as": "গম্ভীৰ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "earnest",
+     "as": "আন্তৰিক"
     },
     {
      "en": "frivolous",
-     "as": "অগুৰুত্বপূৰ্ণ"
+     "as": "ধেমেলীয়া"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'frivolous' is an antonym of 'serious'; it has the opposite meaning.",
-    "as": "'frivolous' (অগুৰুত্বপূৰ্ণ) হৈছে 'serious' (গম্ভীৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Serious' means important and not to be joked about — a serious injury. Its opposite is 'frivolous', meaning not serious at all. 'Grave', 'solemn' and 'earnest' all mean much the same as serious.",
+    "as": "'Serious' মানে গুৰুতৰ — serious injury। ওলোটা 'frivolous', ধেমেলীয়া। 'Grave', 'solemn' আৰু 'earnest' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10692,16 +10692,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "easy",
+     "as": "সহজ"
     },
     {
-     "en": "certain",
-     "as": "নিশ্চিত"
+     "en": "plain",
+     "as": "সৰল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "straightforward",
+     "as": "পোনপটীয়া"
     },
     {
      "en": "complex",
@@ -10710,8 +10710,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'complex' is an antonym of 'simple'; it has the opposite meaning.",
-    "as": "'complex' (জটিল) হৈছে 'simple' (সৰল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Simple' means easy to do or understand — a simple sum. Its opposite is 'complex'. 'Easy', 'plain' and 'straightforward' all mean much the same as simple.",
+    "as": "'Simple' মানে সৰল — simple sum। ওলোটা 'complex'। 'Easy', 'plain' আৰু 'straightforward' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10722,26 +10722,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
      "en": "insincere",
-     "as": "অসৎ"
+     "as": "কপট"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "honest",
+     "as": "সৎ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "heartfelt",
+     "as": "হৃদয়ৰ পৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'insincere' is an antonym of 'sincere'; it has the opposite meaning.",
-    "as": "'insincere' (অসৎ) হৈছে 'sincere' (আন্তৰিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Sincere' means meaning what you say — a sincere apology, a sincere offer. Its opposite is 'insincere'. 'Genuine', 'honest' and 'heartfelt' all mean the same as sincere.",
+    "as": "'Sincere' মানে আন্তৰিক — sincere apology, sincere offer। ওলোটা 'insincere'। 'Genuine', 'honest' আৰু 'heartfelt' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10782,26 +10782,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lend",
-     "as": "ঋণ দিয়া"
+     "en": "even",
+     "as": "সমতল"
     },
     {
      "en": "rough",
      "as": "খহটা"
     },
     {
-     "en": "fluent",
-     "as": "সাৱলীল"
+     "en": "level",
+     "as": "সমান"
     },
     {
-     "en": "articulate",
-     "as": "স্পষ্টভাৱে ক'ব পৰা"
+     "en": "sleek",
+     "as": "মসৃণ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'rough' is an antonym of 'smooth'; it has the opposite meaning.",
-    "as": "'rough' (খহটা) হৈছে 'smooth' (মসৃণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Smooth' means having an even surface — smooth stone, smooth skin. Its opposite is 'rough'. 'Even', 'level' and 'sleek' all describe the same evenness as smooth.",
+    "as": "'Smooth' মানে মসৃণ — smooth stone, smooth skin। ওলোটা 'rough'। 'Even', 'level' আৰু 'sleek' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10842,26 +10842,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "hard",
+     "as": "কঠিন"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "firm",
+     "as": "দৃঢ়"
     },
     {
      "en": "liquid",
      "as": "তৰল"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "compact",
+     "as": "ঘনসন্নিবিষ্ট"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'liquid' is an antonym of 'solid'; it has the opposite meaning.",
-    "as": "'liquid' (তৰল) হৈছে 'solid' (ঘন) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Solid' means hard and not hollow — solid rock. Its opposite is 'liquid', a state that flows. 'Hard', 'firm' and 'compact' all describe the same firmness as solid.",
+    "as": "'Solid' মানে কঠিন — solid rock। ওলোটা 'liquid', তৰল। 'Hard', 'firm' আৰু 'compact' একেই দৃঢ়তা বুজায়।"
    }
   },
   {
@@ -10933,25 +10933,25 @@ module.exports = {
    "options": [
     {
      "en": "dull",
-     "as": "নিষ্প্ৰভ"
+     "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "magnificent",
+     "as": "ভৱ্য"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "grand",
+     "as": "মহিমান্বিত"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "superb",
+     "as": "অতি উত্তম"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'dull' is an antonym of 'splendid'; it has the opposite meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'splendid' (ভৱ্য) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Splendid' means very impressive — a splendid palace, a splendid view. Its opposite is 'dull', meaning uninteresting. 'Magnificent', 'grand' and 'superb' all mean much the same as splendid.",
+    "as": "'Splendid' মানে ভৱ্য — splendid palace, splendid view। ওলোটা 'dull'। 'Magnificent', 'grand' আৰু 'superb' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -10962,16 +10962,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "steady",
+     "as": "স্থিৰ"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "firm",
+     "as": "দৃঢ়"
     },
     {
      "en": "secure",
-     "as": "নিৰাপদ"
+     "as": "সুৰক্ষিত"
     },
     {
      "en": "unstable",
@@ -10980,8 +10980,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'unstable' is an antonym of 'stable'; it has the opposite meaning.",
-    "as": "'unstable' (অস্থিৰ) হৈছে 'stable' (স্থিৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Stable' means not likely to change or fall — a stable structure. Its opposite is 'unstable'. 'Steady', 'firm' and 'secure' all describe the same reliability as stable.",
+    "as": "'Stable' মানে স্থিৰ — stable structure। ওলোটা 'unstable'। 'Steady', 'firm' আৰু 'secure' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11022,26 +11022,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "strict",
+     "as": "কঠোৰ"
     },
     {
      "en": "lenient",
-     "as": "নৰম"
+     "as": "কোমল"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "severe",
+     "as": "তীব্ৰ"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "harsh",
+     "as": "কৰ্কশ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'lenient' is an antonym of 'stern'; it has the opposite meaning.",
-    "as": "'lenient' (নৰম) হৈছে 'stern' (কঠোৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Stern' means firm and serious in manner — a stern warning. Its opposite is 'lenient', meaning not strict in punishing. 'Strict', 'severe' and 'harsh' all mean much the same as stern.",
+    "as": "'Stern' মানে কঠোৰ — stern warning। ওলোটা 'lenient', কোমল। 'Strict', 'severe' আৰু 'harsh' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11082,26 +11082,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "stern",
+     "as": "কঠোৰ"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "rigid",
+     "as": "কঠোৰ"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "severe",
+     "as": "তীব্ৰ"
     },
     {
      "en": "lenient",
-     "as": "নৰম"
+     "as": "কোমল"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'lenient' is an antonym of 'strict'; it has the opposite meaning.",
-    "as": "'lenient' (নৰম) হৈছে 'strict' (কঠোৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Strict' means insisting on rules being followed — a strict teacher. Its opposite is 'lenient'. 'Stern', 'rigid' and 'severe' all describe the same firmness as strict.",
+    "as": "'Strict' মানে কঠোৰ — strict teacher। ওলোটা 'lenient'। 'Stern', 'rigid' আৰু 'severe' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11112,16 +11112,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "powerful",
+     "as": "প্ৰবল"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "sturdy",
+     "as": "দৃঢ়"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "mighty",
+     "as": "বলৱান"
     },
     {
      "en": "weak",
@@ -11130,8 +11130,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'weak' is an antonym of 'strong'; it has the opposite meaning.",
-    "as": "'weak' (দুৰ্বল) হৈছে 'strong' (বলৱান) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Strong' means having great power or force — a strong man, a strong wind. Its opposite is 'weak'. 'Powerful', 'sturdy' and 'mighty' all mean the same as strong does.",
+    "as": "'Strong' মানে শক্তিশালী — strong man, strong wind। ওলোটা 'weak'। 'Powerful', 'sturdy' আৰু 'mighty' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11142,26 +11142,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "obstinate",
+     "as": "জেদী"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "rigid",
+     "as": "কঠোৰ"
     },
     {
      "en": "flexible",
      "as": "নমনীয়"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "headstrong",
+     "as": "একগুঁৱে"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'flexible' is an antonym of 'stubborn'; it has the opposite meaning.",
-    "as": "'flexible' (নমনীয়) হৈছে 'stubborn' (একগুঁয়ে) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Stubborn' means refusing to change your mind — a stubborn mule, a stubborn refusal. Its opposite is 'flexible'. 'Obstinate', 'rigid' and 'headstrong' all describe the same refusal.",
+    "as": "'Stubborn' মানে জেদী — stubborn mule। ওলোটা 'flexible'। 'Obstinate', 'rigid' আৰু 'headstrong' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11172,26 +11172,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "foolish",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "dull",
+     "as": "মন্থৰ"
     },
     {
      "en": "intelligent",
      "as": "বুদ্ধিমান"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "silly",
+     "as": "মূৰ্খ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'intelligent' is an antonym of 'stupid'; it has the opposite meaning.",
-    "as": "'intelligent' (বুদ্ধিমান) হৈছে 'stupid' (মূৰ্খ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Stupid' means showing very little intelligence — a stupid mistake. Its opposite is 'intelligent'. 'Foolish', 'dull' and 'silly' all mean much the same as stupid does.",
+    "as": "'Stupid' মানে বুদ্ধিহীন — stupid mistake। ওলোটা 'intelligent'। 'Foolish', 'dull' আৰু 'silly' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11326,22 +11326,22 @@ module.exports = {
      "as": "নিকৃষ্ট"
     },
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "better",
+     "as": "উত্তম"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "higher",
+     "as": "উচ্চ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "greater",
+     "as": "শ্ৰেষ্ঠ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'inferior' is an antonym of 'superior'; it has the opposite meaning.",
-    "as": "'inferior' (নিকৃষ্ট) হৈছে 'superior' (উচ্চ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Superior' means better or higher in rank — superior quality. Its opposite is 'inferior'. 'Better', 'higher' and 'greater' all describe the same higher standing as superior.",
+    "as": "'Superior' মানে শ্ৰেষ্ঠ — superior quality। ওলোটা 'inferior'। 'Better', 'higher' আৰু 'greater' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11563,25 +11563,25 @@ module.exports = {
    "options": [
     {
      "en": "relaxed",
-     "as": "জিৰণি লোৱা"
+     "as": "শিথিল"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "taut",
+     "as": "টান"
     },
     {
-     "en": "camera",
-     "as": "কেমেৰা"
+     "en": "tight",
+     "as": "টান"
     },
     {
-     "en": "captivate",
-     "as": "মোহিত কৰা"
+     "en": "nervous",
+     "as": "উদ্বিগ্ন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'relaxed' is an antonym of 'tense'; it has the opposite meaning.",
-    "as": "'relaxed' (জিৰণি লোৱা) হৈছে 'tense' (তনু) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Tense' means pulled tight or nervous — tense muscles before an exam. Its opposite is 'relaxed'. 'Taut', 'tight' and 'nervous' all describe the same tension as tense.",
+    "as": "'Tense' মানে টান বা উদ্বিগ্ন — পৰীক্ষাৰ আগতে tense muscles। ওলোটা 'relaxed'। 'Taut', 'tight' আৰু 'nervous' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11592,26 +11592,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "dense",
+     "as": "ঘন"
     },
     {
      "en": "thin",
      "as": "পাতল"
     },
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "wide",
+     "as": "বহল"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "broad",
+     "as": "প্ৰশস্ত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'thin' is an antonym of 'thick'; it has the opposite meaning.",
-    "as": "'thin' (পাতল) হৈছে 'thick' (ডাঠ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Thick' means having a large distance between opposite sides — a thick wall. Its opposite is 'thin'. 'Dense', 'wide' and 'broad' all point the same way as thick.",
+    "as": "'Thick' মানে ডাঠ — thick wall। ওলোটা 'thin'। 'Dense', 'wide' আৰু 'broad' একেই দিশে যায়।"
    }
   },
   {
@@ -11802,26 +11802,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "clear",
+     "as": "স্বচ্ছ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "see-through",
+     "as": "চুব পৰা"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "glassy",
+     "as": "কাচৰ দৰে"
     },
     {
      "en": "opaque",
-     "as": "অস্বচ্ছ"
+     "as": "অপাৰদৰ্শী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'opaque' is an antonym of 'transparent'; it has the opposite meaning.",
-    "as": "'opaque' (অস্বচ্ছ) হৈছে 'transparent' (স্বচ্ছ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Transparent' means you can see through it — transparent glass. Its opposite is 'opaque', meaning no light passes through. 'Clear', 'see-through' and 'glassy' all mean the same as transparent.",
+    "as": "'Transparent' মানে চুব পৰা — transparent glass। ওলোটা 'opaque'। 'Clear', 'see-through' আৰু 'glassy' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11862,16 +11862,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "correct",
+     "as": "শুদ্ধ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "accurate",
+     "as": "সঠিক"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "factual",
+     "as": "তথ্যভিত্তিক"
     },
     {
      "en": "false",
@@ -11880,8 +11880,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'false' is an antonym of 'true'; it has the opposite meaning.",
-    "as": "'false' (মিছা) হৈছে 'true' (সত্য) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'True' means matching the facts — a true story, a true account. Its opposite is 'false'. 'Correct', 'accurate' and 'factual' all mean the same as true.",
+    "as": "'True' মানে সঁচা — true story, true account। ওলোটা 'false'। 'Correct', 'accurate' আৰু 'factual' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -11922,26 +11922,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "lengthy",
-     "as": "দীঘলীয়া"
+     "en": "join",
+     "as": "যোগ কৰা"
     },
     {
      "en": "divide",
      "as": "বিভক্ত কৰা"
     },
     {
-     "en": "lend",
-     "as": "ঋণ দিয়া"
+     "en": "combine",
+     "as": "একত্ৰ কৰা"
     },
     {
-     "en": "lazy",
-     "as": "অলস"
+     "en": "merge",
+     "as": "একত্ৰিত কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'divide' is an antonym of 'unite'; it has the opposite meaning.",
-    "as": "'divide' (বিভক্ত কৰা) হৈছে 'unite' (একত্ৰিত কৰা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Unite' means to bring together — to unite the groups. Its opposite is 'divide'. 'Join', 'combine' and 'merge' all move in the same direction as unite.",
+    "as": "'Unite' মানে একত্ৰ কৰা — to unite the groups। ইয়াৰ ওলোটা 'divide'। 'Join', 'combine' আৰু 'merge' একেই দিশে যায়।"
    }
   },
   {
@@ -11952,26 +11952,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
-     "en": "lacking",
-     "as": "অভাবযুক্ত"
+     "en": "strange",
+     "as": "অদ্ভুত"
     },
     {
      "en": "usual",
      "as": "সাধাৰণ"
     },
     {
-     "en": "elder",
-     "as": "জ্যেষ্ঠ"
+     "en": "odd",
+     "as": "অসাধাৰণ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'usual' is an antonym of 'unusual'; it has the opposite meaning.",
-    "as": "'usual' (সাধাৰণ) হৈছে 'unusual' (অসাধাৰণ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Unusual' means not happening often — an unusual colour, an unusual event. Its opposite is 'usual'. 'Rare', 'strange' and 'odd' all describe the same uncommon quality as unusual.",
+    "as": "'Unusual' মানে অসাধাৰণ — unusual colour, unusual event। ওলোটা 'usual'। 'Rare', 'strange' আৰু 'odd' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12042,26 +12042,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "buy",
-     "as": "কিনা"
+     "en": "empty",
+     "as": "খালী"
     },
     {
-     "en": "camera",
-     "as": "কেমেৰা"
+     "en": "free",
+     "as": "মুকলি"
     },
     {
      "en": "occupied",
-     "as": "ব্যস্ত"
+     "as": "অধিকৃত"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "available",
+     "as": "উপলব্ধ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'occupied' is an antonym of 'vacant'; it has the opposite meaning.",
-    "as": "'occupied' (ব্যস্ত) হৈছে 'vacant' (খালী) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Vacant' means not occupied — a vacant seat, a vacant room. Its opposite is 'occupied'. 'Empty', 'free' and 'available' all describe the same state as vacant.",
+    "as": "'Vacant' মানে খালী — vacant seat, vacant room। ওলোটা 'occupied'। 'Empty', 'free' আৰু 'available' একেই অৱস্থা বুজায়।"
    }
   },
   {
@@ -12162,26 +12162,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "disappear",
+     "as": "অদৃশ্য হোৱা"
     },
     {
-     "en": "accurate",
-     "as": "সঠিক"
+     "en": "fade",
+     "as": "ম্লান হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "evaporate",
+     "as": "বাষ্পীভূত হোৱা"
     },
     {
      "en": "appear",
-     "as": "ওলোৱা"
+     "as": "আৱিৰ্ভাৱ হোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'appear' is an antonym of 'vanish'; it has the opposite meaning.",
-    "as": "'appear' (ওলোৱা) হৈছে 'vanish' (নাইকিয়া হোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Vanish' means to go out of sight suddenly — the keys vanished. Its opposite is 'appear'. 'Disappear', 'fade' and 'evaporate' all move in the same direction as vanish.",
+    "as": "'Vanish' মানে হঠাৎ নোহোৱা হোৱা — চাবি নোহোৱা হ'ল। ওলোটা 'appear'। 'Disappear', 'fade' আৰু 'evaporate' একেই দিশে যায়।"
    }
   },
   {
@@ -12282,26 +12282,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "fit",
-     "as": "সুস্থ"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
      "en": "weak",
      "as": "দুৰ্বল"
     },
     {
-     "en": "safe",
-     "as": "নিৰাপদ"
+     "en": "energetic",
+     "as": "কৰ্মঠ"
     },
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "lively",
+     "as": "জীৱন্ত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'weak' is an antonym of 'vigorous'; it has the opposite meaning.",
-    "as": "'weak' (দুৰ্বল) হৈছে 'vigorous' (সবল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Vigorous' means full of energy and force — a vigorous effort. Its opposite is 'weak'. 'Strong', 'energetic' and 'lively' all describe the same energy as vigorous.",
+    "as": "'Vigorous' মানে সক্ৰিয় আৰু শক্তিশালী — vigorous effort। ওলোটা 'weak'। 'Strong', 'energetic' আৰু 'lively' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12312,16 +12312,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "flower",
-     "as": "ফুল"
+     "en": "fierce",
+     "as": "হিংস্ৰ"
     },
     {
      "en": "savage",
      "as": "বৰ্বৰ"
     },
     {
-     "en": "fluent",
-     "as": "সাৱলীল"
+     "en": "brutal",
+     "as": "নিষ্ঠুৰ"
     },
     {
      "en": "gentle",
@@ -12330,8 +12330,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'gentle' is an antonym of 'violent'; it has the opposite meaning.",
-    "as": "'gentle' (কোমল) হৈছে 'violent' (হিংস্ৰ) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Violent' means using force to hurt — a violent attack. Its opposite is 'gentle'. 'Fierce', 'savage' and 'brutal' all describe the same force as violent.",
+    "as": "'Violent' মানে হিংস্ৰ — violent attack। ওলোটা 'gentle'। 'Fierce', 'savage' আৰু 'brutal' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12372,26 +12372,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "intense",
+     "as": "তীব্ৰ"
     },
     {
      "en": "dull",
      "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "striking",
+     "as": "চকুত লগা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'dull' is an antonym of 'vivid'; it has the opposite meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'vivid' (স্পষ্ট) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Vivid' means very bright or clear — vivid colours. Its opposite is 'dull'. 'Bright', 'intense' and 'striking' all describe the same strength of colour as vivid.",
+    "as": "'Vivid' মানে উজ্জ্বল — vivid colours। ওলোটা 'dull'। 'Bright', 'intense' আৰু 'striking' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12583,25 +12583,25 @@ module.exports = {
    "options": [
     {
      "en": "strong",
-     "as": "বলৱান"
+     "as": "শক্তিশালী"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "feeble",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "frail",
+     "as": "কৃশ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "faint",
+     "as": "ক্ষীণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'strong' is an antonym of 'weak'; it has the opposite meaning.",
-    "as": "'strong' (বলৱান) হৈছে 'weak' (দুৰ্বল) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Weak' means lacking strength — a weak argument, a weak heart. Its opposite is 'strong'. 'Feeble', 'frail' and 'faint' all mean much the same as weak.",
+    "as": "'Weak' মানে দুৰ্বল — weak argument, weak heart। ওলোটা 'strong'। 'Feeble', 'frail' আৰু 'faint' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12792,26 +12792,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "secure",
-     "as": "নিৰাপদ"
+     "en": "untamed",
+     "as": "অপোহনীয়া"
     },
     {
      "en": "tame",
      "as": "পোহনীয়া"
     },
     {
-     "en": "ferocious",
+     "en": "fierce",
      "as": "হিংস্ৰ"
     },
     {
      "en": "savage",
-     "as": "বৰ্বৰ"
+     "as": "বনৰীয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'tame' is an antonym of 'wild'; it has the opposite meaning.",
-    "as": "'tame' (পোহনীয়া) হৈছে 'wild' (বনৰীয়া) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Wild' means living without human control — a wild horse. Its opposite is 'tame'. 'Untamed', 'fierce' and 'savage' all describe the same lack of control as wild.",
+    "as": "'Wild' মানে বনৰীয়া — wild horse। ওলোটা 'tame'। 'Untamed', 'fierce' আৰু 'savage' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -12942,26 +12942,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "shrivel",
+     "as": "শুকাই কোঁচা খোৱা"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "dry",
+     "as": "শুকান হোৱা"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "droop",
+     "as": "মৰহি পৰা"
     },
     {
      "en": "flourish",
-     "as": "সমৃদ্ধ হোৱা"
+     "as": "উন্নতি লাভ কৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'flourish' is an antonym of 'wither'; it has the opposite meaning.",
-    "as": "'flourish' (সমৃদ্ধ হোৱা) হৈছে 'wither' (শুকাই যোৱা) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Wither' means to dry up and droop — the flowers withered. Its opposite is 'flourish', meaning to grow well. 'Shrivel', 'dry' and 'droop' all describe the same decline.",
+    "as": "'Wither' মানে শুকাই মৰহি যোৱা — ফুলবোৰ মৰহি গ'ল। ওলোটা 'flourish'। 'Shrivel', 'dry' আৰু 'droop' একেই অৱনতি বুজায়।"
    }
   },
   {
@@ -13002,26 +13002,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "amusing",
-     "as": "হাস্যকৰ"
+     "en": "humorous",
+     "as": "ৰসিক"
     },
     {
      "en": "dull",
-     "as": "নিষ্প্ৰভ"
+     "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "funny",
+     "as": "হাস্যকৰ"
     },
     {
-     "en": "absolve",
-     "as": "দোষমুক্ত কৰা"
+     "en": "clever",
+     "as": "চতুৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dull' is an antonym of 'witty'; it has the opposite meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'witty' (ৰসিক) ৰ বিপৰীত অৰ্থৰ শব্দ।"
+    "en": "'Witty' means clever and amusing in speech — a witty remark. Its opposite is 'dull'. 'Humorous', 'funny' and 'clever' all describe the same sharp humour as witty.",
+    "as": "'Witty' মানে ৰসিক — witty remark। ওলোটা 'dull'। 'Humorous', 'funny' আৰু 'clever' একেই অৰ্থ দিয়ে।"
    }
   },
   {
@@ -13848,16 +13848,16 @@ module.exports = {
      "as": "a আৰু the"
     },
     {
-     "en": "a and an",
-     "as": "a আৰু an"
+     "en": "an and the",
+     "as": "an আৰু the"
     },
     {
      "en": "the only",
      "as": "কেৱল the"
     },
     {
-     "en": "an and the",
-     "as": "an আৰু the"
+     "en": "a and an",
+     "as": "a আৰু an"
     }
    ],
    "correct": 3,
@@ -32574,22 +32574,22 @@ module.exports = {
      "as": "প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা"
     },
     {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
+     "en": "a sudden piece of good luck",
+     "as": "আকস্মিক সৌভাগ্য"
     },
     {
-     "en": "a person used by another to do something risky",
-     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
+     "en": "a gift given unwillingly",
+     "as": "অনিচ্ছাৰে দিয়া উপহাৰ"
     },
     {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
+     "en": "a warning that arrives too late",
+     "as": "অতি পলমকৈ অহা সতৰ্কবাণী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'a blessing in disguise' means something that seems bad but turns out to be good.",
-    "as": "'a blessing in disguise' ৰ অৰ্থ হৈছে প্ৰথমে বেয়া যেন লাগিলেও পিছত ভাল হোৱা কথা।"
+    "en": "'A blessing in disguise' means something that looks like a misfortune at first but brings a benefit — losing that job led to a better one. The wrong options describe plain good luck with no bad start, a gift given unwillingly, and a warning that arrives too late.",
+    "as": "'A blessing in disguise' মানে প্ৰথমে বেয়া যেন লাগিলেও শেষত ভাল হয় — চাকৰি হেৰুওৱাৰ পিছত ভাল চাকৰি পোৱা। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -32750,26 +32750,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "something easily understood",
-     "as": "সহজতে বুজিব পৰা বস্তু"
+     "en": "a person who talks too much",
+     "as": "বৰ বেছি কথা কোৱা ব্যক্তি"
     },
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
+     "en": "a person who is very lucky",
+     "as": "অতি ভাগ্যৱান ব্যক্তি"
     },
     {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
+     "en": "a person who hides the truth",
+     "as": "সঁচা কথা লুকুওৱা ব্যক্তি"
     },
     {
      "en": "a person in an uncomfortable situation",
-     "as": "অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি"
+     "as": "অস্বস্তিকৰ অৱস্থাত থকা ব্যক্তি"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'a fish out of water' means a person in an uncomfortable situation.",
-    "as": "'a fish out of water' ৰ অৰ্থ হৈছে অসুবিধাজনক পৰিস্থিতিত থকা ব্যক্তি।"
+    "en": "'A fish out of water' means someone who feels out of place — the new boy was a fish out of water. The wrong options describe a talkative person, a very lucky person and a secretive one, none of which is about discomfort.",
+    "as": "'A fish out of water' মানে অস্বস্তিত থকা ব্যক্তি — নতুন ল'ৰাটো অস্বস্তিত আছিল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -34641,25 +34641,25 @@ module.exports = {
    "options": [
     {
      "en": "to bring disgrace",
-     "as": "কলংক আনি দিয়া"
+     "as": "কলংক লগোৱা"
     },
     {
-     "en": "a person used by another to do something risky",
-     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
+     "en": "to praise someone publicly",
+     "as": "মুকলিকৈ প্ৰশংসা কৰা"
     },
     {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
+     "en": "to settle a quarrel",
+     "as": "কন্দল মিটোৱা"
     },
     {
-     "en": "an unexpected winner",
-     "as": "অপ্ৰত্যাশিত বিজয়ী"
+     "en": "to make a formal promise",
+     "as": "আনুষ্ঠানিক প্ৰতিশ্ৰুতি দিয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'cast a slur' means to bring disgrace.",
-    "as": "'cast a slur' ৰ অৰ্থ হৈছে কলংক আনি দিয়া।"
+    "en": "'Cast a slur' means to damage someone's good name — the rumour cast a slur on his character. The wrong options mean to praise someone publicly, to settle a quarrel and to make a formal promise.",
+    "as": "'Cast a slur' মানে কলংক লগোৱা — গুজবে তেওঁৰ চৰিত্ৰত কলংক লগালে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -34820,26 +34820,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
+     "en": "to make a room fresh",
+     "as": "কোঠা সতেজ কৰা"
     },
     {
      "en": "to remove misunderstanding",
      "as": "ভুল বুজাবুজি আঁতৰোৱা"
     },
     {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
+     "en": "to end a friendship",
+     "as": "বন্ধুত্ব ভাঙা"
     },
     {
-     "en": "a critic who does nothing himself",
-     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
+     "en": "to start an argument",
+     "as": "কন্দল আৰম্ভ কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'clear the air' means to remove misunderstanding.",
-    "as": "'clear the air' ৰ অৰ্থ হৈছে ভুল বুজাবুজি আঁতৰোৱা।"
+    "en": "'Clear the air' means to remove tension by talking things over — a frank talk cleared the air. The wrong options describe airing a room, ending a friendship and starting a quarrel.",
+    "as": "'Clear the air' মানে কথা পাতি মনোমালিন্য দূৰ কৰা — মুকলি আলোচনাই মনোমালিন্য দূৰ কৰিলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -35480,26 +35480,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "an ambiguous compliment",
-     "as": "দুই অৰ্থৰ প্ৰশংসা"
+     "en": "a loud shout",
+     "as": "উচ্চ স্বৰত চিৎকাৰ"
     },
     {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
+     "en": "a short delay",
+     "as": "সৰু পলম"
     },
     {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
+     "en": "a small mistake",
+     "as": "সৰু ভুল"
     },
     {
      "en": "a great distance",
-     "as": "অতি বেছি ব্যৱধান"
+     "as": "বহু দূৰত্ব"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'far cry' means a great distance.",
-    "as": "'far cry' ৰ অৰ্থ হৈছে অতি বেছি ব্যৱধান।"
+    "en": "'Far cry' means a great distance or a big difference — his new work is a far cry from his old one. The wrong options mean a loud shout, a short delay and a small mistake.",
+    "as": "'Far cry' মানে বহু দূৰত্ব বা ডাঙৰ পাৰ্থক্য — তেওঁৰ নতুন কাম পুৰণিৰ পৰা বহু বেলেগ। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -35570,26 +35570,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "small leftover items",
-     "as": "সৰু-সুৰা বাকী বস্তু"
+     "en": "to argue with someone",
+     "as": "কাৰোবাৰ সৈতে তৰ্ক কৰা"
     },
     {
-     "en": "occasionally",
-     "as": "মাজে মাজে"
+     "en": "to feel ashamed",
+     "as": "লাজ পোৱা"
     },
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "to work very hard",
+     "as": "বৰকৈ পৰিশ্ৰম কৰা"
     },
     {
      "en": "to avoid",
-     "as": "এৰি চলা"
+     "as": "এৰাই চলা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'fight shy of' means to avoid.",
-    "as": "'fight shy of' ৰ অৰ্থ হৈছে এৰি চলা।"
+    "en": "'Fight shy of' means to keep away from something — he fights shy of publicity. The wrong options mean to argue with someone, to feel ashamed and to work very hard.",
+    "as": "'Fight shy of' মানে এৰাই চলা — তেওঁ জনসংযোগ এৰাই চলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -35601,25 +35601,25 @@ module.exports = {
    "options": [
     {
      "en": "to take advantage of disturbance",
-     "as": "অশান্তিৰ সুযোগ লোৱা"
+     "as": "অশান্তিৰ পৰা লাভ লোৱা"
     },
     {
-     "en": "occasionally",
-     "as": "মাজে মাজে"
+     "en": "to work hard in difficult conditions",
+     "as": "কঠিন পৰিস্থিতিত পৰিশ্ৰম কৰা"
     },
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "to catch fish in a storm",
+     "as": "ধুমুহাত মাছ ধৰা"
     },
     {
-     "en": "faced with two difficult choices",
-     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
+     "en": "to help during a crisis",
+     "as": "সংকটত সহায় কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'fish in troubled waters' means to take advantage of disturbance.",
-    "as": "'fish in troubled waters' ৰ অৰ্থ হৈছে অশান্তিৰ সুযোগ লোৱা।"
+    "en": "'Fish in troubled waters' means to gain from a confused situation — he fished in troubled waters during the strike. The wrong options describe working in hard conditions, catching fish and helping in a crisis.",
+    "as": "'Fish in troubled waters' মানে অশান্তিৰ পৰা লাভ লোৱা — ধৰ্মঘটৰ সময়ত তেওঁ লাভ তুলিলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -36080,16 +36080,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
+     "en": "a simple question",
+     "as": "সৰল প্ৰশ্ন"
     },
     {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
+     "en": "a broken promise",
+     "as": "ভঙা প্ৰতিশ্ৰুতি"
     },
     {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
+     "en": "a heavy burden",
+     "as": "গধুৰ ভাৰ"
     },
     {
      "en": "a difficult problem",
@@ -36098,8 +36098,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'hard nut to crack' means a difficult problem.",
-    "as": "'hard nut to crack' ৰ অৰ্থ হৈছে কঠিন সমস্যা।"
+    "en": "'Hard nut to crack' means a problem that is hard to solve — the last sum was a hard nut to crack. The wrong options mean a simple question, a broken promise and a heavy burden.",
+    "as": "'Hard nut to crack' মানে সমাধান কৰিবলৈ টান সমস্যা — শেষৰ অংকটো টান আছিল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -36411,25 +36411,25 @@ module.exports = {
    "options": [
     {
      "en": "just in time",
-     "as": "ঠিক সময়ত"
+     "as": "একেবাৰে সময়মতে"
     },
     {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
+     "en": "very late",
+     "as": "বৰ পলমকৈ"
     },
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
+     "en": "after a long delay",
+     "as": "বহু পলমৰ পিছত"
     },
     {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
+     "en": "at the wrong moment",
+     "as": "ভুল সময়ত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'in the nick of time' means just in time.",
-    "as": "'in the nick of time' ৰ অৰ্থ হৈছে ঠিক সময়ত।"
+    "en": "'In the nick of time' means at the last possible moment — the doctor arrived in the nick of time. The wrong options mean very late, after a long delay and at the wrong moment.",
+    "as": "'In the nick of time' মানে একেবাৰে শেষ মুহূৰ্তত — ডাক্তৰে শেষ মুহূৰ্তত পালেগৈ। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -37640,8 +37640,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "small leftover items",
-     "as": "সৰু-সুৰা বাকী বস্তু"
+     "en": "partly",
+     "as": "আংশিকভাৱে"
     },
     {
      "en": "thoroughly",
@@ -37652,14 +37652,14 @@ module.exports = {
      "as": "মাজে মাজে"
     },
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "unwillingly",
+     "as": "অনিচ্ছাৰে"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'out and out' means thoroughly.",
-    "as": "'out and out' ৰ অৰ্থ হৈছে সম্পূৰ্ণৰূপে।"
+    "en": "'Out and out' means completely, in every way — he is an out and out cheat. The wrong options mean partly, occasionally and unwillingly, each much weaker than completely.",
+    "as": "'Out and out' মানে সম্পূৰ্ণৰূপে — তেওঁ এজন সম্পূৰ্ণ মিছলীয়া। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -38150,16 +38150,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
+     "en": "to borrow money from a bank",
+     "as": "বেংকৰ পৰা ঋণ লোৱা"
     },
     {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
+     "en": "to repay a debt honestly",
+     "as": "সততাৰে ঋণ শুধা"
     },
     {
-     "en": "good and bad times",
-     "as": "ভাল-বেয়া সময়"
+     "en": "to share money fairly",
+     "as": "ন্যায়ভাৱে ধন ভগাই দিয়া"
     },
     {
      "en": "to take from one to give another",
@@ -38168,8 +38168,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'rob Peter to pay Paul' means to take from one to give another.",
-    "as": "'rob Peter to pay Paul' ৰ অৰ্থ হৈছে এজনৰ পৰা লৈ আনজনক দিয়া।"
+    "en": "'Rob Peter to pay Paul' means to clear one debt by creating another — he robbed Peter to pay Paul. The wrong options mean borrowing from a bank, repaying honestly and sharing fairly.",
+    "as": "'Rob Peter to pay Paul' মানে এটা ঋণ শুধিবলৈ আন এটা ঋণ লোৱা — তেওঁ এনেকুৱাই কৰিলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -38450,26 +38450,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
+     "en": "to run away",
+     "as": "পলাই যোৱা"
     },
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
+     "en": "to change one's mind",
+     "as": "মন সলনি কৰা"
     },
     {
      "en": "to maintain one's position",
-     "as": "নিজৰ অবস্থান অটল ৰখা"
+     "as": "নিজৰ অৱস্থান ধৰি ৰখা"
     },
     {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
+     "en": "to sit down quietly",
+     "as": "নীৰৱে বহি পৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'stand one's ground' means to maintain one's position.",
-    "as": "'stand one's ground' ৰ অৰ্থ হৈছে নিজৰ অবস্থান অটল ৰখা।"
+    "en": "'Stand one's ground' means to hold your position firmly — she stood her ground in the argument. The wrong options mean running away, changing your mind and sitting down quietly.",
+    "as": "'Stand one's ground' মানে নিজৰ মতত অটল থকা — তেওঁ তৰ্কত অটল থাকিল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -38750,26 +38750,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "a sudden and unexpected shock",
-     "as": "আকস্মিক আৰু অপ্ৰত্যাশিত আঘাত"
+     "en": "to refresh someone",
+     "as": "কাৰোবাক সতেজ কৰা"
     },
     {
-     "en": "a person used by another to do something risky",
-     "as": "আনৰ কামৰ বাবে ব্যৱহৃত ব্যক্তি"
+     "en": "to cool a room",
+     "as": "কোঠা ঠাণ্ডা কৰা"
     },
     {
-     "en": "a very miserly person",
-     "as": "অতি কৃপণ ব্যক্তি"
+     "en": "to praise an idea",
+     "as": "আঁচনিৰ প্ৰশংসা কৰা"
     },
     {
      "en": "to discourage",
-     "as": "হতাশ কৰা"
+     "as": "উৎসাহ ভাঙি দিয়া"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'throw cold water' means to discourage.",
-    "as": "'throw cold water' ৰ অৰ্থ হৈছে হতাশ কৰা।"
+    "en": "'Throw cold water' means to discourage a plan — he threw cold water on the scheme. The wrong options mean refreshing someone, cooling a room and praising an idea.",
+    "as": "'Throw cold water' মানে উৎসাহ ভাঙি দিয়া — তেওঁ আঁচনিত উৎসাহ ভাঙি দিলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -38904,22 +38904,22 @@ module.exports = {
      "as": "অজ্ঞ থকা"
     },
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
+     "en": "to be in a dark room",
+     "as": "আন্ধাৰ কোঠাত থকা"
     },
     {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
+     "en": "to be afraid of the dark",
+     "as": "আন্ধাৰলৈ ভয় কৰা"
     },
     {
-     "en": "a critic who does nothing himself",
-     "as": "কাম নকৰি সমালোচনা কৰা ব্যক্তি"
+     "en": "to be asleep",
+     "as": "টোপনিত থকা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'to be in the dark' means to be ignorant.",
-    "as": "'to be in the dark' ৰ অৰ্থ হৈছে অজ্ঞ থকা।"
+    "en": "'To be in the dark' means to know nothing about something — we were in the dark about the change. The wrong options describe a dark room, a fear of darkness and being asleep.",
+    "as": "'To be in the dark' মানে একো নজনাকৈ থকা — পৰিৱৰ্তনৰ কথা আমি নাজানিছিলোঁ। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -38931,25 +38931,25 @@ module.exports = {
    "options": [
     {
      "en": "to be in low spirits",
-     "as": "হতাশ অৱস্থাত থকা"
+     "as": "মনত উৎসাহ নোহোৱা"
     },
     {
-     "en": "something easily understood",
-     "as": "সহজতে বুজিব পৰা বস্তু"
+     "en": "to be very busy",
+     "as": "বৰ ব্যস্ত থকা"
     },
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
+     "en": "to be at sea",
+     "as": "সাগৰত থকা"
     },
     {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
+     "en": "to be in good health",
+     "as": "সুস্থ থকা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'to be in the doldrums' means to be in low spirits.",
-    "as": "'to be in the doldrums' ৰ অৰ্থ হৈছে হতাশ অৱস্থাত থকা।"
+    "en": "'To be in the doldrums' means to feel low and without energy — the team was in the doldrums after the loss. The wrong options describe being busy, being at sea and being healthy.",
+    "as": "'To be in the doldrums' মানে মনত উৎসাহ নোহোৱা — পৰাজয়ৰ পিছত দলটো নিৰুৎসাহ আছিল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -40190,26 +40190,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "under suspicion",
-     "as": "সন্দেহৰ আৱৰ্তত"
+     "en": "with careful planning",
+     "as": "সাৱধানে পৰিকল্পনা কৰি"
     },
     {
-     "en": "right in front of one",
-     "as": "চকুৰ সন্মুখত"
+     "en": "for a good purpose",
+     "as": "ভাল উদ্দেশ্যে"
     },
     {
-     "en": "feeling unwell",
-     "as": "অসুস্থ অনুভৱ কৰা"
+     "en": "in a set pattern",
+     "as": "নিৰ্দিষ্ট ধৰণে"
     },
     {
      "en": "without any sense",
-     "as": "কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ"
+     "as": "কোনো অৰ্থ নোহোৱাকৈ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'without rhyme or reason' means without any sense.",
-    "as": "'without rhyme or reason' ৰ অৰ্থ হৈছে কোনো অৰ্থ বা কাৰণ নোহোৱাকৈ।"
+    "en": "'Without rhyme or reason' means with no logic at all — the prices changed without rhyme or reason. The wrong options mean with careful planning, for a good purpose and in a set pattern.",
+    "as": "'Without rhyme or reason' মানে কোনো যুক্তি নোহোৱাকৈ — দামবোৰ কোনো কাৰণ নোহোৱাকৈ সলনি হ'ল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -40940,26 +40940,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "something easily understood",
-     "as": "সহজতে বুজিব পৰা বস্তু"
+     "en": "to begin a race",
+     "as": "দৌৰ আৰম্ভ কৰা"
     },
     {
      "en": "to come to the main point",
      "as": "মূল কথালৈ অহা"
     },
     {
-     "en": "a very difficult task",
-     "as": "অতি কঠিন কাম"
+     "en": "to change the subject",
+     "as": "বিষয় সলনি কৰা"
     },
     {
-     "en": "a person dearly loved",
-     "as": "অতি প্ৰিয় ব্যক্তি"
+     "en": "to tell a long story",
+     "as": "দীঘল কাহিনী কোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'cut to the chase' means to come to the main point.",
-    "as": "'cut to the chase' ৰ অৰ্থ হৈছে মূল কথালৈ অহা।"
+    "en": "'Cut to the chase' means to come to the main point quickly — let us cut to the chase. The wrong options mean starting a race, changing the subject and telling a long story.",
+    "as": "'Cut to the chase' মানে পোনপটীয়াকৈ মূল কথালৈ অহা — আহা মূল কথালৈ যাওঁ। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -41660,26 +41660,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "an ambiguous compliment",
-     "as": "দুই অৰ্থৰ প্ৰশংসা"
+     "en": "rather young",
+     "as": "তুলনামূলক কম বয়সৰ"
     },
     {
-     "en": "to reveal a secret",
-     "as": "গোপন কথা ফাদিল কৰা"
+     "en": "very hungry",
+     "as": "বৰ ভোকাতুৰ"
     },
     {
      "en": "rather old",
      "as": "বয়সীয়াল"
     },
     {
-     "en": "to be defeated humbly",
-     "as": "লাজৰ সৈতে পৰাজিত হোৱা"
+     "en": "badly dressed",
+     "as": "বেয়াকৈ সজ্জিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'long in the tooth' means rather old.",
-    "as": "'long in the tooth' ৰ অৰ্থ হৈছে বয়সীয়াল।"
+    "en": "'Long in the tooth' means rather old, said of people and horses — the old trainer is long in the tooth. The wrong options mean rather young, very hungry and badly dressed.",
+    "as": "'Long in the tooth' মানে বয়সীয়াল — পুৰণি প্ৰশিক্ষকজনা বয়সীয়াল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -41780,26 +41780,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "occasionally",
-     "as": "মাজে মাজে"
+     "en": "to win a great victory",
+     "as": "মহাবিজয় লাভ কৰা"
     },
     {
-     "en": "extremely happy",
-     "as": "অতি আনন্দিত"
+     "en": "to meet an old friend",
+     "as": "পুৰণি বন্ধু লগ পোৱা"
     },
     {
      "en": "to suffer a final defeat",
-     "as": "অন্তিম পৰাজয় ভোগ কৰা"
+     "as": "চূড়ান্ত পৰাজয় বৰণ কৰা"
     },
     {
-     "en": "faced with two difficult choices",
-     "as": "দুটা কঠিন বিকল্পৰ সন্মুখীন"
+     "en": "to reach a safe place",
+     "as": "নিৰাপদ স্থানত উপনীত হোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'meet one's Waterloo' means to suffer a final defeat.",
-    "as": "'meet one's Waterloo' ৰ অৰ্থ হৈছে অন্তিম পৰাজয় ভোগ কৰা।"
+    "en": "'Meet one's Waterloo' means to suffer a final defeat — the champion met his Waterloo. The wrong options mean winning a great victory, meeting an old friend and reaching safety.",
+    "as": "'Meet one's Waterloo' মানে চূড়ান্ত পৰাজয় বৰণ কৰা — চেম্পিয়নে চূড়ান্ত পৰাজয় বৰণ কৰিলে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -42560,26 +42560,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
+     "en": "to eat a large meal",
+     "as": "বেছি খোৱা"
     },
     {
      "en": "to spend less money",
-     "as": "কম ধন খৰচ কৰা"
+     "as": "খৰচ কমোৱা"
     },
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
+     "en": "to work harder",
+     "as": "অধিক পৰিশ্ৰম কৰা"
     },
     {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
+     "en": "to buy new clothes",
+     "as": "নতুন কাপোৰ কিনা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'tighten one's belt' means to spend less money.",
-    "as": "'tighten one's belt' ৰ অৰ্থ হৈছে কম ধন খৰচ কৰা।"
+    "en": "'Tighten one's belt' means to spend less because money is short — the family tightened its belt. The wrong options mean eating a large meal, working harder and buying new clothes.",
+    "as": "'Tighten one's belt' মানে খৰচ কমোৱা — পৰিয়ালে খৰচ কমালে। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -42590,26 +42590,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "in writing",
-     "as": "লিখিত ৰূপত"
+     "en": "spoken with a lisp",
+     "as": "জিভাৰ লগত কথা কোৱা"
     },
     {
      "en": "not meant seriously",
-     "as": "গম্ভীৰভাৱে নকোৱা"
+     "as": "গম্ভীৰভাৱে নোকোৱা"
     },
     {
-     "en": "in the same difficult situation",
-     "as": "একে কঠিন অৱস্থাত"
+     "en": "said in anger",
+     "as": "খঙত কোৱা"
     },
     {
-     "en": "to give up a bad habit",
-     "as": "বেয়া অভ্যাস এৰি দিয়া"
+     "en": "meant as a warning",
+     "as": "সতৰ্কবাণী হিচাপে কোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'tongue in cheek' means not meant seriously.",
-    "as": "'tongue in cheek' ৰ অৰ্থ হৈছে গম্ভীৰভাৱে নকোৱা।"
+    "en": "'Tongue in cheek' means said as a joke, not seriously — his praise was tongue in cheek. The wrong options mean spoken with a lisp, said in anger and meant as a warning.",
+    "as": "'Tongue in cheek' মানে ধেমেলীয়াকৈ কোৱা — তেওঁৰ প্ৰশংসা ধেমেলীয়া আছিল। বাকী তিনিটাই বেলেগ অৰ্থ দিয়ে।"
    }
   },
   {
@@ -45058,22 +45058,22 @@ module.exports = {
      "as": "লেখক"
     },
     {
-     "en": "advocate",
-     "as": "উকীল"
+     "en": "poet",
+     "as": "কবি"
     },
     {
-     "en": "ambassador",
-     "as": "ৰাষ্ট্ৰদূত"
+     "en": "novelist",
+     "as": "ঔপন্যাসিক"
     },
     {
-     "en": "anatomist",
-     "as": "শৰীৰতত্ত্ববিদ"
+     "en": "editor",
+     "as": "সম্পাদক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'author'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'author' (লেখক)।"
+    "en": "'Author' is the word for one who writes books. 'Poet' writes verse, 'novelist' writes long fiction and 'editor' prepares the work of others for print, so none of them is the general word for a writer of books.",
+    "as": "'Author' মানে কিতাপ লিখা ব্যক্তি। 'Poet' পদ্য লিখে, 'novelist' উপন্যাস লিখে, 'editor' আনৰ লেখা ছপা কৰিবলৈ সাজু কৰে।"
    }
   },
   {
@@ -45234,26 +45234,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "butcher",
-     "as": "মাংস বিক্ৰেতা"
+     "en": "biographer",
+     "as": "জীৱনী লেখক"
     },
     {
-     "en": "cannibal",
-     "as": "নৰভক্ষী"
+     "en": "novelist",
+     "as": "ঔপন্যাসিক"
     },
     {
-     "en": "captain",
-     "as": "অধিনায়ক"
+     "en": "historian",
+     "as": "ইতিহাসবিদ"
     },
     {
      "en": "autobiographer",
-     "as": "আত্মজীৱনীকাৰ"
+     "as": "আত্মজীৱনী লেখক"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'autobiographer'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'autobiographer' (আত্মজীৱনীকাৰ)।"
+    "en": "'Autobiographer' is the word for one who writes the story of his own life. 'Biographer' writes the life of someone else, 'novelist' writes fiction and 'historian' records the events of the past.",
+    "as": "'Autobiographer' মানে নিজৰ জীৱনী লিখা ব্যক্তি। 'Biographer' আনৰ জীৱনী লিখে, 'novelist' কল্পকাহিনী লিখে, 'historian' অতীতৰ ঘটনা লিখে।"
    }
   },
   {
@@ -45264,26 +45264,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "captain",
-     "as": "অধিনায়ক"
+     "en": "etymologist",
+     "as": "শব্দ-উৎপত্তি বিশেষজ্ঞ"
     },
     {
-     "en": "cardiologist",
-     "as": "হৃদৰোগ বিশেষজ্ঞ"
+     "en": "bibliographer",
+     "as": "গ্ৰন্থ-তালিকা প্ৰস্তুতকাৰী"
     },
     {
      "en": "lexicographer",
      "as": "অভিধানকাৰ"
     },
     {
-     "en": "carpenter",
-     "as": "কাঠমিস্ত্ৰী"
+     "en": "editor",
+     "as": "সম্পাদক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'lexicographer'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'lexicographer' (অভিধানকাৰ)।"
+    "en": "'Lexicographer' is the word for one who compiles a dictionary. 'Etymologist' studies the origin of words, 'bibliographer' lists books and 'editor' prepares text for publication.",
+    "as": "'Lexicographer' মানে অভিধান সংকলন কৰা ব্যক্তি। 'Etymologist' শব্দৰ উৎপত্তি পঢ়ে, 'bibliographer' কিতাপৰ তালিকা কৰে, 'editor' লেখা ছপা কৰিবলৈ সাজু কৰে।"
    }
   },
   {
@@ -45564,26 +45564,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "historian",
-     "as": "ইতিহাসবিদ"
+     "en": "mason",
+     "as": "ৰাজমিস্ত্ৰী"
     },
     {
      "en": "carpenter",
      "as": "কাঠমিস্ত্ৰী"
     },
     {
-     "en": "hunter",
-     "as": "চিকাৰী"
+     "en": "blacksmith",
+     "as": "কামাৰ"
     },
     {
-     "en": "illiterate",
-     "as": "নিৰক্ষৰ"
+     "en": "plumber",
+     "as": "প্লাম্বাৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'carpenter'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'carpenter' (কাঠমিস্ত্ৰী)।"
+    "en": "'Carpenter' is the word for one who makes wooden furniture. 'Mason' works in stone, 'blacksmith' works in iron and 'plumber' fits water pipes, so only one of them works in wood.",
+    "as": "'Carpenter' মানে কাঠৰ আচবাব বনোৱা ব্যক্তি। 'Mason' শিলত কাম কৰে, 'blacksmith' লোত কাম কৰে, 'plumber' পানীৰ পাইপ লগায়।"
    }
   },
   {
@@ -45594,26 +45594,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "insolvent",
-     "as": "দেৱালীয়া"
+     "en": "goldsmith",
+     "as": "স্বৰ্ণকাৰ"
     },
     {
-     "en": "journalist",
-     "as": "সাংবাদিক"
+     "en": "silversmith",
+     "as": "ৰূপকাৰ"
     },
     {
      "en": "blacksmith",
-     "as": "লো-কাৰিকৰ"
+     "as": "কামাৰ"
     },
     {
-     "en": "judge",
-     "as": "ন্যায়াধীশ"
+     "en": "locksmith",
+     "as": "তলাবিশেষজ্ঞ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'blacksmith'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'blacksmith' (লো-কাৰিকৰ)।"
+    "en": "'Blacksmith' is the word for one who works with iron. 'Goldsmith' works with gold, 'silversmith' with silver and 'locksmith' makes locks, so none of them names the worker in iron.",
+    "as": "'Blacksmith' মানে লোৰ কাম কৰা ব্যক্তি। 'Goldsmith' সোণৰ, 'silversmith' ৰূপৰ, 'locksmith' তলা বনোৱা কাম কৰে।"
    }
   },
   {
@@ -45625,25 +45625,25 @@ module.exports = {
    "options": [
     {
      "en": "goldsmith",
-     "as": "সোণাৰি"
+     "as": "স্বৰ্ণকাৰ"
     },
     {
-     "en": "king",
-     "as": "ৰজা"
+     "en": "silversmith",
+     "as": "ৰূপকাৰ"
     },
     {
-     "en": "labourer",
-     "as": "শ্ৰমিক"
+     "en": "blacksmith",
+     "as": "কামাৰ"
     },
     {
-     "en": "lawyer",
-     "as": "অধিবক্তা"
+     "en": "jeweller",
+     "as": "অলংকাৰ বিক্ৰেতা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'goldsmith'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'goldsmith' (সোণাৰি)।"
+    "en": "'Goldsmith' is the word for one who works with gold. 'Silversmith' works with silver, 'blacksmith' with iron and 'jeweller' sells ornaments rather than making them.",
+    "as": "'Goldsmith' মানে সোণৰ কাম কৰা ব্যক্তি। 'Silversmith' ৰূপৰ কাম কৰে, 'blacksmith' লোৰ কাম কৰে, 'jeweller' অলংকাৰ বিক্ৰী কৰে।"
    }
   },
   {
@@ -45654,26 +45654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "legislator",
-     "as": "আইন প্ৰণেতা"
+     "en": "tailor",
+     "as": "দৰ্জী"
     },
     {
-     "en": "lexicographer",
-     "as": "অভিধানকাৰ"
-    },
-    {
-     "en": "cobbler",
+     "en": "tanner",
      "as": "চৰ্মকাৰ"
     },
     {
-     "en": "linguist",
-     "as": "ভাষাবিদ"
+     "en": "cobbler",
+     "as": "মুচী"
+    },
+    {
+     "en": "weaver",
+     "as": "তাঁতী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'cobbler'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'cobbler' (চৰ্মকাৰ)।"
+    "en": "'Cobbler' is the word for one who mends shoes. 'Tailor' stitches clothes, 'tanner' prepares leather and 'weaver' makes cloth, so none of them mends footwear.",
+    "as": "'Cobbler' মানে জোতা মেৰামতি কৰা ব্যক্তি। 'Tailor' কাপোৰ চিলাই কৰে, 'tanner' ছাল প্ৰস্তুত কৰে, 'weaver' কাপোৰ বৈ কৰে।"
    }
   },
   {
@@ -45864,26 +45864,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "photographer",
-     "as": "ফটোগ্ৰাফাৰ"
+     "en": "miller",
+     "as": "গুটি-গুড়ি কৰা ব্যক্তি"
     },
     {
      "en": "baker",
-     "as": "ৰুটি-নিৰ্মাতা"
+     "as": "পাউৰুটি সেকা ব্যক্তি"
     },
     {
-     "en": "pilot",
-     "as": "উৰাজাহাজ চালক"
+     "en": "confectioner",
+     "as": "মিঠাই বনোৱা ব্যক্তি"
     },
     {
-     "en": "poet",
-     "as": "কবি"
+     "en": "grocer",
+     "as": "মুদী দোকানী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'baker'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'baker' (ৰুটি-নিৰ্মাতা)।"
+    "en": "'Baker' is the word for one who bakes bread. 'Miller' grinds grain into flour, 'confectioner' makes sweets and 'grocer' sells food, so none of them bakes the bread.",
+    "as": "'Baker' মানে পাউৰুটি সেকা ব্যক্তি। 'Miller' গুটি গুড়ি কৰে, 'confectioner' মিঠাই বনায়, 'grocer' খাদ্য বিক্ৰী কৰে।"
    }
   },
   {
@@ -45894,26 +45894,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "poet",
-     "as": "কবি"
+     "en": "mason",
+     "as": "ৰাজমিস্ত্ৰী"
     },
     {
-     "en": "polyglot",
-     "as": "বহুভাষী"
+     "en": "sculptor",
+     "as": "ভাস্কৰ্য্যশিল্পী"
     },
     {
      "en": "potter",
-     "as": "কুম্ভকাৰ"
+     "as": "কুমাৰ"
     },
     {
-     "en": "president",
-     "as": "ৰাষ্ট্ৰপতি"
+     "en": "blacksmith",
+     "as": "কামাৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'potter'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'potter' (কুম্ভকাৰ)।"
+    "en": "'Potter' is the word for one who makes pots of clay. 'Mason' builds with stone, 'sculptor' carves figures and 'blacksmith' works in iron, so none of them shapes clay pots.",
+    "as": "'Potter' মানে মাটিৰ পাত্ৰ বনোৱা ব্যক্তি। 'Mason' শিলেৰে নিৰ্মাণ কৰে, 'sculptor' মূৰ্তি কাটে, 'blacksmith' লোৰ কাম কৰে।"
    }
   },
   {
@@ -45924,16 +45924,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "president",
-     "as": "ৰাষ্ট্ৰপতি"
+     "en": "spinner",
+     "as": "সূতা কটা ব্যক্তি"
     },
     {
-     "en": "proofreader",
-     "as": "প্ৰুফ পাঠক"
+     "en": "tailor",
+     "as": "দৰ্জী"
     },
     {
-     "en": "psychiatrist",
-     "as": "মনোৰোগ বিশেষজ্ঞ"
+     "en": "dyer",
+     "as": "ৰং কৰা ব্যক্তি"
     },
     {
      "en": "weaver",
@@ -45942,8 +45942,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'weaver'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'weaver' (তাঁতী)।"
+    "en": "'Weaver' is the word for one who weaves cloth. 'Spinner' makes the thread, 'tailor' stitches garments and 'dyer' colours the cloth, so each covers only an earlier or later step.",
+    "as": "'Weaver' মানে কাপোৰ বোৱা ব্যক্তি। 'Spinner' সূতা কাটে, 'tailor' কাপোৰ চিলাই কৰে, 'dyer' ৰং কৰে।"
    }
   },
   {
@@ -46165,25 +46165,25 @@ module.exports = {
    "options": [
     {
      "en": "philatelist",
-     "as": "ডাকটিকট সংগ্ৰাহক"
+     "as": "ডাক-টিকট সংগ্ৰাহক"
     },
     {
-     "en": "advocate",
-     "as": "উকীল"
+     "en": "numismatist",
+     "as": "মুদ্ৰা-সংগ্ৰাহক"
     },
     {
-     "en": "ambassador",
-     "as": "ৰাষ্ট্ৰদূত"
+     "en": "bibliophile",
+     "as": "গ্ৰন্থপ্ৰেমী"
     },
     {
-     "en": "anatomist",
-     "as": "শৰীৰতত্ত্ববিদ"
+     "en": "antiquarian",
+     "as": "পুৰাতত্ত্ব-সংগ্ৰাহক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'philatelist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'philatelist' (ডাকটিকট সংগ্ৰাহক)।"
+    "en": "'Philatelist' is the word for one who collects stamps. 'Numismatist' collects coins, 'bibliophile' collects books and 'antiquarian' collects old objects, so only the first collects postage stamps.",
+    "as": "'Philatelist' মানে ডাক-টিকট সংগ্ৰহ কৰা ব্যক্তি। 'Numismatist' মুদ্ৰা সংগ্ৰহ কৰে, 'bibliophile' কিতাপ সংগ্ৰহ কৰে, 'antiquarian' পুৰণি বস্তু সংগ্ৰহ কৰে।"
    }
   },
   {
@@ -46224,26 +46224,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "astrophysicist",
-     "as": "জ্যোতিৰ্পদাৰ্থবিদ"
+     "en": "astrologer",
+     "as": "জ্যোতিষী"
     },
     {
      "en": "astronomer",
-     "as": "জ্যোতিৰ্বিদ"
+     "as": "জ্যোতিৰ্বিজ্ঞানী"
     },
     {
-     "en": "atheist",
-     "as": "নাস্তিক"
+     "en": "geologist",
+     "as": "ভূতত্ত্ববিদ"
     },
     {
-     "en": "author",
-     "as": "লেখক"
+     "en": "meteorologist",
+     "as": "বতৰবিজ্ঞানী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'astronomer'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'astronomer' (জ্যোতিৰ্বিদ)।"
+    "en": "'Astronomer' is the word for one who studies the stars. 'Astrologer' reads fortunes from the stars, 'geologist' studies rocks and 'meteorologist' studies the weather, so only one of them is a scientist of the stars.",
+    "as": "'Astronomer' মানে তৰা অধ্যয়ন কৰা ব্যক্তি। 'Astrologer' ফলাদেশ কৰে, 'geologist' শিল পঢ়ে, 'meteorologist' বতৰ পঢ়ে।"
    }
   },
   {
@@ -46254,26 +46254,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "author",
-     "as": "লেখক"
+     "en": "entomologist",
+     "as": "কীটবিজ্ঞানী"
     },
     {
-     "en": "autobiographer",
-     "as": "আত্মজীৱনীকাৰ"
+     "en": "botanist",
+     "as": "উদ্ভিদবিজ্ঞানী"
     },
     {
      "en": "ornithologist",
-     "as": "পক্ষীবিদ"
+     "as": "পক্ষীবিজ্ঞানী"
     },
     {
-     "en": "autocrat",
-     "as": "স্বেচ্ছাচাৰী"
+     "en": "zoologist",
+     "as": "প্ৰাণীবিজ্ঞানী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'ornithologist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'ornithologist' (পক্ষীবিদ)।"
+    "en": "'Ornithologist' is the word for one who studies birds. 'Entomologist' studies insects, 'botanist' studies plants and 'zoologist' studies animals in general, so only the first is limited to birds.",
+    "as": "'Ornithologist' মানে চৰাই অধ্যয়ন কৰা ব্যক্তি। 'Entomologist' পোক পঢ়ে, 'botanist' উদ্ভিদ পঢ়ে, 'zoologist' জন্তু পঢ়ে।"
    }
   },
   {
@@ -46344,26 +46344,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "butcher",
-     "as": "মাংস বিক্ৰেতা"
-    },
-    {
-     "en": "anatomist",
+     "en": "physiologist",
      "as": "শৰীৰতত্ত্ববিদ"
     },
     {
-     "en": "cannibal",
-     "as": "নৰভক্ষী"
+     "en": "anatomist",
+     "as": "শৰীৰ-গঠনবিদ"
     },
     {
-     "en": "captain",
-     "as": "অধিনায়ক"
+     "en": "biologist",
+     "as": "জীৱবিজ্ঞানী"
+    },
+    {
+     "en": "physician",
+     "as": "চিকিৎসক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'anatomist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'anatomist' (শৰীৰতত্ত্ববিদ)।"
+    "en": "'Anatomist' is the word for one who studies the human body. 'Physiologist' studies how its parts work, 'biologist' studies living things broadly and 'physician' treats patients.",
+    "as": "'Anatomist' মানে মানৱ শৰীৰ অধ্যয়ন কৰা ব্যক্তি। 'Physiologist' অংগসমূহে কেনেকৈ কাম কৰে পঢ়ে, 'biologist' জীৱজগত পঢ়ে, 'physician' চিকিৎসা কৰে।"
    }
   },
   {
@@ -46378,22 +46378,22 @@ module.exports = {
      "as": "মনোবিজ্ঞানী"
     },
     {
-     "en": "captain",
-     "as": "অধিনায়ক"
+     "en": "psychiatrist",
+     "as": "মনোৰোগ চিকিৎসক"
     },
     {
-     "en": "cardiologist",
-     "as": "হৃদৰোগ বিশেষজ্ঞ"
+     "en": "neurologist",
+     "as": "স্নায়ুবিশেষজ্ঞ"
     },
     {
-     "en": "carpenter",
-     "as": "কাঠমিস্ত্ৰী"
+     "en": "philosopher",
+     "as": "দাৰ্শনিক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'psychologist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'psychologist' (মনোবিজ্ঞানী)।"
+    "en": "'Psychologist' is the word for one who studies the human mind. 'Psychiatrist' treats mental illness as a doctor, 'neurologist' treats the nerves and 'philosopher' reasons about ideas.",
+    "as": "'Psychologist' মানে মানুহৰ মন অধ্যয়ন কৰা ব্যক্তি। 'Psychiatrist' চিকিৎসক হিচাপে মানসিক ৰোগৰ চিকিৎসা কৰে, 'neurologist' স্নায়ুৰ চিকিৎসা কৰে, 'philosopher' দৰ্শন চিন্তা কৰে।"
    }
   },
   {
@@ -46674,26 +46674,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "historian",
-     "as": "ইতিহাসবিদ"
+     "en": "physician",
+     "as": "চিকিৎসক"
     },
     {
      "en": "dentist",
-     "as": "দন্তচিকিৎসক"
+     "as": "দন্ত চিকিৎসক"
     },
     {
-     "en": "hunter",
-     "as": "চিকাৰী"
+     "en": "surgeon",
+     "as": "শল্য চিকিৎসক"
     },
     {
-     "en": "illiterate",
-     "as": "নিৰক্ষৰ"
+     "en": "optician",
+     "as": "চছমা নিৰ্মাতা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'dentist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'dentist' (দন্তচিকিৎসক)।"
+    "en": "'Dentist' is the word for one who treats teeth. 'Physician' treats general illness, 'surgeon' operates and 'optician' makes and fits spectacles, so only one of them looks at teeth.",
+    "as": "'Dentist' মানে দাঁতৰ চিকিৎসা কৰা ব্যক্তি। 'Physician' সাধাৰণ ৰোগৰ চিকিৎসা কৰে, 'surgeon' অপাৰেচন কৰে, 'optician' চছমা বনায়।"
    }
   },
   {
@@ -46704,26 +46704,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "illiterate",
-     "as": "নিৰক্ষৰ"
+     "en": "optician",
+     "as": "চছমা নিৰ্মাতা"
     },
     {
      "en": "ophthalmologist",
      "as": "চকু বিশেষজ্ঞ"
     },
     {
-     "en": "insolvent",
-     "as": "দেৱালীয়া"
+     "en": "dentist",
+     "as": "দন্ত চিকিৎসক"
     },
     {
-     "en": "journalist",
-     "as": "সাংবাদিক"
+     "en": "physician",
+     "as": "চিকিৎসক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'ophthalmologist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'ophthalmologist' (চকু বিশেষজ্ঞ)।"
+    "en": "'Ophthalmologist' is the word for one who treats the eyes. 'Optician' only makes and fits lenses, 'dentist' treats teeth and 'physician' treats general illness, so only one is a doctor for the eyes.",
+    "as": "'Ophthalmologist' মানে চকুৰ চিকিৎসা কৰা ব্যক্তি। 'Optician' মাত্ৰ লেন্স বনায়, 'dentist' দাঁতৰ চিকিৎসা কৰে, 'physician' সাধাৰণ ৰোগৰ চিকিৎসা কৰে।"
    }
   },
   {
@@ -46734,26 +46734,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "king",
-     "as": "ৰজা"
+     "en": "physician",
+     "as": "চিকিৎসক"
     },
     {
-     "en": "labourer",
-     "as": "শ্ৰমিক"
+     "en": "surgeon",
+     "as": "শল্য চিকিৎসক"
     },
     {
      "en": "dermatologist",
-     "as": "চৰ্মৰোগ বিশেষজ্ঞ"
+     "as": "ছাল ৰোগ বিশেষজ্ঞ"
     },
     {
-     "en": "lawyer",
-     "as": "অধিবক্তা"
+     "en": "paediatrician",
+     "as": "শিশু বিশেষজ্ঞ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'dermatologist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'dermatologist' (চৰ্মৰোগ বিশেষজ্ঞ)।"
+    "en": "'Dermatologist' is the word for one who treats skin diseases. 'Physician' treats general illness, 'surgeon' operates and 'paediatrician' treats children, so only one works on the skin.",
+    "as": "'Dermatologist' মানে ছালৰ ৰোগৰ চিকিৎসা কৰা ব্যক্তি। 'Physician' সাধাৰণ ৰোগৰ চিকিৎসা কৰে, 'surgeon' অপাৰেচন কৰে, 'paediatrician' শিশুৰ চিকিৎসা কৰে।"
    }
   },
   {
@@ -46768,22 +46768,22 @@ module.exports = {
      "as": "শিশু বিশেষজ্ঞ"
     },
     {
-     "en": "lawyer",
-     "as": "অধিবক্তা"
+     "en": "physician",
+     "as": "চিকিৎসক"
     },
     {
-     "en": "legislator",
-     "as": "আইন প্ৰণেতা"
+     "en": "gynaecologist",
+     "as": "স্ত্ৰীৰোগ বিশেষজ্ঞ"
     },
     {
-     "en": "lexicographer",
-     "as": "অভিধানকাৰ"
+     "en": "surgeon",
+     "as": "শল্য চিকিৎসক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'pediatrician'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'pediatrician' (শিশু বিশেষজ্ঞ)।"
+    "en": "'Pediatrician' is the word for one who treats children. 'Physician' treats adults and children alike, 'gynaecologist' treats women's health and 'surgeon' operates on them, so only one specialises in children.",
+    "as": "'Pediatrician' মানে শিশুৰ চিকিৎসা কৰা ব্যক্তি। 'Physician' সাধাৰণ চিকিৎসা কৰে, 'gynaecologist' মহিলাৰ স্বাস্থ্যৰ চিকিৎসা কৰে, 'surgeon' অপাৰেচন কৰে।"
    }
   },
   {
@@ -47274,16 +47274,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "advocate",
-     "as": "উকীল"
+     "en": "theist",
+     "as": "আস্তিক"
     },
     {
-     "en": "ambassador",
-     "as": "ৰাষ্ট্ৰদূত"
+     "en": "agnostic",
+     "as": "অজ্ঞেয়বাদী"
     },
     {
-     "en": "anatomist",
-     "as": "শৰীৰতত্ত্ববিদ"
+     "en": "pagan",
+     "as": "বহুদেৱবাদী"
     },
     {
      "en": "atheist",
@@ -47292,8 +47292,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'atheist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'atheist' (নাস্তিক)।"
+    "en": "'Atheist' is the word for one who does not believe in God. 'Theist' believes in God, 'agnostic' says the answer is unknown and 'pagan' follows a faith with many gods.",
+    "as": "'Atheist' মানে ঈশ্বৰত বিশ্বাস নকৰা ব্যক্তি। 'Theist' ঈশ্বৰত বিশ্বাস কৰে, 'agnostic' নাজানে বুলি কয়, 'pagan' বহুদেৱবাদী।"
    }
   },
   {
@@ -47364,26 +47364,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "author",
-     "as": "লেখক"
+     "en": "hermit",
+     "as": "সংসাৰত্যাগী"
     },
     {
      "en": "recluse",
-     "as": "নিৰ্জনবাসী"
+     "as": "নিঃসংগ ব্যক্তি"
     },
     {
-     "en": "autobiographer",
-     "as": "আত্মজীৱনীকাৰ"
+     "en": "loner",
+     "as": "অকলশৰীয়া"
     },
     {
-     "en": "autocrat",
-     "as": "স্বেচ্ছাচাৰী"
+     "en": "ascetic",
+     "as": "তপস্বী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'recluse'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'recluse' (নিৰ্জনবাসী)।"
+    "en": "'Recluse' is the word for one who lives alone away from people. 'Hermit' lives alone for religious reasons, 'loner' simply prefers solitude and 'ascetic' gives up bodily pleasures.",
+    "as": "'Recluse' মানে মানুহৰ পৰা আঁতৰত অকলে থকা ব্যক্তি। 'Hermit' ধৰ্মীয় কাৰণত অকলে থাকে, 'loner' অকলশৰীয়া থাকিবলৈ ভাল পায়, 'ascetic' ভোগ ত্যাগ কৰে।"
    }
   },
   {
@@ -47454,16 +47454,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "burglar",
-     "as": "গৃহচোৰ"
+     "en": "borrower",
+     "as": "ঋণগ্ৰহীতা"
     },
     {
-     "en": "butcher",
-     "as": "মাংস বিক্ৰেতা"
+     "en": "debtor",
+     "as": "ঋণী"
     },
     {
-     "en": "cannibal",
-     "as": "নৰভক্ষী"
+     "en": "miser",
+     "as": "কৃপণ"
     },
     {
      "en": "donor",
@@ -47472,8 +47472,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'donor'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'donor' (দাতা)।"
+    "en": "'Donor' is the word for one who gives money to a good cause. 'Borrower' takes money, 'debtor' owes money and 'miser' hoards it, so none of the three gives anything away.",
+    "as": "'Donor' মানে ভাল কামলৈ ধন দিয়া ব্যক্তি। 'Borrower' ধন লয়, 'debtor' ঋণী, 'miser' ধন সাঁচি ৰাখে।"
    }
   },
   {
@@ -47485,25 +47485,25 @@ module.exports = {
    "options": [
     {
      "en": "philanthropist",
-     "as": "মানৱপ্ৰেমী"
+     "as": "জনহিতৈষী"
     },
     {
-     "en": "captain",
-     "as": "অধিনায়ক"
+     "en": "miser",
+     "as": "কৃপণ"
     },
     {
-     "en": "cardiologist",
-     "as": "হৃদৰোগ বিশেষজ্ঞ"
+     "en": "spendthrift",
+     "as": "অপচয়ী"
     },
     {
-     "en": "carpenter",
-     "as": "কাঠমিস্ত্ৰী"
+     "en": "egoist",
+     "as": "স্বাৰ্থপৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'philanthropist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'philanthropist' (মানৱপ্ৰেমী)।"
+    "en": "'Philanthropist' is the word for one who gives generously to the poor. 'Miser' hoards money, 'spendthrift' wastes it on himself and 'egoist' thinks only of his own interest.",
+    "as": "'Philanthropist' মানে দুখীয়াক উদাৰভাৱে দান কৰা ব্যক্তি। 'Miser' ধন সাঁচে, 'spendthrift' অপচয় কৰে, 'egoist' মাত্ৰ নিজৰ কথা ভাবে।"
    }
   },
   {
@@ -47784,26 +47784,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "historian",
-     "as": "ইতিহাসবিদ"
+     "en": "apprentice",
+     "as": "শিক্ষানবিশ"
     },
     {
-     "en": "hunter",
-     "as": "চিকাৰী"
+     "en": "labourer",
+     "as": "শ্ৰমিক"
     },
     {
      "en": "artisan",
-     "as": "কাৰিকৰ"
+     "as": "শিল্পী"
     },
     {
-     "en": "illiterate",
-     "as": "নিৰক্ষৰ"
+     "en": "merchant",
+     "as": "ব্যৱসায়ী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'artisan'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'artisan' (কাৰিকৰ)।"
+    "en": "'Artisan' is the word for one who is skilled in a craft. 'Apprentice' is still learning the trade, 'labourer' does unskilled work and 'merchant' sells goods rather than making them.",
+    "as": "'Artisan' মানে শিল্পত দক্ষ ব্যক্তি। 'Apprentice' এতিয়াও শিকি আছে, 'labourer' অদক্ষ শ্ৰম কৰে, 'merchant' সামগ্ৰী বিক্ৰী কৰে।"
    }
   },
   {
@@ -47814,26 +47814,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "illiterate",
-     "as": "নিৰক্ষৰ"
+     "en": "artisan",
+     "as": "দক্ষ শিল্পী"
     },
     {
-     "en": "insolvent",
-     "as": "দেৱালীয়া"
+     "en": "clerk",
+     "as": "কাৰ্য্যালয় সহায়ক"
     },
     {
      "en": "labourer",
      "as": "শ্ৰমিক"
     },
     {
-     "en": "journalist",
-     "as": "সাংবাদিক"
+     "en": "foreman",
+     "as": "তদাৰকী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'labourer'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'labourer' (শ্ৰমিক)।"
+    "en": "'Labourer' is the word for one who does hard manual work. 'Artisan' is a skilled craftsman, 'clerk' works with papers and 'foreman' supervises others, so none does the manual work itself.",
+    "as": "'Labourer' মানে কঠোৰ শাৰীৰিক শ্ৰম কৰা ব্যক্তি। 'Artisan' দক্ষ শিল্পী, 'clerk' কাগজৰ কাম কৰে, 'foreman' তদাৰকী।"
    }
   },
   {
@@ -47844,16 +47844,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "king",
-     "as": "ৰজা"
+     "en": "miller",
+     "as": "গুটি-গুড়ি কৰা ব্যক্তি"
     },
     {
-     "en": "labourer",
-     "as": "শ্ৰমিক"
+     "en": "gardener",
+     "as": "মালী"
     },
     {
-     "en": "lawyer",
-     "as": "অধিবক্তা"
+     "en": "shepherd",
+     "as": "মেষপালক"
     },
     {
      "en": "farmer",
@@ -47862,8 +47862,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'farmer'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'farmer' (কৃষক)।"
+    "en": "'Farmer' is the word for one who works on a farm. 'Miller' grinds grain, 'gardener' tends a garden and 'shepherd' tends sheep, each a narrower job than farming.",
+    "as": "'Farmer' মানে পথাৰত কাম কৰা ব্যক্তি। 'Miller' গুটি গুড়ি কৰে, 'gardener' বাগান কৰে, 'shepherd' ভেড়া চৰায়।"
    }
   },
   {
@@ -47875,25 +47875,25 @@ module.exports = {
    "options": [
     {
      "en": "shepherd",
-     "as": "গৰখীয়া"
+     "as": "মেষপালক"
     },
     {
-     "en": "lawyer",
-     "as": "অধিবক্তা"
+     "en": "goatherd",
+     "as": "ছাগলী ৰখীয়া"
     },
     {
-     "en": "legislator",
-     "as": "আইন প্ৰণেতা"
+     "en": "cowherd",
+     "as": "গৰু ৰখীয়া"
     },
     {
-     "en": "lexicographer",
-     "as": "অভিধানকাৰ"
+     "en": "farmer",
+     "as": "কৃষক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'shepherd'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'shepherd' (গৰখীয়া)।"
+    "en": "'Shepherd' is the word for one who tends sheep. 'Goatherd' tends goats, 'cowherd' tends cows and 'farmer' grows crops or keeps stock in general, so each names a different animal or trade.",
+    "as": "'Shepherd' মানে ভেড়া চৰোৱা ব্যক্তি। 'Goatherd' ছাগলী চৰায়, 'cowherd' গৰু চৰায়, 'farmer' খেতি কৰে।"
    }
   },
   {
@@ -48384,26 +48384,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "advocate",
-     "as": "উকীল"
+     "en": "astrologer",
+     "as": "জ্যোতিষী"
     },
     {
      "en": "astrophysicist",
-     "as": "জ্যোতিৰ্পদাৰ্থবিদ"
+     "as": "জ্যোতিঃপদাৰ্থবিজ্ঞানী"
     },
     {
-     "en": "ambassador",
-     "as": "ৰাষ্ট্ৰদূত"
+     "en": "geologist",
+     "as": "ভূতত্ত্ববিদ"
     },
     {
-     "en": "anatomist",
-     "as": "শৰীৰতত্ত্ববিদ"
+     "en": "meteorologist",
+     "as": "বতৰবিজ্ঞানী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "The correct one-word substitution is 'astrophysicist'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'astrophysicist' (জ্যোতিৰ্পদাৰ্থবিদ)।"
+    "en": "'Astrophysicist' is the word for one who studies the physics of heavenly bodies. 'Astrologer' casts horoscopes, 'geologist' studies rocks and 'meteorologist' studies the weather, so only one works on the physics of stars.",
+    "as": "'Astrophysicist' মানে মহাকাশীয় বস্তুৰ ভৌতিক অধ্যয়ন কৰা ব্যক্তি। 'Astrologer' ফলাদেশ কৰে, 'geologist' শিল পঢ়ে, 'meteorologist' বতৰ পঢ়ে।"
    }
   },
   {
@@ -53814,26 +53814,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "acronym",
-     "as": "চমু-শব্দ"
+     "en": "synonym",
+     "as": "সমাৰ্থক শব্দ"
     },
     {
-     "en": "almanac",
-     "as": "পঞ্জিকা"
+     "en": "homonym",
+     "as": "সমোচ্চাৰিত শব্দ"
     },
     {
      "en": "antonym",
      "as": "বিপৰীত শব্দ"
     },
     {
-     "en": "ambidextrous",
-     "as": "উভয়হস্তী"
+     "en": "acronym",
+     "as": "আদ্যক্ষৰী শব্দ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "The correct one-word substitution is 'antonym'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'antonym' (বিপৰীত শব্দ)।"
+    "en": "'Antonym' is the word for a word opposite in meaning to another. 'Synonym' means the same, 'homonym' sounds or is spelt alike and 'acronym' is formed from initials.",
+    "as": "'Antonym' মানে অৰ্থত ওলোটা শব্দ। 'Synonym' একেই অৰ্থৰ শব্দ, 'homonym' একেই উচ্চাৰণ বা বানানৰ, 'acronym' আদ্যক্ষৰেৰে গঠিত শব্দ।"
    }
   },
   {
@@ -54085,25 +54085,25 @@ module.exports = {
    "options": [
     {
      "en": "directory",
-     "as": "সূচী-পুথি"
+     "as": "নাম-ঠিকনা পুথি"
     },
     {
-     "en": "millennium",
-     "as": "সহস্ৰাব্দ"
+     "en": "almanac",
+     "as": "পঞ্জিকা"
     },
     {
-     "en": "myth",
-     "as": "পুৰাণ-কথা"
+     "en": "catalogue",
+     "as": "সামগ্ৰী-তালিকা"
     },
     {
-     "en": "neologism",
-     "as": "নৱ-শব্দ"
+     "en": "index",
+     "as": "সূচী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'directory'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'directory' (সূচী-পুথি)।"
+    "en": "'Directory' is the word for a book with a list of names and addresses. 'Almanac' lists dates and facts, 'catalogue' lists goods and 'index' lists page numbers.",
+    "as": "'Directory' মানে নাম-ঠিকনাৰ তালিকাৰ কিতাপ। 'Almanac' তাৰিখ-তথ্যৰ তালিকা, 'catalogue' সামগ্ৰীৰ তালিকা, 'index' পৃষ্ঠা নম্বৰৰ তালিকা।"
    }
   },
   {
@@ -54235,25 +54235,25 @@ module.exports = {
    "options": [
     {
      "en": "epitaph",
-     "as": "সমাধিলিপি"
+     "as": "সমাধি-লিপি"
     },
     {
-     "en": "almanac",
-     "as": "পঞ্জিকা"
+     "en": "obituary",
+     "as": "মৃত্যু সংবাদ"
     },
     {
-     "en": "ambidextrous",
-     "as": "উভয়হস্তী"
+     "en": "eulogy",
+     "as": "প্ৰশংসা-ভাষণ"
     },
     {
-     "en": "analgesic",
-     "as": "বেদনানাশক"
+     "en": "inscription",
+     "as": "খোদিত লেখা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'epitaph'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'epitaph' (সমাধিলিপি)।"
+    "en": "'Epitaph' is the word for words written on a tomb in memory of the dead. 'Obituary' is a death notice in a paper, 'eulogy' is a speech of praise and 'inscription' is any carved writing.",
+    "as": "'Epitaph' মানে সমাধিত লিখা স্মৰণ-বাক্য। 'Obituary' কাকতত মৃত্যু সংবাদ, 'eulogy' প্ৰশংসা-ভাষণ, 'inscription' যিকোনো খোদিত লেখা।"
    }
   },
   {
@@ -54624,26 +54624,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "vaccine",
-     "as": "টিকা"
+     "en": "edible",
+     "as": "খাব পৰা"
     },
     {
-     "en": "acronym",
-     "as": "চমু-শব্দ"
+     "en": "potable",
+     "as": "পান কৰিব পৰা"
     },
     {
-     "en": "almanac",
-     "as": "পঞ্জিকা"
+     "en": "audible",
+     "as": "শুনিব পৰা"
     },
     {
      "en": "inedible",
-     "as": "অখাদ্য"
+     "as": "খাব নোৱৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'inedible'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'inedible' (অখাদ্য)।"
+    "en": "'Inedible' is the word for a thing that cannot be eaten. 'Edible' means fit to eat, 'potable' means fit to drink and 'audible' means loud enough to be heard.",
+    "as": "'Inedible' মানে খাব নোৱৰা বস্তু। 'Edible' খাব পৰা, 'potable' পান কৰিব পৰা, 'audible' শুনিব পৰা।"
    }
   },
   {
@@ -54865,25 +54865,25 @@ module.exports = {
    "options": [
     {
      "en": "century",
-     "as": "শতাব্দী"
+     "as": "শতিক"
     },
     {
-     "en": "incredible",
-     "as": "অবিশ্বাস্য"
+     "en": "decade",
+     "as": "দশক"
     },
     {
-     "en": "indisputable",
-     "as": "অবিসংবাদিত"
+     "en": "millennium",
+     "as": "সহস্ৰাব্দ"
     },
     {
-     "en": "inedible",
-     "as": "অখাদ্য"
+     "en": "era",
+     "as": "যুগ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'century'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'century' (শতাব্দী)।"
+    "en": "'Century' is the word for a period of a hundred years. 'Decade' is ten years, 'millennium' is a thousand years and 'era' is a long stretch marked by one great event.",
+    "as": "'Century' মানে এশ বছৰৰ কাল। 'Decade' দহ বছৰ, 'millennium' হেজাৰ বছৰ, 'era' এটা ডাঙৰ ঘটনাৰে চিহ্নিত দীঘল কাল।"
    }
   },
   {
@@ -54894,16 +54894,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "inedible",
-     "as": "অখাদ্য"
+     "en": "century",
+     "as": "শতিক"
     },
     {
-     "en": "inevitable",
-     "as": "অনিবাৰ্য"
+     "en": "decade",
+     "as": "দশক"
     },
     {
-     "en": "myth",
-     "as": "পুৰাণ-কথা"
+     "en": "era",
+     "as": "যুগ"
     },
     {
      "en": "millennium",
@@ -54912,8 +54912,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "The correct one-word substitution is 'millennium'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'millennium' (সহস্ৰাব্দ)।"
+    "en": "'Millennium' is the word for a period of a thousand years. 'Century' is a hundred years, 'decade' is ten years and 'era' is an age marked by a great change.",
+    "as": "'Millennium' মানে হেজাৰ বছৰৰ কাল। 'Century' এশ বছৰ, 'decade' দহ বছৰ, 'era' ডাঙৰ পৰিৱৰ্তনেৰে চিহ্নিত যুগ।"
    }
   },
   {
@@ -55045,25 +55045,25 @@ module.exports = {
    "options": [
     {
      "en": "telegram",
-     "as": "তাৰ-বাৰ্তা"
+     "as": "তাঁৰ-বাৰ্তা"
     },
     {
-     "en": "acronym",
-     "as": "চমু-শব্দ"
+     "en": "letter",
+     "as": "চিঠি"
     },
     {
-     "en": "almanac",
-     "as": "পঞ্জিকা"
+     "en": "postcard",
+     "as": "পোষ্টকাৰ্ড"
     },
     {
-     "en": "ambidextrous",
-     "as": "উভয়হস্তী"
+     "en": "invoice",
+     "as": "বিল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "The correct one-word substitution is 'telegram'.",
-    "as": "সঠিক এটা-শব্দত-প্ৰকাশ হৈছে 'telegram' (তাৰ-বাৰ্তা)।"
+    "en": "'Telegram' is the word for a message sent by telegraph. 'Letter' travels by post, 'postcard' is an open card and 'invoice' is a bill for goods supplied.",
+    "as": "'Telegram' মানে টেলিগ্ৰাফেৰে পঠিওৱা বাৰ্তা। 'Letter' ডাকেৰে যায়, 'postcard' মুকলি কাৰ্ড, 'invoice' সামগ্ৰীৰ বিল।"
    }
   }
  ],
@@ -76534,16 +76534,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gradual",
+     "as": "ক্ৰমশঃ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "steep",
+     "as": "খাড়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "polite",
+     "as": "নম্ৰ"
     },
     {
      "en": "sudden",
@@ -76552,8 +76552,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Abrupt' means sudden and unexpected, as in an abrupt halt or an abrupt change of plan. 'Sudden' matches that sense exactly. 'Abundant' and 'abundance' mean plenty, and 'absurd' means ridiculous; they only look alike.",
-    "as": "'Abrupt' মানে হঠাৎ আৰু অপ্ৰত্যাশিত — যেনে হঠাৎ ৰৈ যোৱা বা পৰিকল্পনাৰ হঠাৎ সলনি। 'Sudden' য়ে ঠিক সেই অৰ্থ দিয়ে। 'Abundant' আৰু 'abundance' মানে প্ৰচুৰতা, 'absurd' মানে অযৌক্তিক — দেখিবলৈহে একে।"
+    "en": "'Abrupt' means sudden and unexpected — an abrupt halt, an abrupt change of plan — and it can also mean curt in manner. 'Sudden' matches that sense. 'Gradual' is its opposite, 'steep' describes a slope, and 'polite' is the opposite of the curt sense.",
+    "as": "'Abrupt' মানে হঠাৎ আৰু অপ্ৰত্যাশিত — যেনে হঠাৎ ৰৈ যোৱা বা পৰিকল্পনাৰ হঠাৎ সলনি; ৰুক্ষ ব্যৱহাৰো বুজায়। 'Sudden' য়ে ঠিক সেই অৰ্থ দিয়ে। 'Gradual' ইয়াৰ ওলোটা, 'steep' মানে খাড়া, 'polite' মানে নম্ৰ।"
    }
   },
   {
@@ -76564,16 +76564,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "sensible",
+     "as": "বোধসম্মত"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "logical",
+     "as": "যুক্তিসংগত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
      "en": "ridiculous",
@@ -76582,8 +76582,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Absurd' means so unreasonable that it is laughable — an absurd excuse is one nobody can believe. 'Ridiculous' carries the same idea. 'Abundant' and 'abundance' mean plenty, and 'abrupt' means sudden; none of them concerns reason.",
-    "as": "'Absurd' মানে ইমান অযৌক্তিক যে হাঁহি উঠে — absurd excuse অৰ্থাৎ অবিশ্বাস্য অজুহাত। 'Ridiculous' য়ে একেই ভাৱ দিয়ে। 'Abundant' আৰু 'abundance' মানে প্ৰচুৰতা, 'abrupt' মানে হঠাৎ।"
+    "en": "'Absurd' means so unreasonable that it is laughable — an absurd excuse is one nobody can believe. 'Ridiculous' carries the same idea. 'Sensible' and 'logical' are the opposite of absurd, and 'ordinary' only means unremarkable, not foolish.",
+    "as": "'Absurd' মানে ইমান অযৌক্তিক যে হাঁহি উঠে — absurd excuse অৰ্থাৎ অবিশ্বাস্য অজুহাত। 'Ridiculous' য়ে একেই ভাৱ দিয়ে। 'Sensible' আৰু 'logical' ওলোটা অৰ্থ, 'ordinary' মানে মাত্ৰ সাধাৰণ।"
    }
   },
   {
@@ -76594,26 +76594,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "scarce",
+     "as": "দুৰ্লভ"
     },
     {
      "en": "plentiful",
      "as": "প্ৰচুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "meagre",
+     "as": "নগণ্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "sparse",
+     "as": "বিৰল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'Abundant' means existing in large quantity — abundant rainfall, abundant evidence. 'Plentiful' means exactly that. 'Abundance' is the noun form, not the adjective this sentence needs, while 'abrupt' means sudden and 'absurd' means ridiculous.",
-    "as": "'Abundant' মানে প্ৰচুৰ পৰিমাণত থকা — abundant rainfall, abundant evidence। 'Plentiful' মানে ঠিক তাকেই। 'Abundance' ইয়াৰ বিশেষ্য ৰূপ, বিশেষণ নহয়; 'abrupt' মানে হঠাৎ, 'absurd' মানে অযৌক্তিক।"
+    "en": "'Abundant' means existing in large quantity — abundant rainfall, abundant evidence. 'Plentiful' means exactly that. 'Scarce', 'meagre' and 'sparse' all describe too little of something, so each of them is the opposite.",
+    "as": "'Abundant' মানে প্ৰচুৰ পৰিমাণত থকা — abundant rainfall, abundant evidence। 'Plentiful' মানে ঠিক তাকেই। 'Scarce', 'meagre' আৰু 'sparse' — তিনিওটা কম পৰিমাণ বুজায়, গতিকে ওলোটা অৰ্থ।"
    }
   },
   {
@@ -76624,26 +76624,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "reject",
+     "as": "নাকচ কৰা"
     },
     {
      "en": "receive",
      "as": "গ্ৰহণ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "refuse",
+     "as": "অমান্তি হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "deny",
+     "as": "অস্বীকাৰ কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'Accept' means to agree to take what is offered — to accept a job, an apology or a gift. 'Receive' is the closest synonym, though it is more neutral: you can receive a parcel without agreeing to anything. The other three options are unrelated words.",
-    "as": "'Accept' মানে দিয়া বস্তু গ্ৰহণ কৰিবলৈ মান্তি হোৱা — চাকৰি, ক্ষমা বা উপহাৰ গ্ৰহণ কৰা। 'Receive' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিটা শব্দৰ ইয়াৰ লগত সম্পৰ্ক নাই।"
+    "en": "'Accept' means to agree to take what is offered — to accept a job, an apology or a gift. 'Receive' is the closest synonym, though it is more neutral: you can receive a parcel without agreeing to anything. 'Reject', 'refuse' and 'deny' all mean turning something away.",
+    "as": "'Accept' মানে দিয়া বস্তু গ্ৰহণ কৰিবলৈ মান্তি হোৱা — চাকৰি, ক্ষমা বা উপহাৰ। 'Receive' আটাইতকৈ ওচৰৰ সমাৰ্থক। 'Reject', 'refuse' আৰু 'deny' — তিনিওটা নাকচ কৰা অৰ্থ দিয়ে।"
    }
   },
   {
@@ -76654,26 +76654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "approximate",
+     "as": "আন্দাজী"
     },
     {
      "en": "exact",
      "as": "সঠিক"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'Accurate' means correct in every detail — an accurate measurement, an accurate answer. 'Exact' carries the same sense of precision. 'Abundant' means plenty, 'abundance' is its noun form, and 'abrupt' means sudden; none of them is about correctness.",
-    "as": "'Accurate' মানে প্ৰতিটো বিৱৰণত শুদ্ধ — accurate measurement, accurate answer। 'Exact' য়ে একেই নিখুঁততা বুজায়। 'Abundant' মানে প্ৰচুৰ, 'abrupt' মানে হঠাৎ — শুদ্ধতাৰ লগত সম্পৰ্ক নাই।"
+    "en": "'Accurate' means correct in every detail — an accurate measurement, an accurate answer. 'Exact' carries the same precision. 'Vague' and 'approximate' are the opposite of exact, and 'careless' describes the person rather than the result.",
+    "as": "'Accurate' মানে প্ৰতিটো বিৱৰণত শুদ্ধ — accurate measurement, accurate answer। 'Exact' য়ে একেই নিখুঁততা বুজায়। 'Vague' আৰু 'approximate' ওলোটা, 'careless' মানে অসাৱধান।"
    }
   },
   {
@@ -76684,26 +76684,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "convict",
+     "as": "দোষী সাব্যস্ত কৰা"
     },
     {
      "en": "absolve",
      "as": "দোষমুক্ত কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "accuse",
+     "as": "অভিযুক্ত কৰা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "blame",
+     "as": "দোষ দিয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'Acquit' means to declare someone not guilty in a court — the jury acquitted him of all charges. 'Absolve' means to free someone from blame or guilt, which is the closest sense. 'Abundance', 'abrupt' and 'abundant' are unrelated words with no legal meaning.",
-    "as": "'Acquit' মানে আদালতত কাকোবা নিৰ্দোষ বুলি ঘোষণা কৰা। 'Absolve' মানে দোষৰ পৰা মুকলি কৰা, গতিকে ইয়েই ওচৰৰ অৰ্থ। বাকী তিনিওটা শব্দৰ আইনী অৰ্থ নাই।"
+    "en": "'Acquit' means to declare someone not guilty in a court — the jury acquitted him of all charges. 'Absolve' means to free someone from blame, the closest sense here. 'Convict' is the opposite verdict, 'accuse' means to bring a charge, and 'blame' means to hold responsible.",
+    "as": "'Acquit' মানে আদালতত নিৰ্দোষ বুলি ঘোষণা কৰা। 'Absolve' মানে দোষৰ পৰা মুকলি কৰা, গতিকে ইয়েই ওচৰৰ অৰ্থ। 'Convict' ওলোটা ৰায়, 'accuse' মানে অভিযোগ কৰা, 'blame' মানে দোষ দিয়া।"
    }
   },
   {
@@ -76718,22 +76718,22 @@ module.exports = {
      "as": "দৃঢ়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "flexible",
+     "as": "নমনীয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hesitant",
+     "as": "দ্বিধাগ্ৰস্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "doubtful",
+     "as": "সন্দেহপূৰ্ণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Adamant' means refusing to change your mind — she was adamant that she would not resign. 'Firm' shares that sense of being unshakeable. 'Abundance' means plenty, 'absurd' means ridiculous and 'abrupt' means sudden; none of them means resolute.",
-    "as": "'Adamant' মানে নিজৰ সিদ্ধান্ত সলনি কৰিবলৈ অস্বীকাৰ কৰা — তাই চাকৰি এৰিব নিদিয়াৰ বাবে অটল আছিল। 'Firm' য়ে সেই অটলতা বুজায়। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, অযৌক্তিক আৰু হঠাৎ।"
+    "en": "'Adamant' means refusing to change your mind — she was adamant that she would not resign. 'Firm' shares that unshakeable sense. 'Flexible', 'hesitant' and 'doubtful' all describe someone who can still be moved.",
+    "as": "'Adamant' মানে নিজৰ সিদ্ধান্ত সলনি কৰিবলৈ অস্বীকাৰ কৰা — তাই চাকৰি এৰিব নিদিয়াৰ বাবে অটল আছিল। 'Firm' য়ে সেই অটলতা বুজায়। 'Flexible', 'hesitant' আৰু 'doubtful' — তিনিওটা লৰচৰ হ'ব পৰা অৰ্থ দিয়ে।"
    }
   },
   {
@@ -76748,22 +76748,22 @@ module.exports = {
      "as": "দুৰ্ভাগ্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "prosperity",
+     "as": "সমৃদ্ধি"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "comfort",
+     "as": "সুখ-সুবিধা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "success",
+     "as": "সফলতা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Adversity' means serious difficulty or misfortune — a family that survives adversity together. 'Misfortune' is the closest synonym. 'Abundance' means plenty and is nearly the opposite, while 'abrupt' and 'absurd' are unrelated in meaning.",
-    "as": "'Adversity' মানে গুৰুতৰ কষ্ট বা দুৰ্ভাগ্য — adversity সহ্য কৰি জীয়াই থকা পৰিয়াল। 'Misfortune' আটাইতকৈ ওচৰৰ সমাৰ্থক। 'Abundance' মানে প্ৰচুৰতা, প্ৰায় ওলোটা অৰ্থ।"
+    "en": "'Adversity' means serious difficulty or misfortune — a family that survives adversity together. 'Misfortune' is the closest synonym. 'Prosperity', 'comfort' and 'success' describe the opposite state, when things are going well.",
+    "as": "'Adversity' মানে গুৰুতৰ কষ্ট বা দুৰ্ভাগ্য — adversity সহ্য কৰি জীয়াই থকা পৰিয়াল। 'Misfortune' আটাইতকৈ ওচৰৰ সমাৰ্থক। 'Prosperity', 'comfort' আৰু 'success' — ওলোটা অৱস্থা বুজায়।"
    }
   },
   {
@@ -76774,26 +76774,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abolish",
-     "as": "বিলুপ্ত কৰা"
-    },
-    {
-     "en": "establish",
-     "as": "প্ৰতিষ্ঠা কৰা"
-    },
-    {
-     "en": "progress",
-     "as": "উন্নতি"
+     "en": "retreat",
+     "as": "পিছুৱাই যোৱা"
     },
     {
      "en": "halt",
      "as": "বন্ধ কৰা"
+    },
+    {
+     "en": "progress",
+     "as": "অগ্ৰগতি"
+    },
+    {
+     "en": "decline",
+     "as": "অৱনতি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'Advance' means to move forward or make progress — the army advanced, the work advanced. 'Progress' carries the same idea. 'Halt' means to stop, so it is the opposite; 'abolish' means to end a law, and 'establish' means to set something up.",
-    "as": "'Advance' মানে আগবাঢ়ি যোৱা বা অগ্ৰগতি কৰা। 'Progress' য়ে একেই অৰ্থ দিয়ে। 'Halt' মানে ৰখা — ওলোটা; 'abolish' মানে আইন বিলুপ্ত কৰা, 'establish' মানে প্ৰতিষ্ঠা কৰা।"
+    "en": "'Advance' means to move forward or make progress — the army advanced, the work advanced. 'Progress' carries the same idea. 'Retreat' means to move back, 'halt' means to stop, and 'decline' means to fall away.",
+    "as": "'Advance' মানে আগবাঢ়ি যোৱা বা অগ্ৰগতি কৰা। 'Progress' য়ে একেই অৰ্থ দিয়ে। 'Retreat' মানে পিছুৱাই যোৱা, 'halt' মানে ৰখা, 'decline' মানে অৱনতি।"
    }
   },
   {
@@ -76804,16 +76804,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "aloof",
+     "as": "আঁতৰি থকা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "hostile",
+     "as": "শত্ৰুভাৱাপন্ন"
     },
     {
      "en": "friendly",
@@ -76822,8 +76822,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Affable' describes someone warm and easy to talk to — an affable host puts every guest at ease. 'Friendly' is the closest synonym. 'Abundance' means plenty, 'absurd' means ridiculous and 'abrupt' means sudden or curt.",
-    "as": "'Affable' মানে মিলাপ্ৰিয় আৰু সহজে কথা পাতিব পৰা — affable host এ অতিথিক সহজ অনুভৱ কৰায়। 'Friendly' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, অযৌক্তিক আৰু হঠাৎ।"
+    "en": "'Affable' describes someone warm and easy to talk to — an affable host puts every guest at ease. 'Friendly' is the closest synonym. 'Rude', 'aloof' and 'hostile' describe the opposite temperament, from bad manners to open hostility.",
+    "as": "'Affable' মানে মিলাপ্ৰিয় আৰু সহজে কথা পাতিব পৰা — affable host এ অতিথিক সহজ অনুভৱ কৰায়। 'Friendly' আটাইতকৈ ওচৰৰ সমাৰ্থক। 'Rude', 'aloof' আৰু 'hostile' — ওলোটা স্বভাৱ বুজায়।"
    }
   },
   {
@@ -76834,26 +76834,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "clumsy",
+     "as": "অদক্ষ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "stiff",
+     "as": "অনমনীয়"
     },
     {
      "en": "nimble",
      "as": "চটফটীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'Agile' means able to move quickly and easily — an agile gymnast, an agile mind. 'Nimble' means exactly that. 'Abundant' and 'abundance' mean plenty, and 'absurd' means ridiculous; none of them is about movement.",
-    "as": "'Agile' মানে দ্ৰুত আৰু সহজে লৰচৰ কৰিব পৰা — agile gymnast, agile mind। 'Nimble' মানে ঠিক তাকেই। 'Abundant' আৰু 'abundance' মানে প্ৰচুৰ, 'absurd' মানে অযৌক্তিক।"
+    "en": "'Agile' means able to move quickly and easily — an agile gymnast, an agile mind. 'Nimble' means exactly that. 'Clumsy', 'stiff' and 'slow' all describe movement that is not agile.",
+    "as": "'Agile' মানে দ্ৰুত আৰু সহজে লৰচৰ কৰিব পৰা — agile gymnast, agile mind। 'Nimble' মানে ঠিক তাকেই। 'Clumsy', 'stiff' আৰু 'slow' — তিনিওটা অদক্ষ লৰচৰ বুজায়।"
    }
   },
   {
@@ -76868,22 +76868,22 @@ module.exports = {
      "as": "লাঘৱ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "worsen",
+     "as": "বেয়া কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "increase",
+     "as": "বঢ়োৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "aggravate",
+     "as": "গুৰুতৰ কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Alleviate' means to make pain or difficulty less severe — a medicine that alleviates a headache. 'Relieve' is the closest synonym. The other three options, 'abrupt', 'absurd' and 'abundance', carry no sense of reducing anything.",
-    "as": "'Alleviate' মানে বিষ বা কষ্ট কম কৰা — মূৰৰ বিষ কমোৱা ঔষধ। 'Relieve' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটা শব্দই কোনো বস্তু কমোৱাৰ অৰ্থ নিদিয়ে।"
+    "en": "'Alleviate' means to make pain or difficulty less severe — a medicine that alleviates a headache. 'Relieve' is the closest synonym. 'Worsen', 'increase' and 'aggravate' all make the problem bigger instead of smaller.",
+    "as": "'Alleviate' মানে বিষ বা কষ্ট কম কৰা — মূৰৰ বিষ কমোৱা ঔষধ। 'Relieve' আটাইতকৈ ওচৰৰ সমাৰ্থক। 'Worsen', 'increase' আৰু 'aggravate' — তিনিওটা কষ্ট বঢ়োৱা অৰ্থ দিয়ে।"
    }
   },
   {
@@ -76898,22 +76898,22 @@ module.exports = {
      "as": "অস্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "definite",
+     "as": "নিশ্চিত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obvious",
+     "as": "প্ৰকট"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Ambiguous' means open to more than one interpretation — an ambiguous answer leaves you unsure what was meant. 'Unclear' is the closest synonym. 'Abundance' means plenty, 'abrupt' means sudden and 'absurd' means ridiculous.",
-    "as": "'Ambiguous' মানে একাধিক অৰ্থত ল'ব পৰা — ambiguous answer এ আপোনাক অনিশ্চিত কৰি ৰাখে। 'Unclear' ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, হঠাৎ আৰু অযৌক্তিক।"
+    "en": "'Ambiguous' means open to more than one interpretation — an ambiguous answer leaves you unsure what was meant. 'Unclear' is the closest synonym. 'Clear', 'definite' and 'obvious' all say the opposite.",
+    "as": "'Ambiguous' মানে একাধিক অৰ্থত ল'ব পৰা — ambiguous answer এ আপোনাক অনিশ্চিত কৰি ৰাখে। 'Unclear' ওচৰৰ সমাৰ্থক। 'Clear', 'definite' আৰু 'obvious' — ওলোটা অৰ্থ দিয়ে।"
    }
   },
   {
@@ -76924,16 +76924,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "scarce",
+     "as": "দুৰ্লভ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "narrow",
+     "as": "ঠেক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plain",
+     "as": "সাধাৰণ"
     },
     {
      "en": "plentiful",
@@ -76942,8 +76942,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Ample' means more than enough — ample time, ample space. 'Plentiful' means the same thing. 'Abundance' is the noun for a large quantity and does not fit an adjective slot, while 'absurd' and 'abrupt' are unrelated.",
-    "as": "'Ample' মানে প্ৰয়োজনতকৈ অধিক — ample time, ample space। 'Plentiful' য়ে একেই অৰ্থ দিয়ে। 'Abundance' বিশেষ্য, বিশেষণ নহয়; 'absurd' আৰু 'abrupt' সম্পৰ্কহীন।"
+    "en": "'Ample' means more than enough — ample time, ample evidence. 'Plentiful' means exactly that. 'Scarce' is the opposite of enough, 'narrow' describes width rather than quantity, and 'plain' means simple or unadorned.",
+    "as": "'Ample' মানে প্ৰয়োজনতকৈ অধিক — ample time, ample evidence। 'Plentiful' মানে ঠিক তাকেই। 'Scarce' কম থকা বুজায়, 'narrow' মানে ঠেক, 'plain' মানে সাধাৰণ।"
    }
   },
   {
@@ -76958,22 +76958,22 @@ module.exports = {
      "as": "পুৰণি"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "modern",
+     "as": "আধুনিক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fragile",
+     "as": "ভঙ্গুৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "foreign",
+     "as": "বিদেশী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Ancient' means belonging to the very distant past — ancient India, an ancient temple. 'Old' is the closest everyday synonym, though 'ancient' is far stronger. The other options mean plenty, ridiculous and sudden.",
-    "as": "'Ancient' মানে বহু পুৰণি কালৰ — ancient India, ancient temple। 'Old' আটাইতকৈ ওচৰৰ সহজ সমাৰ্থক, যদিও 'ancient' বেছি গুৰুত্বপূৰ্ণ। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, অযৌক্তিক, হঠাৎ।"
+    "en": "'Ancient' means belonging to the distant past — ancient monuments, ancient history. 'Old' is the plain synonym. 'Modern' is the opposite period, 'fragile' describes how easily something breaks, and 'foreign' describes origin, not age.",
+    "as": "'Ancient' মানে বহু পুৰণি — ancient monuments, ancient history। 'Old' ইয়াৰ সৰল সমাৰ্থক। 'Modern' ওলোটা যুগ, 'fragile' মানে ভঙা সহজ, 'foreign' মানে বিদেশী।"
    }
   },
   {
@@ -76984,16 +76984,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "modern",
+     "as": "আধুনিক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "worthless",
+     "as": "মূল্যহীন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "imitation",
+     "as": "নকল"
     },
     {
      "en": "ancient",
@@ -77002,8 +77002,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Antique' describes an old and valuable object — antique furniture, an antique coin. 'Ancient' refers to the distant past, so it is the closest option here. The rest mean plenty, ridiculous and sudden, and share nothing with age or value.",
-    "as": "'Antique' মানে পুৰণি আৰু মূল্যৱান বস্তু — antique furniture, antique coin। 'Ancient' বহু দূৰৰ অতীতক বুজায়, গতিকে ইয়েই আটাইতকৈ ওচৰ। বাকী তিনিওটা সম্পৰ্কহীন।"
+    "en": "'Antique' describes an old object valued for its age — an antique clock. 'Ancient' is the closest synonym for what belongs to the distant past. 'Modern' is the opposite, 'worthless' is about value rather than age, and 'imitation' means a copy.",
+    "as": "'Antique' মানে পুৰণি বুলি মূল্যৱান বস্তু — antique clock। 'Ancient' ওচৰৰ সমাৰ্থক। 'Modern' ওলোটা, 'worthless' মানে মূল্যহীন, 'imitation' মানে নকল।"
    }
   },
   {
@@ -77044,16 +77044,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "hidden",
+     "as": "লুকুৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "attractive",
+     "as": "আকৰ্ষণীয়"
     },
     {
      "en": "evident",
@@ -77062,8 +77062,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Apparent' means clearly visible or easily understood — it soon became apparent that he was right. 'Evident' means the same thing. 'Abundant' and 'abundance' mean plenty, and 'abrupt' means sudden; none of them means obvious.",
-    "as": "'Apparent' মানে স্পষ্ট দেখা বা সহজে বুজা — সোনকালেই apparent হ'ল যে তেওঁ শুদ্ধ আছিল। 'Evident' য়ে একেই অৰ্থ দিয়ে। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, প্ৰচুৰতা আৰু হঠাৎ।"
+    "en": "'Apparent' means easily seen or understood — the reason was apparent to everyone. 'Evident' is the closest synonym. 'Hidden' is the opposite, 'doubtful' means uncertain, and 'attractive' describes beauty, not clarity.",
+    "as": "'Apparent' মানে সহজে দেখা বা বুজা পোৱা — কাৰণ সকলোৰে বাবে স্পষ্ট আছিল। 'Evident' ওচৰৰ সমাৰ্থক। 'Hidden' ওলোটা, 'doubtful' অনিশ্চিত, 'attractive' মানে আকৰ্ষণীয়।"
    }
   },
   {
@@ -77104,26 +77104,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "humble",
+     "as": "নম্ৰ"
     },
     {
      "en": "haughty",
      "as": "অহংকাৰী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "generous",
+     "as": "দানশীল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'Arrogant' describes someone who believes they are better than everyone else — an arrogant official refuses to listen. 'Haughty' means exactly that. 'Abundance' means plenty, 'absurd' means ridiculous and 'abrupt' means sudden.",
-    "as": "'Arrogant' মানে নিজকে আনতকৈ শ্ৰেষ্ঠ ভবা — arrogant official এ কাৰো কথা নুশুনে। 'Haughty' মানে ঠিক তাকেই। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, অযৌক্তিক আৰু হঠাৎ।"
+    "en": "'Arrogant' describes someone who believes they are better than others — an arrogant reply. 'Haughty' carries the same pride. 'Humble' is the opposite, 'generous' is about giving, and 'careless' is about attention.",
+    "as": "'Arrogant' মানে নিজকে আনতকৈ শ্ৰেষ্ঠ ভবা — arrogant reply। 'Haughty' একেই অহংকাৰ বুজায়। 'Humble' ওলোটা, 'generous' মানে দানশীল, 'careless' মানে অসাৱধান।"
    }
   },
   {
@@ -77138,22 +77138,22 @@ module.exports = {
      "as": "কৃত্ৰিম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "natural",
+     "as": "প্ৰাকৃতিক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "beautiful",
+     "as": "সুন্দৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Artificial' means made by people rather than occurring naturally — artificial light, artificial flavours. 'Synthetic' is the closest synonym. The other three options mean sudden, plenty and ridiculous, and none of them means man-made.",
-    "as": "'Artificial' মানে প্ৰাকৃতিক নহয়, মানুহে বনোৱা — artificial light, artificial flavours। 'Synthetic' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ হঠাৎ, প্ৰচুৰ আৰু অযৌক্তিক।"
+    "en": "'Artificial' means made by people rather than occurring in nature — artificial flowers, artificial light. 'Synthetic' means the same. 'Natural' is the opposite, 'genuine' means real rather than fake, and 'beautiful' is unrelated.",
+    "as": "'Artificial' মানে মানুহে সজা, প্ৰাকৃতিক নহয় — artificial flowers। 'Synthetic' একেই অৰ্থ দিয়ে। 'Natural' ওলোটা, 'genuine' মানে প্ৰকৃত, 'beautiful' অসম্পৰ্কিত।"
    }
   },
   {
@@ -77195,25 +77195,25 @@ module.exports = {
    "options": [
     {
      "en": "genuine",
-     "as": "আচল"
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fake",
+     "as": "নকল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "modern",
+     "as": "আধুনিক"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'Authentic' means genuine and not a copy — an authentic signature, an authentic account of events. 'Genuine' is the exact synonym. 'Abundant' and 'abundance' mean plenty, and 'abrupt' means sudden; none of them is about being real.",
-    "as": "'Authentic' মানে প্ৰকৃত, নকল নহয় — authentic signature, ঘটনাৰ authentic বিৱৰণ। 'Genuine' ঠিক সমাৰ্থক। 'Abundant' আৰু 'abundance' মানে প্ৰচুৰ, 'abrupt' মানে হঠাৎ।"
+    "en": "'Authentic' means real and verified — an authentic signature. 'Genuine' is the closest synonym. 'Fake' is the opposite, 'modern' is about age rather than truth, and 'doubtful' describes uncertainty about a claim.",
+    "as": "'Authentic' মানে প্ৰকৃত আৰু প্ৰমাণিত — authentic signature। 'Genuine' ওচৰৰ সমাৰ্থক। 'Fake' ওলোটা, 'modern' বয়সৰ কথা, 'doubtful' সন্দেহ বুজায়।"
    }
   },
   {
@@ -77254,16 +77254,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "graceful",
+     "as": "সুন্দৰ ভঙ্গীৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "easy",
+     "as": "সহজ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
      "en": "clumsy",
@@ -77272,8 +77272,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Awkward' means clumsy or lacking grace — an awkward movement, an awkward silence. 'Clumsy' is the closest synonym. The other options mean sudden, plenty and ridiculous; none of them describes a person's movement or manner.",
-    "as": "'Awkward' মানে অদক্ষ বা লাজুক লৰচৰ — awkward movement, awkward silence। 'Clumsy' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ হঠাৎ, প্ৰচুৰ আৰু অযৌক্তিক।"
+    "en": "'Awkward' means moving or behaving without ease — an awkward apology, an awkward silence. 'Clumsy' is the closest synonym. 'Graceful' is the opposite, 'easy' describes a task, and 'polite' is about manners.",
+    "as": "'Awkward' মানে অস্বস্তিকৰ বা অদক্ষ — awkward apology, awkward silence। 'Clumsy' ওচৰৰ সমাৰ্থক। 'Graceful' ওলোটা, 'easy' কামৰ কথা, 'polite' মানে ভদ্ৰ।"
    }
   },
   {
@@ -77284,16 +77284,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "civilised",
+     "as": "সভ্য"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ancient",
+     "as": "প্ৰাচীন"
     },
     {
      "en": "cruel",
@@ -77302,8 +77302,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'Barbarous' means extremely cruel or savage — a barbarous act of violence. 'Cruel' is the closest synonym. The remaining options mean plenty, sudden and ridiculous, so none of them carries the idea of brutality.",
-    "as": "'Barbarous' মানে অতি নিষ্ঠুৰ বা বৰ্বৰ — barbarous act of violence। 'Cruel' আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ প্ৰচুৰ, হঠাৎ আৰু অযৌক্তিক।"
+    "en": "'Barbarous' describes behaviour that is savagely cruel — a barbarous act. 'Cruel' is the closest synonym. 'Gentle' and 'civilised' are the opposite, and 'ancient' confuses the word with a period label.",
+    "as": "'Barbarous' মানে নিষ্ঠুৰ আচৰণ — barbarous act। 'Cruel' ওচৰৰ সমাৰ্থক। 'Gentle' আৰু 'civilised' ওলোটা, 'ancient' মাত্ৰ সময়ৰ কথা।"
    }
   },
   {
@@ -77344,26 +77344,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ugly",
+     "as": "কুৎসিত"
     },
     {
      "en": "lovely",
      "as": "ধুনীয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "plain",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strong",
+     "as": "শক্তিশালী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'Beautiful' means pleasing to look at or to hear — a beautiful voice, a beautiful valley. 'Lovely' is the closest synonym in everyday use. The other options mean ridiculous, sudden and plenty, none of which describes beauty.",
-    "as": "'Beautiful' মানে চাবলৈ বা শুনিবলৈ সুন্দৰ — beautiful voice, beautiful valley। 'Lovely' দৈনন্দিন ব্যৱহাৰত আটাইতকৈ ওচৰৰ সমাৰ্থক। বাকী তিনিওটাৰ অৰ্থ অযৌক্তিক, হঠাৎ আৰু প্ৰচুৰ।"
+    "en": "'Beautiful' means giving great pleasure to the senses — a beautiful voice. 'Lovely' is the closest synonym. 'Ugly' is the opposite, 'plain' means ordinary to look at, and 'strong' describes power, not beauty.",
+    "as": "'Beautiful' মানে চকুত লগা, সুন্দৰ — beautiful voice। 'Lovely' ওচৰৰ সমাৰ্থক। 'Ugly' ওলোটা, 'plain' মানে সাধাৰণ, 'strong' মানে শক্তিশালী।"
    }
   },
   {
@@ -77374,26 +77374,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "cruel",
+     "as": "নিষ্ঠুৰ"
     },
     {
      "en": "kind",
      "as": "দয়ালু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wealthy",
+     "as": "ধনী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "proud",
+     "as": "অহংকাৰী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'kind' is a synonym of 'benevolent'; both words have nearly the same meaning.",
-    "as": "'kind' (দয়ালু) হৈছে 'benevolent' (দয়ালু) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Benevolent' means wishing to do good to others — a benevolent employer. 'Kind' is the closest synonym. 'Cruel' is the opposite, 'wealthy' says nothing about goodwill, and 'proud' describes self-regard.",
+    "as": "'Benevolent' মানে আনৰ মংগল কামনা কৰা — benevolent employer। 'Kind' ওচৰৰ সমাৰ্থক। 'Cruel' ওলোটা, 'wealthy' ধনী বুজায়, 'proud' অহংকাৰ বুজায়।"
    }
   },
   {
@@ -77434,16 +77434,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "subtle",
+     "as": "সূক্ষ্ম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "hidden",
+     "as": "লুকুৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     },
     {
      "en": "obvious",
@@ -77452,8 +77452,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'obvious' is a synonym of 'blatant'; both words have nearly the same meaning.",
-    "as": "'obvious' (স্পষ্ট) হৈছে 'blatant' (স্পষ্টভাৱে বেয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Blatant' means done openly, without any attempt to hide — a blatant lie. 'Obvious' matches that openness. 'Subtle' and 'hidden' are the opposite, and 'rude' describes manner rather than visibility.",
+    "as": "'Blatant' মানে মুকলিকৈ কৰা, লুকুৱাব নুখোজা — blatant lie। 'Obvious' একেই অৰ্থ দিয়ে। 'Subtle' আৰু 'hidden' ওলোটা, 'rude' মানে অভদ্ৰ।"
    }
   },
   {
@@ -77464,26 +77464,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sharp",
+     "as": "তীক্ষ্ণ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brief",
+     "as": "চুটি"
     },
     {
      "en": "dull",
-     "as": "নিষ্প্ৰভ"
+     "as": "ভোটা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'dull' is a synonym of 'blunt'; both words have nearly the same meaning.",
-    "as": "'dull' (নিষ্প্ৰভ) হৈছে 'blunt' (ভোটা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Blunt' means having a dull edge — a blunt knife — and by extension saying things without softening them. 'Dull' matches the edge sense. 'Sharp' is the opposite, 'polite' belongs to the manner sense, and 'brief' means short in time.",
+    "as": "'Blunt' মানে ভোটা — blunt knife। 'Dull' একেই অৰ্থ দিয়ে। 'Sharp' ওলোটা, 'polite' ব্যৱহাৰৰ কথা, 'brief' মানে চুটি।"
    }
   },
   {
@@ -77498,22 +77498,22 @@ module.exports = {
      "as": "শব্দময়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "quiet",
+     "as": "নীৰৱ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "calm",
+     "as": "শান্ত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'noisy' is a synonym of 'boisterous'; both words have nearly the same meaning.",
-    "as": "'noisy' (শব্দময়) হৈছে 'boisterous' (হুলস্থূলীয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Boisterous' describes noisy, energetic behaviour — a boisterous crowd. 'Noisy' is the closest synonym. 'Quiet' and 'calm' are the opposite, and 'polite' describes manners, which a boisterous group may still have.",
+    "as": "'Boisterous' মানে হুলস্থূলীয়া, উৎসাহী — boisterous crowd। 'Noisy' ওচৰৰ সমাৰ্থক। 'Quiet' আৰু 'calm' ওলোটা, 'polite' মানে ভদ্ৰ।"
    }
   },
   {
@@ -77524,26 +77524,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "timid",
+     "as": "ভয়াতুৰ"
     },
     {
      "en": "brave",
      "as": "সাহসী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "careful",
+     "as": "সাৱধান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'brave' is a synonym of 'bold'; both words have nearly the same meaning.",
-    "as": "'brave' (সাহসী) হৈছে 'bold' (সাহসী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Bold' means willing to take risks — a bold decision. 'Brave' is the closest synonym. 'Timid' is the opposite, 'polite' is about manners, and 'careful' describes caution, the opposite of a bold move.",
+    "as": "'Bold' মানে সাহসেৰে আগবাঢ়া — bold decision। 'Brave' ওচৰৰ সমাৰ্থক। 'Timid' ওলোটা, 'polite' ভদ্ৰতা, 'careful' সতৰ্কতা বুজায়।"
    }
   },
   {
@@ -77554,16 +77554,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fearful",
+     "as": "ভয়ভীত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "loud",
+     "as": "চিঞৰা"
     },
     {
      "en": "courageous",
@@ -77572,8 +77572,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'courageous' is a synonym of 'brave'; both words have nearly the same meaning.",
-    "as": "'courageous' (সাহসী) হৈছে 'brave' (সাহসী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Brave' means ready to face danger — a brave soldier. 'Courageous' is the closest synonym. 'Fearful' is the opposite, 'strong' describes physical power, and 'loud' describes volume rather than nerve.",
+    "as": "'Brave' মানে বিপদৰ সন্মুখীন হোৱাৰ সাহস — brave soldier। 'Courageous' ওচৰৰ সমাৰ্থক। 'Fearful' ওলোটা, 'strong' শাৰীৰিক শক্তি, 'loud' মাত্ৰ শব্দ।"
    }
   },
   {
@@ -77584,16 +77584,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "lengthy",
+     "as": "দীঘলীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "detailed",
+     "as": "বিস্তৃত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "sudden",
+     "as": "হঠাৎ"
     },
     {
      "en": "short",
@@ -77602,8 +77602,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'short' is a synonym of 'brief'; both words have nearly the same meaning.",
-    "as": "'short' (চুটি) হৈছে 'brief' (চুটি) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Brief' means lasting only a short time — a brief meeting. 'Short' is the plain synonym. 'Lengthy' is the opposite, 'detailed' is about how much information is given, and 'sudden' is about surprise, not duration.",
+    "as": "'Brief' মানে কম সময়ৰ — brief meeting। 'Short' ইয়াৰ সৰল সমাৰ্থক। 'Lengthy' ওলোটা, 'detailed' বিৱৰণৰ কথা, 'sudden' হঠাৎ হোৱা বুজায়।"
    }
   },
   {
@@ -77614,26 +77614,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dark",
+     "as": "আন্ধাৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
      "en": "shining",
      "as": "উজ্জ্বল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "heavy",
+     "as": "গধুৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'shining' is a synonym of 'bright'; both words have nearly the same meaning.",
-    "as": "'shining' (উজ্জ্বল) হৈছে 'bright' (উজ্জ্বল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Bright' means giving out or reflecting much light — a bright lamp — and also means clever. 'Shining' matches the light sense. 'Dark' and 'dull' are the opposite, and 'heavy' describes weight.",
+    "as": "'Bright' মানে পোহৰ দিয়া — bright lamp; বুদ্ধিমানো বুজায়। 'Shining' পোহৰৰ অৰ্থত মিলে। 'Dark' আৰু 'dull' ওলোটা, 'heavy' ওজন বুজায়।"
    }
   },
   {
@@ -77648,22 +77648,22 @@ module.exports = {
      "as": "নিষ্ঠুৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "fair",
+     "as": "ন্যায়সংগত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "quick",
+     "as": "দ্ৰুত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'cruel' is a synonym of 'brutal'; both words have nearly the same meaning.",
-    "as": "'cruel' (নিষ্ঠুৰ) হৈছে 'brutal' (নিষ্ঠুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Brutal' means savage and unfeeling — a brutal attack. 'Cruel' is the closest synonym. 'Gentle' is the opposite, 'fair' means just or even-handed, and 'quick' describes speed, not severity.",
+    "as": "'Brutal' মানে নিষ্ঠুৰ আৰু নিৰ্দয় — brutal attack। 'Cruel' ওচৰৰ সমাৰ্থক। 'Gentle' ওলোটা, 'fair' মানে ন্যায়সংগত, 'quick' মানে দ্ৰুত।"
    }
   },
   {
@@ -77674,26 +77674,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "celebration",
+     "as": "উৎসৱ"
     },
     {
      "en": "disaster",
-     "as": "বিপদ"
+     "as": "দুৰ্যোগ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "warning",
+     "as": "সতৰ্কবাণী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "mistake",
+     "as": "ভুল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'disaster' is a synonym of 'calamity'; both words have nearly the same meaning.",
-    "as": "'disaster' (বিপদ) হৈছে 'calamity' (বিপদ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Calamity' means a serious event causing great harm — the flood was a calamity. 'Disaster' is the closest synonym. 'Celebration' is the opposite kind of event, 'warning' comes before harm, and 'mistake' is an error.",
+    "as": "'Calamity' মানে ডাঙৰ ক্ষতি কৰা ঘটনা — বানপানী এটা calamity আছিল। 'Disaster' ওচৰৰ সমাৰ্থক। 'Celebration' উৎসৱ, 'warning' সতৰ্কবাণী, 'mistake' ভুল।"
    }
   },
   {
@@ -77705,25 +77705,25 @@ module.exports = {
    "options": [
     {
      "en": "heartless",
-     "as": "নিৰ্দয়"
+     "as": "হৃদয়হীন"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "kind",
+     "as": "দয়ালু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brave",
+     "as": "সাহসী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'heartless' is a synonym of 'callous'; both words have nearly the same meaning.",
-    "as": "'heartless' (নিৰ্দয়) হৈছে 'callous' (নিৰ্দয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Callous' means showing no sympathy for others' suffering — a callous remark. 'Heartless' is the closest synonym. 'Kind' is the opposite, 'careless' means not paying attention, and 'brave' describes courage.",
+    "as": "'Callous' মানে আনৰ কষ্টত সহানুভূতি নেদেখুওৱা — callous remark। 'Heartless' ওচৰৰ সমাৰ্থক। 'Kind' ওলোটা, 'careless' অসাৱধান, 'brave' সাহসী।"
    }
   },
   {
@@ -77794,16 +77794,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "quick",
+     "as": "দ্ৰুত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
      "en": "cautious",
@@ -77812,8 +77812,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'cautious' is a synonym of 'careful'; both words have nearly the same meaning.",
-    "as": "'cautious' (সতৰ্ক) হৈছে 'careful' (সাৱধান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Careful' means giving attention to avoid harm or error — a careful driver. 'Cautious' is the closest synonym. 'Careless' is the opposite, 'quick' is about speed, and 'strong' is about power.",
+    "as": "'Careful' মানে সাৱধানতা অৱলম্বন কৰা — careful driver। 'Cautious' ওচৰৰ সমাৰ্থক। 'Careless' ওলোটা, 'quick' দ্ৰুততা, 'strong' শক্তি।"
    }
   },
   {
@@ -77828,22 +77828,22 @@ module.exports = {
      "as": "সাৱধান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "reckless",
+     "as": "বেপৰোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brave",
+     "as": "সাহসী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "silent",
+     "as": "নীৰৱ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'careful' is a synonym of 'cautious'; both words have nearly the same meaning.",
-    "as": "'careful' (সাৱধান) হৈছে 'cautious' (সতৰ্ক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Cautious' means avoiding risk — a cautious investor. 'Careful' is the closest synonym. 'Reckless' is the opposite, 'brave' is about facing danger rather than avoiding it, and 'silent' is about speech.",
+    "as": "'Cautious' মানে বিপদ এৰাই চলা — cautious investor। 'Careful' ওচৰৰ সমাৰ্থক। 'Reckless' ওলোটা, 'brave' সাহস, 'silent' নীৰৱতা।"
    }
   },
   {
@@ -77944,26 +77944,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "neglect",
+     "as": "অৱহেলা"
     },
     {
      "en": "treasure",
-     "as": "আদৰ কৰা"
+     "as": "মূল্য দিয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "sell",
+     "as": "বেচা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "forget",
+     "as": "পাহৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'treasure' is a synonym of 'cherish'; both words have nearly the same meaning.",
-    "as": "'treasure' (আদৰ কৰা) হৈছে 'cherish' (আদৰ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Cherish' means to care for something deeply — to cherish a friendship. 'Treasure' as a verb carries the same warmth. 'Neglect' is the opposite, 'sell' is a transaction, and 'forget' is the opposite of holding something dear.",
+    "as": "'Cherish' মানে গভীৰভাৱে যত্ন লোৱা — cherish a friendship। 'Treasure' ক্ৰিয়া হিচাপে একেই অৰ্থ দিয়ে। 'Neglect' ওলোটা, 'sell' বেচা, 'forget' পাহৰা।"
    }
   },
   {
@@ -77974,26 +77974,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "temporary",
+     "as": "অস্থায়ী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
      "en": "persistent",
      "as": "দীৰ্ঘস্থায়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sudden",
+     "as": "হঠাৎ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'persistent' is a synonym of 'chronic'; both words have nearly the same meaning.",
-    "as": "'persistent' (দীৰ্ঘস্থায়ী) হৈছে 'chronic' (দীৰ্ঘস্থায়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Chronic' describes something long-lasting — a chronic illness. 'Persistent' matches that duration. 'Temporary' is the opposite, 'mild' describes severity rather than length, and 'sudden' describes how something begins.",
+    "as": "'Chronic' মানে দীৰ্ঘদিনীয়া — chronic illness। 'Persistent' একেই অৰ্থ দিয়ে। 'Temporary' ওলোটা, 'mild' তীব্ৰতাৰ কথা, 'sudden' আৰম্ভণিৰ কথা।"
    }
   },
   {
@@ -78004,26 +78004,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "dirty",
+     "as": "লেতেৰা"
     },
     {
      "en": "tidy",
-     "as": "পৰিষ্কাৰ"
+     "as": "পৰিপাটি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "empty",
+     "as": "খালী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "broken",
+     "as": "ভঙা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'tidy' is a synonym of 'clean'; both words have nearly the same meaning.",
-    "as": "'tidy' (পৰিষ্কাৰ) হৈছে 'clean' (পৰিষ্কাৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Clean' means free from dirt — a clean room. 'Tidy' means neat and in order, the closest sense here. 'Dirty' is the opposite, 'empty' means having nothing in it, and 'broken' means damaged.",
+    "as": "'Clean' মানে ধুলি-মাকতি নথকা — clean room। 'Tidy' মানে পৰিপাটি, ইয়াত ওচৰৰ অৰ্থ। 'Dirty' ওলোটা, 'empty' খালী, 'broken' ভঙা।"
    }
   },
   {
@@ -78034,26 +78034,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "foolish",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
      "en": "intelligent",
      "as": "বুদ্ধিমান"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "rich",
+     "as": "ধনী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'intelligent' is a synonym of 'clever'; both words have nearly the same meaning.",
-    "as": "'intelligent' (বুদ্ধিমান) হৈছে 'clever' (চতুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Clever' means quick to learn and understand — a clever answer. 'Intelligent' is the closest synonym. 'Foolish' is the opposite, 'strong' is about power, and 'rich' is about money.",
+    "as": "'Clever' মানে সহজে শিকা আৰু বুজা — clever answer। 'Intelligent' ওচৰৰ সমাৰ্থক। 'Foolish' ওলোটা, 'strong' শক্তি, 'rich' ধন।"
    }
   },
   {
@@ -78064,16 +78064,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "smooth",
+     "as": "মসৃণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "soft",
+     "as": "কোমল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
      "en": "rough",
@@ -78082,8 +78082,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'rough' is a synonym of 'coarse'; both words have nearly the same meaning.",
-    "as": "'rough' (খহটা) হৈছে 'coarse' (খহটা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Coarse' means rough in texture — coarse cloth — or rude in manner. 'Rough' matches the texture sense. 'Smooth' and 'soft' are the opposite, and 'polite' is the opposite of the manner sense.",
+    "as": "'Coarse' মানে খহটা — coarse cloth; অভদ্ৰ ব্যৱহাৰো বুজায়। 'Rough' খহটা অৰ্থত মিলে। 'Smooth' আৰু 'soft' ওলোটা, 'polite' ভদ্ৰতা।"
    }
   },
   {
@@ -78154,26 +78154,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "simple",
+     "as": "সৰল"
     },
     {
      "en": "complicated",
      "as": "জটিল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "short",
+     "as": "চুটি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "clear",
+     "as": "স্পষ্ট"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'complicated' is a synonym of 'complex'; both words have nearly the same meaning.",
-    "as": "'complicated' (জটিল) হৈছে 'complex' (জটিল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Complex' means made of many connected parts — a complex problem. 'Complicated' is the closest synonym. 'Simple' is the opposite, 'short' is about length, and 'clear' is about being easy to understand.",
+    "as": "'Complex' মানে বহু অংশৰে গঠিত — complex problem। 'Complicated' ওচৰৰ সমাৰ্থক। 'Simple' ওলোটা, 'short' দৈৰ্ঘ্য, 'clear' স্পষ্টতা।"
    }
   },
   {
@@ -78214,26 +78214,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "reveal",
+     "as": "প্ৰকাশ কৰা"
     },
     {
      "en": "hide",
-     "as": "লুকুৱা"
+     "as": "লুকুওৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "display",
+     "as": "দেখুওৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "explain",
+     "as": "বুজোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'hide' is a synonym of 'conceal'; both words have nearly the same meaning.",
-    "as": "'hide' (লুকুৱা) হৈছে 'conceal' (লুকুওৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Conceal' means to keep something out of sight — to conceal the evidence. 'Hide' is the plain synonym. 'Reveal' and 'display' are the opposite, and 'explain' means to make something clear.",
+    "as": "'Conceal' মানে লুকুৱাই ৰখা — conceal the evidence। 'Hide' সৰল সমাৰ্থক। 'Reveal' আৰু 'display' ওলোটা, 'explain' মানে বুজাই দিয়া।"
    }
   },
   {
@@ -78244,26 +78244,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "praise",
+     "as": "প্ৰশংসা"
     },
     {
      "en": "censure",
-     "as": "নিন্দা কৰা"
+     "as": "নিন্দা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "forgive",
+     "as": "ক্ষমা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ignore",
+     "as": "অৱহেলা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'censure' is a synonym of 'condemn'; both words have nearly the same meaning.",
-    "as": "'censure' (নিন্দা কৰা) হৈছে 'condemn' (নিন্দা কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Condemn' means to say strongly that something is wrong — the council condemned the attack. 'Censure' means formal disapproval, the closest sense. 'Praise' is the opposite, 'forgive' is about letting go of blame, and 'ignore' means taking no notice.",
+    "as": "'Condemn' মানে দোষাৰোপ কৰি বিৰোধ কৰা — council এ আক্ৰমণৰ নিন্দা কৰিলে। 'Censure' আনুষ্ঠানিক নিন্দা। 'Praise' ওলোটা, 'forgive' ক্ষমা, 'ignore' অৱহেলা।"
    }
   },
   {
@@ -78274,16 +78274,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "deny",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hide",
+     "as": "লুকুওৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "argue",
+     "as": "তৰ্ক কৰা"
     },
     {
      "en": "admit",
@@ -78292,8 +78292,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'admit' is a synonym of 'confess'; both words have nearly the same meaning.",
-    "as": "'admit' (স্বীকাৰ কৰা) হৈছে 'confess' (স্বীকাৰ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Confess' means to admit something you would rather keep quiet — he confessed to the theft. 'Admit' is the closest synonym. 'Deny' is the opposite, 'hide' means conceal, and 'argue' means to disagree aloud.",
+    "as": "'Confess' মানে গুপ্ত কথা স্বীকাৰ কৰা — তেওঁ চুৰিৰ কথা স্বীকাৰ কৰিলে। 'Admit' ওচৰৰ সমাৰ্থক। 'Deny' ওলোটা, 'hide' লুকুওৱা, 'argue' তৰ্ক কৰা।"
    }
   },
   {
@@ -78304,26 +78304,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "surrender",
+     "as": "আত্মসমৰ্পণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "defend",
+     "as": "প্ৰতিৰক্ষা কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "avoid",
+     "as": "এৰাই চলা"
     },
     {
      "en": "defeat",
-     "as": "পৰাজয়"
+     "as": "পৰাস্ত কৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'defeat' is a synonym of 'conquer'; both words have nearly the same meaning.",
-    "as": "'defeat' (পৰাজয়) হৈছে 'conquer' (জয় কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Conquer' means to take control by force — to conquer a city. 'Defeat' is the closest synonym for beating an opponent. 'Surrender' is what the losing side does, 'defend' is to resist attack, and 'avoid' means to keep away.",
+    "as": "'Conquer' মানে বলপূৰ্বক অধিকাৰ কৰা — conquer a city। 'Defeat' প্ৰতিপক্ষক পৰাস্ত কৰাৰ ওচৰৰ অৰ্থ। 'Surrender' আত্মসমৰ্পণ, 'defend' প্ৰতিৰক্ষা, 'avoid' এৰাই চলা।"
    }
   },
   {
@@ -78334,26 +78334,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "changing",
+     "as": "সলনশীল"
     },
     {
      "en": "steady",
      "as": "স্থিৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "loud",
+     "as": "উচ্চ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'steady' is a synonym of 'constant'; both words have nearly the same meaning.",
-    "as": "'steady' (স্থিৰ) হৈছে 'constant' (স্থিৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Constant' means staying the same over time — a constant temperature. 'Steady' is the closest synonym. 'Changing' is the opposite, 'rare' is about frequency, and 'loud' describes sound.",
+    "as": "'Constant' মানে সময়ত একেই থকা — constant temperature। 'Steady' ওচৰৰ সমাৰ্থক। 'Changing' ওলোটা, 'rare' বিৰলতা, 'loud' শব্দ।"
    }
   },
   {
@@ -78364,26 +78364,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "culpable",
-     "as": "দোষী"
+     "en": "honest",
+     "as": "সৎ"
     },
     {
      "en": "dishonest",
      "as": "অসৎ"
     },
     {
-     "en": "blameless",
-     "as": "নিৰ্দোষী"
+     "en": "upright",
+     "as": "সচ্চৰিত্ৰ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "innocent",
+     "as": "নিৰ্দোষী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dishonest' is a synonym of 'corrupt'; both words have nearly the same meaning.",
-    "as": "'dishonest' (অসৎ) হৈছে 'corrupt' (দুৰ্নীতিগ্ৰস্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Corrupt' means willing to act dishonestly for money or power — a corrupt officer. 'Dishonest' is the closest synonym. 'Honest' and 'upright' are the opposite, and 'innocent' means free of blame.",
+    "as": "'Corrupt' মানে ঘূষ লৈ অসৎ — corrupt officer। 'Dishonest' ওচৰৰ সমাৰ্থক। 'Honest' আৰু 'upright' ওলোটা, 'innocent' নিৰ্দোষী।"
    }
   },
   {
@@ -78424,26 +78424,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     },
     {
      "en": "polite",
      "as": "ভদ্ৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "shy",
+     "as": "লাজুকী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wealthy",
+     "as": "ধনী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'polite' is a synonym of 'courteous'; both words have nearly the same meaning.",
-    "as": "'polite' (ভদ্ৰ) হৈছে 'courteous' (ভদ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Courteous' means showing good manners — a courteous reply. 'Polite' is the closest synonym. 'Rude' is the opposite, 'shy' describes discomfort with strangers, and 'wealthy' is about money.",
+    "as": "'Courteous' মানে ভদ্ৰ ব্যৱহাৰ — courteous reply। 'Polite' ওচৰৰ সমাৰ্থক। 'Rude' ওলোটা, 'shy' লাজুকী, 'wealthy' ধনী।"
    }
   },
   {
@@ -78484,26 +78484,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "impossible",
+     "as": "অসম্ভৱ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     },
     {
      "en": "believable",
      "as": "বিশ্বাসযোগ্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "famous",
+     "as": "বিখ্যাত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'believable' is a synonym of 'credible'; both words have nearly the same meaning.",
-    "as": "'believable' (বিশ্বাসযোগ্য) হৈছে 'credible' (বিশ্বাসযোগ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Credible' means able to be believed — a credible witness. 'Believable' is the plain synonym. 'Impossible' is a stronger claim and not the same, 'doubtful' means open to doubt, and 'famous' is about being well known.",
+    "as": "'Credible' মানে বিশ্বাসযোগ্য — credible witness। 'Believable' সৰল সমাৰ্থক। 'Impossible' অসম্ভৱ, 'doubtful' সন্দেহজনক, 'famous' বিখ্যাত।"
    }
   },
   {
@@ -78518,22 +78518,22 @@ module.exports = {
      "as": "নিষ্ঠুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "kind",
+     "as": "দয়ালু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "fair",
+     "as": "ন্যায়সংগত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "weak",
+     "as": "দুৰ্বল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'brutal' is a synonym of 'cruel'; both words have nearly the same meaning.",
-    "as": "'brutal' (নিষ্ঠুৰ) হৈছে 'cruel' (নিষ্ঠুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Cruel' means willing to cause pain — a cruel punishment. 'Brutal' is the closest synonym for savage behaviour. 'Kind' is the opposite, 'fair' means just, and 'weak' describes strength, not intent.",
+    "as": "'Cruel' মানে কষ্ট দিয়াত প্ৰবৃত্ত — cruel punishment। 'Brutal' নিষ্ঠুৰতাৰ ওচৰৰ অৰ্থ। 'Kind' ওলোটা, 'fair' ন্যায়সংগত, 'weak' দুৰ্বল।"
    }
   },
   {
@@ -78544,16 +78544,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "extend",
+     "as": "বঢ়োৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "begin",
+     "as": "আৰম্ভ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "approve",
+     "as": "অনুমোদন কৰা"
     },
     {
      "en": "shorten",
@@ -78562,8 +78562,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'shorten' is a synonym of 'curtail'; both words have nearly the same meaning.",
-    "as": "'shorten' (চুটি কৰা) হৈছে 'curtail' (হ্ৰাস কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Curtail' means to cut something short — to curtail spending. 'Shorten' matches that reduction. 'Extend' is the opposite, 'begin' is about starting, and 'approve' is about permission.",
+    "as": "'Curtail' মানে কমাই দিয়া — curtail spending। 'Shorten' একেই অৰ্থ দিয়ে। 'Extend' ওলোটা, 'begin' আৰম্ভ, 'approve' অনুমোদন।"
    }
   },
   {
@@ -78604,26 +78604,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "narrow",
+     "as": "ঠেক"
     },
     {
      "en": "gloomy",
-     "as": "বিষণ্ণ"
+     "as": "অন্ধকাৰময়"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'gloomy' is a synonym of 'dark'; both words have nearly the same meaning.",
-    "as": "'gloomy' (বিষণ্ণ) হৈছে 'dark' (অন্ধকাৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Dark' means with little or no light — a dark room — and can describe a cheerless mood. 'Gloomy' matches the mood sense. 'Bright' and 'cheerful' are the opposite, and 'narrow' describes width.",
+    "as": "'Dark' মানে পোহৰ কম — dark room; মনৰ অৱস্থাও বুজায়। 'Gloomy' মনৰ অৰ্থত মিলে। 'Bright' আৰু 'cheerful' ওলোটা, 'narrow' ঠেক।"
    }
   },
   {
@@ -78634,16 +78634,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "timid",
+     "as": "ভয়াতুৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careful",
+     "as": "সাৱধান"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
      "en": "bold",
@@ -78652,8 +78652,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'bold' is a synonym of 'daring'; both words have nearly the same meaning.",
-    "as": "'bold' (সাহসী) হৈছে 'daring' (দুঃসাহসী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Daring' means willing to take a risk — a daring rescue. 'Bold' is the closest synonym. 'Timid' is the opposite, 'careful' means avoiding risk, and 'polite' is about manners.",
+    "as": "'Daring' মানে বিপদ লোৱাৰ সাহস — daring rescue। 'Bold' ওচৰৰ সমাৰ্থক। 'Timid' ওলোটা, 'careful' সাৱধানতা, 'polite' ভদ্ৰতা।"
    }
   },
   {
@@ -78728,22 +78728,22 @@ module.exports = {
      "as": "ঘোষণা কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "conceal",
+     "as": "লুকুওৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "deny",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "question",
+     "as": "সন্দেহ কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'announce' is a synonym of 'declare'; both words have nearly the same meaning.",
-    "as": "'announce' (ঘোষণা কৰা) হৈছে 'declare' (ঘোষণা কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Declare' means to state something openly and formally — to declare a result. 'Announce' is the closest synonym. 'Conceal' means to keep it hidden, 'deny' is to say it is not true, and 'question' is to cast doubt on it.",
+    "as": "'Declare' মানে মুকলিকৈ আৰু আনুষ্ঠানিকভাৱে ঘোষণা কৰা — declare a result। 'Announce' ওচৰৰ সমাৰ্থক। 'Conceal' লুকুওৱা, 'deny' অস্বীকাৰ, 'question' সন্দেহ কৰা।"
    }
   },
   {
@@ -78784,26 +78784,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "surrender",
+     "as": "আত্মসমৰ্পণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "assist",
+     "as": "সহায় কৰা"
     },
     {
      "en": "vanquish",
-     "as": "পৰাজিত কৰা"
+     "as": "পৰাস্ত কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "retreat",
+     "as": "পিছুৱাই যোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'vanquish' is a synonym of 'defeat'; both words have nearly the same meaning.",
-    "as": "'vanquish' (পৰাজিত কৰা) হৈছে 'defeat' (পৰাজয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Defeat' means to beat an opponent — to defeat a rival. 'Vanquish' means to defeat thoroughly, the closest sense. 'Surrender' is to give up, 'assist' is to help the other side, and 'retreat' is to withdraw.",
+    "as": "'Defeat' মানে প্ৰতিপক্ষক পৰাস্ত কৰা — defeat a rival। 'Vanquish' সম্পূৰ্ণৰূপে পৰাস্ত কৰা। 'Surrender' আত্মসমৰ্পণ, 'assist' সহায় কৰা, 'retreat' পিছুৱাই যোৱা।"
    }
   },
   {
@@ -78814,16 +78814,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obedient",
+     "as": "আজ্ঞাবহ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "apologetic",
+     "as": "ক্ষমাপ্ৰাৰ্থী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "timid",
+     "as": "ভয়াতুৰ"
     },
     {
      "en": "disobedient",
@@ -78832,8 +78832,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'disobedient' is a synonym of 'defiant'; both words have nearly the same meaning.",
-    "as": "'disobedient' (অবাধ্য) হৈছে 'defiant' (অবাধ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Defiant' means openly refusing to obey — a defiant answer. 'Disobedient' is the closest synonym. 'Obedient' is the opposite, 'apologetic' means saying sorry, and 'timid' means fearful rather than bold in refusal.",
+    "as": "'Defiant' মানে মুকলিকৈ অবাধ্য হোৱা — defiant answer। 'Disobedient' ওচৰৰ সমাৰ্থক। 'Obedient' ওলোটা, 'apologetic' ক্ষমা বিচৰা, 'timid' ভয়াতুৰ।"
    }
   },
   {
@@ -78844,26 +78844,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "abundant",
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "complete",
+     "as": "সম্পূৰ্ণ"
     },
     {
      "en": "lacking",
      "as": "অভাবযুক্ত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "surplus",
+     "as": "অধিক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'lacking' is a synonym of 'deficient'; both words have nearly the same meaning.",
-    "as": "'lacking' (অভাবযুক্ত) হৈছে 'deficient' (অভাৱ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Deficient' means not having enough of something — deficient in iron. 'Lacking' is the closest synonym. 'Abundant' and 'surplus' mean more than enough, and 'complete' means having every part.",
+    "as": "'Deficient' মানে পৰ্যাপ্ত নথকা — deficient in iron। 'Lacking' ওচৰৰ সমাৰ্থক। 'Abundant' আৰু 'surplus' অধিক থকা বুজায়, 'complete' মানে সম্পূৰ্ণ।"
    }
   },
   {
@@ -78874,26 +78874,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     },
     {
      "en": "certain",
      "as": "নিশ্চিত"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "possible",
+     "as": "সম্ভৱ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'certain' is a synonym of 'definite'; both words have nearly the same meaning.",
-    "as": "'certain' (নিশ্চিত) হৈছে 'definite' (নিৰ্দিষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Definite' means clear and not open to doubt — a definite answer. 'Certain' is the closest synonym. 'Vague' and 'doubtful' are the opposite, and 'possible' only means something may happen.",
+    "as": "'Definite' মানে স্পষ্ট আৰু সন্দেহহীন — definite answer। 'Certain' ওচৰৰ সমাৰ্থক। 'Vague' আৰু 'doubtful' ওলোটা, 'possible' মানে সম্ভৱ মাত্ৰ।"
    }
   },
   {
@@ -78905,25 +78905,25 @@ module.exports = {
    "options": [
     {
      "en": "skilful",
-     "as": "দক্ষ"
+     "as": "নিপুণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "clumsy",
+     "as": "অদক্ষ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'skilful' is a synonym of 'deft'; both words have nearly the same meaning.",
-    "as": "'skilful' (দক্ষ) হৈছে 'deft' (দক্ষ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Deft' means quick and neat in movement — deft fingers. 'Skilful' is the closest synonym. 'Clumsy' is the opposite, 'slow' is about speed, and 'careless' is about attention.",
+    "as": "'Deft' মানে দ্ৰুত আৰু নিপুণ — deft fingers। 'Skilful' ওচৰৰ সমাৰ্থক। 'Clumsy' ওলোটা, 'slow' লেহেমীয়া, 'careless' অসাৱধান।"
    }
   },
   {
@@ -78935,25 +78935,25 @@ module.exports = {
    "options": [
     {
      "en": "downcast",
-     "as": "হতাশ"
+     "as": "মন ভাঙি পৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hopeful",
+     "as": "আশাবাদী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "angry",
+     "as": "ক্ৰোধিত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'downcast' is a synonym of 'dejected'; both words have nearly the same meaning.",
-    "as": "'downcast' (হতাশ) হৈছে 'dejected' (হতাশ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Dejected' means low in spirits after a setback — dejected after the result. 'Downcast' is the closest synonym. 'Cheerful' and 'hopeful' are the opposite, and 'angry' is a different emotion.",
+    "as": "'Dejected' মানে মন ভাঙি পৰা — dejected after the result। 'Downcast' ওচৰৰ সমাৰ্থক। 'Cheerful' আৰু 'hopeful' ওলোটা, 'angry' ক্ৰোধ।"
    }
   },
   {
@@ -79024,26 +79024,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "sparse",
+     "as": "বিৰল"
     },
     {
      "en": "thick",
-     "as": "ডাঠ"
+     "as": "ঘন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "light",
+     "as": "পাতল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'thick' is a synonym of 'dense'; both words have nearly the same meaning.",
-    "as": "'thick' (ডাঠ) হৈছে 'dense' (ঘন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Dense' means packed closely together — a dense forest, dense fog. 'Thick' matches that closeness. 'Sparse' is the opposite, 'clear' describes visibility, and 'light' describes weight.",
+    "as": "'Dense' মানে ওচৰা-ওচৰিকৈ থুপ খোৱা — dense forest, dense fog। 'Thick' একেই অৰ্থ দিয়ে। 'Sparse' বিৰল, 'clear' স্পষ্টতা, 'light' পাতল।"
    }
   },
   {
@@ -79054,26 +79054,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "give",
+     "as": "দিয়া"
     },
     {
      "en": "rob",
-     "as": "লুণ্ঠন কৰা"
+     "as": "কাঢ়ি লোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "share",
+     "as": "ভাগ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "restore",
+     "as": "ঘূৰাই দিয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'rob' is a synonym of 'deprive'; both words have nearly the same meaning.",
-    "as": "'rob' (লুণ্ঠন কৰা) হৈছে 'deprive' (বঞ্চিত কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Deprive' means to take something away from someone — deprived of sleep. 'Rob' is the closest synonym. 'Give' and 'share' are the opposite, and 'restore' means to return what was taken.",
+    "as": "'Deprive' মানে কাৰোবাৰ পৰা বস্তু কাঢ়ি লোৱা — deprived of sleep। 'Rob' ওচৰৰ সমাৰ্থক। 'Give' আৰু 'share' ওলোটা, 'restore' ঘূৰাই দিয়া।"
    }
   },
   {
@@ -79145,25 +79145,25 @@ module.exports = {
    "options": [
     {
      "en": "scorn",
-     "as": "ঘিণ কৰা"
+     "as": "ঘৃণা কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "admire",
+     "as": "শ্ৰদ্ধা কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "respect",
+     "as": "সন্মান কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "forgive",
+     "as": "ক্ষমা কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'scorn' is a synonym of 'despise'; both words have nearly the same meaning.",
-    "as": "'scorn' (ঘিণ কৰা) হৈছে 'despise' (ঘিণ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Despise' means to feel strong dislike for someone — to despise cruelty. 'Scorn' is the closest synonym. 'Admire' and 'respect' are the opposite, and 'forgive' means to stop blaming.",
+    "as": "'Despise' মানে তীব্ৰ ঘৃণা কৰা — despise cruelty। 'Scorn' ওচৰৰ সমাৰ্থক। 'Admire' আৰু 'respect' ওলোটা, 'forgive' ক্ষমা কৰা।"
    }
   },
   {
@@ -79175,25 +79175,25 @@ module.exports = {
    "options": [
     {
      "en": "impoverished",
-     "as": "দৰিদ্ৰ"
+     "as": "নিঃস্ব"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wealthy",
+     "as": "ধনী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "comfortable",
+     "as": "সচ্ছল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "generous",
+     "as": "দানশীল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'impoverished' is a synonym of 'destitute'; both words have nearly the same meaning.",
-    "as": "'impoverished' (দৰিদ্ৰ) হৈছে 'destitute' (দৰিদ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Destitute' means having no money or possessions at all — left destitute by the flood. 'Impoverished' means made poor, the closest sense. 'Wealthy' and 'comfortable' are the opposite, and 'generous' is about giving.",
+    "as": "'Destitute' মানে একেবাৰে নিঃস্ব — বানপানীত নিঃস্ব হৈ পৰা। 'Impoverished' ওচৰৰ অৰ্থ দিয়ে। 'Wealthy' আৰু 'comfortable' ওলোটা, 'generous' দানশীল।"
    }
   },
   {
@@ -79234,26 +79234,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "lazy",
+     "as": "এলেহুৱা"
     },
     {
      "en": "hardworking",
      "as": "পৰিশ্ৰমী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'hardworking' is a synonym of 'diligent'; both words have nearly the same meaning.",
-    "as": "'hardworking' (পৰিশ্ৰমী) হৈছে 'diligent' (পৰিশ্ৰমী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Diligent' means working steadily and with care — a diligent student. 'Hardworking' is the closest synonym. 'Lazy' and 'careless' are the opposite, and 'slow' is about speed rather than effort.",
+    "as": "'Diligent' মানে একাগ্ৰতাৰে পৰিশ্ৰম কৰা — diligent student। 'Hardworking' ওচৰৰ সমাৰ্থক। 'Lazy' আৰু 'careless' ওলোটা, 'slow' গতিৰ কথা।"
    }
   },
   {
@@ -79264,26 +79264,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "increase",
+     "as": "বঢ়োৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "expand",
+     "as": "বঢ়াই তোলা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "maintain",
+     "as": "একেই ৰখা"
     },
     {
      "en": "reduce",
-     "as": "হ্ৰাস কৰা"
+     "as": "কমোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'reduce' is a synonym of 'diminish'; both words have nearly the same meaning.",
-    "as": "'reduce' (হ্ৰাস কৰা) হৈছে 'diminish' (হ্ৰাস কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Diminish' means to become or make smaller — the noise diminished. 'Reduce' is the closest synonym. 'Increase' and 'expand' are the opposite, and 'maintain' means to keep something as it is.",
+    "as": "'Diminish' মানে কমি যোৱা — শব্দ কমি গ'ল। 'Reduce' ওচৰৰ সমাৰ্থক। 'Increase' আৰু 'expand' ওলোটা, 'maintain' একেই ৰখা।"
    }
   },
   {
@@ -79294,26 +79294,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "conceal",
+     "as": "লুকুওৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "withhold",
+     "as": "নিদিয়া"
     },
     {
      "en": "reveal",
      "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "deny",
+     "as": "অস্বীকাৰ কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'reveal' is a synonym of 'disclose'; both words have nearly the same meaning.",
-    "as": "'reveal' (প্ৰকাশ কৰা) হৈছে 'disclose' (প্ৰকাশ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Disclose' means to make known something that was private — to disclose the details. 'Reveal' is the closest synonym. 'Conceal' and 'withhold' mean keeping it back, and 'deny' means saying it is untrue.",
+    "as": "'Disclose' মানে গুপ্ত কথা প্ৰকাশ কৰা — disclose the details। 'Reveal' ওচৰৰ সমাৰ্থক। 'Conceal' আৰু 'withhold' লুকুওৱা, 'deny' অস্বীকাৰ কৰা।"
    }
   },
   {
@@ -79354,26 +79354,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
      "en": "gloomy",
-     "as": "বিষণ্ণ"
+     "as": "নিৰানন্দ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hopeful",
+     "as": "আশাবাদী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'gloomy' is a synonym of 'dismal'; both words have nearly the same meaning.",
-    "as": "'gloomy' (বিষণ্ণ) হৈছে 'dismal' (বিষণ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Dismal' means depressing and cheerless — a dismal day, a dismal result. 'Gloomy' is the closest synonym. 'Cheerful', 'bright' and 'hopeful' all describe the opposite mood.",
+    "as": "'Dismal' মানে নিৰানন্দ আৰু অন্ধকাৰময় — dismal day, dismal result। 'Gloomy' ওচৰৰ সমাৰ্থক। 'Cheerful', 'bright' আৰু 'hopeful' ওলোটা।"
    }
   },
   {
@@ -79474,26 +79474,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "conceal",
+     "as": "লুকুওৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "suppress",
+     "as": "দমন কৰা"
     },
     {
      "en": "disclose",
      "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "withhold",
+     "as": "নিদিয়া"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'disclose' is a synonym of 'divulge'; both words have nearly the same meaning.",
-    "as": "'disclose' (প্ৰকাশ কৰা) হৈছে 'divulge' (প্ৰকাশ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Divulge' means to let a secret out — to divulge a plan. 'Disclose' is the closest synonym. 'Conceal', 'suppress' and 'withhold' all mean keeping it back.",
+    "as": "'Divulge' মানে গুপ্ত কথা ফাদিল কৰা — divulge a plan। 'Disclose' ওচৰৰ সমাৰ্থক। 'Conceal', 'suppress' আৰু 'withhold' লুকুওৱা বুজায়।"
    }
   },
   {
@@ -79504,26 +79504,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "stubborn",
+     "as": "জেদী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "aggressive",
+     "as": "আক্ৰমণাত্মক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "restless",
+     "as": "অস্থিৰ"
     },
     {
      "en": "obedient",
-     "as": "বাধ্য"
+     "as": "আজ্ঞাবহ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'obedient' is a synonym of 'docile'; both words have nearly the same meaning.",
-    "as": "'obedient' (বাধ্য) হৈছে 'docile' (বাধ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Docile' means easily managed and willing to obey — a docile animal. 'Obedient' is the closest synonym. 'Stubborn' and 'aggressive' are the opposite, and 'restless' means unable to keep still.",
+    "as": "'Docile' মানে সহজে চলোৱা আৰু আজ্ঞাবহ — docile animal। 'Obedient' ওচৰৰ সমাৰ্থক। 'Stubborn' আৰু 'aggressive' ওলোটা, 'restless' অস্থিৰ।"
    }
   },
   {
@@ -79564,26 +79564,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sharp",
+     "as": "তীক্ষ্ণ"
     },
     {
      "en": "blunt",
      "as": "ভোটা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "interesting",
+     "as": "আমোদজনক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'blunt' is a synonym of 'dull'; both words have nearly the same meaning.",
-    "as": "'blunt' (ভোটা) হৈছে 'dull' (নিষ্প্ৰভ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Dull' means not sharp — a dull blade — and also means boring. 'Blunt' matches the blade sense. 'Sharp' and 'bright' are the opposite, and 'interesting' is the opposite of the boring sense.",
+    "as": "'Dull' মানে ভোটা — dull blade; বিৰক্তিকৰো বুজায়। 'Blunt' ধাৰৰ অৰ্থত মিলে। 'Sharp' আৰু 'bright' ওলোটা, 'interesting' আমোদজনক।"
    }
   },
   {
@@ -79624,26 +79624,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "reluctant",
+     "as": "অনিচ্ছুক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "bored",
+     "as": "আমনি লগা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "calm",
+     "as": "শান্ত"
     },
     {
      "en": "keen",
-     "as": "উৎসাহী"
+     "as": "আগ্ৰহী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'keen' is a synonym of 'eager'; both words have nearly the same meaning.",
-    "as": "'keen' (উৎসাহী) হৈছে 'eager' (উৎসুক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Eager' means wanting to do something very much — eager to begin. 'Keen' is the closest synonym. 'Reluctant' is the opposite, 'bored' means no longer interested, and 'calm' is about mood, not desire.",
+    "as": "'Eager' মানে বৰ আগ্ৰহী — eager to begin। 'Keen' ওচৰৰ সমাৰ্থক। 'Reluctant' ওলোটা, 'bored' আমনি লগা, 'calm' শান্ত।"
    }
   },
   {
@@ -79654,26 +79654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "late",
+     "as": "দেৰি"
     },
     {
      "en": "premature",
-     "as": "অকাল"
+     "as": "অকালত হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "delayed",
+     "as": "পলম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "punctual",
+     "as": "সময়মতে"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'premature' is a synonym of 'early'; both words have nearly the same meaning.",
-    "as": "'premature' (অকাল) হৈছে 'early' (সোনকালে) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Early' means before the expected time — an early arrival. 'Premature' means happening too soon, the closest sense here. 'Late' and 'delayed' are the opposite, and 'punctual' means exactly on time.",
+    "as": "'Early' মানে সময়তকৈ আগত — early arrival। 'Premature' অকালত হোৱা। 'Late' আৰু 'delayed' ওলোটা, 'punctual' সময়মতে।"
    }
   },
   {
@@ -79684,26 +79684,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "joking",
+     "as": "ৰসিকতা কৰা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "casual",
+     "as": "অনানুষ্ঠানিক"
     },
     {
      "en": "serious",
      "as": "গম্ভীৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "lazy",
+     "as": "এলেহুৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'serious' is a synonym of 'earnest'; both words have nearly the same meaning.",
-    "as": "'serious' (গম্ভীৰ) হৈছে 'earnest' (আন্তৰিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Earnest' means sincere and serious in intention — an earnest request. 'Serious' is the closest synonym. 'Joking' is the opposite, 'casual' means without formality, and 'lazy' is about effort.",
+    "as": "'Earnest' মানে আন্তৰিক আৰু গম্ভীৰ — earnest request। 'Serious' ওচৰৰ সমাৰ্থক। 'Joking' ওলোটা, 'casual' অনানুষ্ঠানিক, 'lazy' এলেহুৱা।"
    }
   },
   {
@@ -79714,26 +79714,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "difficult",
+     "as": "কঠিন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "complex",
+     "as": "জটিল"
     },
     {
      "en": "simple",
      "as": "সৰল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "risky",
+     "as": "বিপদজনক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'simple' is a synonym of 'easy'; both words have nearly the same meaning.",
-    "as": "'simple' (সৰল) হৈছে 'easy' (সহজ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Easy' means needing little effort — an easy question. 'Simple' is the closest synonym. 'Difficult' and 'complex' are the opposite, and 'risky' is about danger rather than effort.",
+    "as": "'Easy' মানে কম পৰিশ্ৰমেৰে হোৱা — easy question। 'Simple' ওচৰৰ সমাৰ্থক। 'Difficult' আৰু 'complex' ওলোটা, 'risky' বিপদজনক।"
    }
   },
   {
@@ -79744,26 +79744,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wasteful",
+     "as": "অপচয়কাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "costly",
+     "as": "ব্যয়বহুল"
     },
     {
      "en": "thrifty",
      "as": "মিতব্যয়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "luxurious",
+     "as": "বিলাসী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'thrifty' is a synonym of 'economical'; both words have nearly the same meaning.",
-    "as": "'thrifty' (মিতব্যয়ী) হৈছে 'economical' (মিতব্যয়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Economical' means using money or resources carefully — an economical car. 'Thrifty' is the closest synonym. 'Wasteful' is the opposite, 'costly' means expensive, and 'luxurious' means rich and comfortable.",
+    "as": "'Economical' মানে কম খৰচী — economical car। 'Thrifty' ওচৰৰ সমাৰ্থক। 'Wasteful' ওলোটা, 'costly' ব্যয়বহুল, 'luxurious' বিলাসী।"
    }
   },
   {
@@ -79774,26 +79774,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "depressed",
+     "as": "হতাশ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "disappointed",
+     "as": "নিৰাশ"
     },
     {
      "en": "overjoyed",
      "as": "অতি আনন্দিত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "tired",
+     "as": "ভাগৰুৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'overjoyed' is a synonym of 'elated'; both words have nearly the same meaning.",
-    "as": "'overjoyed' (অতি আনন্দিত) হৈছে 'elated' (আনন্দিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Elated' means extremely happy after good news — elated at the result. 'Overjoyed' is the closest synonym. 'Depressed' and 'disappointed' are the opposite, and 'tired' describes energy, not mood.",
+    "as": "'Elated' মানে অতি আনন্দিত — elated at the result। 'Overjoyed' ওচৰৰ সমাৰ্থক। 'Depressed' আৰু 'disappointed' ওলোটা, 'tired' ভাগৰুৱা।"
    }
   },
   {
@@ -79804,26 +79804,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "clumsy",
+     "as": "অদক্ষ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plain",
+     "as": "সাধাৰণ"
     },
     {
      "en": "graceful",
-     "as": "সুন্দৰ"
+     "as": "সুললিত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cheap",
+     "as": "কম দামী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'graceful' is a synonym of 'elegant'; both words have nearly the same meaning.",
-    "as": "'graceful' (সুন্দৰ) হৈছে 'elegant' (সুন্দৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Elegant' means pleasing and graceful in style — an elegant design. 'Graceful' is the closest synonym. 'Clumsy' is the opposite, 'plain' means without ornament, and 'cheap' is about price.",
+    "as": "'Elegant' মানে সুন্দৰ আৰু সুললিত — elegant design। 'Graceful' ওচৰৰ সমাৰ্থক। 'Clumsy' ওলোটা, 'plain' সাধাৰণ, 'cheap' কম দামী।"
    }
   },
   {
@@ -79834,26 +79834,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lower",
+     "as": "তললৈ নমোৱা"
     },
     {
      "en": "raise",
-     "as": "উঠোৱা"
+     "as": "ওপৰলৈ তোলা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "drop",
+     "as": "পেলোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "flatten",
+     "as": "সমান কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'raise' is a synonym of 'elevate'; both words have nearly the same meaning.",
-    "as": "'raise' (উঠোৱা) হৈছে 'elevate' (উন্নীত কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Elevate' means to lift something higher — to elevate the platform — and also to promote. 'Raise' is the closest synonym. 'Lower' and 'drop' are the opposite, and 'flatten' means to make level.",
+    "as": "'Elevate' মানে ওপৰলৈ তোলা — elevate the platform; পদোন্নতিও বুজায়। 'Raise' ওচৰৰ সমাৰ্থক। 'Lower' আৰু 'drop' ওলোটা, 'flatten' সমান কৰা।"
    }
   },
   {
@@ -79864,26 +79864,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "silent",
+     "as": "নীৰৱ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "stammering",
+     "as": "ততৰা-বতৰা"
     },
     {
      "en": "articulate",
-     "as": "স্পষ্টভাৱে ক'ব পৰা"
+     "as": "স্পষ্টভাৱে প্ৰকাশ কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'articulate' is a synonym of 'eloquent'; both words have nearly the same meaning.",
-    "as": "'articulate' (স্পষ্টভাৱে ক'ব পৰা) হৈছে 'eloquent' (বাগ্মী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Eloquent' means speaking fluently and persuasively — an eloquent speech. 'Articulate' means expressing ideas clearly, the closest sense. 'Silent' and 'stammering' are the opposite, and 'rude' is about manners.",
+    "as": "'Eloquent' মানে প্ৰবল আৰু সুন্দৰভাৱে ভাষণ দিয়া — eloquent speech। 'Articulate' স্পষ্টভাৱে প্ৰকাশ কৰা। 'Silent' আৰু 'stammering' ওলোটা, 'rude' অভদ্ৰ।"
    }
   },
   {
@@ -79924,26 +79924,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "reject",
+     "as": "নাকচ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "avoid",
+     "as": "এৰাই চলা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "release",
+     "as": "এৰি দিয়া"
     },
     {
      "en": "hug",
-     "as": "আলিঙ্গন কৰা"
+     "as": "সাৱটি ধৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'hug' is a synonym of 'embrace'; both words have nearly the same meaning.",
-    "as": "'hug' (আলিঙ্গন কৰা) হৈছে 'embrace' (আলিঙ্গন কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Embrace' means to hold someone closely — to embrace a friend — and also to accept an idea. 'Hug' is the closest synonym. 'Reject' and 'avoid' are the opposite, and 'release' means to let go.",
+    "as": "'Embrace' মানে সাৱটি ধৰা — embrace a friend; ধাৰণা গ্ৰহণ কৰাও বুজায়। 'Hug' ওচৰৰ সমাৰ্থক। 'Reject' আৰু 'avoid' ওলোটা, 'release' এৰি দিয়া।"
    }
   },
   {
@@ -79955,25 +79955,25 @@ module.exports = {
    "options": [
     {
      "en": "distinguished",
-     "as": "প্ৰখ্যাত"
+     "as": "বিশিষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "unknown",
+     "as": "অজ্ঞাত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "young",
+     "as": "ডেকা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'distinguished' is a synonym of 'eminent'; both words have nearly the same meaning.",
-    "as": "'distinguished' (প্ৰখ্যাত) হৈছে 'eminent' (প্ৰখ্যাত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Eminent' means famous and respected in a field — an eminent historian. 'Distinguished' is the closest synonym. 'Unknown' and 'ordinary' are the opposite, and 'young' is about age.",
+    "as": "'Eminent' মানে নিজ ক্ষেত্ৰত বিখ্যাত আৰু সন্মানিত — eminent historian। 'Distinguished' ওচৰৰ সমাৰ্থক। 'Unknown' আৰু 'ordinary' ওলোটা, 'young' ডেকা।"
    }
   },
   {
@@ -79984,26 +79984,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "full",
+     "as": "ভৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "crowded",
+     "as": "ভিৰভাটি"
     },
     {
      "en": "vacant",
      "as": "খালী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "occupied",
+     "as": "অধিকৃত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'vacant' is a synonym of 'empty'; both words have nearly the same meaning.",
-    "as": "'vacant' (খালী) হৈছে 'empty' (খালী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Empty' means having nothing inside — an empty hall. 'Vacant' means not occupied, the closest sense. 'Full' and 'crowded' are the opposite, and 'occupied' means someone is using it.",
+    "as": "'Empty' মানে ভিতৰত একো নথকা — empty hall। 'Vacant' খালী, ওচৰৰ অৰ্থ। 'Full' আৰু 'crowded' ওলোটা, 'occupied' অধিকৃত।"
    }
   },
   {
@@ -80075,25 +80075,25 @@ module.exports = {
    "options": [
     {
      "en": "expand",
-     "as": "বিষ্টাৰিত কৰা"
+     "as": "বঢ়াই তোলা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "shrink",
+     "as": "সৰু হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "reduce",
+     "as": "কমোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "shorten",
+     "as": "চুটি কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'expand' is a synonym of 'enlarge'; both words have nearly the same meaning.",
-    "as": "'expand' (বিষ্টাৰিত কৰা) হৈছে 'enlarge' (বঢ়োৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Enlarge' means to make something bigger — to enlarge a photograph. 'Expand' is the closest synonym. 'Shrink' and 'reduce' are the opposite, and 'shorten' is about length only.",
+    "as": "'Enlarge' মানে ডাঙৰ কৰা — enlarge a photograph। 'Expand' ওচৰৰ সমাৰ্থক। 'Shrink' আৰু 'reduce' ওলোটা, 'shorten' চুটি কৰা।"
    }
   },
   {
@@ -80104,26 +80104,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "finite",
-     "as": "সীমিত"
+     "en": "tiny",
+     "as": "অতি সৰু"
     },
     {
      "en": "huge",
      "as": "বিশাল"
     },
     {
-     "en": "giant",
-     "as": "দানৱ"
+     "en": "narrow",
+     "as": "ঠেক"
     },
     {
-     "en": "dwarf",
-     "as": "বামন"
+     "en": "average",
+     "as": "মধ্যম"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'huge' is a synonym of 'enormous'; both words have nearly the same meaning.",
-    "as": "'huge' (বিশাল) হৈছে 'enormous' (বিশাল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Enormous' means extremely large — an enormous building. 'Huge' is the closest synonym. 'Tiny' is the opposite, 'narrow' describes width rather than size, and 'average' means neither large nor small.",
+    "as": "'Enormous' মানে অতি বিশাল — enormous building। 'Huge' ওচৰৰ সমাৰ্থক। 'Tiny' ওলোটা, 'narrow' ঠেক, 'average' মধ্যম।"
    }
   },
   {
@@ -80164,26 +80164,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "accurate",
+     "as": "শুদ্ধ"
     },
     {
      "en": "incorrect",
      "as": "ভুল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "deliberate",
+     "as": "ইচ্ছাকৃত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'incorrect' is a synonym of 'erroneous'; both words have nearly the same meaning.",
-    "as": "'incorrect' (ভুল) হৈছে 'erroneous' (ভুল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Erroneous' means wrong because of a mistake — an erroneous belief. 'Incorrect' is the closest synonym. 'Accurate' is the opposite, 'deliberate' means done on purpose, and 'obvious' means easy to see.",
+    "as": "'Erroneous' মানে ভুল — erroneous belief। 'Incorrect' ওচৰৰ সমাৰ্থক। 'Accurate' ওলোটা, 'deliberate' ইচ্ছাকৃত, 'obvious' স্পষ্ট।"
    }
   },
   {
@@ -80198,22 +80198,22 @@ module.exports = {
      "as": "চিৰস্থায়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "temporary",
+     "as": "অস্থায়ী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "brief",
+     "as": "চুটি"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "recent",
+     "as": "শেহতীয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'everlasting' is a synonym of 'eternal'; both words have nearly the same meaning.",
-    "as": "'everlasting' (চিৰস্থায়ী) হৈছে 'eternal' (চিৰস্থায়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Eternal' means lasting for ever — eternal life. 'Everlasting' is the closest synonym. 'Temporary' and 'brief' are the opposite, and 'recent' means it has only just happened.",
+    "as": "'Eternal' মানে অনন্তকালীয়া — eternal life। 'Everlasting' ওচৰৰ সমাৰ্থক। 'Temporary' আৰু 'brief' ওলোটা, 'recent' শেহতীয়া।"
    }
   },
   {
@@ -80224,26 +80224,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "approximate",
+     "as": "আন্দাজী"
     },
     {
      "en": "precise",
-     "as": "সঠিক"
+     "as": "নিখুঁত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "rough",
+     "as": "মোটামুটি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'precise' is a synonym of 'exact'; both words have nearly the same meaning.",
-    "as": "'precise' (সঠিক) হৈছে 'exact' (সঠিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Exact' means correct in every detail — the exact figure. 'Precise' is the closest synonym. 'Vague' and 'approximate' are the opposite, and 'rough' means only roughly estimated.",
+    "as": "'Exact' মানে প্ৰতিটো বিৱৰণত নিখুঁত — exact figure। 'Precise' ওচৰৰ সমাৰ্থক। 'Vague' আৰু 'approximate' ওলোটা, 'rough' আন্দাজী।"
    }
   },
   {
@@ -80254,26 +80254,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "mediocre",
+     "as": "মধ্যমীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "poor",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
      "en": "superb",
-     "as": "উৎকৃষ্ট"
+     "as": "অতি উত্তম"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'superb' is a synonym of 'excellent'; both words have nearly the same meaning.",
-    "as": "'superb' (উৎকৃষ্ট) হৈছে 'excellent' (উৎকৃষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Excellent' means extremely good of its kind — an excellent result, an excellent meal. 'Superb' is the closest synonym. 'Mediocre' means only average, 'poor' means bad, and 'ordinary' means nothing special.",
+    "as": "'Excellent' মানে নিজ প্ৰকাৰত অতি উত্তম — excellent result, excellent meal। 'Superb' ওচৰৰ সমাৰ্থক। 'Mediocre' মানে মধ্যমীয়া, 'poor' মানে দুৰ্বল, 'ordinary' মানে সাধাৰণ।"
    }
   },
   {
@@ -80284,26 +80284,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "include",
+     "as": "অন্তৰ্ভুক্ত কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "add",
+     "as": "যোগ কৰা"
     },
     {
      "en": "omit",
      "as": "বাদ দিয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "welcome",
+     "as": "আদৰণি জনোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'omit' is a synonym of 'exclude'; both words have nearly the same meaning.",
-    "as": "'omit' (বাদ দিয়া) হৈছে 'exclude' (বাদ দিয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Exclude' means to leave something out — to exclude a name from the list. 'Omit' is the closest synonym. 'Include' and 'add' are the opposite, and 'welcome' means to accept gladly.",
+    "as": "'Exclude' মানে বাদ দিয়া — exclude a name from the list। 'Omit' ওচৰৰ সমাৰ্থক। 'Include' আৰু 'add' ওলোটা, 'welcome' আদৰণি জনোৱা।"
    }
   },
   {
@@ -80314,26 +80314,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "contract",
+     "as": "সংকুচিত হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "shrink",
+     "as": "সৰু হোৱা"
     },
     {
      "en": "enlarge",
-     "as": "বঢ়োৱা"
+     "as": "ডাঙৰ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "narrow",
+     "as": "ঠেক কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'enlarge' is a synonym of 'expand'; both words have nearly the same meaning.",
-    "as": "'enlarge' (বঢ়োৱা) হৈছে 'expand' (বিষ্টাৰিত কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Expand' means to become larger — the metal expands when heated. 'Enlarge' is the closest synonym. 'Contract' and 'shrink' are the opposite, and 'narrow' means to make less wide.",
+    "as": "'Expand' মানে বাঢ়ি যোৱা — তাপত ধাতু বাঢ়ে। 'Enlarge' ওচৰৰ সমাৰ্থক। 'Contract' আৰু 'shrink' ওলোটা, 'narrow' ঠেক কৰা।"
    }
   },
   {
@@ -80374,26 +80374,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "thrifty",
+     "as": "মিতব্যয়ী"
     },
     {
      "en": "wasteful",
-     "as": "অপব্যয়ী"
+     "as": "অপচয়কাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "modest",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "careful",
+     "as": "সাৱধান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'wasteful' is a synonym of 'extravagant'; both words have nearly the same meaning.",
-    "as": "'wasteful' (অপব্যয়ী) হৈছে 'extravagant' (অপব্যয়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Extravagant' means spending far more than necessary — an extravagant wedding. 'Wasteful' is the closest synonym. 'Thrifty' and 'careful' are the opposite, and 'modest' means not large or showy.",
+    "as": "'Extravagant' মানে প্ৰয়োজনতকৈ বহুত বেছি খৰচ কৰা — extravagant wedding। 'Wasteful' ওচৰৰ সমাৰ্থক। 'Thrifty' আৰু 'careful' ওলোটা, 'modest' সাধাৰণ।"
    }
   },
   {
@@ -80404,26 +80404,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "moderate",
+     "as": "মধ্যম"
     },
     {
      "en": "radical",
-     "as": "আমূল"
+     "as": "চূড়ান্ত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'radical' is a synonym of 'extreme'; both words have nearly the same meaning.",
-    "as": "'radical' (আমূল) হৈছে 'extreme' (চৰম) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Extreme' means going far beyond what is usual — extreme views. 'Radical' means favouring complete change, the closest sense. 'Moderate' and 'mild' are the opposite, and 'ordinary' means unremarkable.",
+    "as": "'Extreme' মানে সাধাৰণতকৈ বহু দূৰলৈ যোৱা — extreme views। 'Radical' সম্পূৰ্ণ পৰিৱৰ্তন বিচৰা। 'Moderate' আৰু 'mild' ওলোটা, 'ordinary' সাধাৰণ।"
    }
   },
   {
@@ -80438,22 +80438,22 @@ module.exports = {
      "as": "অবিশ্বাস্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "believable",
+     "as": "বিশ্বাসযোগ্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'incredible' is a synonym of 'fabulous'; both words have nearly the same meaning.",
-    "as": "'incredible' (অবিশ্বাস্য) হৈছে 'fabulous' (অবিশ্বাস্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fabulous' means wonderful or hard to believe — a fabulous story. 'Incredible' carries the same sense of amazement. 'Ordinary' and 'dull' are the opposite, and 'believable' is the opposite of the hard-to-believe sense.",
+    "as": "'Fabulous' মানে আচৰিত ধৰণৰ ভাল বা অবিশ্বাস্য — fabulous story। 'Incredible' একেই আচৰ্জন বুজায়। 'Ordinary' আৰু 'dull' ওলোটা, 'believable' বিশ্বাসযোগ্য।"
    }
   },
   {
@@ -80464,26 +80464,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "brighten",
+     "as": "উজ্জ্বল হোৱা"
     },
     {
      "en": "wither",
      "as": "শুকাই যোৱা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "bloom",
+     "as": "প্ৰস্ফুটিত হোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "strengthen",
+     "as": "শক্তিশালী হোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'wither' is a synonym of 'fade'; both words have nearly the same meaning.",
-    "as": "'wither' (শুকাই যোৱা) হৈছে 'fade' (ম্লান হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fade' means to lose brightness or strength gradually — the colours faded in the sun. 'Wither' describes drying and shrivelling, the closest sense for plants. 'Brighten', 'bloom' and 'strengthen' all describe growth, not decline.",
+    "as": "'Fade' মানে ক্ৰমে ৰং বা শক্তি হেৰুওৱা — ৰদত ৰং ম্লান হ'ল। 'Wither' শুকাই যোৱা বুজায়, ওচৰৰ অৰ্থ। 'Brighten', 'bloom' আৰু 'strengthen' বাঢ়ন বুজায়।"
    }
   },
   {
@@ -80494,26 +80494,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "succeed",
+     "as": "সফল হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "achieve",
+     "as": "অৰ্জন কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "pass",
+     "as": "উত্তীৰ্ণ হোৱা"
     },
     {
      "en": "flop",
-     "as": "ব্যৰ্থ হোৱা"
+     "as": "বিফল হোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'flop' is a synonym of 'fail'; both words have nearly the same meaning.",
-    "as": "'flop' (ব্যৰ্থ হোৱা) হৈছে 'fail' (ব্যৰ্থ হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fail' means not to succeed — to fail an examination. 'Flop' means to fail badly, the closest informal sense. 'Succeed', 'achieve' and 'pass' are the opposite of failing.",
+    "as": "'Fail' মানে সফল নোহোৱা — পৰীক্ষাত অনুত্তীৰ্ণ হোৱা। 'Flop' সম্পূৰ্ণ বিফল হোৱা বুজায়। 'Succeed', 'achieve' আৰু 'pass' ওলোটা।"
    }
   },
   {
@@ -80524,16 +80524,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "loud",
+     "as": "উচ্চ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
      "en": "dim",
@@ -80542,8 +80542,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'dim' is a synonym of 'faint'; both words have nearly the same meaning.",
-    "as": "'dim' (ম্লান) হৈছে 'faint' (ম্লান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Faint' means weak and hard to notice — a faint sound, a faint smell. 'Dim' means not bright, the closest sense for light. 'Bright', 'loud' and 'clear' describe something strong enough to notice easily.",
+    "as": "'Faint' মানে দুৰ্বল আৰু অস্পষ্ট — faint sound, faint smell। 'Dim' পোহৰ কম বুজায়। 'Bright', 'loud' আৰু 'clear' স্পষ্ট বুজায়।"
    }
   },
   {
@@ -80584,26 +80584,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "genuine",
+     "as": "প্ৰকৃত"
     },
     {
      "en": "counterfeit",
      "as": "নকল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "original",
+     "as": "মৌলিক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "real",
+     "as": "আচল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'counterfeit' is a synonym of 'fake'; both words have nearly the same meaning.",
-    "as": "'counterfeit' (নকল) হৈছে 'fake' (নকল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fake' means not genuine — a fake signature, a fake note. 'Counterfeit' means made to look real in order to deceive, the closest sense. 'Genuine', 'original' and 'real' are the opposite.",
+    "as": "'Fake' মানে নকল — fake signature, fake note। 'Counterfeit' ঠগিবলৈ নকলকৈ সজা বুজায়। 'Genuine', 'original' আৰু 'real' ওলোটা।"
    }
   },
   {
@@ -80614,16 +80614,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "unknown",
+     "as": "অজ্ঞাত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obscure",
+     "as": "অখ্যাত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
      "en": "renowned",
@@ -80632,8 +80632,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'renowned' is a synonym of 'famous'; both words have nearly the same meaning.",
-    "as": "'renowned' (বিখ্যাত) হৈছে 'famous' (বিখ্যাত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Famous' means known to very many people — a famous singer. 'Renowned' means widely honoured for a quality, the closest sense. 'Unknown', 'obscure' and 'ordinary' describe the opposite.",
+    "as": "'Famous' মানে বহুতৰ মাজত পৰিচিত — famous singer। 'Renowned' গুণৰ বাবে বিখ্যাত। 'Unknown', 'obscure' আৰু 'ordinary' ওলোটা।"
    }
   },
   {
@@ -80644,26 +80644,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
      "en": "quick",
      "as": "দ্ৰুত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "sluggish",
+     "as": "মন্থৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "late",
+     "as": "দেৰি"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'quick' is a synonym of 'fast'; both words have nearly the same meaning.",
-    "as": "'quick' (দ্ৰুত) হৈছে 'fast' (দ্ৰুত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fast' means moving at high speed — a fast train. 'Quick' is the closest synonym. 'Slow' and 'sluggish' are the opposite, and 'late' is about time of arrival rather than speed.",
+    "as": "'Fast' মানে দ্ৰুত গতিৰ — fast train। 'Quick' ওচৰৰ সমাৰ্থক। 'Slow' আৰু 'sluggish' ওলোটা, 'late' অহাৰ সময়ৰ কথা।"
    }
   },
   {
@@ -80675,25 +80675,25 @@ module.exports = {
    "options": [
     {
      "en": "obese",
-     "as": "মোটাসোটা"
+     "as": "স্থূল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "thin",
+     "as": "পাতল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lean",
+     "as": "ক্ষীণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "slim",
+     "as": "সৰু"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'obese' is a synonym of 'fat'; both words have nearly the same meaning.",
-    "as": "'obese' (মোটাসোটা) হৈছে 'fat' (মোটাসোটা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fat' means having too much weight — a fat cat. 'Obese' means seriously overweight, the closest formal sense. 'Thin', 'lean' and 'slim' describe the opposite build.",
+    "as": "'Fat' মানে অতিৰিক্ত ওজন — fat cat। 'Obese' অতি স্থূলতা বুজায়। 'Thin', 'lean' আৰু 'slim' ওলোটা।"
    }
   },
   {
@@ -80704,26 +80704,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brave",
+     "as": "সাহসী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "confident",
+     "as": "আত্মবিশ্বাসী"
     },
     {
      "en": "afraid",
      "as": "ভীত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "bold",
+     "as": "দুঃসাহসী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'afraid' is a synonym of 'fearful'; both words have nearly the same meaning.",
-    "as": "'afraid' (ভীত) হৈছে 'fearful' (ভয়াতুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fearful' means feeling fear — a fearful child, a fearful look. 'Afraid' is the plain synonym. 'Brave', 'confident' and 'bold' describe the opposite temperament, where a person faces risk without flinching.",
+    "as": "'Fearful' মানে ভয় অনুভৱ কৰা — fearful child। 'Afraid' সৰল সমাৰ্থক। 'Brave', 'confident' আৰু 'bold' ওলোটা।"
    }
   },
   {
@@ -80734,16 +80734,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "sturdy",
+     "as": "দৃঢ়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "powerful",
+     "as": "প্ৰবল"
     },
     {
      "en": "weak",
@@ -80752,8 +80752,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'weak' is a synonym of 'feeble'; both words have nearly the same meaning.",
-    "as": "'weak' (দুৰ্বল) হৈছে 'feeble' (দুৰ্বল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Feeble' means very weak — a feeble voice, a feeble excuse. 'Weak' is the closest synonym. 'Strong', 'sturdy' and 'powerful' are the opposite, describing something that holds up under pressure.",
+    "as": "'Feeble' মানে অতি দুৰ্বল — feeble voice, feeble excuse। 'Weak' ওচৰৰ সমাৰ্থক। 'Strong', 'sturdy' আৰু 'powerful' ওলোটা।"
    }
   },
   {
@@ -80794,26 +80794,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "tame",
+     "as": "পোহনীয়া"
     },
     {
      "en": "savage",
-     "as": "বৰ্বৰ"
+     "as": "হিংস্ৰ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'savage' is a synonym of 'fierce'; both words have nearly the same meaning.",
-    "as": "'savage' (বৰ্বৰ) হৈছে 'fierce' (উগ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fierce' means violent and dangerous — a fierce dog, fierce competition. 'Savage' carries the same violence. 'Gentle' and 'mild' are the opposite, and 'tame' means domesticated rather than wild.",
+    "as": "'Fierce' মানে হিংস্ৰ আৰু বিপদজনক — fierce dog, fierce competition। 'Savage' একেই হিংস্ৰতা বুজায়। 'Gentle' আৰু 'mild' ওলোটা, 'tame' পোহনীয়া।"
    }
   },
   {
@@ -80828,22 +80828,22 @@ module.exports = {
      "as": "লেতেৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "clean",
+     "as": "পৰিষ্কাৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "spotless",
+     "as": "নিৰ্মল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "tidy",
+     "as": "পৰিপাটি"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'dirty' is a synonym of 'filthy'; both words have nearly the same meaning.",
-    "as": "'dirty' (লেতেৰা) হৈছে 'filthy' (অপৰিষ্কাৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Filthy' means extremely dirty — filthy clothes, a filthy room. 'Dirty' is the plain synonym, one step milder. 'Clean', 'spotless' and 'tidy' all describe the opposite state.",
+    "as": "'Filthy' মানে অতি লেতেৰা — filthy clothes, filthy room। 'Dirty' সৰল সমাৰ্থক। 'Clean', 'spotless' আৰু 'tidy' ওলোটা।"
    }
   },
   {
@@ -80854,26 +80854,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "poor",
+     "as": "দুৰ্বল"
     },
     {
      "en": "excellent",
-     "as": "উৎকৃষ্ট"
+     "as": "উত্তম"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "inferior",
+     "as": "নিকৃষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'excellent' is a synonym of 'fine'; both words have nearly the same meaning.",
-    "as": "'excellent' (উৎকৃষ্ট) হৈছে 'fine' (উত্তম) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fine' means of high quality — fine cloth, a fine performance. 'Excellent' is the closest synonym. 'Poor', 'inferior' and 'ordinary' describe lower quality, from bad workmanship to something merely unremarkable.",
+    "as": "'Fine' মানে উচ্চ মানৰ — fine cloth, fine performance। 'Excellent' ওচৰৰ সমাৰ্থক। 'Poor', 'inferior' আৰু 'ordinary' কম মান বুজায়।"
    }
   },
   {
@@ -80888,22 +80888,22 @@ module.exports = {
      "as": "স্থিৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "shaky",
+     "as": "কম্পমান"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "loose",
+     "as": "ঢিলা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "unstable",
+     "as": "অস্থিৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'steady' is a synonym of 'firm'; both words have nearly the same meaning.",
-    "as": "'steady' (স্থিৰ) হৈছে 'firm' (দৃঢ়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Firm' means solid and not likely to move or change — a firm mattress, a firm decision. 'Steady' is the closest synonym. 'Shaky', 'loose' and 'unstable' are the opposite.",
+    "as": "'Firm' মানে দৃঢ় আৰু লৰচৰ নোহোৱা — firm mattress, firm decision। 'Steady' ওচৰৰ সমাৰ্থক। 'Shaky', 'loose' আৰু 'unstable' ওলোটা।"
    }
   },
   {
@@ -80914,26 +80914,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "insult",
+     "as": "অপমান কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "criticise",
+     "as": "সমালোচনা কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "mock",
+     "as": "উপহাস কৰা"
     },
     {
      "en": "praise",
-     "as": "প্ৰশংসা"
+     "as": "প্ৰশংসা কৰা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'praise' is a synonym of 'flatter'; both words have nearly the same meaning.",
-    "as": "'praise' (প্ৰশংসা) হৈছে 'flatter' (চাটু কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Flatter' means to praise more than is deserved, often to please — he flattered the judge. 'Praise' is the closest sense here. 'Insult', 'criticise' and 'mock' are the opposite.",
+    "as": "'Flatter' মানে অতিশয়োক্তিৰে প্ৰশংসা কৰা — তেওঁ বিচাৰকক তোষামোদ কৰিলে। 'Praise' ওচৰৰ অৰ্থ। 'Insult', 'criticise' আৰু 'mock' ওলোটা।"
    }
   },
   {
@@ -80944,26 +80944,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rigid",
+     "as": "কঠোৰ"
     },
     {
      "en": "pliable",
      "as": "নমনীয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "stiff",
+     "as": "অনমনীয়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "firm",
+     "as": "দৃঢ়"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'pliable' is a synonym of 'flexible'; both words have nearly the same meaning.",
-    "as": "'pliable' (নমনীয়) হৈছে 'flexible' (নমনীয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Flexible' means able to bend without breaking — a flexible pipe — and able to change. 'Pliable' means easily bent, the closest physical sense. 'Rigid', 'stiff' and 'firm' are the opposite.",
+    "as": "'Flexible' মানে ভাঙি নোযোৱাকৈ বেঁকা হ'ব পৰা — flexible pipe। 'Pliable' সহজে বেঁকা হোৱা বুজায়। 'Rigid', 'stiff' আৰু 'firm' ওলোটা।"
    }
   },
   {
@@ -80974,26 +80974,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wither",
+     "as": "শুকাই যোৱা"
     },
     {
      "en": "thrive",
-     "as": "বাঢ়ি যোৱা"
+     "as": "উন্নতি লাভ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "decline",
+     "as": "অৱনতি"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fade",
+     "as": "ম্লান হোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'thrive' is a synonym of 'flourish'; both words have nearly the same meaning.",
-    "as": "'thrive' (বাঢ়ি যোৱা) হৈছে 'flourish' (সমৃদ্ধ হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Flourish' means to grow well and be healthy — the plants flourished after the rain. 'Thrive' means exactly that. 'Wither', 'decline' and 'fade' all describe losing strength.",
+    "as": "'Flourish' মানে ভালকৈ বাঢ়ি-বঢ়ি হোৱা — বৰষুণৰ পিছত গছবোৰ ভালকৈ বাঢ়িল। 'Thrive' একেই অৰ্থ দিয়ে। 'Wither', 'decline' আৰু 'fade' দুৰ্বল হোৱা বুজায়।"
    }
   },
   {
@@ -81064,26 +81064,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "wise",
+     "as": "জ্ঞানী"
     },
     {
      "en": "silly",
-     "as": "অলপীয়া বুদ্ধিৰ"
+     "as": "মূৰ্খ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sensible",
+     "as": "বোধসম্মত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "clever",
+     "as": "চতুৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'silly' is a synonym of 'foolish'; both words have nearly the same meaning.",
-    "as": "'silly' (অলপীয়া বুদ্ধিৰ) হৈছে 'foolish' (মূৰ্খ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Foolish' means showing poor judgement — a foolish mistake, a foolish remark. 'Silly' is the closest synonym. 'Wise', 'sensible' and 'clever' describe good judgement, the opposite of foolish behaviour.",
+    "as": "'Foolish' মানে বুদ্ধিহীন কাম — foolish mistake। 'Silly' ওচৰৰ সমাৰ্থক। 'Wise', 'sensible' আৰু 'clever' ওলোটা।"
    }
   },
   {
@@ -81124,26 +81124,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "remember",
+     "as": "মনত পেলোৱা"
     },
     {
      "en": "overlook",
-     "as": "অৱহেলা কৰা"
+     "as": "মন কৰিব নোৱাৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "recall",
+     "as": "সোঁৱৰণ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "note",
+     "as": "লক্ষ্য কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'overlook' is a synonym of 'forget'; both words have nearly the same meaning.",
-    "as": "'overlook' (অৱহেলা কৰা) হৈছে 'forget' (পাহৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Forget' means to fail to remember — to forget a name. 'Overlook' means to fail to notice something, the closest sense. 'Remember', 'recall' and 'note' are the opposite.",
+    "as": "'Forget' মানে মনত নৰখা — নাম পাহৰি যোৱা। 'Overlook' মন কৰিব নোৱাৰা বুজায়। 'Remember', 'recall' আৰু 'note' ওলোটা।"
    }
   },
   {
@@ -81154,16 +81154,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "blame",
+     "as": "দোষ দিয়া"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "punish",
+     "as": "শাস্তি দিয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "accuse",
+     "as": "অভিযুক্ত কৰা"
     },
     {
      "en": "pardon",
@@ -81172,8 +81172,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'pardon' is a synonym of 'forgive'; both words have nearly the same meaning.",
-    "as": "'pardon' (ক্ষমা কৰা) হৈছে 'forgive' (ক্ষমা কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Forgive' means to stop being angry with someone — to forgive a mistake. 'Pardon' is the closest synonym. 'Blame', 'punish' and 'accuse' all keep the fault alive.",
+    "as": "'Forgive' মানে খং এৰি দিয়া — ভুল ক্ষমা কৰা। 'Pardon' ওচৰৰ সমাৰ্থক। 'Blame', 'punish' আৰু 'accuse' দোষ ধৰি ৰখা বুজায়।"
    }
   },
   {
@@ -81218,22 +81218,22 @@ module.exports = {
      "as": "কোমল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sturdy",
+     "as": "দৃঢ়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "tough",
+     "as": "কঠিন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strong",
+     "as": "শক্তিশালী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'delicate' is a synonym of 'fragile'; both words have nearly the same meaning.",
-    "as": "'delicate' (কোমল) হৈছে 'fragile' (ভংগুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fragile' means easily broken — a fragile vase, fragile health. 'Delicate' means needing careful handling, the closest sense. 'Sturdy', 'tough' and 'strong' are the opposite, built to take rough use.",
+    "as": "'Fragile' মানে সহজে ভঙা — fragile vase। 'Delicate' যতনেৰে চলাবলগীয়া বুজায়। 'Sturdy', 'tough' আৰু 'strong' ওলোটা।"
    }
   },
   {
@@ -81338,22 +81338,22 @@ module.exports = {
      "as": "নতুন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "stale",
+     "as": "বাচি যোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "old",
+     "as": "পুৰণি"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "rotten",
+     "as": "পচা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'new' is a synonym of 'fresh'; both words have nearly the same meaning.",
-    "as": "'new' (নতুন) হৈছে 'fresh' (তাজা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Fresh' means recently made or picked and not spoiled — fresh fruit. 'New' is the closest synonym for recent. 'Stale', 'old' and 'rotten' describe food that has gone bad.",
+    "as": "'Fresh' মানে নতুন আৰু নষ্ট নোহোৱা — fresh fruit। 'New' ওচৰৰ সমাৰ্থক। 'Stale', 'old' আৰু 'rotten' নষ্ট হোৱা বুজায়।"
    }
   },
   {
@@ -81364,26 +81364,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
      "en": "recurrent",
-     "as": "সঘনাই হোৱা"
+     "as": "পুনৰাবৃত্ত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "occasional",
+     "as": "মাজে মাজে"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "seldom",
+     "as": "কেতিয়াবা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'recurrent' is a synonym of 'frequent'; both words have nearly the same meaning.",
-    "as": "'recurrent' (সঘনাই হোৱা) হৈছে 'frequent' (সঘন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Frequent' means happening often — frequent visits, frequent delays. 'Recurrent' means coming back again and again, the closest sense. 'Rare', 'occasional' and 'seldom' describe the opposite, something that hardly happens.",
+    "as": "'Frequent' মানে ঘনাই ঘটা — frequent visits। 'Recurrent' বাৰে বাৰে ঘূৰি অহা বুজায়। 'Rare', 'occasional' আৰু 'seldom' ওলোটা।"
    }
   },
   {
@@ -81394,26 +81394,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hostile",
+     "as": "শত্ৰুভাৱাপন্ন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cold",
+     "as": "উদাসীন"
     },
     {
      "en": "amiable",
-     "as": "মিলাপ্ৰিয়"
+     "as": "সৌজন্যশীল"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'amiable' is a synonym of 'friendly'; both words have nearly the same meaning.",
-    "as": "'amiable' (মিলাপ্ৰিয়) হৈছে 'friendly' (বন্ধুত্বপূৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Friendly' means kind and pleasant to others — a friendly neighbour. 'Amiable' means good-natured and easy to like, the closest sense. 'Hostile', 'rude' and 'cold' are the opposite.",
+    "as": "'Friendly' মানে মিলাপ্ৰিয় — friendly neighbour। 'Amiable' সৌজন্যশীল বুজায়। 'Hostile', 'rude' আৰু 'cold' ওলোটা।"
    }
   },
   {
@@ -81424,16 +81424,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "calm",
+     "as": "শান্ত কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "comfort",
+     "as": "সান্ত্বনা দিয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "reassure",
+     "as": "আশ্বাস দিয়া"
     },
     {
      "en": "scare",
@@ -81442,8 +81442,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'scare' is a synonym of 'frighten'; both words have nearly the same meaning.",
-    "as": "'scare' (ভয় খুৱোৱা) হৈছে 'frighten' (ভয় খুৱোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Frighten' means to make someone afraid — the noise frightened the child. 'Scare' is the plain synonym. 'Calm', 'comfort' and 'reassure' all remove fear instead of causing it.",
+    "as": "'Frighten' মানে ভয় খুৱাই দিয়া — শব্দই ল'ৰাটোক ভয় খুৱালে। 'Scare' সৰল সমাৰ্থক। 'Calm', 'comfort' আৰু 'reassure' ভয় লাঘৱ কৰে।"
    }
   },
   {
@@ -81455,25 +81455,25 @@ module.exports = {
    "options": [
     {
      "en": "filled",
-     "as": "পূৰ্ণ"
+     "as": "ভৰ্তি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "empty",
+     "as": "খালী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "vacant",
+     "as": "খালী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hollow",
+     "as": "ফোঁপোলা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'filled' is a synonym of 'full'; both words have nearly the same meaning.",
-    "as": "'filled' (পূৰ্ণ) হৈছে 'full' (পূৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Full' means holding as much as possible — a full tank. 'Filled' means made full, the closest sense. 'Empty', 'vacant' and 'hollow' mean having nothing inside.",
+    "as": "'Full' মানে পৰিপূৰ্ণ — full tank। 'Filled' ভৰাই দিয়া বুজায়। 'Empty', 'vacant' আৰু 'hollow' খালী বুজায়।"
    }
   },
   {
@@ -81484,26 +81484,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "serious",
+     "as": "গম্ভীৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sad",
+     "as": "দুখী"
     },
     {
      "en": "amusing",
-     "as": "হাস্যকৰ"
+     "as": "আমোদজনক"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'amusing' is a synonym of 'funny'; both words have nearly the same meaning.",
-    "as": "'amusing' (হাস্যকৰ) হৈছে 'funny' (হাস্যকৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Funny' means causing laughter — a funny story. 'Amusing' is the closest synonym. 'Serious' is the opposite, and 'dull' and 'sad' describe something that does not amuse.",
+    "as": "'Funny' মানে হাঁহি তোলা — funny story। 'Amusing' ওচৰৰ সমাৰ্থক। 'Serious' ওলোটা, 'dull' আৰু 'sad' আমোদ নিদিয়া বুজায়।"
    }
   },
   {
@@ -81514,26 +81514,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "lose",
+     "as": "হেৰুওৱা"
     },
     {
      "en": "acquire",
      "as": "অৰ্জন কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "forfeit",
+     "as": "হেৰাই পেলোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "spend",
+     "as": "খৰচ কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'acquire' is a synonym of 'gain'; both words have nearly the same meaning.",
-    "as": "'acquire' (অৰ্জন কৰা) হৈছে 'gain' (লাভ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Gain' means to obtain something useful — to gain experience. 'Acquire' means to come to have something, the closest sense. 'Lose', 'forfeit' and 'spend' are the opposite.",
+    "as": "'Gain' মানে উপকাৰী বস্তু পোৱা — অভিজ্ঞতা লাভ কৰা। 'Acquire' অৰ্জন কৰা বুজায়। 'Lose', 'forfeit' আৰু 'spend' ওলোটা।"
    }
   },
   {
@@ -81545,25 +81545,25 @@ module.exports = {
    "options": [
     {
      "en": "haggard",
-     "as": "ক্ষীণ"
+     "as": "ক্ষীণ-ক্লান্ত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plump",
+     "as": "পুষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "healthy",
+     "as": "সুস্থ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'haggard' is a synonym of 'gaunt'; both words have nearly the same meaning.",
-    "as": "'haggard' (ক্ষীণ) হৈছে 'gaunt' (শীৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Gaunt' means very thin, usually from hunger or illness — a gaunt face. 'Haggard' means worn and thin from strain, the closest sense. 'Plump', 'healthy' and 'cheerful' describe the opposite.",
+    "as": "'Gaunt' মানে অতি ক্ষীণ, সাধাৰণতে অনাহাৰ বা ৰোগত — gaunt face। 'Haggard' ক্লান্তিত ক্ষীণ হোৱা বুজায়। 'Plump', 'healthy' আৰু 'cheerful' ওলোটা।"
    }
   },
   {
@@ -81574,26 +81574,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "stingy",
+     "as": "কৃপণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "mean",
+     "as": "কৃপণ"
     },
     {
      "en": "liberal",
-     "as": "উদাৰ"
+     "as": "মুক্তহস্ত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "selfish",
+     "as": "স্বাৰ্থপৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'liberal' is a synonym of 'generous'; both words have nearly the same meaning.",
-    "as": "'liberal' (উদাৰ) হৈছে 'generous' (উদাৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Generous' means willing to give freely — a generous donation. 'Liberal' means giving in large amounts, the closest sense. 'Stingy', 'mean' and 'selfish' are the opposite.",
+    "as": "'Generous' মানে মুক্তহস্তে দান কৰা — generous donation। 'Liberal' প্ৰচুৰ পৰিমাণে দিয়া বুজায়। 'Stingy', 'mean' আৰু 'selfish' ওলোটা।"
    }
   },
   {
@@ -81604,16 +81604,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fake",
+     "as": "নকল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "false",
+     "as": "মিছা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "imitation",
+     "as": "নকল"
     },
     {
      "en": "authentic",
@@ -81622,8 +81622,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'authentic' is a synonym of 'genuine'; both words have nearly the same meaning.",
-    "as": "'authentic' (প্ৰকৃত) হৈছে 'genuine' (আচল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Genuine' means real and not copied — a genuine diamond. 'Authentic' means verified as real, the closest sense. 'Fake', 'false' and 'imitation' are the opposite.",
+    "as": "'Genuine' মানে প্ৰকৃত, নকল নহয় — genuine diamond। 'Authentic' প্ৰমাণিত প্ৰকৃত বুজায়। 'Fake', 'false' আৰু 'imitation' ওলোটা।"
    }
   },
   {
@@ -81638,22 +81638,22 @@ module.exports = {
      "as": "অংকুৰিত হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wither",
+     "as": "শুকাই যোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dry",
+     "as": "শুকান হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "decay",
+     "as": "পচি যোৱা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'sprout' is a synonym of 'germinate'; both words have nearly the same meaning.",
-    "as": "'sprout' (অংকুৰিত হোৱা) হৈছে 'germinate' (অংকুৰিত হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Germinate' means to begin to grow from a seed — the seeds germinated in a week. 'Sprout' means to put out new shoots, the closest sense. 'Wither', 'dry' and 'decay' describe dying back.",
+    "as": "'Germinate' মানে গুটিয়ে অংকুৰিত হোৱা — এটা সপ্তাহত গুটি অংকুৰিত হ'ল। 'Sprout' নতুন কলি মেলা বুজায়। 'Wither', 'dry' আৰু 'decay' মৰি যোৱা বুজায়।"
    }
   },
   {
@@ -81664,26 +81664,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "dwarf",
-     "as": "বামন"
+     "en": "tiny",
+     "as": "অতি সৰু"
     },
     {
      "en": "huge",
      "as": "বিশাল"
     },
     {
-     "en": "finite",
-     "as": "সীমিত"
+     "en": "small",
+     "as": "সৰু"
     },
     {
-     "en": "giant",
-     "as": "দানৱ"
+     "en": "minute",
+     "as": "ক্ষুদ্ৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'huge' is a synonym of 'gigantic'; both words have nearly the same meaning.",
-    "as": "'huge' (বিশাল) হৈছে 'gigantic' (বিশাল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Gigantic' means of immense size — a gigantic wave. 'Huge' is the closest synonym. 'Tiny', 'small' and 'minute' all describe things far smaller in every direction.",
+    "as": "'Gigantic' মানে বিশাল আকাৰ — gigantic wave। 'Huge' ওচৰৰ সমাৰ্থক। 'Tiny', 'small' আৰু 'minute' বহু সৰু বুজায়।"
    }
   },
   {
@@ -81694,26 +81694,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sad",
+     "as": "দুখী"
     },
     {
      "en": "happy",
-     "as": "সুখী"
+     "as": "আনন্দিত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "upset",
+     "as": "বিচলিত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'happy' is a synonym of 'glad'; both words have nearly the same meaning.",
-    "as": "'happy' (সুখী) হৈছে 'glad' (আনন্দিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Glad' means pleased about something — glad to hear the news, glad to help. 'Happy' is the closest synonym. 'Sad', 'gloomy' and 'upset' are the opposite feelings.",
+    "as": "'Glad' মানে সন্তুষ্ট — বাতৰিটো শুনি আনন্দিত। 'Happy' ওচৰৰ সমাৰ্থক। 'Sad', 'gloomy' আৰু 'upset' ওলোটা।"
    }
   },
   {
@@ -81724,26 +81724,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "bright",
+     "as": "উজ্জ্বল"
     },
     {
      "en": "dark",
-     "as": "অন্ধকাৰ"
+     "as": "আন্ধাৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sunny",
+     "as": "ৰৌদ্ৰোজ্জ্বল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dark' is a synonym of 'gloomy'; both words have nearly the same meaning.",
-    "as": "'dark' (অন্ধকাৰ) হৈছে 'gloomy' (বিষণ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Gloomy' means dark and depressing — a gloomy room, a gloomy mood. 'Dark' matches the light sense. 'Bright', 'cheerful' and 'sunny' are the opposite, in both light and mood.",
+    "as": "'Gloomy' মানে আন্ধাৰ আৰু নিৰানন্দ — gloomy room, gloomy mood। 'Dark' পোহৰৰ অৰ্থত মিলে। 'Bright', 'cheerful' আৰু 'sunny' ওলোটা।"
    }
   },
   {
@@ -81814,26 +81814,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "clumsy",
+     "as": "অদক্ষ"
     },
     {
      "en": "elegant",
-     "as": "সুন্দৰ"
+     "as": "সুললিত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "awkward",
+     "as": "অস্বস্তিকৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "crude",
+     "as": "অপৰিশীলিত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'elegant' is a synonym of 'graceful'; both words have nearly the same meaning.",
-    "as": "'elegant' (সুন্দৰ) হৈছে 'graceful' (সুন্দৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Graceful' means moving in a smooth, attractive way — a graceful dancer. 'Elegant' means stylish and refined, the closest sense. 'Clumsy', 'awkward' and 'crude' are the opposite.",
+    "as": "'Graceful' মানে সুললিত আৰু আকৰ্ষণীয় — graceful dancer। 'Elegant' সুন্দৰ আৰু পৰিশীলিত বুজায়। 'Clumsy', 'awkward' আৰু 'crude' ওলোটা।"
    }
   },
   {
@@ -81844,26 +81844,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "refuse",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
      "en": "give",
      "as": "দিয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "deny",
+     "as": "নাকচ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "withhold",
+     "as": "নিদিয়া"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'give' is a synonym of 'grant'; both words have nearly the same meaning.",
-    "as": "'give' (দিয়া) হৈছে 'grant' (প্ৰদান কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Grant' means to give what has been asked for — to grant permission. 'Give' is the plain synonym. 'Refuse', 'deny' and 'withhold' all mean not giving it.",
+    "as": "'Grant' মানে বিচৰা বস্তু দিয়া — অনুমতি প্ৰদান কৰা। 'Give' সৰল সমাৰ্থক। 'Refuse', 'deny' আৰু 'withhold' নিদিয়া বুজায়।"
    }
   },
   {
@@ -81904,26 +81904,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "generous",
+     "as": "দানশীল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "content",
+     "as": "সন্তুষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "thrifty",
+     "as": "মিতব্যয়ী"
     },
     {
      "en": "avaricious",
-     "as": "লোভী"
+     "as": "ধনলোভী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'avaricious' is a synonym of 'greedy'; both words have nearly the same meaning.",
-    "as": "'avaricious' (লোভী) হৈছে 'greedy' (লোভী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Greedy' means wanting far more than you need — greedy for money. 'Avaricious' means extremely greedy for wealth, the closest sense. 'Generous', 'content' and 'thrifty' describe the opposite.",
+    "as": "'Greedy' মানে প্ৰয়োজনতকৈ বহুত বেছি বিচৰা — ধনৰ লোভ। 'Avaricious' ধনলোভী বুজায়। 'Generous', 'content' আৰু 'thrifty' ওলোটা।"
    }
   },
   {
@@ -81964,26 +81964,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "shrink",
+     "as": "সৰু হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "decline",
+     "as": "কমি যোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "reduce",
+     "as": "কমোৱা"
     },
     {
      "en": "increase",
-     "as": "বৃদ্ধি কৰা"
+     "as": "বাঢ়ি যোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'increase' is a synonym of 'grow'; both words have nearly the same meaning.",
-    "as": "'increase' (বৃদ্ধি কৰা) হৈছে 'grow' (বাঢ়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Grow' means to become larger — the tree grew quickly. 'Increase' means to become greater in size or number, the closest sense. 'Shrink', 'decline' and 'reduce' are the opposite.",
+    "as": "'Grow' মানে ডাঙৰ হোৱা — গছ দ্ৰুত বাঢ়িল। 'Increase' বাঢ়ি যোৱা বুজায়। 'Shrink', 'decline' আৰু 'reduce' ওলোটা।"
    }
   },
   {
@@ -81995,25 +81995,25 @@ module.exports = {
    "options": [
     {
      "en": "culpable",
-     "as": "দোষী"
+     "as": "দোষাৰ্হ"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
-    },
-    {
-     "en": "corrupt",
-     "as": "দুৰ্নীতিগ্ৰস্ত"
+     "en": "innocent",
+     "as": "নিৰ্দোষী"
     },
     {
      "en": "blameless",
-     "as": "নিৰ্দোষী"
+     "as": "নিৰ্দোষ"
+    },
+    {
+     "en": "faultless",
+     "as": "ত্ৰুটিহীন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'culpable' is a synonym of 'guilty'; both words have nearly the same meaning.",
-    "as": "'culpable' (দোষী) হৈছে 'guilty' (দোষী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Guilty' means having done something wrong — guilty of theft. 'Culpable' means deserving blame, the closest sense. 'Innocent', 'blameless' and 'faultless' are the opposite in the eyes of the court.",
+    "as": "'Guilty' মানে দোষী — চুৰিৰ দোষী। 'Culpable' দোষাৰ্হ বুজায়। 'Innocent', 'blameless' আৰু 'faultless' ওলোটা।"
    }
   },
   {
@@ -82024,26 +82024,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "occasional",
+     "as": "মাজে মাজে"
     },
     {
      "en": "customary",
-     "as": "প্ৰথাগত"
+     "as": "ৰীতি অনুসৰি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "unusual",
+     "as": "অসাধাৰণ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'customary' is a synonym of 'habitual'; both words have nearly the same meaning.",
-    "as": "'customary' (প্ৰথাগত) হৈছে 'habitual' (অভ্যাসগত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Habitual' means done regularly as a habit — a habitual latecomer. 'Customary' means usual by custom, the closest sense. 'Occasional', 'rare' and 'unusual' are the opposite.",
+    "as": "'Habitual' মানে অভ্যাসত নিয়মীয়াকৈ কৰা — habitual latecomer। 'Customary' ৰীতি অনুসৰি সাধাৰণ বুজায়। 'Occasional', 'rare' আৰু 'unusual' ওলোটা।"
    }
   },
   {
@@ -82054,26 +82054,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "fresh",
+     "as": "সতেজ"
     },
     {
      "en": "gaunt",
-     "as": "শীৰ্ণ"
+     "as": "ক্ষীণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "plump",
+     "as": "পুষ্ট"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "rested",
+     "as": "জিৰণি লোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'gaunt' is a synonym of 'haggard'; both words have nearly the same meaning.",
-    "as": "'gaunt' (শীৰ্ণ) হৈছে 'haggard' (ক্ষীণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Haggard' means looking exhausted and unwell — a haggard face after the vigil. 'Gaunt' means thin and bony, the closest sense. 'Fresh', 'plump' and 'rested' describe a healthy look.",
+    "as": "'Haggard' মানে ভাগৰত শুকাই-খীণাই যোৱা — haggard face। 'Gaunt' ক্ষীণ আৰু হাড়েমাটি বুজায়। 'Fresh', 'plump' আৰু 'rested' সতেজ বুজায়।"
    }
   },
   {
@@ -82114,26 +82114,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ugly",
+     "as": "কুৎসিত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "plain",
+     "as": "সাধাৰণ"
     },
     {
      "en": "attractive",
      "as": "আকৰ্ষণীয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'attractive' is a synonym of 'handsome'; both words have nearly the same meaning.",
-    "as": "'attractive' (আকৰ্ষণীয়) হৈছে 'handsome' (সুন্দৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Handsome' means good-looking, used of men or of a fine sum — a handsome young man. 'Attractive' is the closest synonym. 'Ugly', 'plain' and 'dull' describe the opposite appearance.",
+    "as": "'Handsome' মানে সুদৰ্শন — handsome young man। 'Attractive' ওচৰৰ সমাৰ্থক। 'Ugly', 'plain' আৰু 'dull' ওলোটা।"
    }
   },
   {
@@ -82174,26 +82174,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "easy",
+     "as": "সহজ"
     },
     {
      "en": "difficult",
      "as": "কঠিন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "soft",
+     "as": "কোমল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "gentle",
+     "as": "মৃদু"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'difficult' is a synonym of 'hard'; both words have nearly the same meaning.",
-    "as": "'difficult' (কঠিন) হৈছে 'hard' (কঠিন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Hard' means needing great effort — a hard question — and also not soft to touch. 'Difficult' matches the effort sense. 'Easy' and 'simple' are the opposite, and 'gentle' describes a light touch, not effort.",
+    "as": "'Hard' মানে বহুত পৰিশ্ৰমৰ প্ৰয়োজন — hard question; কঠিন বস্তুও বুজায়। 'Difficult' পৰিশ্ৰমৰ অৰ্থত মিলে। 'Easy' আৰু 'simple' ওলোটা, 'gentle' কোমল স্পৰ্শ।"
    }
   },
   {
@@ -82265,25 +82265,25 @@ module.exports = {
    "options": [
     {
      "en": "rough",
-     "as": "খহটা"
+     "as": "কৰ্কশ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "pleasant",
+     "as": "সুখদ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'rough' is a synonym of 'harsh'; both words have nearly the same meaning.",
-    "as": "'rough' (খহটা) হৈছে 'harsh' (কঠোৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Harsh' means unpleasantly severe — a harsh winter, a harsh punishment. 'Rough' matches the severe sense. 'Mild', 'gentle' and 'pleasant' describe the opposite kind of weather, voice or treatment.",
+    "as": "'Harsh' মানে কঠোৰ আৰু অপ্ৰিয় — harsh winter, harsh punishment। 'Rough' কঠোৰতাৰ অৰ্থত মিলে। 'Mild', 'gentle' আৰু 'pleasant' ওলোটা প্ৰকাৰৰ বতৰ, মাত বা ব্যৱহাৰ বুজায়।"
    }
   },
   {
@@ -82384,26 +82384,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "sick",
+     "as": "অসুস্থ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
      "en": "fit",
      "as": "সুস্থ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "tired",
+     "as": "ভাগৰুৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'fit' is a synonym of 'healthy'; both words have nearly the same meaning.",
-    "as": "'fit' (সুস্থ) হৈছে 'healthy' (সুস্থ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Healthy' means free from illness — a healthy child. 'Fit' means in good physical condition, the closest sense. 'Sick' and 'weak' are the opposite, and 'tired' describes energy at that moment.",
+    "as": "'Healthy' মানে ৰোগমুক্ত — healthy child। 'Fit' সুস্থ শাৰীৰিক অৱস্থা বুজায়। 'Sick' আৰু 'weak' ওলোটা, 'tired' তৎকালীন ভাগৰ বুজায়।"
    }
   },
   {
@@ -82418,22 +82418,22 @@ module.exports = {
      "as": "ভাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "light",
+     "as": "পাতল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "thin",
+     "as": "পাতল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "small",
+     "as": "সৰু"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'weighty' is a synonym of 'heavy'; both words have nearly the same meaning.",
-    "as": "'weighty' (ভাৰী) হৈছে 'heavy' (ভাৰী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Heavy' means weighing a lot — a heavy bag. 'Weighty' means having great weight, the closest sense. 'Light' is the opposite, 'thin' describes thickness, and 'small' describes size.",
+    "as": "'Heavy' মানে বেছি ওজনৰ — heavy bag। 'Weighty' অধিক ওজন বুজায়। 'Light' ওলোটা, 'thin' ডাঠৰ কথা, 'small' আকাৰৰ কথা।"
    }
   },
   {
@@ -82474,26 +82474,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cowardly",
+     "as": "কাপুৰুষ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "selfish",
+     "as": "স্বাৰ্থপৰ"
     },
     {
      "en": "brave",
-     "as": "সাহসী"
+     "as": "বীৰত্বপূৰ্ণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'brave' is a synonym of 'heroic'; both words have nearly the same meaning.",
-    "as": "'brave' (সাহসী) হৈছে 'heroic' (বীৰত্বপূৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Heroic' means showing great courage — a heroic rescue. 'Brave' is the closest synonym. 'Cowardly' is the opposite, 'selfish' is about putting yourself first, and 'ordinary' means nothing special.",
+    "as": "'Heroic' মানে অসাধাৰণ সাহস দেখুওৱা — heroic rescue। 'Brave' ওচৰৰ সমাৰ্থক। 'Cowardly' ওলোটা, 'selfish' স্বাৰ্থপৰ, 'ordinary' সাধাৰণ।"
    }
   },
   {
@@ -82508,22 +82508,22 @@ module.exports = {
      "as": "লুকুওৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "reveal",
+     "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "show",
+     "as": "দেখুওৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "explain",
+     "as": "বুজোৱা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'conceal' is a synonym of 'hide'; both words have nearly the same meaning.",
-    "as": "'conceal' (লুকুওৱা) হৈছে 'hide' (লুকুৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Hide' means to put something out of sight — to hide the keys. 'Conceal' is the closest synonym. 'Reveal' and 'show' are the opposite, and 'explain' means to make something clear.",
+    "as": "'Hide' মানে লুকুওৱা — চাবি লুকুওৱা। 'Conceal' ওচৰৰ সমাৰ্থক। 'Reveal' আৰু 'show' ওলোটা, 'explain' বুজাই দিয়া।"
    }
   },
   {
@@ -82538,22 +82538,22 @@ module.exports = {
      "as": "ওখ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "low",
+     "as": "নিচ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "short",
+     "as": "চুটি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "deep",
+     "as": "গভীৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'tall' is a synonym of 'high'; both words have nearly the same meaning.",
-    "as": "'tall' (ওখ) হৈছে 'high' (ওখ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'High' means reaching far up — a high wall. 'Tall' describes the height of a person or building, the closest sense. 'Low' is the opposite, 'short' is the opposite of tall, and 'deep' describes distance down.",
+    "as": "'High' মানে বহু ওপৰলৈকে — high wall। 'Tall' ওখ বুজায়। 'Low' ওলোটা, 'short' চুটি, 'deep' গভীৰ।"
    }
   },
   {
@@ -82654,26 +82654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "friendly",
+     "as": "মিলাপ্ৰিয়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "kind",
+     "as": "দয়ালু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "helpful",
+     "as": "সহায়ক"
     },
     {
      "en": "unfriendly",
-     "as": "অবন্ধুভাৱাপন্ন"
+     "as": "বিৰূপ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'unfriendly' is a synonym of 'hostile'; both words have nearly the same meaning.",
-    "as": "'unfriendly' (অবন্ধুভাৱাপন্ন) হৈছে 'hostile' (শত্ৰুভাৱাপন্ন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Hostile' means showing strong dislike — a hostile crowd, a hostile question. 'Unfriendly' is the closest synonym. 'Friendly', 'kind' and 'helpful' describe the opposite manner towards a stranger.",
+    "as": "'Hostile' মানে প্ৰবল বিৰূপতা — hostile crowd, hostile question। 'Unfriendly' ওচৰৰ সমাৰ্থক। 'Friendly', 'kind' আৰু 'helpful' ওলোটা ব্যৱহাৰ বুজায়।"
    }
   },
   {
@@ -82684,16 +82684,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "finite",
-     "as": "সীমিত"
+     "en": "tiny",
+     "as": "অতি সৰু"
     },
     {
-     "en": "giant",
-     "as": "দানৱ"
+     "en": "slight",
+     "as": "সামান্য"
     },
     {
-     "en": "dwarf",
-     "as": "বামন"
+     "en": "modest",
+     "as": "সাধাৰণ"
     },
     {
      "en": "enormous",
@@ -82702,8 +82702,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'enormous' is a synonym of 'huge'; both words have nearly the same meaning.",
-    "as": "'enormous' (বিশাল) হৈছে 'huge' (বিশাল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Huge' means very large — a huge crowd. 'Enormous' is the closest synonym. 'Tiny' is the opposite, 'slight' means small in degree, and 'modest' means not large or showy.",
+    "as": "'Huge' মানে অতি ডাঙৰ — huge crowd। 'Enormous' ওচৰৰ সমাৰ্থক। 'Tiny' ওলোটা, 'slight' সামান্য, 'modest' সাধাৰণ।"
    }
   },
   {
@@ -82714,26 +82714,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "proud",
+     "as": "অহংকাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "arrogant",
+     "as": "দৰ্পী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wealthy",
+     "as": "ধনী"
     },
     {
      "en": "modest",
-     "as": "বিনম্ৰ"
+     "as": "নম্ৰ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'modest' is a synonym of 'humble'; both words have nearly the same meaning.",
-    "as": "'modest' (বিনম্ৰ) হৈছে 'humble' (বিনম্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Humble' means not thinking too highly of yourself — a humble answer. 'Modest' is the closest synonym. 'Proud' and 'arrogant' are the opposite, and 'wealthy' is about money, not manner.",
+    "as": "'Humble' মানে নিজকে ডাঙৰ নাভাবা — humble answer। 'Modest' ওচৰৰ সমাৰ্থক। 'Proud' আৰু 'arrogant' ওলোটা, 'wealthy' ধনৰ কথা।"
    }
   },
   {
@@ -82744,26 +82744,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "praise",
+     "as": "প্ৰশংসা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "respect",
+     "as": "সন্মান"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "comfort",
+     "as": "সান্ত্বনা"
     },
     {
      "en": "embarrass",
-     "as": "অপমানিত কৰা"
+     "as": "লাজত পেলোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'embarrass' is a synonym of 'humiliate'; both words have nearly the same meaning.",
-    "as": "'embarrass' (অপমানিত কৰা) হৈছে 'humiliate' (অপমান কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Humiliate' means to make someone feel foolish in front of others — to humiliate a rival. 'Embarrass' is the closest synonym. 'Praise', 'respect' and 'comfort' all raise a person instead.",
+    "as": "'Humiliate' মানে আনৰ সন্মুখত লাজত পেলোৱা — প্ৰতিদ্বন্দ্বীক লাজত পেলোৱা। 'Embarrass' ওচৰৰ সমাৰ্থক। 'Praise', 'respect' আৰু 'comfort' সন্মান বঢ়ায়।"
    }
   },
   {
@@ -82774,26 +82774,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "busy",
+     "as": "ব্যস্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "active",
+     "as": "সক্ৰিয়"
     },
     {
      "en": "lazy",
-     "as": "অলস"
+     "as": "এলেহুৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "diligent",
+     "as": "পৰিশ্ৰমী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'lazy' is a synonym of 'idle'; both words have nearly the same meaning.",
-    "as": "'lazy' (অলস) হৈছে 'idle' (অলস) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Idle' means not working or not in use — an idle machine, an idle worker. 'Lazy' is the closest synonym. 'Busy', 'active' and 'diligent' describe the opposite.",
+    "as": "'Idle' মানে কাম নকৰা বা ব্যৱহাৰ নোহোৱা — idle machine, idle worker। 'Lazy' ওচৰৰ সমাৰ্থক। 'Busy', 'active' আৰু 'diligent' ওলোটা।"
    }
   },
   {
@@ -82865,25 +82865,25 @@ module.exports = {
    "options": [
     {
      "en": "instant",
-     "as": "তৎক্ষণাত"
+     "as": "ততালিক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "delayed",
+     "as": "পলম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "gradual",
+     "as": "ক্ৰমশঃ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'instant' is a synonym of 'immediate'; both words have nearly the same meaning.",
-    "as": "'instant' (তৎক্ষণাত) হৈছে 'immediate' (তৎক্ষণাত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Immediate' means happening at once — an immediate reply. 'Instant' is the closest synonym. 'Delayed', 'gradual' and 'slow' all describe something that takes time or effort to happen.",
+    "as": "'Immediate' মানে ততালিকে হোৱা — immediate reply। 'Instant' ওচৰৰ সমাৰ্থক। 'Delayed', 'gradual' আৰু 'slow' সময় লোৱা বুজায়।"
    }
   },
   {
@@ -82924,16 +82924,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "calm",
+     "as": "শান্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "patient",
+     "as": "ধৈৰ্যশীল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "relaxed",
+     "as": "শিথিল"
     },
     {
      "en": "restless",
@@ -82942,8 +82942,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'restless' is a synonym of 'impatient'; both words have nearly the same meaning.",
-    "as": "'restless' (অস্থিৰ) হৈছে 'impatient' (অধৈৰ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Impatient' means unable to wait calmly — an impatient driver. 'Restless' means unable to stay still, the closest sense. 'Calm', 'patient' and 'relaxed' are the opposite.",
+    "as": "'Impatient' মানে ধৈৰ্য ধৰিব নোৱাৰা — impatient driver। 'Restless' অস্থিৰ বুজায়। 'Calm', 'patient' আৰু 'relaxed' ওলোটা।"
    }
   },
   {
@@ -82954,26 +82954,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "state",
+     "as": "স্পষ্টকৈ কোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "deny",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
      "en": "suggest",
-     "as": "সূচিত কৰা"
+     "as": "ইংগিত দিয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "demand",
+     "as": "দাবী কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'suggest' is a synonym of 'imply'; both words have nearly the same meaning.",
-    "as": "'suggest' (সূচিত কৰা) হৈছে 'imply' (সূচিত কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Imply' means to hint at something without saying it — his tone implied doubt. 'Suggest' is the closest synonym. 'State' means to say it outright, 'deny' means to refuse it, and 'demand' is to insist.",
+    "as": "'Imply' মানে পোনপটীয়াকৈ নকৈ ইংগিত দিয়া — তেওঁৰ সুৰে সন্দেহ ইংগিত দিলে। 'Suggest' ওচৰৰ সমাৰ্থক। 'State' স্পষ্টকৈ কোৱা, 'deny' অস্বীকাৰ, 'demand' দাবী।"
    }
   },
   {
@@ -83018,22 +83018,22 @@ module.exports = {
      "as": "গুৰুত্বপূৰ্ণ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "trivial",
+     "as": "তুচ্ছ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "minor",
+     "as": "সামান্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'significant' is a synonym of 'important'; both words have nearly the same meaning.",
-    "as": "'significant' (গুৰুত্বপূৰ্ণ) হৈছে 'important' (গুৰুত্বপূৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Important' means having great value or effect — an important decision. 'Significant' is the closest synonym. 'Trivial', 'minor' and 'ordinary' all describe something of little weight.",
+    "as": "'Important' মানে বহু মূল্য বা প্ৰভাৱ থকা — important decision। 'Significant' ওচৰৰ সমাৰ্থক। 'Trivial', 'minor' আৰু 'ordinary' কম গুৰুত্ব বুজায়।"
    }
   },
   {
@@ -83045,25 +83045,25 @@ module.exports = {
    "options": [
     {
      "en": "jail",
-     "as": "কাৰাগাৰ"
+     "as": "কাৰাবন্দী কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "release",
+     "as": "মুক্তি দিয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "free",
+     "as": "মুকলি কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "acquit",
+     "as": "নিৰ্দোষ ঘোষণা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'jail' is a synonym of 'imprison'; both words have nearly the same meaning.",
-    "as": "'jail' (কাৰাগাৰ) হৈছে 'imprison' (বন্দী কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Imprison' means to put someone in prison — imprisoned for theft. 'Jail' as a verb means the same. 'Release' and 'free' are the opposite, and 'acquit' means to declare not guilty.",
+    "as": "'Imprison' মানে কাৰাগাৰত ভৰোৱা — চুৰিৰ বাবে কাৰাবন্দী। 'Jail' ক্ৰিয়া হিচাপে একেই অৰ্থ। 'Release' আৰু 'free' ওলোটা, 'acquit' নিৰ্দোষ ঘোষণা।"
    }
   },
   {
@@ -83078,22 +83078,22 @@ module.exports = {
      "as": "উন্নত কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "worsen",
+     "as": "বেয়া কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "spoil",
+     "as": "নষ্ট কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "damage",
+     "as": "ক্ষতি কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'better' is a synonym of 'improve'; both words have nearly the same meaning.",
-    "as": "'better' (উন্নত কৰা) হৈছে 'improve' (উন্নতি কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Improve' means to make or become better — the results improved. 'Better' as a verb means the same. 'Worsen', 'spoil' and 'damage' are the opposite of improving.",
+    "as": "'Improve' মানে উন্নত কৰা — ফলাফল উন্নত হ'ল। 'Better' ক্ৰিয়া হিচাপে একেই অৰ্থ। 'Worsen', 'spoil' আৰু 'damage' ওলোটা।"
    }
   },
   {
@@ -83104,26 +83104,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "wise",
+     "as": "জ্ঞানী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "careful",
+     "as": "সাৱধান"
     },
     {
      "en": "rash",
-     "as": "অবিবেচক"
+     "as": "হঠধৰমীয়া"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sensible",
+     "as": "বোধসম্মত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'rash' is a synonym of 'imprudent'; both words have nearly the same meaning.",
-    "as": "'rash' (অবিবেচক) হৈছে 'imprudent' (অবিবেচক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Imprudent' means acting without thinking about the results — an imprudent loan. 'Rash' means acting too quickly, the closest sense. 'Wise', 'careful' and 'sensible' are the opposite.",
+    "as": "'Imprudent' মানে ফলাফল নাভাবি কাম কৰা — imprudent loan। 'Rash' হঠধৰমীয়া বুজায়। 'Wise', 'careful' আৰু 'sensible' ওলোটা।"
    }
   },
   {
@@ -83134,26 +83134,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "pure",
+     "as": "শুদ্ধ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "clean",
+     "as": "পৰিষ্কাৰ"
     },
     {
      "en": "adulterated",
-     "as": "ভেজাল মিহলোৱা"
+     "as": "মিহলোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fresh",
+     "as": "সতেজ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'adulterated' is a synonym of 'impure'; both words have nearly the same meaning.",
-    "as": "'adulterated' (ভেজাল মিহলোৱা) হৈছে 'impure' (অশুদ্ধ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Impure' means not clean or not of one substance — impure water, impure gold. 'Adulterated' means made impure by adding something, the closest sense. 'Pure', 'clean' and 'fresh' are the opposite.",
+    "as": "'Impure' মানে অশুদ্ধ — impure water, impure gold। 'Adulterated' মিহলাই অশুদ্ধ কৰা বুজায়। 'Pure', 'clean' আৰু 'fresh' ওলোটা।"
    }
   },
   {
@@ -83195,25 +83195,25 @@ module.exports = {
    "options": [
     {
      "en": "comprise",
-     "as": "অন্তৰ্ভুক্ত কৰা"
+     "as": "গঠিত হোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "exclude",
+     "as": "বাদ দিয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "omit",
+     "as": "বাদ দিয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "remove",
+     "as": "আঁতৰোৱা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'comprise' is a synonym of 'include'; both words have nearly the same meaning.",
-    "as": "'comprise' (অন্তৰ্ভুক্ত কৰা) হৈছে 'include' (অন্তৰ্ভুক্ত কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Include' means to have something as part of a whole — the price includes tax. 'Comprise' means to consist of, the closest sense. 'Exclude', 'omit' and 'remove' are the opposite.",
+    "as": "'Include' মানে অন্তৰ্ভুক্ত হোৱা — মূল্যত কৰ সোমাই আছে। 'Comprise' গঠিত হোৱা বুজায়। 'Exclude', 'omit' আৰু 'remove' ওলোটা।"
    }
   },
   {
@@ -83224,26 +83224,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "decrease",
+     "as": "কমোৱা"
     },
     {
      "en": "augment",
-     "as": "বৃদ্ধি কৰা"
+     "as": "বঢ়োৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "reduce",
+     "as": "হ্ৰাস কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "shrink",
+     "as": "সৰু হোৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'augment' is a synonym of 'increase'; both words have nearly the same meaning.",
-    "as": "'augment' (বৃদ্ধি কৰা) হৈছে 'increase' (বৃদ্ধি কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Increase' means to become or make larger — prices increased. 'Augment' means to add to something to make it bigger, the closest sense. 'Decrease', 'reduce' and 'shrink' are the opposite.",
+    "as": "'Increase' মানে বাঢ়ি যোৱা — দাম বাঢ়িল। 'Augment' বঢ়াই তোলা বুজায়। 'Decrease', 'reduce' আৰু 'shrink' ওলোটা।"
    }
   },
   {
@@ -83254,26 +83254,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "credible",
+     "as": "বিশ্বাসযোগ্য"
     },
     {
      "en": "unbelievable",
      "as": "অবিশ্বাস্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'unbelievable' is a synonym of 'incredible'; both words have nearly the same meaning.",
-    "as": "'unbelievable' (অবিশ্বাস্য) হৈছে 'incredible' (অবিশ্বাস্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Incredible' means too strange to believe — an incredible story. 'Unbelievable' is the plain synonym. 'Credible' is the opposite, and 'ordinary' and 'dull' describe something easy to accept.",
+    "as": "'Incredible' মানে বিশ্বাস কৰিব নোৱাৰা — incredible story। 'Unbelievable' সৰল সমাৰ্থক। 'Credible' ওলোটা, 'ordinary' আৰু 'dull' সাধাৰণ বুজায়।"
    }
   },
   {
@@ -83284,16 +83284,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dependent",
+     "as": "নিৰ্ভৰশীল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "controlled",
+     "as": "নিয়ন্ত্ৰিত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
      "en": "autonomous",
@@ -83302,8 +83302,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'autonomous' is a synonym of 'independent'; both words have nearly the same meaning.",
-    "as": "'autonomous' (স্বায়ত্তশাসিত) হৈছে 'independent' (স্বাধীন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Independent' means not controlled by anyone else — an independent country. 'Autonomous' means self-governing, the closest sense. 'Dependent' and 'controlled' are the opposite, and 'weak' is about strength.",
+    "as": "'Independent' মানে আনৰ অধীনত নোহোৱা — independent country। 'Autonomous' স্বায়ত্তশাসিত বুজায়। 'Dependent' আৰু 'controlled' ওলোটা, 'weak' দুৰ্বল।"
    }
   },
   {
@@ -83318,22 +83318,22 @@ module.exports = {
      "as": "উদাসীন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "interested",
+     "as": "আগ্ৰহী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "eager",
+     "as": "উৎসুক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "worried",
+     "as": "চিন্তিত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'unconcerned' is a synonym of 'indifferent'; both words have nearly the same meaning.",
-    "as": "'unconcerned' (উদাসীন) হৈছে 'indifferent' (উদাসীন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Indifferent' means not caring either way — indifferent to the result. 'Unconcerned' is the closest synonym. 'Interested' and 'eager' are the opposite, and 'worried' means caring too much.",
+    "as": "'Indifferent' মানে কোনো ভ্ৰূক্ষেপ নকৰা — ফলাফললৈ উদাসীন। 'Unconcerned' ওচৰৰ সমাৰ্থক। 'Interested' আৰু 'eager' ওলোটা, 'worried' চিন্তিত।"
    }
   },
   {
@@ -83348,22 +83348,22 @@ module.exports = {
      "as": "পৰিশ্ৰমী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lazy",
+     "as": "এলেহুৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "idle",
+     "as": "অকৰ্মণ্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'diligent' is a synonym of 'industrious'; both words have nearly the same meaning.",
-    "as": "'diligent' (পৰিশ্ৰমী) হৈছে 'industrious' (পৰিশ্ৰমী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Industrious' means working hard and steadily — an industrious farmer. 'Diligent' is the closest synonym. 'Lazy' and 'idle' are the opposite, and 'careless' is about attention to detail.",
+    "as": "'Industrious' মানে পৰিশ্ৰমী — industrious farmer। 'Diligent' ওচৰৰ সমাৰ্থক। 'Lazy' আৰু 'idle' ওলোটা, 'careless' অসাৱধান।"
    }
   },
   {
@@ -83374,26 +83374,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "superior",
+     "as": "শ্ৰেষ্ঠ"
     },
     {
      "en": "lower",
-     "as": "তললৈ নমোৱা"
+     "as": "নিম্ন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "better",
+     "as": "উত্তম"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "finest",
+     "as": "সৰ্বোত্তম"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'lower' is a synonym of 'inferior'; both words have nearly the same meaning.",
-    "as": "'lower' (তললৈ নমোৱা) হৈছে 'inferior' (নিকৃষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Inferior' means lower in quality or rank — inferior goods. 'Lower' is the closest synonym. 'Superior', 'better' and 'finest' are the opposite, each describing something of higher quality or rank.",
+    "as": "'Inferior' মানে নিম্নমানৰ — inferior goods। 'Lower' ওচৰৰ সমাৰ্থক। 'Superior', 'better' আৰু 'finest' ওলোটা, উচ্চ মান বুজায়।"
    }
   },
   {
@@ -83434,26 +83434,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "corrupt",
-     "as": "দুৰ্নীতিগ্ৰস্ত"
-    },
-    {
-     "en": "candid",
-     "as": "সৰল"
-    },
-    {
-     "en": "culpable",
+     "en": "guilty",
      "as": "দোষী"
     },
     {
+     "en": "culpable",
+     "as": "দোষাৰ্হ"
+    },
+    {
+     "en": "corrupt",
+     "as": "দুৰ্নীতিমান"
+    },
+    {
      "en": "blameless",
-     "as": "নিৰ্দোষী"
+     "as": "নিৰ্দোষ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'blameless' is a synonym of 'innocent'; both words have nearly the same meaning.",
-    "as": "'blameless' (নিৰ্দোষী) হৈছে 'innocent' (নিৰ্দোষী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Innocent' means free of guilt — an innocent man. 'Blameless' is the closest synonym. 'Guilty', 'culpable' and 'corrupt' all describe someone who has done wrong and deserves blame.",
+    "as": "'Innocent' মানে নিৰ্দোষী — innocent man। 'Blameless' ওচৰৰ সমাৰ্থক। 'Guilty', 'culpable' আৰু 'corrupt' দোষী বুজায়।"
    }
   },
   {
@@ -83464,26 +83464,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "praise",
+     "as": "প্ৰশংসা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "respect",
+     "as": "সন্মান"
     },
     {
      "en": "offend",
-     "as": "আঘাত কৰা"
+     "as": "অপমান কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "flatter",
+     "as": "তোষামোদ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'offend' is a synonym of 'insult'; both words have nearly the same meaning.",
-    "as": "'offend' (আঘাত কৰা) হৈছে 'insult' (অপমান কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Insult' means to say something rude that hurts — he insulted the guest. 'Offend' is the closest synonym. 'Praise', 'respect' and 'flatter' all make a person feel good instead.",
+    "as": "'Insult' মানে অপমান কৰা — তেওঁ অতিথিক অপমান কৰিলে। 'Offend' ওচৰৰ সমাৰ্থক। 'Praise', 'respect' আৰু 'flatter' সন্মান বঢ়ায়।"
    }
   },
   {
@@ -83494,16 +83494,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dull",
+     "as": "মন্থৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "foolish",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
      "en": "clever",
@@ -83512,8 +83512,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'clever' is a synonym of 'intelligent'; both words have nearly the same meaning.",
-    "as": "'clever' (চতুৰ) হৈছে 'intelligent' (বুদ্ধিমান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Intelligent' means able to learn and reason well — an intelligent reply. 'Clever' is the closest synonym. 'Dull', 'foolish' and 'slow' describe the opposite of intelligent behaviour or thought.",
+    "as": "'Intelligent' মানে শিকা আৰু যুক্তি কৰাৰ ক্ষমতা — intelligent reply। 'Clever' ওচৰৰ সমাৰ্থক। 'Dull', 'foolish' আৰু 'slow' ওলোটা।"
    }
   },
   {
@@ -83554,26 +83554,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "boring",
+     "as": "বিৰক্তিকৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
      "en": "engaging",
-     "as": "আকৰ্ষণীয়"
+     "as": "মনোৰম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "tedious",
+     "as": "ক্লান্তিকৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'engaging' is a synonym of 'interesting'; both words have nearly the same meaning.",
-    "as": "'engaging' (আকৰ্ষণীয়) হৈছে 'interesting' (আকৰ্ষণীয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Interesting' means holding your attention — an interesting lecture. 'Engaging' means attractive to listen to, the closest sense. 'Boring', 'dull' and 'tedious' are the opposite of interesting.",
+    "as": "'Interesting' মানে মন টানি ধৰা — interesting lecture। 'Engaging' শুনিবলগীয়া বুজায়। 'Boring', 'dull' আৰু 'tedious' ওলোটা।"
    }
   },
   {
@@ -83674,26 +83674,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "senior",
+     "as": "জ্যেষ্ঠ"
     },
     {
      "en": "younger",
      "as": "সৰু"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "elder",
+     "as": "ডাঙৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "older",
+     "as": "বয়সত ডাঙৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'younger' is a synonym of 'junior'; both words have nearly the same meaning.",
-    "as": "'younger' (সৰু) হৈছে 'junior' (কনিষ্ঠ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Junior' means lower in rank or younger — a junior officer. 'Younger' is the closest synonym for age. 'Senior', 'elder' and 'older' are the opposite in rank or age.",
+    "as": "'Junior' মানে নিম্ন পদৰ বা সৰু — junior officer। 'Younger' বয়সৰ অৰ্থত মিলে। 'Senior', 'elder' আৰু 'older' ওলোটা।"
    }
   },
   {
@@ -83704,26 +83704,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "reluctant",
+     "as": "অনিচ্ছুক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "indifferent",
+     "as": "উদাসীন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "bored",
+     "as": "আমনি লগা"
     },
     {
      "en": "eager",
-     "as": "উৎসুক"
+     "as": "আগ্ৰহী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'eager' is a synonym of 'keen'; both words have nearly the same meaning.",
-    "as": "'eager' (উৎসুক) হৈছে 'keen' (উৎসাহী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Keen' means very interested and wanting to do something — keen to learn. 'Eager' is the closest synonym. 'Reluctant' and 'indifferent' are the opposite, and 'bored' means no longer interested.",
+    "as": "'Keen' মানে বৰ আগ্ৰহী — keen to learn। 'Eager' ওচৰৰ সমাৰ্থক। 'Reluctant' আৰু 'indifferent' ওলোটা, 'bored' আমনি লগা।"
    }
   },
   {
@@ -83738,22 +83738,22 @@ module.exports = {
      "as": "দয়ালু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cruel",
+     "as": "নিষ্ঠুৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "harsh",
+     "as": "কঠোৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "selfish",
+     "as": "স্বাৰ্থপৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'benevolent' is a synonym of 'kind'; both words have nearly the same meaning.",
-    "as": "'benevolent' (দয়ালু) হৈছে 'kind' (দয়ালু) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Kind' means caring about others — a kind word. 'Benevolent' means wishing others well, the closest sense. 'Cruel', 'harsh' and 'selfish' are the opposite in temper.",
+    "as": "'Kind' মানে আনৰ যত্ন লোৱা — kind word। 'Benevolent' মংগল কামনা কৰা বুজায়। 'Cruel', 'harsh' আৰু 'selfish' ওলোটা।"
    }
   },
   {
@@ -83828,22 +83828,22 @@ module.exports = {
      "as": "ডাঙৰ"
     },
     {
-     "en": "dwarf",
-     "as": "বামন"
+     "en": "small",
+     "as": "সৰু"
     },
     {
-     "en": "finite",
-     "as": "সীমিত"
+     "en": "little",
+     "as": "অলপ"
     },
     {
-     "en": "giant",
-     "as": "দানৱ"
+     "en": "narrow",
+     "as": "ঠেক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'big' is a synonym of 'large'; both words have nearly the same meaning.",
-    "as": "'big' (ডাঙৰ) হৈছে 'large' (ডাঙৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Large' means greater than average in size — a large hall. 'Big' is the closest synonym. 'Small' and 'little' are the opposite, and 'narrow' describes width rather than overall size.",
+    "as": "'Large' মানে সাধাৰণতকৈ ডাঙৰ — large hall। 'Big' ওচৰৰ সমাৰ্থক। 'Small' আৰু 'little' ওলোটা, 'narrow' ঠেক।"
    }
   },
   {
@@ -83854,26 +83854,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "active",
+     "as": "সক্ৰিয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     },
     {
      "en": "dormant",
      "as": "সুপ্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "visible",
+     "as": "দৃশ্যমান"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'dormant' is a synonym of 'latent'; both words have nearly the same meaning.",
-    "as": "'dormant' (সুপ্ত) হৈছে 'latent' (সুপ্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Latent' means present but not yet active or visible — latent talent. 'Dormant' means alive but not growing, the closest sense. 'Active' and 'visible' are the opposite, and 'obvious' means easy to see.",
+    "as": "'Latent' মানে আছে কিন্তু সক্ৰিয় বা দেখা নোপোৱা — latent talent। 'Dormant' সুপ্ত বুজায়। 'Active' আৰু 'visible' ওলোটা, 'obvious' স্পষ্ট।"
    }
   },
   {
@@ -83914,26 +83914,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "frugal",
+     "as": "মিতব্যয়ী"
     },
     {
      "en": "extravagant",
-     "as": "অপব্যয়ী"
+     "as": "অপচয়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "modest",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "plain",
+     "as": "অলংকাৰহীন"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'extravagant' is a synonym of 'lavish'; both words have nearly the same meaning.",
-    "as": "'extravagant' (অপব্যয়ী) হৈছে 'lavish' (অপব্যয়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Lavish' means giving or spending in large amounts — a lavish feast. 'Extravagant' is the closest synonym. 'Frugal' and 'modest' are the opposite, and 'plain' means without decoration.",
+    "as": "'Lavish' মানে প্ৰচুৰভাৱে খৰচ কৰা — lavish feast। 'Extravagant' ওচৰৰ সমাৰ্থক। 'Frugal' আৰু 'modest' ওলোটা, 'plain' সাধাৰণ।"
    }
   },
   {
@@ -83944,26 +83944,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "industrious",
+     "as": "পৰিশ্ৰমী"
     },
     {
      "en": "idle",
-     "as": "অলস"
+     "as": "এলেহুৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "active",
+     "as": "সক্ৰিয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "busy",
+     "as": "ব্যস্ত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'idle' is a synonym of 'lazy'; both words have nearly the same meaning.",
-    "as": "'idle' (অলস) হৈছে 'lazy' (অলস) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Lazy' means unwilling to work — a lazy student. 'Idle' is the closest synonym. 'Industrious', 'active' and 'busy' describe the opposite: people who keep working.",
+    "as": "'Lazy' মানে কাম কৰিবলৈ অনিচ্ছুক — lazy student। 'Idle' ওচৰৰ সমাৰ্থক। 'Industrious', 'active' আৰু 'busy' ওলোটা, কাম কৰি থকা মানুহ বুজায়।"
    }
   },
   {
@@ -83978,22 +83978,22 @@ module.exports = {
      "as": "কোমল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "strict",
+     "as": "কঠোৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "harsh",
+     "as": "কৰ্কশ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "severe",
+     "as": "তীব্ৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'mild' is a synonym of 'lenient'; both words have nearly the same meaning.",
-    "as": "'mild' (কোমল) হৈছে 'lenient' (নৰম) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Lenient' means not strict in punishing — a lenient judge. 'Mild' means gentle rather than severe, the closest sense. 'Strict', 'harsh' and 'severe' are the opposite.",
+    "as": "'Lenient' মানে শাস্তিত কঠোৰ নোহোৱা — lenient judge। 'Mild' কোমল বুজায়। 'Strict', 'harsh' আৰু 'severe' ওলোটা।"
    }
   },
   {
@@ -84004,26 +84004,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "stingy",
+     "as": "কৃপণ"
     },
     {
      "en": "generous",
      "as": "উদাৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "narrow",
+     "as": "সংকীৰ্ণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "strict",
+     "as": "কঠোৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'generous' is a synonym of 'liberal'; both words have nearly the same meaning.",
-    "as": "'generous' (উদাৰ) হৈছে 'liberal' (উদাৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Liberal' means giving freely or open to new ideas — a liberal helping of rice. 'Generous' matches the giving sense. 'Stingy' is the opposite, 'narrow' describes a closed mind, and 'strict' means firm about rules.",
+    "as": "'Liberal' মানে মুক্তহস্তে দিয়া — liberal helping of rice। 'Generous' দানশীল অৰ্থত মিলে। 'Stingy' ওলোটা, 'narrow' সংকীৰ্ণ মন, 'strict' কঠোৰ।"
    }
   },
   {
@@ -84064,26 +84064,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dark",
+     "as": "আন্ধাৰ"
     },
     {
      "en": "bright",
      "as": "উজ্জ্বল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "heavy",
+     "as": "গধুৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dim",
+     "as": "ম্লান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'bright' is a synonym of 'light'; both words have nearly the same meaning.",
-    "as": "'bright' (উজ্জ্বল) হৈছে 'light' (পোহৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Light' means not dark — a light room — and also not heavy. 'Bright' matches the first sense. 'Dark' and 'dim' are the opposite, and 'heavy' belongs to the weight sense.",
+    "as": "'Light' মানে আন্ধাৰ নহয় — light room; ওজন কমো বুজায়। 'Bright' পোহৰৰ অৰ্থত মিলে। 'Dark' আৰু 'dim' ওলোটা, 'heavy' ওজনৰ কথা।"
    }
   },
   {
@@ -84124,26 +84124,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "short",
+     "as": "চুটি"
     },
     {
      "en": "lengthy",
      "as": "দীঘলীয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brief",
+     "as": "চমু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "quick",
+     "as": "দ্ৰুত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'lengthy' is a synonym of 'long'; both words have nearly the same meaning.",
-    "as": "'lengthy' (দীঘলীয়া) হৈছে 'long' (দীঘল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Long' means measuring a great distance or lasting a great time — a long road, a long wait. 'Lengthy' matches the duration sense. 'Short' and 'brief' are the opposite, and 'quick' is about speed.",
+    "as": "'Long' মানে দীঘল বা বেছি সময়ৰ — long road, long wait। 'Lengthy' সময়ৰ অৰ্থত মিলে। 'Short' আৰু 'brief' ওলোটা, 'quick' গতিৰ কথা।"
    }
   },
   {
@@ -84158,22 +84158,22 @@ module.exports = {
      "as": "ঢিলা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "tight",
+     "as": "টান"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "firm",
+     "as": "দৃঢ়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "secure",
+     "as": "সুৰক্ষিত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'slack' is a synonym of 'loose'; both words have nearly the same meaning.",
-    "as": "'slack' (ঢিলা) হৈছে 'loose' (ঢিলা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Loose' means not firmly fixed or not tight — a loose tooth, loose clothes. 'Slack' means not pulled tight, the closest sense. 'Tight', 'firm' and 'secure' are the opposite.",
+    "as": "'Loose' মানে ঢিলা — loose tooth, loose clothes। 'Slack' টান নোহোৱা বুজায়। 'Tight', 'firm' আৰু 'secure' ওলোটা।"
    }
   },
   {
@@ -84184,26 +84184,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "quiet",
+     "as": "নীৰৱ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "soft",
+     "as": "মৃদু"
     },
     {
      "en": "noisy",
      "as": "শব্দময়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "silent",
+     "as": "নিমাত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'noisy' is a synonym of 'loud'; both words have nearly the same meaning.",
-    "as": "'noisy' (শব্দময়) হৈছে 'loud' (চিঞৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Loud' means producing a lot of sound — a loud speaker. 'Noisy' means full of sound, the closest synonym. 'Quiet', 'soft' and 'silent' describe the opposite level of sound.",
+    "as": "'Loud' মানে বেছি শব্দ কৰা — loud speaker। 'Noisy' শব্দময় বুজায়। 'Quiet', 'soft' আৰু 'silent' ওলোটা শব্দৰ মাত্ৰা বুজায়।"
    }
   },
   {
@@ -84244,16 +84244,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "confusing",
+     "as": "দিগ্ভ্ৰান্তকৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     },
     {
      "en": "clear",
@@ -84262,8 +84262,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'clear' is a synonym of 'lucid'; both words have nearly the same meaning.",
-    "as": "'clear' (স্পষ্ট) হৈছে 'lucid' (স্পষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Lucid' means expressed clearly and easy to follow — a lucid explanation. 'Clear' is the closest synonym. 'Confusing' and 'vague' are the opposite, and 'dull' means boring rather than unclear.",
+    "as": "'Lucid' মানে স্পষ্ট আৰু সহজে বুজা — lucid explanation। 'Clear' ওচৰৰ সমাৰ্থক। 'Confusing' আৰু 'vague' ওলোটা, 'dull' বিৰক্তিকৰ।"
    }
   },
   {
@@ -84308,22 +84308,22 @@ module.exports = {
      "as": "ভৱ্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "shabby",
+     "as": "জীৰ্ণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "modest",
+     "as": "নম্ৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'splendid' is a synonym of 'magnificent'; both words have nearly the same meaning.",
-    "as": "'splendid' (ভৱ্য) হৈছে 'magnificent' (ভৱ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Magnificent' means impressively grand — a magnificent building. 'Splendid' is the closest synonym. 'Ordinary' and 'shabby' describe something plain or worn, and 'modest' means deliberately unshowy.",
+    "as": "'Magnificent' মানে অতি ভৱ্য — magnificent building। 'Splendid' ওচৰৰ সমাৰ্থক। 'Ordinary' আৰু 'shabby' সাধাৰণ বা জীৰ্ণ বুজায়, 'modest' নম্ৰ।"
    }
   },
   {
@@ -84334,26 +84334,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plentiful",
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "generous",
+     "as": "উদাৰ"
     },
     {
      "en": "scanty",
-     "as": "নগণ্য"
+     "as": "অপৰ্যাপ্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ample",
+     "as": "যথেষ্ট"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'scanty' is a synonym of 'meagre'; both words have nearly the same meaning.",
-    "as": "'scanty' (নগণ্য) হৈছে 'meagre' (নগণ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Meagre' means small in quantity and not enough — a meagre meal. 'Scanty' means barely enough, the closest sense. 'Plentiful', 'generous' and 'ample' all mean more than enough.",
+    "as": "'Meagre' মানে পৰিমাণত কম আৰু অপৰ্যাপ্ত — meagre meal। 'Scanty' মাত্ৰ পৰ্যাপ্ত বুজায়। 'Plentiful', 'generous' আৰু 'ample' প্ৰচুৰ বুজায়।"
    }
   },
   {
@@ -84364,26 +84364,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cruel",
+     "as": "নিষ্ঠুৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "harsh",
+     "as": "কঠোৰ"
     },
     {
      "en": "compassionate",
-     "as": "দয়ালু"
+     "as": "কৰুণাময়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "indifferent",
+     "as": "উদাসীন"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'compassionate' is a synonym of 'merciful'; both words have nearly the same meaning.",
-    "as": "'compassionate' (দয়ালু) হৈছে 'merciful' (দয়ালু) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Merciful' means showing kindness to someone in your power — a merciful judge. 'Compassionate' is the closest synonym. 'Cruel' and 'harsh' are the opposite, and 'indifferent' means not caring.",
+    "as": "'Merciful' মানে ক্ষমাশীল আৰু দয়ালু — merciful judge। 'Compassionate' ওচৰৰ সমাৰ্থক। 'Cruel' আৰু 'harsh' ওলোটা, 'indifferent' উদাসীন।"
    }
   },
   {
@@ -84394,26 +84394,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sad",
+     "as": "দুখী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gloomy",
+     "as": "নিৰানন্দ"
     },
     {
      "en": "cheerful",
-     "as": "হাঁহিমুখীয়া"
+     "as": "প্ৰফুল্ল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "serious",
+     "as": "গম্ভীৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'cheerful' is a synonym of 'merry'; both words have nearly the same meaning.",
-    "as": "'cheerful' (হাঁহিমুখীয়া) হৈছে 'merry' (আনন্দিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Merry' means happy and full of fun — a merry crowd. 'Cheerful' is the closest synonym. 'Sad' and 'gloomy' are the opposite, and 'serious' describes a sober manner rather than a sad one.",
+    "as": "'Merry' মানে আনন্দময় — merry crowd। 'Cheerful' ওচৰৰ সমাৰ্থক। 'Sad' আৰু 'gloomy' ওলোটা, 'serious' গম্ভীৰ।"
    }
   },
   {
@@ -84425,25 +84425,25 @@ module.exports = {
    "options": [
     {
      "en": "powerful",
-     "as": "শক্তিশালী"
+     "as": "প্ৰবল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "tiny",
+     "as": "সৰু"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "humble",
+     "as": "নিম্ন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'powerful' is a synonym of 'mighty'; both words have nearly the same meaning.",
-    "as": "'powerful' (শক্তিশালী) হৈছে 'mighty' (শক্তিশালী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Mighty' means having great strength or power — a mighty river. 'Powerful' is the closest synonym. 'Weak' is the opposite, 'tiny' describes size, and 'humble' describes low status.",
+    "as": "'Mighty' মানে প্ৰবল শক্তি বা ক্ষমতা — mighty river। 'Powerful' ওচৰৰ সমাৰ্থক। 'Weak' ওলোটা, 'tiny' সৰু, 'humble' নিম্ন।"
    }
   },
   {
@@ -84454,26 +84454,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "happy",
+     "as": "সুখী"
     },
     {
      "en": "wretched",
      "as": "দুৰ্দশাগ্ৰস্ত"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "comfortable",
+     "as": "সচ্ছল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'wretched' is a synonym of 'miserable'; both words have nearly the same meaning.",
-    "as": "'wretched' (দুৰ্দশাগ্ৰস্ত) হৈছে 'miserable' (দুৰ্দশাগ্ৰস্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Miserable' means very unhappy or uncomfortable — a miserable day. 'Wretched' is the closest synonym. 'Happy', 'comfortable' and 'cheerful' describe the opposite state of mind or body.",
+    "as": "'Miserable' মানে অতি অসুখী বা অস্বস্তিকৰ — miserable day। 'Wretched' ওচৰৰ সমাৰ্থক। 'Happy', 'comfortable' আৰু 'cheerful' ওলোটা।"
    }
   },
   {
@@ -84484,26 +84484,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "extreme",
+     "as": "চৰম"
     },
     {
      "en": "temperate",
      "as": "সংযত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "excessive",
+     "as": "অত্যধিক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "intense",
+     "as": "তীব্ৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'temperate' is a synonym of 'moderate'; both words have nearly the same meaning.",
-    "as": "'temperate' (সংযত) হৈছে 'moderate' (মধ্যমীয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Moderate' means staying within sensible limits — a moderate speed, moderate views. 'Temperate' means not extreme, the closest sense. 'Extreme', 'excessive' and 'intense' all go beyond the limit.",
+    "as": "'Moderate' মানে সংযত সীমাৰ ভিতৰত — moderate speed, moderate views। 'Temperate' চৰম নোহোৱা বুজায়। 'Extreme', 'excessive' আৰু 'intense' সীমা অতিক্ৰম বুজায়।"
    }
   },
   {
@@ -84514,26 +84514,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ancient",
+     "as": "প্ৰাচীন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "old",
+     "as": "পুৰণি"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "outdated",
+     "as": "আওপুৰণি"
     },
     {
      "en": "contemporary",
-     "as": "সমকালীন"
+     "as": "সমসাময়িক"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'contemporary' is a synonym of 'modern'; both words have nearly the same meaning.",
-    "as": "'contemporary' (সমকালীন) হৈছে 'modern' (আধুনিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Modern' means belonging to the present time — modern methods. 'Contemporary' means of the same period as now, the closest sense. 'Ancient', 'old' and 'outdated' describe the opposite periods of time.",
+    "as": "'Modern' মানে বৰ্তমান সময়ৰ — modern methods। 'Contemporary' সমসাময়িক বুজায়। 'Ancient', 'old' আৰু 'outdated' ওলোটা সময় বুজায়।"
    }
   },
   {
@@ -84545,25 +84545,25 @@ module.exports = {
    "options": [
     {
      "en": "humble",
-     "as": "বিনম্ৰ"
+     "as": "নম্ৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "boastful",
+     "as": "আত্মশ্লাঘাকাৰী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "arrogant",
+     "as": "দৰ্পী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "showy",
+     "as": "দেখনিধৰণীয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'humble' is a synonym of 'modest'; both words have nearly the same meaning.",
-    "as": "'humble' (বিনম্ৰ) হৈছে 'modest' (বিনম্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Modest' means not talking proudly about yourself — a modest reply. 'Humble' is the closest synonym. 'Boastful' and 'arrogant' are the opposite, and 'showy' means trying to attract attention.",
+    "as": "'Modest' মানে নিজৰ প্ৰশংসা নকৰা — modest reply। 'Humble' ওচৰৰ সমাৰ্থক। 'Boastful' আৰু 'arrogant' ওলোটা, 'showy' দেখুওৱা প্ৰৱণ।"
    }
   },
   {
@@ -84604,26 +84604,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "trivial",
+     "as": "তুচ্ছ"
     },
     {
      "en": "significant",
      "as": "গুৰুত্বপূৰ্ণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "minor",
+     "as": "সামান্য"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'significant' is a synonym of 'momentous'; both words have nearly the same meaning.",
-    "as": "'significant' (গুৰুত্বপূৰ্ণ) হৈছে 'momentous' (গুৰুত্বপূৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Momentous' means very important because of its effects — a momentous decision. 'Significant' is the closest synonym. 'Trivial', 'ordinary' and 'minor' all describe something of little weight.",
+    "as": "'Momentous' মানে প্ৰভাৱৰ বাবে অতি গুৰুত্বপূৰ্ণ — momentous decision। 'Significant' ওচৰৰ সমাৰ্থক। 'Trivial', 'ordinary' আৰু 'minor' কম গুৰুত্ব বুজায়।"
    }
   },
   {
@@ -84634,26 +84634,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "varied",
+     "as": "বিবিধ"
     },
     {
      "en": "tedious",
-     "as": "একঘেয়ে"
+     "as": "ক্লান্তিকৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "exciting",
+     "as": "উত্তেজনাপূৰ্ণ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "lively",
+     "as": "জীৱন্ত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'tedious' is a synonym of 'monotonous'; both words have nearly the same meaning.",
-    "as": "'tedious' (একঘেয়ে) হৈছে 'monotonous' (একসুৰীয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Monotonous' means dull because it never changes — a monotonous voice. 'Tedious' means boring and long, the closest sense. 'Varied', 'exciting' and 'lively' describe the opposite.",
+    "as": "'Monotonous' মানে সলনি নোহোৱা বাবে বিৰক্তিকৰ — monotonous voice। 'Tedious' দীঘলীয়া আৰু বিৰক্তিকৰ বুজায়। 'Varied', 'exciting' আৰু 'lively' ওলোটা।"
    }
   },
   {
@@ -84664,8 +84664,8 @@ module.exports = {
    },
    "options": [
     {
-     "en": "blameless",
-     "as": "নিৰ্দোষী"
+     "en": "immoral",
+     "as": "অনৈতিক"
     },
     {
      "en": "ethical",
@@ -84673,17 +84673,17 @@ module.exports = {
     },
     {
      "en": "corrupt",
-     "as": "দুৰ্নীতিগ্ৰস্ত"
+     "as": "দুৰ্নীতিমান"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "wicked",
+     "as": "দুৰ্নীতিমান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'ethical' is a synonym of 'moral'; both words have nearly the same meaning.",
-    "as": "'ethical' (নৈতিক) হৈছে 'moral' (নৈতিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Moral' means concerned with right and wrong behaviour — a moral duty. 'Ethical' is the closest synonym. 'Immoral', 'corrupt' and 'wicked' are the opposite kind of conduct.",
+    "as": "'Moral' মানে নৈতিক — moral duty। 'Ethical' ওচৰৰ সমাৰ্থক। 'Immoral', 'corrupt' আৰু 'wicked' ওলোটা প্ৰকাৰৰ আচৰণ বুজায়।"
    }
   },
   {
@@ -84728,22 +84728,22 @@ module.exports = {
      "as": "ৰহস্যময়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "clear",
+     "as": "পৰিষ্কাৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "familiar",
+     "as": "পৰিচিত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'enigmatic' is a synonym of 'mysterious'; both words have nearly the same meaning.",
-    "as": "'enigmatic' (ৰহস্যময়) হৈছে 'mysterious' (ৰহস্যময়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Mysterious' means hard to explain or understand — a mysterious disappearance. 'Enigmatic' means puzzling on purpose, the closest sense. 'Obvious' and 'clear' are the opposite, and 'familiar' means well known.",
+    "as": "'Mysterious' মানে বুজা টান — mysterious disappearance। 'Enigmatic' ৰহস্যময় বুজায়। 'Obvious' আৰু 'clear' ওলোটা, 'familiar' পৰিচিত।"
    }
   },
   {
@@ -84754,16 +84754,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "wide",
+     "as": "বহল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "broad",
+     "as": "প্ৰশস্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "spacious",
+     "as": "প্ৰশস্ত"
     },
     {
      "en": "thin",
@@ -84772,8 +84772,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'thin' is a synonym of 'narrow'; both words have nearly the same meaning.",
-    "as": "'thin' (পাতল) হৈছে 'narrow' (সংকীৰ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Narrow' means small in width — a narrow lane. 'Thin' means not thick, the closest sense for width. 'Wide', 'broad' and 'spacious' are the opposite in width.",
+    "as": "'Narrow' মানে ঠেক — narrow lane। 'Thin' পাতল বুজায়। 'Wide', 'broad' আৰু 'spacious' ওলোটা।"
    }
   },
   {
@@ -84844,26 +84844,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careful",
+     "as": "সাৱধান"
     },
     {
      "en": "careless",
-     "as": "অসতৰ্ক"
+     "as": "অসাৱধান"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "diligent",
+     "as": "পৰিশ্ৰমী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "alert",
+     "as": "সতৰ্ক"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'careless' is a synonym of 'negligent'; both words have nearly the same meaning.",
-    "as": "'careless' (অসতৰ্ক) হৈছে 'negligent' (অৱহেলাকাৰী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Negligent' means failing to take proper care — a negligent driver. 'Careless' is the closest synonym. 'Careful', 'diligent' and 'alert' describe the opposite habit of attention.",
+    "as": "'Negligent' মানে যত্ন ল'ব নোৱাৰা — negligent driver। 'Careless' ওচৰৰ সমাৰ্থক। 'Careful', 'diligent' আৰু 'alert' ওলোটা।"
    }
   },
   {
@@ -84878,22 +84878,22 @@ module.exports = {
      "as": "আধুনিক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "old",
+     "as": "পুৰণি"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ancient",
+     "as": "প্ৰাচীন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "worn",
+     "as": "জীৰ্ণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'modern' is a synonym of 'new'; both words have nearly the same meaning.",
-    "as": "'modern' (আধুনিক) হৈছে 'new' (নতুন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'New' means recently made or begun — a new house. 'Modern' means of the present style, the closest sense. 'Old' and 'ancient' are the opposite, and 'worn' means damaged by use.",
+    "as": "'New' মানে নতুনকৈ সজা — new house। 'Modern' আধুনিক বুজায়। 'Old' আৰু 'ancient' ওলোটা, 'worn' জীৰ্ণ।"
    }
   },
   {
@@ -84908,22 +84908,22 @@ module.exports = {
      "as": "অভিজাত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "common",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "vulgar",
+     "as": "অভদ্ৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "humble",
+     "as": "নিম্ন"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'aristocratic' is a synonym of 'noble'; both words have nearly the same meaning.",
-    "as": "'aristocratic' (অভিজাত) হৈছে 'noble' (মহান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Noble' means belonging to a high social class — a noble family. 'Aristocratic' is the closest synonym. 'Common' and 'humble' describe low birth, and 'vulgar' means lacking good manners.",
+    "as": "'Noble' মানে উচ্চ বংশৰ — noble family। 'Aristocratic' অভিজাত বুজায়। 'Common' আৰু 'humble' নিম্ন বংশ, 'vulgar' অভদ্ৰ।"
    }
   },
   {
@@ -84934,16 +84934,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "quiet",
+     "as": "নীৰৱ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "silent",
+     "as": "নিমাত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "peaceful",
+     "as": "শান্ত"
     },
     {
      "en": "boisterous",
@@ -84952,8 +84952,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'boisterous' is a synonym of 'noisy'; both words have nearly the same meaning.",
-    "as": "'boisterous' (হুলস্থূলীয়া) হৈছে 'noisy' (শব্দময়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Noisy' means making a lot of sound — a noisy classroom. 'Boisterous' means noisily energetic, the closest sense. 'Quiet', 'silent' and 'peaceful' describe the opposite level of sound.",
+    "as": "'Noisy' মানে বেছি শব্দ কৰা — noisy classroom। 'Boisterous' হুলস্থূলীয়া বুজায়। 'Quiet', 'silent' আৰু 'peaceful' ওলোটা।"
    }
   },
   {
@@ -84964,26 +84964,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "defiant",
+     "as": "অবাধ্য"
     },
     {
      "en": "dutiful",
      "as": "কৰ্তব্যনিষ্ঠ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "stubborn",
+     "as": "জেদী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dutiful' is a synonym of 'obedient'; both words have nearly the same meaning.",
-    "as": "'dutiful' (কৰ্তব্যনিষ্ঠ) হৈছে 'obedient' (বাধ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Obedient' means willing to obey — an obedient child. 'Dutiful' means doing what is expected of you, the closest sense. 'Defiant' and 'stubborn' are the opposite, and 'careless' is about attention.",
+    "as": "'Obedient' মানে আজ্ঞাবহ — obedient child। 'Dutiful' কৰ্তব্যনিষ্ঠ বুজায়। 'Defiant' আৰু 'stubborn' ওলোটা, 'careless' অসাৱধান।"
    }
   },
   {
@@ -84994,26 +84994,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "clear",
+     "as": "স্পষ্ট"
     },
     {
      "en": "unclear",
      "as": "অস্পষ্ট"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obvious",
+     "as": "প্ৰকট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "famous",
+     "as": "বিখ্যাত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'unclear' is a synonym of 'obscure'; both words have nearly the same meaning.",
-    "as": "'unclear' (অস্পষ্ট) হৈছে 'obscure' (অস্পষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Obscure' means hard to understand or not well known — an obscure passage. 'Unclear' matches the first sense. 'Clear' and 'obvious' are the opposite, and 'famous' is the opposite of little known.",
+    "as": "'Obscure' মানে বুজা টান বা অখ্যাত — obscure passage। 'Unclear' অস্পষ্ট অৰ্থত মিলে। 'Clear' আৰু 'obvious' ওলোটা, 'famous' বিখ্যাত।"
    }
   },
   {
@@ -85024,26 +85024,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "flexible",
+     "as": "নমনীয়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "yielding",
+     "as": "হাৰ মানি লোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "obedient",
+     "as": "আজ্ঞাবহ"
     },
     {
      "en": "stubborn",
-     "as": "একগুঁয়ে"
+     "as": "জেদী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'stubborn' is a synonym of 'obstinate'; both words have nearly the same meaning.",
-    "as": "'stubborn' (একগুঁয়ে) হৈছে 'obstinate' (একগুঁয়ে) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Obstinate' means refusing to change your mind — an obstinate refusal. 'Stubborn' is the closest synonym. 'Flexible' and 'yielding' are the opposite, and 'obedient' means doing as told.",
+    "as": "'Obstinate' মানে নিজৰ মত নেৰা — obstinate refusal। 'Stubborn' ওচৰৰ সমাৰ্থক। 'Flexible' আৰু 'yielding' ওলোটা, 'obedient' আজ্ঞাবহ।"
    }
   },
   {
@@ -85054,16 +85054,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "lose",
+     "as": "হেৰুওৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "forfeit",
+     "as": "হেৰাই পেলোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "surrender",
+     "as": "সমৰ্পণ কৰা"
     },
     {
      "en": "acquire",
@@ -85072,8 +85072,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'acquire' is a synonym of 'obtain'; both words have nearly the same meaning.",
-    "as": "'acquire' (অৰ্জন কৰা) হৈছে 'obtain' (পোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Obtain' means to get something you wanted — to obtain permission. 'Acquire' is the closest synonym. 'Lose', 'forfeit' and 'surrender' all mean giving something up instead.",
+    "as": "'Obtain' মানে ইচ্ছা কৰা বস্তু পোৱা — অনুমতি লাভ কৰা। 'Acquire' ওচৰৰ সমাৰ্থক। 'Lose', 'forfeit' আৰু 'surrender' হেৰুওৱা বুজায়।"
    }
   },
   {
@@ -85088,22 +85088,22 @@ module.exports = {
      "as": "স্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hidden",
+     "as": "লুকুৱা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "obscure",
+     "as": "অখ্যাত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'evident' is a synonym of 'obvious'; both words have nearly the same meaning.",
-    "as": "'evident' (স্পষ্ট) হৈছে 'obvious' (স্পষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Obvious' means easy to see or understand — an obvious mistake. 'Evident' is the closest synonym. 'Hidden' and 'obscure' are the opposite, and 'doubtful' means open to question.",
+    "as": "'Obvious' মানে সহজে দেখা বা বুজা — obvious mistake। 'Evident' ওচৰৰ সমাৰ্থক। 'Hidden' আৰু 'obscure' ওলোটা, 'doubtful' সন্দেহজনক।"
    }
   },
   {
@@ -85114,26 +85114,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "frequent",
+     "as": "ঘনাই"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "regular",
+     "as": "নিয়মীয়া"
     },
     {
      "en": "infrequent",
-     "as": "কেতিয়াবা হোৱা"
+     "as": "কম ঘটা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "constant",
+     "as": "অবিৰত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'infrequent' is a synonym of 'occasional'; both words have nearly the same meaning.",
-    "as": "'infrequent' (কেতিয়াবা হোৱা) হৈছে 'occasional' (মাজে মাজে) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Occasional' means happening now and then — occasional visits, an occasional letter. 'Infrequent' means not happening often, the closest sense. 'Frequent', 'regular' and 'constant' describe the opposite.",
+    "as": "'Occasional' মানে মাজে মাজে ঘটা — occasional visits। 'Infrequent' কম ঘটা বুজায়। 'Frequent', 'regular' আৰু 'constant' ওলোটা।"
    }
   },
   {
@@ -85174,26 +85174,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "new",
+     "as": "নতুন"
     },
     {
      "en": "ancient",
      "as": "প্ৰাচীন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "young",
+     "as": "ডেকা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fresh",
+     "as": "সতেজ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'ancient' is a synonym of 'old'; both words have nearly the same meaning.",
-    "as": "'ancient' (প্ৰাচীন) হৈছে 'old' (পুৰণি) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Old' means having existed for a long time — an old temple. 'Ancient' means belonging to the distant past, the closest sense. 'New' and 'fresh' are the opposite, and 'young' is about the age of people.",
+    "as": "'Old' মানে বহু দিনৰ পুৰণি — old temple। 'Ancient' প্ৰাচীন বুজায়। 'New' আৰু 'fresh' ওলোটা, 'young' বয়সৰ কথা।"
    }
   },
   {
@@ -85238,22 +85238,22 @@ module.exports = {
      "as": "আশাবাদী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "pessimist",
+     "as": "নৈৰাশ্যবাদী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cynic",
+     "as": "সংশয়বাদী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "critic",
+     "as": "সমালোচক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'hopeful' is a synonym of 'optimist'; both words have nearly the same meaning.",
-    "as": "'hopeful' (আশাবাদী) হৈছে 'optimist' (আশাবাদী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Optimist' means a person who expects good things — a lifelong optimist. 'Hopeful' describes that outlook, the closest sense. 'Pessimist', 'cynic' and 'critic' describe people who expect the worst.",
+    "as": "'Optimist' মানে ভালৰ আশা কৰা মানুহ। 'Hopeful' সেই আশাবাদী মনোভাৱ বুজায়। 'Pessimist', 'cynic' আৰু 'critic' বেয়াৰ আশা কৰা মানুহ বুজায়।"
    }
   },
   {
@@ -85264,26 +85264,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "rare",
+     "as": "বিৰল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "unusual",
+     "as": "অসাধাৰণ"
     },
     {
      "en": "common",
-     "as": "সাধাৰণ"
+     "as": "সচৰাচৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "special",
+     "as": "বিশেষ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'common' is a synonym of 'ordinary'; both words have nearly the same meaning.",
-    "as": "'common' (সাধাৰণ) হৈছে 'ordinary' (সাধাৰণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Ordinary' means normal and not special — an ordinary day. 'Common' means found often, the closest sense. 'Rare' and 'unusual' are the opposite, and 'special' means set apart.",
+    "as": "'Ordinary' মানে সাধাৰণ — ordinary day। 'Common' সচৰাচৰ বুজায়। 'Rare' আৰু 'unusual' ওলোটা, 'special' বিশেষ।"
    }
   },
   {
@@ -85324,26 +85324,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "mediocre",
+     "as": "মধ্যমীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "poor",
+     "as": "দুৰ্বল"
     },
     {
      "en": "excellent",
-     "as": "উৎকৃষ্ট"
+     "as": "অসাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'excellent' is a synonym of 'outstanding'; both words have nearly the same meaning.",
-    "as": "'excellent' (উৎকৃষ্ট) হৈছে 'outstanding' (অসাধাৰণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Outstanding' means much better than others — an outstanding result. 'Excellent' is the closest synonym. 'Mediocre', 'poor' and 'ordinary' all describe something far less good.",
+    "as": "'Outstanding' মানে আনতকৈ বহু ভাল — outstanding result। 'Excellent' ওচৰৰ সমাৰ্থক। 'Mediocre', 'poor' আৰু 'ordinary' কম ভাল বুজায়।"
    }
   },
   {
@@ -85385,25 +85385,25 @@ module.exports = {
    "options": [
     {
      "en": "ache",
-     "as": "ব্যথা"
+     "as": "বিষ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "comfort",
+     "as": "আৰাম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "relief",
+     "as": "উপশম"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "pleasure",
+     "as": "আনন্দ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'ache' is a synonym of 'pain'; both words have nearly the same meaning.",
-    "as": "'ache' (ব্যথা) হৈছে 'pain' (ব্যথা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Pain' means the feeling of hurt in the body — a sharp pain. 'Ache' means a dull continuous pain, the closest sense. 'Comfort', 'relief' and 'pleasure' are the opposite.",
+    "as": "'Pain' মানে শৰীৰৰ বিষ — sharp pain। 'Ache' দীৰ্ঘস্থায়ী বিষ বুজায়। 'Comfort', 'relief' আৰু 'pleasure' ওলোটা।"
    }
   },
   {
@@ -85448,22 +85448,22 @@ module.exports = {
      "as": "নিৰ্দিষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "general",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "random",
+     "as": "যাদৃচ্ছিক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'specific' is a synonym of 'particular'; both words have nearly the same meaning.",
-    "as": "'specific' (নিৰ্দিষ্ট) হৈছে 'particular' (নিৰ্দিষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Particular' means one exact thing rather than any — a particular reason. 'Specific' is the closest synonym. 'General' and 'vague' are the opposite, and 'random' means chosen without a rule.",
+    "as": "'Particular' মানে নিৰ্দিষ্ট — particular reason। 'Specific' ওচৰৰ সমাৰ্থক। 'General' আৰু 'vague' ওলোটা, 'random' যাদৃচ্ছিক।"
    }
   },
   {
@@ -85478,22 +85478,22 @@ module.exports = {
      "as": "সহনশীল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "impatient",
+     "as": "অধৈৰ্য"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "restless",
+     "as": "অস্থিৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "hasty",
+     "as": "খৰধৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'tolerant' is a synonym of 'patient'; both words have nearly the same meaning.",
-    "as": "'tolerant' (সহনশীল) হৈছে 'patient' (ধৈৰ্য্যৱান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Patient' means able to wait without complaint — a patient teacher. 'Tolerant' means bearing difficulty calmly, the closest sense. 'Impatient', 'restless' and 'hasty' are the opposite.",
+    "as": "'Patient' মানে অভিযোগ নকৰাকৈ অপেক্ষা কৰা — patient teacher। 'Tolerant' সহনশীল বুজায়। 'Impatient', 'restless' আৰু 'hasty' ওলোটা।"
    }
   },
   {
@@ -85535,25 +85535,25 @@ module.exports = {
    "options": [
     {
      "en": "lasting",
-     "as": "স্থায়ী"
+     "as": "দীৰ্ঘস্থায়ী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "temporary",
+     "as": "অস্থায়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brief",
+     "as": "চমু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "passing",
+     "as": "ক্ষণস্থায়ী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'lasting' is a synonym of 'permanent'; both words have nearly the same meaning.",
-    "as": "'lasting' (স্থায়ী) হৈছে 'permanent' (স্থায়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Permanent' means continuing for a very long time — a permanent job. 'Lasting' means going on for a long time, the closest sense. 'Temporary', 'brief' and 'passing' are the opposite.",
+    "as": "'Permanent' মানে দীৰ্ঘদিন থকা — permanent job। 'Lasting' দীৰ্ঘস্থায়ী বুজায়। 'Temporary', 'brief' আৰু 'passing' ওলোটা।"
    }
   },
   {
@@ -85594,26 +85594,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "optimist",
+     "as": "আশাবাদী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dreamer",
+     "as": "সপোনদৰ্শী"
     },
     {
      "en": "cynic",
-     "as": "নৈৰাশ্যবাদী"
+     "as": "সংশয়বাদী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "idealist",
+     "as": "আদৰ্শবাদী"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'cynic' is a synonym of 'pessimist'; both words have nearly the same meaning.",
-    "as": "'cynic' (নৈৰাশ্যবাদী) হৈছে 'pessimist' (নৈৰাশ্যবাদী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Pessimist' means a person who expects bad things — a confirmed pessimist. 'Cynic' means one who doubts people's motives, the closest sense. 'Optimist', 'dreamer' and 'idealist' expect better.",
+    "as": "'Pessimist' মানে বেয়াৰ আশা কৰা মানুহ। 'Cynic' মানুহৰ উদ্দেশ্যলৈ সন্দেহ কৰা বুজায়। 'Optimist', 'dreamer' আৰু 'idealist' ভালৰ আশা কৰে।"
    }
   },
   {
@@ -85628,22 +85628,22 @@ module.exports = {
      "as": "সৰল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "fancy",
+     "as": "চাকচিক্যময়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "decorated",
+     "as": "অলংকৃত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "complex",
+     "as": "জটিল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'simple' is a synonym of 'plain'; both words have nearly the same meaning.",
-    "as": "'simple' (সৰল) হৈছে 'plain' (সৰল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Plain' means without decoration and easy to understand — plain cloth, plain words. 'Simple' matches both senses. 'Fancy' and 'decorated' are the opposite, and 'complex' means hard to follow.",
+    "as": "'Plain' মানে অলংকাৰহীন আৰু সৰল — plain cloth, plain words। 'Simple' দুয়োটা অৰ্থত মিলে। 'Fancy' আৰু 'decorated' ওলোটা, 'complex' জটিল।"
    }
   },
   {
@@ -85654,26 +85654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "unpleasant",
+     "as": "অপ্ৰিয়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rude",
+     "as": "অভদ্ৰ"
     },
     {
      "en": "agreeable",
-     "as": "মনোমোহা"
+     "as": "প্ৰীতিকৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "harsh",
+     "as": "কঠোৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'agreeable' is a synonym of 'pleasant'; both words have nearly the same meaning.",
-    "as": "'agreeable' (মনোমোহা) হৈছে 'pleasant' (আনন্দদায়ক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Pleasant' means giving a good feeling — a pleasant evening. 'Agreeable' means pleasing to be with, the closest sense. 'Unpleasant', 'rude' and 'harsh' are the opposite in manner.",
+    "as": "'Pleasant' মানে সুখদ — pleasant evening। 'Agreeable' প্ৰীতিকৰ বুজায়। 'Unpleasant', 'rude' আৰু 'harsh' ওলোটা ব্যৱহাৰ বুজায়।"
    }
   },
   {
@@ -85688,22 +85688,22 @@ module.exports = {
      "as": "প্ৰচুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "scarce",
+     "as": "দুৰ্লভ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "meagre",
+     "as": "নগণ্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "scanty",
+     "as": "অপৰ্যাপ্ত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'abundant' is a synonym of 'plentiful'; both words have nearly the same meaning.",
-    "as": "'abundant' (প্ৰচুৰ) হৈছে 'plentiful' (প্ৰচুৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Plentiful' means existing in large amounts — a plentiful harvest. 'Abundant' is the closest synonym. 'Scarce', 'meagre' and 'scanty' all describe too little of something to be enough.",
+    "as": "'Plentiful' মানে প্ৰচুৰ — plentiful harvest। 'Abundant' ওচৰৰ সমাৰ্থক। 'Scarce', 'meagre' আৰু 'scanty' পৰ্যাপ্ত নোহোৱা বুজায়।"
    }
   },
   {
@@ -85714,16 +85714,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rich",
+     "as": "ধনী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wealthy",
+     "as": "সম্পন্ন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "prosperous",
+     "as": "সমৃদ্ধিশালী"
     },
     {
      "en": "impoverished",
@@ -85732,8 +85732,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'impoverished' is a synonym of 'poor'; both words have nearly the same meaning.",
-    "as": "'impoverished' (দৰিদ্ৰ) হৈছে 'poor' (দৰিদ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Poor' means having very little money — a poor family. 'Impoverished' means made poor, the closest sense. 'Rich', 'wealthy' and 'prosperous' are the opposite in wealth.",
+    "as": "'Poor' মানে নিঃস্ব — poor family। 'Impoverished' দৰিদ্ৰ হোৱা বুজায়। 'Rich', 'wealthy' আৰু 'prosperous' ওলোটা।"
    }
   },
   {
@@ -85775,25 +85775,25 @@ module.exports = {
    "options": [
     {
      "en": "destitution",
-     "as": "দৰিদ্ৰতা"
+     "as": "নিঃস্বতা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "wealth",
+     "as": "ধন-সম্পত্তি"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "comfort",
+     "as": "আৰাম"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "luxury",
+     "as": "বিলাস"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'destitution' is a synonym of 'poverty'; both words have nearly the same meaning.",
-    "as": "'destitution' (দৰিদ্ৰতা) হৈছে 'poverty' (দৰিদ্ৰতা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Poverty' means the state of being very poor — living in poverty. 'Destitution' means complete poverty, the closest sense. 'Wealth', 'comfort' and 'luxury' describe the opposite state.",
+    "as": "'Poverty' মানে দাৰিদ্ৰ্য — দাৰিদ্ৰ্যত জীয়াই থকা। 'Destitution' সম্পূৰ্ণ নিঃস্বতা বুজায়। 'Wealth', 'comfort' আৰু 'luxury' ওলোটা।"
    }
   },
   {
@@ -85804,16 +85804,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "criticise",
+     "as": "সমালোচনা কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "blame",
+     "as": "দোষ দিয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "insult",
+     "as": "অপমান কৰা"
     },
     {
      "en": "applaud",
@@ -85822,8 +85822,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'applaud' is a synonym of 'praise'; both words have nearly the same meaning.",
-    "as": "'applaud' (প্ৰশংসা কৰা) হৈছে 'praise' (প্ৰশংসা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Praise' means to say that someone has done well — to praise a student. 'Applaud' means to show approval openly, the closest sense. 'Criticise', 'blame' and 'insult' are the opposite.",
+    "as": "'Praise' মানে প্ৰশংসা কৰা — ছাত্ৰক প্ৰশংসা কৰা। 'Applaud' মুকলিকৈ সমৰ্থন দেখুওৱা বুজায়। 'Criticise', 'blame' আৰু 'insult' ওলোটা।"
    }
   },
   {
@@ -85834,26 +85834,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "vague",
+     "as": "অস্পষ্ট"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "approximate",
+     "as": "আন্দাজী"
     },
     {
      "en": "exact",
-     "as": "সঠিক"
+     "as": "নিখুঁত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "rough",
+     "as": "মোটামুটি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'exact' is a synonym of 'precise'; both words have nearly the same meaning.",
-    "as": "'exact' (সঠিক) হৈছে 'precise' (সঠিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Precise' means correct in every detail — a precise measurement. 'Exact' is the closest synonym. 'Vague' and 'approximate' are the opposite, and 'rough' means only roughly worked out.",
+    "as": "'Precise' মানে প্ৰতিটো বিৱৰণত নিখুঁত — precise measurement। 'Exact' ওচৰৰ সমাৰ্থক। 'Vague' আৰু 'approximate' ওলোটা, 'rough' আন্দাজী।"
    }
   },
   {
@@ -85954,26 +85954,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "poverty",
+     "as": "দাৰিদ্ৰ্য"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hardship",
+     "as": "কষ্ট"
     },
     {
      "en": "wealth",
-     "as": "ধন-সম্পত্তি"
+     "as": "সম্পদ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "misery",
+     "as": "দুৰ্দশা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'wealth' is a synonym of 'prosperity'; both words have nearly the same meaning.",
-    "as": "'wealth' (ধন-সম্পত্তি) হৈছে 'prosperity' (সমৃদ্ধি) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Prosperity' means the state of doing well and having money — years of prosperity. 'Wealth' is the closest synonym. 'Poverty' and 'hardship' are the opposite, and 'misery' describes suffering rather than money.",
+    "as": "'Prosperity' মানে সচ্ছলতা — সমৃদ্ধিৰ বছৰ। 'Wealth' ওচৰৰ সমাৰ্থক। 'Poverty' আৰু 'hardship' ওলোটা, 'misery' দুখ বুজায়।"
    }
   },
   {
@@ -85984,26 +85984,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "humble",
+     "as": "নম্ৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "modest",
+     "as": "বিনয়ী"
     },
     {
      "en": "arrogant",
-     "as": "অহংকাৰী"
+     "as": "দৰ্পী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ashamed",
+     "as": "লজ্জিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'arrogant' is a synonym of 'proud'; both words have nearly the same meaning.",
-    "as": "'arrogant' (অহংকাৰী) হৈছে 'proud' (গৌৰৱান্বিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Proud' means pleased with your own worth — and, less kindly, thinking too well of yourself. 'Arrogant' matches that second sense. 'Humble' and 'modest' are the opposite, and 'ashamed' is the opposite feeling.",
+    "as": "'Proud' মানে নিজৰ বাবে গৌৰৱান্বিত; অতি গৰ্বীও বুজায়। 'Arrogant' সেই অৰ্থত মিলে। 'Humble' আৰু 'modest' ওলোটা, 'ashamed' লজ্জিত।"
    }
   },
   {
@@ -86014,26 +86014,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "foolish",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "reckless",
+     "as": "বেপৰোৱা"
     },
     {
      "en": "wise",
-     "as": "জ্ঞানী"
+     "as": "বিচক্ষণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "careless",
+     "as": "অসাৱধান"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'wise' is a synonym of 'prudent'; both words have nearly the same meaning.",
-    "as": "'wise' (জ্ঞানী) হৈছে 'prudent' (বিচক্ষণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Prudent' means acting with care about the future — a prudent investment. 'Wise' is the closest synonym. 'Foolish' and 'reckless' are the opposite, and 'careless' is about attention rather than judgement.",
+    "as": "'Prudent' মানে ভৱিষ্যতৰ কথা ভাবি সাৱধানে কাম কৰা — prudent investment। 'Wise' ওচৰৰ সমাৰ্থক। 'Foolish' আৰু 'reckless' ওলোটা, 'careless' অসাৱধান।"
    }
   },
   {
@@ -86044,26 +86044,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "impure",
+     "as": "অশুদ্ধ"
     },
     {
      "en": "clean",
      "as": "পৰিষ্কাৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dirty",
+     "as": "লেতেৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "polluted",
+     "as": "দূষিত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'clean' is a synonym of 'pure'; both words have nearly the same meaning.",
-    "as": "'clean' (পৰিষ্কাৰ) হৈছে 'pure' (বিশুদ্ধ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Pure' means not mixed with anything harmful — pure water, pure silk. 'Clean' is the closest sense here. 'Impure' and 'dirty' are the opposite, and 'polluted' means made unsafe by waste.",
+    "as": "'Pure' মানে মিহলি নোহোৱা — pure water, pure silk। 'Clean' ওচৰৰ অৰ্থ। 'Impure' আৰু 'dirty' ওলোটা, 'polluted' দূষিত।"
    }
   },
   {
@@ -86074,26 +86074,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "sluggish",
+     "as": "মন্থৰ"
     },
     {
      "en": "rapid",
      "as": "দ্ৰুত"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "delayed",
+     "as": "পলম"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'rapid' is a synonym of 'quick'; both words have nearly the same meaning.",
-    "as": "'rapid' (দ্ৰুত) হৈছে 'quick' (দ্ৰুত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Quick' means taking little time — a quick reply. 'Rapid' is the closest synonym. 'Slow' and 'sluggish' are the opposite, and 'delayed' means it happened later than expected.",
+    "as": "'Quick' মানে কম সময়ত হোৱা — quick reply। 'Rapid' ওচৰৰ সমাৰ্থক। 'Slow' আৰু 'sluggish' ওলোটা, 'delayed' পলম হোৱা।"
    }
   },
   {
@@ -86104,26 +86104,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "loud",
+     "as": "চিঞৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "noisy",
+     "as": "শব্দময়"
     },
     {
      "en": "silent",
-     "as": "মৌন"
+     "as": "নীৰৱ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "boisterous",
+     "as": "হুলস্থূলীয়া"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'silent' is a synonym of 'quiet'; both words have nearly the same meaning.",
-    "as": "'silent' (মৌন) হৈছে 'quiet' (শান্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Quiet' means making little or no sound — a quiet room. 'Silent' means no sound at all, the closest sense. 'Loud' and 'noisy' are the opposite, and 'boisterous' means noisily energetic.",
+    "as": "'Quiet' মানে কম শব্দ — quiet room। 'Silent' সম্পূৰ্ণ নীৰৱতা বুজায়। 'Loud' আৰু 'noisy' ওলোটা, 'boisterous' হুলস্থূলীয়া।"
    }
   },
   {
@@ -86138,22 +86138,22 @@ module.exports = {
      "as": "উজ্জ্বল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "dim",
+     "as": "ম্লান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dark",
+     "as": "আন্ধাৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'bright' is a synonym of 'radiant'; both words have nearly the same meaning.",
-    "as": "'bright' (উজ্জ্বল) হৈছে 'radiant' (উজ্জ্বল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Radiant' means sending out light or joy — a radiant smile, a radiant sky. 'Bright' matches the light sense. 'Dim' and 'dull' are the opposite, and 'dark' means almost no light.",
+    "as": "'Radiant' মানে পোহৰ বা আনন্দ বিকিৰণ কৰা — radiant smile। 'Bright' পোহৰৰ অৰ্থত মিলে। 'Dim' আৰু 'dull' ওলোটা, 'dark' আন্ধাৰ।"
    }
   },
   {
@@ -86164,26 +86164,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gradual",
+     "as": "ক্ৰমশঃ"
     },
     {
      "en": "quick",
-     "as": "দ্ৰুত"
+     "as": "শীঘ্ৰ"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "leisurely",
+     "as": "আৰামেৰে"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'quick' is a synonym of 'rapid'; both words have nearly the same meaning.",
-    "as": "'quick' (দ্ৰুত) হৈছে 'rapid' (দ্ৰুত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rapid' means happening very fast — rapid growth. 'Quick' is the closest synonym. 'Slow' and 'gradual' are the opposite, and 'leisurely' means without any hurry at all.",
+    "as": "'Rapid' মানে অতি দ্ৰুত — rapid growth। 'Quick' ওচৰৰ সমাৰ্থক। 'Slow' আৰু 'gradual' ওলোটা, 'leisurely' আৰামেৰে কৰা।"
    }
   },
   {
@@ -86194,26 +86194,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "common",
+     "as": "সচৰাচৰ"
     },
     {
      "en": "scarce",
      "as": "দুৰ্লভ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plentiful",
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "abundant",
+     "as": "বহুল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'scarce' is a synonym of 'rare'; both words have nearly the same meaning.",
-    "as": "'scarce' (দুৰ্লভ) হৈছে 'rare' (বিৰল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rare' means not found or seen often — a rare bird. 'Scarce' means hard to get because there is little of it, the closest sense. 'Common', 'plentiful' and 'abundant' are the opposite.",
+    "as": "'Rare' মানে বিৰল — rare bird। 'Scarce' দুৰ্লভ বুজায়। 'Common', 'plentiful' আৰু 'abundant' ওলোটা।"
    }
   },
   {
@@ -86228,22 +86228,22 @@ module.exports = {
      "as": "বেপৰোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cautious",
+     "as": "সতৰ্ক"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "careful",
+     "as": "সাৱধান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "prudent",
+     "as": "বিচক্ষণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'reckless' is a synonym of 'rash'; both words have nearly the same meaning.",
-    "as": "'reckless' (বেপৰোৱা) হৈছে 'rash' (অবিবেচক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rash' means acting too quickly without thinking — a rash promise. 'Reckless' means ignoring the danger, the closest sense. 'Cautious', 'careful' and 'prudent' are the opposite.",
+    "as": "'Rash' মানে নাভাবি খৰধৰকৈ কৰা — rash promise। 'Reckless' বিপদ নগণা বুজায়। 'Cautious', 'careful' আৰু 'prudent' ওলোটা।"
    }
   },
   {
@@ -86254,26 +86254,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fake",
+     "as": "নকল"
     },
     {
      "en": "genuine",
-     "as": "আচল"
+     "as": "প্ৰকৃত"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "imaginary",
+     "as": "কল্পিত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "false",
+     "as": "মিছা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'genuine' is a synonym of 'real'; both words have nearly the same meaning.",
-    "as": "'genuine' (আচল) হৈছে 'real' (প্ৰকৃত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Real' means actually existing and not imagined — real gold. 'Genuine' means not fake, the closest sense. 'Fake' and 'false' are the opposite, and 'imaginary' means only in the mind.",
+    "as": "'Real' মানে প্ৰকৃত — real gold। 'Genuine' নকল নোহোৱা বুজায়। 'Fake' আৰু 'false' ওলোটা, 'imaginary' কল্পিত।"
    }
   },
   {
@@ -86284,16 +86284,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "obey",
+     "as": "মানি চলা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "submit",
+     "as": "আত্মসমৰ্পণ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "surrender",
+     "as": "সমৰ্পণ কৰা"
     },
     {
      "en": "revolt",
@@ -86302,8 +86302,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'revolt' is a synonym of 'rebel'; both words have nearly the same meaning.",
-    "as": "'revolt' (বিদ্ৰোহ কৰা) হৈছে 'rebel' (বিদ্ৰোহ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rebel' means to refuse to obey those in power — the workers rebelled. 'Revolt' means to rise against authority, the closest sense. 'Obey', 'submit' and 'surrender' are the opposite.",
+    "as": "'Rebel' মানে ক্ষমতাধাৰীৰ অবাধ্য হোৱা — শ্ৰমিকসকলে বিদ্ৰোহ কৰিলে। 'Revolt' বিদ্ৰোহ কৰা বুজায়। 'Obey', 'submit' আৰু 'surrender' ওলোটা।"
    }
   },
   {
@@ -86345,25 +86345,25 @@ module.exports = {
    "options": [
     {
      "en": "refuse",
-     "as": "অমান্য কৰা"
+     "as": "নাকচ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "accept",
+     "as": "গ্ৰহণ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "approve",
+     "as": "অনুমোদন কৰা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "welcome",
+     "as": "আদৰণি জনোৱা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'refuse' is a synonym of 'reject'; both words have nearly the same meaning.",
-    "as": "'refuse' (অমান্য কৰা) হৈছে 'reject' (প্ৰত্যাখ্যান কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Reject' means to say no to something offered — to reject a plan. 'Refuse' is the closest synonym. 'Accept', 'approve' and 'welcome' are the opposite replies.",
+    "as": "'Reject' মানে প্ৰস্তাৱ নাকচ কৰা — পৰিকল্পনা নাকচ কৰা। 'Refuse' ওচৰৰ সমাৰ্থক। 'Accept', 'approve' আৰু 'welcome' ওলোটা।"
    }
   },
   {
@@ -86404,26 +86404,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "eager",
+     "as": "আগ্ৰহী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "willing",
+     "as": "ইচ্ছুক"
     },
     {
      "en": "unwilling",
      "as": "অনিচ্ছুক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "keen",
+     "as": "উৎসুক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'unwilling' is a synonym of 'reluctant'; both words have nearly the same meaning.",
-    "as": "'unwilling' (অনিচ্ছুক) হৈছে 'reluctant' (অনিচ্ছুক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Reluctant' means not wanting to do something — a reluctant witness. 'Unwilling' is the closest synonym. 'Eager', 'willing' and 'keen' are the opposite attitudes towards the task.",
+    "as": "'Reluctant' মানে কাম কৰিবলৈ অনিচ্ছুক — reluctant witness। 'Unwilling' ওচৰৰ সমাৰ্থক। 'Eager', 'willing' আৰু 'keen' ওলোটা মনোভাৱ বুজায়।"
    }
   },
   {
@@ -86434,16 +86434,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "forget",
+     "as": "পাহৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "overlook",
+     "as": "মন কৰিব নোৱাৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ignore",
+     "as": "অৱহেলা কৰা"
     },
     {
      "en": "recall",
@@ -86452,8 +86452,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'recall' is a synonym of 'remember'; both words have nearly the same meaning.",
-    "as": "'recall' (মনত পেলোৱা) হৈছে 'remember' (মনত ৰখা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Remember' means to bring something back to mind — to remember a name. 'Recall' is the closest synonym. 'Forget' is the opposite, 'overlook' means to fail to notice, and 'ignore' means to pay no attention.",
+    "as": "'Remember' মানে মনত পেলোৱা — নাম মনত পেলোৱা। 'Recall' ওচৰৰ সমাৰ্থক। 'Forget' ওলোটা, 'overlook' মন কৰিব নোৱাৰা, 'ignore' অৱহেলা।"
    }
   },
   {
@@ -86554,26 +86554,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "conceal",
+     "as": "লুকুওৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "hide",
+     "as": "লুকুওৱা"
     },
     {
      "en": "disclose",
      "as": "প্ৰকাশ কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "suppress",
+     "as": "দমন কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'disclose' is a synonym of 'reveal'; both words have nearly the same meaning.",
-    "as": "'disclose' (প্ৰকাশ কৰা) হৈছে 'reveal' (প্ৰকাশ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Reveal' means to make known something hidden — to reveal a secret. 'Disclose' is the closest synonym. 'Conceal' and 'hide' are the opposite, and 'suppress' means to keep it from coming out.",
+    "as": "'Reveal' মানে লুকুৱা কথা প্ৰকাশ কৰা — গোপন কথা প্ৰকাশ। 'Disclose' ওচৰৰ সমাৰ্থক। 'Conceal' আৰু 'hide' ওলোটা, 'suppress' দমন কৰা।"
    }
   },
   {
@@ -86585,25 +86585,25 @@ module.exports = {
    "options": [
     {
      "en": "wealthy",
-     "as": "ধনী"
+     "as": "সম্পন্ন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "poor",
+     "as": "দৰিদ্ৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "needy",
+     "as": "অভাবগ্ৰস্ত"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "broke",
+     "as": "নিঃস্ব"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'wealthy' is a synonym of 'rich'; both words have nearly the same meaning.",
-    "as": "'wealthy' (ধনী) হৈছে 'rich' (ধনী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rich' means having a lot of money — a rich merchant. 'Wealthy' is the closest synonym. 'Poor', 'needy' and 'broke' are the opposite: people with almost nothing.",
+    "as": "'Rich' মানে ধনী — rich merchant। 'Wealthy' ওচৰৰ সমাৰ্থক। 'Poor', 'needy' আৰু 'broke' একেবাৰে নিঃস্ব মানুহ বুজায়।"
    }
   },
   {
@@ -86614,26 +86614,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "flexible",
+     "as": "নমনীয়"
     },
     {
      "en": "stiff",
      "as": "কঠিন"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "pliable",
+     "as": "নমনীয়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "soft",
+     "as": "কোমল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'stiff' is a synonym of 'rigid'; both words have nearly the same meaning.",
-    "as": "'stiff' (কঠিন) হৈছে 'rigid' (কঠোৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rigid' means not able to bend — a rigid frame — and also not willing to change. 'Stiff' matches the physical sense. 'Flexible' and 'pliable' are the opposite, and 'soft' describes texture.",
+    "as": "'Rigid' মানে বেঁকা নোহোৱা — rigid frame। 'Stiff' শাৰীৰিক অৰ্থত মিলে। 'Flexible' আৰু 'pliable' ওলোটা, 'soft' কোমল।"
    }
   },
   {
@@ -86644,26 +86644,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "smooth",
+     "as": "মসৃণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fine",
+     "as": "সূক্ষ্ম"
     },
     {
      "en": "coarse",
      "as": "খহটা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polished",
+     "as": "মাৰ্জিত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'coarse' is a synonym of 'rough'; both words have nearly the same meaning.",
-    "as": "'coarse' (খহটা) হৈছে 'rough' (খহটা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rough' means uneven to touch — rough skin, a rough road. 'Coarse' means made of large particles, the closest sense. 'Smooth' and 'polished' are the opposite, and 'fine' means made of small particles.",
+    "as": "'Rough' মানে খহটা — rough skin, rough road। 'Coarse' দানাদাৰ বুজায়। 'Smooth' আৰু 'polished' ওলোটা, 'fine' সূক্ষ্ম।"
    }
   },
   {
@@ -86674,26 +86674,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "polite",
+     "as": "ভদ্ৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "courteous",
+     "as": "সৌজন্যশীল"
     },
     {
      "en": "impolite",
      "as": "অভদ্ৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "gentle",
+     "as": "কোমল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'impolite' is a synonym of 'rude'; both words have nearly the same meaning.",
-    "as": "'impolite' (অভদ্ৰ) হৈছে 'rude' (অভদ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Rude' means showing no respect for others — a rude remark. 'Impolite' is the closest synonym. 'Polite' and 'courteous' are the opposite, and 'gentle' describes a soft manner rather than good manners.",
+    "as": "'Rude' মানে অভদ্ৰ — rude remark। 'Impolite' ওচৰৰ সমাৰ্থক। 'Polite' আৰু 'courteous' ওলোটা, 'gentle' কোমল।"
    }
   },
   {
@@ -86764,26 +86764,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "happy",
+     "as": "সুখী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "cheerful",
+     "as": "প্ৰফুল্ল"
     },
     {
      "en": "unhappy",
-     "as": "অসুখী"
+     "as": "দুখী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "joyful",
+     "as": "আনন্দময়"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'unhappy' is a synonym of 'sad'; both words have nearly the same meaning.",
-    "as": "'unhappy' (অসুখী) হৈছে 'sad' (দুঃখী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Sad' means feeling sorrow — a sad farewell, a sad song. 'Unhappy' is the closest synonym. 'Happy', 'cheerful' and 'joyful' are the opposite moods, each lifting the spirits.",
+    "as": "'Sad' মানে দুখী — sad farewell, sad song। 'Unhappy' ওচৰৰ সমাৰ্থক। 'Happy', 'cheerful' আৰু 'joyful' ওলোটা মনোভাৱ বুজায়।"
    }
   },
   {
@@ -86824,26 +86824,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "plentiful",
+     "as": "প্ৰচুৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "abundant",
+     "as": "বহুল"
     },
     {
      "en": "rare",
      "as": "বিৰল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "common",
+     "as": "সচৰাচৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'rare' is a synonym of 'scarce'; both words have nearly the same meaning.",
-    "as": "'rare' (বিৰল) হৈছে 'scarce' (দুৰ্লভ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Scarce' means there is not enough of something — water was scarce. 'Rare' means not found often, the closest sense. 'Plentiful', 'abundant' and 'common' are the opposite in the market.",
+    "as": "'Scarce' মানে দুৰ্লভ — পানী দুৰ্লভ আছিল। 'Rare' বিৰল বুজায়। 'Plentiful', 'abundant' আৰু 'common' ওলোটা।"
    }
   },
   {
@@ -86884,26 +86884,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "release",
+     "as": "এৰি দিয়া"
     },
     {
      "en": "grasp",
-     "as": "ধৰা"
+     "as": "ধৰি লোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "drop",
+     "as": "পেলোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "loosen",
+     "as": "ঢিলা কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'grasp' is a synonym of 'seize'; both words have nearly the same meaning.",
-    "as": "'grasp' (ধৰা) হৈছে 'seize' (দখল কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Seize' means to take hold of something quickly — to seize the rope. 'Grasp' is the closest synonym. 'Release', 'drop' and 'loosen' are the opposite actions of holding on.",
+    "as": "'Seize' মানে খৰধৰকৈ ধৰি লোৱা — ৰছী ধৰি লোৱা। 'Grasp' ওচৰৰ সমাৰ্থক। 'Release', 'drop' আৰু 'loosen' ওলোটা।"
    }
   },
   {
@@ -86914,26 +86914,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "junior",
+     "as": "কনিষ্ঠ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "younger",
+     "as": "সৰু"
     },
     {
      "en": "elder",
      "as": "জ্যেষ্ঠ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "subordinate",
+     "as": "অধীনস্থ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'elder' is a synonym of 'senior'; both words have nearly the same meaning.",
-    "as": "'elder' (জ্যেষ্ঠ) হৈছে 'senior' (জ্যেষ্ঠ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Senior' means older or higher in rank — a senior officer. 'Elder' is the closest synonym for age. 'Junior', 'younger' and 'subordinate' are the opposite.",
+    "as": "'Senior' মানে বয়সত বা পদত ডাঙৰ — senior officer। 'Elder' বয়সৰ অৰ্থত মিলে। 'Junior', 'younger' আৰু 'subordinate' ওলোটা।"
    }
   },
   {
@@ -86974,16 +86974,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "trivial",
+     "as": "তুচ্ছ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "light",
+     "as": "পাতল"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "joking",
+     "as": "ধেমেলীয়া"
     },
     {
      "en": "grave",
@@ -86992,8 +86992,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'grave' is a synonym of 'serious'; both words have nearly the same meaning.",
-    "as": "'grave' (গুৰুতৰ) হৈছে 'serious' (গম্ভীৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Serious' means important and not to be joked about — a serious injury. 'Grave' means very serious, the closest sense. 'Trivial' and 'light' are the opposite, and 'joking' describes the manner.",
+    "as": "'Serious' মানে গুৰুতৰ — serious injury। 'Grave' অতি গুৰুতৰ বুজায়। 'Trivial' আৰু 'light' ওলোটা, 'joking' ধেমেলীয়া।"
    }
   },
   {
@@ -87034,26 +87034,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "blunt",
+     "as": "ভোটা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "dull",
+     "as": "ভোটা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "flat",
+     "as": "সমতল"
     },
     {
      "en": "keen",
-     "as": "উৎসাহী"
+     "as": "তীক্ষ্ণ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'keen' is a synonym of 'sharp'; both words have nearly the same meaning.",
-    "as": "'keen' (উৎসাহী) হৈছে 'sharp' (তীক্ষ্ণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Sharp' means having a fine edge — a sharp knife — and also quick to notice. 'Keen' matches the noticing sense. 'Blunt' and 'dull' are the opposite, and 'flat' describes a surface rather than an edge.",
+    "as": "'Sharp' মানে তীক্ষ্ণ — sharp knife; তীক্ষ্ণ বুদ্ধিও বুজায়। 'Keen' বুদ্ধিৰ অৰ্থত মিলে। 'Blunt' আৰু 'dull' ওলোটা, 'flat' সমতল।"
    }
   },
   {
@@ -87064,26 +87064,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "expand",
+     "as": "বাঢ়ি যোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "grow",
+     "as": "বাঢ়া"
     },
     {
      "en": "contract",
-     "as": "সংকুচিত কৰা"
+     "as": "সংকুচিত হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "stretch",
+     "as": "টান হোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'contract' is a synonym of 'shrink'; both words have nearly the same meaning.",
-    "as": "'contract' (সংকুচিত কৰা) হৈছে 'shrink' (সংকুচিত হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Shrink' means to become smaller — woollen clothes shrink in hot water. 'Contract' means to draw together, the closest sense. 'Expand', 'grow' and 'stretch' are the opposite.",
+    "as": "'Shrink' মানে সৰু হোৱা — গৰম পানীত ঊণৰ কাপোৰ সৰু হয়। 'Contract' সংকুচিত হোৱা বুজায়। 'Expand', 'grow' আৰু 'stretch' ওলোটা।"
    }
   },
   {
@@ -87095,25 +87095,25 @@ module.exports = {
    "options": [
     {
      "en": "timid",
-     "as": "ভীতু"
+     "as": "লাজুকী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "bold",
+     "as": "দুঃসাহসী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "confident",
+     "as": "আত্মবিশ্বাসী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "outgoing",
+     "as": "মিলনপ্ৰিয়"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'timid' is a synonym of 'shy'; both words have nearly the same meaning.",
-    "as": "'timid' (ভীতু) হৈছে 'shy' (লাজুক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Shy' means uneasy with other people — a shy child. 'Timid' means easily frightened, the closest sense. 'Bold' and 'confident' are the opposite, and 'outgoing' means enjoying company.",
+    "as": "'Shy' মানে লাজুকী — shy child। 'Timid' ভয়াতুৰ বুজায়। 'Bold' আৰু 'confident' ওলোটা, 'outgoing' মিলনপ্ৰিয়।"
    }
   },
   {
@@ -87154,16 +87154,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "complex",
+     "as": "জটিল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "difficult",
+     "as": "কঠিন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "complicated",
+     "as": "জটিল"
     },
     {
      "en": "easy",
@@ -87172,8 +87172,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'easy' is a synonym of 'simple'; both words have nearly the same meaning.",
-    "as": "'easy' (সহজ) হৈছে 'simple' (সৰল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Simple' means easy to do or understand — a simple sum. 'Easy' is the closest synonym. 'Complex' and 'difficult' are the opposite, and 'complicated' means made of many connected parts.",
+    "as": "'Simple' মানে সহজ — simple sum। 'Easy' ওচৰৰ সমাৰ্থক। 'Complex' আৰু 'difficult' ওলোটা, 'complicated' জটিল।"
    }
   },
   {
@@ -87184,26 +87184,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "insincere",
+     "as": "কপট"
     },
     {
      "en": "genuine",
-     "as": "আচল"
+     "as": "আন্তৰিক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "false",
+     "as": "মিছা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "pretended",
+     "as": "ভাও ধৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'genuine' is a synonym of 'sincere'; both words have nearly the same meaning.",
-    "as": "'genuine' (আচল) হৈছে 'sincere' (আন্তৰিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Sincere' means meaning what you say — a sincere apology. 'Genuine' is the closest synonym. 'Insincere' and 'false' are the opposite, and 'pretended' means put on to deceive.",
+    "as": "'Sincere' মানে আন্তৰিক — sincere apology। 'Genuine' ওচৰৰ সমাৰ্থক। 'Insincere' আৰু 'false' ওলোটা, 'pretended' ভাও ধৰা।"
    }
   },
   {
@@ -87214,26 +87214,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "praise",
+     "as": "প্ৰশংসা"
     },
     {
      "en": "defame",
-     "as": "কুৎসা ৰটনা কৰা"
+     "as": "বদনাম কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "defend",
+     "as": "সমৰ্থন কৰা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "honour",
+     "as": "সন্মান কৰা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'defame' is a synonym of 'slander'; both words have nearly the same meaning.",
-    "as": "'defame' (কুৎসা ৰটনা কৰা) হৈছে 'slander' (কুৎসা ৰটনা কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Slander' means to say false things that damage a person's name — to slander a rival. 'Defame' is the closest synonym. 'Praise', 'defend' and 'honour' are the opposite.",
+    "as": "'Slander' মানে মিছা কথা কৈ সুনাম নষ্ট কৰা — প্ৰতিদ্বন্দ্বীক বদনাম কৰা। 'Defame' ওচৰৰ সমাৰ্থক। 'Praise', 'defend' আৰু 'honour' ওলোটা।"
    }
   },
   {
@@ -87244,26 +87244,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rough",
+     "as": "খহটা"
     },
     {
      "en": "even",
-     "as": "সমান"
+     "as": "মসৃণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "uneven",
+     "as": "অসমতল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "bumpy",
+     "as": "উখহা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'even' is a synonym of 'smooth'; both words have nearly the same meaning.",
-    "as": "'even' (সমান) হৈছে 'smooth' (মসৃণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Smooth' means having an even surface — smooth stone. 'Even' means level and without bumps, the closest sense. 'Rough' and 'uneven' are the opposite, and 'bumpy' means full of raised spots.",
+    "as": "'Smooth' মানে মসৃণ — smooth stone। 'Even' সমতল বুজায়। 'Rough' আৰু 'uneven' ওলোটা, 'bumpy' উখহা-বাখহা।"
    }
   },
   {
@@ -87274,16 +87274,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hard",
+     "as": "কঠিন"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "tough",
+     "as": "কঠিন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "firm",
+     "as": "দৃঢ়"
     },
     {
      "en": "tender",
@@ -87292,8 +87292,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'tender' is a synonym of 'soft'; both words have nearly the same meaning.",
-    "as": "'tender' (কোমল) হৈছে 'soft' (কোমল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Soft' means yielding when pressed — a soft pillow — and gentle in manner. 'Tender' matches the gentle sense. 'Hard' and 'tough' are the opposite, and 'firm' means solid rather than yielding.",
+    "as": "'Soft' মানে কোমল — soft pillow। 'Tender' কোমল ব্যৱহাৰৰ অৰ্থত মিলে। 'Hard' আৰু 'tough' ওলোটা, 'firm' দৃঢ়।"
    }
   },
   {
@@ -87304,26 +87304,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "liquid",
+     "as": "তৰল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "hollow",
+     "as": "ফোঁপোলা"
     },
     {
      "en": "firm",
      "as": "দৃঢ়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "soft",
+     "as": "কোমল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'firm' is a synonym of 'solid'; both words have nearly the same meaning.",
-    "as": "'firm' (দৃঢ়) হৈছে 'solid' (ঘন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Solid' means hard and not hollow — solid rock. 'Firm' means not yielding, the closest sense. 'Liquid' is a different state, 'hollow' means empty inside, and 'soft' yields when pressed.",
+    "as": "'Solid' মানে কঠিন আৰু ফোঁপোলা নহয় — solid rock। 'Firm' দৃঢ় বুজায়। 'Liquid' তৰল, 'hollow' ফোঁপোলা, 'soft' কোমল।"
    }
   },
   {
@@ -87364,26 +87364,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "miser",
+     "as": "কৃপণ"
     },
     {
      "en": "waster",
-     "as": "অপব্যয়ী"
+     "as": "অপচয়কাৰী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "saver",
+     "as": "সঞ্চয়কাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "thrifty",
+     "as": "মিতব্যয়ী"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'waster' is a synonym of 'spendthrift'; both words have nearly the same meaning.",
-    "as": "'waster' (অপব্যয়ী) হৈছে 'spendthrift' (অপব্যয়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Spendthrift' means a person who wastes money — a spendthrift heir. 'Waster' means one who wastes, the closest sense. 'Miser' and 'saver' are the opposite, and 'thrifty' describes careful spending.",
+    "as": "'Spendthrift' মানে ধন অপচয় কৰা মানুহ — spendthrift heir। 'Waster' অপচয়কাৰী বুজায়। 'Miser' আৰু 'saver' ওলোটা, 'thrifty' মিতব্যয়ী।"
    }
   },
   {
@@ -87398,22 +87398,22 @@ module.exports = {
      "as": "ভৱ্য"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "plain",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "modest",
+     "as": "নম্ৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'magnificent' is a synonym of 'splendid'; both words have nearly the same meaning.",
-    "as": "'magnificent' (ভৱ্য) হৈছে 'splendid' (ভৱ্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Splendid' means very impressive — a splendid palace. 'Magnificent' is the closest synonym. 'Ordinary' and 'plain' are the opposite, and 'modest' means deliberately not grand.",
+    "as": "'Splendid' মানে অতি ভৱ্য — splendid palace। 'Magnificent' ওচৰৰ সমাৰ্থক। 'Ordinary' আৰু 'plain' ওলোটা, 'modest' নম্ৰ।"
    }
   },
   {
@@ -87424,16 +87424,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "unstable",
+     "as": "অস্থিৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "shaky",
+     "as": "কম্পমান"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wobbly",
+     "as": "লৰচৰীয়া"
     },
     {
      "en": "steady",
@@ -87442,8 +87442,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'steady' is a synonym of 'stable'; both words have nearly the same meaning.",
-    "as": "'steady' (স্থিৰ) হৈছে 'stable' (স্থিৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Stable' means not likely to change or fall — a stable structure, a stable job. 'Steady' is the closest synonym. 'Unstable', 'shaky' and 'wobbly' are the opposite.",
+    "as": "'Stable' মানে লৰচৰ নোহোৱা — stable structure, stable job। 'Steady' ওচৰৰ সমাৰ্থক। 'Unstable', 'shaky' আৰু 'wobbly' ওলোটা।"
    }
   },
   {
@@ -87484,26 +87484,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lenient",
+     "as": "কোমল"
     },
     {
      "en": "strict",
      "as": "কঠোৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "gentle",
+     "as": "কোমল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'strict' is a synonym of 'stern'; both words have nearly the same meaning.",
-    "as": "'strict' (কঠোৰ) হৈছে 'stern' (কঠোৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Stern' means firm and serious in manner — a stern warning. 'Strict' is the closest synonym. 'Lenient' and 'mild' are the opposite, and 'gentle' describes a soft manner rather than a firm one.",
+    "as": "'Stern' মানে কঠোৰ আৰু গম্ভীৰ — stern warning। 'Strict' ওচৰৰ সমাৰ্থক। 'Lenient' আৰু 'mild' ওলোটা, 'gentle' কোমল।"
    }
   },
   {
@@ -87544,16 +87544,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "lenient",
+     "as": "কোমল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lax",
+     "as": "শিথিল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "easygoing",
+     "as": "ধীৰ-স্থিৰ"
     },
     {
      "en": "stern",
@@ -87562,8 +87562,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'stern' is a synonym of 'strict'; both words have nearly the same meaning.",
-    "as": "'stern' (কঠোৰ) হৈছে 'strict' (কঠোৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Strict' means insisting on rules being followed — a strict teacher. 'Stern' is the closest synonym. 'Lenient' and 'lax' are the opposite, and 'easygoing' means relaxed about rules.",
+    "as": "'Strict' মানে নিয়ম মানি চলিবলৈ বাধ্য কৰা — strict teacher। 'Stern' ওচৰৰ সমাৰ্থক। 'Lenient' আৰু 'lax' ওলোটা, 'easygoing' শিথিল।"
    }
   },
   {
@@ -87574,26 +87574,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "mild",
+     "as": "মৃদু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
      "en": "powerful",
-     "as": "শক্তিশালী"
+     "as": "প্ৰবল"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'powerful' is a synonym of 'strong'; both words have nearly the same meaning.",
-    "as": "'powerful' (শক্তিশালী) হৈছে 'strong' (বলৱান) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Strong' means having great physical power — a strong man — and also not easily damaged. 'Powerful' is the closest synonym. 'Weak' is the opposite, and 'mild' and 'gentle' describe something soft rather than forceful.",
+    "as": "'Strong' মানে প্ৰবল শক্তি — strong man। 'Powerful' ওচৰৰ সমাৰ্থক। 'Weak' ওলোটা, 'mild' আৰু 'gentle' কোমল বুজায়।"
    }
   },
   {
@@ -87604,26 +87604,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "flexible",
+     "as": "নমনীয়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "yielding",
+     "as": "হাৰ মানি লোৱা"
     },
     {
      "en": "obstinate",
-     "as": "একগুঁয়ে"
+     "as": "জেদী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "obedient",
+     "as": "আজ্ঞাবহ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'obstinate' is a synonym of 'stubborn'; both words have nearly the same meaning.",
-    "as": "'obstinate' (একগুঁয়ে) হৈছে 'stubborn' (একগুঁয়ে) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Stubborn' means refusing to change your mind — a stubborn mule. 'Obstinate' is the closest synonym. 'Flexible' and 'yielding' are the opposite, and 'obedient' means doing as you are told.",
+    "as": "'Stubborn' মানে নিজৰ মত নেৰা — stubborn mule। 'Obstinate' ওচৰৰ সমাৰ্থক। 'Flexible' আৰু 'yielding' ওলোটা, 'obedient' আজ্ঞাবহ।"
    }
   },
   {
@@ -87634,26 +87634,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "wise",
+     "as": "জ্ঞানী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "clever",
+     "as": "চতুৰ"
     },
     {
      "en": "foolish",
      "as": "মূৰ্খ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sensible",
+     "as": "বোধসম্মত"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'foolish' is a synonym of 'stupid'; both words have nearly the same meaning.",
-    "as": "'foolish' (মূৰ্খ) হৈছে 'stupid' (মূৰ্খ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Stupid' means showing very little intelligence — a stupid mistake. 'Foolish' is the closest synonym. 'Wise', 'clever' and 'sensible' describe good judgement, the opposite of stupid behaviour.",
+    "as": "'Stupid' মানে বুদ্ধিহীন — stupid mistake। 'Foolish' ওচৰৰ সমাৰ্থক। 'Wise', 'clever' আৰু 'sensible' ওলোটা।"
    }
   },
   {
@@ -87664,26 +87664,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "resist",
+     "as": "প্ৰতিৰোধ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "defy",
+     "as": "অবাধ্য হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "refuse",
+     "as": "অস্বীকাৰ কৰা"
     },
     {
      "en": "yield",
-     "as": "বশ হোৱা"
+     "as": "মানি লোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'yield' is a synonym of 'submit'; both words have nearly the same meaning.",
-    "as": "'yield' (বশ হোৱা) হৈছে 'submit' (বশ হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Submit' means to accept the power of another — to submit to the court. 'Yield' is the closest synonym. 'Resist', 'defy' and 'refuse' are the opposite.",
+    "as": "'Submit' মানে আনৰ অধীন মানি লোৱা — আদালতৰ অধীন মানি লোৱা। 'Yield' ওচৰৰ সমাৰ্থক। 'Resist', 'defy' আৰু 'refuse' ওলোটা।"
    }
   },
   {
@@ -87694,26 +87694,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fail",
+     "as": "বিফল হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "lose",
+     "as": "হেৰুওৱা"
     },
     {
      "en": "prosper",
      "as": "সমৃদ্ধ হোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "collapse",
+     "as": "ধ্বংস হোৱা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'prosper' is a synonym of 'succeed'; both words have nearly the same meaning.",
-    "as": "'prosper' (সমৃদ্ধ হোৱা) হৈছে 'succeed' (সফল হোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Succeed' means to achieve what you set out to do — the plan succeeded. 'Prosper' means to do well and grow, the closest sense. 'Fail', 'lose' and 'collapse' are the opposite.",
+    "as": "'Succeed' মানে উদ্দেশ্য সফল হোৱা — পৰিকল্পনা সফল হ'ল। 'Prosper' ভালকৈ চলা বুজায়। 'Fail', 'lose' আৰু 'collapse' ওলোটা।"
    }
   },
   {
@@ -87724,26 +87724,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "gradual",
+     "as": "ক্ৰমশঃ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "expected",
+     "as": "প্ৰত্যাশিত"
     },
     {
      "en": "abrupt",
      "as": "আকস্মিক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'abrupt' is a synonym of 'sudden'; both words have nearly the same meaning.",
-    "as": "'abrupt' (আকস্মিক) হৈছে 'sudden' (আকস্মিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Sudden' means happening without warning — a sudden stop. 'Abrupt' means sudden and often unwelcome, the closest sense. 'Gradual' and 'slow' are the opposite, and 'expected' means it was foreseen.",
+    "as": "'Sudden' মানে হঠাৎ — sudden stop। 'Abrupt' হঠাৎ আৰু অপ্ৰিয় বুজায়। 'Gradual' আৰু 'slow' ওলোটা, 'expected' আগতীয়াকৈ জনা।"
    }
   },
   {
@@ -87788,22 +87788,22 @@ module.exports = {
      "as": "উচ্চ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "inferior",
+     "as": "নিকৃষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "lower",
+     "as": "নিম্ন"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "worse",
+     "as": "আৰু বেয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'higher' is a synonym of 'superior'; both words have nearly the same meaning.",
-    "as": "'higher' (উচ্চ) হৈছে 'superior' (উচ্চ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Superior' means better or higher in rank — a superior officer, superior quality. 'Higher' matches the rank sense. 'Inferior', 'lower' and 'worse' are the opposite.",
+    "as": "'Superior' মানে শ্ৰেষ্ঠ বা উচ্চ পদৰ — superior officer। 'Higher' পদৰ অৰ্থত মিলে। 'Inferior', 'lower' আৰু 'worse' ওলোটা।"
    }
   },
   {
@@ -87814,26 +87814,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rigid",
+     "as": "কঠোৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "stiff",
+     "as": "অনমনীয়"
     },
     {
      "en": "flexible",
      "as": "নমনীয়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "brittle",
+     "as": "ভঙ্গুৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'flexible' is a synonym of 'supple'; both words have nearly the same meaning.",
-    "as": "'flexible' (নমনীয়) হৈছে 'supple' (নমনীয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Supple' means bending easily without breaking — supple leather. 'Flexible' is the closest synonym. 'Rigid' and 'stiff' are the opposite, and 'brittle' means it breaks rather than bends.",
+    "as": "'Supple' মানে সহজে বেঁকা হোৱা — supple leather। 'Flexible' ওচৰৰ সমাৰ্থক। 'Rigid' আৰু 'stiff' ওলোটা, 'brittle' ভঙা বুজায়।"
    }
   },
   {
@@ -87845,25 +87845,25 @@ module.exports = {
    "options": [
     {
      "en": "yield",
-     "as": "বশ হোৱা"
+     "as": "হাৰ মানি লোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "resist",
+     "as": "প্ৰতিৰোধ কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fight",
+     "as": "যুঁজ দিয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "defend",
+     "as": "প্ৰতিৰক্ষা কৰা"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'yield' is a synonym of 'surrender'; both words have nearly the same meaning.",
-    "as": "'yield' (বশ হোৱা) হৈছে 'surrender' (আত্মসমৰ্পণ কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Surrender' means to stop fighting and accept defeat — to surrender the fort. 'Yield' is the closest synonym. 'Resist', 'fight' and 'defend' are the opposite.",
+    "as": "'Surrender' মানে হাৰ মানি লোৱা — দুৰ্গ সমৰ্পণ কৰা। 'Yield' ওচৰৰ সমাৰ্থক। 'Resist', 'fight' আৰু 'defend' ওলোটা।"
    }
   },
   {
@@ -87874,26 +87874,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "slow",
+     "as": "লেহেমীয়া"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sluggish",
+     "as": "মন্থৰ"
     },
     {
      "en": "quick",
      "as": "দ্ৰুত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "delayed",
+     "as": "পলম"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'quick' is a synonym of 'swift'; both words have nearly the same meaning.",
-    "as": "'quick' (দ্ৰুত) হৈছে 'swift' (ক্ষিপ্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Swift' means moving very fast — a swift runner. 'Quick' is the closest synonym. 'Slow' and 'sluggish' are the opposite, and 'delayed' means it happened later than planned.",
+    "as": "'Swift' মানে অতি দ্ৰুত — swift runner। 'Quick' ওচৰৰ সমাৰ্থক। 'Slow' আৰু 'sluggish' ওলোটা, 'delayed' পলম।"
    }
   },
   {
@@ -87935,25 +87935,25 @@ module.exports = {
    "options": [
     {
      "en": "docile",
-     "as": "বাধ্য"
+     "as": "আজ্ঞাবহ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wild",
+     "as": "বনৰীয়া"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fierce",
+     "as": "হিংস্ৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "untamed",
+     "as": "অপোহনীয়া"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'docile' is a synonym of 'tame'; both words have nearly the same meaning.",
-    "as": "'docile' (বাধ্য) হৈছে 'tame' (পোহনীয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Tame' means used to people and easy to control — a tame parrot. 'Docile' means willing to be managed, the closest sense. 'Wild', 'fierce' and 'untamed' are the opposite.",
+    "as": "'Tame' মানে পোহনীয়া — tame parrot। 'Docile' আজ্ঞাবহ বুজায়। 'Wild', 'fierce' আৰু 'untamed' ওলোটা।"
    }
   },
   {
@@ -87968,22 +87968,22 @@ module.exports = {
      "as": "ক্ষণস্থায়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "permanent",
+     "as": "স্থায়ী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "lasting",
+     "as": "দীৰ্ঘস্থায়ী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "eternal",
+     "as": "চিৰস্থায়ী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'transient' is a synonym of 'temporary'; both words have nearly the same meaning.",
-    "as": "'transient' (ক্ষণস্থায়ী) হৈছে 'temporary' (অস্থায়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Temporary' means lasting only a short time — a temporary job. 'Transient' means passing quickly, the closest sense. 'Permanent', 'lasting' and 'eternal' are the opposite.",
+    "as": "'Temporary' মানে অস্থায়ী — temporary job। 'Transient' ক্ষণস্থায়ী বুজায়। 'Permanent', 'lasting' আৰু 'eternal' ওলোটা।"
    }
   },
   {
@@ -87998,22 +87998,22 @@ module.exports = {
      "as": "কোমল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "harsh",
+     "as": "কঠোৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "rough",
+     "as": "খহটা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "cruel",
+     "as": "নিষ্ঠুৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'gentle' is a synonym of 'tender'; both words have nearly the same meaning.",
-    "as": "'gentle' (কোমল) হৈছে 'tender' (কোমল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Tender' means soft and gentle in touch or manner — a tender voice. 'Gentle' is the closest synonym. 'Harsh', 'rough' and 'cruel' are the opposite in feel or tone.",
+    "as": "'Tender' মানে কোমল — tender voice। 'Gentle' ওচৰৰ সমাৰ্থক। 'Harsh', 'rough' আৰু 'cruel' ওলোটা।"
    }
   },
   {
@@ -88028,22 +88028,22 @@ module.exports = {
      "as": "টান"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "loose",
+     "as": "ঢিলা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "slack",
+     "as": "শিথিল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "relaxed",
+     "as": "শিথিল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'taut' is a synonym of 'tense'; both words have nearly the same meaning.",
-    "as": "'taut' (টান) হৈছে 'tense' (তনু) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Tense' means pulled tight — a tense rope, tense muscles — and also nervous. 'Taut' matches the rope sense. 'Loose', 'slack' and 'relaxed' are the opposite.",
+    "as": "'Tense' মানে টান — tense rope; উদ্বিগ্নও বুজায়। 'Taut' ৰছীৰ অৰ্থত মিলে। 'Loose', 'slack' আৰু 'relaxed' ওলোটা।"
    }
   },
   {
@@ -88054,26 +88054,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "thin",
+     "as": "পাতল"
     },
     {
      "en": "dense",
      "as": "ঘন"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "sparse",
+     "as": "বিৰল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "watery",
+     "as": "পানীযুক্‌ত"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'dense' is a synonym of 'thick'; both words have nearly the same meaning.",
-    "as": "'dense' (ঘন) হৈছে 'thick' (ডাঠ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Thick' means having a large distance between opposite sides — a thick wall — and closely packed. 'Dense' matches the closely packed sense. 'Thin' and 'sparse' are the opposite, and 'watery' describes a liquid.",
+    "as": "'Thick' মানে ডাঠ — thick wall; ঘনো বুজায়। 'Dense' ঘন অৰ্থত মিলে। 'Thin' আৰু 'sparse' ওলোটা, 'watery' পানীযুক্‌ত।"
    }
   },
   {
@@ -88084,26 +88084,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fat",
+     "as": "মোটা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "thick",
+     "as": "ডাঠ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "wide",
+     "as": "বহল"
     },
     {
      "en": "slim",
-     "as": "পাতল"
+     "as": "ক্ষীণ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'slim' is a synonym of 'thin'; both words have nearly the same meaning.",
-    "as": "'slim' (পাতল) হৈছে 'thin' (পাতল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Thin' means having little width or flesh — a thin book, a thin man. 'Slim' matches the body sense. 'Fat' and 'thick' are the opposite, and 'wide' describes breadth rather than thinness.",
+    "as": "'Thin' মানে পাতল — thin book, thin man। 'Slim' শৰীৰৰ অৰ্থত মিলে। 'Fat' আৰু 'thick' ওলোটা, 'wide' বহল বুজায়।"
    }
   },
   {
@@ -88118,22 +88118,22 @@ module.exports = {
      "as": "মিতব্যয়ী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "wasteful",
+     "as": "অপচয়কাৰী"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "extravagant",
+     "as": "অমিতব্যয়ী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "spendthrift",
+     "as": "অপচয়ী"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'frugal' is a synonym of 'thrifty'; both words have nearly the same meaning.",
-    "as": "'frugal' (মিতব্যয়ী) হৈছে 'thrifty' (মিতব্যয়ী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Thrifty' means careful with money — a thrifty household. 'Frugal' is the closest synonym. 'Wasteful' and 'extravagant' are the opposite, and 'spendthrift' describes a person who wastes money.",
+    "as": "'Thrifty' মানে মিতব্যয়ী — thrifty household। 'Frugal' ওচৰৰ সমাৰ্থক। 'Wasteful' আৰু 'extravagant' ওলোটা, 'spendthrift' অপচয়কাৰী।"
    }
   },
   {
@@ -88144,26 +88144,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "bold",
+     "as": "দুঃসাহসী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "confident",
+     "as": "আত্মবিশ্বাসী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "daring",
+     "as": "সাহসী"
     },
     {
      "en": "shy",
-     "as": "লাজুক"
+     "as": "লাজুকী"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'shy' is a synonym of 'timid'; both words have nearly the same meaning.",
-    "as": "'shy' (লাজুক) হৈছে 'timid' (ভীতু) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Timid' means easily frightened — a timid animal, a timid reply. 'Shy' is the closest synonym. 'Bold', 'confident' and 'daring' describe the opposite temperament, one that faces risk.",
+    "as": "'Timid' মানে ভয়াতুৰ — timid animal, timid reply। 'Shy' ওচৰৰ সমাৰ্থক। 'Bold', 'confident' আৰু 'daring' ওলোটা মনোভাৱ বুজায়।"
    }
   },
   {
@@ -88205,25 +88205,25 @@ module.exports = {
    "options": [
     {
      "en": "patient",
-     "as": "ধৈৰ্য্যৱান"
+     "as": "সহনশীল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "intolerant",
+     "as": "অসহনশীল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "impatient",
+     "as": "অধৈৰ্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strict",
+     "as": "কঠোৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'patient' is a synonym of 'tolerant'; both words have nearly the same meaning.",
-    "as": "'patient' (ধৈৰ্য্যৱান) হৈছে 'tolerant' (সহনশীল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Tolerant' means willing to accept differences — a tolerant society. 'Patient' means bearing difficulty calmly, the closest sense. 'Intolerant' and 'impatient' are the opposite, and 'strict' means firm about rules.",
+    "as": "'Tolerant' মানে সহনশীল — tolerant society। 'Patient' ধৈৰ্যশীল বুজায়। 'Intolerant' আৰু 'impatient' ওলোটা, 'strict' কঠোৰ।"
    }
   },
   {
@@ -88234,16 +88234,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "noisy",
+     "as": "শব্দময়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "restless",
+     "as": "অস্থিৰ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "violent",
+     "as": "হিংস্ৰ"
     },
     {
      "en": "calm",
@@ -88252,8 +88252,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'calm' is a synonym of 'tranquil'; both words have nearly the same meaning.",
-    "as": "'calm' (শান্ত) হৈছে 'tranquil' (শান্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Tranquil' means peaceful and still — a tranquil lake. 'Calm' is the closest synonym. 'Noisy' and 'restless' are the opposite, and 'violent' describes force rather than stillness.",
+    "as": "'Tranquil' মানে শান্ত — tranquil lake। 'Calm' ওচৰৰ সমাৰ্থক। 'Noisy' আৰু 'restless' ওলোটা, 'violent' হিংস্ৰ।"
    }
   },
   {
@@ -88264,26 +88264,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "opaque",
+     "as": "অপাৰদৰ্শী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "cloudy",
+     "as": "ঘোলা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hidden",
+     "as": "লুকুৱা"
     },
     {
      "en": "clear",
-     "as": "স্পষ্ট"
+     "as": "স্বচ্ছ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'clear' is a synonym of 'transparent'; both words have nearly the same meaning.",
-    "as": "'clear' (স্পষ্ট) হৈছে 'transparent' (স্বচ্ছ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Transparent' means you can see through it — transparent glass — and also easy to understand. 'Clear' matches both senses. 'Opaque' and 'cloudy' are the opposite, and 'hidden' means kept from view.",
+    "as": "'Transparent' মানে চুব পৰা — transparent glass; স্পষ্টও বুজায়। 'Clear' দুয়োটা অৰ্থত মিলে। 'Opaque' আৰু 'cloudy' ওলোটা, 'hidden' লুকুৱা।"
    }
   },
   {
@@ -88294,16 +88294,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "defeat",
+     "as": "পৰাজয়"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "failure",
+     "as": "বিফলতা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "loss",
+     "as": "ক্ষতি"
     },
     {
      "en": "victory",
@@ -88312,8 +88312,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'victory' is a synonym of 'triumph'; both words have nearly the same meaning.",
-    "as": "'victory' (বিজয়) হৈছে 'triumph' (বিজয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Triumph' means a great win — a triumph over the champions. 'Victory' is the closest synonym. 'Defeat', 'failure' and 'loss' are the opposite outcomes on the day.",
+    "as": "'Triumph' মানে মহাবিজয় — চেম্পিয়নৰ বিৰুদ্ধে জয়। 'Victory' ওচৰৰ সমাৰ্থক। 'Defeat', 'failure' আৰু 'loss' ওলোটা।"
    }
   },
   {
@@ -88324,16 +88324,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "false",
+     "as": "মিছা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "wrong",
+     "as": "ভুল"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "doubtful",
+     "as": "সন্দেহজনক"
     },
     {
      "en": "accurate",
@@ -88342,8 +88342,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'accurate' is a synonym of 'true'; both words have nearly the same meaning.",
-    "as": "'accurate' (সঠিক) হৈছে 'true' (সত্য) ৰ সমাৰ্থক শব্দ।"
+    "en": "'True' means matching the facts — a true story. 'Accurate' means correct in detail, the closest sense. 'False' and 'wrong' are the opposite, and 'doubtful' means open to question.",
+    "as": "'True' মানে সঁচা — true story। 'Accurate' নিখুঁত বুজায়। 'False' আৰু 'wrong' ওলোটা, 'doubtful' সন্দেহজনক।"
    }
   },
   {
@@ -88355,25 +88355,25 @@ module.exports = {
    "options": [
     {
      "en": "hideous",
-     "as": "কুৰূপ"
+     "as": "কুৎসিত"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "beautiful",
+     "as": "সুন্দৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "handsome",
+     "as": "সুদৰ্শন"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "pleasant",
+     "as": "সুখদ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'hideous' is a synonym of 'ugly'; both words have nearly the same meaning.",
-    "as": "'hideous' (কুৰূপ) হৈছে 'ugly' (কুৎসিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Ugly' means unpleasant to look at — an ugly scar, an ugly building. 'Hideous' means extremely ugly, the closest sense. 'Beautiful', 'handsome' and 'pleasant' are the opposite.",
+    "as": "'Ugly' মানে কুৎসিত — ugly scar। 'Hideous' অতি কুৎসিত বুজায়। 'Beautiful', 'handsome' আৰু 'pleasant' ওলোটা।"
    }
   },
   {
@@ -88414,26 +88414,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "common",
+     "as": "সচৰাচৰ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
      "en": "rare",
      "as": "বিৰল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "usual",
+     "as": "সাধাৰণ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'rare' is a synonym of 'unusual'; both words have nearly the same meaning.",
-    "as": "'rare' (বিৰল) হৈছে 'unusual' (অসাধাৰণ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Unusual' means not happening or seen often — an unusual colour. 'Rare' means found only occasionally, the closest sense. 'Common', 'ordinary' and 'usual' are the opposite.",
+    "as": "'Unusual' মানে অসাধাৰণ — unusual colour। 'Rare' বিৰল বুজায়। 'Common', 'ordinary' আৰু 'usual' ওলোটা।"
    }
   },
   {
@@ -88504,26 +88504,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "full",
+     "as": "ভৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "occupied",
+     "as": "অধিকৃত"
     },
     {
      "en": "empty",
      "as": "খালী"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "crowded",
+     "as": "ভিৰভাটি"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'empty' is a synonym of 'vacant'; both words have nearly the same meaning.",
-    "as": "'empty' (খালী) হৈছে 'vacant' (খালী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vacant' means not occupied — a vacant seat. 'Empty' means having nothing inside, the closest sense. 'Full' and 'crowded' are the opposite, and 'occupied' means someone is using it.",
+    "as": "'Vacant' মানে খালী — vacant seat। 'Empty' ভিতৰত একো নথকা বুজায়। 'Full' আৰু 'crowded' ওলোটা, 'occupied' অধিকৃত।"
    }
   },
   {
@@ -88538,22 +88538,22 @@ module.exports = {
      "as": "অস্পষ্ট"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "precise",
+     "as": "নিখুঁত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "definite",
+     "as": "নিৰ্দিষ্ট"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "obvious",
+     "as": "স্পষ্ট"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'unclear' is a synonym of 'vague'; both words have nearly the same meaning.",
-    "as": "'unclear' (অস্পষ্ট) হৈছে 'vague' (অস্পষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vague' means not expressed clearly — a vague answer. 'Unclear' is the closest synonym. 'Precise' and 'definite' are the opposite, and 'obvious' means easy to see or understand.",
+    "as": "'Vague' মানে অস্পষ্ট — vague answer। 'Unclear' ওচৰৰ সমাৰ্থক। 'Precise' আৰু 'definite' ওলোটা, 'obvious' স্পষ্ট।"
    }
   },
   {
@@ -88565,25 +88565,25 @@ module.exports = {
    "options": [
     {
      "en": "brave",
-     "as": "সাহসী"
+     "as": "বীৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "cowardly",
+     "as": "কাপুৰুষ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "fearful",
+     "as": "ভয়ভীত"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "timid",
+     "as": "ভয়াতুৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'brave' is a synonym of 'valiant'; both words have nearly the same meaning.",
-    "as": "'brave' (সাহসী) হৈছে 'valiant' (বীক্ৰমী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Valiant' means showing courage in danger — a valiant soldier. 'Brave' is the closest synonym. 'Cowardly', 'fearful' and 'timid' are the opposite in the face of danger.",
+    "as": "'Valiant' মানে সাহসী — valiant soldier। 'Brave' ওচৰৰ সমাৰ্থক। 'Cowardly', 'fearful' আৰু 'timid' ওলোটা।"
    }
   },
   {
@@ -88654,26 +88654,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "finite",
-     "as": "সীমিত"
+     "en": "tiny",
+     "as": "অতি সৰু"
     },
     {
-     "en": "giant",
-     "as": "দানৱ"
+     "en": "limited",
+     "as": "সীমিত"
     },
     {
      "en": "huge",
      "as": "বিশাল"
     },
     {
-     "en": "dwarf",
-     "as": "বামন"
+     "en": "narrow",
+     "as": "ঠেক"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'huge' is a synonym of 'vast'; both words have nearly the same meaning.",
-    "as": "'huge' (বিশাল) হৈছে 'vast' (বিশাল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vast' means extremely wide or great in amount — a vast plain, a vast sum. 'Huge' is the closest synonym. 'Tiny' and 'limited' are the opposite, and 'narrow' describes width alone.",
+    "as": "'Vast' মানে অতি বিশাল — vast plain, vast sum। 'Huge' ওচৰৰ সমাৰ্থক। 'Tiny' আৰু 'limited' ওলোটা, 'narrow' ঠেক।"
    }
   },
   {
@@ -88684,26 +88684,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "defeat",
+     "as": "পৰাজয়"
     },
     {
      "en": "triumph",
-     "as": "বিজয়"
+     "as": "মহাবিজয়"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "loss",
+     "as": "ক্ষতি"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "failure",
+     "as": "বিফলতা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'triumph' is a synonym of 'victory'; both words have nearly the same meaning.",
-    "as": "'triumph' (বিজয়) হৈছে 'victory' (বিজয়) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Victory' means winning a battle or contest — a narrow victory. 'Triumph' means a great win, the closest sense. 'Defeat', 'loss' and 'failure' are the opposite.",
+    "as": "'Victory' মানে জয় — narrow victory। 'Triumph' মহাবিজয় বুজায়। 'Defeat', 'loss' আৰু 'failure' ওলোটা।"
    }
   },
   {
@@ -88714,26 +88714,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "careless",
+     "as": "অসাৱধান"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "inattentive",
+     "as": "অমনোযোগী"
     },
     {
      "en": "watchful",
      "as": "সতৰ্ক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "sleepy",
+     "as": "টোপনিয়াল"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'watchful' is a synonym of 'vigilant'; both words have nearly the same meaning.",
-    "as": "'watchful' (সতৰ্ক) হৈছে 'vigilant' (সতৰ্ক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vigilant' means keeping a careful watch — a vigilant guard. 'Watchful' is the closest synonym. 'Careless' and 'inattentive' are the opposite, and 'sleepy' describes a physical state.",
+    "as": "'Vigilant' মানে সতৰ্ক দৃষ্টি ৰখা — vigilant guard। 'Watchful' ওচৰৰ সমাৰ্থক। 'Careless' আৰু 'inattentive' ওলোটা, 'sleepy' টোপনিয়াল।"
    }
   },
   {
@@ -88744,26 +88744,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "weak",
+     "as": "দুৰ্বল"
     },
     {
      "en": "strong",
-     "as": "বলৱান"
+     "as": "শক্তিশালী"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "feeble",
+     "as": "অতি দুৰ্বল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "lazy",
+     "as": "এলেহুৱা"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'strong' is a synonym of 'vigorous'; both words have nearly the same meaning.",
-    "as": "'strong' (বলৱান) হৈছে 'vigorous' (সবল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vigorous' means full of energy and force — a vigorous effort. 'Strong' is the closest synonym. 'Weak' and 'feeble' are the opposite, and 'lazy' describes unwillingness to work.",
+    "as": "'Vigorous' মানে শক্তিশালী আৰু সক্ৰিয় — vigorous effort। 'Strong' ওচৰৰ সমাৰ্থক। 'Weak' আৰু 'feeble' ওলোটা, 'lazy' এলেহুৱা।"
    }
   },
   {
@@ -88774,26 +88774,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "gentle",
+     "as": "কোমল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "peaceful",
+     "as": "শান্তিপূৰ্ণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "calm",
+     "as": "শান্ত"
     },
     {
      "en": "fierce",
-     "as": "উগ্ৰ"
+     "as": "হিংস্ৰ"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'fierce' is a synonym of 'violent'; both words have nearly the same meaning.",
-    "as": "'fierce' (উগ্ৰ) হৈছে 'violent' (হিংস্ৰ) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Violent' means using force to hurt — a violent attack. 'Fierce' carries the same force. 'Gentle' and 'peaceful' are the opposite, and 'calm' describes a quiet state.",
+    "as": "'Violent' মানে হিংস্ৰ — violent attack। 'Fierce' একেই অৰ্থ দিয়ে। 'Gentle' আৰু 'peaceful' ওলোটা, 'calm' শান্ত।"
    }
   },
   {
@@ -88834,26 +88834,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "faded",
+     "as": "ম্লান"
     },
     {
      "en": "bright",
      "as": "উজ্জ্বল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dim",
+     "as": "ক্ষীণ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'bright' is a synonym of 'vivid'; both words have nearly the same meaning.",
-    "as": "'bright' (উজ্জ্বল) হৈছে 'vivid' (স্পষ্ট) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Vivid' means very bright or clear in the mind — vivid colours, a vivid memory. 'Bright' matches the colour sense. 'Dull' and 'faded' are the opposite, and 'dim' means poor light.",
+    "as": "'Vivid' মানে উজ্জ্বল বা স্পষ্ট — vivid colours, vivid memory। 'Bright' ৰঙৰ অৰ্থত মিলে। 'Dull' আৰু 'faded' ওলোটা, 'dim' ম্লান।"
    }
   },
   {
@@ -88924,16 +88924,16 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "have",
+     "as": "থকা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "possess",
+     "as": "অধিকাৰ কৰা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "plenty",
+     "as": "প্ৰচুৰ"
     },
     {
      "en": "lack",
@@ -88942,8 +88942,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "'lack' is a synonym of 'want'; both words have nearly the same meaning.",
-    "as": "'lack' (অভাব) হৈছে 'want' (অভাব) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Want' means to be without something you need — to want for nothing. 'Lack' is the closest synonym. 'Have' and 'possess' are the opposite, and 'plenty' means more than enough.",
+    "as": "'Want' মানে অভাৱ হোৱা — একোৰে অভাৱ নোহোৱা। 'Lack' ওচৰৰ সমাৰ্থক। 'Have' আৰু 'possess' ওলোটা, 'plenty' প্ৰচুৰ।"
    }
   },
   {
@@ -89048,22 +89048,22 @@ module.exports = {
      "as": "দুৰ্বল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "strong",
+     "as": "শক্তিশালী"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sturdy",
+     "as": "দৃঢ়"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "powerful",
+     "as": "প্ৰবল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'feeble' is a synonym of 'weak'; both words have nearly the same meaning.",
-    "as": "'feeble' (দুৰ্বল) হৈছে 'weak' (দুৰ্বল) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Weak' means lacking strength — a weak argument, a weak heart. 'Feeble' means very weak, the closest sense. 'Strong', 'sturdy' and 'powerful' are the opposite.",
+    "as": "'Weak' মানে দুৰ্বল — weak argument, weak heart। 'Feeble' অতি দুৰ্বল বুজায়। 'Strong', 'sturdy' আৰু 'powerful' ওলোটা।"
    }
   },
   {
@@ -89074,26 +89074,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "poverty",
+     "as": "দাৰিদ্ৰ্য"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hardship",
+     "as": "কষ্ট"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "scarcity",
+     "as": "অভাব"
     },
     {
      "en": "riches",
-     "as": "ধন-সম্পত্তি"
+     "as": "ঐশ্বৰ্য"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'riches' is a synonym of 'wealth'; both words have nearly the same meaning.",
-    "as": "'riches' (ধন-সম্পত্তি) হৈছে 'wealth' (ধন-সম্পত্তি) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wealth' means a large amount of money or property — great wealth. 'Riches' is the closest synonym. 'Poverty' and 'hardship' are the opposite, and 'scarcity' means there is too little.",
+    "as": "'Wealth' মানে সম্পদ — great wealth। 'Riches' ওচৰৰ সমাৰ্থক। 'Poverty' আৰু 'hardship' ওলোটা, 'scarcity' অভাৱ।"
    }
   },
   {
@@ -89195,25 +89195,25 @@ module.exports = {
    "options": [
     {
      "en": "evil",
-     "as": "দুৰ্জন"
+     "as": "দুষ্ট"
     },
     {
-     "en": "corrupt",
-     "as": "দুৰ্নীতিগ্ৰস্ত"
+     "en": "good",
+     "as": "ভাল"
     },
     {
-     "en": "blameless",
-     "as": "নিৰ্দোষী"
+     "en": "virtuous",
+     "as": "সদাচাৰী"
     },
     {
-     "en": "candid",
-     "as": "সৰল"
+     "en": "moral",
+     "as": "নৈতিক"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'evil' is a synonym of 'wicked'; both words have nearly the same meaning.",
-    "as": "'evil' (দুৰ্জন) হৈছে 'wicked' (দুৰ্জন) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wicked' means morally very bad — a wicked plan. 'Evil' is the closest synonym. 'Good', 'virtuous' and 'moral' are the opposite, describing a person who acts well.",
+    "as": "'Wicked' মানে দুৰ্নীতিমান — wicked plan। 'Evil' ওচৰৰ সমাৰ্থক। 'Good', 'virtuous' আৰু 'moral' ওলোটা, ভাল ব্যক্তি বুজায়।"
    }
   },
   {
@@ -89225,25 +89225,25 @@ module.exports = {
    "options": [
     {
      "en": "broad",
-     "as": "প্ৰশস্ত"
+     "as": "বহল"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "narrow",
+     "as": "ঠেক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "thin",
+     "as": "পাতল"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "cramped",
+     "as": "সংকীৰ্ণ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'broad' is a synonym of 'wide'; both words have nearly the same meaning.",
-    "as": "'broad' (প্ৰশস্ত) হৈছে 'wide' (প্ৰশস্ত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wide' means measuring a large distance across — a wide river. 'Broad' is the closest synonym. 'Narrow' and 'cramped' are the opposite, and 'thin' describes thickness rather than width.",
+    "as": "'Wide' মানে বহল — wide river। 'Broad' ওচৰৰ সমাৰ্থক। 'Narrow' আৰু 'cramped' ওলোটা, 'thin' পাতল।"
    }
   },
   {
@@ -89254,26 +89254,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "tame",
+     "as": "পোহনীয়া"
     },
     {
      "en": "untamed",
-     "as": "বনৰীয়া"
+     "as": "অপোহনীয়া"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "domestic",
+     "as": "ঘৰচীয়া"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "gentle",
+     "as": "কোমল"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'untamed' is a synonym of 'wild'; both words have nearly the same meaning.",
-    "as": "'untamed' (বনৰীয়া) হৈছে 'wild' (বনৰীয়া) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wild' means living or growing without human control — a wild animal. 'Untamed' is the closest synonym. 'Tame' and 'domestic' are the opposite, and 'gentle' describes a soft nature.",
+    "as": "'Wild' মানে বনৰীয়া — wild animal। 'Untamed' ওচৰৰ সমাৰ্থক। 'Tame' আৰু 'domestic' ওলোটা, 'gentle' কোমল।"
    }
   },
   {
@@ -89288,22 +89288,22 @@ module.exports = {
      "as": "সাজু"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "reluctant",
+     "as": "অনিচ্ছুক"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "unwilling",
+     "as": "অনিচ্ছুক"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "hesitant",
+     "as": "দ্বিধাগ্ৰস্ত"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'ready' is a synonym of 'willing'; both words have nearly the same meaning.",
-    "as": "'ready' (সাজু) হৈছে 'willing' (ইচ্ছুক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Willing' means happy to do something — a willing helper. 'Ready' means prepared and inclined, the closest sense. 'Reluctant', 'unwilling' and 'hesitant' are the opposite.",
+    "as": "'Willing' মানে ইচ্ছুক — willing helper। 'Ready' সাজু বুজায়। 'Reluctant', 'unwilling' আৰু 'hesitant' ওলোটা।"
    }
   },
   {
@@ -89314,26 +89314,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "lose",
+     "as": "হেৰুওৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "fail",
+     "as": "বিফল হোৱা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "surrender",
+     "as": "আত্মসমৰ্পণ কৰা"
     },
     {
      "en": "triumph",
-     "as": "বিজয়"
+     "as": "বিজয়ী হোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'triumph' is a synonym of 'win'; both words have nearly the same meaning.",
-    "as": "'triumph' (বিজয়) হৈছে 'win' (জয় কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Win' means to come first in a contest — to win a match. 'Triumph' means to win greatly, the closest sense. 'Lose' and 'fail' are the opposite, and 'surrender' means giving up.",
+    "as": "'Win' মানে জয়ী হোৱা — win a match। 'Triumph' মহাবিজয় বুজায়। 'Lose' আৰু 'fail' ওলোটা, 'surrender' হাৰ মানা।"
    }
   },
   {
@@ -89374,26 +89374,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "foolish",
+     "as": "মূৰ্খ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "reckless",
+     "as": "বেপৰোৱা"
     },
     {
      "en": "sagacious",
-     "as": "জ্ঞানী"
+     "as": "বিচক্ষণ"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "hasty",
+     "as": "খৰধৰ"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'sagacious' is a synonym of 'wise'; both words have nearly the same meaning.",
-    "as": "'sagacious' (জ্ঞানী) হৈছে 'wise' (জ্ঞানী) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wise' means showing good judgement from experience — a wise decision. 'Sagacious' means shrewd and far-sighted, the closest sense. 'Foolish' is the opposite, 'reckless' ignores danger, and 'hasty' means too quick.",
+    "as": "'Wise' মানে অভিজ্ঞতাৰে ভাল বিচাৰ — wise decision। 'Sagacious' দূৰদৰ্শী বুজায়। 'Foolish' ওলোটা, 'reckless' বেপৰোৱা, 'hasty' খৰধৰ।"
    }
   },
   {
@@ -89404,26 +89404,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "bloom",
+     "as": "প্ৰস্ফুটিত হোৱা"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "flourish",
+     "as": "উন্নতি লাভ কৰা"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "sprout",
+     "as": "অংকুৰিত হোৱা"
     },
     {
      "en": "shrivel",
-     "as": "শুকাই যোৱা"
+     "as": "শুকাই কোঁচা খোৱা"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "'shrivel' is a synonym of 'wither'; both words have nearly the same meaning.",
-    "as": "'shrivel' (শুকাই যোৱা) হৈছে 'wither' (শুকাই যোৱা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wither' means to dry up and droop — the flowers withered in the heat. 'Shrivel' means to shrink and wrinkle from drying, the closest sense. 'Bloom', 'flourish' and 'sprout' describe growth instead.",
+    "as": "'Wither' মানে শুকাই মৰহি যোৱা — ৰদত ফুলবোৰ মৰহি গ'ল। 'Shrivel' শুকাই কোঁচা খোৱা বুজায়। 'Bloom', 'flourish' আৰু 'sprout' বাঢ়ন বুজায়।"
    }
   },
   {
@@ -89464,26 +89464,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "dull",
+     "as": "নিষ্প্ৰভ"
     },
     {
      "en": "humorous",
      "as": "ৰসিক"
     },
     {
-     "en": "abundant",
-     "as": "প্ৰচুৰ"
+     "en": "serious",
+     "as": "গম্ভীৰ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "boring",
+     "as": "বিৰক্তিকৰ"
     }
    ],
    "correct": 1,
    "explanation": {
-    "en": "'humorous' is a synonym of 'witty'; both words have nearly the same meaning.",
-    "as": "'humorous' (ৰসিক) হৈছে 'witty' (ৰসিক) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Witty' means clever and amusing in speech — a witty remark. 'Humorous' means funny, the closest sense. 'Dull', 'serious' and 'boring' describe the opposite kind of remark.",
+    "as": "'Witty' মানে চতুৰ আৰু ৰসিক — witty remark। 'Humorous' ৰসিক বুজায়। 'Dull', 'serious' আৰু 'boring' ওলোটা প্ৰকাৰৰ কথা বুজায়।"
    }
   },
   {
@@ -89495,25 +89495,25 @@ module.exports = {
    "options": [
     {
      "en": "marvellous",
-     "as": "আচৰিত"
+     "as": "অপূৰ্ব"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "ordinary",
+     "as": "সাধাৰণ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "dreadful",
+     "as": "ভয়ানক"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "dull",
+     "as": "বিৰক্তিকৰ"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'marvellous' is a synonym of 'wonderful'; both words have nearly the same meaning.",
-    "as": "'marvellous' (আচৰিত) হৈছে 'wonderful' (আচৰিত) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Wonderful' means extremely good — a wonderful sight, a wonderful evening. 'Marvellous' is the closest synonym. 'Ordinary' and 'dull' describe something unremarkable, and 'dreadful' means very bad.",
+    "as": "'Wonderful' মানে অতি উত্তম — wonderful sight। 'Marvellous' ওচৰৰ সমাৰ্থক। 'Ordinary' আৰু 'dull' সাধাৰণ বুজায়, 'dreadful' অতি বেয়া।"
    }
   },
   {
@@ -89524,26 +89524,26 @@ module.exports = {
    },
    "options": [
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "relax",
+     "as": "আৰাম কৰা"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "ignore",
+     "as": "অৱহেলা কৰা"
     },
     {
      "en": "fret",
-     "as": "চিন্তা কৰা"
+     "as": "চিন্তিত হোৱা"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "celebrate",
+     "as": "উদযাপন কৰা"
     }
    ],
    "correct": 2,
    "explanation": {
-    "en": "'fret' is a synonym of 'worry'; both words have nearly the same meaning.",
-    "as": "'fret' (চিন্তা কৰা) হৈছে 'worry' (চিন্তা কৰা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Worry' means to keep thinking about a problem — she worried all night. 'Fret' means to be anxious about small things, the closest sense. 'Relax' and 'ignore' are the opposite, and 'celebrate' is unrelated.",
+    "as": "'Worry' মানে চিন্তা কৰি থকা — তাই ৰাতিটো চিন্তা কৰিলে। 'Fret' সৰু কথাত উদ্বিগ্ন হোৱা বুজায়। 'Relax' আৰু 'ignore' ওলোটা, 'celebrate' অসম্পৰ্কিত।"
    }
   },
   {
@@ -89555,25 +89555,25 @@ module.exports = {
    "options": [
     {
      "en": "youthful",
-     "as": "যুৱক"
+     "as": "যুৱকসুলভ"
     },
     {
-     "en": "abundance",
-     "as": "প্ৰাচুৰ্য"
+     "en": "old",
+     "as": "পুৰণি"
     },
     {
-     "en": "absurd",
-     "as": "অযৌক্তিক"
+     "en": "aged",
+     "as": "বৃদ্ধ"
     },
     {
-     "en": "abrupt",
-     "as": "আকস্মিক"
+     "en": "elderly",
+     "as": "বয়সীয়াল"
     }
    ],
    "correct": 0,
    "explanation": {
-    "en": "'youthful' is a synonym of 'young'; both words have nearly the same meaning.",
-    "as": "'youthful' (যুৱক) হৈছে 'young' (ডেকা) ৰ সমাৰ্থক শব্দ।"
+    "en": "'Young' means having lived only a short time — a young tree. 'Youthful' means having the qualities of youth, the closest sense. 'Old', 'aged' and 'elderly' are the opposite.",
+    "as": "'Young' মানে কম বয়সৰ — young tree। 'Youthful' যুৱকৰ গুণ বুজায়। 'Old', 'aged' আৰু 'elderly' ওলোটা।"
    }
   },
   {
