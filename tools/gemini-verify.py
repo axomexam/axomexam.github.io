@@ -17,7 +17,8 @@ a candidate fix; everything else is reported for a human to look at.
 """
 import argparse, json, os, re, sys, time, urllib.error, urllib.request
 
-MODEL = "gemini-2.5-flash"
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-flash-latest")
+GROUNDED = True
 ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/%s:generateContent"
 
 SCHEMA = {
@@ -30,7 +31,7 @@ SCHEMA = {
                 "properties": {
                     "n": {"type": "INTEGER"},
                     "verdict": {"type": "STRING", "enum": ["correct", "incorrect", "uncertain"]},
-                    "answer": {"type": "STRING", "enum": ["A", "B", "C", "D", ""]},
+                    "answer": {"type": "STRING", "enum": ["A", "B", "C", "D", "-"]},
                     "source": {"type": "STRING"},
                     "quote": {"type": "STRING"},
                     "confidence": {"type": "STRING", "enum": ["high", "medium", "low"]},
@@ -55,13 +56,15 @@ Rules:
 
 
 def call(key, prompt, grounded=True, retries=4):
-    body = {
-        "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0, "responseMimeType": "application/json",
-                             "responseSchema": SCHEMA},
-    }
+    body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+            "generationConfig": {"temperature": 0}}
     if grounded:
+        # Google rejects responseSchema together with the search tool, so the
+        # grounded call asks for JSON in the prompt and the schema is dropped.
         body["tools"] = [{"google_search": {}}]
+    else:
+        body["generationConfig"].update({"responseMimeType": "application/json",
+                                         "responseSchema": SCHEMA})
     req = urllib.request.Request(
         (ENDPOINT % MODEL) + "?key=" + key,
         data=json.dumps(body).encode(),
@@ -74,18 +77,25 @@ def call(key, prompt, grounded=True, retries=4):
                 return json.load(r)
         except urllib.error.HTTPError as e:
             detail = e.read().decode()[:300]
+            if e.code == 429 and grounded:
+                print("  ... 429 with search grounding (%s), retrying ungrounded"
+                      % detail.replace("\n", " ")[:120], file=sys.stderr)
+                return call(key, prompt, grounded=False, retries=2)
             if e.code in (429, 500, 503):
                 wait = 20 * (attempt + 1)
-                print("  ... %d, waiting %ds" % (e.code, wait), file=sys.stderr)
+                print("  ... %d (%s), waiting %ds" % (e.code, detail.replace("\n", " ")[:120], wait), file=sys.stderr)
                 time.sleep(wait)
                 continue
             if e.code == 400 and grounded:
                 print("  ... grounding rejected, retrying without it", file=sys.stderr)
                 return call(key, prompt, grounded=False, retries=1)
+            if e.code in (401, 403):
+                raise SystemExit("key rejected (%d): %s" % (e.code, detail))
             raise SystemExit("API error %d: %s" % (e.code, detail))
         except Exception as e:
             if attempt == retries - 1:
-                raise SystemExit("network error: %s" % e)
+                print("  ... network error: %s" % e, file=sys.stderr)
+                return None
             time.sleep(10)
     return None
 
@@ -93,7 +103,9 @@ def call(key, prompt, grounded=True, retries=4):
 def parse(resp):
     try:
         text = resp["candidates"][0]["content"]["parts"][0]["text"]
-        return json.loads(text)
+        text = re.sub(r"^\s*```(?:json)?|```\s*$", "", text.strip())
+        start = text.find("{")
+        return json.loads(text[start:]) if start >= 0 else {"results": []}
     except Exception:
         return {"results": []}
 
@@ -134,6 +146,9 @@ def main():
     a = ap.parse_args()
 
     key = os.environ.get("GEMINI_API_KEY", "").strip()
+    global GROUNDED
+    if os.environ.get("GEMINI_NO_GROUNDING"):
+        GROUNDED = False
     if not key:
         raise SystemExit("GEMINI_API_KEY is not set. Paste the key into the command, do not save it to a file.")
 
@@ -152,12 +167,19 @@ def main():
     todo = [q for q in items if q["id"] not in log]
 
     print("questions: %d | already logged: %d | to check: %d" % (len(items), len(items) - len(todo), len(todo)))
-    for start in range(0, len(todo), a.batch):
-        batch = todo[start:start + a.batch]
-        resp = call(key, prompt_for(batch))
-        if not resp:
-            break
-        got = parse(resp)
+
+    def handle(batch, depth=0):
+        """Check a batch; on failure split it in half so one timeout loses little."""
+        resp = call(key, prompt_for(batch), grounded=GROUNDED)
+        got = parse(resp) if resp else {"results": []}
+        if not got.get("results"):
+            if len(batch) > 4 and depth < 3:
+                mid = len(batch) // 2
+                handle(batch[:mid], depth + 1)
+                handle(batch[mid:], depth + 1)
+                return
+            print("  ... giving up on %d question(s): %s" % (len(batch), batch[0]["id"]), file=sys.stderr)
+            return
         urls = sources(resp)
         by_n = {r.get("n"): r for r in got.get("results", [])}
         for i, q in enumerate(batch, 1):
@@ -178,8 +200,12 @@ def main():
                      (r.get("source") or "")[:50]))
         if a.log:
             json.dump(log, open(a.log, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        print("  batch %d/%d saved" % (start // a.batch + 1, (len(todo) + a.batch - 1) // a.batch))
-        time.sleep(2)
+
+    chunks = [todo[i:i + a.batch] for i in range(0, len(todo), a.batch)]
+    for n, chunk in enumerate(chunks, 1):
+        handle(chunk)
+        print("  batch %d/%d done, logged %d" % (n, len(chunks), len(log)))
+        time.sleep(1)
 
     wrong = [k for k, v in log.items() if v["verdict"] == "incorrect" and v["source"]]
     print("\nwrong with source: %d | uncertain: %d | correct: %d"
