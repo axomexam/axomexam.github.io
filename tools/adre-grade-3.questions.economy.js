@@ -5347,8 +5347,8 @@ module.exports = {
   {
    "id": "indian-assam-economy-179",
    "q": {
-    "en": "Which is the largest tea auction centre in the world?",
-    "as": "বিশ্বৰ সৰ্ববৃহৎ চাহ নিলাম কেন্দ্ৰ কোনটো?"
+    "en": "Which city hosts the auction centre that has seen the largest volume of CTC tea auctioned in the world?",
+    "as": "কোন চহৰত অৱস্থিত নিলাম কেন্দ্ৰত বিশ্বৰ সৰ্বাধিক পৰিমাণৰ চিটিচি চাহ নিলাম হৈছে?"
    },
    "options": [
     {
@@ -5370,8 +5370,8 @@ module.exports = {
    ],
    "correct": 2,
    "explanation": {
-    "en": "The Guwahati Tea Auction Centre is among the largest in the world.",
-    "as": "গুৱাহাটী চাহ নিলাম কেন্দ্ৰ বিশ্বৰ সৰ্ববৃহৎবোৰৰ এটা।"
+    "en": "The Guwahati Tea Auction Centre, established in 1970, has seen the largest volume of CTC tea auctioned in the world.",
+    "as": "১৯৭০ চনত স্থাপিত গুৱাহাটী চাহ নিলাম কেন্দ্ৰত বিশ্বৰ সৰ্বাধিক পৰিমাণৰ চিটিচি চাহ নিলাম হৈছে।"
    }
   },
   {
@@ -9282,12 +9282,12 @@ module.exports = {
    },
    "options": [
     {
-     "en": "18 percent",
-     "as": "১৮ শতাংশ"
-    },
-    {
      "en": "28 percent",
      "as": "২৮ শতাংশ"
+    },
+    {
+     "en": "40 percent",
+     "as": "৪০ শতাংশ"
     },
     {
      "en": "12 percent",
@@ -9300,8 +9300,8 @@ module.exports = {
    ],
    "correct": 1,
    "explanation": {
-    "en": "The highest GST slab is 28 percent.",
-    "as": "সৰ্বোচ্চ জিএছটি স্তৰ ২৮ শতাংশ।"
+    "en": "Since the GST 2.0 reform of 22 September 2025 the main slabs are 5% and 18%, with a 40% rate on luxury and sin goods; the 28% slab was abolished.",
+    "as": "২২ ছেপ্তেম্বৰ ২০২৫ ৰ জিএছটি ২.০ সংস্কাৰৰ পিছত মূল হাৰ ৫% আৰু ১৮%, বিলাসী আৰু \"পাপ\" সামগ্ৰীত ৪০%; ২৮% শ্ৰেণী বিলুপ্ত কৰা হৈছে।"
    }
   },
   {
