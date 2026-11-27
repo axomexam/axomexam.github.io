@@ -43336,7 +43336,7 @@ module.exports = {
    "id": "indian-history-medieval-045",
    "q": {
     "en": "Which Sultan's reign saw both the repulse of the Mongols and the first lasting conquests in the Deccan?",
-    "as": "কোন চুলতানৰ ৰাজত্বকালত মংগোলসকলক বাধা দিয়া হৈছিল আৰু দাক্ষিণাত্যত প্ৰথম স্থায়ী বিজয় লাভ কৰা হৈছিল?"
+    "as": "কোন সুলতানৰ কালক দিল্লী সুলতানীৰ 'সোণালী যুগ' বুলি কোৱা হয়?"
    },
    "options": [
     {
@@ -43358,8 +43358,8 @@ module.exports = {
    ],
    "correct": 3,
    "explanation": {
-    "en": "Alauddin Khalji repelled repeated Mongol invasions and his generals, notably Malik Kafur, carried the Sultanate's arms deep into the Deccan.",
-    "as": "আলাউদ্দিন খিলজীয়ে বাৰে বাৰে মংগোল আক্ৰমণ প্ৰতিহত কৰিছিল আৰু তেওঁৰ সেনাপতি মালিক কাফুৰে দাক্ষিণাত্যলৈ সেনা লৈ গৈছিল।"
+    "en": "Alauddin Khilji's period is often called the Golden Age of the Delhi Sultanate.",
+    "as": "আলাউদ্দিন খিলজীৰ কালক প্ৰায়ে দিল্লী সুলতানীৰ সোণালী যুগ বুলি কোৱা হয়।"
    }
   },
   {
@@ -44296,7 +44296,7 @@ module.exports = {
    "id": "indian-history-medieval-077",
    "q": {
     "en": "Which Sultan's tomb stands at Anarkali in Lahore?",
-    "as": "কোন চুলতানৰ সমাধি লাহোৰৰ অনাৰকালীত অৱস্থিত?"
+    "as": "কোন সুলতানৰ মূল নাম চিহাবুদ্দিন আছিল?"
    },
    "options": [
     {
@@ -44318,8 +44318,8 @@ module.exports = {
    ],
    "correct": 0,
    "explanation": {
-    "en": "Qutb-ud-din Aibak died in 1210 at Lahore, where his tomb stands in the Anarkali area.",
-    "as": "কুতুবুদ্দিন আইবাকে ১২১০ চনত লাহোৰত মৃত্যুবৰণ কৰিছিল, তাতেই অনাৰকালীত তেওঁৰ সমাধি আছে।"
+    "en": "Qutb-ud-din Aibak's original name was Shihab-ud-din.",
+    "as": "কুতুবুদ্দিন আইবকৰ মূল নাম চিহাবুদ্দিন আছিল।"
    }
   },
   {
@@ -47655,8 +47655,8 @@ module.exports = {
   {
    "id": "indian-history-medieval-189",
    "q": {
-    "en": "Which literary development is associated with the Bhakti movement?",
-    "as": "ভক্তি আন্দোলনে পুৰোহিতসকলৰ ভূমিকাক কেনেদৰে দেখিছিল?"
+    "en": "How did the Bhakti movement conceive of god?",
+    "as": "ভক্তি আন্দোলনে ঈশ্বৰক কেনেদৰে কল্পনা কৰিছিল?"
    },
    "options": [
     {
@@ -47685,8 +47685,8 @@ module.exports = {
   {
    "id": "indian-history-medieval-190",
    "q": {
-    "en": "How did the Bhakti movement conceive of god?",
-    "as": "ভক্তি আন্দোলনে ঈশ্বৰক কেনেদৰে কল্পনা কৰিছিল?"
+    "en": "How did the Bhakti movement view the role of priests?",
+    "as": "ভক্তি আন্দোলনে পুৰোহিতসকলৰ ভূমিকাক কেনেদৰে দেখিছিল?"
    },
    "options": [
     {
@@ -47715,7 +47715,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-191",
    "q": {
-    "en": "How did the Bhakti movement view the role of priests?",
+    "en": "What did the Bhakti movement value more than ritual?",
     "as": "ভক্তি আন্দোলনে ৰীতি-নীতিতকৈ বেছি মূল্য কাহানিক দিছিল?"
    },
    "options": [
@@ -47745,7 +47745,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-192",
    "q": {
-    "en": "What did the Bhakti movement value more than ritual?",
+    "en": "What did the Bhakti movement teach about devotees of different backgrounds?",
     "as": "ভক্তি আন্দোলনে বিভিন্ন পৃষ্ঠভূমিৰ ভক্তসকলৰ বিষয়ে কি শিক্ষা দিছিল?"
    },
    "options": [
@@ -47775,7 +47775,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-193",
    "q": {
-    "en": "What did the Bhakti movement teach about devotees of different backgrounds?",
+    "en": "What kind of religious experience did the Bhakti movement stress?",
     "as": "ভক্তি আন্দোলনে কেনেধৰণৰ ধৰ্মীয় অভিজ্ঞতাৰ ওপৰত গুৰুত্ব দিছিল?"
    },
    "options": [
@@ -47805,7 +47805,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-194",
    "q": {
-    "en": "What kind of religious experience did the Bhakti movement stress?",
+    "en": "In which languages were Bhakti hymns composed?",
     "as": "ভক্তিৰ স্তৱকসমূহ কোনবোৰ ভাষাত ৰচনা কৰা হৈছিল?"
    },
    "options": [
@@ -47835,7 +47835,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-195",
    "q": {
-    "en": "In which languages were Bhakti hymns composed?",
+    "en": "Among which social groups did the Bhakti movement spread?",
     "as": "কোনবোৰ সামাজিক শ্ৰেণীত ভক্তি আন্দোলন বিয়পি পৰিছিল?"
    },
    "options": [
@@ -47865,7 +47865,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-196",
    "q": {
-    "en": "Among which social groups did the Bhakti movement spread?",
+    "en": "What role did music and dance play in the Bhakti movement?",
     "as": "ভক্তি আন্দোলনত সংগীত আৰু নৃত্যৰ ভূমিকা কি আছিল?"
    },
    "options": [
@@ -47895,7 +47895,7 @@ module.exports = {
   {
    "id": "indian-history-medieval-197",
    "q": {
-    "en": "What role did music and dance play in the Bhakti movement?",
+    "en": "Which literary development is associated with the Bhakti movement?",
     "as": "ভক্তি আন্দোলনৰ সৈতে কোনটো সাহিত্যিক বিকাশ জড়িত?"
    },
    "options": [
@@ -49606,7 +49606,7 @@ module.exports = {
    "id": "indian-history-medieval-254",
    "q": {
     "en": "Who was the Mughal emperor during the Battle of Plassey?",
-    "as": "পলাচীৰ যুদ্ধৰ সময়ত মোগল সম্ৰাট কোন আছিল?"
+    "as": "পলাশীৰ যুদ্ধৰ সময়ত মোগল সম্ৰাট কোন আছিল?"
    },
    "options": [
     {
@@ -49622,14 +49622,14 @@ module.exports = {
      "as": "আকবৰ দ্বিতীয়"
     },
     {
-     "en": "Shah Alam II",
-     "as": "শাহ আলম দ্বিতীয়"
+     "en": "Alamgir II",
+     "as": "আলমগীৰ দ্বিতীয়"
     }
    ],
    "correct": 3,
    "explanation": {
-    "en": "Shah Alam II was the Mughal emperor during the Battle of Plassey in 1757.",
-    "as": "শাহ আলম দ্বিতীয় ১৭৫৭ চনত পলাশীৰ যুদ্ধৰ সময়ত মোগল সম্ৰাট আছিল।"
+    "en": "The Battle of Plassey was fought on 23 June 1757 during the reign of Alamgir II (1754-1759); Shah Alam II became emperor in 1759.",
+    "as": "পলাশীৰ যুদ্ধ ২৩ জুন ১৭৫৭ তাৰিখে আলমগীৰ দ্বিতীয়ৰ (১৭৫৪-১৭৫৯) ৰাজত্বকালত হৈছিল; শাহ আলম দ্বিতীয় ১৭৫৯ চনতহে সম্ৰাট হয়।"
    }
   },
   {

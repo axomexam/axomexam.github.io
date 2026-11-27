@@ -1617,8 +1617,8 @@ module.exports = [
   "ৰাম আৰু কৃষ্ণ উপাসনা উত্তৰ ভাৰতত ভক্তি আন্দোলনৰ এটা বৈশিষ্ট্য আছিল।"
  ],
  [
-  "Which literary development is associated with the Bhakti movement?",
-  "ভক্তি আন্দোলনে পুৰোহিতসকলৰ ভূমিকাক কেনেদৰে দেখিছিল?",
+  "How did the Bhakti movement conceive of god?",
+  "ভক্তি আন্দোলনে ঈশ্বৰক কেনেদৰে কল্পনা কৰিছিল?",
   [
    "The belief in a personal god",
    "এক ব্যক্তিগত দেৱতাত বিশ্বাস",
@@ -1634,8 +1634,8 @@ module.exports = [
   "ভক্তি আন্দোলনে এক ব্যক্তিগত দেৱতাত বিশ্বাসৰ ওপৰত গুৰুত্ব দিছিল।"
  ],
  [
-  "How did the Bhakti movement conceive of god?",
-  "ভক্তি আন্দোলনে ঈশ্বৰক কেনেদৰে কল্পনা কৰিছিল?",
+  "How did the Bhakti movement view the role of priests?",
+  "ভক্তি আন্দোলনে পুৰোহিতসকলৰ ভূমিকাক কেনেদৰে দেখিছিল?",
   [
    "The rejection of the mediation of priests",
    "পুৰোহিতৰ মধ্যস্থতাৰ প্ৰত্যাখ্যান",
@@ -1651,7 +1651,7 @@ module.exports = [
   "ভক্তি আন্দোলনে পুৰোহিতৰ মধ্যস্থতা প্ৰত্যাখ্যান কৰিছিল।"
  ],
  [
-  "How did the Bhakti movement view the role of priests?",
+  "What did the Bhakti movement value more than ritual?",
   "ভক্তি আন্দোলনে ৰীতি-নীতিতকৈ বেছি মূল্য কাহানিক দিছিল?",
   [
    "The emphasis on devotion over ritual",
@@ -1668,7 +1668,7 @@ module.exports = [
   "ভক্তি আন্দোলনে আচাৰ-অনুষ্ঠানতকৈ ভক্তিৰ ওপৰত জোৰ দিছিল।"
  ],
  [
-  "What did the Bhakti movement value more than ritual?",
+  "What did the Bhakti movement teach about devotees of different backgrounds?",
   "ভক্তি আন্দোলনে বিভিন্ন পৃষ্ঠভূমিৰ ভক্তসকলৰ বিষয়ে কি শিক্ষা দিছিল?",
   [
    "The emphasis on equality of all devotees",
@@ -1685,7 +1685,7 @@ module.exports = [
   "ভক্তি আন্দোলনে সকলো ভক্তৰ সমতাৰ ওপৰত জোৰ দিছিল।"
  ],
  [
-  "What did the Bhakti movement teach about devotees of different backgrounds?",
+  "What kind of religious experience did the Bhakti movement stress?",
   "ভক্তি আন্দোলনে কেনেধৰণৰ ধৰ্মীয় অভিজ্ঞতাৰ ওপৰত গুৰুত্ব দিছিল?",
   [
    "The emphasis on personal experience of god",
@@ -1702,7 +1702,7 @@ module.exports = [
   "ভক্তি আন্দোলনে ঈশ্বৰৰ ব্যক্তিগত অভিজ্ঞতাৰ ওপৰত জোৰ দিছিল।"
  ],
  [
-  "What kind of religious experience did the Bhakti movement stress?",
+  "In which languages were Bhakti hymns composed?",
   "ভক্তিৰ স্তৱকসমূহ কোনবোৰ ভাষাত ৰচনা কৰা হৈছিল?",
   [
    "The composition of hymns in regional languages",
@@ -1719,7 +1719,7 @@ module.exports = [
   "ভক্তি আন্দোলনে আঞ্চলিক ভাষাত স্তৱ ৰচনা কৰিছিল।"
  ],
  [
-  "In which languages were Bhakti hymns composed?",
+  "Among which social groups did the Bhakti movement spread?",
   "কোনবোৰ সামাজিক শ্ৰেণীত ভক্তি আন্দোলন বিয়পি পৰিছিল?",
   [
    "The spread of devotion among all classes",
@@ -1736,7 +1736,7 @@ module.exports = [
   "ভক্তি আন্দোলনে সমাজৰ সকলো শ্ৰেণীৰ মাজত ভক্তি বিয়পাইছিল।"
  ],
  [
-  "Among which social groups did the Bhakti movement spread?",
+  "What role did music and dance play in the Bhakti movement?",
   "ভক্তি আন্দোলনত সংগীত আৰু নৃত্যৰ ভূমিকা কি আছিল?",
   [
    "The use of music and dance in worship",
@@ -1753,7 +1753,7 @@ module.exports = [
   "ভক্তি আন্দোলনে উপাসনাত সংগীত আৰু নৃত্য ব্যৱহাৰ কৰিছিল।"
  ],
  [
-  "What role did music and dance play in the Bhakti movement?",
+  "Which literary development is associated with the Bhakti movement?",
   "ভক্তি আন্দোলনৰ সৈতে কোনটো সাহিত্যিক বিকাশ জড়িত?",
   [
    "The growth of vernacular literature",
