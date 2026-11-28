@@ -164,6 +164,13 @@
     return _html2canvasPromise;
   }
 
+  /* The Android shell exposes a Kotlin/Java bridge on window; a normal
+     browser does not. Used to decide whether a blob download can be saved. */
+  function isInAxomexamApp() {
+    const bridge = window.AxomexamApp || window.AxoApp;
+    return !!(bridge && typeof bridge.platform === "function");
+  }
+
   function ensurePdfLibs() {
     if (window.jspdf && window.html2canvas) return Promise.resolve();
     if (!_pdfLibsPromise) {
@@ -4520,7 +4527,7 @@
          DownloadListener can only pass http(s) URLs to DownloadManager, so a
          blob: URL can never be saved there — the bridge is the only reliable
          path. */
-      const appBridge = window.AxoApp;
+      const appBridge = window.AxomexamApp || window.AxoApp;
       if (appBridge && typeof appBridge.savePdf === "function") {
         try {
           const dataUri = String(pdf.output("datauristring") || "");
